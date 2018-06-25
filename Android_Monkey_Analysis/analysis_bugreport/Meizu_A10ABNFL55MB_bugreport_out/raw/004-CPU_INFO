@@ -1,0 +1,39 @@
+
+
+
+User 28%, System 29%, IOW 12%, IRQ 0%
+User 169 + Nice 27 + Sys 204 + Idle 214 + IOW 85 + IRQ 0 + SIRQ 1 = 700
+
+  PID   TID PR CPU% S     VSS     RSS PCY UID      Thread          Proc
+13391 13405  3  16% R 1943224K 105620K  fg u0_a95   Signal Catcher  com.tencent.mobileqq
+  788   932  1   5% S 2405052K 126916K  bg system   android.bg      system_server
+ 2422  2462  4   4% S 1608192K  40800K  bg u0_a1    NativeThread    com.yunos.lifecard
+ 2422  2464  3   3% S 1608192K  40800K  bg u0_a1    .yunos.lifecard com.yunos.lifecard
+ 2471  2471  1   2% R  12712K   2272K  fg shell    top             top
+ 2422  2422  4   1% S 1608192K  40800K  bg u0_a1    .yunos.lifecard com.yunos.lifecard
+  174   174  0   1% S      0K      0K  fg root     mmcqd/0         
+   88    88  4   1% S      0K      0K  fg root     kswapd0         
+ 2422  2463  3   1% S 1608192K  40800K  bg u0_a1    .yunos.lifecard com.yunos.lifecard
+  376   376  5   1% S 1539956K  26288K  fg root     main            zygote
+ 2422  2460  0   0% S 1608192K  40800K  bg u0_a1    NativeThread    com.yunos.lifecard
+ 1065  2143  5   0% S 2242524K 115904K  fg u0_a30   RenderThread    com.android.systemui
+  788   938  2   0% S 2405052K 126916K  fg system   android.display system_server
+  301   301  1   0% S 127428K   4872K  fg system   surfaceflinger  /system/bin/surfaceflinger
+  788  1755  2   0% S 2405052K 126916K  fg system   Binder_B        system_server
+19423 19423  5   0% S 2173072K  38140K  bg u0_a79   u.flyme.weather com.meizu.flyme.weather
+  788  1789  1   0% S 2405052K 126916K  fg system   Binder_E        system_server
+  788  1806  4   0% S 2405052K 126916K  fg system   Binder_F        system_server
+  788  1807  0   0% S 2405052K 126916K  fg system   Binder_10       system_server
+  187   187  4   0% S      0K      0K  fg root     kworker/4:1     
+   12    12  1   0% S      0K      0K  fg root     ksoftirqd/1     
+  301   728  4   0% S 127428K   4872K  fg system   UICompThread_0  /system/bin/surfaceflinger
+  298   298  0   0% S  14024K    668K  fg root     lmkd            /system/bin/lmkd
+  299   299  4   0% S  10412K    624K  fg system   servicemanager  /system/bin/servicemanager
+ 2456  2456  4   0% S      0K      0K  fg root     kworker/u16:5   
+  788   788  2   0% S 2405052K 126916K  fg system   system_server   system_server
+  229   229  0   0% S      0K      0K  fg root     jbd2/mmcblk0p20 
+  788  1232  0   0% S 2405052K 126916K  fg system   Binder_4        system_server
+  788  1320  1   0% S 2405052K 126916K  fg system   Binder_5        system_server
+ 1696  3038  2   0% S 2216472K  44948K  fg radio    Binder_5        com.android.phone
+[top: 1.502s elapsed]
+

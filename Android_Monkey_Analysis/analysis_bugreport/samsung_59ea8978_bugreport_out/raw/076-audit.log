@@ -1,0 +1,247 @@
+Linux version 3.4.0-10359277 (dpi@SWHE9419) (gcc version 4.9.x-google 20140827 (prerelease) (GCC) ) #1 SMP PREEMPT Mon Jan 16 12:48:16 KST 2017
+
+type=2000 msg=audit(0.560:1): initialized
+type=1403 msg=audit(1402103396.280:11): policy loaded auid=4294967295 ses=4294967295
+type=1404 msg=audit(1402103396.280:12): config_always_enforce - true; enforcing=1 old_enforcing=1 auid=4294967295 ses=4294967295
+type=1305 msg=audit(1513759866.042:252): audit_enabled=1 old=1 auid=4294967295 ses=4294967295 subj=u:r:auditd:s0 res=1
+type=1307 msg=audit(1513768140.680:295):  cwd="/"
+type=1307 msg=audit(1513768140.800:296):  cwd="/"
+type=1400 msg=audit(1513768140.840:297): avc:  denied  { setattr } for  pid=26725 comm="chmod" name=".udid" dev="mmcblk0p26" ino=521296 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=file permissive=0 SEPF_SECMOBILE_6.0.1_0034
+type=1300 msg=audit(1513768140.840:297): arch=40000028 syscall=333 per=800008 success=no exit=-13 a0=ffffff9c a1=b6c19081 a2=81b6 a3=0 items=1 ppid=26524 ppcomm=AsyncTask #3 pid=26725 auid=4294967295 uid=10021 gid=10021 euid=10021 suid=10021 fsuid=10021 egid=10021 sgid=10021 fsgid=10021 tty=(none) ses=4294967295 comm="chmod" exe="/system/bin/toybox" subj=u:r:untrusted_app:s0:c512,c768 key=(null)
+type=1307 msg=audit(1513768140.840:297):  cwd="/"
+type=1302 msg=audit(1513768140.840:297): item=0 name="/data/local/tmp/.wdj_config/.udid" inode=521296 dev=b3:1a mode=0100666 ouid=2000 ogid=2000 rdev=00:00 obj=u:object_r:shell_data_file:s0
+type=1327 msg=audit(1513768140.840:297): proctitle=63686D6F6400363636002F646174612F6C6F63616C2F746D702F2E77646A5F636F6E6669672F2E75646964
+type=1320 msg=audit(1513768140.840:297): 
+type=1307 msg=audit(1513768142.510:298):  cwd="/"
+type=1307 msg=audit(1513768142.650:299):  cwd="/"
+type=1400 msg=audit(1513768143.160:300): avc:  denied  { setattr } for  pid=26897 comm="chmod" name=".udid" dev="mmcblk0p26" ino=521296 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=file permissive=0 SEPF_SECMOBILE_6.0.1_0034
+type=1300 msg=audit(1513768143.160:300): arch=40000028 syscall=333 per=800008 success=no exit=-13 a0=ffffff9c a1=b6b99081 a2=81b6 a3=0 items=1 ppid=26598 ppcomm=WaBackgroundHan pid=26897 auid=4294967295 uid=10021 gid=10021 euid=10021 suid=10021 fsuid=10021 egid=10021 sgid=10021 fsgid=10021 tty=(none) ses=4294967295 comm="chmod" exe="/system/bin/toybox" subj=u:r:untrusted_app:s0:c512,c768 key=(null)
+type=1307 msg=audit(1513768143.160:300):  cwd="/"
+type=1302 msg=audit(1513768143.160:300): item=0 name="/data/local/tmp/.wdj_config/.udid" inode=521296 dev=b3:1a mode=0100666 ouid=2000 ogid=2000 rdev=00:00 obj=u:object_r:shell_data_file:s0
+type=1327 msg=audit(1513768143.160:300): proctitle=63686D6F6400363636002F646174612F6C6F63616C2F746D702F2E77646A5F636F6E6669672F2E75646964
+type=1320 msg=audit(1513768143.160:300): 
+type=1400 msg=audit(1513768144.870:301): avc:  denied  { execmod } for  pid=27049 comm="pptools" path="/data/local/tmp/pp/pptools" dev="mmcblk0p26" ino=521413 scontext=u:r:shell:s0 tcontext=u:object_r:shell_data_file:s0 tclass=file permissive=0 SEPF_SECMOBILE_6.0.1_0034
+type=1300 msg=audit(1513768144.870:301): arch=40000028 syscall=125 per=800008 success=no exit=-13 a0=b6f56000 a1=2a000 a2=5 a3=4 items=0 ppid=25675 ppcomm=adbd pid=27049 auid=4294967295 uid=2000 gid=2000 euid=2000 suid=2000 fsuid=2000 egid=2000 sgid=2000 fsgid=2000 tty=pts1 ses=4294967295 comm="pptools" exe="/data/local/tmp/pp/pptools" subj=u:r:shell:s0 key=(null)
+type=1327 msg=audit(1513768144.870:301): proctitle=2F646174612F6C6F63616C2F746D702F70702F7070746F6F6C73003232323935
+type=1320 msg=audit(1513768144.870:301): 
+type=1400 msg=audit(1513768144.880:302): avc:  denied  { execmod } for  pid=27052 comm="pptools" path="/data/local/tmp/pp/pptools" dev="mmcblk0p26" ino=521413 scontext=u:r:shell:s0 tcontext=u:object_r:shell_data_file:s0 tclass=file permissive=0 SEPF_SECMOBILE_6.0.1_0034
+type=1300 msg=audit(1513768144.880:302): arch=40000028 syscall=125 per=800008 success=no exit=-13 a0=b6ef5000 a1=2a000 a2=5 a3=4 items=0 ppid=25675 ppcomm=adbd pid=27052 auid=4294967295 uid=2000 gid=2000 euid=2000 suid=2000 fsuid=2000 egid=2000 sgid=2000 fsgid=2000 tty=pts1 ses=4294967295 comm="pptools" exe="/data/local/tmp/pp/pptools" subj=u:r:shell:s0 key=(null)
+type=1327 msg=audit(1513768144.880:302): proctitle=2F646174612F6C6F63616C2F746D702F70702F7070746F6F6C73003232323935
+type=1320 msg=audit(1513768144.880:302): 
+type=1307 msg=audit(1513768145.510:303):  cwd="/"
+type=1400 msg=audit(1513768145.540:304): avc:  denied  { setattr } for  pid=27096 comm="chmod" name=".udid" dev="mmcblk0p26" ino=521296 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=file permissive=0 SEPF_SECMOBILE_6.0.1_0034
+type=1300 msg=audit(1513768145.540:304): arch=40000028 syscall=333 per=800008 success=no exit=-13 a0=ffffff9c a1=b6bd9081 a2=81b6 a3=0 items=1 ppid=26797 ppcomm=WaBackgroundHan pid=27096 auid=4294967295 uid=10021 gid=10021 euid=10021 suid=10021 fsuid=10021 egid=10021 sgid=10021 fsgid=10021 tty=(none) ses=4294967295 comm="chmod" exe="/system/bin/toybox" subj=u:r:untrusted_app:s0:c512,c768 key=(null)
+type=1307 msg=audit(1513768145.540:304):  cwd="/"
+type=1302 msg=audit(1513768145.540:304): item=0 name="/data/local/tmp/.wdj_config/.udid" inode=521296 dev=b3:1a mode=0100666 ouid=2000 ogid=2000 rdev=00:00 obj=u:object_r:shell_data_file:s0
+type=1327 msg=audit(1513768145.540:304): proctitle=63686D6F6400363636002F646174612F6C6F63616C2F746D702F2E77646A5F636F6E6669672F2E75646964
+type=1320 msg=audit(1513768145.540:304): 
+type=1307 msg=audit(1513768145.560:305):  cwd="/"
+type=1307 msg=audit(1513768145.970:306):  cwd="/"
+type=1307 msg=audit(1513768146.200:307):  cwd="/"
+type=1400 msg=audit(1513768146.240:308): avc:  denied  { setattr } for  pid=27132 comm="chmod" name=".udid" dev="mmcblk0p26" ino=521296 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=file permissive=0 SEPF_SECMOBILE_6.0.1_0034
+type=1300 msg=audit(1513768146.240:308): arch=40000028 syscall=333 per=800008 success=no exit=-13 a0=ffffff9c a1=b6bd9081 a2=81b6 a3=0 items=1 ppid=26881 ppcomm=WaBackgroundHan pid=27132 auid=4294967295 uid=10021 gid=10021 euid=10021 suid=10021 fsuid=10021 egid=10021 sgid=10021 fsgid=10021 tty=(none) ses=4294967295 comm="chmod" exe="/system/bin/toybox" subj=u:r:untrusted_app:s0:c512,c768 key=(null)
+type=1307 msg=audit(1513768146.240:308):  cwd="/"
+type=1302 msg=audit(1513768146.240:308): item=0 name="/data/local/tmp/.wdj_config/.udid" inode=521296 dev=b3:1a mode=0100666 ouid=2000 ogid=2000 rdev=00:00 obj=u:object_r:shell_data_file:s0
+type=1327 msg=audit(1513768146.240:308): proctitle=63686D6F6400363636002F646174612F6C6F63616C2F746D702F2E77646A5F636F6E6669672F2E75646964
+type=1320 msg=audit(1513768146.240:308): 
+type=1307 msg=audit(1513768147.860:309):  cwd="/"
+type=1307 msg=audit(1513768148.020:310):  cwd="/"
+type=1400 msg=audit(1513768148.170:311): avc:  denied  { setattr } for  pid=27296 comm="chmod" name=".udid" dev="mmcblk0p26" ino=521296 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=file permissive=0 SEPF_SECMOBILE_6.0.1_0034
+type=1300 msg=audit(1513768148.170:311): arch=40000028 syscall=333 per=800008 success=no exit=-13 a0=ffffff9c a1=b6c59081 a2=81b6 a3=0 items=1 ppid=27138 ppcomm=WaBackgroundHan pid=27296 auid=4294967295 uid=10021 gid=10021 euid=10021 suid=10021 fsuid=10021 egid=10021 sgid=10021 fsgid=10021 tty=(none) ses=4294967295 comm="chmod" exe="/system/bin/toybox" subj=u:r:untrusted_app:s0:c512,c768 key=(null)
+type=1307 msg=audit(1513768148.170:311):  cwd="/"
+type=1302 msg=audit(1513768148.170:311): item=0 name="/data/local/tmp/.wdj_config/.udid" inode=521296 dev=b3:1a mode=0100666 ouid=2000 ogid=2000 rdev=00:00 obj=u:object_r:shell_data_file:s0
+type=1327 msg=audit(1513768148.170:311): proctitle=63686D6F6400363636002F646174612F6C6F63616C2F746D702F2E77646A5F636F6E6669672F2E75646964
+type=1320 msg=audit(1513768148.170:311): 
+type=1307 msg=audit(1513768194.090:312):  cwd="/"
+type=1307 msg=audit(1513768194.150:313):  cwd="/"
+type=1400 msg=audit(1513768194.220:314): avc:  denied  { setattr } for  pid=27772 comm="chmod" name=".udid" dev="mmcblk0p26" ino=521296 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=file permissive=0 SEPF_SECMOBILE_6.0.1_0034
+type=1300 msg=audit(1513768194.220:314): arch=40000028 syscall=333 per=800008 success=no exit=-13 a0=ffffff9c a1=b6c59081 a2=81b6 a3=0 items=1 ppid=27732 ppcomm=WaBackgroundHan pid=27772 auid=4294967295 uid=10021 gid=10021 euid=10021 suid=10021 fsuid=10021 egid=10021 sgid=10021 fsgid=10021 tty=(none) ses=4294967295 comm="chmod" exe="/system/bin/toybox" subj=u:r:untrusted_app:s0:c512,c768 key=(null)
+type=1307 msg=audit(1513768194.220:314):  cwd="/"
+type=1302 msg=audit(1513768194.220:314): item=0 name="/data/local/tmp/.wdj_config/.udid" inode=521296 dev=b3:1a mode=0100666 ouid=2000 ogid=2000 rdev=00:00 obj=u:object_r:shell_data_file:s0
+type=1327 msg=audit(1513768194.220:314): proctitle=63686D6F6400363636002F646174612F6C6F63616C2F746D702F2E77646A5F636F6E6669672F2E75646964
+type=1320 msg=audit(1513768194.220:314): 
+type=1400 msg=audit(1513770229.110:321): avc:  denied  { execmod } for  pid=11060 comm="pptools" path="/data/local/tmp/pp/pptools" dev="mmcblk0p26" ino=521413 scontext=u:r:shell:s0 tcontext=u:object_r:shell_data_file:s0 tclass=file permissive=0 SEPF_SECMOBILE_6.0.1_0034
+type=1300 msg=audit(1513770229.110:321): arch=40000028 syscall=125 per=800008 success=no exit=-13 a0=b6f5a000 a1=2a000 a2=5 a3=4 items=0 ppid=25675 ppcomm=adbd pid=11060 auid=4294967295 uid=2000 gid=2000 euid=2000 suid=2000 fsuid=2000 egid=2000 sgid=2000 fsgid=2000 tty=pts0 ses=4294967295 comm="pptools" exe="/data/local/tmp/pp/pptools" subj=u:r:shell:s0 key=(null)
+type=1327 msg=audit(1513770229.110:321): proctitle=2F646174612F6C6F63616C2F746D702F70702F7070746F6F6C73003232323935
+type=1320 msg=audit(1513770229.110:321): 
+type=1400 msg=audit(1513770229.130:322): avc:  denied  { execmod } for  pid=11062 comm="pptools" path="/data/local/tmp/pp/pptools" dev="mmcblk0p26" ino=521413 scontext=u:r:shell:s0 tcontext=u:object_r:shell_data_file:s0 tclass=file permissive=0 SEPF_SECMOBILE_6.0.1_0034
+type=1300 msg=audit(1513770229.130:322): arch=40000028 syscall=125 per=800008 success=no exit=-13 a0=b6f4f000 a1=2a000 a2=5 a3=4 items=0 ppid=25675 ppcomm=adbd pid=11062 auid=4294967295 uid=2000 gid=2000 euid=2000 suid=2000 fsuid=2000 egid=2000 sgid=2000 fsgid=2000 tty=pts0 ses=4294967295 comm="pptools" exe="/data/local/tmp/pp/pptools" subj=u:r:shell:s0 key=(null)
+type=1327 msg=audit(1513770229.130:322): proctitle=2F646174612F6C6F63616C2F746D702F70702F7070746F6F6C73003232323935
+type=1320 msg=audit(1513770229.130:322): 
+type=1307 msg=audit(1513770466.160:323):  cwd="/"
+type=1307 msg=audit(1513770466.180:324):  cwd="/"
+type=1400 msg=audit(1513770466.200:325): avc:  denied  { setattr } for  pid=11830 comm="chmod" name=".udid" dev="mmcblk0p26" ino=521296 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=file permissive=0 SEPF_SECMOBILE_6.0.1_0034
+type=1300 msg=audit(1513770466.200:325): arch=40000028 syscall=333 per=800008 success=no exit=-13 a0=ffffff9c a1=b6c59081 a2=81b6 a3=0 items=1 ppid=11776 ppcomm=WaBackgroundHan pid=11830 auid=4294967295 uid=10021 gid=10021 euid=10021 suid=10021 fsuid=10021 egid=10021 sgid=10021 fsgid=10021 tty=(none) ses=4294967295 comm="chmod" exe="/system/bin/toybox" subj=u:r:untrusted_app:s0:c512,c768 key=(null)
+type=1307 msg=audit(1513770466.200:325):  cwd="/"
+type=1302 msg=audit(1513770466.200:325): item=0 name="/data/local/tmp/.wdj_config/.udid" inode=521296 dev=b3:1a mode=0100666 ouid=2000 ogid=2000 rdev=00:00 obj=u:object_r:shell_data_file:s0
+type=1327 msg=audit(1513770466.200:325): proctitle=63686D6F6400363636002F646174612F6C6F63616C2F746D702F2E77646A5F636F6E6669672F2E75646964
+type=1320 msg=audit(1513770466.200:325): 
+type=1307 msg=audit(1513770473.550:326):  cwd="/"
+type=1307 msg=audit(1513770473.560:327):  cwd="/"
+type=1400 msg=audit(1513770473.570:328): avc:  denied  { setattr } for  pid=12117 comm="chmod" name=".udid" dev="mmcblk0p26" ino=521296 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=file permissive=0 SEPF_SECMOBILE_6.0.1_0034
+type=1300 msg=audit(1513770473.570:328): arch=40000028 syscall=333 per=800008 success=no exit=-13 a0=ffffff9c a1=b6c19081 a2=81b6 a3=0 items=1 ppid=12024 ppcomm=WaBackgroundHan pid=12117 auid=4294967295 uid=10021 gid=10021 euid=10021 suid=10021 fsuid=10021 egid=10021 sgid=10021 fsgid=10021 tty=(none) ses=4294967295 comm="chmod" exe="/system/bin/toybox" subj=u:r:untrusted_app:s0:c512,c768 key=(null)
+type=1307 msg=audit(1513770473.570:328):  cwd="/"
+type=1302 msg=audit(1513770473.570:328): item=0 name="/data/local/tmp/.wdj_config/.udid" inode=521296 dev=b3:1a mode=0100666 ouid=2000 ogid=2000 rdev=00:00 obj=u:object_r:shell_data_file:s0
+type=1327 msg=audit(1513770473.570:328): proctitle=63686D6F6400363636002F646174612F6C6F63616C2F746D702F2E77646A5F636F6E6669672F2E75646964
+type=1320 msg=audit(1513770473.570:328): 
+type=1400 msg=audit(1513770532.700:329): avc:  denied  { execmod } for  pid=13075 comm="pptools" path="/data/local/tmp/pp/pptools" dev="mmcblk0p26" ino=521413 scontext=u:r:shell:s0 tcontext=u:object_r:shell_data_file:s0 tclass=file permissive=0 SEPF_SECMOBILE_6.0.1_0034
+type=1300 msg=audit(1513770532.700:329): arch=40000028 syscall=125 per=800008 success=no exit=-13 a0=b6f21000 a1=2a000 a2=5 a3=4 items=0 ppid=25675 ppcomm=adbd pid=13075 auid=4294967295 uid=2000 gid=2000 euid=2000 suid=2000 fsuid=2000 egid=2000 sgid=2000 fsgid=2000 tty=pts1 ses=4294967295 comm="pptools" exe="/data/local/tmp/pp/pptools" subj=u:r:shell:s0 key=(null)
+type=1327 msg=audit(1513770532.700:329): proctitle=2F646174612F6C6F63616C2F746D702F70702F7070746F6F6C73003232323935
+type=1320 msg=audit(1513770532.700:329): 
+type=1400 msg=audit(1513770532.710:330): avc:  denied  { execmod } for  pid=13077 comm="pptools" path="/data/local/tmp/pp/pptools" dev="mmcblk0p26" ino=521413 scontext=u:r:shell:s0 tcontext=u:object_r:shell_data_file:s0 tclass=file permissive=0 SEPF_SECMOBILE_6.0.1_0034
+type=1300 msg=audit(1513770532.710:330): arch=40000028 syscall=125 per=800008 success=no exit=-13 a0=b6fa5000 a1=2a000 a2=5 a3=4 items=0 ppid=25675 ppcomm=adbd pid=13077 auid=4294967295 uid=2000 gid=2000 euid=2000 suid=2000 fsuid=2000 egid=2000 sgid=2000 fsgid=2000 tty=pts1 ses=4294967295 comm="pptools" exe="/data/local/tmp/pp/pptools" subj=u:r:shell:s0 key=(null)
+type=1327 msg=audit(1513770532.710:330): proctitle=2F646174612F6C6F63616C2F746D702F70702F7070746F6F6C73003232323935
+type=1320 msg=audit(1513770532.710:330): 
+type=1307 msg=audit(1513770669.880:331):  cwd="/"
+type=1307 msg=audit(1513770669.930:332):  cwd="/"
+type=1400 msg=audit(1513770669.940:333): avc:  denied  { setattr } for  pid=13839 comm="chmod" name=".udid" dev="mmcblk0p26" ino=521296 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=file permissive=0 SEPF_SECMOBILE_6.0.1_0034
+type=1300 msg=audit(1513770669.940:333): arch=40000028 syscall=333 per=800008 success=no exit=-13 a0=ffffff9c a1=b6c59081 a2=81b6 a3=0 items=1 ppid=13786 ppcomm=WaBackgroundHan pid=13839 auid=4294967295 uid=10021 gid=10021 euid=10021 suid=10021 fsuid=10021 egid=10021 sgid=10021 fsgid=10021 tty=(none) ses=4294967295 comm="chmod" exe="/system/bin/toybox" subj=u:r:untrusted_app:s0:c512,c768 key=(null)
+type=1307 msg=audit(1513770669.940:333):  cwd="/"
+type=1302 msg=audit(1513770669.940:333): item=0 name="/data/local/tmp/.wdj_config/.udid" inode=521296 dev=b3:1a mode=0100666 ouid=2000 ogid=2000 rdev=00:00 obj=u:object_r:shell_data_file:s0
+type=1327 msg=audit(1513770669.940:333): proctitle=63686D6F6400363636002F646174612F6C6F63616C2F746D702F2E77646A5F636F6E6669672F2E75646964
+type=1320 msg=audit(1513770669.940:333): 
+type=1400 msg=audit(1513772555.580:334): avc:  denied  { execmod } for  pid=21708 comm="pptools" path="/data/local/tmp/pp/pptools" dev="mmcblk0p26" ino=521413 scontext=u:r:shell:s0 tcontext=u:object_r:shell_data_file:s0 tclass=file permissive=0 SEPF_SECMOBILE_6.0.1_0034
+type=1300 msg=audit(1513772555.580:334): arch=40000028 syscall=125 per=800008 success=no exit=-13 a0=b6f54000 a1=2a000 a2=5 a3=4 items=0 ppid=25675 ppcomm=adbd pid=21708 auid=4294967295 uid=2000 gid=2000 euid=2000 suid=2000 fsuid=2000 egid=2000 sgid=2000 fsgid=2000 tty=pts0 ses=4294967295 comm="pptools" exe="/data/local/tmp/pp/pptools" subj=u:r:shell:s0 key=(null)
+type=1327 msg=audit(1513772555.580:334): proctitle=2F646174612F6C6F63616C2F746D702F70702F7070746F6F6C73003232323935
+type=1320 msg=audit(1513772555.580:334): 
+type=1400 msg=audit(1513772555.590:335): avc:  denied  { execmod } for  pid=21710 comm="pptools" path="/data/local/tmp/pp/pptools" dev="mmcblk0p26" ino=521413 scontext=u:r:shell:s0 tcontext=u:object_r:shell_data_file:s0 tclass=file permissive=0 SEPF_SECMOBILE_6.0.1_0034
+type=1300 msg=audit(1513772555.590:335): arch=40000028 syscall=125 per=800008 success=no exit=-13 a0=b6fd4000 a1=2a000 a2=5 a3=4 items=0 ppid=25675 ppcomm=adbd pid=21710 auid=4294967295 uid=2000 gid=2000 euid=2000 suid=2000 fsuid=2000 egid=2000 sgid=2000 fsgid=2000 tty=pts0 ses=4294967295 comm="pptools" exe="/data/local/tmp/pp/pptools" subj=u:r:shell:s0 key=(null)
+type=1327 msg=audit(1513772555.590:335): proctitle=2F646174612F6C6F63616C2F746D702F70702F7070746F6F6C73003232323935
+type=1320 msg=audit(1513772555.590:335): 
+type=1307 msg=audit(1513772572.740:336):  cwd="/"
+type=1307 msg=audit(1513772572.770:337):  cwd="/"
+type=1400 msg=audit(1513772572.830:338): avc:  denied  { setattr } for  pid=21937 comm="chmod" name=".udid" dev="mmcblk0p26" ino=521296 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=file permissive=0 SEPF_SECMOBILE_6.0.1_0034
+type=1300 msg=audit(1513772572.830:338): arch=40000028 syscall=333 per=800008 success=no exit=-13 a0=ffffff9c a1=b6bd9081 a2=81b6 a3=0 items=1 ppid=21884 ppcomm=WaBackgroundHan pid=21937 auid=4294967295 uid=10021 gid=10021 euid=10021 suid=10021 fsuid=10021 egid=10021 sgid=10021 fsgid=10021 tty=(none) ses=4294967295 comm="chmod" exe="/system/bin/toybox" subj=u:r:untrusted_app:s0:c512,c768 key=(null)
+type=1307 msg=audit(1513772572.830:338):  cwd="/"
+type=1302 msg=audit(1513772572.830:338): item=0 name="/data/local/tmp/.wdj_config/.udid" inode=521296 dev=b3:1a mode=0100666 ouid=2000 ogid=2000 rdev=00:00 obj=u:object_r:shell_data_file:s0
+type=1327 msg=audit(1513772572.830:338): proctitle=63686D6F6400363636002F646174612F6C6F63616C2F746D702F2E77646A5F636F6E6669672F2E75646964
+type=1320 msg=audit(1513772572.830:338): 
+type=1400 msg=audit(1513772647.720:339): avc:  denied  { execmod } for  pid=22695 comm="pptools" path="/data/local/tmp/pp/pptools" dev="mmcblk0p26" ino=521413 scontext=u:r:shell:s0 tcontext=u:object_r:shell_data_file:s0 tclass=file permissive=0 SEPF_SECMOBILE_6.0.1_0034
+type=1300 msg=audit(1513772647.720:339): arch=40000028 syscall=125 per=800008 success=no exit=-13 a0=b6f4f000 a1=2a000 a2=5 a3=4 items=0 ppid=25675 ppcomm=adbd pid=22695 auid=4294967295 uid=2000 gid=2000 euid=2000 suid=2000 fsuid=2000 egid=2000 sgid=2000 fsgid=2000 tty=pts0 ses=4294967295 comm="pptools" exe="/data/local/tmp/pp/pptools" subj=u:r:shell:s0 key=(null)
+type=1327 msg=audit(1513772647.720:339): proctitle=2F646174612F6C6F63616C2F746D702F70702F7070746F6F6C73003232323935
+type=1320 msg=audit(1513772647.720:339): 
+type=1400 msg=audit(1513772647.740:340): avc:  denied  { execmod } for  pid=22697 comm="pptools" path="/data/local/tmp/pp/pptools" dev="mmcblk0p26" ino=521413 scontext=u:r:shell:s0 tcontext=u:object_r:shell_data_file:s0 tclass=file permissive=0 SEPF_SECMOBILE_6.0.1_0034
+type=1300 msg=audit(1513772647.740:340): arch=40000028 syscall=125 per=800008 success=no exit=-13 a0=b6eda000 a1=2a000 a2=5 a3=4 items=0 ppid=25675 ppcomm=adbd pid=22697 auid=4294967295 uid=2000 gid=2000 euid=2000 suid=2000 fsuid=2000 egid=2000 sgid=2000 fsgid=2000 tty=pts0 ses=4294967295 comm="pptools" exe="/data/local/tmp/pp/pptools" subj=u:r:shell:s0 key=(null)
+type=1327 msg=audit(1513772647.740:340): proctitle=2F646174612F6C6F63616C2F746D702F70702F7070746F6F6C73003232323935
+type=1320 msg=audit(1513772647.740:340): 
+type=1307 msg=audit(1513836424.923:344):  cwd="/"
+type=1307 msg=audit(1513836424.993:345):  cwd="/"
+type=1400 msg=audit(1513836425.033:346): avc:  denied  { setattr } for  pid=10584 comm="chmod" name=".udid" dev="mmcblk0p26" ino=521296 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=file permissive=0 SEPF_SECMOBILE_6.0.1_0034
+type=1300 msg=audit(1513836425.033:346): arch=40000028 syscall=333 per=800008 success=no exit=-13 a0=ffffff9c a1=b6c19081 a2=81b6 a3=0 items=1 ppid=10442 ppcomm=WaBackgroundHan pid=10584 auid=4294967295 uid=10021 gid=10021 euid=10021 suid=10021 fsuid=10021 egid=10021 sgid=10021 fsgid=10021 tty=(none) ses=4294967295 comm="chmod" exe="/system/bin/toybox" subj=u:r:untrusted_app:s0:c512,c768 key=(null)
+type=1307 msg=audit(1513836425.033:346):  cwd="/"
+type=1302 msg=audit(1513836425.033:346): item=0 name="/data/local/tmp/.wdj_config/.udid" inode=521296 dev=b3:1a mode=0100666 ouid=2000 ogid=2000 rdev=00:00 obj=u:object_r:shell_data_file:s0
+type=1327 msg=audit(1513836425.033:346): proctitle=63686D6F6400363636002F646174612F6C6F63616C2F746D702F2E77646A5F636F6E6669672F2E75646964
+type=1320 msg=audit(1513836425.033:346): 
+type=1307 msg=audit(1513836425.403:347):  cwd="/"
+type=1307 msg=audit(1513836425.453:348):  cwd="/"
+type=1400 msg=audit(1513836425.453:349): avc:  denied  { setattr } for  pid=10620 comm="chmod" name=".udid" dev="mmcblk0p26" ino=521296 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=file permissive=0 SEPF_SECMOBILE_6.0.1_0034
+type=1300 msg=audit(1513836425.453:349): arch=40000028 syscall=333 per=800008 success=no exit=-13 a0=ffffff9c a1=b6c19081 a2=81b6 a3=0 items=1 ppid=10477 ppcomm=AsyncTask #2 pid=10620 auid=4294967295 uid=10021 gid=10021 euid=10021 suid=10021 fsuid=10021 egid=10021 sgid=10021 fsgid=10021 tty=(none) ses=4294967295 comm="chmod" exe="/system/bin/toybox" subj=u:r:untrusted_app:s0:c512,c768 key=(null)
+type=1307 msg=audit(1513836425.453:349):  cwd="/"
+type=1302 msg=audit(1513836425.453:349): item=0 name="/data/local/tmp/.wdj_config/.udid" inode=521296 dev=b3:1a mode=0100666 ouid=2000 ogid=2000 rdev=00:00 obj=u:object_r:shell_data_file:s0
+type=1327 msg=audit(1513836425.453:349): proctitle=63686D6F6400363636002F646174612F6C6F63616C2F746D702F2E77646A5F636F6E6669672F2E75646964
+type=1320 msg=audit(1513836425.453:349): 
+type=1307 msg=audit(1513836429.183:350):  cwd="/"
+type=1307 msg=audit(1513836429.313:351):  cwd="/"
+type=1400 msg=audit(1513836429.423:352): avc:  denied  { setattr } for  pid=10781 comm="chmod" name=".udid" dev="mmcblk0p26" ino=521296 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=file permissive=0 SEPF_SECMOBILE_6.0.1_0034
+type=1300 msg=audit(1513836429.423:352): arch=40000028 syscall=333 per=800008 success=no exit=-13 a0=ffffff9c a1=b6c19081 a2=81b6 a3=0 items=1 ppid=10705 ppcomm=WaBackgroundHan pid=10781 auid=4294967295 uid=10021 gid=10021 euid=10021 suid=10021 fsuid=10021 egid=10021 sgid=10021 fsgid=10021 tty=(none) ses=4294967295 comm="chmod" exe="/system/bin/toybox" subj=u:r:untrusted_app:s0:c512,c768 key=(null)
+type=1307 msg=audit(1513836429.423:352):  cwd="/"
+type=1302 msg=audit(1513836429.423:352): item=0 name="/data/local/tmp/.wdj_config/.udid" inode=521296 dev=b3:1a mode=0100666 ouid=2000 ogid=2000 rdev=00:00 obj=u:object_r:shell_data_file:s0
+type=1327 msg=audit(1513836429.423:352): proctitle=63686D6F6400363636002F646174612F6C6F63616C2F746D702F2E77646A5F636F6E6669672F2E75646964
+type=1320 msg=audit(1513836429.423:352): 
+type=1307 msg=audit(1513836432.203:353):  cwd="/"
+type=1307 msg=audit(1513836432.303:354):  cwd="/"
+type=1400 msg=audit(1513836432.433:355): avc:  denied  { setattr } for  pid=11055 comm="chmod" name=".udid" dev="mmcblk0p26" ino=521296 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=file permissive=0 SEPF_SECMOBILE_6.0.1_0034
+type=1300 msg=audit(1513836432.433:355): arch=40000028 syscall=333 per=800008 success=no exit=-13 a0=ffffff9c a1=b6c19081 a2=81b6 a3=0 items=1 ppid=10886 ppcomm=WaBackgroundHan pid=11055 auid=4294967295 uid=10021 gid=10021 euid=10021 suid=10021 fsuid=10021 egid=10021 sgid=10021 fsgid=10021 tty=(none) ses=4294967295 comm="chmod" exe="/system/bin/toybox" subj=u:r:untrusted_app:s0:c512,c768 key=(null)
+type=1307 msg=audit(1513836432.433:355):  cwd="/"
+type=1302 msg=audit(1513836432.433:355): item=0 name="/data/local/tmp/.wdj_config/.udid" inode=521296 dev=b3:1a mode=0100666 ouid=2000 ogid=2000 rdev=00:00 obj=u:object_r:shell_data_file:s0
+type=1327 msg=audit(1513836432.433:355): proctitle=63686D6F6400363636002F646174612F6C6F63616C2F746D702F2E77646A5F636F6E6669672F2E75646964
+type=1320 msg=audit(1513836432.433:355): 
+type=1307 msg=audit(1513836438.453:356):  cwd="/"
+type=1307 msg=audit(1513836438.503:357):  cwd="/"
+type=1400 msg=audit(1513836438.523:358): avc:  denied  { setattr } for  pid=11228 comm="chmod" name=".udid" dev="mmcblk0p26" ino=521296 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=file permissive=0 SEPF_SECMOBILE_6.0.1_0034
+type=1300 msg=audit(1513836438.523:358): arch=40000028 syscall=333 per=800008 success=no exit=-13 a0=ffffff9c a1=b6bd9081 a2=81b6 a3=0 items=1 ppid=11185 ppcomm=WaBackgroundHan pid=11228 auid=4294967295 uid=10021 gid=10021 euid=10021 suid=10021 fsuid=10021 egid=10021 sgid=10021 fsgid=10021 tty=(none) ses=4294967295 comm="chmod" exe="/system/bin/toybox" subj=u:r:untrusted_app:s0:c512,c768 key=(null)
+type=1307 msg=audit(1513836438.523:358):  cwd="/"
+type=1302 msg=audit(1513836438.523:358): item=0 name="/data/local/tmp/.wdj_config/.udid" inode=521296 dev=b3:1a mode=0100666 ouid=2000 ogid=2000 rdev=00:00 obj=u:object_r:shell_data_file:s0
+type=1327 msg=audit(1513836438.523:358): proctitle=63686D6F6400363636002F646174612F6C6F63616C2F746D702F2E77646A5F636F6E6669672F2E75646964
+type=1320 msg=audit(1513836438.523:358): 
+type=1307 msg=audit(1513836626.143:359):  cwd="/"
+type=1307 msg=audit(1513836626.163:360):  cwd="/"
+type=1400 msg=audit(1513836626.183:361): avc:  denied  { setattr } for  pid=12968 comm="chmod" name=".udid" dev="mmcblk0p26" ino=521296 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=file permissive=0 SEPF_SECMOBILE_6.0.1_0034
+type=1300 msg=audit(1513836626.183:361): arch=40000028 syscall=333 per=800008 success=no exit=-13 a0=ffffff9c a1=b6c59081 a2=81b6 a3=0 items=1 ppid=12889 ppcomm=WaBackgroundHan pid=12968 auid=4294967295 uid=10021 gid=10021 euid=10021 suid=10021 fsuid=10021 egid=10021 sgid=10021 fsgid=10021 tty=(none) ses=4294967295 comm="chmod" exe="/system/bin/toybox" subj=u:r:untrusted_app:s0:c512,c768 key=(null)
+type=1307 msg=audit(1513836626.183:361):  cwd="/"
+type=1302 msg=audit(1513836626.183:361): item=0 name="/data/local/tmp/.wdj_config/.udid" inode=521296 dev=b3:1a mode=0100666 ouid=2000 ogid=2000 rdev=00:00 obj=u:object_r:shell_data_file:s0
+type=1327 msg=audit(1513836626.183:361): proctitle=63686D6F6400363636002F646174612F6C6F63616C2F746D702F2E77646A5F636F6E6669672F2E75646964
+type=1320 msg=audit(1513836626.183:361): 
+type=1400 msg=audit(1513836627.393:362): avc:  denied  { execmod } for  pid=13069 comm="pptools" path="/data/local/tmp/pp/pptools" dev="mmcblk0p26" ino=521413 scontext=u:r:shell:s0 tcontext=u:object_r:shell_data_file:s0 tclass=file permissive=0 SEPF_SECMOBILE_6.0.1_0034
+type=1300 msg=audit(1513836627.393:362): arch=40000028 syscall=125 per=800008 success=no exit=-13 a0=b6edb000 a1=2a000 a2=5 a3=4 items=0 ppid=12402 ppcomm=adbd pid=13069 auid=4294967295 uid=2000 gid=2000 euid=2000 suid=2000 fsuid=2000 egid=2000 sgid=2000 fsgid=2000 tty=pts1 ses=4294967295 comm="pptools" exe="/data/local/tmp/pp/pptools" subj=u:r:shell:s0 key=(null)
+type=1327 msg=audit(1513836627.393:362): proctitle=2F646174612F6C6F63616C2F746D702F70702F7070746F6F6C73003232323935
+type=1320 msg=audit(1513836627.393:362): 
+type=1400 msg=audit(1513836627.403:363): avc:  denied  { execmod } for  pid=13071 comm="pptools" path="/data/local/tmp/pp/pptools" dev="mmcblk0p26" ino=521413 scontext=u:r:shell:s0 tcontext=u:object_r:shell_data_file:s0 tclass=file permissive=0 SEPF_SECMOBILE_6.0.1_0034
+type=1300 msg=audit(1513836627.403:363): arch=40000028 syscall=125 per=800008 success=no exit=-13 a0=b6f71000 a1=2a000 a2=5 a3=4 items=0 ppid=12402 ppcomm=adbd pid=13071 auid=4294967295 uid=2000 gid=2000 euid=2000 suid=2000 fsuid=2000 egid=2000 sgid=2000 fsgid=2000 tty=pts1 ses=4294967295 comm="pptools" exe="/data/local/tmp/pp/pptools" subj=u:r:shell:s0 key=(null)
+type=1327 msg=audit(1513836627.403:363): proctitle=2F646174612F6C6F63616C2F746D702F70702F7070746F6F6C73003232323935
+type=1320 msg=audit(1513836627.403:363): 
+type=1307 msg=audit(1513836862.443:368):  cwd="/"
+type=1307 msg=audit(1513836862.463:369):  cwd="/"
+type=1400 msg=audit(1513836862.483:370): avc:  denied  { setattr } for  pid=17518 comm="chmod" name=".udid" dev="mmcblk0p26" ino=521296 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=file permissive=0 SEPF_SECMOBILE_6.0.1_0034
+type=1300 msg=audit(1513836862.483:370): arch=40000028 syscall=333 per=800008 success=no exit=-13 a0=ffffff9c a1=b6c59081 a2=81b6 a3=0 items=1 ppid=17444 ppcomm=WaBackgroundHan pid=17518 auid=4294967295 uid=10021 gid=10021 euid=10021 suid=10021 fsuid=10021 egid=10021 sgid=10021 fsgid=10021 tty=(none) ses=4294967295 comm="chmod" exe="/system/bin/toybox" subj=u:r:untrusted_app:s0:c512,c768 key=(null)
+type=1307 msg=audit(1513836862.483:370):  cwd="/"
+type=1302 msg=audit(1513836862.483:370): item=0 name="/data/local/tmp/.wdj_config/.udid" inode=521296 dev=b3:1a mode=0100666 ouid=2000 ogid=2000 rdev=00:00 obj=u:object_r:shell_data_file:s0
+type=1327 msg=audit(1513836862.483:370): proctitle=63686D6F6400363636002F646174612F6C6F63616C2F746D702F2E77646A5F636F6E6669672F2E75646964
+type=1320 msg=audit(1513836862.483:370): 
+type=1307 msg=audit(1513838515.853:378):  cwd="/"
+type=1307 msg=audit(1513838515.863:379):  cwd="/"
+type=1400 msg=audit(1513838515.883:380): avc:  denied  { setattr } for  pid=23786 comm="chmod" name=".udid" dev="mmcblk0p26" ino=521296 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=file permissive=0 SEPF_SECMOBILE_6.0.1_0034
+type=1300 msg=audit(1513838515.883:380): arch=40000028 syscall=333 per=800008 success=no exit=-13 a0=ffffff9c a1=b6c19081 a2=81b6 a3=0 items=1 ppid=23724 ppcomm=WaBackgroundHan pid=23786 auid=4294967295 uid=10021 gid=10021 euid=10021 suid=10021 fsuid=10021 egid=10021 sgid=10021 fsgid=10021 tty=(none) ses=4294967295 comm="chmod" exe="/system/bin/toybox" subj=u:r:untrusted_app:s0:c512,c768 key=(null)
+type=1307 msg=audit(1513838515.883:380):  cwd="/"
+type=1302 msg=audit(1513838515.883:380): item=0 name="/data/local/tmp/.wdj_config/.udid" inode=521296 dev=b3:1a mode=0100666 ouid=2000 ogid=2000 rdev=00:00 obj=u:object_r:shell_data_file:s0
+type=1327 msg=audit(1513838515.883:380): proctitle=63686D6F6400363636002F646174612F6C6F63616C2F746D702F2E77646A5F636F6E6669672F2E75646964
+type=1320 msg=audit(1513838515.883:380): 
+type=1307 msg=audit(1513944905.199:383):  cwd="/"
+type=1307 msg=audit(1513944905.249:384):  cwd="/"
+type=1400 msg=audit(1513944905.299:385): avc:  denied  { setattr } for  pid=16790 comm="chmod" name=".udid" dev="mmcblk0p26" ino=521296 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=file permissive=0 SEPF_SECMOBILE_6.0.1_0034
+type=1300 msg=audit(1513944905.299:385): arch=40000028 syscall=333 per=800008 success=no exit=-13 a0=ffffff9c a1=b6bd9081 a2=81b6 a3=0 items=1 ppid=16630 ppcomm=PPHttpLoadingTa pid=16790 auid=4294967295 uid=10021 gid=10021 euid=10021 suid=10021 fsuid=10021 egid=10021 sgid=10021 fsgid=10021 tty=(none) ses=4294967295 comm="chmod" exe="/system/bin/toybox" subj=u:r:untrusted_app:s0:c512,c768 key=(null)
+type=1307 msg=audit(1513944905.299:385):  cwd="/"
+type=1302 msg=audit(1513944905.299:385): item=0 name="/data/local/tmp/.wdj_config/.udid" inode=521296 dev=b3:1a mode=0100666 ouid=2000 ogid=2000 rdev=00:00 obj=u:object_r:shell_data_file:s0
+type=1327 msg=audit(1513944905.299:385): proctitle=63686D6F6400363636002F646174612F6C6F63616C2F746D702F2E77646A5F636F6E6669672F2E75646964
+type=1320 msg=audit(1513944905.299:385): 
+type=1307 msg=audit(1513944906.229:386):  cwd="/"
+type=1307 msg=audit(1513944906.299:387):  cwd="/"
+type=1400 msg=audit(1513944906.449:388): avc:  denied  { setattr } for  pid=16858 comm="chmod" name=".udid" dev="mmcblk0p26" ino=521296 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=file permissive=0 SEPF_SECMOBILE_6.0.1_0034
+type=1300 msg=audit(1513944906.449:388): arch=40000028 syscall=333 per=800008 success=no exit=-13 a0=ffffff9c a1=b6bd9081 a2=81b6 a3=0 items=1 ppid=16664 ppcomm=AsyncTask #5 pid=16858 auid=4294967295 uid=10021 gid=10021 euid=10021 suid=10021 fsuid=10021 egid=10021 sgid=10021 fsgid=10021 tty=(none) ses=4294967295 comm="chmod" exe="/system/bin/toybox" subj=u:r:untrusted_app:s0:c512,c768 key=(null)
+type=1307 msg=audit(1513944906.449:388):  cwd="/"
+type=1302 msg=audit(1513944906.449:388): item=0 name="/data/local/tmp/.wdj_config/.udid" inode=521296 dev=b3:1a mode=0100666 ouid=2000 ogid=2000 rdev=00:00 obj=u:object_r:shell_data_file:s0
+type=1327 msg=audit(1513944906.449:388): proctitle=63686D6F6400363636002F646174612F6C6F63616C2F746D702F2E77646A5F636F6E6669672F2E75646964
+type=1320 msg=audit(1513944906.449:388): 
+type=1307 msg=audit(1513944915.629:390):  cwd="/"
+type=1307 msg=audit(1513944915.609:389):  cwd="/"
+type=1307 msg=audit(1513944915.769:391):  cwd="/"
+type=1400 msg=audit(1513944916.179:392): avc:  denied  { setattr } for  pid=17286 comm="chmod" name=".udid" dev="mmcblk0p26" ino=521296 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=file permissive=0 SEPF_SECMOBILE_6.0.1_0034
+type=1300 msg=audit(1513944916.179:392): arch=40000028 syscall=333 per=800008 success=no exit=-13 a0=ffffff9c a1=b6bd9081 a2=81b6 a3=0 items=1 ppid=16928 ppcomm=WaBackgroundHan pid=17286 auid=4294967295 uid=10021 gid=10021 euid=10021 suid=10021 fsuid=10021 egid=10021 sgid=10021 fsgid=10021 tty=(none) ses=4294967295 comm="chmod" exe="/system/bin/toybox" subj=u:r:untrusted_app:s0:c512,c768 key=(null)
+type=1307 msg=audit(1513944916.179:392):  cwd="/"
+type=1302 msg=audit(1513944916.179:392): item=0 name="/data/local/tmp/.wdj_config/.udid" inode=521296 dev=b3:1a mode=0100666 ouid=2000 ogid=2000 rdev=00:00 obj=u:object_r:shell_data_file:s0
+type=1327 msg=audit(1513944916.179:392): proctitle=63686D6F6400363636002F646174612F6C6F63616C2F746D702F2E77646A5F636F6E6669672F2E75646964
+type=1320 msg=audit(1513944916.179:392): 
+type=1307 msg=audit(1513944916.519:393):  cwd="/"
+type=1400 msg=audit(1513944916.759:394): avc:  denied  { setattr } for  pid=17283 comm="chmod" name=".udid" dev="mmcblk0p26" ino=521296 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=file permissive=0 SEPF_SECMOBILE_6.0.1_0034
+type=1300 msg=audit(1513944916.759:394): arch=40000028 syscall=333 per=800008 success=no exit=-13 a0=ffffff9c a1=b6c59081 a2=81b6 a3=0 items=1 ppid=16918 ppcomm=WaBackgroundHan pid=17283 auid=4294967295 uid=10021 gid=10021 euid=10021 suid=10021 fsuid=10021 egid=10021 sgid=10021 fsgid=10021 tty=(none) ses=4294967295 comm="chmod" exe="/system/bin/toybox" subj=u:r:untrusted_app:s0:c512,c768 key=(null)
+type=1307 msg=audit(1513944916.759:394):  cwd="/"
+type=1302 msg=audit(1513944916.759:394): item=0 name="/data/local/tmp/.wdj_config/.udid" inode=521296 dev=b3:1a mode=0100666 ouid=2000 ogid=2000 rdev=00:00 obj=u:object_r:shell_data_file:s0
+type=1327 msg=audit(1513944916.759:394): proctitle=63686D6F6400363636002F646174612F6C6F63616C2F746D702F2E77646A5F636F6E6669672F2E75646964
+type=1320 msg=audit(1513944916.759:394): 
+type=1400 msg=audit(1513944919.409:395): avc:  denied  { execmod } for  pid=17585 comm="pptools" path="/data/local/tmp/pp/pptools" dev="mmcblk0p26" ino=521413 scontext=u:r:shell:s0 tcontext=u:object_r:shell_data_file:s0 tclass=file permissive=0 SEPF_SECMOBILE_6.0.1_0034
+type=1300 msg=audit(1513944919.409:395): arch=40000028 syscall=125 per=800008 success=no exit=-13 a0=b6fd2000 a1=2a000 a2=5 a3=4 items=0 ppid=16093 ppcomm=adbd pid=17585 auid=4294967295 uid=2000 gid=2000 euid=2000 suid=2000 fsuid=2000 egid=2000 sgid=2000 fsgid=2000 tty=pts1 ses=4294967295 comm="pptools" exe="/data/local/tmp/pp/pptools" subj=u:r:shell:s0 key=(null)
+type=1327 msg=audit(1513944919.409:395): proctitle=2F646174612F6C6F63616C2F746D702F70702F7070746F6F6C73003232323935
+type=1320 msg=audit(1513944919.409:395): 
+type=1400 msg=audit(1513944919.419:396): avc:  denied  { execmod } for  pid=17587 comm="pptools" path="/data/local/tmp/pp/pptools" dev="mmcblk0p26" ino=521413 scontext=u:r:shell:s0 tcontext=u:object_r:shell_data_file:s0 tclass=file permissive=0 SEPF_SECMOBILE_6.0.1_0034
+type=1300 msg=audit(1513944919.419:396): arch=40000028 syscall=125 per=800008 success=no exit=-13 a0=b6ef4000 a1=2a000 a2=5 a3=4 items=0 ppid=16093 ppcomm=adbd pid=17587 auid=4294967295 uid=2000 gid=2000 euid=2000 suid=2000 fsuid=2000 egid=2000 sgid=2000 fsgid=2000 tty=pts1 ses=4294967295 comm="pptools" exe="/data/local/tmp/pp/pptools" subj=u:r:shell:s0 key=(null)
+type=1327 msg=audit(1513944919.419:396): proctitle=2F646174612F6C6F63616C2F746D702F70702F7070746F6F6C73003232323935
+type=1320 msg=audit(1513944919.419:396): 
+type=1307 msg=audit(1513944919.959:397):  cwd="/"
+type=1307 msg=audit(1513944919.999:398):  cwd="/"
+type=1400 msg=audit(1513944920.059:399): avc:  denied  { setattr } for  pid=17596 comm="chmod" name=".udid" dev="mmcblk0p26" ino=521296 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=file permissive=0 SEPF_SECMOBILE_6.0.1_0034
+type=1300 msg=audit(1513944920.059:399): arch=40000028 syscall=333 per=800008 success=no exit=-13 a0=ffffff9c a1=b6c59081 a2=81b6 a3=0 items=1 ppid=17296 ppcomm=WaBackgroundHan pid=17596 auid=4294967295 uid=10021 gid=10021 euid=10021 suid=10021 fsuid=10021 egid=10021 sgid=10021 fsgid=10021 tty=(none) ses=4294967295 comm="chmod" exe="/system/bin/toybox" subj=u:r:untrusted_app:s0:c512,c768 key=(null)
+type=1307 msg=audit(1513944920.059:399):  cwd="/"
+type=1302 msg=audit(1513944920.059:399): item=0 name="/data/local/tmp/.wdj_config/.udid" inode=521296 dev=b3:1a mode=0100666 ouid=2000 ogid=2000 rdev=00:00 obj=u:object_r:shell_data_file:s0
+type=1327 msg=audit(1513944920.059:399): proctitle=63686D6F6400363636002F646174612F6C6F63616C2F746D702F2E77646A5F636F6E6669672F2E75646964
+type=1320 msg=audit(1513944920.059:399): 
+

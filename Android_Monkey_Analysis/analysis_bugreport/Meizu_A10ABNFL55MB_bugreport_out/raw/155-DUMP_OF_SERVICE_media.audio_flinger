@@ -1,0 +1,89 @@
+Clients:
+  pid: 788
+  pid: 1625
+Notification Clients:
+  pid: 327
+  pid: 788
+  pid: 1065
+  pid: 1488
+  pid: 1625
+  pid: 13391
+Global session refs:
+  session   pid count
+       43   788     1
+      141   788     1
+      151  1065     1
+      153   788     1
+      175  1488     1
+      176   788     1
+      177 13391     1
+Hardware status: 0
+Standby Time mSec: 3000
+
+Output thread 0xf3d53000:
+  Normal frame count: 1024
+  Last write occurred (msecs): 48856
+  Total writes: 11458
+  Delayed writes: 0
+  Blocked in write: no
+  Suspend count: 0
+  Sink buffer : 0xf3d94000
+  Mixer buffer: 0xf3d98000
+  Effect buffer: 0xf3cf3000
+  Fast track availMask=0xfe
+  I/O handle: 2
+  TID: 955
+  Standby: yes
+  Sample rate: 44100
+  HAL frame count: 1024
+  HAL buffer size: 8192 bytes
+  Channel Count: 2
+  Channel Mask: 0x00000003 (front-left, front-right)
+  Format: 0x3 (pcm32)
+  Frame size: 8
+  Pending config events: none
+  AudioMixer tracks: 0x0000001d
+  FastMixer not initialized
+  Stream volumes in dB: 0:-18, 1:-inf, 2:-inf, 3:-inf, 4:-18, 5:-inf, 6:0, 7:-inf, 8:-25, 9:-inf, 10:-12, 11:-2, 12:-26, 13:0, 14:0
+  Normal mixer raw underrun counters: partial=0 empty=0
+  4 Tracks of which 0 are active
+    Name Active Client Type      Fmt Chn mask Session fCount S F SRate  L dB  R dB    Server Main buf  Aux Buf Flags UndFrmCnt
+       4     no    788    1 00000001 00000003     153   4800 S 1 48000  -inf  -inf  000012C0 0xf3d94000 0x0 0x600         0 
+       2     no    788    1 00000001 00000003     141   4800 S 1 48000  -inf  -inf  000012C0 0xf3d94000 0x0 0x600         0 
+       3     no    788    1 00000001 00000003     176   4800 S 1 48000  -inf  -inf  000012C0 0xf3d94000 0x0 0x600         0 
+       0     no    788    1 00000001 00000003      43   3072 S 1 44100  -inf  -inf  00000C00 0xf3d94000 0x0 0x600         0 
+  1 Effect Chains
+    1 effects for session 0
+	In buffer   Out buffer   Active tracks:
+	0xf3cf3000  0xf3cf3000   0
+	Effect ID 13:
+		Session Status State Engine:
+		00000   000    000   0xf3e70110
+		Descriptor:
+		- UUID: AE12DA60-99AC-11DF-B456-0002A5D5C51B
+		- TYPE: A122ACC0-5943-11E0-ACD3-0002A5D5C51B
+		- apiVersion: 00020000
+		- flags: 00040248 (conn. mode: insert, insert pref: first, volume mgmt: implements control, device indication: requires updates, input mode: not set, output mode: not set, mode indication: required)
+		- name: MAM2_Coretex_A9 "1.0.174.0" Aug 10 2016 12:44:41
+		- implementor: Waves Audio ltd.
+		- Input configuration:
+			Frames  Smp rate Channels Format Buffer
+			01024   44100    00000003      1 (pcm16) 0xf3cf3000
+		- Output configuration:
+			Buffer     Frames  Smp rate Channels Format
+			0xf3cf3000 01024   44100    00000003 1 (pcm16)
+		1 Clients:
+			  Pid Priority Ctrl Locked client server
+			 1625        0  yes    yes      0      0
+
+Reroute submix audio module:
+ route[0] rate in=0 out=0, addr=[]
+ route[1] rate in=0 out=0, addr=[]
+ route[2] rate in=0 out=0, addr=[]
+ route[3] rate in=0 out=0, addr=[]
+ route[4] rate in=0 out=0, addr=[]
+ route[5] rate in=0 out=0, addr=[]
+ route[6] rate in=0 out=0, addr=[]
+ route[7] rate in=0 out=0, addr=[]
+ route[8] rate in=0 out=0, addr=[]
+ route[9] rate in=48000 out=48000, addr=[]

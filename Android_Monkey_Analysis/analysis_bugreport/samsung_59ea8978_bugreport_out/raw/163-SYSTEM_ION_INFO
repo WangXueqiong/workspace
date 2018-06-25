@@ -1,0 +1,85 @@
+          client              pid             size
+----------------------------------------------------
+     mediaserver              346          9601024
+     mediaserver              346           933888
+     mediaserver              346           933888
+     mediaserver              346           786432
+     mediaserver              346           786432
+     mediaserver              346           933888
+     mediaserver              346           933888
+     mediaserver              346           933888
+     mediaserver              346           786432
+     mediaserver              346           786432
+     mediaserver              346          2469888
+         mdp.0-0                1         20570112
+----------------------------------------------------
+orphaned allocations (info is from last known client):
+  surfaceflinger              317          2457600 0 1
+  surfaceflinger              317             4096 0 1
+  surfaceflinger              317             4096 0 1
+        mdss_fb0              565           614400 0 1
+        mdss_fb0              565           614400 0 1
+  surfaceflinger              317             4096 0 1
+        mdss_fb0              565           614400 0 1
+  surfaceflinger              317             4096 0 1
+   system_server              847          8294400 0 1
+  surfaceflinger              317             4096 0 1
+  surfaceflinger              317             4096 0 1
+  surfaceflinger              317             4096 0 1
+  surfaceflinger              317             4096 0 1
+  surfaceflinger              317          2457600 0 1
+  surfaceflinger              317             4096 0 1
+  surfaceflinger              317             4096 0 1
+ r:SurfaceWidget             2205          3112960 0 1
+        mdss_fb0              565           331776 0 1
+  surfaceflinger              317             4096 0 1
+  surfaceflinger              317          8847360 0 1
+  surfaceflinger              317          8847360 0 1
+  surfaceflinger              317             4096 0 1
+  surfaceflinger              317             4096 0 1
+  surfaceflinger              317             4096 0 1
+  surfaceflinger              317             4096 0 1
+  surfaceflinger              317             4096 0 1
+ emui:screenshot            31209          8847360 0 1
+  surfaceflinger              317             4096 0 1
+ r:SurfaceWidget             2205          3112960 0 1
+  surfaceflinger              317             4096 0 1
+  surfaceflinger              317             4096 0 1
+ r:SurfaceWidget             2205          3112960 0 1
+ r:SurfaceWidget             2205          3112960 0 1
+  surfaceflinger              317             4096 0 1
+  surfaceflinger              317          2457600 0 1
+  surfaceflinger              317             4096 0 1
+  surfaceflinger              317             4096 0 1
+  surfaceflinger              317             4096 0 1
+  surfaceflinger              317             4096 0 1
+  surfaceflinger              317             4096 0 1
+  surfaceflinger              317             4096 0 1
+  surfaceflinger              317             4096 0 1
+   system_server              847          8847360 0 1
+        mdss_fb0              565          8847360 0 1
+  surfaceflinger              317             4096 0 1
+  surfaceflinger              317             4096 0 1
+        mdss_fb0              565          8847360 0 1
+        mdss_fb0              565          8847360 0 1
+----------------------------------------------------
+  total orphaned         92344320
+          total         124985344
+----------------------------------------------------
+0 order 9 highmem pages in uncached pool = 0 total
+0 order 9 lowmem pages in uncached pool = 0 total
+0 order 8 highmem pages in uncached pool = 0 total
+0 order 8 lowmem pages in uncached pool = 0 total
+0 order 4 highmem pages in uncached pool = 0 total
+0 order 4 lowmem pages in uncached pool = 0 total
+0 order 0 highmem pages in uncached pool = 0 total
+0 order 0 lowmem pages in uncached pool = 0 total
+0 order 9 highmem pages in cached pool = 0 total
+0 order 9 lowmem pages in cached pool = 0 total
+0 order 8 highmem pages in cached pool = 0 total
+0 order 8 lowmem pages in cached pool = 0 total
+0 order 4 highmem pages in cached pool = 0 total
+0 order 4 lowmem pages in cached pool = 0 total
+9860 order 0 highmem pages in cached pool = 40386560 total
+11855 order 0 lowmem pages in cached pool = 48558080 total
+

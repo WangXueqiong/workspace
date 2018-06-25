@@ -1,0 +1,423 @@
+Current Notification Manager state:
+  Notification List:
+    NotificationRecord(0x073b1145: pkg=com.koushikdutta.vysor user=UserHandle{0} id=101 tag=null score=0 key=0|com.koushikdutta.vysor|101|null|10131: Notification(pri=0 contentView=null vibrate=null sound=null isShadow = false isOriginalStyle = false defaults=0x0 flags=0x2 color=0x00000000 vis=PRIVATE))
+      uid=10131 userId=0
+      smallIcon=Icon(typ=RESOURCE pkg=com.koushikdutta.vysor id=0x7f02006a) / com.koushikdutta.vysor:drawable/ic_stat_hardware_keyboard
+      notificationIcon=0x7f02006a / com.koushikdutta.vysor:drawable/ic_stat_hardware_keyboard
+      icon=0x7f02006a / com.koushikdutta.vysor:drawable/ic_stat_hardware_keyboard
+      pri=0 score=0
+      key=0|com.koushikdutta.vysor|101|null|10131
+      seen=false
+      groupKey=0|com.koushikdutta.vysor|101|null|10131
+      contentIntent=PendingIntent{3c7909a: PendingIntentRecord{f9566cd com.koushikdutta.vysor broadcastIntent key.isShadow:false}}
+      deleteIntent=null
+      tickerText=null
+      contentView=null
+      defaults=0x00000000 flags=0x00000002
+      sound=null
+      audioStreamType=-1
+      audioAttributes=AudioAttributes: usage=5 content=4 flags=0x0 tags=
+      color=0x00000000
+      vibrate=null
+      led=0x00000000 onMs=0 offMs=0
+      extras={
+        android.title=String
+        android.subText=null
+        android.showChronometer=Boolean (false)
+        android.icon=Icon (Icon(typ=RESOURCE pkg=com.koushikdutta.vysor id=0x7f02006a))
+        android.text=String
+        android.progress=Integer (0)
+        android.progressMax=Integer (0)
+        android.showWhen=Boolean (true)
+        android.rebuild.applicationInfo=ApplicationInfo (ApplicationInfo{b23adcb com.koushikdutta.vysor})
+        android.rebuild.contentView=Boolean (true)
+        android.infoText=null
+        android.originatingUserId=Integer (0)
+        android.progressIndeterminate=Boolean (false)
+        android.rebuild=Boolean (true)
+      }
+      stats=SingleNotificationStats{posttimeElapsedMs=2870435, posttimeToFirstClickMs=-1, posttimeToDismissMs=-1, airtimeCount=0, airtimeMs=0, currentAirtimeStartElapsedMs=-1, airtimeExpandedMs=0, posttimeToFirstVisibleExpansionMs=-1, currentAirtimeExpandedSEMs=-1}
+      mContactAffinity=0.0
+      mRecentlyIntrusive=false
+      mPackagePriority=0
+      mPackageVisibility=-1000
+      mIntercept=false
+      mGlobalSortKey=intrsv=1:grnk=0x0000:gsmry=1:nsk:rnk=0x0000
+      mRankingTimeMs=1514107328969
+      mCreationTimeMs=1514107328973
+      mVisibleSinceMs=0
+      mUpdateTimeMs=1514107328973
+    NotificationRecord(0x032709a8: pkg=android user=UserHandle{-1} id=17040350 tag=null score=0 key=-1|android|17040350|null|1000: Notification(pri=0 contentView=null vibrate=null sound=null tick isShadow = false isOriginalStyle = false defaults=0x0 flags=0x2 color=0xff607d8b vis=PUBLIC))
+      uid=1000 userId=-1
+      smallIcon=Icon(typ=RESOURCE pkg=android id=0x01080572) / android:drawable/le_notify_center_as_media_device_connect_icon
+      notificationIcon=0x10805c0 / android:drawable/le_notify_status_media_device_connect_icon
+      icon=0x0 / <name unknown>
+      pri=0 score=0
+      key=-1|android|17040350|null|1000
+      seen=true
+      groupKey=-1|android|17040350|null|1000
+      contentIntent=PendingIntent{c807cc1: PendingIntentRecord{684d507 android startActivity key.isShadow:false}}
+      deleteIntent=null
+      tickerText=æ­£å¨éè¿ USB åçµ
+      contentView=null
+      defaults=0x00000000 flags=0x00000002
+      sound=null
+      audioStreamType=-1
+      audioAttributes=AudioAttributes: usage=5 content=4 flags=0x0 tags=
+      color=0xff607d8b
+      vibrate=null
+      led=0x00000000 onMs=0 offMs=0
+      extras={
+        android.title=String
+        android.subText=null
+        ONGOING_EVENT_AUTO_DISMISS=Boolean (true)
+        android.showChronometer=Boolean (false)
+        android.icon=Icon (Icon(typ=RESOURCE pkg=android id=0x01080572))
+        android.text=String
+        android.progress=Integer (0)
+        android.progressMax=Integer (0)
+        android.showWhen=Boolean (true)
+        android.rebuild.applicationInfo=ApplicationInfo (ApplicationInfo{6fe1c66 android})
+        android.rebuild.contentView=Boolean (true)
+        android.infoText=null
+        android.originatingUserId=Integer (0)
+        android.progressIndeterminate=Boolean (false)
+        headsup=Integer (0)
+        android.rebuild=Boolean (true)
+      }
+      stats=SingleNotificationStats{posttimeElapsedMs=1723185, posttimeToFirstClickMs=-1, posttimeToDismissMs=-1, airtimeCount=14, airtimeMs=1364, currentAirtimeStartElapsedMs=-1, airtimeExpandedMs=0, posttimeToFirstVisibleExpansionMs=-1, currentAirtimeExpandedSEMs=-1}
+      mContactAffinity=0.0
+      mRecentlyIntrusive=false
+      mPackagePriority=0
+      mPackageVisibility=-1000
+      mIntercept=false
+      mGlobalSortKey=intrsv=1:grnk=0x0001:gsmry=1:nsk:rnk=0x0001
+      mRankingTimeMs=1514106181723
+      mCreationTimeMs=1514106181723
+      mVisibleSinceMs=1514107309194
+      mUpdateTimeMs=1514106181723
+  
+  mUseAttentionLight=false
+  mNotificationPulseEnabled=false
+  mSoundNotificationKey=null
+  mVibrateNotificationKey=null
+  mDisableNotificationEffects=false
+  mCallState=CALL_STATE_IDLE
+  mSystemReady=true
+  mArchive=Archive (46 notifications)
+    StatusBarNotification(pkg=com.koushikdutta.vysor user=UserHandle{0} id=101 tag=null score=0 key=0|com.koushikdutta.vysor|101|null|10131: Notification(pri=0 contentView=null vibrate=null sound=null isShadow = false isOriginalStyle = false defaults=0x0 flags=0x2 color=0x00000000 vis=PRIVATE))
+    StatusBarNotification(pkg=com.tencent.mm user=UserHandle{0} id=4097 tag=null score=10 key=0|com.tencent.mm|4097|null|10134: Notification(pri=1 contentView=null vibrate=[] sound=null tick isShadow = false isOriginalStyle = false defaults=0x0 flags=0x101 color=0x00000000 category=msg vis=PRIVATE))
+    StatusBarNotification(pkg=com.koushikdutta.vysor user=UserHandle{0} id=101 tag=null score=0 key=0|com.koushikdutta.vysor|101|null|10131: Notification(pri=0 contentView=null vibrate=null sound=null isShadow = false isOriginalStyle = false defaults=0x0 flags=0x2 color=0x00000000 vis=PRIVATE))
+    StatusBarNotification(pkg=com.koushikdutta.vysor user=UserHandle{0} id=101 tag=null score=0 key=0|com.koushikdutta.vysor|101|null|10131: Notification(pri=0 contentView=null vibrate=null sound=null isShadow = false isOriginalStyle = false defaults=0x0 flags=0x2 color=0x00000000 vis=PRIVATE))
+    StatusBarNotification(pkg=android user=UserHandle{-1} id=17040350 tag=null score=0 key=-1|android|17040350|null|1000: Notification(pri=0 contentView=null vibrate=null sound=null tick isShadow = false isOriginalStyle = false defaults=0x0 flags=0x2 color=0xff607d8b vis=PUBLIC))
+    ...
+
+  Usage Stats:
+    AggregatedStats{
+      key='__global',
+      numPostedByApp=48,
+      numUpdatedByApp=4,
+      numRemovedByApp=45,
+      numPeopleCacheHit=48,
+      numWithStaredPeople=0,
+      numWithValidPeople=0,
+      numPeopleCacheMiss=0,
+      numBlocked=0,
+    }
+    mStatsArrays.size(): 1
+    post_frequency{user_id=-1,pkg=android,day=0,count=14}
+    post_frequency{user_id=-1,pkg=android,day=2,count=2}
+    post_frequency{user_id=-1,pkg=android,day=4,count=3}
+    post_frequency{user_id=-1,pkg=android,day=5,count=3}
+    post_frequency{user_id=0,pkg=android,day=0,count=1}
+    post_frequency{user_id=0,pkg=com.android.calendar,day=0,count=6}
+    post_frequency{user_id=0,pkg=com.android.systemui,day=0,count=1}
+    post_frequency{user_id=0,pkg=com.eg.android.AlipayGphone,day=0,count=3}
+    post_frequency{user_id=0,pkg=com.icoolme.android.weather,day=0,count=1}
+    post_frequency{user_id=0,pkg=com.koushikdutta.vysor,day=0,count=72}
+    post_frequency{user_id=0,pkg=com.letv.android.themestore,day=0,count=1}
+    post_frequency{user_id=0,pkg=com.letv.app.appstore,day=0,count=4}
+    post_frequency{user_id=0,pkg=com.letv.walletbiz,day=0,count=1}
+    post_frequency{user_id=0,pkg=com.mediatek.ppl,day=0,count=5}
+    post_frequency{user_id=0,pkg=com.mediatek.selfregister,day=0,count=1}
+    post_frequency{user_id=0,pkg=com.sina.weibo,day=0,count=1}
+    post_frequency{user_id=0,pkg=com.tencent.mm,day=0,count=4}
+    post_frequency{user_id=0,pkg=android,day=2,count=1}
+    post_frequency{user_id=0,pkg=com.android.calendar,day=2,count=2}
+    post_frequency{user_id=0,pkg=com.android.launcher3,day=2,count=1}
+    post_frequency{user_id=0,pkg=com.eg.android.AlipayGphone,day=2,count=1}
+    post_frequency{user_id=0,pkg=com.icoolme.android.weather,day=2,count=1}
+    post_frequency{user_id=0,pkg=com.koushikdutta.vysor,day=2,count=44}
+    post_frequency{user_id=0,pkg=com.letv.android.wallpaperonline,day=2,count=1}
+    post_frequency{user_id=0,pkg=com.letv.app.appstore,day=2,count=3}
+    post_frequency{user_id=0,pkg=com.mediatek.ppl,day=2,count=5}
+    post_frequency{user_id=0,pkg=com.mediatek.selfregister,day=2,count=2}
+    post_frequency{user_id=0,pkg=com.tencent.mm,day=2,count=7}
+    post_frequency{user_id=0,pkg=com.android.calendar,day=3,count=1}
+    post_frequency{user_id=0,pkg=com.android.launcher3,day=3,count=1}
+    post_frequency{user_id=0,pkg=com.android.systemui,day=3,count=1}
+    post_frequency{user_id=0,pkg=com.eg.android.AlipayGphone,day=3,count=4}
+    post_frequency{user_id=0,pkg=com.koushikdutta.vysor,day=3,count=76}
+    post_frequency{user_id=0,pkg=com.letv.app.appstore,day=3,count=5}
+    post_frequency{user_id=0,pkg=com.tencent.mm,day=3,count=6}
+    post_frequency{user_id=0,pkg=com.koushikdutta.vysor,day=4,count=90}
+    post_frequency{user_id=0,pkg=com.letv.android.themestore,day=4,count=1}
+    post_frequency{user_id=0,pkg=com.letv.app.appstore,day=4,count=7}
+    post_frequency{user_id=0,pkg=com.tencent.mm,day=4,count=6}
+    post_frequency{user_id=0,pkg=com.icoolme.android.weather,day=5,count=1}
+    post_frequency{user_id=0,pkg=com.koushikdutta.vysor,day=5,count=17}
+    post_frequency{user_id=0,pkg=com.letv.android.wallpaperonline,day=5,count=1}
+    post_frequency{user_id=0,pkg=com.letv.app.appstore,day=5,count=2}
+    post_frequency{user_id=0,pkg=com.mediatek.deviceregister,day=5,count=1}
+    post_frequency{user_id=0,pkg=com.mediatek.ppl,day=5,count=5}
+    post_frequency{user_id=0,pkg=com.mediatek.selfregister,day=5,count=2}
+
+  Zen Mode:
+    mInterruptionFilter=1
+    mZenMode=ZEN_MODE_OFF
+    mDefaultConfig=allow(calls=true,callsFrom=1,repeatCallers=false,messages=false,messagesFrom=1,events=true,reminders=true)
+      manualRule=null
+      automaticRules=ZenRule[enabled=false,snoozing=false,name=å¨æ«,zenMode=ZEN_MODE_ALARMS,conditionId=condition://android/schedule?days=6.7&start=23.30&end=10.0,condition=null,component=null]
+                     ZenRule[enabled=false,snoozing=false,name=å¨ä¸è³å¨äºå¤é´,zenMode=ZEN_MODE_ALARMS,conditionId=condition://android/schedule?days=1.2.3.4.5&start=22.0&end=7.0,condition=null,component=null]
+                     ZenRule[enabled=false,snoozing=false,name=æ´»å¨,zenMode=ZEN_MODE_ALARMS,conditionId=condition://android/event?userId=-10000&calendar=&reply=1,condition=null,component=null]
+    mConfigs[u=0]=allow(calls=true,callsFrom=1,repeatCallers=false,messages=false,messagesFrom=1,events=true,reminders=true)
+      manualRule=null
+      automaticRules=ZenRule[enabled=false,snoozing=false,name=å¨æ«,zenMode=ZEN_MODE_ALARMS,conditionId=condition://android/schedule?days=6.7&start=23.30&end=10.0,condition=null,component=null]
+                     ZenRule[enabled=false,snoozing=false,name=å¨ä¸è³å¨äºå¤é´,zenMode=ZEN_MODE_ALARMS,conditionId=condition://android/schedule?days=1.2.3.4.5&start=22.0&end=7.0,condition=null,component=null]
+                     ZenRule[enabled=false,snoozing=false,name=æ´»å¨,zenMode=ZEN_MODE_ALARMS,conditionId=condition://android/event?userId=-10000&calendar=&reply=1,condition=null,component=null]
+    mUser=0
+    mConfig=allow(calls=true,callsFrom=1,repeatCallers=false,messages=false,messagesFrom=1,events=true,reminders=true)
+      manualRule=null
+      automaticRules=ZenRule[enabled=false,snoozing=false,name=å¨æ«,zenMode=ZEN_MODE_ALARMS,conditionId=condition://android/schedule?days=6.7&start=23.30&end=10.0,condition=null,component=null]
+                     ZenRule[enabled=false,snoozing=false,name=å¨ä¸è³å¨äºå¤é´,zenMode=ZEN_MODE_ALARMS,conditionId=condition://android/schedule?days=1.2.3.4.5&start=22.0&end=7.0,condition=null,component=null]
+                     ZenRule[enabled=false,snoozing=false,name=æ´»å¨,zenMode=ZEN_MODE_ALARMS,conditionId=condition://android/event?userId=-10000&calendar=&reply=1,condition=null,component=null]
+    mEffectsSuppressed=false
+    mDefaultPhoneApp=null
+    RepeatCallers.mThresholdMinutes=0
+    mSubscriptions={}
+
+  Zen Log:
+
+  Ranking Config:
+
+  Notification listeners:
+    All notification listeners (0) enabled for current profiles:
+    Live notification listeners (1):
+      ComponentInfo{com.android.systemui/com.android.systemui.statusbar.phone.PhoneStatusBar} (user -1): android.service.notification.INotificationListener$Stub$Proxy@3bd5ba7 SYSTEM
+    mListenerHints: 0
+    mListenersDisablingEffects: ()
+
+  Policy access:
+    mPolicyAccess: com.android.server.notification.NotificationManagerService$PolicyAccess@3b71854
+
+  Condition providers:
+    All condition providers (0) enabled for current profiles:
+    Live condition providers (3):
+      ComponentInfo{android/com.android.server.notification.CountdownConditionProvider} (user 0): android.service.notification.ConditionProviderService$Provider@35723fd SYSTEM
+      ComponentInfo{android/com.android.server.notification.ScheduleConditionProvider} (user 0): android.service.notification.ConditionProviderService$Provider@bbf98f2 SYSTEM
+      ComponentInfo{android/com.android.server.notification.EventConditionProvider} (user 0): android.service.notification.ConditionProviderService$Provider@e5a0b43 SYSTEM
+    mRecords(0):
+    mSystemConditionProviders: {schedule, event, countdown}
+    EventConditionProvider:
+      mConnected=true
+      mRegistered=false
+      mBootComplete=true
+      mNextAlarmTime=0
+      mSubscriptions=
+      mTrackers=
+        user=0
+          mCallback=null
+          mRegistered=false
+          u=0
+    CountdownConditionProvider:
+      mConnected=true
+      mTime=0
+    ScheduleConditionProvider:
+      mConnected=true
+      mRegistered=false
+      mSubscriptions=
+      mNextAlarmTime=0
+
+  Group summaries:
+
+  Banned Packages:
+    0: com.mediatek.mtklogger
+mBootCompleted:true
+print notificationSubscriptMap data start ~
+	 key:com.android.email_com.android.email.activity.Welcome_0 value:0
+	 key:com.android.dialer_com.android.dialer.DialtactsActivity_0 value:0
+	 key:com.android.mms_com.android.mms.ui.ConversationList_0 value:0
+	 key:com.android.calendar_com.android.calendar.AllInOneActivity_0 value:0
+	 key:com.letv.android.account_com.letv.android.account.activity.AccountIndexBeforeLoginActivity_0 value:0
+	 key:com.letv.android.wallpaperonline_com.letv.android.wallpaper.ui.home.activity.WallpapersActivity_0 value:7
+	 key:com.letv.android.wallpaperonline_com.letv.android.wallpaper.activity.HomeActivity_0 value:0
+	 key:com.letv.android.ota_com.letv.android.ota.LeSystemUpgrade_0 value:0
+	 key:com.letv.app.appstore_com.letv.app.appstore.MainActivity_0 value:13
+notificationSubscriptMap data end
+NotificationSubscriptXmlHelper.dump(),f:/data/system/users/0/notificationSubscript.xml
+	 key:com.android.email_com.android.email.activity.Welcome_0 value:0
+	 key:com.android.mms_com.android.mms.ui.ConversationList_0 value:0
+	 key:com.android.dialer_com.android.dialer.DialtactsActivity_0 value:0
+	 key:com.letv.android.account_com.letv.android.account.activity.AccountIndexBeforeLoginActivity_0 value:0
+	 key:com.android.calendar_com.android.calendar.AllInOneActivity_0 value:0
+	 key:com.letv.android.wallpaperonline_com.letv.android.wallpaper.ui.home.activity.WallpapersActivity_0 value:7
+	 key:com.letv.android.ota_com.letv.android.ota.LeSystemUpgrade_0 value:0
+	 key:com.letv.android.wallpaperonline_com.letv.android.wallpaper.activity.HomeActivity_0 value:0
+	 key:com.letv.app.appstore_com.letv.app.appstore.MainActivity_0 value:13
+
+print notificationSubscriptPkgMap data start ~
+	 pkg:com.letv.android.wallpaperonline userID:0
+	 pkg:com.letv.android.account userID:0
+	 pkg:com.android.calendar userID:0
+	 pkg:com.android.dialer userID:0
+	 pkg:com.android.email userID:0
+	 pkg:com.android.mms userID:0
+	 pkg:com.letv.android.ota userID:0
+	 pkg:com.letv.app.appstore userID:0
+notificationSubscriptPkgMap data end
+
+print notificationSubscriptLinkMap data start ~
+	 pkg:com.android.dialer to PKG:com.android.server.telecom
+	 pkg:com.android.server.telecom to PKG:com.android.dialer
+notificationSubscriptLinkMap data end
+
+print mNotificationByStatistical data start ~
+	 pkg:com.mediatek.ppl count:0
+	 pkg:com.mediatek.selfregister count:0
+	 pkg:com.icoolme.android.weather count:0
+	 pkg:com.tencent.mm count:0
+	 pkg:com.koushikdutta.vysor count:1
+	 pkg:android count:1
+mNotificationByStatistical data end
+
+notificationSubscriptSettingMap is empty.
+NotificationSubscriptXmlHelper.dump(),f:/data/system/users/0/notificationSubscriptSettings.xml
+	 not data !
+
+print notificationOnKeyguardEnableMap data start ~
+	 key:com.stv.android.videochat value:1
+	 key:com.tencent.androidqqmail value:1
+	 key:com.wumii.android.mimi value:1
+	 key:com.android.calendar value:1
+	 key:com.android.dialer value:1
+	 key:jp.naver.line.android value:1
+	 key:com.google.android.music value:1
+	 key:com.letv.android.ota value:1
+	 key:com.netease.mobimail value:1
+	 key:com.letv.android.powercontroller value:1
+	 key:com.sec.chaton value:1
+	 key:com.google.android.talk value:1
+	 key:com.android.settings value:1
+	 key:com.path value:1
+	 key:com.letv.android.wallpaperonline value:1
+	 key:com.facebook.katana value:1
+	 key:com.android.incallui value:1
+	 key:alibaba.android.babylon value:1
+	 key:com.pandora.android value:1
+	 key:com.letv.android.themestore value:1
+	 key:com.letv.android.bugreporter value:1
+	 key:com.snapchat.android value:1
+	 key:com.whatsapp value:1
+	 key:com.baidu.tieba value:1
+	 key:com.letv.android.letvlive value:1
+	 key:com.google.android.apps.youtube.music value:1
+	 key:com.eg.android.AlipayGphone value:1
+	 key:com.letv.ireader value:1
+	 key:com.tencent.mobileqq value:1
+	 key:com.tencent.WBlog value:1
+	 key:com.alibaba.mobileim value:1
+	 key:com.tencent.mm value:1
+	 key:com.android.telecom value:1
+	 key:com.welove520.welove value:1
+	 key:com.soundcloud.android value:1
+	 key:im.yixin value:1
+	 key:com.skype.rover value:1
+	 key:com.yx value:1
+	 key:cn.com.fetion value:1
+	 key:com.xiaomi.channel value:1
+	 key:com.android.telephony value:1
+	 key:com.android.server.telecom value:1
+	 key:com.spotify.music value:1
+	 key:com.android.email value:1
+	 key:com.vkontakte.android value:1
+	 key:com.immomo.momo value:1
+	 key:com.skype.raider value:1
+	 key:com.google.android.gm value:1
+	 key:com.changba value:1
+	 key:com.qzone value:1
+	 key:com.android.phone value:1
+	 key:com.facebook.orca value:1
+	 key:com.google.android.apps.plus value:1
+	 key:com.android.mms value:1
+	 key:com.zhihu.android value:1
+	 key:com.android.browser value:1
+	 key:com.twitter.android value:1
+	 key:com.renren.mobile.android value:1
+notificationOnKeyguardEnableMap data end
+NotificationSubscriptXmlHelper.dump(),f:/data/system/users/0/notificationOnKeyguardSettings.xml
+	 not data !
+
+print notificationHeadsUpEnableMap data start ~
+	 key:com.stv.android.videochat value:1
+	 key:com.tencent.androidqqmail value:1
+	 key:com.wumii.android.mimi value:1
+	 key:com.android.calendar value:1
+	 key:com.android.dialer value:1
+	 key:jp.naver.line.android value:1
+	 key:com.google.android.music value:1
+	 key:com.letv.android.ota value:1
+	 key:com.netease.mobimail value:1
+	 key:com.letv.android.powercontroller value:1
+	 key:com.sec.chaton value:1
+	 key:com.google.android.talk value:1
+	 key:com.android.settings value:1
+	 key:com.path value:1
+	 key:com.letv.android.wallpaperonline value:1
+	 key:com.facebook.katana value:1
+	 key:com.android.incallui value:1
+	 key:alibaba.android.babylon value:1
+	 key:com.pandora.android value:1
+	 key:com.letv.android.themestore value:1
+	 key:com.letv.android.bugreporter value:1
+	 key:com.snapchat.android value:1
+	 key:com.whatsapp value:1
+	 key:com.baidu.tieba value:1
+	 key:com.letv.android.letvlive value:1
+	 key:com.google.android.apps.youtube.music value:1
+	 key:com.eg.android.AlipayGphone value:1
+	 key:com.letv.ireader value:1
+	 key:com.tencent.mobileqq value:1
+	 key:com.tencent.WBlog value:1
+	 key:com.alibaba.mobileim value:1
+	 key:com.tencent.mm value:1
+	 key:com.android.telecom value:1
+	 key:com.welove520.welove value:1
+	 key:com.soundcloud.android value:1
+	 key:im.yixin value:1
+	 key:com.skype.rover value:1
+	 key:com.yx value:1
+	 key:cn.com.fetion value:1
+	 key:com.xiaomi.channel value:1
+	 key:com.android.telephony value:1
+	 key:com.android.server.telecom value:1
+	 key:com.spotify.music value:1
+	 key:com.android.email value:1
+	 key:com.vkontakte.android value:1
+	 key:com.immomo.momo value:1
+	 key:com.skype.raider value:1
+	 key:com.google.android.gm value:1
+	 key:com.changba value:1
+	 key:com.qzone value:1
+	 key:com.android.phone value:1
+	 key:com.facebook.orca value:1
+	 key:com.google.android.apps.plus value:1
+	 key:com.android.mms value:1
+	 key:com.zhihu.android value:1
+	 key:com.android.browser value:1
+	 key:com.twitter.android value:1
+	 key:com.renren.mobile.android value:1
+notificationHeadsUpEnableMap data end
+NotificationSubscriptXmlHelper.dump(),f:/data/system/users/0/notificationHeadsUpSettings.xml
+	 not data !
+systemPriorityMap is empty.
+

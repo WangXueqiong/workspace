@@ -1,0 +1,359 @@
+Library pre_processing
+  Acoustic Echo Canceler / Qualcomm Fluence
+    UUID: 0f8d0d2a-59e5-45fe-b6e4-248c8a799109
+    TYPE: 7b491460-8d4d-11e0-bd61-0002a5d5c51b
+    apiVersion: 00020000
+    flags: 00000203
+Library loudness_enhancer
+  Loudness Enhancer / The Android Open Source Project
+    UUID: fa415329-2034-4bea-b5dc-5b381c8d1e2c
+    TYPE: fe3199be-aed0-413f-87bb-11260eb63cf1
+    apiVersion: 00020000
+    flags: 00000008
+Library soundalive_sec
+  (no effects)
+Library soundalive
+  (no effects)
+Library mysound
+  (no effects)
+Library downmix
+  Multichannel Downmix To Stereo / The Android Open Source Project
+    UUID: 93f04452-e4fe-41cc-91f9-e475b6d1d69f
+    TYPE: 381e49cc-a858-4aa2-87f6-e8388e7601b2
+    apiVersion: 00020000
+    flags: 00000008
+Library visualizer_hw
+  (no effects)
+Library visualizer_sw
+  (no effects)
+Library reverb
+  Insert Preset Reverb / NXP Software Ltd.
+    UUID: 172cdf00-a3bc-11df-a72f-0002a5d5c51b
+    TYPE: 47382d60-ddd8-11db-bf3a-0002a5d5c51b
+    apiVersion: 00020000
+    flags: 00000048
+  Auxiliary Preset Reverb / NXP Software Ltd.
+    UUID: f29a1400-a3bb-11df-8ddc-0002a5d5c51b
+    TYPE: 47382d60-ddd8-11db-bf3a-0002a5d5c51b
+    apiVersion: 00020000
+    flags: 00000001
+  Insert Environmental Reverb / NXP Software Ltd.
+    UUID: c7a511a0-a3bb-11df-860e-0002a5d5c51b
+    TYPE: c2e5d5f0-94bd-4763-9cac-4e234d06839e
+    apiVersion: 00020000
+    flags: 00000048
+  Auxiliary Environmental Reverb / NXP Software Ltd.
+    UUID: 4a387fc0-8ab3-11df-8bad-0002a5d5c51b
+    TYPE: c2e5d5f0-94bd-4763-9cac-4e234d06839e
+    apiVersion: 00020000
+    flags: 00000001
+Library bundle
+  Volume / NXP Software Ltd.
+    UUID: 119341a0-8469-11df-81f9-0002a5d5c51b
+    TYPE: 09e8ede0-ddde-11db-b4f6-0002a5d5c51b
+    apiVersion: 00020000
+    flags: 00000050
+Library offload
+  (no effects)
+Library proxy
+  MySound / Samsung
+    UUID: 37155c20-50bb-11e3-9fac-0002a5d5c51b
+    TYPE: d2bc05e0-50b0-11e2-bcfd-0800200c9a66
+    apiVersion: 00020000
+    flags: 00400210
+  Visualizer / The Android Open Source Project
+    UUID: 1d0a1a53-7d5d-48f2-8e71-27fbd10d842c
+    TYPE: e46b26a0-dddd-11db-8afd-0002a5d5c51b
+    apiVersion: 00020000
+    flags: 00400008
+  SoundAlive_EQ / Samsung
+    UUID: 295b42c0-50bb-11e3-a6ed-0002a5d5c51b
+    TYPE: 0bed4300-ddd6-11db-8f34-0002a5d5c51b
+    apiVersion: 00020000
+    flags: 00400210
+  SoundAlive_Virtualizer / Samsung
+    UUID: 1db5b180-50bb-11e3-888e-0002a5d5c51b
+    TYPE: 37cc2c00-dddd-11db-8577-0002a5d5c51b
+    apiVersion: 00020000
+    flags: 00400210
+  SoundAlive_BassBoost / Samsung
+    UUID: 10e50dc0-50bb-11e3-a9b0-0002a5d5c51b
+    TYPE: 0634f220-ddd4-11db-a0fc-0002a5d5c51b
+    apiVersion: 00020000
+    flags: 00400210
+  SoundAlive / Samsung
+    UUID: 05227ea0-50bb-11e3-ac69-0002a5d5c51b
+    TYPE: c4da1d1f-7cdf-42e2-ba60-efc7eb3508a3
+    apiVersion: 00020000
+    flags: 00400208
+Clients:
+  pid: 346
+  pid: 847
+  pid: 1325
+  pid: 4420
+  pid: 20342
+  pid: 30386
+  pid: 31209
+Notification Clients:
+  pid: 346
+  pid: 847
+  pid: 1325
+  pid: 2090
+  pid: 4420
+  pid: 20342
+  pid: 30386
+  pid: 31209
+Global session refs:
+  session   pid count packagename
+      363  1325     1 com.android.systemui
+      363  1325     1 com.android.systemui
+      467   847     1 android
+      560 30386     3 com.sec.android.app.music
+      560 20342     1 com.sec.android.app.soundalive
+      607  1325     1 com.android.systemui
+      624 31209     1 com.android.systemui
+      634  4420     1 com.sec.android.inputmethod
+      635  4420     1 com.sec.android.inputmethod
+      639  4420     1 com.sec.android.inputmethod
+      640  4420     1 com.sec.android.inputmethod
+Hardware status: 0
+Standby Time mSec: 3000
+
+Output thread 0xafd00000 type 0 (MIXER):
+  Thread name: AudioOut_2
+  I/O handle: 2
+  TID: 825
+  Standby: yes
+  Sample rate: 48000 Hz
+  HAL frame count: 960
+  HAL format: 0x1 (pcm16)
+  HAL buffer size: 3840 bytes
+  Channel count: 2
+  Channel mask: 0x00000003 (front-left, front-right)
+  Format: 0x1 (pcm16)
+  Frame size: 4 bytes
+  Pending config events: none
+  Output device: 0x2 (SPEAKER)
+  Input device: 0 (NONE)
+  Audio source: 0 (default)
+  Normal frame count: 960
+  Last write occurred (msecs): 145099
+  Total writes: 4357
+  Delayed writes: 0
+  Blocked in write: no
+  Suspend count: 0
+  Sink buffer : 0xafcc2000
+  Mixer buffer: 0x0
+  Effect buffer: 0x0
+  Fast track availMask=fe
+  AudioStreamOut: 0xb20a4700 flags 0x2 (PRIMARY)
+  Thread throttle time (msecs): 2124
+  AudioMixer tracks: 0x00000007
+  FastMixer not initialized
+  Stream volumes in dB: 0:0, 1:-14, 2:-10, 3:-42, 4:-8, 5:-12, 6:0, 7:-2, 8:-15, 9:-inf, 10:-50, 11:0, 12:0, 13:-15, 14:-42, 15:0, 16:0
+  Normal mixer raw underrun counters: partial=0 empty=0
+  3 Tracks of which 0 are active
+    Name Active Client Type        Fmt   Chn mask Session fCount S F  SRate  L dB  R dB      Server   Main buf    Aux Buf   Flags UndFrmCnt
+       0     no   1325    2 0x00000001 0x00000003     607   6216 S 1  44100  -inf  -inf  0x00001848 0xafcc2000 0x00000000 0x00600         0 
+       2     no    847    2 0x00000001 0x00000003     467  10240 S 1  44100  -inf  -inf  0x00002800 0xafcc2000 0x00000000 0x00600         0 
+       1     no    346    5 0x00000001 0x00000003     363   8820 S 1  44100  -inf  -inf  0x00006035 0xafcc2000 0x00000000 0x00601       882 
+  0 Effect Chains
+
+Output thread 0xaf940000 type 0 (MIXER):
+  Thread name: AudioOut_4
+  I/O handle: 4
+  TID: 827
+  Standby: yes
+  Sample rate: 48000 Hz
+  HAL frame count: 240
+  HAL format: 0x1 (pcm16)
+  HAL buffer size: 960 bytes
+  Channel count: 2
+  Channel mask: 0x00000003 (front-left, front-right)
+  Format: 0x1 (pcm16)
+  Frame size: 4 bytes
+  Pending config events: none
+  Output device: 0x2 (SPEAKER)
+  Input device: 0 (NONE)
+  Audio source: 0 (default)
+  Normal frame count: 960
+  Last write occurred (msecs): 54321
+  Total writes: 18620
+  Delayed writes: 0
+  Blocked in write: no
+  Suspend count: 0
+  Sink buffer : 0xafcdf000
+  Mixer buffer: 0x0
+  Effect buffer: 0x0
+  Fast track availMask=c8
+  AudioStreamOut: 0xb20a4770 flags 0x4 (FAST)
+  Thread throttle time (msecs): 384
+  AudioMixer tracks: 0x0000003d
+  FastMixer command=COLD_IDLE writeSequence=149642 framesWritten=17957040
+            numTracks=1 writeErrors=0 underruns=3 overruns=6
+            sampleRate=48000 frameCount=240 measuredWarmup=10.6 ms, warmupCycles=5
+            mixPeriod=5.00 ms
+  Simple moving statistics over last 3.2 seconds:
+    wall clock time in ms per mix cycle:
+      mean=5.00 min=4.71 max=5.30 stddev=0.04
+    raw CPU load in us per mix cycle:
+      mean=136 min=0 max=330 stddev=30
+  Fast tracks: kMaxFastTracks=8 activeMask=0x1
+  Index Active Full Partial Empty  Recent Ready
+      0    yes  748       0     0    full  1200
+      1     no  288      82   768   empty     0
+      2     no  789      75   722   empty     0
+      3     no  128      72   669   empty     0
+      4     no  112       7    71   empty     0
+      5     no   16       1    10   empty     0
+      6     no    0       0     0    full     0
+      7     no    0       0     0    full     0
+  Stream volumes in dB: 0:0, 1:-14, 2:-10, 3:-42, 4:-8, 5:-12, 6:0, 7:-2, 8:-15, 9:-inf, 10:-50, 11:0, 12:0, 13:-15, 14:-42, 15:0, 16:0
+  Normal mixer raw underrun counters: partial=0 empty=0
+  5 Tracks of which 0 are active
+    Name Active Client Type        Fmt   Chn mask Session fCount S F  SRate  L dB  R dB      Server   Main buf    Aux Buf   Flags UndFrmCnt
+    F  2     no   4420    1 0x00000001 0x00000003     640   4079 S 1  48000  -inf  -inf  0x00000fef 0xafcdf000 0x00000000 0x00600         0 
+    F  4     no   4420    1 0x00000001 0x00000003     639   4079 S 1  48000  -inf  -inf  0x00000fef 0xafcdf000 0x00000000 0x00600         0 
+    F  1     no   4420    1 0x00000001 0x00000003     635   4079 S 1  48000  -inf  -inf  0x00000fef 0xafcdf000 0x00000000 0x00600         0 
+       0     no  31209    1 0x00000001 0x00000003     624  15440 S 1  44100  -inf  -inf  0x00003c50 0xafcdf000 0x00000000 0x00600         0 
+    F  5     no   4420    1 0x00000001 0x00000003     634   4079 S 1  48000  -inf  -inf  0x00000fef 0xafcdf000 0x00000000 0x00600         0 
+  0 Effect Chains
+
+Output thread 0xadabc000 type 4 (OFFLOAD):
+  Thread name: AudioOut_261
+  I/O handle: 609
+  TID: 569
+  Standby: no
+  Sample rate: 44100 Hz
+  HAL frame count: 32768
+  HAL format: 0x1000000 (mp3)
+  HAL buffer size: 32768 bytes
+  Channel count: 2
+  Channel mask: 0x00000003 (front-left, front-right)
+  Format: 0x1000000 (mp3)
+  Frame size: 1 bytes
+  Pending config events: none
+  Output device: 0x2 (SPEAKER)
+  Input device: 0 (NONE)
+  Audio source: 0 (default)
+  Normal frame count: 32768
+  Last write occurred (msecs): 292
+  Total writes: 149
+  Delayed writes: 0
+  Blocked in write: no
+  Suspend count: 0
+  Sink buffer : 0xa7c40000
+  Mixer buffer: 0x0
+  Effect buffer: 0x0
+  Fast track availMask=fe
+  AudioStreamOut: 0xb20a5c00 flags 0x800031 (DIRECT|COMPRESS_OFFLOAD|NON_BLOCKING|0x800000)
+  Stream volumes in dB: 0:0, 1:-14, 2:-10, 3:-42, 4:-8, 5:-12, 6:0, 7:-2, 8:-15, 9:-23, 10:-50, 11:0, 12:0, 13:-15, 14:-42, 15:0, 16:0
+  Normal mixer raw underrun counters: partial=0 empty=0
+  1 Tracks of which 1 are active
+    Name Active Client Type        Fmt   Chn mask Session fCount S F  SRate  L dB  R dB      Server   Main buf    Aux Buf   Flags UndFrmCnt
+    none    yes    346    3 0x01000000 0x00000003     560  32768 A 3  44100     0     0  0x00268000 0xada9b000 0x00000000 0x00000     32768 
+  1 Effect Chains
+    2 effects for session 560
+	In buffer   Out buffer   Active tracks:
+	0xada9b000  0xa7c40000   1
+	Effect ID 561:
+		Session Status State Engine:
+		00560   000    003   0xadb3e600
+		Descriptor:
+		- UUID: 05227EA0-50BB-11E3-AC69-0002A5D5C51B
+		- TYPE: C4DA1D1F-7CDF-42E2-BA60-EFC7EB3508A3
+		- apiVersion: 00020000
+		- flags: 00400208 (conn. mode: insert, insert pref: first, volume mgmt: none, device indication: requires updates, input mode: not set, output mode: not set, offloadable)
+		- name: SoundAlive
+		- implementor: Samsung
+		- Input configuration:
+			Buffer     Frames  Smp rate Chn mask   Format
+			0xada9b000 0032768    44100 0x00000003 0x1 (pcm16)
+		- Output configuration:
+			Buffer     Frames  Smp rate Chn mask   Format
+			0xada9b000 0032768    44100 0x00000003 0x1 (pcm16)
+		1 Clients:
+			  Pid Priority Ctrl Locked client server
+			20342        0  yes    yes      0      0
+	Effect ID 608:
+		Session Status State Engine:
+		00560   000    000   0xadb3e790
+		Descriptor:
+		- UUID: 37155C20-50BB-11E3-9FAC-0002A5D5C51B
+		- TYPE: D2BC05E0-50B0-11E2-BCFD-0800200C9A66
+		- apiVersion: 00020000
+		- flags: 00400210 (conn. mode: insert, insert pref: last, volume mgmt: none, device indication: requires updates, input mode: not set, output mode: not set, offloadable)
+		- name: MySound
+		- implementor: Samsung
+		- Input configuration:
+			Buffer     Frames  Smp rate Chn mask   Format
+			0xada9b000 0032768    44100 0x00000003 0x1 (pcm16)
+		- Output configuration:
+			Buffer     Frames  Smp rate Chn mask   Format
+			0xa7c40000 0032768    44100 0x00000003 0x1 (pcm16)
+		1 Clients:
+			  Pid Priority Ctrl Locked client server
+			30386        0  yes    yes      0      0
+AudioDevice HAL::dump
+	Mutex: locked
+	Bluetooth Samplerate: 8000
+	Audio Mode: 0
+	Audio Devices: 2
+	Bluetooth_nrec: True
+	Music Share latency: 111000
+	Screen off: False
+	acdb-settings: 18
+	speaker_lr_swap: False
+	current HDMI channels: 0
+	Voip wificalling: False
+	Voip webex: False
+	Voip non-pcm: False
+	offload enabled: True
+	is mono: 0
+	soundbalance: 0
+	isLoopback enabled: False
+	factory loopback mode: 0
+	factory test state: 0
+	tx_data_inversion: False
+	mWBNetwork: False
+	jack config: 0
+	current modem: 0
+	vsid: 0,0
+	call forwarding: False
+	ext_supported format: 16
+	ext_samplerate: 96000
+	voice wakeup dev state (1. ALWAYS_MIC_ON): 0
+	wake up mic: False
+	wake up baby cry: False
+Audio Stream Out::dump
+	Mutex: locked
+	Standby: True
+	PCM Device Id: 0
+	Devices: 2
+	Muted: False
+	Non Blocking: 0
+	Playback Started: 0
+	offload_state: 0
+	offload_thread blocked: False
+Audio Stream Out::dump
+	Mutex: locked
+	Standby: True
+	PCM Device Id: 15
+	Devices: 2
+	Muted: False
+	Non Blocking: 0
+	Playback Started: 0
+	offload_state: 0
+	offload_thread blocked: False
+
+Reroute submix audio module:
+ route[0] rate in=0 out=0, addr=[]
+ route[1] rate in=0 out=0, addr=[]
+ route[2] rate in=0 out=0, addr=[]
+ route[3] rate in=0 out=0, addr=[]
+ route[4] rate in=0 out=0, addr=[]
+ route[5] rate in=0 out=0, addr=[]
+ route[6] rate in=0 out=0, addr=[]
+ route[7] rate in=0 out=0, addr=[]
+ route[8] rate in=0 out=0, addr=[]
+ route[9] rate in=48000 out=48000, addr=[]

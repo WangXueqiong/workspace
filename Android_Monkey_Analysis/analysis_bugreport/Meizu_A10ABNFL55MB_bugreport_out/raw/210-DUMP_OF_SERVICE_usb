@@ -1,0 +1,25 @@
+USB Manager State:
+  USB Device State:
+    Current Functions: mtp,adb
+    Default Functions: mtp,adb
+    mConnected: true
+    mConfigured: true
+    mCurrentAccessory: null
+    Kernel state: CONFIGURED
+    Kernel function list: mtp,ffs
+    Mass storage backing file: 
+  USB Debugging State:
+    Connected to adbd: true
+    Last key received: 1E:05:5F:3E:58:AF:15:85:43:ED:42:21:F8:8E:44:F7
+    User keys:
+QAAAAA35VIs7gjqQ55a+QDSZiPYVAfXN7qBddMHD4RGCiEmPTswkvIqprNjIcg0FMgJUgOicb6SRq992VX/grS6Uhv2O6nkqcRUgrUzo6NTPgFKzAuNRg5j87EzJLL2dnX8MxMoaHRXoG4rRZbEoL+edBRfLaG3OMVm3NSSnsu73aG04UTdGkJrwaVjXTQS9p0xmQwfY/h6a9m3Ss0B6X9ESy+EFeR/ptjd+ZaZp3qUkX59LgAMzBPY3jHVc63q4Z8P063w9q+LVQNb0wzKnOl+uCs7oxKC7DXTKtO8Uergw5ElMDejjfCUfTct4Ec5awOuoGkkQvPrmBlDUzBpDqyPz7LAzlYuw7iy0X788UMN1dpC+0lqO7NFWuj4n3J52OCQXOlcFF8q4CK81tdSapWTUyrdAddTr40Db1NlVe5ETdWvbupx+ROIz7OwpP55Vz90XcyifphrnNZ/WhMof7jxZXUrfyr+Dl9Ps4yq5tnOFwB0TJteveTjwI9ZDGO9V20vjhOaYd6JTQMUD4dd/9nQBw46sMcomykrLyL/nRqW+Vjxdk3wy37YWo/Ha+mM+KpC10VUFSVtOoWttcIIWadpz34oFPc40xsOHKVqgCQ47/Qa9t7YyvpdZ2wDM8rxb9ZxOjzJXRWDqJIU8MYHNybj//NsiRb+Kqh4P+42PpLThaAA4iJAGNQEAAQA= unknown@unknown
+
+    System keys:
+IOException: java.io.FileNotFoundException: /adb_keys: open failed: ENOENT (No such file or directory)
+  USB Host State:
+  USB AudioDevices:
+  Settings for user 0:
+    Device permissions:
+    Accessory permissions:
+    Device preferences:
+    Accessory preferences:

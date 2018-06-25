@@ -1,0 +1,60 @@
+<html>
+<head>
+  <title>f00051.html</title>
+  <link rel="stylesheet" type="text/css" href="themes/blue/style.css"/>
+  <link rel="stylesheet" type="text/css" href="jquery.treeTable.css"/>
+  <link rel="stylesheet" type="text/css" href="jquery.ui.css"/>
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+  <script type="text/javascript" src="jquery.js"></script>
+  <script type="text/javascript" src="jquery.cookie.js"></script>
+  <script type="text/javascript" src="jquery.hotkeys.js"></script>
+  <script type="text/javascript" src="jquery.jstree.js"></script>
+  <script type="text/javascript" src="jquery.tablesorter.js"></script>
+  <script type="text/javascript" src="jquery.tablednd.js"></script>
+  <script type="text/javascript" src="jquery.treeTable.js"></script>
+  <script type="text/javascript" src="jquery.flot.js"></script>
+  <script type="text/javascript" src="jquery.flot.navigate.js"></script>
+  <script type="text/javascript" src="jquery.flot.selection.js"></script>
+  <script type="text/javascript" src="jquery.ui.js"></script>
+  <script type="text/javascript" src="colResizable-1.3.source.js"></script>
+  <script type="text/javascript" src="/self$wsjs"></script>
+  <script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+<a name="ch0"></a><div class="btn-pop-out"><a href="f00051.html#ch0" target="_blank"><img src="ic_pop_out.png"/></a></div><h2>Fatal: M E38A7000 00000000 00046000 F3601EE30B4C91C8EEC96CE3597A9A150 libmedia_jni.so</h2>
+<!--
+com.sonyericsson.chkbugreport.doc.InternalRef.<init>(InternalRef.java:33)
+com.sonyericsson.chkbugreport.doc.Bug.<init>(Bug.java:90)
+com.sonyericsson.chkbugreport.plugins.logs.LogPlugin.reportFatalLog(LogPlugin.java:417)
+com.sonyericsson.chkbugreport.plugins.logs.LogPlugin.analyze(LogPlugin.java:385)
+com.sonyericsson.chkbugreport.plugins.logs.SystemLogPlugin.analyze(SystemLogPlugin.java:113)
+com.sonyericsson.chkbugreport.plugins.logs.LogPlugin.load(LogPlugin.java:254)
+com.sonyericsson.chkbugreport.plugins.logs.SystemLogPlugin.load(SystemLogPlugin.java:64)
+com.sonyericsson.chkbugreport.Module.runPlugins(Module.java:662)
+com.sonyericsson.chkbugreport.Module.generate(Module.java:567)
+com.sonyericsson.chkbugreport.Main.run(Main.java:232)
+com.sonyericsson.chkbugreport.Main.main(Main.java:358)
+-->
+<div><a href="f00344.html#l34092020933">(link to log)</a></div><p>Log around the fatal log line (+/-10 lines):</p><div class="log">...<div class="log-line log-fatal" id="l2234254683602946">12-22 14:00:20.929 <a href="f00450.html#ch0">32626</a> 32307 F google-breakpad: C 06000040000000000100000002000000D50D7BE7803F935E8C0156D270B2D1AC880156D2B75A12E900000000883F935EA14168D1D8E506F7800156D251CB2DE852CB2DE830000E200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</div>
+<div class="log-line log-fatal" id="l2234254683668480">12-22 14:00:20.930 <a href="f00450.html#ch0">32626</a> 32307 F google-breakpad: M AB21B000 00000000 00005000 591DDE7BC2CFF94164B8069CF0B1DD280 app_process32</div>
+<div class="log-line log-fatal" id="l2234254683668481">12-22 14:00:20.930 <a href="f00450.html#ch0">32626</a> 32307 F google-breakpad: M 72B3C000 020C7000 01893000 000000000000000000000000000000000 boot.oat</div>
+<div class="log-line log-fatal" id="l2234254683734016">12-22 14:00:20.931 <a href="f00450.html#ch0">32626</a> 32307 F google-breakpad: M D77D8000 00000000 00018000 67A19FB7674B66EB88F61CF2CA3F5C580 libgifimage.so</div>
+<div class="log-line log-fatal" id="l2234254683734017">12-22 14:00:20.931 <a href="f00450.html#ch0">32626</a> 32307 F google-breakpad: M DC3E6000 00000000 0004A000 9D3CBC840522E760180C8AC5BDD7B2DE0 libimagepipeline.so</div>
+<div class="log-line log-fatal" id="l2234254683865088">12-22 14:00:20.933 <a href="f00450.html#ch0">32626</a> 32307 F google-breakpad: M DF26C000 00000000 00115000 F0167E0DBD7A63ABF816CDC296F097500 libmsc.so</div>
+<div class="log-line log-fatal" id="l2234254683865089">12-22 14:00:20.933 <a href="f00450.html#ch0">32626</a> 32307 F google-breakpad: M DFBEA000 00250000 001D0000 000000000000000000000000000000000 system@app@BY_3RD_Webview@BY_3RD_Webview.apk@classes.dex</div>
+<div class="log-line log-fatal" id="l2234254683865090">12-22 14:00:20.933 <a href="f00450.html#ch0">32626</a> 32307 F google-breakpad: M E16C0000 01040000 00D90000 000000000000000000000000000000000 base.odex</div>
+<div class="log-line log-fatal" id="l2234254683865091">12-22 14:00:20.933 <a href="f00450.html#ch0">32626</a> 32307 F google-breakpad: M E380B000 00000000 00021000 ECB28EB02641D3E840D75CE4E74BD01D0 libexif.so</div>
+<div class="log-line log-fatal" id="l2234254683865092">12-22 14:00:20.933 <a href="f00450.html#ch0">32626</a> 32307 F google-breakpad: M E3890000 00000000 00016000 FAC9693F00E097C465A28724A0D103630 libmtp.so</div>
+<div class="log-line log-fatal" id="l2234254683865093">12-22 14:00:20.933 <a href="f00450.html#ch0">32626</a> 32307 F google-breakpad: M E38A7000 00000000 00046000 F3601EE30B4C91C8EEC96CE3597A9A150 libmedia_jni.so</div>
+<div class="log-line log-fatal" id="l2234254683865094">12-22 14:00:20.933 <a href="f00450.html#ch0">32626</a> 32307 F google-breakpad: M E3C6B000 00000000 00018000 3C374C80DA5BCC8D3C6C1B733FFCA0D50 libkeymaster1.so</div>
+<div class="log-line log-fatal" id="l2234254683865095">12-22 14:00:20.933 <a href="f00450.html#ch0">32626</a> 32307 F google-breakpad: M E3C86000 00000000 00009000 22AC870DDB4E0D93B1EA81265E6D6E6F0 libkeymaster_messages.so</div>
+<div class="log-line log-fatal" id="l2234254683865096">12-22 14:00:20.933 <a href="f00450.html#ch0">32626</a> 32307 F google-breakpad: M E3C91000 00000000 00014000 FB845264EB82DDB8F8EFA9FAE6B9BB410 libsoftkeymasterdevice.so</div>
+<div class="log-line log-fatal" id="l2234254683865097">12-22 14:00:20.933 <a href="f00450.html#ch0">32626</a> 32307 F google-breakpad: M E3CA8000 00000000 0000B000 80CB7044984D89FB4CFB5072F38904E70 libkeystore_binder.so</div>
+<div class="log-line log-fatal" id="l2234254683865098">12-22 14:00:20.933 <a href="f00450.html#ch0">32626</a> 32307 F google-breakpad: M E3CC0000 00000000 00004000 1237DA69CA562FAF4721FE336FF0F9440 libkeystore-engine.so</div>
+<div class="log-line log-fatal" id="l2234254683865099">12-22 14:00:20.933 <a href="f00450.html#ch0">32626</a> 32307 F google-breakpad: M E3CCF000 00000000 00017000 75D0E82A8390A615C0D68C514051CECE0 libjavacrypto.so</div>
+<div class="log-line log-fatal" id="l2234254683865100">12-22 14:00:20.933 <a href="f00450.html#ch0">32626</a> 32307 F google-breakpad: M E3D15000 00004000 00002000 000000000000000000000000000000000 system@framework@tcmclient.jar@classes.dex</div>
+<div class="log-line log-fatal" id="l2234254683865101">12-22 14:00:20.933 <a href="f00450.html#ch0">32626</a> 32307 F google-breakpad: M E3EC2000 00000000 00004000 FA3EF06593027214410201B97AF03DDC0 libextmedia_jni.so</div>
+<div class="log-line log-fatal" id="l2234254683865102">12-22 14:00:20.933 <a href="f00450.html#ch0">32626</a> 32307 F google-breakpad: M E3EC8000 00000000 0000E000 A5BA487081C536DA1BB521BBCAFCB4DF0 libstagefright_amrnb_common.so</div>
+<div class="log-line log-fatal" id="l2234254683865103">12-22 14:00:20.933 <a href="f00450.html#ch0">32626</a> 32307 F google-breakpad: M E753A000 047DA000 0250C000 000000000000000000000000000000000 BY_3RD_Webview.apk</div>
+...</div></body>
+</html>

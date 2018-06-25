@@ -1,0 +1,102 @@
+<html>
+<head>
+  <title>f00353.html</title>
+  <link rel="stylesheet" type="text/css" href="themes/blue/style.css"/>
+  <link rel="stylesheet" type="text/css" href="jquery.treeTable.css"/>
+  <link rel="stylesheet" type="text/css" href="jquery.ui.css"/>
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+  <script type="text/javascript" src="jquery.js"></script>
+  <script type="text/javascript" src="jquery.cookie.js"></script>
+  <script type="text/javascript" src="jquery.hotkeys.js"></script>
+  <script type="text/javascript" src="jquery.jstree.js"></script>
+  <script type="text/javascript" src="jquery.tablesorter.js"></script>
+  <script type="text/javascript" src="jquery.tablednd.js"></script>
+  <script type="text/javascript" src="jquery.treeTable.js"></script>
+  <script type="text/javascript" src="jquery.flot.js"></script>
+  <script type="text/javascript" src="jquery.flot.navigate.js"></script>
+  <script type="text/javascript" src="jquery.flot.selection.js"></script>
+  <script type="text/javascript" src="jquery.ui.js"></script>
+  <script type="text/javascript" src="colResizable-1.3.source.js"></script>
+  <script type="text/javascript" src="/self$wsjs"></script>
+  <script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+<a name="ch0"></a><div class="btn-pop-out"><a href="f00353.html#ch0" target="_blank"><img src="ic_pop_out.png"/></a></div><h1>Battery level - interactive chart</h1>
+<h1>!!! UNDER CONSTRUCTION !!!</h1>
+<button id="zoomOutBtn">Zoom out</button>
+<div id="chart" style="width: 800px; height: 400px;"></div>
+<script type="text/javascript">
+$(function(){
+function fixSize(plot,canvas,expW) {
+  canvas.width(canvas.width() + expW - plot.width());
+  plot.resize();
+  plot.setupGrid();
+  plot.draw();
+}
+function onZoomSelection(event, ranges) {
+  plot = $.plot(chart, data,
+                $.extend(true, {}, options, {
+                    xaxis: { min: ranges.xaxis.from, max: ranges.xaxis.to }
+                 }));
+}
+function onZoomOut(e) {
+  e.preventDefault();
+  plot = $.plot(chart, data, options);
+}
+$("#zoomOutBtn").click(onZoomOut);
+var data = [
+  {
+  label: "Battery level (%)",
+  yaxis: 1,
+  data: [
+
+    [34277361440,92]]
+  },
+  {
+  label: "Battery voltage (mV)",
+  yaxis: 2,
+  data: [
+
+    [34277361440,4186]]
+  },
+  {
+  label: "Battery temperature (C*10)",
+  yaxis: 3,
+  data: [
+
+    [34277361440,363]]
+  },
+];
+var chart = $("#chart");
+var options = {
+  selection: { mode: 'x' },
+  legend: { position: 'nw', margin: [ -200, 0 ], }, 
+  yaxes: [
+  {
+    labelWidth: 200,
+  },
+  {
+    position: 'right',
+  },
+  {
+    position: 'right',
+  },
+  ],
+  xaxis: {
+    mode: "time",
+    min: 34276309820,
+    max: 34277504320,
+  },
+  grid: {
+    hoverable: true,
+    clickable: true,
+  }
+};
+chart.bind("plotselected", onZoomSelection);
+chart.bind("plothover", function(event,pos,item) { flotHover(plot,event,pos,item); });
+var plot = $.plot(chart, data, options);
+fixSize(plot, chart, 800);
+});
+</script>
+</body>
+</html>

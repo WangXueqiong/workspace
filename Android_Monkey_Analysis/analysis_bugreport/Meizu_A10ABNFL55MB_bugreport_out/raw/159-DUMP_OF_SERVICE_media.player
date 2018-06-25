@@ -1,0 +1,16 @@
+ Client
+  pid(1065), connId(27), status(0), looping(false)
+ AwesomePlayer
+  URI(<no-scheme URI suppressed>), flags(0x00000010)
+  Track 1
+   MIME(audio/vorbis), decoder(OMX.google.vorbis.decoder)
+ AudioOutput
+  stream type(3), left - right volume(1.000000, 1.000000)
+  msec per frame(0.000000), latency (-1)
+  aux effect id(0), send level (0.000000)
+
+ No media recorder client
+
+ Files opened and/or mapped:
+  /proc/3114/fd/30 -> /system/media/audio/ui/plugin.ogg
+  /proc/3114/fd/33 -> /system/media/audio/ui/plugin.ogg

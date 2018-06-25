@@ -1,0 +1,439 @@
+  * PendingIntentRecord{293d0f7b com.tianyancha.skyeye broadcastIntent}
+    uid=10174 packageName=com.tianyancha.skyeye type=broadcastIntent flags=0x0
+    requestIntent=act=com.taobao.accs.intent.action.COMMAND pkg=com.tianyancha.skyeye (has extras)
+  * PendingIntentRecord{27ea3e3d com.sina.weibo startActivity}
+    uid=10088 packageName=com.sina.weibo type=startActivity flags=0x0
+    requestCode=5414 requestResolvedType=null
+    requestIntent=act=android.intent.action.VIEW cat=[android.intent.category.DEFAULT] dat=sinaweibo://cardlist?containerid=102803&extparam=from_push_-_mid_4239565323933317_-_category_1760&need_head_cards=1&luicode=10000216&push_type=1&lfid=0000Q0_4239565323933317 flg=0x10000000 (has extras)
+  * PendingIntentRecord{3de14632 com.meizu.safe startService}
+    uid=1000 packageName=com.meizu.safe type=startService flags=0x0
+    requestIntent=cmp=com.meizu.safe/.blockService.service.SDKUpdateService (has extras)
+  * PendingIntentRecord{38fa4f83 android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=android.content.jobscheduler.JOB_DELAY_EXPIRED
+    sent=true canceled=false
+  * PendingIntentRecord{1d418139 com.meizu.media.reader broadcastIntent}
+    uid=10072 packageName=com.meizu.media.reader type=broadcastIntent flags=0x40000000
+    requestIntent=act=com.meizu.flyme.push.intent.MESSAGE dat=custom://1526270496850 cmp=com.meizu.media.reader/.module.push.ReaderPushReceiver (has extras)
+  * PendingIntentRecord{338860df com.sina.weibo broadcastIntent}
+    uid=10088 packageName=com.sina.weibo type=broadcastIntent flags=0x0
+    requestCode=2753573 requestResolvedType=null
+    requestIntent=act=com.sina.notification.delete.action.1004 (has extras)
+  * PendingIntentRecord{a0f612c android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=android.content.jobscheduler.JOB_DEADLINE_EXPIRED
+    sent=true canceled=false
+  * PendingIntentRecord{a77698a com.sina.weibo broadcastIntent}
+    uid=10088 packageName=com.sina.weibo type=broadcastIntent flags=0x0
+    requestCode=7879339 requestResolvedType=null
+    requestIntent=act=com.sina.notification.delete.action.1004 (has extras)
+  * PendingIntentRecord{1bc2bfb com.meizu.media.video broadcastIntent}
+    uid=10031 packageName=com.meizu.media.video type=broadcastIntent flags=0x40000000
+    requestIntent=act=com.meizu.flyme.push.intent.MESSAGE dat=custom://1526292554891 cmp=com.meizu.media.video/.Receiver.VideoPushReceiver (has extras)
+  * PendingIntentRecord{7551e71 android startActivity}
+    uid=1000 packageName=android type=startActivity flags=0x0
+    requestIntent=act=android.settings.INPUT_METHOD_SETTINGS
+  * PendingIntentRecord{2f978cd7 com.sina.weibo startActivity}
+    uid=10088 packageName=com.sina.weibo type=startActivity flags=0x0
+    requestCode=7751 requestResolvedType=null
+    requestIntent=act=android.intent.action.VIEW cat=[android.intent.category.DEFAULT] dat=sinaweibo://pageinfo?containerid=100808b2d54e9057b5a966ca158dc87e389683&pageid=100808b2d54e9057b5a966ca158dc87e389683&featurecode=10000273&luicode=10000095&lfid=0000a1&featurecode=10000087&luicode=10000095 flg=0x10000000 (has extras)
+  * PendingIntentRecord{35baa9c4 com.sina.weibo startActivity}
+    uid=10088 packageName=com.sina.weibo type=startActivity flags=0x0
+    requestCode=5349 requestResolvedType=null
+    requestIntent=act=android.intent.action.VIEW cat=[android.intent.category.DEFAULT] dat=sinaweibo://tabbar?containerid=23044100658008611000000000000&needlocation=1&fullscreen=1&extparam=4239529600507964&luicode=10000424&lfid=8008611000000000000_4239529600507964&operator=dujie1 flg=0x10000000 (has extras)
+  * PendingIntentRecord{1dd94198 com.meizu.alphame broadcastIntent}
+    uid=1000 packageName=com.meizu.alphame type=broadcastIntent flags=0x0
+    requestIntent=act=com.meizu.alphame.system.standby
+  * PendingIntentRecord{1d5e1f73 android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=com.android.internal.location.ALARM_WAKEUP
+  * PendingIntentRecord{349a9e30 com.tencent.mobileqq broadcastIntent}
+    uid=10095 packageName=com.tencent.mobileqq type=broadcastIntent flags=0x0
+    requestIntent=cmp=com.tencent.mobileqq/.app.NotificationDeleteReceiver
+    sent=true canceled=false
+  * PendingIntentRecord{b282aa9 com.meizu.cloud broadcastIntent}
+    uid=10060 packageName=com.meizu.cloud type=broadcastIntent flags=0x40000000
+    requestIntent=act=com.meizu.push.action.Ping dat=timer://com.meizu.push.action.Ping/{action=com.meizu.push.action.Ping, period=851268, window=3045, wakeup=true, set = 1526293541158} (has extras)
+  * PendingIntentRecord{21f13fcf com.sina.weibo startActivity}
+    uid=10088 packageName=com.sina.weibo type=startActivity flags=0x0
+    requestCode=2286 requestResolvedType=null
+    requestIntent=act=android.intent.action.VIEW cat=[android.intent.category.DEFAULT] dat=sinaweibo://gotohome/?push_mid=4239373613943676&groupType=1&luicode=10000216&lfid=1a00Q0_4239373613943676 flg=0x10000000 (has extras)
+  * PendingIntentRecord{1e436d5c com.sina.weibo broadcastIntent}
+    uid=10088 packageName=com.sina.weibo type=broadcastIntent flags=0x0
+    requestCode=6504939 requestResolvedType=null
+    requestIntent=act=com.sina.notification.delete.action.1004 (has extras)
+  * PendingIntentRecord{1f2fc865 android startActivity}
+    uid=1000 packageName=android type=startActivity flags=0x0
+    requestIntent=act=android.settings.ACTION_NOTIFICATION_LISTENER_SETTINGS
+  * PendingIntentRecord{355985e1 android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestCode=5 requestResolvedType=null
+    requestIntent=act=android.app.backup.intent.INIT
+  * PendingIntentRecord{3c7e0bf4 com.sina.weibo broadcastIntent}
+    uid=10088 packageName=com.sina.weibo type=broadcastIntent flags=0x0
+    requestIntent=act=com.sina.weibo.action.broadcast.CLICK_NOTIFICATION dat=sinaweibo://pageinfo?containerid=100808904cc4bce1be7bfa85b59e881d82ff62&pageid=100808904cc4bce1be7bfa85b59e881d82ff62&featurecode=10000273&luicode=10000095&lfid=0000a4&featurecode=10000087&luicode=10000095 cmp=com.sina.weibo/.push.PushNotificationReceiver (has extras)
+  * PendingIntentRecord{1c079f1d com.meizu.media.reader broadcastIntent}
+    uid=10072 packageName=com.meizu.media.reader type=broadcastIntent flags=0x40000000
+    requestIntent=act=com.meizu.flyme.push.intent.MESSAGE dat=custom://1526270496661 flg=0x20 cmp=com.meizu.media.reader/.module.push.ReaderPushReceiver (has extras)
+  * PendingIntentRecord{3b0d6df1 com.meizu.mzsyncservice broadcastIntent}
+    uid=10067 packageName=com.meizu.mzsyncservice type=broadcastIntent flags=0x0
+    requestCode=1 requestResolvedType=null
+    requestIntent=act=com.meizu.usagestats.uploader_alarm.com.meizu.mzsyncservice
+  * PendingIntentRecord{130dcb63 android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestCode=1 requestResolvedType=null
+    requestIntent=act=android.app.backup.intent.RUN flg=0x40000000
+  * PendingIntentRecord{269f360 com.sina.weibo startActivity}
+    uid=10088 packageName=com.sina.weibo type=startActivity flags=0x0
+    requestCode=872 requestResolvedType=null
+    requestIntent=act=android.intent.action.VIEW cat=[android.intent.category.DEFAULT] dat=sinaweibo://tabbar?containerid=23044100658008611000000000000&needlocation=1&fullscreen=1&extparam=4239487351434094&luicode=10000222&lfid=000a01 flg=0x10000000 (has extras)
+  * PendingIntentRecord{2b841019 android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=com.android.server.NetworkTimeUpdateService.action.POLL
+  * PendingIntentRecord{1078a8de android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=com.android.server.task.controllers.IdleController.ACTION_TRIGGER_IDLE flg=0x40000000 pkg=android
+    sent=true canceled=false
+  * PendingIntentRecord{87babf com.tencent.mobileqq startActivity}
+    uid=10095 packageName=com.tencent.mobileqq type=startActivity flags=0x0
+    requestIntent=flg=0x4000000 cmp=com.tencent.mobileqq/.activity.SplashActivity
+  * PendingIntentRecord{36ae58c com.meizu.media.video broadcastIntent}
+    uid=10031 packageName=com.meizu.media.video type=broadcastIntent flags=0x40000000
+    requestIntent=act=com.meizu.flyme.push.intent.MESSAGE dat=custom://1526292554889 flg=0x20 cmp=com.meizu.media.video/.Receiver.VideoPushReceiver (has extras)
+  * PendingIntentRecord{1cbc94d5 com.sina.weibo startActivity}
+    uid=10088 packageName=com.sina.weibo type=startActivity flags=0x0
+    requestCode=3457 requestResolvedType=null
+    requestIntent=act=android.intent.action.VIEW cat=[android.intent.category.DEFAULT] dat=sinaweibo://cardlist?containerid=102803&extparam=from_push_-_mid_4239507127879192_-_category_1760&need_head_cards=1&luicode=10000095&lfid=0000a0&featurecode=10000087&luicode=10000095 flg=0x10000000 (has extras)
+  * PendingIntentRecord{236274ea android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=com.android.server.WifiManager.action.REFRESH_BATCHED_SCAN flg=0x4000000 pkg=com.android.server.wifi
+  * PendingIntentRecord{fbea951 com.sina.weibo broadcastIntent}
+    uid=10088 packageName=com.sina.weibo type=broadcastIntent flags=0x0
+    requestCode=5426662 requestResolvedType=null
+    requestIntent=act=com.sina.notification.delete.action.1004 (has extras)
+  * PendingIntentRecord{116af5b6 com.sina.weibo broadcastIntent}
+    uid=10088 packageName=com.sina.weibo type=broadcastIntent flags=0x0
+    requestCode=9019974 requestResolvedType=null
+    requestIntent=act=com.sina.notification.delete.action.1004 (has extras)
+  * PendingIntentRecord{22c42b7 com.flyme.systemuitools broadcastIntent}
+    uid=10030 packageName=com.flyme.systemuitools type=broadcastIntent flags=0x0
+    requestIntent=act=nisdk.SYNC
+    sent=true canceled=false
+  * PendingIntentRecord{3df3898d android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestCode=1 requestResolvedType=null
+    requestIntent=act=android.net.wifi.DHCPV6_RENEW
+  * PendingIntentRecord{22b85353 com.sina.weibo startActivity}
+    uid=10088 packageName=com.sina.weibo type=startActivity flags=0x0
+    requestCode=9347 requestResolvedType=null
+    requestIntent=act=android.intent.action.VIEW cat=[android.intent.category.DEFAULT] dat=sinaweibo://gotohome/?push_mid=4239311014399242&groupType=1&luicode=10000216&lfid=1a00Q0_4239311014399242 flg=0x10000000 (has extras)
+  * PendingIntentRecord{f058e com.meizu.mstore broadcastIntent}
+    uid=10038 packageName=com.meizu.mstore type=broadcastIntent flags=0x0
+    requestCode=1865754013 requestResolvedType=null
+    requestIntent=act=com.meizu.mstore.InstallSession.ACTION_INSTALL_CALLBACK:com.tianyancha.skyeye
+    sent=true canceled=false
+  * PendingIntentRecord{300d5d45 com.meizu.customizecenter broadcastIntent}
+    uid=10007 packageName=com.meizu.customizecenter type=broadcastIntent flags=0x40000000
+    requestIntent=act=com.meizu.flyme.push.intent.MESSAGE dat=custom://1526267243486 cmp=com.meizu.customizecenter/.common.push.CustomizePushReceiver (has extras)
+  * PendingIntentRecord{3079ec9a com.meizu.account startActivity}
+    uid=10059 packageName=com.meizu.account type=startActivity flags=0x0
+    requestIntent=act=com.meizu.account.SERVICE_LOGIN flg=0x14000000 (has extras)
+  * PendingIntentRecord{231cd9cb android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=com.android.server.action.NETWORK_STATS_POLL
+    sent=true canceled=false
+  * PendingIntentRecord{3e2b88c1 com.sina.weibo broadcastIntent}
+    uid=10088 packageName=com.sina.weibo type=broadcastIntent flags=0x0
+    requestCode=4769931 requestResolvedType=null
+    requestIntent=act=com.sina.notification.delete.action.1004 (has extras)
+  * PendingIntentRecord{359d6dd6 com.meizu.alphame broadcastIntent}
+    uid=1000 packageName=com.meizu.alphame type=broadcastIntent flags=0x0
+    requestIntent=act=com.meizu.alphame.system.idle
+    sent=true canceled=false
+  * PendingIntentRecord{8e174f2 android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestCode=1 requestResolvedType=null
+    requestIntent=act=android.appwidget.action.APPWIDGET_UPDATE cmp=com.meizu.flyme.weather/.WeatherWidgetProvider (has extras)
+    sent=true canceled=false
+  * PendingIntentRecord{dee3e com.meizu.safe startService}
+    uid=1000 packageName=com.meizu.safe type=startService flags=0x0
+    requestIntent=pkg=com.meizu.safe cmp=com.meizu.safe/.SafeSecureService (has extras)
+  * PendingIntentRecord{679849f android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=com.android.server.WifiManager.action.DEVICE_IDLE
+  * PendingIntentRecord{1921b5 com.android.settings startActivity}
+    uid=1000 packageName=com.android.settings type=startActivity flags=0x0
+    requestIntent=act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.android.settings/com.meizu.settings.MzSettingsActivity$DoNotDisturbActivity
+  * PendingIntentRecord{22eae8d8 com.tencent.mobileqq broadcastIntent}
+    uid=10095 packageName=com.tencent.mobileqq type=broadcastIntent flags=0x0
+    requestIntent=act=com.tencent.mobileqq:MSF_430025283
+    sent=true canceled=false
+  * PendingIntentRecord{3ef78716 com.tencent.mobileqq broadcastIntent}
+    uid=10095 packageName=com.tencent.mobileqq type=broadcastIntent flags=0x0
+    requestIntent=act=MSF_Action_Refresh_Steps
+  * PendingIntentRecord{15032857 com.tencent.mm broadcastIntent}
+    uid=10097 packageName=com.tencent.mm type=broadcastIntent flags=0x0
+    requestCode=228 requestResolvedType=null
+    requestIntent=act=ALARM_ACTION(5580) (has extras)
+  * PendingIntentRecord{3691ba84 com.tencent.mobileqq startActivity}
+    uid=10095 packageName=com.tencent.mobileqq type=startActivity flags=0x0
+    requestIntent=flg=0x4000000 cmp=com.tencent.mobileqq/.activity.activateFriend.ActivateFriendActivity (has extras)
+  * PendingIntentRecord{32ecdf44 com.meizu.mstore broadcastIntent}
+    uid=10038 packageName=com.meizu.mstore type=broadcastIntent flags=0x0
+    requestCode=1366447018 requestResolvedType=null
+    requestIntent=act=com.meizu.mstore.InstallSession.ACTION_INSTALL_CALLBACK:com.tianyancha.skyeye
+    sent=true canceled=false
+  * PendingIntentRecord{1852d38f com.sina.weibo broadcastIntent}
+    uid=10088 packageName=com.sina.weibo type=broadcastIntent flags=0x0
+    requestCode=8015972 requestResolvedType=null
+    requestIntent=act=com.sina.notification.delete.action.1004 (has extras)
+  * PendingIntentRecord{323319ab android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=android.content.syncmanager.SYNC_ALARM
+    sent=true canceled=false
+  * PendingIntentRecord{347de1c6 com.sina.weibo startActivity}
+    uid=10088 packageName=com.sina.weibo type=startActivity flags=0x0
+    requestCode=3403 requestResolvedType=null
+    requestIntent=act=android.intent.action.VIEW cat=[android.intent.category.DEFAULT] dat=sinaweibo://cardlist?containerid=102803&extparam=from_push_-_mid_4239346829788958_-_category_1760&need_head_cards=1&luicode=10000216&push_type=1&lfid=0000q0_4239346829788958 flg=0x10000000 (has extras)
+  * PendingIntentRecord{d79f82d com.meizu.safe broadcastIntent}
+    uid=1000 packageName=com.meizu.safe type=broadcastIntent flags=0x0
+    requestCode=1 requestResolvedType=null
+    requestIntent=act=com.meizu.usagestats.uploader_alarm.com.meizu.safe
+  * PendingIntentRecord{338030dd android startActivity}
+    uid=1000 packageName=android type=startActivity flags=0x0
+    requestIntent=act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.android.settings/.DevelopmentSettings
+  * PendingIntentRecord{24665452 com.meizu.privacy broadcastIntent}
+    uid=1338 packageName=com.meizu.privacy type=broadcastIntent flags=0x0
+    requestIntent=act=flyme.intent.action.EXIT_CHILD_MODE
+  * PendingIntentRecord{65a9162 com.meizu.customizecenter broadcastIntent}
+    uid=10007 packageName=com.meizu.customizecenter type=broadcastIntent flags=0x0
+    requestCode=1 requestResolvedType=null
+    requestIntent=act=com.meizu.usagestats.uploader_alarm.com.meizu.customizecenter
+  * PendingIntentRecord{3af1639e com.meizu.flyme.update startActivity}
+    uid=1000 packageName=com.meizu.flyme.update type=startActivity flags=0x0
+    requestIntent=cmp=com.meizu.flyme.update/.SystemUpgradeListActivity (has extras)
+  * PendingIntentRecord{3cfd9e95 android startActivity}
+    uid=1000 packageName=android type=startActivity flags=0x0
+    requestIntent=act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.android.settings/.UsbSettings
+  * PendingIntentRecord{3a8c1baa com.sina.weibo broadcastIntent}
+    uid=10088 packageName=com.sina.weibo type=broadcastIntent flags=0x0
+    requestIntent=cmp=com.sina.weibo/.localpush.LocalPushAlarmReceiver
+  * PendingIntentRecord{2d91c39b com.meizu.experiencedatasync broadcastIntent}
+    uid=1000 packageName=com.meizu.experiencedatasync type=broadcastIntent flags=0x0
+    requestCode=1 requestResolvedType=null
+    requestIntent=act=com.meizu.experiencedatasync.check_upload
+  * PendingIntentRecord{32668f11 com.meizu.battery broadcastIntent}
+    uid=1000 packageName=com.meizu.battery type=broadcastIntent flags=0x0
+    requestIntent=act=pm.nonwakeup.powergauge.stats
+    sent=true canceled=false
+  * PendingIntentRecord{1cbefe77 com.sina.weibo startActivity}
+    uid=10088 packageName=com.sina.weibo type=startActivity flags=0x0
+    requestCode=8486 requestResolvedType=null
+    requestIntent=act=android.intent.action.VIEW cat=[android.intent.category.DEFAULT] dat=sinaweibo://cardlist?containerid=102803&extparam=from_push_-_mid_4238905399960418_-_category_1760&need_head_cards=1&luicode=10000095&lfid=0000a2&featurecode=10000087&luicode=10000095 flg=0x10000000 (has extras)
+  * PendingIntentRecord{35e4cae4 com.tencent.mobileqq broadcastIntent}
+    uid=10095 packageName=com.tencent.mobileqq type=broadcastIntent flags=0x0
+    requestIntent=act=com.tencent.mobileqq.PCONLINE_CLICK_NOTIFICATION
+  * PendingIntentRecord{38940b4d android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestCode=1 requestResolvedType=null
+    requestIntent=act=com.android.server.WifiManager.action.STOP_SCAN
+  * PendingIntentRecord{181b0b13 com.sina.weibo startActivity}
+    uid=10088 packageName=com.sina.weibo type=startActivity flags=0x0
+    requestCode=6617 requestResolvedType=null
+    requestIntent=act=android.intent.action.VIEW cat=[android.intent.category.DEFAULT] dat=sinaweibo://cardlist?containerid=102803&extparam=from_push_-_mid_4239575461256652_-_category_1760&need_head_cards=1&luicode=10000095&lfid=0000a3&featurecode=10000087&luicode=10000095 flg=0x10000000 (has extras)
+  * PendingIntentRecord{2495b150 com.meizu.flyme.update broadcastIntent}
+    uid=1000 packageName=com.meizu.flyme.update type=broadcastIntent flags=0x0
+    requestIntent=act=com.meizu.flyme.update.PUSH_DOWNLOAD (has extras)
+  * PendingIntentRecord{368bf04e com.meizu.mstore broadcastIntent}
+    uid=10038 packageName=com.meizu.mstore type=broadcastIntent flags=0x0
+    requestCode=7000 requestResolvedType=null
+    requestIntent=act=com.meizu.cloud.center.ignore.update (has extras)
+  * PendingIntentRecord{721456f com.meizu.flyme.weather broadcastIntent}
+    uid=10079 packageName=com.meizu.flyme.weather type=broadcastIntent flags=0x0
+    requestIntent=act=start_search_activity
+  * PendingIntentRecord{f2c927c com.meizu.safe broadcastIntent}
+    uid=1000 packageName=com.meizu.safe type=broadcastIntent flags=0x0
+    requestIntent=act=traffic_action_24_clock_alarm (has extras)
+  * PendingIntentRecord{20a7f2f3 com.meizu.flyme.input broadcastIntent}
+    uid=10024 packageName=com.meizu.flyme.input type=broadcastIntent flags=0x0
+    requestCode=1 requestResolvedType=null
+    requestIntent=act=com.meizu.usagestats.uploader_alarm.com.meizu.flyme.input
+  * PendingIntentRecord{2e7aabb0 com.meizu.mstore broadcastIntent}
+    uid=10038 packageName=com.meizu.mstore type=broadcastIntent flags=0x0
+    requestIntent=act=auto.update.action
+  * PendingIntentRecord{224b61bd com.sina.weibo broadcastIntent}
+    uid=10088 packageName=com.sina.weibo type=broadcastIntent flags=0x0
+    requestIntent=act=com.sina.smart.heartbeat.action1004
+    sent=true canceled=false
+  * PendingIntentRecord{270e63b2 com.tencent.mm broadcastIntent}
+    uid=10097 packageName=com.tencent.mm type=broadcastIntent flags=0x0
+    requestIntent=cmp=com.tencent.mm/.booter.MMReceivers$AlarmReceiver
+    sent=true canceled=false
+  * PendingIntentRecord{112cdf03 com.meizu.flyme.weather broadcastIntent}
+    uid=10079 packageName=com.meizu.flyme.weather type=broadcastIntent flags=0x0
+    requestIntent=act=start_main_activity
+  * PendingIntentRecord{3b600e80 android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestCode=2 requestResolvedType=null
+    requestIntent=act=com.android.server.WifiManager.action.STOP_HOTSPOT
+  * PendingIntentRecord{3515cb9 com.meizu.flyme.launcher broadcastIntent}
+    uid=10014 packageName=com.meizu.flyme.launcher type=broadcastIntent flags=0x0
+    requestCode=1 requestResolvedType=null
+    requestIntent=act=com.meizu.usagestats.uploader_alarm.com.meizu.flyme.launcher
+  * PendingIntentRecord{23fb08fe android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=com.android.server.task.controllers.BatteryController.ACTION_CHARGING_STABLE
+    sent=true canceled=false
+  * PendingIntentRecord{5f792ac com.sina.weibo broadcastIntent}
+    uid=10088 packageName=com.sina.weibo type=broadcastIntent flags=0x0
+    requestCode=2836713 requestResolvedType=null
+    requestIntent=act=com.sina.notification.delete.action.1004 (has extras)
+  * PendingIntentRecord{16220b75 com.meizu.flyme.update broadcastIntent}
+    uid=1000 packageName=com.meizu.flyme.update type=broadcastIntent flags=0x0
+    requestIntent=act=com.meizu.flyme.update.APPOINT_AUTO_UPGRADE (has extras)
+  * PendingIntentRecord{1d7ab70a com.meizu.battery broadcastIntent}
+    uid=1000 packageName=com.meizu.battery type=broadcastIntent flags=0x0
+    requestIntent=act=com.meizu.power.powerexception.enter_idle_mode
+    sent=true canceled=false
+  * PendingIntentRecord{cc12b7b com.tencent.mm broadcastIntent}
+    uid=10097 packageName=com.tencent.mm type=broadcastIntent flags=0x0
+    requestCode=1 requestResolvedType=null
+    requestIntent=act=com.tencent.mm.TrafficStatsReceiver
+    sent=true canceled=false
+  * PendingIntentRecord{25a12d98 android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=com.mediatek.location.providercheck
+  * PendingIntentRecord{e7d342d com.sina.weibo broadcastIntent}
+    uid=10088 packageName=com.sina.weibo type=broadcastIntent flags=0x0
+    requestCode=3466121 requestResolvedType=null
+    requestIntent=act=com.sina.notification.delete.action.1004 (has extras)
+  * PendingIntentRecord{35138ef3 com.sina.weibo startActivity}
+    uid=10088 packageName=com.sina.weibo type=startActivity flags=0x0
+    requestCode=9738 requestResolvedType=null
+    requestIntent=act=android.intent.action.VIEW cat=[android.intent.category.DEFAULT] dat=sinaweibo://gotohome/?push_mid=4239491521224695&groupType=1&luicode=10000216&lfid=1a00Q0_4239491521224695 flg=0x10000000 (has extras)
+  * PendingIntentRecord{38a5e629 com.amap.android.location broadcastIntent}
+    uid=10000 packageName=com.amap.android.location type=broadcastIntent flags=0x0
+    requestCode=63 requestResolvedType=null
+    requestIntent=act=com.amap.nlp.state.check
+  * PendingIntentRecord{24aaea29 com.tianyancha.skyeye startService}
+    uid=10174 packageName=com.tianyancha.skyeye type=startService flags=0x0
+    requestIntent=act=com.tianyancha.skyeye.intent.action.COCKROACH (has extras)
+  * PendingIntentRecord{18b6f6ba com.tencent.mobileqq broadcastIntent}
+    uid=10095 packageName=com.tencent.mobileqq type=broadcastIntent flags=0x0
+    requestIntent=act=action_sport_timer1
+  * PendingIntentRecord{12efe96b com.tencent.mobileqq broadcastIntent}
+    uid=10095 packageName=com.tencent.mobileqq type=broadcastIntent flags=0x0
+    requestIntent=act=action_sport_timer2
+  * PendingIntentRecord{1d072cc8 android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=android.net.proxy.PAC_REFRESH
+  * PendingIntentRecord{36633161 com.tencent.mm broadcastIntent}
+    uid=10097 packageName=com.tencent.mm type=broadcastIntent flags=0x0
+    requestCode=227 requestResolvedType=null
+    requestIntent=act=ALARM_ACTION(5580) (has extras)
+  * PendingIntentRecord{334dc486 com.sina.weibo broadcastIntent}
+    uid=10088 packageName=com.sina.weibo type=broadcastIntent flags=0x0
+    requestCode=1112193 requestResolvedType=null
+    requestIntent=act=com.sina.notification.delete.action.1004 (has extras)
+  * PendingIntentRecord{fa1b147 android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestCode=1 requestResolvedType=null
+    requestIntent=act=android.app.backup.intent.RUN_AUTO flg=0x40000000 (has extras)
+  * PendingIntentRecord{fc64d74 com.meizu.flyme.input broadcastIntent}
+    uid=10024 packageName=com.meizu.flyme.input type=broadcastIntent flags=0x0
+    requestIntent=act=notify.ime.date.change
+  * PendingIntentRecord{3ec0829d com.meizu.flyme.launcher broadcastIntent}
+    uid=10014 packageName=com.meizu.flyme.launcher type=broadcastIntent flags=0x0
+    requestIntent=act=notify.launcher.date.change
+  * PendingIntentRecord{231a312 com.android.browser broadcastIntent}
+    uid=10004 packageName=com.android.browser type=broadcastIntent flags=0x40000000
+    requestIntent=act=com.meizu.flyme.push.intent.MESSAGE dat=custom://1526272429817 cmp=com.android.browser/.push.AppPushReciever (has extras)
+  * PendingIntentRecord{be1ae3 com.sina.weibo startActivity}
+    uid=10088 packageName=com.sina.weibo type=startActivity flags=0x0
+    requestCode=1450 requestResolvedType=null
+    requestIntent=act=android.intent.action.VIEW cat=[android.intent.category.DEFAULT] dat=sinaweibo://tabbar?containerid=23044100658008611000000000000&needlocation=1&fullscreen=1&extparam=4239224876766680&luicode=10000424&lfid=8008611000000000000_4239224876766680&operator=huaishan flg=0x10000000 (has extras)
+  * PendingIntentRecord{2bb4cce0 com.sina.weibo startActivity}
+    uid=10088 packageName=com.sina.weibo type=startActivity flags=0x0
+    requestCode=7750 requestResolvedType=null
+    requestIntent=act=android.intent.action.VIEW cat=[android.intent.category.DEFAULT] dat=sinaweibo://gotohome/?push_mid=4239205322720522&groupType=1&luicode=10000216&lfid=1a00Q0_4239205322720522 flg=0x10000000 (has extras)
+  * PendingIntentRecord{7a7ab99 android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=android.net.wifi.DHCP_RENEW
+    sent=true canceled=false
+  * PendingIntentRecord{2a02de5e com.meizu.battery broadcastIntent}
+    uid=1000 packageName=com.meizu.battery type=broadcastIntent flags=0x0
+    requestIntent=act=com.meizu.power.powerexception
+    sent=true canceled=false
+  * PendingIntentRecord{1dad823f android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x4000000
+    requestIntent=act=android.intent.action.DATE_CHANGED flg=0x20000000
+  * PendingIntentRecord{a3e6855 android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=android.intent.action.TIME_TICK flg=0x50000000
+    sent=true canceled=false
+  * PendingIntentRecord{2b4357f8 com.meizu.flyme.update broadcastIntent}
+    uid=1000 packageName=com.meizu.flyme.update type=broadcastIntent flags=0x0
+    requestIntent=act=com.meizu.flyme.update.clear_nofity (has extras)
+  * PendingIntentRecord{324a34d1 com.sina.weibo broadcastIntent}
+    uid=10088 packageName=com.sina.weibo type=broadcastIntent flags=0x0
+    requestCode=1211718 requestResolvedType=null
+    requestIntent=act=com.sina.notification.delete.action.1004 (has extras)
+  * PendingIntentRecord{30565b36 com.android.browser broadcastIntent}
+    uid=10004 packageName=com.android.browser type=broadcastIntent flags=0x40000000
+    requestIntent=act=com.meizu.flyme.push.intent.MESSAGE dat=custom://1526272429385 cmp=com.android.browser/.push.AppPushReciever (has extras)
+  * PendingIntentRecord{26537a37 com.android.providers.calendar broadcastIntent}
+    uid=10005 packageName=com.android.providers.calendar type=broadcastIntent flags=0x0
+    requestIntent=act=com.android.providers.calendar.SCHEDULE_ALARM cmp=com.android.providers.calendar/.CalendarReceiver
+  * PendingIntentRecord{3aa4f4c2 com.meizu.experiencedatasync broadcastIntent}
+    uid=1000 packageName=com.meizu.experiencedatasync type=broadcastIntent flags=0x0
+    requestCode=1 requestResolvedType=null
+    requestIntent=act=com.meizu.usagestats.uploader_alarm.com.meizu.experiencedatasync
+  * PendingIntentRecord{3852e10 com.tencent.mm broadcastIntent}
+    uid=10097 packageName=com.tencent.mm type=broadcastIntent flags=0x0
+    requestCode=226 requestResolvedType=null
+    requestIntent=act=ALARM_ACTION(5580) (has extras)
+    sent=true canceled=false
+  * PendingIntentRecord{41dad09 com.meizu.media.video broadcastIntent}
+    uid=10031 packageName=com.meizu.media.video type=broadcastIntent flags=0x40000000
+    requestIntent=act=com.meizu.flyme.push.intent.MESSAGE dat=custom://1526292555002 cmp=com.meizu.media.video/.Receiver.VideoPushReceiver (has extras)
+  * PendingIntentRecord{2fd1792f android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=com.android.server.WifiManager.action.START_SCAN flg=0x4000000 pkg=com.android.server.wifi
+    sent=true canceled=false
+  * PendingIntentRecord{16b10c5 com.sina.weibo broadcastIntent}
+    uid=10088 packageName=com.sina.weibo type=broadcastIntent flags=0x0
+    requestCode=4201098 requestResolvedType=null
+    requestIntent=act=com.sina.notification.delete.action.1004 (has extras)
+  * PendingIntentRecord{37105a1a com.sina.weibo broadcastIntent}
+    uid=10088 packageName=com.sina.weibo type=broadcastIntent flags=0x0
+    requestCode=2644213 requestResolvedType=null
+    requestIntent=act=com.sina.notification.delete.action.1004 (has extras)
+  * PendingIntentRecord{3786794b android startActivity}
+    uid=1000 packageName=android type=startActivity flags=0x0
+    requestIntent=act=android.intent.action.CHOOSER (has extras)
+  * PendingIntentRecord{3838af28 android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=com.android.internal.location.ALARM_TIMEOUT
+  * PendingIntentRecord{3bfd95d4 com.meizu.flyme.update broadcastIntent}
+    uid=1000 packageName=com.meizu.flyme.update type=broadcastIntent flags=0x0
+    requestIntent=act=com.meizu.intent.action.next_reminder (has extras)
+    sent=true canceled=false
+  * PendingIntentRecord{33281272 com.meizu.mzsyncservice broadcastIntent}
+    uid=10067 packageName=com.meizu.mzsyncservice type=broadcastIntent flags=0x0
+    requestIntent=act=com.meizu.flyme.alarmsync.name
+    sent=true canceled=false
+  * PendingIntentRecord{33dac6c3 com.meizu.mpay broadcastIntent}
+    uid=10062 packageName=com.meizu.mpay type=broadcastIntent flags=0x0
+    requestIntent=act=com.meizu.mpay.alarm.plan.start
+  * PendingIntentRecord{3a883b40 com.meizu.mstore startActivity}
+    uid=10038 packageName=com.meizu.mstore type=startActivity flags=0x0
+    requestCode=5000 requestResolvedType=null
+    requestIntent=act=com.meizu.flyme.appcenter.app.update flg=0x4000000 (has extras)
+  * PendingIntentRecord{18eea79 com.meizu.experiencedatasync broadcastIntent}
+    uid=1000 packageName=com.meizu.experiencedatasync type=broadcastIntent flags=0x0
+    requestCode=1 requestResolvedType=null
+    requestIntent=act=com.meizu.experiencedatasync.sagitta_check_config
+  * PendingIntentRecord{7e0e3be android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=android.settings.SHOW_INPUT_METHOD_PICKER
+

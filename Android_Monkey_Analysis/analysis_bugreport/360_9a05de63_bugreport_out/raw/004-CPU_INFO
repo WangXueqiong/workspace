@@ -1,0 +1,39 @@
+
+
+
+User 0%, System 2%, IOW 0%, IRQ 0%
+User 8 + Nice 1 + Sys 22 + Idle 922 + IOW 0 + IRQ 5 + SIRQ 1 = 959
+
+  PID   TID PR CPU% S     VSS     RSS PCY UID      Thread          Proc
+18639 18639  4   2% R   4948K   2344K  fg shell    top             top
+ 1546  1866  5   0% S 2358072K 179588K  fg system   system_server   system_server
+32677 32677  5   0% S 1771776K 114988K  fg u0_a4    fe:GuardService com.qihoo360.mobilesafe:GuardService
+ 1546  1591  7   0% S 2358072K 179588K  fg system   android.ui      system_server
+16664 16664  6   0% S      0K      0K  fg root     kworker/u16:9   
+12696 12696  5   0% S      0K      0K  fg root     kworker/u16:2   
+ 1546  1930  6   0% S 2358072K 179588K  fg system   SensorService   system_server
+  535  1009  6   0% S  56936K   1520K  fg sensors  sensors.qcom    /system/bin/sensors.qcom
+ 1546  1867  6   0% S 2358072K 179588K  fg system   system_server   system_server
+  535  1980  6   0% S  56936K   1520K  fg sensors  sensors.qcom    /system/bin/sensors.qcom
+ 7573  7842  6   0% S 1676824K  85036K  bg u0_a179  Thread-1559     com.sina.weibo
+    8     8  5   0% S      0K      0K  fg root     rcu_sched       
+13864 13924  4   0% S 1596868K  76236K  fg u0_a10   Binder_3        com.qihoo.appstore
+ 8524 20563  5   0% S 1808572K 106356K  bg u0_a111  Thread-1520     com.tencent.mobileqq
+  322   322  7   0% S      0K      0K  fg root     cfinteractive   
+   39    39  6   0% S      0K      0K  fg root     rcuop/4         
+ 7573  7837  6   0% S 1676824K  85036K  bg u0_a179  Thread-1559     com.sina.weibo
+  283   283  7   0% S      0K      0K  fg root     focal_esd_prote 
+    7     7  5   0% S      0K      0K  fg root     rcu_preempt     
+ 1546  1546  6   0% S 2358072K 179588K  fg system   system_server   system_server
+   27    27  0   0% S      0K      0K  fg root     rcuob/2         
+   28    28  3   0% S      0K      0K  fg root     migration/3     
+   29    29  3   0% S      0K      0K  fg root     ksoftirqd/3     
+   31    31  3   0% S      0K      0K  fg root     kworker/3:0H    
+   32    32  4   0% S      0K      0K  fg root     rcuop/3         
+   33    33  6   0% S      0K      0K  fg root     rcuos/3         
+   34    34  0   0% S      0K      0K  fg root     rcuob/3         
+   35    35  4   0% S      0K      0K  fg root     migration/4     
+   36    36  4   0% S      0K      0K  fg root     ksoftirqd/4     
+   38    38  4   0% S      0K      0K  fg root     kworker/4:0H    
+[top: 1.517s elapsed]
+

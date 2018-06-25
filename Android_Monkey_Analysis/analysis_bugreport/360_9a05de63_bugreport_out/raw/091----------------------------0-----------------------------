@@ -1,0 +1,1752 @@
+ACTIVITY MANAGER SERVICES (dumpsys activity services)
+  User 0 active services:
+  * ServiceRecord{2813f61 u0 com.android.bluetooth/.hid.HidService}
+    intent={act=android.bluetooth.IBluetoothInputDevice cmp=com.android.bluetooth/.hid.HidService}
+    packageName=com.android.bluetooth
+    processName=com.android.bluetooth
+    baseDir=/system/app/CP_Bluetooth/CP_Bluetooth.apk
+    dataDir=/data/user/0/com.android.bluetooth
+    app=null
+    createTime=-2d23h44m56s254ms startingBgTimeout=--
+    lastActivity=-9h47m42s875ms restartTime=-- createdFromFg=false
+    Bindings:
+    * IntentBindRecord{85dba86}:
+      intent={act=android.bluetooth.IBluetoothInputDevice cmp=com.android.bluetooth/.hid.HidService}
+      binder=null
+      requested=false received=false hasBound=false doRebind=false
+      * Client AppBindRecord{8616f47 ProcessRecord{22fe0fd 2025:com.android.systemui/u0a32}}
+        Per-process Connections:
+          ConnectionRecord{f19043 u0 com.android.bluetooth/.hid.HidService:@59e11f2}
+    All Connections:
+      ConnectionRecord{f19043 u0 com.android.bluetooth/.hid.HidService:@59e11f2}
+
+  * ServiceRecord{4bc61dc u0 com.qiku.riskinsight/com.qiku.safetyspace.library.download.DownloadService}
+    intent={cmp=com.qiku.riskinsight/com.qiku.safetyspace.library.download.DownloadService}
+    packageName=com.qiku.riskinsight
+    processName=com.qiku.riskinsight
+    baseDir=/data/app/com.qiku.riskinsight-1/base.apk
+    dataDir=/data/user/0/com.qiku.riskinsight
+    app=ProcessRecord{d54ab0 15583:com.qiku.riskinsight/u0a35}
+    createTime=-5m18s932ms startingBgTimeout=-5m3s931ms
+    lastActivity=-5m18s932ms restartTime=-5m18s932ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=true callStart=true lastStartId=1
+
+  * ServiceRecord{9217f48 u0 com.qiku.logsystem/.userreport.configcenter.DiagnoseMonitorService}
+    intent={cmp=com.qiku.logsystem/.userreport.configcenter.DiagnoseMonitorService}
+    packageName=com.qiku.logsystem
+    processName=com.qiku.logsystem
+    baseDir=/system/app/QK_LogSystem/QK_LogSystem.apk
+    dataDir=/data/user/0/com.qiku.logsystem
+    app=ProcessRecord{4372be5 2572:com.qiku.logsystem/1000}
+    createTime=-2d23h43m48s672ms startingBgTimeout=--
+    lastActivity=-4m52s237ms restartTime=-9h46m35s293ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=4
+
+  * ServiceRecord{b8d8c7a u0 org.codeaurora.ims/.ImsService}
+    intent={cmp=org.codeaurora.ims/.ImsService}
+    packageName=org.codeaurora.ims
+    processName=com.android.phone
+    baseDir=/system/priv-app/ims/ims.apk
+    dataDir=/data/user/0/org.codeaurora.ims
+    app=ProcessRecord{a33baf6 2448:com.android.phone/1001}
+    createTime=-2d23h44m41s37ms startingBgTimeout=--
+    lastActivity=-9h47m27s658ms restartTime=-9h47m27s658ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+
+  * ServiceRecord{81befdb u0 com.yulong.android.coolsafe/com.qiku.unlock.FastJobSchedulerService}
+    intent={cmp=com.yulong.android.coolsafe/com.qiku.unlock.FastJobSchedulerService}
+    packageName=com.yulong.android.coolsafe
+    processName=com.yulong.android.coolsafe
+    permission=android.permission.BIND_JOB_SERVICE
+    baseDir=/system/priv-app/CP_CoolSafe/CP_CoolSafe.apk
+    dataDir=/data/user/0/com.yulong.android.coolsafe
+    app=ProcessRecord{94e3374 11636:com.yulong.android.coolsafe/1000}
+    createTime=-2d3h4m56s748ms startingBgTimeout=-6h7m59s746ms
+    lastActivity=-6h8m10s449ms restartTime=-6h8m14s747ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=true callStart=true lastStartId=1
+    Bindings:
+    * IntentBindRecord{9b1709d}:
+      intent={cmp=com.yulong.android.coolsafe/com.qiku.unlock.FastJobSchedulerService}
+      binder=android.os.BinderProxy@74af912
+      requested=true received=true hasBound=false doRebind=false
+
+  * ServiceRecord{6f1a743 u0 com.qiku.service.container/com.qiku.android.nodisturb.ServiceForContainer}
+    intent={cmp=com.qiku.service.container/com.qiku.android.nodisturb.ServiceForContainer}
+    packageName=com.qiku.service.container
+    processName=com.qiku.service.container
+    baseDir=/system/app/QK_AppService/QK_AppService.apk
+    dataDir=/data/user/0/com.qiku.service.container
+    app=ProcessRecord{8bbb8e3 14853:com.qiku.service.container/1000}
+    createTime=-2d23h44m23s522ms startingBgTimeout=-9h46m55s141ms
+    lastActivity=-6h5m5s984ms restartTime=-6h5m6s1ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=7
+    restartCount=0 restartDelay=-- nextRestartTime=-6h4m55s882ms crashCount=0
+
+  * ServiceRecord{9a65ffd u0 com.oma.drm.server/.DrmManagerClientServer}
+    intent={cmp=com.oma.drm.server/.DrmManagerClientServer}
+    packageName=com.oma.drm.server
+    processName=com.oma.drm.server
+    baseDir=/system/app/OmaDrmEngineServer/OmaDrmEngineServer.apk
+    dataDir=/data/user/0/com.oma.drm.server
+    app=ProcessRecord{cd512e0 2990:com.oma.drm.server/u0a65}
+    createTime=-2d23h44m23s656ms startingBgTimeout=--
+    lastActivity=-9h47m10s276ms restartTime=-9h47m10s276ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+
+  * ServiceRecord{1c487e7 u0 com.qiku.android.cloudsync/com.coolcloud.uac.android.authenticator.AuthenticationService}
+    intent={cmp=com.qiku.android.cloudsync/com.coolcloud.uac.android.authenticator.AuthenticationService}
+    packageName=com.qiku.android.cloudsync
+    processName=com.qiku.android.cloudsync:online
+    baseDir=/system/priv-app/CP_CloudSync/CP_CloudSync.apk
+    dataDir=/data/user/0/com.qiku.android.cloudsync
+    app=ProcessRecord{6f5a343 1780:com.qiku.android.cloudsync:online/u0a11}
+    createTime=-2d23h43m50s182ms startingBgTimeout=-9h46m21s800ms
+    lastActivity=-1m54s31ms restartTime=-6h28m52s710ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=12
+    restartCount=0 restartDelay=-- nextRestartTime=-6h27m51s776ms crashCount=0
+    Bindings:
+    * IntentBindRecord{bb97999 CREATE}:
+      intent={act=com.coolcloud.uac.ACCESS_SSO pkg=com.qiku.android.cloudsync}
+      binder=android.os.BinderProxy@65b945e
+      requested=true received=true hasBound=false doRebind=false
+      * Client AppBindRecord{ae7003f ProcessRecord{f4d832 25018:com.qiku.android.cloudsync/u0a11}}
+        Per-process Connections:
+          ConnectionRecord{5fad700 u0 CR com.qiku.android.cloudsync/com.coolcloud.uac.android.authenticator.AuthenticationService:@acb7983}
+    All Connections:
+      ConnectionRecord{5fad700 u0 CR com.qiku.android.cloudsync/com.coolcloud.uac.android.authenticator.AuthenticationService:@acb7983}
+
+  * ServiceRecord{7c424f2 u0 com.qiku.service.container/com.cloud.service.GalleryDeamonService}
+    intent={cmp=com.qiku.service.container/com.cloud.service.GalleryDeamonService}
+    packageName=com.qiku.service.container
+    processName=com.qiku.service.container
+    baseDir=/system/app/QK_AppService/QK_AppService.apk
+    dataDir=/data/user/0/com.qiku.service.container
+    app=ProcessRecord{8bbb8e3 14853:com.qiku.service.container/1000}
+    createTime=-2d23h44m23s533ms startingBgTimeout=-9h46m55s152ms
+    lastActivity=-6h5m5s985ms restartTime=-6h5m6s3ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=7
+    restartCount=0 restartDelay=-- nextRestartTime=-6h5m5s882ms crashCount=0
+
+  * ServiceRecord{7ef9a0b u0 com.qualcomm.location/.LocationService}
+    intent={act=com.qualcomm.location.LocationService cmp=com.qualcomm.location/.LocationService}
+    packageName=com.qualcomm.location
+    processName=system
+    baseDir=/system/priv-app/com.qualcomm.location/com.qualcomm.location.apk
+    dataDir=/data/user/0/com.qualcomm.location
+    app=ProcessRecord{7b91e42 1546:system/1000}
+    createTime=-2d23h44m25s94ms startingBgTimeout=--
+    lastActivity=-9h47m11s714ms restartTime=-9h47m11s714ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+
+  * ServiceRecord{2dc513f u0 com.sina.weibo/.business.WeiboRemoteServiceHolder}
+    intent={cmp=com.sina.weibo/.business.WeiboRemoteServiceHolder}
+    packageName=com.sina.weibo
+    processName=com.sina.weibo:remote
+    baseDir=/data/app/com.sina.weibo-2/base.apk
+    dataDir=/data/user/0/com.sina.weibo
+    app=ProcessRecord{b6ab87c 7853:com.sina.weibo:remote/u0a179}
+    createTime=-5m18s694ms startingBgTimeout=-5m3s692ms
+    lastActivity=-1m44s438ms restartTime=-5m18s693ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=6
+
+  * ServiceRecord{a131695 u0 com.tianyancha.skyeye/com.taobao.accs.ChannelService}
+    intent={act=com.taobao.accs.intent.action.START_SERVICE cmp=com.tianyancha.skyeye/com.taobao.accs.ChannelService}
+    packageName=com.tianyancha.skyeye
+    processName=com.tianyancha.skyeye:channel
+    baseDir=/data/app/com.tianyancha.skyeye-1/base.apk
+    dataDir=/data/user/0/com.tianyancha.skyeye
+    app=ProcessRecord{4b9c8ce 18548:com.tianyancha.skyeye:channel/u0a299}
+    createTime=-21s576ms startingBgTimeout=-6s564ms
+    lastActivity=-11s145ms restartTime=-21s538ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=2
+
+  * ServiceRecord{f92c1af u0 com.qualcomm.qti.modemtestmode/.MbnSystemService}
+    intent={cmp=com.qualcomm.qti.modemtestmode/.MbnSystemService}
+    packageName=com.qualcomm.qti.modemtestmode
+    processName=com.qualcomm.qti.modemtestmode
+    baseDir=/system/app/ModemTestMode/ModemTestMode.apk
+    dataDir=/data/user/0/com.qualcomm.qti.modemtestmode
+    app=ProcessRecord{30fc567 3626:com.qualcomm.qti.modemtestmode/1000}
+    createTime=-2d23h44m23s801ms startingBgTimeout=-9h46m55s416ms
+    lastActivity=-6h28m41s743ms restartTime=-6h28m41s743ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=2
+    restartCount=0 restartDelay=-- nextRestartTime=-6h28m41s776ms crashCount=0
+
+  * ServiceRecord{611dec2 u0 com.eg.android.AlipayGphone/mtopsdk.xstate.XStateService}
+    intent={act=mtopsdk.xstate.aidl.IXState cat=[android.intent.category.DEFAULT] pkg=com.eg.android.AlipayGphone cmp=com.eg.android.AlipayGphone/mtopsdk.xstate.XStateService}
+    packageName=com.eg.android.AlipayGphone
+    processName=com.eg.android.AlipayGphone
+    baseDir=/data/app/com.eg.android.AlipayGphone-1/base.apk
+    dataDir=/data/user/0/com.eg.android.AlipayGphone
+    app=ProcessRecord{67c0f6d 5404:com.eg.android.AlipayGphone/u0a197}
+    createTime=-1h26m59s73ms startingBgTimeout=--
+    lastActivity=-1h26m59s73ms restartTime=-1h26m59s73ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{89f1655 CREATE}:
+      intent={act=mtopsdk.xstate.aidl.IXState cat=[android.intent.category.DEFAULT] pkg=com.eg.android.AlipayGphone cmp=com.eg.android.AlipayGphone/mtopsdk.xstate.XStateService}
+      binder=android.os.BinderProxy@f48986a
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{c55615b ProcessRecord{67c0f6d 5404:com.eg.android.AlipayGphone/u0a197}}
+        Per-process Connections:
+          ConnectionRecord{f329f0d u0 CR com.eg.android.AlipayGphone/mtopsdk.xstate.XStateService:@9d655a4}
+    All Connections:
+      ConnectionRecord{f329f0d u0 CR com.eg.android.AlipayGphone/mtopsdk.xstate.XStateService:@9d655a4}
+
+  * ServiceRecord{3dcb11f u0 com.android.systemui/.keyguard.KeyguardService}
+    intent={cmp=com.android.systemui/.keyguard.KeyguardService}
+    packageName=com.android.systemui
+    processName=com.android.systemui
+    baseDir=/system/priv-app/CP_SystemUI/CP_SystemUI.apk
+    dataDir=/data/user/0/com.android.systemui
+    app=ProcessRecord{22fe0fd 2025:com.android.systemui/u0a32}
+    createTime=-2d23h44m50s235ms startingBgTimeout=--
+    lastActivity=-9h47m36s856ms restartTime=-9h47m36s856ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{b665df8 CREATE}:
+      intent={cmp=com.android.systemui/.keyguard.KeyguardService}
+      binder=android.os.BinderProxy@107c2d1
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{c4fd136 ProcessRecord{7b91e42 1546:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{a87fcbe u0 CR com.android.systemui/.keyguard.KeyguardService:@26ec779}
+    All Connections:
+      ConnectionRecord{a87fcbe u0 CR com.android.systemui/.keyguard.KeyguardService:@26ec779}
+
+  * ServiceRecord{c61d860 u0 com.qiku.configcenter/.ConfigCenterService}
+    intent={cmp=com.qiku.configcenter/.ConfigCenterService}
+    packageName=com.qiku.configcenter
+    processName=com.qiku.configcenter
+    permission=com.qiku.configcenter.permission.ACCESS_CONFIGCENTER
+    baseDir=/system/app/QK_ConfigCenterProxy/QK_ConfigCenterProxy.apk
+    dataDir=/data/user/0/com.qiku.configcenter
+    app=ProcessRecord{e14c591 2378:com.qiku.configcenter/u0a72}
+    createTime=-2d23h44m56s487ms startingBgTimeout=--
+    lastActivity=-1h31m13s990ms restartTime=-9h47m43s73ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=6
+    Bindings:
+    * IntentBindRecord{57eb837 CREATE}:
+      intent={cmp=com.qiku.configcenter/.ConfigCenterService}
+      binder=android.os.BinderProxy@49f61a4
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{74bb0d ProcessRecord{327d4d4 3890:com.yulong.android.coolsafe:remote/1000}}
+        Per-process Connections:
+          ConnectionRecord{b61e972 u0 CR com.qiku.configcenter/.ConfigCenterService:@ac6667d}
+      * Client AppBindRecord{bbfcac2 ProcessRecord{4372be5 2572:com.qiku.logsystem/1000}}
+        Per-process Connections:
+          ConnectionRecord{fced96b u0 CR com.qiku.configcenter/.ConfigCenterService:@2fba6ba}
+      * Client AppBindRecord{47ca0d3 ProcessRecord{451a0f4 2340:com.qiku.magazine/u0a32}}
+        Per-process Connections:
+          ConnectionRecord{691e292 u0 CR com.qiku.configcenter/.ConfigCenterService:@684101d}
+      * Client AppBindRecord{842f410 ProcessRecord{519f544 3659:com.qiku.widget3d/u0a80}}
+        Per-process Connections:
+          ConnectionRecord{6149762 u0 CR com.qiku.configcenter/.ConfigCenterService:@b60562d}
+      * Client AppBindRecord{f3efb09 ProcessRecord{6d58682 2789:com.yulong.android.launcher3/u0a48}}
+        Per-process Connections:
+          ConnectionRecord{4077c84 u0 CR com.qiku.configcenter/.ConfigCenterService:@61cf297}
+      * Client AppBindRecord{43d10e ProcessRecord{a4332c5 18796:com.qiku.powermaster/u0a94}}
+        Per-process Connections:
+          ConnectionRecord{a06b4b u0 CR com.qiku.configcenter/.ConfigCenterService:@172d41a}
+      * Client AppBindRecord{566772f ProcessRecord{b7179d4 32745:com.qiku.healthguard/1000}}
+        Per-process Connections:
+          ConnectionRecord{8d89672 u0 CR com.qiku.configcenter/.ConfigCenterService:@67a77d}
+    All Connections:
+      ConnectionRecord{8d89672 u0 CR com.qiku.configcenter/.ConfigCenterService:@67a77d}
+      ConnectionRecord{a06b4b u0 CR com.qiku.configcenter/.ConfigCenterService:@172d41a}
+      ConnectionRecord{fced96b u0 CR com.qiku.configcenter/.ConfigCenterService:@2fba6ba}
+      ConnectionRecord{4077c84 u0 CR com.qiku.configcenter/.ConfigCenterService:@61cf297}
+      ConnectionRecord{691e292 u0 CR com.qiku.configcenter/.ConfigCenterService:@684101d}
+      ConnectionRecord{b61e972 u0 CR com.qiku.configcenter/.ConfigCenterService:@ac6667d}
+      ConnectionRecord{6149762 u0 CR com.qiku.configcenter/.ConfigCenterService:@b60562d}
+
+  * ServiceRecord{40cf485 u0 com.qiku.powerengine/.common.service.PowerEngineService}
+    intent={cmp=com.qiku.powerengine/.common.service.PowerEngineService}
+    packageName=com.qiku.powerengine
+    processName=com.qiku.powerengine:remote
+    baseDir=/system/priv-app/QK_PowerEngine/QK_PowerEngine.apk
+    dataDir=/data/user/0/com.qiku.powerengine
+    app=ProcessRecord{fe2d2da 2203:com.qiku.powerengine:remote/1000}
+    createTime=-2d23h44m57s201ms startingBgTimeout=-9h47m28s820ms
+    lastActivity=-12m20s61ms restartTime=-9h47m43s821ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=12
+
+  * ServiceRecord{b5988ce u0 com.amap.android.location/.job.ConnectivityJobService}
+    intent={cmp=com.amap.android.location/.job.ConnectivityJobService}
+    packageName=com.amap.android.location
+    processName=com.amap.android.location
+    permission=android.permission.BIND_JOB_SERVICE
+    baseDir=/system/app/CP_3RD_GaoDe_NetworkLocation/CP_3RD_GaoDe_NetworkLocation.apk
+    dataDir=/data/user/0/com.amap.android.location
+    app=ProcessRecord{79502f8 2873:com.amap.android.location/u0a40}
+    createTime=-2d23h44m54s431ms startingBgTimeout=--
+    lastActivity=-9h37m37s755ms restartTime=-9h47m41s51ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=true callStart=true lastStartId=2
+    Bindings:
+    * IntentBindRecord{24b413c}:
+      intent={cmp=com.amap.android.location/.job.ConnectivityJobService}
+      binder=android.os.BinderProxy@8533ec5
+      requested=true received=true hasBound=false doRebind=false
+
+  * ServiceRecord{17620e8 u0 com.qualcomm.location/.izat.IzatService}
+    intent={act=com.qualcomm.location.izat.IzatService cmp=com.qualcomm.location/.izat.IzatService}
+    packageName=com.qualcomm.location
+    processName=system
+    permission=android.permission.ACCESS_FINE_LOCATION
+    baseDir=/system/priv-app/com.qualcomm.location/com.qualcomm.location.apk
+    dataDir=/data/user/0/com.qualcomm.location
+    app=ProcessRecord{7b91e42 1546:system/1000}
+    createTime=-2d23h44m25s94ms startingBgTimeout=--
+    lastActivity=-9h47m11s714ms restartTime=-9h47m11s714ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+
+  * ServiceRecord{81218b6 u0 com.android.systemui/.ImageWallpaper}
+    intent={act=android.service.wallpaper.WallpaperService cmp=com.android.systemui/.ImageWallpaper}
+    packageName=com.android.systemui
+    processName=com.android.systemui
+    permission=android.permission.BIND_WALLPAPER
+    baseDir=/system/priv-app/CP_SystemUI/CP_SystemUI.apk
+    dataDir=/data/user/0/com.android.systemui
+    app=ProcessRecord{22fe0fd 2025:com.android.systemui/u0a32}
+    createTime=-2d23h44m54s713ms startingBgTimeout=--
+    lastActivity=-9h47m41s333ms restartTime=-9h47m41s333ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{9eff01a CREATE}:
+      intent={act=android.service.wallpaper.WallpaperService cmp=com.android.systemui/.ImageWallpaper}
+      binder=android.os.BinderProxy@46d574b
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{2293528 ProcessRecord{7b91e42 1546:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{7d07851 u0 CR FGSA UI com.android.systemui/.ImageWallpaper:@b27978}
+    All Connections:
+      ConnectionRecord{7d07851 u0 CR FGSA UI com.android.systemui/.ImageWallpaper:@b27978}
+
+  * ServiceRecord{eae0241 u0 com.sina.news/.push.GuardPushService}
+    intent={act=android.intent.action.VIEW pkg=com.sina.news cmp=com.sina.news/.push.GuardPushService}
+    packageName=com.sina.news
+    processName=com.sina.news
+    baseDir=/data/app/com.sina.news-2/base.apk
+    dataDir=/data/user/0/com.sina.news
+    app=null
+    createTime=-2d23h38m58s776ms startingBgTimeout=--
+    lastActivity=-9h44m57s443ms restartTime=-- createdFromFg=true
+
+  * ServiceRecord{e122463 u0 com.qiku.magazine/.service.MagazineGuideService}
+    intent={act=com.qiku.magazine.api.action.CANCEL_GUIDE cmp=com.qiku.magazine/.service.MagazineGuideService}
+    packageName=com.qiku.magazine
+    processName=com.qiku.magazine
+    baseDir=/system/presetapp/QK_Magazine.apk
+    dataDir=/data/user/0/com.qiku.magazine
+    app=ProcessRecord{451a0f4 2340:com.qiku.magazine/u0a32}
+    createTime=-2d23h44m56s469ms startingBgTimeout=-9h47m28s86ms
+    lastActivity=-9h47m42s251ms restartTime=-9h47m43s88ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=2
+
+  * ServiceRecord{6dd0953 u0 com.qualcomm.qti.tetherservice/.TetherService}
+    intent={cmp=com.qualcomm.qti.tetherservice/.TetherService}
+    packageName=com.qualcomm.qti.tetherservice
+    processName=com.qualcomm.qti.tetherservice
+    baseDir=/system/priv-app/QtiTetherService/QtiTetherService.apk
+    dataDir=/data/user/0/com.qualcomm.qti.tetherservice
+    app=ProcessRecord{40cf3e6 3002:com.qualcomm.qti.tetherservice/1000}
+    createTime=-2d23h44m54s171ms startingBgTimeout=--
+    lastActivity=-9h47m40s791ms restartTime=-9h47m40s791ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+
+  * ServiceRecord{4815898 u0 com.amap.android.location/.NetworkLocationService}
+    intent={act=com.android.location.service.v3.NetworkLocationProvider pkg=com.amap.android.location}
+    packageName=com.amap.android.location
+    processName=com.amap.android.location
+    permission=android.permission.WRITE_SECURE_SETTINGS
+    baseDir=/system/app/CP_3RD_GaoDe_NetworkLocation/CP_3RD_GaoDe_NetworkLocation.apk
+    dataDir=/data/user/0/com.amap.android.location
+    app=ProcessRecord{79502f8 2873:com.amap.android.location/u0a40}
+    createTime=-2d23h44m54s633ms startingBgTimeout=--
+    lastActivity=-9h47m39s680ms restartTime=-9h47m41s211ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{5b81d27 CREATE}:
+      intent={act=com.android.location.service.v3.NetworkLocationProvider pkg=com.amap.android.location}
+      binder=android.os.BinderProxy@b707bd4
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{e97817d ProcessRecord{7b91e42 1546:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{637cabc u0 CR !FG !VIS com.amap.android.location/.NetworkLocationService:@17136af}
+          ConnectionRecord{671e590 u0 CR !FG !VIS com.amap.android.location/.NetworkLocationService:@a326853}
+    All Connections:
+      ConnectionRecord{637cabc u0 CR !FG !VIS com.amap.android.location/.NetworkLocationService:@17136af}
+      ConnectionRecord{671e590 u0 CR !FG !VIS com.amap.android.location/.NetworkLocationService:@a326853}
+
+  * ServiceRecord{1e82367 u0 com.tencent.mm/.booter.NotifyReceiver$NotifyService}
+    intent={cmp=com.tencent.mm/.booter.NotifyReceiver$NotifyService}
+    packageName=com.tencent.mm
+    processName=com.tencent.mm
+    baseDir=/data/app/com.tencent.mm-2/base.apk
+    dataDir=/data/user/0/com.tencent.mm
+    app=ProcessRecord{91c9ab 5131:com.tencent.mm/u0a106}
+    isForeground=true foregroundId=-1212 foregroundNoti=Notification(pri=0 contentView=null vibrate=null sound=null defaults=0x0 flags=0x40 color=0x00000000 vis=PRIVATE)
+    createTime=-2d3h23m30s371ms startingBgTimeout=-6h26m33s369ms
+    lastActivity=-1m50s618ms restartTime=-6h26m48s370ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=true callStart=true lastStartId=239
+
+  * ServiceRecord{38c9d5c u0 com.dsi.ant.server/.AntService}
+    intent={act=com.dsi.ant.server.IAntHal}
+    packageName=com.dsi.ant.server
+    processName=system
+    permission=com.dsi.ant.permission.ANTRADIO
+    baseDir=/system/app/AntHalService/AntHalService.apk
+    dataDir=/data/user/0/com.dsi.ant.server
+    app=ProcessRecord{7b91e42 1546:system/1000}
+    createTime=-2d23h44m24s350ms startingBgTimeout=--
+    lastActivity=-9h47m10s971ms restartTime=-9h47m10s971ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=true callStart=true lastStartId=1
+
+  * ServiceRecord{4a17f9 u0 com.koushikdutta.vysor/.VysorIME}
+    intent={act=android.view.InputMethod cmp=com.koushikdutta.vysor/.VysorIME}
+    packageName=com.koushikdutta.vysor
+    processName=com.koushikdutta.vysor
+    permission=android.permission.BIND_INPUT_METHOD
+    baseDir=/data/app/com.koushikdutta.vysor-1/base.apk
+    dataDir=/data/user/0/com.koushikdutta.vysor
+    app=ProcessRecord{b9d73ef 13004:com.koushikdutta.vysor/u0a2}
+    createTime=-12m53s971ms startingBgTimeout=--
+    lastActivity=-34s295ms restartTime=-12m53s928ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{5375efc CREATE}:
+      intent={act=android.view.InputMethod cmp=com.koushikdutta.vysor/.VysorIME}
+      binder=android.os.BinderProxy@a6c6985
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{a2da3da ProcessRecord{7b91e42 1546:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{e5879f2 u0 CR !FG UI !VIS com.koushikdutta.vysor/.VysorIME:@932e8fd}
+    All Connections:
+      ConnectionRecord{e5879f2 u0 CR !FG UI !VIS com.koushikdutta.vysor/.VysorIME:@932e8fd}
+
+  * ServiceRecord{947c285 u0 com.yulong.android.launcher3/.badge.NotificationListener}
+    intent={act=android.service.notification.NotificationListenerService cmp=com.yulong.android.launcher3/.badge.NotificationListener}
+    packageName=com.yulong.android.launcher3
+    processName=com.yulong.android.launcher3
+    permission=android.permission.BIND_NOTIFICATION_LISTENER_SERVICE
+    baseDir=/data/app/com.yulong.android.launcher3-1/base.apk
+    dataDir=/data/user/0/com.yulong.android.launcher3
+    app=ProcessRecord{6d58682 2789:com.yulong.android.launcher3/u0a48}
+    createTime=-2d23h44m54s881ms startingBgTimeout=--
+    lastActivity=-9h47m41s457ms restartTime=-9h47m41s457ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{3a46872 CREATE}:
+      intent={act=android.service.notification.NotificationListenerService cmp=com.yulong.android.launcher3/.badge.NotificationListener}
+      binder=android.os.BinderProxy@eff64c3
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{5438140 ProcessRecord{7b91e42 1546:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{39d812a u0 CR FGS com.yulong.android.launcher3/.badge.NotificationListener:@2872a15}
+    All Connections:
+      ConnectionRecord{39d812a u0 CR FGS com.yulong.android.launcher3/.badge.NotificationListener:@2872a15}
+
+  * ServiceRecord{6acd1c0 u0 com.qiku.service.container/com.qiku.remind.appservice.CleanerDaemonService}
+    intent={cmp=com.qiku.service.container/com.qiku.remind.appservice.CleanerDaemonService}
+    packageName=com.qiku.service.container
+    processName=com.qiku.service.container
+    permission=com.qiku.cleaner.remind.permission.CleanerDaemonService
+    baseDir=/system/app/QK_AppService/QK_AppService.apk
+    dataDir=/data/user/0/com.qiku.service.container
+    app=ProcessRecord{8bbb8e3 14853:com.qiku.service.container/1000}
+    createTime=-2d23h44m23s521ms startingBgTimeout=-9h46m55s141ms
+    lastActivity=-6h5m5s985ms restartTime=-6h5m6s2ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=8
+    restartCount=0 restartDelay=-- nextRestartTime=-6h4m45s884ms crashCount=0
+
+  * ServiceRecord{5bffe1 u0 com.qiku.cardmanager/.CardManagerService}
+    intent={cmp=com.qiku.cardmanager/.CardManagerService}
+    packageName=com.qiku.cardmanager
+    processName=com.qiku.cardmanager
+    permission=com.qiku.cardmanager.BIND
+    baseDir=/data/app/com.qiku.cardmanager-2/base.apk
+    dataDir=/data/user/0/com.qiku.cardmanager
+    app=ProcessRecord{8bedade 12856:com.qiku.cardmanager/u0a93}
+    createTime=-2d23h39m13s314ms startingBgTimeout=--
+    lastActivity=-3h33m0s136ms restartTime=-9h45m11s979ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=41
+    Bindings:
+    * IntentBindRecord{69fb879 CREATE}:
+      intent={cmp=com.qiku.cardmanager/.CardManagerService}
+      binder=android.os.BinderProxy@2cc99be
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{ee98a1f ProcessRecord{6d58682 2789:com.yulong.android.launcher3/u0a48}}
+        Per-process Connections:
+          ConnectionRecord{de238d u0 CR com.qiku.cardmanager/.CardManagerService:@50773eb}
+          ConnectionRecord{eb7078 u0 CR com.qiku.cardmanager/.CardManagerService:@50773eb}
+          ConnectionRecord{20567b6 u0 CR com.qiku.cardmanager/.CardManagerService:@50773eb}
+          ConnectionRecord{553a351 u0 CR com.qiku.cardmanager/.CardManagerService:@50773eb}
+          ConnectionRecord{5a31c24 u0 CR com.qiku.cardmanager/.CardManagerService:@50773eb}
+          ConnectionRecord{9784942 u0 CR com.qiku.cardmanager/.CardManagerService:@50773eb}
+          ConnectionRecord{9957d53 u0 CR com.qiku.cardmanager/.CardManagerService:@50773eb}
+          ConnectionRecord{c402548 u0 CR com.qiku.cardmanager/.CardManagerService:@50773eb}
+          ConnectionRecord{eaaccb7 u0 CR com.qiku.cardmanager/.CardManagerService:@50773eb}
+    All Connections:
+      ConnectionRecord{c402548 u0 CR com.qiku.cardmanager/.CardManagerService:@50773eb}
+      ConnectionRecord{eb7078 u0 CR com.qiku.cardmanager/.CardManagerService:@50773eb}
+      ConnectionRecord{553a351 u0 CR com.qiku.cardmanager/.CardManagerService:@50773eb}
+      ConnectionRecord{20567b6 u0 CR com.qiku.cardmanager/.CardManagerService:@50773eb}
+      ConnectionRecord{eaaccb7 u0 CR com.qiku.cardmanager/.CardManagerService:@50773eb}
+      ConnectionRecord{5a31c24 u0 CR com.qiku.cardmanager/.CardManagerService:@50773eb}
+      ConnectionRecord{de238d u0 CR com.qiku.cardmanager/.CardManagerService:@50773eb}
+      ConnectionRecord{9784942 u0 CR com.qiku.cardmanager/.CardManagerService:@50773eb}
+      ConnectionRecord{9957d53 u0 CR com.qiku.cardmanager/.CardManagerService:@50773eb}
+
+  * ServiceRecord{a2dc363 u0 com.qiku.logsystem/.services.ControlDispatchService}
+    intent={cmp=com.qiku.logsystem/.services.ControlDispatchService}
+    packageName=com.qiku.logsystem
+    processName=com.qiku.logsystem
+    baseDir=/system/app/QK_LogSystem/QK_LogSystem.apk
+    dataDir=/data/user/0/com.qiku.logsystem
+    app=ProcessRecord{4372be5 2572:com.qiku.logsystem/1000}
+    createTime=-2d23h44m55s438ms startingBgTimeout=-9h47m27s56ms
+    lastActivity=-1m14s263ms restartTime=-9h47m42s58ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=true callStart=true lastStartId=337
+
+  * ServiceRecord{47f716c u0 com.android.bluetooth/.pbap.BluetoothPbapService}
+    intent={act=android.bluetooth.IBluetoothPbap cmp=com.android.bluetooth/.pbap.BluetoothPbapService}
+    packageName=com.android.bluetooth
+    processName=com.android.bluetooth
+    baseDir=/system/app/CP_Bluetooth/CP_Bluetooth.apk
+    dataDir=/data/user/0/com.android.bluetooth
+    app=null
+    createTime=-2d23h44m56s242ms startingBgTimeout=--
+    lastActivity=-9h47m42s862ms restartTime=-- createdFromFg=false
+    Bindings:
+    * IntentBindRecord{45a6335}:
+      intent={act=android.bluetooth.IBluetoothPbap cmp=com.android.bluetooth/.pbap.BluetoothPbapService}
+      binder=null
+      requested=false received=false hasBound=false doRebind=false
+      * Client AppBindRecord{4b493ca ProcessRecord{22fe0fd 2025:com.android.systemui/u0a32}}
+        Per-process Connections:
+          ConnectionRecord{7af32b5 u0 com.android.bluetooth/.pbap.BluetoothPbapService:@2efceec}
+    All Connections:
+      ConnectionRecord{7af32b5 u0 com.android.bluetooth/.pbap.BluetoothPbapService:@2efceec}
+
+  * ServiceRecord{713350c u0 com.qihoo.appstore/com.morgoo.droidplugin.stub.ServiceStub$StubP01$P00}
+    intent={cmp=com.qihoo.appstore/com.morgoo.droidplugin.stub.ServiceStub$StubP01$P00}
+    packageName=com.qihoo.appstore
+    processName=com.qihoo.appstore:PluginP01
+    baseDir=/data/app/com.qihoo.appstore-2/base.apk
+    dataDir=/data/user/0/com.qihoo.appstore
+    app=ProcessRecord{fc60bca 16718:com.qihoo.appstore:PluginP01/u0a10}
+    createTime=-3h30m1s963ms startingBgTimeout=--
+    lastActivity=-9m19s820ms restartTime=-3h30m1s924ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=true callStart=true lastStartId=11
+    Bindings:
+    * IntentBindRecord{e26a93b}:
+      intent={cmp=com.qihoo.appstore/com.morgoo.droidplugin.stub.ServiceStub$StubP01$P00}
+      binder=android.os.BinderProxy@ca83858
+      requested=true received=true hasBound=false doRebind=false
+
+  * ServiceRecord{dafdb1 u0 org.codeaurora.bluetooth/.dun.BluetoothDunService}
+    intent={act=android.bluetooth.IBluetoothDun cmp=org.codeaurora.bluetooth/.dun.BluetoothDunService}
+    packageName=org.codeaurora.bluetooth
+    processName=com.android.bluetooth
+    baseDir=/system/app/BluetoothExt/BluetoothExt.apk
+    dataDir=/data/user/0/org.codeaurora.bluetooth
+    app=null
+    createTime=-2d23h44m56s246ms startingBgTimeout=--
+    lastActivity=-9h47m42s866ms restartTime=-- createdFromFg=false
+    Bindings:
+    * IntentBindRecord{e702296}:
+      intent={act=android.bluetooth.IBluetoothDun cmp=org.codeaurora.bluetooth/.dun.BluetoothDunService}
+      binder=null
+      requested=false received=false hasBound=false doRebind=false
+      * Client AppBindRecord{64c9e17 ProcessRecord{22fe0fd 2025:com.android.systemui/u0a32}}
+        Per-process Connections:
+          ConnectionRecord{892ed9f u0 org.codeaurora.bluetooth/.dun.BluetoothDunService:@8775b3e}
+    All Connections:
+      ConnectionRecord{892ed9f u0 org.codeaurora.bluetooth/.dun.BluetoothDunService:@8775b3e}
+
+  * ServiceRecord{89b364f u0 com.qiku.riskinsight/.service.CoreService}
+    intent={cmp=com.qiku.riskinsight/.service.CoreService}
+    packageName=com.qiku.riskinsight
+    processName=com.qiku.riskinsight
+    baseDir=/data/app/com.qiku.riskinsight-1/base.apk
+    dataDir=/data/user/0/com.qiku.riskinsight
+    app=ProcessRecord{d54ab0 15583:com.qiku.riskinsight/u0a35}
+    createTime=-5m18s942ms startingBgTimeout=--
+    lastActivity=-5m18s942ms restartTime=-5m18s942ms createdFromFg=false
+    Bindings:
+    * IntentBindRecord{1f7600b CREATE}:
+      intent={cmp=com.qiku.riskinsight/.service.CoreService}
+      binder=android.os.BinderProxy@9196ee8
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{f0f1901 ProcessRecord{d54ab0 15583:com.qiku.riskinsight/u0a35}}
+        Per-process Connections:
+          ConnectionRecord{da598ae u0 CR com.qiku.riskinsight/.service.CoreService:@bb29d29}
+    All Connections:
+      ConnectionRecord{da598ae u0 CR com.qiku.riskinsight/.service.CoreService:@bb29d29}
+
+  * ServiceRecord{64bec16 u0 com.tencent.mm/.booter.CoreService}
+    intent={cmp=com.tencent.mm/.booter.CoreService}
+    packageName=com.tencent.mm
+    processName=com.tencent.mm:push
+    baseDir=/data/app/com.tencent.mm-2/base.apk
+    dataDir=/data/user/0/com.tencent.mm
+    app=ProcessRecord{fc3f925 5093:com.tencent.mm:push/u0a106}
+    isForeground=true foregroundId=-1213 foregroundNoti=Notification(pri=0 contentView=null vibrate=null sound=null defaults=0x0 flags=0x40 color=0x00000000 vis=PRIVATE)
+    createTime=-2d23h44m30s788ms startingBgTimeout=-9h47m2s395ms
+    lastActivity=-1m53s633ms restartTime=-6h26m51s740ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=322
+    restartCount=0 restartDelay=-- nextRestartTime=-6h26m51s772ms crashCount=0
+    Bindings:
+    * IntentBindRecord{3948204 CREATE}:
+      intent={cmp=com.tencent.mm/.booter.CoreService}
+      binder=android.os.BinderProxy@8f0c3ed
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{83d222 ProcessRecord{91c9ab 5131:com.tencent.mm/u0a106}}
+        Per-process Connections:
+          ConnectionRecord{5293b4d u0 CR com.tencent.mm/.booter.CoreService:@ec72808}
+          ConnectionRecord{72eaba1 u0 CR com.tencent.mm/.booter.CoreService:@ec72808}
+          ConnectionRecord{78cf56f u0 CR com.tencent.mm/.booter.CoreService:@ec72808}
+          ConnectionRecord{b338baa u0 CR com.tencent.mm/.booter.CoreService:@ec72808}
+          ConnectionRecord{b98604e u0 CR com.tencent.mm/.booter.CoreService:@ec72808}
+          ConnectionRecord{c5b3f49 u0 CR com.tencent.mm/.booter.CoreService:@ec72808}
+          ConnectionRecord{ca6827c u0 CR com.tencent.mm/.booter.CoreService:@ec72808}
+    All Connections:
+      ConnectionRecord{72eaba1 u0 CR com.tencent.mm/.booter.CoreService:@ec72808}
+      ConnectionRecord{b338baa u0 CR com.tencent.mm/.booter.CoreService:@ec72808}
+      ConnectionRecord{5293b4d u0 CR com.tencent.mm/.booter.CoreService:@ec72808}
+      ConnectionRecord{c5b3f49 u0 CR com.tencent.mm/.booter.CoreService:@ec72808}
+      ConnectionRecord{b98604e u0 CR com.tencent.mm/.booter.CoreService:@ec72808}
+      ConnectionRecord{78cf56f u0 CR com.tencent.mm/.booter.CoreService:@ec72808}
+      ConnectionRecord{ca6827c u0 CR com.tencent.mm/.booter.CoreService:@ec72808}
+
+  * ServiceRecord{fff7cc1 u0 com.yulong.android.launcher3/com.qiku.widget3d.musiccontroller.MusicControllerService}
+    intent={cmp=com.yulong.android.launcher3/com.qiku.widget3d.musiccontroller.MusicControllerService}
+    packageName=com.yulong.android.launcher3
+    processName=com.yulong.android.launcher3
+    baseDir=/data/app/com.yulong.android.launcher3-1/base.apk
+    dataDir=/data/user/0/com.yulong.android.launcher3
+    app=ProcessRecord{6d58682 2789:com.yulong.android.launcher3/u0a48}
+    createTime=-2d22h4m49s93ms startingBgTimeout=--
+    lastActivity=-8h53m18s313ms restartTime=-8h53m18s313ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+
+  * ServiceRecord{ad223a6 u0 com.qihoo.browser/.pushmanager.PushBrowserService}
+    intent={act=com.qihoo.browser.pushmanager.PushBrowserService pkg=com.qihoo.browser}
+    packageName=com.qihoo.browser
+    processName=com.qihoo.browser:pushbrowser
+    baseDir=/data/app/com.qihoo.browser-2/base.apk
+    dataDir=/data/user/0/com.qihoo.browser
+    app=null
+    createTime=-55m51s650ms startingBgTimeout=--
+    lastActivity=-55m51s651ms restartTime=-- createdFromFg=false
+
+  * ServiceRecord{a7304b3 u0 com.android.bluetooth/.a2dp.A2dpService}
+    intent={act=android.bluetooth.IBluetoothA2dp cmp=com.android.bluetooth/.a2dp.A2dpService}
+    packageName=com.android.bluetooth
+    processName=com.android.bluetooth
+    baseDir=/system/app/CP_Bluetooth/CP_Bluetooth.apk
+    dataDir=/data/user/0/com.android.bluetooth
+    app=null
+    createTime=-2d23h44m54s853ms startingBgTimeout=--
+    lastActivity=-9h47m41s474ms restartTime=-- createdFromFg=true
+    Bindings:
+    * IntentBindRecord{3d9ba70}:
+      intent={act=android.bluetooth.IBluetoothA2dp cmp=com.android.bluetooth/.a2dp.A2dpService}
+      binder=null
+      requested=false received=false hasBound=false doRebind=false
+      * Client AppBindRecord{d22b1e9 ProcessRecord{7b91e42 1546:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{f310b82 u0 com.android.bluetooth/.a2dp.A2dpService:@d5386cd}
+    All Connections:
+      ConnectionRecord{f310b82 u0 com.android.bluetooth/.a2dp.A2dpService:@d5386cd}
+
+  * ServiceRecord{6e501eb u0 com.qualcomm.qcrilmsgtunnel/.QcrilMsgTunnelService}
+    intent={cmp=com.qualcomm.qcrilmsgtunnel/.QcrilMsgTunnelService}
+    packageName=com.qualcomm.qcrilmsgtunnel
+    processName=com.qualcomm.qcrilmsgtunnel
+    permission=com.qualcomm.permission.USE_QCRIL_MSG_TUNNEL
+    baseDir=/system/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
+    dataDir=/data/user/0/com.qualcomm.qcrilmsgtunnel
+    app=ProcessRecord{a25203b 2646:com.qualcomm.qcrilmsgtunnel/1001}
+    createTime=-2d23h44m55s481ms startingBgTimeout=--
+    lastActivity=-6h28m41s709ms restartTime=-9h47m42s70ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=5
+    Bindings:
+    * IntentBindRecord{d30ee6e CREATE}:
+      intent={cmp=com.qualcomm.qcrilmsgtunnel/.QcrilMsgTunnelService}
+      binder=android.os.BinderProxy@d8f390f
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{9f80d9c ProcessRecord{30fc567 3626:com.qualcomm.qti.modemtestmode/1000}}
+        Per-process Connections:
+          ConnectionRecord{b4203bd u0 CR com.qualcomm.qcrilmsgtunnel/.QcrilMsgTunnelService:@869f14}
+      * Client AppBindRecord{56b83a5 ProcessRecord{a33baf6 2448:com.android.phone/1001}}
+        Per-process Connections:
+          ConnectionRecord{713f8c1 u0 CR com.qualcomm.qcrilmsgtunnel/.QcrilMsgTunnelService:@e2af5a8}
+          ConnectionRecord{8b3418a u0 CR com.qualcomm.qcrilmsgtunnel/.QcrilMsgTunnelService:@1142ff5}
+    All Connections:
+      ConnectionRecord{b4203bd u0 CR com.qualcomm.qcrilmsgtunnel/.QcrilMsgTunnelService:@869f14}
+      ConnectionRecord{8b3418a u0 CR com.qualcomm.qcrilmsgtunnel/.QcrilMsgTunnelService:@1142ff5}
+      ConnectionRecord{713f8c1 u0 CR com.qualcomm.qcrilmsgtunnel/.QcrilMsgTunnelService:@e2af5a8}
+
+  * ServiceRecord{464afcc u0 com.qihoo.appstore/com.qihoo360.accounts.sso.svc.AccountService}
+    intent={act=com.qihoo360.accounts.action.START_SERVICE cmp=com.qihoo.appstore/com.qihoo360.accounts.sso.svc.AccountService}
+    packageName=com.qihoo.appstore
+    processName=com.qihoo360.accounts
+    baseDir=/data/app/com.qihoo.appstore-2/base.apk
+    dataDir=/data/user/0/com.qihoo.appstore
+    app=ProcessRecord{dd1bba3 12751:com.qihoo360.accounts/u0a10}
+    createTime=-8m38s808ms startingBgTimeout=--
+    lastActivity=-8m38s807ms restartTime=-8m38s807ms createdFromFg=false
+    Bindings:
+    * IntentBindRecord{ab9f1e7 CREATE}:
+      intent={act=com.qihoo360.accounts.action.START_SERVICE cmp=com.qihoo.appstore/com.qihoo360.accounts.sso.svc.AccountService}
+      binder=android.os.BinderProxy@88a9194
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{7d3443d ProcessRecord{da8b94b 13864:com.qihoo.appstore/u0a10}}
+        Per-process Connections:
+          ConnectionRecord{7fd45ff u0 CR com.qihoo.appstore/com.qihoo360.accounts.sso.svc.AccountService:@9ec591e}
+    All Connections:
+      ConnectionRecord{7fd45ff u0 CR com.qihoo.appstore/com.qihoo360.accounts.sso.svc.AccountService:@9ec591e}
+
+  * ServiceRecord{fedadde u0 com.tencent.mobileqq/.qipc.QIPCServiceEx}
+    intent={cmp=com.tencent.mobileqq/.qipc.QIPCServiceEx}
+    packageName=com.tencent.mobileqq
+    processName=com.tencent.mobileqq
+    baseDir=/data/app/com.tencent.mobileqq-1/base.apk
+    dataDir=/data/user/0/com.tencent.mobileqq
+    app=ProcessRecord{fc621e8 8524:com.tencent.mobileqq/u0a111}
+    createTime=-2d3h23m50s626ms startingBgTimeout=--
+    lastActivity=-12m20s541ms restartTime=-4h38m36s543ms createdFromFg=false
+    restartCount=0 restartDelay=-- nextRestartTime=-4h38m35s578ms crashCount=0
+    Bindings:
+    * IntentBindRecord{4b5b521 CREATE}:
+      intent={cmp=com.tencent.mobileqq/.qipc.QIPCServiceEx}
+      binder=android.os.BinderProxy@7145d46
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{d9e7434 ProcessRecord{f9021f8 3727:com.tencent.mobileqq:TMAssistantDownloadSDKService/u0a111}}
+        Per-process Connections:
+          ConnectionRecord{7ae4827 u0 CR com.tencent.mobileqq/.qipc.QIPCServiceEx:@4843060}
+          ConnectionRecord{93aaa64 u0 CR com.tencent.mobileqq/.qipc.QIPCServiceEx:@4843060}
+          ConnectionRecord{d460919 u0 CR com.tencent.mobileqq/.qipc.QIPCServiceEx:@4843060}
+    All Connections:
+      ConnectionRecord{d460919 u0 CR com.tencent.mobileqq/.qipc.QIPCServiceEx:@4843060}
+      ConnectionRecord{7ae4827 u0 CR com.tencent.mobileqq/.qipc.QIPCServiceEx:@4843060}
+      ConnectionRecord{93aaa64 u0 CR com.tencent.mobileqq/.qipc.QIPCServiceEx:@4843060}
+
+  * ServiceRecord{657af09 u0 com.qiku.powermaster/.services.BusinessManagerService}
+    intent={act=com.qiku.powermaster.action.APP_START cmp=com.qiku.powermaster/.services.BusinessManagerService}
+    packageName=com.qiku.powermaster
+    processName=com.qiku.powermaster
+    baseDir=/data/app/com.qiku.powermaster-2/base.apk
+    dataDir=/data/user/0/com.qiku.powermaster
+    app=ProcessRecord{a4332c5 18796:com.qiku.powermaster/u0a94}
+    createTime=-3h25m13s833ms startingBgTimeout=-3h24m58s831ms
+    lastActivity=-1h29m58s589ms restartTime=-3h25m13s832ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=true callStart=true lastStartId=7
+
+  * ServiceRecord{cbe4894 u0 com.qti.service.colorservice/.ColorServiceApp}
+    intent={cmp=com.qti.service.colorservice/.ColorServiceApp}
+    packageName=com.qti.service.colorservice
+    processName=com.qti.service.colorservice
+    baseDir=/system/vendor/app/colorservice/colorservice.apk
+    dataDir=/data/user/0/com.qti.service.colorservice
+    app=ProcessRecord{e82c19a 2260:com.qti.service.colorservice/1000}
+    createTime=-2d23h44m57s98ms startingBgTimeout=--
+    lastActivity=-2h8m47s990ms restartTime=-9h47m43s686ms createdFromFg=false
+    Bindings:
+    * IntentBindRecord{817825d CREATE}:
+      intent={cmp=com.qti.service.colorservice/.ColorServiceApp}
+      binder=android.os.BinderProxy@ca907d2
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{2c680a3 ProcessRecord{fe2d2da 2203:com.qiku.powerengine:remote/1000}}
+        Per-process Connections:
+          ConnectionRecord{cafb5e8 u0 CR com.qti.service.colorservice/.ColorServiceApp:@e6e630b}
+    All Connections:
+      ConnectionRecord{cafb5e8 u0 CR com.qti.service.colorservice/.ColorServiceApp:@e6e630b}
+
+  * ServiceRecord{e92b5b3 u0 com.qiku.healthguard/.service.HealthGuardService}
+    intent={cmp=com.qiku.healthguard/.service.HealthGuardService}
+    packageName=com.qiku.healthguard
+    processName=com.qiku.healthguard
+    baseDir=/system/presetapp/QK_HealthGuard.apk
+    dataDir=/data/user/0/com.qiku.healthguard
+    app=ProcessRecord{b7179d4 32745:com.qiku.healthguard/1000}
+    createTime=-2d23h44m8s225ms startingBgTimeout=-9h46m39s843ms
+    lastActivity=-1m8s335ms restartTime=-6h28m57s71ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=328
+    restartCount=0 restartDelay=-- nextRestartTime=-6h28m57s162ms crashCount=0
+
+  * ServiceRecord{ac89fa0 u0 com.forward.eip/com.igexin.sdk.PushService}
+    intent={cmp=com.forward.eip/com.igexin.sdk.PushService}
+    packageName=com.forward.eip
+    processName=com.forward.eip:pushservice
+    baseDir=/data/app/com.forward.eip-1/base.apk
+    dataDir=/data/user/0/com.forward.eip
+    app=null
+    createTime=-2d3h17m14s781ms startingBgTimeout=--
+    lastActivity=-6h20m32s781ms restartTime=-- createdFromFg=true
+
+  * ServiceRecord{49591d9 u0 com.qihoo360.mobilesafe/.support.qpush.QihooPushService}
+    intent={cmp=com.qihoo360.mobilesafe/.support.qpush.QihooPushService}
+    packageName=com.qihoo360.mobilesafe
+    processName=com.qihoo360.mobilesafe:GuardService
+    baseDir=/system/priv-app/BY_3RD_360MobileSafe/BY_3RD_360MobileSafe.apk
+    dataDir=/data/user/0/com.qihoo360.mobilesafe
+    app=ProcessRecord{d8bcfd5 32677:com.qihoo360.mobilesafe:GuardService/u0a4}
+    createTime=-2d23h44m47s532ms startingBgTimeout=--
+    lastActivity=-6h28m50s37ms restartTime=-6h28m58s738ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=8
+    restartCount=0 restartDelay=-- nextRestartTime=-6h26m31s648ms crashCount=0
+
+  * ServiceRecord{4e79f98 u0 com.android.systemui/.SystemUIService}
+    intent={cmp=com.android.systemui/.SystemUIService}
+    packageName=com.android.systemui
+    processName=com.android.systemui
+    baseDir=/system/priv-app/CP_SystemUI/CP_SystemUI.apk
+    dataDir=/data/user/0/com.android.systemui
+    app=ProcessRecord{22fe0fd 2025:com.android.systemui/u0a32}
+    createTime=-2d23h44m58s235ms startingBgTimeout=--
+    lastActivity=-9h47m44s825ms restartTime=-9h47m44s825ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+
+  * ServiceRecord{4ef2572 u0 android/.hardware.location.GeofenceHardwareService}
+    intent={cmp=android/.hardware.location.GeofenceHardwareService}
+    packageName=android
+    processName=system
+    permission=android.permission.LOCATION_HARDWARE
+    baseDir=/system/framework/framework-res.apk
+    dataDir=/data/system
+    app=ProcessRecord{7b91e42 1546:system/1000}
+    createTime=-2d23h44m54s500ms startingBgTimeout=--
+    lastActivity=-9h47m41s120ms restartTime=-9h47m41s120ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{dcee759 CREATE}:
+      intent={cmp=android/.hardware.location.GeofenceHardwareService}
+      binder=android.hardware.location.GeofenceHardwareService$1@36bcf1e
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{d3683ff ProcessRecord{7b91e42 1546:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{193127d u0 CR android/.hardware.location.GeofenceHardwareService:@fcbb0d4}
+    All Connections:
+      ConnectionRecord{193127d u0 CR android/.hardware.location.GeofenceHardwareService:@fcbb0d4}
+
+  * ServiceRecord{83db9c9 u0 com.yulong.android.launcher3/com.amap.api.location.APSService}
+    intent={cmp=com.yulong.android.launcher3/com.amap.api.location.APSService}
+    packageName=com.yulong.android.launcher3
+    processName=com.yulong.android.launcher3
+    baseDir=/data/app/com.yulong.android.launcher3-1/base.apk
+    dataDir=/data/user/0/com.yulong.android.launcher3
+    app=ProcessRecord{6d58682 2789:com.yulong.android.launcher3/u0a48}
+    createTime=-2d23h44m54s440ms startingBgTimeout=--
+    lastActivity=-9h47m41s61ms restartTime=-9h47m41s61ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{2a815cc CREATE}:
+      intent={cmp=com.yulong.android.launcher3/com.amap.api.location.APSService}
+      binder=android.os.BinderProxy@ffda015
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{b01bf2a ProcessRecord{6d58682 2789:com.yulong.android.launcher3/u0a48}}
+        Per-process Connections:
+          ConnectionRecord{69e75d0 u0 CR com.yulong.android.launcher3/com.amap.api.location.APSService:@2721193}
+    All Connections:
+      ConnectionRecord{69e75d0 u0 CR com.yulong.android.launcher3/com.amap.api.location.APSService:@2721193}
+
+  * ServiceRecord{4a4e7af u0 com.qiku.multitask/.FloatWindowService}
+    intent={cmp=com.qiku.multitask/.FloatWindowService}
+    packageName=com.qiku.multitask
+    processName=com.qiku.multitask
+    baseDir=/system/priv-app/QK_MultiTask/QK_MultiTask.apk
+    dataDir=/data/user/0/com.qiku.multitask
+    app=ProcessRecord{c79611b 2961:com.qiku.multitask/1000}
+    createTime=-2d23h44m54s153ms startingBgTimeout=--
+    lastActivity=-9h47m17s726ms restartTime=-9h47m40s774ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=2
+
+  * ServiceRecord{c5a85da u0 com.qualcomm.location/.LBSSystemMonitorService}
+    intent={cmp=com.qualcomm.location/.LBSSystemMonitorService}
+    packageName=com.qualcomm.location
+    processName=system
+    baseDir=/system/priv-app/com.qualcomm.location/com.qualcomm.location.apk
+    dataDir=/data/user/0/com.qualcomm.location
+    app=ProcessRecord{7b91e42 1546:system/1000}
+    createTime=-2d23h44m25s98ms startingBgTimeout=--
+    lastActivity=-9h47m11s719ms restartTime=-9h47m11s719ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+
+  * ServiceRecord{a89eba2 u0 com.qiku.magazine/.service.DownloadService}
+    intent={cmp=com.qiku.magazine/.service.DownloadService}
+    packageName=com.qiku.magazine
+    processName=com.qiku.magazine
+    baseDir=/system/presetapp/QK_Magazine.apk
+    dataDir=/data/user/0/com.qiku.magazine
+    app=ProcessRecord{451a0f4 2340:com.qiku.magazine/u0a32}
+    createTime=-2d7h57m6s525ms startingBgTimeout=--
+    lastActivity=-3h43m10s567ms restartTime=-8h25m51s618ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=4
+
+  * ServiceRecord{3182c3 u0 com.qiku.android.cloudsync/com.xmpp.android.service.NotificationDaemon}
+    intent={act=android.net.conn.CONNECTIVITY_CHANGE cmp=com.qiku.android.cloudsync/com.xmpp.android.service.NotificationDaemon}
+    packageName=com.qiku.android.cloudsync
+    processName=com.qiku.android.cloudsync:online
+    baseDir=/system/priv-app/CP_CloudSync/CP_CloudSync.apk
+    dataDir=/data/user/0/com.qiku.android.cloudsync
+    app=ProcessRecord{6f5a343 1780:com.qiku.android.cloudsync:online/u0a11}
+    createTime=-1m54s27ms startingBgTimeout=-1m39s25ms
+    lastActivity=-1m43s708ms restartTime=-1m54s26ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=2
+
+  * ServiceRecord{93c2c6a u0 com.sina.weibo/com.sina.push.service.SinaPushService}
+    intent={cmp=com.sina.weibo/com.sina.push.service.SinaPushService}
+    packageName=com.sina.weibo
+    processName=com.sina.weibo:remote
+    permission=com.sina.permission.SINA_PUSH
+    baseDir=/data/app/com.sina.weibo-2/base.apk
+    dataDir=/data/user/0/com.sina.weibo
+    app=ProcessRecord{b6ab87c 7853:com.sina.weibo:remote/u0a179}
+    createTime=-1h26m59s280ms startingBgTimeout=--
+    lastActivity=-1m52s441ms restartTime=-1h26m59s262ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=51
+
+  * ServiceRecord{4542d04 u0 com.eg.android.AlipayGphone/com.alipay.android.launcher.service.LauncherService}
+    intent={cmp=com.eg.android.AlipayGphone/com.alipay.android.launcher.service.LauncherService}
+    packageName=com.eg.android.AlipayGphone
+    processName=com.eg.android.AlipayGphone
+    baseDir=/data/app/com.eg.android.AlipayGphone-1/base.apk
+    dataDir=/data/user/0/com.eg.android.AlipayGphone
+    app=ProcessRecord{67c0f6d 5404:com.eg.android.AlipayGphone/u0a197}
+    isForeground=true foregroundId=168816881 foregroundNoti=Notification(pri=-2 contentView=com.eg.android.AlipayGphone/0x1090087 vibrate=null sound=null defaults=0x0 flags=0x62 color=0xff607d8b vis=PRIVATE)
+    createTime=-1h31m1s159ms startingBgTimeout=-1h30m46s157ms
+    lastActivity=-1h31m1s159ms restartTime=-1h31m1s159ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=true callStart=true lastStartId=1
+
+  * ServiceRecord{b33073e u0 com.android.dialer/com.android.incallui.InCallServiceImpl}
+    intent={act=android.telecom.InCallService cmp=com.android.dialer/com.android.incallui.InCallServiceImpl}
+    packageName=com.android.dialer
+    processName=com.android.dialer
+    permission=android.permission.BIND_INCALL_SERVICE
+    baseDir=/system/priv-app/CP_InCallUI/CP_InCallUI.apk
+    dataDir=/data/user/0/com.android.dialer
+    app=ProcessRecord{126c2b8 3185:com.android.dialer/u0a47}
+    createTime=-2d23h44m53s313ms startingBgTimeout=--
+    lastActivity=-9h47m39s608ms restartTime=-9h47m39s608ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{f252891 CREATE}:
+      intent={act=android.telecom.InCallService cmp=com.android.dialer/com.android.incallui.InCallServiceImpl}
+      binder=android.os.BinderProxy@654a3f6
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{242f3f7 ProcessRecord{7b91e42 1546:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{5062600 u0 CR FGS com.android.dialer/com.android.incallui.InCallServiceImpl:@2c6a483}
+    All Connections:
+      ConnectionRecord{5062600 u0 CR FGS com.android.dialer/com.android.incallui.InCallServiceImpl:@2c6a483}
+
+  * ServiceRecord{a7f4548 u0 com.qihoo.appstore/com.morgoo.droidplugin.PluginManagerService}
+    intent={pkg=com.qihoo.appstore cmp=com.qihoo.appstore/com.morgoo.droidplugin.PluginManagerService}
+    packageName=com.qihoo.appstore
+    processName=com.qihoo.daemon
+    baseDir=/data/app/com.qihoo.appstore-2/base.apk
+    dataDir=/data/user/0/com.qihoo.appstore
+    app=ProcessRecord{5d48ed5 30643:com.qihoo.daemon/u0a10}
+    createTime=-1d15h35m0s506ms startingBgTimeout=--
+    lastActivity=-8m39s256ms restartTime=-3h56m56s32ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=18
+    Bindings:
+    * IntentBindRecord{4e15264 CREATE}:
+      intent={pkg=com.qihoo.appstore cmp=com.qihoo.appstore/com.morgoo.droidplugin.PluginManagerService}
+      binder=android.os.BinderProxy@862bccd
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{b1f0982 ProcessRecord{5d48ed5 30643:com.qihoo.daemon/u0a10}}
+        Per-process Connections:
+          ConnectionRecord{2c0cddb u0 CR com.qihoo.appstore/com.morgoo.droidplugin.PluginManagerService:@cc3e6ea}
+      * Client AppBindRecord{7ecd432 ProcessRecord{da8b94b 13864:com.qihoo.appstore/u0a10}}
+        Per-process Connections:
+          ConnectionRecord{4fd3441 u0 CR com.qihoo.appstore/com.morgoo.droidplugin.PluginManagerService:@44def28}
+      * Client AppBindRecord{79330d0 ProcessRecord{dd1bba3 12751:com.qihoo360.accounts/u0a10}}
+        Per-process Connections:
+          ConnectionRecord{ce81a59 u0 CR com.qihoo.appstore/com.morgoo.droidplugin.PluginManagerService:@c8abea0}
+      * Client AppBindRecord{36b58c9 ProcessRecord{fc60bca 16718:com.qihoo.appstore:PluginP01/u0a10}}
+        Per-process Connections:
+          ConnectionRecord{9027058 u0 CR com.qihoo.appstore/com.morgoo.droidplugin.PluginManagerService:@726c13b}
+    All Connections:
+      ConnectionRecord{4fd3441 u0 CR com.qihoo.appstore/com.morgoo.droidplugin.PluginManagerService:@44def28}
+      ConnectionRecord{9027058 u0 CR com.qihoo.appstore/com.morgoo.droidplugin.PluginManagerService:@726c13b}
+      ConnectionRecord{ce81a59 u0 CR com.qihoo.appstore/com.morgoo.droidplugin.PluginManagerService:@c8abea0}
+      ConnectionRecord{2c0cddb u0 CR com.qihoo.appstore/com.morgoo.droidplugin.PluginManagerService:@cc3e6ea}
+
+  * ServiceRecord{7c2790e u0 com.eg.android.AlipayGphone/com.alipay.pushsdk.push.NotificationService}
+    intent={act=com.eg.android.AlipayGphone.push.action.START_PUSHSERVICE pkg=com.eg.android.AlipayGphone}
+    packageName=com.eg.android.AlipayGphone
+    processName=com.eg.android.AlipayGphone:push
+    baseDir=/data/app/com.eg.android.AlipayGphone-1/base.apk
+    dataDir=/data/user/0/com.eg.android.AlipayGphone
+    app=ProcessRecord{d136806 5080:com.eg.android.AlipayGphone:push/u0a197}
+    isForeground=true foregroundId=168816881 foregroundNoti=Notification(pri=-2 contentView=com.eg.android.AlipayGphone/0x1090087 vibrate=null sound=null defaults=0x0 flags=0x62 color=0xff607d8b vis=PRIVATE)
+    createTime=-1h31m12s216ms startingBgTimeout=-1h30m57s213ms
+    lastActivity=-1m54s127ms restartTime=-1h31m12s215ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=8
+    Bindings:
+    * IntentBindRecord{e383bce CREATE}:
+      intent={pkg=com.eg.android.AlipayGphone cmp=com.eg.android.AlipayGphone/com.alipay.pushsdk.push.NotificationService}
+      binder=android.os.BinderProxy@f7e6aef
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{14289fc ProcessRecord{67c0f6d 5404:com.eg.android.AlipayGphone/u0a197}}
+        Per-process Connections:
+          ConnectionRecord{f73438 u0 CR com.eg.android.AlipayGphone/com.alipay.pushsdk.push.NotificationService:@ad3f7a2}
+          ConnectionRecord{2b4288f u0 CR com.eg.android.AlipayGphone/com.alipay.pushsdk.push.NotificationService:@ad3f7a2}
+          ConnectionRecord{afffc33 u0 CR com.eg.android.AlipayGphone/com.alipay.pushsdk.push.NotificationService:@ad3f7a2}
+    All Connections:
+      ConnectionRecord{afffc33 u0 CR com.eg.android.AlipayGphone/com.alipay.pushsdk.push.NotificationService:@ad3f7a2}
+      ConnectionRecord{2b4288f u0 CR com.eg.android.AlipayGphone/com.alipay.pushsdk.push.NotificationService:@ad3f7a2}
+      ConnectionRecord{f73438 u0 CR com.eg.android.AlipayGphone/com.alipay.pushsdk.push.NotificationService:@ad3f7a2}
+
+  * ServiceRecord{52e95b0 u0 com.android.server.telecom/.components.BluetoothPhoneService}
+    intent={cmp=com.android.server.telecom/.components.BluetoothPhoneService}
+    packageName=com.android.server.telecom
+    processName=system
+    baseDir=/system/priv-app/CP_Telecom/CP_Telecom.apk
+    dataDir=/data/user/0/com.android.server.telecom
+    app=ProcessRecord{7b91e42 1546:system/1000}
+    createTime=-2d23h44m53s993ms startingBgTimeout=--
+    lastActivity=-9h47m40s613ms restartTime=-9h47m40s613ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+
+  * ServiceRecord{fa8a063 u0 com.yulong.android.launcher3/.LauncherJobService}
+    intent={cmp=com.yulong.android.launcher3/.LauncherJobService}
+    packageName=com.yulong.android.launcher3
+    processName=com.yulong.android.launcher3
+    permission=android.permission.BIND_JOB_SERVICE
+    baseDir=/data/app/com.yulong.android.launcher3-1/base.apk
+    dataDir=/data/user/0/com.yulong.android.launcher3
+    app=ProcessRecord{6d58682 2789:com.yulong.android.launcher3/u0a48}
+    createTime=-2d23h44m53s147ms startingBgTimeout=--
+    lastActivity=-8h53m15s595ms restartTime=-9h47m39s766ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=true callStart=true lastStartId=1
+    Bindings:
+    * IntentBindRecord{447b885}:
+      intent={cmp=com.yulong.android.launcher3/.LauncherJobService}
+      binder=android.os.BinderProxy@8a046da
+      requested=true received=true hasBound=false doRebind=false
+
+  * ServiceRecord{870c70b u0 com.qihoo.magic/.service.KeepLiveService}
+    intent={act=android.intent.action.VIEW pkg=com.qihoo.magic cmp=com.qihoo.magic/.service.KeepLiveService}
+    packageName=com.qihoo.magic
+    processName=com.qihoo.magic:CoreService
+    baseDir=/data/app/com.qihoo.magic-1/base.apk
+    dataDir=/data/user/0/com.qihoo.magic
+    app=null
+    createTime=-2d23h38m53s588ms startingBgTimeout=--
+    lastActivity=-9h44m52s255ms restartTime=-- createdFromFg=true
+
+  * ServiceRecord{8c2e301 u0 com.qti.dpmserviceapp/.DpmServiceApp}
+    intent={cmp=com.qti.dpmserviceapp/.DpmServiceApp}
+    packageName=com.qti.dpmserviceapp
+    processName=com.qti.dpmserviceapp
+    baseDir=/system/priv-app/dpmserviceapp/dpmserviceapp.apk
+    dataDir=/data/user/0/com.qti.dpmserviceapp
+    app=ProcessRecord{22c49e8 2973:com.qti.dpmserviceapp/1000}
+    createTime=-2d23h44m25s92ms startingBgTimeout=--
+    lastActivity=-9h47m11s713ms restartTime=-9h47m11s713ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+
+  * ServiceRecord{6c7ccb9 u0 com.android.stk/.StkAppService}
+    intent={cmp=com.android.stk/.StkAppService}
+    packageName=com.android.stk
+    processName=com.android.phone
+    baseDir=/system/app/STK/STK.apk
+    dataDir=/data/user/0/com.android.stk
+    app=ProcessRecord{a33baf6 2448:com.android.phone/1001}
+    createTime=-2d23h44m20s431ms startingBgTimeout=--
+    lastActivity=-8h46m53s944ms restartTime=-9h47m7s52ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=5
+
+  * ServiceRecord{c918c29 u0 com.android.systemui/com.qiku.smsbox.service.SmsBoxService}
+    intent={cmp=com.android.systemui/com.qiku.smsbox.service.SmsBoxService}
+    packageName=com.android.systemui
+    processName=com.android.systemui:messagebox
+    baseDir=/system/priv-app/CP_SystemUI/CP_SystemUI.apk
+    dataDir=/data/user/0/com.android.systemui
+    app=ProcessRecord{42a5e21 32627:com.android.systemui:messagebox/u0a32}
+    isForeground=true foregroundId=1025 foregroundNoti=Notification(pri=0 contentView=com.android.systemui/0x1090087 vibrate=null sound=null defaults=0x0 flags=0x62 color=0x00000000 vis=PRIVATE)
+    createTime=-2d23h44m54s140ms startingBgTimeout=--
+    lastActivity=-6h29m2s39ms restartTime=-6h29m2s39ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=2
+    restartCount=0 restartDelay=-- nextRestartTime=-6h29m3s691ms crashCount=0
+
+  * ServiceRecord{fee256d u0 com.qiku.logredirect/.BroadcastCMD}
+    intent={cmp=com.qiku.logredirect/.BroadcastCMD}
+    packageName=com.qiku.logredirect
+    processName=com.qiku.logredirect
+    baseDir=/system/app/CP_logredirect/CP_logredirect.apk
+    dataDir=/data/user/0/com.qiku.logredirect
+    app=ProcessRecord{cd05801 12807:com.qiku.logredirect/1000}
+    createTime=-2d3h3m30s102ms startingBgTimeout=-6h6m33s101ms
+    lastActivity=-1m54s241ms restartTime=-6h6m48s102ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=true callStart=true lastStartId=57
+
+  * ServiceRecord{de58afe u0 com.android.server.telecom/.components.TelecomService}
+    intent={act=com.android.ITelecomService cmp=com.android.server.telecom/.components.TelecomService}
+    packageName=com.android.server.telecom
+    processName=system
+    baseDir=/system/priv-app/CP_Telecom/CP_Telecom.apk
+    dataDir=/data/user/0/com.android.server.telecom
+    app=ProcessRecord{7b91e42 1546:system/1000}
+    createTime=-2d23h44m58s328ms startingBgTimeout=--
+    lastActivity=-9h47m44s949ms restartTime=-9h47m44s949ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{14bf6a6 CREATE}:
+      intent={act=com.android.ITelecomService cmp=com.android.server.telecom/.components.TelecomService}
+      binder=com.android.server.telecom.TelecomServiceImpl$1@ce2c8e7
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{f701c94 ProcessRecord{7b91e42 1546:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{42ca6b9 u0 CR IMP FGS com.android.server.telecom/.components.TelecomService:@8d24080}
+    All Connections:
+      ConnectionRecord{42ca6b9 u0 CR IMP FGS com.android.server.telecom/.components.TelecomService:@8d24080}
+
+  * ServiceRecord{9e9733d u0 com.mayi.android.shortrent/com.igexin.sdk.PushService}
+    intent={cmp=com.mayi.android.shortrent/com.igexin.sdk.PushService}
+    packageName=com.mayi.android.shortrent
+    processName=com.mayi.android.shortrent:pushservice
+    baseDir=/data/app/com.mayi.android.shortrent-1/base.apk
+    dataDir=/data/user/0/com.mayi.android.shortrent
+    app=null
+    createTime=-2d3h17m14s774ms startingBgTimeout=--
+    lastActivity=-6h20m32s774ms restartTime=-- createdFromFg=true
+
+  * ServiceRecord{4ee2369 u0 com.android.providers.media/.MtpService}
+    intent={cmp=com.android.providers.media/.MtpService}
+    packageName=com.android.providers.media
+    processName=android.process.media
+    baseDir=/system/priv-app/MediaProvider/MediaProvider.apk
+    dataDir=/data/user/0/com.android.providers.media
+    app=ProcessRecord{6b5c1cb 4873:android.process.media/u0a22}
+    createTime=-1h28m39s583ms startingBgTimeout=--
+    lastActivity=-1h28m39s579ms restartTime=-1h28m39s582ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=true callStart=true lastStartId=1
+    Delivered Starts:
+    #0 id=1 dur=-1h28m39s581ms dxc=1
+      intent=Intent { cmp=com.android.providers.media/.MtpService (has extras) }
+    Bindings:
+    * IntentBindRecord{7b0d732 CREATE}:
+      intent={cmp=com.android.providers.media/.MtpService}
+      binder=android.os.BinderProxy@a890c83
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{e7c6e00 ProcessRecord{6b5c1cb 4873:android.process.media/u0a22}}
+        Per-process Connections:
+          ConnectionRecord{f0fa0c6 u0 CR com.android.providers.media/.MtpService:@94dd6a1}
+    All Connections:
+      ConnectionRecord{f0fa0c6 u0 CR com.android.providers.media/.MtpService:@94dd6a1}
+
+  * ServiceRecord{87f0639 u0 com.android.bluetooth/.hfp.HeadsetService}
+    intent={act=android.bluetooth.IBluetoothHeadset cmp=com.android.bluetooth/.hfp.HeadsetService}
+    packageName=com.android.bluetooth
+    processName=com.android.bluetooth
+    baseDir=/system/app/CP_Bluetooth/CP_Bluetooth.apk
+    dataDir=/data/user/0/com.android.bluetooth
+    app=null
+    createTime=-2d23h44m55s145ms startingBgTimeout=--
+    lastActivity=-9h47m41s765ms restartTime=-- createdFromFg=true
+    Bindings:
+    * IntentBindRecord{b11347e}:
+      intent={act=android.bluetooth.IBluetoothHeadset cmp=com.android.bluetooth/.hfp.HeadsetService}
+      binder=null
+      requested=false received=false hasBound=false doRebind=false
+      * Client AppBindRecord{bc5eddf ProcessRecord{7b91e42 1546:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{1ff0c80 u0 com.android.bluetooth/.hfp.HeadsetService:@f111503}
+          ConnectionRecord{91e7dff u0 com.android.bluetooth/.hfp.HeadsetService:@26f711e}
+          ConnectionRecord{f84f6dd u0 com.android.bluetooth/.hfp.HeadsetService:@63eeab4}
+      * Client AppBindRecord{b3a6a2c ProcessRecord{a33baf6 2448:com.android.phone/1001}}
+        Per-process Connections:
+          ConnectionRecord{6cb4e02 u0 com.android.bluetooth/.hfp.HeadsetService:@6bb434d}
+    All Connections:
+      ConnectionRecord{91e7dff u0 com.android.bluetooth/.hfp.HeadsetService:@26f711e}
+      ConnectionRecord{f84f6dd u0 com.android.bluetooth/.hfp.HeadsetService:@63eeab4}
+      ConnectionRecord{6cb4e02 u0 com.android.bluetooth/.hfp.HeadsetService:@6bb434d}
+      ConnectionRecord{1ff0c80 u0 com.android.bluetooth/.hfp.HeadsetService:@f111503}
+
+  * ServiceRecord{8dc5397 u0 com.qiku.freecall/.service.FreeCallQuerySerivce}
+    intent={act=com.qiku.freecall.service.FreeCallQuerySerivce cmp=com.qiku.freecall/.service.FreeCallQuerySerivce}
+    packageName=com.qiku.freecall
+    processName=com.qiku.freecall
+    baseDir=/system/app/FreeCall/FreeCall.apk
+    dataDir=/data/user/0/com.qiku.freecall
+    app=ProcessRecord{61b6572 17890:com.qiku.freecall/u0a59}
+    createTime=-1m43s681ms startingBgTimeout=--
+    lastActivity=-1m43s646ms restartTime=-1m43s646ms createdFromFg=false
+    Bindings:
+    * IntentBindRecord{929c583 CREATE}:
+      intent={act=com.qiku.freecall.service.FreeCallQuerySerivce cmp=com.qiku.freecall/.service.FreeCallQuerySerivce}
+      binder=android.os.BinderProxy@7493300
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{9b4e739 ProcessRecord{544e354 17863:com.android.mms/u0a21}}
+        Per-process Connections:
+          ConnectionRecord{105dbf2 u0 CR com.qiku.freecall/.service.FreeCallQuerySerivce:@29092fd}
+    All Connections:
+      ConnectionRecord{105dbf2 u0 CR com.qiku.freecall/.service.FreeCallQuerySerivce:@29092fd}
+
+  * ServiceRecord{950899 u0 com.qiku.widget3d/.WidgetService}
+    intent={cmp=com.qiku.widget3d/.WidgetService}
+    packageName=com.qiku.widget3d
+    processName=com.qiku.widget3d
+    baseDir=/data/app/com.qiku.widget3d-1/base.apk
+    dataDir=/data/user/0/com.qiku.widget3d
+    app=ProcessRecord{519f544 3659:com.qiku.widget3d/u0a80}
+    createTime=-2d23h44m51s43ms startingBgTimeout=--
+    lastActivity=-6h28m31s750ms restartTime=-6h28m31s750ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=3
+    restartCount=0 restartDelay=-- nextRestartTime=-6h28m31s781ms crashCount=0
+
+  * ServiceRecord{698723 u0 com.yulong.android.coolsafe/com.qiku.android.configcenter.SyncService}
+    intent={cmp=com.yulong.android.coolsafe/com.qiku.android.configcenter.SyncService}
+    packageName=com.yulong.android.coolsafe
+    processName=com.yulong.android.coolsafe:remote
+    baseDir=/system/priv-app/CP_CoolSafe/CP_CoolSafe.apk
+    dataDir=/data/user/0/com.yulong.android.coolsafe
+    app=ProcessRecord{327d4d4 3890:com.yulong.android.coolsafe:remote/1000}
+    createTime=-2d23h44m47s664ms startingBgTimeout=--
+    lastActivity=-6h8m14s768ms restartTime=-9h47m34s263ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=3
+
+  * ServiceRecord{205fa5f u0 com.qualcomm.qti.modemtestmode/.MbnTestService}
+    intent={cmp=com.qualcomm.qti.modemtestmode/.MbnTestService}
+    packageName=com.qualcomm.qti.modemtestmode
+    processName=com.android.phone
+    baseDir=/system/app/ModemTestMode/ModemTestMode.apk
+    dataDir=/data/user/0/com.qualcomm.qti.modemtestmode
+    app=ProcessRecord{a33baf6 2448:com.android.phone/1001}
+    createTime=-2d3h25m23s707ms startingBgTimeout=--
+    lastActivity=-6h28m41s707ms restartTime=-6h28m41s707ms createdFromFg=false
+    Bindings:
+    * IntentBindRecord{4f9fd18 CREATE}:
+      intent={cmp=com.qualcomm.qti.modemtestmode/.MbnTestService}
+      binder=android.os.BinderProxy@21e4371
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{9d55556 ProcessRecord{30fc567 3626:com.qualcomm.qti.modemtestmode/1000}}
+        Per-process Connections:
+          ConnectionRecord{64fa2fe u0 CR com.qualcomm.qti.modemtestmode/.MbnTestService:@2101eb9}
+    All Connections:
+      ConnectionRecord{64fa2fe u0 CR com.qualcomm.qti.modemtestmode/.MbnTestService:@2101eb9}
+
+  * ServiceRecord{2d889cc u0 com.sina.weibo/.weiyou.refactor.service.DMService}
+    intent={act=action_mps_msg cmp=com.sina.weibo/.weiyou.refactor.service.DMService}
+    packageName=com.sina.weibo
+    processName=com.sina.weibo
+    baseDir=/data/app/com.sina.weibo-2/base.apk
+    dataDir=/data/user/0/com.sina.weibo
+    app=ProcessRecord{cfdd5ac 7573:com.sina.weibo/u0a179}
+    createTime=-1h26m58s615ms startingBgTimeout=-1h26m43s611ms
+    lastActivity=-4m18s515ms restartTime=-1h26m58s612ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=92
+
+  * ServiceRecord{7b77d95 u0 com.android.location.fused/.FusedLocationService}
+    intent={act=com.android.location.service.FusedLocationProvider pkg=com.android.location.fused}
+    packageName=com.android.location.fused
+    processName=system
+    permission=android.permission.WRITE_SECURE_SETTINGS
+    baseDir=/system/priv-app/FusedLocation/FusedLocation.apk
+    dataDir=/data/user/0/com.android.location.fused
+    app=ProcessRecord{7b91e42 1546:system/1000}
+    createTime=-2d23h44m54s605ms startingBgTimeout=--
+    lastActivity=-9h47m41s220ms restartTime=-9h47m41s225ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{659b9d7 CREATE}:
+      intent={act=com.android.location.service.FusedLocationProvider pkg=com.android.location.fused}
+      binder=com.android.location.provider.LocationProviderBase$Service@e1dd2c4
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{82a5ad ProcessRecord{7b91e42 1546:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{12b4d7c u0 CR !FG !VIS com.android.location.fused/.FusedLocationService:@94a0c6f}
+          ConnectionRecord{ed0f94c u0 CR !FG !VIS com.android.location.fused/.FusedLocationService:@9aec57f}
+    All Connections:
+      ConnectionRecord{12b4d7c u0 CR !FG !VIS com.android.location.fused/.FusedLocationService:@94a0c6f}
+      ConnectionRecord{ed0f94c u0 CR !FG !VIS com.android.location.fused/.FusedLocationService:@9aec57f}
+
+  * ServiceRecord{1a138f1 u0 com.amap.android.location/.GeocodeService}
+    intent={act=com.android.location.service.GeocodeProvider pkg=com.amap.android.location}
+    packageName=com.amap.android.location
+    processName=com.amap.android.location
+    permission=android.permission.WRITE_SECURE_SETTINGS
+    baseDir=/system/app/CP_3RD_GaoDe_NetworkLocation/CP_3RD_GaoDe_NetworkLocation.apk
+    dataDir=/data/user/0/com.amap.android.location
+    app=ProcessRecord{79502f8 2873:com.amap.android.location/u0a40}
+    createTime=-2d23h44m54s597ms startingBgTimeout=--
+    lastActivity=-9h47m39s675ms restartTime=-9h47m41s213ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{6e970e2 CREATE}:
+      intent={act=com.android.location.service.GeocodeProvider pkg=com.amap.android.location}
+      binder=android.os.BinderProxy@2961c73
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{a875730 ProcessRecord{7b91e42 1546:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{1d93166 u0 CR !FG !VIS com.amap.android.location/.GeocodeService:@e36c5c1}
+          ConnectionRecord{3248ecb u0 CR !FG !VIS com.amap.android.location/.GeocodeService:@3ab559a}
+    All Connections:
+      ConnectionRecord{3248ecb u0 CR !FG !VIS com.amap.android.location/.GeocodeService:@3ab559a}
+      ConnectionRecord{1d93166 u0 CR !FG !VIS com.amap.android.location/.GeocodeService:@e36c5c1}
+
+  * ServiceRecord{4a56137 u0 com.amap.android.location/.internal.server.NetworkLocationService}
+    intent={act=com.amap.android.location.internal.ANDROID_NLP pkg=com.amap.android.location}
+    packageName=com.amap.android.location
+    processName=com.amap.android.location
+    baseDir=/system/app/CP_3RD_GaoDe_NetworkLocation/CP_3RD_GaoDe_NetworkLocation.apk
+    dataDir=/data/user/0/com.amap.android.location
+    app=ProcessRecord{79502f8 2873:com.amap.android.location/u0a40}
+    createTime=-2d23h44m54s540ms startingBgTimeout=--
+    lastActivity=-9h47m41s160ms restartTime=-9h47m41s160ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{750efa9 CREATE}:
+      intent={act=com.amap.android.location.internal.ANDROID_NLP pkg=com.amap.android.location}
+      binder=android.os.BinderProxy@c31b92e
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{f2c0ccf ProcessRecord{79502f8 2873:com.amap.android.location/u0a40}}
+        Per-process Connections:
+          ConnectionRecord{4b37e36 u0 CR com.amap.android.location/.internal.server.NetworkLocationService:@52a03d1}
+    All Connections:
+      ConnectionRecord{4b37e36 u0 CR com.amap.android.location/.internal.server.NetworkLocationService:@52a03d1}
+
+  * ServiceRecord{8c2b65c u0 com.moji.mjweather/com.igexin.sdk.PushService}
+    intent={cmp=com.moji.mjweather/com.igexin.sdk.PushService}
+    packageName=com.moji.mjweather
+    processName=com.moji.mjweather:pushservice
+    baseDir=/data/app/com.moji.mjweather-1/base.apk
+    dataDir=/data/user/0/com.moji.mjweather
+    app=null
+    createTime=-2d3h17m14s765ms startingBgTimeout=--
+    lastActivity=-6h20m32s766ms restartTime=-- createdFromFg=true
+
+  * ServiceRecord{59fdd65 u0 com.android.bluetooth/.map.BluetoothMapService}
+    intent={act=android.bluetooth.IBluetoothMap cmp=com.android.bluetooth/.map.BluetoothMapService}
+    packageName=com.android.bluetooth
+    processName=com.android.bluetooth
+    baseDir=/system/app/CP_Bluetooth/CP_Bluetooth.apk
+    dataDir=/data/user/0/com.android.bluetooth
+    app=null
+    createTime=-2d23h44m56s252ms startingBgTimeout=--
+    lastActivity=-9h47m42s873ms restartTime=-- createdFromFg=false
+    Bindings:
+    * IntentBindRecord{ba43a3a}:
+      intent={act=android.bluetooth.IBluetoothMap cmp=com.android.bluetooth/.map.BluetoothMapService}
+      binder=null
+      requested=false received=false hasBound=false doRebind=false
+      * Client AppBindRecord{186a6eb ProcessRecord{22fe0fd 2025:com.android.systemui/u0a32}}
+        Per-process Connections:
+          ConnectionRecord{81e8ff9 u0 com.android.bluetooth/.map.BluetoothMapService:@7a106c0}
+    All Connections:
+      ConnectionRecord{81e8ff9 u0 com.android.bluetooth/.map.BluetoothMapService:@7a106c0}
+
+  * ServiceRecord{4326ca u0 com.android.defcontainer/.DefaultContainerService}
+    intent={cmp=com.android.defcontainer/.DefaultContainerService}
+    packageName=com.android.defcontainer
+    processName=com.android.defcontainer
+    permission=android.permission.COPY_PROTECTED_DATA
+    baseDir=/system/priv-app/DefaultContainerService/DefaultContainerService.apk
+    dataDir=/data/user/0/com.android.defcontainer
+    app=ProcessRecord{1f2dc48 3534:com.android.defcontainer/u0a19}
+    createTime=-2d23h44m59s229ms startingBgTimeout=--
+    lastActivity=-8m36s616ms restartTime=-9h47m36s746ms createdFromFg=true
+    startRequested=false delayedStop=false stopIfKilled=true callStart=false lastStartId=4
+    Bindings:
+    * IntentBindRecord{b35eae1 CREATE}:
+      intent={cmp=com.android.defcontainer/.DefaultContainerService}
+      binder=android.os.BinderProxy@e8bc006
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{a6c6c7 ProcessRecord{7b91e42 1546:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{4c13390 u0 CR com.android.defcontainer/.DefaultContainerService:@a162e53}
+    All Connections:
+      ConnectionRecord{4c13390 u0 CR com.android.defcontainer/.DefaultContainerService:@a162e53}
+
+  * ServiceRecord{f69820 u0 com.android.phone/.TelephonyDebugService}
+    intent={cmp=com.android.phone/.TelephonyDebugService}
+    packageName=com.android.phone
+    processName=com.android.phone
+    baseDir=/system/priv-app/TeleService/TeleService.apk
+    dataDir=/data/user/0/com.android.phone
+    app=ProcessRecord{a33baf6 2448:com.android.phone/1001}
+    createTime=-2d23h44m55s185ms startingBgTimeout=--
+    lastActivity=-9h47m41s805ms restartTime=-9h47m41s805ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+
+  * ServiceRecord{dd803ac u0 com.tencent.mobileqq/com.tencent.tmdownloader.TMAssistantDownloadService}
+    intent={cmp=com.tencent.mobileqq/com.tencent.tmdownloader.TMAssistantDownloadService}
+    packageName=com.tencent.mobileqq
+    processName=com.tencent.mobileqq:TMAssistantDownloadSDKService
+    baseDir=/data/app/com.tencent.mobileqq-1/base.apk
+    dataDir=/data/user/0/com.tencent.mobileqq
+    app=ProcessRecord{f9021f8 3727:com.tencent.mobileqq:TMAssistantDownloadSDKService/u0a111}
+    createTime=-2d23h35m6s99ms startingBgTimeout=--
+    lastActivity=-4h12m29s596ms restartTime=-6h27m11s741ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=21
+    restartCount=0 restartDelay=-- nextRestartTime=-6h27m11s777ms crashCount=0
+    Bindings:
+    * IntentBindRecord{c7d74f4 CREATE}:
+      intent={cmp=com.tencent.mobileqq/com.tencent.tmdownloader.TMAssistantDownloadService}
+      binder=android.os.BinderProxy@3c5541d
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{613d692 ProcessRecord{f9021f8 3727:com.tencent.mobileqq:TMAssistantDownloadSDKService/u0a111}}
+        Per-process Connections:
+          ConnectionRecord{9593536 u0 CR com.tencent.mobileqq/com.tencent.tmdownloader.TMAssistantDownloadService:@88836d1}
+    All Connections:
+      ConnectionRecord{9593536 u0 CR com.tencent.mobileqq/com.tencent.tmdownloader.TMAssistantDownloadService:@88836d1}
+
+  * ServiceRecord{d82c7e6 u0 com.eg.android.AlipayGphone/anetwork.channel.aidl.NetworkService}
+    intent={act=anetwork.channel.aidl.IRemoteNetworkGetter cat=[android.intent.category.DEFAULT] cmp=com.eg.android.AlipayGphone/anetwork.channel.aidl.NetworkService}
+    packageName=com.eg.android.AlipayGphone
+    processName=com.eg.android.AlipayGphone
+    baseDir=/data/app/com.eg.android.AlipayGphone-1/base.apk
+    dataDir=/data/user/0/com.eg.android.AlipayGphone
+    app=ProcessRecord{67c0f6d 5404:com.eg.android.AlipayGphone/u0a197}
+    createTime=-1h26m58s936ms startingBgTimeout=--
+    lastActivity=-1h26m58s935ms restartTime=-1h26m58s935ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{8bf0863 CREATE}:
+      intent={act=anetwork.channel.aidl.IRemoteNetworkGetter cat=[android.intent.category.DEFAULT] cmp=com.eg.android.AlipayGphone/anetwork.channel.aidl.NetworkService}
+      binder=android.os.BinderProxy@d76ec60
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{9e81519 ProcessRecord{67c0f6d 5404:com.eg.android.AlipayGphone/u0a197}}
+        Per-process Connections:
+          ConnectionRecord{7c6a641 u0 CR com.eg.android.AlipayGphone/anetwork.channel.aidl.NetworkService:@b6de928}
+    All Connections:
+      ConnectionRecord{7c6a641 u0 CR com.eg.android.AlipayGphone/anetwork.channel.aidl.NetworkService:@b6de928}
+
+  * ServiceRecord{ccce3cb u0 com.qihoo.appstore/com.qihoo.core.CoreService}
+    intent={act=android.intent.action.PACKAGE_REMOVED dat=package:com.qihoo.appstore pkg=com.qihoo.appstore cmp=com.qihoo.appstore/com.qihoo.core.CoreService}
+    packageName=com.qihoo.appstore
+    processName=com.qihoo.daemon
+    baseDir=/data/app/com.qihoo.appstore-2/base.apk
+    dataDir=/data/user/0/com.qihoo.appstore
+    app=ProcessRecord{5d48ed5 30643:com.qihoo.daemon/u0a10}
+    createTime=-1d15h35m0s311ms startingBgTimeout=--
+    lastActivity=-1m54s162ms restartTime=-3h56m55s837ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=25
+
+  * ServiceRecord{dc66969 u0 com.qihoo360.mobilesafe/.service.GuardCoreService}
+    intent={cmp=com.qihoo360.mobilesafe/.service.GuardCoreService}
+    packageName=com.qihoo360.mobilesafe
+    processName=com.qihoo360.mobilesafe:GuardService
+    baseDir=/system/priv-app/BY_3RD_360MobileSafe/BY_3RD_360MobileSafe.apk
+    dataDir=/data/user/0/com.qihoo360.mobilesafe
+    app=ProcessRecord{d8bcfd5 32677:com.qihoo360.mobilesafe:GuardService/u0a4}
+    isForeground=true foregroundId=1 foregroundNoti=Notification(pri=2 contentView=com.qihoo360.mobilesafe/0x7f030062 vibrate=null sound=null tick defaults=0x0 flags=0x62 color=0x00000000 vis=PRIVATE)
+    createTime=-2d23h44m56s216ms startingBgTimeout=-9h47m27s834ms
+    lastActivity=-6h28m51s456ms restartTime=-6h28m58s744ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=false callStart=false lastStartId=10
+    restartCount=0 restartDelay=-- nextRestartTime=-6h26m41s776ms crashCount=0
+    Bindings:
+    * IntentBindRecord{894c9de CREATE}:
+      intent={cmp=com.qihoo360.mobilesafe/.service.GuardCoreService}
+      binder=null
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{c8fc7bf ProcessRecord{d8bcfd5 32677:com.qihoo360.mobilesafe:GuardService/u0a4}}
+        Per-process Connections:
+          ConnectionRecord{c0476db u0 CR com.qihoo360.mobilesafe/.service.GuardCoreService:@19893ea}
+    All Connections:
+      ConnectionRecord{c0476db u0 CR com.qihoo360.mobilesafe/.service.GuardCoreService:@19893ea}
+
+  * ServiceRecord{ceb7e8b u0 com.tencent.mobileqq/.msf.service.MsfService}
+    intent={cmp=com.tencent.mobileqq/.msf.service.MsfService}
+    packageName=com.tencent.mobileqq
+    processName=com.tencent.mobileqq:MSF
+    baseDir=/data/app/com.tencent.mobileqq-1/base.apk
+    dataDir=/data/user/0/com.tencent.mobileqq
+    app=ProcessRecord{55faeb7 32603:com.tencent.mobileqq:MSF/u0a111}
+    createTime=-2d23h44m52s32ms startingBgTimeout=-6h28m49s586ms
+    lastActivity=-12m20s396ms restartTime=-6h29m4s494ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=36
+    restartCount=0 restartDelay=-- nextRestartTime=-6h27m21s777ms crashCount=0
+    Bindings:
+    * IntentBindRecord{4ce6e8c CREATE}:
+      intent={cmp=com.tencent.mobileqq/.msf.service.MsfService}
+      binder=android.os.BinderProxy@ddbe9d5
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{8320db ProcessRecord{f9021f8 3727:com.tencent.mobileqq:TMAssistantDownloadSDKService/u0a111}}
+        Per-process Connections:
+          ConnectionRecord{bc5ee2c u0 CR com.tencent.mobileqq/.msf.service.MsfService:@8fd01df}
+      * Client AppBindRecord{39e778 ProcessRecord{fc621e8 8524:com.tencent.mobileqq/u0a111}}
+        Per-process Connections:
+          ConnectionRecord{1558ea6 u0 CR com.tencent.mobileqq/.msf.service.MsfService:@7215001}
+    All Connections:
+      ConnectionRecord{1558ea6 u0 CR com.tencent.mobileqq/.msf.service.MsfService:@7215001}
+      ConnectionRecord{bc5ee2c u0 CR com.tencent.mobileqq/.msf.service.MsfService:@8fd01df}
+
+  * ServiceRecord{7721852 u0 com.yulong.android.coolsafe/.ui.service.apklock.ApplockInitService}
+    intent={cmp=com.yulong.android.coolsafe/.ui.service.apklock.ApplockInitService}
+    packageName=com.yulong.android.coolsafe
+    processName=com.yulong.android.coolsafe:remote
+    baseDir=/system/priv-app/CP_CoolSafe/CP_CoolSafe.apk
+    dataDir=/data/user/0/com.yulong.android.coolsafe
+    app=ProcessRecord{327d4d4 3890:com.yulong.android.coolsafe:remote/1000}
+    createTime=-2d23h44m47s695ms startingBgTimeout=--
+    lastActivity=-6h8m14s772ms restartTime=-9h47m34s266ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=3
+
+  * ServiceRecord{bfe4e51 u0 com.sina.news/com.igexin.sdk.PushService}
+    intent={cmp=com.sina.news/com.igexin.sdk.PushService}
+    packageName=com.sina.news
+    processName=com.sina.news:pushservice
+    baseDir=/data/app/com.sina.news-2/base.apk
+    dataDir=/data/user/0/com.sina.news
+    app=null
+    createTime=-2d3h17m14s745ms startingBgTimeout=--
+    lastActivity=-6h20m32s746ms restartTime=-- createdFromFg=true
+
+  Connection bindings to services:
+  * ConnectionRecord{8d89672 u0 CR com.qiku.configcenter/.ConfigCenterService:@67a77d}
+    binding=AppBindRecord{566772f com.qiku.configcenter/.ConfigCenterService:com.qiku.healthguard}
+    conn=android.os.BinderProxy@67a77d flags=0x1
+  * ConnectionRecord{b4203bd u0 CR com.qualcomm.qcrilmsgtunnel/.QcrilMsgTunnelService:@869f14}
+    binding=AppBindRecord{9f80d9c com.qualcomm.qcrilmsgtunnel/.QcrilMsgTunnelService:com.qualcomm.qti.modemtestmode}
+    conn=android.os.BinderProxy@869f14 flags=0x1
+  * ConnectionRecord{7d07851 u0 CR FGSA UI com.android.systemui/.ImageWallpaper:@b27978}
+    binding=AppBindRecord{2293528 com.android.systemui/.ImageWallpaper:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@b27978 flags=0x22000001
+  * ConnectionRecord{39f9c3a u0 CR DEAD com.tencent.android.qqdownloader/com.tencent.assistant.sdk.SDKSupportService:@c38765}
+    binding=AppBindRecord{aca36b6 com.tencent.android.qqdownloader/com.tencent.assistant.sdk.SDKSupportService:com.tencent.mobileqq:TMAssistantDownloadSDKService}
+    conn=android.os.BinderProxy@c38765 flags=0x1
+  * ConnectionRecord{b6b60eb u0 CR DEAD com.tencent.android.qqdownloader/com.tencent.assistant.sdk.SDKSupportService:@c38765}
+    binding=AppBindRecord{aca36b6 com.tencent.android.qqdownloader/com.tencent.assistant.sdk.SDKSupportService:com.tencent.mobileqq:TMAssistantDownloadSDKService}
+    conn=android.os.BinderProxy@c38765 flags=0x1
+  * ConnectionRecord{8b3418a u0 CR com.qualcomm.qcrilmsgtunnel/.QcrilMsgTunnelService:@1142ff5}
+    binding=AppBindRecord{56b83a5 com.qualcomm.qcrilmsgtunnel/.QcrilMsgTunnelService:com.android.phone}
+    conn=android.os.BinderProxy@1142ff5 flags=0x1
+  * ConnectionRecord{637cabc u0 CR !FG !VIS com.amap.android.location/.NetworkLocationService:@17136af}
+    binding=AppBindRecord{e97817d com.amap.android.location/.NetworkLocationService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@17136af flags=0x40000005
+  * ConnectionRecord{a06b4b u0 CR com.qiku.configcenter/.ConfigCenterService:@172d41a}
+    binding=AppBindRecord{43d10e com.qiku.configcenter/.ConfigCenterService:com.qiku.powermaster}
+    conn=android.os.BinderProxy@172d41a flags=0x1
+  * ConnectionRecord{2749f45 u0 CR DEAD com.tencent.android.qqdownloader/com.tencent.assistant.sdk.SDKSupportService:@18bd3bc}
+    binding=AppBindRecord{b88efb7 com.tencent.android.qqdownloader/com.tencent.assistant.sdk.SDKSupportService:com.tencent.mobileqq:TMAssistantDownloadSDKService}
+    conn=android.os.BinderProxy@18bd3bc flags=0x1
+  * ConnectionRecord{cc4eac1 u0 CR DEAD com.tencent.android.qqdownloader/com.tencent.assistant.sdk.SDKSupportService:@18bd3bc}
+    binding=AppBindRecord{b88efb7 com.tencent.android.qqdownloader/com.tencent.assistant.sdk.SDKSupportService:com.tencent.mobileqq:TMAssistantDownloadSDKService}
+    conn=android.os.BinderProxy@18bd3bc flags=0x1
+  * ConnectionRecord{c0476db u0 CR com.qihoo360.mobilesafe/.service.GuardCoreService:@19893ea}
+    binding=AppBindRecord{c8fc7bf com.qihoo360.mobilesafe/.service.GuardCoreService:com.qihoo360.mobilesafe:GuardService}
+    conn=android.os.BinderProxy@19893ea flags=0x1
+  * ConnectionRecord{64fa2fe u0 CR com.qualcomm.qti.modemtestmode/.MbnTestService:@2101eb9}
+    binding=AppBindRecord{9d55556 com.qualcomm.qti.modemtestmode/.MbnTestService:com.qualcomm.qti.modemtestmode}
+    conn=android.os.BinderProxy@2101eb9 flags=0x1
+  * ConnectionRecord{a87fcbe u0 CR com.android.systemui/.keyguard.KeyguardService:@26ec779}
+    binding=AppBindRecord{c4fd136 com.android.systemui/.keyguard.KeyguardService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@26ec779 flags=0x1
+  * ConnectionRecord{91e7dff u0 com.android.bluetooth/.hfp.HeadsetService:@26f711e}
+    binding=AppBindRecord{bc5eddf com.android.bluetooth/.hfp.HeadsetService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@26f711e flags=0x0
+  * ConnectionRecord{69e75d0 u0 CR com.yulong.android.launcher3/com.amap.api.location.APSService:@2721193}
+    binding=AppBindRecord{b01bf2a com.yulong.android.launcher3/com.amap.api.location.APSService:com.yulong.android.launcher3}
+    conn=android.os.BinderProxy@2721193 flags=0x1
+  * ConnectionRecord{39d812a u0 CR FGS com.yulong.android.launcher3/.badge.NotificationListener:@2872a15}
+    binding=AppBindRecord{5438140 com.yulong.android.launcher3/.badge.NotificationListener:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@2872a15 flags=0x4000001
+  * ConnectionRecord{105dbf2 u0 CR com.qiku.freecall/.service.FreeCallQuerySerivce:@29092fd}
+    binding=AppBindRecord{9b4e739 com.qiku.freecall/.service.FreeCallQuerySerivce:com.android.mms}
+    conn=android.os.BinderProxy@29092fd flags=0x1
+  * ConnectionRecord{5062600 u0 CR FGS com.android.dialer/com.android.incallui.InCallServiceImpl:@2c6a483}
+    binding=AppBindRecord{242f3f7 com.android.dialer/com.android.incallui.InCallServiceImpl:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@2c6a483 flags=0x4000001
+  * ConnectionRecord{7af32b5 u0 com.android.bluetooth/.pbap.BluetoothPbapService:@2efceec}
+    binding=AppBindRecord{4b493ca com.android.bluetooth/.pbap.BluetoothPbapService:com.android.systemui}
+    conn=android.os.BinderProxy@2efceec flags=0x0
+  * ConnectionRecord{fced96b u0 CR com.qiku.configcenter/.ConfigCenterService:@2fba6ba}
+    binding=AppBindRecord{bbfcac2 com.qiku.configcenter/.ConfigCenterService:com.qiku.logsystem}
+    conn=android.os.BinderProxy@2fba6ba flags=0x1
+  * ConnectionRecord{3248ecb u0 CR !FG !VIS com.amap.android.location/.GeocodeService:@3ab559a}
+    binding=AppBindRecord{a875730 com.amap.android.location/.GeocodeService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@3ab559a flags=0x40000005
+  * ConnectionRecord{4fd3441 u0 CR com.qihoo.appstore/com.morgoo.droidplugin.PluginManagerService:@44def28}
+    binding=AppBindRecord{7ecd432 com.qihoo.appstore/com.morgoo.droidplugin.PluginManagerService:com.qihoo.appstore}
+    conn=android.os.BinderProxy@44def28 flags=0x1
+  * ConnectionRecord{d460919 u0 CR com.tencent.mobileqq/.qipc.QIPCServiceEx:@4843060}
+    binding=AppBindRecord{d9e7434 com.tencent.mobileqq/.qipc.QIPCServiceEx:com.tencent.mobileqq:TMAssistantDownloadSDKService}
+    conn=android.os.BinderProxy@4843060 flags=0x1
+  * ConnectionRecord{7ae4827 u0 CR com.tencent.mobileqq/.qipc.QIPCServiceEx:@4843060}
+    binding=AppBindRecord{d9e7434 com.tencent.mobileqq/.qipc.QIPCServiceEx:com.tencent.mobileqq:TMAssistantDownloadSDKService}
+    conn=android.os.BinderProxy@4843060 flags=0x1
+  * ConnectionRecord{93aaa64 u0 CR com.tencent.mobileqq/.qipc.QIPCServiceEx:@4843060}
+    binding=AppBindRecord{d9e7434 com.tencent.mobileqq/.qipc.QIPCServiceEx:com.tencent.mobileqq:TMAssistantDownloadSDKService}
+    conn=android.os.BinderProxy@4843060 flags=0x1
+  * ConnectionRecord{c402548 u0 CR com.qiku.cardmanager/.CardManagerService:@50773eb}
+    binding=AppBindRecord{ee98a1f com.qiku.cardmanager/.CardManagerService:com.yulong.android.launcher3}
+    conn=android.os.BinderProxy@50773eb flags=0x1
+  * ConnectionRecord{eb7078 u0 CR com.qiku.cardmanager/.CardManagerService:@50773eb}
+    binding=AppBindRecord{ee98a1f com.qiku.cardmanager/.CardManagerService:com.yulong.android.launcher3}
+    conn=android.os.BinderProxy@50773eb flags=0x1
+  * ConnectionRecord{553a351 u0 CR com.qiku.cardmanager/.CardManagerService:@50773eb}
+    binding=AppBindRecord{ee98a1f com.qiku.cardmanager/.CardManagerService:com.yulong.android.launcher3}
+    conn=android.os.BinderProxy@50773eb flags=0x1
+  * ConnectionRecord{20567b6 u0 CR com.qiku.cardmanager/.CardManagerService:@50773eb}
+    binding=AppBindRecord{ee98a1f com.qiku.cardmanager/.CardManagerService:com.yulong.android.launcher3}
+    conn=android.os.BinderProxy@50773eb flags=0x1
+  * ConnectionRecord{eaaccb7 u0 CR com.qiku.cardmanager/.CardManagerService:@50773eb}
+    binding=AppBindRecord{ee98a1f com.qiku.cardmanager/.CardManagerService:com.yulong.android.launcher3}
+    conn=android.os.BinderProxy@50773eb flags=0x1
+  * ConnectionRecord{5a31c24 u0 CR com.qiku.cardmanager/.CardManagerService:@50773eb}
+    binding=AppBindRecord{ee98a1f com.qiku.cardmanager/.CardManagerService:com.yulong.android.launcher3}
+    conn=android.os.BinderProxy@50773eb flags=0x1
+  * ConnectionRecord{de238d u0 CR com.qiku.cardmanager/.CardManagerService:@50773eb}
+    binding=AppBindRecord{ee98a1f com.qiku.cardmanager/.CardManagerService:com.yulong.android.launcher3}
+    conn=android.os.BinderProxy@50773eb flags=0x1
+  * ConnectionRecord{9784942 u0 CR com.qiku.cardmanager/.CardManagerService:@50773eb}
+    binding=AppBindRecord{ee98a1f com.qiku.cardmanager/.CardManagerService:com.yulong.android.launcher3}
+    conn=android.os.BinderProxy@50773eb flags=0x1
+  * ConnectionRecord{9957d53 u0 CR com.qiku.cardmanager/.CardManagerService:@50773eb}
+    binding=AppBindRecord{ee98a1f com.qiku.cardmanager/.CardManagerService:com.yulong.android.launcher3}
+    conn=android.os.BinderProxy@50773eb flags=0x1
+  * ConnectionRecord{4b37e36 u0 CR com.amap.android.location/.internal.server.NetworkLocationService:@52a03d1}
+    binding=AppBindRecord{f2c0ccf com.amap.android.location/.internal.server.NetworkLocationService:com.amap.android.location}
+    conn=android.os.BinderProxy@52a03d1 flags=0x1
+  * ConnectionRecord{f19043 u0 com.android.bluetooth/.hid.HidService:@59e11f2}
+    binding=AppBindRecord{8616f47 com.android.bluetooth/.hid.HidService:com.android.systemui}
+    conn=android.os.BinderProxy@59e11f2 flags=0x0
+  * ConnectionRecord{cbf7224 u0 CR DEAD com.android.smspush/.WapPushManager:@5cabab7}
+    binding=AppBindRecord{e20324 com.android.smspush/.WapPushManager:com.android.phone}
+    conn=android.os.BinderProxy@5cabab7 flags=0x1
+  * ConnectionRecord{4077c84 u0 CR com.qiku.configcenter/.ConfigCenterService:@61cf297}
+    binding=AppBindRecord{f3efb09 com.qiku.configcenter/.ConfigCenterService:com.yulong.android.launcher3}
+    conn=android.os.BinderProxy@61cf297 flags=0x1
+  * ConnectionRecord{f84f6dd u0 com.android.bluetooth/.hfp.HeadsetService:@63eeab4}
+    binding=AppBindRecord{bc5eddf com.android.bluetooth/.hfp.HeadsetService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@63eeab4 flags=0x0
+  * ConnectionRecord{691e292 u0 CR com.qiku.configcenter/.ConfigCenterService:@684101d}
+    binding=AppBindRecord{47ca0d3 com.qiku.configcenter/.ConfigCenterService:com.qiku.magazine}
+    conn=android.os.BinderProxy@684101d flags=0x1
+  * ConnectionRecord{6cb4e02 u0 com.android.bluetooth/.hfp.HeadsetService:@6bb434d}
+    binding=AppBindRecord{b3a6a2c com.android.bluetooth/.hfp.HeadsetService:com.android.phone}
+    conn=android.os.BinderProxy@6bb434d flags=0x0
+  * ConnectionRecord{1558ea6 u0 CR com.tencent.mobileqq/.msf.service.MsfService:@7215001}
+    binding=AppBindRecord{39e778 com.tencent.mobileqq/.msf.service.MsfService:com.tencent.mobileqq}
+    conn=android.os.BinderProxy@7215001 flags=0x1
+  * ConnectionRecord{9027058 u0 CR com.qihoo.appstore/com.morgoo.droidplugin.PluginManagerService:@726c13b}
+    binding=AppBindRecord{36b58c9 com.qihoo.appstore/com.morgoo.droidplugin.PluginManagerService:com.qihoo.appstore:PluginP01}
+    conn=android.os.BinderProxy@726c13b flags=0x1
+  * ConnectionRecord{81e8ff9 u0 com.android.bluetooth/.map.BluetoothMapService:@7a106c0}
+    binding=AppBindRecord{186a6eb com.android.bluetooth/.map.BluetoothMapService:com.android.systemui}
+    conn=android.os.BinderProxy@7a106c0 flags=0x0
+  * ConnectionRecord{892ed9f u0 org.codeaurora.bluetooth/.dun.BluetoothDunService:@8775b3e}
+    binding=AppBindRecord{64c9e17 org.codeaurora.bluetooth/.dun.BluetoothDunService:com.android.systemui}
+    conn=android.os.BinderProxy@8775b3e flags=0x0
+  * ConnectionRecord{9593536 u0 CR com.tencent.mobileqq/com.tencent.tmdownloader.TMAssistantDownloadService:@88836d1}
+    binding=AppBindRecord{613d692 com.tencent.mobileqq/com.tencent.tmdownloader.TMAssistantDownloadService:com.tencent.mobileqq:TMAssistantDownloadSDKService}
+    conn=android.os.BinderProxy@88836d1 flags=0x1
+  * ConnectionRecord{42ca6b9 u0 CR IMP FGS com.android.server.telecom/.components.TelecomService:@8d24080}
+    binding=AppBindRecord{f701c94 com.android.server.telecom/.components.TelecomService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@8d24080 flags=0x4000041
+  * ConnectionRecord{bc5ee2c u0 CR com.tencent.mobileqq/.msf.service.MsfService:@8fd01df}
+    binding=AppBindRecord{8320db com.tencent.mobileqq/.msf.service.MsfService:com.tencent.mobileqq:TMAssistantDownloadSDKService}
+    conn=android.os.BinderProxy@8fd01df flags=0x1
+  * ConnectionRecord{e5879f2 u0 CR !FG UI !VIS com.koushikdutta.vysor/.VysorIME:@932e8fd}
+    binding=AppBindRecord{a2da3da com.koushikdutta.vysor/.VysorIME:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@932e8fd flags=0x60000005
+  * ConnectionRecord{12b4d7c u0 CR !FG !VIS com.android.location.fused/.FusedLocationService:@94a0c6f}
+    binding=AppBindRecord{82a5ad com.android.location.fused/.FusedLocationService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@94a0c6f flags=0x40000005
+  * ConnectionRecord{f0fa0c6 u0 CR com.android.providers.media/.MtpService:@94dd6a1}
+    binding=AppBindRecord{e7c6e00 com.android.providers.media/.MtpService:android.process.media}
+    conn=android.os.BinderProxy@94dd6a1 flags=0x1
+  * ConnectionRecord{ed0f94c u0 CR !FG !VIS com.android.location.fused/.FusedLocationService:@9aec57f}
+    binding=AppBindRecord{82a5ad com.android.location.fused/.FusedLocationService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@9aec57f flags=0x40000005
+  * ConnectionRecord{f329f0d u0 CR com.eg.android.AlipayGphone/mtopsdk.xstate.XStateService:@9d655a4}
+    binding=AppBindRecord{c55615b com.eg.android.AlipayGphone/mtopsdk.xstate.XStateService:com.eg.android.AlipayGphone}
+    conn=android.os.BinderProxy@9d655a4 flags=0x1
+  * ConnectionRecord{7fd45ff u0 CR com.qihoo.appstore/com.qihoo360.accounts.sso.svc.AccountService:@9ec591e}
+    binding=AppBindRecord{7d3443d com.qihoo.appstore/com.qihoo360.accounts.sso.svc.AccountService:com.qihoo.appstore}
+    conn=android.os.BinderProxy@9ec591e flags=0x1
+  * ConnectionRecord{7d974d3 u0 CR DEAD com.tencent.android.qqdownloader/com.tencent.assistant.sdk.SDKSupportService:@9fb6ec2}
+    binding=AppBindRecord{f087e8d com.tencent.android.qqdownloader/com.tencent.assistant.sdk.SDKSupportService:com.tencent.mobileqq:TMAssistantDownloadSDKService}
+    conn=android.os.BinderProxy@9fb6ec2 flags=0x1
+  * ConnectionRecord{3e000f5 u0 CR DEAD com.tencent.android.qqdownloader/com.tencent.assistant.sdk.SDKSupportService:@9fb6ec2}
+    binding=AppBindRecord{f087e8d com.tencent.android.qqdownloader/com.tencent.assistant.sdk.SDKSupportService:com.tencent.mobileqq:TMAssistantDownloadSDKService}
+    conn=android.os.BinderProxy@9fb6ec2 flags=0x1
+  * ConnectionRecord{4c13390 u0 CR com.android.defcontainer/.DefaultContainerService:@a162e53}
+    binding=AppBindRecord{a6c6c7 com.android.defcontainer/.DefaultContainerService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@a162e53 flags=0x1
+  * ConnectionRecord{671e590 u0 CR !FG !VIS com.amap.android.location/.NetworkLocationService:@a326853}
+    binding=AppBindRecord{e97817d com.amap.android.location/.NetworkLocationService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@a326853 flags=0x40000005
+  * ConnectionRecord{b61e972 u0 CR com.qiku.configcenter/.ConfigCenterService:@ac6667d}
+    binding=AppBindRecord{74bb0d com.qiku.configcenter/.ConfigCenterService:com.yulong.android.coolsafe:remote}
+    conn=android.os.BinderProxy@ac6667d flags=0x1
+  * ConnectionRecord{5fad700 u0 CR com.qiku.android.cloudsync/com.coolcloud.uac.android.authenticator.AuthenticationService:@acb7983}
+    binding=AppBindRecord{ae7003f com.qiku.android.cloudsync/com.coolcloud.uac.android.authenticator.AuthenticationService:com.qiku.android.cloudsync}
+    conn=android.os.BinderProxy@acb7983 flags=0x1
+  * ConnectionRecord{afffc33 u0 CR com.eg.android.AlipayGphone/com.alipay.pushsdk.push.NotificationService:@ad3f7a2}
+    binding=AppBindRecord{14289fc com.eg.android.AlipayGphone/com.alipay.pushsdk.push.NotificationService:com.eg.android.AlipayGphone}
+    conn=android.os.BinderProxy@ad3f7a2 flags=0x1
+  * ConnectionRecord{2b4288f u0 CR com.eg.android.AlipayGphone/com.alipay.pushsdk.push.NotificationService:@ad3f7a2}
+    binding=AppBindRecord{14289fc com.eg.android.AlipayGphone/com.alipay.pushsdk.push.NotificationService:com.eg.android.AlipayGphone}
+    conn=android.os.BinderProxy@ad3f7a2 flags=0x1
+  * ConnectionRecord{f73438 u0 CR com.eg.android.AlipayGphone/com.alipay.pushsdk.push.NotificationService:@ad3f7a2}
+    binding=AppBindRecord{14289fc com.eg.android.AlipayGphone/com.alipay.pushsdk.push.NotificationService:com.eg.android.AlipayGphone}
+    conn=android.os.BinderProxy@ad3f7a2 flags=0x1
+  * ConnectionRecord{d37c164 u0 CR DEAD com.android.smspush/.WapPushManager:@b41bef7}
+    binding=AppBindRecord{e20324 com.android.smspush/.WapPushManager:com.android.phone}
+    conn=android.os.BinderProxy@b41bef7 flags=0x1
+  * ConnectionRecord{6149762 u0 CR com.qiku.configcenter/.ConfigCenterService:@b60562d}
+    binding=AppBindRecord{842f410 com.qiku.configcenter/.ConfigCenterService:com.qiku.widget3d}
+    conn=android.os.BinderProxy@b60562d flags=0x1
+  * ConnectionRecord{7c6a641 u0 CR com.eg.android.AlipayGphone/anetwork.channel.aidl.NetworkService:@b6de928}
+    binding=AppBindRecord{9e81519 com.eg.android.AlipayGphone/anetwork.channel.aidl.NetworkService:com.eg.android.AlipayGphone}
+    conn=android.os.BinderProxy@b6de928 flags=0x1
+  * ConnectionRecord{da598ae u0 CR com.qiku.riskinsight/.service.CoreService:@bb29d29}
+    binding=AppBindRecord{f0f1901 com.qiku.riskinsight/.service.CoreService:com.qiku.riskinsight}
+    conn=android.os.BinderProxy@bb29d29 flags=0x1
+  * ConnectionRecord{ce81a59 u0 CR com.qihoo.appstore/com.morgoo.droidplugin.PluginManagerService:@c8abea0}
+    binding=AppBindRecord{79330d0 com.qihoo.appstore/com.morgoo.droidplugin.PluginManagerService:com.qihoo360.accounts}
+    conn=android.os.BinderProxy@c8abea0 flags=0x1
+  * ConnectionRecord{2c0cddb u0 CR com.qihoo.appstore/com.morgoo.droidplugin.PluginManagerService:@cc3e6ea}
+    binding=AppBindRecord{b1f0982 com.qihoo.appstore/com.morgoo.droidplugin.PluginManagerService:com.qihoo.daemon}
+    conn=android.os.BinderProxy@cc3e6ea flags=0x1
+  * ConnectionRecord{f310b82 u0 com.android.bluetooth/.a2dp.A2dpService:@d5386cd}
+    binding=AppBindRecord{d22b1e9 com.android.bluetooth/.a2dp.A2dpService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@d5386cd flags=0x0
+  * ConnectionRecord{406e989 u0 CR DEAD com.android.smspush/.WapPushManager:@d938c90}
+    binding=AppBindRecord{e20324 com.android.smspush/.WapPushManager:com.android.phone}
+    conn=android.os.BinderProxy@d938c90 flags=0x1
+  * ConnectionRecord{713f8c1 u0 CR com.qualcomm.qcrilmsgtunnel/.QcrilMsgTunnelService:@e2af5a8}
+    binding=AppBindRecord{56b83a5 com.qualcomm.qcrilmsgtunnel/.QcrilMsgTunnelService:com.android.phone}
+    conn=android.os.BinderProxy@e2af5a8 flags=0x1
+  * ConnectionRecord{1d93166 u0 CR !FG !VIS com.amap.android.location/.GeocodeService:@e36c5c1}
+    binding=AppBindRecord{a875730 com.amap.android.location/.GeocodeService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@e36c5c1 flags=0x40000005
+  * ConnectionRecord{cafb5e8 u0 CR com.qti.service.colorservice/.ColorServiceApp:@e6e630b}
+    binding=AppBindRecord{2c680a3 com.qti.service.colorservice/.ColorServiceApp:com.qiku.powerengine:remote}
+    conn=android.os.BinderProxy@e6e630b flags=0x1
+  * ConnectionRecord{8fdcef2 u0 CR DEAD com.tencent.android.qqdownloader/com.tencent.assistant.sdk.SDKSupportService:@e7471fd}
+    binding=AppBindRecord{9b2d053 com.tencent.android.qqdownloader/com.tencent.assistant.sdk.SDKSupportService:com.tencent.mobileqq}
+    conn=android.os.BinderProxy@e7471fd flags=0x1
+  * ConnectionRecord{a4b0943 u0 CR DEAD com.tencent.android.qqdownloader/com.tencent.assistant.sdk.SDKSupportService:@e7471fd}
+    binding=AppBindRecord{9b2d053 com.tencent.android.qqdownloader/com.tencent.assistant.sdk.SDKSupportService:com.tencent.mobileqq}
+    conn=android.os.BinderProxy@e7471fd flags=0x1
+  * ConnectionRecord{72eaba1 u0 CR com.tencent.mm/.booter.CoreService:@ec72808}
+    binding=AppBindRecord{83d222 com.tencent.mm/.booter.CoreService:com.tencent.mm}
+    conn=android.os.BinderProxy@ec72808 flags=0x1
+  * ConnectionRecord{b338baa u0 CR com.tencent.mm/.booter.CoreService:@ec72808}
+    binding=AppBindRecord{83d222 com.tencent.mm/.booter.CoreService:com.tencent.mm}
+    conn=android.os.BinderProxy@ec72808 flags=0x1
+  * ConnectionRecord{5293b4d u0 CR com.tencent.mm/.booter.CoreService:@ec72808}
+    binding=AppBindRecord{83d222 com.tencent.mm/.booter.CoreService:com.tencent.mm}
+    conn=android.os.BinderProxy@ec72808 flags=0x1
+  * ConnectionRecord{c5b3f49 u0 CR com.tencent.mm/.booter.CoreService:@ec72808}
+    binding=AppBindRecord{83d222 com.tencent.mm/.booter.CoreService:com.tencent.mm}
+    conn=android.os.BinderProxy@ec72808 flags=0x1
+  * ConnectionRecord{b98604e u0 CR com.tencent.mm/.booter.CoreService:@ec72808}
+    binding=AppBindRecord{83d222 com.tencent.mm/.booter.CoreService:com.tencent.mm}
+    conn=android.os.BinderProxy@ec72808 flags=0x1
+  * ConnectionRecord{78cf56f u0 CR com.tencent.mm/.booter.CoreService:@ec72808}
+    binding=AppBindRecord{83d222 com.tencent.mm/.booter.CoreService:com.tencent.mm}
+    conn=android.os.BinderProxy@ec72808 flags=0x1
+  * ConnectionRecord{ca6827c u0 CR com.tencent.mm/.booter.CoreService:@ec72808}
+    binding=AppBindRecord{83d222 com.tencent.mm/.booter.CoreService:com.tencent.mm}
+    conn=android.os.BinderProxy@ec72808 flags=0x1
+  * ConnectionRecord{1ff0c80 u0 com.android.bluetooth/.hfp.HeadsetService:@f111503}
+    binding=AppBindRecord{bc5eddf com.android.bluetooth/.hfp.HeadsetService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@f111503 flags=0x0
+  * ConnectionRecord{77ccbf1 u0 CR DEAD com.tencent.android.qqdownloader/com.tencent.assistant.sdk.SDKSupportService:@f135798}
+    binding=AppBindRecord{9b2d053 com.tencent.android.qqdownloader/com.tencent.assistant.sdk.SDKSupportService:com.tencent.mobileqq}
+    conn=android.os.BinderProxy@f135798 flags=0x1
+  * ConnectionRecord{845a20b u0 CR DEAD com.android.smspush/.WapPushManager:@fa3adda}
+    binding=AppBindRecord{e20324 com.android.smspush/.WapPushManager:com.android.phone}
+    conn=android.os.BinderProxy@fa3adda flags=0x1
+  * ConnectionRecord{193127d u0 CR android/.hardware.location.GeofenceHardwareService:@fcbb0d4}
+    binding=AppBindRecord{d3683ff android/.hardware.location.GeofenceHardwareService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@fcbb0d4 flags=0x1
+---------------------------1-----------------------------
+ACTIVITY MANAGER SERVICES (dumpsys activity services)
+  (nothing)
+

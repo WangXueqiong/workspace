@@ -1,0 +1,36 @@
+MEDIA ROUTER SERVICE (dumpsys media_router)
+
+Global state
+  mCurrentUserId=0
+
+User 0
+  Client android (pid 847)
+    mTrusted=true
+    mRouteTypes=0x0
+    mActiveScan=false
+    mSelectedRouteId=null
+  Client com.android.systemui (pid 1325)
+    mTrusted=true
+    mRouteTypes=0x0
+    mActiveScan=false
+    mSelectedRouteId=null
+  Client com.sec.android.gallery3d (pid 24938)
+    mTrusted=true
+    mRouteTypes=0x0
+    mActiveScan=false
+    mSelectedRouteId=null
+  State
+  mTrustedState=null
+  mUntrustedState=null
+  Handler
+    mRunning=true
+    mDiscoveryMode=0
+    mGloballySelectedRouteRecord=null
+    mConnectionPhase=-1
+    mConnectionTimeoutReason=0
+    mConnectionTimeoutStartTime=<n/a>
+  Watcher
+    mUserId=0
+    mRunning=true
+    mProviders.size()=0
+    <no providers>

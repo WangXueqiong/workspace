@@ -1,0 +1,1075 @@
+SERVICE com.android.bluetooth/.hid.HidService 36b781a3 pid=(not running)
+
+SERVICE com.meizu.desktopbackup/com.meizu.backup.compontent.BackupRestoreService 38ee89c7 pid=4213
+  Client:
+    nothing to dump
+
+SERVICE com.tianyancha.skyeye/org.android.agoo.accs.AgooService 351fe8f2 pid=2720
+  Client:
+    nothing to dump
+
+SERVICE com.tencent.mobileqq/cooperation.qzone.QzonePluginProxyService 30fd7c33 pid=2676
+  Client:
+    nothing to dump
+
+SERVICE com.sina.weibo/.business.WeiboRemoteServiceHolder 1763e4a2 pid=3440
+  Client:
+    nothing to dump
+
+SERVICE com.meizu.flyme.input/com.meizu.input.MzInputService 11a240b2 pid=1486
+  Client:
+    Input method service state for com.meizu.input.MzInputService@299e0e91:
+      mWindowCreated=true mWindowAdded=true
+      mWindowVisible=false mWindowWasVisible=false mInShowWindow=false
+      Configuration={1.0 ?mcc?mnc zh_CN ldltr sw360dp w360dp h618dp 480dpi nrml long port finger -keyb/v/h -nav/h s.5}
+      mToken=android.os.BinderProxy@9285781
+      mInputBinding=InputBinding{android.os.BinderProxy@1f9cc026 / uid 10014 / pid 1760}
+      mInputConnection=com.android.internal.view.InputConnectionWrapper@38e775b9
+      mStartedInputConnection=null
+      mInputStarted=true mInputViewStarted=false mCandidatesViewStarted=false
+      mInputEditorInfo:
+        inputType=0x0 imeOptions=0x0 privateImeOptions=com.meizu.input.theme=white
+        actionLabel=null actionId=0
+        initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0
+        hintText=null label=null
+        packageName=com.meizu.flyme.launcher fieldId=-1 fieldName=null
+        extras=null
+      mShowInputRequested=false mLastShowInputRequested=true mShowInputForced=false mShowInputFlags=0x0
+      mCandidatesVisibility=4 mFullscreenApplied=true mIsFullscreen=false mExtractViewHidden=false
+      mExtractedText: null
+      mExtractedToken=0
+      mIsInputViewShown=true mStatusIcon=0
+    Last computed insets:
+      contentTopInsets=132 visibleTopInsets=132 touchableInsets=2 touchableRegion=SkRegion()
+
+SERVICE com.tianyancha.skyeye/com.taobao.accs.ChannelService b501ee4 pid=3186
+  Client:
+    nothing to dump
+
+SERVICE com.meizu.flyme.update/.download.QueryUpdateService 163e2a18 pid=12827
+  Client:
+    nothing to dump
+
+SERVICE com.tencent.mobileqq/com.tencent.tmdownloader.internal.remote.RemoteOpService 2d496f6 pid=13391
+  Client:
+    nothing to dump
+
+SERVICE com.android.systemui/.keyguard.KeyguardService 3af0ab74 pid=1065
+  Client:
+    nothing to dump
+
+SERVICE com.meizu.safe/.SafeSecureService 1188cfab pid=1290
+  Client:
+    nothing to dump
+
+SERVICE com.android.systemui/.ImageWallpaper 2d07b152 pid=1065
+  Client:
+    State of wallpaper com.android.systemui.ImageWallpaper@12ca598a:
+      Engine com.android.systemui.ImageWallpaper$DrawableEngine@322c5bfb:
+        mInitializing=false mDestroyed=false
+        mVisible=true mReportedVisible=true
+        mDisplay=Display id 0: DisplayInfo{"???????¡À????", uniqueId "local:0", app 1080 x 1920, real 1080 x 1920, largest app 1920 x 1854, smallest app 1080 x 1014, 60.450005 fps, supportedRefreshRates [60.450005], rotation 0, density 480 (415.636 x 443.345) dpi, layerStack 0, appVsyncOff -8000000, presDeadline 25542596, type BUILT_IN, state ON, FLAG_SECURE, FLAG_SUPPORTS_PROTECTED_BUFFERS}, DisplayMetrics{density=3.0, width=1080, height=1920, scaledDensity=3.0, xdpi=415.636, ydpi=443.345}, isValid=true
+        mCreated=true mSurfaceCreated=true mIsCreating=false mDrawingAllowed=true
+        mWidth=1080 mCurWidth=1080 mHeight=1920 mCurHeight=1920
+        mType=-1 mWindowFlags=16 mCurWindowFlags=16
+        mWindowPrivateFlags=0 mCurWindowPrivateFlags=0
+        mVisibleInsets=[0,66][0,0] mWinFrame=[0,0][1080,1920] mContentInsets=[0,0][0,0]
+        mConfiguration={1.0 ?mcc?mnc zh_CN ?layoutDir ?swdp ?wdp ?hdp ?density ?lsize ?long ?orien ?uimode ?night ?touch ?keyb/?/? ?nav/?}
+        mLayout=WM.LayoutParams{(0,0)(1080x1920) gr=#800033 ty=2013 fl=#318 fmt=2 wanim=0x10302e5 surfaceInsets=Rect(0, 0 - 0, 0)splitmode == 0 meizuFlags=0x0Meizu WM.LayoutParams [ flags=0x0] }
+        mPendingXOffset=0.5 mPendingXOffset=0.5
+        mPendingXOffsetStep=0.0 mPendingXOffsetStep=0.0
+        mOffsetMessageEnqueued=false mPendingSync=false
+
+SERVICE com.meizu.share/.BluetoothOppService d9637b3 pid=4010
+  Client:
+    nothing to dump
+
+SERVICE com.meizu.cloud/.service.MzCloudService 83a02d4 pid=3960
+  Client:
+    nothing to dump
+
+SERVICE com.amap.android.location/.NetworkLocationService 30e17a9b pid=1551
+  Client:
+    nothing to dump
+
+SERVICE com.tencent.mm/.booter.NotifyReceiver$NotifyService 324dc8d pid=7087
+  Client:
+    nothing to dump
+
+SERVICE com.flyme.systemuitools/com.meizu.luckymoney.LuckyMoneyService 22c12c44 pid=2181
+  Client:
+    nothing to dump
+
+SERVICE com.waves.maxxservice/.MaxxService 608ebd8 pid=1625
+  Client:
+    nothing to dump
+
+SERVICE com.meizu.media.gallery/com.meizu.media.common.service.DlnaService 1b2cb89d pid=1488
+  Client:
+    nothing to dump
+
+SERVICE com.meizu.safe/com.meizu.networkmanager.service.TrafficPollingService 2278f1e3 pid=1290
+  Client:
+    nothing to dump
+
+SERVICE com.aliyun.ams.tyid/com.aliyun.ams.flyme.yunosaccount.service.YunOSAuthToken 3181dcbc pid=4845
+  Client:
+    nothing to dump
+
+SERVICE com.tencent.mobileqq/.app.CoreService$KernelService 295c3933 pid=13391
+  Client:
+    nothing to dump
+
+SERVICE com.meizu.flyme.service.find/.PhoneLocationService 96fef44 pid=2685
+  Client:
+    nothing to dump
+
+SERVICE com.meizu.cloud/.pushsdk.pushservice.MzPushService 96f5d1e pid=2816
+  Client:
+    nothing to dump
+
+SERVICE com.tencent.mm/.booter.CoreService 97f41aa pid=5580
+  Client:
+    nothing to dump
+
+SERVICE com.android.bluetooth/.a2dp.A2dpService 10a25b00 pid=(not running)
+
+SERVICE com.tencent.mobileqq/.app.CoreService 3e2cc46d pid=13391
+  Client:
+    nothing to dump
+
+SERVICE com.tencent.mobileqq/.qipc.QIPCServiceEx 2962b377 pid=13391
+  Client:
+    nothing to dump
+
+SERVICE com.android.systemui/.SystemUIService 1e6c334b pid=1065
+  Client:
+    dumping service: com.android.systemui.keyguard.KeyguardViewMediator
+    dumping service: com.android.systemui.recents.Recents
+    dumping service: com.android.systemui.volume.VolumeUI
+    VolumePanel state:
+      mTag=VolumePanel.176ad273
+      mRingIsSilent=false
+      mVoiceCapable=true
+      mZenModeAvailable=false
+      mZenPanelExpanded=false
+      mTimeoutDelay=3000
+      mDisabledAlpha=0.3
+      mLastRingerMode=2
+      mLastRingerProgress=0
+      mPlayMasterStreamTones=false
+      isShowing()=false
+      mCallback=null
+      sConfirmSafeVolumeDialog=null
+      mActiveStreamType=-1
+      mStreamControls=null
+    dumping service: com.android.systemui.statusbar.SystemBars
+    Current Status Bar state:
+      mExpandedVisible=false, mTrackingPosition=0
+      mTickerEnabled=true
+      mTicking=false
+      mTickerView: [(0,0)(1080,66) 1080x66]
+      mTracking=false
+      mDisplayMetrics=DisplayMetrics{density=3.0, width=1080, height=1920, scaledDensity=3.0, xdpi=415.636, ydpi=443.345}
+      mStackScroller: [(0,0)(1080,1521) 1080x1521]
+      mStackScroller: [(0,0)(1080,1521) 1080x1521] scroll 0,0
+      mInteractingWindows=0
+  mStatusBarWindowState=WINDOW_STATE_SHOWING
+      mStatusBarMode=MODE_TRANSLUCENT
+      mDozing=false
+      mZenMode=ZEN_MODE_OFF
+      mUseHeadsUp=true
+      interrupting package: null
+      mStatusBarView.BarTransitions.mMode=MODE_TRANSLUCENT
+      mNavigationBarView=null
+      mMediaSessionManager=android.media.session.MediaSessionManager@bd418
+      mMediaNotificationKey=null
+      mMediaController=null
+      mMediaMetadata=null
+      Panels: 
+        mNotificationPanel=com.android.systemui.statusbar.phone.NotificationPanelView{b6f8a36 G.E..... ......ID 0,0-1080,1920 #7f0e028e app:id/notification_panel} params=FrameLayout.LayoutParams={ width=match-parent, height=match-parent, leftMargin=0, rightMargin=0, topMargin=0, bottomMargin=0, gravity=37 }
+          NotificationView {
+      mConflictingQsExpansionGesture=false
+      mBlockTouches=false
+      mShowingDetail=false
+      shouldLaunchCamera=false
+      mQsTracking=false
+      mCameraShowing=false
+      mQsExpandImmediate=false
+     mKeyguardStatusView.getVisibility=8
+     mKeyguardStatusView.alpha=1.0
+     mKeyguardMusicView.getVisibility()=8
+     mKeyguardMusicView.getVisibility()=8
+     mKeyguardShowing=false
+     mShowingFilterPanel=false
+     isQsTilesEditMode=false
+        }
+
+      active notifications: 11
+        [0] key=0|com.meizu.media.video|292303320|null|10031 icon=null
+            pkg=com.meizu.media.video id=292303320 score=20
+            notification=Notification(pri=2 contentView=com.meizu.media.video/0xa030052 headsUpContentView=/0xa030056 bigContentView=/0xa030059 vibrate=default sound=default defaults=0x7 flags=0x11 color=0x00000000 vis=PUBLIC)
+            tickerText="????¡ì?¨¦????????????????¡À?????????"
+        [1] key=0|com.sina.weibo|10009329|null|10088 icon=null
+            pkg=com.sina.weibo id=10009329 score=0
+            notification=Notification(pri=0 contentView=com.sina.weibo/0xa030052 headsUpContentView=/0xa030056 bigContentView=/0xa03005a vibrate=null sound=null defaults=0x0 flags=0x10 color=0x00000000 vis=PRIVATE)
+            tickerText="??????¨¨?¡À¨¦?????¨¦??????¡¤?¨¨?????¨¦????????¨¦??????????????¨¨??????¡è?¨¦???¡è????????¡ã????¨¦?¡è¨¦??¨¨??¨¦?????40????¡¤??????????¨¦??¨¨??????¡¤?¨¦??????????????¨¨??¨¨????¡§????????¡§???¨¨¡ì????¨¦???????????????????????>>"
+        [2] key=0|com.sina.weibo|2286|null|10088 icon=null
+            pkg=com.sina.weibo id=2286 score=0
+            notification=Notification(pri=0 contentView=com.sina.weibo/0xa030052 headsUpContentView=/0xa030056 bigContentView=/0xa03005a vibrate=null sound=null defaults=0x0 flags=0x10 color=0x00000000 vis=PRIVATE)
+            tickerText="?????? ?????¡ã??????¨¦?¡ì??????¨¦???????¡ã???¨¨?¡¤??????¨¨????¡¤?????????¨¨?????????????????¨¨????????¨¨¡ì?¨¦??>>"
+        [3] key=0|com.meizu.mstore|5000|null|10038 icon=null
+            pkg=com.meizu.mstore id=5000 score=0
+            notification=Notification(pri=0 contentView=com.meizu.mstore/0xa030052 headsUpContentView=/0xa030056 bigContentView=/0xa03005a vibrate=null sound=null defaults=0x0 flags=0x10 color=0x00000000 vis=PRIVATE)
+            tickerText="null"
+        [4] key=-1|android|17040663|null|1000 icon=null
+            pkg=android id=17040663 score=0
+            notification=Notification(pri=0 contentView=android/0xa030052 headsUpContentView=/0xa030056 bigContentView=null vibrate=null sound=null defaults=0x0 flags=0x2 color=0xff607d8b vis=PUBLIC)
+            tickerText="?¡¤?¨¨???????¡ãUSB¨¨¡ã?¨¨??"
+        [5] key=-1|android|17040655|null|1000 icon=null
+            pkg=android id=17040655 score=0
+            notification=Notification(pri=0 contentView=android/0xa030052 headsUpContentView=/0xa030056 bigContentView=null vibrate=null sound=null defaults=0x0 flags=0x2 color=0xff607d8b vis=PUBLIC)
+            tickerText="???¨¦??¨¨?????¨¨?????¨¨????????"
+        [6] key=0|com.sina.weibo|9738|null|10088 icon=null
+            pkg=com.sina.weibo id=9738 score=0
+            notification=Notification(pri=0 contentView=com.sina.weibo/0xa030052 headsUpContentView=/0xa030056 bigContentView=/0xa03005a vibrate=null sound=null defaults=0x0 flags=0x10 color=0x00000000 vis=PRIVATE)
+            tickerText="?????? ?????¡ã??????¨¨??¨¦??????????????¨¨???????????¨¨¡ã??¡§?????????¡À??????¨¨?????????????????>>"
+        [7] key=0|com.sina.weibo|5414|null|10088 icon=null
+            pkg=com.sina.weibo id=5414 score=0
+            notification=Notification(pri=0 contentView=com.sina.weibo/0xa030052 headsUpContentView=/0xa030056 bigContentView=/0xa03005a vibrate=null sound=null defaults=0x0 flags=0x10 color=0x00000000 vis=PRIVATE)
+            tickerText="??¡À¨¨¡ì???¡ì?????¡è????¡ã??¡ã?????????? ¨¨??¨¨???????¡è?¡¤¡§??????????????????????¡ã??¡ã?????????????¨¨???????¡¤?????¡§??????¨¦???¡À?¨¨????????????????????¨¨?¡§?¡è???????¨¨???????????¨¨¡ã?????¡ã????¨¨¡ì?¨¦??>>"
+        [8] key=0|com.sina.weibo|6617|null|10088 icon=null
+            pkg=com.sina.weibo id=6617 score=0
+            notification=Notification(pri=0 contentView=com.sina.weibo/0xa030052 headsUpContentView=/0xa030056 bigContentView=/0xa03005a vibrate=null sound=null defaults=0x0 flags=0x10 color=0x00000000 vis=PRIVATE)
+            tickerText="???????????????¨¨????? ???????????????¨¨???????? ??????????????¡À???10???????¡è¡ì???????????¡§????????????¨¨?????????????????????¡è¡À??????¨¨???????????????????????¨¨??????¡è??????????????????????????????????¨¨??¨¨??????????????>>¨¨¡ì?¨¦??"
+        [9] key=0|com.sina.weibo|3403|null|10088 icon=null
+            pkg=com.sina.weibo id=3403 score=0
+            notification=Notification(pri=0 contentView=com.sina.weibo/0xa030052 headsUpContentView=/0xa030056 bigContentView=/0xa03005a vibrate=null sound=null defaults=0x0 flags=0x10 color=0x00000000 vis=PRIVATE)
+            tickerText="?????????¨¨¡ã??????¡À???????????????????????? ???¨¨¡ì??????????????????¡À???????????¡ì¨¨?????¨¨????????????¡ì?????????????????????¡ã?????????????????????????????????????????????>>"
+        [10] key=0|com.android.settings|2131627339|null|1000 icon=null
+            pkg=com.android.settings id=2131627339 score=0
+            notification=Notification(pri=0 contentView=com.android.settings/0xa030052 headsUpContentView=/0xa030056 bigContentView=null vibrate=null sound=null defaults=0x0 flags=0x20 color=0x00000000 vis=PRIVATE)
+            tickerText="????????¡ã?¡¤???????"
+      inactive notifications: 0
+      system icons: 10
+        [0] icon=StatusBarIconView(slot=sync_active icon=StatusBarIcon(pkg=com.android.systemuiuser=0 id=0x7f0205e0 level=0 visible=false num=0 ) notification=null)
+        [1] icon=StatusBarIconView(slot=cast icon=StatusBarIcon(pkg=com.android.systemuiuser=0 id=0x7f020574 level=0 visible=false num=0 ) notification=null)
+        [2] icon=StatusBarIconView(slot=hotspot icon=StatusBarIcon(pkg=com.android.systemuiuser=0 id=0x7f0205a4 level=0 visible=false num=0 ) notification=null)
+        [3] icon=StatusBarIconView(slot=bluetooth icon=StatusBarIcon(pkg=com.android.systemuiuser=0 id=0x7f020575 level=0 visible=false num=0 ) notification=null)
+        [4] icon=StatusBarIconView(slot=headset icon=StatusBarIcon(pkg=com.android.systemuiuser=0 id=0x7f0205a2 level=0 visible=false num=0 ) notification=null)
+        [5] icon=StatusBarIconView(slot=tty icon=StatusBarIcon(pkg=com.android.systemuiuser=0 id=0x7f0205e3 level=0 visible=false num=0 ) notification=null)
+        [6] icon=StatusBarIconView(slot=zen icon=StatusBarIcon(pkg=com.android.systemuiuser=0 id=0x7f020607 level=0 visible=false num=0 ) notification=null)
+        [7] icon=StatusBarIconView(slot=volume icon=StatusBarIcon(pkg=com.android.systemuiuser=0 id=0x7f020410 level=0 visible=true num=0 ) notification=null)
+        [8] icon=StatusBarIconView(slot=cdma_eri icon=StatusBarIcon(pkg=com.android.systemuiuser=0 id=0x7f0205c3 level=0 visible=false num=0 ) notification=null)
+        [9] icon=StatusBarIconView(slot=alarm_clock icon=StatusBarIcon(pkg=com.android.systemuiuser=0 id=0x7f02055c level=0 visible=false num=0 ) notification=null)
+    NetworkController state:
+      - telephony ------
+      hasVoiceCallingFeature()=true
+      - Bluetooth ----
+      mBtReverseTethered=false
+      - connectivity ------
+      mConnectedTransports={1}
+      mValidatedTransports={1}
+      mInetCondition=true
+      mAirplaneMode=false
+      mLocale=zh_CN
+      - NetworkController.WifiSignalController -----
+      Current State: connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=false,rssi=-35,networkType=null,lastModified=05-14 06:38:50,ssid="JD-office"enabling=falsedisabling=falseconnecting=false
+      Previous State(1: connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=true,rssi=-35,networkType=null,lastModified=05-14 06:38:49,ssid="JD-office"enabling=falsedisabling=falseconnecting=false
+      Previous State(2: connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=false,rssi=-35,networkType=null,lastModified=05-14 06:38:48,ssid="JD-office"enabling=falsedisabling=falseconnecting=false
+      Previous State(3: connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=true,rssi=-35,networkType=null,lastModified=05-14 06:38:47,ssid="JD-office"enabling=falsedisabling=falseconnecting=false
+      Previous State(4: connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=false,rssi=-35,networkType=null,lastModified=05-14 06:38:38,ssid="JD-office"enabling=falsedisabling=falseconnecting=false
+      Previous State(5: connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=true,rssi=-35,networkType=null,lastModified=05-14 06:38:36,ssid="JD-office"enabling=falsedisabling=falseconnecting=false
+      Previous State(6: connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=false,rssi=-35,networkType=null,lastModified=05-14 06:38:34,ssid="JD-office"enabling=falsedisabling=falseconnecting=false
+      Previous State(7: connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=true,rssi=-35,networkType=null,lastModified=05-14 06:38:33,ssid="JD-office"enabling=falsedisabling=falseconnecting=false
+      Previous State(8: connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=false,rssi=-35,networkType=null,lastModified=05-14 06:38:30,ssid="JD-office"enabling=falsedisabling=falseconnecting=false
+      Previous State(9: connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=true,rssi=-35,networkType=null,lastModified=05-14 06:38:26,ssid="JD-office"enabling=falsedisabling=falseconnecting=false
+      Previous State(10: connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=false,rssi=-35,networkType=null,lastModified=05-14 06:38:25,ssid="JD-office"enabling=falsedisabling=falseconnecting=false
+      Previous State(11: connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=true,rssi=-35,networkType=null,lastModified=05-14 06:38:24,ssid="JD-office"enabling=falsedisabling=falseconnecting=false
+      Previous State(12: connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=false,rssi=-35,networkType=null,lastModified=05-14 06:38:23,ssid="JD-office"enabling=falsedisabling=falseconnecting=false
+      Previous State(13: connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=true,rssi=-35,networkType=null,lastModified=05-14 06:38:21,ssid="JD-office"enabling=falsedisabling=falseconnecting=false
+      Previous State(14: connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=false,rssi=-35,networkType=null,lastModified=05-14 06:38:17,ssid="JD-office"enabling=falsedisabling=falseconnecting=false
+      Previous State(15: connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=true,rssi=-35,networkType=null,lastModified=05-14 06:38:16,ssid="JD-office"enabling=falsedisabling=falseconnecting=false
+      Previous State(16: connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=false,rssi=-35,networkType=null,lastModified=05-14 06:38:10,ssid="JD-office"enabling=falsedisabling=falseconnecting=false
+    BluetoothController state:
+      mAdapter=android.bluetooth.BluetoothAdapter@238ce71
+      mEnabled=false
+      mConnecting=false
+      mLastDevice=null
+      mCallbacks.size=2
+      mProfiles=[]
+      mDeviceInfo.size=0
+    CastController state:
+      mDiscovering=false
+      mCallbackRegistered=true
+      mCallbacks.size=1
+      mRoutes.size=0
+      mProjection=null
+    BatteryController state:
+      mLevel=100
+      mPluggedIn=true
+      mCharging=true
+      mCharged=true
+      mPowerSave=false
+    NextAlarmController state:
+      mNextAlarm=null
+    SecurityController state:
+      mCurrentVpnNetworkId=-1
+      mVpnConfig=null
+      mVpnName=null
+    SharedPreferences:
+      HotspotTileLastUsed=1522143813859
+      first_screenshot=false
+      mNotificationPanel=NotificationView {
+      mConflictingQsExpansionGesture=false
+      mBlockTouches=false
+      mShowingDetail=false
+      shouldLaunchCamera=false
+      mQsTracking=false
+      mCameraShowing=false
+      mQsExpandImmediate=false
+     mKeyguardStatusView.getVisibility=8
+     mKeyguardStatusView.alpha=1.0
+     mKeyguardMusicView.getVisibility()=8
+     mKeyguardMusicView.getVisibility()=8
+     mKeyguardShowing=false
+     mShowingFilterPanel=false
+     isQsTilesEditMode=false
+        }
+
+      mGameMode=false  mGameModeDNDOn=truedumping service: com.android.systemui.usb.StorageNotification
+    dumping service: com.android.systemui.power.PowerUI
+    mLowBatteryAlertCloseLevel=20
+    mLowBatteryReminderLevels=[15, 7]
+    mBatteryLevel=100
+    mBatteryStatus=5
+    mPlugType=2
+    mInvalidCharger=0
+    mScreenOffTime=-1
+    soundTimeout=0
+    bucket: 1
+    mSaver=false
+    mWarning=false
+    mPlaySound=false
+    mInvalidCharger=false
+    mShowing=SHOWING_NOTHING
+    mSaverConfirmation=null
+    dumping service: com.android.systemui.media.RingtonePlayer
+    Clients:
+
+SERVICE android/.hardware.location.GeofenceHardwareService 30cce040 pid=788
+  Client:
+    nothing to dump
+
+SERVICE com.meizu.mstore/com.meizu.flyme.appcenter.aidl.AidlCommonService f5f094a pid=5417
+  Client:
+    nothing to dump
+
+SERVICE com.sina.weibo/com.sina.push.service.SinaPushService 2ac9fa92 pid=3440
+  Client:
+    nothing to dump
+
+SERVICE com.android.settings/com.meizu.settings.donotdisturb.MzDonotDisturbService 93a38c7 pid=4714
+  Client:
+    nothing to dump
+
+SERVICE com.meizu.flyme.update/.appupgrade.download.AppDownloadService a74fdcf pid=12827
+  Client:
+    nothing to dump
+
+SERVICE com.android.server.telecom/.BluetoothPhoneService 1c38bb12 pid=788
+  Client:
+    nothing to dump
+
+SERVICE com.yunos.baseservice.cmns_client/.client.CmnsService 20475178 pid=1618
+  Client:
+    nothing to dump
+
+SERVICE com.meizu.flyme.update/.download.FwDownloadService 10842430 pid=12827
+  Client:
+    nothing to dump
+
+SERVICE com.meizu.battery/com.meizu.power.PowerService 247b93e7 pid=1393
+  Client:
+    nothing to dump
+
+SERVICE com.android.providers.media/.MtpService 10f542fb pid=4472
+  Client:
+    nothing to dump
+
+SERVICE com.meizu.share/.ShareService 29409ce9 pid=4010
+  Client:
+    nothing to dump
+
+SERVICE com.tianyancha.skyeye/com.taobao.accs.data.MsgDistributeService 9ab3589 pid=2720
+  Client:
+    nothing to dump
+
+SERVICE com.meizu.mzsyncservice/com.meizu.sync.service.SyncmlService 1c7852f6 pid=4037
+  Client:
+    nothing to dump
+
+SERVICE com.meizu.customizecenter/.common.helper.scannerhelper.CustomizeScannerService 2cace6fe pid=1434
+  Client:
+    nothing to dump
+
+SERVICE com.sina.weibo/.weiyou.refactor.service.DMService 80af96a pid=6870
+  Client:
+    nothing to dump
+
+SERVICE com.meizu.experiencedatasync/.service.ReceiveErrorLogService 3d197939 pid=1525
+  Client:
+    nothing to dump
+
+SERVICE com.android.location.fused/.FusedLocationService 11d54c0c pid=788
+  Client:
+    nothing to dump
+
+SERVICE com.amap.android.location/.GeocodeService 1895b34e pid=1551
+  Client:
+    nothing to dump
+
+SERVICE com.sina.weibo/.HotEventService 2d697f12 pid=3440
+  Client:
+    nothing to dump
+
+SERVICE com.meizu.privacy/.PrivacyController 2fea7ab0 pid=5084
+  Client:
+    mBase=0
+    mCurrentRunningTime=0
+    mAntiAddictionTime=18000000000
+    mCountDownTime=0
+    mDialogMode=null
+    mLowBatteryPercent=0
+    mLowPowerDialogShown=f
+    mTimerDialogShown=f
+    isChildMode=f
+    isDialogShow=f
+    BatteryStatus: isBatteryLow=f isCharging=f
+
+SERVICE com.amap.android.location/.internal.server.NetworkLocationService 36ba6786 pid=1551
+  Client:
+    nothing to dump
+
+SERVICE com.meizu.battery/com.meizu.power.apps.appnotification.PermanentNotificationService 366b4f84 pid=1393
+  Client:
+    nothing to dump
+
+SERVICE com.android.bluetooth/.map.BluetoothMapService cbde2d5 pid=(not running)
+
+SERVICE com.android.phone/.TelephonyDebugService d568eab pid=1696
+  Client:
+    PhoneFactory:
+    GSMPhone extends:
+    PhoneBase: subId=-2
+     mPhoneId=0
+     mCi=com.android.internal.telephony.RIL@20f624b6
+     mDnsCheckDisabled=false
+     mDcTracker=Handler (com.android.internal.telephony.dataconnection.DcTracker) {56cefa6}
+     mDoesRilSendMultipleCallRing=true
+     mCallRingContinueToken=0
+     mCallRingDelay=3000
+     mIsTheCurrentActivePhone=true
+     mIsVoiceCapable=true
+     mIccRecords=null
+     mUiccApplication=null
+     mSmsStorageMonitor=Handler (com.android.internal.telephony.SmsStorageMonitor) {cacde7}
+     mSmsUsageMonitor=com.android.internal.telephony.SmsUsageMonitor@8c03d94
+     mLooper=Looper (main, tid 1) {115803d}
+     mContext=com.android.phone.PhoneGlobals@2f686032
+     mNotifier=com.android.internal.telephony.DefaultPhoneNotifier@156c6183
+     mSimulatedRadioControl=null
+     mUnitTestMode=false
+     isDnsCheckDisabled()=false
+     getUnitTestMode()=false
+     getState()=IDLE
+     getIccSerialNumber()=null
+     getIccRecordsLoaded()=false
+     getMessageWaitingIndicator()=false
+     getCallForwardingIndicator()=false
+     isInEmergencyCall()=false
+     isInEcm()=false
+     getPhoneName()=GSM
+     getPhoneType()=1
+     getVoiceMessageCount()=0
+     getActiveApnTypes()=[Ljava.lang.String;@3b6f1389
+     isDataConnectivityPossible()=false
+     needsOtaServiceProvisioning=false
+    ++++++++++++++++++++++++++++++++
+    DcTracker extends:
+    DcTrackerBase:
+     RADIO_TESTS=false
+     mInternalDataEnabled=true
+     mUserDataEnabled=false
+     sPolicyDataEnabed=true
+     mDataEnabled:
+      mDataEnabled[0]=true
+      mDataEnabled[1]=false
+      mDataEnabled[2]=false
+      mDataEnabled[3]=false
+      mDataEnabled[4]=false
+      mDataEnabled[5]=false
+      mDataEnabled[6]=false
+      mDataEnabled[7]=false
+      mDataEnabled[8]=false
+      mDataEnabled[9]=false
+      mDataEnabled[10]=false
+      mDataEnabled[11]=false
+      mDataEnabled[12]=false
+      mDataEnabled[13]=false
+      mDataEnabled[14]=false
+      mDataEnabled[15]=false
+      mDataEnabled[16]=false
+     mEnabledCount=1
+     mRequestedApnType=default
+     mPhone=GSM
+     mActivity=NONE
+     mState=IDLE
+     mTxPkts=0
+     mRxPkts=0
+     mNetStatPollPeriod=0
+     mNetStatPollEnabled=false
+     mDataStallTxRxSum={txSum=0 rxSum=0}
+     mDataStallAlarmTag=31752
+     mDataStallDetectionEanbled=true
+     mSentSinceLastRecv=0
+     mNoRecvPollCount=0
+     mResolver=android.app.ContextImpl$ApplicationContentResolver@adee339
+     mIsWifiConnected=true
+     mReconnectIntent=null
+     mCidActive=0
+     mAutoAttachOnCreation=false
+     mIsScreenOn=true
+     mUniqueIdGenerator=0
+     ***************************************
+    Dcc:
+     total records=1
+     rec[0]: time=05-14 11:07:07.777 processed=DccDefaultState org=DccDefaultState dest=<null> what=EVENT_RIL_CONNECTED
+    curState=DccDefaultState
+     mPhone=Handler (com.android.internal.telephony.gsm.GSMPhone) {99ae7fc}
+     mDcListAll=[]
+     mDcListActiveByCid={}
+     ***************************************
+     mDataConnections: count=0
+     ***************************************
+     mApnToDataConnectonId size=0
+     ***************************************
+     mApnContexts size=16
+    ApnContext: {mApnType=xcap mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+    ApnContext: {mApnType=cmmail mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+    ApnContext: {mApnType=rcs mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+    ApnContext: {mApnType=fota mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+    ApnContext: {mApnType=wap mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+    ApnContext: {mApnType=supl mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+    ApnContext: {mApnType=dm mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+    ApnContext: {mApnType=emergency mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+    ApnContext: {mApnType=hipri mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+    ApnContext: {mApnType=ims mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+    ApnContext: {mApnType=default mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+    ApnContext: {mApnType=mms mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+    ApnContext: {mApnType=cbs mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+    ApnContext: {mApnType=ia mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+    ApnContext: {mApnType=dun mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+    ApnContext: {mApnType=net mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+     ***************************************
+     mActiveApn=null
+     mAllApnSettings=null
+     mPreferredApn=null
+     mIsPsRestricted=false
+     mIsDisposed=false
+     mIntentReceiver=com.android.internal.telephony.dataconnection.DcTrackerBase$1@343f064
+     mDataRoamingSettingObserver=null
+     mReregisterOnReconnectFailure=false
+     canSetPreferApn=false
+     mApnObserver=com.android.internal.telephony.dataconnection.DcTracker$ApnChangeObserver@1384d7e
+     getOverallState=IDLE
+     mDataConnectionAsyncChannels=%s
+    {}
+     mAttached=false
+    ++++++++++++++++++++++++++++++++
+    GsmServiceStateTracker extends:
+    ServiceStateTracker:
+     mSS=1 1 voice home data home null null null null null null  Unknown Unknown CSS not supported 0 0 RoamInd=0 DefRoamInd=0 EmergOnly=true Ril Voice Regist state: 10 Ril Data Regist state: 0 mProprietaryDataRadioTechnology: 0 mCdmaNetWorkMode: 0
+     mNewSS=1 1 voice home data home null null null null null null  Unknown Unknown CSS not supported -1 -1 RoamInd=-1 DefRoamInd=-1 EmergOnly=true Ril Voice Regist state: 10 Ril Data Regist state: 0 mProprietaryDataRadioTechnology: 0 mCdmaNetWorkMode: 0
+     mCellInfo=CellInfoGsm:{mRegistered=NO mTimeStampType=unknown mTimeStamp=9223372036854775807ns CellIdentityGsm:{ mMcc=2147483647 mMnc=2147483647 mLac=2147483647 mCid=2147483647} CellSignalStrengthGsm: ss=2147483647 ber=2147483647}
+     mSignalStrength=SignalStrength: 27 99 -120 -160 -120 0 -1 99 2147483647 2147483647 2147483647 2147483647 gsm|lte -229 1 1 -1
+     mRestrictedState=Restricted State CS: none PS:false
+     mPollingContext=[I@b353f8e
+     mDesiredPowerState=true
+     mDontPollSignalStrength=true
+     mPendingRadioPowerOffAfterDataOff=false
+     mPendingRadioPowerOffAfterDataOffTag=0
+     mPhone=Handler (com.android.internal.telephony.gsm.GSMPhone) {99ae7fc}
+     mSS=1 1 voice home data home null null null null null null  Unknown Unknown CSS not supported 0 0 RoamInd=0 DefRoamInd=0 EmergOnly=true Ril Voice Regist state: 10 Ril Data Regist state: 0 mProprietaryDataRadioTechnology: 0 mCdmaNetWorkMode: 0
+     mNewSS=1 1 voice home data home null null null null null null  Unknown Unknown CSS not supported -1 -1 RoamInd=-1 DefRoamInd=-1 EmergOnly=true Ril Voice Regist state: 10 Ril Data Regist state: 0 mProprietaryDataRadioTechnology: 0 mCdmaNetWorkMode: 0
+     mCellLoc=[4318,11740,-1]
+     mNewCellLoc=[4318,11740,-1]
+     mPreferredNetworkType=0
+     mMaxDataCalls=1
+     mNewMaxDataCalls=1
+     mReasonDataDenied=-1
+     mNewReasonDataDenied=-1
+     mGsmRoaming=false
+     mDataRoaming=false
+     mEmergencyOnly=true
+     mNeedFixZoneAfterNitz=false
+     mZoneOffset=0
+     mZoneDst=false
+     mZoneTime=0
+     mGotCountryCode=false
+     mNitzUpdatedTime=false
+     mSavedTimeZone=null
+     mSavedTime=0
+     mSavedAtTime=0
+     mStartedGprsRegCheck=false
+     mReportedGprsNoReg=false
+     mNotification=null
+     mWakeLock=WakeLock{384dab2c held=false, refCount=0}
+     mCurSpn=
+     mCurShowSpn=false
+     mCurPlmn=?????????
+     mCurShowPlmn=true
+    ++++++++++++++++++++++++++++++++
+    GsmCallTracker extends:
+    CallTracker:
+     mPendingOperations=0
+     mNeedsPoll=false
+     mLastRelevantPoll=null
+    mConnections: length=7
+      mConnections[0]=null
+      mConnections[1]=null
+      mConnections[2]=null
+      mConnections[3]=null
+      mConnections[4]=null
+      mConnections[5]=null
+      mConnections[6]=null
+     mVoiceCallEndedRegistrants=android.os.RegistrantList@334179f5
+     mVoiceCallStartedRegistrants=android.os.RegistrantList@e87c38a
+     mDroppedDuringPoll: size=0
+     mRingingCall=IDLE
+     mForegroundCall=IDLE
+     mBackgroundCall=IDLE
+     mPendingMO=null
+     mHangupPendingMO=false
+     mPhone=Handler (com.android.internal.telephony.gsm.GSMPhone) {99ae7fc}
+     mDesiredMute=false
+     mState=IDLE
+    ++++++++++++++++++++++++++++++++
+    RIL: com.android.internal.telephony.RIL@20f624b6
+     mSocket=android.net.LocalSocket@141e7dfb impl:android.net.LocalSocketImpl@6804e18 fd:FileDescriptor[33]
+     mSenderThread=Thread[RILSender0,5,main]
+     mSender=Handler (com.android.internal.telephony.RIL$RILSender) {1afcc071}
+     mReceiverThread=Thread[RILReceiver0,5,main]
+     mReceiver=com.android.internal.telephony.RIL$RILReceiver@8a68e56
+     mWakeLock=WakeLock{1accfed7 held=false, refCount=0}
+     mWakeLockTimeout=60000
+     mWakeLockCount=0
+     mRequestList count=0
+     mLastNITZTimeInfo=null
+     mTestingEmergencyCall=false
+    ++++++++++++++++++++++++++++++++
+     mCT=Handler (com.android.internal.telephony.gsm.GsmCallTracker) {103833c4}
+     mSST=Handler (com.android.internal.telephony.gsm.GsmServiceStateTracker) {154bf2ad}
+     mPendingMMIs=[]
+     mSimPhoneBookIntManager=com.android.internal.telephony.gsm.SimPhoneBookInterfaceManager@141539e2
+     mSubInfo=com.android.internal.telephony.PhoneSubInfo@2b78b173
+     mVmNumber=null
+    ++++++++++++++++++++++++++++++++
+    IccCardProxy: Handler (com.android.internal.telephony.uicc.IccCardProxy) {3a66c830}
+     mContext=com.android.phone.PhoneGlobals@2f686032
+     mCi=com.android.internal.telephony.RIL@20f624b6
+     mAbsentRegistrants: size=0
+     mPinLockedRegistrants: size=0
+     mNetworkLockedRegistrants: size=1
+      mNetworkLockedRegistrants[0]=Handler (com.android.phone.PhoneGlobals$1) {33e20ca9}
+     mCurrentAppType=1
+     mUiccController=Handler (com.android.internal.telephony.uicc.UiccController) {2ad1122e}
+     mUiccCard=com.android.internal.telephony.uicc.UiccCard@2c22f1cf
+     mUiccApplication=null
+     mIccRecords=null
+     mCdmaSSM=Handler (com.android.internal.telephony.cdma.CdmaSubscriptionSourceManager) {5a8375c}
+     mRadioOn=true
+     mQuietMode=false
+     mInitialized=true
+     mExternalState=ABSENT
+    ++++++++++++++++++++++++++++++++
+    GSMPhone extends:
+    PhoneBase: subId=-3
+     mPhoneId=1
+     mCi=com.android.internal.telephony.RIL@754617f
+     mDnsCheckDisabled=false
+     mDcTracker=Handler (com.android.internal.telephony.dataconnection.DcTracker) {16a5ca65}
+     mDoesRilSendMultipleCallRing=true
+     mCallRingContinueToken=0
+     mCallRingDelay=3000
+     mIsTheCurrentActivePhone=true
+     mIsVoiceCapable=true
+     mIccRecords=null
+     mUiccApplication=null
+     mSmsStorageMonitor=Handler (com.android.internal.telephony.SmsStorageMonitor) {1760233a}
+     mSmsUsageMonitor=com.android.internal.telephony.SmsUsageMonitor@3786dbeb
+     mLooper=Looper (main, tid 1) {115803d}
+     mContext=com.android.phone.PhoneGlobals@2f686032
+     mNotifier=com.android.internal.telephony.DefaultPhoneNotifier@156c6183
+     mSimulatedRadioControl=null
+     mUnitTestMode=false
+     isDnsCheckDisabled()=false
+     getUnitTestMode()=false
+     getState()=IDLE
+     getIccSerialNumber()=null
+     getIccRecordsLoaded()=false
+     getMessageWaitingIndicator()=false
+     getCallForwardingIndicator()=false
+     isInEmergencyCall()=false
+     isInEcm()=false
+     getPhoneName()=GSM
+     getPhoneType()=1
+     getVoiceMessageCount()=0
+     getActiveApnTypes()=[Ljava.lang.String;@34dd83af
+     isDataConnectivityPossible()=false
+     needsOtaServiceProvisioning=false
+    ++++++++++++++++++++++++++++++++
+    DcTracker extends:
+    DcTrackerBase:
+     RADIO_TESTS=false
+     mInternalDataEnabled=true
+     mUserDataEnabled=false
+     sPolicyDataEnabed=true
+     mDataEnabled:
+      mDataEnabled[0]=true
+      mDataEnabled[1]=false
+      mDataEnabled[2]=false
+      mDataEnabled[3]=false
+      mDataEnabled[4]=false
+      mDataEnabled[5]=false
+      mDataEnabled[6]=false
+      mDataEnabled[7]=false
+      mDataEnabled[8]=false
+      mDataEnabled[9]=false
+      mDataEnabled[10]=false
+      mDataEnabled[11]=false
+      mDataEnabled[12]=false
+      mDataEnabled[13]=false
+      mDataEnabled[14]=false
+      mDataEnabled[15]=false
+      mDataEnabled[16]=false
+     mEnabledCount=1
+     mRequestedApnType=default
+     mPhone=GSM
+     mActivity=NONE
+     mState=IDLE
+     mTxPkts=0
+     mRxPkts=0
+     mNetStatPollPeriod=0
+     mNetStatPollEnabled=false
+     mDataStallTxRxSum={txSum=0 rxSum=0}
+     mDataStallAlarmTag=32615
+     mDataStallDetectionEanbled=true
+     mSentSinceLastRecv=0
+     mNoRecvPollCount=0
+     mResolver=android.app.ContextImpl$ApplicationContentResolver@adee339
+     mIsWifiConnected=true
+     mReconnectIntent=null
+     mCidActive=0
+     mAutoAttachOnCreation=false
+     mIsScreenOn=true
+     mUniqueIdGenerator=0
+     ***************************************
+    Dcc:
+     total records=1
+     rec[0]: time=05-14 11:07:08.633 processed=DccDefaultState org=DccDefaultState dest=<null> what=EVENT_RIL_CONNECTED
+    curState=DccDefaultState
+     mPhone=Handler (com.android.internal.telephony.gsm.GSMPhone) {29326ccb}
+     mDcListAll=[]
+     mDcListActiveByCid={}
+     ***************************************
+     mDataConnections: count=0
+     ***************************************
+     mApnToDataConnectonId size=0
+     ***************************************
+     mApnContexts size=16
+    ApnContext: {mApnType=xcap mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+    ApnContext: {mApnType=cmmail mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+    ApnContext: {mApnType=rcs mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+    ApnContext: {mApnType=fota mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+    ApnContext: {mApnType=wap mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+    ApnContext: {mApnType=supl mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+    ApnContext: {mApnType=dm mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+    ApnContext: {mApnType=emergency mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+    ApnContext: {mApnType=hipri mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+    ApnContext: {mApnType=ims mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+    ApnContext: {mApnType=default mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+    ApnContext: {mApnType=mms mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+    ApnContext: {mApnType=cbs mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+    ApnContext: {mApnType=ia mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+    ApnContext: {mApnType=dun mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+    ApnContext: {mApnType=net mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+     ***************************************
+     mActiveApn=null
+     mAllApnSettings=null
+     mPreferredApn=null
+     mIsPsRestricted=false
+     mIsDisposed=false
+     mIntentReceiver=com.android.internal.telephony.dataconnection.DcTrackerBase$1@3d111c89
+     mDataRoamingSettingObserver=null
+     mReregisterOnReconnectFailure=false
+     canSetPreferApn=false
+     mApnObserver=com.android.internal.telephony.dataconnection.DcTracker$ApnChangeObserver@3b2da7e1
+     getOverallState=IDLE
+     mDataConnectionAsyncChannels=%s
+    {}
+     mAttached=false
+    ++++++++++++++++++++++++++++++++
+    GsmServiceStateTracker extends:
+    ServiceStateTracker:
+     mSS=3 3 voice home data home null null null null null null  Unknown Unknown CSS not supported -1 -1 RoamInd=-1 DefRoamInd=-1 EmergOnly=false Ril Voice Regist state: 0 Ril Data Regist state: 0 mProprietaryDataRadioTechnology: 0 mCdmaNetWorkMode: 0
+     mNewSS=3 3 voice home data home null null null null null null  Unknown Unknown CSS not supported -1 -1 RoamInd=-1 DefRoamInd=-1 EmergOnly=false Ril Voice Regist state: 0 Ril Data Regist state: 0 mProprietaryDataRadioTechnology: 0 mCdmaNetWorkMode: 0
+     mCellInfo=CellInfoGsm:{mRegistered=NO mTimeStampType=unknown mTimeStamp=9223372036854775807ns CellIdentityGsm:{ mMcc=2147483647 mMnc=2147483647 mLac=2147483647 mCid=2147483647} CellSignalStrengthGsm: ss=2147483647 ber=2147483647}
+     mSignalStrength=SignalStrength: 99 -1 -1 -1 -1 -1 -1 99 2147483647 2147483647 2147483647 2147483647 gsm|lte 0 0 0 -1
+     mRestrictedState=Restricted State CS: none PS:false
+     mPollingContext=[I@8ca93bc
+     mDesiredPowerState=true
+     mDontPollSignalStrength=false
+     mPendingRadioPowerOffAfterDataOff=false
+     mPendingRadioPowerOffAfterDataOffTag=0
+     mPhone=Handler (com.android.internal.telephony.gsm.GSMPhone) {29326ccb}
+     mSS=3 3 voice home data home null null null null null null  Unknown Unknown CSS not supported -1 -1 RoamInd=-1 DefRoamInd=-1 EmergOnly=false Ril Voice Regist state: 0 Ril Data Regist state: 0 mProprietaryDataRadioTechnology: 0 mCdmaNetWorkMode: 0
+     mNewSS=3 3 voice home data home null null null null null null  Unknown Unknown CSS not supported -1 -1 RoamInd=-1 DefRoamInd=-1 EmergOnly=false Ril Voice Regist state: 0 Ril Data Regist state: 0 mProprietaryDataRadioTechnology: 0 mCdmaNetWorkMode: 0
+     mCellLoc=[-1,-1,-1]
+     mNewCellLoc=[-1,-1,-1]
+     mPreferredNetworkType=0
+     mMaxDataCalls=1
+     mNewMaxDataCalls=1
+     mReasonDataDenied=-1
+     mNewReasonDataDenied=-1
+     mGsmRoaming=false
+     mDataRoaming=false
+     mEmergencyOnly=false
+     mNeedFixZoneAfterNitz=false
+     mZoneOffset=0
+     mZoneDst=false
+     mZoneTime=0
+     mGotCountryCode=false
+     mNitzUpdatedTime=false
+     mSavedTimeZone=null
+     mSavedTime=0
+     mSavedAtTime=0
+     mStartedGprsRegCheck=false
+     mReportedGprsNoReg=false
+     mNotification=null
+     mWakeLock=WakeLock{ef54bc7 held=false, refCount=0}
+     mCurSpn=null
+     mCurShowSpn=false
+     mCurPlmn=?????????
+     mCurShowPlmn=true
+    ++++++++++++++++++++++++++++++++
+    GsmCallTracker extends:
+    CallTracker:
+     mPendingOperations=0
+     mNeedsPoll=false
+     mLastRelevantPoll=null
+    mConnections: length=7
+      mConnections[0]=null
+      mConnections[1]=null
+      mConnections[2]=null
+      mConnections[3]=null
+      mConnections[4]=null
+      mConnections[5]=null
+      mConnections[6]=null
+     mVoiceCallEndedRegistrants=android.os.RegistrantList@3e7215f4
+     mVoiceCallStartedRegistrants=android.os.RegistrantList@7fbe11d
+     mDroppedDuringPoll: size=0
+     mRingingCall=IDLE
+     mForegroundCall=IDLE
+     mBackgroundCall=IDLE
+     mPendingMO=null
+     mHangupPendingMO=false
+     mPhone=Handler (com.android.internal.telephony.gsm.GSMPhone) {29326ccb}
+     mDesiredMute=false
+     mState=IDLE
+    ++++++++++++++++++++++++++++++++
+    RIL: com.android.internal.telephony.RIL@754617f
+     mSocket=android.net.LocalSocket@1e43df92 impl:android.net.LocalSocketImpl@df0dd63 fd:FileDescriptor[37]
+     mSenderThread=Thread[RILSender1,5,main]
+     mSender=Handler (com.android.internal.telephony.RIL$RILSender) {30949d60}
+     mReceiverThread=Thread[RILReceiver1,5,main]
+     mReceiver=com.android.internal.telephony.RIL$RILReceiver@f7a7219
+     mWakeLock=WakeLock{3e3c62de held=false, refCount=0}
+     mWakeLockTimeout=60000
+     mWakeLockCount=0
+     mRequestList count=0
+     mLastNITZTimeInfo=null
+     mTestingEmergencyCall=false
+    ++++++++++++++++++++++++++++++++
+     mCT=Handler (com.android.internal.telephony.gsm.GsmCallTracker) {3b89ecbf}
+     mSST=Handler (com.android.internal.telephony.gsm.GsmServiceStateTracker) {3a962f8c}
+     mPendingMMIs=[]
+     mSimPhoneBookIntManager=com.android.internal.telephony.gsm.SimPhoneBookInterfaceManager@6b716d5
+     mSubInfo=com.android.internal.telephony.PhoneSubInfo@22a7ceea
+     mVmNumber=null
+    ++++++++++++++++++++++++++++++++
+    IccCardProxy: Handler (com.android.internal.telephony.uicc.IccCardProxy) {157a95db}
+     mContext=com.android.phone.PhoneGlobals@2f686032
+     mCi=com.android.internal.telephony.RIL@754617f
+     mAbsentRegistrants: size=0
+     mPinLockedRegistrants: size=0
+     mNetworkLockedRegistrants: size=1
+      mNetworkLockedRegistrants[0]=Handler (com.android.phone.PhoneGlobals$1) {33e20ca9}
+     mCurrentAppType=1
+     mUiccController=Handler (com.android.internal.telephony.uicc.UiccController) {2ad1122e}
+     mUiccCard=com.android.internal.telephony.uicc.UiccCard@13cb878
+     mUiccApplication=null
+     mIccRecords=null
+     mCdmaSSM=Handler (com.android.internal.telephony.cdma.CdmaSubscriptionSourceManager) {5a8375c}
+     mRadioOn=false
+     mQuietMode=false
+     mInitialized=true
+     mExternalState=ABSENT
+    ++++++++++++++++++++++++++++++++
+    DctController:
+    DcSwitchStateMachine-0:
+     total records=10
+     rec[0]: time=05-14 11:07:08.685 processed=DefaultState org=IdleState dest=<null> what=69633(0x11001)
+     rec[1]: time=05-14 11:07:11.847 processed=DefaultState org=IdleState dest=<null> what=278534(0x44006)
+     rec[2]: time=05-14 11:07:12.022 processed=DefaultState org=IdleState dest=<null> what=278534(0x44006)
+     rec[3]: time=05-14 11:07:12.040 processed=DefaultState org=IdleState dest=<null> what=278539(0x4400b)
+     rec[4]: time=05-14 11:07:12.384 processed=DefaultState org=IdleState dest=<null> what=278534(0x44006)
+     rec[5]: time=05-14 11:07:12.429 processed=DefaultState org=IdleState dest=<null> what=278534(0x44006)
+     rec[6]: time=05-14 11:07:12.437 processed=DefaultState org=IdleState dest=<null> what=278534(0x44006)
+     rec[7]: time=05-14 11:07:12.437 processed=DefaultState org=IdleState dest=<null> what=278534(0x44006)
+     rec[8]: time=05-14 11:07:12.437 processed=IdleState org=IdleState dest=AttachingState what=278528(0x44000)
+     rec[9]: time=05-14 11:07:12.595 processed=DefaultState org=AttachingState dest=<null> what=278534(0x44006)
+    curState=AttachingState
+    DcSwitchStateMachine-1:
+     total records=8
+     rec[0]: time=05-14 11:07:08.688 processed=DefaultState org=IdleState dest=<null> what=69633(0x11001)
+     rec[1]: time=05-14 11:07:11.847 processed=DefaultState org=IdleState dest=<null> what=278534(0x44006)
+     rec[2]: time=05-14 11:07:12.022 processed=DefaultState org=IdleState dest=<null> what=278534(0x44006)
+     rec[3]: time=05-14 11:07:12.041 processed=DefaultState org=IdleState dest=<null> what=278539(0x4400b)
+     rec[4]: time=05-14 11:07:12.385 processed=DefaultState org=IdleState dest=<null> what=278534(0x44006)
+     rec[5]: time=05-14 11:07:12.429 processed=DefaultState org=IdleState dest=<null> what=278534(0x44006)
+     rec[6]: time=05-14 11:07:12.437 processed=DefaultState org=IdleState dest=<null> what=278534(0x44006)
+     rec[7]: time=05-14 11:07:12.437 processed=DefaultState org=IdleState dest=<null> what=278534(0x44006)
+    curState=IdleState
+    ++++++++++++++++++++++++++++++++
+    ++++++++++++++++++++++++++++++++
+    TelephonyNetworkFactories:
+      {TelephonyNetworkFactory - ScoreFilter=50, Filter=[ Transports: CELLULAR Capabilities: MMS&SUPL&DUN&FOTA&IMS&CBS&IA&RCS&XCAP&EIMS&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&DM&WAP&NET&CMMAIL&TETHERING&RCSE Specifier: <-2>], requests=1}
+      {TelephonyNetworkFactory - ScoreFilter=50, Filter=[ Transports: CELLULAR Capabilities: MMS&SUPL&DUN&FOTA&IMS&CBS&IA&RCS&XCAP&EIMS&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&DM&WAP&NET&CMMAIL&TETHERING&RCSE Specifier: <-3>], requests=1}
+    ++++++++++++++++++++++++++++++++
+    UiccController: Handler (com.android.internal.telephony.uicc.UiccController) {2ad1122e}
+     mContext=com.android.phone.PhoneGlobals@2f686032
+     mInstance=Handler (com.android.internal.telephony.uicc.UiccController) {2ad1122e}
+     mIccChangedRegistrants: size=10
+      mIccChangedRegistrants[0]=Handler (com.android.internal.telephony.gsm.GSMPhone) {99ae7fc}
+      mIccChangedRegistrants[1]=Handler (com.android.internal.telephony.gsm.GsmServiceStateTracker) {154bf2ad}
+      mIccChangedRegistrants[2]=Handler (com.android.internal.telephony.dataconnection.DcTracker) {56cefa6}
+      mIccChangedRegistrants[3]=Handler (com.android.internal.telephony.gsm.GsmSMSDispatcher) {2bdf4b51}
+      mIccChangedRegistrants[4]=Handler (com.android.internal.telephony.uicc.IccCardProxy) {3a66c830}
+      mIccChangedRegistrants[5]=Handler (com.android.internal.telephony.gsm.GSMPhone) {29326ccb}
+      mIccChangedRegistrants[6]=Handler (com.android.internal.telephony.gsm.GsmServiceStateTracker) {3a962f8c}
+      mIccChangedRegistrants[7]=Handler (com.android.internal.telephony.dataconnection.DcTracker) {16a5ca65}
+      mIccChangedRegistrants[8]=Handler (com.android.internal.telephony.gsm.GsmSMSDispatcher) {8abefb6}
+      mIccChangedRegistrants[9]=Handler (com.android.internal.telephony.uicc.IccCardProxy) {157a95db}
+
+     mUiccCards: size=2
+      mUiccCards[0]=com.android.internal.telephony.uicc.UiccCard@2c22f1cf
+    UiccCard:
+     mCi=com.android.internal.telephony.RIL@20f624b6
+     mLastRadioState=RADIO_ON
+     mCatService=null
+     mAbsentRegistrants: size=1
+      mAbsentRegistrants[0]=Handler (com.android.internal.telephony.uicc.IccCardProxy) {3a66c830}
+     mCardState=CARDSTATE_ABSENT
+     mUniversalPinState=PINSTATE_UNKNOWN
+     mGsmUmtsSubscriptionAppIndex=-1
+     mCdmaSubscriptionAppIndex=-1
+     mImsSubscriptionAppIndex=-1
+     mImsSubscriptionAppIndex=-1
+     mUiccApplications: length=8
+      mUiccApplications[0]=null
+      mUiccApplications[1]=null
+      mUiccApplications[2]=null
+      mUiccApplications[3]=null
+      mUiccApplications[4]=null
+      mUiccApplications[5]=null
+      mUiccApplications[6]=null
+      mUiccApplications[7]=null
+
+     mCarrierPrivilegeRules: null
+     mCarrierPrivilegeRegistrants: size=0
+      mUiccCards[1]=com.android.internal.telephony.uicc.UiccCard@13cb878
+    UiccCard:
+     mCi=com.android.internal.telephony.RIL@754617f
+     mLastRadioState=RADIO_OFF
+     mCatService=null
+     mAbsentRegistrants: size=1
+      mAbsentRegistrants[0]=Handler (com.android.internal.telephony.uicc.IccCardProxy) {157a95db}
+     mCardState=CARDSTATE_ABSENT
+     mUniversalPinState=PINSTATE_UNKNOWN
+     mGsmUmtsSubscriptionAppIndex=-1
+     mCdmaSubscriptionAppIndex=-1
+     mImsSubscriptionAppIndex=-1
+     mImsSubscriptionAppIndex=-1
+     mUiccApplications: length=8
+      mUiccApplications[0]=null
+      mUiccApplications[1]=null
+      mUiccApplications[2]=null
+      mUiccApplications[3]=null
+      mUiccApplications[4]=null
+      mUiccApplications[5]=null
+      mUiccApplications[6]=null
+      mUiccApplications[7]=null
+
+     mCarrierPrivilegeRules: null
+     mCarrierPrivilegeRegistrants: size=0
+    ++++++++++++++++++++++++++++++++
+    SubscriptionController:
+     defaultSubId=-1
+     defaultDataSubId=-1
+     defaultVoiceSubId=-1
+     defaultSmsSubId=-1
+     defaultDataPhoneId=-1
+     defaultVoicePhoneId=-1
+     defaultSmsPhoneId=-1
+    ++++++++++++++++++++++++++++++++
+     ActiveSubInfoList: is null
+    ++++++++++++++++++++++++++++++++
+     AllSubInfoList: is null
+    ++++++++++++++++++++++++++++++++
+    ++++++++++++++++++++++++++++++++
+
+SERVICE com.android.server.telecom/.TelecomService 30fdd0e pid=788
+  Client:
+    nothing to dump
+
+SERVICE com.meizu.account/.service.MeizuAccountService 3ab6d869 pid=4343
+  Client:
+    nothing to dump
+
+SERVICE com.meizu.safe/.blockService.GuardService 3400e15e pid=1290
+  Client:
+    nothing to dump
+
+SERVICE com.tencent.mobileqq/.msf.service.MsfService 1626e7c9 pid=2298
+  Client:
+    nothing to dump
+
+SERVICE com.android.bluetooth/.pan.PanService 160f1153 pid=(not running)
+
+SERVICE com.flyme.systemuitools/com.meizu.notification.FlymeNotificationFilterService 6503b52 pid=2181
+  Client:
+    nothing to dump
+
+SERVICE com.tencent.mobileqq/.music.QQPlayerService 2d9e659 pid=13391
+  Client:
+    nothing to dump
+
+SERVICE com.meizu.mstore/com.meizu.cloud.app.downlad.AppDownloadService 3495c960 pid=5417
+  Client:
+    nothing to dump
+[dumpsys: 0.302s elapsed]
+
+========================================================
+== Running Application Providers
+========================================================

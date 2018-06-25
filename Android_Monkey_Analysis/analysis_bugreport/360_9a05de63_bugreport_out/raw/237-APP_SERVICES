@@ -1,0 +1,1987 @@
+---------------------------0-----------------------------
+SERVICE com.android.bluetooth/.hid.HidService 2813f61 pid=(not running)
+
+SERVICE com.qiku.riskinsight/com.qiku.safetyspace.library.download.DownloadService 4bc61dc pid=15583
+  Client:
+    nothing to dump
+
+SERVICE com.qiku.logsystem/.userreport.configcenter.DiagnoseMonitorService 9217f48 pid=2572
+  Client:
+    nothing to dump
+
+SERVICE org.codeaurora.ims/.ImsService b8d8c7a pid=2448
+  Client:
+    nothing to dump
+
+SERVICE com.yulong.android.coolsafe/com.qiku.unlock.FastJobSchedulerService 81befdb pid=11636
+  Client:
+    nothing to dump
+
+SERVICE com.qiku.service.container/com.qiku.android.nodisturb.ServiceForContainer 6f1a743 pid=14853
+  Client:
+    nothing to dump
+
+SERVICE com.oma.drm.server/.DrmManagerClientServer 9a65ffd pid=2990
+  Client:
+    nothing to dump
+
+SERVICE com.qiku.android.cloudsync/com.coolcloud.uac.android.authenticator.AuthenticationService 1c487e7 pid=1780
+  Client:
+    nothing to dump
+
+SERVICE com.qiku.service.container/com.cloud.service.GalleryDeamonService 7c424f2 pid=14853
+  Client:
+    nothing to dump
+
+SERVICE com.qualcomm.location/.LocationService 7ef9a0b pid=1546
+  Client:
+    nothing to dump
+
+SERVICE com.sina.weibo/.business.WeiboRemoteServiceHolder 2dc513f pid=7853
+  Client:
+    nothing to dump
+
+SERVICE com.tianyancha.skyeye/com.taobao.accs.ChannelService a131695 pid=18548
+  Client:
+    nothing to dump
+
+SERVICE com.qualcomm.qti.modemtestmode/.MbnSystemService f92c1af pid=3626
+  Client:
+    nothing to dump
+
+SERVICE com.eg.android.AlipayGphone/mtopsdk.xstate.XStateService 611dec2 pid=5404
+  Client:
+    nothing to dump
+
+SERVICE com.android.systemui/.keyguard.KeyguardService 3dcb11f pid=2025
+  Client:
+    nothing to dump
+
+SERVICE com.qiku.configcenter/.ConfigCenterService c61d860 pid=2378
+  Client:
+    nothing to dump
+
+SERVICE com.qiku.powerengine/.common.service.PowerEngineService 40cf485 pid=2203
+  Client:
+    nothing to dump
+
+SERVICE com.amap.android.location/.job.ConnectivityJobService b5988ce pid=2873
+  Client:
+    nothing to dump
+
+SERVICE com.qualcomm.location/.izat.IzatService 17620e8 pid=1546
+  Client:
+    nothing to dump
+
+SERVICE com.android.systemui/.ImageWallpaper 81218b6 pid=2025
+  Client:
+    State of wallpaper com.android.systemui.ImageWallpaper@1ab6944:
+      Engine com.android.systemui.ImageWallpaper$DrawableEngine@ea6ba2d:
+        mInitializing=false mDestroyed=false
+        mVisible=true mReportedVisible=true
+        mDisplay=Display id 0: DisplayInfo{"åç½®å±å¹", uniqueId "local:0", app 1080 x 1920, real 1080 x 1920, largest app 1920 x 1848, smallest app 1080 x 1008, mode 1, defaultMode 1, modes [{id=1, width=1080, height=1920, fps=60.000004}], colorTransformId 1, defaultColorTransformId 1, supportedColorTransforms [{id=1, colorTransform=0}], rotation 0, density 480 (403.411 x 403.041) dpi, layerStack 0, appVsyncOff 0, presDeadline 17666666, type BUILT_IN, state ON, FLAG_SECURE, FLAG_SUPPORTS_PROTECTED_BUFFERS}, DisplayMetrics{density=3.0, width=1080, height=1920, scaledDensity=3.0, xdpi=403.411, ydpi=403.041}, isValid=true
+        mCreated=true mSurfaceCreated=true mIsCreating=false mDrawingAllowed=true
+        mWidth=2160 mCurWidth=2160 mHeight=1920 mCurHeight=1920
+        mType=-1 mWindowFlags=16 mCurWindowFlags=16
+        mWindowPrivateFlags=0 mCurWindowPrivateFlags=0
+        mVisibleInsets=[0,72][1080,0] mWinFrame=[0,0][2160,1920] mContentInsets=[0,0][1080,0]
+        mConfiguration={(default font) 1.0 ?mcc?mnc zh_CN ?layoutDir ?swdp ?wdp ?hdp ?density ?lsize ?long ?orien ?uimode ?night ?touch ?keyb/?/? ?nav/?}
+        mLayout=WM.LayoutParams{(0,0)(2160x1920) gr=#800033 ty=2013 fl=#318 fmt=2 wanim=0x10302ea}
+        mPendingXOffset=0.0 mPendingXOffset=0.0
+        mPendingXOffsetStep=0.0 mPendingXOffsetStep=0.0
+        mOffsetMessageEnqueued=false mPendingSync=false
+        ImageWallpaper.DrawableEngine:
+         mBackground=null mBackgroundWidth=-1 mBackgroundHeight=-1
+         mLastRotation=0 mLastSurfaceWidth=2160 mLastSurfaceHeight=1920
+         mXOffset=0.0 mYOffset=0.0
+         mVisible=true mOffsetsChanged=false
+         mLastXTranslation=0 mLastYTranslation=0 mScale=1.0
+         mLastRequestedWidth=2160 mLastRequestedHeight=1920
+         DisplayInfo at last updateSurfaceSize:
+          rotation=0  width=1080  height=1920
+
+SERVICE com.sina.news/.push.GuardPushService eae0241 pid=(not running)
+
+SERVICE com.qiku.magazine/.service.MagazineGuideService e122463 pid=2340
+  Client:
+    nothing to dump
+
+SERVICE com.qualcomm.qti.tetherservice/.TetherService 6dd0953 pid=3002
+  Client:
+    nothing to dump
+
+SERVICE com.amap.android.location/.NetworkLocationService 4815898 pid=2873
+  Client:
+    nothing to dump
+
+SERVICE com.tencent.mm/.booter.NotifyReceiver$NotifyService 1e82367 pid=5131
+  Client:
+    nothing to dump
+
+SERVICE com.dsi.ant.server/.AntService 38c9d5c pid=1546
+  Client:
+    nothing to dump
+
+SERVICE com.koushikdutta.vysor/.VysorIME 4a17f9 pid=13004
+  Client:
+    Input method service state for com.koushikdutta.vysor.VysorIME@8c5cf5d:
+      mWindowCreated=true mWindowAdded=true
+      mWindowVisible=false mWindowWasVisible=false mInShowWindow=false
+      Configuration={(default font) 1.0 460mcc3mnc zh_CN ldltr sw360dp w360dp h616dp 480dpi nrml long port finger -keyb/v/h -nav/h s.15}
+      mToken=android.os.BinderProxy@bd9e1d0
+      mInputBinding=InputBinding{android.os.BinderProxy@572b5c9 / uid 10048 / pid 2789}
+      mInputConnection=com.android.internal.view.InputConnectionWrapper@7b0d4ce
+      mStartedInputConnection=null
+      mInputStarted=true mInputViewStarted=false mCandidatesViewStarted=false
+      mInputEditorInfo:
+        inputType=0x0 imeOptions=0x0 privateImeOptions=null
+        actionLabel=null actionId=0
+        initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0
+        hintText=null label=null
+        packageName=com.yulong.android.launcher3 fieldId=-1677524992 fieldName=null
+        extras=null
+      mShowInputRequested=false mLastShowInputRequested=true mShowInputForced=false mShowInputFlags=0x0
+      mCandidatesVisibility=4 mFullscreenApplied=true mIsFullscreen=false mExtractViewHidden=false
+      mExtractedText: null
+      mExtractedToken=0
+      mIsInputViewShown=true mStatusIcon=0
+    Last computed insets:
+      contentTopInsets=0 visibleTopInsets=0 touchableInsets=2 touchableRegion=SkRegion()
+     mShouldClearInsetOfPreviousIme=false
+
+SERVICE com.yulong.android.launcher3/.badge.NotificationListener 947c285 pid=2789
+  Client:
+    nothing to dump
+
+SERVICE com.qiku.service.container/com.qiku.remind.appservice.CleanerDaemonService 6acd1c0 pid=14853
+  Client:
+    nothing to dump
+
+SERVICE com.qiku.cardmanager/.CardManagerService 5bffe1 pid=12856
+  Client:
+    nothing to dump
+
+SERVICE com.qiku.logsystem/.services.ControlDispatchService a2dc363 pid=2572
+  Client:
+    PerformanceMonitor Info:
+    BehaviorMonitor Info:
+    BatteryMonitor Info:
+    MemoryMonitor Info:
+    BugReportMonitor Info:
+       Closed: 1
+    AppCheckInMonitor Info:
+       e: status=1; beforeThtAntithierCycle=43200000; inAfterAntithiefCycle=86400000; datagather=212351
+       AntiThiefConfigService:
+          protect check in:
+             protect_adb_shell: 0
+             protect_adb_dev: 0
+    AntiThiefMonitor Info:
+       c: status=0
+       mClosed: 1
+    WakeupMonitor Info:
+       schedule task:0
+    EventRecorderMonitor:
+       last report time:2017-12-24 00:00:09
+       Phone total alive time:1379375223ms
+    DataCenterMonitor Info
+    RemoteFileMonitor Info:
+    UserreportMonitor Info:
+       com.qiku.logsystem.userreport.UserreportConfig@379bf72
+    LogredirectMonitor Info:
+       com.qiku.logsystem.userreport.LogredirectConfig@7576fc3
+    OfflineLogSwitchMonitor Info:
+       com.qiku.logsystem.userreport.OfflineLogSwitchConfig@81a3040
+    OfflineLogSwitchByPathMonitor Info:
+       com.qiku.logsystem.userreport.OfflineLogSwitchByPathConfig@f5a3b79
+    MasterSwitchMonitor Info:
+       com.qiku.logsystem.userreport.MasterSwitchConfig@2060be
+    register Info:
+       REGISTER_SUCCS_COUNT: 1
+       REGISTER_SUCCS_COUNT_MAX: 1
+       REGISTER_RETRY_COUNT: 0
+       REGISTER_RETRY_COUNT_MAX: 3
+    Basic Info:
+       boot count: 50
+       boot countr: 10
+       length(min): 35651
+       mlength(ms): 0
+       used: 1
+       device sid: eb4ca34a8252aaaa1b09acc63fdb4e3a
+       appVer: 1.3.6_VER_2017.06.02_19:12:17
+       UserAgree: true
+       UserBuild: true
+       Stable: true
+       pid: 2572
+       uid: 1000
+       userID: 0
+       Power: 53
+       PowerConnected: true
+       ProductName: 1505-A02
+       sysVer: 6.0.066.P0.170823.QK1505
+       externalMemoryAvailable: true
+       FreeStoragePercent: true
+       isCtsVersion: false
+       isNotDefaultMode: false
+       isAbroadProduct: false
+    Initialized status: true
+    Initialized cause: bootreceive.
+
+SERVICE com.android.bluetooth/.pbap.BluetoothPbapService 47f716c pid=(not running)
+
+SERVICE com.qihoo.appstore/com.morgoo.droidplugin.stub.ServiceStub$StubP01$P00 713350c pid=16718
+  Client:
+    nothing to dump
+
+SERVICE org.codeaurora.bluetooth/.dun.BluetoothDunService dafdb1 pid=(not running)
+
+SERVICE com.qiku.riskinsight/.service.CoreService 89b364f pid=15583
+  Client:
+    nothing to dump
+
+SERVICE com.tencent.mm/.booter.CoreService 64bec16 pid=5093
+  Client:
+    nothing to dump
+
+SERVICE com.yulong.android.launcher3/com.qiku.widget3d.musiccontroller.MusicControllerService fff7cc1 pid=2789
+  Client:
+    nothing to dump
+
+SERVICE com.qihoo.browser/.pushmanager.PushBrowserService ad223a6 pid=(not running)
+
+SERVICE com.android.bluetooth/.a2dp.A2dpService a7304b3 pid=(not running)
+
+SERVICE com.qualcomm.qcrilmsgtunnel/.QcrilMsgTunnelService 6e501eb pid=2646
+  Client:
+    nothing to dump
+
+SERVICE com.tencent.mobileqq/.qipc.QIPCServiceEx fedadde pid=8524
+  Client:
+    nothing to dump
+
+SERVICE com.qiku.powermaster/.services.BusinessManagerService 657af09 pid=18796
+  Client:
+    nothing to dump
+
+SERVICE com.qti.service.colorservice/.ColorServiceApp cbe4894 pid=2260
+  Client:
+    nothing to dump
+
+SERVICE com.qiku.healthguard/.service.HealthGuardService e92b5b3 pid=32745
+  Client:
+    nothing to dump
+
+SERVICE com.forward.eip/com.igexin.sdk.PushService ac89fa0 pid=(not running)
+
+SERVICE com.qihoo360.mobilesafe/.support.qpush.QihooPushService 49591d9 pid=32677
+  Client:
+    nothing to dump
+
+SERVICE com.android.systemui/.SystemUIService 4e79f98 pid=2025
+  Client:
+    dumping service: com.android.systemui.tuner.TunerService
+    dumping service: com.android.systemui.keyguard.KeyguardViewMediator
+      mSystemReady: true
+      mBootCompleted: true
+      mBootSendUserPresent: false
+      mExternallyEnabled: true
+      mNeedToReshowWhenReenabled: false
+      mShowing: false
+      mInputRestricted: false
+      mOccluded: false
+      mDelayedShowingSequence: 41
+      mExitSecureCallback: null
+      mDeviceInteractive: true
+      mGoingToSleep: false
+      mHiding: false
+      mWaitingUntilKeyguardVisible: false
+      mKeyguardDonePending: false
+      mHideAnimationRun: false
+      mPendingReset: false
+      mPendingLock: false
+      mWakeAndUnlocking: false
+      mDrawnCallback: null
+    dumping service: com.android.systemui.recent.Recents
+    dumping service: com.android.systemui.volume.VolumeUI
+    mEnabled=true
+    mVolumeControllerService=null
+    VolumeDialogController state:
+      mEnabled: false
+      mDestroyed: false
+      mVolumePolicy: VolumePolicy[volumeDownToEnterSilent=true,volumeUpToExitSilent=true,doNotDisturbWhenSilent=false,vibrateToSilentDebounce=400]
+      mState: {
+        STREAM_VOICE_CALL:10[1..10]
+        STREAM_SYSTEM:0[0..15] [MUTED]
+        STREAM_RING:0[0..15] [MUTED]
+        STREAM_MUSIC:0[0..15]
+        STREAM_ALARM:4[0..15]
+        STREAM_NOTIFICATION:0[0..15] [MUTED]
+        STREAM_BLUETOOTH_SCO:7[1..15]
+        STREAM_SYSTEM_ENFORCED:5[0..15] [MUTED]
+        STREAM_DTMF:5[0..15] [MUTED]
+        STREAM_TTS:0[0..15]
+        ringerModeExternal:1
+        ringerModeInternal:1
+        zenMode:0
+        effectsSuppressor:null
+        effectsSuppressorName:null
+        zenModeConfig:ZenModeConfig[user=0,allowCalls=true,allowRepeatCallers=false,allowMessages=false,allowCallsFrom=contacts,allowMessagesFrom=contacts,allowReminders=true,allowEvents=true,automaticRules={6a08d171bae040ac88ad7c6eddd9da4e=ZenRule[enabled=false,snoozing=false,name=å¨æ«,zenMode=ZEN_MODE_ALARMS,conditionId=condition://android/schedule?days=6.7&start=23.30&end=10.0,condition=null,component=null], a0e615dedf0545a4a9fb5bfe84ac88ac=ZenRule[enabled=false,snoozing=false,name=æ´»å¨,zenMode=ZEN_MODE_ALARMS,conditionId=condition://android/event?userId=-10000&calendar=&reply=1,condition=null,component=null], d656ad4832ba4f168574c510858bf01a=ZenRule[enabled=false,snoozing=false,name=å¨ä¸è³å¨äºå¤é´,zenMode=ZEN_MODE_ALARMS,conditionId=condition://android/schedule?days=1.2.3.4.5&start=22.0&end=7.0,condition=null,component=null]},manualRule=null]
+        activeStream:-1
+        mediaMute:true
+        }
+      mShowDndTile: false
+      mHasVibrator: true
+      mRemoteStreams: []
+
+    MediaSessions state:
+      mInit: true
+      mRecords.size: 0
+    dumping service: com.android.systemui.statusbar.SystemBars
+    Current Status Bar state:
+      mExpandedVisible=false, mTrackingPosition=0
+      mTracking=false
+      mDisplayMetrics=DisplayMetrics{density=3.0, width=1080, height=1920, scaledDensity=3.0, xdpi=403.411, ydpi=403.041}
+      mStackScroller: [(0,0)(1080,48) 1080x48]
+      mStackScroller: [(0,0)(1080,48) 1080x48] scroll 0,0
+      mInteractingWindows=0
+      mStatusBarWindowState=WINDOW_STATE_SHOWING
+      mStatusBarMode=MODE_TRANSPARENT
+      mDozing=false
+      mZenMode=ZEN_MODE_OFF
+      mUseHeadsUp=true
+      interrupting package: null
+      mStatusBarView.BarTransitions.mMode=MODE_TRANSPARENT
+      mNavigationBarView=null
+      mMediaSessionManager=android.media.session.MediaSessionManager@5852b62
+      mMediaNotificationKey=null
+      mMediaController=null
+      mMediaMetadata=null
+      Panels: 
+        mNotificationPanel=com.android.systemui.statusbar.phone.NotificationPanelView{487e125 I.E...... ......ID 0,0-1080,72 #7f110342 app:id/notification_panel} params=ViewGroup.LayoutParams={ width=match-parent, height=match-parent }
+          [PanelView(NotificationPanelView): expandedHeight=0.000000 maxPanelHeight=1201 closing=f tracking=f justPeeked=f peekAnim=null timeAnim=null touchDisabled=f]
+      Doze log:
+        12-22 17:11:37.033 screenOff why=3
+        12-22 18:17:19.393 screenOn pulsing=false
+        12-22 18:17:19.596 dozing true
+        12-22 18:17:20.256 fling expand=false aboveThreshold=true thresholdNeeded=true screenOnFromTouch=false
+        12-22 18:17:20.611 keyguard false
+        12-22 18:27:22.399 dozing false
+        12-22 18:27:22.610 keyguard true
+        12-22 18:27:22.617 screenOff why=3
+        12-22 19:03:22.308 screenOn pulsing=false
+        12-22 19:03:22.545 dozing true
+        12-22 19:03:23.800 screenOff why=2
+        12-24 13:39:32.922 screenOn pulsing=false
+        12-24 13:39:33.801 fling expand=false aboveThreshold=true thresholdNeeded=true screenOnFromTouch=false
+        12-24 13:39:34.158 keyguard false
+        12-24 13:49:33.980 dozing false
+        12-24 13:49:34.123 keyguard true
+        12-24 13:49:34.129 screenOff why=3
+        12-24 13:55:53.476 screenOn pulsing=false
+        12-24 13:55:54.089 dozing true
+        12-24 13:55:55.872 keyguard false
+        12-24 14:25:52.043 dozing false
+        12-24 14:25:52.108 screenOff why=3
+        12-24 14:25:52.319 keyguard true
+        12-24 14:25:52.465 keyguard false
+        12-24 15:17:13.617 screenOn pulsing=false
+        12-24 15:17:13.726 dozing false
+        12-24 15:27:22.153 dozing false
+        12-24 15:27:22.194 screenOff why=3
+        12-24 15:27:22.437 keyguard true
+        12-24 15:27:22.508 keyguard false
+        12-24 15:29:26.860 screenOn pulsing=false
+        12-24 15:29:27.218 dozing false
+        12-24 15:39:27.245 dozing false
+        12-24 15:39:27.335 screenOff why=3
+        12-24 15:39:27.428 keyguard true
+        12-24 15:39:27.490 keyguard false
+        12-24 15:54:19.118 keyguard true
+        12-24 15:54:51.451 screenOn pulsing=false
+        12-24 15:54:51.888 dozing true
+        12-24 15:54:52.754 fling expand=false aboveThreshold=true thresholdNeeded=true screenOnFromTouch=false
+        12-24 15:54:53.131 keyguard false
+        12-24 17:20:31.021 fling expand=false aboveThreshold=false thresholdNeeded=false screenOnFromTouch=false
+        12-24 17:20:38.211 fling expand=false aboveThreshold=false thresholdNeeded=false screenOnFromTouch=false
+        12-24 17:20:43.720 fling expand=true aboveThreshold=false thresholdNeeded=false screenOnFromTouch=false
+        12-24 17:21:07.794 fling expand=true aboveThreshold=false thresholdNeeded=false screenOnFromTouch=false
+        12-24 17:23:45.485 fling expand=true aboveThreshold=false thresholdNeeded=false screenOnFromTouch=false
+        12-24 17:23:58.059 fling expand=true aboveThreshold=false thresholdNeeded=false screenOnFromTouch=false
+        12-24 17:23:58.800 fling expand=true aboveThreshold=false thresholdNeeded=false screenOnFromTouch=false
+        12-24 17:24:05.310 fling expand=true aboveThreshold=false thresholdNeeded=false screenOnFromTouch=false
+        12-24 17:24:05.411 fling expand=false aboveThreshold=false thresholdNeeded=false screenOnFromTouch=false
+      Doze summary stats (for +2d23h45m8s811ms):
+        Screen on (not pulsing): n=23 (0.32054655696587914/hr)
+      active notifications: 8
+        [0] key=0|com.tencent.mm|4099|null|10106|0 icon=StatusBarIconView(slot=com.tencent.mm/0x1003 icon=StatusBarIcon(icon=Icon(typ=RESOURCE pkg=com.tencent.mm id=0x7f020552) visible user=0 ) notification=Notification(pri=0 contentView=com.tencent.mm/0x1090087 vibrate=null sound=null defaults=0x0 flags=0x10 color=0x00000000 vis=PRIVATE))
+            pkg=com.tencent.mm id=4099 score=0
+            notification=Notification(pri=0 contentView=com.tencent.mm/0x1090087 vibrate=null sound=null defaults=0x0 flags=0x10 color=0x00000000 vis=PRIVATE)
+            tickerText="null"
+        [1] key=0|com.tencent.mm|4098|null|10106|0 icon=StatusBarIconView(slot=com.tencent.mm/0x1002 icon=StatusBarIcon(icon=Icon(typ=RESOURCE pkg=com.tencent.mm id=0x7f020552) visible user=0 ) notification=Notification(pri=0 contentView=com.tencent.mm/0x1090087 vibrate=null sound=null defaults=0x0 flags=0x10 color=0x00000000 vis=PRIVATE))
+            pkg=com.tencent.mm id=4098 score=0
+            notification=Notification(pri=0 contentView=com.tencent.mm/0x1090087 vibrate=null sound=null defaults=0x0 flags=0x10 color=0x00000000 vis=PRIVATE)
+            tickerText="null"
+        [2] key=0|com.qihoo360.mobilesafe|1|null|10004|0 icon=StatusBarIconView(slot=com.qihoo360.mobilesafe/0x1 icon=StatusBarIcon(icon=Icon(typ=RESOURCE pkg=com.qihoo360.mobilesafe id=0x7f020117) visible user=0 ) notification=Notification(pri=2 contentView=com.qihoo360.mobilesafe/0x7f030062 vibrate=null sound=null tick defaults=0x0 flags=0x62 color=0x00000000 vis=PRIVATE))
+            pkg=com.qihoo360.mobilesafe id=1 score=20
+            notification=Notification(pri=2 contentView=com.qihoo360.mobilesafe/0x7f030062 vibrate=null sound=null tick defaults=0x0 flags=0x62 color=0x00000000 vis=PRIVATE)
+            tickerText=" "
+        [3] key=0|com.android.packageinstaller|0|2:com.android.packageinstaller|10046|0 icon=StatusBarIconView(slot=com.android.packageinstaller/0x0 icon=StatusBarIcon(icon=Icon(typ=RESOURCE pkg=com.android.packageinstaller id=0x0108008a) visible user=0 ) notification=Notification(pri=0 contentView=com.android.packageinstaller/0x1090087 vibrate=null sound=null defaults=0x0 flags=0x10 color=0xff607d8b vis=PRIVATE))
+            pkg=com.android.packageinstaller id=0 score=0
+            notification=Notification(pri=0 contentView=com.android.packageinstaller/0x1090087 vibrate=null sound=null defaults=0x0 flags=0x10 color=0xff607d8b vis=PRIVATE)
+            tickerText="null"
+        [4] key=0|com.qihoo.appstore|10015|null|10010|0 icon=StatusBarIconView(slot=com.qihoo.appstore/0x271f icon=StatusBarIcon(icon=Icon(typ=RESOURCE pkg=com.qihoo.appstore id=0x7f02023e) visible user=0 ) notification=Notification(pri=0 contentView=com.qihoo.appstore/0x7f030250 vibrate=null sound=null tick defaults=0x0 flags=0x10 color=0x00000000 vis=PRIVATE))
+            pkg=com.qihoo.appstore id=10015 score=0
+            notification=Notification(pri=0 contentView=com.qihoo.appstore/0x7f030250 vibrate=null sound=null tick defaults=0x0 flags=0x10 color=0x00000000 vis=PRIVATE)
+            tickerText="27æ¬¾åºç¨å¯è¶éæ´æ°"
+        [5] key=0|com.qihoo.appstore|10019|null|10010|0 icon=StatusBarIconView(slot=com.qihoo.appstore/0x2723 icon=StatusBarIcon(icon=Icon(typ=RESOURCE pkg=com.qihoo.appstore id=0x7f02023e) visible user=0 ) notification=Notification(pri=0 contentView=com.qihoo.appstore/0x7f030251 vibrate=null sound=null tick defaults=0x0 flags=0x10 color=0x00000000 vis=PRIVATE))
+            pkg=com.qihoo.appstore id=10019 score=0
+            notification=Notification(pri=0 contentView=com.qihoo.appstore/0x7f030251 vibrate=null sound=null tick defaults=0x0 flags=0x10 color=0x00000000 vis=PRIVATE)
+            tickerText="58åå æç¤ºä½ åçº§æ°ç"
+        [6] key=-1|android|17040372|null|1000|0 icon=StatusBarIconView(slot=android/0x10403f4 icon=StatusBarIcon(icon=Icon(typ=RESOURCE pkg=android id=0x0108066e) visible user=-1 ) notification=Notification(pri=-1 contentView=android/0x1090087 vibrate=null sound=null tick defaults=0x0 flags=0x2 color=0xff607d8b vis=PUBLIC))
+            pkg=android id=17040372 score=-10
+            notification=Notification(pri=-1 contentView=android/0x1090087 vibrate=null sound=null tick defaults=0x0 flags=0x2 color=0xff607d8b vis=PUBLIC)
+            tickerText="å·²è¿æ¥å°USBè°è¯"
+        [7] key=-1|android|17040367|null|1000|0 icon=StatusBarIconView(slot=android/0x10403ef icon=StatusBarIcon(icon=Icon(typ=RESOURCE pkg=android id=0x0108066e) visible user=-1 ) notification=Notification(pri=-2 contentView=android/0x1090087 vibrate=null sound=null tick defaults=0x0 flags=0x2 color=0xff607d8b vis=PUBLIC))
+            pkg=android id=17040367 score=-20
+            notification=Notification(pri=-2 contentView=android/0x1090087 vibrate=null sound=null tick defaults=0x0 flags=0x2 color=0xff607d8b vis=PUBLIC)
+            tickerText="æ­£å¨éè¿ USB ä¼ è¾æä»¶"
+      inactive notifications: 1
+        [0] key=0|com.android.systemui|1025|null|10032|0 icon=StatusBarIconView(slot=com.android.systemui/0x401 icon=StatusBarIcon(icon=Icon(typ=RESOURCE pkg=com.android.systemui id=0x7f020306) visible user=0 ) notification=Notification(pri=0 contentView=com.android.systemui/0x1090087 vibrate=null sound=null defaults=0x0 flags=0x62 color=0x00000000 vis=PRIVATE))
+            pkg=com.android.systemui id=1025 score=0
+            notification=Notification(pri=0 contentView=com.android.systemui/0x1090087 vibrate=null sound=null defaults=0x0 flags=0x62 color=0x00000000 vis=PRIVATE)
+            tickerText="null"
+      system icons: 13
+        [0] icon=StatusBarIconView(slot=children_mode icon=StatusBarIcon(icon=Icon(typ=RESOURCE pkg=com.android.systemui id=0x7f0203c5) user=0 ) notification=null)
+        [1] icon=StatusBarIconView(slot=drive_mode icon=StatusBarIcon(icon=Icon(typ=RESOURCE pkg=com.android.systemui id=0x7f0203d9) user=0 ) notification=null)
+        [2] icon=StatusBarIconView(slot=qiku_private_space icon=StatusBarIcon(icon=Icon(typ=RESOURCE pkg=com.android.systemui id=0x7f0203de) user=0 ) notification=null)
+        [3] icon=StatusBarIconView(slot=qiku_vpn icon=StatusBarIcon(icon=Icon(typ=RESOURCE pkg=com.android.systemui id=0x7f020418) user=0 ) notification=null)
+        [4] icon=StatusBarIconView(slot=qiku_headset icon=StatusBarIcon(icon=Icon(typ=RESOURCE pkg=com.android.systemui id=0x7f0203dc) user=0 ) notification=null)
+        [5] icon=StatusBarIconView(slot=managed_profile icon=StatusBarIcon(icon=Icon(typ=RESOURCE pkg=com.android.systemui id=0x7f0203e0) user=0 ) notification=null)
+        [6] icon=StatusBarIconView(slot=cast icon=StatusBarIcon(icon=Icon(typ=RESOURCE pkg=com.android.systemui id=0x7f0203c4) user=0 ) notification=null)
+        [7] icon=StatusBarIconView(slot=hotspot icon=StatusBarIcon(icon=Icon(typ=RESOURCE pkg=com.android.systemui id=0x7f0203dd) user=0 ) notification=null)
+        [8] icon=StatusBarIconView(slot=bluetooth icon=StatusBarIcon(icon=Icon(typ=RESOURCE pkg=com.android.systemui id=0x7f0203c6) user=0 ) notification=null)
+        [9] icon=StatusBarIconView(slot=tty icon=StatusBarIcon(icon=Icon(typ=RESOURCE pkg=com.android.systemui id=0x7f020414) user=0 ) notification=null)
+        [10] icon=StatusBarIconView(slot=zen icon=StatusBarIcon(icon=Icon(typ=RESOURCE pkg=com.android.systemui id=0x7f0203e2) user=0 ) notification=null)
+        [11] icon=StatusBarIconView(slot=volume icon=StatusBarIcon(icon=Icon(typ=RESOURCE pkg=com.android.systemui id=0x7f020415) visible user=0 ) notification=null)
+        [12] icon=StatusBarIconView(slot=alarm_clock icon=StatusBarIcon(icon=Icon(typ=RESOURCE pkg=com.android.systemui id=0x7f0203bb) user=0 ) notification=null)
+    StatusBarWindowManager state:
+    Window State {
+      bouncerShowing: false
+      forceCollapsed: false
+      forceDozeBrightness: false
+      forceStatusBarVisible: false
+      headsUpShowing: false
+      isKeyguardDrawDone: true
+      isPreHide: false
+      keyguardFadingAway: false
+      keyguardNeedsInput: false
+      keyguardOccluded: false
+      keyguardShowing: false
+      panelExpanded: false
+      panelVisible: false
+      qsExpanded: true
+      statusBarFocusable: false
+      statusBarState: 0
+    }
+    NetworkController state:
+      - telephony ------
+      hasVoiceCallingFeature()=true
+      - connectivity ------
+      mConnectedTransports={1}
+      mValidatedTransports={1}
+      mInetCondition=true
+      mAirplaneMode=false
+      mLocale=zh_CN
+      mLastServiceState=1 1 voice home data home null null 00000 null null 00000  Unknown Unknown CSS not supported 0 0 RoamInd=1 DefRoamInd=0 EmergOnly=false IsDataRoamingFromRegistration=false
+      mIsEmergency=false
+      mEmergencySource=NO_CONTROLLERS
+      - NetworkController -----
+      Current State: connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=false,rssi=-41,lastModified=12-24 05:26:34,ssid="JD-office"
+      Previous State(1): connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=false,rssi=-40,lastModified=12-24 05:26:31,ssid="JD-office"
+      Previous State(2): connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=false,rssi=-41,lastModified=12-24 05:26:25,ssid="JD-office"
+      Previous State(3): connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=false,rssi=-40,lastModified=12-24 05:26:24,ssid="JD-office"
+      Previous State(4): connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=true,rssi=-40,lastModified=12-24 05:26:23,ssid="JD-office"
+      Previous State(5): connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=false,rssi=-40,lastModified=12-24 05:26:22,ssid="JD-office"
+      Previous State(6): connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=false,rssi=-41,lastModified=12-24 05:26:19,ssid="JD-office"
+      Previous State(7): connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=false,rssi=-40,lastModified=12-24 05:26:16,ssid="JD-office"
+      Previous State(8): connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=false,rssi=-41,lastModified=12-24 05:26:10,ssid="JD-office"
+      Previous State(9): connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=false,rssi=-40,lastModified=12-24 05:26:07,ssid="JD-office"
+      Previous State(10): connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=false,rssi=-41,lastModified=12-24 05:26:06,ssid="JD-office"
+      Previous State(11): connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=true,rssi=-41,lastModified=12-24 05:25:59,ssid="JD-office"
+      Previous State(12): connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=false,rssi=-41,lastModified=12-24 05:25:58,ssid="JD-office"
+      Previous State(13): connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=true,rssi=-41,lastModified=12-24 05:25:57,ssid="JD-office"
+      Previous State(14): connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=false,rssi=-41,lastModified=12-24 05:25:54,ssid="JD-office"
+      Previous State(15): connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=true,rssi=-41,lastModified=12-24 05:25:53,ssid="JD-office"
+      Previous State(16): connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=false,rssi=-41,lastModified=12-24 05:25:51,ssid="JD-office"
+      Previous State(17): connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=true,rssi=-41,lastModified=12-24 05:25:50,ssid="JD-office"
+      Previous State(18): connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=false,rssi=-41,lastModified=12-24 05:25:49,ssid="JD-office"
+      Previous State(19): connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=false,rssi=-42,lastModified=12-24 05:25:46,ssid="JD-office"
+      Previous State(20): connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=true,rssi=-42,lastModified=12-24 05:25:44,ssid="JD-office"
+      Previous State(21): connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=false,rssi=-42,lastModified=12-24 05:25:35,ssid="JD-office"
+      Previous State(22): connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=true,rssi=-42,lastModified=12-24 05:25:33,ssid="JD-office"
+      Previous State(23): connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=false,rssi=-42,lastModified=12-24 05:25:23,ssid="JD-office"
+      Previous State(24): connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=true,rssi=-42,lastModified=12-24 05:25:22,ssid="JD-office"
+      Previous State(25): connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=false,rssi=-42,lastModified=12-24 05:25:18,ssid="JD-office"
+      Previous State(26): connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=true,rssi=-42,lastModified=12-24 05:25:17,ssid="JD-office"
+      Previous State(27): connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=false,rssi=-42,lastModified=12-24 05:25:17,ssid="JD-office"
+      Previous State(28): connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=false,rssi=-41,lastModified=12-24 05:25:16,ssid="JD-office"
+      Previous State(29): connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=true,rssi=-41,lastModified=12-24 05:25:14,ssid="JD-office"
+      Previous State(30): connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=false,rssi=-41,lastModified=12-24 05:25:13,ssid="JD-office"
+      Previous State(31): connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=true,rssi=-41,lastModified=12-24 05:25:12,ssid="JD-office"
+      Previous State(32): connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=false,rssi=-41,lastModified=12-24 05:25:08,ssid="JD-office"
+      Previous State(33): connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=false,rssi=-42,lastModified=12-24 05:25:05,ssid="JD-office"
+      Previous State(34): connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=false,rssi=-41,lastModified=12-24 05:25:02,ssid="JD-office"
+      Previous State(35): connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=false,rssi=-40,lastModified=12-24 05:25:00,ssid="JD-office"
+      Previous State(36): connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=true,rssi=-40,lastModified=12-24 05:24:59,ssid="JD-office"
+      Previous State(37): connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=false,rssi=-40,lastModified=12-24 05:24:58,ssid="JD-office"
+      Previous State(38): connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=true,rssi=-40,lastModified=12-24 05:24:57,ssid="JD-office"
+      Previous State(39): connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=false,rssi=-40,lastModified=12-24 05:24:56,ssid="JD-office"
+      Previous State(40): connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=false,rssi=-41,lastModified=12-24 05:24:53,ssid="JD-office"
+      Previous State(41): connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=true,rssi=-41,lastModified=12-24 05:24:52,ssid="JD-office"
+      Previous State(42): connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=false,rssi=-41,lastModified=12-24 05:24:50,ssid="JD-office"
+      Previous State(43): connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=true,rssi=-41,lastModified=12-24 05:24:48,ssid="JD-office"
+      Previous State(44): connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=false,rssi=-41,lastModified=12-24 05:24:47,ssid="JD-office"
+      Previous State(45): connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=true,rssi=-41,lastModified=12-24 05:24:46,ssid="JD-office"
+      Previous State(46): connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=false,rssi=-41,lastModified=12-24 05:24:44,ssid="JD-office"
+      Previous State(47): connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=true,rssi=-41,lastModified=12-24 05:24:43,ssid="JD-office"
+      Previous State(48): connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=true,rssi=-42,lastModified=12-24 05:24:42,ssid="JD-office"
+      Previous State(49): connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=false,rssi=-42,lastModified=12-24 05:24:40,ssid="JD-office"
+      Previous State(50): connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=false,rssi=-41,lastModified=12-24 05:24:33,ssid="JD-office"
+      Previous State(51): connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=true,rssi=-41,lastModified=12-24 05:24:32,ssid="JD-office"
+      Previous State(52): connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=false,rssi=-41,lastModified=12-24 05:24:30,ssid="JD-office"
+      Previous State(53): connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=true,rssi=-41,lastModified=12-24 05:24:28,ssid="JD-office"
+      Previous State(54): connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=true,rssi=-42,lastModified=12-24 05:24:27,ssid="JD-office"
+      Previous State(55): connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=false,rssi=-42,lastModified=12-24 05:24:25,ssid="JD-office"
+      Previous State(56): connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=true,rssi=-42,lastModified=12-24 05:24:22,ssid="JD-office"
+      Previous State(57): connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=true,rssi=-41,lastModified=12-24 05:24:19,ssid="JD-office"
+      Previous State(58): connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=true,rssi=-42,lastModified=12-24 05:24:13,ssid="JD-office"
+      Previous State(59): connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=true,rssi=-41,lastModified=12-24 05:24:12,ssid="JD-office"
+      Previous State(60): connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=false,activityOut=false,rssi=-41,lastModified=12-24 05:24:11,ssid="JD-office"
+      Previous State(61): connected=true,enabled=true,level=4,inetCondition=0,iconGroup=IconGroup(Wi-Fi Icons),activityIn=false,activityOut=false,rssi=-41,lastModified=12-24 05:24:11,ssid="JD-office"
+      Previous State(62): connected=true,enabled=true,level=4,inetCondition=0,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=true,rssi=-41,lastModified=12-24 05:24:11,ssid="JD-office"
+      Previous State(63): connected=false,enabled=true,level=4,inetCondition=0,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=true,rssi=-41,lastModified=12-24 05:24:11,ssid=null
+      Previous State(64): connected=false,enabled=true,level=4,inetCondition=0,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=true,rssi=-40,lastModified=12-24 05:24:10,ssid=null
+      - NetworkController -----
+      Current State: Empty State
+    BluetoothController state:
+      mLocalBluetoothManager=com.android.settingslib.bluetooth.LocalBluetoothManager@cb784f3
+      mEnabled=false
+      mConnectionState=DISCONNECTED
+      mLastDevice=null
+      mCallbacks.size=1
+      Bluetooth Devices:
+    HotspotController state:
+      mHotspotEnabled=null
+    CastController state:
+      mDiscovering=false
+      mCallbackRegistered=true
+      mCallbacks.size=1
+      mRoutes.size=0
+      mProjection=null
+    UserSwitcherController state:
+      mLastNonGuestUser=0
+      mUsers.size=3
+        UserRecord(name="æºä¸»" id=0 <isCurrent>)
+        UserRecord(<add guest placeholder> <isGuest> <isRestricted>)
+        UserRecord(<add user placeholder> <isAddUser> <isRestricted>)
+    BatteryController state:
+      mLevel=53
+      mPluggedIn=true
+      mCharging=true
+      mCharged=false
+      mPowerSave=false
+    NextAlarmController state:
+      mNextAlarm=null
+    AssistManager state:
+      mAssistComponent=null
+    SecurityController state:
+      mCurrentVpns={}
+    KeyguardUpdateMonitor state:
+      SIM States:
+        SimData{state=NOT_READY,slotId=0,subId=2147483643}
+        SimData{state=ABSENT,slotId=0,subId=6}
+        SimData{state=ABSENT,slotId=1,subId=2147483644}
+      Subs:
+      Service states:
+        2147483643=1 1 voice home data home null null null null null null  Unknown Unknown CSS not supported -1 -1 RoamInd=1 DefRoamInd=-1 EmergOnly=true IsDataRoamingFromRegistration=false
+        6=1 1 voice home data home null null 00000 null null 00000  Unknown Unknown CSS not supported 0 0 RoamInd=1 DefRoamInd=0 EmergOnly=false IsDataRoamingFromRegistration=false
+        2147483644=1 1 voice home data home null null null null null null  Unknown Unknown CSS not supported -1 -1 RoamInd=1 DefRoamInd=-1 EmergOnly=false IsDataRoamingFromRegistration=false
+    SharedPreferences:
+      DndTileVisible=false
+      DndTileCombinedIcon=true
+    dumping service: com.android.systemui.usb.StorageNotification
+    dumping service: com.android.systemui.power.PowerUI
+    mLowBatteryAlertCloseLevel=20
+    mLowBatteryReminderLevels=[15, 5]
+    mBatteryLevel=53
+    mBatteryStatus=2
+    mPlugType=2
+    mInvalidCharger=0
+    mScreenOffTime=-1
+    soundTimeout=0
+    bucket: 1
+    mSaver=false
+    mWarning=false
+    mPlaySound=false
+    mInvalidCharger=false
+    mShowing=SHOWING_NOTHING
+    mSaverConfirmation=null
+    dumping service: com.android.systemui.media.RingtonePlayer
+    Clients:
+
+SERVICE android/.hardware.location.GeofenceHardwareService 4ef2572 pid=1546
+  Client:
+    nothing to dump
+
+SERVICE com.yulong.android.launcher3/com.amap.api.location.APSService 83db9c9 pid=2789
+  Client:
+    nothing to dump
+
+SERVICE com.qiku.multitask/.FloatWindowService 4a4e7af pid=2961
+  Client:
+    nothing to dump
+
+SERVICE com.qualcomm.location/.LBSSystemMonitorService c5a85da pid=1546
+  Client:
+    nothing to dump
+
+SERVICE com.qiku.magazine/.service.DownloadService a89eba2 pid=2340
+  Client:
+    nothing to dump
+
+SERVICE com.qiku.android.cloudsync/com.xmpp.android.service.NotificationDaemon 3182c3 pid=1780
+  Client:
+    nothing to dump
+
+SERVICE com.sina.weibo/com.sina.push.service.SinaPushService 93c2c6a pid=7853
+  Client:
+    nothing to dump
+
+SERVICE com.eg.android.AlipayGphone/com.alipay.android.launcher.service.LauncherService 4542d04 pid=5404
+  Client:
+    nothing to dump
+
+SERVICE com.android.dialer/com.android.incallui.InCallServiceImpl b33073e pid=3185
+  Client:
+    nothing to dump
+
+SERVICE com.qihoo.appstore/com.morgoo.droidplugin.PluginManagerService a7f4548 pid=30643
+  Client:
+    nothing to dump
+
+SERVICE com.eg.android.AlipayGphone/com.alipay.pushsdk.push.NotificationService 7c2790e pid=5080
+  Client:
+    nothing to dump
+
+SERVICE com.android.server.telecom/.components.BluetoothPhoneService 52e95b0 pid=1546
+  Client:
+    nothing to dump
+
+SERVICE com.yulong.android.launcher3/.LauncherJobService fa8a063 pid=2789
+  Client:
+    nothing to dump
+
+SERVICE com.qihoo.magic/.service.KeepLiveService 870c70b pid=(not running)
+
+SERVICE com.qti.dpmserviceapp/.DpmServiceApp 8c2e301 pid=2973
+  Client:
+    nothing to dump
+
+SERVICE com.android.stk/.StkAppService 6c7ccb9 pid=2448
+  Client:
+    nothing to dump
+
+SERVICE com.android.systemui/com.qiku.smsbox.service.SmsBoxService c918c29 pid=32627
+  Client:
+    nothing to dump
+
+SERVICE com.qiku.logredirect/.BroadcastCMD fee256d pid=12807
+  Client:
+    nothing to dump
+
+SERVICE com.android.server.telecom/.components.TelecomService de58afe pid=1546
+  Client:
+    nothing to dump
+
+SERVICE com.mayi.android.shortrent/com.igexin.sdk.PushService 9e9733d pid=(not running)
+
+SERVICE com.android.providers.media/.MtpService 4ee2369 pid=4873
+  Client:
+    nothing to dump
+
+SERVICE com.android.bluetooth/.hfp.HeadsetService 87f0639 pid=(not running)
+
+SERVICE com.qiku.freecall/.service.FreeCallQuerySerivce 8dc5397 pid=17890
+  Client:
+    nothing to dump
+
+SERVICE com.qiku.widget3d/.WidgetService 950899 pid=3659
+  Client:
+    nothing to dump
+
+SERVICE com.yulong.android.coolsafe/com.qiku.android.configcenter.SyncService 698723 pid=3890
+  Client:
+    nothing to dump
+
+SERVICE com.qualcomm.qti.modemtestmode/.MbnTestService 205fa5f pid=2448
+  Client:
+    nothing to dump
+
+SERVICE com.sina.weibo/.weiyou.refactor.service.DMService 2d889cc pid=7573
+  Client:
+    nothing to dump
+
+SERVICE com.android.location.fused/.FusedLocationService 7b77d95 pid=1546
+  Client:
+    nothing to dump
+
+SERVICE com.amap.android.location/.GeocodeService 1a138f1 pid=2873
+  Client:
+    nothing to dump
+
+SERVICE com.amap.android.location/.internal.server.NetworkLocationService 4a56137 pid=2873
+  Client:
+    nothing to dump
+
+SERVICE com.moji.mjweather/com.igexin.sdk.PushService 8c2b65c pid=(not running)
+
+SERVICE com.android.bluetooth/.map.BluetoothMapService 59fdd65 pid=(not running)
+
+SERVICE com.android.defcontainer/.DefaultContainerService 4326ca pid=3534
+  Client:
+    nothing to dump
+
+SERVICE com.android.phone/.TelephonyDebugService f69820 pid=2448
+  Client:
+    PhoneFactory:
+    CDMALTEPhone extends:
+    CDMAPhone extends:
+    PhoneBase: subId=2147483643
+     mPhoneId=0
+     mCi=com.android.internal.telephony.RIL@74fde0f
+     mDnsCheckDisabled=false
+     mDcTracker=Handler (com.qti.internal.telephony.dataconnection.QtiDcTracker) {940086e}
+     mDoesRilSendMultipleCallRing=false
+     mCallRingContinueToken=0
+     mCallRingDelay=3000
+     mIsTheCurrentActivePhone=true
+     mIsVoiceCapable=true
+     mIccRecords=null
+     mUiccApplication=null
+     mSmsStorageMonitor=Handler (com.android.internal.telephony.SmsStorageMonitor) {5e94b0f}
+     mSmsUsageMonitor=com.android.internal.telephony.SmsUsageMonitor@5cdb79c
+     mLooper=Looper (main, tid 1) {530e5a5}
+     mContext=com.android.phone.PhoneGlobals@aacb76f
+     mNotifier=com.android.internal.telephony.DefaultPhoneNotifier@e683d7a
+     mSimulatedRadioControl=null
+     mUnitTestMode=false
+     isDnsCheckDisabled()=false
+     getUnitTestMode()=false
+     getState()=IDLE
+     getIccSerialNumber()=null
+     getIccRecordsLoaded()=false
+     getMessageWaitingIndicator()=false
+     getCallForwardingIndicator()=false
+     isInEmergencyCall()=false
+     isInEcm()=false
+     getPhoneName()=CDMA
+     getPhoneType()=2
+     getVoiceMessageCount()=0
+     getActiveApnTypes()=[Ljava.lang.String;@20b6d24
+     isDataConnectivityPossible()=false
+     needsOtaServiceProvisioning=false
+    ++++++++++++++++++++++++++++++++
+    DcTracker extends:
+    DcTrackerBase:
+     RADIO_TESTS=false
+     mInternalDataEnabled=true
+     mUserDataEnabled=true
+     sPolicyDataEnabed=true
+     mDataEnabled:
+      mDataEnabled[0]=true
+      mDataEnabled[1]=false
+      mDataEnabled[2]=false
+      mDataEnabled[3]=false
+      mDataEnabled[4]=false
+      mDataEnabled[5]=false
+      mDataEnabled[6]=false
+      mDataEnabled[7]=false
+      mDataEnabled[8]=false
+      mDataEnabled[9]=false
+     mEnabledCount=1
+     mRequestedApnType=default
+     mPhone=CDMA
+     mActivity=NONE
+     mState=IDLE
+     mTxPkts=0
+     mRxPkts=0
+     mNetStatPollPeriod=0
+     mNetStatPollEnabled=false
+     mDataStallTxRxSum={txSum=0 rxSum=0}
+     mDataStallAlarmTag=6034085
+     mDataStallDetectionEanbled=true
+     mSentSinceLastRecv=0
+     mNoRecvPollCount=0
+     mResolver=android.app.ContextImpl$ApplicationContentResolver@cccb188
+     mIsWifiConnected=true
+     mReconnectIntent=null
+     mAutoAttachOnCreation=false
+     mIsScreenOn=true
+     mUniqueIdGenerator=0
+     ***************************************
+    Dcc:
+     total records=1
+     rec[0]: time=12-21 19:21:22.121 processed=DccDefaultState org=DccDefaultState dest=<null> what=EVENT_RIL_CONNECTED
+    curState=DccDefaultState
+     mPhone=Handler (com.qti.internal.telephony.cdma.QtiCDMALTEPhone) {7492772}
+     mDcListAll=[]
+     mDcListActiveByCid={}
+     ***************************************
+     mDataConnections: count=0
+     ***************************************
+     mApnToDataConnectonId size=0
+     ***************************************
+     mApnContexts size=9
+    {mApnType=default mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=nwTypeChanged mDataEnabled=false mDependencyMet=true}
+    {mApnType=mms mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=nwTypeChanged mDataEnabled=false mDependencyMet=true}
+    {mApnType=cbs mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=nwTypeChanged mDataEnabled=false mDependencyMet=true}
+    {mApnType=fota mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=nwTypeChanged mDataEnabled=false mDependencyMet=true}
+    {mApnType=supl mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=nwTypeChanged mDataEnabled=false mDependencyMet=true}
+    {mApnType=emergency mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=nwTypeChanged mDataEnabled=false mDependencyMet=true}
+    {mApnType=dun mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=nwTypeChanged mDataEnabled=false mDependencyMet=true}
+    {mApnType=hipri mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=nwTypeChanged mDataEnabled=false mDependencyMet=true}
+    {mApnType=ims mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=nwTypeChanged mDataEnabled=false mDependencyMet=true}
+     ***************************************
+     mActiveApn=null
+     mAllApnSettings size=4
+     mAllApnSettings[0]: [ApnSettingV3] ä¸­å½çµä¿¡äºèç½è®¾ç½®CTNET, 5, 46011, ctnet, , null, , , , -1, default | supl, IP, IP, true, 14, 8192, 0, false, 0, 0, 0, 0, , 
+     mAllApnSettings[1]: [ApnSettingV3] ä¸­å½çµä¿¡äºèç½è®¾ç½®CTNET, 6, 46011, ctnet, , null, , , , 2, default, IP, IP, true, 8, 128, 0, false, 0, 0, 0, 0, , 
+     mAllApnSettings[2]: [ApnSettingV3] ä¸­å½çµä¿¡WAPè®¾ç½®CTWAP, 7, 46011, ctwap, , null, , , , 2, default | supl, IP, IP, true, 8, 128, 0, false, 0, 0, 0, 0, , 
+     mAllApnSettings[3]: [ApnSettingV3] ä¸­å½çµä¿¡å½©ä¿¡è®¾ç½®, 8, 46011, ctwap, 10.0.0.200, http://mmsc.vnet.mobi, 10.0.0.200, 80, 80, 2, mms | supl, IP, IP, true, 0, 0, 0, false, 0, 0, 0, 0, , 
+     mPreferredApn=null
+     mIsPsRestricted=false
+     mIsDisposed=false
+     mIntentReceiver=com.android.internal.telephony.dataconnection.DcTrackerBase$2@493c2e6
+     mDataRoamingSettingObserver=com.android.internal.telephony.dataconnection.DcTrackerBase$DataRoamingSettingObserver@86f3721
+     mReregisterOnReconnectFailure=false
+     canSetPreferApn=true
+     mApnObserver=com.android.internal.telephony.dataconnection.DcTracker$ApnChangeObserver@eacb746
+     getOverallState=IDLE
+     mDataConnectionAsyncChannels=%s
+    {}
+     mAttached=false
+    ++++++++++++++++++++++++++++++++
+    CdmaLteServiceStateTracker extends:
+    CdmaServiceStateTracker extends:
+    ServiceStateTracker:
+     mSS=1 1 voice home data home null null 00000 null null 00000  Unknown Unknown CSS not supported 0 0 RoamInd=1 DefRoamInd=0 EmergOnly=false IsDataRoamingFromRegistration=false
+     mNewSS=1 1 voice home data home null null null null null null  Unknown Unknown CSS not supported -1 -1 RoamInd=-1 DefRoamInd=-1 EmergOnly=false IsDataRoamingFromRegistration=false
+     mCellInfo=CellInfoLte:{mRegistered=NO mTimeStampType=java_ril mTimeStamp=6414309000ns CellIdentityLte:{ mMcc=0 mMnc=0 mCi=2147483647 mPci=2147483647 mTac=2147483647} CellSignalStrengthLte: ss=20 rsrp=-108 rsrq=-15 rssnr=-28 cqi=2147483647 ta=2147483647}
+     mRestrictedState=Restricted State CS: none PS:false
+     mPollingContext=[I@5858d07
+     mDesiredPowerState=true
+     mDontPollSignalStrength=true
+     mPendingRadioPowerOffAfterDataOff=false
+     mPendingRadioPowerOffAfterDataOffTag=0
+     mPhone=Handler (com.qti.internal.telephony.cdma.QtiCDMALTEPhone) {7492772}
+     mSS=1 1 voice home data home null null 00000 null null 00000  Unknown Unknown CSS not supported 0 0 RoamInd=1 DefRoamInd=0 EmergOnly=false IsDataRoamingFromRegistration=false
+     mNewSS=1 1 voice home data home null null null null null null  Unknown Unknown CSS not supported -1 -1 RoamInd=-1 DefRoamInd=-1 EmergOnly=false IsDataRoamingFromRegistration=false
+     mCellLoc=[-1,2147483647,2147483647,-1,-1,0]
+     mNewCellLoc=[-1,2147483647,2147483647,-1,-1,0]
+     mCurrentOtaspMode=3
+     mRoamingIndicator=-1
+     mIsInPrl=false
+     mDefaultRoamingIndicator=0
+     mRegistrationState=12
+     mNeedFixZone=false
+     mZoneOffset=28800000
+     mZoneDst=false
+     mZoneTime=1513855281000
+     mGotCountryCode=false
+     mSavedTimeZone=Asia/Shanghai
+     mSavedTime=1513855281275
+     mSavedAtTime=6034148
+     mWakeLock=WakeLock{53f5e34 held=false, refCount=0}
+     mCurPlmn=æ æå¡
+     mMdn=
+     mHomeSystemId=[I@ae7245d
+     mHomeNetworkId=[I@e6d01d2
+     mMin=6101905628
+     mPrlVersion=1
+     mIsMinInfoReady=true
+     mIsEriTextLoaded=false
+     mIsSubscriptionFromRuim=true
+     mCdmaSSM=Handler (com.android.internal.telephony.cdma.CdmaSubscriptionSourceManager) {563f2a3}
+     mRegistrationDeniedReason=General
+     mCurrentCarrier=null
+     mCdmaLtePhone=Handler (com.qti.internal.telephony.cdma.QtiCDMALTEPhone) {7492772}
+    ++++++++++++++++++++++++++++++++
+    GsmCallTracker extends:
+    CallTracker:
+     mPendingOperations=0
+     mNeedsPoll=false
+     mLastRelevantPoll=null
+    droppedDuringPoll: length=8
+     mConnections[0]=null
+     mConnections[1]=null
+     mConnections[2]=null
+     mConnections[3]=null
+     mConnections[4]=null
+     mConnections[5]=null
+     mConnections[6]=null
+     mConnections[7]=null
+     mVoiceCallEndedRegistrants=android.os.RegistrantList@c8e29a0
+     mVoiceCallStartedRegistrants=android.os.RegistrantList@af6a959
+     mCallWaitingRegistrants=android.os.RegistrantList@675691e
+    droppedDuringPoll: size=0
+     mRingingCall=IDLE
+     mForegroundCall=IDLE
+     mBackgroundCall=IDLE
+     mPendingMO=null
+     mHangupPendingMO=false
+     mPendingCallInEcm=false
+     mIsInEmergencyCall=false
+     mPhone=Handler (com.qti.internal.telephony.cdma.QtiCDMALTEPhone) {7492772}
+     mDesiredMute=false
+     mPendingCallClirMode=0
+     mState=IDLE
+     mIsEcmTimerCanceled=false
+    ++++++++++++++++++++++++++++++++
+    RIL: com.android.internal.telephony.RIL@74fde0f
+     mSocket=android.net.LocalSocket@13915ff impl:android.net.LocalSocketImpl@c3c3fcc fd:FileDescriptor[22]
+     mSenderThread=Thread[RILSender0,5,main]
+     mSender=Handler (com.android.internal.telephony.RIL$RILSender) {4df8215}
+     mReceiverThread=Thread[RILReceiver0,5,main]
+     mReceiver=com.android.internal.telephony.RIL$RILReceiver@e0af92a
+     mWakeLock=WakeLock{313131b held=false, refCount=0}
+     mWakeLockTimeout=60000
+     mWakeLockCount=0
+     mRequestList count=0
+     mLastNITZTimeInfo=[Ljava.lang.Object;@d38cb8
+     mTestingEmergencyCall=false
+    ++++++++++++++++++++++++++++++++
+     mVmNumber=null
+     mCT=Handler (com.android.internal.telephony.cdma.CdmaCallTracker) {d432a91}
+     mSST=Handler (com.android.internal.telephony.cdma.CdmaLteServiceStateTracker) {9b77df6}
+     mCdmaSSM=Handler (com.android.internal.telephony.cdma.CdmaSubscriptionSourceManager) {563f2a3}
+     mPendingMmis=[]
+     mRuimPhoneBookInterfaceManager=com.android.internal.telephony.cdma.RuimPhoneBookInterfaceManager@dc5c5f7
+     mCdmaSubscriptionSource=0
+     mSubInfo=com.android.internal.telephony.PhoneSubInfo@390bc64
+     mEriManager=com.android.internal.telephony.cdma.EriManager@75edecd
+     mWakeLock=WakeLock{ad58382 held=false, refCount=0}
+     mIsPhoneInEcmState=false
+     mImei=861530030528842
+     mImeiSv=00
+     mEsn=80299215
+     mMeid=99000820030983
+     mCarrierOtaSpNumSchema=
+     getCdmaEriIconIndex()=1
+     getCdmaEriIconMode()=0
+     getCdmaEriText()=ç¦ç¨æ¼«æ¸¸æç¤ºç¬¦
+     isMinInfoReady()=true
+     isCspPlmnEnabled()=false
+    ++++++++++++++++++++++++++++++++
+    IccCardProxy: Handler (com.android.internal.telephony.uicc.IccCardProxy) {386ca93}
+     mContext=com.android.phone.PhoneGlobals@aacb76f
+     mCi=com.android.internal.telephony.RIL@74fde0f
+     mAbsentRegistrants: size=0
+     mPinLockedRegistrants: size=0
+     mNetworkLockedRegistrants: size=2
+      mNetworkLockedRegistrants[0]=Handler (com.android.phone.PhoneGlobals$1) {2cf3ad0}
+      mNetworkLockedRegistrants[1]=Handler (com.android.phone.PhoneGlobals$1) {2cf3ad0}
+     mCurrentAppType=2
+     mUiccController=Handler (com.android.internal.telephony.uicc.UiccController) {3079ac9}
+     mUiccCard=com.android.internal.telephony.uicc.UiccCard@bdc55ce
+     mUiccApplication=null
+     mIccRecords=null
+     mCdmaSSM=Handler (com.android.internal.telephony.cdma.CdmaSubscriptionSourceManager) {563f2a3}
+     mRadioOn=true
+     mQuietMode=false
+     mInitialized=true
+     mExternalState=ABSENT
+    ++++++++++++++++++++++++++++++++
+    GSMPhone extends:
+    PhoneBase: subId=2147483644
+     mPhoneId=1
+     mCi=com.android.internal.telephony.RIL@d97a339
+     mDnsCheckDisabled=false
+     mDcTracker=Handler (com.qti.internal.telephony.dataconnection.QtiDcTracker) {a497cef}
+     mDoesRilSendMultipleCallRing=false
+     mCallRingContinueToken=0
+     mCallRingDelay=3000
+     mIsTheCurrentActivePhone=true
+     mIsVoiceCapable=true
+     mIccRecords=null
+     mUiccApplication=null
+     mSmsStorageMonitor=Handler (com.android.internal.telephony.SmsStorageMonitor) {53533fc}
+     mSmsUsageMonitor=com.android.internal.telephony.SmsUsageMonitor@e661a85
+     mLooper=Looper (main, tid 1) {530e5a5}
+     mContext=com.android.phone.PhoneGlobals@aacb76f
+     mNotifier=com.android.internal.telephony.DefaultPhoneNotifier@e683d7a
+     mSimulatedRadioControl=null
+     mUnitTestMode=false
+     isDnsCheckDisabled()=false
+     getUnitTestMode()=false
+     getState()=IDLE
+     getIccSerialNumber()=null
+     getIccRecordsLoaded()=false
+     getMessageWaitingIndicator()=false
+     getCallForwardingIndicator()=false
+     isInEmergencyCall()=false
+     isInEcm()=false
+     getPhoneName()=GSM
+     getPhoneType()=1
+     getVoiceMessageCount()=0
+     getActiveApnTypes()=[Ljava.lang.String;@7f6a08d
+     isDataConnectivityPossible()=false
+     needsOtaServiceProvisioning=false
+    ++++++++++++++++++++++++++++++++
+    DcTracker extends:
+    DcTrackerBase:
+     RADIO_TESTS=false
+     mInternalDataEnabled=true
+     mUserDataEnabled=true
+     sPolicyDataEnabed=true
+     mDataEnabled:
+      mDataEnabled[0]=true
+      mDataEnabled[1]=false
+      mDataEnabled[2]=false
+      mDataEnabled[3]=false
+      mDataEnabled[4]=false
+      mDataEnabled[5]=false
+      mDataEnabled[6]=false
+      mDataEnabled[7]=false
+      mDataEnabled[8]=false
+      mDataEnabled[9]=false
+     mEnabledCount=1
+     mRequestedApnType=default
+     mPhone=GSM
+     mActivity=NONE
+     mState=IDLE
+     mTxPkts=0
+     mRxPkts=0
+     mNetStatPollPeriod=0
+     mNetStatPollEnabled=false
+     mDataStallTxRxSum={txSum=0 rxSum=0}
+     mDataStallAlarmTag=23196
+     mDataStallDetectionEanbled=true
+     mSentSinceLastRecv=0
+     mNoRecvPollCount=0
+     mResolver=android.app.ContextImpl$ApplicationContentResolver@cccb188
+     mIsWifiConnected=true
+     mReconnectIntent=null
+     mAutoAttachOnCreation=false
+     mIsScreenOn=true
+     mUniqueIdGenerator=0
+     ***************************************
+    Dcc:
+     total records=1
+     rec[0]: time=12-21 17:41:01.823 processed=DccDefaultState org=DccDefaultState dest=<null> what=EVENT_RIL_CONNECTED
+    curState=DccDefaultState
+     mPhone=Handler (com.qti.internal.telephony.gsm.QtiGSMPhone) {d9bd6d5}
+     mDcListAll=[]
+     mDcListActiveByCid={}
+     ***************************************
+     mDataConnections: count=0
+     ***************************************
+     mApnToDataConnectonId size=0
+     ***************************************
+     mApnContexts size=9
+    {mApnType=default mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+    {mApnType=mms mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+    {mApnType=cbs mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+    {mApnType=fota mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+    {mApnType=supl mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+    {mApnType=emergency mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+    {mApnType=dun mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+    {mApnType=hipri mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+    {mApnType=ims mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+     ***************************************
+     mActiveApn=null
+     mAllApnSettings=null
+     mPreferredApn=null
+     mIsPsRestricted=false
+     mIsDisposed=false
+     mIntentReceiver=com.android.internal.telephony.dataconnection.DcTrackerBase$2@811d534
+     mDataRoamingSettingObserver=com.android.internal.telephony.dataconnection.DcTrackerBase$DataRoamingSettingObserver@9daf90b
+     mReregisterOnReconnectFailure=false
+     canSetPreferApn=false
+     mApnObserver=com.android.internal.telephony.dataconnection.DcTracker$ApnChangeObserver@39f93e8
+     getOverallState=IDLE
+     mDataConnectionAsyncChannels=%s
+    {}
+     mAttached=false
+    ++++++++++++++++++++++++++++++++
+    GsmServiceStateTracker extends:
+    ServiceStateTracker:
+     mSS=1 1 voice home data home null null null null null null  Unknown Unknown CSS not supported -1 -1 RoamInd=1 DefRoamInd=-1 EmergOnly=false IsDataRoamingFromRegistration=false
+     mNewSS=1 1 voice home data home null null null null null null  Unknown Unknown CSS not supported -1 -1 RoamInd=-1 DefRoamInd=-1 EmergOnly=false IsDataRoamingFromRegistration=false
+     mCellInfo=CellInfoGsm:{mRegistered=NO mTimeStampType=unknown mTimeStamp=9223372036854775807ns CellIdentityGsm:{ mMcc=2147483647 mMnc=2147483647 mLac=2147483647 mCid=2147483647} CellSignalStrengthGsm: ss=2147483647 ber=2147483647}
+     mRestrictedState=Restricted State CS: none PS:false
+     mPollingContext=[I@772da01
+     mDesiredPowerState=true
+     mDontPollSignalStrength=false
+     mPendingRadioPowerOffAfterDataOff=false
+     mPendingRadioPowerOffAfterDataOffTag=0
+     mPhone=Handler (com.qti.internal.telephony.gsm.QtiGSMPhone) {d9bd6d5}
+     mSS=1 1 voice home data home null null null null null null  Unknown Unknown CSS not supported -1 -1 RoamInd=1 DefRoamInd=-1 EmergOnly=false IsDataRoamingFromRegistration=false
+     mNewSS=1 1 voice home data home null null null null null null  Unknown Unknown CSS not supported -1 -1 RoamInd=-1 DefRoamInd=-1 EmergOnly=false IsDataRoamingFromRegistration=false
+     mCellLoc=[-1,-1,-1]
+     mNewCellLoc=[-1,-1,-1]
+     mPreferredNetworkType=0
+     mMaxDataCalls=20
+     mNewMaxDataCalls=20
+     mReasonDataDenied=-1
+     mNewReasonDataDenied=-1
+     mGsmRoaming=false
+     mDataRoaming=false
+     mEmergencyOnly=false
+     mNeedFixZoneAfterNitz=false
+     mZoneOffset=0
+     mZoneDst=false
+     mZoneTime=0
+     mGotCountryCode=false
+     mNitzUpdatedTime=false
+     mSavedTimeZone=null
+     mSavedTime=0
+     mSavedAtTime=0
+     mStartedGprsRegCheck=false
+     mReportedGprsNoReg=false
+     mNotification=null
+     mWakeLock=WakeLock{81950a6 held=false, refCount=0}
+     mCurSpn=
+     mCurDataSpn=
+     mCurShowSpn=false
+     mCurPlmn=æ æå¡
+     mCurShowPlmn=true
+    ++++++++++++++++++++++++++++++++
+    GsmCallTracker extends:
+    CallTracker:
+     mPendingOperations=0
+     mNeedsPoll=false
+     mLastRelevantPoll=null
+    mConnections: length=19
+      mConnections[0]=null
+      mConnections[1]=null
+      mConnections[2]=null
+      mConnections[3]=null
+      mConnections[4]=null
+      mConnections[5]=null
+      mConnections[6]=null
+      mConnections[7]=null
+      mConnections[8]=null
+      mConnections[9]=null
+      mConnections[10]=null
+      mConnections[11]=null
+      mConnections[12]=null
+      mConnections[13]=null
+      mConnections[14]=null
+      mConnections[15]=null
+      mConnections[16]=null
+      mConnections[17]=null
+      mConnections[18]=null
+     mVoiceCallEndedRegistrants=android.os.RegistrantList@fbe1ae7
+     mVoiceCallStartedRegistrants=android.os.RegistrantList@5ce0694
+     mDroppedDuringPoll: size=0
+     mRingingCall=IDLE
+     mForegroundCall=IDLE
+     mBackgroundCall=IDLE
+     mPendingMO=null
+     mHangupPendingMO=false
+     mPhone=Handler (com.qti.internal.telephony.gsm.QtiGSMPhone) {d9bd6d5}
+     mDesiredMute=false
+     mState=IDLE
+    ++++++++++++++++++++++++++++++++
+    RIL: com.android.internal.telephony.RIL@d97a339
+     mSocket=android.net.LocalSocket@932153d impl:android.net.LocalSocketImpl@6f9d132 fd:FileDescriptor[25]
+     mSenderThread=Thread[RILSender1,5,main]
+     mSender=Handler (com.android.internal.telephony.RIL$RILSender) {4c77e83}
+     mReceiverThread=Thread[RILReceiver1,5,main]
+     mReceiver=com.android.internal.telephony.RIL$RILReceiver@dcef800
+     mWakeLock=WakeLock{afc839 held=false, refCount=0}
+     mWakeLockTimeout=60000
+     mWakeLockCount=0
+     mRequestList count=0
+     mLastNITZTimeInfo=null
+     mTestingEmergencyCall=false
+    ++++++++++++++++++++++++++++++++
+     mCT=Handler (com.android.internal.telephony.gsm.GsmCallTracker) {eefce7e}
+     mSST=Handler (com.qti.internal.telephony.gsm.QtiGsmServiceStateTracker) {797fdf}
+     mPendingMMIs=[]
+     mSimPhoneBookIntManager=com.android.internal.telephony.gsm.SimPhoneBookInterfaceManager@e2b942c
+     mSubInfo=com.android.internal.telephony.PhoneSubInfo@5bbaef5
+     mImei=861530030728848
+     mImeiSv=00
+     mVmNumber=null
+    ++++++++++++++++++++++++++++++++
+    IccCardProxy: Handler (com.android.internal.telephony.uicc.IccCardProxy) {6b6548a}
+     mContext=com.android.phone.PhoneGlobals@aacb76f
+     mCi=com.android.internal.telephony.RIL@d97a339
+     mAbsentRegistrants: size=0
+     mPinLockedRegistrants: size=0
+     mNetworkLockedRegistrants: size=1
+      mNetworkLockedRegistrants[0]=Handler (com.android.phone.PhoneGlobals$1) {2cf3ad0}
+     mCurrentAppType=1
+     mUiccController=Handler (com.android.internal.telephony.uicc.UiccController) {3079ac9}
+     mUiccCard=com.android.internal.telephony.uicc.UiccCard@6203afb
+     mUiccApplication=null
+     mIccRecords=null
+     mCdmaSSM=Handler (com.android.internal.telephony.cdma.CdmaSubscriptionSourceManager) {563f2a3}
+     mRadioOn=true
+     mQuietMode=false
+     mInitialized=true
+     mExternalState=ABSENT
+    ++++++++++++++++++++++++++++++++
+    DctController:
+    DcSwitchStateMachine-0:
+     total records=67
+     rec[0]: time=12-21 19:21:21.565 processed=DefaultState org=IdleState dest=<null> what=278531(0x44003)
+     rec[1]: time=12-21 19:21:21.588 processed=DefaultState org=IdleState dest=<null> what=278531(0x44003)
+     rec[2]: time=12-21 19:21:21.589 processed=DefaultState org=IdleState dest=<null> what=278531(0x44003)
+     rec[3]: time=12-21 19:21:21.813 processed=DefaultState org=IdleState dest=<null> what=278531(0x44003)
+     rec[4]: time=12-21 19:21:21.813 processed=DefaultState org=IdleState dest=<null> what=278531(0x44003)
+     rec[5]: time=12-21 19:21:22.090 processed=IdleState org=IdleState dest=AttachedState what=278535(0x44007)
+     rec[6]: time=12-21 19:27:41.673 processed=AttachedState org=AttachedState dest=IdleState what=278536(0x44008)
+     rec[7]: time=12-21 19:27:41.729 processed=DefaultState org=IdleState dest=<null> what=278531(0x44003)
+     rec[8]: time=12-21 19:27:41.730 processed=DefaultState org=IdleState dest=<null> what=278531(0x44003)
+     rec[9]: time=12-21 19:27:41.805 processed=DefaultState org=IdleState dest=<null> what=278531(0x44003)
+     rec[10]: time=12-21 19:27:41.861 processed=DefaultState org=IdleState dest=<null> what=278531(0x44003)
+     rec[11]: time=12-21 19:27:41.915 processed=DefaultState org=IdleState dest=<null> what=278531(0x44003)
+     rec[12]: time=12-22 05:54:52.489 processed=DefaultState org=IdleState dest=<null> what=278531(0x44003)
+     rec[13]: time=12-22 05:54:55.563 processed=DefaultState org=IdleState dest=<null> what=278531(0x44003)
+     rec[14]: time=12-22 14:22:35.519 processed=DefaultState org=IdleState dest=<null> what=278531(0x44003)
+     rec[15]: time=12-22 14:24:16.761 processed=DefaultState org=IdleState dest=<null> what=278531(0x44003)
+     rec[16]: time=12-24 17:20:45.543 processed=DefaultState org=IdleState dest=<null> what=278531(0x44003)
+     rec[17]: time=12-24 17:21:13.004 processed=DefaultState org=IdleState dest=<null> what=278531(0x44003)
+     rec[18]: time=12-24 17:23:58.737 processed=DefaultState org=IdleState dest=<null> what=278531(0x44003)
+     rec[19]: time=12-24 17:24:11.567 processed=DefaultState org=IdleState dest=<null> what=278531(0x44003)
+    curState=IdleState
+    DcSwitchStateMachine-1:
+     total records=43
+     rec[0]: time=12-21 19:21:08.425 processed=DefaultState org=IdleState dest=<null> what=278531(0x44003)
+     rec[1]: time=12-21 19:21:21.565 processed=DefaultState org=IdleState dest=<null> what=278531(0x44003)
+     rec[2]: time=12-21 19:21:21.565 processed=DefaultState org=IdleState dest=<null> what=278531(0x44003)
+     rec[3]: time=12-21 19:21:21.588 processed=DefaultState org=IdleState dest=<null> what=278531(0x44003)
+     rec[4]: time=12-21 19:21:21.589 processed=DefaultState org=IdleState dest=<null> what=278531(0x44003)
+     rec[5]: time=12-21 19:21:21.813 processed=DefaultState org=IdleState dest=<null> what=278531(0x44003)
+     rec[6]: time=12-21 19:21:21.813 processed=DefaultState org=IdleState dest=<null> what=278531(0x44003)
+     rec[7]: time=12-21 19:27:41.730 processed=DefaultState org=IdleState dest=<null> what=278531(0x44003)
+     rec[8]: time=12-21 19:27:41.730 processed=DefaultState org=IdleState dest=<null> what=278531(0x44003)
+     rec[9]: time=12-21 19:27:41.805 processed=DefaultState org=IdleState dest=<null> what=278531(0x44003)
+     rec[10]: time=12-21 19:27:41.862 processed=DefaultState org=IdleState dest=<null> what=278531(0x44003)
+     rec[11]: time=12-21 19:27:41.915 processed=DefaultState org=IdleState dest=<null> what=278531(0x44003)
+     rec[12]: time=12-22 05:54:52.490 processed=DefaultState org=IdleState dest=<null> what=278531(0x44003)
+     rec[13]: time=12-22 05:54:55.563 processed=DefaultState org=IdleState dest=<null> what=278531(0x44003)
+     rec[14]: time=12-22 14:22:35.519 processed=DefaultState org=IdleState dest=<null> what=278531(0x44003)
+     rec[15]: time=12-22 14:24:16.762 processed=DefaultState org=IdleState dest=<null> what=278531(0x44003)
+     rec[16]: time=12-24 17:20:45.543 processed=DefaultState org=IdleState dest=<null> what=278531(0x44003)
+     rec[17]: time=12-24 17:21:13.004 processed=DefaultState org=IdleState dest=<null> what=278531(0x44003)
+     rec[18]: time=12-24 17:23:58.738 processed=DefaultState org=IdleState dest=<null> what=278531(0x44003)
+     rec[19]: time=12-24 17:24:11.569 processed=DefaultState org=IdleState dest=<null> what=278531(0x44003)
+    curState=IdleState
+    ++++++++++++++++++++++++++++++++
+    ++++++++++++++++++++++++++++++++
+    TelephonyNetworkFactories:
+    {TelephonyNetworkFactory - ScoreFilter=50, Filter=[ Transports: CELLULAR Capabilities: MMS&SUPL&DUN&FOTA&IMS&CBS&IA&RCS&XCAP&EIMS&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN Specifier: <2147483643>], requests=1, refCount=0}
+      {NetworkRequest [ id=1, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ], score=60, requested=false}
+      Pending Requests:
+      Request History:
+        NetworkRequest [ id=1, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+          12-22 05:54:52.489 - Dctc.requestNetwork, priority=0
+          12-22 05:54:55.562 - Cellular releasing Network for 
+          12-22 05:54:55.562 - DctController.releaseNetwork
+          12-22 05:54:55.562 - DctController.onReleaseRequest
+          12-22 14:22:35.511 - Dctc.requestNetwork, priority=0
+          12-22 14:24:16.761 - Cellular releasing Network for 
+          12-22 14:24:16.761 - DctController.releaseNetwork
+          12-22 14:24:16.761 - DctController.onReleaseRequest
+          12-24 17:20:45.542 - Dctc.requestNetwork, priority=0
+          12-24 17:21:13.002 - Cellular releasing Network for 
+          12-24 17:21:13.002 - DctController.releaseNetwork
+          12-24 17:21:13.003 - DctController.onReleaseRequest
+          12-24 17:23:58.736 - Dctc.requestNetwork, priority=0
+          12-24 17:24:11.567 - Cellular releasing Network for 
+          12-24 17:24:11.567 - DctController.releaseNetwork
+          12-24 17:24:11.567 - DctController.onReleaseRequest
+    {TelephonyNetworkFactory - ScoreFilter=50, Filter=[ Transports: CELLULAR Capabilities: MMS&SUPL&DUN&FOTA&IMS&CBS&IA&RCS&XCAP&EIMS&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN Specifier: <2147483644>], requests=1, refCount=0}
+      {NetworkRequest [ id=1, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ], score=60, requested=false}
+      Pending Requests:
+      Request History:
+        NetworkRequest [ id=1, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+          12-21 17:41:03.225 - Request not useable, pending request.
+          12-21 17:41:03.879 - Request not useable, pending request.
+          12-21 17:41:03.880 - Request not useable, pending request.
+          12-21 17:41:03.931 - Request not useable, pending request.
+          12-21 17:41:03.932 - Request not useable, pending request.
+          12-21 17:41:03.962 - Request not useable, pending request.
+          12-21 17:41:03.963 - Request not useable, pending request.
+          12-21 17:41:04.158 - Request not useable, pending request.
+          12-21 17:41:04.831 - Request not useable, pending request.
+          12-21 17:41:04.832 - Request not useable, pending request.
+          12-21 17:41:08.488 - Request not useable, pending request.
+          12-21 17:41:08.488 - Request not useable, pending request.
+          12-21 17:41:09.303 - Cellular releasing Network for 
+          12-21 17:41:09.303 - Sub Info has not been ready, remove request.
+          12-21 17:53:15.942 - Request not useable, pending request.
+          12-21 17:54:27.552 - Cellular releasing Network for 
+          12-21 17:54:27.553 - Sub Info has not been ready, remove request.
+          12-22 05:54:52.489 - Request not useable, pending request.
+          12-22 05:54:55.565 - Cellular releasing Network for 
+          12-22 05:54:55.565 - Sub Info has not been ready, remove request.
+          12-22 14:22:35.518 - Request not useable, pending request.
+          12-22 14:24:16.780 - Cellular releasing Network for 
+          12-22 14:24:16.780 - Sub Info has not been ready, remove request.
+          12-24 17:20:45.545 - Request not useable, pending request.
+          12-24 17:21:13.003 - Cellular releasing Network for 
+          12-24 17:21:13.003 - Sub Info has not been ready, remove request.
+          12-24 17:23:58.736 - Request not useable, pending request.
+          12-24 17:24:11.566 - Cellular releasing Network for 
+          12-24 17:24:11.566 - Sub Info has not been ready, remove request.
+    ++++++++++++++++++++++++++++++++
+    UiccController: Handler (com.android.internal.telephony.uicc.UiccController) {3079ac9}
+     mContext=com.android.phone.PhoneGlobals@aacb76f
+     mInstance=Handler (com.android.internal.telephony.uicc.UiccController) {3079ac9}
+     mIccChangedRegistrants: size=12
+      mIccChangedRegistrants[0]=Handler (com.android.internal.telephony.gsm.GsmSMSDispatcher) {6d3c718}
+      mIccChangedRegistrants[1]=Handler (com.android.internal.telephony.uicc.IccCardProxy) {386ca93}
+      mIccChangedRegistrants[2]=Handler (com.qti.internal.telephony.gsm.QtiGSMPhone) {d9bd6d5}
+      mIccChangedRegistrants[3]=Handler (com.qti.internal.telephony.gsm.QtiGsmServiceStateTracker) {797fdf}
+      mIccChangedRegistrants[4]=Handler (com.qti.internal.telephony.dataconnection.QtiDcTracker) {a497cef}
+      mIccChangedRegistrants[5]=Handler (com.android.internal.telephony.gsm.GsmSMSDispatcher) {3654571}
+      mIccChangedRegistrants[6]=Handler (com.android.internal.telephony.uicc.IccCardProxy) {6b6548a}
+      mIccChangedRegistrants[7]=Handler (com.qti.internal.telephony.UiccCardProvisioner) {3ad2f56}
+      mIccChangedRegistrants[8]=Handler (qiku.config.QKNetworkModeUpdater) {7ad8bd7}
+      mIccChangedRegistrants[9]=Handler (com.qti.internal.telephony.cdma.QtiCDMALTEPhone) {7492772}
+      mIccChangedRegistrants[10]=Handler (com.android.internal.telephony.cdma.CdmaLteServiceStateTracker) {9b77df6}
+      mIccChangedRegistrants[11]=Handler (com.qti.internal.telephony.dataconnection.QtiDcTracker) {940086e}
+
+     mUiccCards: size=2
+      mUiccCards[0]=com.android.internal.telephony.uicc.UiccCard@bdc55ce
+    UiccCard:
+     mCi=com.android.internal.telephony.RIL@74fde0f
+     mLastRadioState=RADIO_ON
+     mCatService=null
+     mAbsentRegistrants: size=1
+      mAbsentRegistrants[0]=Handler (com.android.internal.telephony.uicc.IccCardProxy) {386ca93}
+     mCardState=CARDSTATE_ABSENT
+     mUniversalPinState=PINSTATE_UNKNOWN
+     mGsmUmtsSubscriptionAppIndex=-1
+     mCdmaSubscriptionAppIndex=-1
+     mImsSubscriptionAppIndex=-1
+     mImsSubscriptionAppIndex=-1
+     mUiccApplications: length=8
+      mUiccApplications[0]=null
+      mUiccApplications[1]=null
+      mUiccApplications[2]=null
+      mUiccApplications[3]=null
+      mUiccApplications[4]=null
+      mUiccApplications[5]=null
+      mUiccApplications[6]=null
+      mUiccApplications[7]=null
+
+     mCarrierPrivilegeRules: null
+     mCarrierPrivilegeRegistrants: size=0
+    mLocalLog:
+    12-21 19:21:07.337 - Open Logical Channel: A00000015141434C00 by pid:2448 uid:1001
+    12-21 19:21:16.442 - Exception: com.android.internal.telephony.CommandException: NO_SUCH_ELEMENT
+      mUiccCards[1]=com.android.internal.telephony.uicc.UiccCard@6203afb
+    UiccCard:
+     mCi=com.android.internal.telephony.RIL@d97a339
+     mLastRadioState=RADIO_ON
+     mCatService=null
+     mAbsentRegistrants: size=1
+      mAbsentRegistrants[0]=Handler (com.android.internal.telephony.uicc.IccCardProxy) {6b6548a}
+     mCardState=CARDSTATE_ABSENT
+     mUniversalPinState=PINSTATE_UNKNOWN
+     mGsmUmtsSubscriptionAppIndex=-1
+     mCdmaSubscriptionAppIndex=-1
+     mImsSubscriptionAppIndex=-1
+     mImsSubscriptionAppIndex=-1
+     mUiccApplications: length=8
+      mUiccApplications[0]=null
+      mUiccApplications[1]=null
+      mUiccApplications[2]=null
+      mUiccApplications[3]=null
+      mUiccApplications[4]=null
+      mUiccApplications[5]=null
+      mUiccApplications[6]=null
+      mUiccApplications[7]=null
+
+     mCarrierPrivilegeRules: null
+     mCarrierPrivilegeRegistrants: size=0
+    mLocalLog:
+    12-21 19:21:07.337 - Open Logical Channel: A00000015141434C00 by pid:2448 uid:1001
+    12-21 19:21:16.442 - Exception: com.android.internal.telephony.CommandException: NO_SUCH_ELEMENT
+    mCardLogs: 
+      12-21 19:21:12 ProactiveCommand mSlotId=0 cmdParams=CmdDetails: compRequired=true commandNumber=1 typeOfCommand=37 commandQualifier=0
+    ++++++++++++++++++++++++++++++++
+    SubscriptionController:
+     defaultSubId=2147483643
+     defaultDataSubId=6
+     defaultVoiceSubId=2147483643
+     defaultSmsSubId=6
+     defaultDataPhoneId=0
+     defaultVoicePhoneId=0
+     defaultSmsPhoneId=0
+    ++++++++++++++++++++++++++++++++
+     ActiveSubInfoList: is null
+    ++++++++++++++++++++++++++++++++
+     AllSubInfoList:
+      {id=1, iccId=898601168XXXXXXXXXXX simSlotIndex=-1 displayName=ä¸­å½èé carrierName=ä¸­å½èé nameSource=0 iconTint=-16746133 dataRoaming=0 iconBitmap=android.graphics.Bitmap@8bd3cbc mcc 460 mnc 1}
+      {id=2, iccId=898602 simSlotIndex=-1 displayName=ä¸­å½ç§»å¨ carrierName=ä¸­å½ç§»å¨ nameSource=0 iconTint=-16746133 dataRoaming=0 iconBitmap=android.graphics.Bitmap@67c5445 mcc 460 mnc 2}
+      {id=3, iccId=898600100XXXXXXXXXXX simSlotIndex=-1 displayName=ä¸­å½ç§»å¨ carrierName=ä¸­å½ç§»å¨ nameSource=0 iconTint=-16746133 dataRoaming=0 iconBitmap=android.graphics.Bitmap@6fb179a mcc 460 mnc 2}
+      {id=4, iccId=898601168XXXXXXXXXXX simSlotIndex=-1 displayName=ä¸­å½èé carrierName=ä¸­å½èé nameSource=0 iconTint=-16746133 dataRoaming=0 iconBitmap=android.graphics.Bitmap@53628cb mcc 460 mnc 1}
+      {id=5, iccId=898601178XXXXXXXXXXX simSlotIndex=-1 displayName=ä¸­å½èé carrierName=æ æå¡ nameSource=0 iconTint=-16746133 dataRoaming=0 iconBitmap=android.graphics.Bitmap@7f68a8 mcc 460 mnc 1}
+      {id=6, iccId=898603157XXXXXXXXXXX simSlotIndex=-1 displayName=ä¸­å½çµä¿¡ carrierName=æ æå¡ nameSource=0 iconTint=-16746133 dataRoaming=0 iconBitmap=android.graphics.Bitmap@212efc1 mcc 460 mnc 3}
+    ++++++++++++++++++++++++++++++++
+    0: 12-24 17:13:47 pid=2448 tid=2644 [getActiveSubIdList] X subIdArr.length=0
+    1: 12-24 17:15:37 pid=2448 tid=2645 [getActiveSubIdList] simInfoSet=[]
+    2: 12-24 17:15:37 pid=2448 tid=2645 [getActiveSubIdList] X subIdArr.length=0
+    3: 12-24 17:15:37 pid=2448 tid=2885 [getActiveSubIdList] simInfoSet=[]
+    4: 12-24 17:15:37 pid=2448 tid=2885 [getActiveSubIdList] X subIdArr.length=0
+    5: 12-24 17:15:52 pid=2448 tid=2461 [getActiveSubIdList] simInfoSet=[]
+    6: 12-24 17:15:52 pid=2448 tid=2461 [getActiveSubIdList] X subIdArr.length=0
+    7: 12-24 17:15:52 pid=2448 tid=32204 [getActiveSubIdList] simInfoSet=[]
+    8: 12-24 17:15:52 pid=2448 tid=32204 [getActiveSubIdList] X subIdArr.length=0
+    9: 12-24 17:15:52 pid=2448 tid=3063 [getPhoneId]- no sims, returning default phoneId=0
+    10: 12-24 17:15:54 pid=2448 tid=2461 [getActiveSubIdList] simInfoSet=[]
+    11: 12-24 17:15:54 pid=2448 tid=2461 [getActiveSubIdList] X subIdArr.length=0
+    12: 12-24 17:15:54 pid=2448 tid=32205 [getActiveSubIdList] simInfoSet=[]
+    13: 12-24 17:15:54 pid=2448 tid=32205 [getActiveSubIdList] X subIdArr.length=0
+    14: 12-24 17:15:55 pid=2448 tid=2644 [getActiveSubIdList] simInfoSet=[]
+    15: 12-24 17:15:55 pid=2448 tid=2644 [getActiveSubIdList] X subIdArr.length=0
+    16: 12-24 17:15:55 pid=2448 tid=2885 [getActiveSubIdList] simInfoSet=[]
+    17: 12-24 17:15:55 pid=2448 tid=2885 [getActiveSubIdList] X subIdArr.length=0
+    18: 12-24 17:16:25 pid=2448 tid=32205 [getActiveSubIdList] simInfoSet=[]
+    19: 12-24 17:16:25 pid=2448 tid=32205 [getActiveSubIdList] X subIdArr.length=0
+    20: 12-24 17:16:25 pid=2448 tid=2644 [getActiveSubIdList] simInfoSet=[]
+    21: 12-24 17:16:25 pid=2448 tid=2644 [getActiveSubIdList] X subIdArr.length=0
+    22: 12-24 17:16:32 pid=2448 tid=32204 [getActiveSubIdList] simInfoSet=[]
+    23: 12-24 17:16:32 pid=2448 tid=32204 [getActiveSubIdList] X subIdArr.length=0
+    24: 12-24 17:16:32 pid=2448 tid=2645 [getActiveSubIdList] simInfoSet=[]
+    25: 12-24 17:16:32 pid=2448 tid=2645 [getActiveSubIdList] X subIdArr.length=0
+    26: 12-24 17:16:41 pid=2448 tid=2459 [getActiveSubIdList] simInfoSet=[]
+    27: 12-24 17:16:41 pid=2448 tid=2459 [getActiveSubIdList] X subIdArr.length=0
+    28: 12-24 17:16:41 pid=2448 tid=32204 [getActiveSubIdList] simInfoSet=[]
+    29: 12-24 17:16:41 pid=2448 tid=32204 [getActiveSubIdList] X subIdArr.length=0
+    30: 12-24 17:16:49 pid=2448 tid=3063 [getActiveSubIdList] simInfoSet=[]
+    31: 12-24 17:16:49 pid=2448 tid=3063 [getActiveSubIdList] X subIdArr.length=0
+    32: 12-24 17:16:49 pid=2448 tid=2459 [getActiveSubIdList] simInfoSet=[]
+    33: 12-24 17:16:49 pid=2448 tid=2459 [getActiveSubIdList] X subIdArr.length=0
+    34: 12-24 17:16:57 pid=2448 tid=2461 [getActiveSubIdList] simInfoSet=[]
+    35: 12-24 17:16:57 pid=2448 tid=2461 [getActiveSubIdList] X subIdArr.length=0
+    36: 12-24 17:16:57 pid=2448 tid=32205 [getActiveSubIdList] simInfoSet=[]
+    37: 12-24 17:16:57 pid=2448 tid=32205 [getActiveSubIdList] X subIdArr.length=0
+    38: 12-24 17:17:05 pid=2448 tid=32205 [getActiveSubIdList] simInfoSet=[]
+    39: 12-24 17:17:05 pid=2448 tid=32205 [getActiveSubIdList] X subIdArr.length=0
+    40: 12-24 17:17:05 pid=2448 tid=2644 [getActiveSubIdList] simInfoSet=[]
+    41: 12-24 17:17:05 pid=2448 tid=2644 [getActiveSubIdList] X subIdArr.length=0
+    42: 12-24 17:17:14 pid=2448 tid=2461 [getActiveSubIdList] simInfoSet=[]
+    43: 12-24 17:17:14 pid=2448 tid=2461 [getActiveSubIdList] X subIdArr.length=0
+    44: 12-24 17:17:14 pid=2448 tid=32205 [getActiveSubIdList] simInfoSet=[]
+    45: 12-24 17:17:14 pid=2448 tid=32205 [getActiveSubIdList] X subIdArr.length=0
+    46: 12-24 17:17:21 pid=2448 tid=2461 [getActiveSubIdList] simInfoSet=[]
+    47: 12-24 17:17:21 pid=2448 tid=2461 [getActiveSubIdList] X subIdArr.length=0
+    48: 12-24 17:17:21 pid=2448 tid=32205 [getActiveSubIdList] simInfoSet=[]
+    49: 12-24 17:17:21 pid=2448 tid=32205 [getActiveSubIdList] X subIdArr.length=0
+    50: 12-24 17:17:26 pid=2448 tid=2459 [getPhoneId]- no sims, returning default phoneId=0
+    51: 12-24 17:17:26 pid=2448 tid=2461 [getPhoneId]- no sims, returning default phoneId=0
+    52: 12-24 17:17:30 pid=2448 tid=32204 [getActiveSubIdList] simInfoSet=[]
+    53: 12-24 17:17:30 pid=2448 tid=32204 [getActiveSubIdList] X subIdArr.length=0
+    54: 12-24 17:17:30 pid=2448 tid=2645 [getActiveSubIdList] simInfoSet=[]
+    55: 12-24 17:17:30 pid=2448 tid=2645 [getActiveSubIdList] X subIdArr.length=0
+    56: 12-24 17:17:38 pid=2448 tid=2885 [getActiveSubIdList] simInfoSet=[]
+    57: 12-24 17:17:38 pid=2448 tid=2885 [getActiveSubIdList] X subIdArr.length=0
+    58: 12-24 17:17:38 pid=2448 tid=3063 [getActiveSubIdList] simInfoSet=[]
+    59: 12-24 17:17:38 pid=2448 tid=3063 [getActiveSubIdList] X subIdArr.length=0
+    60: 12-24 17:17:47 pid=2448 tid=2644 [getActiveSubIdList] simInfoSet=[]
+    61: 12-24 17:17:47 pid=2448 tid=2644 [getActiveSubIdList] X subIdArr.length=0
+    62: 12-24 17:17:47 pid=2448 tid=2885 [getActiveSubIdList] simInfoSet=[]
+    63: 12-24 17:17:47 pid=2448 tid=2885 [getActiveSubIdList] X subIdArr.length=0
+    64: 12-24 17:17:54 pid=2448 tid=2461 [getActiveSubIdList] simInfoSet=[]
+    65: 12-24 17:17:54 pid=2448 tid=2461 [getActiveSubIdList] X subIdArr.length=0
+    66: 12-24 17:17:54 pid=2448 tid=32205 [getActiveSubIdList] simInfoSet=[]
+    67: 12-24 17:17:54 pid=2448 tid=32205 [getActiveSubIdList] X subIdArr.length=0
+    68: 12-24 17:18:03 pid=2448 tid=2459 [getActiveSubIdList] simInfoSet=[]
+    69: 12-24 17:18:03 pid=2448 tid=2459 [getActiveSubIdList] X subIdArr.length=0
+    70: 12-24 17:18:03 pid=2448 tid=32204 [getActiveSubIdList] simInfoSet=[]
+    71: 12-24 17:18:03 pid=2448 tid=32204 [getActiveSubIdList] X subIdArr.length=0
+    72: 12-24 17:18:10 pid=2448 tid=2885 [getActiveSubIdList] simInfoSet=[]
+    73: 12-24 17:18:10 pid=2448 tid=2885 [getActiveSubIdList] X subIdArr.length=0
+    74: 12-24 17:18:10 pid=2448 tid=3063 [getActiveSubIdList] simInfoSet=[]
+    75: 12-24 17:18:10 pid=2448 tid=3063 [getActiveSubIdList] X subIdArr.length=0
+    76: 12-24 17:18:19 pid=2448 tid=2644 [getActiveSubIdList] simInfoSet=[]
+    77: 12-24 17:18:19 pid=2448 tid=2644 [getActiveSubIdList] X subIdArr.length=0
+    78: 12-24 17:18:19 pid=2448 tid=2885 [getActiveSubIdList] simInfoSet=[]
+    79: 12-24 17:18:19 pid=2448 tid=2885 [getActiveSubIdList] X subIdArr.length=0
+    80: 12-24 17:18:27 pid=2448 tid=2645 [getActiveSubIdList] simInfoSet=[]
+    81: 12-24 17:18:27 pid=2448 tid=2645 [getActiveSubIdList] X subIdArr.length=0
+    82: 12-24 17:18:27 pid=2448 tid=2461 [getActiveSubIdList] simInfoSet=[]
+    83: 12-24 17:18:27 pid=2448 tid=2461 [getActiveSubIdList] X subIdArr.length=0
+    84: 12-24 17:18:35 pid=2448 tid=3063 [getActiveSubIdList] simInfoSet=[]
+    85: 12-24 17:18:35 pid=2448 tid=3063 [getActiveSubIdList] X subIdArr.length=0
+    86: 12-24 17:18:35 pid=2448 tid=2459 [getActiveSubIdList] simInfoSet=[]
+    87: 12-24 17:18:35 pid=2448 tid=2459 [getActiveSubIdList] X subIdArr.length=0
+    88: 12-24 17:18:43 pid=2448 tid=2461 [getActiveSubIdList] simInfoSet=[]
+    89: 12-24 17:18:43 pid=2448 tid=2461 [getActiveSubIdList] X subIdArr.length=0
+    90: 12-24 17:18:43 pid=2448 tid=32205 [getActiveSubIdList] simInfoSet=[]
+    91: 12-24 17:18:43 pid=2448 tid=32205 [getActiveSubIdList] X subIdArr.length=0
+    92: 12-24 17:18:51 pid=2448 tid=2459 [getActiveSubIdList] simInfoSet=[]
+    93: 12-24 17:18:51 pid=2448 tid=2459 [getActiveSubIdList] X subIdArr.length=0
+    94: 12-24 17:18:51 pid=2448 tid=32204 [getActiveSubIdList] simInfoSet=[]
+    95: 12-24 17:18:51 pid=2448 tid=32204 [getActiveSubIdList] X subIdArr.length=0
+    96: 12-24 17:18:59 pid=2448 tid=32204 [getActiveSubIdList] simInfoSet=[]
+    97: 12-24 17:18:59 pid=2448 tid=32204 [getActiveSubIdList] X subIdArr.length=0
+    98: 12-24 17:18:59 pid=2448 tid=2645 [getActiveSubIdList] simInfoSet=[]
+    99: 12-24 17:18:59 pid=2448 tid=2645 [getActiveSubIdList] X subIdArr.length=0
+    100: 12-24 17:19:07 pid=2448 tid=2885 [getActiveSubIdList] simInfoSet=[]
+    101: 12-24 17:19:07 pid=2448 tid=2885 [getActiveSubIdList] X subIdArr.length=0
+    102: 12-24 17:19:07 pid=2448 tid=3063 [getActiveSubIdList] simInfoSet=[]
+    103: 12-24 17:19:07 pid=2448 tid=3063 [getActiveSubIdList] X subIdArr.length=0
+    104: 12-24 17:19:15 pid=2448 tid=2461 [getActiveSubIdList] simInfoSet=[]
+    105: 12-24 17:19:15 pid=2448 tid=2461 [getActiveSubIdList] X subIdArr.length=0
+    106: 12-24 17:19:15 pid=2448 tid=32205 [getActiveSubIdList] simInfoSet=[]
+    107: 12-24 17:19:15 pid=2448 tid=32205 [getActiveSubIdList] X subIdArr.length=0
+    108: 12-24 17:19:24 pid=2448 tid=2645 [getActiveSubIdList] simInfoSet=[]
+    109: 12-24 17:19:24 pid=2448 tid=2645 [getActiveSubIdList] X subIdArr.length=0
+    110: 12-24 17:19:24 pid=2448 tid=2461 [getActiveSubIdList] simInfoSet=[]
+    111: 12-24 17:19:24 pid=2448 tid=2461 [getActiveSubIdList] X subIdArr.length=0
+    112: 12-24 17:19:31 pid=2448 tid=2459 [getActiveSubIdList] simInfoSet=[]
+    113: 12-24 17:19:31 pid=2448 tid=2459 [getActiveSubIdList] X subIdArr.length=0
+    114: 12-24 17:19:31 pid=2448 tid=32204 [getActiveSubIdList] simInfoSet=[]
+    115: 12-24 17:19:31 pid=2448 tid=32204 [getActiveSubIdList] X subIdArr.length=0
+    116: 12-24 17:19:40 pid=2448 tid=32204 [getActiveSubIdList] simInfoSet=[]
+    117: 12-24 17:19:40 pid=2448 tid=32204 [getActiveSubIdList] X subIdArr.length=0
+    118: 12-24 17:19:40 pid=2448 tid=2645 [getActiveSubIdList] simInfoSet=[]
+    119: 12-24 17:19:40 pid=2448 tid=2645 [getActiveSubIdList] X subIdArr.length=0
+    120: 12-24 17:19:48 pid=2448 tid=2459 [getActiveSubIdList] simInfoSet=[]
+    121: 12-24 17:19:48 pid=2448 tid=2459 [getActiveSubIdList] X subIdArr.length=0
+    122: 12-24 17:19:48 pid=2448 tid=32204 [getActiveSubIdList] simInfoSet=[]
+    123: 12-24 17:19:48 pid=2448 tid=32204 [getActiveSubIdList] X subIdArr.length=0
+    124: 12-24 17:19:56 pid=2448 tid=32205 [getActiveSubIdList] simInfoSet=[]
+    125: 12-24 17:19:56 pid=2448 tid=32205 [getActiveSubIdList] X subIdArr.length=0
+    126: 12-24 17:19:56 pid=2448 tid=2644 [getActiveSubIdList] simInfoSet=[]
+    127: 12-24 17:19:56 pid=2448 tid=2644 [getActiveSubIdList] X subIdArr.length=0
+    128: 12-24 17:20:04 pid=2448 tid=32204 [getActiveSubIdList] simInfoSet=[]
+    129: 12-24 17:20:04 pid=2448 tid=32204 [getActiveSubIdList] X subIdArr.length=0
+    130: 12-24 17:20:04 pid=2448 tid=2645 [getActiveSubIdList] simInfoSet=[]
+    131: 12-24 17:20:04 pid=2448 tid=2645 [getActiveSubIdList] X subIdArr.length=0
+    132: 12-24 17:20:12 pid=2448 tid=2885 [getActiveSubIdList] simInfoSet=[]
+    133: 12-24 17:20:12 pid=2448 tid=2885 [getActiveSubIdList] X subIdArr.length=0
+    134: 12-24 17:20:12 pid=2448 tid=3063 [getActiveSubIdList] simInfoSet=[]
+    135: 12-24 17:20:12 pid=2448 tid=3063 [getActiveSubIdList] X subIdArr.length=0
+    136: 12-24 17:20:20 pid=2448 tid=2461 [getActiveSubIdList] simInfoSet=[]
+    137: 12-24 17:20:20 pid=2448 tid=2461 [getActiveSubIdList] X subIdArr.length=0
+    138: 12-24 17:20:20 pid=2448 tid=32205 [getActiveSubIdList] simInfoSet=[]
+    139: 12-24 17:20:20 pid=2448 tid=32205 [getActiveSubIdList] X subIdArr.length=0
+    140: 12-24 17:20:26 pid=2448 tid=2645 [getPhoneId]- no sims, returning default phoneId=0
+    141: 12-24 17:20:26 pid=2448 tid=2461 [getActiveSubIdList] simInfoSet=[]
+    142: 12-24 17:20:26 pid=2448 tid=2461 [getActiveSubIdList] X subIdArr.length=0
+    143: 12-24 17:20:26 pid=2448 tid=32205 [getActiveSubIdList] simInfoSet=[]
+    144: 12-24 17:20:26 pid=2448 tid=32205 [getActiveSubIdList] X subIdArr.length=0
+    145: 12-24 17:20:27 pid=2448 tid=3063 [getActiveSubIdList] simInfoSet=[]
+    146: 12-24 17:20:27 pid=2448 tid=3063 [getActiveSubIdList] X subIdArr.length=0
+    147: 12-24 17:20:27 pid=2448 tid=2459 [getActiveSubIdList] simInfoSet=[]
+    148: 12-24 17:20:27 pid=2448 tid=2459 [getActiveSubIdList] X subIdArr.length=0
+    149: 12-24 17:20:29 pid=2448 tid=32205 [getActiveSubIdList] simInfoSet=[]
+    150: 12-24 17:20:29 pid=2448 tid=32205 [getActiveSubIdList] X subIdArr.length=0
+    151: 12-24 17:20:29 pid=2448 tid=2644 [getActiveSubIdList] simInfoSet=[]
+    152: 12-24 17:20:29 pid=2448 tid=2644 [getActiveSubIdList] X subIdArr.length=0
+    153: 12-24 17:20:30 pid=2448 tid=32204 [getActiveSubIdList] simInfoSet=[]
+    154: 12-24 17:20:30 pid=2448 tid=32204 [getActiveSubIdList] X subIdArr.length=0
+    155: 12-24 17:20:30 pid=2448 tid=2645 [getActiveSubIdList] simInfoSet=[]
+    156: 12-24 17:20:30 pid=2448 tid=2645 [getActiveSubIdList] X subIdArr.length=0
+    157: 12-24 17:20:33 pid=2448 tid=2645 [getActiveSubIdList] simInfoSet=[]
+    158: 12-24 17:20:33 pid=2448 tid=2645 [getActiveSubIdList] X subIdArr.length=0
+    159: 12-24 17:20:33 pid=2448 tid=2461 [getActiveSubIdList] simInfoSet=[]
+    160: 12-24 17:20:33 pid=2448 tid=2461 [getActiveSubIdList] X subIdArr.length=0
+    161: 12-24 17:20:38 pid=2448 tid=2459 [getActiveSubIdList] simInfoSet=[]
+    162: 12-24 17:20:38 pid=2448 tid=2459 [getActiveSubIdList] X subIdArr.length=0
+    163: 12-24 17:20:38 pid=2448 tid=3063 [getActiveSubIdList] simInfoSet=[]
+    164: 12-24 17:20:38 pid=2448 tid=3063 [getActiveSubIdList] X subIdArr.length=0
+    165: 12-24 17:20:38 pid=2448 tid=32204 [getPhoneId] asked for default subId=2147483643
+    166: 12-24 17:20:43 pid=2448 tid=3063 [getActiveSubIdList] simInfoSet=[]
+    167: 12-24 17:20:43 pid=2448 tid=3063 [getActiveSubIdList] X subIdArr.length=0
+    168: 12-24 17:20:43 pid=2448 tid=32204 [getActiveSubIdList] simInfoSet=[]
+    169: 12-24 17:20:43 pid=2448 tid=32204 [getActiveSubIdList] X subIdArr.length=0
+    170: 12-24 17:20:44 pid=2448 tid=32205 [getPhoneId]- no sims, returning default phoneId=0
+    171: 12-24 17:20:45 pid=2448 tid=3063 [getPhoneId]- no sims, returning default phoneId=0
+    172: 12-24 17:20:45 pid=2448 tid=32205 [getActiveSubIdList] simInfoSet=[]
+    173: 12-24 17:20:45 pid=2448 tid=32205 [getActiveSubIdList] X subIdArr.length=0
+    174: 12-24 17:20:45 pid=2448 tid=2644 [getActiveSubIdList] simInfoSet=[]
+    175: 12-24 17:20:45 pid=2448 tid=2644 [getActiveSubIdList] X subIdArr.length=0
+    176: 12-24 17:20:45 pid=2448 tid=2448 [getPhoneId]- no sims, returning default phoneId=0
+    177: 12-24 17:20:45 pid=2448 tid=2448 [getPhoneId]- no sims, returning default phoneId=0
+    178: 12-24 17:20:45 pid=2448 tid=2448 [getPhoneId]- no sims, returning default phoneId=0
+    179: 12-24 17:20:45 pid=2448 tid=2448 [getPhoneId]- no sims, returning default phoneId=0
+    180: 12-24 17:20:45 pid=2448 tid=2459 [getPhoneId]- no sims, returning default phoneId=0
+    181: 12-24 17:20:45 pid=2448 tid=32205 [getActiveSubIdList] simInfoSet=[]
+    182: 12-24 17:20:45 pid=2448 tid=32205 [getActiveSubIdList] X subIdArr.length=0
+    183: 12-24 17:20:45 pid=2448 tid=2644 [getActiveSubIdList] simInfoSet=[]
+    184: 12-24 17:20:45 pid=2448 tid=2644 [getActiveSubIdList] X subIdArr.length=0
+    185: 12-24 17:20:45 pid=2448 tid=2459 [getActiveSubIdList] simInfoSet=[]
+    186: 12-24 17:20:45 pid=2448 tid=2459 [getActiveSubIdList] X subIdArr.length=0
+    187: 12-24 17:20:45 pid=2448 tid=2885 [getActiveSubIdList] simInfoSet=[]
+    188: 12-24 17:20:45 pid=2448 tid=2885 [getActiveSubIdList] X subIdArr.length=0
+    189: 12-24 17:20:45 pid=2448 tid=32204 [getPhoneId]- no sims, returning default phoneId=0
+    190: 12-24 17:20:45 pid=2448 tid=2645 [getActiveSubIdList] simInfoSet=[]
+    191: 12-24 17:20:45 pid=2448 tid=2645 [getActiveSubIdList] X subIdArr.length=0
+    192: 12-24 17:20:45 pid=2448 tid=2885 [getActiveSubIdList] simInfoSet=[]
+    193: 12-24 17:20:45 pid=2448 tid=2885 [getActiveSubIdList] X subIdArr.length=0
+    194: 12-24 17:20:45 pid=2448 tid=3063 [getPhoneId]- no sims, returning default phoneId=0
+    195: 12-24 17:20:46 pid=2448 tid=2644 [getPhoneId]- no sims, returning default phoneId=0
+    196: 12-24 17:20:46 pid=2448 tid=32204 [getPhoneId]- no sims, returning default phoneId=0
+    197: 12-24 17:20:48 pid=2448 tid=2645 [getPhoneId]- no sims, returning default phoneId=0
+    198: 12-24 17:20:48 pid=2448 tid=2885 [getActiveSubIdList] simInfoSet=[]
+    199: 12-24 17:20:48 pid=2448 tid=2885 [getActiveSubIdList] X subIdArr.length=0
+    200: 12-24 17:20:48 pid=2448 tid=2644 [getActiveSubIdList] simInfoSet=[]
+    201: 12-24 17:20:48 pid=2448 tid=2644 [getActiveSubIdList] X subIdArr.length=0
+    202: 12-24 17:20:48 pid=2448 tid=32204 [getActiveSubIdList] simInfoSet=[]
+    203: 12-24 17:20:48 pid=2448 tid=32204 [getActiveSubIdList] X subIdArr.length=0
+    204: 12-24 17:20:48 pid=2448 tid=32205 [getActiveSubIdList] simInfoSet=[]
+    205: 12-24 17:20:48 pid=2448 tid=32205 [getActiveSubIdList] X subIdArr.length=0
+    206: 12-24 17:20:49 pid=2448 tid=2461 [getActiveSubIdList] simInfoSet=[]
+    207: 12-24 17:20:49 pid=2448 tid=2461 [getActiveSubIdList] X subIdArr.length=0
+    208: 12-24 17:20:49 pid=2448 tid=2459 [getActiveSubIdList] simInfoSet=[]
+    209: 12-24 17:20:49 pid=2448 tid=2459 [getActiveSubIdList] X subIdArr.length=0
+    210: 12-24 17:20:49 pid=2448 tid=2885 [getPhoneId]- no sims, returning default phoneId=0
+    211: 12-24 17:20:49 pid=2448 tid=2644 [getPhoneId]- no sims, returning default phoneId=0
+    212: 12-24 17:20:50 pid=2448 tid=32204 [getActiveSubIdList] simInfoSet=[]
+    213: 12-24 17:20:50 pid=2448 tid=32204 [getActiveSubIdList] X subIdArr.length=0
+    214: 12-24 17:20:50 pid=2448 tid=32205 [getActiveSubIdList] simInfoSet=[]
+    215: 12-24 17:20:50 pid=2448 tid=32205 [getActiveSubIdList] X subIdArr.length=0
+    216: 12-24 17:20:58 pid=2448 tid=2645 [getPhoneId]- no sims, returning default phoneId=0
+    217: 12-24 17:20:58 pid=2448 tid=2885 [getPhoneId]- no sims, returning default phoneId=0
+    218: 12-24 17:21:03 pid=2448 tid=2645 [getPhoneId]- no sims, returning default phoneId=0
+    219: 12-24 17:21:04 pid=2448 tid=2885 [getActiveSubIdList] simInfoSet=[]
+    220: 12-24 17:21:04 pid=2448 tid=2885 [getActiveSubIdList] X subIdArr.length=0
+    221: 12-24 17:21:04 pid=2448 tid=2644 [getActiveSubIdList] simInfoSet=[]
+    222: 12-24 17:21:04 pid=2448 tid=2644 [getActiveSubIdList] X subIdArr.length=0
+    223: 12-24 17:21:08 pid=2448 tid=32204 [getPhoneId]- no sims, returning default phoneId=0
+    224: 12-24 17:21:09 pid=2448 tid=32204 [getActiveSubIdList] simInfoSet=[]
+    225: 12-24 17:21:09 pid=2448 tid=32204 [getActiveSubIdList] X subIdArr.length=0
+    226: 12-24 17:21:09 pid=2448 tid=3063 [getActiveSubIdList] simInfoSet=[]
+    227: 12-24 17:21:09 pid=2448 tid=3063 [getActiveSubIdList] X subIdArr.length=0
+    228: 12-24 17:21:09 pid=2448 tid=2885 [getActiveSubIdList] simInfoSet=[]
+    229: 12-24 17:21:09 pid=2448 tid=2885 [getActiveSubIdList] X subIdArr.length=0
+    230: 12-24 17:21:09 pid=2448 tid=2644 [getActiveSubIdList] simInfoSet=[]
+    231: 12-24 17:21:09 pid=2448 tid=2644 [getActiveSubIdList] X subIdArr.length=0
+    232: 12-24 17:21:09 pid=2448 tid=3063 [getPhoneId]- no sims, returning default phoneId=0
+    233: 12-24 17:21:09 pid=2448 tid=2459 [getActiveSubIdList] simInfoSet=[]
+    234: 12-24 17:21:09 pid=2448 tid=2459 [getActiveSubIdList] X subIdArr.length=0
+    235: 12-24 17:21:09 pid=2448 tid=2645 [getActiveSubIdList] simInfoSet=[]
+    236: 12-24 17:21:09 pid=2448 tid=2645 [getActiveSubIdList] X subIdArr.length=0
+    237: 12-24 17:21:10 pid=2448 tid=32205 [getPhoneId]- no sims, returning default phoneId=0
+    238: 12-24 17:21:11 pid=2448 tid=2461 [getActiveSubIdList] simInfoSet=[]
+    239: 12-24 17:21:11 pid=2448 tid=2461 [getActiveSubIdList] X subIdArr.length=0
+    240: 12-24 17:21:11 pid=2448 tid=32204 [getActiveSubIdList] simInfoSet=[]
+    241: 12-24 17:21:11 pid=2448 tid=32204 [getActiveSubIdList] X subIdArr.length=0
+    242: 12-24 17:21:12 pid=2448 tid=2645 [getActiveSubIdList] simInfoSet=[]
+    243: 12-24 17:21:12 pid=2448 tid=2645 [getActiveSubIdList] X subIdArr.length=0
+    244: 12-24 17:21:12 pid=2448 tid=2885 [getActiveSubIdList] simInfoSet=[]
+    245: 12-24 17:21:12 pid=2448 tid=2885 [getActiveSubIdList] X subIdArr.length=0
+    246: 12-24 17:21:12 pid=2448 tid=32204 [getActiveSubIdList] simInfoSet=[]
+    247: 12-24 17:21:12 pid=2448 tid=32204 [getActiveSubIdList] X subIdArr.length=0
+    248: 12-24 17:21:12 pid=2448 tid=2459 [getActiveSubIdList] simInfoSet=[]
+    249: 12-24 17:21:12 pid=2448 tid=2459 [getActiveSubIdList] X subIdArr.length=0
+    250: 12-24 17:21:12 pid=2448 tid=2885 [getActiveSubIdList] simInfoSet=[]
+    251: 12-24 17:21:12 pid=2448 tid=2885 [getActiveSubIdList] X subIdArr.length=0
+    252: 12-24 17:21:12 pid=2448 tid=3063 [getActiveSubIdList] simInfoSet=[]
+    253: 12-24 17:21:12 pid=2448 tid=3063 [getActiveSubIdList] X subIdArr.length=0
+    254: 12-24 17:21:12 pid=2448 tid=32205 [getActiveSubIdList] simInfoSet=[]
+    255: 12-24 17:21:12 pid=2448 tid=32205 [getActiveSubIdList] X subIdArr.length=0
+    256: 12-24 17:21:13 pid=2448 tid=2448 [getPhoneId]- no sims, returning default phoneId=0
+    257: 12-24 17:21:13 pid=2448 tid=2448 [getPhoneId]- no sims, returning default phoneId=0
+    258: 12-24 17:21:13 pid=2448 tid=2645 [getActiveSubIdList] simInfoSet=[]
+    259: 12-24 17:21:13 pid=2448 tid=2645 [getActiveSubIdList] X subIdArr.length=0
+    260: 12-24 17:21:13 pid=2448 tid=2459 [getPhoneId]- no sims, returning default phoneId=0
+    261: 12-24 17:21:13 pid=2448 tid=2461 [getPhoneId]- no sims, returning default phoneId=0
+    262: 12-24 17:21:13 pid=2448 tid=2459 [getActiveSubIdList] simInfoSet=[]
+    263: 12-24 17:21:13 pid=2448 tid=2459 [getActiveSubIdList] X subIdArr.length=0
+    264: 12-24 17:21:13 pid=2448 tid=32204 [getActiveSubIdList] simInfoSet=[]
+    265: 12-24 17:21:13 pid=2448 tid=32204 [getActiveSubIdList] X subIdArr.length=0
+    266: 12-24 17:21:13 pid=2448 tid=2644 [getPhoneId]- no sims, returning default phoneId=0
+    267: 12-24 17:21:16 pid=2448 tid=32204 [getPhoneId]- no sims, returning default phoneId=0
+    268: 12-24 17:21:18 pid=2448 tid=2459 [getActiveSubIdList] simInfoSet=[]
+    269: 12-24 17:21:18 pid=2448 tid=2459 [getActiveSubIdList] X subIdArr.length=0
+    270: 12-24 17:21:18 pid=2448 tid=32205 [getActiveSubIdList] simInfoSet=[]
+    271: 12-24 17:21:18 pid=2448 tid=32205 [getActiveSubIdList] X subIdArr.length=0
+    272: 12-24 17:21:19 pid=2448 tid=3063 [getPhoneId] asked for default subId=2147483643
+    273: 12-24 17:21:19 pid=2448 tid=2645 [getPhoneId]- no sims, returning default phoneId=0
+    274: 12-24 17:21:23 pid=2448 tid=32204 [getPhoneId] asked for default subId=2147483643
+    275: 12-24 17:21:23 pid=2448 tid=2645 [getPhoneId]- no sims, returning default phoneId=0
+    276: 12-24 17:21:23 pid=2448 tid=32204 [getPhoneId]- no sims, returning default phoneId=0
+    277: 12-24 17:21:23 pid=2448 tid=2885 [getPhoneId]- no sims, returning default phoneId=0
+    278: 12-24 17:21:23 pid=2448 tid=32204 [getPhoneId] asked for default subId=2147483643
+    279: 12-24 17:21:24 pid=2448 tid=32204 [getPhoneId]- no sims, returning default phoneId=0
+    280: 12-24 17:21:25 pid=2448 tid=3063 [getActiveSubIdList] simInfoSet=[]
+    281: 12-24 17:21:25 pid=2448 tid=3063 [getActiveSubIdList] X subIdArr.length=0
+    282: 12-24 17:21:25 pid=2448 tid=2461 [getActiveSubIdList] simInfoSet=[]
+    283: 12-24 17:21:25 pid=2448 tid=2461 [getActiveSubIdList] X subIdArr.length=0
+    284: 12-24 17:21:25 pid=2448 tid=2645 [getPhoneId]- no sims, returning default phoneId=0
+    285: 12-24 17:21:33 pid=2448 tid=2461 [getActiveSubIdList] simInfoSet=[]
+    286: 12-24 17:21:33 pid=2448 tid=2461 [getActiveSubIdList] X subIdArr.length=0
+    287: 12-24 17:21:33 pid=2448 tid=2459 [getActiveSubIdList] simInfoSet=[]
+    288: 12-24 17:21:33 pid=2448 tid=2459 [getActiveSubIdList] X subIdArr.length=0
+    289: 12-24 17:21:41 pid=2448 tid=2461 [getActiveSubIdList] simInfoSet=[]
+    290: 12-24 17:21:41 pid=2448 tid=2461 [getActiveSubIdList] X subIdArr.length=0
+    291: 12-24 17:21:41 pid=2448 tid=2459 [getActiveSubIdList] simInfoSet=[]
+    292: 12-24 17:21:41 pid=2448 tid=2459 [getActiveSubIdList] X subIdArr.length=0
+    293: 12-24 17:21:48 pid=2448 tid=32204 [getActiveSubIdList] simInfoSet=[]
+    294: 12-24 17:21:48 pid=2448 tid=32204 [getActiveSubIdList] X subIdArr.length=0
+    295: 12-24 17:21:48 pid=2448 tid=2644 [getActiveSubIdList] simInfoSet=[]
+    296: 12-24 17:21:48 pid=2448 tid=2644 [getActiveSubIdList] X subIdArr.length=0
+    297: 12-24 17:21:56 pid=2448 tid=2459 [getActiveSubIdList] simInfoSet=[]
+    298: 12-24 17:21:56 pid=2448 tid=2459 [getActiveSubIdList] X subIdArr.length=0
+    299: 12-24 17:21:56 pid=2448 tid=2645 [getActiveSubIdList] simInfoSet=[]
+    300: 12-24 17:21:56 pid=2448 tid=2645 [getActiveSubIdList] X subIdArr.length=0
+    301: 12-24 17:22:04 pid=2448 tid=32205 [getActiveSubIdList] simInfoSet=[]
+    302: 12-24 17:22:04 pid=2448 tid=32205 [getActiveSubIdList] X subIdArr.length=0
+    303: 12-24 17:22:04 pid=2448 tid=2885 [getActiveSubIdList] simInfoSet=[]
+    304: 12-24 17:22:04 pid=2448 tid=2885 [getActiveSubIdList] X subIdArr.length=0
+    305: 12-24 17:22:12 pid=2448 tid=2885 [getActiveSubIdList] simInfoSet=[]
+    306: 12-24 17:22:12 pid=2448 tid=2885 [getActiveSubIdList] X subIdArr.length=0
+    307: 12-24 17:22:12 pid=2448 tid=32204 [getActiveSubIdList] simInfoSet=[]
+    308: 12-24 17:22:12 pid=2448 tid=32204 [getActiveSubIdList] X subIdArr.length=0
+    309: 12-24 17:22:20 pid=2448 tid=3063 [getActiveSubIdList] simInfoSet=[]
+    310: 12-24 17:22:20 pid=2448 tid=3063 [getActiveSubIdList] X subIdArr.length=0
+    311: 12-24 17:22:20 pid=2448 tid=2461 [getActiveSubIdList] simInfoSet=[]
+    312: 12-24 17:22:20 pid=2448 tid=2461 [getActiveSubIdList] X subIdArr.length=0
+    313: 12-24 17:22:28 pid=2448 tid=2459 [getActiveSubIdList] simInfoSet=[]
+    314: 12-24 17:22:28 pid=2448 tid=2459 [getActiveSubIdList] X subIdArr.length=0
+    315: 12-24 17:22:28 pid=2448 tid=2645 [getActiveSubIdList] simInfoSet=[]
+    316: 12-24 17:22:28 pid=2448 tid=2645 [getActiveSubIdList] X subIdArr.length=0
+    317: 12-24 17:22:36 pid=2448 tid=3063 [getActiveSubIdList] simInfoSet=[]
+    318: 12-24 17:22:36 pid=2448 tid=3063 [getActiveSubIdList] X subIdArr.length=0
+    319: 12-24 17:22:36 pid=2448 tid=2461 [getActiveSubIdList] simInfoSet=[]
+    320: 12-24 17:22:36 pid=2448 tid=2461 [getActiveSubIdList] X subIdArr.length=0
+    321: 12-24 17:22:41 pid=2448 tid=2645 [getPhoneId]- no sims, returning default phoneId=0
+    322: 12-24 17:22:44 pid=2448 tid=2885 [getActiveSubIdList] simInfoSet=[]
+    323: 12-24 17:22:44 pid=2448 tid=2885 [getActiveSubIdList] X subIdArr.length=0
+    324: 12-24 17:22:44 pid=2448 tid=32204 [getActiveSubIdList] simInfoSet=[]
+    325: 12-24 17:22:44 pid=2448 tid=32204 [getActiveSubIdList] X subIdArr.length=0
+    326: 12-24 17:22:46 pid=2448 tid=2885 [getPhoneId]- no sims, returning default phoneId=0
+    327: 12-24 17:22:52 pid=2448 tid=2645 [getActiveSubIdList] simInfoSet=[]
+    328: 12-24 17:22:52 pid=2448 tid=2645 [getActiveSubIdList] X subIdArr.length=0
+    329: 12-24 17:22:52 pid=2448 tid=2885 [getActiveSubIdList] simInfoSet=[]
+    330: 12-24 17:22:52 pid=2448 tid=2885 [getActiveSubIdList] X subIdArr.length=0
+    331: 12-24 17:23:00 pid=2448 tid=2459 [getActiveSubIdList] simInfoSet=[]
+    332: 12-24 17:23:00 pid=2448 tid=2459 [getActiveSubIdList] X subIdArr.length=0
+    333: 12-24 17:23:00 pid=2448 tid=2645 [getActiveSubIdList] simInfoSet=[]
+    334: 12-24 17:23:00 pid=2448 tid=2645 [getActiveSubIdList] X subIdArr.length=0
+    335: 12-24 17:23:07 pid=2448 tid=2459 [getActiveSubIdList] simInfoSet=[]
+    336: 12-24 17:23:07 pid=2448 tid=2459 [getActiveSubIdList] X subIdArr.length=0
+    337: 12-24 17:23:07 pid=2448 tid=2645 [getActiveSubIdList] simInfoSet=[]
+    338: 12-24 17:23:07 pid=2448 tid=2645 [getActiveSubIdList] X subIdArr.length=0
+    339: 12-24 17:23:15 pid=2448 tid=32204 [getActiveSubIdList] simInfoSet=[]
+    340: 12-24 17:23:15 pid=2448 tid=32204 [getActiveSubIdList] X subIdArr.length=0
+    341: 12-24 17:23:15 pid=2448 tid=2644 [getActiveSubIdList] simInfoSet=[]
+    342: 12-24 17:23:15 pid=2448 tid=2644 [getActiveSubIdList] X subIdArr.length=0
+    343: 12-24 17:23:21 pid=2448 tid=2645 [getActiveSubIdList] simInfoSet=[]
+    344: 12-24 17:23:21 pid=2448 tid=2645 [getActiveSubIdList] X subIdArr.length=0
+    345: 12-24 17:23:21 pid=2448 tid=2885 [getActiveSubIdList] simInfoSet=[]
+    346: 12-24 17:23:21 pid=2448 tid=2885 [getActiveSubIdList] X subIdArr.length=0
+    347: 12-24 17:23:25 pid=2448 tid=2461 [getPhoneId]- no sims, returning default phoneId=0
+    348: 12-24 17:23:30 pid=2448 tid=2461 [getPhoneId]- no sims, returning default phoneId=0
+    349: 12-24 17:23:31 pid=2448 tid=2461 [getPhoneId]- no sims, returning default phoneId=0
+    350: 12-24 17:23:37 pid=2448 tid=32204 [getPhoneId]- no sims, returning default phoneId=0
+    351: 12-24 17:23:37 pid=2448 tid=3063 [getActiveSubIdList] simInfoSet=[]
+    352: 12-24 17:23:37 pid=2448 tid=3063 [getActiveSubIdList] X subIdArr.length=0
+    353: 12-24 17:23:37 pid=2448 tid=2461 [getActiveSubIdList] simInfoSet=[]
+    354: 12-24 17:23:37 pid=2448 tid=2461 [getActiveSubIdList] X subIdArr.length=0
+    355: 12-24 17:23:45 pid=2448 tid=2644 [getPhoneId]- no sims, returning default phoneId=0
+    356: 12-24 17:23:58 pid=2448 tid=32205 [getActiveSubIdList] simInfoSet=[]
+    357: 12-24 17:23:58 pid=2448 tid=32205 [getActiveSubIdList] X subIdArr.length=0
+    358: 12-24 17:23:58 pid=2448 tid=2885 [getActiveSubIdList] simInfoSet=[]
+    359: 12-24 17:23:58 pid=2448 tid=2885 [getActiveSubIdList] X subIdArr.length=0
+    360: 12-24 17:23:58 pid=2448 tid=32204 [getPhoneId]- no sims, returning default phoneId=0
+    361: 12-24 17:23:58 pid=2448 tid=2459 [getPhoneId]- no sims, returning default phoneId=0
+    362: 12-24 17:23:58 pid=2448 tid=2885 [getActiveSubIdList] simInfoSet=[]
+    363: 12-24 17:23:58 pid=2448 tid=2885 [getActiveSubIdList] X subIdArr.length=0
+    364: 12-24 17:23:58 pid=2448 tid=2448 [getPhoneId]- no sims, returning default phoneId=0
+    365: 12-24 17:23:58 pid=2448 tid=2448 [getPhoneId]- no sims, returning default phoneId=0
+    366: 12-24 17:23:58 pid=2448 tid=32204 [getActiveSubIdList] simInfoSet=[]
+    367: 12-24 17:23:58 pid=2448 tid=32204 [getActiveSubIdList] X subIdArr.length=0
+    368: 12-24 17:23:58 pid=2448 tid=2448 [getPhoneId]- no sims, returning default phoneId=0
+    369: 12-24 17:23:58 pid=2448 tid=2448 [getPhoneId]- no sims, returning default phoneId=0
+    370: 12-24 17:23:58 pid=2448 tid=2461 [getActiveSubIdList] simInfoSet=[]
+    371: 12-24 17:23:58 pid=2448 tid=2461 [getActiveSubIdList] X subIdArr.length=0
+    372: 12-24 17:23:58 pid=2448 tid=2644 [getActiveSubIdList] simInfoSet=[]
+    373: 12-24 17:23:58 pid=2448 tid=2644 [getActiveSubIdList] X subIdArr.length=0
+    374: 12-24 17:23:58 pid=2448 tid=2885 [getActiveSubIdList] simInfoSet=[]
+    375: 12-24 17:23:58 pid=2448 tid=2885 [getActiveSubIdList] X subIdArr.length=0
+    376: 12-24 17:23:58 pid=2448 tid=2645 [getActiveSubIdList] simInfoSet=[]
+    377: 12-24 17:23:58 pid=2448 tid=2645 [getActiveSubIdList] X subIdArr.length=0
+    378: 12-24 17:23:58 pid=2448 tid=2645 [getPhoneId]- no sims, returning default phoneId=0
+    379: 12-24 17:23:58 pid=2448 tid=2461 [getPhoneId]- no sims, returning default phoneId=0
+    380: 12-24 17:23:58 pid=2448 tid=32204 [getActiveSubIdList] simInfoSet=[]
+    381: 12-24 17:23:58 pid=2448 tid=32204 [getActiveSubIdList] X subIdArr.length=0
+    382: 12-24 17:23:58 pid=2448 tid=2644 [getActiveSubIdList] simInfoSet=[]
+    383: 12-24 17:23:58 pid=2448 tid=2644 [getActiveSubIdList] X subIdArr.length=0
+    384: 12-24 17:23:59 pid=2448 tid=2644 [getPhoneId]- no sims, returning default phoneId=0
+    385: 12-24 17:23:59 pid=2448 tid=2645 [getPhoneId] asked for default subId=2147483643
+    386: 12-24 17:23:59 pid=2448 tid=32205 [getPhoneId]- no sims, returning default phoneId=0
+    387: 12-24 17:23:59 pid=2448 tid=2461 [getPhoneId]- no sims, returning default phoneId=0
+    388: 12-24 17:24:02 pid=2448 tid=32204 [getPhoneId]- no sims, returning default phoneId=0
+    389: 12-24 17:24:02 pid=2448 tid=2459 [getPhoneId]- no sims, returning default phoneId=0
+    390: 12-24 17:24:06 pid=2448 tid=32204 [getActiveSubIdList] simInfoSet=[]
+    391: 12-24 17:24:06 pid=2448 tid=32204 [getActiveSubIdList] X subIdArr.length=0
+    392: 12-24 17:24:06 pid=2448 tid=2459 [getActiveSubIdList] simInfoSet=[]
+    393: 12-24 17:24:06 pid=2448 tid=2459 [getActiveSubIdList] X subIdArr.length=0
+    394: 12-24 17:24:06 pid=2448 tid=2461 [getActiveSubIdList] simInfoSet=[]
+    395: 12-24 17:24:06 pid=2448 tid=2461 [getActiveSubIdList] X subIdArr.length=0
+    396: 12-24 17:24:06 pid=2448 tid=2645 [getActiveSubIdList] simInfoSet=[]
+    397: 12-24 17:24:06 pid=2448 tid=2645 [getActiveSubIdList] X subIdArr.length=0
+    398: 12-24 17:24:06 pid=2448 tid=3063 [getPhoneId]- no sims, returning default phoneId=0
+    399: 12-24 17:24:06 pid=2448 tid=2645 [getPhoneId]- no sims, returning default phoneId=0
+    400: 12-24 17:24:08 pid=2448 tid=3063 [getPhoneId]- no sims, returning default phoneId=0
+    401: 12-24 17:24:08 pid=2448 tid=2461 [getPhoneId]- no sims, returning default phoneId=0
+    402: 12-24 17:24:09 pid=2448 tid=2644 [getActiveSubIdList] simInfoSet=[]
+    403: 12-24 17:24:09 pid=2448 tid=2644 [getActiveSubIdList] X subIdArr.length=0
+    404: 12-24 17:24:09 pid=2448 tid=3063 [getActiveSubIdList] simInfoSet=[]
+    405: 12-24 17:24:09 pid=2448 tid=3063 [getActiveSubIdList] X subIdArr.length=0
+    406: 12-24 17:24:10 pid=2448 tid=2459 [getActiveSubIdList] simInfoSet=[]
+    407: 12-24 17:24:10 pid=2448 tid=2459 [getActiveSubIdList] X subIdArr.length=0
+    408: 12-24 17:24:10 pid=2448 tid=32204 [getActiveSubIdList] simInfoSet=[]
+    409: 12-24 17:24:10 pid=2448 tid=32204 [getActiveSubIdList] X subIdArr.length=0
+    410: 12-24 17:24:11 pid=2448 tid=32205 [getActiveSubIdList] simInfoSet=[]
+    411: 12-24 17:24:11 pid=2448 tid=32205 [getActiveSubIdList] X subIdArr.length=0
+    412: 12-24 17:24:11 pid=2448 tid=2644 [getActiveSubIdList] simInfoSet=[]
+    413: 12-24 17:24:11 pid=2448 tid=2644 [getActiveSubIdList] X subIdArr.length=0
+    414: 12-24 17:24:11 pid=2448 tid=3063 [getActiveSubIdList] simInfoSet=[]
+    415: 12-24 17:24:11 pid=2448 tid=3063 [getActiveSubIdList] X subIdArr.length=0
+    416: 12-24 17:24:11 pid=2448 tid=2645 [getActiveSubIdList] simInfoSet=[]
+    417: 12-24 17:24:11 pid=2448 tid=2645 [getActiveSubIdList] X subIdArr.length=0
+    418: 12-24 17:24:11 pid=2448 tid=32204 [getActiveSubIdList] simInfoSet=[]
+    419: 12-24 17:24:11 pid=2448 tid=32204 [getActiveSubIdList] X subIdArr.length=0
+    420: 12-24 17:24:11 pid=2448 tid=32205 [getActiveSubIdList] simInfoSet=[]
+    421: 12-24 17:24:11 pid=2448 tid=32205 [getActiveSubIdList] X subIdArr.length=0
+    422: 12-24 17:24:11 pid=2448 tid=3063 [getActiveSubIdList] simInfoSet=[]
+    423: 12-24 17:24:11 pid=2448 tid=3063 [getActiveSubIdList] X subIdArr.length=0
+    424: 12-24 17:24:11 pid=2448 tid=2448 [getPhoneId]- no sims, returning default phoneId=0
+    425: 12-24 17:24:11 pid=2448 tid=2448 [getPhoneId]- no sims, returning default phoneId=0
+    426: 12-24 17:24:11 pid=2448 tid=2645 [getActiveSubIdList] simInfoSet=[]
+    427: 12-24 17:24:11 pid=2448 tid=2645 [getActiveSubIdList] X subIdArr.length=0
+    428: 12-24 17:24:11 pid=2448 tid=2645 [getPhoneId]- no sims, returning default phoneId=0
+    429: 12-24 17:24:11 pid=2448 tid=2461 [getPhoneId]- no sims, returning default phoneId=0
+    430: 12-24 17:24:12 pid=2448 tid=2459 [getPhoneId]- no sims, returning default phoneId=0
+    431: 12-24 17:24:22 pid=2448 tid=2645 [getPhoneId] asked for default subId=2147483643
+    432: 12-24 17:24:22 pid=2448 tid=32205 [getPhoneId]- no sims, returning default phoneId=0
+    433: 12-24 17:24:22 pid=2448 tid=32204 [getActiveSubIdList] simInfoSet=[]
+    434: 12-24 17:24:22 pid=2448 tid=32204 [getActiveSubIdList] X subIdArr.length=0
+    435: 12-24 17:24:22 pid=2448 tid=2645 [getActiveSubIdList] simInfoSet=[]
+    436: 12-24 17:24:22 pid=2448 tid=2645 [getActiveSubIdList] X subIdArr.length=0
+    437: 12-24 17:24:40 pid=2448 tid=2459 [getActiveSubIdList] simInfoSet=[]
+    438: 12-24 17:24:40 pid=2448 tid=2459 [getActiveSubIdList] X subIdArr.length=0
+    439: 12-24 17:24:40 pid=2448 tid=2885 [getActiveSubIdList] simInfoSet=[]
+    440: 12-24 17:24:40 pid=2448 tid=2885 [getActiveSubIdList] X subIdArr.length=0
+    441: 12-24 17:24:41 pid=2448 tid=2645 [getPhoneId]- no sims, returning default phoneId=0
+    442: 12-24 17:24:41 pid=2448 tid=32205 [getPhoneId]- no sims, returning default phoneId=0
+    443: 12-24 17:25:10 pid=2448 tid=2885 [getActiveSubIdList] simInfoSet=[]
+    444: 12-24 17:25:10 pid=2448 tid=2885 [getActiveSubIdList] X subIdArr.length=0
+    445: 12-24 17:25:10 pid=2448 tid=32204 [getActiveSubIdList] simInfoSet=[]
+    446: 12-24 17:25:10 pid=2448 tid=32204 [getActiveSubIdList] X subIdArr.length=0
+    447: 12-24 17:25:31 pid=2448 tid=32205 [getActiveSubIdList] simInfoSet=[]
+    448: 12-24 17:25:31 pid=2448 tid=32205 [getActiveSubIdList] X subIdArr.length=0
+    449: 12-24 17:25:31 pid=2448 tid=2644 [getActiveSubIdList] simInfoSet=[]
+    450: 12-24 17:25:31 pid=2448 tid=2644 [getActiveSubIdList] X subIdArr.length=0
+    451: 12-24 17:25:31 pid=2448 tid=3063 [getPhoneId]- no sims, returning default phoneId=0
+    452: 12-24 17:25:32 pid=2448 tid=2459 [getPhoneId]- no sims, returning default phoneId=0
+    453: 12-24 17:25:34 pid=2448 tid=3063 [getPhoneId]- no sims, returning default phoneId=0
+    454: 12-24 17:26:07 pid=2448 tid=32205 [getPhoneId]- no sims, returning default phoneId=0
+    455: 12-24 17:26:07 pid=2448 tid=32205 [getPhoneId]- no sims, returning default phoneId=0
+    456: 12-24 17:26:07 pid=2448 tid=32205 [getActiveSubInfoList]+
+    457: 12-24 17:26:07 pid=2448 tid=32205 [getActiveSubInfoList] Sub Controller not ready
+    458: 12-24 17:26:07 pid=2448 tid=32205 [getPhoneId]- no sims, returning default phoneId=0
+    459: 12-24 17:26:07 pid=2448 tid=32205 [getPhoneId]- no sims, returning default phoneId=0
+    460: 12-24 17:26:07 pid=2448 tid=32205 [getPhoneId]- no sims, returning default phoneId=0
+    461: 12-24 17:26:07 pid=2448 tid=32205 [getPhoneId]- no sims, returning default phoneId=0
+    462: 12-24 17:26:07 pid=2448 tid=32205 [getPhoneId]- no sims, returning default phoneId=0
+    463: 12-24 17:26:07 pid=2448 tid=32205 [getPhoneId]- no sims, returning default phoneId=0
+    464: 12-24 17:26:07 pid=2448 tid=32205 [getPhoneId]- no sims, returning default phoneId=0
+    465: 12-24 17:26:07 pid=2448 tid=32205 [getPhoneId]- no sims, returning default phoneId=0
+    466: 12-24 17:26:07 pid=2448 tid=32205 [getPhoneId]- no sims, returning default phoneId=0
+    467: 12-24 17:26:07 pid=2448 tid=32205 [getPhoneId]- no sims, returning default phoneId=0
+    468: 12-24 17:26:07 pid=2448 tid=32205 [getPhoneId]- no sims, returning default phoneId=0
+    469: 12-24 17:26:07 pid=2448 tid=32205 [getPhoneId]- no sims, returning default phoneId=0
+    470: 12-24 17:26:07 pid=2448 tid=32205 [getPhoneId]- no sims, returning default phoneId=0
+    471: 12-24 17:26:07 pid=2448 tid=32205 [getPhoneId]- no sims, returning default phoneId=0
+    472: 12-24 17:26:07 pid=2448 tid=32205 [getPhoneId]- no sims, returning default phoneId=0
+    473: 12-24 17:26:07 pid=2448 tid=32205 [getPhoneId]- no sims, returning default phoneId=0
+    474: 12-24 17:26:07 pid=2448 tid=32205 [getPhoneId]- no sims, returning default phoneId=0
+    475: 12-24 17:26:07 pid=2448 tid=32205 [getPhoneId]- no sims, returning default phoneId=0
+    476: 12-24 17:26:22 pid=2448 tid=32204 [getPhoneId]- no sims, returning default phoneId=0
+    477: 12-24 17:26:22 pid=2448 tid=32204 [getPhoneId]- no sims, returning default phoneId=0
+    478: 12-24 17:26:36 pid=2448 tid=2448 [getPhoneId]- no sims, returning default phoneId=0
+    479: 12-24 17:26:36 pid=2448 tid=2448 [getPhoneId]- no sims, returning default phoneId=0
+    480: 12-24 17:26:36 pid=2448 tid=2448 [getActiveSubInfoList]+
+    481: 12-24 17:26:36 pid=2448 tid=2448 [getActiveSubInfoList] Sub Controller not ready
+    482: 12-24 17:26:36 pid=2448 tid=2448 [getPhoneId]- no sims, returning default phoneId=0
+    483: 12-24 17:26:36 pid=2448 tid=2448 [getPhoneId]- no sims, returning default phoneId=0
+    484: 12-24 17:26:36 pid=2448 tid=2448 [getPhoneId]- no sims, returning default phoneId=0
+    485: 12-24 17:26:36 pid=2448 tid=2448 [getPhoneId]- no sims, returning default phoneId=0
+    486: 12-24 17:26:36 pid=2448 tid=2448 [getPhoneId]- no sims, returning default phoneId=0
+    487: 12-24 17:26:36 pid=2448 tid=2448 [getPhoneId]- no sims, returning default phoneId=0
+    488: 12-24 17:26:36 pid=2448 tid=2448 [getPhoneId]- no sims, returning default phoneId=0
+    489: 12-24 17:26:36 pid=2448 tid=2448 [getPhoneId]- no sims, returning default phoneId=0
+    490: 12-24 17:26:36 pid=2448 tid=2448 [getPhoneId]- no sims, returning default phoneId=0
+    491: 12-24 17:26:36 pid=2448 tid=2448 [getPhoneId]- no sims, returning default phoneId=0
+    492: 12-24 17:26:36 pid=2448 tid=2448 [getPhoneId]- no sims, returning default phoneId=0
+    493: 12-24 17:26:36 pid=2448 tid=2448 [getPhoneId]- no sims, returning default phoneId=0
+    494: 12-24 17:26:36 pid=2448 tid=2448 [getPhoneId]- no sims, returning default phoneId=0
+    495: 12-24 17:26:36 pid=2448 tid=2448 [getPhoneId]- no sims, returning default phoneId=0
+    496: 12-24 17:26:36 pid=2448 tid=2448 [getPhoneId]- no sims, returning default phoneId=0
+    497: 12-24 17:26:36 pid=2448 tid=2448 [getPhoneId]- no sims, returning default phoneId=0
+    498: 12-24 17:26:36 pid=2448 tid=2448 [getPhoneId]- no sims, returning default phoneId=0
+    499: 12-24 17:26:36 pid=2448 tid=2448 [getPhoneId]- no sims, returning default phoneId=0
+    ++++++++++++++++++++++++++++++++
+    ++++++++++++++++++++++++++++++++
+    SubscriptionInfoUpdater:
+    CarrierServiceBindHelper:
+    Carrier app binding for phone 0
+      connection: null
+      bindCount: 0
+      lastBindStartMillis: 0
+      unbindCount: 0
+      lastUnbindMillis: 0
+
+    Carrier app binding for phone 1
+      connection: null
+      bindCount: 0
+      lastBindStartMillis: 0
+      unbindCount: 0
+      lastUnbindMillis: 0
+
+    ++++++++++++++++++++++++++++++++
+
+SERVICE com.tencent.mobileqq/com.tencent.tmdownloader.TMAssistantDownloadService dd803ac pid=3727
+  Client:
+    nothing to dump
+
+SERVICE com.eg.android.AlipayGphone/anetwork.channel.aidl.NetworkService d82c7e6 pid=5404
+  Client:
+    nothing to dump
+
+SERVICE com.qihoo.appstore/com.qihoo.core.CoreService ccce3cb pid=30643
+  Client:
+    nothing to dump
+
+SERVICE com.qihoo360.mobilesafe/.service.GuardCoreService dc66969 pid=32677
+  Client:
+    nothing to dump
+
+SERVICE com.tencent.mobileqq/.msf.service.MsfService ceb7e8b pid=32603
+  Client:
+    nothing to dump
+
+SERVICE com.yulong.android.coolsafe/.ui.service.apklock.ApplockInitService 7721852 pid=3890
+  Client:
+    nothing to dump
+
+SERVICE com.sina.news/com.igexin.sdk.PushService bfe4e51 pid=(not running)
+---------------------------1-----------------------------
+[dumpsys: 0.193s elapsed]
+
+========================================================
+== Running Application Providers
+========================================================

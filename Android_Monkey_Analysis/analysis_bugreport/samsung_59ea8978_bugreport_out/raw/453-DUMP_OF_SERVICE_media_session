@@ -1,0 +1,73 @@
+MEDIA SESSION SERVICE (dumpsys media_session)
+
+1 sessions listeners.
+2 Sessions:
+HeadsetMediaButton com.android.server.telecom/HeadsetMediaButton
+  ownerPid=847, ownerUid=1000, userId=0
+  package=com.android.server.telecom
+  launchIntent=null
+  mediaButtonReceiver=null
+  active=false
+  flags=65537
+  rating type=0
+  controllers: 0
+  state=null
+  audioAttrs=AudioAttributes: usage=2 content=1 flags=0x0 tags=
+  volumeType=1, controlType=2, max=0, current=0
+  metadata:size=0, description=null
+  queueTitle=null, size=0
+
+com.sec.android.app.music.session.PlayControl com.sec.android.app.music/com.sec.android.app.music.session.PlayControl
+  ownerPid=30386, ownerUid=10150, userId=0
+  package=com.sec.android.app.music
+  launchIntent=null
+  mediaButtonReceiver=PendingIntent{67308cd: PendingIntentRecord{c16b912 com.sec.android.app.music broadcastIntent}}
+  active=true
+  flags=3
+  rating type=0
+  controllers: 2
+  state=PlaybackState {state=3, position=0, buffered position=0, speed=1.0, updated=347944294, actions=4991, custom actions=[], active item id=-1, error=null}
+  audioAttrs=AudioAttributes: usage=1 content=0 flags=0x0 tags=
+  volumeType=1, controlType=2, max=0, current=0
+  metadata:size=9, description=Over the horizon, Samsung, Samsung
+  queueTitle=null, size=1
+
+Global priority session is null
+Sessions Stack - have 2 sessions:
+  com.sec.android.app.music.session.PlayControl com.sec.android.app.music/com.sec.android.app.music.session.PlayControl
+    ownerPid=30386, ownerUid=10150, userId=0
+    package=com.sec.android.app.music
+    launchIntent=null
+    mediaButtonReceiver=PendingIntent{67308cd: PendingIntentRecord{c16b912 com.sec.android.app.music broadcastIntent}}
+    active=true
+    flags=3
+    rating type=0
+    controllers: 2
+    state=PlaybackState {state=3, position=0, buffered position=0, speed=1.0, updated=347944294, actions=4991, custom actions=[], active item id=-1, error=null}
+    audioAttrs=AudioAttributes: usage=1 content=0 flags=0x0 tags=
+    volumeType=1, controlType=2, max=0, current=0
+    metadata:size=9, description=Over the horizon, Samsung, Samsung
+    queueTitle=null, size=1
+
+  HeadsetMediaButton com.android.server.telecom/HeadsetMediaButton
+    ownerPid=847, ownerUid=1000, userId=0
+    package=com.android.server.telecom
+    launchIntent=null
+    mediaButtonReceiver=null
+    active=false
+    flags=65537
+    rating type=0
+    controllers: 0
+    state=null
+    audioAttrs=AudioAttributes: usage=2 content=1 flags=0x0 tags=
+    volumeType=1, controlType=2, max=0, current=0
+    metadata:size=0, description=null
+    queueTitle=null, size=0
+
+User Records:
+Record for user 0
+  MediaButtonReceiver:PendingIntent{7376582: PendingIntentRecord{c16b912 com.sec.android.app.music broadcastIntent}}
+  Restored ButtonReceiver:ComponentInfo{com.sec.android.app.music/com.samsung.android.app.music.service.receiver.MediaButtonReceiver}
+  2 Sessions:
+  com.android.server.telecom/HeadsetMediaButton
+  com.sec.android.app.music/com.sec.android.app.music.session.PlayControl

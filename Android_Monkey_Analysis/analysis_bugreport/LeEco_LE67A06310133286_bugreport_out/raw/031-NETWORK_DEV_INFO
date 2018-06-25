@@ -1,0 +1,22 @@
+Inter-|   Receive                                                |  Transmit
+ face |bytes    packets errs drop fifo frame compressed multicast|bytes    packets errs drop fifo colls carrier compressed
+ccmni5:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+ccmni0:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+ccmni6:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+ccmni1:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+ wlan0: 27370848   45146    0   15    0     0          0         0  2675021   23289    1    0    0     0       0          0
+  p2p0:       0       0    0    0    0     0          0         0      258       3    0    0    0     0       0          0
+  ifb0:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+ccmni7:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+ccmni2:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+ip6tnl0:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+  ifb1:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+ccmni3:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+cc3mni2:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+cc3mni1:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+cc3mni0:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+  sit0:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+    lo: 49633967  133685    0    0    0     0          0         0 49633967  133685    0    0    0     0       0          0
+ccmni4:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+ tunl0:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+

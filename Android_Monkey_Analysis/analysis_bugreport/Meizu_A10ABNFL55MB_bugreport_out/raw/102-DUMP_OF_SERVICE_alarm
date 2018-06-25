@@ -1,0 +1,317 @@
+Unknown argument: -a; use -h for help
+Current Alarm Manager state:
+nowRTC=1526294290042=2018-05-14 18:38:10 nowELAPSED=+7h31m38s935ms
+Next non-wakeup alarm: +6s318ms = 2018-05-14 18:38:16
+Next wakeup: +43s496ms = 2018-05-14 18:38:53
+Num time change events: 1
+
+Pending alarm batches: 33
+Batch{2d1d49f9 num=1 start=27105253 end=27105253 STANDALONE}:
+  ELAPSED #0: Alarm{11988d3e type 3 when 18:38:16 start 18:38:16 end 18:38:16 com.sina.weibo}
+    tag=*alarm*:com.sina.smart.heartbeat.action1004
+    type=3 whenElapsed=+6s318ms when=+6s318ms
+ start =18:38:16 whenElapsed=18:38:16 end=18:38:16 fixed=true aligned=false    window=0 repeatInterval=0 count=0
+    operation=PendingIntent{34f1379f: PendingIntentRecord{224b61bd com.sina.weibo broadcastIntent}}
+Batch{2da150ec num=1 start=27142431 end=27142431 STANDALONE}:
+  RTC_WAKEUP #0: Alarm{16df8cb5 type 0 when 18:38:53 start 18:38:53 end 18:38:53 com.tencent.mobileqq}
+    tag=*walarm*:com.tencent.mobileqq:MSF_430025283
+    type=0 whenElapsed=+43s496ms when=2018-05-14 18:38:53
+ start =18:38:53 whenElapsed=18:38:53 end=18:38:53 fixed=true aligned=false    window=0 repeatInterval=0 count=0
+    operation=PendingIntent{230c3f4a: PendingIntentRecord{22eae8d8 com.tencent.mobileqq broadcastIntent}}
+Batch{24bbaebb num=1 start=27148893 end=27148893 STANDALONE}:
+  ELAPSED #0: Alarm{32c88fd8 type 3 when 18:39:00 start 18:39:00 end 18:39:00 android}
+    tag=*alarm*:android.intent.action.TIME_TICK
+    type=3 whenElapsed=+49s958ms when=+49s958ms
+ start =18:39:00 whenElapsed=18:39:00 end=18:39:00 fixed=true aligned=false    window=0 repeatInterval=0 count=0
+    operation=PendingIntent{205efbd: PendingIntentRecord{a3e6855 android broadcastIntent}}
+Batch{14493f31 num=1 start=27201319 end=27204364}:
+  RTC_WAKEUP #0: Alarm{5570616 type 0 when 18:39:52 start 18:39:52 end 18:39:55 com.meizu.cloud}
+    tag=*walarm*:com.meizu.push.action.Ping
+    type=0 whenElapsed=+1m42s384ms when=2018-05-14 18:39:52
+ start =18:39:52 whenElapsed=18:39:52 end=18:39:55 fixed=true aligned=false    window=3045 repeatInterval=0 count=0
+    operation=PendingIntent{1f65676b: PendingIntentRecord{b282aa9 com.meizu.cloud broadcastIntent}}
+Batch{14ec7b97 num=1 start=27235504 end=27235504}:
+  ELAPSED #0: Alarm{2422d184 type 3 when 18:40:26 start 18:40:26 end 18:40:26 com.meizu.battery}
+    tag=*alarm*:pm.nonwakeup.powergauge.stats
+    type=3 whenElapsed=+2m16s569ms when=+2m16s569ms
+ start =18:40:26 whenElapsed=18:40:26 end=18:40:26 fixed=true aligned=false    window=-1 repeatInterval=0 count=0
+    operation=PendingIntent{10e7da86: PendingIntentRecord{32668f11 com.meizu.battery broadcastIntent}}
+Batch{ec19d6d num=1 start=27336484 end=27336484}:
+  RTC_WAKEUP #0: Alarm{35b56da2 type 0 when 18:42:07 start 18:42:07 end 18:42:07 com.tianyancha.skyeye}
+    tag=*walarm*:com.taobao.accs.intent.action.COMMAND
+    type=0 whenElapsed=+3m57s549ms when=2018-05-14 18:42:07
+ start =18:42:07 whenElapsed=18:42:07 end=18:42:07 fixed=true aligned=false    window=-1 repeatInterval=0 count=0
+    operation=PendingIntent{12f33a33: PendingIntentRecord{293d0f7b com.tianyancha.skyeye broadcastIntent}}
+Batch{23bd81f0 num=1 start=27358133 end=27358133}:
+  ELAPSED #0: Alarm{24e7a369 type 3 when 18:42:29 start 18:42:29 end 18:42:29 android}
+    tag=*alarm*:android.content.jobscheduler.JOB_DEADLINE_EXPIRED
+    type=3 whenElapsed=+4m19s198ms when=+4m19s198ms
+ start =18:42:29 whenElapsed=18:42:29 end=18:42:29 fixed=true aligned=false    window=-1 repeatInterval=0 count=0
+    operation=PendingIntent{8e7480: PendingIntentRecord{a0f612c android broadcastIntent}}
+Batch{16a0c1ee num=1 start=27369569 end=27369569}:
+  ELAPSED #0: Alarm{99d468f type 3 when 18:42:40 start 18:42:40 end 18:42:40 com.tencent.mm}
+    tag=*alarm*:com.tencent.mm.TrafficStatsReceiver
+    type=3 whenElapsed=+4m30s634ms when=+4m30s634ms
+ start =18:42:40 whenElapsed=18:42:40 end=18:42:40 fixed=true aligned=false    window=-1 repeatInterval=300000 count=0
+    operation=PendingIntent{bca865f: PendingIntentRecord{cc12b7b com.tencent.mm broadcastIntent}}
+Batch{2510cd1c num=1 start=27528221 end=27528221 STANDALONE}:
+  ELAPSED_WAKEUP #0: Alarm{264e0d25 type 2 when 18:45:19 start 18:45:19 end 18:45:19 com.tencent.mm}
+    tag=*walarm*:ALARM_ACTION(5580)
+    type=2 whenElapsed=+7m9s286ms when=+7m9s286ms
+ start =18:45:19 whenElapsed=18:45:19 end=18:45:19 fixed=true aligned=false    window=0 repeatInterval=0 count=0
+    operation=PendingIntent{26db0efa: PendingIntentRecord{15032857 com.tencent.mm broadcastIntent}}
+Batch{1931bcab num=1 start=27691957 end=27691957 STANDALONE}:
+  ELAPSED_WAKEUP #0: Alarm{38eb9f08 type 2 when 18:48:03 start 18:48:03 end 18:48:03 android}
+    tag=*walarm*:android.net.wifi.DHCP_RENEW
+    type=2 whenElapsed=+9m53s22ms when=+9m53s22ms
+ start =18:48:03 whenElapsed=18:48:03 end=18:48:03 fixed=true aligned=false    window=0 repeatInterval=0 count=0
+    operation=PendingIntent{12da109d: PendingIntentRecord{7a7ab99 android broadcastIntent}}
+Batch{ef756a1 num=1 start=27969562 end=27969562 STANDALONE}:
+  RTC_WAKEUP #0: Alarm{1d3b20c6 type 0 when 18:52:40 start 18:52:40 end 18:52:40 com.tencent.mm}
+    tag=*walarm*:com.tencent.mm/.booter.MMReceivers$AlarmReceiver
+    type=0 whenElapsed=+14m30s627ms when=2018-05-14 18:52:40
+ start =18:52:40 whenElapsed=18:52:40 end=18:52:40 fixed=true aligned=false    window=-1 repeatInterval=900000 count=0
+    operation=PendingIntent{104744dc: PendingIntentRecord{270e63b2 com.tencent.mm broadcastIntent}}
+Batch{154d7887 num=1 start=28172460 end=28172460}:
+  RTC #0: Alarm{2c1fa3b4 type 1 when 18:56:03 start 18:56:03 end 18:56:03 com.meizu.flyme.launcher}
+    tag=*alarm*:com.meizu.usagestats.uploader_alarm.com.meizu.flyme.launcher
+    type=1 whenElapsed=+17m53s525ms when=2018-05-14 18:56:03
+ start =18:56:03 whenElapsed=18:56:03 end=18:56:03 fixed=true aligned=false    window=-1 repeatInterval=0 count=0
+    operation=PendingIntent{3c0e32e0: PendingIntentRecord{3515cb9 com.meizu.flyme.launcher broadcastIntent}}
+Batch{3e91bbdd num=1 start=28829987 end=28829987}:
+  ELAPSED #0: Alarm{35388352 type 3 when 19:07:01 start 19:07:01 end 19:07:01 android}
+    tag=*alarm*:com.android.server.action.NETWORK_STATS_POLL
+    type=3 whenElapsed=+28m51s52ms when=+28m51s52ms
+ start =19:07:01 whenElapsed=19:07:01 end=19:07:01 fixed=true aligned=false    window=-1 repeatInterval=1800000 count=0
+    operation=PendingIntent{23b2d429: PendingIntentRecord{231cd9cb android broadcastIntent}}
+Batch{47f1623 num=1 start=28841450 end=28841450}:
+  RTC #0: Alarm{24ed4720 type 1 when 19:07:12 start 19:07:12 end 19:07:12 com.flyme.systemuitools}
+    tag=*alarm*:nisdk.SYNC
+    type=1 whenElapsed=+29m2s515ms when=2018-05-14 19:07:12
+ start =19:07:12 whenElapsed=19:07:12 end=19:07:12 fixed=true aligned=false    window=-1 repeatInterval=3600000 count=0
+    operation=PendingIntent{21caa03f: PendingIntentRecord{22c42b7 com.flyme.systemuitools broadcastIntent}}
+Batch{277338d9 num=1 start=28844811 end=28844811}:
+  ELAPSED #0: Alarm{3837829e type 3 when 19:07:15 start 19:07:15 end 19:07:15 android}
+    tag=*alarm*:android.content.jobscheduler.JOB_DELAY_EXPIRED
+    type=3 whenElapsed=+29m5s876ms when=+29m5s876ms
+ start =19:07:15 whenElapsed=19:07:15 end=19:07:15 fixed=true aligned=false    window=-1 repeatInterval=0 count=0
+    operation=PendingIntent{17b8b86a: PendingIntentRecord{38fa4f83 android broadcastIntent}}
+Batch{3da2f17f num=1 start=29561279 end=29561279}:
+  ELAPSED_WAKEUP #0: Alarm{2b2fb54c type 2 when 19:19:12 start 19:19:12 end 19:19:12 com.tianyancha.skyeye}
+    tag=*walarm*:com.tianyancha.skyeye.intent.action.COCKROACH
+    type=2 whenElapsed=+41m2s344ms when=+41m2s344ms
+ start =19:19:12 whenElapsed=19:19:12 end=19:19:12 fixed=true aligned=false    window=-1 repeatInterval=2500000 count=0
+    operation=PendingIntent{31558995: PendingIntentRecord{24aaea29 com.tianyancha.skyeye startService}}
+Batch{f952aaa num=1 start=31884123 end=31884123 STANDALONE}:
+  ELAPSED #0: Alarm{3eff269b type 3 when 19:57:55 start 19:57:55 end 19:57:55 android}
+    tag=*alarm*:android.content.syncmanager.SYNC_ALARM
+    type=3 whenElapsed=+1h19m45s188ms when=+1h19m45s188ms
+ start =19:57:55 whenElapsed=19:57:55 end=19:57:55 fixed=true aligned=false    window=0 repeatInterval=0 count=0
+    operation=PendingIntent{348e81a4: PendingIntentRecord{323319ab android broadcastIntent}}
+Batch{748da38 num=1 start=32431909 end=32431909}:
+  ELAPSED #0: Alarm{bd22a11 type 3 when 20:07:03 start 20:07:03 end 20:07:03 android}
+    tag=*alarm*:android.appwidget.action.APPWIDGET_UPDATE
+    type=3 whenElapsed=+1h28m52s974ms when=+1h28m52s974ms
+ start =20:07:03 whenElapsed=20:07:03 end=20:07:03 fixed=true aligned=false    window=-1 repeatInterval=10800000 count=0
+    operation=PendingIntent{40e40d3: PendingIntentRecord{8e174f2 android broadcastIntent}}
+Batch{2b734776 num=1 start=33988893 end=33988893 STANDALONE}:
+  RTC #0: Alarm{1b1f9177 type 1 when 20:33:00 start 20:33:00 end 20:33:00 com.tencent.mobileqq}
+    tag=*alarm*:action_sport_timer1
+    type=1 whenElapsed=+1h54m49s958ms when=2018-05-14 20:33:00
+ start =20:33:00 whenElapsed=20:33:00 end=20:33:00 fixed=true aligned=false    window=0 repeatInterval=0 count=0
+    operation=PendingIntent{23b9f10e: PendingIntentRecord{18b6f6ba com.tencent.mobileqq broadcastIntent}}
+Batch{23cd61e4 num=1 start=35608893 end=35608893}:
+  RTC #0: Alarm{2c9e564d type 1 when 21:00:00 start 21:00:00 end 21:00:00 com.meizu.safe}
+    tag=*alarm*:com.meizu.safe/.SafeSecureService
+    type=1 whenElapsed=+2h21m49s958ms when=2018-05-14 21:00:00
+ start =21:00:00 whenElapsed=21:00:00 end=21:00:00 fixed=true aligned=false    window=-1 repeatInterval=86400000 count=0
+    operation=PendingIntent{2a57dec5: PendingIntentRecord{dee3e com.meizu.safe startService}}
+Batch{a446502 num=1 start=43927893 end=43927893 STANDALONE}:
+  RTC #0: Alarm{1771ce13 type 1 when 23:18:39 start 23:18:39 end 23:18:39 com.tencent.mobileqq}
+    tag=*alarm*:action_sport_timer2
+    type=1 whenElapsed=+4h40m28s958ms when=2018-05-14 23:18:39
+ start =23:18:39 whenElapsed=23:18:39 end=23:18:39 fixed=true aligned=false    window=0 repeatInterval=0 count=0
+    operation=PendingIntent{24ee5528: PendingIntentRecord{12efe96b com.tencent.mobileqq broadcastIntent}}
+Batch{1df0b850 num=1 start=44511324 end=44511324}:
+  RTC #0: Alarm{35870a49 type 1 when 23:28:22 start 23:28:22 end 23:28:22 com.meizu.experiencedatasync}
+    tag=*alarm*:com.meizu.usagestats.uploader_alarm.com.meizu.experiencedatasync
+    type=1 whenElapsed=+4h50m12s389ms when=2018-05-14 23:28:22
+ start =23:28:22 whenElapsed=23:28:22 end=23:28:22 fixed=true aligned=false    window=-1 repeatInterval=0 count=0
+    operation=PendingIntent{1e97bd27: PendingIntentRecord{3aa4f4c2 com.meizu.experiencedatasync broadcastIntent}}
+Batch{2d17cf4e num=1 start=46227954 end=46227954 STANDALONE}:
+  RTC_WAKEUP #0: Alarm{18a1386f type 0 when 23:56:59 start 23:56:59 end 23:56:59 com.tencent.mobileqq}
+    tag=*walarm*:MSF_Action_Refresh_Steps
+    type=0 whenElapsed=+5h18m49s19ms when=2018-05-14 23:56:59
+ start =23:56:59 whenElapsed=23:56:59 end=23:56:59 fixed=true aligned=false    window=0 repeatInterval=86400000 count=0
+    operation=PendingIntent{13408872: PendingIntentRecord{3ef78716 com.tencent.mobileqq broadcastIntent}}
+Batch{30b1097c num=4 start=46408893 end=46408893 STANDALONE}:
+  RTC #3: Alarm{3e2d0205 type 1 when 00:00:00 start 00:00:00 end 00:00:00 android}
+    tag=*alarm*:android.intent.action.DATE_CHANGED
+    type=1 whenElapsed=+5h21m49s958ms when=2018-05-15 00:00:00
+ start =00:00:00 whenElapsed=00:00:00 end=00:00:00 fixed=true aligned=false    window=0 repeatInterval=0 count=0
+    operation=PendingIntent{10c70335: PendingIntentRecord{1dad823f android broadcastIntent}}
+  RTC #2: Alarm{4a5925a type 1 when 00:00:00 start 00:00:00 end 00:00:00 com.meizu.flyme.input}
+    tag=*alarm*:notify.ime.date.change
+    type=1 whenElapsed=+5h21m49s958ms when=2018-05-15 00:00:00
+ start =00:00:00 whenElapsed=00:00:00 end=00:00:00 fixed=true aligned=false    window=-1 repeatInterval=0 count=0
+    operation=PendingIntent{1ef4493b: PendingIntentRecord{fc64d74 com.meizu.flyme.input broadcastIntent}}
+  RTC #1: Alarm{38b2ec8b type 1 when 00:00:00 start 00:00:00 end 00:00:00 com.meizu.flyme.launcher}
+    tag=*alarm*:notify.launcher.date.change
+    type=1 whenElapsed=+5h21m49s958ms when=2018-05-15 00:00:00
+ start =00:00:00 whenElapsed=00:00:00 end=00:00:00 fixed=true aligned=false    window=-1 repeatInterval=0 count=0
+    operation=PendingIntent{1d2a1f: PendingIntentRecord{3ec0829d com.meizu.flyme.launcher broadcastIntent}}
+  RTC #0: Alarm{26c34168 type 1 when 00:00:00 start 00:00:00 end 00:00:00 com.meizu.safe}
+    tag=*alarm*:traffic_action_24_clock_alarm
+    type=1 whenElapsed=+5h21m49s958ms when=2018-05-15 00:00:00
+ start =00:00:00 whenElapsed=00:00:00 end=00:00:00 fixed=true aligned=false    window=-1 repeatInterval=0 count=0
+    operation=PendingIntent{7825879: PendingIntentRecord{f2c927c com.meizu.safe broadcastIntent}}
+Batch{3d80b981 num=1 start=79348257 end=79348257 STANDALONE}:
+  RTC_WAKEUP #0: Alarm{231a7a26 type 0 when 09:08:59 start 09:08:59 end 09:08:59 com.android.providers.calendar}
+    tag=*walarm*:com.android.providers.calendar.SCHEDULE_ALARM
+    type=0 whenElapsed=+14h30m49s322ms when=2018-05-15 09:08:59
+ start =09:08:59 whenElapsed=09:08:59 end=09:08:59 fixed=true aligned=false    window=0 repeatInterval=0 count=0
+    operation=PendingIntent{31524296: PendingIntentRecord{26537a37 com.android.providers.calendar broadcastIntent}}
+Batch{22e1c667 num=1 start=86452383 end=86452383}:
+  RTC_WAKEUP #0: Alarm{3f3f0c14 type 0 when 11:07:23 start 11:07:23 end 11:07:23 com.meizu.mpay}
+    tag=*walarm*:com.meizu.mpay.alarm.plan.start
+    type=0 whenElapsed=+16h29m13s448ms when=2018-05-15 11:07:23
+ start =11:07:23 whenElapsed=11:07:23 end=11:07:23 fixed=true aligned=false    window=-1 repeatInterval=0 count=0
+    operation=PendingIntent{2f67f222: PendingIntentRecord{33dac6c3 com.meizu.mpay broadcastIntent}}
+Batch{efe6cbd num=1 start=86464068 end=86464068}:
+  RTC #0: Alarm{3ea412b2 type 1 when 11:07:35 start 11:07:35 end 11:07:35 com.meizu.experiencedatasync}
+    tag=*alarm*:com.meizu.experiencedatasync.sagitta_check_config
+    type=1 whenElapsed=+16h29m25s133ms when=2018-05-15 11:07:35
+ start =11:07:35 whenElapsed=11:07:35 end=11:07:35 fixed=true aligned=false    window=-1 repeatInterval=0 count=0
+    operation=PendingIntent{3bed51e9: PendingIntentRecord{18eea79 com.meizu.experiencedatasync broadcastIntent}}
+Batch{113a6203 num=1 start=87052952 end=87052952}:
+  RTC_WAKEUP #0: Alarm{310ad580 type 0 when 11:17:24 start 11:17:24 end 11:17:24 com.meizu.mzsyncservice}
+    tag=*walarm*:com.meizu.flyme.alarmsync.name
+    type=0 whenElapsed=+16h39m14s17ms when=2018-05-15 11:17:24
+ start =11:17:24 whenElapsed=11:17:24 end=11:17:24 fixed=true aligned=false    window=-1 repeatInterval=86400000 count=0
+    operation=PendingIntent{cbb2d9c: PendingIntentRecord{33281272 com.meizu.mzsyncservice broadcastIntent}}
+Batch{faa17b9 num=1 start=102271965 end=102271965}:
+  RTC_WAKEUP #0: Alarm{10bca7fe type 0 when 15:31:03 start 15:31:03 end 15:31:03 com.sina.weibo}
+    tag=*walarm*:com.sina.weibo/.localpush.LocalPushAlarmReceiver
+    type=0 whenElapsed=+20h52m53s30ms when=2018-05-15 15:31:03
+ start =15:31:03 whenElapsed=15:31:03 end=15:31:03 fixed=true aligned=false    window=-1 repeatInterval=86400000 count=0
+    operation=PendingIntent{2205f72b: PendingIntentRecord{3a8c1baa com.sina.weibo broadcastIntent}}
+Batch{7f71b5f num=1 start=102423419 end=102423419}:
+  RTC #0: Alarm{3907c9ac type 1 when 15:33:34 start 15:33:34 end 15:33:34 com.meizu.experiencedatasync}
+    tag=*alarm*:com.meizu.experiencedatasync.check_upload
+    type=1 whenElapsed=+20h55m24s484ms when=2018-05-15 15:33:34
+ start =15:33:34 whenElapsed=15:33:34 end=15:33:34 fixed=true aligned=false    window=-1 repeatInterval=0 count=0
+    operation=PendingIntent{6be7d46: PendingIntentRecord{2d91c39b com.meizu.experiencedatasync broadcastIntent}}
+Batch{ecb7675 num=1 start=620033908 end=620033908}:
+  RTC #0: Alarm{1e37460a type 1 when 15:20:25 start 15:20:25 end 15:20:25 com.meizu.safe}
+    tag=*alarm*:com.meizu.safe/.blockService.service.SDKUpdateService
+    type=1 whenElapsed=+6d20h42m14s973ms when=2018-05-21 15:20:25
+ start =15:20:25 whenElapsed=15:20:25 end=15:20:25 fixed=true aligned=false    window=-1 repeatInterval=0 count=0
+    operation=PendingIntent{3ae0225d: PendingIntentRecord{3de14632 com.meizu.safe startService}}
+Batch{2a9c0e7b num=1 start=623430835 end=623430835 STANDALONE}:
+  ELAPSED_WAKEUP #0: Alarm{1efdd498 type 2 when 16:17:01 start 16:17:01 end 16:17:01 com.tencent.mm}
+    tag=*walarm*:ALARM_ACTION(5580)
+    type=2 whenElapsed=+6d21h38m51s900ms when=+6d21h38m51s900ms
+ start =16:17:01 whenElapsed=16:17:01 end=16:17:01 fixed=true aligned=false    window=0 repeatInterval=0 count=0
+    operation=PendingIntent{2821bfa0: PendingIntentRecord{36633161 com.tencent.mm broadcastIntent}}
+Batch{e6a04f1 num=1 start=864041350 end=864041350 STANDALONE}:
+  ELAPSED #0: Alarm{340bb8d6 type 3 when 11:07:12 start 11:07:12 end 11:07:12 android}
+    tag=*alarm*:com.android.server.NetworkTimeUpdateService.action.POLL
+    type=3 whenElapsed=+9d16h29m2s415ms when=+9d16h29m2s415ms
+ start =11:07:12 whenElapsed=11:07:12 end=11:07:12 fixed=true aligned=false    window=0 repeatInterval=0 count=0
+    operation=PendingIntent{20ba23ff: PendingIntentRecord{2b841019 android broadcastIntent}}
+
+Past-due non-wakeup alarms: (none)
+  Number of delayed alarms: 0, total delay time: 0
+  Max delay time: 0, max non-interactive time: +2h23m23s59ms
+
+  Broadcast ref count: 0
+
+  Top Alarms:
+    +53s72ms running, 0 wakeups, 70 alarms: 1000:android
+      *alarm*:android.content.jobscheduler.JOB_DELAY_EXPIRED
+    +36s769ms running, 0 wakeups, 8 alarms: u0a30:com.flyme.systemuitools
+      *alarm*:nisdk.SYNC
+    +34s330ms running, 1 wakeups, 1 alarms: u0a60:com.meizu.cloud
+      *walarm*:com.meizu.push.action.Monitor
+    +27s966ms running, 1 wakeups, 1 alarms: u0a5:com.android.providers.calendar
+      *walarm*:com.android.providers.calendar.intent.CalendarProvider2
+    +26s237ms running, 0 wakeups, 91 alarms: u0a97:com.tencent.mm
+      *alarm*:com.tencent.mm.TrafficStatsReceiver
+    +26s34ms running, 0 wakeups, 427 alarms: 1000:android
+      *alarm*:android.intent.action.TIME_TICK
+    +12s976ms running, 0 wakeups, 5 alarms: 1000:android
+      *alarm*:android.content.syncmanager.SYNC_ALARM
+    +9s432ms running, 0 wakeups, 16 alarms: 1000:android
+      *alarm*:com.android.server.action.NETWORK_STATS_POLL
+    +8s948ms running, 0 wakeups, 22 alarms: 1000:android
+      *alarm*:android.content.jobscheduler.JOB_DEADLINE_EXPIRED
+    +6s463ms running, 1 wakeups, 1 alarms: u0a88:com.sina.weibo
+      *walarm*:com.huawei.intent.action.PUSH_OFF
+ 
+  Alarm Stats:
+  1000:android +1m22s471ms running, 65 wakeups:
+    +53s72ms 0 wakes 70 alarms: *alarm*:android.content.jobscheduler.JOB_DELAY_EXPIRED
+    +26s34ms 0 wakes 427 alarms: *alarm*:android.intent.action.TIME_TICK
+    +12s976ms 0 wakes 5 alarms: *alarm*:android.content.syncmanager.SYNC_ALARM
+    +9s432ms 0 wakes 16 alarms: *alarm*:com.android.server.action.NETWORK_STATS_POLL
+    +8s948ms 0 wakes 22 alarms: *alarm*:android.content.jobscheduler.JOB_DEADLINE_EXPIRED
+    +1s46ms 54 wakes 54 alarms: *walarm*:com.android.server.task.controllers.BatteryController.ACTION_CHARGING_STABLE
+    +452ms 0 wakes 2 alarms: *alarm*:android.appwidget.action.APPWIDGET_UPDATE
+    +193ms 7 wakes 7 alarms: *walarm*:android.net.wifi.DHCP_RENEW
+    +98ms 2 wakes 2 alarms: *walarm*:com.android.server.task.controllers.IdleController.ACTION_TRIGGER_IDLE
+    +3ms 1 wakes 1 alarms: *walarm*:NextAlarmTracker.trigger
+    +2ms 1 wakes 1 alarms: *walarm*:com.android.server.WifiManager.action.START_SCAN
+  1000:com.meizu.safe +97ms running, 1 wakeups:
+    +63ms 1 wakes 1 alarms: *walarm*:remain_connect_action
+    +34ms 0 wakes 1 alarms: *alarm*:com.meizu.usagestats.uploader_alarm.com.meizu.safe
+  1000:com.meizu.alphame +455ms running, 0 wakeups:
+    +405ms 0 wakes 12 alarms: *alarm*:com.meizu.alphame.system.idle
+    +50ms 0 wakes 2 alarms: *alarm*:com.meizu.alphame.system.standby
+  1000:com.flyme.netadmin +24ms running, 1 wakeups:
+    +16ms 0 wakes 1 alarms: *alarm*:com.meizu.usagestats.uploader_alarm.com.flyme.netadmin
+    +8ms 1 wakes 1 alarms: *walarm*:remain_connect_action
+  1000:com.meizu.battery +249ms running, 0 wakeups:
+    +149ms 0 wakes 12 alarms: *alarm*:com.meizu.power.powerexception.enter_idle_mode
+    +60ms 0 wakes 4 alarms: *alarm*:pm.nonwakeup.powergauge.stats
+    +40ms 0 wakes 4 alarms: *alarm*:com.meizu.power.powerexception
+  u0a5:com.android.providers.calendar +27s966ms running, 1 wakeups:
+    +27s966ms 1 wakes 1 alarms: *walarm*:com.android.providers.calendar.intent.CalendarProvider2
+  u0a7:com.meizu.customizecenter +179ms running, 0 wakeups:
+    +179ms 0 wakes 1 alarms: *alarm*:com.meizu.usagestats.uploader_alarm.com.meizu.customizecenter
+  u0a9:com.meizu.yellowpage +369ms running, 0 wakeups:
+    +369ms 0 wakes 1 alarms: *alarm*:com.meizu.usagestats.uploader_alarm.com.meizu.yellowpage
+  u0a14:com.meizu.flyme.launcher +76ms running, 0 wakeups:
+    +76ms 0 wakes 4 alarms: *alarm*:com.meizu.usagestats.uploader_alarm.com.meizu.flyme.launcher
+  u0a22:com.meizu.backup +369ms running, 0 wakeups:
+    +369ms 0 wakes 1 alarms: *alarm*:com.meizu.usagestats.uploader_alarm.com.meizu.backup
+  u0a24:com.meizu.flyme.input +9ms running, 0 wakeups:
+    +9ms 0 wakes 1 alarms: *alarm*:com.meizu.usagestats.uploader_alarm.com.meizu.flyme.input
+  u0a30:com.flyme.systemuitools +36s769ms running, 0 wakeups:
+    +36s769ms 0 wakes 8 alarms: *alarm*:nisdk.SYNC
+  u0a30:com.android.systemui +346ms running, 14 wakeups:
+    +346ms 14 wakes 14 alarms: *walarm*:com.android.internal.policy.impl.PhoneWindowManager.DELAYED_KEYGUARD
+  u0a37:com.alipay.android.app +24ms running, 1 wakeups:
+    +24ms 1 wakes 1 alarms: *walarm*:com.alipay.notify.config.check
+  u0a49:com.meizu.flyme.telecom +16ms running, 0 wakeups:
+    +16ms 0 wakes 1 alarms: *alarm*:com.meizu.usagestats.uploader_alarm.com.meizu.flyme.telecom
+  u0a60:com.meizu.cloud +35s95ms running, 40 wakeups:
+    +34s330ms 1 wakes 1 alarms: *walarm*:com.meizu.push.action.Monitor
+    +765ms 39 wakes 39 alarms: *walarm*:com.meizu.push.action.Ping
+  u0a62:com.meizu.mpay 0 running, 0 wakeups:
+  u0a67:com.meizu.mzsyncservice +53ms running, 1 wakeups:
+    +53ms 1 wakes 1 alarms: *walarm*:com.meizu.flyme.alarmsync.name
+  u0a79:com.meizu.flyme.weather +15ms running, 0 wakeups:
+    +15ms 0 wakes 1 alarms: *alarm*:com.meizu.flyme.weather.appwidget.action.WIDGET_ENABLE_DELAY
+  u0a88:com.sina.weibo +8s803ms running, 1 wakeups:
+    +6s463ms 1 wakes 1 alarms: *walarm*:com.huawei.intent.action.PUSH_OFF
+    +2s300ms 0 wakes 99 alarms: *alarm*:com.sina.smart.heartbeat.action1004
+    +40ms 0 wakes 1 alarms: *alarm*:com.sina.weibo.action.GET_PUSH_VALUE
+  u0a95:com.tencent.mobileqq +2s877ms running, 110 wakeups:
+    +2s877ms 110 wakes 110 alarms: *walarm*:com.tencent.mobileqq:MSF_430025283
+  u0a97:com.tencent.mm +28s863ms running, 99 wakeups:
+    +26s237ms 0 wakes 91 alarms: *alarm*:com.tencent.mm.TrafficStatsReceiver
+    +2s329ms 67 wakes 67 alarms: *walarm*:ALARM_ACTION(5580)
+    +1s118ms 30 wakes 30 alarms: *walarm*:com.tencent.mm/.booter.MMReceivers$AlarmReceiver
+    +124ms 1 wakes 1 alarms: *walarm*:ALARM_ACTION(7087)
+    +47ms 1 wakes 1 alarms: *walarm*:ALARM_ACTION(1934)
+  u0a174:com.tianyancha.skyeye 0 running, 0 wakeups:

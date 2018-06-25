@@ -1,0 +1,1028 @@
+Dump time : 2017å¹´12æ24æ¥ ä¸å5:23:00
+TASK com.android.systemui id=6
+  ACTIVITY com.android.systemui/.recents.leui.LeuiRecentActivity caa6ba7 pid=1629
+    Local Activity 96f3e31 State:
+      mResumed=false mStopped=true mFinished=false
+      mChangingConfigurations=false
+      mCurrentConfig={1.0 1.0 0 ?mcc?mnc zh_CN ldltr sw411dp w411dp h707dp 420dpi nrml long port finger -keyb/v/h -nav/h s.7}
+      mLoadersStarted=true
+      FragmentManager misc state:
+        mHost=android.app.Activity$HostCallbacks@c933f5d
+        mContainer=android.app.Activity$HostCallbacks@c933f5d
+        mCurState=3 mStateSaved=false mDestroyed=false
+    ViewRoot:
+      mAdded=true mRemoved=false
+      mConsumeBatchedInputScheduled=false
+      mConsumeBatchedInputImmediatelyScheduled=false
+      mPendingInputEventCount=0
+      mProcessInputEventsScheduled=false
+      mTraversalScheduled=false
+      android.view.ViewRootImpl$NativePreImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$ImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$NativePostImeInputStage: mQueueLength=0
+    Choreographer:
+      mFrameScheduled=false
+      mLastFrameTime=2921569 (455 ms ago)
+    View Hierarchy:
+      com.android.internal.policy.PhoneWindow$DecorView{90eb741 I.E...... R.....ID 0,0-1080,1920}
+        android.widget.LinearLayout{6ce867d V.E...... ......ID 0,0-1080,1920}
+          android.view.ViewStub{4978972 G.E...... ......I. 0,0-0,0 #102051f android:id/action_mode_bar_stub}
+          android.widget.FrameLayout{9271c3 V.E...... ......ID 0,0-1080,1920 #1020002 android:id/content}
+            android.widget.RelativeLayout{9a5fea5 V.E...... ......ID 0,0-1080,1920 #7f1001d3 app:id/le_cc_control_content_id}
+              com.android.systemui.controlcenter.LeControlCenterPanelView{7e1e27a V.E...... ......ID 0,0-1080,1094 #7f1001da app:id/le_cc_id}
+                com.android.systemui.controlcenter.shortcutapp.LeAppWidgetLayout{19ce021 V.E...... ......ID 0,0-1080,371 #7f1001c5 app:id/le_cc_app_layout_extend_id}
+                  com.android.systemui.controlcenter.widget.LeLinearLayout{69bac46 VFED..... .......D 0,77-1080,293 #7f1001c6 app:id/front_content}
+                    android.widget.LinearLayout{2e9de07 V.E...... .......D 0,0-3024,216}
+                      android.widget.LinearLayout{3c65d5d V.E...C.. .......D 0,0-216,216}
+                        android.widget.ImageView{ed646d2 V.ED..... ......ID 36,36-180,180 #7f1001c4 app:id/image}
+                      android.widget.LinearLayout{33c53a3 V.E...C.. .......D 216,0-432,216}
+                        android.widget.ImageView{53d76a0 V.ED..... ......ID 36,36-180,180 #7f1001c4 app:id/image}
+                      android.widget.LinearLayout{5107259 V.E...C.. .......D 432,0-648,216}
+                        android.widget.ImageView{4adfe1e V.ED..... ......ID 36,36-180,180 #7f1001c4 app:id/image}
+                      android.widget.LinearLayout{ab686ff V.E...C.. .......D 648,0-864,216}
+                        android.widget.ImageView{5135ccc V.ED..... ......ID 36,36-180,180 #7f1001c4 app:id/image}
+                      android.widget.LinearLayout{14cdb15 V.E...C.. .......D 864,0-1080,216}
+                        android.widget.ImageView{fb7de2a V.ED..... ......ID 36,36-180,180 #7f1001c4 app:id/image}
+                      android.widget.LinearLayout{576941b V.E...C.. .......D 1080,0-1296,216}
+                        android.widget.ImageView{c7f79b8 V.ED..... ......ID 36,36-180,180 #7f1001c4 app:id/image}
+                      android.widget.LinearLayout{5ad1391 V.E...C.. .......D 1296,0-1512,216}
+                        android.widget.ImageView{9cdb2f6 V.ED..... ......ID 36,36-180,180 #7f1001c4 app:id/image}
+                      android.widget.LinearLayout{96056f7 V.E...C.. .......D 1512,0-1728,216}
+                        android.widget.ImageView{28e7964 V.ED..... ......ID 36,36-180,180 #7f1001c4 app:id/image}
+                      android.widget.LinearLayout{6fe57cd V.E...C.. .......D 1728,0-1944,216}
+                        android.widget.ImageView{e9a0882 V.ED..... ......ID 36,36-180,180 #7f1001c4 app:id/image}
+                      android.widget.LinearLayout{cb96b93 V.E...C.. .......D 1944,0-2160,216}
+                        android.widget.ImageView{6bc7d0 V.ED..... ......ID 36,36-180,180 #7f1001c4 app:id/image}
+                      android.widget.LinearLayout{fa5a3c9 V.E...C.. .......D 2160,0-2376,216}
+                        android.widget.ImageView{7e42ace V.ED..... ......ID 36,36-180,180 #7f1001c4 app:id/image}
+                      android.widget.LinearLayout{a852def V.E...C.. .......D 2376,0-2592,216}
+                        android.widget.ImageView{48d90fc V.ED..... ......ID 36,36-180,180 #7f1001c4 app:id/image}
+                      android.widget.LinearLayout{15bb385 V.E...C.. .......D 2592,0-2808,216}
+                        android.widget.ImageView{29c25da V.ED..... ......ID 36,36-180,180 #7f1001c4 app:id/image}
+                      android.widget.LinearLayout{a0ba0b V.E...C.. .......D 2808,0-3024,216}
+                        android.widget.ImageView{ca0c0e8 V.ED..... ......ID 36,36-180,180 #7f1001c4 app:id/image}
+                com.android.systemui.controlcenter.musicvideo.LeMusicLayoutExtend{8a6c5a6 V.E...... ......ID 0,371-1080,583 #7f1001cb app:id/le_cc_music_layout_extend_id}
+                  android.widget.LinearLayout{39eebe7 V.E...C.. ......ID 0,0-1080,47 #7f1001dc app:id/le_cc_music_info_id}
+                    com.android.systemui.controlcenter.widget.LeMarqueeTextView{2350394 VFED..... .F....ID 0,0-1080,43 #7f1001dd app:id/le_cc_music_title_id}
+                    com.android.systemui.controlcenter.widget.LeMarqueeTextView{21ce3d GFED..... ......I. 0,0-0,0 #7f1001de app:id/le_cc_music_artist_album_id}
+                  android.widget.RelativeLayout{b699632 V.E...... .......D 0,47-1080,173 #7f1001df app:id/le_cc_music_control_id}
+                    android.widget.ImageView{4645f83 V.ED..C.. ......ID 477,0-603,126 #7f1001e0 app:id/le_cc_music_play_pause_id}
+                    android.widget.ImageView{9621139 V.ED..C.. ........ 304,0-430,126 #7f1001e1 app:id/le_cc_music_previous_id}
+                    android.widget.ImageView{b16e37e V.ED..C.. ........ 650,0-776,126 #7f1001e2 app:id/le_cc_music_next_id}
+                com.android.systemui.controlcenter.brightnessvolume.LeBrightnessToggleSlider{6d5312c V.E...... .......D 0,583-1080,742}
+                  android.widget.ImageView{1c987f5 V.ED..... ........ 32,16-158,142 #7f1001c8 app:id/le_cc_brightness_low_indicate_id}
+                  android.widget.SeekBar{6b9b98a VFED..... ......ID 102,50-978,108 #7f1001c9 app:id/le_cc_brightness_seekbar_id}
+                  android.widget.ImageView{cfa3418 V.ED..... ........ 922,16-1048,142 #7f1001ca app:id/le_cc_brightness_auto_id}
+                com.android.systemui.controlcenter.shortcutapp.LeShortcutWidgetLayout{101e456 V.E...... ......ID 0,742-1080,1093 #7f1001cc app:id/le_cc_shortcut_layout_extend_id}
+                  com.android.systemui.controlcenter.widget.LeLinearLayout{1e49cd7 VFED..... ......ID 0,1-1080,307 #7f1001c6 app:id/front_content}
+                    android.widget.LinearLayout{b6a79c4 V.E...... ......ID 0,0-3024,306}
+                      android.widget.RelativeLayout{5cfefe2 V.E...CL. ......ID 0,0-216,306}
+                        android.widget.ImageView{f6c2f73 V.ED..... ......ID 36,36-180,180 #7f1001c4 app:id/image}
+                        android.widget.TextView{d776e30 V.ED..... ......ID 50,204-166,294 #7f1001f5 app:id/text}
+                      android.widget.RelativeLayout{88cbaa9 V.E...CL. .......D 216,0-432,306}
+                        android.widget.ImageView{c81282e V.ED..... ......ID 36,36-180,180 #7f1001c4 app:id/image}
+                        android.widget.TextView{ed04fcf V.ED..... ........ 79,204-137,294 #7f1001f5 app:id/text}
+                      android.widget.RelativeLayout{1d3d5c V.E...CL. ......ID 432,0-648,306}
+                        android.widget.ImageView{64d5865 V.ED..... ......ID 36,36-180,180 #7f1001c4 app:id/image}
+                        android.widget.TextView{2fb993a V.ED..... ......ID 50,204-166,294 #7f1001f5 app:id/text}
+                      android.widget.RelativeLayout{aac19eb V.E...CL. .......D 648,0-864,306}
+                        android.widget.ImageView{1eed348 V.ED..... ......ID 36,36-180,180 #7f1001c4 app:id/image}
+                        android.widget.TextView{8c015e1 V.ED..... ........ 50,204-166,294 #7f1001f5 app:id/text}
+                      android.widget.RelativeLayout{d7a0f06 V.E...CL. .......D 864,0-1080,306}
+                        android.widget.ImageView{23069c7 V.ED..... ......ID 36,36-180,180 #7f1001c4 app:id/image}
+                        android.widget.TextView{5c1dbf4 V.ED..... ........ 79,204-137,294 #7f1001f5 app:id/text}
+                      android.widget.RelativeLayout{7472f1d V.E...CL. .......D 1080,0-1296,306}
+                        android.widget.ImageView{7181592 V.ED..... ......ID 36,36-180,180 #7f1001c4 app:id/image}
+                        android.widget.TextView{cbfdb63 V.ED..... ........ 79,204-137,294 #7f1001f5 app:id/text}
+                      android.widget.RelativeLayout{41ac360 V.E...CL. .......D 1296,0-1512,306}
+                        android.widget.ImageView{32ca019 V.ED..... ......ID 36,36-180,180 #7f1001c4 app:id/image}
+                        android.widget.TextView{f1df8de V.ED..... ........ 80,204-135,294 #7f1001f5 app:id/text}
+                      android.widget.RelativeLayout{b4acabf V.E...CL. .......D 1512,0-1728,306}
+                        android.widget.ImageView{758b58c V.ED..... ......ID 36,36-180,180 #7f1001c4 app:id/image}
+                        android.widget.TextView{e5e24d5 V.ED..... ........ 50,204-166,294 #7f1001f5 app:id/text}
+                      android.widget.RelativeLayout{f0cc4ea V.E...CL. .......D 1728,0-1944,306}
+                        android.widget.ImageView{36b53db V.ED..... ......ID 36,36-180,180 #7f1001c4 app:id/image}
+                        android.widget.TextView{ea19e78 V.ED..... ........ 50,204-166,294 #7f1001f5 app:id/text}
+                      android.widget.RelativeLayout{1e93951 V.E...CL. .......D 1944,0-2160,306}
+                        android.widget.ImageView{56a45b6 V.ED..... ......ID 36,36-180,180 #7f1001c4 app:id/image}
+                        android.widget.TextView{4152b7 V.ED..... ........ 79,204-137,294 #7f1001f5 app:id/text}
+                      android.widget.RelativeLayout{38e2a24 V.E...CL. .......D 2160,0-2376,306}
+                        android.widget.ImageView{37198d V.ED..... ......ID 36,36-180,180 #7f1001c4 app:id/image}
+                        android.widget.TextView{14d0742 V.ED..... ........ 79,204-137,294 #7f1001f5 app:id/text}
+                      android.widget.RelativeLayout{50e6353 V.E...CL. .......D 2376,0-2592,306}
+                        android.widget.ImageView{e95c490 V.ED..... ......ID 36,36-180,180 #7f1001c4 app:id/image}
+                        android.widget.TextView{f08c189 V.ED..... ........ 50,204-166,294 #7f1001f5 app:id/text}
+                      android.widget.RelativeLayout{aa8558e V.E...CL. .......D 2592,0-2808,306}
+                        android.widget.ImageView{d91e1af V.ED..... ......ID 36,36-180,180 #7f1001c4 app:id/image}
+                        android.widget.TextView{63a99bc V.ED..... ........ 36,204-180,294 #7f1001f5 app:id/text}
+                      android.widget.RelativeLayout{532ed45 V.E...CL. .......D 2808,0-3024,306}
+                        android.widget.ImageView{3583c9a V.ED..... ......ID 36,36-180,180 #7f1001c4 app:id/image}
+                        android.widget.TextView{824e9cb V.ED..... ........ 79,204-137,294 #7f1001f5 app:id/text}
+              android.view.View{81a18c1 V.ED..... ......ID 0,1094-1080,1095 #7f10009a app:id/divider}
+              com.android.systemui.recents.leui.LeuiRecentsViewContainer{59657a7 V.E...... ......ID 0,1095-1080,1920 #7f1002e6 app:id/leui_recent_view_container}
+                com.android.systemui.widget.AutoCenterScrollView{1e26454 V.E...... ......ID 0,69-1080,668 #7f1002e7 app:id/acsv}
+                  android.widget.LinearLayout{4ee7ffd V.ED..... ......ID 405,0-1620,599}
+                android.view.View{f39c4f2 V.ED..... ........ 0,714-0,715}
+                android.widget.RelativeLayout{82b71c0 V.E...... ......ID 0,715-1080,825 #7f1002d8 app:id/leui_recent_clear_all_btn_layout}
+                  com.android.systemui.widget.LeClearAllLayout{b9b3e3e V.E...C.. ........ 82,0-997,110 #7f1002d9 app:id/leui_recent_clear_all_btn}
+                    android.widget.TextView{4949f V.ED..... ........ 297,0-618,110 #7f1002da app:id/leui_recent_clear_all_txtview}
+    Looper (main, tid 1) {6ee80d2}
+      (Total messages: 0, polling=false, quitting=false)
+
+TASK com.android.launcher3 id=1
+  ACTIVITY com.android.launcher3/.Launcher a3f2de9 pid=2147
+    Local Activity 91e7c2e State:
+      mResumed=true mStopped=false mFinished=false
+      mChangingConfigurations=false
+      mCurrentConfig={1.0 1.0 0 ?mcc?mnc zh_CN ldltr sw411dp w411dp h707dp 420dpi nrml long port finger -keyb/v/h -nav/h s.5}
+      mLoadersStarted=true
+      Active Fragments in 2f79119:
+        #0: ToutiaoFragment{3f495de #0 id=0x2 913}
+          mFragmentId=#2 mContainerId=#2 mTag=913
+          mState=5 mIndex=0 mWho=android:fragment:0 mBackStackNesting=0
+          mAdded=true mRemoving=false mResumed=true mFromLayout=false mInLayout=false
+          mHidden=false mDetached=false mMenuVisible=true mHasMenu=false
+          mRetainInstance=false mRetaining=false mUserVisibleHint=true
+          mFragmentManager=FragmentManager{2f79119 in HostCallbacks{c81a3bf}}
+          mHost=android.app.Activity$HostCallbacks@c81a3bf
+          mContainer=com.android.launcher3.eui.custom.CustomContentContainer{44d88a4 V.E...C.. ......ID 0,0-1080,1920 #2}
+          mView=android.widget.RelativeLayout{a4233d3 V.E...... ......ID 0,0-1080,1920}
+          Child FragmentManager{7d11a8c in ToutiaoFragment{3f495de}}:
+            Active Fragments in 7d11a8c:
+              #0: SarrsFragment{e6725d5 #0 id=0x7f130fa3 SARRS_FRAGMENT_MANAGER:SarrsFragment}
+                mFragmentId=#7f130fa3 mContainerId=#7f130fa3 mTag=SARRS_FRAGMENT_MANAGER:SarrsFragment
+                mState=5 mIndex=0 mWho=android:fragment:0:0 mBackStackNesting=0
+                mAdded=true mRemoving=false mResumed=true mFromLayout=false mInLayout=false
+                mHidden=false mDetached=false mMenuVisible=true mHasMenu=false
+                mRetainInstance=false mRetaining=false mUserVisibleHint=false
+                mFragmentManager=FragmentManager{7d11a8c in ToutiaoFragment{3f495de}}
+                mHost=android.app.Activity$HostCallbacks@c81a3bf
+                mParentFragment=ToutiaoFragment{3f495de #0 id=0x2 913}
+                mContainer=android.widget.FrameLayout{22c8b10 V.E...... ......ID 0,0-1080,1920 #7f130fa3 app:id/sarrs_main_content}
+                mView=android.widget.RelativeLayout{de4feae V.E...... ......ID 0,0-1080,1920}
+                Child FragmentManager{73031ea in SarrsFragment{e6725d5}}:
+                  Active Fragments in 73031ea:
+                    #0: SarrsHomeFragment{3b6bcdb #0 id=0x7f130fa3 SARRS_FRAGMENT_MANAGER:SarrsHomeFragment}
+                      mFragmentId=#7f130fa3 mContainerId=#7f130fa3 mTag=SARRS_FRAGMENT_MANAGER:SarrsHomeFragment
+                      mState=5 mIndex=0 mWho=android:fragment:0:0:0 mBackStackNesting=0
+                      mAdded=true mRemoving=false mResumed=true mFromLayout=false mInLayout=false
+                      mHidden=false mDetached=false mMenuVisible=true mHasMenu=false
+                      mRetainInstance=false mRetaining=false mUserVisibleHint=false
+                      mFragmentManager=FragmentManager{73031ea in SarrsFragment{e6725d5}}
+                      mHost=android.app.Activity$HostCallbacks@c81a3bf
+                      mParentFragment=SarrsFragment{e6725d5 #0 id=0x7f130fa3 SARRS_FRAGMENT_MANAGER:SarrsFragment}
+                      mContainer=android.widget.FrameLayout{8ada44f V.E...... ......ID 0,0-1080,1920 #7f130fa3 app:id/sarrs_main_content}
+                      mView=com.letv.letoutiao.core.widget.SarrsDispatchRelativeLayout{6d3ce47 V.E...... ......ID 0,0-1080,1920}
+                      Child FragmentManager{ebb5378 in SarrsHomeFragment{3b6bcdb}}:
+                        Active Fragments in ebb5378:
+                          #0: InfoFeedFragment{14a51 #0 id=0x7f130e96 android:switcher:2131955350:824488}
+                            mFragmentId=#7f130e96 mContainerId=#7f130e96 mTag=android:switcher:2131955350:824488
+                            mState=5 mIndex=0 mWho=android:fragment:0:0:0:0 mBackStackNesting=0
+                            mAdded=true mRemoving=false mResumed=true mFromLayout=false mInLayout=false
+                            mHidden=false mDetached=false mMenuVisible=true mHasMenu=false
+                            mRetainInstance=false mRetaining=false mUserVisibleHint=true
+                            mFragmentManager=FragmentManager{ebb5378 in SarrsHomeFragment{3b6bcdb}}
+                            mHost=android.app.Activity$HostCallbacks@c81a3bf
+                            mParentFragment=SarrsHomeFragment{3b6bcdb #0 id=0x7f130fa3 SARRS_FRAGMENT_MANAGER:SarrsHomeFragment}
+                            mArguments=Bundle[{info_category_key=SarrsCategoryItem{id='daily_timeline', name='æ¨è', cname='null', jumpUri='null', icon='', isMixed=false, refreshBehavior='recommend'}}]
+                            mContainer=com.letv.letoutiao.viewpager.SarrsInnverViewPager{2f2a674 VFED..... ......ID 0,352-1080,1920 #7f130e96 app:id/sarrs_content_viewpager}
+                            mView=android.widget.RelativeLayout{1a0a71 V.E...... ......ID 0,0-1080,1568}
+                            Child FragmentManager{d782b6 in InfoFeedFragment{14a51}}:
+                              FragmentManager misc state:
+                                mHost=android.app.Activity$HostCallbacks@c81a3bf
+                                mContainer=android.app.Fragment$1@45a4bb7
+                                mParent=InfoFeedFragment{14a51 #0 id=0x7f130e96 android:switcher:2131955350:824488}
+                                mCurState=5 mStateSaved=false mDestroyed=false
+                          #1: InfoFeedFragment{40e2f24 #1 id=0x7f130e96 android:switcher:2131955350:1132427}
+                            mFragmentId=#7f130e96 mContainerId=#7f130e96 mTag=android:switcher:2131955350:1132427
+                            mState=5 mIndex=1 mWho=android:fragment:0:0:0:1 mBackStackNesting=0
+                            mAdded=true mRemoving=false mResumed=true mFromLayout=false mInLayout=false
+                            mHidden=false mDetached=false mMenuVisible=false mHasMenu=false
+                            mRetainInstance=false mRetaining=false mUserVisibleHint=false
+                            mFragmentManager=FragmentManager{ebb5378 in SarrsHomeFragment{3b6bcdb}}
+                            mHost=android.app.Activity$HostCallbacks@c81a3bf
+                            mParentFragment=SarrsHomeFragment{3b6bcdb #0 id=0x7f130fa3 SARRS_FRAGMENT_MANAGER:SarrsHomeFragment}
+                            mArguments=Bundle[{info_category_key=SarrsCategoryItem{id='kb_video_news', name='è§é¢', cname='null', jumpUri='null', icon='', isMixed=false, refreshBehavior='recommend'}}]
+                            mContainer=com.letv.letoutiao.viewpager.SarrsInnverViewPager{2f2a674 VFED..... ......ID 0,352-1080,1920 #7f130e96 app:id/sarrs_content_viewpager}
+                            mView=android.widget.RelativeLayout{b06faf9 V.E...... ......ID 1080,0-2160,1568}
+                            Child FragmentManager{63f3a8d in InfoFeedFragment{40e2f24}}:
+                              FragmentManager misc state:
+                                mHost=android.app.Activity$HostCallbacks@c81a3bf
+                                mContainer=android.app.Fragment$1@2d11442
+                                mParent=InfoFeedFragment{40e2f24 #1 id=0x7f130e96 android:switcher:2131955350:1132427}
+                                mCurState=5 mStateSaved=false mDestroyed=false
+                        Added Fragments:
+                          #0: InfoFeedFragment{14a51 #0 id=0x7f130e96 android:switcher:2131955350:824488}
+                          #1: InfoFeedFragment{40e2f24 #1 id=0x7f130e96 android:switcher:2131955350:1132427}
+                        FragmentManager misc state:
+                          mHost=android.app.Activity$HostCallbacks@c81a3bf
+                          mContainer=android.app.Fragment$1@43dec53
+                          mParent=SarrsHomeFragment{3b6bcdb #0 id=0x7f130fa3 SARRS_FRAGMENT_MANAGER:SarrsHomeFragment}
+                          mCurState=5 mStateSaved=false mDestroyed=false
+                  Added Fragments:
+                    #0: SarrsHomeFragment{3b6bcdb #0 id=0x7f130fa3 SARRS_FRAGMENT_MANAGER:SarrsHomeFragment}
+                  FragmentManager misc state:
+                    mHost=android.app.Activity$HostCallbacks@c81a3bf
+                    mContainer=android.app.Fragment$1@7911990
+                    mParent=SarrsFragment{e6725d5 #0 id=0x7f130fa3 SARRS_FRAGMENT_MANAGER:SarrsFragment}
+                    mCurState=5 mStateSaved=false mDestroyed=false
+            Added Fragments:
+              #0: SarrsFragment{e6725d5 #0 id=0x7f130fa3 SARRS_FRAGMENT_MANAGER:SarrsFragment}
+            FragmentManager misc state:
+              mHost=android.app.Activity$HostCallbacks@c81a3bf
+              mContainer=android.app.Fragment$1@3f1f289
+              mParent=ToutiaoFragment{3f495de #0 id=0x2 913}
+              mCurState=5 mStateSaved=false mDestroyed=false
+        #1: SarrsFragment{4e0328e #1 id=0x3 912}
+          mFragmentId=#3 mContainerId=#3 mTag=912
+          mState=5 mIndex=1 mWho=android:fragment:1 mBackStackNesting=0
+          mAdded=true mRemoving=false mResumed=true mFromLayout=false mInLayout=false
+          mHidden=false mDetached=false mMenuVisible=true mHasMenu=false
+          mRetainInstance=false mRetaining=false mUserVisibleHint=false
+          mFragmentManager=FragmentManager{2f79119 in HostCallbacks{c81a3bf}}
+          mHost=android.app.Activity$HostCallbacks@c81a3bf
+          mContainer=com.android.launcher3.eui.custom.CustomContentContainer{62772 V.E...C.. ........ 0,0-1080,1920 #3}
+          mView=android.widget.RelativeLayout{1d168b1 V.E...... ........ 0,0-1080,1920}
+          Child FragmentManager{ab0faaf in SarrsFragment{4e0328e}}:
+            Active Fragments in ab0faaf:
+              #0: SarrsHomeFragment{c163ebc #0 id=0x7f0e025d SARRS_FRAGMENT_MANAGER:SarrsHomeFragment0:0.4886474899584945}
+                mFragmentId=#7f0e025d mContainerId=#7f0e025d mTag=SARRS_FRAGMENT_MANAGER:SarrsHomeFragment0:0.4886474899584945
+                mState=5 mIndex=0 mWho=android:fragment:1:0 mBackStackNesting=0
+                mAdded=true mRemoving=false mResumed=true mFromLayout=false mInLayout=false
+                mHidden=false mDetached=false mMenuVisible=true mHasMenu=false
+                mRetainInstance=false mRetaining=false mUserVisibleHint=false
+                mFragmentManager=FragmentManager{ab0faaf in SarrsFragment{4e0328e}}
+                mHost=android.app.Activity$HostCallbacks@c81a3bf
+                mParentFragment=SarrsFragment{4e0328e #1 id=0x3 912}
+                mContainer=android.widget.FrameLayout{df5b196 V.E...... ........ 0,0-1080,1920 #7f0e025d app:id/sarrs_main_content}
+                mView=android.widget.FrameLayout{e2060c4 V.E...... ........ 0,0-1080,1920}
+                Child FragmentManager{dfe2e45 in SarrsHomeFragment{c163ebc}}:
+                  Active Fragments in dfe2e45:
+                    #0: SarrsMovieFragment{5b0e99a #0 id=0x7f0e014b sarrs_feed_fragment}
+                      mFragmentId=#7f0e014b mContainerId=#7f0e014b mTag=sarrs_feed_fragment
+                      mState=5 mIndex=0 mWho=android:fragment:1:0:0 mBackStackNesting=0
+                      mAdded=true mRemoving=false mResumed=true mFromLayout=false mInLayout=false
+                      mHidden=false mDetached=false mMenuVisible=true mHasMenu=false
+                      mRetainInstance=false mRetaining=false mUserVisibleHint=false
+                      mFragmentManager=FragmentManager{dfe2e45 in SarrsHomeFragment{c163ebc}}
+                      mHost=android.app.Activity$HostCallbacks@c81a3bf
+                      mParentFragment=SarrsHomeFragment{c163ebc #0 id=0x7f0e025d SARRS_FRAGMENT_MANAGER:SarrsHomeFragment0:0.4886474899584945}
+                      mArguments=Bundle[{sarrs_feed_extra_category=SarrsCategoryItem{id='0', name='æ¨è', cname='null', jumpUri='letvclient://mSiteAction?actionType=12&back=1&from=leui11', icon='', isMixed=true, refreshBehavior='recommend'}}]
+                      mContainer=android.widget.FrameLayout{cdd1bad V.E...... ........ 0,63-1080,1920 #7f0e014b app:id/sarrs_content_list}
+                      mView=com.letv.sarrsdesktop.movie.seelater.widget.AddSeeLaterAnimatorLayout{c9a9b97 V.E...... ........ 0,0-1080,1857 #7f0e0178 app:id/add_see_later_animator_layout}
+                      Child FragmentManager{a9c92cb in SarrsMovieFragment{5b0e99a}}:
+                        FragmentManager misc state:
+                          mHost=android.app.Activity$HostCallbacks@c81a3bf
+                          mContainer=android.app.Fragment$1@8d869c1
+                          mParent=SarrsMovieFragment{5b0e99a #0 id=0x7f0e014b sarrs_feed_fragment}
+                          mCurState=5 mStateSaved=false mDestroyed=false
+                  Added Fragments:
+                    #0: SarrsMovieFragment{5b0e99a #0 id=0x7f0e014b sarrs_feed_fragment}
+                  FragmentManager misc state:
+                    mHost=android.app.Activity$HostCallbacks@c81a3bf
+                    mContainer=android.app.Fragment$1@a40566
+                    mParent=SarrsHomeFragment{c163ebc #0 id=0x7f0e025d SARRS_FRAGMENT_MANAGER:SarrsHomeFragment0:0.4886474899584945}
+                    mCurState=5 mStateSaved=false mDestroyed=false
+            Added Fragments:
+              #0: SarrsHomeFragment{c163ebc #0 id=0x7f0e025d SARRS_FRAGMENT_MANAGER:SarrsHomeFragment0:0.4886474899584945}
+            FragmentManager misc state:
+              mHost=android.app.Activity$HostCallbacks@c81a3bf
+              mContainer=android.app.Fragment$1@25f90a7
+              mParent=SarrsFragment{4e0328e #1 id=0x3 912}
+              mCurState=5 mStateSaved=false mDestroyed=false
+      Added Fragments:
+        #0: ToutiaoFragment{3f495de #0 id=0x2 913}
+        #1: SarrsFragment{4e0328e #1 id=0x3 912}
+      FragmentManager misc state:
+        mHost=android.app.Activity$HostCallbacks@c81a3bf
+        mContainer=android.app.Activity$HostCallbacks@c81a3bf
+        mCurState=5 mStateSaved=false mDestroyed=false
+    ViewRoot:
+      mAdded=true mRemoved=false
+      mConsumeBatchedInputScheduled=false
+      mConsumeBatchedInputImmediatelyScheduled=false
+      mPendingInputEventCount=0
+      mProcessInputEventsScheduled=false
+      mTraversalScheduled=false
+      android.view.ViewRootImpl$NativePreImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$ImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$NativePostImeInputStage: mQueueLength=0
+    Choreographer:
+      mFrameScheduled=false
+      mLastFrameTime=2921586 (527 ms ago)
+    View Hierarchy:
+      com.android.internal.policy.PhoneWindow$DecorView{7b84cde V.ED..... R....... 0,0-1080,1920}
+        android.widget.LinearLayout{130d8f2 V.E...... ........ 0,0-1080,1920}
+          android.view.ViewStub{1124b43 G.E...... ......I. 0,0-0,0 #102051f android:id/action_mode_bar_stub}
+          android.widget.FrameLayout{8aa5c0 V.E...... ........ 0,0-1080,1920 #1020002 android:id/content}
+            com.android.launcher3.LauncherRootView{4e9ab16 V.E...... ........ 0,0-1080,1920 #7f130ae4 app:id/launcher}
+              com.android.launcher3.DragLayer{2a2bc97 V.E...... ........ 0,0-1080,1920 #7f1304fe app:id/drag_layer}
+                com.android.launcher3.FocusIndicatorView{40c42dc V.ED..... ........ 0,63-137,200 #7f130ae5 app:id/focus_indicator}
+                com.android.launcher3.Workspace{abcf69d V.ED...L. ........ -2190,-1770-3270,3690 #7f1300d9 app:id/workspace}
+                  com.android.launcher3.CellLayout{c581d31 V.ED..C.. ........ 2190,1770-3270,3690}
+                    com.android.launcher3.ClickShadowView{918997 V.ED..... ........ 0,0-1080,1920}
+                    com.android.launcher3.ShortcutAndWidgetContainer{f4f8c16 V.E...... ........ 0,0-1080,1920}
+                      com.android.launcher3.eui.custom.CustomContentContainer{62772 V.E...C.. ........ 0,0-1080,1920 #3}
+                        android.widget.RelativeLayout{1d168b1 V.E...... ........ 0,0-1080,1920}
+                          android.widget.FrameLayout{df5b196 V.E...... ........ 0,0-1080,1920 #7f0e025d app:id/sarrs_main_content}
+                            android.widget.FrameLayout{e2060c4 V.E...... ........ 0,0-1080,1920}
+                              android.widget.FrameLayout{cdd1bad V.E...... ........ 0,63-1080,1920 #7f0e014b app:id/sarrs_content_list}
+                                com.letv.sarrsdesktop.movie.seelater.widget.AddSeeLaterAnimatorLayout{c9a9b97 V.E...... ........ 0,0-1080,1857 #7f0e0178 app:id/add_see_later_animator_layout}
+                                  android.widget.LinearLayout{7067184 G.E...... ......I. 0,0-0,0 #7f0e0179 app:id/sarrs_list_empty_layout}
+                                    android.widget.ImageView{46cbd6d V.ED..... ......I. 0,0-0,0 #7f0e017a app:id/sarrs_empty_list_indicator}
+                                    android.widget.TextView{7635a33 V.ED..... ......ID 0,0-0,0}
+                                  android.widget.LinearLayout{16761ee G.E...... ......ID 284,735-795,1020 #7f0e017b app:id/sarrs_news_first_in_show}
+                                    android.widget.ImageView{4ef668f V.ED..... ......ID 157,0-354,197 #7f0e017c app:id/sarrs_new_first_in_img}
+                                    android.widget.TextView{23d2d25 V.ED..... ......ID 0,234-511,285 #7f0e017d app:id/sarrs_new_first_in_txt}
+                                  android.widget.FrameLayout{76baefa V.E...... ........ 0,257-1080,1857}
+                                    com.letv.sarrsdesktop.widget.ScaleRelativeLayout{785dcab G.E...... ......I. 0,0-0,0 #7f0e017e app:id/sarrs_feed_item_at_low_layer}
+                                      android.widget.ImageView{47d3f08 V.ED..... ......I. 0,0-0,0 #7f0e017f app:id/sarrs_feed_img_at_low_layer}
+                                    com.letv.sarrsdesktop.widget.PullToRefreshRecyclerView{ab876a1 V.E...... ........ 0,0-1080,1600 #7f0e0180 app:id/sarrs_feed_list}
+                                      com.letv.shared.widget.pulltorefresh.interlayout.LeRotateLeViewLoadingLayout{f2b43b4 I.E...... ......ID 0,-960-1080,0}
+                                        android.widget.RelativeLayout{33d2352 V.E...... ......ID 0,700-1080,960 #7f0e012b app:id/le_fl_inner}
+                                          android.widget.LinearLayout{5373623 V.E...... ......ID 387,52-692,208}
+                                            android.widget.ImageView{d12e720 V.ED..... ......ID 102,0-202,100 #7f0e012c app:id/le_ptr_image}
+                                            android.widget.ProgressBar{63858d9 G.ED..... ......I. 0,0-0,0 #7f0e012d app:id/le_ptr_progress}
+                                            android.widget.TextView{abe5850 G.ED..... ......I. 0,0-0,0 #7f0e012e app:id/le_ptr_text}
+                                            android.widget.TextView{fae6f4e V.ED..... ......ID 0,100-305,156 #7f0e012f app:id/le_ptr_sub_text}
+                                      android.widget.FrameLayout{4c39887 V.E...... ........ 0,0-1080,1600}
+                                        android.support.v7.widget.RecyclerView{635c0c6 VFED..... ........ 0,0-1080,1600 #7f0e0031 app:id/sarrs_ptr_recyclerview}
+                                          com.letv.sarrsdesktop.widget.ScaleFrameLayout{deca5b9 V.E...C.. ........ 0,-60-1080,547 #7f0e0161 app:id/sarrs_movie_item}
+                                            com.letv.sarrsdesktop.widget.SarrsFadeInNetworkImageView{e571dfe V.ED..... ........ 0,0-1080,607 #7f0e0162 app:id/poster}
+                                            android.view.View{45e2fac V.ED..... ........ 0,394-1080,604}
+                                            android.view.View{a031c0a V.ED..... ........ 0,602-1080,607 #7f0e0163 app:id/divider}
+                                            android.widget.LinearLayout{f9a2c7b G.E...... ......I. 0,0-0,0 #7f0e0164 app:id/sarrs_recommend_reason_container}
+                                              android.view.View{549a98 V.ED..... ......ID 0,0-0,0 #7f0e0165 app:id/sarrs_recommend_reason_color}
+                                              android.widget.TextView{4b052f1 V.ED..... ......ID 0,0-0,0 #7f0e0166 app:id/sarrs_recommend_reason_txt}
+                                            android.widget.ImageView{951557 V.ED..C.. ........ 981,496-1080,607 #7f0e0167 app:id/more_btn}
+                                            android.widget.LinearLayout{ee62d2d V.E...... ........ 26,429-1001,570}
+                                              android.widget.TextView{7932262 V.ED..... ........ 0,16-206,69 #7f0e0168 app:id/channel_mark}
+                                              android.widget.TextView{7e824b0 G.ED..... ......I. 0,0-0,0 #7f0e0169 app:id/advert_mark}
+                                              android.widget.LinearLayout{f8502ae G.E...... ......I. 0,0-0,0 #7f0e016a app:id/src_mark_container}
+                                                com.letv.sarrsdesktop.widget.CircleImageView{307584f V.ED..... ......I. 0,0-0,0 #7f0e016b app:id/src_mark_img}
+                                                android.widget.TextView{322dbdc V.ED..... ......ID 0,0-0,0 #7f0e016c app:id/src_mark_txt}
+                                              android.widget.TextView{cfcd4e5 V.ED..... ........ 0,85-975,141 #7f0e016d app:id/name}
+                                              android.widget.TextView{ea29bba G.ED..... ......ID 0,144-0,178 #7f0e016e app:id/subname}
+                                            android.widget.LinearLayout{28b2a6b V.E...... ........ 922,0-1080,58}
+                                              android.widget.ImageView{5efd9c8 V.ED..... ........ 0,0-158,58 #7f0e016f app:id/sarrs_poster_badge_img}
+                                              android.widget.TextView{42ada61 G.ED..... ......ID 0,0-0,0 #7f0e0170 app:id/sarrs_poster_badge_txt}
+                                          com.letv.sarrsdesktop.widget.ScaleFrameLayout{bd9bb9d V.E...C.. ........ 0,547-1080,1154 #7f0e0161 app:id/sarrs_movie_item}
+                                            com.letv.sarrsdesktop.widget.SarrsFadeInNetworkImageView{b4ce812 V.ED..... ........ 0,0-1080,607 #7f0e0162 app:id/poster}
+                                            android.view.View{e607be3 V.ED..... ........ 0,394-1080,604}
+                                            android.view.View{96619e0 V.ED..... ........ 0,602-1080,607 #7f0e0163 app:id/divider}
+                                            android.widget.LinearLayout{f9b7499 G.E...... ......I. 0,0-0,0 #7f0e0164 app:id/sarrs_recommend_reason_container}
+                                              android.view.View{a0d735e V.ED..... ......ID 0,0-0,0 #7f0e0165 app:id/sarrs_recommend_reason_color}
+                                              android.widget.TextView{994f33f V.ED..... ......ID 0,0-0,0 #7f0e0166 app:id/sarrs_recommend_reason_txt}
+                                            android.widget.ImageView{842f40c V.ED..C.. ........ 981,496-1080,607 #7f0e0167 app:id/more_btn}
+                                            android.widget.LinearLayout{825c155 V.E...... ........ 26,379-1001,570}
+                                              android.widget.TextView{5b9676a V.ED..... ........ 0,16-119,69 #7f0e0168 app:id/channel_mark}
+                                              android.widget.TextView{36f845b G.ED..... ......I. 0,0-0,0 #7f0e0169 app:id/advert_mark}
+                                              android.widget.LinearLayout{a3144f8 G.E...... ......I. 0,0-0,0 #7f0e016a app:id/src_mark_container}
+                                                com.letv.sarrsdesktop.widget.CircleImageView{9ce1dd1 V.ED..... ......I. 0,0-0,0 #7f0e016b app:id/src_mark_img}
+                                                android.widget.TextView{a7e9036 V.ED..... ......ID 0,0-0,0 #7f0e016c app:id/src_mark_txt}
+                                              android.widget.TextView{7980b37 V.ED..... ........ 0,85-975,141 #7f0e016d app:id/name}
+                                              android.widget.TextView{2b1b8a4 V.ED..... ........ 0,157-203,191 #7f0e016e app:id/subname}
+                                            android.widget.LinearLayout{ec5c60d V.E...... ........ 922,0-1080,58}
+                                              android.widget.ImageView{79b79c2 V.ED..... ........ 0,0-158,58 #7f0e016f app:id/sarrs_poster_badge_img}
+                                              android.widget.TextView{a5823d3 G.ED..... ......ID 0,0-0,0 #7f0e0170 app:id/sarrs_poster_badge_txt}
+                                          com.letv.sarrsdesktop.widget.ScaleFrameLayout{f72a2f V.E...C.. ........ 0,1154-1080,1761 #7f0e0161 app:id/sarrs_movie_item}
+                                            com.letv.sarrsdesktop.widget.SarrsFadeInNetworkImageView{771783c V.ED..... ........ 0,0-1080,607 #7f0e0162 app:id/poster}
+                                            android.view.View{85aa9c5 V.ED..... ........ 0,394-1080,604}
+                                            android.view.View{1b27f1a V.ED..... ........ 0,602-1080,607 #7f0e0163 app:id/divider}
+                                            android.widget.LinearLayout{3d63a4b G.E...... ......I. 0,0-0,0 #7f0e0164 app:id/sarrs_recommend_reason_container}
+                                              android.view.View{8fbdc28 V.ED..... ......ID 0,0-0,0 #7f0e0165 app:id/sarrs_recommend_reason_color}
+                                              android.widget.TextView{f411d41 V.ED..... ......ID 0,0-0,0 #7f0e0166 app:id/sarrs_recommend_reason_txt}
+                                            android.widget.ImageView{6e972e6 V.ED..C.. ........ 981,496-1080,607 #7f0e0167 app:id/more_btn}
+                                            android.widget.LinearLayout{64c3027 V.E...... ........ 26,379-1001,570}
+                                              android.widget.TextView{a4692d4 V.ED..... ........ 0,16-119,69 #7f0e0168 app:id/channel_mark}
+                                              android.widget.TextView{4c14c7d G.ED..... ......I. 0,0-0,0 #7f0e0169 app:id/advert_mark}
+                                              android.widget.LinearLayout{149d772 G.E...... ......I. 0,0-0,0 #7f0e016a app:id/src_mark_container}
+                                                com.letv.sarrsdesktop.widget.CircleImageView{41a7c3 V.ED..... ......I. 0,0-0,0 #7f0e016b app:id/src_mark_img}
+                                                android.widget.TextView{e40840 V.ED..... ......ID 0,0-0,0 #7f0e016c app:id/src_mark_txt}
+                                              android.widget.TextView{d1b3379 V.ED..... ........ 0,85-975,141 #7f0e016d app:id/name}
+                                              android.widget.TextView{6d9f8be V.ED..... ........ 0,157-348,191 #7f0e016e app:id/subname}
+                                            android.widget.LinearLayout{58cfd1f V.E...... ........ 922,0-1080,58}
+                                              android.widget.ImageView{721686c V.ED..... ........ 0,0-158,58 #7f0e016f app:id/sarrs_poster_badge_img}
+                                              android.widget.TextView{6928e35 G.ED..... ......ID 0,0-0,0 #7f0e0170 app:id/sarrs_poster_badge_txt}
+                                    com.letv.sarrsdesktop.widget.SarrsTopToast{9aac14 G.E...... ......I. 0,0-0,0 #7f0e0181 app:id/sarrs_feed_top_toast}
+                                      android.widget.RelativeLayout{b78b2b2 V.E...C.. ......ID 0,0-0,0}
+                                        android.widget.TextView{c807580 V.ED..... ......ID 0,0-0,0 #7f0e0291 app:id/sarrs_top_toast_text}
+                                        android.widget.TextView{77f37b9 V.ED..... ......I. 0,0-0,0 #7f0e0292 app:id/sarrs_top_toast_revert}
+                                        android.view.View{63b47fe V.ED..... ......I. 0,0-0,0 #7f0e0293 app:id/sarrs_top_toast_divider}
+                                  android.widget.ImageView{3a13b5f V.ED..... ........ 0,0-1080,1857}
+                              android.widget.FrameLayout{d61aee2 V.E...... ........ 0,0-1080,1920 #7f0e0182 app:id/mv_navigation_container}
+                                com.letv.sarrsdesktop.movie.home.navigation.tab.TabNavigationView{8c9045c V.E...... ........ 0,63-1080,1920}
+                                  android.view.View{8131365 G.ED..C.. ......I. 0,0-0,0 #7f0e01c1 app:id/sarrs_category_cover}
+                                  android.widget.FrameLayout{526383a V.E...... ........ 0,257-1080,399}
+                                    com.letv.sarrsdesktop.widget.flow.FlowLayout{d43cceb I.ED..... ......ID 0,0-1080,142 #7f0e01cb app:id/mv_flow_layout}
+                                      android.widget.ImageView{55ff5b7 V.ED..C.. ......ID 16,0-106,142}
+                                  android.widget.ImageView{7100a48 V.ED..C.. ........ 32,21-242,95 #7f0e01c5 app:id/sarrs_top_main_title}
+                                  android.widget.FrameLayout{12f9e06 V.E...C.. ........ 969,26-1043,100 #7f0e01c7 app:id/sarrs_top_button_right_container}
+                                    android.widget.ImageView{2104cc7 V.ED..... ........ 13,13-60,60}
+                                    com.letv.sarrsdesktop.widget.CircleImageView{ea94a1d I.ED..... ......I. 0,0-74,74 #7f0e01c8 app:id/sarrs_top_button_right}
+                                  android.widget.ImageView{2179492 V.ED..C.. ........ 823,21-907,105 #7f0e01cc app:id/sarrs_iv_history}
+                                  android.widget.ImageView{74bda60 V.ED..C.. ........ 699,21-783,105 #7f0e01cd app:id/sarrs_iv_search}
+                                  com.letv.sarrsdesktop.widget.tabscontainer.TabsContainer{41667de V.E...... ........ 0,116-1080,258 #7f0e01ce app:id/mv_tabs_container}
+                                    android.support.v7.widget.RecyclerView{4e40dbf VFED..... ........ 0,0-1001,142}
+                                      android.widget.LinearLayout{5ead8b1 V.E...C.. ........ 16,0-148,142}
+                                        android.widget.TextView{cea6196 V.ED..... ........ 24,45-108,97}
+                                      android.widget.LinearLayout{b9e5904 V.E...C.. ........ 148,0-280,142}
+                                        android.widget.TextView{ea34eed V.ED..... ........ 24,45-108,97}
+                                      android.widget.LinearLayout{e4c07b3 V.E...C.. ........ 280,0-454,142}
+                                        android.widget.TextView{82a0170 V.ED..... ........ 24,45-150,97}
+                                      android.widget.LinearLayout{ad40d6e V.E...C.. ........ 454,0-586,142}
+                                        android.widget.TextView{9756c0f V.ED..... ........ 24,45-108,97}
+                                      android.widget.LinearLayout{7846ea5 V.E...C.. ........ 586,0-718,142}
+                                        android.widget.TextView{5b7927a V.ED..... ........ 24,45-108,97}
+                                      android.widget.LinearLayout{f788e88 V.E...C.. ........ 718,0-850,142}
+                                        android.widget.TextView{6f25021 V.ED..... ........ 24,45-108,97}
+                                      android.widget.LinearLayout{854ce07 V.E...C.. ........ 850,0-982,142}
+                                        android.widget.TextView{34c0b34 V.ED..... ........ 24,45-108,97}
+                                      android.widget.LinearLayout{bb1f6d2 V.E...C.. ........ 982,0-1114,142}
+                                        android.widget.TextView{c6643a3 V.ED..... ........ 24,45-108,97}
+                                    android.view.View{2043c8c V.ED..... ........ 0,134-132,142}
+                                    android.widget.ImageView{c9d23ea V.ED..C.. ........ 1001,0-1080,142}
+                                  android.widget.ImageView{5fe9578 V.ED..... ........ 896,123-1006,249 #7f0e01cf app:id/mv_tab_mask}
+                              com.letv.sarrsdesktop.widget.SarrsBackToTopView{aac8273 V.ED..C.. ........ 890,1919-1048,2077 #7f0e014c app:id/sarrs_back_to_top_icon}
+                              android.widget.FrameLayout{ddcc5a9 V.E...... ........ 0,0-1080,1920 #7f0e0183 app:id/sarrs_feed_start_area}
+                              android.widget.FrameLayout{4efd72e V.E...... ........ 0,63-1080,1920 #7f0e0184 app:id/sarrs_floating_container}
+                          android.view.View{dbc8117 I.ED..... ......I. 0,0-1080,63 #7f0e025e app:id/sarrs_status_bar_background}
+                          com.letv.sarrsdesktop.framework.newguide.SarrsNewGuideRootLayout{7622904 G.E...... ......I. 0,0-0,0 #7f0e025f app:id/sarrs_new_guide_layout}
+                  com.android.launcher3.CellLayout{1f31d20 V.ED..C.. ......ID 3270,1770-4350,3690}
+                    com.android.launcher3.ClickShadowView{e58489e V.ED..... ........ 0,0-1080,1920}
+                    com.android.launcher3.ShortcutAndWidgetContainer{e2356d9 V.E...... ......ID 0,0-1080,1920}
+                      com.android.launcher3.eui.custom.CustomContentContainer{44d88a4 V.E...C.. ......ID 0,0-1080,1920 #2}
+                        android.widget.RelativeLayout{a4233d3 V.E...... ......ID 0,0-1080,1920}
+                          android.widget.FrameLayout{22c8b10 V.E...... ......ID 0,0-1080,1920 #7f130fa3 app:id/sarrs_main_content}
+                            android.widget.RelativeLayout{de4feae V.E...... ......ID 0,0-1080,1920}
+                              android.widget.FrameLayout{8ada44f V.E...... ......ID 0,0-1080,1920 #7f130fa3 app:id/sarrs_main_content}
+                                com.letv.letoutiao.core.widget.SarrsDispatchRelativeLayout{6d3ce47 V.E...... ......ID 0,0-1080,1920}
+                                  com.letv.letoutiao.viewpager.SarrsInnverViewPager{2f2a674 VFED..... ......ID 0,352-1080,1920 #7f130e96 app:id/sarrs_content_viewpager}
+                                    android.widget.RelativeLayout{1a0a71 V.E...... ......ID 0,0-1080,1568}
+                                      com.letv.letoutiao.core.widget.PullToRefreshRecyclerView{eab1056 V.E...... ........ 0,0-1080,1568 #7f130daa app:id/sarrs_waterfall_list}
+                                        com.letv.ttshared.widget.pulltorefresh.interlayout.LeRotateLeViewLoadingLayout{ff3dcad I.E...... ......ID 0,-940-1080,0}
+                                          android.widget.LinearLayout{11bab73 V.E...... ......ID 0,756-1080,940 #7f130be5 app:id/le_fl_inner}
+                                            android.widget.LinearLayout{4f73a30 V.E...... ......ID 387,0-692,184}
+                                              android.widget.ImageView{21e96a9 V.ED..... ......ID 102,16-202,116 #7f130be6 app:id/le_ptr_image}
+                                              android.widget.ProgressBar{8a3d42e G.ED..... ......I. 0,0-0,0 #7f130be7 app:id/le_ptr_progress}
+                                              android.widget.TextView{2ed7c19 G.ED..... ......I. 0,0-0,0 #7f130be8 app:id/le_ptr_text}
+                                              android.widget.TextView{f43a4de I.ED..... ......I. 0,116-305,167 #7f130be9 app:id/le_ptr_sub_text}
+                                            android.widget.LinearLayout{dbd06bf V.E...... ......ID 0,184-1080,184 #7f130bef app:id/le_pull_to_refresh_load_customview}
+                                        android.widget.FrameLayout{24585c4 V.E...... ........ 0,0-1080,1568}
+                                          android.support.v7.widget.RecyclerView{65458d7 VFED..... ........ 0,0-1080,1568 #7f13007d app:id/sarrs_ptr_recyclerview}
+                                            android.widget.FrameLayout{8a66186 V.E...C.. ........ 0,-55-1080,274}
+                                              android.widget.LinearLayout{4328a47 V.E...... ........ 32,0-1064,252}
+                                                android.widget.RelativeLayout{990b274 V.E...... ........ 0,0-674,188}
+                                                  android.widget.TextView{2b3839d V.ED..... ........ 0,0-653,128 #7f13013b app:id/title}
+                                                  android.widget.TextView{f71012 V.ED..... ........ 0,149-145,188 #7f130ad2 app:id/from}
+                                                  android.widget.TextView{383e3 V.ED..... ........ 171,149-274,188 #7f130ad3 app:id/date}
+                                                android.widget.RelativeLayout{84081e0 V.E...... ........ 695,0-1032,252}
+                                                  com.letv.letoutiao.core.widget.ScaleSarrsFadeInNetworkImageView{e49bc99 V.ED..... ........ 0,0-337,252 #7f130ad4 app:id/poster}
+                                                  android.widget.ImageView{4321b5e G.ED..... ......I. 0,0-0,0 #7f130eb6 app:id/info_right_img_render_play}
+                                              android.view.View{6607b3f V.ED..... ........ 16,283-1064,284}
+                                            android.widget.LinearLayout{6fd65d1 V.E...C.. ........ 0,274-1080,822}
+                                              android.widget.LinearLayout{f903836 V.E...... ........ 16,0-1064,256}
+                                                android.widget.RelativeLayout{14c9337 V.E...... ........ 0,0-342,256}
+                                                  com.letv.letoutiao.core.widget.ScaleSarrsFadeInNetworkImageView{5ffa0a4 V.ED..... ........ 0,0-342,256 #7f130ad6 app:id/info_article_image1}
+                                                  android.widget.ImageView{3a18e0d G.ED..... ......I. 0,0-0,0 #7f130eb0 app:id/info_multi_img_render_play1}
+                                                android.view.View{1fa1c2 V.ED..... ........ 342,0-353,3}
+                                                android.widget.RelativeLayout{ecd2bd3 V.E...... ........ 353,0-695,256}
+                                                  com.letv.letoutiao.core.widget.ScaleSarrsFadeInNetworkImageView{8e82310 V.ED..... ........ 0,0-342,256 #7f130ad7 app:id/info_article_image2}
+                                                  android.widget.ImageView{3e5fe09 G.ED..... ......I. 0,0-0,0 #7f130eb1 app:id/info_multi_img_render_play2}
+                                                android.view.View{4a180e V.ED..... ........ 695,0-706,3}
+                                                android.widget.RelativeLayout{bb4b22f V.E...... ........ 706,0-1048,256}
+                                                  com.letv.letoutiao.core.widget.ScaleSarrsFadeInNetworkImageView{994603c V.ED..... ........ 0,0-342,256 #7f130ad8 app:id/info_article_image3}
+                                                  android.widget.ImageView{3e771c5 G.ED..... ......I. 0,0-0,0 #7f130eb2 app:id/info_multi_img_render_play3}
+                                              android.widget.TextView{193a71a V.ED..... ........ 32,282-1064,410 #7f13013b app:id/title}
+                                              android.widget.LinearLayout{e4424b V.E...... ........ 32,431-1064,470}
+                                                android.widget.TextView{e654428 V.ED..... ........ 0,0-116,39 #7f130ad2 app:id/from}
+                                                android.widget.TextView{ad26541 V.ED..... ........ 142,0-245,39 #7f130ad3 app:id/date}
+                                              android.view.View{7b51ae6 V.ED..... ........ 16,502-1064,503}
+                                            android.widget.FrameLayout{8afc3 V.E...C.. ........ 0,822-1080,1151}
+                                              android.widget.LinearLayout{d127040 V.E...... ........ 32,0-1064,252}
+                                                android.widget.RelativeLayout{8d7b79 V.E...... ........ 0,0-674,188}
+                                                  android.widget.TextView{72a0be V.ED..... ........ 0,0-653,128 #7f13013b app:id/title}
+                                                  android.widget.TextView{ebc851f V.ED..... ........ 0,149-116,188 #7f130ad2 app:id/from}
+                                                  android.widget.TextView{bce506c V.ED..... ........ 142,149-261,188 #7f130ad3 app:id/date}
+                                                android.widget.RelativeLayout{2e15635 V.E...... ........ 695,0-1032,252}
+                                                  com.letv.letoutiao.core.widget.ScaleSarrsFadeInNetworkImageView{4340aca V.ED..... ........ 0,0-337,252 #7f130ad4 app:id/poster}
+                                                  android.widget.ImageView{7ae543b G.ED..... ......I. 0,0-0,0 #7f130eb6 app:id/info_right_img_render_play}
+                                              android.view.View{3860758 V.ED..... ........ 16,283-1064,284}
+                                            android.widget.LinearLayout{d0316ed V.E...C.. ........ 0,1151-1080,1628}
+                                              android.widget.LinearLayout{39b2922 V.E...... ........ 16,0-1064,256}
+                                                android.widget.RelativeLayout{1e50fb3 V.E...... ........ 0,0-342,256}
+                                                  com.letv.letoutiao.core.widget.ScaleSarrsFadeInNetworkImageView{c26970 V.ED..... ........ 0,0-342,256 #7f130ad6 app:id/info_article_image1}
+                                                  android.widget.ImageView{b8734e9 G.ED..... ......I. 0,0-0,0 #7f130eb0 app:id/info_multi_img_render_play1}
+                                                android.view.View{fe6b56e V.ED..... ........ 342,0-353,3}
+                                                android.widget.RelativeLayout{196f40f V.E...... ........ 353,0-695,256}
+                                                  com.letv.letoutiao.core.widget.ScaleSarrsFadeInNetworkImageView{e3cac9c V.ED..... ........ 0,0-342,256 #7f130ad7 app:id/info_article_image2}
+                                                  android.widget.ImageView{91536a5 G.ED..... ......I. 0,0-0,0 #7f130eb1 app:id/info_multi_img_render_play2}
+                                                android.view.View{d4cba7a V.ED..... ........ 695,0-706,3}
+                                                android.widget.RelativeLayout{ed8c22b V.E...... ........ 706,0-1048,256}
+                                                  com.letv.letoutiao.core.widget.ScaleSarrsFadeInNetworkImageView{5b5f688 V.ED..... ........ 0,0-342,256 #7f130ad8 app:id/info_article_image3}
+                                                  android.widget.ImageView{4c79821 G.ED..... ......I. 0,0-0,0 #7f130eb2 app:id/info_multi_img_render_play3}
+                                              android.widget.TextView{3dc0446 V.ED..... ........ 32,282-1064,339 #7f13013b app:id/title}
+                                              android.widget.LinearLayout{21f5607 V.E...... ........ 32,360-1064,399}
+                                                android.widget.TextView{3f7f334 V.ED..... ........ 0,0-116,39 #7f130ad2 app:id/from}
+                                                android.widget.TextView{ae4955d V.ED..... ........ 142,0-261,39 #7f130ad3 app:id/date}
+                                              android.view.View{bc41ed2 V.ED..... ........ 16,431-1064,432}
+                                      com.letv.letoutiao.core.widget.SarrsTopToast{161358d G.E...... ......ID 0,0-1080,89 #7f130dab app:id/sarrs_news_top_toast}
+                                        android.widget.RelativeLayout{c2bdf53 V.E...C.. ......ID 0,0-1080,89}
+                                          android.widget.TextView{eb89d89 V.ED..C.. ........ 0,0-1080,89 #7f130fe8 app:id/sarrs_top_toast_text}
+                                          android.widget.TextView{591018e V.ED..C.. ........ 974,0-1080,89 #7f130fe9 app:id/sarrs_top_toast_revert}
+                                          android.view.View{f0b1daf V.ED..... ......ID 974,23-975,65 #7f130fea app:id/sarrs_top_toast_divider}
+                                      android.widget.LinearLayout{f2125bc G.E...... ......I. 0,0-0,0 #7f130da6 app:id/sarrs_list_empty_layout}
+                                        android.widget.ImageView{6048945 V.ED..... ......I. 0,0-0,0}
+                                        android.widget.TextView{df5e5cb V.ED..... ......ID 0,0-0,0}
+                                      android.widget.LinearLayout{3b8e1a8 G.E...... ......ID 0,604-1080,889 #7f130da7 app:id/sarrs_news_first_in_show}
+                                        android.widget.ImageView{a6974c1 V.ED..... ......ID 441,0-638,197 #7f130da8 app:id/sarrs_new_first_in_img}
+                                        android.widget.TextView{d7b13a7 V.ED..... ......ID 0,234-1080,285 #7f130da9 app:id/sarrs_new_first_in_txt}
+                                      android.widget.TextView{78e7054 G.ED..C.. ......I. 0,0-0,0 #7f130e8a app:id/sarrs_new_refresh}
+                                    android.widget.RelativeLayout{b06faf9 V.E...... ......ID 1080,0-2160,1568}
+                                      com.letv.letoutiao.core.widget.PullToRefreshRecyclerView{806ea3e V.E...... ......ID 0,0-1080,1568 #7f130daa app:id/sarrs_waterfall_list}
+                                        com.letv.ttshared.widget.pulltorefresh.interlayout.LeRotateLeViewLoadingLayout{8334db5 I.E...... ......ID 0,-940-1080,0}
+                                          android.widget.LinearLayout{42fd7bb V.E...... ......ID 0,756-1080,940 #7f130be5 app:id/le_fl_inner}
+                                            android.widget.LinearLayout{1bc04d8 V.E...... ......ID 387,0-692,184}
+                                              android.widget.ImageView{d981031 V.ED..... ......ID 102,16-202,116 #7f130be6 app:id/le_ptr_image}
+                                              android.widget.ProgressBar{5940316 G.ED..... ......I. 0,0-0,0 #7f130be7 app:id/le_ptr_progress}
+                                              android.widget.TextView{7589684 G.ED..... ......I. 0,0-0,0 #7f130be8 app:id/le_ptr_text}
+                                              android.widget.TextView{cac7e6d I.ED..... ......I. 0,116-305,167 #7f130be9 app:id/le_ptr_sub_text}
+                                            android.widget.LinearLayout{9453aa2 V.E...... ......ID 0,184-1080,184 #7f130bef app:id/le_pull_to_refresh_load_customview}
+                                        android.widget.FrameLayout{ed775ec V.E...... .......D 0,0-1080,1568}
+                                          android.support.v7.widget.RecyclerView{44d09f VFED..... .......D 0,0-1080,1568 #7f13007d app:id/sarrs_ptr_recyclerview}
+                                            android.widget.FrameLayout{5c82ba2 V.E...C.. .......D 0,0-1080,329}
+                                              android.widget.LinearLayout{4d22033 V.E...... .......D 32,0-1064,252}
+                                                android.widget.RelativeLayout{db96ff0 V.E...... .......D 0,0-674,117}
+                                                  android.widget.TextView{baff969 V.ED..... ......ID 0,0-653,57 #7f13013b app:id/title}
+                                                  android.widget.TextView{1848c8f V.ED..... ......ID 0,78-116,117 #7f130ad2 app:id/from}
+                                                  android.widget.TextView{ddd9b1c V.ED..... ......ID 142,78-245,117 #7f130ad3 app:id/date}
+                                                android.widget.RelativeLayout{45c325 V.E...... .......D 695,0-1032,252}
+                                                  com.letv.letoutiao.core.widget.ScaleSarrsFadeInNetworkImageView{2c78cfa V.ED..... ......ID 0,0-337,252 #7f130ad4 app:id/poster}
+                                                  android.widget.ImageView{cb74d08 V.ED..... .......D 126,84-210,168 #7f130eb6 app:id/info_right_img_render_play}
+                                              android.view.View{e717ec6 V.ED..... ......ID 16,283-1064,284}
+                                            android.widget.FrameLayout{6e37c23 V.E...C.. .......D 0,329-1080,658}
+                                              android.widget.LinearLayout{4c0b520 V.E...... .......D 32,0-1064,252}
+                                                android.widget.RelativeLayout{3fd0ed9 V.E...... .......D 0,0-674,188}
+                                                  android.widget.TextView{21ba09e V.ED..... ......ID 0,0-653,128 #7f13013b app:id/title}
+                                                  android.widget.TextView{8e7b77f V.ED..... ......ID 0,149-145,188 #7f130ad2 app:id/from}
+                                                  android.widget.TextView{fcc034c V.ED..... ......ID 171,149-274,188 #7f130ad3 app:id/date}
+                                                android.widget.RelativeLayout{ba6bf95 V.E...... .......D 695,0-1032,252}
+                                                  com.letv.letoutiao.core.widget.ScaleSarrsFadeInNetworkImageView{69d28aa V.ED..... ......ID 0,0-337,252 #7f130ad4 app:id/poster}
+                                                  android.widget.ImageView{ca4c9b V.ED..... .......D 126,84-210,168 #7f130eb6 app:id/info_right_img_render_play}
+                                              android.view.View{45c0838 V.ED..... ......ID 16,283-1064,284}
+                                            android.widget.FrameLayout{d204c4d V.E...C.. .......D 0,658-1080,987}
+                                              android.widget.LinearLayout{e8e2302 V.E...... .......D 32,0-1064,252}
+                                                android.widget.RelativeLayout{6bbb413 V.E...... .......D 0,0-674,117}
+                                                  android.widget.TextView{87ba650 V.ED..... ......ID 0,0-653,57 #7f13013b app:id/title}
+                                                  android.widget.TextView{b326049 V.ED..... ......ID 0,78-145,117 #7f130ad2 app:id/from}
+                                                  android.widget.TextView{f3f6d4e V.ED..... ......ID 171,78-290,117 #7f130ad3 app:id/date}
+                                                android.widget.RelativeLayout{9a37e6f V.E...... .......D 695,0-1032,252}
+                                                  com.letv.letoutiao.core.widget.ScaleSarrsFadeInNetworkImageView{3fcd77c V.ED..... ......ID 0,0-337,252 #7f130ad4 app:id/poster}
+                                                  android.widget.ImageView{237b805 V.ED..... .......D 126,84-210,168 #7f130eb6 app:id/info_right_img_render_play}
+                                              android.view.View{4a9105a V.ED..... ......ID 16,283-1064,284}
+                                            android.widget.FrameLayout{d26cc67 V.E...C.. .......D 0,987-1080,1316}
+                                              android.widget.LinearLayout{a769a14 V.E...... .......D 32,0-1064,252}
+                                                android.widget.RelativeLayout{6e9e2bd V.E...... .......D 0,0-674,188}
+                                                  android.widget.TextView{fd950b2 V.ED..... ......ID 0,0-653,128 #7f13013b app:id/title}
+                                                  android.widget.TextView{1c9c803 V.ED..... ......ID 0,149-145,188 #7f130ad2 app:id/from}
+                                                  android.widget.TextView{32d4380 V.ED..... ......ID 171,149-290,188 #7f130ad3 app:id/date}
+                                                android.widget.RelativeLayout{9d6edb9 V.E...... .......D 695,0-1032,252}
+                                                  com.letv.letoutiao.core.widget.ScaleSarrsFadeInNetworkImageView{307c5fe V.ED..... ......ID 0,0-337,252 #7f130ad4 app:id/poster}
+                                                  android.widget.ImageView{916e15f V.ED..... .......D 126,84-210,168 #7f130eb6 app:id/info_right_img_render_play}
+                                              android.view.View{5e317ac V.ED..... ......ID 16,283-1064,284}
+                                            android.widget.FrameLayout{a9b9af1 V.E...C.. .......D 0,1316-1080,1645}
+                                              android.widget.LinearLayout{4dc96d6 V.E...... .......D 32,0-1064,252}
+                                                android.widget.RelativeLayout{7659d57 V.E...... .......D 0,0-674,188}
+                                                  android.widget.TextView{47eb044 V.ED..... ......ID 0,0-653,128 #7f13013b app:id/title}
+                                                  android.widget.TextView{c3df52d V.ED..... ......ID 0,149-116,188 #7f130ad2 app:id/from}
+                                                  android.widget.TextView{4e34a62 V.ED..... ......ID 142,149-261,188 #7f130ad3 app:id/date}
+                                                android.widget.RelativeLayout{f3cb7f3 V.E...... .......D 695,0-1032,252}
+                                                  com.letv.letoutiao.core.widget.ScaleSarrsFadeInNetworkImageView{5d88cb0 V.ED..... ......ID 0,0-337,252 #7f130ad4 app:id/poster}
+                                                  android.widget.ImageView{831b729 V.ED..... .......D 126,84-210,168 #7f130eb6 app:id/info_right_img_render_play}
+                                              android.view.View{5afaaae V.ED..... ......ID 16,283-1064,284}
+                                      com.letv.letoutiao.core.widget.SarrsTopToast{68225ab G.E...... ......ID 0,0-1080,89 #7f130dab app:id/sarrs_news_top_toast}
+                                        android.widget.RelativeLayout{61c67a1 V.E...C.. ......ID 0,0-1080,89}
+                                          android.widget.TextView{9315dc6 V.ED..C.. ......ID 0,0-1080,89 #7f130fe8 app:id/sarrs_top_toast_text}
+                                          android.widget.TextView{1bb7187 V.ED..C.. ......ID 974,0-1080,89 #7f130fe9 app:id/sarrs_top_toast_revert}
+                                          android.view.View{ed0a8b4 V.ED..... ......ID 974,23-975,65 #7f130fea app:id/sarrs_top_toast_divider}
+                                      android.widget.LinearLayout{176dcdd G.E...... ......I. 0,0-0,0 #7f130da6 app:id/sarrs_list_empty_layout}
+                                        android.widget.ImageView{6d59052 V.ED..... ......I. 0,0-0,0}
+                                        android.widget.TextView{c539f23 V.ED..... ......ID 0,0-0,0}
+                                      android.widget.LinearLayout{2299c20 G.E...... ......ID 0,604-1080,889 #7f130da7 app:id/sarrs_news_first_in_show}
+                                        android.widget.ImageView{a0969d9 V.ED..... ......ID 441,0-638,197 #7f130da8 app:id/sarrs_new_first_in_img}
+                                        android.widget.TextView{b185f9e V.ED..... ......ID 0,234-1080,285 #7f130da9 app:id/sarrs_new_first_in_txt}
+                                      android.widget.TextView{8b70a7f G.ED..C.. ......I. 0,0-0,0 #7f130e8a app:id/sarrs_new_refresh}
+                                  com.letv.letoutiao.core.widget.SarrsVersionAnimationSwitcher{1c0679d G.E...C.. ......I. 0,0-0,0 #7f130e97 app:id/toutiao_switcher}
+                                    android.widget.RelativeLayout{57507e3 V.E...... ......I. 0,0-0,0}
+                                      android.widget.ImageView{7cdb5e0 V.ED..... ......I. 0,0-0,0 #7f130feb app:id/sarrs_switcher_background}
+                                      android.widget.TextView{e646f5e V.ED..... ......ID 0,0-0,0 #7f130fec app:id/sarrs_version_switcher_big_front}
+                                      android.widget.ImageView{6b5ed55 V.ED..... ......I. 0,0-0,0 #7f130fed app:id/sarrs_version_switch_devider}
+                                      android.widget.TextView{f09905b V.ED..... ......ID 0,0-0,0 #7f130fee app:id/sarrs_version_switcher_small_front}
+                                  com.letv.letoutiao.core.widget.SarrsBackToTopView{27060f8 V.ED..C.. ........ 890,1919-1048,2077 #7f130e98 app:id/sarrs_back_to_top_icon}
+                                  android.widget.FrameLayout{b390c36 V.E...... ........ 0,63-1080,1920 #7f130e99 app:id/sarrs_floating_container}
+                                  com.letv.letoutiao.fragment.ToutiaoNavigationView{c6d737 V.E...... ........ 0,63-1080,1920 #7f130d94 app:id/navigation_container}
+                                    android.view.View{5c694a4 G.ED..C.. ......I. 0,0-0,0 #7f130e9a app:id/category_cover}
+                                    android.widget.FrameLayout{1af720d V.E...... .......D 0,257-1080,257}
+                                      com.letv.letoutiao.core.widget.flow.FlowLayout{f81b5c2 I.ED..... ......ID 0,0-1080,0 #7f1306d8 app:id/flow_layout}
+                                        android.widget.ImageView{a5ef4be G.ED..C.. ......I. 0,0-0,0}
+                                    android.widget.RelativeLayout{2a5710 V.E...... ........ 0,0-1080,118 #7f130e9b app:id/layout_header}
+                                      android.widget.ImageView{eee2209 V.ED..... ........ 29,19-294,98 #7f130e9f app:id/top_main_title}
+                                      android.widget.ImageView{fb3762f V.ED..... ........ 393,6-687,111 #7f130ea0 app:id/iv_ad}
+                                      android.widget.FrameLayout{4c5d43c V.E...... ........ 933,1-1080,117 #7f130ea1 app:id/top_button_right_container}
+                                        com.letv.letoutiao.core.widget.CircleImageView{14dd5c5 V.ED..C.. ........ 42,26-105,90 #7f130ea2 app:id/top_button_right}
+                                      android.widget.ImageView{b464b G.ED..C.. ......I. 0,0-0,0 #7f130ea3 app:id/sarrs_iv_search}
+                                    com.letv.letoutiao.core.widget.tabscontainer.TabsContainer{23b0941 V.E...... ........ 0,116-1080,258 #7f130e9c app:id/tabs_container}
+                                      android.support.v7.widget.RecyclerView{93aeee6 VFED..... ........ 0,0-1001,142}
+                                        android.widget.LinearLayout{5523c21 V.E...C.. ........ 16,0-148,142}
+                                          android.widget.TextView{4dbd846 V.ED..... ........ 24,45-108,97}
+                                        android.widget.LinearLayout{a6de734 V.E...C.. ........ 148,0-280,142}
+                                          android.widget.TextView{375795d V.ED..... ........ 24,45-108,97}
+                                        android.widget.LinearLayout{e6cfa3 V.E...C.. ........ 280,0-412,142}
+                                          android.widget.TextView{9c42a0 V.ED..... ........ 24,45-108,97}
+                                        android.widget.LinearLayout{e8cc2ff V.E...C.. ........ 412,0-544,142}
+                                          android.widget.TextView{592e8cc V.ED..... ........ 24,45-108,97}
+                                        android.widget.LinearLayout{6404a2a V.E...C.. ........ 544,0-676,142}
+                                          android.widget.TextView{674901b V.ED..... ........ 24,45-108,97}
+                                        android.widget.LinearLayout{f716f91 V.E...C.. ........ 676,0-808,142}
+                                          android.widget.TextView{e70def6 V.ED..... ........ 24,45-108,97}
+                                        android.widget.LinearLayout{9f38564 V.E...C.. ........ 808,0-940,142}
+                                          android.widget.TextView{eac73cd V.ED..... ........ 24,45-108,97}
+                                        android.widget.LinearLayout{7fae793 V.E...C.. ........ 940,0-1072,142}
+                                          android.widget.TextView{71593d0 V.ED..... ........ 24,45-108,97}
+                                      android.view.View{ec5fc27 V.ED..... ........ 0,134-132,142}
+                                      android.widget.ImageView{b6df87d V.ED..C.. ........ 1001,0-1080,142}
+                                    android.widget.ImageView{48c33c3 V.ED..... ........ 896,123-1006,249 #7f130e9d app:id/tab_mask}
+                                  android.widget.ImageView{44c46c G.ED..C.. ......I. 0,0-0,0 #7f130e9e app:id/version_type_change_img}
+                              android.view.View{e1937dc I.ED..... ......I. 0,0-1080,63 #7f130fa4 app:id/sarrs_status_bar_background}
+                              com.letv.letoutiao.core.framework.newguide.SarrsNewGuideRootLayout{fea00e5 G.E...... ......I. 0,0-0,0 #7f130fa5 app:id/sarrs_new_guide_layout}
+                          android.widget.ProgressBar{db64609 G.ED..... ......I. 0,0-0,0 #7f1310a2 app:id/loading_fragment}
+                          android.widget.RelativeLayout{6b7483c GFE...C.. ......I. 0,0-0,0 #7f1310a3 app:id/edge_slip}
+                            android.widget.ImageView{e7439c5 V.ED..... ......I. 0,0-0,0 #7f1310a4 app:id/edge_slip_icon}
+                            android.widget.TextView{4f24a4b V.ED..... ......ID 0,0-0,0}
+                            android.widget.ImageView{b80c2e6 V.ED..C.. ......I. 0,0-0,0 #7f1310a5 app:id/edge_slip_btn}
+                  com.android.launcher3.CellLayout{2639f77 V.ED..CL. ......ID 4371,1833-5409,3393}
+                    com.android.launcher3.ClickShadowView{3f4144d V.ED..... ........ 1,0-1039,1560}
+                    com.android.launcher3.ShortcutAndWidgetContainer{c0b57e4 V.E...... ......ID 1,0-1039,1560}
+                      com.android.launcher3.eui.CellViewContainer{8da2f56 V.E...... .......D 0,624-259,936 #9}
+                        com.android.launcher3.BubbleTextView{1d68bd7 VFED..CL. ......ID 0,0-259,312 #7f1302e6 app:id/bubble_text_view}
+                        com.android.launcher3.eui.badge.BadgeImageView{63f3cc4 G.ED..... ......I. 0,0-0,0 #7f130016 app:id/badge_icon}
+                        com.android.launcher3.eui.superscript.SuperscriptImageView{108c7ad G.ED..... ......I. 0,0-0,0 #7f130089 app:id/superscript_icon}
+                      com.android.launcher3.eui.CellViewContainer{a61eae2 V.E...... .......D 259,624-518,936 #a}
+                        com.android.launcher3.BubbleTextView{e0e0e73 VFED..CL. ......ID 0,0-259,312 #7f1302e6 app:id/bubble_text_view}
+                        com.android.launcher3.eui.badge.BadgeImageView{4556130 G.ED..... ......I. 0,0-0,0 #7f130016 app:id/badge_icon}
+                        com.android.launcher3.eui.superscript.SuperscriptImageView{71731a9 G.ED..... ......I. 0,0-0,0 #7f130089 app:id/superscript_icon}
+                      com.android.launcher3.eui.CellViewContainer{7b7d32e V.E...... .......D 518,624-777,936 #b}
+                        com.android.launcher3.BubbleTextView{f311ecf VFED..CL. ......ID 0,0-259,312 #7f1302e6 app:id/bubble_text_view}
+                        com.android.launcher3.eui.badge.BadgeImageView{267605c G.ED..... ......I. 0,0-0,0 #7f130016 app:id/badge_icon}
+                        com.android.launcher3.eui.superscript.SuperscriptImageView{8883f65 G.ED..... ......I. 0,0-0,0 #7f130089 app:id/superscript_icon}
+                      com.android.launcher3.eui.CellViewContainer{271f43a V.E...... .......D 777,624-1036,936 #c}
+                        com.android.launcher3.BubbleTextView{1cad8eb VFED..CL. ......ID 0,0-259,312 #7f1302e6 app:id/bubble_text_view}
+                        com.android.launcher3.eui.badge.BadgeImageView{2382648 G.ED..... ......I. 0,0-0,0 #7f130016 app:id/badge_icon}
+                        com.android.launcher3.eui.superscript.SuperscriptImageView{1426ce1 G.ED..... ......I. 0,0-0,0 #7f130089 app:id/superscript_icon}
+                      com.android.launcher3.eui.CellViewContainer{d7b1a06 V.E...... .......D 0,936-259,1248 #d}
+                        com.android.launcher3.BubbleTextView{5fc18c7 VFED..CL. ......ID 0,0-259,312 #7f1302e6 app:id/bubble_text_view}
+                        com.android.launcher3.eui.badge.BadgeImageView{ccd5ef4 G.ED..... ......I. 0,0-0,0 #7f130016 app:id/badge_icon}
+                        com.android.launcher3.eui.superscript.SuperscriptImageView{b17f61d G.ED..... ......I. 0,0-0,0 #7f130089 app:id/superscript_icon}
+                      com.android.launcher3.eui.CellViewContainer{d9ed092 V.E...... .......D 259,936-518,1248 #e}
+                        com.android.launcher3.BubbleTextView{3177a63 VFED..CL. ......ID 0,0-259,312 #7f1302e6 app:id/bubble_text_view}
+                        com.android.launcher3.eui.badge.BadgeImageView{3db7660 G.ED..... ......I. 0,0-0,0 #7f130016 app:id/badge_icon}
+                        com.android.launcher3.eui.superscript.SuperscriptImageView{c2d719 V.ED..... ........ 175,38-217,80 #7f130089 app:id/superscript_icon}
+                      com.android.launcher3.eui.CellViewContainer{6d563de V.E...... .......D 518,936-777,1248 #f}
+                        com.android.launcher3.BubbleTextView{8fd59bf VFED..CL. ......ID 0,0-259,312 #7f1302e6 app:id/bubble_text_view}
+                        com.android.launcher3.eui.badge.BadgeImageView{df1988c G.ED..... ......I. 0,0-0,0 #7f130016 app:id/badge_icon}
+                        com.android.launcher3.eui.superscript.SuperscriptImageView{4a0cbd5 G.ED..... ......I. 0,0-0,0 #7f130089 app:id/superscript_icon}
+                      com.android.launcher3.eui.CellViewContainer{24fdfea V.E...... .......D 777,936-1036,1248 #10}
+                        com.android.launcher3.BubbleTextView{b37d2db VFED..CL. ......ID 0,0-259,312 #7f1302e6 app:id/bubble_text_view}
+                        com.android.launcher3.eui.badge.BadgeImageView{965b178 G.ED..... ......I. 0,0-0,0 #7f130016 app:id/badge_icon}
+                        com.android.launcher3.eui.superscript.SuperscriptImageView{72f5051 G.ED..... ......I. 0,0-0,0 #7f130089 app:id/superscript_icon}
+                      com.android.launcher3.eui.CellViewContainer{94410b6 V.E...... .......D 0,1248-259,1560 #11}
+                        com.android.launcher3.BubbleTextView{1d6c1b7 VFED..CL. ......ID 0,0-259,312 #7f1302e6 app:id/bubble_text_view}
+                        com.android.launcher3.eui.badge.BadgeImageView{2006d24 G.ED..... ......I. 0,0-0,0 #7f130016 app:id/badge_icon}
+                        com.android.launcher3.eui.superscript.SuperscriptImageView{947a08d G.ED..... ......I. 0,0-0,0 #7f130089 app:id/superscript_icon}
+                      com.android.launcher3.eui.CellViewContainer{788242 V.E...... .......D 259,1248-518,1560 #12}
+                        com.android.launcher3.BubbleTextView{c0bc253 VFED..CL. ......ID 0,0-259,312 #7f1302e6 app:id/bubble_text_view}
+                        com.android.launcher3.eui.badge.BadgeImageView{5693790 G.ED..... ......I. 0,0-0,0 #7f130016 app:id/badge_icon}
+                        com.android.launcher3.eui.superscript.SuperscriptImageView{61ab889 V.ED..... ........ 175,38-217,80 #7f130089 app:id/superscript_icon}
+                      com.android.launcher3.eui.CellViewContainer{90808e V.E...... .......D 518,1248-777,1560 #13}
+                        com.android.launcher3.BubbleTextView{8630af VFED..CL. ......ID 0,0-259,312 #7f1302e6 app:id/bubble_text_view}
+                        com.android.launcher3.eui.badge.BadgeImageView{2523cbc G.ED..... ......I. 0,0-0,0 #7f130016 app:id/badge_icon}
+                        com.android.launcher3.eui.superscript.SuperscriptImageView{ed5445 G.ED..... ......I. 0,0-0,0 #7f130089 app:id/superscript_icon}
+                      com.android.launcher3.eui.CellViewContainer{718179a V.E...... .......D 777,1248-1036,1560 #14}
+                        com.android.launcher3.BubbleTextView{78f28cb VFED..CL. ......ID 0,0-259,312 #7f1302e6 app:id/bubble_text_view}
+                        com.android.launcher3.eui.badge.BadgeImageView{e6468a8 G.ED..... ......I. 0,0-0,0 #7f130016 app:id/badge_icon}
+                        com.android.launcher3.eui.superscript.SuperscriptImageView{293efc1 G.ED..... ......I. 0,0-0,0 #7f130089 app:id/superscript_icon}
+                      com.android.launcher3.LauncherAppWidgetHostView{37b7f39 V.E....L. R.....ID 0,0-1036,624 #36}
+                        android.widget.FrameLayout{1d8edf V.E...... ......ID 21,21-1015,603 #7f0e0268 app:id/layout_widget_left_root}
+                          android.widget.ImageView{d97f72c V.ED..... ........ 0,0-1,1 #7f0e0269 app:id/image_widget_background}
+                          android.widget.LinearLayout{f0bd5f5 V.E...C.. ......ID 0,0-400,582 #7f0e026a app:id/widget_digital_clock}
+                            android.widget.LinearLayout{3b8ef8a V.E...... ......ID 26,16-400,213 #7f0e026b app:id/widget_4x2_time_container}
+                              com.letv.leui.widget.LeTextClock{d7639fb V.ED..... ......ID 0,11-151,197 #7f0e026c app:id/widget_digital_clock_time_hour}
+                              android.widget.LinearLayout{dbe7a56 V.E...... ........ 151,16-204,191}
+                                android.widget.ImageView{7e47ad7 V.ED..... ........ 0,0-53,175 #7f0e026d app:id/widget_digital_clock_dot}
+                              com.letv.leui.widget.LeTextClock{c85cead V.ED..... ......ID 204,11-374,197 #7f0e026e app:id/widget_digital_clock_time_minute}
+                            android.widget.TextClock{bfe5e2 V.ED..... ......ID 0,226-254,288 #7f0e026f app:id/widget_2x2_digital_clock_date}
+                            android.widget.TextClock{88bed73 V.ED..... ......ID 0,306-116,355 #7f0e0270 app:id/widget_2x2_digital_clock_week}
+                  com.android.launcher3.CellLayout{267ffac V.ED..CL. ........ 5451,1833-6489,3393}
+                    com.android.launcher3.ClickShadowView{3296c0a V.ED..... ........ 1,0-1039,1560}
+                    com.android.launcher3.ShortcutAndWidgetContainer{1367475 V.E...... ........ 1,0-1039,1560}
+                      com.android.launcher3.eui.CellViewContainer{c501366 V.E...... ........ 0,0-259,312 #15}
+                        com.android.launcher3.BubbleTextView{ae586a7 VFED..CL. ........ 0,0-259,312 #7f1302e6 app:id/bubble_text_view}
+                        com.android.launcher3.eui.badge.BadgeImageView{eeb6754 G.ED..... ......I. 0,0-0,0 #7f130016 app:id/badge_icon}
+                        com.android.launcher3.eui.superscript.SuperscriptImageView{2aec6fd G.ED..... ......I. 0,0-0,0 #7f130089 app:id/superscript_icon}
+                      com.android.launcher3.eui.CellViewContainer{9b9fff2 V.E...... ........ 259,0-518,312 #16}
+                        com.android.launcher3.BubbleTextView{759e643 VFED..CL. ........ 0,0-259,312 #7f1302e6 app:id/bubble_text_view}
+                        com.android.launcher3.eui.badge.BadgeImageView{41a4c0 G.ED..... ......I. 0,0-0,0 #7f130016 app:id/badge_icon}
+                        com.android.launcher3.eui.superscript.SuperscriptImageView{8a5d5f9 G.ED..... ......I. 0,0-0,0 #7f130089 app:id/superscript_icon}
+                      com.android.launcher3.eui.CellViewContainer{d64293e V.E...... ........ 518,0-777,312 #17}
+                        com.android.launcher3.BubbleTextView{c2aa39f VFED..CL. ........ 0,0-259,312 #7f1302e6 app:id/bubble_text_view}
+                        com.android.launcher3.eui.badge.BadgeImageView{7fc4cec G.ED..... ......I. 0,0-0,0 #7f130016 app:id/badge_icon}
+                        com.android.launcher3.eui.superscript.SuperscriptImageView{64d8b5 G.ED..... ......I. 0,0-0,0 #7f130089 app:id/superscript_icon}
+                      com.android.launcher3.eui.CellViewContainer{5f59b4a V.E...... ........ 777,0-1036,312 #18}
+                        com.android.launcher3.BubbleTextView{41fdabb VFED..CL. ........ 0,0-259,312 #7f1302e6 app:id/bubble_text_view}
+                        com.android.launcher3.eui.badge.BadgeImageView{dd74bd8 G.ED..... ......I. 0,0-0,0 #7f130016 app:id/badge_icon}
+                        com.android.launcher3.eui.superscript.SuperscriptImageView{ed74b31 G.ED..... ......I. 0,0-0,0 #7f130089 app:id/superscript_icon}
+                      com.android.launcher3.eui.CellViewContainer{37a2216 V.E...... ........ 0,312-259,624 #19}
+                        com.android.launcher3.BubbleTextView{4676797 VFED..CL. ........ 0,0-259,312 #7f1302e6 app:id/bubble_text_view}
+                        com.android.launcher3.eui.badge.BadgeImageView{7614d84 G.ED..... ......I. 0,0-0,0 #7f130016 app:id/badge_icon}
+                        com.android.launcher3.eui.superscript.SuperscriptImageView{224696d G.ED..... ......I. 0,0-0,0 #7f130089 app:id/superscript_icon}
+                      com.android.launcher3.eui.CellViewContainer{8ee49a2 V.E...... ........ 259,312-518,624 #1a}
+                        com.android.launcher3.BubbleTextView{d30e633 VFED..CL. ........ 0,0-259,312 #7f1302e6 app:id/bubble_text_view}
+                        com.android.launcher3.eui.badge.BadgeImageView{267bdf0 G.ED..... ......I. 0,0-0,0 #7f130016 app:id/badge_icon}
+                        com.android.launcher3.eui.superscript.SuperscriptImageView{9ab2f69 G.ED..... ......I. 0,0-0,0 #7f130089 app:id/superscript_icon}
+                      com.android.launcher3.eui.CellViewContainer{a8b5dee V.E...... ........ 518,312-777,624 #1b}
+                        com.android.launcher3.BubbleTextView{809b28f VFED..CL. ........ 0,0-259,312 #7f1302e6 app:id/bubble_text_view}
+                        com.android.launcher3.eui.badge.BadgeImageView{a22c91c G.ED..... ......I. 0,0-0,0 #7f130016 app:id/badge_icon}
+                        com.android.launcher3.eui.superscript.SuperscriptImageView{1be5925 G.ED..... ......I. 0,0-0,0 #7f130089 app:id/superscript_icon}
+                      com.android.launcher3.eui.CellViewContainer{4d36afa V.E...... ........ 777,312-1036,624 #1c}
+                        com.android.launcher3.BubbleTextView{ff8e8ab VFED..CL. ........ 0,0-259,312 #7f1302e6 app:id/bubble_text_view}
+                        com.android.launcher3.eui.badge.BadgeImageView{3215b08 G.ED..... ......I. 0,0-0,0 #7f130016 app:id/badge_icon}
+                        com.android.launcher3.eui.superscript.SuperscriptImageView{f2062a1 G.ED..... ......I. 0,0-0,0 #7f130089 app:id/superscript_icon}
+                      com.android.launcher3.eui.CellViewContainer{f5b6487 V.E...... ........ 0,624-259,936 #1d}
+                        com.android.launcher3.BubbleTextView{9f51fb4 VFED..CL. ........ 0,0-259,312 #7f1302e6 app:id/bubble_text_view}
+                        com.android.launcher3.eui.badge.BadgeImageView{63f87dd G.ED..... ......I. 0,0-0,0 #7f130016 app:id/badge_icon}
+                        com.android.launcher3.eui.superscript.SuperscriptImageView{6605f52 G.ED..... ......I. 0,0-0,0 #7f130089 app:id/superscript_icon}
+                      com.android.launcher3.eui.CellViewContainer{a5c86aa V.E...... ........ 259,624-518,936 #1e}
+                        com.android.launcher3.BubbleTextView{8659638 VFED..CL. ........ 0,0-259,312 #7f1302e6 app:id/bubble_text_view}
+                        com.android.launcher3.eui.badge.BadgeImageView{e563611 G.ED..... ......I. 0,0-0,0 #7f130016 app:id/badge_icon}
+                        com.android.launcher3.eui.superscript.SuperscriptImageView{a807d77 G.ED..... ......I. 0,0-0,0 #7f130089 app:id/superscript_icon}
+                      com.android.launcher3.FolderIcon{f1fc581 VFE...CL. ........ 518,624-777,936 #2a}
+                        android.widget.FrameLayout{d828814 V.E...... ........ 57,53-201,197 #7f130a3b app:id/folder_preview_layout}
+                          android.widget.ImageView{98238bd V.ED..... ........ 14,14-68,68 #7f130a3c app:id/icon1}
+                          android.widget.ImageView{8e9eeb2 V.ED..... ........ 76,14-130,68 #7f130a3d app:id/icon2}
+                          android.widget.ImageView{2010e03 V.ED..... ........ 14,76-68,130 #7f130a3e app:id/icon3}
+                          android.widget.ImageView{60a1180 V.ED..... ........ 76,76-130,130 #7f130a3f app:id/icon4}
+                        com.android.launcher3.BubbleTextView{c9ea3b9 V.ED..... ........ 0,221-259,312 #7f130a40 app:id/folder_icon_name}
+                        com.android.launcher3.eui.badge.BadgeImageView{f8443fe G.ED..... ......I. 0,0-0,0 #7f130016 app:id/badge_icon}
+                        com.android.launcher3.eui.superscript.SuperscriptImageView{c7c875f G.ED..... ......I. 0,0-0,0 #7f130089 app:id/superscript_icon}
+                      com.android.launcher3.eui.CellViewContainer{b99cca5 V.E...... ........ 777,624-1036,936 #2b}
+                        com.android.launcher3.BubbleTextView{974987a VFED..CL. ........ 0,0-259,312 #7f1302e6 app:id/bubble_text_view}
+                        com.android.launcher3.eui.badge.BadgeImageView{576482b G.ED..... ......I. 0,0-0,0 #7f130016 app:id/badge_icon}
+                        com.android.launcher3.eui.superscript.SuperscriptImageView{99c0488 G.ED..... ......I. 0,0-0,0 #7f130089 app:id/superscript_icon}
+                      com.android.launcher3.eui.CellViewContainer{9ff8e21 V.E...... ........ 0,936-259,1248 #2c}
+                        com.android.launcher3.BubbleTextView{da3c246 VFED..CL. ........ 0,0-259,312 #7f1302e6 app:id/bubble_text_view}
+                        com.android.launcher3.eui.badge.BadgeImageView{c0f3c07 G.ED..... ......I. 0,0-0,0 #7f130016 app:id/badge_icon}
+                        com.android.launcher3.eui.superscript.SuperscriptImageView{b30e134 G.ED..... ......I. 0,0-0,0 #7f130089 app:id/superscript_icon}
+                      com.android.launcher3.eui.CellViewContainer{aa5eb5d V.E...... ........ 259,936-518,1248 #2d}
+                        com.android.launcher3.BubbleTextView{d49bcd2 VFED..CL. ........ 0,0-259,312 #7f1302e6 app:id/bubble_text_view}
+                        com.android.launcher3.eui.badge.BadgeImageView{c5991a3 G.ED..... ......I. 0,0-0,0 #7f130016 app:id/badge_icon}
+                        com.android.launcher3.eui.superscript.SuperscriptImageView{394dca0 G.ED..... ......I. 0,0-0,0 #7f130089 app:id/superscript_icon}
+                      com.android.launcher3.eui.CellViewContainer{55ae059 V.E...... ........ 518,936-777,1248 #2e}
+                        com.android.launcher3.BubbleTextView{5e2d41e VFED..CL. ........ 0,0-259,312 #7f1302e6 app:id/bubble_text_view}
+                        com.android.launcher3.eui.badge.BadgeImageView{b69a4ff G.ED..... ......I. 0,0-0,0 #7f130016 app:id/badge_icon}
+                        com.android.launcher3.eui.superscript.SuperscriptImageView{87b22cc G.ED..... ......I. 0,0-0,0 #7f130089 app:id/superscript_icon}
+                      com.android.launcher3.eui.CellViewContainer{6d02915 V.E...... ........ 777,936-1036,1248 #2f}
+                        com.android.launcher3.BubbleTextView{e64142a VFED..CL. ........ 0,0-259,312 #7f1302e6 app:id/bubble_text_view}
+                        com.android.launcher3.eui.badge.BadgeImageView{13d921b G.ED..... ......I. 0,0-0,0 #7f130016 app:id/badge_icon}
+                        com.android.launcher3.eui.superscript.SuperscriptImageView{59d9fb8 G.ED..... ......I. 0,0-0,0 #7f130089 app:id/superscript_icon}
+                      com.android.launcher3.eui.CellViewContainer{b174191 V.E...... ........ 0,1248-259,1560 #30}
+                        com.android.launcher3.BubbleTextView{60748f6 VFED..CL. ........ 0,0-259,312 #7f1302e6 app:id/bubble_text_view}
+                        com.android.launcher3.eui.badge.BadgeImageView{d9934f7 G.ED..... ......I. 0,0-0,0 #7f130016 app:id/badge_icon}
+                        com.android.launcher3.eui.superscript.SuperscriptImageView{668ff64 G.ED..... ......I. 0,0-0,0 #7f130089 app:id/superscript_icon}
+                      com.android.launcher3.eui.CellViewContainer{3dd65cd V.E...... ........ 259,1248-518,1560 #31}
+                        com.android.launcher3.BubbleTextView{3d6fe82 VFED..CL. ........ 0,0-259,312 #7f1302e6 app:id/bubble_text_view}
+                        com.android.launcher3.eui.badge.BadgeImageView{ea22993 V.ED..... ........ 57,236-83,262 #7f130016 app:id/badge_icon}
+                        com.android.launcher3.eui.superscript.SuperscriptImageView{e68add0 V.ED..... ........ 175,38-217,80 #7f130089 app:id/superscript_icon}
+                      com.android.launcher3.eui.CellViewContainer{66791c9 V.E...... ........ 518,1248-777,1560 #32}
+                        com.android.launcher3.BubbleTextView{2fa80ce VFED..CL. ........ 0,0-259,312 #7f1302e6 app:id/bubble_text_view}
+                        com.android.launcher3.eui.badge.BadgeImageView{53bcbef G.ED..... ......I. 0,0-0,0 #7f130016 app:id/badge_icon}
+                        com.android.launcher3.eui.superscript.SuperscriptImageView{c72d6fc G.ED..... ......I. 0,0-0,0 #7f130089 app:id/superscript_icon}
+                  com.android.launcher3.CellLayout{9c56a61 V.ED..CL. ........ 6531,1833-7569,3393}
+                    com.android.launcher3.ClickShadowView{b351247 V.ED..... ........ 1,0-1039,1560}
+                    com.android.launcher3.ShortcutAndWidgetContainer{77e0986 V.E...... ........ 1,0-1039,1560}
+                      com.android.launcher3.eui.CellViewContainer{d4e8185 V.E...... ........ 0,0-259,312 #33}
+                        com.android.launcher3.BubbleTextView{7c1dbda VFED..CL. ........ 0,0-259,312 #7f1302e6 app:id/bubble_text_view}
+                        com.android.launcher3.eui.badge.BadgeImageView{323380b G.ED..... ......I. 0,0-0,0 #7f130016 app:id/badge_icon}
+                        com.android.launcher3.eui.superscript.SuperscriptImageView{49466e8 G.ED..... ......I. 175,38-217,80 #7f130089 app:id/superscript_icon}
+                      com.android.launcher3.eui.CellViewContainer{9fab101 V.E...... ........ 259,0-518,312 #34}
+                        com.android.launcher3.BubbleTextView{971dba6 VFED..CL. ........ 0,0-259,312 #7f1302e6 app:id/bubble_text_view}
+                        com.android.launcher3.eui.badge.BadgeImageView{ecb49e7 G.ED..... ......I. 0,0-0,0 #7f130016 app:id/badge_icon}
+                        com.android.launcher3.eui.superscript.SuperscriptImageView{cbd0994 G.ED..... ......I. 0,0-0,0 #7f130089 app:id/superscript_icon}
+                      com.android.launcher3.eui.CellViewContainer{637f54 V.E...... ........ 518,0-777,312 #38}
+                        com.android.launcher3.BubbleTextView{a20fefd VFED..CL. ........ 0,0-259,312 #7f1302e6 app:id/bubble_text_view}
+                        com.android.launcher3.eui.badge.BadgeImageView{ae2de43 G.ED..... ......I. 15,235-41,261 #7f130016 app:id/badge_icon}
+                        com.android.launcher3.eui.superscript.SuperscriptImageView{1038df9 G.ED..... ......I. 0,0-0,0 #7f130089 app:id/superscript_icon}
+                com.android.launcher3.Hotseat{8f75f99 V.E...... ........ 0,1670-1080,1920 #7f130ae7 app:id/hotseat}
+                  com.android.launcher3.CellLayout{2d55c55 V.ED...L. ........ 21,42-1059,208 #7f130910 app:id/layout}
+                    com.android.launcher3.ClickShadowView{b1a5f3c V.ED..... ........ 0,0-1038,166}
+                    com.android.launcher3.ShortcutAndWidgetContainer{da74d2f V.E...... ........ 0,0-1038,166}
+                      com.android.launcher3.eui.CellViewContainer{f4d6c3 V.E...... ........ 13,0-189,166 #4}
+                        com.android.launcher3.BubbleTextView{7185b3b VFED..CL. ........ 0,0-176,166 #7f1302e6 app:id/bubble_text_view}
+                        com.android.launcher3.eui.badge.BadgeImageView{731b188 G.ED..... ......I. 0,0-0,0 #7f130016 app:id/badge_icon}
+                        com.android.launcher3.eui.superscript.SuperscriptImageView{ef3da01 G.ED..... ......I. 0,0-0,0 #7f130089 app:id/superscript_icon}
+                      com.android.launcher3.eui.CellViewContainer{80650a6 V.E...... ........ 222,0-398,166 #5}
+                        com.android.launcher3.BubbleTextView{da71ae7 VFED..CL. ........ 0,0-176,166 #7f1302e6 app:id/bubble_text_view}
+                        com.android.launcher3.eui.badge.BadgeImageView{30694 G.ED..... ......I. 0,0-0,0 #7f130016 app:id/badge_icon}
+                        com.android.launcher3.eui.superscript.SuperscriptImageView{7c3153d G.ED..... ......I. 0,0-0,0 #7f130089 app:id/superscript_icon}
+                      com.android.launcher3.eui.CellViewContainer{8b6d132 V.E...... ........ 431,0-607,166 #6}
+                        com.android.launcher3.BubbleTextView{8407e83 VFED..CL. ........ 0,0-176,166 #7f1302e6 app:id/bubble_text_view}
+                        com.android.launcher3.eui.badge.BadgeImageView{653f800 G.ED..... ......I. 0,0-0,0 #7f130016 app:id/badge_icon}
+                        com.android.launcher3.eui.superscript.SuperscriptImageView{750c839 G.ED..... ......I. 0,0-0,0 #7f130089 app:id/superscript_icon}
+                      com.android.launcher3.eui.CellViewContainer{f7cce7e V.E...... ........ 640,0-816,166 #7}
+                        com.android.launcher3.BubbleTextView{2827fdf VFED..CL. ........ 0,0-176,166 #7f1302e6 app:id/bubble_text_view}
+                        com.android.launcher3.eui.badge.BadgeImageView{a00942c G.ED..... ......I. 0,0-0,0 #7f130016 app:id/badge_icon}
+                        com.android.launcher3.eui.superscript.SuperscriptImageView{56caef5 G.ED..... ......I. 0,0-0,0 #7f130089 app:id/superscript_icon}
+                      com.android.launcher3.eui.CellViewContainer{313548a V.E...... ........ 849,0-1025,166 #8}
+                        com.android.launcher3.BubbleTextView{fb93afb VFED..CL. ........ 0,0-176,166 #7f1302e6 app:id/bubble_text_view}
+                        com.android.launcher3.eui.badge.BadgeImageView{af8c718 G.ED..... ......I. 0,0-0,0 #7f130016 app:id/badge_icon}
+                        com.android.launcher3.eui.superscript.SuperscriptImageView{d264571 G.ED..... ......I. 0,0-0,0 #7f130089 app:id/superscript_icon}
+                com.android.launcher3.eui.screens.ScreensView{b321e6 G.E...... ......I. 0,0-0,0 #7f130ff6 app:id/screens_edit}
+                  android.widget.TextView{e7db327 V.ED..... ......ID 0,0-0,0 #7f130ff7 app:id/screen_edit_tip}
+                  android.widget.ScrollView{a185f3b VFED..... ......I. 0,0-0,0 #7f130ff8 app:id/screen_scroll_view}
+                    com.android.launcher3.CellLayout{c06b658 V.ED..... ......I. 0,0-0,0 #7f130ff9 app:id/screen_content}
+                      com.android.launcher3.ClickShadowView{ffdd096 V.ED..... ......I. 0,0-0,0}
+                      com.android.launcher3.ShortcutAndWidgetContainer{a7aa3b1 V.E...... ......I. 0,0-0,0}
+                        com.android.launcher3.eui.screens.ScreenThumbCard{6f3949c V.E...CL. ......I. 0,0-0,0}
+                          android.widget.RelativeLayout{9a5fea5 V.E...... ......I. 0,0-0,0 #7f130ff0 app:id/screen_manage_root}
+                            com.android.launcher3.eui.screenthumb.ScreenThumbImage{7e1e27a G.ED..... ......I. 0,0-0,0 #7f130ff1 app:id/imageView_screen}
+                            android.widget.ImageView{28aca2b V.ED..... ......ID 0,0-0,0 #7f130ff2 app:id/imageView_custom_screen}
+                            android.widget.ImageView{6f35e88 G.ED..... ......I. 0,0-0,0 #7f130ff3 app:id/imageView_custom_screen_mask}
+                            android.widget.ImageView{19ce021 V.ED..C.. ......I. 0,0-0,0 #7f130ff4 app:id/imageview_home}
+                            android.widget.ImageView{69bac46 V.ED..C.. ......I. 0,0-0,0 #7f130ff5 app:id/imageview_hide}
+                        com.android.launcher3.eui.screens.ScreenThumbCard{ab686ff V.E...CL. ......I. 0,0-0,0}
+                          android.widget.RelativeLayout{5135ccc V.E...... ......I. 0,0-0,0 #7f130ff0 app:id/screen_manage_root}
+                            com.android.launcher3.eui.screenthumb.ScreenThumbImage{14cdb15 G.ED..... ......I. 0,0-0,0 #7f130ff1 app:id/imageView_screen}
+                            android.widget.ImageView{fb7de2a V.ED..... ......ID 0,0-0,0 #7f130ff2 app:id/imageView_custom_screen}
+                            android.widget.ImageView{576941b G.ED..... ......I. 0,0-0,0 #7f130ff3 app:id/imageView_custom_screen_mask}
+                            android.widget.ImageView{c7f79b8 V.ED..C.. ......I. 0,0-0,0 #7f130ff4 app:id/imageview_home}
+                            android.widget.ImageView{5ad1391 V.ED..C.. ......I. 0,0-0,0 #7f130ff5 app:id/imageview_hide}
+                        com.android.launcher3.eui.screens.ScreenThumbCard{f7aa849 V.E...CL. ......I. 0,0-0,0}
+                          android.widget.RelativeLayout{7f6154e V.E...... ......I. 0,0-0,0 #7f130ff0 app:id/screen_manage_root}
+                            com.android.launcher3.eui.screenthumb.ScreenThumbImage{699066f V.ED..... ......I. 0,0-0,0 #7f130ff1 app:id/imageView_screen}
+                            android.widget.ImageView{7f7bf7c G.ED..... ......I. 0,0-0,0 #7f130ff2 app:id/imageView_custom_screen}
+                            android.widget.ImageView{6bc8005 G.ED..... ......I. 0,0-0,0 #7f130ff3 app:id/imageView_custom_screen_mask}
+                            android.widget.ImageView{9599a8b V.ED..C.. ..S...I. 0,0-0,0 #7f130ff4 app:id/imageview_home}
+                            android.widget.ImageView{5e68214 G..D..C.. ......I. 0,0-0,0 #7f130ff5 app:id/imageview_hide}
+                        com.android.launcher3.eui.screens.ScreenThumbCard{fb89844 V.E...CL. ......I. 0,0-0,0}
+                          android.widget.RelativeLayout{895bd2d V.E...... ......I. 0,0-0,0 #7f130ff0 app:id/screen_manage_root}
+                            com.android.launcher3.eui.screenthumb.ScreenThumbImage{5337262 V.ED..... ......I. 0,0-0,0 #7f130ff1 app:id/imageView_screen}
+                            android.widget.ImageView{d8dbff3 G.ED..... ......I. 0,0-0,0 #7f130ff2 app:id/imageView_custom_screen}
+                            android.widget.ImageView{ec8f4b0 G.ED..... ......I. 0,0-0,0 #7f130ff3 app:id/imageView_custom_screen_mask}
+                            android.widget.ImageView{63dff29 V.ED..C.. ......I. 0,0-0,0 #7f130ff4 app:id/imageview_home}
+                            android.widget.ImageView{eda52ae G.ED..C.. ......I. 0,0-0,0 #7f130ff5 app:id/imageview_hide}
+                        com.android.launcher3.eui.screens.ScreenThumbCard{21ae9e0 V.E...CL. ......I. 0,0-0,0}
+                          android.widget.RelativeLayout{bf80499 V.E...... ......I. 0,0-0,0 #7f130ff0 app:id/screen_manage_root}
+                            com.android.launcher3.eui.screenthumb.ScreenThumbImage{156c35e V.ED..... ......I. 0,0-0,0 #7f130ff1 app:id/imageView_screen}
+                            android.widget.ImageView{a2c033f G.ED..... ......I. 0,0-0,0 #7f130ff2 app:id/imageView_custom_screen}
+                            android.widget.ImageView{f74c40c G.ED..... ......I. 0,0-0,0 #7f130ff3 app:id/imageView_custom_screen_mask}
+                            android.widget.ImageView{5bb5155 V.ED..C.. ......I. 0,0-0,0 #7f130ff4 app:id/imageview_home}
+                            android.widget.ImageView{47b76a G.ED..C.. ......I. 0,0-0,0 #7f130ff5 app:id/imageview_hide}
+                com.android.launcher3.eui.preview.LePreviewBottomContainer{a5117e9 G.E...... ......I. 0,0-0,0 #7f130ae8 app:id/le_preview_bottom_container}
+                  android.widget.RelativeLayout{af30f0f V.E...... ......I. 0,0-0,0}
+                    android.widget.TextView{cae2b9c V.ED..... ......I. 0,0-0,0 #7f130bde app:id/le_preview_tips}
+                    com.letv.shared.widget.LeCheckBox{e3fd17a V.ED..C.. ......ID 0,0-0,0 #7f130bdf app:id/le_preview_checkbox}
+                  android.widget.LinearLayout{d0276a3 V.E...... ......I. 0,0-0,0 #7f1307f9 app:id/button_container}
+                    android.widget.TextView{f445da0 V.ED..C.. ......ID 0,0-0,0 #7f130be0 app:id/left_button}
+                    android.widget.TextView{e62cd59 V.ED..C.. ......ID 0,0-0,0 #7f130be1 app:id/right_button}
+                com.android.launcher3.eui.preview.LePreviewTopContainer{e3bd9ff G.E...... ......I. 0,0-0,0 #7f130ae9 app:id/le_preview_top_container}
+                  android.widget.ImageView{621b3cc V.ED..C.. ......I. 0,0-0,0 #7f130be2 app:id/preview_back}
+                  android.widget.TextView{59c40b8 V.ED..... ......ID 0,0-0,0 #7f130be3 app:id/le_preview_title}
+                  android.widget.TextView{58fce91 V.ED..C.. ......ID 0,0-0,0 #7f130be4 app:id/preview_ok}
+                com.android.launcher3.PageIndicator{1d1c2cd V.ED..... ........ 424,1644-655,1670 #7f130ae6 app:id/page_indicator}
+                  com.android.launcher3.PageIndicatorMarker{6a4b508 V.E...C.. ........ 21,2-42,23}
+                    android.widget.ImageView{f79b4a1 V.ED..... ........ 0,0-21,21 #7f130f0b app:id/inactive}
+                    android.widget.ImageView{3520687 V.ED..... ........ 0,0-21,21 #7f130f0c app:id/active}
+                  com.android.launcher3.PageIndicatorMarker{27e549b V.E...C.. ........ 63,2-84,23}
+                    android.widget.ImageView{8737038 V.ED..... ........ 0,0-21,21 #7f130f0b app:id/inactive}
+                    android.widget.ImageView{8a80811 V.ED..... ........ 0,0-21,21 #7f130f0c app:id/active}
+                  com.android.launcher3.PageIndicatorMarker{e48d003 V.E...C.. ........ 105,2-126,23}
+                    android.widget.ImageView{9b3ab80 V.ED..... ........ 0,0-21,21 #7f130f0b app:id/inactive}
+                    android.widget.ImageView{4c135b9 V.ED..... ........ 0,0-21,21 #7f130f0c app:id/active}
+                  com.android.launcher3.PageIndicatorMarker{f40abdc V.E...C.. ........ 147,2-168,23}
+                    android.widget.ImageView{b0e64e5 V.ED..... ........ 0,0-21,21 #7f130f0b app:id/inactive}
+                    android.widget.ImageView{85f3a6b V.ED..... ........ 0,0-21,21 #7f130f0c app:id/active}
+                  com.android.launcher3.PageIndicatorMarker{ab014f8 V.E...C.. ........ 189,2-210,23}
+                    android.widget.ImageView{32cadd1 V.ED..... ........ 0,0-21,21 #7f130f0b app:id/inactive}
+                    android.widget.ImageView{7a1e036 V.ED..... ........ 0,0-21,21 #7f130f0c app:id/active}
+                com.android.launcher3.eui.screenthumb.ScreenThumbsContainer{97a6ed0 G.E...... ......I. 0,0-0,0 #7f130aea app:id/screen_thumbs_container}
+                  com.android.launcher3.eui.screenthumb.ScreenThumbImage{a8cb4fa G.ED..... ......I. 0,0-0,0}
+                  com.android.launcher3.eui.screenthumb.ScreenThumbImage{5e98795 G.ED..... ......I. 0,0-0,0}
+                  com.android.launcher3.eui.screenthumb.ScreenThumbImage{9e8bc13 V.ED..... ......I. 0,0-0,0}
+                  com.android.launcher3.eui.screenthumb.ScreenThumbImage{cfa3ed6 V.ED..... ......I. 0,0-0,0}
+                  com.android.launcher3.eui.screenthumb.ScreenThumbImage{9a13812 V.ED..... ......I. 0,0-0,0}
+                com.android.launcher3.eui.screenthumb.ScreenThumbTip{fd17e85 G.E...... ......ID 351,1626-728,1670 #7f130aeb app:id/screen_thumbs_dragtip}
+                  android.widget.TextView{9d94da V.ED..... ......ID 0,0-377,44 #7f130fef app:id/screen_thumb_tip_text}
+                com.android.launcher3.eui.widget.LeWidgetPreviewsContainer{6d024a6 G.ED..... ......I. 0,0-0,0 #7f130aec app:id/widget_preview_container}
+                  com.android.launcher3.eui.widget.LeRecyclerView{2e5ee7 VFED..... ......I. 0,0-0,0 #7f130c2d app:id/widgets_preview_content}
+                  com.android.launcher3.eui.widget.LeRecyclerView{252fa94 IFED..... ......I. 0,0-0,0 #7f130c2e app:id/widgets_preview_submenu}
+                com.android.launcher3.eui.widget.LeEffectPanelView{c49e532 IFED..... ......ID 0,1607-1080,1896 #7f130aed app:id/special_effects_layout}
+                  com.android.launcher3.eui.SpecialEffectContainer{5f80283 V.E...... ......ID 0,0-1277,288}
+                    com.android.launcher3.eui.OverviewButton{faf2c00 V.ED..C.. ......ID 67,0-285,288 #7f131056 app:id/special_effect_classic}
+                      android.widget.ImageView{7c10356 V.ED..... ......ID 0,0-218,192 #7f130bbd app:id/overview_button_imageView}
+                      android.widget.ImageView{6b6cfd7 G.ED..... ......I. 0,0-0,0 #7f130bbe app:id/overview_button_select_imageView}
+                      android.widget.TextView{1ecabad V.ED..... ......ID 0,192-218,288 #7f130bbf app:id/overview_button_textView}
+                    com.android.launcher3.eui.OverviewButton{2e1fee2 V.ED..C.. ......ID 309,0-527,288 #7f131057 app:id/special_effect_stack}
+                      android.widget.ImageView{c5555a9 V.ED..... ......ID 0,0-218,192 #7f130bbd app:id/overview_button_imageView}
+                      android.widget.ImageView{a25272e G.ED..... ......I. 0,0-0,0 #7f130bbe app:id/overview_button_select_imageView}
+                      android.widget.TextView{f55e2cf V.ED..... ......ID 0,192-218,288 #7f130bbf app:id/overview_button_textView}
+                    com.android.launcher3.eui.OverviewButton{dc6d45c V.ED..C.. ......ID 551,0-769,288 #7f131058 app:id/special_effect_wind}
+                      android.widget.ImageView{977dceb V.ED..... ......ID 0,0-218,192 #7f130bbd app:id/overview_button_imageView}
+                      android.widget.ImageView{61ada48 G.ED..... ......I. 0,0-0,0 #7f130bbe app:id/overview_button_select_imageView}
+                      android.widget.TextView{3a110e1 V.ED..... ......ID 0,192-218,288 #7f130bbf app:id/overview_button_textView}
+                    com.android.launcher3.eui.OverviewButton{dbeee06 V.ED..C.. ......ID 793,0-1011,288 #7f131059 app:id/special_effect_flip}
+                      android.widget.ImageView{ebcda1d V.ED..... ......ID 0,0-218,192 #7f130bbd app:id/overview_button_imageView}
+                      android.widget.ImageView{4be492 G.ED..... ......I. 0,0-0,0 #7f130bbe app:id/overview_button_select_imageView}
+                      android.widget.TextView{ae0fe63 V.ED..... ......ID 0,192-218,288 #7f130bbf app:id/overview_button_textView}
+                    com.android.launcher3.eui.OverviewButton{2e0aa60 V.ED..C.. ......ID 1035,0-1253,288 #7f13105a app:id/special_effect_cube}
+                      android.widget.ImageView{ddb1dbf V.ED..... ......ID 0,0-218,192 #7f130bbd app:id/overview_button_imageView}
+                      android.widget.ImageView{a160c8c G.ED..... ......I. 0,0-0,0 #7f130bbe app:id/overview_button_select_imageView}
+                      android.widget.TextView{37e2fd5 V.ED..... ......ID 0,192-218,288 #7f130bbf app:id/overview_button_textView}
+                com.android.launcher3.eui.personalize.WallpaperContainer{30b73ea GFED..... ......I. 0,0-0,0 #7f130aee app:id/wallpaper_container}
+                com.android.launcher3.eui.personalize.ThemeContainer{7ef451 GFED..... ......I. 0,0-0,0 #7f130aef app:id/theme_container}
+                com.android.launcher3.eui.widget.LeOverPanelView{42905b7 IFED..... ......ID 0,1607-1080,1896 #7f130af0 app:id/overview_panel}
+                  com.android.launcher3.eui.LeOverviewButtonContainer{7bf6124 V.E...... ......ID 0,1-1519,289 #7f130f04 app:id/overview_button_container}
+                    com.android.launcher3.eui.OverviewButton{1ed848d V.ED..C.. ......ID 67,0-285,288 #7f130f05 app:id/screens_edit_button}
+                      android.widget.ImageView{d3adc89 V.ED..... ......ID 0,0-218,192 #7f130bbd app:id/overview_button_imageView}
+                      android.widget.ImageView{c37d48e G.ED..... ......I. 0,0-0,0 #7f130bbe app:id/overview_button_select_imageView}
+                      android.widget.TextView{a5cf4af V.ED..... ......ID 0,192-218,288 #7f130bbf app:id/overview_button_textView}
+                    com.android.launcher3.eui.OverviewButton{3ebb845 V.ED..C.. ......ID 309,0-527,288 #7f130f06 app:id/widget_button}
+                      android.widget.ImageView{1b11ca8 V.ED..... ......ID 0,0-218,192 #7f130bbd app:id/overview_button_imageView}
+                      android.widget.ImageView{11493c1 G.ED..... ......I. 0,0-0,0 #7f130bbe app:id/overview_button_select_imageView}
+                      android.widget.TextView{30de766 V.ED..... ......ID 0,192-218,288 #7f130bbf app:id/overview_button_textView}
+                    com.android.launcher3.eui.OverviewButton{850caa7 V.ED..C.. ......ID 551,0-769,288 #7f130f07 app:id/theme_button}
+                      android.widget.ImageView{8113f2 V.ED..... ......ID 0,0-218,192 #7f130bbd app:id/overview_button_imageView}
+                      android.widget.ImageView{a356a43 G.ED..... ......I. 0,0-0,0 #7f130bbe app:id/overview_button_select_imageView}
+                      android.widget.TextView{1f0d8c0 V.ED..... ......ID 0,192-218,288 #7f130bbf app:id/overview_button_textView}
+                    com.android.launcher3.eui.OverviewButton{a16f9f9 V.ED..C.. ......ID 793,0-1011,288 #7f130f08 app:id/wallpaper_button}
+                      android.widget.ImageView{76ac0ec V.ED..... ......ID 0,0-218,192 #7f130bbd app:id/overview_button_imageView}
+                      android.widget.ImageView{1c43cb5 G.ED..... ......I. 0,0-0,0 #7f130bbe app:id/overview_button_select_imageView}
+                      android.widget.TextView{40b2f4a V.ED..... ......ID 0,192-218,288 #7f130bbf app:id/overview_button_textView}
+                    com.android.launcher3.eui.OverviewButton{e67debb V.ED..C.. ......ID 1035,0-1253,288 #7f130f09 app:id/effect_button}
+                      android.widget.ImageView{f54f616 V.ED..... ......ID 0,0-218,192 #7f130bbd app:id/overview_button_imageView}
+                      android.widget.ImageView{52bab97 G.ED..... ......I. 0,0-0,0 #7f130bbe app:id/overview_button_select_imageView}
+                      android.widget.TextView{faa4184 V.ED..... ......ID 0,192-218,288 #7f130bbf app:id/overview_button_textView}
+                    com.android.launcher3.eui.OverviewButton{b8c4d6d V.ED..C.. ......ID 1277,0-1495,288 #7f130f0a app:id/setting_button}
+                      android.widget.ImageView{84bf1f0 V.ED..... ......ID 0,0-218,192 #7f130bbd app:id/overview_button_imageView}
+                      android.widget.ImageView{bad5369 G.ED..... ......I. 0,0-0,0 #7f130bbe app:id/overview_button_select_imageView}
+                      android.widget.TextView{46cb1ee V.ED..... ......ID 0,192-218,288 #7f130bbf app:id/overview_button_textView}
+                com.android.launcher3.InsettableFrameLayout{c92768f V.E...... ........ 0,0-1080,1920}
+                  com.android.launcher3.allapps.AllAppsContainerView{bbebd25 I.E...... ......I. 0,0-1080,1920 #7f1302c7 app:id/apps_view}
+                    android.view.View{6313b4 I.ED..... ......I. 0,0-1080,1920 #7f1302c8 app:id/reveal_view}
+                    com.android.launcher3.allapps.AllAppsRecyclerViewContainerView{b686bdd GFE...... ......I. 0,0-0,0 #7f1302c9 app:id/main_content}
+                      com.android.launcher3.ClickShadowView{e6d4623 V.ED..... ......I. 0,0-0,0}
+                      com.android.launcher3.allapps.AllAppsRecyclerView{1f7b720 VFED..... ......I. 0,0-0,0 #7f1302ca app:id/apps_list_view}
+                      android.widget.LinearLayout{8df729e V.E...... ......I. 0,0-0,0 #7f1302cb app:id/search_container}
+                        android.widget.ImageView{671254c V.ED..... ......I. 0,0-0,0 #7f13015a app:id/search_button}
+                        com.android.launcher3.allapps.AllAppsSearchEditView{acc1aaa VFED..CL. ......ID 0,0-0,0 #7f1302cc app:id/search_box_input}
+                        android.widget.ImageView{a772850 I.ED..C.. ......I. 0,0-0,0 #7f1302cd app:id/search_delete}
+                      com.letv.shared.widget.AlphabetWavesView{f9bbf4e V.E...... ......I. 0,0-0,0 #7f1302ce app:id/alpha_scroll_index}
+                      android.widget.FrameLayout{fa7b168 V.E...... ......ID 0,0-0,0 #7f1302cf app:id/screen_selection_content}
+                        android.widget.TextView{42c6a26 V.ED..... ......ID 0,0-0,0 #7f1302d0 app:id/screen_selection_tip}
+                        com.android.launcher3.eui.screenthumb.ScreenThumbsContainer{ea4f667 V.E...... ......I. 0,0-0,0 #7f1302d1 app:id/screen_selector}
+                          com.android.launcher3.eui.screenthumb.ScreenThumbImage{be05b6d G.ED..... ......I. 0,0-0,0}
+                          com.android.launcher3.eui.screenthumb.ScreenThumbImage{1bceb4c G.ED..... ......I. 0,0-0,0}
+                          com.android.launcher3.eui.screenthumb.ScreenThumbImage{daa4b02 V.ED..... ......I. 0,0-0,0}
+                          com.android.launcher3.eui.screenthumb.ScreenThumbImage{d2b6a98 V.ED..... ......I. 0,0-0,0}
+                          com.android.launcher3.eui.screenthumb.ScreenThumbImage{88d4b9d V.ED..... ......I. 0,0-0,0}
+                com.android.launcher3.eui.DropTargetBar{e009203 V.E...... ........ 0,0-1080,126 #7f130af1 app:id/search_drop_target_bar}
+                  android.widget.LinearLayout{41c97fe V.E...... ........ 0,0-1080,126 #7f130c00 app:id/drag_target_bar}
+                    android.widget.FrameLayout{2f04b5f G.E...... ......ID 0,0-360,126}
+                      com.android.launcher3.InfoDropTarget{1c139ac V.ED..... ......ID 0,0-360,126 #7f130c01 app:id/info_target_text}
+                    android.widget.FrameLayout{fa6360a G.E...... ......ID 360,0-720,126}
+                      com.android.launcher3.DeleteDropTarget{3f83e7b V.ED..... ......ID 0,0-360,126 #7f130c02 app:id/delete_target_text}
+                    android.widget.FrameLayout{a19b4f1 V.E...... ........ 0,0-1080,126}
+                      com.android.launcher3.UninstallDropTarget{579a8d6 V.ED..... ........ 0,0-1080,126 #7f130c03 app:id/uninstall_target_text}
+              android.widget.LinearLayout{3ba01f3 I.E...... ......ID 0,0-1080,2444 #7f1310aa app:id/uninstall_panel}
+                android.widget.RelativeLayout{7bd0eb0 V.E...... ......ID 164,63-915,207 #7f1310ab app:id/uninstall_info_layout}
+                  android.widget.ImageView{2191129 V.ED..... ......ID 0,0-144,144 #7f1310ac app:id/uninstall_info_icon}
+                  android.widget.TextView{69cfcae V.ED..... ......ID 186,0-583,49 #7f1310ad app:id/uninstall_info_app}
+                  android.widget.TextView{268ca4f V.ED..... ......ID 186,101-667,144 #7f1310ae app:id/uninstall_info_warning}
+                android.widget.LinearLayout{c5c65dc V.E...... ......ID 164,249-915,354}
+                  android.widget.Button{e8896e5 VFED..C.. ......ID 0,0-347,105 #7f1310af app:id/uninstall_cancel}
+                  android.widget.Button{6f1816a VFED..C.. ......ID 405,0-752,105 #7f1310b0 app:id/uninstall_confirm}
+              com.android.launcher3.eui.preview.LeSmartClassifyAddView{825809 G.E...... ......ID 0,0-0,0 #7f130b14 app:id/le_smart_classify}
+                android.widget.ImageView{e486a0e V.ED..... ......I. 0,0-0,0 #7f130b15 app:id/app}
+                android.widget.ImageView{9f99c2f V.ED..... ......I. 0,0-0,0 #7f130468 app:id/arrow}
+                android.widget.ImageView{6ef6bc5 V.ED..... ......I. 0,0-0,0 #7f130b16 app:id/folder}
+                android.widget.TextView{625191a V.ED..... ......ID 0,0-0,0 #7f130b17 app:id/smart_classify_content}
+              com.android.launcher3.InsettableFrameLayout{a950e19 G.E...... ......I. 0,0-0,0 #7f130af3 app:id/launcher_overlay}
+    Looper (main, tid 1) {914ee7}
+      Message 0: { when=+1m46s214ms what=2 target=org.chromium.base.SystemMessageHandler }
+      Message 1: { when=+6h12m1s989ms what=2 target=com.letv.sarrsdesktop.toutiao.switchmanage.ToutiaoFragment$4 }
+      (Total messages: 2, polling=false, quitting=false)
+ 
+Debug logs: 
+[dumpsys: 0.132s elapsed]
+
+========================================================
+== Running Application Services
+========================================================

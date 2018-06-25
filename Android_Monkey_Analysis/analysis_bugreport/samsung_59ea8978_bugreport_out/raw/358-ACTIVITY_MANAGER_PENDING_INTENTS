@@ -1,0 +1,507 @@
+  * PendingIntentRecord{dee228e com.baidu.appsearch startActivity}
+    uid=10059 packageName=com.baidu.appsearch type=startActivity flags=0x0
+    requestCode=2131623950 requestResolvedType=null
+    requestIntent=dat=content://0.4246472956555948 flg=0x10000000 pkg=com.baidu.appsearch cmp=com.baidu.appsearch/.youhua.clean.activity.CleanActivity (has extras)
+  * PendingIntentRecord{df17715 com.tianyancha.skyeye broadcastIntent}
+    uid=10441 packageName=com.tianyancha.skyeye type=broadcastIntent flags=0x0
+    requestIntent=act=com.taobao.accs.intent.action.COMMAND pkg=com.tianyancha.skyeye (has extras)
+  * PendingIntentRecord{dbc8998 android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=com.android.server.device_idle.STEP_IDLE_STATE flg=0x40000000 pkg=android
+  * PendingIntentRecord{81a73cd com.android.systemui startActivity}
+    uid=10017 packageName=com.android.systemui type=startActivity flags=0x0
+    requestIntent=act=android.intent.action.SEND flg=0x10008000 cmp=com.android.systemui/.screenshot.ScreenshotShareActivity (has extras)
+  * PendingIntentRecord{e96301f android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=android.content.jobscheduler.JOB_DELAY_EXPIRED
+    sent=true canceled=false
+  * PendingIntentRecord{325f5d6 android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestCode=1 requestResolvedType=null
+    requestIntent=act=com.samsung.location.intent_location_reported (has extras)
+  * PendingIntentRecord{6bd3077 com.sec.android.inputmethod startService}
+    uid=1000 packageName=com.sec.android.inputmethod type=startService flags=0x40000000
+    requestCode=1220282848 requestResolvedType=null
+    requestIntent=cmp=com.sec.android.inputmethod/com.nuance.connect.service.ConnectClient (has extras)
+  * PendingIntentRecord{f961f6c android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=android.content.jobscheduler.JOB_DEADLINE_EXPIRED
+    sent=true canceled=false
+  * PendingIntentRecord{1bca744 com.sec.kidsplat.installer broadcastIntent}
+    uid=10159 packageName=com.sec.kidsplat.installer type=broadcastIntent flags=0x0
+    requestIntent=cat=[android.intent.category.ALTERNATIVE] dat=custom:101 cmp=com.sec.kidsplat.installer/.KidsModeInstallerWidget
+  * PendingIntentRecord{9add99a com.sec.android.app.samsungapps startActivity}
+    uid=10038 packageName=com.sec.android.app.samsungapps type=startActivity flags=0x0
+    requestIntent=cmp=com.sec.android.app.samsungapps/.updatelist.UpdateListActivity
+  * PendingIntentRecord{796fe1d com.samsung.android.providers.context broadcastIntent}
+    uid=10074 packageName=com.samsung.android.providers.context type=broadcastIntent flags=0x0
+    requestIntent=act=com.samsung.android.provider.context.action.EXECUTE_TASK cmp=com.samsung.android.providers.context/.TaskScheduler$TaskAlarmReceiver
+    sent=true canceled=false
+  * PendingIntentRecord{7e39962 android startActivity}
+    uid=1000 packageName=android type=startActivity flags=0x0
+    requestIntent=act=android.settings.INPUT_METHOD_SETTINGS
+  * PendingIntentRecord{28cbf16 com.sec.spp.push broadcastIntent}
+    uid=10034 packageName=com.sec.spp.push type=broadcastIntent flags=0x0
+    requestIntent=dat=notisvc_timer:REG_CYCLE cmp=com.sec.spp.push/.notisvc.alarm.AlarmEventManager (has extras)
+    sent=true canceled=false
+  * PendingIntentRecord{8705af3 com.baidu.searchbox_samsung broadcastIntent}
+    uid=10153 packageName=com.baidu.searchbox_samsung type=broadcastIntent flags=0x0
+    requestIntent=act=com.baidu.searchbox.intent.action.BOX_CATAGORY_SEARCH cat=[com.baidu.searchbox.category.TRANS_SEARCH] dat=widgetid://1 flg=0x20 pkg=com.baidu.searchbox_samsung (has extras)
+  * PendingIntentRecord{46d9229 android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=com.android.internal.location.ALARM_WAKEUP
+  * PendingIntentRecord{e6ec2cb com.wandoujia.phoenix2 startActivity}
+    uid=10021 packageName=com.wandoujia.phoenix2 type=startActivity flags=0x0
+    requestCode=20 requestResolvedType=null
+    requestIntent=cmp=com.wandoujia.phoenix2/com.pp.assistant.activity.LibActivity (has extras)
+  * PendingIntentRecord{a94c9e6 com.tencent.android.qqdownloader broadcastIntent}
+    uid=10406 packageName=com.tencent.android.qqdownloader type=broadcastIntent flags=0x0
+    requestCode=2108946509 requestResolvedType=null
+    requestIntent=act=com.tencent.android.qqdownloader.action.SCHEDULE_JOB_IN_DAEMON (has extras)
+  * PendingIntentRecord{884faa8 com.tencent.mm startActivity}
+    uid=10266 packageName=com.tencent.mm type=startActivity flags=0x0
+    requestCode=4098 requestResolvedType=null
+    requestIntent=flg=0x24000000 cmp=com.tencent.mm/.ui.LauncherUI (has extras)
+  * PendingIntentRecord{19f482 com.sec.android.app.eventnotification startService}
+    uid=10091 packageName=com.sec.android.app.eventnotification type=startService flags=0x0
+    requestIntent=act=com.sec.festival.FESTIVAL_NOTIFICATION_CLEAR cmp=com.sec.android.app.eventnotification/.UpdateNotificationIntentService
+  * PendingIntentRecord{218e793 com.android.systemui startActivity}
+    uid=10017 packageName=com.android.systemui type=startActivity flags=0x0
+    requestIntent=act=android.intent.action.EDIT flg=0x10008000 cmp=com.android.systemui/.screenshot.ScreenshotEditResolveActivity (has extras)
+  * PendingIntentRecord{82427e5 android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestCode=5 requestResolvedType=null
+    requestIntent=act=android.app.backup.intent.INIT
+  * PendingIntentRecord{7a9bcb3 com.sec.spp.push broadcastIntent}
+    uid=10034 packageName=com.sec.spp.push type=broadcastIntent flags=0x0
+    requestIntent=act=com.sec.spp.push.receiver.PROVISIONING_ACTION
+  * PendingIntentRecord{78190fd flipboard.cn startActivity}
+    uid=10095 packageName=flipboard.cn type=startActivity flags=0x0
+    requestCode=9 requestResolvedType=null
+    requestIntent=cmp=flipboard.cn/flipboard.service.FlipboardUrlHandler (has extras)
+  * PendingIntentRecord{d0601f2 com.wandoujia.phoenix2 startService}
+    uid=10021 packageName=com.wandoujia.phoenix2 type=startService flags=0x0
+    requestCode=-18 requestResolvedType=null
+    requestIntent=cmp=com.wandoujia.phoenix2/com.pp.assistant.worker.PPNotifDelService (has extras)
+  * PendingIntentRecord{9db93d0 com.sec.android.app.music startService}
+    uid=10150 packageName=com.sec.android.app.music type=startService flags=0x0
+    requestIntent=act=com.samsung.musicplus.musicservicecommand.togglepause cmp=com.sec.android.app.music/com.samsung.android.app.music.service.PlayerService
+  * PendingIntentRecord{baaf2ba android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestCode=1 requestResolvedType=null
+    requestIntent=act=android.app.backup.intent.RUN flg=0x40000000
+    sent=true canceled=false
+  * PendingIntentRecord{2f83981 android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=com.android.server.NetworkTimeUpdateService.action.POLL
+    sent=true canceled=false
+  * PendingIntentRecord{375b7e5 android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=com.android.server.task.controllers.IdleController.ACTION_TRIGGER_IDLE flg=0x40000000 pkg=android
+    sent=true canceled=false
+  * PendingIntentRecord{f2b5e64 com.sec.android.soagent broadcastIntent}
+    uid=1000 packageName=com.sec.android.soagent type=broadcastIntent flags=0x0
+    requestIntent=act=sec.soagent.action.ACCESSORY_TIME
+  * PendingIntentRecord{784cfa3 com.sec.android.inputmethod startService}
+    uid=1000 packageName=com.sec.android.inputmethod type=startService flags=0x40000000
+    requestCode=-30073958 requestResolvedType=null
+    requestIntent=cmp=com.sec.android.inputmethod/com.nuance.connect.service.ConnectClient (has extras)
+  * PendingIntentRecord{86a6567 com.sec.android.app.samsungapps broadcastIntent}
+    uid=10038 packageName=com.sec.android.app.samsungapps type=broadcastIntent flags=0x0
+    requestIntent=cmp=com.sec.android.app.samsungapps/.PreloadUpdateAlarmReceiver
+    sent=true canceled=false
+  * PendingIntentRecord{a0d2ce com.tencent.android.qqdownloader broadcastIntent}
+    uid=10406 packageName=com.tencent.android.qqdownloader type=broadcastIntent flags=0x0
+    requestCode=638206943 requestResolvedType=null
+    requestIntent=act=com.tencent.android.qqdownloader.action.SCHEDULE_JOB_IN_DAEMON (has extras)
+  * PendingIntentRecord{8db3ff9 com.tencent.mobileqq startActivity}
+    uid=10356 packageName=com.tencent.mobileqq type=startActivity flags=0x0
+    requestIntent=flg=0x4000000 cmp=com.tencent.mobileqq/.activity.SplashActivity
+  * PendingIntentRecord{66e4b3e com.baidu.appsearch startActivity}
+    uid=10059 packageName=com.baidu.appsearch type=startActivity flags=0x0
+    requestCode=2131623950 requestResolvedType=null
+    requestIntent=dat=content://0.4289288946030634 flg=0x10000000 pkg=com.baidu.appsearch cmp=com.baidu.appsearch/.youhua.clean.activity.CleanActivity (has extras)
+  * PendingIntentRecord{a5d11ec com.sec.spp.push broadcastIntent}
+    uid=10034 packageName=com.sec.spp.push type=broadcastIntent flags=0x0
+    requestIntent=act=com.sec.spp.push.receiver.ForceUpdateAlarmReceiver
+    sent=true canceled=false
+  * PendingIntentRecord{c677fc9 com.sec.android.app.music startService}
+    uid=10150 packageName=com.sec.android.app.music type=startService flags=0x0
+    requestIntent=act=com.samsung.musicplus.musicservicecommand.previous cmp=com.sec.android.app.music/com.samsung.android.app.music.service.PlayerService
+  * PendingIntentRecord{92d9949 android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=MARS_AUTO_RUN_POLICY_ALARM flg=0x40000000 pkg=android
+    sent=true canceled=false
+  * PendingIntentRecord{fcf2c1 com.samsung.android.sm broadcastIntent}
+    uid=1000 packageName=com.samsung.android.sm type=broadcastIntent flags=0x0
+    requestCode=2352 requestResolvedType=null
+    requestIntent=act=com.samsung.android.sm.ACTION_AUTO_CLEAN (has extras)
+    sent=true canceled=false
+  * PendingIntentRecord{27fdd4a com.sec.spp.push startActivity}
+    uid=10034 packageName=com.sec.spp.push type=startActivity flags=0x0
+    requestIntent=flg=0x14000020 cmp=com.sec.android.app.samsungapps/.Main (has extras)
+  * PendingIntentRecord{defad6 flipboard.cn broadcastIntent}
+    uid=10095 packageName=flipboard.cn type=broadcastIntent flags=0x0
+    requestIntent=cmp=flipboard.cn/cn.jpush.android.service.AlarmReceiver
+    sent=true canceled=false
+  * PendingIntentRecord{93091b6 com.samsung.android.sm broadcastIntent}
+    uid=1000 packageName=com.samsung.android.sm type=broadcastIntent flags=0x0
+    requestIntent=act=com.samsung.android.sm.security.ACTION_WIDGET_UPDATE cmp=com.samsung.android.sm/.ui.security.NotificationReceiver
+  * PendingIntentRecord{212c52d com.samsung.android.sm.policy broadcastIntent}
+    uid=10114 packageName=com.samsung.android.sm.policy type=broadcastIntent flags=0x0
+    requestCode=1000 requestResolvedType=null
+    requestIntent=act=sec.app.policy.ACTION_CHECK_UPDATE
+    sent=true canceled=false
+  * PendingIntentRecord{f76d6ce com.sec.android.gallery3d broadcastIntent}
+    uid=10042 packageName=com.sec.android.gallery3d type=broadcastIntent flags=0x0
+    requestIntent=act=android.mtp.MtpClient.action.USB_PERMISSION
+  * PendingIntentRecord{3a2d54b android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=MARS_AUTO_RUN_POLICY_TRAFFIC_STAT_ALARM flg=0x40000000 pkg=android
+    sent=true canceled=false
+  * PendingIntentRecord{c6069ef com.sec.android.widgetapp.dualcitywidget broadcastIntent}
+    uid=10085 packageName=com.sec.android.widgetapp.dualcitywidget type=broadcastIntent flags=0x0
+    requestCode=558867 requestResolvedType=null
+    requestIntent=act=com.sec.android.widgetapp.dualcitywidget.startactivity (has extras)
+  * PendingIntentRecord{525730c android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=com.android.server.action.NETWORK_STATS_POLL
+  * PendingIntentRecord{b8486fb android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=action_batterystats_refresh
+    sent=true canceled=false
+  * PendingIntentRecord{a059857 com.tencent.mobileqq broadcastIntent}
+    uid=10356 packageName=com.tencent.mobileqq type=broadcastIntent flags=0x0
+    requestIntent=act=action.scheduler.access.trigger.timer
+  * PendingIntentRecord{c375c7c com.sec.android.app.samsungapps broadcastIntent}
+    uid=10038 packageName=com.sec.android.app.samsungapps type=broadcastIntent flags=0x0
+    requestIntent=cmp=com.sec.android.app.samsungapps/.AlarmReceiver
+    sent=true canceled=false
+  * PendingIntentRecord{fe4e0c3 com.wssyncmldm startService}
+    uid=1000 packageName=com.wssyncmldm type=startService flags=0x0
+    requestIntent=cmp=com.wssyncmldm/com.samsung.android.app.fotaclient.device.PollingIntentService
+  * PendingIntentRecord{cd4c20b com.tencent.android.qqdownloader broadcastIntent}
+    uid=10406 packageName=com.tencent.android.qqdownloader type=broadcastIntent flags=0x0
+    requestCode=1188778716 requestResolvedType=null
+    requestIntent=act=com.tencent.android.qqdownloader.action.SCHEDULE_JOB_IN_DAEMON (has extras)
+  * PendingIntentRecord{b668416 flipboard.cn broadcastIntent}
+    uid=10095 packageName=flipboard.cn type=broadcastIntent flags=0x0
+    requestIntent=cmp=flipboard.cn/flipboard.notifications.ClearNotificationReceiver (has extras)
+    sent=true canceled=false
+  * PendingIntentRecord{30de8a9 com.samsung.android.sm.devicesecurity broadcastIntent}
+    uid=5012 packageName=com.samsung.android.sm.devicesecurity type=broadcastIntent flags=0x0
+    requestIntent=act=com.samsung.android.sm.security.service.ACTION_START cmp=com.samsung.android.sm.devicesecurity/.BackgroundTaskReceiver
+  * PendingIntentRecord{e3db36d flipboard.cn startActivity}
+    uid=10095 packageName=flipboard.cn type=startActivity flags=0x0
+    requestCode=13 requestResolvedType=null
+    requestIntent=cmp=flipboard.cn/flipboard.service.FlipboardUrlHandler (has extras)
+  * PendingIntentRecord{938e8cc com.sec.android.inputmethod startService}
+    uid=1000 packageName=com.sec.android.inputmethod type=startService flags=0x40000000
+    requestCode=1989528818 requestResolvedType=null
+    requestIntent=cmp=com.sec.android.inputmethod/com.nuance.connect.service.ConnectClient (has extras)
+  * PendingIntentRecord{3ecba2 com.baidu.appsearch startActivity}
+    uid=10059 packageName=com.baidu.appsearch type=startActivity flags=0x0
+    requestIntent=act=com.baidu.appsearch.intent.action.HOME_PAGE flg=0x10000000
+    sent=true canceled=false
+  * PendingIntentRecord{8ae456b android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=com.android.server.WifiManager.action.DEVICE_IDLE
+  * PendingIntentRecord{4a10ff0 flipboard.cn startActivity}
+    uid=10095 packageName=flipboard.cn type=startActivity flags=0x0
+    requestCode=10 requestResolvedType=null
+    requestIntent=cmp=flipboard.cn/flipboard.service.FlipboardUrlHandler (has extras)
+  * PendingIntentRecord{a07258b com.samsung.android.app.sreminder broadcastIntent}
+    uid=10201 packageName=com.samsung.android.app.sreminder type=broadcastIntent flags=0x0
+    requestIntent=act=com.samsung.android.intelligenceservice.useranalysis.userhabitlog cmp=com.samsung.android.app.sreminder/.phone.setting.ProviderDataReceiver
+    sent=true canceled=false
+  * PendingIntentRecord{6d257e3 com.tencent.mobileqq broadcastIntent}
+    uid=10356 packageName=com.tencent.mobileqq type=broadcastIntent flags=0x0
+    requestIntent=act=MSF_Action_Refresh_Steps
+    sent=true canceled=false
+  * PendingIntentRecord{f0f1969 flipboard.cn startActivity}
+    uid=10095 packageName=flipboard.cn type=startActivity flags=0x0
+    requestCode=7 requestResolvedType=null
+    requestIntent=cmp=flipboard.cn/flipboard.service.FlipboardUrlHandler (has extras)
+  * PendingIntentRecord{60c5a9e android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=com.android.server.wifi.hs20.blacklist_alarm
+  * PendingIntentRecord{5bc2745 com.samsung.android.sm broadcastIntent}
+    uid=1000 packageName=com.samsung.android.sm type=broadcastIntent flags=0x0
+    requestCode=2343 requestResolvedType=null
+    requestIntent=act=com.samsung.android.sm.ACTION_LOGGING_ABNORMAL_APP_LIST
+    sent=true canceled=false
+  * PendingIntentRecord{32e1cfc com.android.systemui startActivity}
+    uid=10017 packageName=com.android.systemui type=startActivity flags=0x0
+    requestIntent=act=android.intent.action.DELETE cmp=com.android.systemui/.screenshot.ScreenshotDeleteActivity (has extras)
+  * PendingIntentRecord{b43a17c com.mobeam.barcodeService startService}
+    uid=1000 packageName=com.mobeam.barcodeService type=startService flags=0x0
+    requestIntent=act=com.mobeam.barcodeService.PULL
+  * PendingIntentRecord{48e4ed3 android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=sgeofence_session_alarm
+  * PendingIntentRecord{b9f3b1c com.baidu.appsearch startActivity}
+    uid=10059 packageName=com.baidu.appsearch type=startActivity flags=0x0
+    requestCode=2131623947 requestResolvedType=null
+    requestIntent=act=com.baidu.appsearch.extinvoker.LAUNCH flg=0x10800000 pkg=com.baidu.appsearch (has extras)
+    sent=true canceled=false
+  * PendingIntentRecord{6ce0a10 android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=com.samsung.MotionRecognitionService.action.POWER_BACKOFF
+  * PendingIntentRecord{c1aa1a7 com.baidu.searchbox_samsung broadcastIntent}
+    uid=10153 packageName=com.baidu.searchbox_samsung type=broadcastIntent flags=0x0
+    requestIntent=act=com.baidu.systemmonitor.getstoreinfo
+  * PendingIntentRecord{34429e9 com.sec.spp.push broadcastIntent}
+    uid=10034 packageName=com.sec.spp.push type=broadcastIntent flags=0x0
+    requestIntent=act=com.sec.spp.push.REQUEST_TIME_OUT_ACTION dat=sppRequest://com.sec.spp.push/-837132933
+  * PendingIntentRecord{e5f4f85 com.sec.android.widgetapp.dualcitywidget broadcastIntent}
+    uid=10085 packageName=com.sec.android.widgetapp.dualcitywidget type=broadcastIntent flags=0x0
+    requestCode=555967 requestResolvedType=null
+    requestIntent=act=com.sec.android.widgetapp.dualcitywidget.startactivity (has extras)
+  * PendingIntentRecord{3a77cc5 android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=android.content.syncmanager.SYNC_ALARM
+  * PendingIntentRecord{4610c68 android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=MARS_AUTO_RUN_TRAFFIC_STAT_REPEAT_ALARM flg=0x40000000 pkg=android
+    sent=true canceled=false
+  * PendingIntentRecord{3025472 com.wssyncmldm startService}
+    uid=1000 packageName=com.wssyncmldm type=startService flags=0x0
+    requestIntent=cmp=com.wssyncmldm/com.samsung.android.app.fotaclient.device.UpdateDeviceIntentService (has extras)
+  * PendingIntentRecord{8015e9c android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=com.android.server.action.UPDATE_TWILIGHT_STATE
+    sent=true canceled=false
+  * PendingIntentRecord{dff306f com.mobeam.barcodeService startService}
+    uid=1000 packageName=com.mobeam.barcodeService type=startService flags=0x0
+    requestIntent=act=com.mobeam.barcodeService.UPLOAD_BEAM_RECORD
+    sent=true canceled=false
+  * PendingIntentRecord{ead91da com.sec.android.widgetapp.dualcitywidget broadcastIntent}
+    uid=10085 packageName=com.sec.android.widgetapp.dualcitywidget type=broadcastIntent flags=0x0
+    requestCode=632158 requestResolvedType=null
+    requestIntent=act=com.sec.android.widgetapp.dualcitywidget.startactivity (has extras)
+  * PendingIntentRecord{edd4bd8 com.sec.android.app.music broadcastIntent}
+    uid=10150 packageName=com.sec.android.app.music type=broadcastIntent flags=0x0
+    requestIntent=act=com.sec.android.app.music.intent.action.START_SKIP_SILENCE pkg=com.sec.android.app.music
+  * PendingIntentRecord{75b9628 com.android.systemui startActivity}
+    uid=10017 packageName=com.android.systemui type=startActivity flags=0x0
+    requestIntent=cmp=com.android.systemui/.screenshot.ScreenshotViewActivity (has extras)
+    sent=true canceled=false
+  * PendingIntentRecord{43723bb com.sec.spp.push broadcastIntent}
+    uid=10034 packageName=com.sec.spp.push type=broadcastIntent flags=0x0
+    requestIntent=act=ACTION_ALARM_TRIGGER cmp=com.sec.spp.push/.dlc.sender.DlcForcedPvAlarmReceiver
+    sent=true canceled=false
+  * PendingIntentRecord{ae2202d android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestCode=2 requestResolvedType=null
+    requestIntent=act=com.samsung.location.intent_location_reported (has extras)
+  * PendingIntentRecord{4f2ed08 flipboard.cn startActivity}
+    uid=10095 packageName=flipboard.cn type=startActivity flags=0x0
+    requestCode=12 requestResolvedType=null
+    requestIntent=cmp=flipboard.cn/flipboard.service.FlipboardUrlHandler (has extras)
+  * PendingIntentRecord{b07c1e9 android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestCode=1 requestResolvedType=null
+    requestIntent=act=TwScheduleConditionProvider.EVALUATE flg=0x10000000 (has extras)
+    sent=true canceled=false
+  * PendingIntentRecord{f98d5e3 com.samsung.android.securitylogagent broadcastIntent}
+    uid=1000 packageName=com.samsung.android.securitylogagent type=broadcastIntent flags=0x0
+    requestCode=265139126 requestResolvedType=null
+    requestIntent=cmp=com.samsung.android.securitylogagent/.receivers.UploadReceiver
+    sent=true canceled=false
+  * PendingIntentRecord{e365428 com.enhance.gameservice startService}
+    uid=10112 packageName=com.enhance.gameservice type=startService flags=0x0
+    requestCode=1000 requestResolvedType=null
+    requestIntent=cmp=com.enhance.gameservice/.MainIntentService (has extras)
+    sent=true canceled=false
+  * PendingIntentRecord{bd78ca1 com.baidu.appsearch startActivity}
+    uid=10059 packageName=com.baidu.appsearch type=startActivity flags=0x0
+    requestCode=2131623943 requestResolvedType=null
+    requestIntent=flg=0x10000000 pkg=com.baidu.appsearch cmp=com.baidu.appsearch/.desktopspeedup.NewDesktopSpeedUpAnimationActivity (has extras)
+  * PendingIntentRecord{dee07d3 com.android.systemui broadcastIntent}
+    uid=10017 packageName=com.android.systemui type=broadcastIntent flags=0x0
+    requestIntent=act=com.bst.action.DATE_CHANGED
+    sent=true canceled=false
+  * PendingIntentRecord{563795d com.sec.android.inputmethod startService}
+    uid=1000 packageName=com.sec.android.inputmethod type=startService flags=0x40000000
+    requestCode=-153113411 requestResolvedType=null
+    requestIntent=cmp=com.sec.android.inputmethod/com.nuance.connect.service.ConnectClient (has extras)
+  * PendingIntentRecord{712d8b5 com.sec.android.app.music broadcastIntent}
+    uid=10150 packageName=com.sec.android.app.music type=broadcastIntent flags=0x0
+    requestIntent=act=com.samsung.musicplus.musicservicecommand.ACTION_MUSIC_CLOSE
+  * PendingIntentRecord{6c52a5e com.tencent.android.qqdownloader broadcastIntent}
+    uid=10406 packageName=com.tencent.android.qqdownloader type=broadcastIntent flags=0x0
+    requestIntent=act=wns.heartbeat
+    sent=true canceled=false
+  * PendingIntentRecord{613e5e5 android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=MARS_AUTO_RUN_REPEAT_ALARM flg=0x40000000 pkg=android
+    sent=true canceled=false
+  * PendingIntentRecord{ae19dbd com.tencent.android.qqdownloader broadcastIntent}
+    uid=10406 packageName=com.tencent.android.qqdownloader type=broadcastIntent flags=0x0
+    requestIntent=act=action.scheduler.access.trigger.timer
+  * PendingIntentRecord{af3b60b com.bst.floatingmsgproxy broadcastIntent}
+    uid=10001 packageName=com.bst.floatingmsgproxy type=broadcastIntent flags=0x0
+    requestIntent=act=com.bst.repeatregister
+  * PendingIntentRecord{3ebe009 com.samsung.greetingcard broadcastIntent}
+    uid=10223 packageName=com.samsung.greetingcard type=broadcastIntent flags=0x0
+    requestIntent=act=eventnotification.action.MIDNIGHT_AND_NOON_BROADCAST
+    sent=true canceled=false
+  * PendingIntentRecord{f05be32 com.tencent.android.qqdownloader broadcastIntent}
+    uid=10406 packageName=com.tencent.android.qqdownloader type=broadcastIntent flags=0x0
+    requestCode=113202895 requestResolvedType=null
+    requestIntent=act=com.tencent.android.qqdownloader.action.SCHEDULE_JOB_IN_DAEMON (has extras)
+  * PendingIntentRecord{73d8690 com.samsung.android.sm broadcastIntent}
+    uid=1000 packageName=com.samsung.android.sm type=broadcastIntent flags=0x0
+    requestCode=2354 requestResolvedType=null
+    requestIntent=act=com.samsung.android.sm.ACTION_APPLOCKING_NOTI_BROADCAST
+    sent=true canceled=false
+  * PendingIntentRecord{2be0ce8 com.sec.android.widgetapp.dualcitywidget broadcastIntent}
+    uid=10085 packageName=com.sec.android.widgetapp.dualcitywidget type=broadcastIntent flags=0x0
+    requestIntent=act=com.sec.android.widgetapp.dualcitywidget.startactivity cmp=com.sec.android.widgetapp.dualcitywidget/.DualCityWidget (has extras)
+  * PendingIntentRecord{d522bf5 android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=com.android.server.WifiManager.action.START_PNO flg=0x4000000 pkg=android
+  * PendingIntentRecord{321e4dc com.sec.android.app.music startActivity}
+    uid=10150 packageName=com.sec.android.app.music type=startActivity flags=0x0
+    requestCode=117506050 requestResolvedType=null
+    requestIntent=act=com.sec.android.app.music.intent.action.LAUNCH_MUSIC pkg=com.sec.android.app.music (has extras)
+    sent=true canceled=false
+  * PendingIntentRecord{4bba9f8 com.sec.spp.push broadcastIntent}
+    uid=10034 packageName=com.sec.spp.push type=broadcastIntent flags=0x0
+    requestIntent=act=com.sec.spp.push.ACTION_CONNECTION_STATE_CHECK
+    sent=true canceled=false
+  * PendingIntentRecord{9634e59 com.sec.android.inputmethod startService}
+    uid=1000 packageName=com.sec.android.inputmethod type=startService flags=0x40000000
+    requestCode=634687005 requestResolvedType=null
+    requestIntent=cmp=com.sec.android.inputmethod/com.nuance.connect.service.ConnectClient (has extras)
+  * PendingIntentRecord{ae5e6e3 android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=com.android.server.LightsService.action.UPDATE_SVC_LED
+    sent=true canceled=false
+  * PendingIntentRecord{6cea8e0 com.android.bluetooth broadcastIntent}
+    uid=1002 packageName=com.android.bluetooth type=broadcastIntent flags=0x0
+    requestIntent=act=com.android.bluetooth.gatt.REFRESH_BATCHED_SCAN
+  * PendingIntentRecord{88a59db com.tencent.mobileqq broadcastIntent}
+    uid=10356 packageName=com.tencent.mobileqq type=broadcastIntent flags=0x0
+    requestIntent=act=com.tencent.mobileqq:MSF_54999960
+    sent=true canceled=false
+  * PendingIntentRecord{b4dd9c9 com.tencent.android.qqdownloader broadcastIntent}
+    uid=10406 packageName=com.tencent.android.qqdownloader type=broadcastIntent flags=0x0
+    requestCode=-145713534 requestResolvedType=null
+    requestIntent=act=com.tencent.android.qqdownloader.action.SCHEDULE_JOB_IN_DAEMON (has extras)
+  * PendingIntentRecord{da0d41c com.tencent.mobileqq broadcastIntent}
+    uid=10356 packageName=com.tencent.mobileqq type=broadcastIntent flags=0x0
+    requestIntent=act=StepAlarmReceiver_action_report
+  * PendingIntentRecord{f7aaa88 com.tianyancha.skyeye startService}
+    uid=10441 packageName=com.tianyancha.skyeye type=startService flags=0x0
+    requestIntent=act=com.tianyancha.skyeye.intent.action.COCKROACH (has extras)
+  * PendingIntentRecord{7f8134c com.samsung.android.coreapps startService}
+    uid=5011 packageName=com.samsung.android.coreapps type=startService flags=0x0
+    requestCode=150 requestResolvedType=null
+    requestIntent=flg=0x20 cmp=com.samsung.android.coreapps/.easysignup.service.SelfUpgradeService
+    sent=true canceled=false
+  * PendingIntentRecord{4d05520 flipboard.cn startActivity}
+    uid=10095 packageName=flipboard.cn type=startActivity flags=0x0
+    requestCode=11 requestResolvedType=null
+    requestIntent=cmp=flipboard.cn/flipboard.service.FlipboardUrlHandler (has extras)
+  * PendingIntentRecord{147d455 android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=android.net.proxy.PAC_REFRESH
+  * PendingIntentRecord{a7cdee0 com.sec.spp.push broadcastIntent}
+    uid=10034 packageName=com.sec.spp.push type=broadcastIntent flags=0x0
+    requestIntent=cmp=com.sec.spp.push/.receiver.OneDayCheckTimer
+    sent=true canceled=false
+  * PendingIntentRecord{8cd3703 com.sec.spp.push startService}
+    uid=10034 packageName=com.sec.spp.push type=startService flags=0x0
+    requestIntent=act=ACTION_RESET_DAY_LIMIT cmp=com.sec.spp.push/.dlc.db.DbService
+    sent=true canceled=false
+  * PendingIntentRecord{d642ed9 flipboard.cn startActivity}
+    uid=10095 packageName=flipboard.cn type=startActivity flags=0x0
+    requestCode=8 requestResolvedType=null
+    requestIntent=cmp=flipboard.cn/flipboard.service.FlipboardUrlHandler (has extras)
+  * PendingIntentRecord{f3b1b7a com.sec.spp.push broadcastIntent}
+    uid=10034 packageName=com.sec.spp.push type=broadcastIntent flags=0x0
+    requestIntent=act=com.sec.spp.push.ACTION_SEND_PING_MESSAGE cmp=com.sec.spp.push/.heartbeat.HeartBeat (has extras)
+  * PendingIntentRecord{a1a4276 com.sec.spp.push broadcastIntent}
+    uid=10034 packageName=com.sec.spp.push type=broadcastIntent flags=0x0
+    requestIntent=act=com.sec.spp.push.ALARM_TIMER_ACTION dat=spp://com.sec.spp.push/session_timer
+    sent=true canceled=false
+  * PendingIntentRecord{1355b6e android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=android.net.wifi.DHCP_RENEW
+  * PendingIntentRecord{3498f95 com.policydm broadcastIntent}
+    uid=1000 packageName=com.policydm type=broadcastIntent flags=0x0
+    requestIntent=act=sec.policyagent.action.POLLING_TIME
+  * PendingIntentRecord{d057e6a android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=com.android.server.WifiManager.action.START_SCAN flg=0x4000000 pkg=android
+  * PendingIntentRecord{7e74fb9 com.sec.android.app.eventnotification broadcastIntent}
+    uid=10091 packageName=com.sec.android.app.eventnotification type=broadcastIntent flags=0x0
+    requestIntent=act=eventnotification.action.MIDNIGHT_AND_NOON_BROADCAST
+    sent=true canceled=false
+  * PendingIntentRecord{320b80a android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x4000000
+    requestIntent=act=android.intent.action.DATE_CHANGED flg=0x20000000
+    sent=true canceled=false
+  * PendingIntentRecord{c8b7075 android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=android.intent.action.TIME_TICK flg=0x50000000
+    sent=true canceled=false
+  * PendingIntentRecord{6fe78fc com.tencent.android.qqdownloader broadcastIntent}
+    uid=10406 packageName=com.tencent.android.qqdownloader type=broadcastIntent flags=0x0
+    requestCode=-1429046520 requestResolvedType=null
+    requestIntent=act=com.tencent.android.qqdownloader.action.SCHEDULE_JOB_IN_DAEMON (has extras)
+    sent=true canceled=false
+  * PendingIntentRecord{7d74f5b com.baidu.searchbox_samsung startActivity}
+    uid=10153 packageName=com.baidu.searchbox_samsung type=startActivity flags=0x0
+    requestIntent=act=com.baidu.searchbox.action.FROM_WIDGET_PROVIDER cat=[com.baidu.searchbox.category.TRANS_SEARCH] cmp=com.baidu.searchbox_samsung/com.baidu.searchbox.SearchActivity (has extras)
+  * PendingIntentRecord{e7e60d1 android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=android.net.wifi.p2p.STOPFIND_TIMER_EXPIRED
+  * PendingIntentRecord{b8517a4 android startActivity}
+    uid=1000 packageName=android type=startActivity flags=0x0
+    requestIntent=act=android.intent.action.CHOOSER (has extras)
+  * PendingIntentRecord{1b7390d android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=com.android.internal.location.ALARM_TIMEOUT
+  * PendingIntentRecord{64a5f01 com.sec.android.app.music broadcastIntent}
+    uid=10150 packageName=com.sec.android.app.music type=broadcastIntent flags=0x0
+    requestCode=1 requestResolvedType=null
+    requestIntent=act=com.samsung.musicplus.musicservicecommand.ACTION_MUSIC_CLOSE
+  * PendingIntentRecord{c16b912 com.sec.android.app.music broadcastIntent}
+    uid=10150 packageName=com.sec.android.app.music type=broadcastIntent flags=0x0
+    requestIntent=act=android.intent.action.MEDIA_BUTTON flg=0x10000000 cmp=com.sec.android.app.music/com.samsung.android.app.music.service.receiver.MediaButtonReceiver
+    sent=true canceled=false
+  * PendingIntentRecord{b7370c2 com.baidu.searchbox_samsung startActivity}
+    uid=10153 packageName=com.baidu.searchbox_samsung type=startActivity flags=0x0
+    requestIntent=act=com.baidu.searchbox.plugin.action.VOICESEARCH_FROM_WIDGET dat=widgetid://1 flg=0x10000000 (has extras)
+  * PendingIntentRecord{262f1a6 com.sec.android.app.music startService}
+    uid=10150 packageName=com.sec.android.app.music type=startService flags=0x0
+    requestIntent=act=com.samsung.musicplus.musicservicecommand.next cmp=com.sec.android.app.music/com.samsung.android.app.music.service.PlayerService
+  * PendingIntentRecord{623cd88 com.tencent.android.qqdownloader broadcastIntent}
+    uid=10406 packageName=com.tencent.android.qqdownloader type=broadcastIntent flags=0x0
+    requestCode=-118523837 requestResolvedType=null
+    requestIntent=act=com.tencent.android.qqdownloader.action.SCHEDULE_JOB_IN_DAEMON (has extras)
+  * PendingIntentRecord{6369bdb com.sec.android.app.sns3 broadcastIntent}
+    uid=10094 packageName=com.sec.android.app.sns3 type=broadcastIntent flags=0x0
+    requestCode=1000 requestResolvedType=null
+    requestIntent=act=com.sec.android.app.sns.profile.ACTION_CHECK_OLD_DATA
+    sent=true canceled=false
+  * PendingIntentRecord{2bfa838 com.baidu.appsearch startActivity}
+    uid=10059 packageName=com.baidu.appsearch type=startActivity flags=0x0
+    requestCode=2131623953 requestResolvedType=null
+    requestIntent=act=com.baidu.appsearch.extinvoker.LAUNCH flg=0x10800000 pkg=com.baidu.appsearch (has extras)
+  * PendingIntentRecord{6fd8668 com.samsung.android.app.sreminder broadcastIntent}
+    uid=10201 packageName=com.samsung.android.app.sreminder type=broadcastIntent flags=0x0
+    requestIntent=act=com.samsung.android.intelligenceservice.useranalysis.userhabitlog.sender cmp=com.samsung.android.app.sreminder/.phone.setting.ProviderDataReceiver
+    sent=true canceled=false
+  * PendingIntentRecord{52b5909 android startActivity}
+    uid=1000 packageName=android type=startActivity flags=0x0
+    requestIntent=act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.android.settings/.deviceinfo.UsbModeChooserActivity
+    sent=true canceled=false
+  * PendingIntentRecord{fe5052f android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=android.settings.SHOW_INPUT_METHOD_PICKER
+    sent=true canceled=false
+ACTIVITY MANAGER GRABED PENDING INTENTS
+

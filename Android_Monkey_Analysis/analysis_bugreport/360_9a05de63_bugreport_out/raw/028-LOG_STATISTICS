@@ -1,0 +1,45 @@
+size/num main               radio              events             system             crash              kernel
+Total    66972428/477902    98394/910          49348684/254633    114822/648         72416/210          0/0
+Now      261497/2861        98394/910          242499/1348        64830/322          52746/202
+
+Chattiest UIDs in main log buffer:                              Size Pruned
+UID   PACKAGE                                                   BYTES LINES
+1000  system                                                   139608 11374
+10022 com.android.providers.media                               33987
+10299 com.tianyancha.skyeye                                     32637
+10004 com.qihoo360.mobilesafe                                   16813
+1010  wifi                                                       8902
+10111 com.tencent.mobileqq                                       5759
+1013  media                                                      4978
+10010 com.qihoo.appstore                                         4794
+0     root                                                       3407
+1001  radio                                                      3328
+
+
+Chattiest UIDs in radio log buffer:                             Size Pruned
+UID   PACKAGE                                                   BYTES LINES
+1001  radio                                                     98336
+
+
+Chattiest UIDs in events log buffer:                             Size
+UID   PACKAGE                                                   BYTES
+1000  system                                                   240725
+
+
+Chattiest UIDs in system log buffer:                            Size Pruned
+UID   PACKAGE                                                   BYTES LINES
+1000  system                                                    53940
+10129 com.tencent.android.qqdownloader                           3919
+10114 com.ziroom.ziroomcustomer                                  3904
+10298                                                             965
+
+
+Chattiest UIDs in crash log buffer:                              Size
+UID   PACKAGE                                                   BYTES
+10297                                                           39957
+10298                                                            9904
+10002 com.koushikdutta.vysor                                     1816
+0     root                                                        809
+
+[logcat: 0.032s elapsed]
+

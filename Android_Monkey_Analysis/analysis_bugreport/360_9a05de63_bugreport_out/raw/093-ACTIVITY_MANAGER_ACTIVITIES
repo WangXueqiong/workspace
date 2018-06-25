@@ -1,0 +1,212 @@
+Display #0 (activities from top to bottom):
+  Stack #0:
+    Task id #1
+    * TaskRecord{fce2d90 #1 A=com.yulong.android.launcher3 U=0 sz=1}
+      userId=0 effectiveUid=u0a48 mCallingUid=1000 mCallingPackage=android
+      affinity=com.yulong.android.launcher3
+      intent={act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 cmp=com.yulong.android.launcher3/.Launcher}
+      realActivity=com.yulong.android.launcher3/.Launcher
+      autoRemoveRecents=false isPersistable=true numFullscreen=1 taskType=1 mTaskToReturnTo=0
+      rootWasReset=false mNeverRelinquishIdentity=true mReuseTask=false mLockTaskAuth=LOCK_TASK_AUTH_PINNABLE
+      Activities=[ActivityRecord{da9e3a6 u0 com.yulong.android.launcher3/.Launcher t1}]
+      askedCompatMode=false inRecents=true isAvailable=true
+      lastThumbnail=null lastThumbnailFile=/data/system/recent_images/1_task_thumbnail.png
+      stackId=0
+      hasBeenVisible=true mResizeable=false firstActiveTime=1514107533759 lastActiveTime=1514107533759 (inactive for 32s)
+      * Hist #0: ActivityRecord{da9e3a6 u0 com.yulong.android.launcher3/.Launcher t1}
+          packageName=com.yulong.android.launcher3 processName=com.yulong.android.launcher3
+          launchedFromUid=0 launchedFromPackage=null userId=0
+          app=ProcessRecord{6d58682 2789:com.yulong.android.launcher3/u0a48}
+          Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 cmp=com.yulong.android.launcher3/.Launcher }
+          frontOfTask=true task=TaskRecord{fce2d90 #1 A=com.yulong.android.launcher3 U=0 sz=1}
+          taskAffinity=com.yulong.android.launcher3
+          realActivity=com.yulong.android.launcher3/.Launcher
+          baseDir=/data/app/com.yulong.android.launcher3-1/base.apk
+          dataDir=/data/user/0/com.yulong.android.launcher3
+          stateNotNeeded=true componentSpecified=false mActivityType=1
+          compat={480dpi} labelRes=0x7f0e0002 icon=0x7f02008a theme=0x7f0d0002
+          config={(default font) 1.0 460mcc3mnc zh_CN ldltr sw360dp w360dp h616dp 480dpi nrml long port finger -keyb/v/h -nav/h s.15}
+          stackConfigOverride={(default font) 1.0 ?mcc?mnc ?locale ?layoutDir ?swdp ?wdp ?hdp ?density ?lsize ?long ?orien ?uimode ?night ?touch ?keyb/?/? ?nav/?}
+          taskDescription: iconFilename=null label="null" color=ffe6e6e6
+          launchFailed=false launchCount=0 lastLaunchTime=-9h47m40s952ms
+          haveState=false icicle=null
+          state=RESUMED stopped=false delayedResume=false finishing=false
+          keysPaused=false inHistory=true visible=true sleeping=false idle=true
+          fullscreen=true noDisplay=false immersive=false launchMode=2
+          frozenBeforeDestroy=false forceNewConfig=false
+          mActivityType=HOME_ACTIVITY_TYPE
+          waitingVisible=false nowVisible=true lastVisibleTime=-31s760ms
+
+    Running activities (most recent first):
+      TaskRecord{fce2d90 #1 A=com.yulong.android.launcher3 U=0 sz=1}
+        Run #0: ActivityRecord{da9e3a6 u0 com.yulong.android.launcher3/.Launcher t1}
+
+    mResumedActivity: ActivityRecord{da9e3a6 u0 com.yulong.android.launcher3/.Launcher t1}
+    mLastPausedActivity: ActivityRecord{da9e3a6 u0 com.yulong.android.launcher3/.Launcher t1}
+
+  Stack #2:
+    Task id #63
+    * TaskRecord{a0b7689 #63 I=com.android.settings/com.qiku.android.settings.activities.YLUsbSettings U=0 sz=1}
+      userId=0 effectiveUid=1000 mCallingUid=1000 mCallingPackage=android
+      intent={act=com.android.settings.USBSETTING flg=0x34000000 cmp=com.android.settings/com.qiku.android.settings.activities.YLUsbSettings}
+      realActivity=com.android.settings/com.qiku.android.settings.activities.YLUsbSettings
+      autoRemoveRecents=false isPersistable=true numFullscreen=1 taskType=0 mTaskToReturnTo=1
+      rootWasReset=false mNeverRelinquishIdentity=true mReuseTask=false mLockTaskAuth=LOCK_TASK_AUTH_PINNABLE
+      Activities=[ActivityRecord{781ba43 u0 com.android.settings/com.qiku.android.settings.activities.YLUsbSettings t63}]
+      askedCompatMode=false inRecents=true isAvailable=true
+      lastThumbnail=android.graphics.Bitmap@bf5668e lastThumbnailFile=/data/system/recent_images/63_task_thumbnail.png
+      stackId=2
+      hasBeenVisible=true mResizeable=false firstActiveTime=1514107533677 lastActiveTime=1514107533677 (inactive for 32s)
+      * Hist #0: ActivityRecord{781ba43 u0 com.android.settings/com.qiku.android.settings.activities.YLUsbSettings t63}
+          packageName=com.android.settings processName=com.android.settings
+          launchedFromUid=1000 launchedFromPackage=android userId=0
+          app=ProcessRecord{38c3607 2769:com.android.settings/1000}
+          Intent { act=com.android.settings.USBSETTING flg=0x34000000 cmp=com.android.settings/com.qiku.android.settings.activities.YLUsbSettings }
+          frontOfTask=true task=TaskRecord{a0b7689 #63 I=com.android.settings/com.qiku.android.settings.activities.YLUsbSettings U=0 sz=1}
+          taskAffinity=null
+          realActivity=com.android.settings/com.qiku.android.settings.activities.YLUsbSettings
+          baseDir=/system/app/CP_SystemSetting/CP_SystemSetting.apk
+          dataDir=/data/user/0/com.android.settings
+          stateNotNeeded=false componentSpecified=false mActivityType=0
+          compat={480dpi} labelRes=0x7f0e0180 icon=0x7f080173 theme=0x7f0f00b6
+          config={(default font) 1.0 460mcc3mnc zh_CN ldltr sw360dp w360dp h616dp 480dpi nrml long port finger -keyb/v/h -nav/h s.15}
+          stackConfigOverride={(default font) 1.0 ?mcc?mnc ?locale ?layoutDir ?swdp ?wdp ?hdp ?density ?lsize ?long ?orien ?uimode ?night ?touch ?keyb/?/? ?nav/?}
+          taskDescription: iconFilename=null label="null" color=fff5f5f5
+          launchFailed=false launchCount=0 lastLaunchTime=-1h28m39s621ms
+          haveState=true icicle=Bundle[mParcelledData.dataSize=2204]
+          state=STOPPED stopped=true delayedResume=false finishing=false
+          keysPaused=false inHistory=true visible=false sleeping=false idle=true
+          fullscreen=true noDisplay=false immersive=false launchMode=0
+          frozenBeforeDestroy=false forceNewConfig=false
+          mActivityType=APPLICATION_ACTIVITY_TYPE
+          waitingVisible=false nowVisible=false lastVisibleTime=-1h28m39s354ms
+
+    Task id #58
+    * TaskRecord{d1092bc #58 A=com.android.settings U=0 sz=1}
+      userId=0 effectiveUid=1000 mCallingUid=u0a48 mCallingPackage=com.yulong.android.launcher3
+      affinity=com.android.settings
+      intent={act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.settings/.Settings}
+      origActivity=com.android.settings/.Settings
+      realActivity=com.android.settings/.Settings
+      autoRemoveRecents=false isPersistable=true numFullscreen=1 taskType=0 mTaskToReturnTo=1
+      rootWasReset=true mNeverRelinquishIdentity=true mReuseTask=false mLockTaskAuth=LOCK_TASK_AUTH_PINNABLE
+      Activities=[ActivityRecord{a26cf0b u0 com.android.settings/.Settings t58}]
+      askedCompatMode=false inRecents=true isAvailable=true
+      lastThumbnail=android.graphics.Bitmap@62bf245 lastThumbnailFile=/data/system/recent_images/58_task_thumbnail.png
+      stackId=2
+      hasBeenVisible=true mResizeable=false firstActiveTime=1514102121801 lastActiveTime=1514102121801 (inactive for 5443s)
+      * Hist #0: ActivityRecord{a26cf0b u0 com.android.settings/.Settings t58}
+          packageName=com.android.settings processName=com.android.settings
+          launchedFromUid=10048 launchedFromPackage=com.yulong.android.launcher3 userId=0
+          app=ProcessRecord{38c3607 2769:com.android.settings/1000}
+          Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.settings/.Settings bnds=[540,1280][798,1570] (has extras) }
+          frontOfTask=true task=TaskRecord{d1092bc #58 A=com.android.settings U=0 sz=1}
+          taskAffinity=com.android.settings
+          realActivity=com.android.settings/.Settings
+          baseDir=/system/app/CP_SystemSetting/CP_SystemSetting.apk
+          dataDir=/data/user/0/com.android.settings
+          stateNotNeeded=false componentSpecified=true mActivityType=0
+          compat={480dpi} labelRes=0x7f0e0181 icon=0x7f080173 theme=0x7f0f00b6
+          config={(default font) 1.0 460mcc3mnc zh_CN ldltr sw360dp w360dp h616dp 480dpi nrml long port finger -keyb/v/h -nav/h s.15}
+          stackConfigOverride={(default font) 1.0 ?mcc?mnc ?locale ?layoutDir ?swdp ?wdp ?hdp ?density ?lsize ?long ?orien ?uimode ?night ?touch ?keyb/?/? ?nav/?}
+          taskDescription: iconFilename=null label="null" color=fff5f5f5
+          launchFailed=false launchCount=0 lastLaunchTime=-1h31m6s893ms
+          haveState=true icicle=Bundle[mParcelledData.dataSize=8928]
+          state=STOPPED stopped=true delayedResume=false finishing=false
+          keysPaused=false inHistory=true visible=false sleeping=false idle=true
+          fullscreen=true noDisplay=false immersive=false launchMode=2
+          frozenBeforeDestroy=false forceNewConfig=false
+          mActivityType=APPLICATION_ACTIVITY_TYPE
+          waitingVisible=false nowVisible=false lastVisibleTime=-1h30m44s578ms
+
+    Task id #6
+    * TaskRecord{d01ac0 #6 A=com.qihoo360.mobilesafe U=0 sz=1}
+      userId=0 effectiveUid=u0a4 mCallingUid=u0a4 mCallingPackage=com.qihoo360.mobilesafe
+      affinity=com.qihoo360.mobilesafe
+      intent={cat=[process:-2147483648,container:com.qihoo360.mobilesafe.loader.a.ActivityN1T1,plugin:notifyx,activity:com.qihoo360.mobilesafe.notifyx.ui.QQCleanDialogActivity,counter:0] flg=0x10000000 cmp=com.qihoo360.mobilesafe/.loader.a.ActivityN1T1}
+      realActivity=com.qihoo360.mobilesafe/.loader.a.ActivityN1T1
+      autoRemoveRecents=false isPersistable=true numFullscreen=0 taskType=0 mTaskToReturnTo=1
+      rootWasReset=false mNeverRelinquishIdentity=true mReuseTask=false mLockTaskAuth=LOCK_TASK_AUTH_PINNABLE
+      Activities=[ActivityRecord{3626c5b u0 com.qihoo360.mobilesafe/.loader.a.ActivityN1T1 t6}]
+      askedCompatMode=false inRecents=true isAvailable=true
+      lastThumbnail=null lastThumbnailFile=/data/system/recent_images/6_task_thumbnail.png
+      stackId=2
+      hasBeenVisible=true mResizeable=false firstActiveTime=1513849749735 lastActiveTime=1513849749735 (inactive for 257816s)
+      * Hist #0: ActivityRecord{3626c5b u0 com.qihoo360.mobilesafe/.loader.a.ActivityN1T1 t6}
+          packageName=com.qihoo360.mobilesafe processName=com.qihoo360.mobilesafe
+          launchedFromUid=10004 launchedFromPackage=com.qihoo360.mobilesafe userId=0
+          app=null
+          Intent { cat=[process:-2147483648,container:com.qihoo360.mobilesafe.loader.a.ActivityN1T1,plugin:notifyx,activity:com.qihoo360.mobilesafe.notifyx.ui.QQCleanDialogActivity,counter:0] flg=0x10000000 cmp=com.qihoo360.mobilesafe/.loader.a.ActivityN1T1 (has extras) }
+          frontOfTask=true task=TaskRecord{d01ac0 #6 A=com.qihoo360.mobilesafe U=0 sz=1}
+          taskAffinity=com.qihoo360.mobilesafe
+          realActivity=com.qihoo360.mobilesafe/.loader.a.ActivityN1T1
+          baseDir=/system/priv-app/BY_3RD_360MobileSafe/BY_3RD_360MobileSafe.apk
+          dataDir=/data/user/0/com.qihoo360.mobilesafe
+          stateNotNeeded=false componentSpecified=true mActivityType=0
+          compat={480dpi} labelRes=0x7f090009 icon=0x7f020000 theme=0x1030010
+          config={(default font) 1.0 ?mcc?mnc zh_CN ldltr sw360dp w360dp h616dp 480dpi nrml long port finger -keyb/v/h -nav/h s.5}
+          stackConfigOverride={(default font) 1.0 ?mcc?mnc ?locale ?layoutDir ?swdp ?wdp ?hdp ?density ?lsize ?long ?orien ?uimode ?night ?touch ?keyb/?/? ?nav/?}
+          taskDescription: iconFilename=null label="null" color=ffe6e6e6
+          launchFailed=false launchCount=0 lastLaunchTime=-9h42m56s234ms
+          haveState=true icicle=Bundle[mParcelledData.dataSize=196]
+          state=DESTROYED stopped=true delayedResume=false finishing=false
+          keysPaused=false inHistory=true visible=false sleeping=false idle=true
+          fullscreen=false noDisplay=false immersive=false launchMode=0
+          frozenBeforeDestroy=false forceNewConfig=false
+          mActivityType=APPLICATION_ACTIVITY_TYPE
+
+    Task id #5
+    * TaskRecord{ea1cf8e #5 A=com.tencent.mobileqq U=0 sz=1}
+      userId=0 effectiveUid=u0a111 mCallingUid=u0a111 mCallingPackage=com.tencent.mobileqq
+      affinity=com.tencent.mobileqq
+      intent={act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.tencent.mobileqq/.activity.SplashActivity}
+      realActivity=com.tencent.mobileqq/.activity.SplashActivity
+      autoRemoveRecents=false isPersistable=true numFullscreen=1 taskType=0 mTaskToReturnTo=1
+      rootWasReset=true mNeverRelinquishIdentity=true mReuseTask=false mLockTaskAuth=LOCK_TASK_AUTH_PINNABLE
+      Activities=[ActivityRecord{e77a112 u0 com.tencent.mobileqq/.activity.SplashActivity t5}]
+      askedCompatMode=false inRecents=true isAvailable=true
+      lastThumbnail=null lastThumbnailFile=/data/system/recent_images/5_task_thumbnail.png
+      stackId=2
+      hasBeenVisible=true mResizeable=false firstActiveTime=1513926043485 lastActiveTime=1513926043485 (inactive for 181522s)
+      * Hist #0: ActivityRecord{e77a112 u0 com.tencent.mobileqq/.activity.SplashActivity t5}
+          packageName=com.tencent.mobileqq processName=com.tencent.mobileqq
+          launchedFromUid=10111 launchedFromPackage=com.tencent.mobileqq userId=0
+          app=null
+          Intent { flg=0x4040000 cmp=com.tencent.mobileqq/.activity.SplashActivity bnds=[540,410][798,700] (has extras) }
+          frontOfTask=true task=TaskRecord{ea1cf8e #5 A=com.tencent.mobileqq U=0 sz=1}
+          taskAffinity=com.tencent.mobileqq
+          realActivity=com.tencent.mobileqq/.activity.SplashActivity
+          baseDir=/data/app/com.tencent.mobileqq-1/base.apk
+          dataDir=/data/user/0/com.tencent.mobileqq
+          stateNotNeeded=false componentSpecified=true mActivityType=0
+          compat={480dpi} labelRes=0x7f0b157f icon=0x7f0204e0 theme=0x7f0e032f
+          config={(default font) 1.0 460mcc3mnc zh_CN ldltr sw360dp w360dp h616dp 480dpi nrml long port finger -keyb/v/h -nav/h s.9}
+          stackConfigOverride={(default font) 1.0 ?mcc?mnc ?locale ?layoutDir ?swdp ?wdp ?hdp ?density ?lsize ?long ?orien ?uimode ?night ?touch ?keyb/?/? ?nav/?}
+          taskDescription: iconFilename=null label="null" color=ffe6e6e6
+          launchFailed=false launchCount=0 lastLaunchTime=-6h8m11s258ms
+          haveState=true icicle=Bundle[mParcelledData.dataSize=12496]
+          state=DESTROYED stopped=true delayedResume=false finishing=false
+          keysPaused=false inHistory=true visible=false sleeping=false idle=true
+          fullscreen=true noDisplay=false immersive=false launchMode=1
+          frozenBeforeDestroy=false forceNewConfig=false
+          mActivityType=APPLICATION_ACTIVITY_TYPE
+          waitingVisible=false nowVisible=false lastVisibleTime=-5h28m49s297ms
+
+    Running activities (most recent first):
+      TaskRecord{a0b7689 #63 I=com.android.settings/com.qiku.android.settings.activities.YLUsbSettings U=0 sz=1}
+        Run #1: ActivityRecord{781ba43 u0 com.android.settings/com.qiku.android.settings.activities.YLUsbSettings t63}
+      TaskRecord{d1092bc #58 A=com.android.settings U=0 sz=1}
+        Run #0: ActivityRecord{a26cf0b u0 com.android.settings/.Settings t58}
+
+    mLastPausedActivity: ActivityRecord{781ba43 u0 com.android.settings/com.qiku.android.settings.activities.YLUsbSettings t63}
+
+  mFocusedActivity: ActivityRecord{da9e3a6 u0 com.yulong.android.launcher3/.Launcher t1}
+  mFocusedStack=ActivityStack{6ce8f3e stackId=0, 1 tasks} mLastFocusedStack=ActivityStack{6ce8f3e stackId=0, 1 tasks}
+  mSleepTimeout=false
+  mCurTaskId=68
+  mUserStackInFront={}
+  mActivityContainers={0=ActivtyContainer{0}A, 2=ActivtyContainer{2}A}
+  mLockTaskModeState=NONE mLockTaskPackages (userId:packages)=
+    0:[]
+ mLockTaskModeTasks[]
+

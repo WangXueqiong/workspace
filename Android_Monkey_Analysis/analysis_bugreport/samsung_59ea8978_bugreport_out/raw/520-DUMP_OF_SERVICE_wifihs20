@@ -1,0 +1,20 @@
+HS20StateMachine:
+ total records=15
+ rec[0]: time=12-20 16:51:04.485 processed=<null> org=DiscoveringState dest=<null> what=7072(0x1ba0)
+ rec[1]: time=12-20 16:51:19.092 processed=DefaultState org=DiscoveringState dest=<null> what=7031(0x1b77)
+ rec[2]: time=12-20 16:51:19.092 processed=DefaultState org=DiscoveringState dest=DiscoveringState what=7025(0x1b71)
+ rec[3]: time=12-20 17:34:16.788 processed=<null> org=DiscoveringState dest=<null> what=7072(0x1ba0)
+ rec[4]: time=12-20 17:34:17.463 processed=<null> org=DiscoveringState dest=<null> what=7072(0x1ba0)
+ rec[5]: time=12-20 17:34:17.464 processed=DiscoveringState org=DiscoveringState dest=DisablingState what=7026(0x1b72)
+ rec[6]: time=12-20 17:34:17.467 processed=DisablingState org=DisablingState dest=DisabledState what=7021(0x1b6d)
+ rec[7]: time=12-20 19:28:16.881 processed=<null> org=DisabledState dest=<null> what=7072(0x1ba0)
+ rec[8]: time=12-20 19:28:16.882 processed=DisabledState org=DisabledState dest=DiscoveringState what=7025(0x1b71)
+ rec[9]: time=12-24 16:13:12.918 processed=<null> org=DiscoveringState dest=<null> what=7072(0x1ba0)
+ rec[10]: time=12-24 16:13:13.706 processed=<null> org=DiscoveringState dest=<null> what=7072(0x1ba0)
+ rec[11]: time=12-24 16:13:13.707 processed=DiscoveringState org=DiscoveringState dest=DisablingState what=7026(0x1b72)
+ rec[12]: time=12-24 16:13:13.708 processed=DisablingState org=DisablingState dest=DisabledState what=7021(0x1b6d)
+ rec[13]: time=12-24 17:18:40.999 processed=<null> org=DisabledState dest=<null> what=7072(0x1ba0)
+ rec[14]: time=12-24 17:18:40.999 processed=DisabledState org=DisabledState dest=DiscoveringState what=7025(0x1b71)
+curState=DiscoveringState
+
+

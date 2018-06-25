@@ -1,0 +1,30 @@
+mCallsManager: 
+  mCalls: 
+  mForegroundCall: none
+  mCallAudioManager:
+    mAudioState: [AudioState isMuted: false, route: EARPIECE, supportedRouteMask: EARPIECE, SPEAKER]
+    mBluetoothManager:
+      isBluetoothAvailable: false
+      isBluetoothAudioConnected: false
+      isBluetoothAudioConnectedOrPending: false
+      mBluetoothHeadset is null
+    mWiredHeadsetManager:
+      mIsPluggedIn: false
+    mAudioFocusStreamType: -1
+    mIsRinging: false
+    mIsTonePlaying: false
+    mWasSpeakerOn: false
+    mMostRecentlyUsedMode: 2
+  mTtyManager:
+    mCurrentTtyMode: 0
+  mInCallController:
+    mInCallServices (InCalls registered):
+    mServiceConnections (InCalls bound):
+  mConnectionServiceRepository:
+    mServiceCache:
+mPhoneAccountRegistrar: 
+  xmlVersion: 5
+  defaultOutgoing: none
+  simCallManager: none
+  phoneAccounts:
+    [(AccountHandle: ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, E, UserHandle{0}), Address: tel:, SubscriptionAddress: tel:, Capabilities: 54, IconResId: -1, highlightColor: 0, Label: ??¡ì?????????, ShortDescription: ???¨¨????¡§?????¡ì????????????¨¨??, SupportedUriSchemes: [tel, voicemail]]

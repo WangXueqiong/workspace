@@ -1,0 +1,14 @@
+Backup Manager is disabled / provisioned / not pending init
+Last backup pass started: 0 (now = 1526294290110)
+  next scheduled: 0
+Available transports:
+
+Exception occurred while dumping:
+java.lang.NullPointerException: Attempt to get length of null array
+	at com.android.server.backup.BackupManagerService.dumpInternal(BackupManagerService.java:6998)
+	at com.android.server.backup.BackupManagerService.dump(BackupManagerService.java:6973)
+	at com.android.server.backup.Trampoline.dump(Trampoline.java:339)
+	at android.os.Binder.dump(Binder.java:327)
+	at android.os.Binder.onTransact(Binder.java:293)
+	at android.app.backup.IBackupManager$Stub.onTransact(IBackupManager.java:441)
+	at android.os.Binder.execTransact(Binder.java:454)

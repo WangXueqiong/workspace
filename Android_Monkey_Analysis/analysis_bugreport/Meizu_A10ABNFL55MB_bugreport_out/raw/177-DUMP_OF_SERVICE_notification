@@ -1,0 +1,1058 @@
+Current Notification Manager state:
+  Notification List:
+    NotificationRecord(0x29679ee6: pkg=com.meizu.media.video user=UserHandle{0} id=292303320 tag=null score=20 key=0|com.meizu.media.video|292303320|null|10031: Notification(pri=2 contentView=com.meizu.media.video/0xa030052 headsUpContentView=/0xa030056 bigContentView=/0xa030059 vibrate=default sound=default defaults=0x7 flags=0x11 color=0x00000000 vis=PUBLIC))
+      uid=10031 userId=0
+      icon=0x7f0202f9 / com.meizu.media.video:drawable/mz_push_notification_small_icon
+      pri=2 score=20
+      key=0|com.meizu.media.video|292303320|null|10031
+      groupKey=0|com.meizu.media.video|292303320|null|10031
+      contentIntent=PendingIntent{3e7e9ed4: PendingIntentRecord{36ae58c com.meizu.media.video broadcastIntent}}
+      deleteIntent=PendingIntent{1c46687d: PendingIntentRecord{1bc2bfb com.meizu.media.video broadcastIntent}}
+      tickerText=????бь?иж????????????????б└?????????
+      contentView=android.widget.RemoteViews@b7ec372
+      defaults=0x00000007 flags=0x00000011
+      sound=null
+      audioStreamType=-1
+      audioAttributes=AudioAttributes: usage=5 content=4 flags=0x0 tags=
+      color=0x00000000
+      vibrate=null
+      led=0x00000000 onMs=0 offMs=0
+      extras={
+        android.title=String
+        android.subText=null
+        android.template=String
+        android.flymeNotificationSetting=String
+        android.showChronometer=Boolean (false)
+        notification_extra_task_id=String
+        android.icon=Integer (2130838265)
+        android.text=String
+        android.progress=Integer (0)
+        android.progressMax=Integer (0)
+        notification_extra_seq_id=String
+        notification_extra_device_id=String
+        android.picture=Bitmap (439x159)
+        notification_extra_push_timestamp=String
+        android.showWhen=Boolean (true)
+        android.originalPackageName=String
+        android.rebuild.applicationInfo=ApplicationInfo (ApplicationInfo{20b223c3 com.meizu.media.video})
+        android.largeIcon=Bitmap (162x162)
+        android.infoText=null
+        android.originatingUserId=Integer (0)
+        android.progressIndeterminate=Boolean (false)
+        android.rebuild.largeIcon=Boolean (true)
+        android.rebuild=Boolean (true)
+        android.title.big=String
+      }
+      filter=category=content;categoryPriority=0,notificationPriority=2;tag=recommend;score=79.000000;extras=;intercept=false;shouldAffectRanking=false;shouldAffectIntercept=false, spamScoreUpperLimit = 20.0
+      stats=SingleNotificationStats{posttimeElapsedMs=25363938, posttimeToFirstClickMs=-1, posttimeToDismissMs=-1, airtimeCount=2, airtimeMs=1505, currentAirtimeStartElapsedMs=-1, airtimeExpandedMs=1505, posttimeToFirstVisibleExpansionMs=961710, currentAirtimeExpandedSEMs=-1}
+      mContactAffinity=0.0
+      mRecentlyIntrusive=false
+      mPackagePriority=0
+      mPackageVisibility=-1000
+      mIntercept=false
+      mGlobalSortKey=intrsv=1:grnk=0x0000:gsmry=1:nsk:rnk=0x0000
+      mRankingTimeMs=1526292554892
+    NotificationRecord(0x1e90d440: pkg=com.sina.weibo user=UserHandle{0} id=10009329 tag=null score=0 key=0|com.sina.weibo|10009329|null|10088: Notification(pri=0 contentView=com.sina.weibo/0xa030052 headsUpContentView=/0xa030056 bigContentView=/0xa03005a vibrate=null sound=null defaults=0x0 flags=0x10 color=0x00000000 vis=PRIVATE))
+      uid=10088 userId=0
+      icon=0x7f021303 / com.sina.weibo:drawable/queue_icon_weibo
+      pri=0 score=0
+      key=0|com.sina.weibo|10009329|null|10088
+      groupKey=0|com.sina.weibo|10009329|null|10088
+      contentIntent=PendingIntent{d71a4be: PendingIntentRecord{3c7e0bf4 com.sina.weibo broadcastIntent}}
+      deleteIntent=null
+      tickerText=??????ии?б└иж?????иж??????бд?ии?????иж????????иж??????????????ии??????бш?иж???бш????????бу????иж?бшиж??ии??иж?????40????бд??????????иж??ии??????бд?иж??????????????ии??ии????бз????????бз???иибь????иж???????????????????????>>
+      contentView=android.widget.RemoteViews@289391f
+      defaults=0x00000000 flags=0x00000010
+      sound=null
+      audioStreamType=-1
+      audioAttributes=AudioAttributes: usage=5 content=4 flags=0x0 tags=
+      color=0x00000000
+      vibrate=null
+      led=0x00000000 onMs=0 offMs=0
+      extras={
+        android.title=String
+        android.subText=null
+        android.template=String
+        android.showChronometer=Boolean (false)
+        android.icon=Integer (2130842371)
+        android.text=String
+        android.progress=Integer (0)
+        android.progressMax=Integer (0)
+        android.showWhen=Boolean (true)
+        android.rebuild.applicationInfo=ApplicationInfo (ApplicationInfo{30cef46c com.sina.weibo})
+        android.largeIcon=Bitmap (132x132)
+        android.bigText=String
+        android.infoText=null
+        android.originatingUserId=Integer (0)
+        android.progressIndeterminate=Boolean (false)
+        headsup=Integer (0)
+        android.rebuild.largeIcon=Boolean (true)
+        android.rebuild=Boolean (true)
+      }
+      filter=category=content;categoryPriority=0,notificationPriority=-2;tag=news;score=10.000000;extras=;intercept=true;shouldAffectRanking=true;shouldAffectIntercept=true, spamScoreUpperLimit = 20.0
+      stats=SingleNotificationStats{posttimeElapsedMs=24611791, posttimeToFirstClickMs=-1, posttimeToDismissMs=-1, airtimeCount=0, airtimeMs=0, currentAirtimeStartElapsedMs=-1, airtimeExpandedMs=0, posttimeToFirstVisibleExpansionMs=-1, currentAirtimeExpandedSEMs=-1}
+      mContactAffinity=0.0
+      mRecentlyIntrusive=false
+      mPackagePriority=0
+      mPackageVisibility=-1000
+      mIntercept=false
+      mGlobalSortKey=intrsv=1:grnk=0x0002:gsmry=1:nsk:rnk=0x0002
+      mRankingTimeMs=1526291802861
+    NotificationRecord(0x0e1f2a35: pkg=com.sina.weibo user=UserHandle{0} id=2286 tag=null score=0 key=0|com.sina.weibo|2286|null|10088: Notification(pri=0 contentView=com.sina.weibo/0xa030052 headsUpContentView=/0xa030056 bigContentView=/0xa03005a vibrate=null sound=null defaults=0x0 flags=0x10 color=0x00000000 vis=PRIVATE))
+      uid=10088 userId=0
+      icon=0x7f021303 / com.sina.weibo:drawable/queue_icon_weibo
+      pri=0 score=0
+      key=0|com.sina.weibo|2286|null|10088
+      groupKey=0|com.sina.weibo|2286|null|10088
+      contentIntent=PendingIntent{1c1f4eca: PendingIntentRecord{21f13fcf com.sina.weibo startActivity}}
+      deleteIntent=PendingIntent{3d92483b: PendingIntentRecord{1e436d5c com.sina.weibo broadcastIntent}}
+      tickerText=?????? ?????бу??????иж?бь??????иж???????бу???ии?бд??????ии????бд?????????ии?????????????????ии????????иибь?иж??>>
+      contentView=android.widget.RemoteViews@21eceb58
+      defaults=0x00000000 flags=0x00000010
+      sound=null
+      audioStreamType=-1
+      audioAttributes=AudioAttributes: usage=5 content=4 flags=0x0 tags=
+      color=0x00000000
+      vibrate=null
+      led=0xff00ff00 onMs=2000 offMs=3000
+      extras={
+        android.title=String
+        android.subText=null
+        android.template=String
+        android.showChronometer=Boolean (false)
+        android.icon=Integer (2130842371)
+        android.text=String
+        android.progress=Integer (0)
+        android.progressMax=Integer (0)
+        android.showWhen=Boolean (true)
+        android.rebuild.applicationInfo=ApplicationInfo (ApplicationInfo{3fa534b1 com.sina.weibo})
+        android.largeIcon=Bitmap (132x132)
+        android.bigText=String
+        android.infoText=null
+        android.originatingUserId=Integer (0)
+        android.progressIndeterminate=Boolean (false)
+        headsup=Integer (0)
+        android.rebuild.largeIcon=Boolean (true)
+        android.rebuild=Boolean (true)
+      }
+      filter=category=content;categoryPriority=0,notificationPriority=-2;tag=news;score=10.000000;extras=;intercept=true;shouldAffectRanking=true;shouldAffectIntercept=true, spamScoreUpperLimit = 20.0
+      stats=SingleNotificationStats{posttimeElapsedMs=21860089, posttimeToFirstClickMs=-1, posttimeToDismissMs=-1, airtimeCount=0, airtimeMs=0, currentAirtimeStartElapsedMs=-1, airtimeExpandedMs=0, posttimeToFirstVisibleExpansionMs=-1, currentAirtimeExpandedSEMs=-1}
+      mContactAffinity=0.0
+      mRecentlyIntrusive=false
+      mPackagePriority=0
+      mPackageVisibility=-1000
+      mIntercept=false
+      mGlobalSortKey=intrsv=1:grnk=0x0003:gsmry=1:nsk:rnk=0x0003
+      mRankingTimeMs=1526289051082
+    NotificationRecord(0x214b8d96: pkg=com.meizu.mstore user=UserHandle{0} id=5000 tag=null score=0 key=0|com.meizu.mstore|5000|null|10038: Notification(pri=0 contentView=com.meizu.mstore/0xa030052 headsUpContentView=/0xa030056 bigContentView=/0xa03005a vibrate=null sound=null defaults=0x0 flags=0x10 color=0x00000000 vis=PRIVATE))
+      uid=10038 userId=0
+      icon=0x7f02027a / com.meizu.mstore:drawable/mz_push_notification_small_icon
+      pri=0 score=0
+      key=0|com.meizu.mstore|5000|null|10038
+      groupKey=0|com.meizu.mstore|5000|null|10038
+      contentIntent=PendingIntent{33f16504: PendingIntentRecord{3a883b40 com.meizu.mstore startActivity}}
+      deleteIntent=PendingIntent{fa76aed: PendingIntentRecord{368bf04e com.meizu.mstore broadcastIntent}}
+      tickerText=null
+      contentView=android.widget.RemoteViews@d2aed22
+      defaults=0x00000000 flags=0x00000010
+      sound=null
+      audioStreamType=-1
+      audioAttributes=AudioAttributes: usage=5 content=4 flags=0x0 tags=
+      color=0x00000000
+      vibrate=null
+      led=0x00000000 onMs=0 offMs=0
+      extras={
+        android.title=String
+        android.subText=null
+        android.template=String
+        android.showChronometer=Boolean (false)
+        android.icon=Integer (2130838138)
+        android.text=String
+        android.progress=Integer (0)
+        android.progressMax=Integer (0)
+        android.showWhen=Boolean (true)
+        android.rebuild.applicationInfo=ApplicationInfo (ApplicationInfo{39d383b3 com.meizu.mstore})
+        android.largeIcon=Bitmap (156x156)
+        android.bigText=String
+        android.infoText=null
+        android.originatingUserId=Integer (0)
+        android.progressIndeterminate=Boolean (false)
+        android.rebuild.largeIcon=Boolean (true)
+        android.rebuild=Boolean (true)
+      }
+      filter=category=optimization;categoryPriority=-2,notificationPriority=2;tag=appupgrade;score=85.000000;extras=;intercept=false;shouldAffectRanking=false;shouldAffectIntercept=false, spamScoreUpperLimit = 20.0
+      stats=SingleNotificationStats{posttimeElapsedMs=15993193, posttimeToFirstClickMs=-1, posttimeToDismissMs=-1, airtimeCount=8, airtimeMs=8252, currentAirtimeStartElapsedMs=-1, airtimeExpandedMs=6747, posttimeToFirstVisibleExpansionMs=1023379, currentAirtimeExpandedSEMs=-1}
+      mContactAffinity=0.0
+      mRecentlyIntrusive=false
+      mPackagePriority=0
+      mPackageVisibility=-1000
+      mIntercept=false
+      mGlobalSortKey=intrsv=1:grnk=0x0004:gsmry=1:nsk:rnk=0x0004
+      mRankingTimeMs=1526283184300
+    NotificationRecord(0x20a1cd70: pkg=android user=UserHandle{-1} id=17040663 tag=null score=0 key=-1|android|17040663|null|1000: Notification(pri=0 contentView=android/0xa030052 headsUpContentView=/0xa030056 bigContentView=null vibrate=null sound=null defaults=0x0 flags=0x2 color=0xff607d8b vis=PUBLIC))
+      uid=1000 userId=-1
+      icon=0xa02039c / flyme:drawable/mz_stat_sys_adb
+      pri=0 score=0
+      key=-1|android|17040663|null|1000
+      groupKey=-1|android|17040663|null|1000
+      contentIntent=PendingIntent{61cc8e9: PendingIntentRecord{338030dd android startActivity}}
+      deleteIntent=null
+      tickerText=?бд?ии???????буUSBиибу?ии??
+      contentView=android.widget.RemoteViews@2caeb96e
+      defaults=0x00000000 flags=0x00000002
+      sound=null
+      audioStreamType=-1
+      audioAttributes=AudioAttributes: usage=5 content=4 flags=0x0 tags=
+      color=0xff607d8b
+      vibrate=null
+      led=0x00000000 onMs=0 offMs=0
+      extras={
+        android.title=String
+        android.subText=null
+        android.showChronometer=Boolean (false)
+        android.icon=Integer (167904156)
+        android.text=String
+        android.progress=Integer (0)
+        android.progressMax=Integer (0)
+        android.showWhen=Boolean (true)
+        android.rebuild.applicationInfo=ApplicationInfo (ApplicationInfo{1bf8a80f android})
+        android.infoText=null
+        android.originatingUserId=Integer (0)
+        android.progressIndeterminate=Boolean (false)
+      }
+      filter=category=unknow;categoryPriority=0,notificationPriority=0;tag=null;score=45.000000;extras=;intercept=false;shouldAffectRanking=false;shouldAffectIntercept=false, spamScoreUpperLimit = 0.0
+      stats=SingleNotificationStats{posttimeElapsedMs=15290215, posttimeToFirstClickMs=-1, posttimeToDismissMs=-1, airtimeCount=0, airtimeMs=0, currentAirtimeStartElapsedMs=-1, airtimeExpandedMs=0, posttimeToFirstVisibleExpansionMs=-1, currentAirtimeExpandedSEMs=-1}
+      mContactAffinity=0.0
+      mRecentlyIntrusive=false
+      mPackagePriority=0
+      mPackageVisibility=-1000
+      mIntercept=false
+      mGlobalSortKey=intrsv=1:grnk=0x0005:gsmry=1:nsk:rnk=0x0005
+      mRankingTimeMs=1526282481321
+    NotificationRecord(0x36ae509c: pkg=android user=UserHandle{-1} id=17040655 tag=null score=0 key=-1|android|17040655|null|1000: Notification(pri=0 contentView=android/0xa030052 headsUpContentView=/0xa030056 bigContentView=null vibrate=null sound=null defaults=0x0 flags=0x2 color=0xff607d8b vis=PUBLIC))
+      uid=1000 userId=-1
+      icon=0xa02039e / flyme:drawable/mz_stat_sys_data_usb
+      pri=0 score=0
+      key=-1|android|17040655|null|1000
+      groupKey=-1|android|17040655|null|1000
+      contentIntent=PendingIntent{19700aa5: PendingIntentRecord{3cfd9e95 android startActivity}}
+      deleteIntent=null
+      tickerText=???иж??ии?????ии?????ии????????
+      contentView=android.widget.RemoteViews@1890fe7a
+      defaults=0x00000000 flags=0x00000002
+      sound=null
+      audioStreamType=-1
+      audioAttributes=AudioAttributes: usage=5 content=4 flags=0x0 tags=
+      color=0xff607d8b
+      vibrate=null
+      led=0x00000000 onMs=0 offMs=0
+      extras={
+        android.title=String
+        android.subText=null
+        android.showChronometer=Boolean (false)
+        android.icon=Integer (167904158)
+        android.text=String
+        android.progress=Integer (0)
+        android.progressMax=Integer (0)
+        android.showWhen=Boolean (true)
+        android.rebuild.applicationInfo=ApplicationInfo (ApplicationInfo{1bf8a80f android})
+        android.infoText=null
+        android.originatingUserId=Integer (0)
+        android.progressIndeterminate=Boolean (false)
+      }
+      filter=category=unknow;categoryPriority=0,notificationPriority=0;tag=null;score=45.000000;extras=;intercept=false;shouldAffectRanking=false;shouldAffectIntercept=false, spamScoreUpperLimit = 0.0
+      stats=SingleNotificationStats{posttimeElapsedMs=15290185, posttimeToFirstClickMs=-1, posttimeToDismissMs=-1, airtimeCount=0, airtimeMs=0, currentAirtimeStartElapsedMs=-1, airtimeExpandedMs=0, posttimeToFirstVisibleExpansionMs=-1, currentAirtimeExpandedSEMs=-1}
+      mContactAffinity=0.0
+      mRecentlyIntrusive=false
+      mPackagePriority=0
+      mPackageVisibility=-1000
+      mIntercept=false
+      mGlobalSortKey=intrsv=1:grnk=0x0006:gsmry=1:nsk:rnk=0x0006
+      mRankingTimeMs=1526282481291
+    NotificationRecord(0x2fa1b62b: pkg=com.sina.weibo user=UserHandle{0} id=9738 tag=null score=0 key=0|com.sina.weibo|9738|null|10088: Notification(pri=0 contentView=com.sina.weibo/0xa030052 headsUpContentView=/0xa030056 bigContentView=/0xa03005a vibrate=null sound=null defaults=0x0 flags=0x10 color=0x00000000 vis=PRIVATE))
+      uid=10088 userId=0
+      icon=0x7f021303 / com.sina.weibo:drawable/queue_icon_weibo
+      pri=0 score=0
+      key=0|com.sina.weibo|9738|null|10088
+      groupKey=0|com.sina.weibo|9738|null|10088
+      contentIntent=PendingIntent{1d9dda88: PendingIntentRecord{35138ef3 com.sina.weibo startActivity}}
+      deleteIntent=PendingIntent{1fbac21: PendingIntentRecord{e7d342d com.sina.weibo broadcastIntent}}
+      tickerText=?????? ?????бу??????ии??иж??????????????ии???????????иибу??бз?????????б└??????ии?????????????????>>
+      contentView=android.widget.RemoteViews@9208846
+      defaults=0x00000000 flags=0x00000010
+      sound=null
+      audioStreamType=-1
+      audioAttributes=AudioAttributes: usage=5 content=4 flags=0x0 tags=
+      color=0x00000000
+      vibrate=null
+      led=0xff00ff00 onMs=2000 offMs=3000
+      extras={
+        android.title=String
+        android.subText=null
+        android.template=String
+        android.showChronometer=Boolean (false)
+        android.icon=Integer (2130842371)
+        android.text=String
+        android.progress=Integer (0)
+        android.progressMax=Integer (0)
+        android.showWhen=Boolean (true)
+        android.rebuild.applicationInfo=ApplicationInfo (ApplicationInfo{38838a07 com.sina.weibo})
+        android.largeIcon=Bitmap (132x132)
+        android.bigText=String
+        android.infoText=null
+        android.originatingUserId=Integer (0)
+        android.progressIndeterminate=Boolean (false)
+        headsup=Integer (0)
+        android.rebuild.largeIcon=Boolean (true)
+        android.rebuild=Boolean (true)
+      }
+      filter=category=content;categoryPriority=0,notificationPriority=-2;tag=news;score=10.000000;extras=;intercept=true;shouldAffectRanking=true;shouldAffectIntercept=true, spamScoreUpperLimit = 20.0
+      stats=SingleNotificationStats{posttimeElapsedMs=14530191, posttimeToFirstClickMs=-1, posttimeToDismissMs=-1, airtimeCount=0, airtimeMs=0, currentAirtimeStartElapsedMs=-1, airtimeExpandedMs=0, posttimeToFirstVisibleExpansionMs=-1, currentAirtimeExpandedSEMs=-1}
+      mContactAffinity=0.0
+      mRecentlyIntrusive=false
+      mPackagePriority=0
+      mPackageVisibility=-1000
+      mIntercept=false
+      mGlobalSortKey=intrsv=1:grnk=0x0007:gsmry=1:nsk:rnk=0x0007
+      mRankingTimeMs=1526281721258
+    NotificationRecord(0x2c7a1734: pkg=com.sina.weibo user=UserHandle{0} id=5414 tag=null score=0 key=0|com.sina.weibo|5414|null|10088: Notification(pri=0 contentView=com.sina.weibo/0xa030052 headsUpContentView=/0xa030056 bigContentView=/0xa03005a vibrate=null sound=null defaults=0x0 flags=0x10 color=0x00000000 vis=PRIVATE))
+      uid=10088 userId=0
+      icon=0x7f021303 / com.sina.weibo:drawable/queue_icon_weibo
+      pri=0 score=0
+      key=0|com.sina.weibo|5414|null|10088
+      groupKey=0|com.sina.weibo|5414|null|10088
+      contentIntent=PendingIntent{945e95d: PendingIntentRecord{27ea3e3d com.sina.weibo startActivity}}
+      deleteIntent=PendingIntent{1acce2d2: PendingIntentRecord{3e2b88c1 com.sina.weibo broadcastIntent}}
+      tickerText=??б└иибь???бь?????бш????бу??бу?????????? ии??ии???????бш?бдбз??????????????????????бу??бу?????????????ии???????бд?????бз??????иж???б└?ии????????????????????ии?бз?бш???????ии???????????иибу?????бу????иибь?иж??>>
+      contentView=android.widget.RemoteViews@16c4bfa3
+      defaults=0x00000000 flags=0x00000010
+      sound=null
+      audioStreamType=-1
+      audioAttributes=AudioAttributes: usage=5 content=4 flags=0x0 tags=
+      color=0x00000000
+      vibrate=null
+      led=0xff00ff00 onMs=2000 offMs=3000
+      extras={
+        android.title=String
+        android.subText=null
+        android.template=String
+        android.showChronometer=Boolean (false)
+        android.icon=Integer (2130842371)
+        android.text=String
+        android.progress=Integer (0)
+        android.progressMax=Integer (0)
+        android.showWhen=Boolean (true)
+        android.rebuild.applicationInfo=ApplicationInfo (ApplicationInfo{3f3b72a0 com.sina.weibo})
+        android.largeIcon=Bitmap (132x132)
+        android.bigText=String
+        android.infoText=null
+        android.originatingUserId=Integer (0)
+        android.progressIndeterminate=Boolean (false)
+        headsup=Integer (0)
+        android.rebuild.largeIcon=Boolean (true)
+        android.rebuild=Boolean (true)
+      }
+      filter=category=content;categoryPriority=0,notificationPriority=-2;tag=news;score=10.000000;extras=;intercept=true;shouldAffectRanking=true;shouldAffectIntercept=true, spamScoreUpperLimit = 20.0
+      stats=SingleNotificationStats{posttimeElapsedMs=13662780, posttimeToFirstClickMs=-1, posttimeToDismissMs=-1, airtimeCount=0, airtimeMs=0, currentAirtimeStartElapsedMs=-1, airtimeExpandedMs=0, posttimeToFirstVisibleExpansionMs=-1, currentAirtimeExpandedSEMs=-1}
+      mContactAffinity=0.0
+      mRecentlyIntrusive=false
+      mPackagePriority=0
+      mPackageVisibility=-1000
+      mIntercept=false
+      mGlobalSortKey=intrsv=1:grnk=0x0008:gsmry=1:nsk:rnk=0x0008
+      mRankingTimeMs=1526280853820
+    NotificationRecord(0x10fcbe59: pkg=com.sina.weibo user=UserHandle{0} id=6617 tag=null score=0 key=0|com.sina.weibo|6617|null|10088: Notification(pri=0 contentView=com.sina.weibo/0xa030052 headsUpContentView=/0xa030056 bigContentView=/0xa03005a vibrate=null sound=null defaults=0x0 flags=0x10 color=0x00000000 vis=PRIVATE))
+      uid=10088 userId=0
+      icon=0x7f021303 / com.sina.weibo:drawable/queue_icon_weibo
+      pri=0 score=0
+      key=0|com.sina.weibo|6617|null|10088
+      groupKey=0|com.sina.weibo|6617|null|10088
+      contentIntent=PendingIntent{f725a1e: PendingIntentRecord{181b0b13 com.sina.weibo startActivity}}
+      deleteIntent=PendingIntent{3c59b2ff: PendingIntentRecord{334dc486 com.sina.weibo broadcastIntent}}
+      tickerText=???????????????ии????? ???????????????ии???????? ??????????????б└???10???????бшбь???????????бз????????????ии?????????????????????бшб└??????ии???????????????????????ии??????бш??????????????????????????????????ии??ии??????????????>>иибь?иж??
+      contentView=android.widget.RemoteViews@36f518cc
+      defaults=0x00000000 flags=0x00000010
+      sound=null
+      audioStreamType=-1
+      audioAttributes=AudioAttributes: usage=5 content=4 flags=0x0 tags=
+      color=0x00000000
+      vibrate=null
+      led=0xff00ff00 onMs=2000 offMs=3000
+      extras={
+        android.title=String
+        android.subText=null
+        android.template=String
+        android.showChronometer=Boolean (false)
+        android.icon=Integer (2130842371)
+        android.text=String
+        android.progress=Integer (0)
+        android.progressMax=Integer (0)
+        android.showWhen=Boolean (true)
+        android.rebuild.applicationInfo=ApplicationInfo (ApplicationInfo{db1e715 com.sina.weibo})
+        android.largeIcon=Bitmap (132x132)
+        android.bigText=String
+        android.infoText=null
+        android.originatingUserId=Integer (0)
+        android.progressIndeterminate=Boolean (false)
+        headsup=Integer (0)
+        android.rebuild.largeIcon=Boolean (true)
+        android.rebuild=Boolean (true)
+      }
+      filter=category=content;categoryPriority=0,notificationPriority=-2;tag=news;score=10.000000;extras=;intercept=true;shouldAffectRanking=true;shouldAffectIntercept=true, spamScoreUpperLimit = 20.0
+      stats=SingleNotificationStats{posttimeElapsedMs=11428197, posttimeToFirstClickMs=-1, posttimeToDismissMs=-1, airtimeCount=0, airtimeMs=0, currentAirtimeStartElapsedMs=-1, airtimeExpandedMs=0, posttimeToFirstVisibleExpansionMs=-1, currentAirtimeExpandedSEMs=-1}
+      mContactAffinity=0.0
+      mRecentlyIntrusive=false
+      mPackagePriority=0
+      mPackageVisibility=-1000
+      mIntercept=false
+      mGlobalSortKey=intrsv=1:grnk=0x0009:gsmry=1:nsk:rnk=0x0009
+      mRankingTimeMs=1526278619209
+    NotificationRecord(0x1865fa2a: pkg=com.sina.weibo user=UserHandle{0} id=3403 tag=null score=0 key=0|com.sina.weibo|3403|null|10088: Notification(pri=0 contentView=com.sina.weibo/0xa030052 headsUpContentView=/0xa030056 bigContentView=/0xa03005a vibrate=null sound=null defaults=0x0 flags=0x10 color=0x00000000 vis=PRIVATE))
+      uid=10088 userId=0
+      icon=0x7f021303 / com.sina.weibo:drawable/queue_icon_weibo
+      pri=0 score=0
+      key=0|com.sina.weibo|3403|null|10088
+      groupKey=0|com.sina.weibo|3403|null|10088
+      contentIntent=PendingIntent{1c20801b: PendingIntentRecord{347de1c6 com.sina.weibo startActivity}}
+      deleteIntent=PendingIntent{10c0f5b8: PendingIntentRecord{324a34d1 com.sina.weibo broadcastIntent}}
+      tickerText=?????????иибу??????б└???????????????????????? ???иибь??????????????????б└???????????бьии?????ии????????????бь?????????????????????бу?????????????????????????????????????????????>>
+      contentView=android.widget.RemoteViews@3156df91
+      defaults=0x00000000 flags=0x00000010
+      sound=null
+      audioStreamType=-1
+      audioAttributes=AudioAttributes: usage=5 content=4 flags=0x0 tags=
+      color=0x00000000
+      vibrate=null
+      led=0xff00ff00 onMs=2000 offMs=3000
+      extras={
+        android.title=String
+        android.subText=null
+        android.template=String
+        android.showChronometer=Boolean (false)
+        android.icon=Integer (2130842371)
+        android.text=String
+        android.progress=Integer (0)
+        android.progressMax=Integer (0)
+        android.showWhen=Boolean (true)
+        android.rebuild.applicationInfo=ApplicationInfo (ApplicationInfo{35418ef6 com.sina.weibo})
+        android.largeIcon=Bitmap (132x132)
+        android.bigText=String
+        android.infoText=null
+        android.originatingUserId=Integer (0)
+        android.progressIndeterminate=Boolean (false)
+        headsup=Integer (0)
+        android.rebuild.largeIcon=Boolean (true)
+        android.rebuild=Boolean (true)
+      }
+      filter=category=content;categoryPriority=0,notificationPriority=-2;tag=news;score=10.000000;extras=;intercept=true;shouldAffectRanking=true;shouldAffectIntercept=true, spamScoreUpperLimit = 20.0
+      stats=SingleNotificationStats{posttimeElapsedMs=6237180, posttimeToFirstClickMs=-1, posttimeToDismissMs=-1, airtimeCount=0, airtimeMs=0, currentAirtimeStartElapsedMs=-1, airtimeExpandedMs=0, posttimeToFirstVisibleExpansionMs=-1, currentAirtimeExpandedSEMs=-1}
+      mContactAffinity=0.0
+      mRecentlyIntrusive=false
+      mPackagePriority=0
+      mPackageVisibility=-1000
+      mIntercept=false
+      mGlobalSortKey=intrsv=1:grnk=0x000a:gsmry=1:nsk:rnk=0x000a
+      mRankingTimeMs=1526273428203
+    NotificationRecord(0x2ebd02f7: pkg=com.android.settings user=UserHandle{0} id=2131627339 tag=null score=0 key=0|com.android.settings|2131627339|null|1000: Notification(pri=0 contentView=com.android.settings/0xa030052 headsUpContentView=/0xa030056 bigContentView=null vibrate=null sound=null defaults=0x0 flags=0x20 color=0x00000000 vis=PRIVATE))
+      uid=1000 userId=0
+      icon=0x7f02009d / com.android.settings:drawable/do_not_disturb_status_bar_icon
+      pri=0 score=0
+      key=0|com.android.settings|2131627339|null|1000
+      groupKey=0|com.android.settings|2131627339|null|1000
+      contentIntent=PendingIntent{3f6bb564: PendingIntentRecord{1921b5 com.android.settings startActivity}}
+      deleteIntent=null
+      tickerText=????????бу?бд???????
+      contentView=android.widget.RemoteViews@178e3cd
+      defaults=0x00000000 flags=0x00000020
+      sound=null
+      audioStreamType=-1
+      audioAttributes=AudioAttributes: usage=5 content=4 flags=0x0 tags=
+      color=0x00000000
+      vibrate=null
+      led=0x00000000 onMs=0 offMs=0
+      extras={
+        android.title=String
+        android.subText=null
+        android.showChronometer=Boolean (false)
+        android.icon=Integer (2130837661)
+        android.text=String
+        android.progress=Integer (0)
+        android.progressMax=Integer (0)
+        android.showWhen=Boolean (false)
+        android.rebuild.applicationInfo=ApplicationInfo (ApplicationInfo{336fa482 com.android.settings})
+        android.infoText=null
+        android.originatingUserId=Integer (0)
+        android.progressIndeterminate=Boolean (false)
+      }
+      filter=category=unknow;categoryPriority=0,notificationPriority=0;tag=null;score=45.000000;extras=;intercept=false;shouldAffectRanking=false;shouldAffectIntercept=false, spamScoreUpperLimit = 0.0
+      stats=SingleNotificationStats{posttimeElapsedMs=56849, posttimeToFirstClickMs=-1, posttimeToDismissMs=-1, airtimeCount=4, airtimeMs=16972, currentAirtimeStartElapsedMs=-1, airtimeExpandedMs=0, posttimeToFirstVisibleExpansionMs=-1, currentAirtimeExpandedSEMs=-1}
+      mContactAffinity=0.0
+      mRecentlyIntrusive=false
+      mPackagePriority=0
+      mPackageVisibility=-1000
+      mIntercept=false
+      mGlobalSortKey=intrsv=1:grnk=0x000b:gsmry=1:nsk:rnk=0x000b
+      mRankingTimeMs=1526267247944
+    NotificationRecord(0x2934d793: pkg=com.flyme.systemuitools user=UserHandle{0} id=-99 tag=null score=0 key=0|com.flyme.systemuitools|-99|null|10030: Notification(pri=0 contentView=null headsUpContentView=null bigContentView=null vibrate=null sound=null defaults=0x0 flags=0x62 color=0x00000000 vis=PRIVATE))
+      uid=10030 userId=0
+      icon=0x0 / <name unknown>
+      pri=0 score=0
+      key=0|com.flyme.systemuitools|-99|null|10030
+      groupKey=0|com.flyme.systemuitools|-99|null|10030
+      contentIntent=null
+      deleteIntent=null
+      tickerText=null
+      contentView=null
+      defaults=0x00000000 flags=0x00000062
+      sound=null
+      audioStreamType=-1
+      audioAttributes=AudioAttributes: usage=5 content=4 flags=0x0 tags=
+      color=0x00000000
+      vibrate=null
+      led=0x00000000 onMs=0 offMs=0
+      filter=category=unknow;categoryPriority=0,notificationPriority=0;tag=unknow;score=45.000000;extras=;intercept=false;shouldAffectRanking=false;shouldAffectIntercept=false, spamScoreUpperLimit = 20.0
+      stats=SingleNotificationStats{posttimeElapsedMs=36722, posttimeToFirstClickMs=-1, posttimeToDismissMs=-1, airtimeCount=0, airtimeMs=0, currentAirtimeStartElapsedMs=-1, airtimeExpandedMs=0, posttimeToFirstVisibleExpansionMs=-1, currentAirtimeExpandedSEMs=-1}
+      mContactAffinity=0.0
+      mRecentlyIntrusive=false
+      mPackagePriority=0
+      mPackageVisibility=-1000
+      mIntercept=false
+      mGlobalSortKey=intrsv=1:grnk=0x000c:gsmry=1:nsk:rnk=0x000c
+      mRankingTimeMs=1526267232659
+  
+  Lights List:
+  > 0|com.meizu.media.video|292303320|null|10031
+  
+  mUseAttentionLight=false
+  mNotificationPulseEnabled=false
+  mSoundNotificationKey=0|com.meizu.media.video|292303320|null|10031
+  mVibrateNotificationKey=null
+  mDisableNotificationEffects=false
+  mCallState=CALL_STATE_IDLE
+  mSystemReady=true
+  mArchive=Archive (35 notifications)
+    StatusBarNotification(pkg=com.meizu.mstore user=UserHandle{0} id=-2147483648 tag=null score=0 key=0|com.meizu.mstore|-2147483648|null|10038: Notification(pri=0 contentView=null headsUpContentView=null bigContentView=null vibrate=null sound=null defaults=0x0 flags=0x62 color=0x00000000 vis=PRIVATE))
+    StatusBarNotification(pkg=com.tencent.mobileqq user=UserHandle{0} id=537056366 tag=null score=0 key=0|com.tencent.mobileqq|537056366|null|10095: Notification(pri=0 contentView=null headsUpContentView=null bigContentView=null vibrate=null sound=null defaults=0x0 flags=0x62 color=0x00000000 vis=PRIVATE))
+    StatusBarNotification(pkg=com.sina.weibo user=UserHandle{0} id=8486 tag=null score=0 key=0|com.sina.weibo|8486|null|10088: Notification(pri=0 contentView=null headsUpContentView=null bigContentView=null vibrate=null sound=null defaults=0x0 flags=0x10 color=0x00000000 vis=PRIVATE))
+    StatusBarNotification(pkg=com.meizu.mstore user=UserHandle{0} id=-2147483648 tag=null score=0 key=0|com.meizu.mstore|-2147483648|null|10038: Notification(pri=0 contentView=null headsUpContentView=null bigContentView=null vibrate=null sound=null defaults=0x0 flags=0x62 color=0x00000000 vis=PRIVATE))
+    StatusBarNotification(pkg=com.tencent.mobileqq user=UserHandle{0} id=10103 tag=null score=0 key=0|com.tencent.mobileqq|10103|null|10095: Notification(pri=0 contentView=null headsUpContentView=null bigContentView=null vibrate=null sound=null defaults=0x0 flags=0x10 color=0x00000000 vis=PRIVATE))
+    ...
+
+  Usage Stats:
+
+  Zen Mode:
+    mInterruptionFilter=1
+    mZenMode=ZEN_MODE_OFF
+    mConfig=ZenModeConfig[allowCalls=false,allowMessages=false,allowFrom=anyone,allowEvents=true,sleepMode=null,sleepStart=22.0,sleepEnd=7.0,sleepNone=false,conditionComponents=null,conditionIds=null,exitCondition=null,exitConditionComponent=null]
+    mDefaultConfig=ZenModeConfig[allowCalls=false,allowMessages=false,allowFrom=anyone,allowEvents=true,sleepMode=null,sleepStart=22.0,sleepEnd=7.0,sleepNone=false,conditionComponents=null,conditionIds=null,exitCondition=null,exitConditionComponent=null]
+    mPreviousRingerMode=-1
+    mDefaultPhoneApp=null
+    mEffectsSuppressed=false
+
+  Zen Log:
+    05-14 11:07:04.332 set_zen_mode: off,setting
+    05-14 11:07:07.546 downtime: Autotrigger skipped: not in downtime
+
+  Ranking Config:
+    mSignalExtractors.length = 4
+      com.android.server.notification.ValidateNotificationPeople@153cefc9
+      com.android.server.notification.PackagePriorityExtractor@1a7786ce
+      com.android.server.notification.NotificationIntrusivenessExtractor@14b59ef
+      com.android.server.notification.PackageVisibilityExtractor@564cfc
+    package priorities:
+Current Flyme Notification Intelligent Management 
+key=30
+ packageName=com.sina.weibo
+ updateDate=1525622400000
+ score=45.0
+ clickNum=0
+ allNum=2
+ removeNum=0
+ category =status
+ score_adjust =0
+ notification_priority =-9999
+ category_priority =0
+ send_ranking=0
+ click_ranking=0
+ RankingDaily key = com.sina.weibo$status
+key=17
+ packageName=com.meizu.customizecenter
+ updateDate=1526227200000
+ score=45.0
+ clickNum=0
+ allNum=16
+ removeNum=0
+ category =promotion
+ score_adjust =0
+ notification_priority =0
+ category_priority =-2
+ send_ranking=0
+ click_ranking=0
+ RankingDaily key = com.meizu.customizecenter$promotion
+key=31
+ packageName=com.sina.weibo
+ updateDate=1526227200000
+ score=10.0
+ clickNum=0
+ allNum=65
+ removeNum=0
+ category =content
+ score_adjust =0
+ notification_priority =-2
+ category_priority =0
+ send_ranking=0
+ click_ranking=0
+ RankingDaily key = com.sina.weibo$content
+key=7
+ packageName=com.android.browser
+ updateDate=1523376000000
+ score=47.0
+ clickNum=1
+ allNum=6
+ removeNum=0
+ category =unknow
+ score_adjust =1
+ notification_priority =0
+ category_priority =0
+ send_ranking=0
+ click_ranking=0
+ RankingDaily key = com.android.browser$unknow
+key=12
+ packageName=com.meizu.media.reader
+ updateDate=1526227200000
+ score=87.0
+ clickNum=1
+ allNum=26
+ removeNum=0
+ category =content
+ score_adjust =1
+ notification_priority =2
+ category_priority =0
+ send_ranking=0
+ click_ranking=0
+ RankingDaily key = com.meizu.media.reader$content
+key=26
+ packageName=com.tencent.mtt
+ updateDate=1525795200000
+ score=45.0
+ clickNum=0
+ allNum=68
+ removeNum=0
+ category =content
+ score_adjust =0
+ notification_priority =-9999
+ category_priority =0
+ send_ranking=0
+ click_ranking=0
+ RankingDaily key = com.tencent.mtt$content
+key=32
+ packageName=com.flyme.systemuitools
+ updateDate=1525622400000
+ score=87.0
+ clickNum=1
+ allNum=1
+ removeNum=0
+ category =message
+ score_adjust =1
+ notification_priority =2
+ category_priority =2
+ send_ranking=0
+ click_ranking=0
+ RankingDaily key = com.flyme.systemuitools$message
+key=15
+ packageName=com.meizu.media.life
+ updateDate=1525708800000
+ score=45.0
+ clickNum=0
+ allNum=6
+ removeNum=0
+ category =promotion
+ score_adjust =0
+ notification_priority =0
+ category_priority =-2
+ send_ranking=0
+ click_ranking=0
+ RankingDaily key = com.meizu.media.life$promotion
+key=23
+ packageName=com.meizu.mstore
+ updateDate=1525968000000
+ score=85.0
+ clickNum=0
+ allNum=14
+ removeNum=0
+ category =promotion
+ score_adjust =0
+ notification_priority =2
+ category_priority =-2
+ send_ranking=0
+ click_ranking=0
+ RankingDaily key = com.meizu.mstore$promotion
+key=29
+ packageName=com.meizu.flyme.gamecenter
+ updateDate=1525968000000
+ score=85.0
+ clickNum=0
+ allNum=3
+ removeNum=0
+ category =content
+ score_adjust =0
+ notification_priority =2
+ category_priority =0
+ send_ranking=0
+ click_ranking=0
+ RankingDaily key = com.meizu.flyme.gamecenter$content
+key=6
+ packageName=com.meizu.media.video
+ updateDate=1519660800000
+ score=43.0
+ clickNum=0
+ allNum=1
+ removeNum=1
+ category =unknow
+ score_adjust =-1
+ notification_priority =0
+ category_priority =0
+ send_ranking=0
+ click_ranking=0
+ RankingDaily key = com.meizu.media.video$unknow
+key=10
+ packageName=com.android.packageinstaller
+ updateDate=1525795200000
+ score=43.0
+ clickNum=0
+ allNum=11
+ removeNum=1
+ category =unknow
+ score_adjust =-1
+ notification_priority =0
+ category_priority =0
+ send_ranking=0
+ click_ranking=0
+ RankingDaily key = com.android.packageinstaller$unknow
+key=2
+ packageName=android
+ updateDate=1523808000000
+ score=45.0
+ clickNum=0
+ allNum=3
+ removeNum=0
+ category =unknow
+ score_adjust =0
+ notification_priority =0
+ category_priority =0
+ send_ranking=0
+ click_ranking=0
+ RankingDaily key = android$unknow
+key=25
+ packageName=com.tencent.mtt
+ updateDate=1525968000000
+ score=45.0
+ clickNum=0
+ allNum=17
+ removeNum=0
+ category =status
+ score_adjust =0
+ notification_priority =-9999
+ category_priority =0
+ send_ranking=0
+ click_ranking=0
+ RankingDaily key = com.tencent.mtt$status
+key=8
+ packageName=com.meizu.mstore
+ updateDate=1526227200000
+ score=85.0
+ clickNum=0
+ allNum=71
+ removeNum=0
+ category =status
+ score_adjust =0
+ notification_priority =2
+ category_priority =0
+ send_ranking=0
+ click_ranking=0
+ RankingDaily key = com.meizu.mstore$status
+key=5
+ packageName=com.meizu.mstore
+ updateDate=1522684800000
+ score=45.0
+ clickNum=0
+ allNum=5
+ removeNum=0
+ category =unknow
+ score_adjust =0
+ notification_priority =0
+ category_priority =0
+ send_ranking=0
+ click_ranking=0
+ RankingDaily key = com.meizu.mstore$unknow
+key=28
+ packageName=com.pp.assistant
+ updateDate=1523808000000
+ score=45.0
+ clickNum=0
+ allNum=2
+ removeNum=0
+ category =unknow
+ score_adjust =0
+ notification_priority =0
+ category_priority =0
+ send_ranking=0
+ click_ranking=0
+ RankingDaily key = com.pp.assistant$unknow
+key=3
+ packageName=com.meizu.safe
+ updateDate=1525795200000
+ score=45.0
+ clickNum=0
+ allNum=6
+ removeNum=0
+ category =unknow
+ score_adjust =0
+ notification_priority =0
+ category_priority =0
+ send_ranking=0
+ click_ranking=0
+ RankingDaily key = com.meizu.safe$unknow
+key=22
+ packageName=com.meizu.net.search
+ updateDate=1523548800000
+ score=85.0
+ clickNum=0
+ allNum=5
+ removeNum=0
+ category =unknow
+ score_adjust =0
+ notification_priority =0
+ category_priority =0
+ send_ranking=0
+ click_ranking=0
+ RankingDaily key = com.meizu.net.search$unknow
+key=24
+ packageName=com.tianyancha.skyeye
+ updateDate=1524499200000
+ score=10.0
+ clickNum=0
+ allNum=9
+ removeNum=0
+ category =promotion
+ score_adjust =0
+ notification_priority =-9999
+ category_priority =-2
+ send_ranking=0
+ click_ranking=0
+ RankingDaily key = com.tianyancha.skyeye$promotion
+key=27
+ packageName=com.android.providers.downloads
+ updateDate=1523548800000
+ score=87.0
+ clickNum=1
+ allNum=1
+ removeNum=0
+ category =status
+ score_adjust =1
+ notification_priority =2
+ category_priority =0
+ send_ranking=0
+ click_ranking=0
+ RankingDaily key = com.android.providers.downloads$status
+key=18
+ packageName=com.meizu.account
+ updateDate=1526227200000
+ score=85.0
+ clickNum=0
+ allNum=31
+ removeNum=0
+ category =status
+ score_adjust =0
+ notification_priority =2
+ category_priority =0
+ send_ranking=0
+ click_ranking=0
+ RankingDaily key = com.meizu.account$status
+key=4
+ packageName=com.meizu.account
+ updateDate=1519660800000
+ score=45.0
+ clickNum=0
+ allNum=1
+ removeNum=0
+ category =unknow
+ score_adjust =0
+ notification_priority =0
+ category_priority =0
+ send_ranking=0
+ click_ranking=0
+ RankingDaily key = com.meizu.account$unknow
+key=20
+ packageName=com.tianyancha.skyeye
+ updateDate=1525708800000
+ score=43.0
+ clickNum=0
+ allNum=32
+ removeNum=1
+ category =unknow
+ score_adjust =-1
+ notification_priority =0
+ category_priority =0
+ send_ranking=0
+ click_ranking=0
+ RankingDaily key = com.tianyancha.skyeye$unknow
+key=16
+ packageName=com.meizu.media.video
+ updateDate=1526227200000
+ score=79.0
+ clickNum=1
+ allNum=41
+ removeNum=3
+ category =content
+ score_adjust =1
+ notification_priority =2
+ category_priority =0
+ send_ranking=0
+ click_ranking=0
+ RankingDaily key = com.meizu.media.video$content
+key=21
+ packageName=com.meizu.flyme.update
+ updateDate=1525795200000
+ score=45.0
+ clickNum=0
+ allNum=9
+ removeNum=0
+ category =unknow
+ score_adjust =0
+ notification_priority =0
+ category_priority =0
+ send_ranking=0
+ click_ranking=0
+ RankingDaily key = com.meizu.flyme.update$unknow
+key=9
+ packageName=com.tencent.mobileqq
+ updateDate=1526227200000
+ score=85.0
+ clickNum=0
+ allNum=106
+ removeNum=0
+ category =message
+ score_adjust =0
+ notification_priority =2
+ category_priority =2
+ send_ranking=0
+ click_ranking=0
+ RankingDaily key = com.tencent.mobileqq$message
+key=14
+ packageName=com.meizu.mstore
+ updateDate=1526227200000
+ score=85.0
+ clickNum=0
+ allNum=59
+ removeNum=0
+ category =optimization
+ score_adjust =0
+ notification_priority =2
+ category_priority =-2
+ send_ranking=0
+ click_ranking=0
+ RankingDaily key = com.meizu.mstore$optimization
+key=1
+ packageName=com.flyme.systemuitools
+ updateDate=1526227200000
+ score=45.0
+ clickNum=0
+ allNum=31
+ removeNum=0
+ category =unknow
+ score_adjust =0
+ notification_priority =0
+ category_priority =0
+ send_ranking=0
+ click_ranking=0
+ RankingDaily key = com.flyme.systemuitools$unknow
+key=11
+ packageName=com.tencent.mm
+ updateDate=1526227200000
+ score=99.0
+ clickNum=3
+ allNum=102
+ removeNum=0
+ category =message
+ score_adjust =3
+ notification_priority =2
+ category_priority =2
+ send_ranking=0
+ click_ranking=0
+ RankingDaily key = com.tencent.mm$message
+key=13
+ packageName=com.android.browser
+ updateDate=1526227200000
+ score=81.0
+ clickNum=0
+ allNum=33
+ removeNum=2
+ category =content
+ score_adjust =-2
+ notification_priority =2
+ category_priority =0
+ send_ranking=0
+ click_ranking=0
+ RankingDaily key = com.android.browser$content
+key=19
+ packageName=com.android.systemui
+ updateDate=1525622400000
+ score=86.0
+ clickNum=4
+ allNum=21
+ removeNum=0
+ category =status
+ score_adjust =4
+ notification_priority =-9999
+ category_priority =0
+ send_ranking=0
+ click_ranking=0
+ RankingDaily key = com.android.systemui$status
+
+  Notification listeners:
+    All notification listeners (1) enabled for current profiles:
+      ComponentInfo{com.meizu.battery/com.meizu.power.apps.appnotification.PermanentNotificationService}
+    Live notification listeners (3):
+      ComponentInfo{com.meizu.battery/com.meizu.power.apps.appnotification.PermanentNotificationService} (user 0): android.service.notification.INotificationListener$Stub$Proxy@371bbf85
+      ComponentInfo{com.android.systemui/com.android.systemui.statusbar.phone.PhoneStatusBar} (user -1): android.service.notification.INotificationListener$Stub$Proxy@110941da SYSTEM
+      ComponentInfo{com.flyme.systemuitools/com.meizu.luckymoney.LuckyMoneyService} (user 0): android.service.notification.INotificationListener$Stub$Proxy@1b9da60b SYSTEM
+    mListenerHints: 0
+    mListenersDisablingEffects: ()
+
+  Condition providers:
+    All condition providers (0) enabled for current profiles:
+    Live condition providers (3):
+      ComponentInfo{android/com.android.server.notification.CountdownConditionProvider} (user 0): android.service.notification.ConditionProviderService$Provider@2393ce8 SYSTEM
+      ComponentInfo{android/com.android.server.notification.DowntimeConditionProvider} (user 0): android.service.notification.ConditionProviderService$Provider@265dcf01 SYSTEM
+      ComponentInfo{android/com.android.server.notification.NextAlarmConditionProvider} (user 0): android.service.notification.ConditionProviderService$Provider@6c9a1a6 SYSTEM
+    mListeners(0):
+    mRecords(0):
+    mSystemConditionProviders: {next_alarm, countdown, downtime}
+    CountdownConditionProvider:
+      mConnected=true
+      mTime=0
+    DowntimeConditionProvider:
+      mConnected=true
+      mSubscriptions={}
+      mLookaheadThreshold=14400000 (+4h0m0s0ms)
+      mCalendar=DowntimeCalendar[mDays={}]
+      mFiredAlarms=
+      mDowntimed=false
+      mConditionClearing=false
+      mRequesting=false
+    NextAlarmConditionProvider:
+      mConnected=true
+      mLookaheadThreshold=43200000 (+12h0m0s0ms)
+      mSubscriptions={}
+      mRequesting=false
+    NextAlarmTracker:
+      len(mCallbacks)=2
+      mRegistered=true
+      mInit=1526267226269
+      mBootCompleted=1526267235949
+      mCurrentUserId=0
+      mScheduledAlarmTime=1526267255949 (11:07:35)
+      mWakeLock=WakeLock{3f7e97e7 held=false, refCount=0}
+
+  Group summaries:

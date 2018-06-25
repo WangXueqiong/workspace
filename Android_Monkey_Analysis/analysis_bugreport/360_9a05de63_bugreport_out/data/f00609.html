@@ -1,0 +1,68 @@
+<html>
+<head>
+  <title>f00609.html</title>
+  <link rel="stylesheet" type="text/css" href="themes/blue/style.css"/>
+  <link rel="stylesheet" type="text/css" href="jquery.treeTable.css"/>
+  <link rel="stylesheet" type="text/css" href="jquery.ui.css"/>
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+  <script type="text/javascript" src="jquery.js"></script>
+  <script type="text/javascript" src="jquery.cookie.js"></script>
+  <script type="text/javascript" src="jquery.hotkeys.js"></script>
+  <script type="text/javascript" src="jquery.jstree.js"></script>
+  <script type="text/javascript" src="jquery.tablesorter.js"></script>
+  <script type="text/javascript" src="jquery.tablednd.js"></script>
+  <script type="text/javascript" src="jquery.treeTable.js"></script>
+  <script type="text/javascript" src="jquery.flot.js"></script>
+  <script type="text/javascript" src="jquery.flot.navigate.js"></script>
+  <script type="text/javascript" src="jquery.flot.selection.js"></script>
+  <script type="text/javascript" src="jquery.ui.js"></script>
+  <script type="text/javascript" src="colResizable-1.3.source.js"></script>
+  <script type="text/javascript" src="/self$wsjs"></script>
+  <script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+<a name="ch0"></a><div class="btn-pop-out"><a href="f00609.html#ch0" target="_blank"><img src="ic_pop_out.png"/></a></div><h1>systemlog_02448.html</h1>
+<div class="log-toolbar">RegExp:<input id="regexp"></input><button onClick="javascript:ltbProcessLines(function(l){l.hide();})">Hide</button><button onClick="javascript:ltbProcessLines(function(l){l.show();})">Show</button><button onClick="javascript:ltbProcessLines(function(l){l.addClass('log-mark');})">Mark</button><button onClick="javascript:ltbProcessLines(function(l){l.removeClass('log-mark');})">Unmark</button><button onClick="javascript:ltbToggleLineWrap()">Line wrap</button>Note: changes are not saved!</div><div class="log"><div class="log-line log-error" id="l2246339879501824">12-24 17:13:46.384  <a href="f00478.html#ch0">2448</a>  2885 E DatabaseUtils: Writing exception to parcel</div>
+<div class="log-line log-error" id="l2246339879501825">12-24 17:13:46.384  <a href="f00478.html#ch0">2448</a>  2885 E DatabaseUtils: java.lang.IllegalArgumentException: the bind value at index 1 is null</div>
+<div class="log-line log-error" id="l2246339879501826">12-24 17:13:46.384  <a href="f00478.html#ch0">2448</a>  2885 E DatabaseUtils: 	at android.database.sqlite.SQLiteProgram.bindString(SQLiteProgram.java:164)</div>
+<div class="log-line log-error" id="l2246339879501827">12-24 17:13:46.384  <a href="f00478.html#ch0">2448</a>  2885 E DatabaseUtils: 	at android.database.sqlite.SQLiteProgram.bindAllArgsAsStrings(SQLiteProgram.java:200)</div>
+<div class="log-line log-error" id="l2246339879501828">12-24 17:13:46.384  <a href="f00478.html#ch0">2448</a>  2885 E DatabaseUtils: 	at android.database.sqlite.SQLiteDirectCursorDriver.query(SQLiteDirectCursorDriver.java:47)</div>
+<div class="log-line log-error" id="l2246339879501829">12-24 17:13:46.384  <a href="f00478.html#ch0">2448</a>  2885 E DatabaseUtils: 	at android.database.sqlite.SQLiteDatabase.rawQueryWithFactory(SQLiteDatabase.java:1316)</div>
+<div class="log-line log-error" id="l2246339879501830">12-24 17:13:46.384  <a href="f00478.html#ch0">2448</a>  2885 E DatabaseUtils: 	at android.database.sqlite.SQLiteQueryBuilder.query(SQLiteQueryBuilder.java:400)</div>
+<div class="log-line log-error" id="l2246339879501831">12-24 17:13:46.384  <a href="f00478.html#ch0">2448</a>  2885 E DatabaseUtils: 	at android.database.sqlite.SQLiteQueryBuilder.query(SQLiteQueryBuilder.java:294)</div>
+<div class="log-line log-error" id="l2246339879501832">12-24 17:13:46.384  <a href="f00478.html#ch0">2448</a>  2885 E DatabaseUtils: 	at com.android.providers.telephony.CloudMsgProvider.query(CloudMsgProvider.java:587)</div>
+<div class="log-line log-error" id="l2246339879501833">12-24 17:13:46.384  <a href="f00478.html#ch0">2448</a>  2885 E DatabaseUtils: 	at android.content.ContentProvider.query(ContentProvider.java:1017)</div>
+<div class="log-line log-error" id="l2246339879501834">12-24 17:13:46.384  <a href="f00478.html#ch0">2448</a>  2885 E DatabaseUtils: 	at android.content.ContentProvider$Transport.query(ContentProvider.java:238)</div>
+<div class="log-line log-error" id="l2246339879501835">12-24 17:13:46.384  <a href="f00478.html#ch0">2448</a>  2885 E DatabaseUtils: 	at android.content.ContentProviderNative.onTransact(ContentProviderNative.java:112)</div>
+<div class="log-line log-error" id="l2246339879501836">12-24 17:13:46.384  <a href="f00478.html#ch0">2448</a>  2885 E DatabaseUtils: 	at android.os.Binder.execTransact(Binder.java:453)</div>
+<div class="log-line log-error" id="l2246367360122880">12-24 17:20:45.705  <a href="f00478.html#ch0">2448</a>  2645 E DatabaseUtils: Writing exception to parcel</div>
+<div class="log-line log-error" id="l2246367360122881">12-24 17:20:45.705  <a href="f00478.html#ch0">2448</a>  2645 E DatabaseUtils: java.lang.SecurityException: No permission to write APN settings</div>
+<div class="log-line log-error" id="l2246367360122882">12-24 17:20:45.705  <a href="f00478.html#ch0">2448</a>  2645 E DatabaseUtils: 	at com.android.providers.telephony.TelephonyProvider.checkPermission(TelephonyProvider.java:2453)</div>
+<div class="log-line log-error" id="l2246367360122883">12-24 17:20:45.705  <a href="f00478.html#ch0">2448</a>  2645 E DatabaseUtils: 	at com.android.providers.telephony.TelephonyProvider.query(TelephonyProvider.java:1943)</div>
+<div class="log-line log-error" id="l2246367360122884">12-24 17:20:45.705  <a href="f00478.html#ch0">2448</a>  2645 E DatabaseUtils: 	at android.content.ContentProvider.query(ContentProvider.java:1017)</div>
+<div class="log-line log-error" id="l2246367360122885">12-24 17:20:45.705  <a href="f00478.html#ch0">2448</a>  2645 E DatabaseUtils: 	at android.content.ContentProvider$Transport.query(ContentProvider.java:238)</div>
+<div class="log-line log-error" id="l2246367360122886">12-24 17:20:45.705  <a href="f00478.html#ch0">2448</a>  2645 E DatabaseUtils: 	at android.content.ContentProviderNative.onTransact(ContentProviderNative.java:112)</div>
+<div class="log-line log-error" id="l2246367360122887">12-24 17:20:45.705  <a href="f00478.html#ch0">2448</a>  2645 E DatabaseUtils: 	at android.os.Binder.execTransact(Binder.java:453)</div>
+<div class="log-line log-error" id="l2246380024627200">12-24 17:23:58.950  <a href="f00478.html#ch0">2448</a>  2885 E DatabaseUtils: Writing exception to parcel</div>
+<div class="log-line log-error" id="l2246380024627201">12-24 17:23:58.950  <a href="f00478.html#ch0">2448</a>  2885 E DatabaseUtils: java.lang.SecurityException: No permission to write APN settings</div>
+<div class="log-line log-error" id="l2246380024627202">12-24 17:23:58.950  <a href="f00478.html#ch0">2448</a>  2885 E DatabaseUtils: 	at com.android.providers.telephony.TelephonyProvider.checkPermission(TelephonyProvider.java:2453)</div>
+<div class="log-line log-error" id="l2246380024627203">12-24 17:23:58.950  <a href="f00478.html#ch0">2448</a>  2885 E DatabaseUtils: 	at com.android.providers.telephony.TelephonyProvider.query(TelephonyProvider.java:1943)</div>
+<div class="log-line log-error" id="l2246380024627204">12-24 17:23:58.950  <a href="f00478.html#ch0">2448</a>  2885 E DatabaseUtils: 	at android.content.ContentProvider.query(ContentProvider.java:1017)</div>
+<div class="log-line log-error" id="l2246380024627205">12-24 17:23:58.950  <a href="f00478.html#ch0">2448</a>  2885 E DatabaseUtils: 	at android.content.ContentProvider$Transport.query(ContentProvider.java:238)</div>
+<div class="log-line log-error" id="l2246380024627206">12-24 17:23:58.950  <a href="f00478.html#ch0">2448</a>  2885 E DatabaseUtils: 	at android.content.ContentProviderNative.onTransact(ContentProviderNative.java:112)</div>
+<div class="log-line log-error" id="l2246380024627207">12-24 17:23:58.950  <a href="f00478.html#ch0">2448</a>  2885 E DatabaseUtils: 	at android.os.Binder.execTransact(Binder.java:453)</div>
+<div class="log-line log-error" id="l2246381571538944">12-24 17:24:22.554  <a href="f00478.html#ch0">2448</a> 32205 E DatabaseUtils: Writing exception to parcel</div>
+<div class="log-line log-error" id="l2246381571538945">12-24 17:24:22.554  <a href="f00478.html#ch0">2448</a> 32205 E DatabaseUtils: java.lang.IllegalArgumentException: the bind value at index 1 is null</div>
+<div class="log-line log-error" id="l2246381571538946">12-24 17:24:22.554  <a href="f00478.html#ch0">2448</a> 32205 E DatabaseUtils: 	at android.database.sqlite.SQLiteProgram.bindString(SQLiteProgram.java:164)</div>
+<div class="log-line log-error" id="l2246381571538947">12-24 17:24:22.554  <a href="f00478.html#ch0">2448</a> 32205 E DatabaseUtils: 	at android.database.sqlite.SQLiteProgram.bindAllArgsAsStrings(SQLiteProgram.java:200)</div>
+<div class="log-line log-error" id="l2246381571538948">12-24 17:24:22.554  <a href="f00478.html#ch0">2448</a> 32205 E DatabaseUtils: 	at android.database.sqlite.SQLiteDirectCursorDriver.query(SQLiteDirectCursorDriver.java:47)</div>
+<div class="log-line log-error" id="l2246381571538949">12-24 17:24:22.554  <a href="f00478.html#ch0">2448</a> 32205 E DatabaseUtils: 	at android.database.sqlite.SQLiteDatabase.rawQueryWithFactory(SQLiteDatabase.java:1316)</div>
+<div class="log-line log-error" id="l2246381571538950">12-24 17:24:22.554  <a href="f00478.html#ch0">2448</a> 32205 E DatabaseUtils: 	at android.database.sqlite.SQLiteQueryBuilder.query(SQLiteQueryBuilder.java:400)</div>
+<div class="log-line log-error" id="l2246381571538951">12-24 17:24:22.554  <a href="f00478.html#ch0">2448</a> 32205 E DatabaseUtils: 	at android.database.sqlite.SQLiteQueryBuilder.query(SQLiteQueryBuilder.java:294)</div>
+<div class="log-line log-error" id="l2246381571538952">12-24 17:24:22.554  <a href="f00478.html#ch0">2448</a> 32205 E DatabaseUtils: 	at com.android.providers.telephony.CloudMsgProvider.query(CloudMsgProvider.java:587)</div>
+<div class="log-line log-error" id="l2246381571538953">12-24 17:24:22.554  <a href="f00478.html#ch0">2448</a> 32205 E DatabaseUtils: 	at android.content.ContentProvider.query(ContentProvider.java:1017)</div>
+<div class="log-line log-error" id="l2246381571538954">12-24 17:24:22.554  <a href="f00478.html#ch0">2448</a> 32205 E DatabaseUtils: 	at android.content.ContentProvider$Transport.query(ContentProvider.java:238)</div>
+<div class="log-line log-error" id="l2246381571538955">12-24 17:24:22.554  <a href="f00478.html#ch0">2448</a> 32205 E DatabaseUtils: 	at android.content.ContentProviderNative.onTransact(ContentProviderNative.java:112)</div>
+<div class="log-line log-error" id="l2246381571538956">12-24 17:24:22.554  <a href="f00478.html#ch0">2448</a> 32205 E DatabaseUtils: 	at android.os.Binder.execTransact(Binder.java:453)</div>
+</div></body>
+</html>

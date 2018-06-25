@@ -1,0 +1,109 @@
+Providers:
+  [0] provider ProviderId{user:0, app:10081, cmp:ComponentInfo{com.sec.android.widgetapp.digitalclock/com.sec.android.widgetapp.digitalclock.DigitalClockWidgetProvider}}
+    min=(87041x10241)   minResize=(64001x10241) updatePeriodMillis=0 resizeMode=11 autoAdvanceViewId=-1 initialLayout=#7f030001 initialKeyguardLayout=#0 zombie=false
+  [1] provider ProviderId{user:0, app:10042, cmp:ComponentInfo{com.sec.android.gallery3d/com.sec.android.gallery3d.gadget.PhotoAppWidgetProvider}}
+    min=(36865x33793)   minResize=(36865x33793) updatePeriodMillis=0 resizeMode=31 autoAdvanceViewId=-1 initialLayout=#7f03002b initialKeyguardLayout=#0 zombie=false
+  [2] provider ProviderId{user:0, app:10042, cmp:ComponentInfo{com.sec.android.gallery3d/com.sec.android.gallery3d.gadget.MagazineWidgetProvider}}
+    min=(18433x18433)   minResize=(38401x38401) updatePeriodMillis=0 resizeMode=31024 autoAdvanceViewId=-1 initialLayout=#7f03002b initialKeyguardLayout=#0 zombie=false
+  [3] provider ProviderId{user:0, app:10048, cmp:ComponentInfo{com.sec.android.app.videoplayer/com.sec.android.app.videoplayer.appwidget.VideoWidget}}
+    min=(73729x28161)   minResize=(73729x28161) updatePeriodMillis=0 resizeMode=31 autoAdvanceViewId=-1 initialLayout=#7f030042 initialKeyguardLayout=#0 zombie=false
+  [4] provider ProviderId{user:0, app:1000, cmp:ComponentInfo{com.android.settings/com.android.settings.powersavingmode.ConnectivityLocationWidgetProvider}}
+    min=(75265x18433)   minResize=(75265x18433) updatePeriodMillis=0 resizeMode=01 autoAdvanceViewId=-1 initialLayout=#7f040056 initialKeyguardLayout=#0 zombie=false
+  [5] provider ProviderId{user:0, app:1000, cmp:ComponentInfo{com.android.settings/com.android.settings.accessibilitywidget.AccessibilityWidgetProviderAssistiveLight}}
+    min=(14081x10241)   minResize=(14081x10241) updatePeriodMillis=0 resizeMode=01 autoAdvanceViewId=-1 initialLayout=#7f040007 initialKeyguardLayout=#0 zombie=false
+  [6] provider ProviderId{user:0, app:1000, cmp:ComponentInfo{com.android.settings/com.android.settings.accessibilitywidget.AccessibilityEasyWidgetProviderAssistiveLight}}
+    min=(14081x10241)   minResize=(14081x10241) updatePeriodMillis=0 resizeMode=01 autoAdvanceViewId=-1 initialLayout=#7f040002 initialKeyguardLayout=#0 zombie=false
+  [7] provider ProviderId{user:0, app:10079, cmp:ComponentInfo{com.sec.android.app.clockpackage/com.sec.android.app.clockpackage.alarmwidget.ClockAlarmWidgetProvider}}
+    min=(64001x16385)   minResize=(64001x16385) updatePeriodMillis=0 resizeMode=01 autoAdvanceViewId=-1 initialLayout=#7f04003d initialKeyguardLayout=#0 zombie=false
+  [8] provider ProviderId{user:0, app:1000, cmp:ComponentInfo{com.samsung.android.sm/com.samsung.android.sm.widgetapp.SmartManagerWidget}}
+    min=(82177x10241)   minResize=(82177x10241) updatePeriodMillis=0 resizeMode=11 autoAdvanceViewId=-1 initialLayout=#7f0400b3 initialKeyguardLayout=#7f0400b2 zombie=false
+  [9] provider ProviderId{user:0, app:10044, cmp:ComponentInfo{com.android.mms/com.android.mms.widget.MmsWidgetProvider}}
+    min=(64001x64001)   minResize=(46081x46081) updatePeriodMillis=0 resizeMode=33 autoAdvanceViewId=-1 initialLayout=#7f0400f4 initialKeyguardLayout=#0 zombie=false
+  [10] provider ProviderId{user:0, app:10144, cmp:ComponentInfo{com.sec.android.widget.samsungapps/com.sec.android.widget.samsungapps.WidgetProvider1}}
+    min=(81921x20481)   minResize=(81921x20481) updatePeriodMillis=0 resizeMode=01 autoAdvanceViewId=-1 initialLayout=#7f030008 initialKeyguardLayout=#0 zombie=false
+  [11] provider ProviderId{user:0, app:10086, cmp:ComponentInfo{com.sec.android.widgetapp.dualclockdigital/com.sec.android.widgetapp.dualclockdigital.DigitalDualClockWidgetProvider}}
+    min=(28161x28161)   minResize=(28161x28161) updatePeriodMillis=0 resizeMode=11 autoAdvanceViewId=-1 initialLayout=#7f03000e initialKeyguardLayout=#0 zombie=false
+  [12] provider ProviderId{user:0, app:10008, cmp:ComponentInfo{com.sec.android.widgetapp.easymodecontactswidget/com.sec.android.widgetapp.easymodecontactswidget.SeniorFavoriteWidgetProviderLarge}}
+    min=(64001x140801)   minResize=(64001x140801) updatePeriodMillis=0 resizeMode=0256 autoAdvanceViewId=-1 initialLayout=#7f030001 initialKeyguardLayout=#0 zombie=false
+  [13] provider ProviderId{user:0, app:10097, cmp:ComponentInfo{com.sec.android.GeoLookout/com.sec.android.GeoLookout.widget.SafetyCareWidget}}
+    min=(64001x10241)   minResize=(64001x10241) updatePeriodMillis=0 resizeMode=03 autoAdvanceViewId=-1 initialLayout=#7f030011 initialKeyguardLayout=#0 zombie=false
+  [14] provider ProviderId{user:0, app:10097, cmp:ComponentInfo{com.sec.android.GeoLookout/com.sec.android.GeoLookout.widget.SafetyCareTransparentWidget}}
+    min=(64001x10241)   minResize=(64001x10241) updatePeriodMillis=0 resizeMode=03 autoAdvanceViewId=-1 initialLayout=#7f030013 initialKeyguardLayout=#0 zombie=false
+  [15] provider ProviderId{user:0, app:10085, cmp:ComponentInfo{com.sec.android.widgetapp.dualcitywidget/com.sec.android.widgetapp.dualcitywidget.DualCityWidget}}
+    min=(89857x61441)   minResize=(89857x61441) updatePeriodMillis=0 resizeMode=01 autoAdvanceViewId=-1 initialLayout=#7f030014 initialKeyguardLayout=#0 zombie=false
+  [16] provider ProviderId{user:0, app:10219, cmp:ComponentInfo{com.sec.android.widget.festivalmemorywidget/com.sec.android.widget.festivalmemorywidget.FestivalMemoryProvider}}
+    min=(0x0)   minResize=(0x0) updatePeriodMillis=0 resizeMode=01 autoAdvanceViewId=-1 initialLayout=#7f030000 initialKeyguardLayout=#0 zombie=false
+  [17] provider ProviderId{user:0, app:10219, cmp:ComponentInfo{com.sec.android.widget.festivalmemorywidget/com.sec.android.widget.festivalmemorywidget.NormalMemoryProvider}}
+    min=(90625x19201)   minResize=(90625x19201) updatePeriodMillis=0 resizeMode=01 autoAdvanceViewId=-1 initialLayout=#7f030000 initialKeyguardLayout=#0 zombie=false
+  [18] provider ProviderId{user:0, app:10220, cmp:ComponentInfo{com.sec.android.widget.festivalsawidget/com.sec.android.widget.festivalsawidget.FestivalSAProvider}}
+    min=(75265x18433)   minResize=(75265x18433) updatePeriodMillis=0 resizeMode=01 autoAdvanceViewId=-1 initialLayout=#7f030001 initialKeyguardLayout=#0 zombie=false
+  [19] provider ProviderId{user:0, app:10141, cmp:ComponentInfo{com.sec.android.widgetapp.SPlannerAppWidget/com.sec.android.widgetapp.SPlannerAppWidget.EasyWidget.EasyCalendarAppWidgetProvider}}
+    min=(28161x28161)   minResize=(28161x28161) updatePeriodMillis=1000 resizeMode=01 autoAdvanceViewId=-1 initialLayout=#7f030000 initialKeyguardLayout=#0 zombie=false
+  [20] provider ProviderId{user:0, app:10151, cmp:ComponentInfo{com.sec.android.widgetapp.activeapplicationwidget/com.sec.android.widgetapp.activeapplicationwidget.ProgramMonitorProvider}}
+    min=(10241x10241)   minResize=(10241x10241) updatePeriodMillis=1000 resizeMode=01 autoAdvanceViewId=-1 initialLayout=#7f030004 initialKeyguardLayout=#0 zombie=false
+  [21] provider ProviderId{user:0, app:10155, cmp:ComponentInfo{com.android.email/com.android.email.provider.WidgetProvider}}
+    min=(64001x64001)   minResize=(46081x46081) updatePeriodMillis=0 resizeMode=33 autoAdvanceViewId=-1 initialLayout=#7f040144 initialKeyguardLayout=#0 zombie=false
+  [22] provider ProviderId{user:0, app:10159, cmp:ComponentInfo{com.sec.kidsplat.installer/com.sec.kidsplat.installer.KidsModeInstallerWidget}}
+    min=(10241x10241)   minResize=(10241x10241) updatePeriodMillis=0 resizeMode=01 autoAdvanceViewId=-1 initialLayout=#7f040005 initialKeyguardLayout=#0 zombie=false
+  [23] provider ProviderId{user:0, app:10073, cmp:ComponentInfo{com.sec.android.widgetapp.ap.hero.cmaweather/com.sec.android.widgetapp.ap.hero.cmaweather.easy.widget.WeatherClock}}
+    min=(90625x33537)   minResize=(90625x33537) updatePeriodMillis=86400000 resizeMode=01 autoAdvanceViewId=-1 initialLayout=#7f030016 initialKeyguardLayout=#0 zombie=false
+  [24] provider ProviderId{user:0, app:10082, cmp:ComponentInfo{com.sec.android.widgetapp.digitalclockeasy/com.sec.android.widgetapp.digitalclockeasy.DigitalClockEasyWidgetProvider}}
+    min=(43521x33537)   minResize=(43521x33537) updatePeriodMillis=0 resizeMode=01 autoAdvanceViewId=-1 initialLayout=#7f030000 initialKeyguardLayout=#0 zombie=false
+  [25] provider ProviderId{user:0, app:10222, cmp:ComponentInfo{com.sec.android.widget.greetingcardwidget/com.sec.android.widget.greetingcardwidget.CardTempleteProvider}}
+    min=(90625x19201)   minResize=(90625x19201) updatePeriodMillis=0 resizeMode=01 autoAdvanceViewId=-1 initialLayout=#7f030000 initialKeyguardLayout=#0 zombie=false
+  [26] provider ProviderId{user:0, app:10150, cmp:ComponentInfo{com.sec.android.app.music/com.sec.android.app.music.appwidget.MusicAppWidgetProvider}}
+    min=(87041x10241)   minResize=(87041x10241) updatePeriodMillis=0 resizeMode=33 autoAdvanceViewId=-1 initialLayout=#7f04012e initialKeyguardLayout=#7f04012e zombie=false
+  [27] provider ProviderId{user:0, app:10153, cmp:ComponentInfo{com.baidu.searchbox_samsung/com.baidu.searchbox.SearchWidgetProvider}}
+    min=(74241x10241)   minResize=(84481x10241) updatePeriodMillis=0 resizeMode=11 autoAdvanceViewId=-1 initialLayout=#7f030157 initialKeyguardLayout=#0 zombie=false
+  [28] provider ProviderId{user:0, app:10133, cmp:ComponentInfo{com.sec.android.app.sbrowser/com.sec.android.app.sbrowser.widget.BookmarkAppWidgetProvider}}
+    min=(28161x28161)   minResize=(28161x28161) updatePeriodMillis=0 resizeMode=33 autoAdvanceViewId=-1 initialLayout=#7f040041 initialKeyguardLayout=#0 zombie=false
+  [29] provider ProviderId{user:0, app:10193, cmp:ComponentInfo{com.sec.android.app.shealth/com.sec.android.app.shealth.widget.WalkMateAppEasyWidget}}
+    min=(28161x10241)   minResize=(28161x10241) updatePeriodMillis=86400000 resizeMode=03 autoAdvanceViewId=-1 initialLayout=#7f0303c9 initialKeyguardLayout=#0 zombie=false
+  [30] provider ProviderId{user:0, app:10193, cmp:ComponentInfo{com.sec.android.app.shealth/com.sec.android.app.shealth.widget.WalkMateAppWidget}}
+    min=(87041x10241)   minResize=(64001x10241) updatePeriodMillis=86400000 resizeMode=11 autoAdvanceViewId=-1 initialLayout=#7f0303da initialKeyguardLayout=#0 zombie=false
+  [31] provider ProviderId{user:0, app:10193, cmp:ComponentInfo{com.sec.android.app.shealth/com.sec.android.app.shealth.widget.WalkMatePlainAppWidget}}
+    min=(87041x10241)   minResize=(64001x10241) updatePeriodMillis=86400000 resizeMode=11 autoAdvanceViewId=-1 initialLayout=#7f0303da initialKeyguardLayout=#0 zombie=false
+  [32] provider ProviderId{user:0, app:10195, cmp:ComponentInfo{com.samsung.android.app.memo/com.samsung.android.app.memo.control.ui.widget.MemoWidgetProvider}}
+    min=(132609x19201)   minResize=(55297x17921) updatePeriodMillis=0 resizeMode=21 autoAdvanceViewId=-1 initialLayout=#7f040036 initialKeyguardLayout=#0 zombie=false
+  [33] provider ProviderId{user:0, app:10182, cmp:ComponentInfo{com.baidu.searchbox/com.baidu.searchbox.widget.SearchWidgetProvider}}
+    min=(74241x10241)   minResize=(74241x10241) updatePeriodMillis=0 resizeMode=01 autoAdvanceViewId=-1 initialLayout=#7f0303ba initialKeyguardLayout=#0 zombie=false
+  [34] provider ProviderId{user:0, app:10182, cmp:ComponentInfo{com.baidu.searchbox/com.baidu.searchbox.widget.TransSearchWidgetProvider}}
+    min=(74241x10241)   minResize=(74241x10241) updatePeriodMillis=0 resizeMode=01 autoAdvanceViewId=-1 initialLayout=#7f03037e initialKeyguardLayout=#0 zombie=false
+  [35] provider ProviderId{user:0, app:10182, cmp:ComponentInfo{com.baidu.searchbox/com.baidu.searchbox.widget.ClockWidgetProvider}}
+    min=(74241x30465)   minResize=(74241x30465) updatePeriodMillis=0 resizeMode=01 autoAdvanceViewId=-1 initialLayout=#7f030228 initialKeyguardLayout=#0 zombie=false
+  [36] provider ProviderId{user:0, app:10063, cmp:ComponentInfo{com.zhihu.android/com.zhihu.android.app.appwidget.SearchAppWidgetProvider}}
+    min=(81921x12289)   minResize=(81921x12289) updatePeriodMillis=21600000 resizeMode=21 autoAdvanceViewId=-1 initialLayout=#7f04015f initialKeyguardLayout=#0 zombie=false
+  [37] provider ProviderId{user:0, app:1000, cmp:ComponentInfo{com.sec.android.app.voicenote/com.sec.android.app.voicenote.common.service.VNWidgetProvider}}
+    min=(89345x12801)   minResize=(89345x12801) updatePeriodMillis=0 resizeMode=02 autoAdvanceViewId=-1 initialLayout=#0 initialKeyguardLayout=#7f030037 zombie=false
+  [38] provider ProviderId{user:0, app:10095, cmp:ComponentInfo{flipboard.cn/flipboard.widget.FlipboardWidgetSmall}}
+    min=(72193x12289)   minResize=(72193x12289) updatePeriodMillis=0 resizeMode=31 autoAdvanceViewId=-1 initialLayout=#7f030035 initialKeyguardLayout=#0 zombie=false
+  [39] provider ProviderId{user:0, app:10095, cmp:ComponentInfo{flipboard.cn/flipboard.widget.FlipboardWidgetMedium}}
+    min=(72193x32257)   minResize=(72193x12289) updatePeriodMillis=0 resizeMode=31 autoAdvanceViewId=-1 initialLayout=#7f030034 initialKeyguardLayout=#0 zombie=false
+  [40] provider ProviderId{user:0, app:10196, cmp:ComponentInfo{tv.peel.smartremote/tv.peel.widget.LockscreenProvider}}
+    min=(83457x47105)   minResize=(83457x110593) updatePeriodMillis=1800000 resizeMode=22 autoAdvanceViewId=-1 initialLayout=#0 initialKeyguardLayout=#0 zombie=false
+  [41] provider ProviderId{user:0, app:10196, cmp:ComponentInfo{tv.peel.smartremote/tv.peel.widget.HomescreenProvider}}
+    min=(64001x48641)   minResize=(64001x48641) updatePeriodMillis=1800000 resizeMode=01 autoAdvanceViewId=-1 initialLayout=#0 initialKeyguardLayout=#0 zombie=false
+  [42] provider ProviderId{user:0, app:10062, cmp:ComponentInfo{com.tencent.mtt/com.tencent.mtt.widget.androidwidget.QBAppWidgetProviderA}}
+    min=(71681x16385)   minResize=(71681x16385) updatePeriodMillis=0 resizeMode=01 autoAdvanceViewId=-1 initialLayout=#7f030040 initialKeyguardLayout=#0 zombie=false
+ 
+Widgets:
+  [0] id=1
+    host=HostId{user:0, app:10008, hostId:1024, pkg:com.sec.android.app.launcher}
+    provider=ProviderId{user:0, app:10153, cmp:ComponentInfo{com.baidu.searchbox_samsung/com.baidu.searchbox.SearchWidgetProvider}}
+    host.callbacks=com.android.internal.appwidget.IAppWidgetHost$Stub$Proxy@f51dada
+    views=android.widget.RemoteViews@aab6763
+  [1] id=4
+    host=HostId{user:0, app:10008, hostId:1024, pkg:com.sec.android.app.launcher}
+    provider=ProviderId{user:0, app:10159, cmp:ComponentInfo{com.sec.kidsplat.installer/com.sec.kidsplat.installer.KidsModeInstallerWidget}}
+    host.callbacks=com.android.internal.appwidget.IAppWidgetHost$Stub$Proxy@f51dada
+    views=android.widget.RemoteViews@3fcbe96
+ 
+Hosts:
+  [0] hostId=HostId{user:0, app:10008, hostId:1024, pkg:com.sec.android.app.launcher}
+    callbacks=com.android.internal.appwidget.IAppWidgetHost$Stub$Proxy@f51dada
+    widgets.size=2 zombie=false
+ 
+Grants:
+ 
+Host history:
+  [12-20 16:51:04.906] Start listening : HostId{user:0, app:10008, hostId:1024, pkg:com.sec.android.app.launcher}

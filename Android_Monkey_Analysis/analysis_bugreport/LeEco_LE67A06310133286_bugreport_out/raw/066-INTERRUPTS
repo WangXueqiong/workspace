@@ -1,0 +1,108 @@
+           CPU4       CPU5       
+ 29:          0          0     GICv3  29  arch_timer
+ 30:     936685     700771     GICv3  30  arch_timer
+ 96:          0          0     GICv3  96  mtk_cpuxgpt0
+ 97:          0          0     GICv3  97  mtk_cpuxgpt1
+ 98:          0          0     GICv3  98  mtk_cpuxgpt2
+ 99:          0          0     GICv3  99  mtk_cpuxgpt3
+100:          0          0     GICv3 100  mtk_cpuxgpt4
+101:          0          0     GICv3 101  mtk_cpuxgpt5
+102:          0          0     GICv3 102  mtk_cpuxgpt6
+103:          0          0     GICv3 103  mtk_cpuxgpt7
+110:          2          1     GICv3 110  mtk-thermal
+111:      21801      21403     GICv3 111  mtk-msdc
+115:        807        784     GICv3 115  mt-i2c
+116:       8815       8760     GICv3 116  mt-i2c
+117:         30         23     GICv3 117  mt-i2c
+118:          0          0     GICv3 118  mt-i2c
+119:          0          0     GICv3 119  mt-i2c
+120:       3844       3699     GICv3 120  mt-i2c
+121:     176315     176608     GICv3 121  mt-i2c
+122:        276        214     GICv3 122  mt-i2c
+127:        416        418     GICv3 127  mt-i2c
+128:        337        315     GICv3 128  mt-i2c
+142:          0          0     GICv3 142  mtk-uart
+143:          0          0     GICv3 143  mtk-uart
+148:        657        710     GICv3 148  mtk btif tx dma irq
+149:        577        547     GICv3 149  mtk btif rx dma irq
+154:          0          0     GICv3 154  1100a000.spi
+159:     188920     189180     GICv3 159  musb-hdrc
+161:        898        911     GICv3 161  eem
+162:          0          0     GICv3 162  mtk btif irq
+163:          0          0     GICv3 163  11012000.spi
+164:          0          0     GICv3 164  11018000.spi
+165:          0          0     GICv3 165  11019000.spi
+166:          0          0     GICv3 166  1101a000.spi
+167:          0          0     GICv3 167  1101b000.spi
+169:          0          0     GICv3 169  mt_wdt
+173:          0          0     GICv3 173  mt_emi_mpu, devapc
+179:          0          0     GICv3 179  CCIF0_AP
+181:        316        314     GICv3 181  CCIF1_AP
+183:        347        336     GICv3 183  Afe_ISR_Handle
+184:      84770      84461     GICv3 184  mtk_cmdq
+185:          0          0     GICv3 185  mtk_cmdq
+188:          0          0     GICv3 188  m4u
+191:          0          0     GICv3 191  gcpu
+200:          0          0     GICv3 200  IRTX
+201:          0          0     GICv3 201  mt-gpt
+210:          0          0     GICv3 210  pmic_wrap
+211:          0          0     GICv3 211  mtk-kpd
+212:          0          0     GICv3 212  SPM
+231:      47084      48035     GICv3 231  SCP IPC_MD2HOST
+234:      52814      52629     GICv3 234  mutex
+245:      25133      25221     GICv3 245  ovl0
+246:          1          2     GICv3 246  ovl1
+247:      25530      24990     GICv3 247  ovl0_2l
+248:      25106      25385     GICv3 248  ovl1_2l
+249:      55984      54715     GICv3 249  rdma0
+250:          0          0     GICv3 250  rdma1
+252:          0          1     GICv3 252  wdma1
+255:      27729      27732     GICv3 255  aal
+261:     104871     107289     GICv3 261  dsi0
+263:          0          0     GICv3 263  dpi
+267:      30346      30369     GICv3 267  Vcodec
+269:          0          0     GICv3 269  jpeg_enc_driver
+271:          0          0     GICv3 271  jpeg_dec_driver
+272:          0          0     GICv3 272  Vcodec
+275:          0          0     GICv3 275  MJC
+280:          0          0     GICv3 280  cama
+281:          0          0     GICv3 281  camb
+284:          0          0     GICv3 284  camsv00
+285:          0          0     GICv3 285  camsv01
+286:          0          0     GICv3 286  camsv10
+287:          0          0     GICv3 287  camsv11
+288:          0          0     GICv3 288  camsv20
+289:          0          0     GICv3 289  camsv21
+291:          0          0     GICv3 291  camera-fdvt
+292:          0          0     GICv3 292  dip_a
+293:          0          0     GICv3 293  dpe
+294:      82487      81470     GICv3 294  13040000.mali
+295:          0          0     GICv3 295  13040000.mali
+296:      63348      63354     GICv3 296  13040000.mali
+297:        523        453     GICv3 297  CLDMA_AP
+298:          0          0     GICv3 298  MD_WDT
+315:      60086      59398     GICv3 315  AHB_SLAVE_HIF
+316:          7         11     GICv3 316  BTIF_WAKEUP_IRQ
+318:          0          0     GICv3 318  BTCVSD_ISR_Handle
+319:          0          0     GICv3 319  MD2_WDT
+323:          0          0     GICv3 323  CIRQ
+324:         80         71     GICv3 324  mobicore
+325:          0          0     GICv3 325  ATF_irq
+354:          0          0     GICv3 354  mtk_cpuxgpt8
+355:          0          0     GICv3 355  mtk_cpuxgpt9
+361:          0          0     GICv3 361  ocp_cluster2
+362:          0          0     GICv3 362  ocp_cluster2
+388:          0          0   mt-eint   4  slide-eint
+389:          3          0   mt-eint   5  chr_stat-eint
+391:         28         26   mt-eint   7  TOUCH_PANEL-eint
+393:          0          1   mt-eint   9  goodix_fp_irq
+394:          0          0   mt-eint  10  tusb320-eint
+560:          3          0   mt-eint 176  pmic-eint
+IPI0:   2013507    2060298       Rescheduling interrupts
+IPI1:      7546       7235       Function call interrupts
+IPI2:     69774      24184       Single function call interrupts
+IPI3:         0          0       CPU stop interrupts
+IPI4:         0          0       Timer broadcast interrupts
+IPI5:         0          0       IRQ work interrupts
+Err:          0
+

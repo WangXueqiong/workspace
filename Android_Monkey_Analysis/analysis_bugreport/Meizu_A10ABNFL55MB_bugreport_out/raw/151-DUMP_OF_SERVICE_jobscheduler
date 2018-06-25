@@ -1,0 +1,48 @@
+Started users: u0 
+Registered jobs:
+  136..:[ComponentInfo{com.meizu.flyme.update/com.meizu.flyme.update.jobscheduler.JobSchedulerService},jId=2001,u0,R=(40:29:39,40:29:39),N=0,C=false,I=false,F=0,P=false]
+  218..:[ComponentInfo{com.meizu.mstore/com.meizu.cloud.app.jobscheduler.JobSchedulerService},jId=101,u0,R=(29:04,1:29:04),N=2,C=false,I=false,F=0,P=true]
+  284..:[ComponentInfo{com.meizu.flyme.update/com.meizu.flyme.update.jobscheduler.JobSchedulerService},jId=2003,u0,R=(72:29:39,72:29:39),N=0,C=false,I=false,F=0,P=false]
+  334..:[ComponentInfo{com.meizu.mstore/com.meizu.cloud.app.jobscheduler.JobSchedulerService},jId=103,u0,R=(16:29:27,40:29:27),N=1,C=false,I=false,F=0,P=false]
+  360..:[ComponentInfo{com.meizu.mstore/com.meizu.cloud.app.jobscheduler.JobSchedulerService},jId=102,u0,R=(1:29:27,4:29:27),N=1,C=false,I=false,F=0,P=false]
+  460..:[ComponentInfo{android/com.android.server.MountServiceIdler},jId=808,u0,R=(8:21:43,none),N=0,C=true,I=true,F=0,P=false]
+  500..:[ComponentInfo{com.meizu.flyme.update/com.meizu.flyme.update.appupgrade.service.JobSchedulerService},jId=1005,u0,R=(27:47:32,27:57:32),N=1,C=false,I=false,F=0,P=false]
+  516..:[ComponentInfo{com.meizu.flyme.update/com.meizu.flyme.update.appupgrade.service.JobSchedulerService},jId=1002,u0,R=(4:09:24,4:19:24),N=1,C=false,I=false,F=0,P=false]
+  778..:[ComponentInfo{com.meizu.experiencedatasync/com.meizu.experiencedatasync.service.PerformanceMonitorService},jId=2,u0,R=(-00:41,04:18),N=0,C=false,I=false,F=0,P=true(READY)]
+
+Conn.
+connected: true unmetered: true
+334..: C=true, UM=false
+500..: C=true, UM=false
+516..: C=true, UM=false
+360..: C=true, UM=false
+218..: C=false, UM=true
+
+Alarms (27100133)
+Next delay alarm in 1744s
+Next deadline alarm in 258s
+Tracking:
+778..: (27058133, 27358133)
+218..: (28844811, 32444811)
+500..: (127152355, 127752355)
+516..: (42064598, 42664598)
+360..: (32467405, 43267405)
+334..: (86467411, 172867411)
+284..: (288079786, 288079796)
+136..: (172879803, 172879813)
+460..: (57203983, N/A)
+
+Idle: false
+1
+  460..
+
+Batt.
+Stable power: true
+460373018
+
+Pending:
+
+Active jobs:
+
+mReadyToRock=true
+

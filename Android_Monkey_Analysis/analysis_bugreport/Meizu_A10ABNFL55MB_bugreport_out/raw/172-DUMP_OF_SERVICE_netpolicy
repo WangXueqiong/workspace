@@ -1,0 +1,74 @@
+Restrict background: false
+Restrict power: false
+Current foreground state: 2
+Network policies:
+Metered ifaces: {}
+Policy for UIDs:
+  UID=10055 policy=[]REJECT_APP_NET_MOBILE
+  REJECT_APP_NET_WIFI
+  
+Power save whitelist app ids:
+  UID=10010: true
+Status for known UIDs:
+  UID=1000 state=0 (fg) pids=[1290=3,1393=3,1407=13,1525=0,1639=0,1645=0,4714=7,12827=7] rules=UNKNOWN
+  UID=1001 state=0 (fg) pids=[1696=0] rules=UNKNOWN
+  UID=1338 state=7 (bg) pids=[5084=7] rules=UNKNOWN
+  UID=10000 state=4 (bg) pids=[1551=4] rules=UNKNOWN
+  UID=10001 state=13 (bg) pids=UNKNOWN rules=UNKNOWN
+  UID=10002 state=13 (bg) pids=[2499=13] rules=UNKNOWN
+  UID=10004 state=13 (bg) pids=UNKNOWN rules=UNKNOWN
+  UID=10005 state=13 (bg) pids=UNKNOWN rules=UNKNOWN
+  UID=10006 state=0 (fg) pids=[1288=13,1633=0] rules=UNKNOWN
+  UID=10007 state=13 (bg) pids=[1434=13] rules=UNKNOWN
+  UID=10008 state=13 (bg) pids=[1242=13] rules=UNKNOWN
+  UID=10009 state=13 (bg) pids=UNKNOWN rules=UNKNOWN
+  UID=10010 state=7 (bg) pids=[4472=7] rules=UNKNOWN
+  UID=10012 state=13 (bg) pids=UNKNOWN rules=UNKNOWN
+  UID=10014 state=2 (fg) pids=[1760=2] rules=UNKNOWN
+  UID=10015 state=13 (bg) pids=[1488=13] rules=UNKNOWN
+  UID=10017 state=13 (bg) pids=UNKNOWN rules=UNKNOWN
+  UID=10018 state=13 (bg) pids=UNKNOWN rules=UNKNOWN
+  UID=10019 state=13 (bg) pids=UNKNOWN rules=UNKNOWN
+  UID=10020 state=13 (bg) pids=[1335=13] rules=UNKNOWN
+  UID=10022 state=13 (bg) pids=UNKNOWN rules=UNKNOWN
+  UID=10024 state=4 (bg) pids=[1486=4] rules=UNKNOWN
+  UID=10027 state=13 (bg) pids=UNKNOWN rules=UNKNOWN
+  UID=10029 state=13 (bg) pids=UNKNOWN rules=UNKNOWN
+  UID=10030 state=0 (fg) pids=[1065=0,2181=3] rules=UNKNOWN
+  UID=10031 state=13 (bg) pids=UNKNOWN rules=UNKNOWN
+  UID=10033 state=13 (bg) pids=UNKNOWN rules=UNKNOWN
+  UID=10035 state=3 (bg) pids=[4845=3] rules=UNKNOWN
+  UID=10036 state=13 (bg) pids=UNKNOWN rules=UNKNOWN
+  UID=10037 state=13 (bg) pids=[2570=13] rules=UNKNOWN
+  UID=10038 state=13 (bg) pids=[5417=13] rules=UNKNOWN
+  UID=10039 state=0 (fg) pids=[1618=0] rules=UNKNOWN
+  UID=10041 state=13 (bg) pids=UNKNOWN rules=UNKNOWN
+  UID=10045 state=7 (bg) pids=[4213=7] rules=UNKNOWN
+  UID=10046 state=13 (bg) pids=UNKNOWN rules=UNKNOWN
+  UID=10047 state=13 (bg) pids=[1360=13] rules=UNKNOWN
+  UID=10048 state=13 (bg) pids=UNKNOWN rules=UNKNOWN
+  UID=10049 state=13 (bg) pids=UNKNOWN rules=UNKNOWN
+  UID=10055 state=13 (bg) pids=UNKNOWN rules=[]
+  UID=10056 state=13 (bg) pids=UNKNOWN rules=UNKNOWN
+  UID=10057 state=13 (bg) pids=UNKNOWN rules=UNKNOWN
+  UID=10058 state=0 (fg) pids=[1625=0] rules=UNKNOWN
+  UID=10059 state=7 (bg) pids=[4343=7] rules=UNKNOWN
+  UID=10060 state=7 (bg) pids=[2816=7,3960=7] rules=UNKNOWN
+  UID=10061 state=13 (bg) pids=UNKNOWN rules=UNKNOWN
+  UID=10062 state=13 (bg) pids=UNKNOWN rules=UNKNOWN
+  UID=10064 state=7 (bg) pids=[2685=7] rules=UNKNOWN
+  UID=10065 state=7 (bg) pids=[4010=7] rules=UNKNOWN
+  UID=10066 state=13 (bg) pids=UNKNOWN rules=UNKNOWN
+  UID=10067 state=7 (bg) pids=[4037=7] rules=UNKNOWN
+  UID=10068 state=13 (bg) pids=UNKNOWN rules=UNKNOWN
+  UID=10070 state=13 (bg) pids=[1599=13] rules=UNKNOWN
+  UID=10071 state=13 (bg) pids=UNKNOWN rules=UNKNOWN
+  UID=10072 state=13 (bg) pids=[2535=13] rules=UNKNOWN
+  UID=10073 state=13 (bg) pids=UNKNOWN rules=UNKNOWN
+  UID=10075 state=13 (bg) pids=UNKNOWN rules=UNKNOWN
+  UID=10079 state=13 (bg) pids=UNKNOWN rules=UNKNOWN
+  UID=10088 state=7 (bg) pids=[3440=7,6870=7] rules=UNKNOWN
+  UID=10095 state=3 (bg) pids=[2298=3,2676=7,13391=3] rules=UNKNOWN
+  UID=10097 state=3 (bg) pids=[5580=3,7087=3] rules=UNKNOWN
+  UID=10173 state=13 (bg) pids=UNKNOWN rules=UNKNOWN
+  UID=10174 state=7 (bg) pids=[2720=7,3186=7] rules=UNKNOWN

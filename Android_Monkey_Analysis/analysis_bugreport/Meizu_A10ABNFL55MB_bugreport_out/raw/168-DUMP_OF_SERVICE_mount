@@ -1,0 +1,48 @@
+mObbMounts:
+
+mObbPathToStateMap:
+
+mVolumes:
+  StorageVolume:
+      mStorageId=65537 mPath=/storage/emulated/0 mDescriptionId=17040827 
+      mPrimary=true mRemovable=false mEmulated=true mMtpReserveSpace=10 
+      mAllowMassStorage=false mMaxFileSize=0 mOwner=UserHandle{0} mUuid=null 
+      mUserLabel=null mState=mounted 
+    Current state: mounted
+  StorageVolume:
+      mStorageId=131073 mPath=/storage/sdcard1 mDescriptionId=17040825 
+      mPrimary=false mRemovable=true mEmulated=false mMtpReserveSpace=0 
+      mAllowMassStorage=true mMaxFileSize=0 mOwner=null mUuid=null 
+      mUserLabel=null mState=removed 
+    Current state: removed
+
+mConnection:
+  05-14 18:37:20.862 - RMV <- {400 242 volume operation failed (Success)}
+  05-14 18:37:21.310 - SND -> {243 volume mkdirs /storage/sdcard1/Android/data/com.tencent.mobileqq/files/data/}
+  05-14 18:37:21.310 - RCV <- {400 243 volume operation failed (Success)}
+  05-14 18:37:21.311 - RMV <- {400 243 volume operation failed (Success)}
+  05-14 18:37:23.711 - SND -> {244 volume mkdirs /storage/sdcard1/Android/data/com.tencent.mobileqq/cache/}
+  05-14 18:37:23.711 - RCV <- {400 244 volume operation failed (Success)}
+  05-14 18:37:23.712 - RMV <- {400 244 volume operation failed (Success)}
+  05-14 18:37:23.716 - SND -> {245 volume mkdirs /storage/sdcard1/Android/data/com.tencent.mobileqq/cache/}
+  05-14 18:37:23.717 - RCV <- {400 245 volume operation failed (Success)}
+  05-14 18:37:23.717 - RMV <- {400 245 volume operation failed (Success)}
+  05-14 18:37:31.455 - SND -> {246 volume mkdirs /storage/sdcard1/Android/data/com.tianyancha.skyeye/cache/}
+  05-14 18:37:31.456 - RCV <- {400 246 volume operation failed (Success)}
+  05-14 18:37:31.456 - RMV <- {400 246 volume operation failed (Success)}
+  05-14 18:37:32.024 - SND -> {247 volume mkdirs /storage/sdcard1/Android/data/com.tianyancha.skyeye/cache/}
+  05-14 18:37:32.024 - RCV <- {400 247 volume operation failed (Success)}
+  05-14 18:37:32.024 - RMV <- {400 247 volume operation failed (Success)}
+  05-14 18:37:32.203 - SND -> {248 volume mkdirs /storage/sdcard1/Android/data/com.tianyancha.skyeye/files/tnetlogs/}
+  05-14 18:37:32.203 - RCV <- {400 248 volume operation failed (Success)}
+  05-14 18:37:32.204 - RMV <- {400 248 volume operation failed (Success)}
+  05-14 18:37:32.383 - SND -> {249 volume mkdirs /storage/sdcard1/Android/data/com.tianyancha.skyeye/files/tnetlogs/}
+  05-14 18:37:32.383 - RCV <- {400 249 volume operation failed (Success)}
+  05-14 18:37:32.383 - RMV <- {400 249 volume operation failed (Success)}
+  05-14 18:37:32.393 - SND -> {250 volume mkdirs /storage/sdcard1/Android/data/com.tianyancha.skyeye/files/}
+  05-14 18:37:32.393 - RCV <- {400 250 volume operation failed (Success)}
+  05-14 18:37:32.393 - RMV <- {400 250 volume operation failed (Success)}
+  
+  Pending requests:
+
+Last maintenance: 2018-05-11 13:57:21

@@ -1,0 +1,95 @@
+    mSafeMode=false mSystemReady=true mSystemBooted=true
+    mLidState=-1 mLidOpenRotation=-1 mCameraLensCoverState=-1 mHdmiPlugged=false
+    mLastSystemUiFlags=0x8700 mResettingSystemUiFlags=0x0 mForceClearedSystemUiFlags=0x0
+    mWakeGestureEnabledSetting=true
+    mSupportAutoRotation=true
+    mUiMode=1 mDockMode=0 mCarDockRotation=-1 mDeskDockRotation=-1
+    mUserRotationMode=0 mUserRotation=0 mAllowAllRotations=1
+    mCurrentAppOrientation=1
+    mCarDockEnablesAccelerometer=true mDeskDockEnablesAccelerometer=true
+    mLidKeyboardAccessibility=0 mLidNavigationAccessibility=0 mLidControlsSleep=false
+    mShortPressOnPowerBehavior=2 mLongPressOnPowerBehavior=1
+    mDoublePressOnPowerBehavior=0 mTriplePressOnPowerBehavior=0
+    mHasSoftInput=true
+    mAwake=true
+    mScreenOnEarly=true mScreenOnFully=true
+    mKeyguardDrawComplete=true mWindowManagerDrawComplete=true
+    mOrientationSensorEnabled=true
+    mOverscanScreen=(0,0) 1080x1920
+    mRestrictedOverscanScreen=(0,0) 1080x1920
+    mUnrestrictedScreen=(0,0) 1080x1920
+    mRestrictedScreen=(0,0) 1080x1920
+    mStableFullscreen=(0,0)-(1080,1920)
+    mStable=(0,72)-(1080,1920)
+    mSystem=(0,0)-(1080,1920)
+    mCur=(0,72)-(1080,1920)
+    mContent=(0,72)-(1080,1920)
+    mVoiceContent=(0,72)-(1080,1920)
+    mDock=(0,72)-(1080,1920)
+    mDockLayer=268435456 mStatusBarLayer=161000
+    mShowingLockscreen=false mShowingDream=false mDreamingLockscreen=false mDreamingSleepToken=null
+    mStatusBar=Window{265c012 u0 StatusBar} isStatusBarKeyguard=false
+    mFocusedWindow=Window{7760c43 u0 com.yulong.android.launcher3/com.yulong.android.launcher3.Launcher}
+    mFocusedApp=Token{d16b1e7 ActivityRecord{da9e3a6 u0 com.yulong.android.launcher3/.Launcher t1}}
+    mTopFullscreenOpaqueWindowState=Window{7760c43 u0 com.yulong.android.launcher3/com.yulong.android.launcher3.Launcher}
+    mTopFullscreenOpaqueOrDimmingWindowState=Window{7760c43 u0 com.yulong.android.launcher3/com.yulong.android.launcher3.Launcher}
+    mTopIsFullscreen=false mHideLockScreen=false
+    mForceStatusBar=false mForceStatusBarFromKeyguard=false
+    mDismissKeyguard=0 mWinDismissingKeyguard=null mHomePressed=false
+    mAllowLockscreenWhenOn=false mLockScreenTimeout=360000000 mLockScreenTimerActive=false
+    mEndcallBehavior=2 mIncallPowerBehavior=1 mLongPressOnHomeBehavior=0
+    mLandscapeRotation=1 mSeascapeRotation=3
+    mPortraitRotation=0 mUpsideDownRotation=2
+    mDemoHdmiRotation=1 mDemoHdmiRotationLock=false
+    mUndockedHdmiRotation=-1
+    mKeyMapping.size=0
+    BarController.StatusBar
+      mState=WINDOW_STATE_SHOWING
+      mTransientBar=TRANSIENT_BAR_NONE
+    PolicyControl.sImmersiveStatusFilter=null
+    PolicyControl.sImmersiveNavigationFilter=null
+    PolicyControl.sImmersivePreconfirmationsFilter=null
+    WakeGestureListener
+      mTriggerRequested=false
+      mSensor=null
+    WindowOrientationListener
+      mEnabled=true
+      mCurrentRotation=0
+      mSensorType=@0
+      mSensor={Sensor name="BMI160 Accelerometer", vendor="BOSCH", version=2061000, type=1, maxRange=39.22661, resolution=0.0023956299, power=0.18, minDelay=5000}
+      mRate=2
+      AccelSensorJudge
+        mProposedRotation=1
+        mPredictedRotation=1
+        mLastFilteredX=8.464034
+        mLastFilteredY=2.5331316
+        mLastFilteredZ=3.9077904
+        mLastFilteredTimestampNanos=258335455451512 (34.386906ms ago)
+        mTiltHistory={last: 24.0}
+        mFlat=false
+        mSwinging=false
+        mAccelerating=false
+        mOverhead=false
+        mTouched=false
+        mTiltToleranceConfig=[[-25, 70], [-25, 65], [-25, 60], [-25, 65]]
+    KeyguardServiceDelegate
+      showing=false
+      showingAndNotOccluded=true
+      inputRestricted=false
+      occluded=false
+      secure=false
+      dreaming=false
+      systemIsReady=true
+      deviceHasKeyguard=true
+      enabled=false
+      offReason=3
+      currentUser=0
+      bootCompleted=true
+      screenState=2
+      interactiveState=1
+      KeyguardStateMonitor
+        mIsShowing=false
+        mSimSecure=false
+        mInputRestricted=false
+        mCurrentUserId=0
+

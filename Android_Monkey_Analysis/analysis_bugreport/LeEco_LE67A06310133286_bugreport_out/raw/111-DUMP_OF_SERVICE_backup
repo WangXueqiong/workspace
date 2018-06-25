@@ -1,0 +1,139 @@
+Backup Manager is disabled / provisioned / not pending init
+Auto-restore is enabled
+Last backup pass started: 0 (now = 1514107353273)
+  next scheduled: 1514119029871
+Transport whitelist:
+    android/com.android.internal.backup.LocalTransportService
+    com.google.android.gms/.backup.component.D2dTransportService
+    com.google.android.gms/.backup.BackupTransportService
+Available transports:
+Pending init: 0
+Ancestral: 0
+Current:   0
+Participants:
+  uid: 1000
+    com.android.providers.settings
+    android
+  uid: 10003
+    com.android.providers.userdictionary
+    com.android.providers.calllogbackup
+  uid: 10036
+    com.android.sharedstoragebackup
+  uid: 10072
+    com.android.calendar
+Ancestral packages: none
+Ever backed up: 0
+Pending key/value backup: 7
+    BackupRequest{pkg=com.android.calendar}
+    BackupRequest{pkg=com.android.providers.userdictionary}
+    BackupRequest{pkg=com.android.providers.calllogbackup}
+    BackupRequest{pkg=com.android.sharedstoragebackup}
+    BackupRequest{pkg=@pm@}
+    BackupRequest{pkg=com.android.providers.settings}
+    BackupRequest{pkg=android}
+Full backup queue:105
+    0 : com.uei.quicksetsdk.letv
+    0 : com.letv.android.quicksearchbox
+    0 : com.letv.android.agent
+    0 : com.letv.android.zxing
+    0 : com.android.providers.media
+    0 : com.mediatek.fwk.plugin
+    0 : com.android.wallpapercropper
+    0 : com.letv.android.wallpaper
+    0 : com.letv.leui.schpwronoff
+    0 : com.redteamobile.virtual.softsim
+    0 : com.letv.android.wallpaperonline
+    0 : com.android.documentsui
+    0 : com.letv.leui.sdk.data
+    0 : com.letv.android.letvlive
+    0 : com.letv.android.letvsafe
+    0 : com.android.externalstorage
+    0 : com.lesports.glivesports
+    0 : com.android.htmlviewer
+    0 : com.letv.android.themesettings
+    0 : com.letv.android.note
+    0 : com.le.android.webview
+    0 : com.letv.android.usermanual
+    0 : com.mediatek.omacp
+    0 : com.android.browser
+    0 : com.android.providers.applications
+    0 : com.letv.android.usagestats
+    0 : com.letv.android.personalized
+    0 : com.letv.app.appstore
+    0 : com.android.providers.downloads.ui
+    0 : com.android.pacprocessor
+    0 : com.stv.stvpush
+    0 : com.letv.android.freeflow
+    0 : com.android.contacts
+    0 : com.android.camera2
+    0 : com.letv.android.remotecontrol
+    0 : com.letv.android.telextra
+    0 : se.dirac.acs
+    0 : com.mediatek.bluetooth.dtt
+    0 : com.letv.android.backup
+    0 : com.letv.android.setupwizard
+    0 : com.mediatek.floatmenu
+    0 : com.android.wallpaper.holospiral
+    0 : com.android.phasebeam
+    0 : com.letv.android.remotedevice
+    0 : com.letv.android.backupclient
+    0 : com.letv.walletbiz
+    0 : com.android.dreams.basic
+    0 : com.letv.android.recorder
+    0 : com.example
+    0 : com.android.musicfx
+    0 : com.android.VRAdmin
+    0 : com.letv.gallery3d.syncservice
+    0 : com.android.cellbroadcastreceiver
+    0 : com.android.onetimeinitializer
+    0 : com.lvr.wizzard
+    0 : com.ss.android.article.news
+    0 : com.letv.android.compass
+    0 : com.android.gallery3d
+    0 : com.letv.domain
+    0 : com.svox.pico
+    0 : com.letv.android.mobileactivation
+    0 : com.android.proxyhandler
+    0 : com.android.inputmethod.latin
+    0 : com.letv.agnes
+    0 : com.letv.android.supermanager
+    0 : com.letv.games
+    0 : com.android.managedprovisioning
+    0 : com.mediatek.calendarimporter
+    0 : com.android.noisefield
+    0 : com.letv.android.fannation
+    0 : com.google.android.gsf.login
+    0 : com.letv.android.bugreporter
+    0 : com.letv.wallet
+    0 : com.android.wallpaper.livepicker
+    0 : com.alipay.authinfo.provider
+    0 : com.letv.roaming
+    0 : com.letv.leui.widget.leclipboardapp
+    0 : com.letv.android.filemanager
+    0 : com.letv.android.themestore
+    0 : com.letv.android.ecoProvider
+    0 : com.le.share.x6
+    0 : com.android.calculator2
+    0 : com.le.webview
+    0 : com.mediatek.lbs.em2.ui
+    0 : com.letv.android.emojistore
+    0 : com.letv.android.gallery3d.filtershow.stereo
+    0 : com.android.wallpaper
+    0 : com.letv.android.privacydata
+    0 : com.android.music
+    0 : se.dirac.examples.effectservice
+    0 : com.android.deskclock
+    0 : com.android.exchange
+    0 : com.android.bluetoothmidiservice
+    0 : com.tencent.android.location
+    0 : com.letv.android.videoplayer
+    0 : com.mediatek.mtklogger
+    0 : com.mediatek.sensorhub.ui
+    0 : com.letv.android.ota
+    0 : com.android.captiveportallogin
+    0 : com.mediatek.dataprotection
+    0 : com.letv.android.LetvShareProvider
+    0 : com.letv.android.phonecontrol
+    0 : com.letv.android.euitransfer
+    1513649416390 : com.koushikdutta.vysor
+    1513938894836 : com.android.mms

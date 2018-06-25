@@ -1,0 +1,41 @@
+ResourceManagerService: 0xb2089300
+  Policies:
+    SupportsMultipleSecureCodecs: 1
+    SupportsSecureWithNonSecureCodec: 1
+  Processes:
+    Pid: 6502
+    Pid: 6788
+      Client:
+        Id: 2922640736
+        Name: OMX.qcom.video.encoder.avc
+        Resources:
+          non-secure-codec/video-codec:1
+          graphic-memory/:6842880
+    Pid: 11112
+    Pid: 15441
+  Events logs (most recent at top):
+    12-24 16:10:07 removeResource(pid 6502, clientId 2430680512)
+    12-24 16:10:07 removeResource(pid 6502, clientId 2430680512)
+    12-24 16:10:00 addResource(pid 6502, clientId 2430680512, resources graphic-memory/:16485120 )
+    12-24 16:10:00 addResource(pid 6502, clientId 2430680512, resources non-secure-codec/video-codec:1 )
+    12-24 16:05:24 removeResource(pid 6502, clientId 2231700096)
+    12-24 16:05:24 removeResource(pid 6502, clientId 2231700096)
+    12-24 16:05:22 addResource(pid 6502, clientId 2231700096, resources graphic-memory/:16485120 )
+    12-24 16:05:22 addResource(pid 6502, clientId 2231700096, resources non-secure-codec/video-codec:1 )
+    12-24 16:01:18 addResource(pid 6788, clientId 2922640736, resources graphic-memory/:6842880 )
+    12-24 16:01:17 addResource(pid 6788, clientId 2922640736, resources non-secure-codec/video-codec:1 )
+    12-21 14:13:29 removeResource(pid 15441, clientId 3002294496)
+    12-21 14:13:29 removeResource(pid 15441, clientId 3002294400)
+    12-21 14:13:29 removeResource(pid 15441, clientId 3002294400)
+    12-21 14:13:29 addResource(pid 15441, clientId 3002294400, resources non-secure-codec/video-codec:1 )
+    12-20 19:43:58 removeResource(pid 11112, clientId 3055084992)
+    12-20 19:43:58 removeResource(pid 11112, clientId 3055084992)
+    12-20 19:43:58 removeResource(pid 11112, clientId 3055084992)
+    12-20 19:43:55 addResource(pid 11112, clientId 3055084992, resources graphic-memory/:27993600 )
+    12-20 19:43:55 addResource(pid 11112, clientId 3055084992, resources non-secure-codec/video-codec:1 )
+    12-20 19:08:32 removeResource(pid 1325, clientId 2913724992)
+    12-20 19:08:32 removeResource(pid 1325, clientId 2913724992)
+    12-20 17:35:20 removeResource(pid 346, clientId 2930282432)
+    12-20 17:35:20 removeResource(pid 346, clientId 2930282432)
+    12-20 16:50:58 removeResource(pid 579, clientId 2949641504)
+    12-20 16:50:58 removeResource(pid 579, clientId 2949641504)

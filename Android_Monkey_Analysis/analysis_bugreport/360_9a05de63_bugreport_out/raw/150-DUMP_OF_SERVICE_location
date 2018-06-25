@@ -1,0 +1,68 @@
+Current Location Manager state:
+  Location Listeners:
+    Reciever[8ca9de listener UpdateRecord[network com.yulong.android.launcher3(10048) Request[POWER_LOW network requested=+10m0s0ms fastest=+10m0s0ms]]]
+    Reciever[803f160 listener UpdateRecord[network android(1000) Request[POWER_LOW network requested=+24h0m0s0ms fastest=+24h0m0s0ms]]]
+    Reciever[735e0e6 listener UpdateRecord[passive android(1000) Request[POWER_NONE passive fastest=0]]]
+    Reciever[f931f5 listener UpdateRecord[passive com.amap.android.location(10040) Request[POWER_NONE passive fastest=+1s0ms]]]
+    Reciever[d9fc17e listener UpdateRecord[passive com.amap.android.location(10040) Request[POWER_NONE passive fastest=+1s0ms]]]
+    Reciever[66bbdb3 listener UpdateRecord[passive android(1000) Request[POWER_NONE passive fastest=0]]]
+    Reciever[fde1ad5 listener UpdateRecord[passive android(1000) Request[POWER_NONE passive fastest=0]]]
+  Active Records by Provider:
+    network:
+      UpdateRecord[network android(1000) Request[POWER_LOW network requested=+24h0m0s0ms fastest=+24h0m0s0ms]]
+      UpdateRecord[network com.yulong.android.launcher3(10048) Request[POWER_LOW network requested=+10m0s0ms fastest=+10m0s0ms]]
+    gps:
+    passive:
+      UpdateRecord[passive android(1000) Request[POWER_NONE passive fastest=0]]
+      UpdateRecord[passive android(1000) Request[POWER_NONE passive fastest=0]]
+      UpdateRecord[passive com.amap.android.location(10040) Request[POWER_NONE passive fastest=+1s0ms]]
+      UpdateRecord[passive android(1000) Request[POWER_NONE passive fastest=0]]
+      UpdateRecord[passive com.amap.android.location(10040) Request[POWER_NONE passive fastest=+1s0ms]]
+  Historical Records by Provider:
+    com.qihoo360.mobilesafe: network: Interval 1 seconds: Duration requested 260 out of the last 4304 minutes
+    com.yulong.android.xtime: passive: Interval 1 seconds: Duration requested 0 out of the last 4303 minutes
+    com.ziroom.ziroomcustomer: gps: Interval 1 seconds: Duration requested 0 out of the last 3196 minutes
+    com.android.phone: network: Interval 1 seconds: Duration requested 0 out of the last 4304 minutes
+    android: passive: Interval 0 seconds: Duration requested 4304 out of the last 4304 minutes: Currently active
+    com.tencent.mobileqq: passive: Interval 600 seconds: Duration requested 20 out of the last 2946 minutes
+    android: network: Interval 86400 seconds: Duration requested 4304 out of the last 4304 minutes: Currently active
+    com.amap.android.location: passive: Interval 1 seconds: Duration requested 4304 out of the last 4304 minutes: Currently active
+    com.yulong.android.launcher3: network: Interval 600 seconds: Duration requested 3261 out of the last 3345 minutes: Currently active
+    com.qihoo360.mobilesafe: gps: Interval 5 seconds: Duration requested 0 out of the last 4304 minutes
+    com.ziroom.ziroomcustomer: passive: Interval 9 seconds: Duration requested 0 out of the last 3196 minutes
+    com.tencent.mobileqq: gps: Interval 2 seconds: Duration requested 428 out of the last 4296 minutes
+    com.tianyancha.skyeye: gps: Interval 1 seconds: Duration requested 0 out of the last 3016 minutes
+    com.tianyancha.skyeye: passive: Interval 9 seconds: Duration requested 0 out of the last 3016 minutes
+    com.qihoo.browser: network: Interval 10 seconds: Duration requested 0 out of the last 4304 minutes
+    com.qihoo.appstore: network: Interval 10 seconds: Duration requested 2 out of the last 4304 minutes
+    com.qiku.powermaster: network: Min interval 10 seconds: Max interval 600 seconds: Duration requested 0 out of the last 4258 minutes
+  Last Known Locations:
+  Last Known Locations Coarse Intervals:
+  Geofences:
+  Enabled Providers:
+    fused
+    passive
+  mWhitelist=[] mBlacklist=[]
+  fudger: offset: -111, 483 (meters)
+passive Internal State:
+mReportLocation=true
+gps Internal State:
+  mFixInterval=1000
+  mDisableGps (battery saver mode)=false
+  mEngineCapabilities=0x0 ()
+nullnetwork Internal State (com.amap.android.location):
+REMOTE SERVICE name=network pkg=com.amap.android.location version=2147483647
+fused Internal State (com.android.location.fused):
+REMOTE SERVICE name=fused pkg=com.android.location.fused version=0
+mEnabled=false null
+fused=null
+gps Location[ 0.000000,0.000000 acc=340282346638529000000000000000000000000 t=?!? et=?!?]
+     ---
+net Location[ 0.000000,0.000000 acc=340282346638529000000000000000000000000 t=?!? et=?!?]
+     ---
+  ###Dump qiku GPS optimize info begin: 
+   app=com.tencent.mobileqq, accessCount=97, lastOptiType=202; DB record: App=com.tencent.mobileqq, SSCount=1301, SSSuccCount=0, LastSSSuccDateTime=1970-01-01 08:00:00, TotalTime=1327, ScOnTotTime=30, FGTotTime=545, ScOnFGTotTime=11, ScOnTopTime=0, LocSuccTime=0, ScOnSuccTime=0, FGSuccTime=0, ScOnFGSuccTime=0, ScOnTopSuccTime=0, ScOnDistance=0, ScOffDistance=0, HaveMovLocSuccTime=0, TotReqCount=1366, TotSuccReqCount=0, LastReqDateTime=2017-12-24 17:21:33, FirstCount=2, FirstTime=9, ScOffCount=0, ScOffTime=0, ToBGCount=0, ToBGTime=0, ByWifiCount=0, ByWifiTime=0
+   app=com.ziroom.ziroomcustomer, accessCount=1, lastOptiType=0; DB record: App=com.ziroom.ziroomcustomer, SSCount=10, SSSuccCount=0, LastSSSuccDateTime=1970-01-01 08:00:00, TotalTime=0, ScOnTotTime=0, FGTotTime=0, ScOnFGTotTime=0, ScOnTopTime=0, LocSuccTime=0, ScOnSuccTime=0, FGSuccTime=0, ScOnFGSuccTime=0, ScOnTopSuccTime=0, ScOnDistance=0, ScOffDistance=0, HaveMovLocSuccTime=0, TotReqCount=10, TotSuccReqCount=0, LastReqDateTime=2017-12-22 12:09:57, FirstCount=0, FirstTime=0, ScOffCount=0, ScOffTime=0, ToBGCount=0, ToBGTime=0, ByWifiCount=0, ByWifiTime=0
+   app=com.qihoo360.mobilesafe, accessCount=11, lastOptiType=202; DB record: App=com.qihoo360.mobilesafe, SSCount=993, SSSuccCount=0, LastSSSuccDateTime=1970-01-01 08:00:00, TotalTime=28, ScOnTotTime=8, FGTotTime=12, ScOnFGTotTime=8, ScOnTopTime=0, LocSuccTime=0, ScOnSuccTime=0, FGSuccTime=0, ScOnFGSuccTime=0, ScOnTopSuccTime=0, ScOnDistance=0, ScOffDistance=0, HaveMovLocSuccTime=0, TotReqCount=994, TotSuccReqCount=0, LastReqDateTime=2017-12-24 17:21:23, FirstCount=5, FirstTime=16, ScOffCount=0, ScOffTime=0, ToBGCount=0, ToBGTime=0, ByWifiCount=0, ByWifiTime=0
+   app=com.tianyancha.skyeye, accessCount=1, lastOptiType=202; DB record: App=com.tianyancha.skyeye, SSCount=17, SSSuccCount=0, LastSSSuccDateTime=1970-01-01 08:00:00, TotalTime=0, ScOnTotTime=0, FGTotTime=0, ScOnFGTotTime=0, ScOnTopTime=0, LocSuccTime=0, ScOnSuccTime=0, FGSuccTime=0, ScOnFGSuccTime=0, ScOnTopSuccTime=0, ScOnDistance=0, ScOffDistance=0, HaveMovLocSuccTime=0, TotReqCount=17, TotSuccReqCount=0, LastReqDateTime=2017-12-22 15:09:37, FirstCount=0, FirstTime=0, ScOffCount=0, ScOffTime=0, ToBGCount=0, ToBGTime=0, ByWifiCount=0, ByWifiTime=0
+  ###Dump qiku GPS optimize info end. 

@@ -1,0 +1,78 @@
+  Display: mDisplayId=0
+    init=1080x1920 480dpi cur=1080x1920 app=1080x1920 rng=1080x1014-1920x1854
+    deferred=false layoutNeeded=false
+  mStacks[1]0
+    mStackId=0
+    mDeferDetach=false
+    {taskId=447 appTokens=[AppWindowToken{1b341671 token=Token{e473c18 ActivityRecord{1463fb u0 com.meizu.flyme.launcher/.Launcher t447}}}] mdr=false}
+  mStacks[0]1
+    mStackId=1
+    mDeferDetach=false
+    {taskId=451 appTokens=[AppWindowToken{38d98b06 token=Token{290aef48 ActivityRecord{127725eb u0 com.tencent.mobileqq/.activity.SplashActivity t451}}}] mdr=false}
+    {taskId=450 appTokens=[AppWindowToken{22c6642a token=Token{3704b4ff ActivityRecord{21c0241e u0 com.android.settings/.Settings t450}}}, AppWindowToken{2df4c1fe token=Token{14badf80 ActivityRecord{38dc5403 u0 com.android.settings/.SubSettings t450}}}, AppWindowToken{140528b0 token=Token{2f7f8662 ActivityRecord{2f5a12d u0 com.android.settings/.deviceinfo.Status t450}}}] mdr=false}
+    {taskId=463 appTokens=[AppWindowToken{2d1e6ba7 token=Token{2e170cc1 ActivityRecord{39bdd9a8 u0 com.tianyancha.skyeye/.MainActivity t463}}}] mdr=false}
+
+  Application tokens in top down Z order:
+  mStackId=0
+    mTaskId=447
+    Activity #0 AppWindowToken{1b341671 token=Token{e473c18 ActivityRecord{1463fb u0 com.meizu.flyme.launcher/.Launcher t447}}}:
+      windows=[Window{11401b4 u0 com.meizu.flyme.launcher/com.meizu.flyme.launcher.Launcher}]
+      windowType=2 hidden=false hasVisible=true
+      app=true voiceInteraction=false
+      allAppWindows=[Window{11401b4 u0 com.meizu.flyme.launcher/com.meizu.flyme.launcher.Launcher}]
+      groupId=447 appFullscreen=true requestedOrientation=1
+      hiddenRequested=false clientHidden=false willBeHidden=false reportedDrawn=true reportedVisible=true
+      numInterestingWindows=1 numDrawnWindows=1 inPendingTransaction=false allDrawn=true (animator=true)
+      startingData=null removed=false firstWindowDrawn=true mDeferRemoval=false
+  mStackId=1
+    mTaskId=463
+    Activity #0 AppWindowToken{2d1e6ba7 token=Token{2e170cc1 ActivityRecord{39bdd9a8 u0 com.tianyancha.skyeye/.MainActivity t463}}}:
+      windows=[Window{75ffa1 u0 com.tianyancha.skyeye/com.tianyancha.skyeye.MainActivity}]
+      windowType=2 hidden=true hasVisible=true
+      app=true voiceInteraction=false
+      allAppWindows=[Window{75ffa1 u0 com.tianyancha.skyeye/com.tianyancha.skyeye.MainActivity}]
+      groupId=463 appFullscreen=true requestedOrientation=1
+      hiddenRequested=true clientHidden=true willBeHidden=false reportedDrawn=false reportedVisible=false
+      numInterestingWindows=1 numDrawnWindows=1 inPendingTransaction=false allDrawn=true (animator=true)
+      startingData=null removed=false firstWindowDrawn=true mDeferRemoval=false
+    mTaskId=450
+    Activity #2 AppWindowToken{140528b0 token=Token{2f7f8662 ActivityRecord{2f5a12d u0 com.android.settings/.deviceinfo.Status t450}}}:
+      windows=[Window{ce00e61 u0 com.android.settings/com.android.settings.deviceinfo.Status}]
+      windowType=2 hidden=true hasVisible=true
+      app=true voiceInteraction=false
+      allAppWindows=[Window{ce00e61 u0 com.android.settings/com.android.settings.deviceinfo.Status}]
+      groupId=450 appFullscreen=true requestedOrientation=1
+      hiddenRequested=true clientHidden=true willBeHidden=false reportedDrawn=false reportedVisible=false
+      numInterestingWindows=1 numDrawnWindows=1 inPendingTransaction=false allDrawn=true (animator=true)
+      startingData=null removed=false firstWindowDrawn=true mDeferRemoval=false
+    Activity #1 AppWindowToken{2df4c1fe token=Token{14badf80 ActivityRecord{38dc5403 u0 com.android.settings/.SubSettings t450}}}:
+      windows=[Window{33651e98 u0 com.android.settings/com.android.settings.SubSettings}]
+      windowType=2 hidden=true hasVisible=true
+      app=true voiceInteraction=false
+      allAppWindows=[Window{33651e98 u0 com.android.settings/com.android.settings.SubSettings}]
+      groupId=450 appFullscreen=true requestedOrientation=1
+      hiddenRequested=true clientHidden=true willBeHidden=false reportedDrawn=false reportedVisible=false
+      numInterestingWindows=1 numDrawnWindows=1 inPendingTransaction=false allDrawn=true (animator=true)
+      startingData=null removed=false firstWindowDrawn=true mDeferRemoval=false
+    Activity #0 AppWindowToken{22c6642a token=Token{3704b4ff ActivityRecord{21c0241e u0 com.android.settings/.Settings t450}}}:
+      windows=[Window{1456a566 u0 com.android.settings/com.android.settings.Settings}]
+      windowType=2 hidden=true hasVisible=true
+      app=true voiceInteraction=false
+      allAppWindows=[Window{1456a566 u0 com.android.settings/com.android.settings.Settings}]
+      groupId=450 appFullscreen=true requestedOrientation=1
+      hiddenRequested=true clientHidden=true willBeHidden=false reportedDrawn=false reportedVisible=false
+      numInterestingWindows=1 numDrawnWindows=1 inPendingTransaction=false allDrawn=true (animator=true)
+      startingData=null removed=false firstWindowDrawn=true mDeferRemoval=false
+    mTaskId=451
+    Activity #0 AppWindowToken{38d98b06 token=Token{290aef48 ActivityRecord{127725eb u0 com.tencent.mobileqq/.activity.SplashActivity t451}}}:
+      windows=[Window{e69cf24 u0 com.tencent.mobileqq/com.tencent.mobileqq.activity.SplashActivity}]
+      windowType=2 hidden=true hasVisible=true
+      app=true voiceInteraction=false
+      allAppWindows=[Window{e69cf24 u0 com.tencent.mobileqq/com.tencent.mobileqq.activity.SplashActivity}]
+      groupId=451 appFullscreen=true requestedOrientation=1
+      hiddenRequested=true clientHidden=true willBeHidden=false reportedDrawn=false reportedVisible=false
+      numInterestingWindows=1 numDrawnWindows=1 inPendingTransaction=false allDrawn=true (animator=true)
+      startingData=com.android.server.wm.StartingData@c76dec6 removed=false firstWindowDrawn=true mDeferRemoval=false
+
+
+

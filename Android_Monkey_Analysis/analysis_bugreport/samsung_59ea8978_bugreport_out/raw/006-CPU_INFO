@@ -1,0 +1,39 @@
+
+
+
+User 11%, System 20%, IOW 0%, IRQ 0%
+User 26 + Nice 7 + Sys 57 + Idle 191 + IOW 1 + IRQ 0 + SIRQ 0 = 282
+
+  PID   TID PR CPU% S     VSS     RSS PCY UID      Thread          Proc
+ 2807  2807  3  13% R   4184K   1856K     shell    top             top
+ 2720  2729  0   2% S 1640300K  52084K  bg u0_a441  HeapTaskDaemon  com.tianyancha.skyeye:channel
+  847  4228  3   2% S 2099656K 125372K  bg system   AsyncTask #4    system_server
+25228 25266  3   1% S 974088K  51320K  bg u0_a406  pool-1-temporar com.tencent.android.qqdownloader:daemon
+25228 25263  0   1% S 974088K  51320K  bg u0_a406  FloatingWindow- com.tencent.android.qqdownloader:daemon
+  346   559  3   0% S 248008K  12568K  fg media    generic         /system/bin/mediaserver
+23544 23571  3   0% S 961372K  34188K  bg u0_a406  Wns.File.Tracer com.tencent.android.qqdownloader:wns
+  212   212  0   0% S      0K      0K     root     mmcqd/0         
+ 2205  4611  0   0% S 910436K  21580K  fg u0_a73   Thread-151      com.sec.android.widgetapp.ap.hero.cmaweather:SurfaceWidget
+25228 25252  0   0% S 974088K  51320K  bg u0_a406  pool-1-temporar com.tencent.android.qqdownloader:daemon
+  847   865  0   0% S 2099656K 125372K  fg system   Binder_2        system_server
+25228 25254  0   0% S 974088K  51320K  bg u0_a406  pool-1-temporar com.tencent.android.qqdownloader:daemon
+  346   569  0   0% S 248008K  12568K  fg media    AudioOut_261    /system/bin/mediaserver
+  346   570  3   0% S 248008K  12568K  fg media    NPDecoder       /system/bin/mediaserver
+ 2280  2280  0   0% S      0K      0K     root     irq/33-cpubw_hw 
+  847  1003  3   0% S 2099656K 125372K  fg system   ActivityManager system_server
+  847  4320  0   0% S 2099656K 125372K  fg system   Binder_10       system_server
+25228 25272  0   0% S 974088K  51320K  bg u0_a406  SettingsHandler com.tencent.android.qqdownloader:daemon
+ 2396  2414  0   0% S   8480K    340K     root     mpdecision      /system/bin/mpdecision
+  847   847  0   0% S 2099656K 125372K  fg system   system_server   system_server
+31245 31295  3   0% S 1717364K  50748K  bg cmhservi HEAVY#1         com.samsung.dcm:DCMService
+26272 26272  0   0% S      0K      0K     root     kworker/0:0H    
+ 2720  2770  0   0% S 1640300K  52084K  bg u0_a441  ACCS0           com.tianyancha.skyeye:channel
+  237   237  0   0% S      0K      0K     root     dhd_dpc         
+  512   512  3   0% S      0K      0K     root     flush-179:0     
+24087 24087  0   0% S      0K      0K     root     kworker/0:2     
+  316   316  0   0% S   3692K    536K     system   servicemanager  /system/bin/servicemanager
+    7     7  0   0% D      0K      0K     root     kworker/u:0H    
+25228 25243  0   0% S 974088K  51320K  bg u0_a406  pool-1-temporar com.tencent.android.qqdownloader:daemon
+20708 20708  3   0% S      0K      0K     root     ksoftirqd/3     
+[top: 1.873s elapsed]
+

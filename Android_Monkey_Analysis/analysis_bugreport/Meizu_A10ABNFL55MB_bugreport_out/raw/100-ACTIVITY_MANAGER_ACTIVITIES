@@ -1,0 +1,214 @@
+Display #0 (activities from top to bottom)(size:2):
+  Stack #0:
+    Task id #447
+    * TaskRecord{3c237dfd #447 A=com.meizu.flyme.launcher U=0 sz=1}
+      userId=0 effectiveUid=u0a14 mCallingUid=1000 mCallingPackage=android
+      affinity=com.meizu.flyme.launcher
+      intent={act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 cmp=com.meizu.flyme.launcher/.Launcher}
+      realActivity=com.meizu.flyme.launcher/.Launcher
+      autoRemoveRecents=false isPersistable=true numFullscreen=1 taskType=1 mTaskToReturnTo=0
+      rootWasReset=false mNeverRelinquishIdentity=true mReuseTask=false
+      Activities=[ActivityRecord{1463fb u0 com.meizu.flyme.launcher/.Launcher t447}]
+      askedCompatMode=false inRecents=true isAvailable=true
+      lastThumbnail=null lastThumbnailFile=/data/system/recent_images/447_task_thumbnail.png
+      hasBeenVisible=true firstActiveTime=1526294250880 lastActiveTime=1526294250880 (inactive for 39s)
+      * Hist #0: ActivityRecord{1463fb u0 com.meizu.flyme.launcher/.Launcher t447}
+          packageName=com.meizu.flyme.launcher processName=com.meizu.flyme.launcher
+          launchedFromUid=0 launchedFromPackage=null userId=0
+          app=ProcessRecord{628c9d2 1760:com.meizu.flyme.launcher/u0a14}
+          Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 cmp=com.meizu.flyme.launcher/.Launcher }
+          frontOfTask=true task=TaskRecord{3c237dfd #447 A=com.meizu.flyme.launcher U=0 sz=1}
+          taskAffinity=com.meizu.flyme.launcher
+          realActivity=com.meizu.flyme.launcher/.Launcher
+          baseDir=/system/priv-app/FlymeLauncher/FlymeLauncher.apk
+          dataDir=/data/user/0/com.meizu.flyme.launcher
+          stateNotNeeded=true componentSpecified=false mActivityType=1
+          compat={480dpi} labelRes=0x7f080020 icon=0x7f030001 theme=0x7f0c00fa
+          config={1.0 ?mcc?mnc zh_CN ?layoutDir sw360dp w360dp h618dp 480dpi nrml long port finger -keyb/v/h -nav/h s.5}
+          taskDescription: iconFilename=null label="null" color=ffefefef
+          launchFailed=false launchCount=0 lastLaunchTime=-4h49m57s167ms
+          haveState=false icicle=null
+          state=RESUMED stopped=false delayedResume=false finishing=false
+          keysPaused=false inHistory=true visible=true sleeping=false idle=true
+          fullscreen=true noDisplay=false immersive=false launchMode=2
+          frozenBeforeDestroy=false forceNewConfig=false
+          mActivityType=HOME_ACTIVITY_TYPE
+          waitingVisible=false nowVisible=true lastVisibleTime=-38s507ms
+          connections=[]
+
+    Running activities (most recent first):
+      TaskRecord{3c237dfd #447 A=com.meizu.flyme.launcher U=0 sz=1}
+        Run #0: ActivityRecord{1463fb u0 com.meizu.flyme.launcher/.Launcher t447}
+
+    mResumedActivity: ActivityRecord{1463fb u0 com.meizu.flyme.launcher/.Launcher t447}
+
+  Stack #1:
+    Task id #463
+    * TaskRecord{1bdda642 #463 A=com.tianyancha.skyeye U=0 sz=1}
+      userId=0 effectiveUid=u0a174 mCallingUid=u0a174 mCallingPackage=com.tianyancha.skyeye
+      affinity=com.tianyancha.skyeye
+      intent={act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.tianyancha.skyeye/.SplashPage}
+      realActivity=com.tianyancha.skyeye/.SplashPage
+      autoRemoveRecents=false isPersistable=true numFullscreen=1 taskType=0 mTaskToReturnTo=1
+      rootWasReset=true mNeverRelinquishIdentity=true mReuseTask=false
+      Activities=[ActivityRecord{39bdd9a8 u0 com.tianyancha.skyeye/.MainActivity t463}]
+      askedCompatMode=false inRecents=true isAvailable=true
+      lastThumbnail=android.graphics.Bitmap@3f141653 lastThumbnailFile=/data/system/recent_images/463_task_thumbnail.png
+      hasBeenVisible=true firstActiveTime=1526294250829 lastActiveTime=1526294250829 (inactive for 39s)
+      * Hist #0: ActivityRecord{39bdd9a8 u0 com.tianyancha.skyeye/.MainActivity t463}
+          packageName=com.tianyancha.skyeye processName=com.tianyancha.skyeye
+          launchedFromUid=10174 launchedFromPackage=com.tianyancha.skyeye userId=0
+          app=ProcessRecord{1dadae24 2720:com.tianyancha.skyeye/u0a174}
+          Intent { flg=0x10000000 cmp=com.tianyancha.skyeye/.MainActivity }
+          frontOfTask=true task=TaskRecord{1bdda642 #463 A=com.tianyancha.skyeye U=0 sz=1}
+          taskAffinity=com.tianyancha.skyeye
+          realActivity=com.tianyancha.skyeye/.MainActivity
+          baseDir=/data/app/com.tianyancha.skyeye-2/base.apk
+          dataDir=/data/data/com.tianyancha.skyeye
+          stateNotNeeded=false componentSpecified=true mActivityType=0
+          compat={480dpi} labelRes=0x7f0d03af icon=0x7f07024f theme=0x7f0e000c
+          config={1.0 ?mcc?mnc zh_CN ?layoutDir sw360dp w360dp h618dp 480dpi nrml long port finger -keyb/v/h -nav/h s.5}
+          taskDescription: iconFilename=null label="null" color=ff3f51b5
+          launchFailed=false launchCount=0 lastLaunchTime=-47s698ms
+          haveState=true icicle=Bundle[mParcelledData.dataSize=16392]
+          state=STOPPED stopped=true delayedResume=false finishing=false
+          keysPaused=false inHistory=true visible=false sleeping=false idle=true
+          fullscreen=true noDisplay=false immersive=false launchMode=2
+          frozenBeforeDestroy=false forceNewConfig=false
+          mActivityType=APPLICATION_ACTIVITY_TYPE
+          waitingVisible=false nowVisible=false lastVisibleTime=-44s48ms
+
+    Task id #450
+    * TaskRecord{1a2deaf2 #450 A=com.android.settings U=0 sz=3}
+      userId=0 effectiveUid=1000 mCallingUid=u0a14 mCallingPackage=com.meizu.flyme.launcher
+      affinity=com.android.settings
+      intent={act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.settings/.Settings}
+      origActivity=com.android.settings/.Settings
+      realActivity=com.android.settings/.Settings
+      autoRemoveRecents=false isPersistable=true numFullscreen=3 taskType=0 mTaskToReturnTo=1
+      rootWasReset=true mNeverRelinquishIdentity=true mReuseTask=false
+      Activities=[ActivityRecord{21c0241e u0 com.android.settings/.Settings t450}, ActivityRecord{38dc5403 u0 com.android.settings/.SubSettings t450}, ActivityRecord{2f5a12d u0 com.android.settings/.deviceinfo.Status t450}]
+      askedCompatMode=false inRecents=true isAvailable=true
+      lastThumbnail=android.graphics.Bitmap@c4ef543 lastThumbnailFile=/data/system/recent_images/450_task_thumbnail.png
+      hasBeenVisible=true firstActiveTime=1526294220846 lastActiveTime=1526294220846 (inactive for 69s)
+      * Hist #2: ActivityRecord{2f5a12d u0 com.android.settings/.deviceinfo.Status t450}
+          packageName=com.android.settings processName=com.android.settings
+          launchedFromUid=1000 launchedFromPackage=com.android.settings userId=0
+          app=ProcessRecord{154d65f5 4714:com.android.settings/1000}
+          Intent { act=android.intent.action.MAIN cmp=com.android.settings/.deviceinfo.Status }
+          frontOfTask=false task=TaskRecord{1a2deaf2 #450 A=com.android.settings U=0 sz=3}
+          taskAffinity=null
+          realActivity=com.android.settings/.deviceinfo.Status
+          baseDir=/system/priv-app/Settings/Settings.apk
+          dataDir=/data/data/com.android.settings
+          stateNotNeeded=false componentSpecified=true mActivityType=0
+          compat={480dpi} labelRes=0x7f0e03f4 icon=0x7f030000 theme=0x7f0c02f6
+          config={1.0 ?mcc?mnc zh_CN ?layoutDir sw360dp w360dp h618dp 480dpi nrml long port finger -keyb/v/h -nav/h s.5}
+          taskDescription: iconFilename=null label="null" color=fff5f5f5
+          launchFailed=false launchCount=0 lastLaunchTime=-3h8m46s693ms
+          haveState=true icicle=Bundle[mParcelledData.dataSize=2176]
+          state=STOPPED stopped=true delayedResume=false finishing=false
+          keysPaused=false inHistory=true visible=false sleeping=false idle=true
+          fullscreen=true noDisplay=false immersive=false launchMode=0
+          frozenBeforeDestroy=false forceNewConfig=false
+          mActivityType=APPLICATION_ACTIVITY_TYPE
+          waitingVisible=false nowVisible=false lastVisibleTime=-3h8m46s283ms
+      * Hist #1: ActivityRecord{38dc5403 u0 com.android.settings/.SubSettings t450}
+          packageName=com.android.settings processName=com.android.settings
+          launchedFromUid=1000 launchedFromPackage=com.android.settings userId=0
+          app=ProcessRecord{154d65f5 4714:com.android.settings/1000}
+          Intent { act=android.intent.action.MAIN cmp=com.android.settings/.SubSettings (has extras) }
+          frontOfTask=false task=TaskRecord{1a2deaf2 #450 A=com.android.settings U=0 sz=3}
+          taskAffinity=com.android.settings
+          realActivity=com.android.settings/.SubSettings
+          baseDir=/system/priv-app/Settings/Settings.apk
+          dataDir=/data/data/com.android.settings
+          stateNotNeeded=false componentSpecified=true mActivityType=0
+          compat={480dpi} labelRes=0x7f0e0199 icon=0x7f030000 theme=0x7f0c02f6
+          config={1.0 ?mcc?mnc zh_CN ?layoutDir sw360dp w360dp h618dp 480dpi nrml long port finger -keyb/v/h -nav/h s.5}
+          taskDescription: iconFilename=null label="ии?????" color=0
+          launchFailed=false launchCount=0 lastLaunchTime=-3h8m48s492ms
+          haveState=true icicle=Bundle[mParcelledData.dataSize=3428]
+          state=STOPPED stopped=true delayedResume=false finishing=false
+          keysPaused=false inHistory=true visible=false sleeping=false idle=true
+          fullscreen=true noDisplay=false immersive=false launchMode=0
+          frozenBeforeDestroy=false forceNewConfig=false
+          mActivityType=APPLICATION_ACTIVITY_TYPE
+          waitingVisible=false nowVisible=false lastVisibleTime=-3h8m48s87ms
+      * Hist #0: ActivityRecord{21c0241e u0 com.android.settings/.Settings t450}
+          packageName=com.android.settings processName=com.android.settings
+          launchedFromUid=10014 launchedFromPackage=com.meizu.flyme.launcher userId=0
+          app=ProcessRecord{154d65f5 4714:com.android.settings/1000}
+          Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.settings/.Settings bnds=[798,672][1056,960] }
+          frontOfTask=true task=TaskRecord{1a2deaf2 #450 A=com.android.settings U=0 sz=3}
+          taskAffinity=com.android.settings
+          realActivity=com.android.settings/.Settings
+          baseDir=/system/priv-app/Settings/Settings.apk
+          dataDir=/data/data/com.android.settings
+          stateNotNeeded=false componentSpecified=true mActivityType=0
+          compat={480dpi} labelRes=0x7f0e019a icon=0x7f030000 theme=0x7f0c02f6
+          config={1.0 ?mcc?mnc zh_CN ?layoutDir sw360dp w360dp h618dp 480dpi nrml long port finger -keyb/v/h -nav/h s.5}
+          taskDescription: iconFilename=null label="ии?????" color=0
+          launchFailed=false launchCount=0 lastLaunchTime=-3h44m53s835ms
+          haveState=true icicle=Bundle[mParcelledData.dataSize=5692]
+          state=STOPPED stopped=true delayedResume=false finishing=false
+          keysPaused=false inHistory=true visible=false sleeping=false idle=true
+          fullscreen=true noDisplay=false immersive=false launchMode=2
+          frozenBeforeDestroy=false forceNewConfig=false
+          mActivityType=APPLICATION_ACTIVITY_TYPE
+          waitingVisible=false nowVisible=false lastVisibleTime=-3h8m52s503ms
+
+    Task id #451
+    * TaskRecord{1a2efcf9 #451 A=com.tencent.mobileqq U=0 sz=1}
+      userId=0 effectiveUid=u0a95 mCallingUid=u0a14 mCallingPackage=com.meizu.flyme.launcher
+      affinity=com.tencent.mobileqq
+      intent={act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.tencent.mobileqq/.activity.SplashActivity}
+      realActivity=com.tencent.mobileqq/.activity.SplashActivity
+      autoRemoveRecents=false isPersistable=true numFullscreen=1 taskType=0 mTaskToReturnTo=1
+      rootWasReset=true mNeverRelinquishIdentity=true mReuseTask=false
+      Activities=[ActivityRecord{127725eb u0 com.tencent.mobileqq/.activity.SplashActivity t451}]
+      askedCompatMode=false inRecents=true isAvailable=true
+      lastThumbnail=android.graphics.Bitmap@18abc43e lastThumbnailFile=/data/system/recent_images/451_task_thumbnail.png
+      hasBeenVisible=true firstActiveTime=1526281738345 lastActiveTime=1526281738345 (inactive for 12551s)
+      * Hist #0: ActivityRecord{127725eb u0 com.tencent.mobileqq/.activity.SplashActivity t451}
+          packageName=com.tencent.mobileqq processName=com.tencent.mobileqq
+          launchedFromUid=10014 launchedFromPackage=com.meizu.flyme.launcher userId=0
+          app=ProcessRecord{3a521945 13391:com.tencent.mobileqq/u0a95}
+          Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.tencent.mobileqq/.activity.SplashActivity bnds=[24,960][282,1248] }
+          frontOfTask=true task=TaskRecord{1a2efcf9 #451 A=com.tencent.mobileqq U=0 sz=1}
+          taskAffinity=com.tencent.mobileqq
+          realActivity=com.tencent.mobileqq/.activity.SplashActivity
+          baseDir=/data/app/com.tencent.mobileqq-2/base.apk
+          dataDir=/data/data/com.tencent.mobileqq
+          stateNotNeeded=false componentSpecified=true mActivityType=0
+          compat={480dpi} labelRes=0x7f0b161b icon=0x7f020695 theme=0x7f0e031e
+          config={1.0 ?mcc?mnc zh_CN ?layoutDir sw360dp w360dp h618dp 480dpi nrml long port finger -keyb/v/h -nav/h s.5}
+          taskDescription: iconFilename=null label="null" color=ffe6e6e6
+          launchFailed=false launchCount=0 lastLaunchTime=-3h29m12s488ms
+          haveState=true icicle=Bundle[mParcelledData.dataSize=13584]
+          state=STOPPED stopped=true delayedResume=false finishing=false
+          keysPaused=false inHistory=true visible=false sleeping=false idle=true
+          fullscreen=true noDisplay=false immersive=false launchMode=1
+          frozenBeforeDestroy=false forceNewConfig=false
+          mActivityType=APPLICATION_ACTIVITY_TYPE
+          waitingVisible=false nowVisible=false lastVisibleTime=-3h29m10s808ms
+
+    Running activities (most recent first):
+      TaskRecord{1bdda642 #463 A=com.tianyancha.skyeye U=0 sz=1}
+        Run #4: ActivityRecord{39bdd9a8 u0 com.tianyancha.skyeye/.MainActivity t463}
+      TaskRecord{1a2deaf2 #450 A=com.android.settings U=0 sz=3}
+        Run #3: ActivityRecord{2f5a12d u0 com.android.settings/.deviceinfo.Status t450}
+        Run #2: ActivityRecord{38dc5403 u0 com.android.settings/.SubSettings t450}
+        Run #1: ActivityRecord{21c0241e u0 com.android.settings/.Settings t450}
+      TaskRecord{1a2efcf9 #451 A=com.tencent.mobileqq U=0 sz=1}
+        Run #0: ActivityRecord{127725eb u0 com.tencent.mobileqq/.activity.SplashActivity t451}
+
+    mLastPausedActivity: ActivityRecord{39bdd9a8 u0 com.tianyancha.skyeye/.MainActivity t463}
+
+  mFocusedActivity: ActivityRecord{1463fb u0 com.meizu.flyme.launcher/.Launcher t447}
+  mFocusedStack=ActivityStack{3bc2f315 stackId=0, 1 tasks} mLastFocusedStack=ActivityStack{3bc2f315 stackId=0, 1 tasks}
+  mSleepTimeout=false
+  mCurTaskId=463
+  mUserStackInFront={}
+  mActivityContainers={0=ActivtyContainer{0}A, 1=ActivtyContainer{1}A}
+

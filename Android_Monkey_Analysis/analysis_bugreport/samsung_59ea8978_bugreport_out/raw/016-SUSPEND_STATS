@@ -1,0 +1,18 @@
+success: 3605
+fail: 503
+failed_freeze: 301
+failed_prepare: 0
+failed_suspend: 197
+failed_suspend_late: 0
+failed_suspend_noirq: 0
+failed_resume: 0
+failed_resume_early: 0
+failed_resume_noirq: 0
+failures:
+  last_failed_dev:	alarm
+			alarm
+  last_failed_errno:	-16
+			-16
+  last_failed_step:	suspend
+			suspend
+

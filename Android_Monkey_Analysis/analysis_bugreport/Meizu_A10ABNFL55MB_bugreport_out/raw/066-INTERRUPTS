@@ -1,0 +1,82 @@
+           CPU0       
+  0:          0  lsm6ds3_accel-trigger  lsm6ds3_accel_consumer0
+  6:          5  lsm6ds3_step_c-trigger  lsm6ds3_step_c_consumer3
+ 29:          0       GIC  arch_timer
+ 30:    1783863       GIC  arch_timer
+ 96:          0       GIC  mtk_cpuxgpt0
+ 97:          0       GIC  mtk_cpuxgpt1
+ 98:          0       GIC  mtk_cpuxgpt2
+ 99:          0       GIC  mtk_cpuxgpt3
+100:          0       GIC  mtk_cpuxgpt4
+101:          0       GIC  mtk_cpuxgpt5
+102:          0       GIC  mtk_cpuxgpt6
+103:          0       GIC  mtk_cpuxgpt7
+110:          0       GIC  mtk-thermal
+111:     375876       GIC  mtk-msdc
+112:          0       GIC  mtk-msdc
+114:      59626       GIC  mtk-msdc
+116:       1971       GIC  mt-i2c
+117:     223250       GIC  mt-i2c
+118:     111896       GIC  mt-i2c
+119:    1549170       GIC  mt-i2c
+123:        388       GIC  mtk-uart
+150:      81658       GIC  1100a000.SPI1
+154:     346355       GIC  musb-hdrc
+157:       1804       GIC  ptp
+160:          0       GIC  mtk_watchdog
+166:          2       GIC  mt_emi_mpu, devapc
+172:       9465       GIC  CCIF0_AP
+174:      11395       GIC  Afe_ISR_Handle
+175:      60473       GIC  mtk_cmdq, CQDMA
+177:          0       GIC  m4u
+179:          0       GIC  m4u
+182:          0       GIC  gcpu
+184:          9       GIC  mt-gpt
+193:          0       GIC  pmic_wrap
+194:          0       GIC  mtk-kpd
+195:          0       GIC  SPM
+196:          0       GIC  SPM
+197:          0       GIC  SPM
+198:          0       GIC  SPM
+199:          0       GIC  SPM
+200:          0       GIC  SPM
+201:          0       GIC  SPM
+202:          0       GIC  SPM
+206:          2       GIC  MD32 IPC_MD2HOST
+209:     874918       GIC  MM_MUTEX
+220:     229739       GIC  OVL0
+221:          0       GIC  OVL1
+222:     871695       GIC  RDMA0
+223:          0       GIC  RDMA1
+224:          0       GIC  RDMA2
+225:        911       GIC  WDMA0
+226:          0       GIC  WDMA1
+229:          0       GIC  AAL
+232:        187       GIC  DSI0
+233:          0       GIC  DSI1
+238:          0       GIC  Vcodec
+240:          0       GIC  jpeg_enc_driver
+243:         48       GIC  jpeg_dec_driver
+244:          0       GIC  Vcodec
+247:          0       GIC  MJC
+251:          0       GIC  ISP
+254:          0       GIC  ISP
+255:          0       GIC  ISP
+256:          0       GIC  camera-fdvt
+257:     272807       GIC  RGX
+265:          0       GIC  MD_WDT
+266:      38658       GIC  CLDMA_AP
+272:          0       GIC  CIRQ
+280:       2139       GIC  mobicore
+281:          0       GIC  ATF_irq
+298:       1576   mt-eint  spi0.0
+304:          0   mt-eint  iddig_eint
+309:        266   mt-eint  mt6331-eint
+310:          0   mt-eint  mt6332-eint
+342:          0   mt-eint  ACCDET-eint
+IPI0:    929241    1570849     785614     462970     299525     199082        213        185       Rescheduling interrupts
+IPI1:       116        131        135         97         88         82          4          4       Function call interrupts
+IPI2:      2477       2812       4580       2926       3143       3084          6          6       Single function call interrupts
+IPI3:         0          0          0          0          0          0          0          0       CPU stop interrupts
+Err:          0
+

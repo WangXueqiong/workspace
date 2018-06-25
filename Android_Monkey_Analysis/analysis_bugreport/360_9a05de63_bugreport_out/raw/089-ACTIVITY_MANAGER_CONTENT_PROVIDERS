@@ -1,0 +1,978 @@
+  Published single-user content providers (by class):
+  * ContentProviderRecord{c591e05 u0 com.qiku.secure.providers/.QikuSecureProvider}
+    package=com.qiku.secure.providers process=system
+    proc=ProcessRecord{7b91e42 1546:system/1000}
+    uid=1000 provider=android.content.ContentProvider$Transport@f46d92e
+    singleton=true
+    authority=com.qiku.secure.providers
+    isSyncable=false multiprocess=false initOrder=100
+  * ContentProviderRecord{5f57e5a u0 com.android.providers.telephony/.HbpcdLookupProvider}
+    package=com.android.providers.telephony process=com.android.phone
+    proc=ProcessRecord{a33baf6 2448:com.android.phone/1001}
+    uid=1001 provider=android.content.ContentProviderProxy@9a2688b
+    singleton=true
+    authority=hbpcd_lookup
+  * ContentProviderRecord{c830d68 u0 com.android.providers.settings/.SettingsProvider}
+    package=com.android.providers.settings process=system
+    proc=ProcessRecord{7b91e42 1546:system/1000}
+    uid=1000 provider=android.content.ContentProvider$Transport@31ef692
+    singleton=true
+    authority=settings
+    isSyncable=false multiprocess=false initOrder=100
+    Connections:
+      -> 2025:com.android.systemui/u0a32 s1/1 u0/0 +2d23h44m57s634ms
+      -> 2203:com.qiku.powerengine:remote/1000 s1/1 u0/0 +2d23h44m57s78ms
+      -> 2448:com.android.phone/1001 s1/1 u0/0 +2d23h44m55s925ms
+      -> 2500:com.android.providers.contacts/u0a6 s1/1 u0/0 +2d23h44m55s298ms
+      -> 2873:com.amap.android.location/u0a40 s1/1 u0/0 +2d23h44m54s527ms
+      -> 2789:com.yulong.android.launcher3/u0a48 s1/1 u0/0 +2d23h44m54s297ms
+      -> 2944:com.quicinc.cne.CNEService/1000 s1/1 u0/0 +2d23h44m54s95ms
+      -> 2961:com.qiku.multitask/1000 s0/0 u1/1 +2d23h44m54s69ms
+      -> 3185:com.android.dialer/u0a47 s1/1 u0/0 +2d23h44m52s363ms
+      -> 2572:com.qiku.logsystem/1000 s1/1 u0/0 +2d23h44m20s167ms
+      -> 4873:android.process.media/u0a22 s1/1 u0/0 +2d23h43m9s874ms
+      -> 12856:com.qiku.cardmanager/u0a93 s1/1 u0/0 +2d23h39m12s810ms
+      -> 2769:com.android.settings/1000 s1/1 u0/0 +2d23h38m23s432ms
+      -> 3534:com.android.defcontainer/u0a19 s1/1 u0/0 +2d23h32m42s812ms
+      -> 32603:com.tencent.mobileqq:MSF/u0a111 s1/1 u0/0 +2d3h25m38s800ms
+      -> 32745:com.qiku.healthguard/1000 s1/1 u0/0 +2d3h25m38s577ms
+      -> 32677:com.qihoo360.mobilesafe:GuardService/u0a4 s1/1 u0/0 +2d3h25m37s722ms
+      -> 1780:com.qiku.android.cloudsync:online/u0a11 s1/1 u0/0 +2d3h25m34s606ms
+      -> 32627:com.android.systemui:messagebox/u0a32 s1/1 u0/0 +2d3h25m24s666ms
+      -> 3727:com.tencent.mobileqq:TMAssistantDownloadSDKService/u0a111 s1/1 u0/0 +2d3h23m53s586ms
+      -> 5093:com.tencent.mm:push/u0a106 s1/1 u0/0 +2d3h23m33s503ms
+      -> 5131:com.tencent.mm/u0a106 s1/1 u0/0 +2d3h23m32s929ms
+      -> 8524:com.tencent.mobileqq/u0a111 s1/1 u0/0 +2d0h46m33s368ms
+      -> 30643:com.qihoo.daemon/u0a10 s1/1 u0/0 +1d15h35m0s308ms
+      -> 14853:com.qiku.service.container/1000 s1/1 u0/0 +3h30m12s277ms
+      -> 16718:com.qihoo.appstore:PluginP01/u0a10 s1/1 u0/0 +3h30m1s178ms
+      -> 18796:com.qiku.powermaster/u0a94 s1/1 u0/0 +3h25m13s823ms
+      -> 5080:com.eg.android.AlipayGphone:push/u0a197 s1/1 u0/0 +1h31m12s267ms
+      -> 5404:com.eg.android.AlipayGphone/u0a197 s1/1 u0/0 +1h31m6s388ms
+      -> 7573:com.sina.weibo/u0a179 s1/1 u0/0 +1h26m59s990ms
+      -> 13004:com.koushikdutta.vysor/u0a2 s1/1 u0/0 +12m53s636ms
+      -> 13864:com.qihoo.appstore/u0a10 s1/1 u0/0 +8m39s119ms
+      -> 17740:com.android.systemui:screenshot/u0a32 s1/1 u0/0 +1m44s610ms
+      -> 17863:com.android.mms/u0a21 s2/2 u0/0 +1m43s699ms
+      -> 18444:com.tianyancha.skyeye/u0a299 s1/1 u0/0 +31s755ms
+      -> 18548:com.tianyancha.skyeye:channel/u0a299 s1/1 u0/0 +21s237ms
+  * ContentProviderRecord{8529581 u0 com.qiku.android.configcenter/.ConfigProvider}
+    package=com.qiku.android.configcenter process=system
+    proc=ProcessRecord{7b91e42 1546:system/1000}
+    uid=1000 provider=android.content.ContentProvider$Transport@f3c0db
+    singleton=true
+    authority=com.qiku.android.config
+    Connections:
+      -> 2789:com.yulong.android.launcher3/u0a48 s0/0 u1/1 +2d23h44m53s902ms
+      -> 3890:com.yulong.android.coolsafe:remote/1000 s0/0 u1/1 +2d23h40m36s733ms
+      -> 2769:com.android.settings/1000 s0/0 u1/1 +2d23h38m22s826ms
+      -> 2572:com.qiku.logsystem/1000 s0/0 u1/1 +2d23h32m6s571ms
+      -> 2025:com.android.systemui/u0a32 s0/0 u1/1 +2d6h22m35s595ms
+      -> 32677:com.qihoo360.mobilesafe:GuardService/u0a4 s0/0 u1/1 +2d3h25m31s817ms
+      -> 18796:com.qiku.powermaster/u0a94 s0/0 u1/1 +2h8m52s36ms
+  * ContentProviderRecord{77d2626 u0 android/com.android.server.am.DumpHeapProvider}
+    package=android process=system
+    proc=ProcessRecord{7b91e42 1546:system/1000}
+    uid=1000 provider=android.content.ContentProvider$Transport@a3ba863
+    singleton=true
+    authority=com.android.server.heapdump
+
+  Published user 0 content providers (by class):
+  * ContentProviderRecord{94d0267 u0 com.android.settings/.search.SettingsSearchProviderForLauncher}
+    package=com.android.settings process=com.android.settings
+    proc=ProcessRecord{38c3607 2769:com.android.settings/1000}
+    launchingApp=ProcessRecord{38c3607 2769:com.android.settings/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@f2f9814
+    authority=com.android.settings.forlauncherprovider
+    Connections:
+      -> 2448:com.android.phone/1001 s1/1 u0/0 +2d23h44m54s964ms
+  * ContentProviderRecord{b1208bd u0 com.qihoo.appstore/com.qihoo360.replugin.component.provider.PluginPitProviderPersist}
+    package=com.qihoo.appstore process=com.qihoo.daemon
+    proc=ProcessRecord{5d48ed5 30643:com.qihoo.daemon/u0a10}
+    uid=10010 provider=android.content.ContentProviderProxy@4857eb2
+    authority=com.qihoo.appstore.Plugin.NP.PSP
+  * ContentProviderRecord{91d5e03 u0 com.qiku.cardmanager/com.fighter.proxy.ReaperProvider}
+    package=com.qiku.cardmanager process=com.qiku.cardmanager
+    proc=ProcessRecord{8bedade 12856:com.qiku.cardmanager/u0a93}
+    uid=10093 provider=android.content.ContentProviderProxy@d782180
+    authority=com.qiku.cardmanager.reaper.provider.ReaperProvider
+  * ContentProviderRecord{f5b73b9 u0 com.qiku.cardmanager/com.fighter.proxy.ReaperFileProvider}
+    package=com.qiku.cardmanager process=com.qiku.cardmanager
+    proc=ProcessRecord{8bedade 12856:com.qiku.cardmanager/u0a93}
+    uid=10093 provider=android.content.ContentProviderProxy@148d3fe
+    authority=com.qiku.cardmanager.reaper.provider.ReaperFileProvider
+  * ContentProviderRecord{10dd75f u0 com.sina.weibo/.provider.SinaWeiboSdkProvider}
+    package=com.sina.weibo process=com.sina.weibo
+    proc=ProcessRecord{cfdd5ac 7573:com.sina.weibo/u0a179}
+    uid=10179 provider=android.content.ContentProviderProxy@e369275
+    authority=com.sina.weibo.sdkProvider
+  * ContentProviderRecord{95a320a u0 com.yulong.android.launcher3/.icon.IconProvider}
+    package=com.yulong.android.launcher3 process=com.yulong.android.launcher3
+    proc=ProcessRecord{6d58682 2789:com.yulong.android.launcher3/u0a48}
+    uid=10048 provider=android.content.ContentProviderProxy@4628a7b
+    authority=com.yulong.android.launcher3.icon
+  * ContentProviderRecord{a48a098 u0 com.tencent.mm/.plugin.base.stub.WXCommProvider}
+    package=com.tencent.mm process=com.tencent.mm
+    proc=ProcessRecord{91c9ab 5131:com.tencent.mm/u0a106}
+    uid=10106 provider=android.content.ContentProviderProxy@f6ae0f1
+    authority=com.tencent.mm.sdk.comm.provider
+  * ContentProviderRecord{c7164d6 u0 com.qihoo360.mobilesafe/.applock.data.AppLockContentProvider}
+    package=com.qihoo360.mobilesafe process=com.qihoo360.mobilesafe:GuardService
+    proc=ProcessRecord{d8bcfd5 32677:com.qihoo360.mobilesafe:GuardService/u0a4}
+    uid=10004 provider=android.content.ContentProviderProxy@c855357
+    authority=com.qihoo360.mobilesafe.applock
+  * ContentProviderRecord{732e44 u0 com.yulong.android.launcher3/.LauncherProvider}
+    package=com.yulong.android.launcher3 process=com.yulong.android.launcher3
+    proc=ProcessRecord{6d58682 2789:com.yulong.android.launcher3/u0a48}
+    uid=10048 provider=android.content.ContentProviderProxy@5bb9b2d
+    authority=com.yulong.android.launcher3.compound
+  * ContentProviderRecord{bf6f862 u0 com.yulong.android.launcher3/.search.settingsapp.SettingsSearchIndexablesProvider}
+    package=com.yulong.android.launcher3 process=com.yulong.android.launcher3
+    proc=ProcessRecord{6d58682 2789:com.yulong.android.launcher3/u0a48}
+    uid=10048 provider=android.content.ContentProviderProxy@5a1cdf3
+    authority=com.yulong.android.launcher3.search.settingsapp
+  * ContentProviderRecord{f05e0e u0 com.android.gallery3d/.filtershow.provider.SharedImageProvider}
+    package=com.android.gallery3d process=com.android.gallery3d
+    proc=ProcessRecord{fd4802f 16017:com.android.gallery3d/u0a20}
+    uid=10020 provider=android.content.ContentProviderProxy@fe3163c
+    authority=com.android.gallery3d.filtershow.provider.SharedImageProvider
+  * ContentProviderRecord{f96eab0 u0 com.tencent.mm/.plugin.ext.provider.ExtControlProviderEntry}
+    package=com.tencent.mm process=com.tencent.mm
+    proc=ProcessRecord{91c9ab 5131:com.tencent.mm/u0a106}
+    uid=10106 provider=android.content.ContentProviderProxy@2e3bd29
+    authority=com.tencent.mm.plugin.ext.entry
+  * ContentProviderRecord{55038ae u0 com.yulong.android.launcher3/.freezer.FreezerProvider}
+    package=com.yulong.android.launcher3 process=com.yulong.android.launcher3
+    proc=ProcessRecord{6d58682 2789:com.yulong.android.launcher3/u0a48}
+    uid=10048 provider=android.content.ContentProviderProxy@901564f
+    authority=com.yulong.android.launcher3.freezer
+  * ContentProviderRecord{df801dc u0 com.qihoo360.mobilesafe/.svcmanager.ServiceProvider}
+    package=com.qihoo360.mobilesafe process=com.qihoo360.mobilesafe:GuardService
+    proc=ProcessRecord{d8bcfd5 32677:com.qihoo360.mobilesafe:GuardService/u0a4}
+    uid=10004 provider=android.content.ContentProviderProxy@f5202e5
+    authority=com.qihoo360.mobilesafe.svcmanager
+  * ContentProviderRecord{4eb31ba u0 com.qihoo.appstore/com.qihoo360.mobilesafe.svcmanager.ServiceProvider}
+    package=com.qihoo.appstore process=com.qihoo.daemon
+    proc=ProcessRecord{5d48ed5 30643:com.qihoo.daemon/u0a10}
+    uid=10010 provider=android.content.ContentProviderProxy@127086b
+    authority=com.qihoo.appstore.svcmanager
+  * ContentProviderRecord{ff15fc8 u0 com.qiku.cardmanager/.netrequest.NetRequestProvider}
+    package=com.qiku.cardmanager process=com.qiku.cardmanager
+    proc=ProcessRecord{8bedade 12856:com.qiku.cardmanager/u0a93}
+    launchingApp=ProcessRecord{8bedade 12856:com.qiku.cardmanager/u0a93}
+    uid=10093 provider=android.content.ContentProviderProxy@1a4e861
+    authority=com.qiku.cardmanager.netrequest
+  * ContentProviderRecord{e0aaf86 u0 com.tencent.mm/.plugin.gwallet.GWalletQueryProvider}
+    package=com.tencent.mm process=com.tencent.mm
+    proc=ProcessRecord{91c9ab 5131:com.tencent.mm/u0a106}
+    uid=10106 provider=android.content.ContentProviderProxy@3abc047
+    authority=com.tencent.mm.plugin.gwallet.queryprovider
+  * ContentProviderRecord{2deefc5 u0 com.qihoo.appstore/com.qihoo360.replugin.component.process.ProcessPitProviderUI}
+    package=com.qihoo.appstore process=com.qihoo.appstore
+    proc=ProcessRecord{da8b94b 13864:com.qihoo.appstore/u0a10}
+    uid=10010 provider=android.content.ContentProviderProxy@d584d1a
+    authority=com.qihoo.appstore.loader.p.mainN1
+  * ContentProviderRecord{3523e12 u0 com.android.providers.downloads/.DownloadProvider}
+    package=com.android.providers.downloads process=android.process.media
+    proc=ProcessRecord{6b5c1cb 4873:android.process.media/u0a22}
+    uid=10022 provider=android.content.ContentProviderProxy@cda19e3
+    authority=downloads
+    Connections:
+      -> 2990:com.oma.drm.server/u0a65 s1/1 u0/38 +2d23h44m23s617ms
+  * ContentProviderRecord{5525fe0 u0 com.android.providers.telephony/.TelephonyProvider}
+    package=com.android.providers.telephony process=com.android.phone
+    proc=ProcessRecord{a33baf6 2448:com.android.phone/1001}
+    uid=1001 provider=android.content.ContentProviderProxy@4894299
+    authority=telephony
+  * ContentProviderRecord{c12295e u0 com.tencent.mobileqq/cooperation.readinjoy.content.ReadInJoyDataProvider}
+    package=com.tencent.mobileqq process=com.tencent.mobileqq
+    proc=ProcessRecord{fc621e8 8524:com.tencent.mobileqq/u0a111}
+    uid=10111 provider=android.content.ContentProviderProxy@90a713f
+    authority=qq.readinjoy
+  * ContentProviderRecord{dad9a0c u0 com.yulong.android.coolsafe/.util.savepower.SavePowerProvider}
+    package=com.yulong.android.coolsafe process=com.yulong.android.coolsafe:remote
+    proc=ProcessRecord{327d4d4 3890:com.yulong.android.coolsafe:remote/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@9226f55
+    authority=com.yulong.android.coolsafe.savepower.former.provider
+  * ContentProviderRecord{2537d6a u0 com.qiku.powermaster/com.fighter.proxy.ReaperProxyProvider}
+    package=com.qiku.powermaster process=com.qiku.powermaster
+    proc=ProcessRecord{a4332c5 18796:com.qiku.powermaster/u0a94}
+    uid=10094 provider=android.content.ContentProviderProxy@7bee25b
+    authority=com.qiku.powermaster.reaper.provider.ReaperProxyProvider
+  * ContentProviderRecord{2a04af8 u0 com.android.providers.contacts/.CallLogProvider}
+    package=com.android.providers.contacts process=com.android.providers.contacts
+    proc=ProcessRecord{8e7abd1 2500:com.android.providers.contacts/u0a6}
+    launchingApp=ProcessRecord{8e7abd1 2500:com.android.providers.contacts/u0a6}
+    uid=10006 provider=android.content.ContentProviderProxy@5a40636
+    authority=call_log
+  * ContentProviderRecord{47f4937 u0 com.tencent.mobileqq/com.tencent.common.config.provider.QZoneConfigProvider}
+    package=com.tencent.mobileqq process=com.tencent.mobileqq
+    proc=ProcessRecord{fc621e8 8524:com.tencent.mobileqq/u0a111}
+    uid=10111 provider=android.content.ContentProviderProxy@a0b1ea4
+    authority=com.tencent.common.config.provider.QZoneConfigProvider
+  * ContentProviderRecord{ea340d u0 com.qihoo.appstore/.keepalive.account.SyncProvider}
+    package=com.qihoo.appstore process=com.qihoo.daemon
+    proc=ProcessRecord{5d48ed5 30643:com.qihoo.daemon/u0a10}
+    uid=10010 provider=android.content.ContentProviderProxy@ea24fc2
+    authority=com.qihoo.appstore.account.syncprovider
+  * ContentProviderRecord{17541d3 u0 com.tencent.mm/.plugin.ext.provider.ExtControlProviderNearBy}
+    package=com.tencent.mm process=com.tencent.mm
+    proc=ProcessRecord{91c9ab 5131:com.tencent.mm/u0a106}
+    uid=10106 provider=android.content.ContentProviderProxy@52d8110
+    authority=com.tencent.mm.plugin.ext.NearBy
+  * ContentProviderRecord{4130409 u0 com.sina.weibo/android.support.v4.content.FileProvider}
+    package=com.sina.weibo process=com.sina.weibo
+    proc=ProcessRecord{cfdd5ac 7573:com.sina.weibo/u0a179}
+    uid=10179 provider=android.content.ContentProviderProxy@f49a60e
+    authority=com.sina.weibo.fileprovider
+  * ContentProviderRecord{232f04b u0 com.qihoo.appstore/.launcherdownload.LauncherClientProvider}
+    package=com.qihoo.appstore process=com.qihoo.appstore
+    proc=ProcessRecord{da8b94b 13864:com.qihoo.appstore/u0a10}
+    uid=10010 provider=android.content.ContentProviderProxy@9e95a28
+    authority=com.qihoo.appstore.LauncherDownloadProvider
+  * ContentProviderRecord{4c3c341 u0 com.qihoo.appstore/.appupdate.ignore.IgnoreUpdateAppProvider}
+    package=com.qihoo.appstore process=com.qihoo.appstore
+    proc=ProcessRecord{da8b94b 13864:com.qihoo.appstore/u0a10}
+    uid=10010 provider=android.content.ContentProviderProxy@21e20e6
+    authority=360appstoreignoreappinfo
+  * ContentProviderRecord{1b9184b u0 com.qihoo360.mobilesafe/com.qihoo.antivirus.shield.server.ServerProvider}
+    package=com.qihoo360.mobilesafe process=com.qihoo360.mobilesafe:GuardService
+    proc=ProcessRecord{d8bcfd5 32677:com.qihoo360.mobilesafe:GuardService/u0a4}
+    uid=10004 provider=android.content.ContentProviderProxy@6386228
+    authority=com.qihoo.antivirus.shield.server
+  * ContentProviderRecord{6da2b41 u0 com.sina.weibo/.core.sp.PreferenceProvider}
+    package=com.sina.weibo process=com.sina.weibo
+    proc=ProcessRecord{cfdd5ac 7573:com.sina.weibo/u0a179}
+    uid=10179 provider=android.content.ContentProviderProxy@95868e6
+    authority=com.sina.weibo.preferenceProvider.authorities
+  * ContentProviderRecord{27eee27 u0 com.qiku.logsystem/.datacenter.db.DataCenterProvider}
+    package=com.qiku.logsystem process=com.qiku.logsystem
+    proc=ProcessRecord{4372be5 2572:com.qiku.logsystem/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@5c578d4
+    authority=com.qiku.logsystem.datacenter.db.DataCenterProvider
+    Connections:
+      -> 12856:com.qiku.cardmanager/u0a93 s1/1 u0/0 +2d23h39m12s690ms
+  * ContentProviderRecord{7dd3a7d u0 com.tencent.mm/.plugin.ext.provider.ExtControlProviderSNS}
+    package=com.tencent.mm process=com.tencent.mm
+    proc=ProcessRecord{91c9ab 5131:com.tencent.mm/u0a106}
+    uid=10106 provider=android.content.ContentProviderProxy@ab22d72
+    authority=com.tencent.mm.plugin.ext.SNS
+  * ContentProviderRecord{fe245c3 u0 com.android.phone/com.yulong.phone.setting.search.SettingsSearchIndexablesProvider}
+    package=com.android.phone process=com.android.phone
+    proc=ProcessRecord{a33baf6 2448:com.android.phone/1001}
+    uid=1001 provider=android.content.ContentProviderProxy@c6b4e40
+    authority=com.android.phone
+  * ContentProviderRecord{1080179 u0 com.qihoo.appstore/.keepalive.KeepAliveProvider}
+    package=com.qihoo.appstore process=com.qihoo.daemon
+    proc=ProcessRecord{5d48ed5 30643:com.qihoo.daemon/u0a10}
+    uid=10010 provider=android.content.ContentProviderProxy@d71aebe
+    authority=com.qihoo.appstore.activateprovider
+  * ContentProviderRecord{1997b1f u0 com.qihoo360.mobilesafe/com.qihoo360.loader2.mgr.PluginPersistProvider}
+    package=com.qihoo360.mobilesafe process=com.qihoo360.mobilesafe:GuardService
+    proc=ProcessRecord{d8bcfd5 32677:com.qihoo360.mobilesafe:GuardService/u0a4}
+    uid=10004 provider=android.content.ContentProviderProxy@ad70e6c
+    authority=com.qihoo360.mobilesafe.Plugin.NP.PSP
+  * ContentProviderRecord{77e3c35 u0 com.qiku.android.cloudsync/com.qiku.android.space.provider.ISProvider}
+    package=com.qiku.android.cloudsync process=com.qiku.android.cloudsync
+    proc=ProcessRecord{f4d832 25018:com.qiku.android.cloudsync/u0a11}
+    uid=10011 provider=android.content.ContentProviderProxy@d15f8ca
+    authority=com.qiku.android.space.provider
+  * ContentProviderRecord{a64aa3b u0 com.qiku.cardmanager/com.fighter.proxy.ReaperProxyProvider}
+    package=com.qiku.cardmanager process=com.qiku.cardmanager
+    proc=ProcessRecord{8bedade 12856:com.qiku.cardmanager/u0a93}
+    uid=10093 provider=android.content.ContentProviderProxy@d5ca558
+    authority=com.qiku.cardmanager.reaper.provider.ReaperProxyProvider
+  * ContentProviderRecord{cbe4627 u0 com.android.mms/com.yulong.mms.provider.MmsSmsProvider}
+    package=com.android.mms process=com.android.mms
+    proc=ProcessRecord{544e354 17863:com.android.mms/u0a21}
+    uid=10021 provider=android.content.ContentProviderProxy@f8df0d4
+    authority=yulong-mmssms
+    isSyncable=false multiprocess=true initOrder=0
+  * ContentProviderRecord{6c8527d u0 com.qiku.freecall/.provider.FreeCallProvider}
+    package=com.qiku.freecall process=com.qiku.freecall
+    proc=ProcessRecord{61b6572 17890:com.qiku.freecall/u0a59}
+    uid=10059 provider=android.content.ContentProviderProxy@abf1dc3
+    authority=com.qiku.freecall.data
+  * ContentProviderRecord{6434640 u0 com.yulong.android.xtime/yulong.xtime.db.worldclock.WorldClockDataProvider}
+    package=com.yulong.android.xtime process=com.yulong.android.xtime
+    proc=ProcessRecord{f8c9979 15535:com.yulong.android.xtime/u0a54}
+    uid=10054 provider=android.content.ContentProviderProxy@23666be
+    authority=com.yulong.android.worldclock.provider
+  * ContentProviderRecord{d0cd722 u0 com.qiku.widget3d/.provider.WidgetAdvProvider}
+    package=com.qiku.widget3d process=com.qiku.widget3d
+    proc=ProcessRecord{519f544 3659:com.qiku.widget3d/u0a80}
+    uid=10080 provider=android.content.ContentProviderProxy@e5025b3
+    authority=com.qiku.widget3d.adwidget
+  * ContentProviderRecord{96bd31f u0 com.qihoo.appstore/.utils.BackgroundStartActivity$ValueContentProvider}
+    package=com.qihoo.appstore process=com.qihoo.appstore
+    proc=ProcessRecord{da8b94b 13864:com.qihoo.appstore/u0a10}
+    uid=10010 provider=android.content.ContentProviderProxy@636866c
+    authority=com.qihoo.appstore.utils.BackgroundStartActivity.ValueContentProvider
+  * ContentProviderRecord{9c5436e u0 com.qiku.magazine/.utils.MagazineContentProvider}
+    package=com.qiku.magazine process=com.qiku.magazine
+    proc=ProcessRecord{451a0f4 2340:com.qiku.magazine/u0a32}
+    launchingApp=ProcessRecord{451a0f4 2340:com.qiku.magazine/u0a32}
+    uid=10032 provider=android.content.ContentProviderProxy@89d6a0f
+    authority=com.qiku.magazine.utils.provider.MagazineContentProvider
+    Connections:
+      -> 2025:com.android.systemui/u0a32 s1/3 u0/58 +2d23h44m56s672ms
+  * ContentProviderRecord{7f0ea9c u0 com.yulong.android.launcher3/.InterfaceProvider}
+    package=com.yulong.android.launcher3 process=com.yulong.android.launcher3
+    proc=ProcessRecord{6d58682 2789:com.yulong.android.launcher3/u0a48}
+    uid=10048 provider=android.content.ContentProviderProxy@9b79ca5
+    authority=com.yulong.android.launcher3.InterfaceProvider
+  * ContentProviderRecord{5b45435 u0 com.android.mms/com.yulong.systemsetting.search.SettingsSearchIndexablesProvider}
+    package=com.android.mms process=com.android.mms
+    proc=ProcessRecord{544e354 17863:com.android.mms/u0a21}
+    uid=10021 provider=android.content.ContentProviderProxy@56e30ca
+    authority=com.android.mms
+  * ContentProviderRecord{9701488 u0 com.android.systemui/com.qiku.smsbox.model.MsgBoxContentProvider}
+    package=com.android.systemui process=com.android.systemui:messagebox
+    proc=ProcessRecord{42a5e21 32627:com.android.systemui:messagebox/u0a32}
+    uid=10032 provider=android.content.ContentProviderProxy@d3e5246
+    authority=com.qiku.smsbox.model.provider.MsgBoxContentProvider
+    isSyncable=false multiprocess=true initOrder=0
+  * ContentProviderRecord{8be8c07 u0 com.qiku.logsystem/.userreport.export.BugreportContentProvider}
+    package=com.qiku.logsystem process=com.qiku.logsystem
+    proc=ProcessRecord{4372be5 2572:com.qiku.logsystem/1000}
+    launchingApp=ProcessRecord{4372be5 2572:com.qiku.logsystem/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@c35f134
+    authority=com.qiku.logsystem.userreport.contentProvider
+    Connections:
+      -> 2025:com.android.systemui/u0a32 s0/0 u1/1 +2d23h44m55s694ms
+  * ContentProviderRecord{904823b u0 com.qiku.riskinsight/com.qiku.safetyspace.externalprovider.ExternalProvider}
+    package=com.qiku.riskinsight process=com.qiku.riskinsight
+    proc=ProcessRecord{d54ab0 15583:com.qiku.riskinsight/u0a35}
+    uid=10035 provider=android.content.ContentProviderProxy@b3b9d58
+    authority=com.qiku.safetyspace.external
+  * ContentProviderRecord{4adbb5d u0 com.qiku.android.cloudsync/com.coolcloud.uac.android.service.provider.SystemAccountContentProvider}
+    package=com.qiku.android.cloudsync process=com.qiku.android.cloudsync
+    proc=ProcessRecord{f4d832 25018:com.qiku.android.cloudsync/u0a11}
+    uid=10011 provider=android.content.ContentProviderProxy@3fd4cd2
+    authority=com.qiku.uac.android.systemaccount
+  * ContentProviderRecord{cade1a3 u0 com.qiku.logsystem/com.qihoo.sdk.report.provider.HostContentProvider}
+    package=com.qiku.logsystem process=com.qiku.logsystem
+    proc=ProcessRecord{4372be5 2572:com.qiku.logsystem/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@7daeca0
+    authority=com.qiku.appcheckin
+    Connections:
+      -> 2025:com.android.systemui/u0a32 s1/1 u0/0 +2d23h44m55s406ms
+      -> 2789:com.yulong.android.launcher3/u0a48 s1/1 u0/0 +2d23h44m52s792ms
+      -> 15583:com.qiku.riskinsight/u0a35 s1/1 u0/0 +5m19s12ms
+  * ContentProviderRecord{fb059 u0 com.qihoo.appstore/com.morgoo.droidplugin.stub.ContentProviderStub$StubP01}
+    package=com.qihoo.appstore process=com.qihoo.appstore:PluginP01
+    proc=ProcessRecord{fc60bca 16718:com.qihoo.appstore:PluginP01/u0a10}
+    uid=10010 provider=android.content.ContentProviderProxy@c3f641e
+    authority=com.morgoo.droidplugin_stub_P01
+  * ContentProviderRecord{4b2f4ff u0 com.sina.weibo/.provider.SinaWeiboSPProvider}
+    package=com.sina.weibo process=com.sina.weibo
+    proc=ProcessRecord{cfdd5ac 7573:com.sina.weibo/u0a179}
+    launchingApp=ProcessRecord{cfdd5ac 7573:com.sina.weibo/u0a179}
+    uid=10179 provider=android.content.ContentProviderProxy@31232cc
+    authority=com.sina.weibo.spProvider
+  * ContentProviderRecord{1f915 u0 com.qiku.android.cloudsync/com.coolcloud.uac.android.service.provider.UserInfoContentProvider}
+    package=com.qiku.android.cloudsync process=com.qiku.android.cloudsync
+    proc=ProcessRecord{f4d832 25018:com.qiku.android.cloudsync/u0a11}
+    uid=10011 provider=android.content.ContentProviderProxy@5f9a42a
+    authority=com.cloudsync.android.uac.provider.userinfo
+  * ContentProviderRecord{dcbe21b u0 com.android.providers.telephony/.MmsSmsProvider2}
+    package=com.android.providers.telephony process=com.android.phone
+    proc=ProcessRecord{a33baf6 2448:com.android.phone/1001}
+    uid=1001 provider=android.content.ContentProviderProxy@a95afb8
+    authority=mms-sms
+  * ContentProviderRecord{d961191 u0 com.qihoo360.mobilesafe/.backup.provider.LocalSmsProvider}
+    package=com.qihoo360.mobilesafe process=com.qihoo360.mobilesafe:GuardService
+    proc=ProcessRecord{d8bcfd5 32677:com.qihoo360.mobilesafe:GuardService/u0a4}
+    uid=10004 provider=android.content.ContentProviderProxy@965d8f6
+    authority=com.qihoo360.localsms
+  * ContentProviderRecord{c62feb1 u0 com.android.gallery3d/.app.cloud.DatabaseProvider}
+    package=com.android.gallery3d process=com.android.gallery3d
+    proc=ProcessRecord{fd4802f 16017:com.android.gallery3d/u0a20}
+    uid=10020 provider=android.content.ContentProviderProxy@da68f96
+    authority=com.android.gallery3d.app.cloud.DatabaseProvider
+  * ContentProviderRecord{cbc84f7 u0 com.android.settings/com.yulong.android.settings.camouflage.CommonCamouflageProvider}
+    package=com.android.settings process=com.android.settings
+    proc=ProcessRecord{38c3607 2769:com.android.settings/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@ad20f64
+    authority=com.yulong.android.settings.camouflage.common
+  * ContentProviderRecord{3af0717 u0 com.android.mms/com.yulong.android.contacts.records.provider.RecordsProvider}
+    package=com.android.mms process=com.android.mms
+    proc=ProcessRecord{544e354 17863:com.android.mms/u0a21}
+    uid=10021 provider=android.content.ContentProviderProxy@8793704
+    authority=com.yulong.android.provider.call.records
+  * ContentProviderRecord{4aa7993 u0 com.android.settings/.search.SettingsSearchIndexablesProvider}
+    package=com.android.settings process=com.android.settings
+    proc=ProcessRecord{38c3607 2769:com.android.settings/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@852bdd0
+    authority=com.android.settings
+  * ContentProviderRecord{ff061c9 u0 com.qihoo360.mobilesafe/.contacts.ContactsProvider}
+    package=com.qihoo360.mobilesafe process=com.qihoo360.mobilesafe:GuardService
+    proc=ProcessRecord{d8bcfd5 32677:com.qihoo360.mobilesafe:GuardService/u0a4}
+    uid=10004 provider=android.content.ContentProviderProxy@19b10ce
+    authority=com.qihoo360.plugin.contacts
+  * ContentProviderRecord{b77d4ed u0 com.android.mms/com.yulong.android.contacts.yellowpage.YellowPageProvider}
+    package=com.android.mms process=com.android.mms
+    proc=ProcessRecord{544e354 17863:com.android.mms/u0a21}
+    uid=10021 provider=android.content.ContentProviderProxy@1340f22
+    authority=com.qiku.android.yellowpage
+  * ContentProviderRecord{e945185 u0 com.qiku.android.cloudsync/com.cloudsec.android.data.CloudSecProvider}
+    package=com.qiku.android.cloudsync process=com.qiku.android.cloudsync
+    proc=ProcessRecord{f4d832 25018:com.qiku.android.cloudsync/u0a11}
+    uid=10011 provider=android.content.ContentProviderProxy@7db6bda
+    authority=com.cloudsec.android.data.CloudSecProvider
+  * ContentProviderRecord{612fdb3 u0 com.android.providers.userdictionary/.UserDictionaryProvider}
+    package=com.android.providers.userdictionary process=android.process.acore
+    proc=ProcessRecord{ad4bf70 18053:android.process.acore/u0a6}
+    launchingApp=ProcessRecord{ad4bf70 18053:android.process.acore/u0a6}
+    uid=10006 provider=android.content.ContentProviderProxy@f89d2e9
+    authority=user_dictionary
+  * ContentProviderRecord{9946ba6 u0 com.tencent.mobileqq/.openapi.OpenApiProvider}
+    package=com.tencent.mobileqq process=com.tencent.mobileqq
+    proc=ProcessRecord{fc621e8 8524:com.tencent.mobileqq/u0a111}
+    uid=10111 provider=android.content.ContentProviderProxy@56299e7
+    authority=com.tencent.mobileqq.openapi.provider
+  * ContentProviderRecord{527fb6e u0 com.android.inputmethod.latin/com.android.inputmethod.dictionarypack.DictionaryProvider}
+    package=com.android.inputmethod.latin process=com.android.inputmethod.latin
+    proc=ProcessRecord{5b5c20f 17978:com.android.inputmethod.latin/u0a81}
+    uid=10081 provider=android.content.ContentProviderProxy@61e629c
+    authority=com.android.inputmethod.dictionarypack.aosp
+  * ContentProviderRecord{58a1994 u0 com.tencent.mm/.sdk.platformtools.MultiProcessSharedPreferences}
+    package=com.tencent.mm process=com.tencent.mm
+    proc=ProcessRecord{91c9ab 5131:com.tencent.mm/u0a106}
+    uid=10106 provider=android.content.ContentProviderProxy@c102c3d
+    authority=com.tencent.mm.sdk.platformtools.MultiProcessSharedPreferences
+  * ContentProviderRecord{48b9c32 u0 com.tencent.mm/.plugin.base.stub.MMPluginProvider}
+    package=com.tencent.mm process=com.tencent.mm
+    proc=ProcessRecord{91c9ab 5131:com.tencent.mm/u0a106}
+    uid=10106 provider=android.content.ContentProviderProxy@9b4ed83
+    authority=com.tencent.mm.sdk.plugin.provider
+  * ContentProviderRecord{da3b4a5 u0 com.qiku.riskinsight/com.qiku.android.launcher.LauncherProvider}
+    package=com.qiku.riskinsight process=com.qiku.riskinsight
+    proc=ProcessRecord{d54ab0 15583:com.qiku.riskinsight/u0a35}
+    uid=10035 provider=android.content.ContentProviderProxy@c5c607a
+    authority=com.qiku.android.launcher.compound
+  * ContentProviderRecord{8b93b00 u0 com.android.phone/.IccProvider}
+    package=com.android.phone process=com.android.phone
+    proc=ProcessRecord{a33baf6 2448:com.android.phone/1001}
+    uid=1001 provider=android.content.ContentProviderProxy@8d84f39
+    authority=icc
+    isSyncable=false multiprocess=true initOrder=0
+  * ContentProviderRecord{b53497e u0 com.qihoo360.mobilesafe/.lockscreen.data.LockScreenContentProvider}
+    package=com.qihoo360.mobilesafe process=com.qihoo360.mobilesafe:GuardService
+    proc=ProcessRecord{d8bcfd5 32677:com.qihoo360.mobilesafe:GuardService/u0a4}
+    uid=10004 provider=android.content.ContentProviderProxy@84ededf
+    authority=com.qihoo360.mobilesafe.lockscreen
+  * ContentProviderRecord{f7072c u0 com.sina.weibo/.PictureListProvider}
+    package=com.sina.weibo process=com.sina.weibo
+    proc=ProcessRecord{cfdd5ac 7573:com.sina.weibo/u0a179}
+    uid=10179 provider=android.content.ContentProviderProxy@565a5f5
+    authority=com.sina.weibo.picListProvider
+  * ContentProviderRecord{5567f8a u0 com.tencent.mm/.plugin.ext.provider.ExtControlProviderAccountSync}
+    package=com.tencent.mm process=com.tencent.mm
+    proc=ProcessRecord{91c9ab 5131:com.tencent.mm/u0a106}
+    uid=10106 provider=android.content.ContentProviderProxy@f6c89fb
+    authority=com.tencent.mm.plugin.ext.AccountSync
+  * ContentProviderRecord{aefcad7 u0 com.android.providers.media/.MediaProvider}
+    package=com.android.providers.media process=android.process.media
+    proc=ProcessRecord{6b5c1cb 4873:android.process.media/u0a22}
+    uid=10022 provider=android.content.ContentProviderProxy@1310fc4
+    authority=media
+  * ContentProviderRecord{a499ead u0 com.qihoo360.mobilesafe/.protection_v3.AntiTheftProvider}
+    package=com.qihoo360.mobilesafe process=com.qihoo360.mobilesafe:GuardService
+    proc=ProcessRecord{d8bcfd5 32677:com.qihoo360.mobilesafe:GuardService/u0a4}
+    uid=10004 provider=android.content.ContentProviderProxy@67f75e2
+    authority=com.qihoo360.mobilesafe.AntitheftProvider
+  * ContentProviderRecord{8fc3d73 u0 com.qihoo360.mobilesafe/.provider.ActiveProvider}
+    package=com.qihoo360.mobilesafe process=com.qihoo360.mobilesafe:GuardService
+    proc=ProcessRecord{d8bcfd5 32677:com.qihoo360.mobilesafe:GuardService/u0a4}
+    uid=10004 provider=android.content.ContentProviderProxy@8116430
+    authority=com.qihoo360.mobilesafe.activateprovider
+  * ContentProviderRecord{90e78a9 u0 com.android.settings.wifi/.search.SettingsSearchIndexablesProvider}
+    package=com.android.settings.wifi process=com.android.settings.wifi
+    proc=ProcessRecord{fa30e2e 14429:com.android.settings.wifi/1000}
+    launchingApp=ProcessRecord{fa30e2e 14429:com.android.settings.wifi/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@c533dcf
+    authority=com.android.settings.wifi
+    Connections:
+      -> 2769:com.android.settings/1000 s0/0 u1/1 +2d23h38m21s791ms
+  * ContentProviderRecord{960935c u0 com.qiku.cardmanager/android.support.v4.content.FileProvider}
+    package=com.qiku.cardmanager process=com.qiku.cardmanager
+    proc=ProcessRecord{8bedade 12856:com.qiku.cardmanager/u0a93}
+    uid=10093 provider=android.content.ContentProviderProxy@2cf665
+    authority=com.qiku.cardmanager.fileprovider
+  * ContentProviderRecord{d55df3a u0 com.sina.weibo/.log.UserLogProvider}
+    package=com.sina.weibo process=com.sina.weibo
+    proc=ProcessRecord{cfdd5ac 7573:com.sina.weibo/u0a179}
+    uid=10179 provider=android.content.ContentProviderProxy@86fe7eb
+    authority=com.sina.weibo.userlog
+  * ContentProviderRecord{dbc8d1d u0 com.qiku.cardmanager/com.qiku.utils.update.updatetask.UpdateProvider}
+    package=com.qiku.cardmanager process=com.qiku.cardmanager
+    proc=ProcessRecord{8bedade 12856:com.qiku.cardmanager/u0a93}
+    uid=10093 provider=android.content.ContentProviderProxy@db51b92
+    authority=com.qiku.cardmanager.Update
+  * ContentProviderRecord{96f6963 u0 com.yulong.android.coolsafe/.dbhelp.apklock.ApkLockProvider}
+    package=com.yulong.android.coolsafe process=com.yulong.android.coolsafe:remote
+    proc=ProcessRecord{327d4d4 3890:com.yulong.android.coolsafe:remote/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@c1e3960
+    authority=com.yulong.android.coolsafe.apklock.provider
+    Connections:
+      -> 2025:com.android.systemui/u0a32 s0/0 u1/1 +2d6h22m35s699ms
+  * ContentProviderRecord{e99de19 u0 com.qihoo360.mobilesafe/.block.sdk.BlockCoolPadProvider}
+    package=com.qihoo360.mobilesafe process=com.qihoo360.mobilesafe:GuardService
+    proc=ProcessRecord{d8bcfd5 32677:com.qihoo360.mobilesafe:GuardService/u0a4}
+    uid=10004 provider=android.content.ContentProviderProxy@9855ede
+    authority=com.qihoo360.block.coolpad.provider
+  * ContentProviderRecord{e6538bf u0 com.yulong.android.launcher3/.badge.BadgeProvider}
+    package=com.yulong.android.launcher3 process=com.yulong.android.launcher3
+    proc=ProcessRecord{6d58682 2789:com.yulong.android.launcher3/u0a48}
+    uid=10048 provider=android.content.ContentProviderProxy@b1d8b8c
+    authority=com.qiku.android.launcher.badge
+  * ContentProviderRecord{8bea1db u0 com.android.providers.telephony/.MmsProvider2}
+    package=com.android.providers.telephony process=com.android.phone
+    proc=ProcessRecord{a33baf6 2448:com.android.phone/1001}
+    uid=1001 provider=android.content.ContentProviderProxy@8ddd478
+    authority=mms
+  * ContentProviderRecord{a003751 u0 com.yulong.android.coolsafe/.dbhelp.interruptions.InterruptionProvider}
+    package=com.yulong.android.coolsafe process=com.yulong.android.coolsafe:remote
+    proc=ProcessRecord{327d4d4 3890:com.yulong.android.coolsafe:remote/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@c986bb6
+    authority=com.qiku.android.safe.interrupiton.provider.old
+  * ContentProviderRecord{116702b u0 com.tianyancha.skyeye/com.umeng.message.provider.MessageProvider}
+    package=com.tianyancha.skyeye process=com.tianyancha.skyeye
+    proc=ProcessRecord{8fd0c88 18444:com.tianyancha.skyeye/u0a299}
+    uid=10299 provider=android.content.ContentProviderProxy@6bff621
+    authority=com.tianyancha.skyeye.umeng.message
+  * ContentProviderRecord{4378d42 u0 com.tencent.mm/.plugin.ext.provider.ExtControlProviderSearchContact}
+    package=com.tencent.mm process=com.tencent.mm
+    proc=ProcessRecord{91c9ab 5131:com.tencent.mm/u0a106}
+    uid=10106 provider=android.content.ContentProviderProxy@bbd7153
+    authority=com.tencent.mm.plugin.ext.SearchContact
+  * ContentProviderRecord{162ba90 u0 com.tencent.mm/.plugin.ext.provider.ExtControlProviderMsg}
+    package=com.tencent.mm process=com.tencent.mm
+    proc=ProcessRecord{91c9ab 5131:com.tencent.mm/u0a106}
+    uid=10106 provider=android.content.ContentProviderProxy@7417f89
+    authority=com.tencent.mm.plugin.ext.message
+  * ContentProviderRecord{b400a46 u0 com.yulong.android.xtime/yulong.xtime.ui.alarmclock.AlarmProvider}
+    package=com.yulong.android.xtime process=com.yulong.android.xtime
+    proc=ProcessRecord{f8c9979 15535:com.yulong.android.xtime/u0a54}
+    uid=10054 provider=android.content.ContentProviderProxy@589e407
+    authority=com.yulong.xtime.alarmclock
+  * ContentProviderRecord{39a6934 u0 com.qihoo.appstore/com.qihoo.sdk.report.common.MultiprocessSharedPreferences}
+    package=com.qihoo.appstore process=com.qihoo.appstore
+    proc=ProcessRecord{da8b94b 13864:com.qihoo.appstore/u0a10}
+    uid=10010 provider=android.content.ContentProviderProxy@704d35d
+    authority=3416a75f4cea9109507cacd8e2f2aefc
+  * ContentProviderRecord{c6284d2 u0 com.qihoo.appstore/com.qihoo360.replugin.packages.PluginFastInstallProvider}
+    package=com.qihoo.appstore process=com.qihoo.appstore
+    proc=ProcessRecord{da8b94b 13864:com.qihoo.appstore/u0a10}
+    uid=10010 provider=android.content.ContentProviderProxy@6d6b9a3
+    authority=com.qihoo.appstore.loader.p.pip
+  * ContentProviderRecord{c4d829a u0 com.yulong.android.launcher3/com.qiku.widget3d.provider.WidgetMsgOptionProvider}
+    package=com.yulong.android.launcher3 process=com.yulong.android.launcher3
+    proc=ProcessRecord{6d58682 2789:com.yulong.android.launcher3/u0a48}
+    uid=10048 provider=android.content.ContentProviderProxy@7e7b7cb
+    authority=com.qiku.android.launcher3.WidgetMsgOptionProvider
+  * ContentProviderRecord{9ab4ba8 u0 com.tencent.mobileqq/com.tencent.mqq.shared_file_accessor.ContentProviderImpl}
+    package=com.tencent.mobileqq process=com.tencent.mobileqq
+    proc=ProcessRecord{fc621e8 8524:com.tencent.mobileqq/u0a111}
+    uid=10111 provider=android.content.ContentProviderProxy@aec96c1
+    authority=com.tencent.mqq.shared_file_accessor.ContentProviderImpl
+  * ContentProviderRecord{6f12e66 u0 com.qihoo.appstore/com.qihoo360.mobilesafe.pcdaemon.service.DaemonContentProvider}
+    package=com.qihoo.appstore process=com.qihoo.daemon
+    proc=ProcessRecord{5d48ed5 30643:com.qihoo.daemon/u0a10}
+    uid=10010 provider=android.content.ContentProviderProxy@9b805a7
+    authority=com.qihoo360.daemon
+  * ContentProviderRecord{b3d7a54 u0 com.yulong.android.launcher3/.silentinstall.SilentInstallProvider}
+    package=com.yulong.android.launcher3 process=com.yulong.android.launcher3
+    proc=ProcessRecord{6d58682 2789:com.yulong.android.launcher3/u0a48}
+    uid=10048 provider=android.content.ContentProviderProxy@56addfd
+    authority=com.yulong.android.launcher3.DownLoadProvide
+  * ContentProviderRecord{cd1caf2 u0 com.qihoo360.mobilesafe/.accountsync.SyncProvider}
+    package=com.qihoo360.mobilesafe process=com.qihoo360.mobilesafe:GuardService
+    proc=ProcessRecord{d8bcfd5 32677:com.qihoo360.mobilesafe:GuardService/u0a4}
+    uid=10004 provider=android.content.ContentProviderProxy@a555543
+    authority=com.qihoo360.mobilesafe.accountsync.syncprovider
+    isSyncable=true multiprocess=false initOrder=0
+  * ContentProviderRecord{d0ee4a0 u0 com.qihoo.appstore/com.qihoo.storager.MultiprocessSharedPreferences}
+    package=com.qihoo.appstore process=com.qihoo.appstore
+    proc=ProcessRecord{da8b94b 13864:com.qihoo.appstore/u0a10}
+    launchingApp=ProcessRecord{da8b94b 13864:com.qihoo.appstore/u0a10}
+    uid=10010 provider=android.content.ContentProviderProxy@cc04859
+    authority=com.qihoo.appstore.MultiprocessSharedPreferences
+  * ContentProviderRecord{1ada43e u0 com.yulong.android.launcher3/.ConfigProvider}
+    package=com.yulong.android.launcher3 process=com.yulong.android.launcher3
+    proc=ProcessRecord{6d58682 2789:com.yulong.android.launcher3/u0a48}
+    uid=10048 provider=android.content.ContentProviderProxy@4ee029f
+    authority=com.yulong.android.launcher3.ConfigProvider
+  * ContentProviderRecord{41dbfec u0 com.qiku.powermaster/com.fighter.proxy.ReaperProvider}
+    package=com.qiku.powermaster process=com.qiku.powermaster
+    proc=ProcessRecord{a4332c5 18796:com.qiku.powermaster/u0a94}
+    uid=10094 provider=android.content.ContentProviderProxy@daccfb5
+    authority=com.qiku.powermaster.reaper.provider.ReaperProvider
+  * ContentProviderRecord{1c01c1e u0 com.android.mms/android.support.v4.content.FileProvider}
+    package=com.android.mms process=com.android.mms
+    proc=ProcessRecord{544e354 17863:com.android.mms/u0a21}
+    uid=10021 provider=android.content.ContentProviderProxy@4914cff
+    authority=com.yulong.android.contacts.files
+  * ContentProviderRecord{38daacc u0 com.android.mms/com.qiku.android.calllog.database.AggregatedCallLogProvider}
+    package=com.android.mms process=com.android.mms
+    proc=ProcessRecord{544e354 17863:com.android.mms/u0a21}
+    uid=10021 provider=android.content.ContentProviderProxy@3241115
+    authority=aggregated_call_log
+  * ContentProviderRecord{217fd16 u0 com.qiku.powerengine/.savepower.bean.SavePowerProvider}
+    package=com.qiku.powerengine process=com.qiku.powerengine:remote
+    proc=ProcessRecord{fe2d2da 2203:com.qiku.powerengine:remote/1000}
+    launchingApp=ProcessRecord{fe2d2da 2203:com.qiku.powerengine:remote/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@857a697
+    authority=com.yulong.android.coolsafe.savepower.provider
+    Connections:
+      -> 2025:com.android.systemui/u0a32 s0/0 u1/1 +2d23h44m57s347ms
+  * ContentProviderRecord{1de2084 u0 com.tencent.mm/.plugin.ext.provider.ExtContentProviderBase}
+    package=com.tencent.mm process=com.tencent.mm
+    proc=ProcessRecord{91c9ab 5131:com.tencent.mm/u0a106}
+    uid=10106 provider=android.content.ContentProviderProxy@394406d
+    authority=com.tencent.mm.plugin.ext.ExtContentProviderBase
+  * ContentProviderRecord{30ed4a2 u0 com.android.providers.contacts/.ContactsProvider2}
+    package=com.android.providers.contacts process=com.android.providers.contacts
+    proc=ProcessRecord{8e7abd1 2500:com.android.providers.contacts/u0a6}
+    launchingApp=ProcessRecord{8e7abd1 2500:com.android.providers.contacts/u0a6}
+    uid=10006 provider=android.content.ContentProviderProxy@9661533
+    authority=contacts;com.android.contacts
+  * ContentProviderRecord{35ec0f0 u0 com.sina.weibo/.provider.WeiboLogDBProvider}
+    package=com.sina.weibo process=com.sina.weibo
+    proc=ProcessRecord{cfdd5ac 7573:com.sina.weibo/u0a179}
+    uid=10179 provider=android.content.ContentProviderProxy@7c17669
+    authority=com.sina.weibo.weiboLogProvider
+  * ContentProviderRecord{da998ee u0 com.qihoo360.mobilesafe/com.qihoo.antivirus.shield.server.ShieldExportProvider}
+    package=com.qihoo360.mobilesafe process=com.qihoo360.mobilesafe:GuardService
+    proc=ProcessRecord{d8bcfd5 32677:com.qihoo360.mobilesafe:GuardService/u0a4}
+    uid=10004 provider=android.content.ContentProviderProxy@3e2d18f
+    authority=com.qihoo.antivirus.shield.server.export
+  * ContentProviderRecord{706fc1c u0 com.android.providers.downloads/.DownloadStorageProvider}
+    package=com.android.providers.downloads process=android.process.media
+    proc=ProcessRecord{6b5c1cb 4873:android.process.media/u0a22}
+    uid=10022 provider=android.content.ContentProviderProxy@8721025
+    authority=com.android.providers.downloads.documents
+  * ContentProviderRecord{ecddc2a u0 com.qihoo.appstore/.loader.p.ProviderN1}
+    package=com.qihoo.appstore process=com.qihoo.appstore
+    proc=ProcessRecord{da8b94b 13864:com.qihoo.appstore/u0a10}
+    uid=10010 provider=android.content.ContentProviderProxy@937ba1b
+    authority=com.qihoo.appstore.loader.p.prN1
+  * ContentProviderRecord{350a7b8 u0 com.android.mms/com.yulong.android.contacts.ui.emergency.EmergencyProvider}
+    package=com.android.mms process=com.android.mms
+    proc=ProcessRecord{544e354 17863:com.android.mms/u0a21}
+    uid=10021 provider=android.content.ContentProviderProxy@cc1a991
+    authority=com.yulong.android.provider.emergency.contacts
+  * ContentProviderRecord{3a7d7c6 u0 com.android.settings/android.support.v4.content.FileProvider}
+    package=com.android.settings process=com.android.settings
+    proc=ProcessRecord{38c3607 2769:com.android.settings/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@b596387
+    authority=com.android.settings.files
+  * ContentProviderRecord{2ccb2b4 u0 com.qiku.magicball/.provider.InterfaceProvider}
+    package=com.qiku.magicball process=com.qiku.magicball
+    proc=ProcessRecord{ad31edd 2473:com.qiku.magicball/u0a89}
+    launchingApp=ProcessRecord{ad31edd 2473:com.qiku.magicball/u0a89}
+    uid=10089 provider=android.content.ContentProviderProxy@b39aa52
+    authority=com.qiku.magicball
+  * ContentProviderRecord{6deb123 u0 com.android.providers.telephony/.RcsProvider}
+    package=com.android.providers.telephony process=com.android.phone
+    proc=ProcessRecord{a33baf6 2448:com.android.phone/1001}
+    uid=1001 provider=android.content.ContentProviderProxy@adc4620
+    authority=rcs
+  * ContentProviderRecord{9e7cbd9 u0 com.qihoo360.mobilesafe/.block.sdk.BlockQiKuProvider}
+    package=com.qihoo360.mobilesafe process=com.qihoo360.mobilesafe:GuardService
+    proc=ProcessRecord{d8bcfd5 32677:com.qihoo360.mobilesafe:GuardService/u0a4}
+    uid=10004 provider=android.content.ContentProviderProxy@aa4199e
+    authority=com.qihoo360.block.qiku.provider
+  * ContentProviderRecord{5e13c7f u0 com.eg.android.AlipayGphone/com.alipay.mobile.authlogin.common.provider.AliAuthLoginContentProvider}
+    package=com.eg.android.AlipayGphone process=com.eg.android.AlipayGphone
+    proc=ProcessRecord{67c0f6d 5404:com.eg.android.AlipayGphone/u0a197}
+    uid=10197 provider=android.content.ContentProviderProxy@a8fa44c
+    authority=com.alipay.ali.authlogin
+  * ContentProviderRecord{2004c95 u0 com.qihoo.appstore/com.qihoo360.replugin.component.process.ProcessPitProviderPersist}
+    package=com.qihoo.appstore process=com.qihoo.daemon
+    proc=ProcessRecord{5d48ed5 30643:com.qihoo.daemon/u0a10}
+    launchingApp=ProcessRecord{5d48ed5 30643:com.qihoo.daemon/u0a10}
+    uid=10010 provider=android.content.ContentProviderProxy@1b431aa
+    authority=com.qihoo.appstore.loader.p.main
+  * ContentProviderRecord{457219b u0 com.tencent.mobileqq/.content.FriendListProvider}
+    package=com.tencent.mobileqq process=com.tencent.mobileqq
+    proc=ProcessRecord{fc621e8 8524:com.tencent.mobileqq/u0a111}
+    uid=10111 provider=android.content.ContentProviderProxy@e38b938
+    authority=qq.friendlist
+  * ContentProviderRecord{fe61d11 u0 com.android.providers.telephony/.CloudMsgProvider}
+    package=com.android.providers.telephony process=com.android.phone
+    proc=ProcessRecord{a33baf6 2448:com.android.phone/1001}
+    uid=1001 provider=android.content.ContentProviderProxy@dfbbe76
+    authority=cloudmsg
+  * ContentProviderRecord{d7c3c77 u0 com.qiku.powermaster/com.fighter.proxy.ReaperFileProvider}
+    package=com.qiku.powermaster process=com.qiku.powermaster
+    proc=ProcessRecord{a4332c5 18796:com.qiku.powermaster/u0a94}
+    uid=10094 provider=android.content.ContentProviderProxy@35c30e4
+    authority=com.qiku.powermaster.reaper.provider.ReaperFileProvider
+  * ContentProviderRecord{97e794d u0 com.android.providers.contacts/.VoicemailContentProvider}
+    package=com.android.providers.contacts process=com.android.providers.contacts
+    proc=ProcessRecord{8e7abd1 2500:com.android.providers.contacts/u0a6}
+    uid=10006 provider=android.content.ContentProviderProxy@25d4c02
+    authority=com.android.voicemail
+  * ContentProviderRecord{a6e2913 u0 com.qihoo360.mobilesafe/.provider.SafeGuardProvider}
+    package=com.qihoo360.mobilesafe process=com.qihoo360.mobilesafe:GuardService
+    proc=ProcessRecord{d8bcfd5 32677:com.qihoo360.mobilesafe:GuardService/u0a4}
+    launchingApp=ProcessRecord{d8bcfd5 32677:com.qihoo360.mobilesafe:GuardService/u0a4}
+    uid=10004 provider=android.content.ContentProviderProxy@91d7750
+    authority=com.qihoo360.mobilesafeguard
+  * ContentProviderRecord{3c65d49 u0 com.qihoo360.mobilesafe/.loader.p.MainProvider}
+    package=com.qihoo360.mobilesafe process=com.qihoo360.mobilesafe:GuardService
+    proc=ProcessRecord{d8bcfd5 32677:com.qihoo360.mobilesafe:GuardService/u0a4}
+    uid=10004 provider=android.content.ContentProviderProxy@b58264e
+    authority=com.qihoo360.mobilesafe.loader.p.main
+  * ContentProviderRecord{e88436f u0 com.sina.weibo/com.sina.push.datacenter.PushProvider}
+    package=com.sina.weibo process=com.sina.weibo:remote
+    proc=ProcessRecord{b6ab87c 7853:com.sina.weibo:remote/u0a179}
+    launchingApp=ProcessRecord{b6ab87c 7853:com.sina.weibo:remote/u0a179}
+    uid=10179 provider=android.content.ContentProviderProxy@c8e8505
+    authority=com.sina.push.pushprovider.1004
+  * ContentProviderRecord{c14595a u0 com.android.providers.media/.MediaDocumentsProvider}
+    package=com.android.providers.media process=android.process.media
+    proc=ProcessRecord{6b5c1cb 4873:android.process.media/u0a22}
+    uid=10022 provider=android.content.ContentProviderProxy@d7fa78b
+    authority=com.android.providers.media.documents
+  * ContentProviderRecord{74590f6 u0 com.qihoo.appstore/com.qihoo360.replugin.component.provider.PluginPitProviderUI}
+    package=com.qihoo.appstore process=com.qihoo.appstore
+    proc=ProcessRecord{da8b94b 13864:com.qihoo.appstore/u0a10}
+    uid=10010 provider=android.content.ContentProviderProxy@f0ddcf7
+    authority=com.qihoo.appstore.Plugin.NP.UIP
+  * ContentProviderRecord{2eb126 u0 com.yulong.android.coolsafe/.util.savepower.SmartNetProvider}
+    package=com.yulong.android.coolsafe process=com.yulong.android.coolsafe:remote
+    proc=ProcessRecord{327d4d4 3890:com.yulong.android.coolsafe:remote/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@73f3167
+    authority=com.yulong.android.coolsafe.savepower.smartnet.provider
+  * ContentProviderRecord{39f9b14 u0 com.sina.weibo/.provider.SinaWeiboDBProvider}
+    package=com.sina.weibo process=com.sina.weibo
+    proc=ProcessRecord{cfdd5ac 7573:com.sina.weibo/u0a179}
+    uid=10179 provider=android.content.ContentProviderProxy@1ad4fbd
+    authority=com.sina.weibo.blogProvider
+  * ContentProviderRecord{e44b9b2 u0 com.yulong.android.launcher3/com.qiku.widget3d.provider.WidgetContentProvider}
+    package=com.yulong.android.launcher3 process=com.yulong.android.launcher3
+    proc=ProcessRecord{6d58682 2789:com.yulong.android.launcher3/u0a48}
+    uid=10048 provider=android.content.ContentProviderProxy@5837d03
+    authority=com.qiku.android.launcher3.WidgetContentProvider
+  * ContentProviderRecord{c655480 u0 com.qihoo360.mobilesafe/com.qihoo360.apm.apmdatamanager.ApmDataProvider}
+    package=com.qihoo360.mobilesafe process=com.qihoo360.mobilesafe:GuardService
+    proc=ProcessRecord{d8bcfd5 32677:com.qihoo360.mobilesafe:GuardService/u0a4}
+    uid=10004 provider=android.content.ContentProviderProxy@1e42ab9
+    authority=com.qihoo360.apm.apmdatamanager.ApmDataProvider
+  * ContentProviderRecord{740befe u0 com.eg.android.AlipayGphone/com.alipay.mobile.socialwidget.provider.ShareSdkProvider}
+    package=com.eg.android.AlipayGphone process=com.eg.android.AlipayGphone
+    proc=ProcessRecord{67c0f6d 5404:com.eg.android.AlipayGphone/u0a197}
+    uid=10197 provider=android.content.ContentProviderProxy@736e65f
+    authority=com.alipay.sharesdk
+  * ContentProviderRecord{90b38ac u0 com.android.systemui/.database.InterfaceProvider}
+    package=com.android.systemui process=com.android.systemui
+    proc=ProcessRecord{22fe0fd 2025:com.android.systemui/u0a32}
+    uid=10032 provider=android.content.ContentProviderProxy@613b975
+    authority=com.android.systemui.InterfaceProvider
+    isSyncable=false multiprocess=true initOrder=0
+  * ContentProviderRecord{e65cd0a u0 com.qihoo360.mobilesafe/.paysafe.db.PaySafeProvider}
+    package=com.qihoo360.mobilesafe process=com.qihoo360.mobilesafe:GuardService
+    proc=ProcessRecord{d8bcfd5 32677:com.qihoo360.mobilesafe:GuardService/u0a4}
+    uid=10004 provider=android.content.ContentProviderProxy@58d897b
+    authority=com.qihoo360.mobilesafe.paysafe
+  * ContentProviderRecord{d493398 u0 com.android.providers.contacts/.debug.DumpFileProvider}
+    package=com.android.providers.contacts process=com.android.providers.contacts
+    proc=ProcessRecord{8e7abd1 2500:com.android.providers.contacts/u0a6}
+    uid=10006 provider=android.content.ContentProviderProxy@57377f1
+    authority=com.android.contacts.dumpfile
+  * ContentProviderRecord{448764 u0 com.qihoo.appstore/.provider.GlobalContentProvider}
+    package=com.qihoo.appstore process=com.qihoo.appstore
+    proc=ProcessRecord{da8b94b 13864:com.qihoo.appstore/u0a10}
+    uid=10010 provider=android.content.ContentProviderProxy@9c64dcd
+    authority=com.qihoo.appstore.provider.GlobalContentProviderAuthorities
+  * ContentProviderRecord{e69f144 u0 com.android.providers.telephony/.SmsProvider2}
+    package=com.android.providers.telephony process=com.android.phone
+    proc=ProcessRecord{a33baf6 2448:com.android.phone/1001}
+    uid=1001 provider=android.content.ContentProviderProxy@936a22d
+    authority=sms
+  * ContentProviderRecord{eb1c682 u0 com.qihoo.appstore/com.ak.torch.shell.provider.TorchProvider}
+    package=com.qihoo.appstore process=com.qihoo.appstore
+    proc=ProcessRecord{da8b94b 13864:com.qihoo.appstore/u0a10}
+    uid=10010 provider=android.content.ContentProviderProxy@6b95193
+    authority=com.qihoo.appstore.torchadsdkprovider
+  * ContentProviderRecord{9b6ddb0 u0 com.sina.weibo/.core.DataCenter.DataCenterProvider}
+    package=com.sina.weibo process=com.sina.weibo
+    proc=ProcessRecord{cfdd5ac 7573:com.sina.weibo/u0a179}
+    uid=10179 provider=android.content.ContentProviderProxy@883429
+    authority=com.sina.weibo.WB.DataCenterProvider
+  * ContentProviderRecord{e74b5d0 u0 com.android.gallery3d/.provider.GalleryProvider}
+    package=com.android.gallery3d process=com.android.gallery3d
+    proc=ProcessRecord{fd4802f 16017:com.android.gallery3d/u0a20}
+    uid=10020 provider=android.content.ContentProviderProxy@5f6f9c9
+    authority=com.android.gallery3d.provider
+  * ContentProviderRecord{a98e3ae u0 com.qiku.healthguard/.db.HealthProvider}
+    package=com.qiku.healthguard process=com.qiku.healthguard
+    proc=ProcessRecord{b7179d4 32745:com.qiku.healthguard/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@f0c254f
+    authority=com.qiku.healthguard.db.HealthProvider
+  * ContentProviderRecord{5a424dc u0 com.sina.weibo/.sync.stub.SyncStubProvider}
+    package=com.sina.weibo process=com.sina.weibo
+    proc=ProcessRecord{cfdd5ac 7573:com.sina.weibo/u0a179}
+    uid=10179 provider=android.content.ContentProviderProxy@846e9e5
+    authority=com.sina.weibo.sync.authority
+    isSyncable=true multiprocess=false initOrder=0
+  * ContentProviderRecord{d938cba u0 com.yulong.android.coolsafe/.util.savepower.QikuPhoneStateProvider}
+    package=com.yulong.android.coolsafe process=com.yulong.android.coolsafe:remote
+    proc=ProcessRecord{327d4d4 3890:com.yulong.android.coolsafe:remote/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@e8fc76b
+    authority=com.qiku.android.coolsafe.phonestate.provider
+
+  Single-user authority to provider mappings:
+  com.qiku.android.config: 8529581/com.qiku.android.configcenter/.ConfigProvider
+  com.android.server.heapdump: 77d2626/android/com.android.server.am.DumpHeapProvider
+  com.qiku.secure.providers: c591e05/com.qiku.secure.providers/.QikuSecureProvider
+  hbpcd_lookup: 5f57e5a/com.android.providers.telephony/.HbpcdLookupProvider
+  settings: c830d68/com.android.providers.settings/.SettingsProvider
+
+  User 0 authority to provider mappings:
+  com.qiku.powermaster.reaper.provider.ReaperProvider: 41dbfec/com.qiku.powermaster/com.fighter.proxy.ReaperProvider
+  com.sina.weibo.picListProvider: f7072c/com.sina.weibo/.PictureListProvider
+  com.qihoo360.block.qiku.provider: 9e7cbd9/com.qihoo360.mobilesafe/.block.sdk.BlockQiKuProvider
+  com.tencent.mm.sdk.platformtools.MultiProcessSharedPreferences: 58a1994/com.tencent.mm/.sdk.platformtools.MultiProcessSharedPreferences
+  mms-sms: dcbe21b/com.android.providers.telephony/.MmsSmsProvider2
+  com.qihoo360.mobilesafe.loader.p.main: 3c65d49/com.qihoo360.mobilesafe/.loader.p.MainProvider
+  com.tianyancha.skyeye.umeng.message: 116702b/com.tianyancha.skyeye/com.umeng.message.provider.MessageProvider
+  com.tencent.mm.plugin.ext.NearBy: 17541d3/com.tencent.mm/.plugin.ext.provider.ExtControlProviderNearBy
+  com.yulong.android.coolsafe.apklock.provider: 96f6963/com.yulong.android.coolsafe/.dbhelp.apklock.ApkLockProvider
+  icc: 8b93b00/com.android.phone/.IccProvider
+  com.tencent.common.config.provider.QZoneConfigProvider: 47f4937/com.tencent.mobileqq/com.tencent.common.config.provider.QZoneConfigProvider
+  com.qiku.android.launcher3.WidgetMsgOptionProvider: c4d829a/com.yulong.android.launcher3/com.qiku.widget3d.provider.WidgetMsgOptionProvider
+  3416a75f4cea9109507cacd8e2f2aefc: 39a6934/com.qihoo.appstore/com.qihoo.sdk.report.common.MultiprocessSharedPreferences
+  com.yulong.android.settings.camouflage.common: cbc84f7/com.android.settings/com.yulong.android.settings.camouflage.CommonCamouflageProvider
+  com.qiku.powermaster.reaper.provider.ReaperFileProvider: d7c3c77/com.qiku.powermaster/com.fighter.proxy.ReaperFileProvider
+  com.qiku.cardmanager.reaper.provider.ReaperProxyProvider: a64aa3b/com.qiku.cardmanager/com.fighter.proxy.ReaperProxyProvider
+  com.sina.weibo.fileprovider: 4130409/com.sina.weibo/android.support.v4.content.FileProvider
+  com.yulong.android.provider.emergency.contacts: 350a7b8/com.android.mms/com.yulong.android.contacts.ui.emergency.EmergencyProvider
+  com.sina.weibo.spProvider: 4b2f4ff/com.sina.weibo/.provider.SinaWeiboSPProvider
+  com.qiku.android.space.provider: 77e3c35/com.qiku.android.cloudsync/com.qiku.android.space.provider.ISProvider
+  com.qiku.healthguard.db.HealthProvider: a98e3ae/com.qiku.healthguard/.db.HealthProvider
+  com.android.settings.wifi: 90e78a9/com.android.settings.wifi/.search.SettingsSearchIndexablesProvider
+  com.android.settings.files: 3a7d7c6/com.android.settings/android.support.v4.content.FileProvider
+  com.qihoo.appstore.LauncherDownloadProvider: 232f04b/com.qihoo.appstore/.launcherdownload.LauncherClientProvider
+  com.cloudsync.android.uac.provider.userinfo: 1f915/com.qiku.android.cloudsync/com.coolcloud.uac.android.service.provider.UserInfoContentProvider
+  com.qihoo.appstore.Plugin.NP.UIP: 74590f6/com.qihoo.appstore/com.qihoo360.replugin.component.provider.PluginPitProviderUI
+  com.sina.weibo.sdkProvider: 10dd75f/com.sina.weibo/.provider.SinaWeiboSdkProvider
+  com.sina.weibo.sync.authority: 5a424dc/com.sina.weibo/.sync.stub.SyncStubProvider
+  com.sina.weibo.WB.DataCenterProvider: 9b6ddb0/com.sina.weibo/.core.DataCenter.DataCenterProvider
+  com.yulong.android.coolsafe.savepower.smartnet.provider: 2eb126/com.yulong.android.coolsafe/.util.savepower.SmartNetProvider
+  com.sina.weibo.blogProvider: 39f9b14/com.sina.weibo/.provider.SinaWeiboDBProvider
+  com.android.gallery3d.app.cloud.DatabaseProvider: c62feb1/com.android.gallery3d/.app.cloud.DatabaseProvider
+  com.cloudsec.android.data.CloudSecProvider: e945185/com.qiku.android.cloudsync/com.cloudsec.android.data.CloudSecProvider
+  com.yulong.android.coolsafe.savepower.former.provider: dad9a0c/com.yulong.android.coolsafe/.util.savepower.SavePowerProvider
+  com.yulong.android.launcher3.ConfigProvider: 1ada43e/com.yulong.android.launcher3/.ConfigProvider
+  com.sina.push.pushprovider.1004: e88436f/com.sina.weibo/com.sina.push.datacenter.PushProvider
+  qq.friendlist: 457219b/com.tencent.mobileqq/.content.FriendListProvider
+  com.android.providers.media.documents: c14595a/com.android.providers.media/.MediaDocumentsProvider
+  com.android.contacts.dumpfile: d493398/com.android.providers.contacts/.debug.DumpFileProvider
+  com.sina.weibo.weiboLogProvider: 35ec0f0/com.sina.weibo/.provider.WeiboLogDBProvider
+  com.qihoo360.mobilesafe.accountsync.syncprovider: cd1caf2/com.qihoo360.mobilesafe/.accountsync.SyncProvider
+  com.qihoo.appstore.provider.GlobalContentProviderAuthorities: 448764/com.qihoo.appstore/.provider.GlobalContentProvider
+  com.qiku.cardmanager.fileprovider: 960935c/com.qiku.cardmanager/android.support.v4.content.FileProvider
+  com.qiku.widget3d.adwidget: d0cd722/com.qiku.widget3d/.provider.WidgetAdvProvider
+  com.tencent.mm.plugin.ext.ExtContentProviderBase: 1de2084/com.tencent.mm/.plugin.ext.provider.ExtContentProviderBase
+  com.qiku.cardmanager.netrequest: ff15fc8/com.qiku.cardmanager/.netrequest.NetRequestProvider
+  com.android.settings.forlauncherprovider: 94d0267/com.android.settings/.search.SettingsSearchProviderForLauncher
+  com.alipay.ali.authlogin: 5e13c7f/com.eg.android.AlipayGphone/com.alipay.mobile.authlogin.common.provider.AliAuthLoginContentProvider
+  com.android.contacts: 30ed4a2/com.android.providers.contacts/.ContactsProvider2
+  com.qihoo.antivirus.shield.server.export: da998ee/com.qihoo360.mobilesafe/com.qihoo.antivirus.shield.server.ShieldExportProvider
+  com.qihoo.appstore.loader.p.pip: c6284d2/com.qihoo.appstore/com.qihoo360.replugin.packages.PluginFastInstallProvider
+  com.sina.weibo.preferenceProvider.authorities: 6da2b41/com.sina.weibo/.core.sp.PreferenceProvider
+  com.qiku.cardmanager.reaper.provider.ReaperFileProvider: f5b73b9/com.qiku.cardmanager/com.fighter.proxy.ReaperFileProvider
+  com.yulong.android.launcher3.icon: 95a320a/com.yulong.android.launcher3/.icon.IconProvider
+  com.qihoo360.mobilesafe.lockscreen: b53497e/com.qihoo360.mobilesafe/.lockscreen.data.LockScreenContentProvider
+  com.tencent.mm.plugin.ext.AccountSync: 5567f8a/com.tencent.mm/.plugin.ext.provider.ExtControlProviderAccountSync
+  com.qihoo.appstore.svcmanager: 4eb31ba/com.qihoo.appstore/com.qihoo360.mobilesafe.svcmanager.ServiceProvider
+  com.tencent.mm.plugin.ext.entry: f96eab0/com.tencent.mm/.plugin.ext.provider.ExtControlProviderEntry
+  call_log: 2a04af8/com.android.providers.contacts/.CallLogProvider
+  com.qihoo.appstore.activateprovider: 1080179/com.qihoo.appstore/.keepalive.KeepAliveProvider
+  cloudmsg: fe61d11/com.android.providers.telephony/.CloudMsgProvider
+  sms: e69f144/com.android.providers.telephony/.SmsProvider2
+  com.qihoo360.mobilesafe.AntitheftProvider: a499ead/com.qihoo360.mobilesafe/.protection_v3.AntiTheftProvider
+  com.qiku.android.safe.interrupiton.provider.old: a003751/com.yulong.android.coolsafe/.dbhelp.interruptions.InterruptionProvider
+  com.android.gallery3d.provider: e74b5d0/com.android.gallery3d/.provider.GalleryProvider
+  com.android.voicemail: 97e794d/com.android.providers.contacts/.VoicemailContentProvider
+  com.qiku.magazine.utils.provider.MagazineContentProvider: 9c5436e/com.qiku.magazine/.utils.MagazineContentProvider
+  com.qiku.safetyspace.external: 904823b/com.qiku.riskinsight/com.qiku.safetyspace.externalprovider.ExternalProvider
+  com.tencent.mm.plugin.ext.message: 162ba90/com.tencent.mm/.plugin.ext.provider.ExtControlProviderMsg
+  aggregated_call_log: 38daacc/com.android.mms/com.qiku.android.calllog.database.AggregatedCallLogProvider
+  com.yulong.android.worldclock.provider: 6434640/com.yulong.android.xtime/yulong.xtime.db.worldclock.WorldClockDataProvider
+  com.qihoo360.block.coolpad.provider: e99de19/com.qihoo360.mobilesafe/.block.sdk.BlockCoolPadProvider
+  com.android.phone: fe245c3/com.android.phone/com.yulong.phone.setting.search.SettingsSearchIndexablesProvider
+  com.qihoo360.daemon: 6f12e66/com.qihoo.appstore/com.qihoo360.mobilesafe.pcdaemon.service.DaemonContentProvider
+  com.qihoo.appstore.Plugin.NP.PSP: b1208bd/com.qihoo.appstore/com.qihoo360.replugin.component.provider.PluginPitProviderPersist
+  com.yulong.android.coolsafe.savepower.provider: 217fd16/com.qiku.powerengine/.savepower.bean.SavePowerProvider
+  com.qihoo360.mobilesafe.svcmanager: df801dc/com.qihoo360.mobilesafe/.svcmanager.ServiceProvider
+  com.android.mms: 5b45435/com.android.mms/com.yulong.systemsetting.search.SettingsSearchIndexablesProvider
+  com.tencent.mm.sdk.plugin.provider: 48b9c32/com.tencent.mm/.plugin.base.stub.MMPluginProvider
+  mms: 8bea1db/com.android.providers.telephony/.MmsProvider2
+  com.tencent.mm.plugin.ext.SNS: 7dd3a7d/com.tencent.mm/.plugin.ext.provider.ExtControlProviderSNS
+  qq.readinjoy: c12295e/com.tencent.mobileqq/cooperation.readinjoy.content.ReadInJoyDataProvider
+  com.yulong.android.launcher3.compound: 732e44/com.yulong.android.launcher3/.LauncherProvider
+  com.qihoo360.mobilesafe.activateprovider: 8fc3d73/com.qihoo360.mobilesafe/.provider.ActiveProvider
+  com.qihoo.appstore.loader.p.prN1: ecddc2a/com.qihoo.appstore/.loader.p.ProviderN1
+  com.android.systemui.InterfaceProvider: 90b38ac/com.android.systemui/.database.InterfaceProvider
+  com.qihoo360.mobilesafe.Plugin.NP.PSP: 1997b1f/com.qihoo360.mobilesafe/com.qihoo360.loader2.mgr.PluginPersistProvider
+  com.qiku.uac.android.systemaccount: 4adbb5d/com.qiku.android.cloudsync/com.coolcloud.uac.android.service.provider.SystemAccountContentProvider
+  com.tencent.mm.sdk.comm.provider: a48a098/com.tencent.mm/.plugin.base.stub.WXCommProvider
+  com.qihoo.appstore.loader.p.main: 2004c95/com.qihoo.appstore/com.qihoo360.replugin.component.process.ProcessPitProviderPersist
+  com.qiku.appcheckin: cade1a3/com.qiku.logsystem/com.qihoo.sdk.report.provider.HostContentProvider
+  com.tencent.mobileqq.openapi.provider: 9946ba6/com.tencent.mobileqq/.openapi.OpenApiProvider
+  com.morgoo.droidplugin_stub_P01: fb059/com.qihoo.appstore/com.morgoo.droidplugin.stub.ContentProviderStub$StubP01
+  com.android.inputmethod.dictionarypack.aosp: 527fb6e/com.android.inputmethod.latin/com.android.inputmethod.dictionarypack.DictionaryProvider
+  com.yulong.android.launcher3.search.settingsapp: bf6f862/com.yulong.android.launcher3/.search.settingsapp.SettingsSearchIndexablesProvider
+  yulong-mmssms: cbe4627/com.android.mms/com.yulong.mms.provider.MmsSmsProvider
+  com.qihoo360.mobilesafe.applock: c7164d6/com.qihoo360.mobilesafe/.applock.data.AppLockContentProvider
+  com.qihoo.appstore.loader.p.mainN1: 2deefc5/com.qihoo.appstore/com.qihoo360.replugin.component.process.ProcessPitProviderUI
+  com.qiku.android.coolsafe.phonestate.provider: d938cba/com.yulong.android.coolsafe/.util.savepower.QikuPhoneStateProvider
+  com.yulong.android.contacts.files: 1c01c1e/com.android.mms/android.support.v4.content.FileProvider
+  com.qihoo.appstore.MultiprocessSharedPreferences: d0ee4a0/com.qihoo.appstore/com.qihoo.storager.MultiprocessSharedPreferences
+  com.qiku.android.launcher.compound: da3b4a5/com.qiku.riskinsight/com.qiku.android.launcher.LauncherProvider
+  com.qihoo.appstore.utils.BackgroundStartActivity.ValueContentProvider: 96bd31f/com.qihoo.appstore/.utils.BackgroundStartActivity$ValueContentProvider
+  com.qihoo360.apm.apmdatamanager.ApmDataProvider: c655480/com.qihoo360.mobilesafe/com.qihoo360.apm.apmdatamanager.ApmDataProvider
+  com.tencent.mm.plugin.gwallet.queryprovider: e0aaf86/com.tencent.mm/.plugin.gwallet.GWalletQueryProvider
+  com.qiku.smsbox.model.provider.MsgBoxContentProvider: 9701488/com.android.systemui/com.qiku.smsbox.model.MsgBoxContentProvider
+  com.android.settings: 4aa7993/com.android.settings/.search.SettingsSearchIndexablesProvider
+  com.android.gallery3d.filtershow.provider.SharedImageProvider: f05e0e/com.android.gallery3d/.filtershow.provider.SharedImageProvider
+  com.qihoo.appstore.account.syncprovider: ea340d/com.qihoo.appstore/.keepalive.account.SyncProvider
+  user_dictionary: 612fdb3/com.android.providers.userdictionary/.UserDictionaryProvider
+  downloads: 3523e12/com.android.providers.downloads/.DownloadProvider
+  com.qiku.powermaster.reaper.provider.ReaperProxyProvider: 2537d6a/com.qiku.powermaster/com.fighter.proxy.ReaperProxyProvider
+  com.qihoo360.plugin.contacts: ff061c9/com.qihoo360.mobilesafe/.contacts.ContactsProvider
+  com.qiku.magicball: 2ccb2b4/com.qiku.magicball/.provider.InterfaceProvider
+  com.qihoo.appstore.torchadsdkprovider: eb1c682/com.qihoo.appstore/com.ak.torch.shell.provider.TorchProvider
+  media: aefcad7/com.android.providers.media/.MediaProvider
+  com.qihoo360.localsms: d961191/com.qihoo360.mobilesafe/.backup.provider.LocalSmsProvider
+  360appstoreignoreappinfo: 4c3c341/com.qihoo.appstore/.appupdate.ignore.IgnoreUpdateAppProvider
+  com.yulong.android.launcher3.freezer: 55038ae/com.yulong.android.launcher3/.freezer.FreezerProvider
+  com.qihoo.antivirus.shield.server: 1b9184b/com.qihoo360.mobilesafe/com.qihoo.antivirus.shield.server.ServerProvider
+  com.qiku.android.launcher.badge: e6538bf/com.yulong.android.launcher3/.badge.BadgeProvider
+  com.qiku.logsystem.datacenter.db.DataCenterProvider: 27eee27/com.qiku.logsystem/.datacenter.db.DataCenterProvider
+  com.qiku.freecall.data: 6c8527d/com.qiku.freecall/.provider.FreeCallProvider
+  com.tencent.mm.plugin.ext.SearchContact: 4378d42/com.tencent.mm/.plugin.ext.provider.ExtControlProviderSearchContact
+  contacts: 30ed4a2/com.android.providers.contacts/.ContactsProvider2
+  com.android.providers.downloads.documents: 706fc1c/com.android.providers.downloads/.DownloadStorageProvider
+  com.qiku.android.launcher3.WidgetContentProvider: e44b9b2/com.yulong.android.launcher3/com.qiku.widget3d.provider.WidgetContentProvider
+  com.yulong.android.launcher3.InterfaceProvider: 7f0ea9c/com.yulong.android.launcher3/.InterfaceProvider
+  telephony: 5525fe0/com.android.providers.telephony/.TelephonyProvider
+  com.alipay.sharesdk: 740befe/com.eg.android.AlipayGphone/com.alipay.mobile.socialwidget.provider.ShareSdkProvider
+  com.yulong.android.provider.call.records: 3af0717/com.android.mms/com.yulong.android.contacts.records.provider.RecordsProvider
+  com.qihoo360.mobilesafe.paysafe: e65cd0a/com.qihoo360.mobilesafe/.paysafe.db.PaySafeProvider
+  com.qiku.android.yellowpage: b77d4ed/com.android.mms/com.yulong.android.contacts.yellowpage.YellowPageProvider
+  rcs: 6deb123/com.android.providers.telephony/.RcsProvider
+  com.tencent.mqq.shared_file_accessor.ContentProviderImpl: 9ab4ba8/com.tencent.mobileqq/com.tencent.mqq.shared_file_accessor.ContentProviderImpl
+  com.qihoo360.mobilesafeguard: a6e2913/com.qihoo360.mobilesafe/.provider.SafeGuardProvider
+  com.qiku.cardmanager.Update: dbc8d1d/com.qiku.cardmanager/com.qiku.utils.update.updatetask.UpdateProvider
+  com.yulong.android.launcher3.DownLoadProvide: b3d7a54/com.yulong.android.launcher3/.silentinstall.SilentInstallProvider
+  com.yulong.xtime.alarmclock: b400a46/com.yulong.android.xtime/yulong.xtime.ui.alarmclock.AlarmProvider
+  com.qiku.cardmanager.reaper.provider.ReaperProvider: 91d5e03/com.qiku.cardmanager/com.fighter.proxy.ReaperProvider
+  com.qiku.logsystem.userreport.contentProvider: 8be8c07/com.qiku.logsystem/.userreport.export.BugreportContentProvider
+  com.sina.weibo.userlog: d55df3a/com.sina.weibo/.log.UserLogProvider
+

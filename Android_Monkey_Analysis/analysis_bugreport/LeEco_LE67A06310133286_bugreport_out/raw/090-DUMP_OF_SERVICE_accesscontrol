@@ -1,0 +1,48 @@
+Dump time : 2017å¹´12æ24æ¥ ä¸å5:22:32
+AccessControl Dump Info
+Unknow argument: -a; user -h for help
+0  . DEBUG=true
+1  . mAccessControlEnable=false
+2  . mPerformControlEnable=true
+
+0 package available NEED access
+
+0 package available SKIP access
+
+0 package available CHANGE access status
+
+There are 18 packages in ACCELERATE mode
+  Item[0]=com.tencent.tmgp.gods
+  Item[1]=org.cocos2d.fishingjoy3.wdj
+  Item[2]=org.cocos2d.fishingjoy3
+  Item[3]=org.cocos2dx.FishGame
+  Item[4]=sh.lilith.dgame.lemon
+  Item[5]=com.imangi.templerun2
+  Item[6]=com.tencent.tmgp.sgzr
+  Item[7]=sh.lilith.dgame.jididingzhi
+  Item[8]=org.cocos2d.fishingjoy3.qihu
+  Item[9]=com.tencent.feiji
+  Item[10]=com.tencent.tmgp.sgame
+  Item[11]=com.tencent.pao
+  Item[12]=sh.lilith.dgame.yiwan.leshi
+  Item[13]=sh.lilith.dgame.wdj
+  Item[14]=com.tencent.tmgp.lilith_dtcq
+  Item[15]=org.cocos2dx.FishingJoy2
+  Item[16]=sh.lilith.dgame.s360
+  Item[17]=sh.lilith.dgame.lemonfat
+
+There are 12 packages in RUN mode
+  Item[0]=gr.androiddev.BenchmarkPi
+  Item[1]=com.android.cm3
+  Item[2]=com.greenecomputing.linpack
+  Item[3]=com.drolez.nbench
+  Item[4]=com.eembc.coremark
+  Item[5]=com.antutu.ABenchMark
+  Item[6]=com.antutu.benchmark.full
+  Item[7]=com.antutu.benchmark.bench64
+  Item[8]=com.antutu.ABenchMark.plugin3d
+  Item[9]=com.ludashi.benchmark
+  Item[10]=com.primatelabs.geekbench
+  Item[11]=eu.chainfire.cfbench
+
+0 package in GAMECOOLER mode

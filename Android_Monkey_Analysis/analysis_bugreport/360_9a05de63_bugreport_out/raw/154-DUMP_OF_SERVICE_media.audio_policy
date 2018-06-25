@@ -1,0 +1,514 @@
+AudioPolicyManager: 0xaade9930
+Command Thread: 0xaadf8820
+Tones Thread: 0xaadf8760
+AudioCommandThread 0xaadf8820 Dump
+- Commands:
+   Command Time        Wait pParam
+  Last Command
+   08      035251.343  0    0xaaf57f48
+AudioCommandThread 0xaadf8760 Dump
+- Commands:
+   Command Time        Wait pParam
+  Last Command
+     none
+
+AudioPolicyManager Dump: 0xaade9930
+ Primary Output: 2
+ Phone state: 0
+ Force use for communications 0
+ Force use for media 0
+ Force use for record 0
+ Force use for dock 8
+ Force use for system 0
+ Force use for hdmi system audio 0
+ TTS output not available
+
+ Available output devices:
+  Device 1:
+  - id:  2
+  - type: AUDIO_DEVICE_OUT_EARPIECE                       
+  Device 2:
+  - id:  1
+  - type: AUDIO_DEVICE_OUT_SPEAKER                        
+  Device 3:
+  - id:  6
+  - type: AUDIO_DEVICE_OUT_TELEPHONY_TX                   
+
+ Available input devices:
+  Device 1:
+  - id: 10
+  - type: AUDIO_DEVICE_IN_BUILTIN_MIC                     
+  - sampling rates: 8000, 11025, 12000, 16000, 22050, 24000, 32000, 44100, 48000
+  - channel masks: 0x0010, 0x000c, 0x0030, 0x00fc
+  - formats: AUDIO_FORMAT_PCM_16_BIT
+  Device 2:
+  - id: 11
+  - type: AUDIO_DEVICE_IN_BACK_MIC                        
+  - sampling rates: 8000, 11025, 12000, 16000, 22050, 24000, 32000, 44100, 48000
+  - channel masks: 0x0010, 0x000c, 0x0030, 0x00fc
+  - formats: AUDIO_FORMAT_PCM_16_BIT
+  Device 3:
+  - id: 12
+  - type: AUDIO_DEVICE_IN_REMOTE_SUBMIX                   
+  - address: 0                               
+  - sampling rates: 48000
+  - channel masks: 0x000c
+  - formats: AUDIO_FORMAT_PCM_16_BIT
+  Device 4:
+  - id:  8
+  - type: AUDIO_DEVICE_IN_FM_TUNER                        
+  - sampling rates: 8000, 11025, 12000, 16000, 22050, 24000, 32000, 44100, 48000
+  - channel masks: 0x0010, 0x000c, 0x0030
+  - formats: AUDIO_FORMAT_PCM_16_BIT
+  Device 5:
+  - id:  9
+  - type: AUDIO_DEVICE_IN_TELEPHONY_RX                    
+  - sampling rates: 8000, 11025, 12000, 16000, 22050, 24000, 32000, 44100, 48000
+  - channel masks: 0x0010, 0x000c, 0x0030
+  - formats: AUDIO_FORMAT_PCM_16_BIT
+
+HW Modules dump:
+- HW Module 1:
+  - name: primary
+  - handle: 1
+  - version: 2.0
+  - outputs:
+    output 0:
+    - name: primary
+    - sampling rates: 44100, 48000
+    - channel masks: 0x0003
+    - formats: AUDIO_FORMAT_PCM_16_BIT
+    - flags: 0x0006
+    - devices:
+      Device 1:
+      - type: AUDIO_DEVICE_OUT_SPEAKER                        
+      Device 2:
+      - type: AUDIO_DEVICE_OUT_WIRED_HEADSET                  
+      Device 3:
+      - type: AUDIO_DEVICE_OUT_FM                             
+      Device 4:
+      - type: AUDIO_DEVICE_OUT_EARPIECE                       
+      Device 5:
+      - type: AUDIO_DEVICE_OUT_WIRED_HEADPHONE                
+      Device 6:
+      - type: AUDIO_DEVICE_OUT_LINE                           
+      Device 7:
+      - type: AUDIO_DEVICE_OUT_ALL_SCO                        
+      Device 8:
+      - type: AUDIO_DEVICE_OUT_AUX_DIGITAL                    
+      Device 9:
+      - type: AUDIO_DEVICE_OUT_PROXY                          
+    output 1:
+    - name: raw
+    - sampling rates: 48000
+    - channel masks: 0x0003
+    - formats: AUDIO_FORMAT_PCM_16_BIT
+    - flags: 0x0104
+    - devices:
+      Device 1:
+      - type: AUDIO_DEVICE_OUT_EARPIECE                       
+      Device 2:
+      - type: AUDIO_DEVICE_OUT_SPEAKER                        
+      Device 3:
+      - type: AUDIO_DEVICE_OUT_WIRED_HEADSET                  
+      Device 4:
+      - type: AUDIO_DEVICE_OUT_WIRED_HEADPHONE                
+      Device 5:
+      - type: AUDIO_DEVICE_OUT_LINE                           
+      Device 6:
+      - type: AUDIO_DEVICE_OUT_ALL_SCO                        
+      Device 7:
+      - type: AUDIO_DEVICE_OUT_AUX_DIGITAL                    
+      Device 8:
+      - type: AUDIO_DEVICE_OUT_PROXY                          
+    output 2:
+    - name: deep_buffer
+    - sampling rates: 44100, 48000
+    - channel masks: 0x0003
+    - formats: AUDIO_FORMAT_PCM_16_BIT
+    - flags: 0x0008
+    - devices:
+      Device 1:
+      - type: AUDIO_DEVICE_OUT_SPEAKER                        
+      Device 2:
+      - type: AUDIO_DEVICE_OUT_EARPIECE                       
+      Device 3:
+      - type: AUDIO_DEVICE_OUT_WIRED_HEADSET                  
+      Device 4:
+      - type: AUDIO_DEVICE_OUT_WIRED_HEADPHONE                
+      Device 5:
+      - type: AUDIO_DEVICE_OUT_LINE                           
+      Device 6:
+      - type: AUDIO_DEVICE_OUT_ALL_SCO                        
+      Device 7:
+      - type: AUDIO_DEVICE_OUT_AUX_DIGITAL                    
+      Device 8:
+      - type: AUDIO_DEVICE_OUT_PROXY                          
+    output 3:
+    - name: multichannel
+    - sampling rates: 44100, 48000
+    - channel masks: Dynamic
+    - formats: AUDIO_FORMAT_PCM_16_BIT
+    - flags: 0x0001
+    - devices:
+      Device 1:
+      - type: AUDIO_DEVICE_OUT_AUX_DIGITAL                    
+      Device 2:
+      - type: AUDIO_DEVICE_OUT_PROXY                          
+    output 4:
+    - name: direct_pcm
+    - sampling rates: 8000, 11025, 16000, 22050, 32000, 44100, 48000, 64000, 88200, 96000, 176400, 192000
+    - channel masks: 0x0001, 0x0003, 0x0007, 0x0033, 0x0037, 0x003f, 0x013f, 0x063f
+    - formats: AUDIO_FORMAT_PCM_16_BIT
+    - flags: 0x2001
+    - devices:
+      Device 1:
+      - type: AUDIO_DEVICE_OUT_SPEAKER                        
+      Device 2:
+      - type: AUDIO_DEVICE_OUT_EARPIECE                       
+      Device 3:
+      - type: AUDIO_DEVICE_OUT_WIRED_HEADSET                  
+      Device 4:
+      - type: AUDIO_DEVICE_OUT_WIRED_HEADPHONE                
+      Device 5:
+      - type: AUDIO_DEVICE_OUT_LINE                           
+      Device 6:
+      - type: AUDIO_DEVICE_OUT_ALL_SCO                        
+      Device 7:
+      - type: AUDIO_DEVICE_OUT_PROXY                          
+      Device 8:
+      - type: AUDIO_DEVICE_OUT_AUX_DIGITAL                    
+    output 5:
+    - name: compress_offload
+    - sampling rates: 8000, 11025, 12000, 16000, 22050, 24000, 32000, 44100, 48000, 64000, 88200, 96000, 176400, 192000
+    - channel masks: 0x0001, 0x0003, 0x0007, 0x0033, 0x0037, 0x003f, 0x013f, 0x063f
+    - formats: AUDIO_FORMAT_MP3, AUDIO_FORMAT_AC3, AUDIO_FORMAT_E_AC3, AUDIO_FORMAT_PCM_16_BIT_OFFLOAD, AUDIO_FORMAT_PCM_24_BIT_OFFLOAD, AUDIO_FORMAT_FLAC, AUDIO_FORMAT_ALAC, AUDIO_FORMAT_APE, AUDIO_FORMAT_AAC_LC, AUDIO_FORMAT_AAC_HE_V1, AUDIO_FORMAT_AAC_HE_V2, AUDIO_FORMAT_WMA, AUDIO_FORMAT_WMA_PRO, AUDIO_FORMAT_VORBIS, AUDIO_FORMAT_AAC_ADTS_LC, AUDIO_FORMAT_AAC_ADTS_HE_V1, AUDIO_FORMAT_AAC_ADTS_HE_V2
+    - flags: 0x0031
+    - devices:
+      Device 1:
+      - type: AUDIO_DEVICE_OUT_SPEAKER                        
+      Device 2:
+      - type: AUDIO_DEVICE_OUT_EARPIECE                       
+      Device 3:
+      - type: AUDIO_DEVICE_OUT_WIRED_HEADSET                  
+      Device 4:
+      - type: AUDIO_DEVICE_OUT_WIRED_HEADPHONE                
+      Device 5:
+      - type: AUDIO_DEVICE_OUT_LINE                           
+      Device 6:
+      - type: AUDIO_DEVICE_OUT_ALL_SCO                        
+      Device 7:
+      - type: AUDIO_DEVICE_OUT_AUX_DIGITAL                    
+      Device 8:
+      - type: AUDIO_DEVICE_OUT_PROXY                          
+    output 6:
+    - name: incall_music
+    - sampling rates: 8000, 16000, 48000
+    - channel masks: 0x0001
+    - formats: AUDIO_FORMAT_PCM_16_BIT
+    - flags: 0x0001
+    - devices:
+      Device 1:
+      - type: AUDIO_DEVICE_OUT_SPEAKER                        
+      Device 2:
+      - type: AUDIO_DEVICE_OUT_EARPIECE                       
+      Device 3:
+      - type: AUDIO_DEVICE_OUT_WIRED_HEADSET                  
+      Device 4:
+      - type: AUDIO_DEVICE_OUT_WIRED_HEADPHONE                
+      Device 5:
+      - type: AUDIO_DEVICE_OUT_LINE                           
+      Device 6:
+      - type: AUDIO_DEVICE_OUT_ALL_SCO                        
+    output 7:
+    - name: voice_tx
+    - sampling rates: 8000, 16000, 48000
+    - channel masks: 0x0003, 0x0001
+    - formats: AUDIO_FORMAT_PCM_16_BIT
+    - flags: 0x0000
+    - devices:
+      Device 1:
+      - type: AUDIO_DEVICE_OUT_TELEPHONY_TX                   
+    output 8:
+    - name: voip_rx
+    - sampling rates: 8000, 16000
+    - channel masks: 0x0001
+    - formats: AUDIO_FORMAT_PCM_16_BIT
+    - flags: 0x0801
+    - devices:
+      Device 1:
+      - type: AUDIO_DEVICE_OUT_SPEAKER                        
+      Device 2:
+      - type: AUDIO_DEVICE_OUT_EARPIECE                       
+      Device 3:
+      - type: AUDIO_DEVICE_OUT_WIRED_HEADSET                  
+      Device 4:
+      - type: AUDIO_DEVICE_OUT_WIRED_HEADPHONE                
+      Device 5:
+      - type: AUDIO_DEVICE_OUT_LINE                           
+      Device 6:
+      - type: AUDIO_DEVICE_OUT_ALL_SCO                        
+  - inputs:
+    input 0:
+    - name: primary
+    - sampling rates: 8000, 11025, 12000, 16000, 22050, 24000, 32000, 44100, 48000
+    - channel masks: 0x0010, 0x000c, 0x0030
+    - formats: AUDIO_FORMAT_PCM_16_BIT
+    - flags: 0x0000
+    - devices:
+      Device 1:
+      - type: AUDIO_DEVICE_IN_WIRED_HEADSET                   
+      Device 2:
+      - type: AUDIO_DEVICE_IN_BLUETOOTH_SCO_HEADSET           
+      Device 3:
+      - type: AUDIO_DEVICE_IN_FM_TUNER                        
+      Device 4:
+      - type: AUDIO_DEVICE_IN_TELEPHONY_RX                    
+    input 1:
+    - name: surround_sound
+    - sampling rates: 8000, 11025, 12000, 16000, 22050, 24000, 32000, 44100, 48000
+    - channel masks: 0x0010, 0x000c, 0x0030
+    - formats: AUDIO_FORMAT_PCM_16_BIT
+    - flags: 0x0000
+    - devices:
+      Device 1:
+      - type: AUDIO_DEVICE_IN_BUILTIN_MIC                     
+      Device 2:
+      - type: AUDIO_DEVICE_IN_BACK_MIC                        
+    input 2:
+    - name: voice_rx
+    - sampling rates: 8000, 16000, 48000
+    - channel masks: 0x000c, 0x0010
+    - formats: AUDIO_FORMAT_PCM_16_BIT
+    - flags: 0x0000
+    - devices:
+      Device 1:
+      - type: AUDIO_DEVICE_IN_TELEPHONY_RX                    
+- HW Module 2:
+  - name: a2dp
+  - handle: 13
+  - version: 2.0
+  - outputs:
+    output 0:
+    - name: a2dp
+    - sampling rates: 44100
+    - channel masks: 0x0003
+    - formats: AUDIO_FORMAT_PCM_16_BIT
+    - flags: 0x0000
+    - devices:
+      Device 1:
+      - type: AUDIO_DEVICE_OUT_ALL_A2DP                       
+  - inputs:
+    input 0:
+    - name: a2dp
+    - sampling rates: 44100, 48000
+    - channel masks: 0x0010, 0x000c
+    - formats: AUDIO_FORMAT_PCM_16_BIT
+    - flags: 0x0000
+    - devices:
+      Device 1:
+      - type: AUDIO_DEVICE_IN_BLUETOOTH_A2DP                  
+- HW Module 3:
+  - name: usb
+  - handle: 14
+  - version: 2.0
+  - outputs:
+    output 0:
+    - name: usb_accessory
+    - sampling rates: 44100
+    - channel masks: 0x0003
+    - formats: AUDIO_FORMAT_PCM_16_BIT
+    - flags: 0x0000
+    - devices:
+      Device 1:
+      - type: AUDIO_DEVICE_OUT_USB_ACCESSORY                  
+    output 1:
+    - name: usb_device
+    - sampling rates: Dynamic
+    - channel masks: Dynamic
+    - formats: Dynamic
+    - flags: 0x0000
+    - devices:
+      Device 1:
+      - type: AUDIO_DEVICE_OUT_USB_DEVICE                     
+  - inputs:
+    input 0:
+    - name: usb_device
+    - sampling rates: Dynamic
+    - channel masks: 0x000c
+    - formats: AUDIO_FORMAT_PCM_16_BIT
+    - flags: 0x0000
+    - devices:
+      Device 1:
+      - type: AUDIO_DEVICE_IN_USB_DEVICE                      
+- HW Module 4:
+  - name: r_submix
+  - handle: 15
+  - version: 2.0
+  - outputs:
+    output 0:
+    - name: submix
+    - sampling rates: 48000
+    - channel masks: 0x0003
+    - formats: AUDIO_FORMAT_PCM_16_BIT
+    - flags: 0x0000
+    - devices:
+      Device 1:
+      - type: AUDIO_DEVICE_OUT_REMOTE_SUBMIX                  
+      - address: 0                               
+  - inputs:
+    input 0:
+    - name: submix
+    - sampling rates: 48000
+    - channel masks: 0x000c
+    - formats: AUDIO_FORMAT_PCM_16_BIT
+    - flags: 0x0000
+    - devices:
+      Device 1:
+      - type: AUDIO_DEVICE_IN_REMOTE_SUBMIX                   
+      - address: 0                               
+
+Outputs dump:
+- Output 2 dump:
+ Latency: 48
+ Flags 00000006
+ ID: 3
+ Sampling rate: 48000
+ Format: 00000001
+ Channels: 00000003
+ Devices 00000002
+ Stream volume refCount muteCount
+ 00     -10.424     00       00
+ 01     -758.000     00       00
+ 02     -758.000     00       00
+ 03     -758.000     00       00
+ 04     -28.200     00       00
+ 05     -758.000     00       00
+ 06     -1.000     00       00
+ 07     -758.000     00       00
+ 08     -758.000     00       00
+ 09     0.000     00       00
+ 10     -758.000     00       00
+ 11     0.000     00       00
+ 12     -1.000     00       00
+- Output 4 dump:
+ Latency: 48
+ Flags 00000104
+ ID: 4
+ Sampling rate: 48000
+ Format: 00000001
+ Channels: 00000003
+ Devices 00000002
+ Stream volume refCount muteCount
+ 00     -10.424     00       00
+ 01     -758.000     00       00
+ 02     -758.000     00       00
+ 03     -758.000     00       00
+ 04     -28.200     00       00
+ 05     -758.000     00       00
+ 06     -1.000     00       00
+ 07     -758.000     00       00
+ 08     -758.000     00       00
+ 09     0.000     00       00
+ 10     -758.000     00       00
+ 11     0.000     00       00
+ 12     -1.000     00       00
+- Output 6 dump:
+ Latency: 80
+ Flags 00000008
+ ID: 5
+ Sampling rate: 48000
+ Format: 00000001
+ Channels: 00000003
+ Devices 00000002
+ Stream volume refCount muteCount
+ 00     -10.424     00       00
+ 01     -758.000     00       00
+ 02     -758.000     00       00
+ 03     -758.000     00       00
+ 04     -28.200     00       00
+ 05     -758.000     00       00
+ 06     -1.000     00       00
+ 07     -758.000     00       00
+ 08     -758.000     00       00
+ 09     0.000     00       00
+ 10     -758.000     00       00
+ 11     0.000     00       00
+ 12     -1.000     00       00
+- Output 8 dump:
+ Latency: 112
+ Flags 00000000
+ ID: 7
+ Sampling rate: 48000
+ Format: 00000001
+ Channels: 00000003
+ Devices 00010000
+ Stream volume refCount muteCount
+ 00     -10.424     00       00
+ 01     -758.000     00       00
+ 02     -758.000     00       00
+ 03     -12.000     00       00
+ 04     -7.765     00       00
+ 05     -758.000     00       00
+ 06     -1.000     00       00
+ 07     -758.000     00       00
+ 08     -758.000     00       00
+ 09     0.000     00       00
+ 10     -14.294     00       00
+ 11     0.000     00       00
+ 12     -1.000     00       00
+
+Inputs dump:
+
+Streams dump:
+ Stream  Can be muted  Index Min  Index Max  Index Cur [device : index]...
+ 00      true          01         10         0001 : 10, 0004 : 06, 40000000 : 06, 
+ 01      true          00         15         0001 : 00, 0002 : 00, 40000000 : 00, 
+ 02      true          00         15         0001 : 00, 0002 : 00, 40000000 : 00, 
+ 03      true          00         15         0002 : 00, 0004 : 10, 0008 : 10, 40000000 : 11, 
+ 04      true          00         15         0002 : 04, 40000000 : 12, 
+ 05      true          00         15         0002 : 00, 40000000 : 00, 
+ 06      true          01         15         40000000 : 07, 
+ 07      true          00         15         0001 : 00, 0002 : 00, 40000000 : 00, 
+ 08      true          00         15         0001 : 00, 0002 : 00, 40000000 : 00, 
+ 09      true          00         15         0002 : 00, 0004 : 10, 0008 : 10, 40000000 : 11, 
+ 10      true          00         15         0002 : 00, 0004 : 10, 0008 : 10, 40000000 : 11, 
+ 11      true          00         01         40000000 : 00, 
+ 12      true          00         01         40000000 : 00, 
+
+Total Effects CPU: 0.000000 MIPS, Total Effects memory: 0 KB
+Registered effects:
+
+Audio Patches:
+  Audio patch 1:
+  - handle:  1
+  - audio flinger handle: 1141
+  - owner uid: 1013
+  - 1 sources:
+    - Mix ID 3 I/O handle 2
+  - 1 sinks:
+    - Device ID 1 AUDIO_DEVICE_OUT_SPEAKER
+  Audio patch 2:
+  - handle:  2
+  - audio flinger handle:  5
+  - owner uid: 1013
+  - 1 sources:
+    - Mix ID 4 I/O handle 4
+  - 1 sinks:
+    - Device ID 1 AUDIO_DEVICE_OUT_SPEAKER
+  Audio patch 3:
+  - handle:  3
+  - audio flinger handle: 360
+  - owner uid: 1013
+  - 1 sources:
+    - Mix ID 5 I/O handle 6
+  - 1 sinks:
+    - Device ID 1 AUDIO_DEVICE_OUT_SPEAKER
+  Audio patch 4:
+  - handle:  4
+  - audio flinger handle:  9
+  - owner uid: 1013
+  - 1 sources:
+    - Mix ID 7 I/O handle 8
+  - 1 sinks:
+    - Device ID 6 AUDIO_DEVICE_OUT_TELEPHONY_TX

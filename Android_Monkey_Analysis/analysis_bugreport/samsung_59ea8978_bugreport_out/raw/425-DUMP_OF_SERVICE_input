@@ -1,0 +1,479 @@
+INPUT MANAGER (dumpsys input)
+
+Input Manager State:
+  Interactive: true
+  System UI Visibility: 0x8600
+  Pointer Speed: 0
+  Pointer Gestures Enabled: true
+  Show Touches: false
+
+Event Hub State:
+  BuiltInKeyboardId: -2
+  Devices:
+    -1: Virtual
+      Classes: 0x40000023
+      Path: <virtual>
+      Descriptor: a718a782d34bc767f4689c232d64d527998ea7fd
+      Location: 
+      ControllerNumber: 0
+      UniqueId: <virtual>
+      Identifier: bus=0x0000, vendor=0x0000, product=0x0000, version=0x0000
+      KeyLayoutFile: /system/usr/keylayout/Generic.kl
+      KeyCharacterMapFile: /system/usr/keychars/Virtual.kcm
+      ConfigurationFile: 
+      HaveKeyboardLayoutOverlay: false
+    1: es705 input
+      Classes: 0x00000001
+      Path: /dev/input/event15
+      Descriptor: 2606e779b52e3782ee7ddc58b86e7233c62b766d
+      Location: 
+      ControllerNumber: 0
+      UniqueId: 
+      Identifier: bus=0x0000, vendor=0x0000, product=0x0000, version=0x0000
+      KeyLayoutFile: /system/usr/keylayout/Generic.kl
+      KeyCharacterMapFile: /system/usr/keychars/Generic.kcm
+      ConfigurationFile: 
+      HaveKeyboardLayoutOverlay: false
+    2: w1
+      Classes: 0x00000080
+      Path: /dev/input/event14
+      Descriptor: ffd4cf324e34836d1f535a255ca7ff4273f1854b
+      Location: w1
+      ControllerNumber: 0
+      UniqueId: 
+      Identifier: bus=0x0000, vendor=0x0000, product=0x0000, version=0x0000
+      KeyLayoutFile: 
+      KeyCharacterMapFile: 
+      ConfigurationFile: 
+      HaveKeyboardLayoutOverlay: false
+    5: qpnp_pon
+      Classes: 0x00000001
+      Path: /dev/input/event3
+      Descriptor: fb60d4f4370f5dbe8267b63d38dea852987571ab
+      Location: qpnp_pon/input0
+      ControllerNumber: 0
+      UniqueId: 
+      Identifier: bus=0x0000, vendor=0x0000, product=0x0000, version=0x0000
+      KeyLayoutFile: /system/usr/keylayout/Generic.kl
+      KeyCharacterMapFile: /system/usr/keychars/Generic.kcm
+      ConfigurationFile: 
+      HaveKeyboardLayoutOverlay: false
+    6: sii8240_rcp
+      Classes: 0x00000001
+      Path: /dev/input/event0
+      Descriptor: f1e746eb2f3151603695244fcbd44c1443532c00
+      Location: 
+      ControllerNumber: 0
+      UniqueId: 
+      Identifier: bus=0x0018, vendor=0x0000, product=0x0000, version=0x0000
+      KeyLayoutFile: /system/usr/keylayout/Generic.kl
+      KeyCharacterMapFile: /system/usr/keychars/Generic.kcm
+      ConfigurationFile: 
+      HaveKeyboardLayoutOverlay: false
+    7: gpio-keys
+      Classes: 0x00000081
+      Path: /dev/input/event13
+      Descriptor: 485d69228e24f5e46da1598745890b214130dbc4
+      Location: gpio-keys/input0
+      ControllerNumber: 0
+      UniqueId: 
+      Identifier: bus=0x0019, vendor=0x0001, product=0x0001, version=0x0100
+      KeyLayoutFile: /system/usr/keylayout/Generic.kl
+      KeyCharacterMapFile: /system/usr/keychars/Generic.kcm
+      ConfigurationFile: 
+      HaveKeyboardLayoutOverlay: false
+    8: sec_touchkey
+      Classes: 0x00000001
+      Path: /dev/input/event1
+      Descriptor: af4d26ea4cdc857cc0f1ed1ed51996db77be1e4d
+      Location: 
+      ControllerNumber: 0
+      UniqueId: 
+      Identifier: bus=0x0018, vendor=0x0000, product=0x0000, version=0x0000
+      KeyLayoutFile: /system/usr/keylayout/Generic.kl
+      KeyCharacterMapFile: /system/usr/keychars/Generic.kcm
+      ConfigurationFile: 
+      HaveKeyboardLayoutOverlay: false
+    9: sec_touchscreen
+      Classes: 0x00000095
+      Path: /dev/input/event2
+      Descriptor: 0fa9d3d0d40f7f5b316320876742e00ad5eb1ba9
+      Location: 
+      ControllerNumber: 0
+      UniqueId: 
+      Identifier: bus=0x0018, vendor=0x0000, product=0x0000, version=0x0000
+      KeyLayoutFile: /system/usr/keylayout/Generic.kl
+      KeyCharacterMapFile: /system/usr/keychars/Generic.kcm
+      ConfigurationFile: 
+      HaveKeyboardLayoutOverlay: false
+
+Input Reader State:
+  Device -1: Virtual
+    Generation: 2
+    IsExternal: false
+    HasMic:     false
+    Sources: 0x00000301
+    KeyboardType: 2
+    Dropped Events: 0
+    Keyboard Input Mapper:
+      Parameters:
+        HasAssociatedDisplay: false
+        OrientationAware: false
+        HandlesKeyRepeat: false
+      KeyboardType: 2
+      Orientation: 0
+      KeyDowns: 0 keys currently down
+      MetaState: 0x0
+      DownTime: 0
+  Device 1: es705 input
+    Generation: 16
+    IsExternal: false
+    HasMic:     false
+    Sources: 0x00000101
+    KeyboardType: 1
+    Dropped Events: 0
+    Keyboard Input Mapper:
+      Parameters:
+        HasAssociatedDisplay: false
+        OrientationAware: false
+        HandlesKeyRepeat: false
+      KeyboardType: 1
+      Orientation: 0
+      KeyDowns: 0 keys currently down
+      MetaState: 0x0
+      DownTime: 0
+  Device 2: w1
+    Generation: 14
+    IsExternal: false
+    HasMic:     false
+    Sources: 0x80000000
+    KeyboardType: 0
+    Dropped Events: 0
+    Switch Input Mapper:
+      SwitchValues: 0
+      unverified HallIC device: 0
+  Device 5: qpnp_pon
+    Generation: 12
+    IsExternal: false
+    HasMic:     false
+    Sources: 0x00000101
+    KeyboardType: 1
+    Dropped Events: 0
+    Keyboard Input Mapper:
+      Parameters:
+        HasAssociatedDisplay: false
+        OrientationAware: false
+        HandlesKeyRepeat: false
+      KeyboardType: 1
+      Orientation: 0
+      KeyDowns: 0 keys currently down
+      MetaState: 0x0
+      DownTime: 32942883029000
+  Device 6: sii8240_rcp
+    Generation: 10
+    IsExternal: false
+    HasMic:     false
+    Sources: 0x00000101
+    KeyboardType: 1
+    Dropped Events: 0
+    Keyboard Input Mapper:
+      Parameters:
+        HasAssociatedDisplay: false
+        OrientationAware: false
+        HandlesKeyRepeat: false
+      KeyboardType: 1
+      Orientation: 0
+      KeyDowns: 0 keys currently down
+      MetaState: 0x0
+      DownTime: 0
+  Device 7: gpio-keys
+    Generation: 8
+    IsExternal: false
+    HasMic:     false
+    Sources: 0x80000101
+    KeyboardType: 1
+    Dropped Events: 0
+    Switch Input Mapper:
+      SwitchValues: 0
+      unverified HallIC device: 0
+    Keyboard Input Mapper:
+      Parameters:
+        HasAssociatedDisplay: false
+        OrientationAware: false
+        HandlesKeyRepeat: false
+      KeyboardType: 1
+      Orientation: 0
+      KeyDowns: 0 keys currently down
+      MetaState: 0x0
+      DownTime: 33373700388000
+  Device 8: sec_touchkey
+    Generation: 6
+    IsExternal: false
+    HasMic:     false
+    Sources: 0x00000101
+    KeyboardType: 1
+    Dropped Events: 0
+    Keyboard Input Mapper:
+      Parameters:
+        HasAssociatedDisplay: false
+        OrientationAware: false
+        HandlesKeyRepeat: false
+      KeyboardType: 1
+      Orientation: 0
+      KeyDowns: 0 keys currently down
+      MetaState: 0x0
+      DownTime: 33375750355000
+  Device 9: sec_touchscreen
+    Generation: 25
+    IsExternal: false
+    HasMic:     false
+    Sources: 0x80001103
+    KeyboardType: 1
+    Motion Ranges:
+      X: source=0x00001002, min=0.000, max=1079.000, flat=0.000, fuzz=0.000, resolution=0.000
+      Y: source=0x00001002, min=0.000, max=1919.000, flat=0.000, fuzz=0.000, resolution=0.000
+      PRESSURE: source=0x00001002, min=0.000, max=1.000, flat=0.000, fuzz=0.000, resolution=0.000
+      SIZE: source=0x00001002, min=0.000, max=1.000, flat=0.000, fuzz=0.000, resolution=0.000
+      TOUCH_MAJOR: source=0x00001002, min=0.000, max=2202.907, flat=0.000, fuzz=0.000, resolution=0.000
+      TOUCH_MINOR: source=0x00001002, min=0.000, max=2202.907, flat=0.000, fuzz=0.000, resolution=0.000
+      TOOL_MAJOR: source=0x00001002, min=0.000, max=2202.907, flat=0.000, fuzz=0.000, resolution=0.000
+      TOOL_MINOR: source=0x00001002, min=0.000, max=2202.907, flat=0.000, fuzz=0.000, resolution=0.000
+      DISTANCE: source=0x00001002, min=0.000, max=255.000, flat=0.000, fuzz=0.000, resolution=0.000
+    Dropped Events: 0
+    Switch Input Mapper:
+      SwitchValues: 0
+      unverified HallIC device: 0
+    Keyboard Input Mapper:
+      Parameters:
+        HasAssociatedDisplay: false
+        OrientationAware: false
+        HandlesKeyRepeat: false
+      KeyboardType: 1
+      Orientation: 0
+      KeyDowns: 0 keys currently down
+      MetaState: 0x0
+      DownTime: 0
+    Touch Input Mapper:
+      Parameters:
+        GestureMode: spots
+        DeviceType: touchScreen
+        AssociatedDisplay: hasAssociatedDisplay=true, isExternal=false
+        OrientationAware: true
+      Raw Touch Axes:
+        X: min=0, max=1079, flat=0, fuzz=0, resolution=0
+        Y: min=0, max=1919, flat=0, fuzz=0, resolution=0
+        Pressure: unknown range
+        TouchMajor: min=0, max=255, flat=0, fuzz=0, resolution=0
+        TouchMinor: min=0, max=255, flat=0, fuzz=0, resolution=0
+        ToolMajor: unknown range
+        ToolMinor: unknown range
+        Orientation: unknown range
+        Distance: min=0, max=255, flat=0, fuzz=0, resolution=0
+        TiltX: unknown range
+        TiltY: unknown range
+        TrackingId: min=0, max=65535, flat=0, fuzz=0, resolution=0
+        Slot: min=0, max=9, flat=0, fuzz=0, resolution=0
+      Calibration:
+        touch.size.calibration: geometric
+        touch.pressure.calibration: none
+        touch.orientation.calibration: none
+        touch.distance.calibration: scaled
+        touch.coverage.calibration: none
+      Affine Transformation:
+        X scale: 1.000
+        X ymix: 0.000
+        X offset: 0.000
+        Y xmix: 0.000
+        Y scale: 1.000
+        Y offset: 0.000
+      Viewport: displayId=0, orientation=0, logicalFrame=[0, 0, 1080, 1920], physicalFrame=[0, 0, 1080, 1920], deviceSize=[1080, 1920]
+      SurfaceWidth: 1080px
+      SurfaceHeight: 1920px
+      SurfaceLeft: 0
+      SurfaceTop: 0
+      SurfaceOrientation: 0
+      Translation and Scaling Factors:
+        XTranslate: 0.000
+        YTranslate: 0.000
+        XScale: 1.000
+        YScale: 1.000
+        XPrecision: 1.000
+        YPrecision: 1.000
+        GeometricScale: 1.000
+        PressureScale: 0.000
+        SizeScale: 0.004
+        OrientationScale: 0.000
+        DistanceScale: 1.000
+        HaveTilt: false
+        TiltXCenter: 0.000
+        TiltXScale: 0.000
+        TiltYCenter: 0.000
+        TiltYScale: 0.000
+      Last Raw Button State: 0x00000000
+      Last Raw Touch: pointerCount=0
+      Last Cooked Button State: 0x00000000
+      Last Cooked Touch: pointerCount=0
+      Stylus Fusion:
+        ExternalStylusConnected: false
+        External Stylus ID: -1
+        External Stylus Data Timeout: 9223372036854775807
+      External Stylus State:
+        When: 9223372036854775807
+        Pressure: 0.000000
+        Button State: 0x00000000
+        Tool Type: 0
+      mEdgeStartPhysicalLeftX:-1
+      mEdgeStartPhysicalRightX:-1
+      mEdgeStartLeftX:-1
+      mEdgeStartRightX:-1
+    Multi Touch Input Mapper:
+      Slot  0: inUse=false, x=1011, y=1862, trackingId=  875, touchMajor=   6, pressure=   0, toolType=0, palm=0
+      Slot  1: inUse=false, x=  46, y=1815, trackingId=   87, touchMajor=   7, pressure=   0, toolType=0, palm=0
+      Slot  2: inUse=false, x=   0, y=   0, trackingId=   -1, touchMajor=   0, pressure=   0, toolType=0, palm=0
+      Slot  3: inUse=false, x=   0, y=   0, trackingId=   -1, touchMajor=   0, pressure=   0, toolType=0, palm=0
+      Slot  4: inUse=false, x=   0, y=   0, trackingId=   -1, touchMajor=   0, pressure=   0, toolType=0, palm=0
+      Slot  5: inUse=false, x=   0, y=   0, trackingId=   -1, touchMajor=   0, pressure=   0, toolType=0, palm=0
+      Slot  6: inUse=false, x=   0, y=   0, trackingId=   -1, touchMajor=   0, pressure=   0, toolType=0, palm=0
+      Slot  7: inUse=false, x=   0, y=   0, trackingId=   -1, touchMajor=   0, pressure=   0, toolType=0, palm=0
+      Slot  8: inUse=false, x=   0, y=   0, trackingId=   -1, touchMajor=   0, pressure=   0, toolType=0, palm=0
+      Slot  9: inUse=false, x=   0, y=   0, trackingId=   -1, touchMajor=   0, pressure=   0, toolType=0, palm=0
+  Configuration:
+    ExcludedDeviceNames: []
+    VirtualKeyQuietTime: 0.0ms
+    PointerVelocityControlParameters: scale=1.000, lowThreshold=500.000, highThreshold=3000.000, acceleration=3.000
+    WheelVelocityControlParameters: scale=1.000, lowThreshold=15.000, highThreshold=50.000, acceleration=4.000
+    PointerGesture:
+      Enabled: true
+      QuietInterval: 100.0ms
+      DragMinSwitchSpeed: 50.0px/s
+      TapInterval: 150.0ms
+      TapDragInterval: 300.0ms
+      TapSlop: 20.0px
+      MultitouchSettleInterval: 100.0ms
+      MultitouchMinDistance: 15.0px
+      SwipeTransitionAngleCosine: 0.3
+      SwipeMaxWidthRatio: 0.2
+      MovementSpeedRatio: 0.8
+      ZoomSpeedRatio: 0.3
+  HALL IC:
+    ClearCover(SW_FLIP): Open, type: 2
+    GloveMode(SW_GLOVE): Off
+  Last TSP Command Written Value: 0
+  NFC Cover Attached: 0
+  NFC Cover Verified: -1
+  Cover Test Mode Type: -1
+  Feature enabled:
+
+Input Dispatcher State:
+  DispatchEnabled: 1
+  DispatchFrozen: 0
+  NrEvents: 262683
+  NrEDropped: 577
+  Nr Non-Dropped Event(NDE): 157319
+  NDE Age(NDEA) Mean: 4.569397
+  NDEA Standard deviation: 28.128646
+  NDEA 95% Confidence Interval: 4.430397 ~ 4.708397
+  Nr Handled Events(HE): 668693
+  HE Processing Time(HEPT) Mean: 6.289215
+  HEPT Standard deviation: 26.285383
+  HEPT 95% Confidence Interval: 6.226213 ~ 6.352217
+  FocusedApplication: name='AppWindowToken{b98123c token=Token{d8fec2f ActivityRecord{405fa0e u0 com.sec.android.app.launcher/com.android.launcher2.Launcher t5630}}}', dispatchingTimeout=20000.000ms
+  FocusedWindow: name='Window{a018c63 u0 d0 com.sec.android.app.launcher/com.android.launcher2.Launcher}'
+  TouchStatesByDisplay:
+    0: down=true, split=false, deviceId=0, source=0x00001002
+      Windows: <none>
+  Windows:
+    0: name='Window{5e684e2 u0 d0 Heads Up}', displayId=0, paused=false, hasFocus=false, hasWallpaper=false, visible=false, canReceiveKeys=false, flags=0x01800328, type=0x000007de, samsungFlags=0x00000000, layer=171000, frame=[0,0][1080,750], scale=1.000000, touchableRegion=[0,0][1080,192], inputFeatures=0x00000000, ownerPid=1325, ownerUid=10017, dispatchingTimeout=5000.000ms
+    1: name='Window{1880415 u0 d0 StatusBar}', displayId=0, paused=false, hasFocus=false, hasWallpaper=false, visible=true, canReceiveKeys=false, flags=0x81840048, type=0x000007d0, samsungFlags=0x00000000, layer=161000, frame=[0,0][1080,72], scale=1.000000, touchableRegion=[0,0][1080,72], inputFeatures=0x00000000, ownerPid=1325, ownerUid=10017, dispatchingTimeout=5000.000ms
+    2: name='Window{e801c1d u0 d0 KeyguardScrim}', displayId=0, paused=false, hasFocus=false, hasWallpaper=false, visible=false, canReceiveKeys=false, flags=0x01110900, type=0x000007ed, samsungFlags=0x00000000, layer=141000, frame=[0,0][1080,1920], scale=1.000000, touchableRegion=[0,0][1080,1920], inputFeatures=0x00000000, ownerPid=847, ownerUid=1000, dispatchingTimeout=5000.000ms
+    3: name='Window{2016f4c u0 d0 ContainerKeyguardScrim}', displayId=0, paused=false, hasFocus=false, hasWallpaper=false, visible=false, canReceiveKeys=false, flags=0x01112d00, type=0x000007d8, samsungFlags=0x00000000, layer=71000, frame=[0,0][1080,1920], scale=1.000000, touchableRegion=[0,0][1080,1920], inputFeatures=0x00000000, ownerPid=847, ownerUid=1000, dispatchingTimeout=5000.000ms
+    4: name='Window{a3fc279 u0 d0 com.bst.airmessage.content}', displayId=0, paused=false, hasFocus=false, hasWallpaper=false, visible=true, canReceiveKeys=false, flags=0x01040228, type=0x00000835, samsungFlags=0x00020000, layer=51000, frame=[7,210][7,210], scale=1.000000, touchableRegion=<empty>, inputFeatures=0x00000000, ownerPid=26101, ownerUid=10001, dispatchingTimeout=5000.000ms
+    5: name='Window{c13c888 u0 d0 AssistPreviewPanel}', displayId=0, paused=false, hasFocus=false, hasWallpaper=false, visible=false, canReceiveKeys=false, flags=0x01000118, type=0x000007f1, samsungFlags=0x00000000, layer=41000, frame=[0,1170][1080,1920], scale=1.000000, touchableRegion=[0,1170][1080,1920], inputFeatures=0x00000000, ownerPid=1325, ownerUid=10017, dispatchingTimeout=5000.000ms
+    6: name='Window{cd308cf u0 d0 com.tencent.android.qqdownloader}', displayId=0, paused=false, hasFocus=false, hasWallpaper=false, visible=false, canReceiveKeys=false, flags=0x01000028, type=0x000007d2, samsungFlags=0x00000000, layer=31000, frame=[0,72][1080,216], scale=1.000000, touchableRegion=[0,72][1080,216], inputFeatures=0x00000000, ownerPid=23381, ownerUid=10406, dispatchingTimeout=5000.000ms
+    7: name='Window{6583a12 u0 d0 InputMethod}', displayId=0, paused=false, hasFocus=false, hasWallpaper=false, visible=false, canReceiveKeys=false, flags=0x01800108, type=0x000007db, samsungFlags=0x00000800, layer=21015, frame=[0,882][1080,1920], scale=1.000000, touchableRegion=[0,1170][1080,1920], inputFeatures=0x00000000, ownerPid=4420, ownerUid=1000, dispatchingTimeout=5000.000ms
+    8: name='Window{a018c63 u0 d0 com.sec.android.app.launcher/com.android.launcher2.Launcher}', displayId=0, paused=false, hasFocus=true, hasWallpaper=true, visible=true, canReceiveKeys=true, flags=0x81910d20, type=0x00000001, samsungFlags=0x00000000, layer=21010, frame=[0,0][1080,1920], scale=1.000000, touchableRegion=[0,0][1080,1920], inputFeatures=0x00000000, ownerPid=1700, ownerUid=10008, dispatchingTimeout=20000.000ms
+    9: name='Window{b98f1d9 u0 d0 com.android.systemui/com.android.systemui.recents.SeparatedRecentsActivity}', displayId=0, paused=false, hasFocus=false, hasWallpaper=false, visible=false, canReceiveKeys=false, flags=0x81910520, type=0x00000001, samsungFlags=0x00000002, layer=21005, frame=[0,0][1080,1920], scale=1.000000, touchableRegion=[0,0][1080,1920], inputFeatures=0x00000000, ownerPid=1418, ownerUid=10017, dispatchingTimeout=20000.000ms
+    10: name='Window{675a536 u0 d0 com.android.systemui.ImageWallpaper}', displayId=0, paused=false, hasFocus=false, hasWallpaper=false, visible=true, canReceiveKeys=false, flags=0x00000318, type=0x000007dd, samsungFlags=0x00000000, layer=21000, frame=[0,0][1920,1920], scale=1.000000, touchableRegion=[0,0][1920,1920], inputFeatures=0x00000000, ownerPid=1571, ownerUid=10017, dispatchingTimeout=5000.000ms
+  MonitoringChannels:
+    0: 'WindowManager (server)'
+    1: 'TouchIntercepter (server)'
+    2: 'SPenGestureService (server)'
+    3: 'PalmMotion (server)'
+  RecentQueue: length=10
+    MotionEvent(deviceId=0, source=0x00010004, action=2, actionButton=0x00000000, flags=0x00000000, metaState=0x00000000, buttonState=0x00000000, edgeFlags=0x00000000, xPrecision=1.0, yPrecision=1.0, displayId=0, pointers=[0: (-3.0, -2.0)]), policyFlags=0x6b000000, age=50182.9ms
+    MotionEvent(deviceId=0, source=0x00001002, action=0, actionButton=0x00000000, flags=0x00000000, metaState=0x00000000, buttonState=0x00000000, edgeFlags=0x00000000, xPrecision=1.0, yPrecision=1.0, displayId=0, pointers=[0: (487.0, 1602.0)]), policyFlags=0x6b000000, age=50179.9ms
+    MotionEvent(deviceId=0, source=0x00001002, action=1, actionButton=0x00000000, flags=0x00000000, metaState=0x00000000, buttonState=0x00000000, edgeFlags=0x00000000, xPrecision=1.0, yPrecision=1.0, displayId=0, pointers=[0: (495.9, 1602.5)]), policyFlags=0x6b000000, age=50178.9ms
+    MotionEvent(deviceId=0, source=0x00001002, action=0, actionButton=0x00000000, flags=0x00000000, metaState=0x00000000, buttonState=0x00000000, edgeFlags=0x00000000, xPrecision=1.0, yPrecision=1.0, displayId=0, pointers=[0: (812.0, 1164.0)]), policyFlags=0x6b000000, age=50124.9ms
+    MotionEvent(deviceId=0, source=0x00001002, action=2, actionButton=0x00000000, flags=0x00000000, metaState=0x00000000, buttonState=0x00000000, edgeFlags=0x00000000, xPrecision=1.0, yPrecision=1.0, displayId=0, pointers=[0: (827.2, 1162.3)]), policyFlags=0x6b000000, age=50117.9ms
+    MotionEvent(deviceId=0, source=0x00001002, action=2, actionButton=0x00000000, flags=0x00000000, metaState=0x00000000, buttonState=0x00000000, edgeFlags=0x00000000, xPrecision=1.0, yPrecision=1.0, displayId=0, pointers=[0: (833.8, 1158.4)]), policyFlags=0x6b000000, age=50114.9ms
+    MotionEvent(deviceId=0, source=0x00001002, action=2, actionButton=0x00000000, flags=0x00000000, metaState=0x00000000, buttonState=0x00000000, edgeFlags=0x00000000, xPrecision=1.0, yPrecision=1.0, displayId=0, pointers=[0: (848.8, 1154.6)]), policyFlags=0x6b000000, age=50111.9ms
+    MotionEvent(deviceId=0, source=0x00001002, action=2, actionButton=0x00000000, flags=0x00000000, metaState=0x00000000, buttonState=0x00000000, edgeFlags=0x00000000, xPrecision=1.0, yPrecision=1.0, displayId=0, pointers=[0: (856.8, 1146.6)]), policyFlags=0x6b000000, age=50110.9ms
+    MotionEvent(deviceId=0, source=0x00001002, action=1, actionButton=0x00000000, flags=0x00000000, metaState=0x00000000, buttonState=0x00000000, edgeFlags=0x00000000, xPrecision=1.0, yPrecision=1.0, displayId=0, pointers=[0: (859.0, 1142.8)]), policyFlags=0x6b000000, age=50107.9ms
+    MotionEvent(deviceId=0, source=0x00001002, action=0, actionButton=0x00000000, flags=0x00000000, metaState=0x00000000, buttonState=0x00000000, edgeFlags=0x00000000, xPrecision=1.0, yPrecision=1.0, displayId=0, pointers=[0: (1015.0, 1788.0)]), policyFlags=0x6b000000, age=50053.9ms
+  PendingEvent: <none>
+  InboundQueue: <empty>
+  ReplacedKeys: <empty>
+  Connections:
+    0: channelName='WindowManager (server)', windowName='monitor', status=NORMAL, monitor=true, inputPublisherBlocked=false
+      OutboundQueue: <empty>
+      WaitQueue: <empty>
+    1: channelName='TouchIntercepter (server)', windowName='monitor', status=NORMAL, monitor=true, inputPublisherBlocked=false
+      OutboundQueue: <empty>
+      WaitQueue: length=1
+        MotionEvent(deviceId=9, source=0x00001002, action=2, actionButton=0x00000000, flags=0x00000000, metaState=0x00000000, buttonState=0x00000000, edgeFlags=0x00000000, xPrecision=1.0, yPrecision=1.0, displayId=0, pointers=[0: (335.0, 1467.0)]), policyFlags=0x62000000, targetFlags=0x00000100, resolvedAction=2, age=34148404.0ms, wait=34148368.0ms
+    2: channelName='SPenGestureService (server)', windowName='monitor', status=NORMAL, monitor=true, inputPublisherBlocked=false
+      OutboundQueue: <empty>
+      WaitQueue: <empty>
+    3: channelName='e801c1d KeyguardScrim (server)', windowName='Window{e801c1d u0 d0 KeyguardScrim}', status=NORMAL, monitor=false, inputPublisherBlocked=false
+      OutboundQueue: <empty>
+      WaitQueue: <empty>
+    4: channelName='2016f4c ContainerKeyguardScrim (server)', windowName='Window{2016f4c u0 d0 ContainerKeyguardScrim}', status=NORMAL, monitor=false, inputPublisherBlocked=false
+      OutboundQueue: <empty>
+      WaitQueue: <empty>
+    5: channelName='a3fc279 com.bst.airmessage.content (server)', windowName='Window{a3fc279 u0 d0 com.bst.airmessage.content}', status=NORMAL, monitor=false, inputPublisherBlocked=false
+      OutboundQueue: <empty>
+      WaitQueue: <empty>
+    6: channelName='PalmMotion (server)', windowName='monitor', status=NORMAL, monitor=true, inputPublisherBlocked=false
+      OutboundQueue: <empty>
+      WaitQueue: <empty>
+    7: channelName='c13c888 AssistPreviewPanel (server)', windowName='Window{c13c888 u0 d0 AssistPreviewPanel}', status=NORMAL, monitor=false, inputPublisherBlocked=false
+      OutboundQueue: <empty>
+      WaitQueue: <empty>
+    8: channelName='b98f1d9 com.android.systemui/com.android.systemui.recents.SeparatedRecentsActivity (server)', windowName='Window{b98f1d9 u0 d0 com.android.systemui/com.android.systemui.recents.SeparatedRecentsActivity}', status=NORMAL, monitor=false, inputPublisherBlocked=false
+      OutboundQueue: <empty>
+      WaitQueue: <empty>
+    9: channelName='675a536 com.android.systemui.ImageWallpaper (server)', windowName='Window{675a536 u0 d0 com.android.systemui.ImageWallpaper}', status=NORMAL, monitor=false, inputPublisherBlocked=false
+      OutboundQueue: <empty>
+      WaitQueue: <empty>
+    10: channelName='1880415 StatusBar (server)', windowName='Window{1880415 u0 d0 StatusBar}', status=NORMAL, monitor=false, inputPublisherBlocked=false
+      OutboundQueue: <empty>
+      WaitQueue: <empty>
+    11: channelName='6583a12 InputMethod (server)', windowName='Window{6583a12 u0 d0 InputMethod}', status=NORMAL, monitor=false, inputPublisherBlocked=false
+      OutboundQueue: <empty>
+      WaitQueue: <empty>
+    12: channelName='5e684e2 Heads Up (server)', windowName='Window{5e684e2 u0 d0 Heads Up}', status=NORMAL, monitor=false, inputPublisherBlocked=false
+      OutboundQueue: <empty>
+      WaitQueue: <empty>
+    13: channelName='a018c63 com.sec.android.app.launcher/com.android.launcher2.Launcher (server)', windowName='Window{a018c63 u0 d0 com.sec.android.app.launcher/com.android.launcher2.Launcher}', status=NORMAL, monitor=false, inputPublisherBlocked=false
+      OutboundQueue: <empty>
+      WaitQueue: <empty>
+    14: channelName='cd308cf  (server)', windowName='Window{cd308cf u0 d0 com.tencent.android.qqdownloader}', status=NORMAL, monitor=false, inputPublisherBlocked=false
+      OutboundQueue: <empty>
+      WaitQueue: <empty>
+  AppSwitch: not pending
+  Configuration:
+    KeyRepeatDelay: 50.0ms
+    KeyRepeatTimeout: 500.0ms
+  PokeUserAcitivtyCall(only keydown): 
+    0: time=34139971000000, eventType=1
+    1: time=34140136000000, eventType=1
+    2: time=34140136000000, eventType=1
+    3: time=34140221000000, eventType=1
+    4: time=34140221000000, eventType=1
+    5: time=34139321000000, eventType=1
+    6: time=34139321000000, eventType=1
+    7: time=34139638000000, eventType=1
+    8: time=34139638000000, eventType=1
+    9: time=34139971000000, eventType=1
+
+

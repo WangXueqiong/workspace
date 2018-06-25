@@ -1,0 +1,926 @@
+09-13 04:27:20.501   546   546 D RILD    : **RIL Daemon Started**
+12-21 17:40:43.123   843   843 D RILD    : **RIL Daemon Started**
+12-21 17:40:43.966   546   546 E RILQ    : log to /data/misc/radio/ril_log for QCRIL logging is not enabled
+12-21 17:40:44.101   843   843 E RILQ    : log to /data/misc/radio/ril_log for QCRIL logging is not enabled
+12-21 17:40:44.156   546   546 E RILC    : RIL_register: RIL version 11
+12-21 17:40:44.203   843   843 E RILC    : RIL_register: RIL version 11
+12-21 17:40:44.204   843   843 E         : Failed to listen on sap_uim_socket1 socket '-1': Bad file descriptor
+12-21 17:40:45.169   546   927 E RILQ    : (0/546): RIL[0][main] qcril_qmi_init_core_client_handles: qcril_qmi_presence_init returned failure(-3)
+12-21 17:40:45.223   843   941 E RILQ    : (1/843): RIL[1][main] qcril_qmi_init_core_client_handles: qcril_qmi_presence_init returned failure(-3)
+12-21 17:40:45.232   546   927 E RILQ    : (0/546): RIL[0][main] qcril_qmi_nas_init: QCRIL_OPERATOR_NAME is persist.env.spec,  property_name is persist.env.spec. Failed to get operator name
+12-21 17:40:45.286   546   927 E RILQ    : (0/546): RIL[0][main] qcril_qmi_nas_retrieve_custom_emergency_numbers_configured_value: Invalid value for properties count 0
+12-21 17:40:45.289   843   941 E RILQ    : (1/843): RIL[1][main] qcril_qmi_nas_init: QCRIL_OPERATOR_NAME is persist.env.spec,  property_name is persist.env.spec. Failed to get operator name
+12-21 17:40:45.304   546  1061 E Diag_Lib: QMI error, error code: 16
+12-21 17:40:45.304   546  1060 E Diag_Lib: failed to get current config for SUB 2
+12-21 17:40:45.307   546   927 E RILQ    : (0/546): RIL[0][main] qcril_qmi_init_ssr_excluded_client_handles: qmi_client_register_notify_cb 0
+12-21 17:40:45.308   843   941 E RILQ    : (1/843): RIL[1][main] qcril_qmi_nas_retrieve_custom_emergency_numbers_configured_value: Invalid value for properties count 0
+12-21 17:40:45.309   546  1061 E Diag_Lib: QMI error, error code: 3
+12-21 17:40:45.309   546  1060 E Diag_Lib: Failed to delete the MBN with config_id: OTA_/data/misc/radio/modem_config/mcfg_sw/generic/china/cu/commerci/openmkt/mcfg_sw.mbn1452557377:884657èÿÿÿÿÿÿÿÿÿÿÿÿÿÍÌÌÌ
+12-21 17:40:45.311   546   927 E RILQ    : (0/546): RIL[0][main] qcril_qmi_init_ssr_excluded_client_handles: qmi_client_register_notify_cb 0
+12-21 17:40:45.317   843   941 E RILQ    : (1/843): RIL[1][main] qcril_qmi_init_ssr_excluded_client_handles: qmi_client_register_notify_cb 0
+12-21 17:40:45.318   546   927 E RILQ    : (0/546): RIL[0][main] qcril_uim_find_modem_port: Property value does not match, using default port
+12-21 17:40:45.318   546   927 E RILQ    : (0/546): RIL[0][main] qcril_uim_find_modem_port: Property value does not match, using default port
+12-21 17:40:45.321   843   941 E RILQ    : (1/843): RIL[1][main] qcril_qmi_init_ssr_excluded_client_handles: qmi_client_register_notify_cb 0
+12-21 17:40:45.321   843   941 E RILQ    : (1/843): RIL[1][main] qcril_uim_find_modem_port: Property value does not match, using default port
+12-21 17:40:45.321   843   941 E RILQ    : (1/843): RIL[1][main] qcril_uim_find_modem_port: Property value does not match, using default port
+12-21 17:40:45.324   546   927 E RILQ    : (0/546): RIL[0][main] qcril_gstk_find_primary_modem_port: Property value does not match, using default port
+12-21 17:40:45.328   843   941 E RILQ    : (1/843): RIL[1][main] qcril_gstk_find_primary_modem_port: Property value does not match, using default port
+12-21 17:40:46.398   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-21 17:40:46.399   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-21 17:40:46.399   843   946 E RILQ    : (1/843): RIL[1][event] qcril_uim_process_status_change_ind: card status invalid for slot 0x1
+12-21 17:40:46.400   843   946 E RILQ    : (1/843): RIL[1][event] qcril_uim_process_status_change_ind: card status invalid for slot 0x1
+12-21 17:40:46.400   843   946 E RILQ    : (1/843): RIL[1][event] qcril_uim_update_pbm_card_event: PBM_HANDLE_CARD 397315 processing Failed!
+12-21 17:40:46.401   843   946 E RILQ    : (1/843): RIL[1][event] qcril_uim_update_pbm_card_event: PBM_HANDLE_CARD 397315 processing Failed!
+12-21 17:40:46.401   546   927 E RILQ    : (0/546): RIL[0][main] qcril_sms_perform_transport_layer_info_initialization: error while retrieving transport layer reg info
+12-21 17:40:46.401   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-21 17:40:46.402   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-21 17:40:46.402   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-21 17:40:46.403   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-21 17:40:46.403   843   946 E RILQ    : (1/843): RIL[1][event] qcril_qmi_voice_nas_control_convert_radio_tech_to_radio_tech_family: invalid radio tech = 16
+12-21 17:40:46.403   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-21 17:40:46.404   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-21 17:40:46.404   546   938 E RILQ    : (0/546): RIL[0][event] qcril_uim_process_status_change_ind: card status invalid for slot 0x0
+12-21 17:40:46.405   546   938 E RILQ    : (0/546): RIL[0][event] qcril_uim_update_pbm_card_event: PBM_HANDLE_CARD 397315 processing Failed!
+12-21 17:40:46.405   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-21 17:40:46.406   843   941 E RILQ    : (1/843): RIL[1][main] qcril_sms_perform_transport_layer_info_initialization: error while retrieving transport layer reg info
+12-21 17:40:46.407   843   941 E RILQ    : (1/843): RIL[1][main] qcril_qmi_voice_nas_control_convert_radio_tech_to_radio_tech_family: invalid radio tech = 16
+12-21 17:40:46.407   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-21 17:40:46.407   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-21 17:40:46.407   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-21 17:40:46.408   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-21 17:40:46.410   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-21 17:40:46.411   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-21 17:40:46.414   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-21 17:40:46.415   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-21 17:40:46.416   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-21 17:41:01.675  2448  2448 E         : getFormat should never be called from here!
+12-21 17:41:01.742  2448  2448 E IccCardProxy/0: setExternalState: set mPhoneId=0 mExternalState=NOT_READY
+12-21 17:41:01.847  2448  2448 E DCT     : [1]mQkWeChatUtils == null
+12-21 17:41:01.853  2448  2448 E         : getFormat should never be called from here!
+12-21 17:41:01.891  2448  2448 E IccCardProxy/1: setExternalState: set mPhoneId=1 mExternalState=NOT_READY
+12-21 17:41:02.053  2448  2448 E UiccPhoneBookController: initiate qksimphonebook
+12-21 17:41:02.055  2448  2448 E RIL_UiccSmsController: initiate qkisms
+12-21 17:41:02.057  2448  2733 E QKModemInfoController: EVENT_GET_RF_CAL_DONE, exception = 
+12-21 17:41:02.057  2448  2733 E QKModemInfoController: com.android.internal.telephony.CommandException: GENERIC_FAILURE
+12-21 17:41:02.057  2448  2733 E QKModemInfoController: 	at com.android.internal.telephony.RILRequest.onError(RIL.java:216)
+12-21 17:41:02.057  2448  2733 E QKModemInfoController: 	at com.android.internal.telephony.RIL.processSolicited(RIL.java:2885)
+12-21 17:41:02.057  2448  2733 E QKModemInfoController: 	at com.android.internal.telephony.RIL.processResponse(RIL.java:2563)
+12-21 17:41:02.057  2448  2733 E QKModemInfoController: 	at com.android.internal.telephony.RIL.access$600(RIL.java:240)
+12-21 17:41:02.057  2448  2733 E QKModemInfoController: 	at com.android.internal.telephony.RIL$RILReceiver.run(RIL.java:623)
+12-21 17:41:02.057  2448  2733 E QKModemInfoController: 	at java.lang.Thread.run(Thread.java:818)
+12-21 17:41:02.057  2448  2733 E QKModemInfoController: EVENT_GET_RF_CAL_DONE, exception = 
+12-21 17:41:02.057  2448  2733 E QKModemInfoController: com.android.internal.telephony.CommandException: GENERIC_FAILURE
+12-21 17:41:02.057  2448  2733 E QKModemInfoController: 	at com.android.internal.telephony.RILRequest.onError(RIL.java:216)
+12-21 17:41:02.057  2448  2733 E QKModemInfoController: 	at com.android.internal.telephony.RIL.processSolicited(RIL.java:2885)
+12-21 17:41:02.057  2448  2733 E QKModemInfoController: 	at com.android.internal.telephony.RIL.processResponse(RIL.java:2563)
+12-21 17:41:02.057  2448  2733 E QKModemInfoController: 	at com.android.internal.telephony.RIL.access$600(RIL.java:240)
+12-21 17:41:02.057  2448  2733 E QKModemInfoController: 	at com.android.internal.telephony.RIL$RILReceiver.run(RIL.java:623)
+12-21 17:41:02.057  2448  2733 E QKModemInfoController: 	at java.lang.Thread.run(Thread.java:818)
+12-21 17:41:02.240   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-21 17:41:02.240   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-21 17:41:02.246   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-21 17:41:02.247   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-21 17:41:02.247   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-21 17:41:02.247   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-21 17:41:02.603  2448  2448 E IccCardProxy/0: setExternalState: !override and newstate unchanged from NOT_READY
+12-21 17:41:02.603  2448  2448 E IccCardProxy/0: setExternalState: !override and newstate unchanged from NOT_READY
+12-21 17:41:02.674  2448  2448 E GsmSST_1: [GsmSST] mLastSignalStrength: SignalStrength: 99 -1 -1 -1 -1 -1 -1 99 2147483647 2147483647 2147483647 2147483647 2147483647 gsm|lte
+12-21 17:41:02.674  2448  2448 E GsmSST_1: [GsmSST] mSignalStrength: SignalStrength: 0 0 -120 -160 -120 0 -1 0 2147483647 2147483647 0 0 2147483647 gsm|lte
+12-21 17:41:03.223  2448  2448 E IccCardProxy/1: setExternalState: !override and newstate unchanged from NOT_READY
+12-21 17:41:03.223  2448  2448 E IccCardProxy/1: setExternalState: !override and newstate unchanged from NOT_READY
+12-21 17:41:03.226  2448  2448 E UiccCardProvisioner: Error: Invalid card index EVENT_ICC_CHANGED 
+12-21 17:41:03.232  2448  2448 E QKNetworkModeUpdater: Error: Invalid card index EVENT_ICC_CHANGED 
+12-21 17:41:03.242   843   941 E RILQ    : (1/843): RIL[1][main] qcril_qmi_voice_nas_control_convert_radio_tech_to_radio_tech_family: invalid radio tech = 16
+12-21 17:41:03.344  2448  2448 E GsmSST_0: [GsmSST] error parsing GprsRegistrationState: java.lang.NumberFormatException: Invalid int: "null"
+12-21 17:41:03.344  2448  2448 E GsmSST_0: [GsmSST] RIL implementation has returned an error where it must succeedcom.android.internal.telephony.CommandException: GENERIC_FAILURE
+12-21 17:41:03.831   546  1400 E RILQ    : (0/546): RIL[0][oem_socket0] void qcril_qmi_generic_socket_agent::recv_thread_func(): read 4 bytes length message with length 28
+12-21 17:41:03.831   546  1400 E RILQ    : (0/546): RIL[0][oem_socket0] qmi_ril_parse_oem_hook_header: Received un-handled/oem command id = 524381
+12-21 17:41:03.837  2448  2448 E IccCardProxy/0: setExternalState: set mPhoneId=0 mExternalState=ABSENT
+12-21 17:41:03.871  2448  2448 E IccCardProxy/1: setExternalState: set mPhoneId=1 mExternalState=ABSENT
+12-21 17:41:03.877  2448  2448 E IccCardProxy/0: setExternalState: !override and newstate unchanged from ABSENT
+12-21 17:41:03.877  2448  2448 E IccCardProxy/1: setExternalState: !override and newstate unchanged from ABSENT
+12-21 17:41:03.960  2448  2448 E IccCardProxy/0: setExternalState: !override and newstate unchanged from ABSENT
+12-21 17:41:03.960  2448  2448 E IccCardProxy/1: setExternalState: !override and newstate unchanged from ABSENT
+12-21 17:41:04.343   843   941 E RILQ    : (1/843): RIL[1][main] qcril_qmi_voice_nas_control_convert_radio_tech_to_radio_tech_family: invalid radio tech = 16
+12-21 17:41:04.344   546  3245 E RILQ    : (0/546): RIL[0][cmd-112(304)] qcril_qmi_client_send_msg_sync_ex: error 2 / 0 / 1 / 52, context msg hex 4a, service 2 
+12-21 17:41:04.344   546  3245 E RILQ    : (0/546): RIL[0][cmd-112(304)] qcril_sms_request_ims_registration_state: Failed to get the response of IMS NW registration state from qmi.
+12-21 17:41:04.345   843   941 E RILQ    : (1/843): RIL[1][main] qcril_qmi_voice_nas_control_convert_radio_tech_to_radio_tech_family: invalid radio tech = 16
+12-21 17:41:04.345   843   941 E RILQ    : (1/843): RIL[1][main] qcril_qmi_voice_nas_control_convert_radio_tech_to_radio_tech_family: invalid radio tech = 16
+12-21 17:41:04.346  2448  2448 E ImsSMSDispatcher/0: IMS State query failed with exp com.android.internal.telephony.CommandException: GENERIC_FAILURE
+12-21 17:41:04.351   843   941 E RILQ    : (1/843): RIL[1][main] qcril_qmi_voice_nas_control_convert_radio_tech_to_radio_tech_family: invalid radio tech = 16
+12-21 17:41:04.351   843  3254 E RILQ    : (1/843): RIL[1][cmd-112(808)] qcril_qmi_client_send_msg_sync_ex: error 2 / 0 / 1 / 52, context msg hex 4a, service 2 
+12-21 17:41:04.351   843  3254 E RILQ    : (1/843): RIL[1][cmd-112(808)] qcril_sms_request_ims_registration_state: Failed to get the response of IMS NW registration state from qmi.
+12-21 17:41:04.357  2448  2448 E GsmSST_0: [GsmSST] RIL implementation has returned an error where it must succeedcom.android.internal.telephony.CommandException: GENERIC_FAILURE
+12-21 17:41:04.357  2448  2448 E GsmSST_1: [GsmSST] error parsing GprsRegistrationState: java.lang.NumberFormatException: Invalid int: "null"
+12-21 17:41:04.357  2448  2448 E GsmSST_1: [GsmSST] RIL implementation has returned an error where it must succeedcom.android.internal.telephony.CommandException: GENERIC_FAILURE
+12-21 17:41:04.546  2448  2448 E ImsSMSDispatcher/1: IMS State query failed with exp com.android.internal.telephony.CommandException: GENERIC_FAILURE
+12-21 17:41:04.546  2448  2448 E GsmSST_0: [GsmSST] error parsing GprsRegistrationState: java.lang.NumberFormatException: Invalid int: "null"
+12-21 17:41:08.259   546   938 E RILQ    : (0/546): RIL[0][event] qcril_qmi_nas_report_restricted_details: .. reporting 2
+12-21 17:41:08.265   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-21 17:41:08.267   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-21 17:41:08.269  2448  2448 E GsmSST_0: [GsmSST] mLastSignalStrength: SignalStrength: 99 -1 -1 -1 -1 -1 -1 99 2147483647 2147483647 2147483647 2147483647 2147483647 gsm|lte
+12-21 17:41:08.269  2448  2448 E GsmSST_0: [GsmSST] mSignalStrength: SignalStrength: 21 0 -120 -160 -120 -1 -1 99 2147483647 2147483647 2147483647 2147483647 2147483647 gsm|lte
+12-21 17:41:08.283   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-21 17:41:08.298  2448  2448 E PHONE   : [ServiceState] setState deprecated use setVoiceRegState()
+12-21 17:41:08.307   546   927 E RILQ    : (0/546): RIL[0][main] qcril_qmi_nas_report_restricted_details: .. reporting 2
+12-21 17:41:08.311  2448  2448 E GsmSST_0: [GsmSST] error parsing GprsRegistrationState: java.lang.NumberFormatException: Invalid int: "null"
+12-21 17:41:26.042   546   938 E RILQ    : (0/546): RIL[0][event] qcril_qmi_imss_request_set_ims_config: radio config error: 1..sending empty response
+12-21 17:41:26.071  2448  4730 E PHONE   : [ServiceState] setState deprecated use setVoiceRegState()
+12-21 17:41:40.134  2448  2644 E RIL_UiccSmsController: Subscription 2147483644 is inactive.
+12-21 17:41:40.134  2448  2644 E RIL_UiccSmsController: iccSmsIntMgr is null for  subId: 2147483644
+12-21 17:41:40.136  2448  2645 E RIL_UiccSmsController: Subscription 2147483643 is inactive.
+12-21 17:41:40.136  2448  2645 E RIL_UiccSmsController: iccSmsIntMgr is null for  subId: 2147483643
+12-21 17:41:42.894   546  1400 E RILQ    : (0/546): RIL[0][oem_socket0] void qcril_qmi_generic_socket_agent::recv_thread_func(): read 4 bytes length message with length 36
+12-21 17:41:42.894   546  1400 E RILQ    : (0/546): RIL[0][oem_socket0] qmi_ril_parse_oem_hook_header: Received un-handled/oem command id = 524310
+12-21 17:41:42.894   546  1400 E RILQ    : (0/546): RIL[0][oem_socket0] qcril_qmi_pdc_query_modem_test_mode: no ownership
+12-21 17:41:46.254  2448  2448 E CAT     : StkAppService: onStart get CatService instance dynamic
+12-21 17:46:48.638   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-21 17:46:48.640   843   946 E RILQ    : (1/843): RIL[1][event] qcril_qmi_voice_nas_control_convert_radio_tech_to_radio_tech_family: invalid radio tech = 16
+12-21 17:46:48.640   843   946 E RILQ    : (1/843): RIL[1][event] qcril_qmi_voice_nas_control_convert_radio_tech_to_radio_tech_family: invalid radio tech = 16
+12-21 17:46:48.640   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-21 17:46:48.641   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-21 17:46:48.641   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-21 17:46:48.643   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-21 17:46:48.643   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-21 17:46:48.645   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-21 17:46:48.646   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-21 18:27:26.947   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-21 18:27:26.949   843   946 E RILQ    : (1/843): RIL[1][event] qcril_qmi_voice_nas_control_convert_radio_tech_to_radio_tech_family: invalid radio tech = 16
+12-21 18:27:26.949   843   946 E RILQ    : (1/843): RIL[1][event] qcril_qmi_voice_nas_control_convert_radio_tech_to_radio_tech_family: invalid radio tech = 16
+12-21 18:27:26.949   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-21 18:27:26.949   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-21 18:27:26.950   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-21 18:27:26.951   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-21 18:27:26.961   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-21 18:27:26.963   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-21 18:27:26.964   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-21 19:17:29.214   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-21 19:17:29.216   843   946 E RILQ    : (1/843): RIL[1][event] qcril_qmi_voice_nas_control_convert_radio_tech_to_radio_tech_family: invalid radio tech = 16
+12-21 19:17:29.216   843   946 E RILQ    : (1/843): RIL[1][event] qcril_qmi_voice_nas_control_convert_radio_tech_to_radio_tech_family: invalid radio tech = 16
+12-21 19:17:29.217   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-21 19:17:29.218   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-21 19:17:29.218   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-21 19:17:29.220   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-21 19:17:29.221   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-21 19:17:29.222   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-21 19:17:29.223   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-21 19:20:10.747   843   946 E RILQ    : (1/843): RIL[1][event] qcril_uim_update_pbm_card_event: PBM_HANDLE_CARD 397315 processing Failed!
+12-21 19:20:10.777   546   938 E RILQ    : (0/546): RIL[0][event] qcril_uim_update_pbm_card_event: PBM_HANDLE_CARD 397315 processing Failed!
+12-21 19:20:10.897  2448  2448 E IccCardProxy/0: setExternalState: !override and newstate unchanged from ABSENT
+12-21 19:20:10.898  2448  2448 E IccCardProxy/1: setExternalState: !override and newstate unchanged from ABSENT
+12-21 19:20:10.898  2448  2448 E IccCardProxy/0: setExternalState: !override and newstate unchanged from ABSENT
+12-21 19:20:10.899  2448  2448 E IccCardProxy/1: setExternalState: !override and newstate unchanged from ABSENT
+12-21 19:21:06.981   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-21 19:21:06.984   843   946 E RILQ    : (1/843): RIL[1][event] qcril_qmi_voice_nas_control_convert_radio_tech_to_radio_tech_family: invalid radio tech = 16
+12-21 19:21:06.984   843   946 E RILQ    : (1/843): RIL[1][event] qcril_qmi_voice_nas_control_convert_radio_tech_to_radio_tech_family: invalid radio tech = 16
+12-21 19:21:06.984   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-21 19:21:06.986   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-21 19:21:06.987   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-21 19:21:06.987   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-21 19:21:06.988   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-21 19:21:06.988   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-21 19:21:06.989   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-21 19:21:07.279   843   946 E RILQ    : (1/843): RIL[1][event] qcril_uim_update_pbm_card_event: PBM_HANDLE_CARD 397313 processing Failed!
+12-21 19:21:07.279   546   938 E RILQ    : (0/546): RIL[0][event] qcril_uim_update_pbm_card_event: PBM_HANDLE_CARD 397313 processing Failed!
+12-21 19:21:07.279   843   946 E RILQ    : (1/843): RIL[1][event] qcril_uim_update_pbm_card_event: PBM_HANDLE_CARD 397315 processing Failed!
+12-21 19:21:07.280   546   938 E RILQ    : (0/546): RIL[0][event] qcril_uim_update_pbm_card_event: PBM_HANDLE_CARD 397315 processing Failed!
+12-21 19:21:07.283  2448  2448 E IccCardProxy/0: setExternalState: !override and newstate unchanged from ABSENT
+12-21 19:21:07.283  2448  2448 E IccCardProxy/1: setExternalState: !override and newstate unchanged from ABSENT
+12-21 19:21:07.331   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-21 19:21:07.337   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-21 19:21:07.340  2448  2448 E IccCardProxy/0: setExternalState: set mPhoneId=0 mExternalState=NOT_READY
+12-21 19:21:07.344   546   938 E RILQ    : (0/546): RIL[0][event] qcril_gstk_qmi_get_recovery_proactive_cache: Error GET_CACHED_PROACTIVE_CMD_REQ, qmi_err_code: 0x0, result: 0x1, error: 0x4a
+12-21 19:21:07.345   546   938 E RILQ    : (0/546): RIL[0][event] qcril_gstk_qmi_get_recovery_proactive_cache: Error GET_CACHED_PROACTIVE_CMD_REQ, qmi_err_code: 0x0, result: 0x1, error: 0x4a
+12-21 19:21:07.346  2448  2448 E IccCardProxy/0: setExternalState: !override and newstate unchanged from NOT_READY
+12-21 19:21:07.347  2448  2448 E IccCardProxy/1: setExternalState: !override and newstate unchanged from ABSENT
+12-21 19:21:07.348   546  1400 E RILQ    : (0/546): RIL[0][oem_socket0] void qcril_qmi_generic_socket_agent::recv_thread_func(): read 4 bytes length message with length 28
+12-21 19:21:07.348   546  1400 E RILQ    : (0/546): RIL[0][oem_socket0] qmi_ril_parse_oem_hook_header: Received un-handled/oem command id = 524378
+12-21 19:21:07.350   546  1400 E RILQ    : (0/546): RIL[0][oem_socket0] void qcril_qmi_generic_socket_agent::recv_thread_func(): read 4 bytes length message with length 32
+12-21 19:21:07.350   546  1400 E RILQ    : (0/546): RIL[0][oem_socket0] qmi_ril_parse_oem_hook_header: Received un-handled/oem command id = 524380
+12-21 19:21:07.600  2448  2448 E PhoneBase: Error! registerForCallWaiting() in PhoneBase should not be called, CDMAPhone inactive.
+12-21 19:21:07.624  2448  2448 E PHONE   : [ServiceState] setState deprecated use setVoiceRegState()
+12-21 19:21:07.625  2448  2448 E GsmSST_0: [GsmSST] error parsing GprsRegistrationState: java.lang.NumberFormatException: Invalid int: "null"
+12-21 19:21:07.909   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-21 19:21:07.909   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-21 19:21:07.910   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-21 19:21:07.911   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-21 19:21:07.912   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-21 19:21:08.051  2448  2448 E CAT     : StkAppService: onStart get CatService instance dynamic
+12-21 19:21:08.064  2448  2448 E IccCardProxy/1: setExternalState: !override and newstate unchanged from ABSENT
+12-21 19:21:08.065   546  1400 E RILQ    : (0/546): RIL[0][oem_socket0] void qcril_qmi_generic_socket_agent::recv_thread_func(): read 4 bytes length message with length 28
+12-21 19:21:08.065   546  1400 E RILQ    : (0/546): RIL[0][oem_socket0] qmi_ril_parse_oem_hook_header: Received un-handled/oem command id = 524378
+12-21 19:21:08.068   546  1400 E RILQ    : (0/546): RIL[0][oem_socket0] void qcril_qmi_generic_socket_agent::recv_thread_func(): read 4 bytes length message with length 32
+12-21 19:21:08.068   546  1400 E RILQ    : (0/546): RIL[0][oem_socket0] qmi_ril_parse_oem_hook_header: Received un-handled/oem command id = 524380
+12-21 19:21:08.084  2448  2448 E PHONE   : [ServiceState] setState deprecated use setVoiceRegState()
+12-21 19:21:08.087  2448  2448 E GsmSST_0: [GsmSST] error parsing GprsRegistrationState: java.lang.NumberFormatException: Invalid int: "null"
+12-21 19:21:08.157  2448  2448 E IsimUiccRecords: [ISIM] IsimUiccRecords: handleMessage { when=-1ms what=1 obj=android.os.AsyncResult@ea9fd66 target=com.android.internal.telephony.uicc.IsimUiccRecords }[1] 
+12-21 19:21:08.162  2448  2448 E IccCardProxy/1: setExternalState: !override and newstate unchanged from ABSENT
+12-21 19:21:08.163   546   927 E RILQ    : (0/546): RIL[0][main] qcril_uim_extract_session_type: Error extracting appropriate session !!
+12-21 19:21:08.165  2448  2448 E IccCardProxy/1: setExternalState: !override and newstate unchanged from ABSENT
+12-21 19:21:08.385  2448 32023 E QtiSubscriptionController:  Invalid slotId -1 or subId = 5
+12-21 19:21:08.398  2448 32023 E QtiSubscriptionController:  Invalid slotId -1 or subId = 5
+12-21 19:21:08.400   546  1400 E RILQ    : (0/546): RIL[0][oem_socket0] void qcril_qmi_generic_socket_agent::recv_thread_func(): read 4 bytes length message with length 32
+12-21 19:21:08.400   546  1400 E RILQ    : (0/546): RIL[0][oem_socket0] qmi_ril_parse_oem_hook_header: Received un-handled/oem command id = 524327
+12-21 19:21:08.404  2448 32023 E QtiSubscriptionController:  Invalid slotId 0 or subId = 2147483643
+12-21 19:21:08.407   843  1398 E RILQ    : (1/843): RIL[1][oem_socket1] void qcril_qmi_generic_socket_agent::recv_thread_func(): read 4 bytes length message with length 32
+12-21 19:21:08.408   843  1398 E RILQ    : (1/843): RIL[1][oem_socket1] qmi_ril_parse_oem_hook_header: Received un-handled/oem command id = 524327
+12-21 19:21:08.425   546 32069 E RILQ    : (0/546): RIL[0][cmd-112(704)] qcril_qmi_client_send_msg_sync_ex: error 2 / 0 / 1 / 52, context msg hex 4a, service 2 
+12-21 19:21:08.425   546 32069 E RILQ    : (0/546): RIL[0][cmd-112(704)] qcril_sms_request_ims_registration_state: Failed to get the response of IMS NW registration state from qmi.
+12-21 19:21:08.428   546  1400 E RILQ    : (0/546): RIL[0][oem_socket0] void qcril_qmi_generic_socket_agent::recv_thread_func(): read 4 bytes length message with length 32
+12-21 19:21:08.428   546  1400 E RILQ    : (0/546): RIL[0][oem_socket0] qmi_ril_parse_oem_hook_header: Received un-handled/oem command id = 524327
+12-21 19:21:08.431   843  1398 E RILQ    : (1/843): RIL[1][oem_socket1] void qcril_qmi_generic_socket_agent::recv_thread_func(): read 4 bytes length message with length 32
+12-21 19:21:08.431   843  1398 E RILQ    : (1/843): RIL[1][oem_socket1] qmi_ril_parse_oem_hook_header: Received un-handled/oem command id = 524327
+12-21 19:21:08.435   546  1400 E RILQ    : (0/546): RIL[0][oem_socket0] void qcril_qmi_generic_socket_agent::recv_thread_func(): read 4 bytes length message with length 28
+12-21 19:21:08.435   546  1400 E RILQ    : (0/546): RIL[0][oem_socket0] qmi_ril_parse_oem_hook_header: Received un-handled/oem command id = 524378
+12-21 19:21:08.438   546  1400 E RILQ    : (0/546): RIL[0][oem_socket0] void qcril_qmi_generic_socket_agent::recv_thread_func(): read 4 bytes length message with length 32
+12-21 19:21:08.438   546  1400 E RILQ    : (0/546): RIL[0][oem_socket0] qmi_ril_parse_oem_hook_header: Received un-handled/oem command id = 524380
+12-21 19:21:08.445  2448 32023 E QtiSubscriptionController: isSubProvisioned, state = true subId = 6
+12-21 19:21:08.451   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-21 19:21:08.451   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-21 19:21:08.451   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-21 19:21:08.453   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-21 19:21:08.454   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-21 19:21:08.472  2448  2448 E QtiSubscriptionController: isSubProvisioned, state = true subId = 6
+12-21 19:21:08.472  2448  2448 E QtiSubscriptionController: isSubProvisioned, state = true subId = 6
+12-21 19:21:08.473  2448  2448 E QtiSubscriptionController: isSubProvisioned, state = true subId = 6
+12-21 19:21:08.495  2448  2448 E QtiSubscriptionController: isSubProvisioned, state = true subId = 6
+12-21 19:21:08.500  2448  2448 E ImsSMSDispatcher/0: IMS State query failed with exp com.android.internal.telephony.CommandException: GENERIC_FAILURE
+12-21 19:21:08.501  2448  2448 E IccCardProxy/1: setExternalState: !override and newstate unchanged from ABSENT
+12-21 19:21:08.555  2448  2448 E IccCardProxy/1: setExternalState: !override and newstate unchanged from ABSENT
+12-21 19:21:08.563  2448  2448 E GsmSST_0: [GsmSST] error parsing GprsRegistrationState: java.lang.NumberFormatException: Invalid int: "null"
+12-21 19:21:08.565  2448  2448 E PHONE   : [ServiceState] setState deprecated use setVoiceRegState()
+12-21 19:21:09.003   546   938 E RILQ    : (0/546): RIL[0][event] qcril_qmi_nas_report_restricted_details: .. reporting 0
+12-21 19:21:09.012   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-21 19:21:09.018   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-21 19:21:09.019  2448  2448 E PHONE   : [ServiceState] setState deprecated use setVoiceRegState()
+12-21 19:21:09.022  2448  2448 E GsmSST_0: [GsmSST] error parsing GprsRegistrationState: java.lang.NumberFormatException: Invalid int: "null"
+12-21 19:21:09.024   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-21 19:21:09.024   546   927 E RILQ    : (0/546): RIL[0][main] qcril_qmi_nas_report_restricted_details: .. reporting 0
+12-21 19:21:09.025   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-21 19:21:09.032   546   938 E RILQ    : (0/546): RIL[0][event] qcril_qmi_nas_report_restricted_details: .. reporting 2
+12-21 19:21:09.041  2448  2448 E PHONE   : [ServiceState] setState deprecated use setVoiceRegState()
+12-21 19:21:09.042   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-21 19:21:09.046   546   927 E RILQ    : (0/546): RIL[0][main] qcril_qmi_nas_report_restricted_details: .. reporting 2
+12-21 19:21:09.048   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-21 19:21:09.048  2448  2448 E GsmSST_0: [GsmSST] error parsing GprsRegistrationState: java.lang.NumberFormatException: Invalid int: "null"
+12-21 19:21:09.052   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-21 19:21:09.053   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-21 19:21:09.057  2448  2448 E GsmSST_0: [GsmSST] error parsing GprsRegistrationState: java.lang.NumberFormatException: Invalid int: "null"
+12-21 19:21:09.059  2448  2448 E PHONE   : [ServiceState] setState deprecated use setVoiceRegState()
+12-21 19:21:09.100  2448 32056 E QtiSubscriptionController: isSubProvisioned, state = true subId = 6
+12-21 19:21:09.100  2448 32056 E QtiSubscriptionController: isSubProvisioned, state = true subId = 6
+12-21 19:21:09.100  2448 32056 E QtiSubscriptionController: isSubProvisioned, state = true subId = 6
+12-21 19:21:09.122  2448 32056 E QtiSubscriptionController: isSubProvisioned, state = true subId = 6
+12-21 19:21:09.999   546   938 E RILQ    : (0/546): RIL[0][event] qcril_uim_update_pbm_card_event: PBM_HANDLE_CARD 397314 processing Failed!
+12-21 19:21:10.030   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-21 19:21:10.049  2448  2448 E IccCardProxy/1: setExternalState: !override and newstate unchanged from ABSENT
+12-21 19:21:10.061  2448  2448 E GsmSST_0: [GsmSST] error parsing GprsRegistrationState: java.lang.NumberFormatException: Invalid int: "null"
+12-21 19:21:10.062  2448  2448 E PHONE   : [ServiceState] setState deprecated use setVoiceRegState()
+12-21 19:21:10.072  2448  2448 E IccCardProxy/1: setExternalState: !override and newstate unchanged from ABSENT
+12-21 19:21:10.514  2448  2448 E IccCardProxy/1: setExternalState: !override and newstate unchanged from ABSENT
+12-21 19:21:10.537  2448  2448 E IccCardProxy/0: setExternalState: set mPhoneId=0 mExternalState=UNKNOWN
+12-21 19:21:10.548  2448  2448 E IccCardProxy/0: setExternalState: !override and newstate unchanged from UNKNOWN
+12-21 19:21:10.550  2448  2448 E IccCardProxy/1: setExternalState: !override and newstate unchanged from ABSENT
+12-21 19:21:12.364  2448  2448 E CAT     : StkAppService: onStart get CatService instance dynamic
+12-21 19:21:12.797   546   938 E RILQ    : (0/546): RIL[0][event] qcril_gstk_qmi_copy_and_save_proactive_cmd: Invalid ril_unsol_resp parameters, cannot save
+12-21 19:21:12.852  2448  2448 E CAT     : StkAppService: onStart get CatService instance dynamic
+12-21 19:21:13.281   546   938 E RILQ    : (0/546): RIL[0][event] qcril_uim_update_pbm_card_event: PBM_HANDLE_CARD 397314 processing Failed!
+12-21 19:21:13.298  2448  2448 E IccCardProxy/0: setExternalState: set mPhoneId=0 mExternalState=READY
+12-21 19:21:13.318  2448  2448 E IccCardProxy/0: setExternalState: !override and newstate unchanged from READY
+12-21 19:21:13.318  2448  2448 E IccCardProxy/0: setExternalState: !override and newstate unchanged from READY
+12-21 19:21:13.319  2448  2448 E IccCardProxy/1: setExternalState: !override and newstate unchanged from ABSENT
+12-21 19:21:14.045  2448  2448 E GsmSST_0: [GsmSST] error parsing GprsRegistrationState: java.lang.NumberFormatException: Invalid int: "null"
+12-21 19:21:14.050  2448  2448 E PHONE   : [ServiceState] setState deprecated use setVoiceRegState()
+12-21 19:21:14.265   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-21 19:21:15.455  2448  2448 E SIMRecords/0: [SIMRecords] Exception in fetching EF_CSP data com.android.internal.telephony.CommandException: GENERIC_FAILURE
+12-21 19:21:15.457  2448  2448 E SIMRecords/0: [SIMRecords] Exception in get GID1 com.android.internal.telephony.CommandException: GENERIC_FAILURE
+12-21 19:21:15.511  2448  2448 E SIMRecords/0: [SIMRecords] Exception in get GID2 com.android.internal.telephony.CommandException: GENERIC_FAILURE
+12-21 19:21:16.022  2448  2448 E IsimUiccRecords: [ISIM] IsimUiccRecords: handleMessage { when=0 what=100 obj=android.os.AsyncResult@ed0066f target=com.android.internal.telephony.uicc.IsimUiccRecords }[100] 
+12-21 19:21:16.364  2448  2448 E IsimUiccRecords: [ISIM] IsimUiccRecords: handleMessage { when=0 what=100 obj=android.os.AsyncResult@962bf7c target=com.android.internal.telephony.uicc.IsimUiccRecords }[100] 
+12-21 19:21:16.438   546  1070 E RILQ    : (0/546): RIL[0][MBN_OTA] qcril_uim_qmi_conv_open_logical_channel_resp: response error: 0x50
+12-21 19:21:16.621  2448  2448 E IsimUiccRecords: [ISIM] IsimUiccRecords: handleMessage { when=0 what=100 obj=android.os.AsyncResult@b4b8005 target=com.android.internal.telephony.uicc.IsimUiccRecords }[100] 
+12-21 19:21:16.700  2448  2448 E IsimUiccRecords: [ISIM] IsimUiccRecords: handleMessage { when=0 what=100 obj=android.os.AsyncResult@905385a target=com.android.internal.telephony.uicc.IsimUiccRecords }[100] 
+12-21 19:21:16.700  2448  2448 E IsimUiccRecords: [ISIM] can't find TLV tag in ISIM record, returning null
+12-21 19:21:17.165   546   927 E RILQ    : (0/546): RIL[0][main] qcril_qmi_sms_set_primary_client: Successfully set QCRIL as the primary client
+12-21 19:21:18.484   546   938 E RILQ    : (0/546): RIL[0][event] qcril_qmi_nas_report_restricted_details: .. reporting 0
+12-21 19:21:18.496  2448  2448 E GsmSST_0: [GsmSST] error parsing GprsRegistrationState: java.lang.NumberFormatException: Invalid int: "null"
+12-21 19:21:18.503  2448  2448 E PHONE   : [ServiceState] setState deprecated use setVoiceRegState()
+12-21 19:21:18.505   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-21 19:21:18.505   546   927 E RILQ    : (0/546): RIL[0][main] qcril_qmi_nas_report_restricted_details: .. reporting 0
+12-21 19:21:18.506   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-21 19:21:18.509   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-21 19:21:18.511   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-21 19:21:19.203  2448  2448 E GsmSST_0: [GsmSST] error parsing GprsRegistrationState: java.lang.NumberFormatException: Invalid int: "null"
+12-21 19:21:19.208  2448  2448 E GsmSST_0: [GsmSST] mLastSignalStrength: SignalStrength: 21 0 -120 -160 -120 -1 -1 99 2147483647 2147483647 2147483647 2147483647 2147483647 gsm|lte
+12-21 19:21:19.208  2448  2448 E GsmSST_0: [GsmSST] mSignalStrength: SignalStrength: 99 0 -120 -160 -120 -1 -1 99 2147483647 2147483647 2147483647 2147483647 2147483647 gsm|lte
+12-21 19:21:19.218  2448  2448 E PHONE   : [ServiceState] setState deprecated use setVoiceRegState()
+12-21 19:21:19.231  2448  2448 E PHONE   : [ServiceState] setState deprecated use setVoiceRegState()
+12-21 19:21:19.234  2448  2448 E GsmSST_0: [GsmSST] error parsing GprsRegistrationState: java.lang.NumberFormatException: Invalid int: "null"
+12-21 19:21:19.688   546   938 E RILQ    : (0/546): RIL[0][event] qcril_qmi_imss_request_set_ims_config: radio config error: 1..sending empty response
+12-21 19:21:20.226   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-21 19:21:20.227   843   946 E RILQ    : (1/843): RIL[1][event] qcril_qmi_voice_nas_control_convert_radio_tech_to_radio_tech_family: invalid radio tech = 16
+12-21 19:21:20.227   843   946 E RILQ    : (1/843): RIL[1][event] qcril_qmi_voice_nas_control_convert_radio_tech_to_radio_tech_family: invalid radio tech = 16
+12-21 19:21:20.228   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-21 19:21:20.229   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-21 19:21:20.232   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-21 19:21:20.232   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-21 19:21:20.232   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-21 19:21:20.233   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-21 19:21:20.240   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-21 19:21:20.248  2448  2448 E PHONE   : [ServiceState] setState deprecated use setVoiceRegState()
+12-21 19:21:20.253  2448  2448 E GsmSST_0: [GsmSST] error parsing GprsRegistrationState: java.lang.NumberFormatException: Invalid int: "null"
+12-21 19:21:20.254   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-21 19:21:20.256   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-21 19:21:20.772  2448  2448 E GsmSST_0: [GsmSST] error parsing GprsRegistrationState: java.lang.NumberFormatException: Invalid int: "null"
+12-21 19:21:20.783  2448  2448 E PHONE   : [ServiceState] setState deprecated use setVoiceRegState()
+12-21 19:21:20.801  2448  2448 E PHONE   : [ServiceState] setState deprecated use setVoiceRegState()
+12-21 19:21:20.818  2448  2448 E GsmSST_0: [GsmSST] error parsing GprsRegistrationState: java.lang.NumberFormatException: Invalid int: "null"
+12-21 19:21:20.824  2448  2448 E GsmSST_0: [GsmSST] pollStateDone: countryCodeForMcc errorjava.lang.StringIndexOutOfBoundsException: length=0; regionStart=0; regionLength=3
+12-21 19:21:20.857  2448  2448 E PHONE   : [ServiceState] setState deprecated use setVoiceRegState()
+12-21 19:21:20.907  2448  2448 E GsmSST_0: [GsmSST] mLastSignalStrength: SignalStrength: 99 0 -120 -160 -120 -1 -1 99 2147483647 2147483647 2147483647 2147483647 2147483647 gsm|lte
+12-21 19:21:20.907  2448  2448 E GsmSST_0: [GsmSST] mSignalStrength: SignalStrength: 99 0 -120 -160 -120 -1 -1 20 -113 -17 -56 2147483647 2147483647 gsm|lte
+12-21 19:21:20.936   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-21 19:21:20.938   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-21 19:21:20.967  2448  2448 E PHONE   : ServiceState.getRadioTechnology() DEPRECATED will be removed *******
+12-21 19:21:21.080  2448  2448 E PHONE   : [ServiceState] setState deprecated use setVoiceRegState()
+12-21 19:21:21.101  2448  2448 E GsmSST_0: [GsmSST] mLastSignalStrength: SignalStrength: 99 0 -120 -160 -120 -1 -1 20 -113 -17 -56 2147483647 2147483647 gsm|lte
+12-21 19:21:21.102  2448  2448 E GsmSST_0: [GsmSST] mSignalStrength: SignalStrength: 99 0 -120 -160 -120 -1 -1 20 -109 -14 -68 2147483647 2147483647 gsm|lte
+12-21 19:21:21.156  2448  2448 E IsimUiccRecords: [ISIM] IsimUiccRecords: handleMessage { when=0 what=100 obj=android.os.AsyncResult@a0339c5 target=com.android.internal.telephony.uicc.IsimUiccRecords }[100] 
+12-21 19:21:21.281  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 99 -1 -1 -1 -1 -1 -1 99 2147483647 2147483647 2147483647 2147483647 2147483647 gsm|lte
+12-21 19:21:21.281  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 99 0 -84 -135 -120 -1 -1 20 -109 -14 -68 2147483647 2147483647 cdma
+12-21 19:21:21.368  2448  2448 E GsmSST_0: Received message { when=-153ms what=2 obj=android.os.AsyncResult@2565122 target=com.qti.internal.telephony.gsm.QtiGsmServiceStateTracker }[2] while being destroyed. Ignoring.
+12-21 19:21:21.483  2448  2448 E GsmSST_0: Received message { when=-260ms what=2 obj=android.os.AsyncResult@cde949c target=com.qti.internal.telephony.gsm.QtiGsmServiceStateTracker }[2] while being destroyed. Ignoring.
+12-21 19:21:21.485  2448  2448 E DCT     : [0]handleMessage: Ignore GSM msgs since GSM phone is inactive
+12-21 19:21:21.485  2448  2448 E GSMPhone: Received message { when=-250ms what=37 obj=android.os.AsyncResult@8b4fea5 target=com.qti.internal.telephony.gsm.QtiGSMPhone }[37] while being destroyed. Ignoring.
+12-21 19:21:21.485  2448  2448 E IccCardProxy/0: setExternalState: !override and newstate unchanged from READY
+12-21 19:21:21.500  2448  2448 E PhoneBase: Error! unregisterForCallWaiting() in PhoneBase should not be called, CDMAPhone inactive.
+12-21 19:21:21.604  2448  2448 E PHONE   : [ServiceState] setState deprecated use setVoiceRegState()
+12-21 19:21:21.610  2448  2448 E CdmaSST_0: [CdmaLteSST] handlePollStateResultMessage: bad tac states[6]=null e=java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+12-21 19:21:21.610  2448  2448 E CdmaSST_0: [CdmaLteSST] handlePollStateResultMessage: bad pci states[7]=null e=java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+12-21 19:21:21.610  2448  2448 E CdmaSST_0: [CdmaLteSST] handlePollStateResultMessage: bad eci states[8]=null e=java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+12-21 19:21:21.776  2448  2448 E PHONE   : [ServiceState] setState deprecated use setVoiceRegState()
+12-21 19:21:21.814  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 99 0 -84 -135 -120 -1 -1 20 -109 -14 -68 2147483647 2147483647 cdma
+12-21 19:21:21.814  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 99 0 -125 -25 -120 -1 -1 99 2147483647 2147483647 2147483647 2147483647 2147483647 cdma
+12-21 19:21:21.851  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 99 0 -125 -25 -120 -1 -1 99 2147483647 2147483647 2147483647 2147483647 2147483647 cdma
+12-21 19:21:21.851  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 99 0 -125 -25 -120 -1 -1 19 -104 -10 -30 2147483647 2147483647 gsm|lte
+12-21 19:21:21.866  2448  2448 E PHONE   : ServiceState.getRadioTechnology() DEPRECATED will be removed *******
+12-21 19:21:22.065  2448  2448 E GsmSST_0: [GsmSST] error parsing GprsRegistrationState: java.lang.NumberFormatException: Invalid int: "null"
+12-21 19:21:22.068  2448  2448 E PHONE   : [ServiceState] setState deprecated use setVoiceRegState()
+12-21 19:21:22.111  2448  2448 E CDMAPhone: getOperatorNumeric: Cannot retrieve operatorNumeric: mCdmaSubscriptionSource = -1 mIccRecords = null
+12-21 19:21:22.111   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-21 19:21:22.113   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-21 19:21:22.121  2448  2448 E CDMAPhone: getOperatorNumeric: Cannot retrieve operatorNumeric: mCdmaSubscriptionSource = -1 mIccRecords = null
+12-21 19:21:22.127   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-21 19:21:22.128   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-21 19:21:22.131  2448  2448 E DCT     : [0]mQkWeChatUtils == null
+12-21 19:21:22.132  2448  2448 E CallManager: Could not find Phone handler for unregistration
+12-21 19:21:22.134  2448  2448 E CallManager: Could not find Phone handler for unregistration
+12-21 19:21:22.135   546   927 E RILQ    : (0/546): RIL[0][main] qcril_data_lqe_stop: attempting to stop LQE
+12-21 19:21:22.150  2448  2448 E GsmSST_0: Received message { when=-81ms what=14 obj=android.os.AsyncResult@57e48be target=com.qti.internal.telephony.gsm.QtiGsmServiceStateTracker }[14] while being destroyed. Ignoring.
+12-21 19:21:22.150  2448  2448 E GsmSST_0: Received message { when=-81ms what=12 obj=android.os.AsyncResult@1e30d1f target=com.qti.internal.telephony.gsm.QtiGsmServiceStateTracker }[12] while being destroyed. Ignoring.
+12-21 19:21:22.150  2448  2448 E PhoneBase: Error! This function should never be executed, inactive CDMAPhone.
+12-21 19:21:23.044  2448  2448 E PHONE   : [ServiceState] setState deprecated use setVoiceRegState()
+12-21 19:21:23.836   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-21 19:21:23.838  2448  2448 E PHONE   : [ServiceState] setState deprecated use setVoiceRegState()
+12-21 19:21:23.842   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-21 19:21:26.083  2448  2448 E PHONE   : [ServiceState] setState deprecated use setVoiceRegState()
+12-21 19:21:26.852  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 99 0 -125 -25 -120 -1 -1 19 -104 -10 -30 2147483647 2147483647 gsm|lte
+12-21 19:21:26.852  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 99 0 -99 -200 -120 -1 -1 19 -107 -14 -54 2147483647 2147483647 gsm|lte
+12-21 19:21:28.527  2448  2448 E PHONE   : [ServiceState] setState deprecated use setVoiceRegState()
+12-21 19:21:30.138  2448  2448 E PHONE   : [ServiceState] setState deprecated use setVoiceRegState()
+12-21 19:21:31.853  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 99 0 -99 -200 -120 -1 -1 19 -107 -14 -54 2147483647 2147483647 gsm|lte
+12-21 19:21:31.853  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 99 0 -98 -155 -120 -1 -1 19 -111 -19 -34 2147483647 2147483647 gsm|lte
+12-21 19:21:36.853  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 99 0 -98 -155 -120 -1 -1 19 -111 -19 -34 2147483647 2147483647 gsm|lte
+12-21 19:21:36.853  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 99 0 -100 -180 -120 -1 -1 19 -108 -14 -2 2147483647 2147483647 gsm|lte
+12-21 19:21:38.782  2448  2448 E PHONE   : [ServiceState] setState deprecated use setVoiceRegState()
+12-21 19:21:41.854  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 99 0 -100 -180 -120 -1 -1 19 -108 -14 -2 2147483647 2147483647 gsm|lte
+12-21 19:21:41.854  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 99 0 -96 -100 -120 -1 -1 20 -109 -17 -2 2147483647 2147483647 gsm|lte
+12-21 19:21:42.044  2448  2448 E PHONE   : [ServiceState] setState deprecated use setVoiceRegState()
+12-21 19:21:46.856  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 99 0 -96 -100 -120 -1 -1 20 -109 -17 -2 2147483647 2147483647 gsm|lte
+12-21 19:21:46.856  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 99 0 -90 -135 -120 -1 -1 19 -114 -17 -52 2147483647 2147483647 gsm|lte
+12-21 19:21:48.881  2448  2448 E PHONE   : [ServiceState] setState deprecated use setVoiceRegState()
+12-21 19:21:49.161  2448  2448 E PHONE   : [ServiceState] setState deprecated use setVoiceRegState()
+12-21 19:21:51.518  2448  2448 E PHONE   : [ServiceState] setState deprecated use setVoiceRegState()
+12-21 19:21:51.857  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 99 0 -90 -135 -120 -1 -1 19 -114 -17 -52 2147483647 2147483647 gsm|lte
+12-21 19:21:51.858  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 99 0 -88 -100 -120 -1 -1 18 -114 -17 -60 2147483647 2147483647 gsm|lte
+12-21 19:21:56.495  2448  2461 E RIL_UiccSmsController: Subscription 2147483644 is inactive.
+12-21 19:21:56.495  2448  2461 E RIL_UiccSmsController: iccSmsIntMgr is null for  subId: 2147483644
+12-21 19:21:56.700  2448  2448 E PHONE   : [ServiceState] setState deprecated use setVoiceRegState()
+12-21 19:21:56.858  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 99 0 -88 -100 -120 -1 -1 18 -114 -17 -60 2147483647 2147483647 gsm|lte
+12-21 19:21:56.858  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 99 0 -93 -115 -120 -1 -1 21 -107 -19 -92 2147483647 2147483647 gsm|lte
+12-21 19:21:58.055  2448  2448 E PHONE   : [ServiceState] setState deprecated use setVoiceRegState()
+12-21 19:22:01.862  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 99 0 -93 -115 -120 -1 -1 21 -107 -19 -92 2147483647 2147483647 gsm|lte
+12-21 19:22:01.862  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 99 0 -87 -105 -120 -1 -1 20 -115 -20 0 2147483647 2147483647 gsm|lte
+12-21 19:22:06.863  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 99 0 -87 -105 -120 -1 -1 20 -115 -20 0 2147483647 2147483647 gsm|lte
+12-21 19:22:06.863  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 99 0 -85 -115 -120 -1 -1 20 -110 -16 -14 2147483647 2147483647 gsm|lte
+12-21 19:22:11.970  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 99 0 -85 -115 -120 -1 -1 20 -110 -16 -14 2147483647 2147483647 gsm|lte
+12-21 19:22:11.971  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 99 0 -84 -105 -120 -1 -1 20 -110 -16 -14 2147483647 2147483647 gsm|lte
+12-21 19:22:16.974  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 99 0 -84 -105 -120 -1 -1 20 -110 -16 -14 2147483647 2147483647 gsm|lte
+12-21 19:22:16.974  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 99 0 -83 -125 -120 -1 -1 20 -109 -18 -62 2147483647 2147483647 gsm|lte
+12-21 19:22:21.975  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 99 0 -83 -125 -120 -1 -1 20 -109 -18 -62 2147483647 2147483647 gsm|lte
+12-21 19:22:21.975  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 99 0 -83 -115 -120 -1 -1 20 -109 -15 -52 2147483647 2147483647 gsm|lte
+12-21 19:22:29.889  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 99 0 -83 -115 -120 -1 -1 20 -109 -15 -52 2147483647 2147483647 gsm|lte
+12-21 19:22:29.889  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 99 0 -83 -115 -120 -1 -1 21 -107 -16 -60 2147483647 2147483647 gsm|lte
+12-21 19:22:37.572  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 99 0 -83 -115 -120 -1 -1 21 -107 -16 -60 2147483647 2147483647 gsm|lte
+12-21 19:22:37.572  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 99 0 -83 -115 -120 -1 -1 21 -109 -17 -70 2147483647 2147483647 gsm|lte
+12-21 19:22:42.689  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 99 0 -83 -115 -120 -1 -1 21 -109 -17 -70 2147483647 2147483647 gsm|lte
+12-21 19:22:42.690  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 99 0 -83 -125 -120 -1 -1 20 -110 -16 -64 2147483647 2147483647 gsm|lte
+12-21 19:22:47.692  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 99 0 -83 -125 -120 -1 -1 20 -110 -16 -64 2147483647 2147483647 gsm|lte
+12-21 19:22:47.692  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 99 0 -83 -115 -120 -1 -1 20 -109 -14 -58 2147483647 2147483647 gsm|lte
+12-21 19:22:52.695  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 99 0 -83 -115 -120 -1 -1 20 -109 -14 -58 2147483647 2147483647 gsm|lte
+12-21 19:22:52.695  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 99 0 -83 -125 -120 -1 -1 20 -109 -15 -28 2147483647 2147483647 gsm|lte
+12-21 19:22:53.021  2448  2448 E PHONE   : [ServiceState] setState deprecated use setVoiceRegState()
+12-21 19:22:57.698  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 99 0 -83 -125 -120 -1 -1 20 -109 -15 -28 2147483647 2147483647 gsm|lte
+12-21 19:22:57.698  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 99 0 -89 -75 -120 -1 -1 19 -108 -12 24 2147483647 2147483647 gsm|lte
+12-21 19:22:58.154  2448  2448 E PHONE   : [ServiceState] setState deprecated use setVoiceRegState()
+12-21 19:23:00.714  2448  2448 E PHONE   : [ServiceState] setState deprecated use setVoiceRegState()
+12-21 19:23:02.701  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 99 0 -89 -75 -120 -1 -1 19 -108 -12 24 2147483647 2147483647 gsm|lte
+12-21 19:23:02.702  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 99 0 -98 -135 -120 -1 -1 20 -113 -20 -110 2147483647 2147483647 gsm|lte
+12-21 19:23:05.819  2448  2448 E PHONE   : [ServiceState] setState deprecated use setVoiceRegState()
+12-21 19:23:07.705  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 99 0 -98 -135 -120 -1 -1 20 -113 -20 -110 2147483647 2147483647 gsm|lte
+12-21 19:23:07.705  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 99 0 -102 -105 -120 -1 -1 20 -115 -20 -98 2147483647 2147483647 gsm|lte
+12-21 19:23:12.707  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 99 0 -102 -105 -120 -1 -1 20 -115 -20 -98 2147483647 2147483647 gsm|lte
+12-21 19:23:12.707  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 99 0 -98 -115 -120 -1 -1 19 -112 -17 -66 2147483647 2147483647 gsm|lte
+12-21 19:23:13.507  2448  2448 E PHONE   : [ServiceState] setState deprecated use setVoiceRegState()
+12-21 19:23:14.970  2448  2448 E PHONE   : [ServiceState] setState deprecated use setVoiceRegState()
+12-21 19:23:17.709  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 99 0 -98 -115 -120 -1 -1 19 -112 -17 -66 2147483647 2147483647 gsm|lte
+12-21 19:23:17.709  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 99 0 -99 -125 -120 -1 -1 20 -110 -18 18 2147483647 2147483647 gsm|lte
+12-21 19:23:22.710  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 99 0 -99 -125 -120 -1 -1 20 -110 -18 18 2147483647 2147483647 gsm|lte
+12-21 19:23:22.711  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 99 0 -95 -105 -120 -1 -1 20 -105 -12 18 2147483647 2147483647 gsm|lte
+12-21 19:23:27.715  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 99 0 -95 -105 -120 -1 -1 20 -105 -12 18 2147483647 2147483647 gsm|lte
+12-21 19:23:27.715  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 99 0 -92 -90 -120 -1 -1 20 -106 -13 16 2147483647 2147483647 gsm|lte
+12-21 19:23:32.718  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 99 0 -92 -90 -120 -1 -1 20 -106 -13 16 2147483647 2147483647 gsm|lte
+12-21 19:23:32.718  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 99 0 -91 -100 -120 -1 -1 20 -108 -15 -28 2147483647 2147483647 gsm|lte
+12-21 19:23:37.719  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 99 0 -91 -100 -120 -1 -1 20 -108 -15 -28 2147483647 2147483647 gsm|lte
+12-21 19:23:37.719  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 99 0 -91 -140 -120 -1 -1 19 -109 -14 -10 2147483647 2147483647 gsm|lte
+12-21 19:23:42.722  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 99 0 -91 -140 -120 -1 -1 19 -109 -14 -10 2147483647 2147483647 gsm|lte
+12-21 19:23:42.722  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 99 0 -88 -95 -120 -1 -1 19 -109 -14 -10 2147483647 2147483647 gsm|lte
+12-21 19:23:46.784  2448  2448 E PHONE   : [ServiceState] setState deprecated use setVoiceRegState()
+12-21 19:23:47.724  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 99 0 -88 -95 -120 -1 -1 19 -109 -14 -10 2147483647 2147483647 gsm|lte
+12-21 19:23:47.724  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 99 0 -93 -135 -120 -1 -1 19 -109 -12 -24 2147483647 2147483647 gsm|lte
+12-21 19:23:49.350  2448  2448 E PHONE   : [ServiceState] setState deprecated use setVoiceRegState()
+12-21 19:23:52.725  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 99 0 -93 -135 -120 -1 -1 19 -109 -12 -24 2147483647 2147483647 gsm|lte
+12-21 19:23:52.725  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 99 0 -96 -110 -120 -1 -1 19 -111 -16 -34 2147483647 2147483647 gsm|lte
+12-21 19:23:55.938  2448  2448 E PHONE   : [ServiceState] setState deprecated use setVoiceRegState()
+12-21 19:23:57.727  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 99 0 -96 -110 -120 -1 -1 19 -111 -16 -34 2147483647 2147483647 gsm|lte
+12-21 19:23:57.727  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 99 0 -92 -125 -120 -1 -1 16 -116 -14 -2 2147483647 2147483647 gsm|lte
+12-21 19:23:59.593  2448  2448 E PHONE   : [ServiceState] setState deprecated use setVoiceRegState()
+12-21 19:24:02.731  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 99 0 -92 -125 -120 -1 -1 16 -116 -14 -2 2147483647 2147483647 gsm|lte
+12-21 19:24:02.731  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 99 0 -96 -130 -120 -1 -1 19 -109 -13 -6 2147483647 2147483647 gsm|lte
+12-21 19:24:07.540  2448  2448 E PHONE   : [ServiceState] setState deprecated use setVoiceRegState()
+12-21 19:24:07.732  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 99 0 -96 -130 -120 -1 -1 19 -109 -13 -6 2147483647 2147483647 gsm|lte
+12-21 19:24:07.732  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 99 0 -91 -130 -120 -1 -1 18 -111 -14 16 2147483647 2147483647 gsm|lte
+12-21 19:24:08.437  2448  2448 E PHONE   : [ServiceState] setState deprecated use setVoiceRegState()
+12-21 19:24:12.733  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 99 0 -91 -130 -120 -1 -1 18 -111 -14 16 2147483647 2147483647 gsm|lte
+12-21 19:24:12.733  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 99 0 -88 -145 -120 -1 -1 19 -111 -17 -40 2147483647 2147483647 gsm|lte
+12-21 19:24:17.735  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 99 0 -88 -145 -120 -1 -1 19 -111 -17 -40 2147483647 2147483647 gsm|lte
+12-21 19:24:17.735  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 99 0 -88 -145 -120 -1 -1 19 -110 -15 -22 2147483647 2147483647 gsm|lte
+12-21 19:24:20.064  2448  2448 E PHONE   : [ServiceState] setState deprecated use setVoiceRegState()
+12-21 19:24:22.736  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 99 0 -88 -145 -120 -1 -1 19 -110 -15 -22 2147483647 2147483647 gsm|lte
+12-21 19:24:22.736  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 99 0 -92 -115 -120 -1 -1 19 -110 -17 -54 2147483647 2147483647 gsm|lte
+12-21 19:24:27.737  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 99 0 -92 -115 -120 -1 -1 19 -110 -17 -54 2147483647 2147483647 gsm|lte
+12-21 19:24:27.737  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 99 0 -90 -120 -120 -1 -1 19 -111 -18 -32 2147483647 2147483647 gsm|lte
+12-21 19:24:32.740  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 99 0 -90 -120 -120 -1 -1 19 -111 -18 -32 2147483647 2147483647 gsm|lte
+12-21 19:24:32.740  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 99 0 -90 -120 -120 -1 -1 19 -109 -16 -22 2147483647 2147483647 gsm|lte
+12-21 19:24:37.741  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 99 0 -90 -120 -120 -1 -1 19 -109 -16 -22 2147483647 2147483647 gsm|lte
+12-21 19:24:37.741  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 99 0 -88 -130 -120 -1 -1 19 -111 -15 -16 2147483647 2147483647 gsm|lte
+12-21 19:24:42.743  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 99 0 -88 -130 -120 -1 -1 19 -111 -15 -16 2147483647 2147483647 gsm|lte
+12-21 19:24:42.743  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 99 0 -87 -140 -120 -1 -1 19 -110 -16 -36 2147483647 2147483647 gsm|lte
+12-21 19:24:47.746  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 99 0 -87 -140 -120 -1 -1 19 -110 -16 -36 2147483647 2147483647 gsm|lte
+12-21 19:24:47.746  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 99 0 -88 -160 -120 -1 -1 19 -109 -14 -20 2147483647 2147483647 gsm|lte
+12-21 19:24:52.746  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 99 0 -88 -160 -120 -1 -1 19 -109 -14 -20 2147483647 2147483647 gsm|lte
+12-21 19:24:52.746  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 99 0 -87 -115 -120 -1 -1 19 -110 -15 -44 2147483647 2147483647 gsm|lte
+12-21 19:24:57.751  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 99 0 -87 -115 -120 -1 -1 19 -110 -15 -44 2147483647 2147483647 gsm|lte
+12-21 19:24:57.751  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 99 0 -87 -115 -120 -1 -1 19 -109 -16 -54 2147483647 2147483647 gsm|lte
+12-21 19:25:01.007  2448  2448 E PHONE   : [ServiceState] setState deprecated use setVoiceRegState()
+12-21 19:25:02.753  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 99 0 -87 -115 -120 -1 -1 19 -109 -16 -54 2147483647 2147483647 gsm|lte
+12-21 19:25:02.754  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 99 0 -93 -130 -120 -1 -1 18 -110 -14 -2 2147483647 2147483647 gsm|lte
+12-21 19:25:11.171  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 99 0 -93 -130 -120 -1 -1 18 -110 -14 -2 2147483647 2147483647 gsm|lte
+12-21 19:25:11.171  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 99 0 -91 -135 -120 -1 -1 19 -110 -15 -50 2147483647 2147483647 gsm|lte
+12-21 19:25:16.174  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 99 0 -91 -135 -120 -1 -1 19 -110 -15 -50 2147483647 2147483647 gsm|lte
+12-21 19:25:16.174  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 99 0 -89 -135 -120 -1 -1 18 -111 -14 -6 2147483647 2147483647 gsm|lte
+12-21 19:25:21.177  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 99 0 -89 -135 -120 -1 -1 18 -111 -14 -6 2147483647 2147483647 gsm|lte
+12-21 19:25:21.177  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 99 0 -89 -135 -120 -1 -1 20 -109 -15 -36 2147483647 2147483647 gsm|lte
+12-21 19:25:26.180  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 99 0 -89 -135 -120 -1 -1 20 -109 -15 -36 2147483647 2147483647 gsm|lte
+12-21 19:25:26.180  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 99 0 -89 -135 -120 -1 -1 20 -110 -15 -46 2147483647 2147483647 gsm|lte
+12-21 19:25:26.599  2448  2448 E PHONE   : [ServiceState] setState deprecated use setVoiceRegState()
+12-21 19:25:31.182  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 99 0 -89 -135 -120 -1 -1 20 -110 -15 -46 2147483647 2147483647 gsm|lte
+12-21 19:25:31.182  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 99 0 -87 -150 -120 -1 -1 19 -108 -15 -16 2147483647 2147483647 gsm|lte
+12-21 19:25:31.742  2448  2448 E PHONE   : [ServiceState] setState deprecated use setVoiceRegState()
+12-21 19:25:36.183  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 99 0 -87 -150 -120 -1 -1 19 -108 -15 -16 2147483647 2147483647 gsm|lte
+12-21 19:25:36.183  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 99 0 -93 -130 -120 -1 -1 19 -108 -15 -16 2147483647 2147483647 gsm|lte
+12-21 19:25:41.185  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 99 0 -93 -130 -120 -1 -1 19 -108 -15 -16 2147483647 2147483647 gsm|lte
+12-21 19:25:41.185  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 99 0 -90 -135 -120 -1 -1 19 -109 -13 -14 2147483647 2147483647 gsm|lte
+12-21 19:25:46.186  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 99 0 -90 -135 -120 -1 -1 19 -109 -13 -14 2147483647 2147483647 gsm|lte
+12-21 19:25:46.186  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 99 0 -87 -130 -120 -1 -1 19 -109 -15 -10 2147483647 2147483647 gsm|lte
+12-21 19:25:51.188  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 99 0 -87 -130 -120 -1 -1 19 -109 -15 -10 2147483647 2147483647 gsm|lte
+12-21 19:25:51.189  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 99 0 -86 -120 -120 -1 -1 22 -104 -15 -30 2147483647 2147483647 gsm|lte
+12-21 19:25:56.191  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 99 0 -86 -120 -120 -1 -1 22 -104 -15 -30 2147483647 2147483647 gsm|lte
+12-21 19:25:56.191  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 99 0 -86 -130 -120 -1 -1 19 -109 -16 -42 2147483647 2147483647 gsm|lte
+12-21 19:26:01.192  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 99 0 -86 -130 -120 -1 -1 19 -109 -16 -42 2147483647 2147483647 gsm|lte
+12-21 19:26:01.192  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 99 0 -86 -140 -120 -1 -1 19 -109 -16 -34 2147483647 2147483647 gsm|lte
+12-21 19:26:06.193  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 99 0 -86 -140 -120 -1 -1 19 -109 -16 -34 2147483647 2147483647 gsm|lte
+12-21 19:26:06.193  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 99 0 -86 -130 -120 -1 -1 19 -109 -15 -26 2147483647 2147483647 gsm|lte
+12-21 19:26:11.196  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 99 0 -86 -130 -120 -1 -1 19 -109 -15 -26 2147483647 2147483647 gsm|lte
+12-21 19:26:11.196  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 99 0 -86 -130 -120 -1 -1 21 -109 -18 0 2147483647 2147483647 gsm|lte
+12-21 19:26:16.197  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 99 0 -86 -130 -120 -1 -1 21 -109 -18 0 2147483647 2147483647 gsm|lte
+12-21 19:26:16.197  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 99 0 -84 -115 -120 -1 -1 20 -105 -13 20 2147483647 2147483647 gsm|lte
+12-21 19:26:21.198  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 99 0 -84 -115 -120 -1 -1 20 -105 -13 20 2147483647 2147483647 gsm|lte
+12-21 19:26:21.198  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 99 0 -84 -125 -120 -1 -1 19 -106 -12 14 2147483647 2147483647 gsm|lte
+12-21 19:26:26.199  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 99 0 -84 -125 -120 -1 -1 19 -106 -12 14 2147483647 2147483647 gsm|lte
+12-21 19:26:26.199  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 99 0 -84 -145 -120 -1 -1 19 -108 -12 16 2147483647 2147483647 gsm|lte
+12-21 19:26:31.202  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 99 0 -84 -145 -120 -1 -1 19 -108 -12 16 2147483647 2147483647 gsm|lte
+12-21 19:26:31.202  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 99 0 -84 -135 -120 -1 -1 19 -107 -14 -16 2147483647 2147483647 gsm|lte
+12-21 19:26:36.206  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 99 0 -84 -135 -120 -1 -1 19 -107 -14 -16 2147483647 2147483647 gsm|lte
+12-21 19:26:36.206  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 99 0 -84 -135 -120 -1 -1 20 -107 -15 -44 2147483647 2147483647 gsm|lte
+12-21 19:26:41.208  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 99 0 -84 -135 -120 -1 -1 20 -107 -15 -44 2147483647 2147483647 gsm|lte
+12-21 19:26:41.208  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 99 0 -86 -155 -120 -1 -1 18 -108 -12 14 2147483647 2147483647 gsm|lte
+12-21 19:26:46.208  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 99 0 -86 -155 -120 -1 -1 18 -108 -12 14 2147483647 2147483647 gsm|lte
+12-21 19:26:46.209  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 99 0 -86 -130 -120 -1 -1 20 -107 -14 -40 2147483647 2147483647 gsm|lte
+12-21 19:26:51.209  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 99 0 -86 -130 -120 -1 -1 20 -107 -14 -40 2147483647 2147483647 gsm|lte
+12-21 19:26:51.209  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 99 0 -86 -135 -120 -1 -1 20 -109 -14 -8 2147483647 2147483647 gsm|lte
+12-21 19:26:56.211  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 99 0 -86 -135 -120 -1 -1 20 -109 -14 -8 2147483647 2147483647 gsm|lte
+12-21 19:26:56.211  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 99 0 -95 -140 -120 -1 -1 20 -107 -13 14 2147483647 2147483647 gsm|lte
+12-21 19:27:01.215  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 99 0 -95 -140 -120 -1 -1 20 -107 -13 14 2147483647 2147483647 gsm|lte
+12-21 19:27:01.215  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 99 0 -92 -150 -120 -1 -1 20 -107 -13 14 2147483647 2147483647 gsm|lte
+12-21 19:27:06.219  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 99 0 -92 -150 -120 -1 -1 20 -107 -13 14 2147483647 2147483647 gsm|lte
+12-21 19:27:06.220  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 99 0 -91 -175 -120 -1 -1 20 -107 -11 24 2147483647 2147483647 gsm|lte
+12-21 19:27:06.688  2448  2448 E PHONE   : [ServiceState] setState deprecated use setVoiceRegState()
+12-21 19:27:09.625  2448  2448 E PHONE   : [ServiceState] setState deprecated use setVoiceRegState()
+12-21 19:27:11.222  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 99 0 -91 -175 -120 -1 -1 20 -107 -11 24 2147483647 2147483647 gsm|lte
+12-21 19:27:11.223  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 99 0 -97 -150 -120 -1 -1 20 -109 -16 -26 2147483647 2147483647 gsm|lte
+12-21 19:27:11.868  2448  2448 E PHONE   : [ServiceState] setState deprecated use setVoiceRegState()
+12-21 19:27:11.894  2448  2448 E PHONE   : [ServiceState] setState deprecated use setVoiceRegState()
+12-21 19:27:16.226  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 99 0 -97 -150 -120 -1 -1 20 -109 -16 -26 2147483647 2147483647 gsm|lte
+12-21 19:27:16.226  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 99 0 -89 -140 -120 -1 -1 20 -108 -14 -12 2147483647 2147483647 gsm|lte
+12-21 19:27:21.228  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 99 0 -89 -140 -120 -1 -1 20 -108 -14 -12 2147483647 2147483647 gsm|lte
+12-21 19:27:21.228  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 99 0 -87 -125 -120 -1 -1 20 -109 -15 -6 2147483647 2147483647 gsm|lte
+12-21 19:27:26.230  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 99 0 -87 -125 -120 -1 -1 20 -109 -15 -6 2147483647 2147483647 gsm|lte
+12-21 19:27:26.230  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 99 0 -86 -115 -120 -1 -1 20 -109 -16 -26 2147483647 2147483647 gsm|lte
+12-21 19:27:31.233  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 99 0 -86 -115 -120 -1 -1 20 -109 -16 -26 2147483647 2147483647 gsm|lte
+12-21 19:27:31.233  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 99 0 -86 -125 -120 -1 -1 20 -107 -15 -22 2147483647 2147483647 gsm|lte
+12-21 19:27:36.234  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 99 0 -86 -125 -120 -1 -1 20 -107 -15 -22 2147483647 2147483647 gsm|lte
+12-21 19:27:36.235  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 99 0 -92 -230 -120 -1 -1 20 -108 -15 -28 2147483647 2147483647 gsm|lte
+12-21 19:27:41.383   843   946 E RILQ    : (1/843): RIL[1][event] qcril_uim_update_pbm_card_event: PBM_HANDLE_CARD 397315 processing Failed!
+12-21 19:27:41.394  2448  2448 E IccCardProxy/0: setExternalState: !override and newstate unchanged from READY
+12-21 19:27:41.395  2448  2448 E IccCardProxy/1: setExternalState: !override and newstate unchanged from ABSENT
+12-21 19:27:41.403   546   938 E RILQ    : (0/546): RIL[0][event] qcril_uim_update_pbm_card_event: PBM_HANDLE_CARD 397315 processing Failed!
+12-21 19:27:41.408   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-21 19:27:41.499   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-21 19:27:41.499  2448  2448 E PHONE   : [ServiceState] setState deprecated use setVoiceRegState()
+12-21 19:27:41.501   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-21 19:27:41.501  2448  2448 E CdmaSST_0: [CdmaLteSST] handlePollStateResultMessage: bad tac states[6]=null e=java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+12-21 19:27:41.501  2448  2448 E CdmaSST_0: [CdmaLteSST] handlePollStateResultMessage: bad pci states[7]=null e=java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+12-21 19:27:41.501  2448  2448 E CdmaSST_0: [CdmaLteSST] handlePollStateResultMessage: bad eci states[8]=null e=java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+12-21 19:27:41.575  2448  2448 E IccCardProxy/0: setExternalState: set mPhoneId=0 mExternalState=ABSENT
+12-21 19:27:41.579  2448  2448 E IccCardProxy/0: setExternalState: !override and newstate unchanged from ABSENT
+12-21 19:27:41.580  2448  2448 E IccCardProxy/1: setExternalState: !override and newstate unchanged from ABSENT
+12-21 19:27:41.673  2448  2448 E IccCardProxy/0: setExternalState: !override and newstate unchanged from ABSENT
+12-21 19:27:41.674  2448  2448 E CdmaSST_0: [CdmaLteSST] handlePollStateResultMessage: bad tac states[6]=null e=java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+12-21 19:27:41.674  2448  2448 E CdmaSST_0: [CdmaLteSST] handlePollStateResultMessage: bad pci states[7]=null e=java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+12-21 19:27:41.674  2448  2448 E CdmaSST_0: [CdmaLteSST] handlePollStateResultMessage: bad eci states[8]=null e=java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+12-21 19:27:41.674  2448  2448 E PHONE   : [ServiceState] setState deprecated use setVoiceRegState()
+12-21 19:27:41.755  2448  2448 E CDMAPhone: getOperatorNumeric: Cannot retrieve operatorNumeric: mCdmaSubscriptionSource = 0 mIccRecords = null
+12-21 19:27:41.964   546   938 E RILQ    : (0/546): RIL[0][event] qcril_qmi_nas_report_restricted_details: .. reporting 2
+12-21 19:27:41.965  2448  2448 E GsmSST_0: Received message { when=0 what=23 obj=android.os.AsyncResult@1a82a68 target=com.qti.internal.telephony.gsm.QtiGsmServiceStateTracker }[23] while being destroyed. Ignoring.
+12-21 19:27:41.971  2448  2448 E CdmaSST_0: [CdmaLteSST] regCodeToServiceState: unexpected service state 12
+12-21 19:27:41.971  2448  2448 E PHONE   : [ServiceState] setState deprecated use setVoiceRegState()
+12-21 19:27:41.976  2448  2448 E CdmaSST_0: [CdmaLteSST] handlePollStateResultMessage: bad tac states[6]=null e=java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+12-21 19:27:41.976  2448  2448 E CdmaSST_0: [CdmaLteSST] handlePollStateResultMessage: bad pci states[7]=null e=java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+12-21 19:27:41.976  2448  2448 E CdmaSST_0: [CdmaLteSST] handlePollStateResultMessage: bad eci states[8]=null e=java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+12-21 19:27:41.977   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-21 19:27:41.977   546   927 E RILQ    : (0/546): RIL[0][main] qcril_qmi_nas_report_restricted_details: .. reporting 2
+12-21 19:27:41.979   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-21 19:27:41.980   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-21 19:27:41.981  2448  2448 E GsmSST_0: Received message { when=-4ms what=23 obj=android.os.AsyncResult@1280b26 target=com.qti.internal.telephony.gsm.QtiGsmServiceStateTracker }[23] while being destroyed. Ignoring.
+12-21 19:27:41.994  2448  2448 E CdmaSST_0: [CdmaLteSST] handlePollStateResultMessage: bad tac states[6]=null e=java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+12-21 19:27:41.994  2448  2448 E CdmaSST_0: [CdmaLteSST] handlePollStateResultMessage: bad pci states[7]=null e=java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+12-21 19:27:41.994  2448  2448 E CdmaSST_0: [CdmaLteSST] handlePollStateResultMessage: bad eci states[8]=null e=java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+12-21 19:27:41.994  2448  2448 E CdmaSST_0: [CdmaLteSST] regCodeToServiceState: unexpected service state 12
+12-21 19:27:41.994  2448  2448 E PHONE   : [ServiceState] setState deprecated use setVoiceRegState()
+12-21 19:27:42.002  2448  2448 E CAT     : StkAppService: onStart get CatService instance dynamic
+12-21 19:27:42.375  2448  2448 E CdmaSST_0: [CdmaLteSST] regCodeToServiceState: unexpected service state 12
+12-21 19:27:42.375  2448  2448 E PHONE   : [ServiceState] setState deprecated use setVoiceRegState()
+12-21 19:27:42.383  2448  2448 E CdmaSST_0: [CdmaLteSST] handlePollStateResultMessage: bad tac states[6]=null e=java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+12-21 19:27:42.383  2448  2448 E CdmaSST_0: [CdmaLteSST] handlePollStateResultMessage: bad pci states[7]=null e=java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+12-21 19:27:42.383  2448  2448 E CdmaSST_0: [CdmaLteSST] handlePollStateResultMessage: bad eci states[8]=null e=java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+12-21 19:30:01.966   546   938 E RILQ    : (0/546): RIL[0][event] qcril_uim_update_pbm_card_event: PBM_HANDLE_CARD 397315 processing Failed!
+12-21 19:30:01.966   546   938 E RILQ    : (0/546): RIL[0][event] qcril_uim_update_pbm_card_event: PBM_HANDLE_CARD 397315 processing Failed!
+12-21 19:30:01.968   843   946 E RILQ    : (1/843): RIL[1][event] qcril_uim_update_pbm_card_event: PBM_HANDLE_CARD 397315 processing Failed!
+12-21 19:30:01.968   843   946 E RILQ    : (1/843): RIL[1][event] qcril_uim_update_pbm_card_event: PBM_HANDLE_CARD 397315 processing Failed!
+12-21 19:30:01.973  2448  2448 E IccCardProxy/0: setExternalState: !override and newstate unchanged from ABSENT
+12-21 19:30:01.973  2448  2448 E IccCardProxy/1: setExternalState: !override and newstate unchanged from ABSENT
+12-21 19:30:01.975  2448  2448 E IccCardProxy/0: setExternalState: !override and newstate unchanged from ABSENT
+12-21 19:30:01.975  2448  2448 E IccCardProxy/1: setExternalState: !override and newstate unchanged from ABSENT
+12-21 19:30:02.847   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-21 19:30:02.849   843   946 E RILQ    : (1/843): RIL[1][event] qcril_qmi_voice_nas_control_convert_radio_tech_to_radio_tech_family: invalid radio tech = 16
+12-21 19:30:02.849   843   946 E RILQ    : (1/843): RIL[1][event] qcril_qmi_voice_nas_control_convert_radio_tech_to_radio_tech_family: invalid radio tech = 16
+12-21 19:30:02.849   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-21 19:30:02.849  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 99 0 -92 -230 -120 -1 -1 20 -108 -15 -28 2147483647 2147483647 gsm|lte
+12-21 19:30:02.849  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 22 0 -120 -160 -120 -1 -1 99 2147483647 2147483647 2147483647 2147483647 2147483647 cdma
+12-21 19:30:02.850   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-21 19:30:02.851   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-21 19:30:02.851   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-21 19:30:02.858  2448  2448 E CdmaSST_0: [CdmaLteSST] regCodeToServiceState: unexpected service state 12
+12-21 19:30:02.859  2448  2448 E PHONE   : [ServiceState] setState deprecated use setVoiceRegState()
+12-21 19:30:02.860   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-21 19:30:02.865  2448  2448 E CdmaSST_0: [CdmaLteSST] handlePollStateResultMessage: bad tac states[6]=null e=java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+12-21 19:30:02.865   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-21 19:30:02.865  2448  2448 E CdmaSST_0: [CdmaLteSST] handlePollStateResultMessage: bad pci states[7]=null e=java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+12-21 19:30:02.865  2448  2448 E CdmaSST_0: [CdmaLteSST] handlePollStateResultMessage: bad eci states[8]=null e=java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+12-21 19:30:02.866   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-21 19:30:40.532  2448  2885 E RIL_UiccSmsController: Subscription 2147483644 is inactive.
+12-21 19:30:40.532  2448  2885 E RIL_UiccSmsController: iccSmsIntMgr is null for  subId: 2147483644
+12-21 19:30:40.536  2448  2461 E RIL_UiccSmsController: Subscription 2147483643 is inactive.
+12-21 19:30:40.536  2448  2461 E RIL_UiccSmsController: iccSmsIntMgr is null for  subId: 2147483643
+12-22 09:39:43.502   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-22 09:39:43.503   843   946 E RILQ    : (1/843): RIL[1][event] qcril_qmi_voice_nas_control_convert_radio_tech_to_radio_tech_family: invalid radio tech = 16
+12-22 09:39:43.503   843   946 E RILQ    : (1/843): RIL[1][event] qcril_qmi_voice_nas_control_convert_radio_tech_to_radio_tech_family: invalid radio tech = 16
+12-22 09:39:43.504   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-22 09:39:43.504  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 22 0 -120 -160 -120 -1 -1 99 2147483647 2147483647 2147483647 2147483647 2147483647 cdma
+12-22 09:39:43.504  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 20 0 -120 -160 -120 -1 -1 99 2147483647 2147483647 2147483647 2147483647 2147483647 cdma
+12-22 09:39:43.505   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-22 09:39:43.506   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-22 09:39:43.506   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-22 09:39:43.519  2448  2448 E CdmaSST_0: [CdmaLteSST] handlePollStateResultMessage: bad tac states[6]=null e=java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+12-22 09:39:43.519  2448  2448 E CdmaSST_0: [CdmaLteSST] handlePollStateResultMessage: bad pci states[7]=null e=java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+12-22 09:39:43.519  2448  2448 E CdmaSST_0: [CdmaLteSST] handlePollStateResultMessage: bad eci states[8]=null e=java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+12-22 09:39:43.519   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-22 09:39:43.521  2448  2448 E CdmaSST_0: [CdmaLteSST] regCodeToServiceState: unexpected service state 12
+12-22 09:39:43.521  2448  2448 E PHONE   : [ServiceState] setState deprecated use setVoiceRegState()
+12-22 09:39:43.530   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-22 09:39:43.532   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-22 10:37:59.711   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-22 10:37:59.712   843   946 E RILQ    : (1/843): RIL[1][event] qcril_qmi_voice_nas_control_convert_radio_tech_to_radio_tech_family: invalid radio tech = 16
+12-22 10:37:59.712   843   946 E RILQ    : (1/843): RIL[1][event] qcril_qmi_voice_nas_control_convert_radio_tech_to_radio_tech_family: invalid radio tech = 16
+12-22 10:37:59.713   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-22 10:37:59.713   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-22 10:37:59.716  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 20 0 -120 -160 -120 -1 -1 99 2147483647 2147483647 2147483647 2147483647 2147483647 cdma
+12-22 10:37:59.716  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 25 0 -120 -160 -120 -1 -1 99 2147483647 2147483647 2147483647 2147483647 2147483647 cdma
+12-22 10:37:59.720   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-22 10:37:59.721   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-22 10:37:59.726   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-22 10:37:59.727  2448  2448 E CdmaSST_0: [CdmaLteSST] regCodeToServiceState: unexpected service state 12
+12-22 10:37:59.727  2448  2448 E PHONE   : [ServiceState] setState deprecated use setVoiceRegState()
+12-22 10:37:59.729   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-22 10:37:59.731   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-22 10:37:59.731  2448  2448 E CdmaSST_0: [CdmaLteSST] handlePollStateResultMessage: bad tac states[6]=null e=java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+12-22 10:37:59.731  2448  2448 E CdmaSST_0: [CdmaLteSST] handlePollStateResultMessage: bad pci states[7]=null e=java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+12-22 10:37:59.731  2448  2448 E CdmaSST_0: [CdmaLteSST] handlePollStateResultMessage: bad eci states[8]=null e=java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+12-22 11:28:38.583   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-22 11:28:38.585   843   946 E RILQ    : (1/843): RIL[1][event] qcril_qmi_voice_nas_control_convert_radio_tech_to_radio_tech_family: invalid radio tech = 16
+12-22 11:28:38.585   843   946 E RILQ    : (1/843): RIL[1][event] qcril_qmi_voice_nas_control_convert_radio_tech_to_radio_tech_family: invalid radio tech = 16
+12-22 11:28:38.585   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-22 11:28:38.586   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-22 11:28:38.587   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-22 11:28:38.588   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-22 11:28:38.589   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-22 11:28:38.592  2448  2448 E CdmaSST_0: [CdmaLteSST] regCodeToServiceState: unexpected service state 12
+12-22 11:28:38.592  2448  2448 E PHONE   : [ServiceState] setState deprecated use setVoiceRegState()
+12-22 11:28:38.598   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-22 11:28:38.599   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-22 11:28:38.600  2448  2448 E CdmaSST_0: [CdmaLteSST] handlePollStateResultMessage: bad tac states[6]=null e=java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+12-22 11:28:38.600  2448  2448 E CdmaSST_0: [CdmaLteSST] handlePollStateResultMessage: bad pci states[7]=null e=java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+12-22 11:28:38.600  2448  2448 E CdmaSST_0: [CdmaLteSST] handlePollStateResultMessage: bad eci states[8]=null e=java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+12-22 12:09:30.216   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-22 12:09:30.217   843   946 E RILQ    : (1/843): RIL[1][event] qcril_qmi_voice_nas_control_convert_radio_tech_to_radio_tech_family: invalid radio tech = 16
+12-22 12:09:30.217   843   946 E RILQ    : (1/843): RIL[1][event] qcril_qmi_voice_nas_control_convert_radio_tech_to_radio_tech_family: invalid radio tech = 16
+12-22 12:09:30.220  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 25 0 -120 -160 -120 -1 -1 99 2147483647 2147483647 2147483647 2147483647 2147483647 cdma
+12-22 12:09:30.220  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 20 0 -120 -160 -120 -1 -1 99 2147483647 2147483647 2147483647 2147483647 2147483647 cdma
+12-22 12:09:30.224   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-22 12:09:30.225   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-22 12:09:30.226   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-22 12:09:30.226   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-22 12:09:30.228   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-22 12:09:30.232   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-22 12:09:30.233   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-22 12:09:30.240  2448  2448 E CdmaSST_0: [CdmaLteSST] handlePollStateResultMessage: bad tac states[6]=null e=java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+12-22 12:09:30.240  2448  2448 E CdmaSST_0: [CdmaLteSST] handlePollStateResultMessage: bad pci states[7]=null e=java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+12-22 12:09:30.240  2448  2448 E CdmaSST_0: [CdmaLteSST] handlePollStateResultMessage: bad eci states[8]=null e=java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+12-22 12:09:30.241  2448  2448 E CdmaSST_0: [CdmaLteSST] regCodeToServiceState: unexpected service state 12
+12-22 12:09:30.241  2448  2448 E PHONE   : [ServiceState] setState deprecated use setVoiceRegState()
+12-22 12:09:45.735   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-22 12:09:45.736   843   946 E RILQ    : (1/843): RIL[1][event] qcril_qmi_voice_nas_control_convert_radio_tech_to_radio_tech_family: invalid radio tech = 16
+12-22 12:09:45.736   843   946 E RILQ    : (1/843): RIL[1][event] qcril_qmi_voice_nas_control_convert_radio_tech_to_radio_tech_family: invalid radio tech = 16
+12-22 12:09:45.738   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-22 12:09:45.739   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-22 12:09:45.739  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 20 0 -120 -160 -120 -1 -1 99 2147483647 2147483647 2147483647 2147483647 2147483647 cdma
+12-22 12:09:45.739  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 23 0 -120 -160 -120 -1 -1 99 2147483647 2147483647 2147483647 2147483647 2147483647 cdma
+12-22 12:09:45.741   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-22 12:09:45.741   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-22 12:09:45.745  2448  2448 E CdmaSST_0: [CdmaLteSST] regCodeToServiceState: unexpected service state 12
+12-22 12:09:45.745  2448  2448 E PHONE   : [ServiceState] setState deprecated use setVoiceRegState()
+12-22 12:09:45.750  2448  2448 E CdmaSST_0: [CdmaLteSST] handlePollStateResultMessage: bad tac states[6]=null e=java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+12-22 12:09:45.750  2448  2448 E CdmaSST_0: [CdmaLteSST] handlePollStateResultMessage: bad pci states[7]=null e=java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+12-22 12:09:45.750  2448  2448 E CdmaSST_0: [CdmaLteSST] handlePollStateResultMessage: bad eci states[8]=null e=java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+12-22 12:09:45.752   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-22 12:09:45.756   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-22 12:09:45.757   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-22 13:26:51.417   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-22 13:26:51.420   843   946 E RILQ    : (1/843): RIL[1][event] qcril_qmi_voice_nas_control_convert_radio_tech_to_radio_tech_family: invalid radio tech = 16
+12-22 13:26:51.420   843   946 E RILQ    : (1/843): RIL[1][event] qcril_qmi_voice_nas_control_convert_radio_tech_to_radio_tech_family: invalid radio tech = 16
+12-22 13:26:51.420   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-22 13:26:51.421   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-22 13:26:51.421  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 23 0 -120 -160 -120 -1 -1 99 2147483647 2147483647 2147483647 2147483647 2147483647 cdma
+12-22 13:26:51.421  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 25 0 -120 -160 -120 -1 -1 99 2147483647 2147483647 2147483647 2147483647 2147483647 cdma
+12-22 13:26:51.425   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-22 13:26:51.426   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-22 13:26:51.427   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-22 13:26:51.430   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-22 13:26:51.431   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-22 13:26:51.432  2448  2448 E CdmaSST_0: [CdmaLteSST] regCodeToServiceState: unexpected service state 12
+12-22 13:26:51.432  2448  2448 E PHONE   : [ServiceState] setState deprecated use setVoiceRegState()
+12-22 13:26:51.441  2448  2448 E CdmaSST_0: [CdmaLteSST] handlePollStateResultMessage: bad tac states[6]=null e=java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+12-22 13:26:51.441  2448  2448 E CdmaSST_0: [CdmaLteSST] handlePollStateResultMessage: bad pci states[7]=null e=java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+12-22 13:26:51.441  2448  2448 E CdmaSST_0: [CdmaLteSST] handlePollStateResultMessage: bad eci states[8]=null e=java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+12-22 13:40:36.048   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-22 13:40:36.051   843   946 E RILQ    : (1/843): RIL[1][event] qcril_qmi_voice_nas_control_convert_radio_tech_to_radio_tech_family: invalid radio tech = 16
+12-22 13:40:36.051   843   946 E RILQ    : (1/843): RIL[1][event] qcril_qmi_voice_nas_control_convert_radio_tech_to_radio_tech_family: invalid radio tech = 16
+12-22 13:40:36.051   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-22 13:40:36.051  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 25 0 -120 -160 -120 -1 -1 99 2147483647 2147483647 2147483647 2147483647 2147483647 cdma
+12-22 13:40:36.051  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 24 0 -120 -160 -120 -1 -1 99 2147483647 2147483647 2147483647 2147483647 2147483647 cdma
+12-22 13:40:36.052   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-22 13:40:36.056   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-22 13:40:36.056   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-22 13:40:36.061  2448  2448 E CdmaSST_0: [CdmaLteSST] regCodeToServiceState: unexpected service state 12
+12-22 13:40:36.061  2448  2448 E PHONE   : [ServiceState] setState deprecated use setVoiceRegState()
+12-22 13:40:36.065   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-22 13:40:36.067  2448  2448 E CdmaSST_0: [CdmaLteSST] handlePollStateResultMessage: bad tac states[6]=null e=java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+12-22 13:40:36.067  2448  2448 E CdmaSST_0: [CdmaLteSST] handlePollStateResultMessage: bad pci states[7]=null e=java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+12-22 13:40:36.067  2448  2448 E CdmaSST_0: [CdmaLteSST] handlePollStateResultMessage: bad eci states[8]=null e=java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+12-22 13:40:36.069   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-22 13:40:36.070   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-22 13:57:48.627  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 24 0 -120 -160 -120 -1 -1 99 2147483647 2147483647 2147483647 2147483647 2147483647 cdma
+12-22 13:57:48.627  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 26 0 -120 -160 -120 -1 -1 99 2147483647 2147483647 2147483647 2147483647 2147483647 cdma
+12-22 13:57:48.630   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-22 13:57:48.631  2448  2448 E CdmaSST_0: [CdmaLteSST] regCodeToServiceState: unexpected service state 12
+12-22 13:57:48.631  2448  2448 E PHONE   : [ServiceState] setState deprecated use setVoiceRegState()
+12-22 13:57:48.634   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-22 13:57:48.638   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-22 13:57:48.638  2448  2448 E CdmaSST_0: [CdmaLteSST] handlePollStateResultMessage: bad tac states[6]=null e=java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+12-22 13:57:48.638  2448  2448 E CdmaSST_0: [CdmaLteSST] handlePollStateResultMessage: bad pci states[7]=null e=java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+12-22 13:57:48.638  2448  2448 E CdmaSST_0: [CdmaLteSST] handlePollStateResultMessage: bad eci states[8]=null e=java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+12-22 13:57:48.639   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-22 13:57:48.640   843   946 E RILQ    : (1/843): RIL[1][event] qcril_qmi_voice_nas_control_convert_radio_tech_to_radio_tech_family: invalid radio tech = 16
+12-22 13:57:48.640   843   946 E RILQ    : (1/843): RIL[1][event] qcril_qmi_voice_nas_control_convert_radio_tech_to_radio_tech_family: invalid radio tech = 16
+12-22 13:57:48.640   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-22 13:57:48.640   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-22 13:57:48.641   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-22 13:57:48.642   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-22 14:00:42.088   546  1400 E RILQ    : (0/546): RIL[0][oem_socket0] void qcril_qmi_generic_socket_agent::recv_thread_func(): read 4 bytes length message with length 36
+12-22 14:00:42.088   546  1400 E RILQ    : (0/546): RIL[0][oem_socket0] qmi_ril_parse_oem_hook_header: Received un-handled/oem command id = 524310
+12-22 14:00:42.093   546  1400 E RILQ    : (0/546): RIL[0][oem_socket0] void qcril_qmi_generic_socket_agent::recv_thread_func(): read 4 bytes length message with length 136
+12-22 14:00:42.093   546  1400 E RILQ    : (0/546): RIL[0][oem_socket0] qmi_ril_parse_oem_hook_header: Received un-handled/oem command id = 524321
+12-22 14:00:42.098   546  1400 E RILQ    : (0/546): RIL[0][oem_socket0] void qcril_qmi_generic_socket_agent::recv_thread_func(): read 4 bytes length message with length 36
+12-22 14:00:42.098   546  1400 E RILQ    : (0/546): RIL[0][oem_socket0] qmi_ril_parse_oem_hook_header: Received un-handled/oem command id = 524310
+12-22 16:39:27.255   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-22 16:39:27.256   843   946 E RILQ    : (1/843): RIL[1][event] qcril_qmi_voice_nas_control_convert_radio_tech_to_radio_tech_family: invalid radio tech = 16
+12-22 16:39:27.256   843   946 E RILQ    : (1/843): RIL[1][event] qcril_qmi_voice_nas_control_convert_radio_tech_to_radio_tech_family: invalid radio tech = 16
+12-22 16:39:27.256   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-22 16:39:27.257   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-22 16:39:27.284   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-22 16:39:27.285   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-22 16:39:27.302  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 26 0 -120 -160 -120 -1 -1 99 2147483647 2147483647 2147483647 2147483647 2147483647 cdma
+12-22 16:39:27.302  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 24 0 -120 -160 -120 -1 -1 99 2147483647 2147483647 2147483647 2147483647 2147483647 cdma
+12-22 16:39:27.304   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-22 16:39:27.306   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-22 16:39:27.307   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-22 16:39:27.309  2448  2448 E CdmaSST_0: [CdmaLteSST] regCodeToServiceState: unexpected service state 12
+12-22 16:39:27.309  2448  2448 E PHONE   : [ServiceState] setState deprecated use setVoiceRegState()
+12-22 16:39:27.312  2448  2448 E CdmaSST_0: [CdmaLteSST] handlePollStateResultMessage: bad tac states[6]=null e=java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+12-22 16:39:27.312  2448  2448 E CdmaSST_0: [CdmaLteSST] handlePollStateResultMessage: bad pci states[7]=null e=java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+12-22 16:39:27.312  2448  2448 E CdmaSST_0: [CdmaLteSST] handlePollStateResultMessage: bad eci states[8]=null e=java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+12-22 17:00:47.640   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-22 17:00:47.643   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-22 17:00:47.643   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-22 17:00:47.644   843   946 E RILQ    : (1/843): RIL[1][event] qcril_qmi_voice_nas_control_convert_radio_tech_to_radio_tech_family: invalid radio tech = 16
+12-22 17:00:47.644   843   946 E RILQ    : (1/843): RIL[1][event] qcril_qmi_voice_nas_control_convert_radio_tech_to_radio_tech_family: invalid radio tech = 16
+12-22 17:00:47.644   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-22 17:00:47.645   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-22 17:00:47.645   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-22 17:00:47.647   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-22 17:00:47.648   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-22 17:00:47.657  2448  2448 E CdmaSST_0: [CdmaLteSST] handlePollStateResultMessage: bad tac states[6]=null e=java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+12-22 17:00:47.658  2448  2448 E CdmaSST_0: [CdmaLteSST] handlePollStateResultMessage: bad pci states[7]=null e=java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+12-22 17:00:47.658  2448  2448 E CdmaSST_0: [CdmaLteSST] handlePollStateResultMessage: bad eci states[8]=null e=java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+12-22 17:00:47.665  2448  2448 E CdmaSST_0: [CdmaLteSST] regCodeToServiceState: unexpected service state 12
+12-22 17:00:47.665  2448  2448 E PHONE   : [ServiceState] setState deprecated use setVoiceRegState()
+12-22 18:17:19.466   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-22 18:17:19.467   843   946 E RILQ    : (1/843): RIL[1][event] qcril_qmi_voice_nas_control_convert_radio_tech_to_radio_tech_family: invalid radio tech = 16
+12-22 18:17:19.467   843   946 E RILQ    : (1/843): RIL[1][event] qcril_qmi_voice_nas_control_convert_radio_tech_to_radio_tech_family: invalid radio tech = 16
+12-22 18:17:19.468   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-22 18:17:19.468   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-22 18:17:19.470  2448  2448 E CdmaSST_0: [CdmaLteSST] handlePollStateResultMessage: bad tac states[6]=null e=java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+12-22 18:17:19.470  2448  2448 E CdmaSST_0: [CdmaLteSST] handlePollStateResultMessage: bad pci states[7]=null e=java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+12-22 18:17:19.470  2448  2448 E CdmaSST_0: [CdmaLteSST] handlePollStateResultMessage: bad eci states[8]=null e=java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+12-22 18:17:19.470   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-22 18:17:19.470  2448  2448 E CdmaSST_0: [CdmaLteSST] regCodeToServiceState: unexpected service state 12
+12-22 18:17:19.470  2448  2448 E PHONE   : [ServiceState] setState deprecated use setVoiceRegState()
+12-22 18:17:19.473   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-22 18:17:19.473   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-22 18:17:19.474   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-22 18:17:19.476   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-22 19:03:22.353   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-22 19:03:22.355   843   946 E RILQ    : (1/843): RIL[1][event] qcril_qmi_voice_nas_control_convert_radio_tech_to_radio_tech_family: invalid radio tech = 16
+12-22 19:03:22.355   843   946 E RILQ    : (1/843): RIL[1][event] qcril_qmi_voice_nas_control_convert_radio_tech_to_radio_tech_family: invalid radio tech = 16
+12-22 19:03:22.355   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-22 19:03:22.355   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-22 19:03:22.361   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-22 19:03:22.361   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-22 19:03:22.362   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-22 19:03:22.367  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 24 0 -120 -160 -120 -1 -1 99 2147483647 2147483647 2147483647 2147483647 2147483647 cdma
+12-22 19:03:22.367  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 31 0 -120 -160 -120 -1 -1 99 2147483647 2147483647 2147483647 2147483647 2147483647 cdma
+12-22 19:03:22.369   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-22 19:03:22.370   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-22 19:03:22.375  2448  2448 E CdmaSST_0: [CdmaLteSST] regCodeToServiceState: unexpected service state 12
+12-22 19:03:22.375  2448  2448 E PHONE   : [ServiceState] setState deprecated use setVoiceRegState()
+12-22 19:03:22.386  2448  2448 E CdmaSST_0: [CdmaLteSST] handlePollStateResultMessage: bad tac states[6]=null e=java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+12-22 19:03:22.386  2448  2448 E CdmaSST_0: [CdmaLteSST] handlePollStateResultMessage: bad pci states[7]=null e=java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+12-22 19:03:22.386  2448  2448 E CdmaSST_0: [CdmaLteSST] handlePollStateResultMessage: bad eci states[8]=null e=java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+12-24 13:39:32.984   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-24 13:39:32.985   843   946 E RILQ    : (1/843): RIL[1][event] qcril_qmi_voice_nas_control_convert_radio_tech_to_radio_tech_family: invalid radio tech = 16
+12-24 13:39:32.985   843   946 E RILQ    : (1/843): RIL[1][event] qcril_qmi_voice_nas_control_convert_radio_tech_to_radio_tech_family: invalid radio tech = 16
+12-24 13:39:32.985   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-24 13:39:32.986   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-24 13:39:32.988   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-24 13:39:32.988   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-24 13:39:32.993   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-24 13:39:32.994  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 31 0 -120 -160 -120 -1 -1 99 2147483647 2147483647 2147483647 2147483647 2147483647 cdma
+12-24 13:39:32.994  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 25 0 -120 -160 -120 -1 -1 99 2147483647 2147483647 2147483647 2147483647 2147483647 cdma
+12-24 13:39:32.998   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-24 13:39:33.000   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-24 13:39:33.013  2448  2448 E CdmaSST_0: [CdmaLteSST] regCodeToServiceState: unexpected service state 12
+12-24 13:39:33.013  2448  2448 E PHONE   : [ServiceState] setState deprecated use setVoiceRegState()
+12-24 13:39:33.013  2448  2448 E CdmaSST_0: [CdmaLteSST] handlePollStateResultMessage: bad tac states[6]=null e=java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+12-24 13:39:33.013  2448  2448 E CdmaSST_0: [CdmaLteSST] handlePollStateResultMessage: bad pci states[7]=null e=java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+12-24 13:39:33.013  2448  2448 E CdmaSST_0: [CdmaLteSST] handlePollStateResultMessage: bad eci states[8]=null e=java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+12-24 13:55:53.511   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-24 13:55:53.513   843   946 E RILQ    : (1/843): RIL[1][event] qcril_qmi_voice_nas_control_convert_radio_tech_to_radio_tech_family: invalid radio tech = 16
+12-24 13:55:53.513   843   946 E RILQ    : (1/843): RIL[1][event] qcril_qmi_voice_nas_control_convert_radio_tech_to_radio_tech_family: invalid radio tech = 16
+12-24 13:55:53.514   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-24 13:55:53.515   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-24 13:55:53.515  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 25 0 -120 -160 -120 -1 -1 99 2147483647 2147483647 2147483647 2147483647 2147483647 cdma
+12-24 13:55:53.515  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 24 0 -120 -160 -120 -1 -1 99 2147483647 2147483647 2147483647 2147483647 2147483647 cdma
+12-24 13:55:53.517   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-24 13:55:53.518   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-24 13:55:53.519   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-24 13:55:53.523  2448  2448 E CdmaSST_0: [CdmaLteSST] regCodeToServiceState: unexpected service state 12
+12-24 13:55:53.523  2448  2448 E PHONE   : [ServiceState] setState deprecated use setVoiceRegState()
+12-24 13:55:53.524   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-24 13:55:53.529   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-24 13:55:53.531  2448  2448 E CdmaSST_0: [CdmaLteSST] handlePollStateResultMessage: bad tac states[6]=null e=java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+12-24 13:55:53.531  2448  2448 E CdmaSST_0: [CdmaLteSST] handlePollStateResultMessage: bad pci states[7]=null e=java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+12-24 13:55:53.531  2448  2448 E CdmaSST_0: [CdmaLteSST] handlePollStateResultMessage: bad eci states[8]=null e=java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+12-24 15:17:13.674   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-24 15:17:13.676   843   946 E RILQ    : (1/843): RIL[1][event] qcril_qmi_voice_nas_control_convert_radio_tech_to_radio_tech_family: invalid radio tech = 16
+12-24 15:17:13.676   843   946 E RILQ    : (1/843): RIL[1][event] qcril_qmi_voice_nas_control_convert_radio_tech_to_radio_tech_family: invalid radio tech = 16
+12-24 15:17:13.676   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-24 15:17:13.677  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 24 0 -120 -160 -120 -1 -1 99 2147483647 2147483647 2147483647 2147483647 2147483647 cdma
+12-24 15:17:13.677   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-24 15:17:13.677  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 27 0 -120 -160 -120 -1 -1 99 2147483647 2147483647 2147483647 2147483647 2147483647 cdma
+12-24 15:17:13.683  2448  2448 E CdmaSST_0: [CdmaLteSST] regCodeToServiceState: unexpected service state 12
+12-24 15:17:13.683  2448  2448 E PHONE   : [ServiceState] setState deprecated use setVoiceRegState()
+12-24 15:17:13.683  2448  2448 E CdmaSST_0: [CdmaLteSST] handlePollStateResultMessage: bad tac states[6]=null e=java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+12-24 15:17:13.684  2448  2448 E CdmaSST_0: [CdmaLteSST] handlePollStateResultMessage: bad pci states[7]=null e=java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+12-24 15:17:13.684  2448  2448 E CdmaSST_0: [CdmaLteSST] handlePollStateResultMessage: bad eci states[8]=null e=java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+12-24 15:17:13.684   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-24 15:17:13.687   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-24 15:17:13.688   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-24 15:17:13.689   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-24 15:17:13.691   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-24 15:29:26.926  2448  2448 E CdmaSST_0: [CdmaLteSST] mLastSignalStrength: SignalStrength: 27 0 -120 -160 -120 -1 -1 99 2147483647 2147483647 2147483647 2147483647 2147483647 cdma
+12-24 15:29:26.926  2448  2448 E CdmaSST_0: [CdmaLteSST] mSignalStrength: SignalStrength: 29 0 -120 -160 -120 -1 -1 99 2147483647 2147483647 2147483647 2147483647 2147483647 cdma
+12-24 15:29:26.928   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-24 15:29:26.931   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-24 15:29:26.932   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-24 15:29:26.932   843   946 E RILQ    : (1/843): RIL[1][event] qcril_qmi_voice_nas_control_convert_radio_tech_to_radio_tech_family: invalid radio tech = 16
+12-24 15:29:26.932   843   946 E RILQ    : (1/843): RIL[1][event] qcril_qmi_voice_nas_control_convert_radio_tech_to_radio_tech_family: invalid radio tech = 16
+12-24 15:29:26.934   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-24 15:29:26.935   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-24 15:29:26.940  2448  2448 E CdmaSST_0: [CdmaLteSST] handlePollStateResultMessage: bad tac states[6]=null e=java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+12-24 15:29:26.940  2448  2448 E CdmaSST_0: [CdmaLteSST] handlePollStateResultMessage: bad pci states[7]=null e=java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+12-24 15:29:26.940  2448  2448 E CdmaSST_0: [CdmaLteSST] handlePollStateResultMessage: bad eci states[8]=null e=java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+12-24 15:29:26.941   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-24 15:29:26.941  2448  2448 E CdmaSST_0: [CdmaLteSST] regCodeToServiceState: unexpected service state 12
+12-24 15:29:26.941  2448  2448 E PHONE   : [ServiceState] setState deprecated use setVoiceRegState()
+12-24 15:29:26.942   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-24 15:29:26.950   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-24 15:54:51.503   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-24 15:54:51.508   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-24 15:54:51.508  2448  2448 E CdmaSST_0: [CdmaLteSST] regCodeToServiceState: unexpected service state 12
+12-24 15:54:51.508  2448  2448 E PHONE   : [ServiceState] setState deprecated use setVoiceRegState()
+12-24 15:54:51.511   843   946 E RILQ    : (1/843): RIL[1][event] qcril_qmi_voice_nas_control_convert_radio_tech_to_radio_tech_family: invalid radio tech = 16
+12-24 15:54:51.511   843   946 E RILQ    : (1/843): RIL[1][event] qcril_qmi_voice_nas_control_convert_radio_tech_to_radio_tech_family: invalid radio tech = 16
+12-24 15:54:51.512   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-24 15:54:51.512   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-24 15:54:51.512   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-24 15:54:51.513   843   946 E RILQ    : (1/843): RIL[1][event] get_ecc_property_name: ecc list name : ril.ecclist1.
+12-24 15:54:51.515   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-24 15:54:51.517   546   938 E RILQ    : (0/546): RIL[0][event] get_ecc_property_name: ecc list name : ril.ecclist.
+12-24 15:54:51.517  2448  2448 E CdmaSST_0: [CdmaLteSST] handlePollStateResultMessage: bad tac states[6]=null e=java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+12-24 15:54:51.517  2448  2448 E CdmaSST_0: [CdmaLteSST] handlePollStateResultMessage: bad pci states[7]=null e=java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+12-24 15:54:51.517  2448  2448 E CdmaSST_0: [CdmaLteSST] handlePollStateResultMessage: bad eci states[8]=null e=java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+12-24 16:04:50.268  2448  2448 E CDMAPhone: getCallForwardingIndicator: not possible in CDMA
+12-24 16:04:50.285  2448  2448 E PhoneBase: Error! isCspPlmnEnabled() in PhoneBase should not be called, GSMPhone inactive.
+[logcat: 0.031s elapsed]
+

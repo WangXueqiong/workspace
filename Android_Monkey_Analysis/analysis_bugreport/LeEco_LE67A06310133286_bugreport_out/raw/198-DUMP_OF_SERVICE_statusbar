@@ -1,0 +1,31 @@
+mSystemUiIconColor=ffffffff
+Icon list:
+   0: (managed_profile) StatusBarIcon(icon=Icon(typ=RESOURCE pkg=com.android.systemui id=0x7f020530) user=0 )
+   1: (ime) null
+   2: (sync_failing) null
+   3: (sync_active) StatusBarIcon(icon=Icon(typ=RESOURCE pkg=com.android.systemui id=0x7f020553) user=0 )
+   4: (cast) StatusBarIcon(icon=Icon(typ=RESOURCE pkg=com.android.systemui id=0x7f0204f1) user=0 )
+   5: (hotspot) null
+   6: (location) null
+   7: (bluetooth) StatusBarIcon(icon=Icon(typ=RESOURCE pkg=com.android.systemui id=0x7f020516) user=0 )
+   8: (nfc) null
+   9: (headset) StatusBarIcon(icon=Icon(typ=RESOURCE pkg=com.android.systemui id=0x7f02052a) user=0 )
+  10: (tty) StatusBarIcon(icon=Icon(typ=RESOURCE pkg=com.android.systemui id=0x7f020554) user=0 )
+  11: (hdaudio) null
+  12: (speakerphone) null
+  13: (zen) StatusBarIcon(icon=Icon(typ=RESOURCE pkg=com.android.systemui id=0x7f02056a) user=0 )
+  14: (mute) null
+  15: (volume) StatusBarIcon(icon=Icon(typ=RESOURCE pkg=com.android.systemui id=0x7f020535) user=0 )
+  16: (global_vibrate) StatusBarIcon(icon=Icon(typ=RESOURCE pkg=com.android.systemui id=0x7f020529) user=0 )
+  17: (wifi) null
+  18: (cdma_eri) null
+  19: (data_connection) null
+  20: (phone_evdo_signal) null
+  21: (phone_signal) null
+  22: (battery) null
+  23: (alarm_clock) StatusBarIcon(icon=Icon(typ=RESOURCE pkg=com.android.systemui id=0x7f0204e6) user=0 )
+  24: (secure) null
+  25: (clock) null
+  mDisabled1=0x0
+  mDisabled2=0x0
+  mDisableRecords.size=0

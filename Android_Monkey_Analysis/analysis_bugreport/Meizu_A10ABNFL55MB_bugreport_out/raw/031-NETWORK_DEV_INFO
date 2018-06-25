@@ -1,0 +1,14 @@
+Inter-|   Receive                                                |  Transmit
+ face |bytes    packets errs drop fifo frame compressed multicast|bytes    packets errs drop fifo colls carrier compressed
+  ifb0:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+ccmni1:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+    lo:   16624     151    0    0    0     0          0         0    16624     151    0    0    0     0       0          0
+ tunl0:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+ccmni0:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+  sit0:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+ wlan0: 101169096  152367    0   20    0     0          0         0  6067847   67141    2    0    0     0       0          0
+  ifb1:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+ccmni2:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+ip6tnl0:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+  p2p0:       0       0    0    0    0     0          0         0      168       2    0    0    0     0       0          0
+

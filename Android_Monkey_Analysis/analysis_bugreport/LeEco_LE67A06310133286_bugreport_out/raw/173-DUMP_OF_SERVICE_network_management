@@ -1,0 +1,179 @@
+NetworkManagementService NativeDaemonConnector Log:
+12-24 17:16:03.375 - SND -> {188 bandwidth setglobalalert 2097152}
+12-24 17:16:03.377 - RCV <- {200 188 Bandwidth command succeeeded}
+12-24 17:16:03.377 - RMV <- {200 188 Bandwidth command succeeeded}
+12-24 17:17:28.668 - RCV <- {601 limit alert globalAlert lo}
+12-24 17:17:28.676 - SND -> {189 bandwidth gettetherstats}
+12-24 17:17:28.676 - RCV <- {200 189 Tethering stats list completed}
+12-24 17:17:28.676 - RMV <- {200 189 Tethering stats list completed}
+12-24 17:17:28.687 - SND -> {190 bandwidth setglobalalert 2097152}
+12-24 17:17:28.688 - RCV <- {200 190 Bandwidth command succeeeded}
+12-24 17:17:28.689 - RMV <- {200 190 Bandwidth command succeeeded}
+12-24 17:19:26.763 - RCV <- {601 limit alert globalAlert lo}
+12-24 17:19:26.775 - SND -> {191 bandwidth gettetherstats}
+12-24 17:19:26.776 - RCV <- {200 191 Tethering stats list completed}
+12-24 17:19:26.777 - RMV <- {200 191 Tethering stats list completed}
+12-24 17:19:26.785 - SND -> {192 bandwidth setglobalalert 2097152}
+12-24 17:19:26.786 - RCV <- {200 192 Bandwidth command succeeeded}
+12-24 17:19:26.786 - RMV <- {200 192 Bandwidth command succeeeded}
+12-24 17:20:00.356 - RCV <- {601 limit alert globalAlert lo}
+12-24 17:20:00.363 - SND -> {193 bandwidth gettetherstats}
+12-24 17:20:00.363 - RCV <- {200 193 Tethering stats list completed}
+12-24 17:20:00.363 - RMV <- {200 193 Tethering stats list completed}
+12-24 17:20:00.369 - SND -> {194 bandwidth setglobalalert 2097152}
+12-24 17:20:00.370 - RCV <- {200 194 Bandwidth command succeeeded}
+12-24 17:20:00.371 - RMV <- {200 194 Bandwidth command succeeeded}
+12-24 17:20:08.435 - RCV <- {601 limit alert globalAlert wlan0}
+12-24 17:20:08.440 - SND -> {195 bandwidth gettetherstats}
+12-24 17:20:08.440 - RCV <- {200 195 Tethering stats list completed}
+12-24 17:20:08.441 - RMV <- {200 195 Tethering stats list completed}
+12-24 17:20:08.447 - SND -> {196 bandwidth setglobalalert 2097152}
+12-24 17:20:08.448 - RCV <- {200 196 Bandwidth command succeeeded}
+12-24 17:20:08.448 - RMV <- {200 196 Bandwidth command succeeeded}
+12-24 17:20:17.041 - RCV <- {601 limit alert globalAlert wlan0}
+12-24 17:20:17.050 - SND -> {197 bandwidth gettetherstats}
+12-24 17:20:17.051 - RCV <- {200 197 Tethering stats list completed}
+12-24 17:20:17.052 - RMV <- {200 197 Tethering stats list completed}
+12-24 17:20:17.109 - SND -> {198 bandwidth setglobalalert 2097152}
+12-24 17:20:17.111 - RCV <- {200 198 Bandwidth command succeeeded}
+12-24 17:20:17.111 - RMV <- {200 198 Bandwidth command succeeeded}
+12-24 17:20:38.610 - RCV <- {601 limit alert globalAlert lo}
+12-24 17:20:38.622 - SND -> {199 bandwidth gettetherstats}
+12-24 17:20:38.622 - RCV <- {200 199 Tethering stats list completed}
+12-24 17:20:38.623 - RMV <- {200 199 Tethering stats list completed}
+12-24 17:20:38.636 - SND -> {200 bandwidth setglobalalert 2097152}
+12-24 17:20:38.637 - RCV <- {200 200 Bandwidth command succeeeded}
+12-24 17:20:38.638 - RMV <- {200 200 Bandwidth command succeeeded}
+12-24 17:21:16.178 - RCV <- {601 limit alert globalAlert lo}
+12-24 17:21:16.184 - SND -> {201 bandwidth gettetherstats}
+12-24 17:21:16.184 - RCV <- {200 201 Tethering stats list completed}
+12-24 17:21:16.185 - RMV <- {200 201 Tethering stats list completed}
+12-24 17:21:16.197 - SND -> {202 bandwidth setglobalalert 2097152}
+12-24 17:21:16.199 - RCV <- {200 202 Bandwidth command succeeeded}
+12-24 17:21:16.200 - RMV <- {200 202 Bandwidth command succeeeded}
+12-24 17:22:03.657 - RCV <- {601 limit alert globalAlert lo}
+12-24 17:22:03.664 - SND -> {203 bandwidth gettetherstats}
+12-24 17:22:03.665 - RCV <- {200 203 Tethering stats list completed}
+12-24 17:22:03.665 - RMV <- {200 203 Tethering stats list completed}
+12-24 17:22:03.674 - SND -> {204 bandwidth setglobalalert 2097152}
+12-24 17:22:03.675 - RCV <- {200 204 Bandwidth command succeeeded}
+12-24 17:22:03.680 - RMV <- {200 204 Bandwidth command succeeeded}
+12-24 17:22:17.620 - RCV <- {600 Iface linkstate wlan0 down}
+12-24 17:22:17.621 - RCV <- {616 Route removed fe80::/64 dev wlan0}
+12-24 17:22:17.652 - RCV <- {614 Address removed fe80::b6ef:faff:fe8e:a3d8/64 wlan0 128 253 1}
+12-24 17:22:17.652 - RCV <- {600 Iface linkstate wlan0 up}
+12-24 17:22:17.754 - SND -> {205 network route remove 1001 wlan0 fe80::/64}
+12-24 17:22:17.755 - RCV <- {400 205 removeRoute() failed (No such process)}
+12-24 17:22:17.756 - RMV <- {400 205 removeRoute() failed (No such process)}
+12-24 17:22:17.756 - SND -> {206 resolver flushnet 1001}
+12-24 17:22:17.756 - RCV <- {200 206 Resolver command succeeded}
+12-24 17:22:17.757 - RMV <- {200 206 Resolver command succeeded}
+12-24 17:22:17.758 - SND -> {207 clatd stop wlan0}
+12-24 17:22:17.759 - RCV <- {400 207 Clatd operation failed}
+12-24 17:22:17.766 - RMV <- {400 207 Clatd operation failed}
+12-24 17:22:17.789 - SND -> {208 bandwidth gettetherstats}
+12-24 17:22:17.790 - RCV <- {200 208 Tethering stats list completed}
+12-24 17:22:17.790 - RMV <- {200 208 Tethering stats list completed}
+12-24 17:22:17.803 - SND -> {209 interface clearaddrs wlan0}
+12-24 17:22:17.816 - RCV <- {614 Address removed 10.2.5.22/24 wlan0 128 0 1}
+12-24 17:22:17.817 - RCV <- {200 209 Interface IP addresses cleared}
+12-24 17:22:17.818 - RMV <- {200 209 Interface IP addresses cleared}
+12-24 17:22:17.818 - SND -> {210 interface ipv6 wlan0 disable}
+12-24 17:22:17.819 - RCV <- {200 210 IPv6 state changed}
+12-24 17:22:17.819 - RMV <- {200 210 IPv6 state changed}
+12-24 17:22:17.833 - SND -> {211 bandwidth gettetherstats}
+12-24 17:22:17.833 - RCV <- {200 211 Tethering stats list completed}
+12-24 17:22:17.834 - RMV <- {200 211 Tethering stats list completed}
+12-24 17:22:17.854 - SND -> {212 clatd stop wlan0}
+12-24 17:22:17.855 - RCV <- {400 212 Clatd operation failed}
+12-24 17:22:17.855 - RMV <- {400 212 Clatd operation failed}
+12-24 17:22:17.857 - SND -> {213 idletimer remove wlan0 15 1}
+12-24 17:22:17.931 - RCV <- {600 Iface linkstate wlan0 down}
+12-24 17:22:17.952 - RCV <- {200 213 Remove success}
+12-24 17:22:17.953 - RMV <- {200 213 Remove success}
+12-24 17:22:17.961 - SND -> {214 network destroy 1001}
+12-24 17:22:18.041 - SND -> {215 bandwidth setglobalalert 2097152}
+12-24 17:22:18.078 - RCV <- {200 214 success}
+12-24 17:22:18.078 - RCV <- {200 215 Bandwidth command succeeeded}
+12-24 17:22:18.078 - RMV <- {200 215 Bandwidth command succeeeded}
+12-24 17:22:18.080 - RMV <- {200 214 success}
+12-24 17:22:18.290 - SND -> {216 interface setcfg wlan0 0.0.0.0 0}
+12-24 17:22:18.290 - RCV <- {200 216 Interface configuration set}
+12-24 17:22:18.291 - RMV <- {200 216 Interface configuration set}
+12-24 17:22:20.550 - RCV <- {600 Iface linkstate wlan0 down}
+12-24 17:22:21.806 - RCV <- {600 Iface linkstate wlan0 down}
+12-24 17:22:22.339 - RCV <- {600 Iface linkstate wlan0 down}
+12-24 17:22:22.539 - RCV <- {600 Iface linkstate wlan0 down}
+12-24 17:22:22.541 - RCV <- {600 Iface linkstate wlan0 up}
+12-24 17:22:23.692 - RCV <- {600 Iface linkstate wlan0 up}
+12-24 17:22:23.742 - SND -> {217 interface ipv6 wlan0 enable}
+12-24 17:22:23.742 - RCV <- {200 217 IPv6 state changed}
+12-24 17:22:23.742 - RMV <- {200 217 IPv6 state changed}
+12-24 17:22:23.744 - SND -> {218 interface setcfg wlan0 0.0.0.0 0}
+12-24 17:22:23.745 - RCV <- {616 Route updated fe80::/64 dev wlan0}
+12-24 17:22:23.745 - RCV <- {200 218 Interface configuration set}
+12-24 17:22:23.745 - RCV <- {614 Address updated fe80::b6ef:faff:fe8e:a3d8/64 wlan0 196 253 1}
+12-24 17:22:23.746 - RMV <- {200 218 Interface configuration set}
+12-24 17:22:24.739 - RCV <- {614 Address updated fe80::b6ef:faff:fe8e:a3d8/64 wlan0 128 253 1}
+12-24 17:22:33.759 - RCV <- {614 Address removed FE80::22/64 wlan0 01 01 -1}
+12-24 17:22:35.321 - RCV <- {601 limit alert globalAlert lo}
+12-24 17:22:35.326 - SND -> {219 bandwidth gettetherstats}
+12-24 17:22:35.326 - RCV <- {200 219 Tethering stats list completed}
+12-24 17:22:35.327 - RMV <- {200 219 Tethering stats list completed}
+12-24 17:22:35.337 - SND -> {220 bandwidth setglobalalert 2097152}
+12-24 17:22:35.338 - RCV <- {200 220 Bandwidth command succeeeded}
+12-24 17:22:35.339 - RMV <- {200 220 Bandwidth command succeeeded}
+12-24 17:22:39.750 - SND -> {221 interface setcfg wlan0 10.2.5.22 24}
+12-24 17:22:39.753 - RCV <- {614 Address updated 10.2.5.22/8 wlan0 128 0 1}
+12-24 17:22:39.758 - RCV <- {200 221 Interface configuration set}
+12-24 17:22:39.758 - RMV <- {200 221 Interface configuration set}
+12-24 17:22:39.785 - RCV <- {614 Address removed 10.2.5.22/8 wlan0 128 0 1}
+12-24 17:22:39.787 - RCV <- {614 Address updated 10.2.5.22/24 wlan0 128 0 1}
+12-24 17:22:39.794 - SND -> {222 network create 1002}
+12-24 17:22:39.872 - RCV <- {200 222 success}
+12-24 17:22:39.873 - RMV <- {200 222 success}
+12-24 17:22:39.873 - SND -> {223 network interface add 1002 wlan0}
+12-24 17:22:39.909 - RCV <- {200 223 success}
+12-24 17:22:39.910 - RMV <- {200 223 success}
+12-24 17:22:39.911 - SND -> {224 network route add 1002 wlan0 fe80::/64}
+12-24 17:22:39.938 - RCV <- {200 224 success}
+12-24 17:22:39.938 - RMV <- {200 224 success}
+12-24 17:22:39.939 - SND -> {225 network route add 1002 wlan0 10.2.5.0/24}
+12-24 17:22:39.964 - RCV <- {200 225 success}
+12-24 17:22:39.964 - RMV <- {200 225 success}
+12-24 17:22:39.964 - SND -> {226 network route add 1002 wlan0 0.0.0.0/0 10.2.5.1}
+12-24 17:22:39.989 - RCV <- {200 226 success}
+12-24 17:22:39.989 - RMV <- {200 226 success}
+12-24 17:22:39.991 - SND -> {227 resolver setnetdns 1002  202.106.0.20 114.114.114.114 8.8.8.8}
+12-24 17:22:39.992 - RCV <- {200 227 Resolver command succeeded}
+12-24 17:22:39.992 - RMV <- {200 227 Resolver command succeeded}
+12-24 17:22:40.001 - SND -> {228 bandwidth gettetherstats}
+12-24 17:22:40.001 - RCV <- {200 228 Tethering stats list completed}
+12-24 17:22:40.001 - RMV <- {200 228 Tethering stats list completed}
+12-24 17:22:40.014 - SND -> {229 bandwidth gettetherstats}
+12-24 17:22:40.015 - RCV <- {200 229 Tethering stats list completed}
+12-24 17:22:40.015 - RMV <- {200 229 Tethering stats list completed}
+12-24 17:22:40.026 - SND -> {230 idletimer add wlan0 15 1}
+12-24 17:22:40.076 - RCV <- {200 230 Add success}
+12-24 17:22:40.076 - RMV <- {200 230 Add success}
+12-24 17:22:40.076 - SND -> {231 network default set 1002}
+12-24 17:22:40.102 - RCV <- {200 231 success}
+12-24 17:22:40.103 - RMV <- {200 231 success}
+
+Pending requests:
+
+Bandwidth control enabled: true
+mMobileActivityFromRadio=false mLastPowerStateFromRadio=1
+mNetworkActive=true
+Active quota ifaces: {}
+Active alert ifaces: {}
+UID reject on quota ifaces: []
+UID firewall rule: []
+UID firewall standby chain enabled: false
+UID firewall standby rule: []
+UID firewall dozable chain enabled: false
+UID firewall dozable rule: []
+Idle timers:
+  wlan0:
+    timeout=15 type=1 networkCount=1
+Firewall enabled: false

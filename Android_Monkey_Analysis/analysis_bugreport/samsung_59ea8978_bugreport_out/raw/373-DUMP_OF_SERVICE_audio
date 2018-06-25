@@ -1,0 +1,218 @@
+
+MediaFocusControl dump time: ä¸å5:32:08
+
+Audio Focus stack entries (last is top of stack):
+  source:android.os.BinderProxy@8187e04 -- pack: com.sec.android.app.music -- client: android.media.AudioManager$9795542com.samsung.android.app.music.service.PlayerService$7$3858e5f -- gain: GAIN -- flags:  -- loss: none -- uid: 10150 -- attr: AudioAttributes: usage=1 content=2 flags=0x0 tags=
+
+ Notify on duck: true
+
+
+Remote Control stack entries (last is top of stack):
+
+Remote Control Client stack entries (last is top of stack):
+
+Current remote control generation ID = 0
+
+Remote Volume State:
+  has remote: false
+  is remote active: false
+  rccId: -1
+  volume handling: PLAYBACK_VOLUME_VARIABLE(1)
+  volume: 15
+  volume steps: 15
+
+Remote Control Display list entries:
+  MyspaceEffect:   -- effectType:-1  -- streamType:-1
+  mMySoundEnabled=0
+  mSoundAliveEnabled=0
+  mK2HDEnabled=0
+  mTubeAmpEnabled=0
+  mAllSoundMute=0
+  mNbQualityMode=0
+  mDualMicMode=1
+  mNaturalSound=0
+  mUhqBtSampleRate=0
+  mSoundBalance=0
+  isTalkBackEnabled=false
+  isFactoryMode=false
+
+Sco Client list entries: 
+
+Stream volumes (device: index)
+- STREAM_VOICE_CALL:
+   Muted: false
+   Min: 0
+   Max: 5
+   Current: 2 (speaker): 5, 40000000 (default): 4
+   Devices: earpiece   SCO Device : false
+
+- STREAM_SYSTEM:
+   Muted: false
+   Min: 0
+   Max: 15
+   Current: 40000000 (default): 6
+   Devices: speaker   SCO Device : false
+
+- STREAM_RING:
+   Muted: false
+   Min: 0
+   Max: 15
+   Current: 1 (earpiece): 11, 2 (speaker): 10, 40000000 (default): 11
+   Devices: speaker   SCO Device : false
+
+- STREAM_MUSIC:
+   Muted: false
+   Min: 0
+   Max: 15
+   Current: 2 (speaker): 1, 4 (headset): 9, 8 (headphone): 9, 40000000 (default): 7
+   Devices: speaker   SCO Device : false
+
+- STREAM_ALARM:
+   Muted: false
+   Min: 0
+   Max: 15
+   Current: 40000000 (default): 11
+   Devices: speaker   SCO Device : false
+
+- STREAM_NOTIFICATION:
+   Muted: false
+   Min: 0
+   Max: 15
+   Current: 40000000 (default): 11
+   Devices: speaker   SCO Device : false
+
+- STREAM_BLUETOOTH_SCO:
+   Muted: false
+   Min: 0
+   Max: 15
+   Current: 40000000 (default): 7
+   Devices: earpiece   SCO Device : false
+
+- STREAM_SYSTEM_ENFORCED:
+   Muted: false
+   Min: 0
+   Max: 15
+   Current: 40000000 (default): 14
+   Devices: speaker   SCO Device : false
+
+- STREAM_DTMF:
+   Muted: false
+   Min: 0
+   Max: 15
+   Current: 1 (earpiece): 11, 2 (speaker): 10, 40000000 (default): 11
+   Devices: speaker   SCO Device : false
+
+- STREAM_TTS:
+   Muted: false
+   Min: 0
+   Max: 15
+   Current: 2 (speaker): 1, 4 (headset): 9, 8 (headphone): 9, 40000000 (default): 7
+   Devices: speaker   SCO Device : false
+
+- STREAM_FM_RADIO:
+   Muted: false
+   Min: 0
+   Max: 15
+   Current: 2 (speaker): 1, 4 (headset): 9, 8 (headphone): 9, 40000000 (default): 7
+   Devices: speaker   SCO Device : false
+
+- STREAM_VIDEO_CALL:
+   Muted: false
+   Min: 0
+   Max: 5
+   Current: 2 (speaker): 5, 40000000 (default): 4
+   Devices: earpiece   SCO Device : false
+
+- STREAM_SEC_COMMUNICATION:
+   Muted: false
+   Min: 0
+   Max: 5
+   Current: 2 (speaker): 5, 40000000 (default): 4
+   Devices: earpiece   SCO Device : false
+
+- STREAM_VOICENOTE:
+   Muted: false
+   Min: 0
+   Max: 15
+   Current: 2 (speaker): 1, 4 (headset): 9, 8 (headphone): 9, 40000000 (default): 7
+   Devices: speaker   SCO Device : false
+
+
+- mute affected streams = 0x2e
+
+Mute calling pid's
+- STREAM_VOICE_CALL : 0
+- STREAM_SYSTEM : 0
+- STREAM_RING : 0
+- STREAM_MUSIC : 0
+- STREAM_ALARM : 0
+- STREAM_NOTIFICATION : 0
+- STREAM_BLUETOOTH_SCO : 0
+- STREAM_SYSTEM_ENFORCED : 0
+- STREAM_DTMF : 0
+- STREAM_TTS : 0
+- STREAM_FM_RADIO : 0
+- STREAM_VIDEO_CALL : 0
+- STREAM_SEC_COMMUNICATION : 0
+- STREAM_VOICENOTE : 0
+
+Volume change calling pid's
+- STREAM_VOICE_CALL INDEX : 0 by : 0
+- STREAM_SYSTEM INDEX : 0 by : 0
+- STREAM_RING INDEX : 0 by : 0
+- STREAM_MUSIC INDEX : 1 by : 1325
+- STREAM_ALARM INDEX : 0 by : 0
+- STREAM_NOTIFICATION INDEX : 0 by : 0
+- STREAM_BLUETOOTH_SCO INDEX : 0 by : 0
+- STREAM_SYSTEM_ENFORCED INDEX : 0 by : 0
+- STREAM_DTMF INDEX : 0 by : 0
+- STREAM_TTS INDEX : 0 by : 0
+- STREAM_FM_RADIO INDEX : 0 by : 0
+- STREAM_VIDEO_CALL INDEX : 0 by : 0
+- STREAM_SEC_COMMUNICATION INDEX : 0 by : 0
+- STREAM_VOICENOTE INDEX : 0 by : 0
+
+BT A2DP on/off calling pid's
+- A2DP NONE is called by PID: 0
+- NO_A2DP is called by PID: 0
+
+BT SCO on/off calling pid's
+- BT SCO on is called by PID: 0
+- BT SCO off is called by PID: 847
+
+Speaker on/off calling pid's
+- Speaker on is called by PID: 0
+- Speaker off is called by PID: 15441
+
+PID which makes system volume to 0 at first boot
+- Called by PID: 0
+- Volume index: 0
+
+Ringer mode: 
+- mode (internal) = NORMAL
+- mode (external) = NORMAL
+- ringer mode affected streams = 0x1a6 (STREAM_SYSTEM,STREAM_RING,STREAM_NOTIFICATION,STREAM_SYSTEM_ENFORCED,STREAM_DTMF)
+- ringer mode muted streams = 0x0
+- delegate = null
+
+Audio Mode: 
+- mMode=0
+- setMode is called by PID:0
+
+Audio routes:
+  mMainType=0x0
+  mBluetoothName=null
+
+Other state:
+  mVolumeController=VolumeController(android.os.BinderProxy@3b19eaa,mVisible=false)
+  mSafeMediaVolumeState=SAFE_MEDIA_VOLUME_ACTIVE
+  mSafeMediaVolumeIndex=90
+  mPendingVolumeCommand=null
+  mMusicActiveMs=0
+  mMcc=0
+  mCameraSoundForced=false
+  mHasVibrator=true
+  mControllerService={mUid=0,mComponent=null}
+  mVolumePolicy=VolumePolicy[volumeDownToEnterSilent=false,volumeUpToExitSilent=true,doNotDisturbWhenSilent=true,vibrateToSilentDebounce=400]
+
+Audio policies:

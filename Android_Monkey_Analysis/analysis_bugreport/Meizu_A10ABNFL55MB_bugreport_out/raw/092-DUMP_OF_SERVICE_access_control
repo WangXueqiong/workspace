@@ -1,0 +1,9 @@
+ACCESS_CONTROL MANAGER (dumpsys access_control)
+     mAccessControlPasswordEnable=false
+     mAccessControlGuardEnable=false
+control password  package
+
+control guard package
+
+control open package
+

@@ -1,0 +1,277 @@
+Library dirac
+  Dirac [music] / Dirac Research AB
+    UUID: b437f4de-da28-449b-9673-667f8b964304
+    TYPE: ec7178ec-e5e1-4432-a3f4-4657e6795210
+    apiVersion: 00020000
+    flags: 00000284
+  Dirac Shared Controller / Dirac Research AB
+    UUID: b437f4de-da28-449b-9673-667f8b9643fe
+    TYPE: ec7178ec-e5e1-4432-a3f4-4657e6795210
+    apiVersion: 00020000
+    flags: 00000001
+Library dap
+  DAX2.2.1.7_r1 / Dolby Laboratories, Inc.
+    UUID: 9d4921da-8225-4f29-aefa-39537a04bcaa
+    TYPE: 46d279d9-9be7-453d-9d7c-ef937f675587
+    apiVersion: 00020000
+    flags: 00040288
+Library pre_processing
+  Noise Suppression / The Android Open Source Project
+    UUID: c06c8400-8e06-11e0-9cb6-0002a5d5c51b
+    TYPE: 58b4b260-8e06-11e0-aa8e-0002a5d5c51b
+    apiVersion: 00020000
+    flags: 00000203
+  Acoustic Echo Canceler / The Android Open Source Project
+    UUID: bb392ec0-8d4d-11e0-a896-0002a5d5c51b
+    TYPE: 7b491460-8d4d-11e0-bd61-0002a5d5c51b
+    apiVersion: 00020000
+    flags: 00000203
+  Automatic Gain Control / The Android Open Source Project
+    UUID: aa8130e0-66fc-11e0-bad0-0002a5d5c51b
+    TYPE: 0a8abfe0-654c-11e0-ba26-0002a5d5c51b
+    apiVersion: 00020000
+    flags: 00000203
+Library loudness_enhancer
+  Loudness Enhancer / The Android Open Source Project
+    UUID: fa415329-2034-4bea-b5dc-5b381c8d1e2c
+    TYPE: fe3199be-aed0-413f-87bb-11260eb63cf1
+    apiVersion: 00020000
+    flags: 00000008
+Library downmix
+  Multichannel Downmix To Stereo / The Android Open Source Project
+    UUID: 93f04452-e4fe-41cc-91f9-e475b6d1d69f
+    TYPE: 381e49cc-a858-4aa2-87f6-e8388e7601b2
+    apiVersion: 00020000
+    flags: 00000008
+Library visualizer
+  Visualizer / The Android Open Source Project
+    UUID: d069d9e0-8329-11df-9168-0002a5d5c51b
+    TYPE: e46b26a0-dddd-11db-8afd-0002a5d5c51b
+    apiVersion: 00020000
+    flags: 00000008
+Library reverb
+  Insert Preset Reverb / NXP Software Ltd.
+    UUID: 172cdf00-a3bc-11df-a72f-0002a5d5c51b
+    TYPE: 47382d60-ddd8-11db-bf3a-0002a5d5c51b
+    apiVersion: 00020000
+    flags: 00000048
+  Auxiliary Preset Reverb / NXP Software Ltd.
+    UUID: f29a1400-a3bb-11df-8ddc-0002a5d5c51b
+    TYPE: 47382d60-ddd8-11db-bf3a-0002a5d5c51b
+    apiVersion: 00020000
+    flags: 00000001
+  Insert Environmental Reverb / NXP Software Ltd.
+    UUID: c7a511a0-a3bb-11df-860e-0002a5d5c51b
+    TYPE: c2e5d5f0-94bd-4763-9cac-4e234d06839e
+    apiVersion: 00020000
+    flags: 00000048
+  Auxiliary Environmental Reverb / NXP Software Ltd.
+    UUID: 4a387fc0-8ab3-11df-8bad-0002a5d5c51b
+    TYPE: c2e5d5f0-94bd-4763-9cac-4e234d06839e
+    apiVersion: 00020000
+    flags: 00000001
+Library bundle
+  Volume / NXP Software Ltd.
+    UUID: 119341a0-8469-11df-81f9-0002a5d5c51b
+    TYPE: 09e8ede0-ddde-11db-b4f6-0002a5d5c51b
+    apiVersion: 00020000
+    flags: 00000050
+  Equalizer / NXP Software Ltd.
+    UUID: ce772f20-847d-11df-bb17-0002a5d5c51b
+    TYPE: 0bed4300-ddd6-11db-8f34-0002a5d5c51b
+    apiVersion: 00020000
+    flags: 00000048
+  Virtualizer / NXP Software Ltd.
+    UUID: 1d4033c0-8557-11df-9f2d-0002a5d5c51b
+    TYPE: 37cc2c00-dddd-11db-8577-0002a5d5c51b
+    apiVersion: 00020000
+    flags: 00000250
+  Dynamic Bass Boost / NXP Software Ltd.
+    UUID: 8631f300-72e2-11df-b57e-0002a5d5c51b
+    TYPE: 0634f220-ddd4-11db-a0fc-0002a5d5c51b
+    apiVersion: 00020000
+    flags: 00000248
+Clients:
+  pid: 1629
+  pid: 1713
+  pid: 2093
+  pid: 2128
+Notification Clients:
+  pid: 419
+  pid: 1125
+  pid: 1629
+  pid: 1713
+  pid: 2093
+  pid: 2128
+  pid: 6028
+Global session refs:
+  session   pid count
+       15  1713     1
+       19  1629     1
+Hardware status: 0
+Standby Time mSec: 3000
+
+Output thread 0xe9903ac0 type 0 (MIXER):
+  Thread name: AudioOut_2
+  I/O handle: 2
+  TID: 1240
+  Standby: yes
+  Sample rate: 44100 Hz
+  HAL frame count: 1024
+  HAL format: 0x3 (pcm32)
+  HAL buffer size: 8192 bytes
+  Channel count: 2
+  Channel mask: 0x00000003 (front-left, front-right)
+  Format: 0x3 (pcm32)
+  Frame size: 8 bytes
+  Pending config events: none
+  Output device: 0x2 (SPEAKER)
+  Input device: 0 (NONE)
+  Audio source: 0 (default)
+  Normal frame count: 1024
+  Last write occurred (msecs): 79363
+  Total writes: 477
+  Delayed writes: 0
+  Blocked in write: no
+  Suspend count: 0
+  Sink buffer : 0xe9add000
+  Mixer buffer: 0xe9adf000
+  Effect buffer: 0xe9ac5000
+  Fast track availMask=0xfe
+  AudioStreamOut: 0xe9c23e28 flags 0x2 (PRIMARY)
+  Thread throttle time (msecs): 128
+  AudioMixer tracks: 0x00000000
+  FastMixer not initialized
+  Stream volumes in dB: 0:-18, 1:-33, 2:-33, 3:-27, 4:-21, 5:-33, 6:0, 7:0, 8:-35, 9:-inf, 10:-12, 11:-42, 12:-21, 13:-27, 14:0
+  Normal mixer raw underrun counters: partial=0 empty=0
+  0 Tracks
+  1 Effect Chains
+    3 effects for session 0
+	In buffer   Out buffer   Active tracks:
+	0xe9ac5000  0xe9ac5000   0
+	Effect ID 16:
+		Session Status State Engine:
+		00000   000    000   0xe3692280
+		Descriptor:
+		- UUID: B437F4DE-DA28-449B-9673-667F8B9643FE
+		- TYPE: EC7178EC-E5E1-4432-A3F4-4657E6795210
+		- apiVersion: 00020000
+		- flags: 00000001 (conn. mode: auxiliary, insert pref: any, volume mgmt: none, input mode: not set, output mode: not set)
+		- name: Dirac Shared Controller
+		- implementor: Dirac Research AB
+		- Input configuration:
+			Frames  Smp rate Channels Format Buffer
+			01024   44100    00000001      1 (pcm16) 0xe0710000
+		- Output configuration:
+			Buffer     Frames  Smp rate Channels Format
+			0xe9ac5000 01024   44100    00000003 1 (pcm16)
+		1 Clients:
+			  Pid Priority Ctrl Locked client server
+			 2093        0  yes    yes      0      0
+	Effect ID 17:
+		Session Status State Engine:
+		00000   000    000   0xe95b54e0
+		Descriptor:
+		- UUID: 9D4921DA-8225-4F29-AEFA-39537A04BCAA
+		- TYPE: 46D279D9-9BE7-453D-9D7C-EF937F675587
+		- apiVersion: 00020000
+		- flags: 00040288 (conn. mode: insert, insert pref: first, volume mgmt: requires indication, device indication: requires updates, input mode: not set, output mode: not set, mode indication: required)
+		- name: DAX2.2.1.7_r1
+		- implementor: Dolby Laboratories, Inc.
+		- Input configuration:
+			Frames  Smp rate Channels Format Buffer
+			01024   44100    00000003      1 (pcm16) 0xe9ac5000
+		- Output configuration:
+			Buffer     Frames  Smp rate Channels Format
+			0xe9ac5000 01024   44100    00000003 1 (pcm16)
+		1 Clients:
+			  Pid Priority Ctrl Locked client server
+			 2128        0  yes    yes      0      0
+	Effect ID 18:
+		Session Status State Engine:
+		00000   000    003   0xe808d010
+		Descriptor:
+		- UUID: B437F4DE-DA28-449B-9673-667F8B964304
+		- TYPE: EC7178EC-E5E1-4432-A3F4-4657E6795210
+		- apiVersion: 00020000
+		- flags: 00000284 (conn. mode: postproc, insert pref: any, volume mgmt: requires indication, device indication: requires updates, input mode: not set, output mode: not set)
+		- name: Dirac [music]
+		- implementor: Dirac Research AB
+		- Input configuration:
+			Frames  Smp rate Channels Format Buffer
+			01024   44100    00000003      1 (pcm16) 0xe9ac5000
+		- Output configuration:
+			Buffer     Frames  Smp rate Channels Format
+			0xe9ac5000 01024   44100    00000003 1 (pcm16)
+		1 Clients:
+			  Pid Priority Ctrl Locked client server
+			 2093        0  yes    yes      0      0
+
+Output thread 0xe8983000 type 0 (MIXER):
+  Thread name: AudioOut_4
+  I/O handle: 4
+  TID: 1242
+  Standby: yes
+  Sample rate: 44100 Hz
+  HAL frame count: 256
+  HAL format: 0x3 (pcm32)
+  HAL buffer size: 2048 bytes
+  Channel count: 2
+  Channel mask: 0x00000003 (front-left, front-right)
+  Format: 0x5 (pcmfloat)
+  Frame size: 8 bytes
+  Pending config events: none
+  Output device: 0 (NONE)
+  Input device: 0 (NONE)
+  Audio source: 0 (default)
+  Normal frame count: 1024
+  Last write occurred (msecs): 2766977
+  Total writes: 143
+  Delayed writes: 0
+  Blocked in write: no
+  Suspend count: 0
+  Sink buffer : 0xe9494000
+  Mixer buffer: 0xe9496000
+  Effect buffer: 0xe9ae9000
+  Fast track availMask=0xf8
+  AudioStreamOut: 0xe94cfa88 flags 0x4 (FAST)
+  Thread throttle time (msecs): 0
+  AudioMixer tracks: 0x00000003
+  FastMixer command=COLD_IDLE writeSequence=1144 framesWritten=146432
+            numTracks=1 writeErrors=0 underruns=0 overruns=0
+            sampleRate=44100 frameCount=256 measuredWarmup=20.8 ms, warmupCycles=4
+            mixPeriod=5.80 ms
+  Simple moving statistics over last 3.3 seconds:
+    wall clock time in ms per mix cycle:
+      mean=5.80 min=5.31 max=6.29 stddev=0.06
+    raw CPU load in us per mix cycle:
+      mean=126 min=0 max=457 stddev=58
+  Fast tracks: kMaxFastTracks=8 activeMask=0x1
+  Index Active Full Partial Empty  Recent Ready
+      0    yes  568       0     0    full  1280
+      1     no    0       0     0    full     0
+      2     no   43       1    11   empty     0
+      3     no    0       0     0    full     0
+      4     no    0       0     0    full     0
+      5     no    0       0     0    full     0
+      6     no    0       0     0    full     0
+      7     no    0       0     0    full     0
+  Stream volumes in dB: 0:-18, 1:-33, 2:-33, 3:-27, 4:-21, 5:-33, 6:0, 7:0, 8:-35, 9:-inf, 10:-12, 11:-42, 12:-21, 13:-27, 14:0
+  Normal mixer raw underrun counters: partial=0 empty=0
+  2 Tracks of which 0 are active
+    Name Active Client Type      Fmt Chn mask Session fCount S F SRate  L dB  R dB    Server Main buf  Aux Buf Flags UndFrmCnt
+    F  1     no   1713    0 00000001 00000001      15    512 I 0 44100   -10   -10  00000000 0xe9494000 0x0 0x000         0 
+    F  2     no   1629    1 00000001 00000003      19  11210 S 1 44100  -inf  -inf  00002BCA 0xe9494000 0x0 0x600         0 
+  0 Effect Chains
+
+Reroute submix audio module:
+ route[0] rate in=0 out=0, addr=[]
+ route[1] rate in=0 out=0, addr=[]
+ route[2] rate in=0 out=0, addr=[]
+ route[3] rate in=0 out=0, addr=[]
+ route[4] rate in=0 out=0, addr=[]
+ route[5] rate in=0 out=0, addr=[]
+ route[6] rate in=0 out=0, addr=[]
+ route[7] rate in=0 out=0, addr=[]
+ route[8] rate in=0 out=0, addr=[]
+ route[9] rate in=48000 out=48000, addr=[]

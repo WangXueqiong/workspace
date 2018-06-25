@@ -1,0 +1,15 @@
+Current Ethernet state: 
+  Not tracking any interface
+  
+  NetworkInfo: [type: Ethernet[], state: UNKNOWN/IDLE, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: false]
+  LinkProperties: {LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null MTU: 0 PcscfAddresses: [] }
+  NetworkAgent: null
+
+Stored Ethernet configuration: 
+  IP assignment: DHCP
+  Proxy settings: NONE
+  
+Handler:
+  EthernetServiceImplHandler (android.os.Handler) {235715c} @ 2895530
+  EthernetServiceImpl  Looper (EthernetServiceThread, tid 73) {2737c65}
+  EthernetServiceImpl    (Total messages: 0, polling=true, quitting=false)

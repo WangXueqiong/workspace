@@ -1,0 +1,329 @@
+<html>
+<head>
+  <title>f00192.html</title>
+  <link rel="stylesheet" type="text/css" href="themes/blue/style.css"/>
+  <link rel="stylesheet" type="text/css" href="jquery.treeTable.css"/>
+  <link rel="stylesheet" type="text/css" href="jquery.ui.css"/>
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+  <script type="text/javascript" src="jquery.js"></script>
+  <script type="text/javascript" src="jquery.cookie.js"></script>
+  <script type="text/javascript" src="jquery.hotkeys.js"></script>
+  <script type="text/javascript" src="jquery.jstree.js"></script>
+  <script type="text/javascript" src="jquery.tablesorter.js"></script>
+  <script type="text/javascript" src="jquery.tablednd.js"></script>
+  <script type="text/javascript" src="jquery.treeTable.js"></script>
+  <script type="text/javascript" src="jquery.flot.js"></script>
+  <script type="text/javascript" src="jquery.flot.navigate.js"></script>
+  <script type="text/javascript" src="jquery.flot.selection.js"></script>
+  <script type="text/javascript" src="jquery.ui.js"></script>
+  <script type="text/javascript" src="colResizable-1.3.source.js"></script>
+  <script type="text/javascript" src="/self$wsjs"></script>
+  <script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+<a name="ch0"></a><div class="btn-pop-out"><a href="f00192.html#ch0" target="_blank"><img src="ic_pop_out.png"/></a></div><h2>system_server (788)</h2>
+<div><p>Mem info from 'meminfo' service:</p><pre class="box">** MEMINFO in pid 788 [system] **
+                   Pss      Pss   Shared  Private   Shared  Private  Swapped     Heap     Heap     Heap
+                 Total    Clean    Dirty    Dirty    Clean    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap        0        0        0        0        0        0        0    77824    27921    49902
+  Dalvik Heap    43570        0     3396    43408        0        0    15184    63663    49776    13887
+ Dalvik Other     1788        0       16     1788        0        0        8                           
+        Stack     1456        0        0     1456        0        0      284                           
+       Ashmem        2        0        4        0        0        0        0                           
+    Other dev        6        0       88        0        0        4        0                           
+     .so mmap     3217     1876     1140      284     8768     1876     2664                           
+    .apk mmap      703      428        0        0     1308      428        0                           
+    .dex mmap     8791     8780        0        0       24     8780        0                           
+    .oat mmap     4953     3180        0        0     9564     3180        0                           
+    .art mmap     2595      240     1716     1640     7208      240        8                           
+   Other mmap       59        0       12        4      404        0        0                           
+      Unknown    24023        0     1572    23952        0        0     7120                           
+        TOTAL    91163    14504     7944    72532    27276    14508    25268   141487    77697    63789
+ 
+ Dalvik Details
+        .Heap    32492        0        0    32492        0        0      164                           
+         .LOS     8080        0        0     8080        0        0      216                           
+          .GC     1680        0        0     1680        0        0        8                           
+      .Zygote      422        0     3396      260        0        0    14804                           
+   .NonMoving     2576        0        0     2576        0        0        0                           
+ .IndirectRef      108        0       16      108        0        0        0                           
+ 
+ Objects
+               Views:       86         ViewRootImpl:        1
+         AppContexts:       25           Activities:        0
+              Assets:       13        AssetManagers:       13
+       Local Binders:      277        Proxy Binders:      953
+       Parcel memory:      338         Parcel count:      287
+    Death Recipients:      370      OpenSSL Sockets:        0
+ 
+ Dalvik
+         isLargeHeap:     true
+ 
+ SQL
+         MEMORY_USED:      822
+  PAGECACHE_OVERFLOW:      376          MALLOC_SIZE:       62
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       64             24         8/29/3  /data/system/users/0/accounts.db
+         4       20             20         2/29/3  /data/system/databases/locksettings.db
+         4       20             22        16/27/3  /data/system/databases/locksettings.db (1)
+         4      148             77     4216/40/14  /data/data/com.android.providers.settings/databases/settings.db
+         4       28             64        84/29/3  /data/system/databases/notification_ranking.db
+ 
+ Asset Allocations
+    zip:/data/app/com.tianyancha.skyeye-2/base.apk:/resources.arsc: 1616K
+
+Total PSS by process:
+   174711 kB: com.tianyancha.skyeye (pid 2720 / activities)
+   115053 kB: com.meizu.safe (pid 1290)
+    91163 kB: system (pid 788)
+    87534 kB: com.android.systemui (pid 1065)
+    71230 kB: com.tencent.mobileqq:qzone (pid 2676)
+    60141 kB: com.meizu.flyme.launcher (pid 1760 / activities)
+    52144 kB: com.tencent.mobileqq (pid 13391 / activities)
+    40692 kB: com.tianyancha.skyeye:channel (pid 3186)
+    24452 kB: com.tencent.mobileqq:MSF (pid 2298)
+    22795 kB: com.meizu.media.reader (pid 2535)
+    22189 kB: com.meizu.battery (pid 1393)
+    22112 kB: libweexjsb.so (pid 2647)
+    21857 kB: com.tencent.mm (pid 7087)
+    20455 kB: com.meizu.mstore (pid 5417)
+    20387 kB: com.meizu.customizecenter (pid 1434)
+    20272 kB: com.flyme.systemuitools (pid 2181)
+    20149 kB: com.sina.weibo (pid 6870)
+    19332 kB: com.android.phone (pid 1696)
+    17644 kB: android.process.media (pid 4472)
+    16986 kB: com.tencent.mm:push (pid 5580)
+    14939 kB: com.sina.weibo:remote (pid 3440)
+    14741 kB: com.android.settings (pid 4714 / activities)
+    12112 kB: android.process.acore (pid 1288)
+    10822 kB: com.meizu.flyme.input (pid 1486)
+     9296 kB: com.meizu.flyme.update (pid 12827)
+     9287 kB: com.meizu.alphame (pid 1639)
+     8670 kB: com.aliyun.ams.tyid (pid 4845)
+     8061 kB: com.meizu.experiencedatasync (pid 1525)
+     7905 kB: com.meizu.desktopbackup (pid 4213)
+     7905 kB: com.meizu.account (pid 4343)
+     6926 kB: mediaserver (pid 327)
+     6299 kB: com.meizu.mzsyncservice (pid 4037)
+     6069 kB: com.amap.android.location (pid 1551)
+     6014 kB: com.aliyun.ams.assistantservice (pid 1618)
+     5641 kB: com.meizu.share (pid 4010)
+     5551 kB: com.meizu.media.gallery (pid 1488)
+     5423 kB: com.meizu.cloud:mzservice_v1 (pid 2816)
+     5240 kB: com.meizu.privacy (pid 5084)
+     4719 kB: com.android.incallui (pid 1633)
+     4494 kB: com.meizu.flyme.service.find (pid 2685)
+     4422 kB: com.android.musicfx (pid 1335)
+     4399 kB: com.android.defcontainer (pid 1242)
+     4395 kB: com.meizu.filemanager (pid 1360)
+     4344 kB: com.svox.pico (pid 1599)
+     4194 kB: com.waves.maxxservice (pid 1625)
+     4178 kB: com.yunos.alimobilesearch (pid 2499)
+     3693 kB: com.android.packageinstaller (pid 1407)
+     3598 kB: com.fingerprints.service (pid 1645)
+     3517 kB: com.meizu.cloud (pid 3960)
+     3194 kB: zygote64 (pid 375)
+     2901 kB: surfaceflinger (pid 301)
+     2766 kB: com.alipay.android.app (pid 2570)
+     2678 kB: zygote (pid 376)
+      874 kB: dumpsys (pid 3574)
+      786 kB: /init (pid 1)
+      785 kB: adbd (pid 14235)
+      783 kB: mtkrild (pid 838)
+      772 kB: wpa_supplicant (pid 1200)
+      660 kB: netd (pid 321)
+      530 kB: dumpstate (pid 2383)
+      505 kB: dnsqueue (pid 357)
+      500 kB: ueventd (pid 219)
+      412 kB: vold (pid 300)
+      397 kB: guiext-server (pid 371)
+      392 kB: drmserver (pid 326)
+      380 kB: healthd (pid 296)
+      313 kB: bugreport (pid 2378)
+      284 kB: program_binary_service (pid 604)
+      282 kB: gsm0710muxd (pid 785)
+      235 kB: installd (pid 328)
+      209 kB: dm_agent_binder (pid 341)
+      205 kB: keystore (pid 330)
+      204 kB: secd (pid 331)
+      196 kB: ppl_agent (pid 342)
+      187 kB: servicemanager (pid 299)
+      186 kB: mtk_agpsd (pid 343)
+      177 kB: nvram_agent_binder (pid 365)
+      168 kB: wifi2agps (pid 344)
+      166 kB: dhcpcd (pid 2353)
+      157 kB: fuelgauged (pid 372)
+      135 kB: debuggerd64 (pid 325)
+      129 kB: mtkbt (pid 603)
+      125 kB: debuggerd (pid 324)
+      115 kB: thermal (pid 367)
+       98 kB: batterywarning (pid 369)
+       85 kB: stp_dump3 (pid 311)
+       70 kB: ccci_fsd (pid 312)
+       67 kB: lmkd (pid 298)
+       40 kB: em_svr (pid 606)
+       39 kB: mobile_log_d (pid 333)
+       36 kB: flymed (pid 322)
+       35 kB: ccci_mdinit (pid 314)
+       33 kB: autokd (pid 304)
+       33 kB: sdcard (pid 605)
+       27 kB: MtkCodecService (pid 370)
+       26 kB: thermald (pid 368)
+       25 kB: 6620_launcher (pid 309)
+       13 kB: sh (pid 302)
+       11 kB: mnld (pid 361)
+       11 kB: emdlogger1 (pid 784)
+        9 kB: sh (pid 297)
+        9 kB: webserver (pid 303)
+        9 kB: netdiag (pid 336)
+        4 kB: mcDriverDaemon (pid 266)
+
+Total PSS by OOM adjustment:
+    49740 kB: Native
+               22112 kB: libweexjsb.so (pid 2647)
+                6926 kB: mediaserver (pid 327)
+                3194 kB: zygote64 (pid 375)
+                2901 kB: surfaceflinger (pid 301)
+                2678 kB: zygote (pid 376)
+                 874 kB: dumpsys (pid 3574)
+                 786 kB: /init (pid 1)
+                 785 kB: adbd (pid 14235)
+                 783 kB: mtkrild (pid 838)
+                 772 kB: wpa_supplicant (pid 1200)
+                 660 kB: netd (pid 321)
+                 530 kB: dumpstate (pid 2383)
+                 505 kB: dnsqueue (pid 357)
+                 500 kB: ueventd (pid 219)
+                 412 kB: vold (pid 300)
+                 397 kB: guiext-server (pid 371)
+                 392 kB: drmserver (pid 326)
+                 380 kB: healthd (pid 296)
+                 313 kB: bugreport (pid 2378)
+                 284 kB: program_binary_service (pid 604)
+                 282 kB: gsm0710muxd (pid 785)
+                 235 kB: installd (pid 328)
+                 209 kB: dm_agent_binder (pid 341)
+                 205 kB: keystore (pid 330)
+                 204 kB: secd (pid 331)
+                 196 kB: ppl_agent (pid 342)
+                 187 kB: servicemanager (pid 299)
+                 186 kB: mtk_agpsd (pid 343)
+                 177 kB: nvram_agent_binder (pid 365)
+                 168 kB: wifi2agps (pid 344)
+                 166 kB: dhcpcd (pid 2353)
+                 157 kB: fuelgauged (pid 372)
+                 135 kB: debuggerd64 (pid 325)
+                 129 kB: mtkbt (pid 603)
+                 125 kB: debuggerd (pid 324)
+                 115 kB: thermal (pid 367)
+                  98 kB: batterywarning (pid 369)
+                  85 kB: stp_dump3 (pid 311)
+                  70 kB: ccci_fsd (pid 312)
+                  67 kB: lmkd (pid 298)
+                  40 kB: em_svr (pid 606)
+                  39 kB: mobile_log_d (pid 333)
+                  36 kB: flymed (pid 322)
+                  35 kB: ccci_mdinit (pid 314)
+                  33 kB: autokd (pid 304)
+                  33 kB: sdcard (pid 605)
+                  27 kB: MtkCodecService (pid 370)
+                  26 kB: thermald (pid 368)
+                  25 kB: 6620_launcher (pid 309)
+                  13 kB: sh (pid 302)
+                  11 kB: mnld (pid 361)
+                  11 kB: emdlogger1 (pid 784)
+                   9 kB: sh (pid 297)
+                   9 kB: webserver (pid 303)
+                   9 kB: netdiag (pid 336)
+                   4 kB: mcDriverDaemon (pid 266)
+    91163 kB: System
+               91163 kB: system (pid 788)
+   142739 kB: Persistent
+               87534 kB: com.android.systemui (pid 1065)
+               19332 kB: com.android.phone (pid 1696)
+                9287 kB: com.meizu.alphame (pid 1639)
+                8061 kB: com.meizu.experiencedatasync (pid 1525)
+                6014 kB: com.aliyun.ams.assistantservice (pid 1618)
+                4719 kB: com.android.incallui (pid 1633)
+                4194 kB: com.waves.maxxservice (pid 1625)
+                3598 kB: com.fingerprints.service (pid 1645)
+   175194 kB: Foreground
+              115053 kB: com.meizu.safe (pid 1290)
+               60141 kB: com.meizu.flyme.launcher (pid 1760 / activities)
+    57200 kB: Visible
+               22189 kB: com.meizu.battery (pid 1393)
+               20272 kB: com.flyme.systemuitools (pid 2181)
+                8670 kB: com.aliyun.ams.tyid (pid 4845)
+                6069 kB: com.amap.android.location (pid 1551)
+   126261 kB: Perceptible
+               52144 kB: com.tencent.mobileqq (pid 13391 / activities)
+               24452 kB: com.tencent.mobileqq:MSF (pid 2298)
+               21857 kB: com.tencent.mm (pid 7087)
+               16986 kB: com.tencent.mm:push (pid 5580)
+               10822 kB: com.meizu.flyme.input (pid 1486)
+   111922 kB: A Services
+               71230 kB: com.tencent.mobileqq:qzone (pid 2676)
+               40692 kB: com.tianyancha.skyeye:channel (pid 3186)
+   174711 kB: Previous
+              174711 kB: com.tianyancha.skyeye (pid 2720 / activities)
+   113897 kB: B Services
+               20149 kB: com.sina.weibo (pid 6870)
+               17644 kB: android.process.media (pid 4472)
+               14939 kB: com.sina.weibo:remote (pid 3440)
+               14741 kB: com.android.settings (pid 4714 / activities)
+                7905 kB: com.meizu.desktopbackup (pid 4213)
+                7905 kB: com.meizu.account (pid 4343)
+                6299 kB: com.meizu.mzsyncservice (pid 4037)
+                5641 kB: com.meizu.share (pid 4010)
+                5423 kB: com.meizu.cloud:mzservice_v1 (pid 2816)
+                5240 kB: com.meizu.privacy (pid 5084)
+                4494 kB: com.meizu.flyme.service.find (pid 2685)
+                3517 kB: com.meizu.cloud (pid 3960)
+   118793 kB: Cached
+               22795 kB: com.meizu.media.reader (pid 2535)
+               20455 kB: com.meizu.mstore (pid 5417)
+               20387 kB: com.meizu.customizecenter (pid 1434)
+               12112 kB: android.process.acore (pid 1288)
+                9296 kB: com.meizu.flyme.update (pid 12827)
+                5551 kB: com.meizu.media.gallery (pid 1488)
+                4422 kB: com.android.musicfx (pid 1335)
+                4399 kB: com.android.defcontainer (pid 1242)
+                4395 kB: com.meizu.filemanager (pid 1360)
+                4344 kB: com.svox.pico (pid 1599)
+                4178 kB: com.yunos.alimobilesearch (pid 2499)
+                3693 kB: com.android.packageinstaller (pid 1407)
+                2766 kB: com.alipay.android.app (pid 2570)
+
+Total PSS by category:
+   435706 kB: Dalvik
+   401915 kB: Unknown
+    59841 kB: .apk mmap
+    57719 kB: .so mmap
+    56412 kB: .dex mmap
+    55744 kB: .art mmap
+    38223 kB: .oat mmap
+    29850 kB: Dalvik Other
+    15732 kB: Stack
+     7585 kB: Other mmap
+     1612 kB: Ashmem
+      681 kB: .ttf mmap
+      544 kB: Other dev
+       48 kB: Native
+        8 kB: .jar mmap
+        0 kB: Cursor
+        0 kB: Gfx dev
+        0 kB: EGL mtrack
+        0 kB: GL mtrack
+        0 kB: Other mtrack
+
+Total RAM: 1845492 kB (status normal)
+ Free RAM: 417141 kB (118793 cached pss + 170012 cached kernel + 128336 free)
+ Used RAM: 1394851 kB (1042827 used pss + 352024 kernel)
+ Lost RAM: 33500 kB
+     ZRAM: 68064 kB physical used for 264524 kB in swap (524284 kB total swap)
+   Tuning: 256 (large 512), oom 184320 kB, restore limit 61440 kB (high-end-gfx)
+</pre></div><p><a href="f00024.html#ch0">Current stack trace &gt;&gt;&gt;</a></p><div><a href="f00194.html#ch0">System log (filtered by this process) &gt;&gt;&gt;</a></div><div><a href="f00218.html#ch0">Event log (filtered by this process) &gt;&gt;&gt;</a></div></body>
+</html>

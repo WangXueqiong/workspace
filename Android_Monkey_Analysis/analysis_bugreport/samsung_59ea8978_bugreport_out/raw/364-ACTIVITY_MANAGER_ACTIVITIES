@@ -1,0 +1,120 @@
+Display #0 (activities from top to bottom):
+  Stack #0:
+    Task id #5630
+    * TaskRecord{f00ab7 #5630 A=com.sec.android.app.launcher U=0 sz=1}
+      userId=0 effectiveUid=u0a8 mCallingUid=u0a17 mCallingPackage=com.android.systemui
+      affinity=com.sec.android.app.launcher
+      intent={act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10800000 cmp=com.sec.android.app.launcher/com.android.launcher2.Launcher}
+      realActivity=com.sec.android.app.launcher/com.android.launcher2.Launcher
+      autoRemoveRecents=false isPersistable=false numFullscreen=1 taskType=1 mTaskToReturnTo=1
+      rootWasReset=false mNeverRelinquishIdentity=true mReuseTask=false mLockTaskAuth=LOCK_TASK_AUTH_PINNABLE
+      Activities=[ActivityRecord{405fa0e u0 com.sec.android.app.launcher/com.android.launcher2.Launcher t5630}]
+      askedCompatMode=false inRecents=true isAvailable=true
+      lastThumbnail=null lastThumbnailFile=/data/system/recent_images/5630_task_thumbnail.png
+      stackId=0
+      hasBeenVisible=true mResizeable=false firstActiveTime=1513759863840 lastActiveTime=1514107884155 lastActiveElapsedTime=348042844 (inactive for 44s)
+      multiWindowStyle=MultiWindowStyle{type=0, zone=ZONE_UNKNOWN, option=0x00000000, bounds=null, isNull=false, isolatedCenterPoint=Point(0, 0), scale=0.0, specificTaskId=-1, or=5}
+      bHidden=false
+      isSecretMode=false
+      * Hist #0: ActivityRecord{405fa0e u0 com.sec.android.app.launcher/com.android.launcher2.Launcher t5630}
+          packageName=com.sec.android.app.launcher processName=com.sec.android.app.launcher
+          launchedFromUid=0 launchedFromPackage=null userId=0
+          app=ProcessRecord{4279a84 1700:com.sec.android.app.launcher/u0a8}
+          Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10800000 cmp=com.sec.android.app.launcher/com.android.launcher2.Launcher }
+          frontOfTask=true task=TaskRecord{f00ab7 #5630 A=com.sec.android.app.launcher U=0 sz=1}
+          taskAffinity=com.sec.android.app.launcher
+          realActivity=com.sec.android.app.launcher/com.android.launcher2.Launcher
+          baseDir=/system/priv-app/TouchWizHome/TouchWizHome.apk
+          dataDir=/data/user/0/com.sec.android.app.launcher
+          stateNotNeeded=true componentSpecified=false mActivityType=1
+          compat={480dpi} labelRes=0x7f090002 icon=0x7f0200be theme=0x7f0f000d
+          config={0 1.0 showBtnBg = 0 ?mcc?mnc zh_CN ldltr sw360dp w360dp h616dp 480dpi nrml long port finger -keyb/v/h -nav/h mkbd/? s.10}
+          stackConfigOverride={0 1.0 showBtnBg = -1 ?mcc?mnc ?locale ?layoutDir ?swdp ?wdp ?hdp ?density ?lsize ?long ?orien ?uimode ?night ?touch ?keyb/?/? ?nav/? mkbd/?}
+          taskDescription: iconFilename=null label="null" color=ff00a5c4
+          launchFailed=false launchCount=0 lastLaunchTime=-9h29m25s246ms
+          haveState=false icicle=null
+          state=RESUMED stopped=false delayedResume=false finishing=false
+          keysPaused=false inHistory=true visible=true sleeping=false idle=true
+          fullscreen=true noDisplay=false immersive=false launchMode=2
+          frozenBeforeDestroy=false forceNewConfig=false
+          mActivityType=HOME_ACTIVITY_TYPE
+          waitingVisible=false nowVisible=true lastVisibleTime=-43s301ms
+          multiWindowStyle=MultiWindowStyle{type=0, zone=ZONE_UNKNOWN, option=0x00000000, bounds=null, isNull=false, isolatedCenterPoint=Point(0, 0), scale=0.0, specificTaskId=-1, or=5}
+          bMultiInstance=false
+          mIsLastShownWhenLocked=false
+    Task id #5637
+    * TaskRecord{df09b53 #5637 A=com.android.systemui U=0 sz=1}
+      userId=0 effectiveUid=u0a17 mCallingUid=u0a17 mCallingPackage=com.android.systemui
+      affinity=com.android.systemui
+      intent={flg=0x10800000 cmp=com.android.systemui/.recents.SeparatedRecentsActivity bnds=[70,1362][1011,2303]}
+      realActivity=com.android.systemui/.recents.SeparatedRecentsActivity
+      autoRemoveRecents=false isPersistable=false numFullscreen=1 taskType=2 mTaskToReturnTo=0
+      rootWasReset=false mNeverRelinquishIdentity=true mReuseTask=false mLockTaskAuth=LOCK_TASK_AUTH_PINNABLE
+      Activities=[ActivityRecord{269a2a2 u0 com.android.systemui/.recents.SeparatedRecentsActivity t5637}]
+      askedCompatMode=false inRecents=true isAvailable=true
+      lastThumbnail=null lastThumbnailFile=/data/system/recent_images/5637_task_thumbnail.png
+      stackId=0
+      hasBeenVisible=true mResizeable=false firstActiveTime=1513760047301 lastActiveTime=1514107117505 lastActiveElapsedTime=347276194 (inactive for 810s)
+      multiWindowStyle=MultiWindowStyle{type=0, zone=ZONE_UNKNOWN, option=0x01000002, bounds=null, isNull=false, isolatedCenterPoint=Point(0, 0), scale=0.0, specificTaskId=-1, or=3}
+      bHidden=false
+      isSecretMode=false
+      * Hist #0: ActivityRecord{269a2a2 u0 com.android.systemui/.recents.SeparatedRecentsActivity t5637}
+          packageName=com.android.systemui processName=com.android.systemui.recents
+          launchedFromUid=10017 launchedFromPackage=com.android.systemui userId=0
+          app=ProcessRecord{74c9783 1418:com.android.systemui.recents/u0a17}
+          Intent { flg=0x10800000 cmp=com.android.systemui/.recents.SeparatedRecentsActivity bnds=[70,1362][1011,2303] }
+          frontOfTask=true task=TaskRecord{df09b53 #5637 A=com.android.systemui U=0 sz=1}
+          taskAffinity=com.android.systemui
+          realActivity=com.android.systemui/.recents.SeparatedRecentsActivity
+          baseDir=/system/priv-app/SystemUI/SystemUI.apk
+          dataDir=/data/user/0/com.android.systemui
+          stateNotNeeded=true componentSpecified=false mActivityType=2
+          compat={480dpi} labelRes=0x7f0b0331 icon=0x7f0201c7 theme=0x7f100017
+          config={0 1.0 showBtnBg = 0 ?mcc?mnc zh_CN ldltr sw360dp w360dp h616dp 480dpi nrml long port finger -keyb/v/h -nav/h mkbd/? s.10}
+          stackConfigOverride={0 1.0 showBtnBg = -1 ?mcc?mnc ?locale ?layoutDir ?swdp ?wdp ?hdp ?density ?lsize ?long ?orien ?uimode ?night ?touch ?keyb/?/? ?nav/? mkbd/?}
+          taskDescription: iconFilename=null label="null" color=ff00a5c4
+          launchFailed=false launchCount=0 lastLaunchTime=-9h26m22s36ms
+          haveState=true icicle=Bundle[mParcelledData.dataSize=2172]
+          state=STOPPED stopped=true delayedResume=false finishing=false
+          keysPaused=false inHistory=true visible=false sleeping=false idle=true
+          fullscreen=true noDisplay=false immersive=false launchMode=3
+          frozenBeforeDestroy=false forceNewConfig=false
+          mActivityType=RECENTS_ACTIVITY_TYPE
+          waitingVisible=false nowVisible=false lastVisibleTime=-13m31s968ms
+          multiWindowStyle=MultiWindowStyle{type=0, zone=ZONE_UNKNOWN, option=0x01000002, bounds=null, isNull=false, isolatedCenterPoint=Point(0, 0), scale=0.0, specificTaskId=-1, or=3}
+          bMultiInstance=false
+          mIsLastShownWhenLocked=false
+
+    Running activities (most recent first):
+      TaskRecord{f00ab7 #5630 A=com.sec.android.app.launcher U=0 sz=1}
+        Run #1: ActivityRecord{405fa0e u0 com.sec.android.app.launcher/com.android.launcher2.Launcher t5630}
+      TaskRecord{df09b53 #5637 A=com.android.systemui U=0 sz=1}
+        Run #0: ActivityRecord{269a2a2 u0 com.android.systemui/.recents.SeparatedRecentsActivity t5637}
+
+    mResumedActivity: ActivityRecord{405fa0e u0 com.sec.android.app.launcher/com.android.launcher2.Launcher t5630}
+    mLastPausedActivity: ActivityRecord{405fa0e u0 com.sec.android.app.launcher/com.android.launcher2.Launcher t5630}
+
+  mFocusedActivity: ActivityRecord{405fa0e u0 com.sec.android.app.launcher/com.android.launcher2.Launcher t5630}
+  mPersistDownloadablePkgs:
+    com.android.systemui
+  mFocusedStack=ActivityStack{160b0f5 stackId=0, 2 tasks} mLastFocusedStack=ActivityStack{160b0f5 stackId=0, 2 tasks}
+  mSleepTimeout=false
+  mCurTaskId=5719
+  mUserStackInFront={}
+  mActivityContainers={0=ActivtyContainer{0}A zone=0, 1=ActivtyContainer{1}A zone=0}
+  mLockTaskModeState=NONE mLockTaskPackages (userId:packages)=
+    0:[]
+ mLockTaskModeTasks[]
+  mCurrentUser=0
+
+GlobalTaskHistory
+  ActivityDisplay #0 (1080x1920)
+    TASK id #5630	u0	(Stack #0)	com.sec.android.app.launcher
+    TASK id #5637	u0	(Stack #0)	com.android.systemui
+
+MultiWindow setting
+  current
+
+  history
+
+

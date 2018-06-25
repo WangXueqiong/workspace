@@ -1,0 +1,48 @@
+DUMP OF SERVICE account:
+User UserInfo{0:2:13}:
+  Accounts: 3
+    Account {name=å¤©å¤©å¿«æ¥, type=com.tencent.reading.account.sync}
+    Account {name=ZAKER, type=com.myzaker.ZAKER_Phone.type}
+    Account {name=360ææºå©æ, type=com.qihoo.appstore.account}
+  
+  AccountId, Action_Type, timestamp, UID, TableName, Key
+  Accounts History
+  15,action_account_add,2017-07-26 14:42:12,10266,accounts,0
+  -1,action_called_account_remove,2017-07-26 14:46:46,1000,accounts,1
+  15,action_account_remove,2017-07-26 14:46:46,10266,accounts,2
+  16,action_account_add,2017-08-29 18:29:37,10266,accounts,3
+  -1,action_called_account_remove,2017-08-29 18:57:08,1000,accounts,4
+  16,action_account_remove,2017-08-29 18:57:08,10266,accounts,5
+  17,action_account_add,2017-10-10 10:02:29,10266,accounts,6
+  -1,action_called_account_remove,2017-10-10 10:04:00,1000,accounts,7
+  17,action_account_remove,2017-10-10 10:04:00,10266,accounts,8
+  18,action_account_add,2017-10-20 15:32:58,10266,accounts,9
+  -1,action_called_account_remove,2017-10-20 15:34:40,1000,accounts,10
+  18,action_account_remove,2017-10-20 15:34:41,10266,accounts,11
+  19,action_account_add,2017-11-06 12:41:21,10266,accounts,12
+  -1,action_called_account_remove,2017-11-06 12:59:20,1000,accounts,13
+  19,action_account_remove,2017-11-06 12:59:20,10266,accounts,14
+  20,action_account_add,2017-11-26 11:05:03,10266,accounts,15
+  -1,action_called_account_remove,2017-11-26 11:06:40,1000,accounts,16
+  20,action_account_remove,2017-11-26 11:06:40,10266,accounts,17
+  21,action_account_add,2017-12-21 14:13:31,10266,accounts,18
+  -1,action_called_account_remove,2017-12-21 14:25:03,1000,accounts,19
+  21,action_account_remove,2017-12-21 14:25:03,10266,accounts,20
+  
+  Active Sessions: 0
+  
+  RegisteredServicesCache: 13 services
+    ServiceInfo: AuthenticatorDescription {type=com.myzaker.ZAKER_Phone.type}, ComponentInfo{com.myzaker.ZAKER_Phone/com.myzaker.ZAKER_Phone.view.sysaccount.AuthenticatorService}, uid 10067
+    ServiceInfo: AuthenticatorDescription {type=com.tencent.mobileqq.account}, ComponentInfo{com.tencent.mobileqq/com.tencent.mobileqq.contactsync.authenticator.AuthenticationService}, uid 10356
+    ServiceInfo: AuthenticatorDescription {type=com.tencent.mtt.account.sync}, ComponentInfo{com.tencent.mtt/com.tencent.mtt.browser.push.external.account.AccountService}, uid 10062
+    ServiceInfo: AuthenticatorDescription {type=com.android.exchange}, ComponentInfo{com.android.email/com.android.email.service.EasAuthenticatorService}, uid 10155
+    ServiceInfo: AuthenticatorDescription {type=com.wandoujia.phoenix2}, ComponentInfo{com.wandoujia.phoenix2/com.pp.assistant.worker.AuthenticatorService}, uid 10021
+    ServiceInfo: AuthenticatorDescription {type=com.tencent.mm.account}, ComponentInfo{com.tencent.mm/com.tencent.mm.plugin.accountsync.model.AccountAuthenticatorService}, uid 10266
+    ServiceInfo: AuthenticatorDescription {type=com.samsung.android.coreapps}, ComponentInfo{com.samsung.android.coreapps/com.samsung.android.coreapps.easysignup.authenticator.AuthenticationService}, uid 5011
+    ServiceInfo: AuthenticatorDescription {type=com.tencent.reading.account.sync}, ComponentInfo{com.tencent.reading/com.tencent.reading.account.AccountService}, uid 10064
+    ServiceInfo: AuthenticatorDescription {type=com.android.ldap}, ComponentInfo{com.android.email/com.android.email.service.LdapAuthenticatorService}, uid 10155
+    ServiceInfo: AuthenticatorDescription {type=com.android.email}, ComponentInfo{com.android.email/com.android.email.service.PopImapAuthenticatorService}, uid 10155
+    ServiceInfo: AuthenticatorDescription {type=org.mozilla.firefox}, ComponentInfo{com.sec.android.app.sbrowser/com.sec.android.app.sbrowser.firefox.FxAccountAuthenticatorService}, uid 10133
+    ServiceInfo: AuthenticatorDescription {type=com.osp.app.signin}, ComponentInfo{com.osp.app.signin/com.osp.app.signin.OspAuthenticationService}, uid 10039
+    ServiceInfo: AuthenticatorDescription {type=com.qihoo.appstore.account}, ComponentInfo{com.qihoo.appstore/com.qihoo.appstore.keepalive.account.AuthenticationService}, uid 10394
+  

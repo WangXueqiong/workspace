@@ -1,0 +1,7 @@
+local ::1 dev lo  proto none  metric 0 
+local fe80::649d:fdff:fe8d:b2f6 dev lo  proto none  metric 0 
+local fe80::76ac:5fff:feb2:173a dev lo  proto none  metric 0 
+ff00::/8 dev dummy0  metric 256 
+ff00::/8 dev wlan0  metric 256 
+[ip: 0.008s elapsed]
+

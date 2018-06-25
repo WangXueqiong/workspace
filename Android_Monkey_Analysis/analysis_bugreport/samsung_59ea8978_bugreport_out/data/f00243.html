@@ -1,0 +1,436 @@
+<html>
+<head>
+  <title>f00243.html</title>
+  <link rel="stylesheet" type="text/css" href="themes/blue/style.css"/>
+  <link rel="stylesheet" type="text/css" href="jquery.treeTable.css"/>
+  <link rel="stylesheet" type="text/css" href="jquery.ui.css"/>
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+  <script type="text/javascript" src="jquery.js"></script>
+  <script type="text/javascript" src="jquery.cookie.js"></script>
+  <script type="text/javascript" src="jquery.hotkeys.js"></script>
+  <script type="text/javascript" src="jquery.jstree.js"></script>
+  <script type="text/javascript" src="jquery.tablesorter.js"></script>
+  <script type="text/javascript" src="jquery.tablednd.js"></script>
+  <script type="text/javascript" src="jquery.treeTable.js"></script>
+  <script type="text/javascript" src="jquery.flot.js"></script>
+  <script type="text/javascript" src="jquery.flot.navigate.js"></script>
+  <script type="text/javascript" src="jquery.flot.selection.js"></script>
+  <script type="text/javascript" src="jquery.ui.js"></script>
+  <script type="text/javascript" src="colResizable-1.3.source.js"></script>
+  <script type="text/javascript" src="/self$wsjs"></script>
+  <script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+<a name="ch0"></a><div class="btn-pop-out"><a href="f00243.html#ch0" target="_blank"><img src="ic_pop_out.png"/></a></div><h2>system_server (847)</h2>
+<div><p>Mem info from 'meminfo' service:</p><pre class="box">** MEMINFO in pid 847 [system] **
+                   Pss      Pss   Shared  Private   Shared  Private  Swapped     Heap     Heap     Heap
+                 Total    Clean    Dirty    Dirty    Clean    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap    16289        0      108    15680      244      592    11892    43200    29143    14056
+  Dalvik Heap    57505        0       24    56864     2216      628    13516    71400    68478     2922
+ Dalvik Other     5504        0        4     4496        4     1008      784                           
+        Stack     2008        0        0     1868        0      140     1032                           
+       Ashmem     1314        0       36     1296        0        0        0                           
+      Gfx dev     2376        0        0     2376        0        0        0                           
+    Other dev       10        0       96        0        0        8        0                           
+     .so mmap     1902     1008      228      224     9332     1008     2780                           
+    .apk mmap      493       84        0        0     1884       84        0                           
+    .dex mmap    11140    11124        0        0       48    11124       64                           
+    .oat mmap     4351     2808        0        0    13216     2808        0                           
+    .art mmap     2463      244      320     2080     8520      244      572                           
+   Other mmap       72        0        0        8      272       36        4                           
+   EGL mtrack     1800        0        0     1800        0        0        0                           
+      Unknown     1228        0       16     1084       12      144      676                           
+        TOTAL   108455    15268      832    87776    35748    17824    31320   114600    97621    16978
+ 
+ Dalvik Details
+        .Heap    52536        0        0    52512        0       24      292                           
+         .LOS     4528        0        4     3932     1220      596    13052                           
+ .LinearAlloc     2776        0        0     1768        4     1008      772                           
+          .GC     2072        0        0     2072        0        0       12                           
+      .Zygote      293        0       20      276      996        4      164                           
+   .NonMoving      148        0        0      144        0        4        8                           
+ .IndirectRef      656        0        4      656        0        0        0                           
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:    59188
+         Native Heap:    15680
+                Code:    15248
+               Stack:     1868
+            Graphics:     4176
+       Private Other:     9440
+              System:     2855
+ 
+               TOTAL:   108455      TOTAL SWAP (KB):    31320
+ 
+ Objects
+               Views:       42         ViewRootImpl:        4
+         AppContexts:       29           Activities:        0
+              Assets:       18        AssetManagers:       18
+       Local Binders:      368        Proxy Binders:     1224
+       Parcel memory:      378         Parcel count:      372
+    Death Recipients:      538      OpenSSL Sockets:        0
+ 
+ SQL
+         MEMORY_USED:     2946
+  PAGECACHE_OVERFLOW:     1424          MALLOC_SIZE:       62
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4      492             90 69513/109047/25  /data/system/powerManager
+         4       20             16         0/37/1  /data/system/locksettings.db
+         4       20             21        36/37/2  /data/system/locksettings.db (1)
+         4       44             31         9/41/2  /data/system/OtpDatabase.db
+         4       72             76       31/51/10  /data/system/users/0/accounts.db
+         4       32             42         2/42/3  /data/system/dmappmgr.db
+         4      256             61     3964/50/11  /data/system/notification_log.db
+         4       20             23         1/41/2  /data/system/category.db
+         4      840             31        10/41/4  /data/system/enterprise.db
+         4      840             26     959/4838/2  /data/system/enterprise.db (4)
+         4      840            141  11586/1736/17  /data/system/enterprise.db (3)
+         4      840            218   14910/135/25  /data/system/enterprise.db (2)
+ 
+ Asset Allocations
+    zip:/data/app/com.wandoujia.phoenix2-2/base.apk:/resources.arsc: 340K
+    zip:/data/app/com.tencent.android.qqdownloader-2/base.apk:/resources.arsc: 478K
+    zip:/data/app/com.baidu.appsearch-1/base.apk:/resources.arsc: 589K
+
+Total PSS by process:
+   Total  (   PSS   SwapPss ) kB
+   125685 (  108455   17230 ) kB: system (pid 847)
+   111521 (   80669   30852 ) kB: com.android.systemui (pid 1325)
+    91130 (   61291   29839 ) kB: com.sec.android.app.launcher (pid 1700 / activities)
+    79174 (   59382   19792 ) kB: com.sec.android.inputmethod (pid 4420)
+    65688 (   51716   13972 ) kB: com.tencent.mobileqq (pid 24241)
+    44401 (   28288   16113 ) kB: com.tencent.android.qqdownloader (pid 23381)
+    23015 (   22931      84 ) kB: com.samsung.dcm:DCMService (pid 31245)
+    21770 (   21696      74 ) kB: com.tianyancha.skyeye (pid 2484)
+    20047 (   19967      80 ) kB: com.tianyancha.skyeye:channel (pid 2720)
+    22967 (   19683    3284 ) kB: com.tencent.android.qqdownloader:daemon (pid 25228)
+    19399 (   19322      77 ) kB: com.android.mms (pid 2507)
+    17649 (   17563      86 ) kB: com.sec.android.app.music:service (pid 30386)
+    23693 (   15677    8016 ) kB: com.android.phone (pid 1301)
+    21440 (   15049    6391 ) kB: com.tencent.mobileqq:MSF (pid 24434)
+    17618 (   14846    2772 ) kB: surfaceflinger (pid 317)
+    17428 (   14812    2616 ) kB: com.tencent.android.qqdownloader:wns (pid 23544)
+    21619 (   14739    6880 ) kB: flipboard.cn (pid 21285)
+    19521 (   12441    7080 ) kB: mediaserver (pid 346)
+    18393 (   11560    6833 ) kB: com.tencent.android.qqdownloader:connect (pid 23651)
+    24961 (   10845   14116 ) kB: com.android.systemui.recents (pid 1418 / activities)
+    10638 (   10555      83 ) kB: com.android.systemui:screenshot (pid 31209)
+    14416 (    9256    5160 ) kB: app_process32 (pid 6788)
+    13593 (    9143    4450 ) kB: android.process.media (pid 2354)
+    14104 (    8705    5399 ) kB: android.process.acore (pid 1592)
+     9003 (    7794    1209 ) kB: com.sec.spp.push (pid 17567)
+    13530 (    7375    6155 ) kB: com.android.nfc (pid 1686)
+     7003 (    6904      99 ) kB: com.sec.android.app.samsungapps (pid 27734)
+    14235 (    6739    7496 ) kB: com.tencent.android.qqdownloader:tools (pid 23482)
+     6808 (    6727      81 ) kB: com.android.settings (pid 31740)
+    11247 (    6542    4705 ) kB: com.baidu.searchbox_samsung:bdmoservice (pid 21188)
+     6573 (    6494      79 ) kB: com.samsung.android.coreapps (pid 27585)
+    12375 (    6422    5953 ) kB: com.tencent.mobileqq:TMAssistantDownloadSDKService (pid 24227)
+     6386 (    6299      87 ) kB: com.bst.floatingmsgproxy (pid 27537)
+     6345 (    6257      88 ) kB: com.sec.android.app.music:provider (pid 30404)
+    11843 (    6242    5601 ) kB: com.samsung.android.providers.context (pid 2075)
+     7314 (    5792    1522 ) kB: com.bst.airmessage (pid 26101)
+     8178 (    5681    2497 ) kB: com.enhance.gameservice (pid 21039)
+     7314 (    5618    1696 ) kB: com.sec.android.widgetapp.dualcitywidget (pid 3153)
+     5441 (    5361      80 ) kB: com.wsomacp (pid 2581)
+    10776 (    5331    5445 ) kB: com.android.contacts (pid 24282)
+     5245 (    5155      90 ) kB: com.sec.android.app.videoplayer (pid 29804)
+     5205 (    5110      95 ) kB: com.android.providers.calendar (pid 31279)
+     8509 (    4674    3835 ) kB: com.sec.android.widgetapp.ap.hero.cmaweather:SurfaceWidget (pid 2205)
+     4728 (    4620     108 ) kB: com.baidu.searchbox_samsung:bdservice_v1 (pid 27688)
+     4702 (    4613      89 ) kB: com.sec.android.GeoLookout (pid 2591)
+     4476 (    4387      89 ) kB: com.sec.face:FaceProvider (pid 31232)
+     4461 (    4375      86 ) kB: com.samsung.android.sm.provider (pid 31446)
+     9803 (    4313    5490 ) kB: com.android.bluetooth (pid 2017)
+     6186 (    4289    1897 ) kB: com.sec.android.daemonapp (pid 21164)
+     4219 (    4125      94 ) kB: com.android.calendar (pid 31326)
+     4922 (    4012     910 ) kB: com.sec.android.app.soundalive (pid 20342)
+     4048 (    3958      90 ) kB: com.sec.android.app.camera (pid 2567)
+     3850 (    3733     117 ) kB: com.android.exchange (pid 27666)
+     3748 (    3656      92 ) kB: com.samsung.clipboardsaveservice (pid 31257)
+     6264 (    3457    2807 ) kB: com.sec.android.gallery3d (pid 24938)
+     3505 (    3403     102 ) kB: com.sec.android.widgetapp.SPlannerAppWidget (pid 31314)
+     3501 (    3395     106 ) kB: com.sec.android.pagebuddynotisvc (pid 28659)
+     3378 (    3289      89 ) kB: com.sec.android.widgetapp.activeapplicationwidget (pid 2623)
+     3351 (    3246     105 ) kB: com.sec.android.widget.festivalmemorywidget (pid 31302)
+     3297 (    3194     103 ) kB: com.sec.android.widget.greetingcardwidget (pid 31343)
+     9833 (    3041    6792 ) kB: mm-qcamera-daemon (pid 365)
+     3296 (    2793     503 ) kB: com.samsung.android.bbc.bbcagent (pid 3103)
+     5711 (    2774    2937 ) kB: com.amap.android.location (pid 1611)
+     5097 (    2722    2375 ) kB: com.sec.location.nsflp2 (pid 1621)
+     7680 (    2656    5024 ) kB: com.samsung.android.MtpApplication (pid 5840)
+     4267 (    2575    1692 ) kB: com.samsung.android.smartface (pid 21051)
+     3762 (    2450    1312 ) kB: com.tencent.engine (pid 23975)
+     3375 (    2339    1036 ) kB: com.sec.android.app.eventnotification (pid 21303)
+     3406 (    2198    1208 ) kB: com.qualcomm.telephony (pid 23696)
+     5469 (    2163    3306 ) kB: com.sec.android.yellowpage (pid 7423)
+     5445 (    1997    3448 ) kB: com.android.incallui (pid 2090)
+    20223 (    1971   18252 ) kB: com.android.systemui.imagewallpaper (pid 1571)
+     4303 (    1863    2440 ) kB: com.samsung.klmsagent (pid 4489)
+     4009 (    1730    2279 ) kB: org.simalliance.openmobileapi.service:remote (pid 1861)
+     4174 (    1684    2490 ) kB: com.sec.smartcard.manager (pid 1730)
+     3794 (    1610    2184 ) kB: com.samsung.ucs.agent.boot (pid 1743)
+     3613 (    1609    2004 ) kB: com.sec.android.app.wfdbroker (pid 2040)
+     3462 (    1578    1884 ) kB: com.samsung.ucs.ucspinpad (pid 2005)
+     3477 (    1561    1916 ) kB: com.android.managedprovisioning (pid 4539)
+     6439 (    1105    5334 ) kB: zygote (pid 370)
+     2766 (     994    1772 ) kB: rild (pid 333)
+     1510 (     794     716 ) kB: wpa_supplicant (pid 11925)
+      757 (     757       0 ) kB: dumpstate (pid 2618)
+     1122 (     626     496 ) kB: netd (pid 329)
+     1250 (     606     644 ) kB: /init (pid 1)
+     2700 (     576    2124 ) kB: drmserver (pid 345)
+      788 (     488     300 ) kB: adbd (pid 5823)
+      465 (     465       0 ) kB: dumpsys (pid 3101)
+      848 (     456     392 ) kB: debuggerd (pid 330)
+      813 (     381     432 ) kB: sensorhubservice (pid 355)
+     4511 (     355    4156 ) kB: vold (pid 265)
+      400 (     344      56 ) kB: healthd (pid 313)
+      328 (     328       0 ) kB: bugreport (pid 2615)
+      303 (     303       0 ) kB: diag_uart_log (pid 3316)
+     1122 (     270     852 ) kB: thermal-engine (pid 366)
+      612 (     252     360 ) kB: tlc_server (pid 1212)
+     1052 (     236     816 ) kB: ueventd (pid 243)
+      438 (     214     224 ) kB: servicemanager (pid 316)
+      853 (     213     640 ) kB: keystore (pid 351)
+     1764 (     188    1576 ) kB: jackservice (pid 348)
+     1811 (     183    1628 ) kB: apaservice (pid 347)
+      386 (     166     220 ) kB: mpdecision (pid 2396)
+      420 (     156     264 ) kB: rmt_storage (pid 325)
+      354 (     146     208 ) kB: edmaudit (pid 326)
+      430 (     146     284 ) kB: otp_server (pid 1244)
+      436 (     136     300 ) kB: tlc_server (pid 1213)
+      617 (     133     484 ) kB: gatekeeperd (pid 383)
+      925 (     129     796 ) kB: bintvoutservice (pid 369)
+      620 (     128     492 ) kB: qmuxd (pid 462)
+      493 (     125     368 ) kB: androidshmservice (pid 546)
+      331 (      65     266 ) kB: qseecomd (pid 338)
+      441 (      65     376 ) kB: ss_conn_daemon (pid 341)
+      413 (      65     348 ) kB: dhcpcd (pid 26722)
+     3535 (      63    3472 ) kB: installd (pid 349)
+      298 (      54     244 ) kB: lmkd (pid 315)
+      385 (      49     336 ) kB: rfs_access (pid 319)
+      957 (      49     908 ) kB: vcsFPService (pid 397)
+      621 (      41     580 ) kB: smdexe (pid 335)
+      601 (      25     576 ) kB: time_daemon (pid 395)
+      312 (      24     288 ) kB: sh (pid 23851)
+      486 (      18     468 ) kB: auditd (pid 2022)
+     3238 (      14    3224 ) kB: sdp_cryptod (pid 381)
+     2422 (      10    2412 ) kB: secure_storage_daemon (pid 458)
+      298 (      10     288 ) kB: sh (pid 6783)
+      298 (      10     288 ) kB: sh (pid 6787)
+      673 (       9     664 ) kB: ATFWD-daemon (pid 394)
+     1693 (       9    1684 ) kB: audiod (pid 396)
+     1406 (       6    1400 ) kB: mcDriverDaemon (pid 786)
+      211 (       5     206 ) kB: qseecomd (pid 321)
+      361 (       5     356 ) kB: ddexe (pid 334)
+      609 (       5     604 ) kB: connfwexe (pid 336)
+      365 (       5     360 ) kB: ss_kbservice_daemon (pid 343)
+      521 (       5     516 ) kB: npsmobex (pid 357)
+      337 (       5     332 ) kB: adsprpcd (pid 367)
+      461 (       5     456 ) kB: loc_launcher (pid 390)
+      333 (       5     328 ) kB: cs (pid 460)
+
+Total PSS by OOM adjustment:
+   Total  (   PSS   SwapPss ) kB
+   120327 (   51609   68718 ) kB: Native
+              Total  (   PSS   SwapPss ) kB
+               17618 (   14846    2772 ) kB: surfaceflinger (pid 317)
+               19521 (   12441    7080 ) kB: mediaserver (pid 346)
+               14416 (    9256    5160 ) kB: app_process32 (pid 6788)
+                9833 (    3041    6792 ) kB: mm-qcamera-daemon (pid 365)
+                6439 (    1105    5334 ) kB: zygote (pid 370)
+                2766 (     994    1772 ) kB: rild (pid 333)
+                1510 (     794     716 ) kB: wpa_supplicant (pid 11925)
+                 757 (     757       0 ) kB: dumpstate (pid 2618)
+                1122 (     626     496 ) kB: netd (pid 329)
+                1250 (     606     644 ) kB: /init (pid 1)
+                2700 (     576    2124 ) kB: drmserver (pid 345)
+                 788 (     488     300 ) kB: adbd (pid 5823)
+                 465 (     465       0 ) kB: dumpsys (pid 3101)
+                 848 (     456     392 ) kB: debuggerd (pid 330)
+                 813 (     381     432 ) kB: sensorhubservice (pid 355)
+                4511 (     355    4156 ) kB: vold (pid 265)
+                 400 (     344      56 ) kB: healthd (pid 313)
+                 328 (     328       0 ) kB: bugreport (pid 2615)
+                 303 (     303       0 ) kB: diag_uart_log (pid 3316)
+                1122 (     270     852 ) kB: thermal-engine (pid 366)
+                 612 (     252     360 ) kB: tlc_server (pid 1212)
+                1052 (     236     816 ) kB: ueventd (pid 243)
+                 438 (     214     224 ) kB: servicemanager (pid 316)
+                 853 (     213     640 ) kB: keystore (pid 351)
+                1764 (     188    1576 ) kB: jackservice (pid 348)
+                1811 (     183    1628 ) kB: apaservice (pid 347)
+                 386 (     166     220 ) kB: mpdecision (pid 2396)
+                 420 (     156     264 ) kB: rmt_storage (pid 325)
+                 354 (     146     208 ) kB: edmaudit (pid 326)
+                 430 (     146     284 ) kB: otp_server (pid 1244)
+                 436 (     136     300 ) kB: tlc_server (pid 1213)
+                 617 (     133     484 ) kB: gatekeeperd (pid 383)
+                 925 (     129     796 ) kB: bintvoutservice (pid 369)
+                 620 (     128     492 ) kB: qmuxd (pid 462)
+                 493 (     125     368 ) kB: androidshmservice (pid 546)
+                 331 (      65     266 ) kB: qseecomd (pid 338)
+                 441 (      65     376 ) kB: ss_conn_daemon (pid 341)
+                 413 (      65     348 ) kB: dhcpcd (pid 26722)
+                3535 (      63    3472 ) kB: installd (pid 349)
+                 298 (      54     244 ) kB: lmkd (pid 315)
+                 385 (      49     336 ) kB: rfs_access (pid 319)
+                 957 (      49     908 ) kB: vcsFPService (pid 397)
+                 621 (      41     580 ) kB: smdexe (pid 335)
+                 601 (      25     576 ) kB: time_daemon (pid 395)
+                 312 (      24     288 ) kB: sh (pid 23851)
+                 486 (      18     468 ) kB: auditd (pid 2022)
+                3238 (      14    3224 ) kB: sdp_cryptod (pid 381)
+                2422 (      10    2412 ) kB: secure_storage_daemon (pid 458)
+                 298 (      10     288 ) kB: sh (pid 6783)
+                 298 (      10     288 ) kB: sh (pid 6787)
+                 673 (       9     664 ) kB: ATFWD-daemon (pid 394)
+                1693 (       9    1684 ) kB: audiod (pid 396)
+                1406 (       6    1400 ) kB: mcDriverDaemon (pid 786)
+                 211 (       5     206 ) kB: qseecomd (pid 321)
+                 361 (       5     356 ) kB: ddexe (pid 334)
+                 609 (       5     604 ) kB: connfwexe (pid 336)
+                 365 (       5     360 ) kB: ss_kbservice_daemon (pid 343)
+                 521 (       5     516 ) kB: npsmobex (pid 357)
+                 337 (       5     332 ) kB: adsprpcd (pid 367)
+                 461 (       5     456 ) kB: loc_launcher (pid 390)
+                 333 (       5     328 ) kB: cs (pid 460)
+   125685 (  108455   17230 ) kB: System
+              Total  (   PSS   SwapPss ) kB
+              125685 (  108455   17230 ) kB: system (pid 847)
+   175356 (  116343   59013 ) kB: Persistent
+              Total  (   PSS   SwapPss ) kB
+              111521 (   80669   30852 ) kB: com.android.systemui (pid 1325)
+               23693 (   15677    8016 ) kB: com.android.phone (pid 1301)
+               13530 (    7375    6155 ) kB: com.android.nfc (pid 1686)
+               11843 (    6242    5601 ) kB: com.samsung.android.providers.context (pid 2075)
+                5711 (    2774    2937 ) kB: com.amap.android.location (pid 1611)
+                5445 (    1997    3448 ) kB: com.android.incallui (pid 2090)
+                3613 (    1609    2004 ) kB: com.sec.android.app.wfdbroker (pid 2040)
+     9803 (    4313    5490 ) kB: Persistent Service
+              Total  (   PSS   SwapPss ) kB
+                9803 (    4313    5490 ) kB: com.android.bluetooth (pid 2017)
+    91130 (   61291   29839 ) kB: Foreground
+              Total  (   PSS   SwapPss ) kB
+               91130 (   61291   29839 ) kB: com.sec.android.app.launcher (pid 1700 / activities)
+    74229 (   26814   47415 ) kB: Visible
+              Total  (   PSS   SwapPss ) kB
+               24961 (   10845   14116 ) kB: com.android.systemui.recents (pid 1418 / activities)
+                8509 (    4674    3835 ) kB: com.sec.android.widgetapp.ap.hero.cmaweather:SurfaceWidget (pid 2205)
+                5097 (    2722    2375 ) kB: com.sec.location.nsflp2 (pid 1621)
+               20223 (    1971   18252 ) kB: com.android.systemui.imagewallpaper (pid 1571)
+                4009 (    1730    2279 ) kB: org.simalliance.openmobileapi.service:remote (pid 1861)
+                4174 (    1684    2490 ) kB: com.sec.smartcard.manager (pid 1730)
+                3794 (    1610    2184 ) kB: com.samsung.ucs.agent.boot (pid 1743)
+                3462 (    1578    1884 ) kB: com.samsung.ucs.ucspinpad (pid 2005)
+   104503 (   79601   24902 ) kB: Perceptible
+              Total  (   PSS   SwapPss ) kB
+               79174 (   59382   19792 ) kB: com.sec.android.inputmethod (pid 4420)
+               17649 (   17563      86 ) kB: com.sec.android.app.music:service (pid 30386)
+                7680 (    2656    5024 ) kB: com.samsung.android.MtpApplication (pid 5840)
+   200598 (  153852   46746 ) kB: A Services
+              Total  (   PSS   SwapPss ) kB
+               65688 (   51716   13972 ) kB: com.tencent.mobileqq (pid 24241)
+               44401 (   28288   16113 ) kB: com.tencent.android.qqdownloader (pid 23381)
+               21770 (   21696      74 ) kB: com.tianyancha.skyeye (pid 2484)
+               20047 (   19967      80 ) kB: com.tianyancha.skyeye:channel (pid 2720)
+               18393 (   11560    6833 ) kB: com.tencent.android.qqdownloader:connect (pid 23651)
+               12375 (    6422    5953 ) kB: com.tencent.mobileqq:TMAssistantDownloadSDKService (pid 24227)
+                7314 (    5792    1522 ) kB: com.bst.airmessage (pid 26101)
+                7314 (    5618    1696 ) kB: com.sec.android.widgetapp.dualcitywidget (pid 3153)
+                3296 (    2793     503 ) kB: com.samsung.android.bbc.bbcagent (pid 3103)
+   206248 (  153076   53172 ) kB: B Services
+              Total  (   PSS   SwapPss ) kB
+               23015 (   22931      84 ) kB: com.samsung.dcm:DCMService (pid 31245)
+               22967 (   19683    3284 ) kB: com.tencent.android.qqdownloader:daemon (pid 25228)
+               21440 (   15049    6391 ) kB: com.tencent.mobileqq:MSF (pid 24434)
+               17428 (   14812    2616 ) kB: com.tencent.android.qqdownloader:wns (pid 23544)
+               21619 (   14739    6880 ) kB: flipboard.cn (pid 21285)
+               13593 (    9143    4450 ) kB: android.process.media (pid 2354)
+               14104 (    8705    5399 ) kB: android.process.acore (pid 1592)
+                9003 (    7794    1209 ) kB: com.sec.spp.push (pid 17567)
+               14235 (    6739    7496 ) kB: com.tencent.android.qqdownloader:tools (pid 23482)
+               11247 (    6542    4705 ) kB: com.baidu.searchbox_samsung:bdmoservice (pid 21188)
+                8178 (    5681    2497 ) kB: com.enhance.gameservice (pid 21039)
+                6186 (    4289    1897 ) kB: com.sec.android.daemonapp (pid 21164)
+                4922 (    4012     910 ) kB: com.sec.android.app.soundalive (pid 20342)
+                3501 (    3395     106 ) kB: com.sec.android.pagebuddynotisvc (pid 28659)
+                4267 (    2575    1692 ) kB: com.samsung.android.smartface (pid 21051)
+                3762 (    2450    1312 ) kB: com.tencent.engine (pid 23975)
+                3375 (    2339    1036 ) kB: com.sec.android.app.eventnotification (pid 21303)
+                3406 (    2198    1208 ) kB: com.qualcomm.telephony (pid 23696)
+   157095 (  139158   17937 ) kB: Cached
+              Total  (   PSS   SwapPss ) kB
+               19399 (   19322      77 ) kB: com.android.mms (pid 2507)
+               10638 (   10555      83 ) kB: com.android.systemui:screenshot (pid 31209)
+                7003 (    6904      99 ) kB: com.sec.android.app.samsungapps (pid 27734)
+                6808 (    6727      81 ) kB: com.android.settings (pid 31740)
+                6573 (    6494      79 ) kB: com.samsung.android.coreapps (pid 27585)
+                6386 (    6299      87 ) kB: com.bst.floatingmsgproxy (pid 27537)
+                6345 (    6257      88 ) kB: com.sec.android.app.music:provider (pid 30404)
+                5441 (    5361      80 ) kB: com.wsomacp (pid 2581)
+               10776 (    5331    5445 ) kB: com.android.contacts (pid 24282)
+                5245 (    5155      90 ) kB: com.sec.android.app.videoplayer (pid 29804)
+                5205 (    5110      95 ) kB: com.android.providers.calendar (pid 31279)
+                4728 (    4620     108 ) kB: com.baidu.searchbox_samsung:bdservice_v1 (pid 27688)
+                4702 (    4613      89 ) kB: com.sec.android.GeoLookout (pid 2591)
+                4476 (    4387      89 ) kB: com.sec.face:FaceProvider (pid 31232)
+                4461 (    4375      86 ) kB: com.samsung.android.sm.provider (pid 31446)
+                4219 (    4125      94 ) kB: com.android.calendar (pid 31326)
+                4048 (    3958      90 ) kB: com.sec.android.app.camera (pid 2567)
+                3850 (    3733     117 ) kB: com.android.exchange (pid 27666)
+                3748 (    3656      92 ) kB: com.samsung.clipboardsaveservice (pid 31257)
+                6264 (    3457    2807 ) kB: com.sec.android.gallery3d (pid 24938)
+                3505 (    3403     102 ) kB: com.sec.android.widgetapp.SPlannerAppWidget (pid 31314)
+                3378 (    3289      89 ) kB: com.sec.android.widgetapp.activeapplicationwidget (pid 2623)
+                3351 (    3246     105 ) kB: com.sec.android.widget.festivalmemorywidget (pid 31302)
+                3297 (    3194     103 ) kB: com.sec.android.widget.greetingcardwidget (pid 31343)
+                5469 (    2163    3306 ) kB: com.sec.android.yellowpage (pid 7423)
+                4303 (    1863    2440 ) kB: com.samsung.klmsagent (pid 4489)
+                3477 (    1561    1916 ) kB: com.android.managedprovisioning (pid 4539)
+
+Total PSS by category:
+   Total  (   PSS   SwapPss ) kB
+   407528 (  284614  122914 ) kB: Dalvik
+              Total  (   PSS   SwapPss ) kB
+              247455 (  227878   19577 ) kB: .Heap
+              140575 (   47136   93439 ) kB: .LOS
+               19131 (   14251    4880 ) kB: .GC
+               21879 (   13195    8684 ) kB: .LinearAlloc
+               16982 (    7512    9470 ) kB: .Zygote
+                6384 (    5068    1316 ) kB: .IndirectRef
+                2516 (    2088     428 ) kB: .NonMoving
+                   0 (       0       0 ) kB: .JITCache
+   356632 (  213807  142825 ) kB: Native
+    67592 (   67048     544 ) kB: .dex mmap
+    59654 (   59654       0 ) kB: Gfx dev
+    71966 (   52154   19812 ) kB: .art mmap
+    67459 (   46719   20740 ) kB: Unknown
+    34612 (   34612       0 ) kB: EGL mtrack
+    47394 (   32514   14880 ) kB: Dalvik Other
+    68512 (   32417   36095 ) kB: .so mmap
+    29406 (   29406       0 ) kB: .oat mmap
+    28864 (   19688    9176 ) kB: Stack
+    14872 (   12492    2380 ) kB: .apk mmap
+     4920 (    4920       0 ) kB: Ashmem
+     5074 (    3978    1096 ) kB: Other mmap
+      485 (     485       0 ) kB: Other dev
+        4 (       4       0 ) kB: .ttf mmap
+        0 (       0       0 ) kB: Cursor
+        0 (       0       0 ) kB: .jar mmap
+        0 (       0       0 ) kB: GL mtrack
+        0 (       0       0 ) kB: Other mtrack
+
+Total RAM: 1746900 kB (status normal)
+ Free RAM: 372082 kB (139158 cached pss + 157780 cached kernel + 75144 free)
+ Used RAM: 939022 kB (755354 used pss + 183668 kernel)
+ Lost RAM: 435796 kB
+   Tuning: 128 (large 512), oom 184320 kB, restore limit 40960 kB (high-end-gfx)
+</pre></div><p><a href="f00010.html#ch0">Current stack trace &gt;&gt;&gt;</a></p><div><a href="f00245.html#ch0">System log (filtered by this process) &gt;&gt;&gt;</a></div><div><a href="f00329.html#ch0">Event log (filtered by this process) &gt;&gt;&gt;</a></div></body>
+</html>

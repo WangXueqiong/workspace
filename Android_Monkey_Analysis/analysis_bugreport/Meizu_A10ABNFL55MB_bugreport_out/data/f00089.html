@@ -1,0 +1,227 @@
+<html>
+<head>
+  <title>f00089.html</title>
+  <link rel="stylesheet" type="text/css" href="themes/blue/style.css"/>
+  <link rel="stylesheet" type="text/css" href="jquery.treeTable.css"/>
+  <link rel="stylesheet" type="text/css" href="jquery.ui.css"/>
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+  <script type="text/javascript" src="jquery.js"></script>
+  <script type="text/javascript" src="jquery.cookie.js"></script>
+  <script type="text/javascript" src="jquery.hotkeys.js"></script>
+  <script type="text/javascript" src="jquery.jstree.js"></script>
+  <script type="text/javascript" src="jquery.tablesorter.js"></script>
+  <script type="text/javascript" src="jquery.tablednd.js"></script>
+  <script type="text/javascript" src="jquery.treeTable.js"></script>
+  <script type="text/javascript" src="jquery.flot.js"></script>
+  <script type="text/javascript" src="jquery.flot.navigate.js"></script>
+  <script type="text/javascript" src="jquery.flot.selection.js"></script>
+  <script type="text/javascript" src="jquery.ui.js"></script>
+  <script type="text/javascript" src="colResizable-1.3.source.js"></script>
+  <script type="text/javascript" src="/self$wsjs"></script>
+  <script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+<a name="ch0"></a><div class="btn-pop-out"><a href="f00089.html#ch0" target="_blank"><img src="ic_pop_out.png"/></a></div><div class="btn-header"><a href="javascript:$('#dialog').dialog()"><img src="ic_help.png"/></a></div><h2>Kernel wakelocks</h2>
+<div id="dialog" class="dialog"><div><p>Statistics based on kernel wakelocks.</p><div class="hint">(NOTE: The data is collected from boot!)</div>
+<div class="hint">(NOTE: Wakelocks created by the java code are aggregated into the PowerManagerService kernel wakelock!)</div>
+<div class="see-also">See also: <a href="http://developer.android.com/reference/android/os/PowerManager.WakeLock.html" target="_blank">Android documentation regarding WakeLock</a></div></div></div><table class=" tablesorter">
+<div class="hint">(A CSV format version is saved as: <a href="../raw/kernel_wakesources.csv">../raw/kernel_wakesources.csv</a>)</div>
+<thead>
+<tr>
+<th>Name</th>
+<th>Active count</th>
+<th>Event count</th>
+<th>Wakeup count</th>
+<th>Expire count</th>
+<th>Active since (ms)</th>
+<th>Total time (ms)</th>
+<th>Total time (%)</th>
+<th>Max time (ms)</th>
+<th>Last change</th>
+<th>Prevent Suspend Time</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ApmOutput   </td><td class="right">2</td><td class="right">2</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">16696378</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ApmAudio    </td><td class="right">2</td><td class="right">2</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">16696517</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>radio-interface</td><td class="right">2</td><td class="right">4</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">17374523</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>SensorService</td><td class="right">2</td><td class="right">2</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">17373508</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>PowerManagerService.Display</td><td class="right">2</td><td class="right">2</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">17373332</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>PowerManagerService.Broadcasts</td><td class="right">3</td><td class="right">3</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">17373331</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>WLAN rx_thread</td><td class="right">133173</td><td class="right">133173</td><td class="right">22</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">17376256</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>WLAN hif_thread</td><td class="right">222298</td><td class="right">222298</td><td class="right">158</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">17376256</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>WLAN tx_thread</td><td class="right">220062</td><td class="right">220062</td><td class="right">110</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">17376256</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>WLAN Timer  </td><td class="right">5246</td><td class="right">5246</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">17373700</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>WLAN timeout</td><td class="right">17643</td><td class="right">345581</td><td class="right">116</td><td class="right">17642</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="6ms"><span class="kb">6</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">17376162</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>WLAN interrupt</td><td class="right">218648</td><td class="right">218648</td><td class="right">141</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">17376256</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>PowerManagerService.WakeLocks</td><td class="right">1287</td><td class="right">1287</td><td class="right">11</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">17375348</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>KeyEvents   </td><td class="right">8285</td><td class="right">8285</td><td class="right">8</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">17375992</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>wmtFuncCtrl </td><td class="right">2</td><td class="right">2</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">29446</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>MT662x      </td><td class="right">1253</td><td class="right">1253</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">17373968</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>NETLINK     </td><td class="right">9063</td><td class="right">9063</td><td class="right">5</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">17368353</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>[timerfd]   </td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">3639</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>binder      </td><td class="right">6</td><td class="right">6</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">16873560</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>eventpoll   </td><td class="right">9069</td><td class="right">9071</td><td class="right">5</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">17368353</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>xhci.wakelock</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1481</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>gpio-keys.0 </td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1478</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>3-006a      </td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">741</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>battery     </td><td class="right">1752</td><td class="right">1758</td><td class="right">1</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">17368351</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>wireless    </td><td class="right">1753</td><td class="right">1758</td><td class="right">1</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">17368351</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>usb         </td><td class="right">1753</td><td class="right">1758</td><td class="right">1</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">17368351</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ac          </td><td class="right">1753</td><td class="right">1758</td><td class="right">1</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">17368351</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>battery suspend wakelock</td><td class="right">9</td><td class="right">1633</td><td class="right">0</td><td class="right">0</td><td class="right" title="11ms"><span class="kb">11</span></td><td class="right" title="15ms"><span class="kb">15</span></td><td class="right">0</td><td class="right" title="11ms"><span class="kb">11</span></td><td class="right">5561151</td><td class="right" title="9ms"><span class="kb">9</span></td></tr>
+<tr>
+<td>vcorefs_delay</td><td class="right">34</td><td class="right">34</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">16997005</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>vcorefs_dvfs</td><td class="right">165</td><td class="right">165</td><td class="right">2</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">17373634</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>USB.lock    </td><td class="right">9</td><td class="right">9</td><td class="right">0</td><td class="right">0</td><td class="right" title="11ms"><span class="kb">11</span></td><td class="right" title="15ms"><span class="kb">15</span></td><td class="right">0</td><td class="right" title="11ms"><span class="kb">11</span></td><td class="right">5561806</td><td class="right" title="9ms"><span class="kb">9</span></td></tr>
+<tr>
+<td>spi_wakelock</td><td class="right">81083</td><td class="right">81083</td><td class="right">18</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">17376280</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ps_wake_lock</td><td class="right">18</td><td class="right">18</td><td class="right">0</td><td class="right">18</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">17375500</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>accdet timer wakelock</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">501</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>accdet key wakelock</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">501</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>accdet irq wakelock</td><td class="right">1</td><td class="right">1</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">503</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>accdet wakelock</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">501</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>leds wakelock</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">499</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>mt-rtc      </td><td class="right">100</td><td class="right">100</td><td class="right">5</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">5570766</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>MSDC Transfer Lock</td><td class="right">1408499</td><td class="right">1408499</td><td class="right">839</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">17376256</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>mmc2_detect </td><td class="right">3</td><td class="right">5</td><td class="right">0</td><td class="right">2</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">5940</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>mmc1_detect </td><td class="right">512</td><td class="right">512</td><td class="right">6</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">5561404</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>mmc0_detect </td><td class="right">511</td><td class="right">512</td><td class="right">6</td><td class="right">1</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">5561235</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccci_poll   </td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">303</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccci_sys    </td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">303</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccci_ctrl   </td><td class="right">1</td><td class="right">2</td><td class="right">0</td><td class="right">1</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">7330</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccci_ipc_6  </td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">303</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccci_ipc_5  </td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">303</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccci_ipc_4  </td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">303</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccci_ipc_3  </td><td class="right">3</td><td class="right">13</td><td class="right">0</td><td class="right">3</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">39550</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccci_ipc_2  </td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">303</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccci_ipc_1220_0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">303</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccci_rpc    </td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">303</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccci_lb_it  </td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">303</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccci_it     </td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">303</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccci_ioctl4 </td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">303</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccci_ioctl3 </td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">303</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccci_ioctl2 </td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">303</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccci_ioctl1 </td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">303</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccci_ioctl0 </td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">302</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccci_imsdc  </td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">302</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccci_imsa   </td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">302</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccci_imsc   </td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">302</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccci_imsv   </td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">302</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ttyC1       </td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">302</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ttyC3       </td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">302</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ttyC2       </td><td class="right">1</td><td class="right">1</td><td class="right">0</td><td class="right">1</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">8170</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccci_fs     </td><td class="right">4</td><td class="right">889</td><td class="right">0</td><td class="right">4</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">37520</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ttyC0       </td><td class="right">3924</td><td class="right">8937</td><td class="right">42</td><td class="right">3923</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="4ms"><span class="kb">4</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">17376186</td><td class="right" title="1ms"><span class="kb">1</span></td></tr>
+<tr>
+<td>ccci_md_log_ctrl</td><td class="right">1</td><td class="right">2</td><td class="right">0</td><td class="right">1</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">7370</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccci_aud    </td><td class="right">1</td><td class="right">1</td><td class="right">0</td><td class="right">1</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">14630</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccci_monitor</td><td class="right">2</td><td class="right">3</td><td class="right">0</td><td class="right">2</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">7330</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccmni2      </td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">302</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccmni1      </td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">302</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccmni0      </td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">301</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>md1_cldma_peer</td><td class="right">3925</td><td class="right">9442</td><td class="right">35</td><td class="right">3924</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="4ms"><span class="kb">4</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">17376186</td><td class="right" title="1ms"><span class="kb">1</span></td></tr>
+<tr>
+<td>md1_cldma_trm</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">279</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>flash_lock_wakelock</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">276</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>isp_lock_wakelock</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">272</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>alarm       </td><td class="right">998</td><td class="right">1029</td><td class="right">16</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">17361742</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>alarmtimer  </td><td class="right">6</td><td class="right">6</td><td class="right">6</td><td class="right">6</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1413151</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>pmicAuxadc irq wakelock</td><td class="right">121588</td><td class="right">122564</td><td class="right">176</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">17376110</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>bat_percent_notify_lock wakelock</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">170</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>pmicThread_lock_mt6332 wakelock</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">170</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>pmicThread_lock_mt6331 wakelock</td><td class="right">169</td><td class="right">169</td><td class="right">5</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">17373503</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>spm_wakelock</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">110</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>EINT wakelock</td><td class="right">1259</td><td class="right">438011</td><td class="right">152</td><td class="right">1258</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="8ms"><span class="kb">8</span></td><td class="right">0</td><td class="right" title="2ms"><span class="kb">2</span></td><td class="right">17373326</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>sys_sync    </td><td class="right">17</td><td class="right">17</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">16996691</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>autosleep   </td><td class="right">34</td><td class="right">34</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">17373357</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+</tbody>
+<div class="hint">(HINT: Click on the headers to sort the data. Shift+click to sort on multiple columns.)</div>
+</table>
+</body>
+</html>

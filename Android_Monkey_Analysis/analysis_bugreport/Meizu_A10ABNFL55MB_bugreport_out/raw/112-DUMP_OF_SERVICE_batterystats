@@ -1,0 +1,2271 @@
+Battery History (0% used, 152 used of 256KB, 8 strings using 374):
+                    0 (9) RESET:TIME: 2018-05-14-15-19-46
+                    0 (2) 100 80400068 status=not-charging health=good plug=none temp=320 volt=4331 +running +audio phone_state=out phone_signal_strength=very +wifi_running +wifi wifi_signal_strength=4 wifi_suppl=completed fg=u0a95:"com.tencent.mobileqq"
+                    0 (2) 100 80400068 fg=u0a97:"com.tencent.mm"
+                    0 (2) 100 80400068 fg=u0a30:"com.flyme.systemuitools"
+                    0 (2) 100 80400068 top=u0a14:"com.meizu.flyme.launcher"
+                    0 (2) 100 80400068 user=0:"0"
+                    0 (4) 100 c050006b +wake_lock=-1:"screen" +screen brightness=light userfg=0:"0"
+             +8s117ms (2) 100 c0500068 brightness=dark
+            +10s702ms (2) 100 80400068 -wake_lock -screen
+            +10s714ms (2) 100 c0400068 +wake_lock=1001:"RILJ"
+            +10s860ms (1) 100 80400068 -wake_lock
+            +12s349ms (1) 100 00400068 -running
+            +19s976ms (2) 100 c0400068 +running +wake_lock=1000:"*alarm*:android.intent.action.TIME_TICK"
+            +20s041ms (1) 100 80400068 -wake_lock
+            +22s173ms (1) 100 00400068 -running
+            +37s555ms (3) 100 80480068 status=full plug=usb temp=310 volt=4328 +running +plugged
+
+Per-PID Stats:
+  PID 327 wake time: +2s453ms
+  PID 788 wake time: +50s425ms
+  PID 1393 wake time: +1s295ms
+  PID 1696 wake time: +2s469ms
+  PID 327 wake time: +45s287ms
+  PID 4472 wake time: +18s758ms
+  PID 788 wake time: +7ms
+  PID 788 wake time: +3ms
+  PID 788 wake time: +71ms
+  PID 1065 wake time: +14s267ms
+  PID 788 wake time: +100ms
+  PID 788 wake time: +66ms
+  PID 788 wake time: +20ms
+  PID 788 wake time: +242ms
+  PID 788 wake time: +2s228ms
+  PID 788 wake time: 0
+
+Statistics since last charge:
+  System starts: 0, currently on battery: false
+  Time on battery: 37s 555ms (0.3%) realtime, 14s 547ms (0.1%) uptime
+  Time on battery screen off: 26s 966ms (0.2%) realtime, 3s 957ms (0.0%) uptime
+  Total run time: 3h 18m 24s 39ms realtime, 3h 18m 1s 31ms uptime
+  Start clock time: 2018-05-14-15-19-46
+  Screen on: 10s 589ms (28.2%) 2x, Interactive: 10s 1ms (26.6%)
+  Screen brightnesses:
+    dark 2s 646ms (25.0%)
+    light 7s 943ms (75.0%)
+  Total partial wakelock time: 211ms
+  Mobile total received: 0B, sent: 0B (packets received 0, sent 0)
+  Phone signal levels:
+    very 37s 555ms (100.0%) 0x
+  Signal scanning time: 0ms
+  Radio types: (no activity)
+  Mobile radio active time: 0ms (0.0%) 0x
+  Wi-Fi total received: 0B, sent: 0B (packets received 0, sent 0)
+  Wifi on: 37s 555ms (100.0%), Wifi running: 37s 555ms (100.0%)
+  Wifi states: (no activity)
+  Wifi supplicant states:
+    completed 37s 555ms (100.0%) 1x
+  Wifi signal levels:
+    level(4) 37s 555ms (100.0%) 0x
+  Bluetooth on: 0ms (0.0%)
+  Bluetooth states: (no activity)
+
+  Device battery use since last full charge
+    Amount discharged (lower bound): 0
+    Amount discharged (upper bound): 0
+    Amount discharged while screen on: 0
+    Amount discharged while screen off: 0
+
+  Estimated power use (mAh):
+    Capacity: 3000, Computed drain: 1.57, actual drain: 0.00000000
+    Screen: 1.08
+    Uid 1000: 0.179
+    Uid 0: 0.148
+    Idle: 0.0449
+    Wifi: 0.0365
+    Uid u0a30: 0.0277
+    Uid u0a95: 0.0167
+    Cell standby: 0.0104
+    Uid u0a88: 0.00820
+    Uid 1001: 0.00818
+    Uid u0a14: 0.00456
+    Uid u0a38: 0.00182
+    Uid u0a64: 0.00182
+    Uid u0a24: 0.00126
+    Uid u0a41: 0.00126
+    Uid u0a67: 0.00126
+    Uid u0a0: 0.000911
+    Uid u0a79: 0.000911
+
+  All kernel wake locks:
+  Kernel Wake lock EINT wakelock: 2s 151ms (3 times) realtime
+  Kernel Wake lock md1_cldma_peer: 1s 536ms (2 times) realtime
+  Kernel Wake lock ttyC0       : 1s 534ms (2 times) realtime
+  Kernel Wake lock battery suspend wakelock: 675ms (1 times) realtime
+  Kernel Wake lock mmc1_detect : 665ms (4 times) realtime
+  Kernel Wake lock pmicThread_lock_mt6331 wakelock: 642ms (1 times) realtime
+  Kernel Wake lock WLAN timeout: 436ms (3 times) realtime
+  Kernel Wake lock PowerManagerService.WakeLocks: 216ms (3 times) realtime
+  Kernel Wake lock PowerManagerService.Display: 109ms (1 times) realtime
+  Kernel Wake lock alarm       : 77ms (1 times) realtime
+  Kernel Wake lock wireless    : 35ms (1 times) realtime
+  Kernel Wake lock ac          : 35ms (1 times) realtime
+  Kernel Wake lock battery     : 35ms (1 times) realtime
+  Kernel Wake lock usb         : 35ms (1 times) realtime
+  Kernel Wake lock sys_sync    : 31ms (1 times) realtime
+  Kernel Wake lock vcorefs_delay: 24ms (2 times) realtime
+  Kernel Wake lock vcorefs_dvfs: 23ms (1 times) realtime
+  Kernel Wake lock USB.lock    : 20ms (1 times) realtime
+  Kernel Wake lock pmicAuxadc irq wakelock: 10ms (29 times) realtime
+  Kernel Wake lock PowerManagerService.Broadcasts: 5ms (1 times) realtime
+  Kernel Wake lock MSDC Transfer Lock: 1ms (41 times) realtime
+  Kernel Wake lock NETLINK     : 1ms (2 times) realtime
+  Kernel Wake lock WLAN interrupt: 1ms (7 times) realtime
+  Kernel Wake lock WLAN hif_thread: 1ms (8 times) realtime
+  Kernel Wake lock KeyEvents   : 1ms (2 times) realtime
+  Kernel Wake lock spi_wakelock: 1ms (9 times) realtime
+  Kernel Wake lock mmc0_detect : 1ms (4 times) realtime
+  Kernel Wake lock WLAN Timer  : 1ms (1 times) realtime
+
+  All partial wake locks:
+  Wake lock 1001 RILJ: 146ms (1 times) realtime
+  Wake lock 1000 *alarm*: 65ms (1 times) realtime
+
+  0:
+    Proc fpc1020_worker:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc ion_mm_heap:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc ksdioirqd/mmc2:
+      CPU: 0ms usr + 20ms krn ; 0ms fg
+    Proc present_fence_w:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc cfinteractive:
+      CPU: 0ms usr + 20ms krn ; 0ms fg
+    Proc hif_thread:
+      CPU: 0ms usr + 40ms krn ; 0ms fg
+    Proc kswapd0:
+      CPU: 0ms usr + 100ms krn ; 0ms fg
+    Proc mtk_wmtd:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc gsm0710muxd:
+      CPU: 0ms usr + 90ms krn ; 0ms fg
+    Proc frame_update_wo:
+      CPU: 0ms usr + 30ms krn ; 0ms fg
+    Proc lmkd:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc rcu_preempt:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc stp_sdio_tx_rx:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc hps_main:
+      CPU: 0ms usr + 20ms krn ; 0ms fg
+    Proc kworker/0:1:
+      CPU: 0ms usr + 40ms krn ; 0ms fg
+    Proc rx_thread:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc healthd:
+      CPU: 0ms usr + 20ms krn ; 0ms fg
+    Proc mmcqd/0:
+      CPU: 0ms usr + 90ms krn ; 0ms fg
+    Proc tx_thread:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc mtkrild:
+      CPU: 0ms usr + 20ms krn ; 0ms fg
+    Proc ksoftirqd/0:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc wpa_supplicant:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc kworker/2:1H:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc kworker/3:1H:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc kworker/u16:0:
+      CPU: 0ms usr + 150ms krn ; 0ms fg
+    Proc kworker/u16:1:
+      CPU: 0ms usr + 100ms krn ; 0ms fg
+    Proc kworker/u16:2:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc kworker/u16:3:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc kworker/u16:8:
+      CPU: 0ms usr + 20ms krn ; 0ms fg
+    Proc kworker/u17:0:
+      CPU: 0ms usr + 30ms krn ; 0ms fg
+    Proc kworker/u17:2:
+      CPU: 0ms usr + 20ms krn ; 0ms fg
+    Proc stp_dump3:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc mtk charger_hv_:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+  1000:
+    User activity: 2 other
+    Wake lock PhoneWindowManager.mBroadcastWakeLock realtime
+    Wake lock *job*/com.meizu.experiencedatasync/.service.PerformanceMonitorService realtime
+    Wake lock SyncLoopWakeLock realtime
+    Wake lock ActivityManager-Launch realtime
+    Wake lock *job*/android/com.android.server.pm.BackgroundDexOptService realtime
+    Wake lock *job*/com.meizu.flyme.update/.appupgrade.service.JobSchedulerService realtime
+    Wake lock AppManager realtime
+    Wake lock DHCP realtime
+    Wake lock NetworkStats realtime
+    Wake lock DHCP_WAKELOCK realtime
+    Wake lock SyncManagerHandleSyncAlarm realtime
+    Wake lock AudioMix realtime
+    Wake lock PhoneWindowManager.mPowerKeyWakeLock realtime
+    Wake lock *alarm*: 65ms partial (1 times) realtime
+    Wake lock WifiSuspend realtime
+    Wake lock ActivityManager-Sleep realtime
+    TOTAL wake: 65ms partial realtime
+    Job com.meizu.flyme.update/.appupgrade.service.JobSchedulerService: (not used)
+    Job android/com.android.server.pm.BackgroundDexOptService: (not used)
+    Job com.meizu.experiencedatasync/.service.PerformanceMonitorService: (not used)
+    Sensor 1: 9s 986ms realtime (2 times)
+    Foreground for: 37s 555ms 
+    Proc com.meizu.flyme.update:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc system:
+      CPU: 610ms usr + 440ms krn ; 0ms fg
+    Proc com.meizu.safe:
+      CPU: 120ms usr + 180ms krn ; 0ms fg
+    Proc surfaceflinger:
+      CPU: 60ms usr + 170ms krn ; 0ms fg
+    Proc fuelgauged:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc com.meizu.alphame:
+      CPU: 20ms usr + 10ms krn ; 0ms fg
+    Proc com.meizu.battery:
+      CPU: 10ms usr + 10ms krn ; 0ms fg
+    Proc servicemanager:
+      CPU: 20ms usr + 0ms krn ; 0ms fg
+    Proc com.meizu.experiencedatasync:
+      CPU: 10ms usr + 0ms krn ; 0ms fg
+    Apk com.meizu.flyme.update:
+      (nothing executed)
+    Apk android:
+      (nothing executed)
+    Apk com.meizu.safe:
+      Service com.meizu.networkmanager.service.PowerSavingControllService:
+        Created for: 627ms uptime
+        Starts: 1, launches: 1
+    Apk com.android.keychain:
+      (nothing executed)
+    Apk com.meizu.experiencedatasync:
+      (nothing executed)
+  1001:
+    Wake lock RILJ: 146ms partial (1 times) realtime
+    Foreground for: 37s 555ms 
+    Proc com.android.phone:
+      CPU: 40ms usr + 20ms krn ; 0ms fg
+  1013:
+    Wake lock AudioMix realtime
+  1338:
+    Active for: 37s 555ms 
+  u0a0:
+    Active for: 37s 555ms 
+    Proc com.amap.android.location:
+      CPU: 10ms usr + 0ms krn ; 0ms fg
+  u0a1:
+    Foreground for: 37s 555ms 
+    Apk com.yunos.lifecard:
+      (nothing executed)
+  u0a2:
+    Foreground for: 37s 555ms 
+    Apk com.yunos.alimobilesearch:
+      (nothing executed)
+  u0a4:
+    Foreground for: 37s 555ms 
+  u0a5:
+    Foreground for: 37s 555ms 
+  u0a6:
+    Foreground for: 37s 555ms 
+  u0a7:
+    Foreground for: 37s 555ms 
+    Apk com.meizu.customizecenter:
+      Service com.meizu.customizecenter.common.helper.scannerhelper.CustomizeScannerService:
+        Created for: 0ms uptime
+        Starts: 0, launches: 1
+  u0a8:
+    Running for: 37s 555ms 
+    Apk com.android.defcontainer:
+      (nothing executed)
+  u0a9:
+    Foreground for: 37s 555ms 
+  u0a10:
+    Wake lock MediaScannerService realtime
+    Running for: 37s 555ms 
+    Apk com.android.providers.media:
+      Service com.android.providers.media.MtpService:
+        Created for: 0ms uptime
+        Starts: 1, launches: 1
+  u0a12:
+    Foreground for: 37s 555ms 
+  u0a13:
+    Running for: 37s 555ms 
+  u0a14:
+    Wake lock *alarm* realtime
+    Foreground for: 37s 555ms 
+    Proc com.meizu.flyme.launcher:
+      CPU: 40ms usr + 10ms krn ; 0ms fg
+    Apk com.meizu.flyme.launcher:
+      (nothing executed)
+  u0a15:
+    Foreground for: 37s 555ms 
+    Apk com.meizu.media.gallery:
+      Service com.meizu.media.common.service.DlnaService:
+        Created for: 0ms uptime
+        Starts: 0, launches: 1
+  u0a17:
+    Foreground for: 37s 555ms 
+  u0a18:
+    Foreground for: 37s 555ms 
+  u0a19:
+    Foreground for: 37s 555ms 
+    Apk com.meizu.media.music:
+      (nothing executed)
+  u0a20:
+    Running for: 37s 555ms 
+    Apk com.android.musicfx:
+      (nothing executed)
+  u0a22:
+    Foreground for: 37s 555ms 
+  u0a24:
+    Wake lock *alarm* realtime
+    Active for: 37s 555ms 
+    Proc com.meizu.flyme.input:
+      CPU: 10ms usr + 0ms krn ; 0ms fg
+  u0a27:
+    Foreground for: 37s 555ms 
+  u0a29:
+    Foreground for: 37s 555ms 
+  u0a30:
+    User activity: 1 other
+    Wake lock PhoneWindowManager.mProximityWakeLock realtime
+    Wake lock show keyguard realtime
+    Wake lock *alarm* realtime
+    Sensor 15: 1s 162ms realtime (1 times)
+    Foreground for: 37s 555ms 
+    Proc com.flyme.systemuitools:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc com.android.systemui:
+      CPU: 190ms usr + 50ms krn ; 0ms fg
+  u0a31:
+    Foreground for: 37s 555ms 
+    Apk com.meizu.media.video:
+      (nothing executed)
+  u0a33:
+    Foreground for: 37s 555ms 
+  u0a35:
+    Foreground for: 37s 555ms 
+  u0a36:
+    Foreground for: 37s 555ms 
+  u0a37:
+    Foreground for: 37s 555ms 
+  u0a38:
+    Wake lock *job*/com.meizu.mstore/com.meizu.cloud.app.jobscheduler.JobSchedulerService realtime
+    Job com.meizu.mstore/com.meizu.cloud.app.jobscheduler.JobSchedulerService: (not used)
+    Active for: 140ms 
+    Running for: 37s 555ms 
+    Proc com.meizu.mstore:
+      CPU: 20ms usr + 0ms krn ; 0ms fg
+    Apk com.meizu.mstore:
+      Service com.meizu.cloud.app.update.ConditionHandlerService:
+        Created for: 129ms uptime
+        Starts: 3, launches: 3
+      Service com.meizu.flyme.appcenter.aidl.AidlCommonService:
+        Created for: 0ms uptime
+        Starts: 0, launches: 1
+  u0a39:
+    Foreground for: 37s 555ms 
+  u0a40:
+    Foreground for: 37s 555ms 
+  u0a41:
+    Active for: 78ms 
+    Running for: 37s 555ms 
+    Proc com.android.calendar:remote:
+      CPU: 10ms usr + 0ms krn ; 0ms fg
+  u0a42:
+    Foreground for: 37s 555ms 
+  u0a45:
+    Active for: 37s 555ms 
+  u0a46:
+    Foreground for: 37s 555ms 
+  u0a47:
+    Running for: 37s 555ms 
+  u0a48:
+    Foreground for: 37s 555ms 
+  u0a49:
+    Foreground for: 37s 555ms 
+  u0a56:
+    Foreground for: 37s 555ms 
+  u0a57:
+    Foreground for: 37s 555ms 
+  u0a58:
+    Foreground for: 37s 555ms 
+  u0a59:
+    Active for: 37s 555ms 
+  u0a60:
+    Wake lock *alarm* realtime
+    Active for: 37s 555ms 
+  u0a61:
+    Foreground for: 37s 555ms 
+  u0a62:
+    Foreground for: 37s 555ms 
+  u0a64:
+    Active for: 37s 555ms 
+    Proc com.meizu.flyme.service.find:
+      CPU: 20ms usr + 0ms krn ; 0ms fg
+    Apk com.meizu.flyme.service.find:
+      Service com.meizu.flyme.service.find.SimChangeHandleService:
+        Created for: 3s 50ms uptime
+        Starts: 1, launches: 1
+  u0a65:
+    Active for: 37s 555ms 
+  u0a66:
+    Foreground for: 37s 555ms 
+  u0a67:
+    Active for: 37s 555ms 
+    Proc com.meizu.mzsyncservice:
+      CPU: 10ms usr + 0ms krn ; 0ms fg
+  u0a68:
+    Foreground for: 37s 555ms 
+  u0a70:
+    Foreground for: 37s 555ms 
+  u0a71:
+    Foreground for: 37s 555ms 
+    Apk com.android.printspooler:
+      (nothing executed)
+  u0a72:
+    Foreground for: 37s 555ms 
+    Apk com.meizu.media.reader:
+      (nothing executed)
+  u0a73:
+    Foreground for: 37s 555ms 
+  u0a75:
+    Foreground for: 37s 555ms 
+    Apk com.meizu.net.search:
+      (nothing executed)
+  u0a79:
+    Running for: 37s 555ms 
+    Proc com.meizu.flyme.weather:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Apk com.meizu.flyme.weather:
+      (nothing executed)
+  u0a88:
+    Wake lock *alarm* realtime
+    Active for: 37s 555ms 
+    Proc com.sina.weibo:remote:
+      CPU: 10ms usr + 10ms krn ; 0ms fg
+    Proc com.sina.weibo:
+      CPU: 60ms usr + 10ms krn ; 0ms fg
+  u0a95:
+    Wake lock *alarm* realtime
+    Wake lock LocationManagerService realtime
+    Sensor 4: 37s 555ms realtime (0 times)
+    Foreground for: 37s 555ms 
+    Proc com.tencent.mobileqq:
+      CPU: 60ms usr + 20ms krn ; 0ms fg
+    Proc com.tencent.mobileqq:MSF:
+      CPU: 50ms usr + 0ms krn ; 0ms fg
+    Apk com.tencent.mobileqq:
+      Service com.tencent.mobileqq.qipc.QIPCServiceEx:
+        Created for: 0ms uptime
+        Starts: 0, launches: 1
+      Service com.tencent.mobileqq.app.CoreService$KernelService:
+        Created for: 0ms uptime
+        Starts: 1, launches: 1
+      Service com.tencent.mobileqq.app.CoreService:
+        Created for: 0ms uptime
+        Starts: 1, launches: 1
+      Service cooperation.qzone.QzonePluginProxyService:
+        Created for: 0ms uptime
+        Starts: 1, launches: 1
+      Service com.tencent.tmdownloader.internal.remote.RemoteOpService:
+        Created for: 0ms uptime
+        Starts: 0, launches: 1
+      Service com.tencent.mobileqq.music.QQPlayerService:
+        Created for: 0ms uptime
+        Starts: 0, launches: 1
+  u0a97:
+    Wake lock *alarm* realtime
+    Foreground for: 37s 555ms 
+  u0a174:
+    Wake lock WindowManager realtime
+    Wake lock *alarm* realtime
+    Sensor 2: (not used)
+    Apk com.tianyancha.skyeye:
+      Service com.taobao.accs.data.MsgDistributeService:
+        Created for: 0ms uptime
+        Starts: 1, launches: 1
+      Service com.taobao.accs.ChannelService:
+        Created for: 0ms uptime
+        Starts: 1, launches: 1
+      Service org.android.agoo.accs.AgooService:
+        Created for: 0ms uptime
+        Starts: 1, launches: 1
+
+background batterystats: 
+  -5:
+    (nothing executed)
+
+background batterystats: 
+  0:
+    Sync fpc1020_worker: (not used)
+    Sync : (not used)
+    Sync null: 5d 13h 37m 22s 694ms realtime (0 times)
+    Sync         : (not used)
+    Proc fpc1020_worker:
+      CPU: 0ms usr + 780ms krn ; 0ms fg
+    Proc file-storage:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc ion_mm_heap:
+      CPU: 0ms usr + 110ms krn ; 0ms fg
+    Proc disp_idlemgr:
+      CPU: 0ms usr + 80ms krn ; 0ms fg
+    Proc ksdioirqd/mmc2:
+      CPU: 0ms usr + 5s 340ms krn ; 0ms fg
+    Proc present_fence_w:
+      CPU: 0ms usr + 2s 610ms krn ; 0ms fg
+    Proc dhcpcd:
+      CPU: 0ms usr + 20ms krn ; 0ms fg
+    Proc flymed:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc PTP_CTRL_CPU:
+      CPU: 0ms usr + 230ms krn ; 0ms fg
+    Proc PTP_CTRL_GPU:
+      CPU: 0ms usr + 110ms krn ; 0ms fg
+    Proc cfinteractive:
+      CPU: 0ms usr + 11s 570ms krn ; 0ms fg
+    Proc mc_log:
+      CPU: 0ms usr + 20ms krn ; 0ms fg
+    Proc bat_update_thre:
+      CPU: 0ms usr + 30ms krn ; 0ms fg
+    Proc wdtk-0:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc wdtk-1:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc zygote:
+      CPU: 220ms usr + 260ms krn ; 0ms fg
+    Proc hif_thread:
+      CPU: 0ms usr + 9s 180ms krn ; 0ms fg
+    Proc hang_detect:
+      CPU: 0ms usr + 40ms krn ; 0ms fg
+    Proc ueventd:
+      CPU: 80ms usr + 60ms krn ; 0ms fg
+    Proc kswapd0:
+      CPU: 0ms usr + 2s 940ms krn ; 0ms fg
+    Proc mtk_wmtd:
+      CPU: 0ms usr + 60ms krn ; 0ms fg
+    Proc webserver:
+      CPU: 0ms usr + 60ms krn ; 0ms fg
+    Proc gsm0710muxd:
+      CPU: 260ms usr + 3s 550ms krn ; 0ms fg
+    Proc frame_update_wo:
+      CPU: 0ms usr + 3s 180ms krn ; 0ms fg
+    Proc mt_gpufreq_inpu:
+      CPU: 0ms usr + 60ms krn ; 0ms fg
+    Proc jbd2/mmcblk0p14:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc jbd2/mmcblk0p18:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc jbd2/mmcblk0p19:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc jbd2/mmcblk0p20:
+      CPU: 0ms usr + 470ms krn ; 0ms fg
+    Proc jbd2/mmcblk0p5-:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc sh:
+      CPU: 0ms usr + 50ms krn ; 0ms fg
+    Proc adbd:
+      CPU: 50ms usr + 270ms krn ; 0ms fg
+    Proc lmkd:
+      CPU: 20ms usr + 260ms krn ; 0ms fg
+    Proc netd:
+      CPU: 120ms usr + 280ms krn ; 0ms fg
+    Proc secd:
+      CPU: 10ms usr + 30ms krn ; 0ms fg
+    Proc vold:
+      CPU: 30ms usr + 0ms krn ; 0ms fg
+    Proc /init:
+      CPU: 40ms usr + 40ms krn ; 0ms fg
+    Proc rcu_preempt:
+      CPU: 0ms usr + 2s 820ms krn ; 0ms fg
+    Proc stp_sdio_tx_rx:
+      CPU: 0ms usr + 510ms krn ; 0ms fg
+    Proc rcu_sched:
+      CPU: 0ms usr + 70ms krn ; 0ms fg
+    Proc vcorefs:
+      CPU: 0ms usr + 20ms krn ; 0ms fg
+    Proc pmic_6331_threa:
+      CPU: 0ms usr + 160ms krn ; 0ms fg
+    Proc dnsqueue:
+      CPU: 20ms usr + 50ms krn ; 0ms fg
+    Proc kthreadd:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc mc_fastcall:
+      CPU: 0ms usr + 520ms krn ; 0ms fg
+    Proc installd:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc mediaserver:
+      CPU: 2s 670ms usr + 2s 480ms krn ; 0ms fg
+    Proc hps_main:
+      CPU: 0ms usr + 2s 200ms krn ; 0ms fg
+    Proc kworker/0:0:
+      CPU: 0ms usr + 3s 930ms krn ; 0ms fg
+    Proc kworker/0:1:
+      CPU: 0ms usr + 50ms krn ; 0ms fg
+    Proc kworker/0:2:
+      CPU: 0ms usr + 1s 20ms krn ; 0ms fg
+    Proc kworker/0:3:
+      CPU: 0ms usr + 3s 260ms krn ; 0ms fg
+    Proc kworker/1:1:
+      CPU: 0ms usr + 280ms krn ; 0ms fg
+    Proc kworker/1:2:
+      CPU: 0ms usr + 770ms krn ; 0ms fg
+    Proc kworker/2:1:
+      CPU: 0ms usr + 420ms krn ; 0ms fg
+    Proc kworker/2:2:
+      CPU: 0ms usr + 60ms krn ; 0ms fg
+    Proc kworker/3:0:
+      CPU: 0ms usr + 20ms krn ; 0ms fg
+    Proc kworker/3:1:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc kworker/3:2:
+      CPU: 0ms usr + 20ms krn ; 0ms fg
+    Proc kworker/4:1:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc kworker/5:1:
+      CPU: 0ms usr + 20ms krn ; 0ms fg
+    Proc rx_thread:
+      CPU: 0ms usr + 3s 120ms krn ; 0ms fg
+    Proc mtk_stp_psm:
+      CPU: 0ms usr + 20ms krn ; 0ms fg
+    Proc healthd:
+      CPU: 80ms usr + 370ms krn ; 0ms fg
+    Proc zygote64:
+      CPU: 220ms usr + 260ms krn ; 0ms fg
+    Proc mmcqd/0:
+      CPU: 0ms usr + 8s 510ms krn ; 0ms fg
+    Proc kworker/u16:10:
+      CPU: 0ms usr + 17s 490ms krn ; 0ms fg
+    Proc tx_thread:
+      CPU: 0ms usr + 2s 470ms krn ; 0ms fg
+    Proc mtk-tpd:
+      CPU: 0ms usr + 320ms krn ; 0ms fg
+    Proc mtkrild:
+      CPU: 380ms usr + 540ms krn ; 0ms fg
+    Proc ksoftirqd/0:
+      CPU: 0ms usr + 540ms krn ; 0ms fg
+    Proc ksoftirqd/1:
+      CPU: 0ms usr + 130ms krn ; 0ms fg
+    Proc ksoftirqd/2:
+      CPU: 0ms usr + 30ms krn ; 0ms fg
+    Proc ksoftirqd/3:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc ksoftirqd/4:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc ksoftirqd/5:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc wpa_supplicant:
+      CPU: 130ms usr + 230ms krn ; 0ms fg
+    Proc migration/0:
+      CPU: 0ms usr + 590ms krn ; 0ms fg
+    Proc migration/1:
+      CPU: 0ms usr + 470ms krn ; 0ms fg
+    Proc migration/2:
+      CPU: 0ms usr + 390ms krn ; 0ms fg
+    Proc migration/3:
+      CPU: 0ms usr + 180ms krn ; 0ms fg
+    Proc migration/4:
+      CPU: 0ms usr + 130ms krn ; 0ms fg
+    Proc migration/5:
+      CPU: 0ms usr + 110ms krn ; 0ms fg
+    Proc pvr_defer_free:
+      CPU: 0ms usr + 30ms krn ; 0ms fg
+    Proc bat_routine_thr:
+      CPU: 0ms usr + 390ms krn ; 0ms fg
+    Proc kworker/0:1H:
+      CPU: 0ms usr + 330ms krn ; 0ms fg
+    Proc kworker/1:0H:
+      CPU: 0ms usr + 20ms krn ; 0ms fg
+    Proc kworker/1:1H:
+      CPU: 0ms usr + 160ms krn ; 0ms fg
+    Proc kworker/2:1H:
+      CPU: 0ms usr + 90ms krn ; 0ms fg
+    Proc kworker/3:1H:
+      CPU: 0ms usr + 40ms krn ; 0ms fg
+    Proc kworker/4:0H:
+      CPU: 0ms usr + 20ms krn ; 0ms fg
+    Proc kworker/4:1H:
+      CPU: 0ms usr + 30ms krn ; 0ms fg
+    Proc kworker/5:1H:
+      CPU: 0ms usr + 20ms krn ; 0ms fg
+    Proc kworker/u16:0:
+      CPU: 0ms usr + 12s 580ms krn ; 0ms fg
+    Proc kworker/u16:1:
+      CPU: 0ms usr + 9s 330ms krn ; 0ms fg
+    Proc kworker/u16:2:
+      CPU: 0ms usr + 18s 350ms krn ; 0ms fg
+    Proc kworker/u16:3:
+      CPU: 0ms usr + 19s 30ms krn ; 0ms fg
+    Proc kworker/u16:4:
+      CPU: 0ms usr + 14s 220ms krn ; 0ms fg
+    Proc kworker/u16:5:
+      CPU: 0ms usr + 1s 510ms krn ; 0ms fg
+    Proc kworker/u16:6:
+      CPU: 0ms usr + 16s 130ms krn ; 0ms fg
+    Proc kworker/u16:7:
+      CPU: 0ms usr + 16s 960ms krn ; 0ms fg
+    Proc kworker/u16:8:
+      CPU: 0ms usr + 18s 310ms krn ; 0ms fg
+    Proc kworker/u16:9:
+      CPU: 0ms usr + 22s 450ms krn ; 0ms fg
+    Proc kworker/u17:0:
+      CPU: 0ms usr + 460ms krn ; 0ms fg
+    Proc kworker/u17:1:
+      CPU: 0ms usr + 510ms krn ; 0ms fg
+    Proc kworker/u17:2:
+      CPU: 0ms usr + 810ms krn ; 0ms fg
+    Proc kworker/u17:3:
+      CPU: 0ms usr + 450ms krn ; 0ms fg
+    Proc stp_dump3:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc mtk charger_hv_:
+      CPU: 0ms usr + 290ms krn ; 0ms fg
+
+background batterystats: 
+  15:
+    Wifi Running: 146604d 5h 38m 3s 293ms (33728147456.0%)
+    Full Wifi Lock: 309494d 16h 43m 58s 381ms (71203151872.0%)
+    Wifi Scan: 0ms (0.0%)
+    Foreground activities: 371395d 17h 8m 53s 790ms realtime (0 times)
+
+background batterystats: 
+  1000:
+    Wi-Fi network: 65.92KB received, 20.17KB sent (packets 128 received, 131 sent)
+    User activity: 12 other, 46 touch
+    Wake lock PhoneWindowManager.mBroadcastWakeLock realtime
+    Wake lock *job*/com.meizu.experiencedatasync/.service.PerformanceMonitorService: 30ms partial (6 times) realtime
+    Wake lock SyncLoopWakeLock: 27ms partial (2 times) realtime
+    Wake lock ActivityManager-Launch realtime
+    Wake lock *job*/android/com.android.server.pm.BackgroundDexOptService realtime
+    Wake lock *job*/com.meizu.flyme.update/.appupgrade.service.JobSchedulerService realtime
+    Wake lock NextAlarmTracker realtime
+    Wake lock GpsLocationProvider realtime
+    Wake lock AppManager: 722ms partial (4 times) realtime
+    Wake lock DHCP: 406ms partial (2 times) realtime
+    Wake lock NetworkStats: 804ms partial (22 times) realtime
+    Wake lock DHCP_WAKELOCK: 400ms partial (2 times) realtime
+    Wake lock SyncManagerHandleSyncAlarm: 65ms partial (2 times) realtime
+    Wake lock *job*/com.meizu.flyme.update/.jobscheduler.JobSchedulerService realtime
+    Wake lock AudioMix realtime
+    Wake lock PhoneWindowManager.mPowerKeyWakeLock: 6ms partial (1 times) realtime
+    Wake lock *alarm*: 11s 234ms partial (162 times) realtime
+    Wake lock WiredAccessoryManager realtime
+    Wake lock WifiSuspend: 5ms partial (1 times) realtime
+    Wake lock ActivityManager-Sleep: 48ms partial (2 times) realtime
+    TOTAL wake: 13s 747ms partial realtime
+    Job com.meizu.flyme.update/.jobscheduler.JobSchedulerService: (not used)
+    Job com.meizu.flyme.update/.appupgrade.service.JobSchedulerService: (not used)
+    Job android/com.android.server.pm.BackgroundDexOptService: (not used)
+    Job com.meizu.experiencedatasync/.service.PerformanceMonitorService: (not used)
+    Sensor 1: (not used)
+    Sensor 4: (not used)
+    Proc 6620_launcher:
+      CPU: 0ms usr + 80ms krn ; 0ms fg
+    Proc WebViewLoader-arm64-v8a:
+      CPU: 0ms usr + 0ms krn ; 0ms fg
+      1 starts
+    Proc autokd:
+      CPU: 0ms usr + 50ms krn ; 0ms fg
+    Proc thermal:
+      CPU: 120ms usr + 300ms krn ; 0ms fg
+    Proc WebViewLoader-armeabi-v7a:
+      CPU: 0ms usr + 0ms krn ; 0ms fg
+      1 starts
+    Proc com.meizu.safe:update:
+      CPU: 0ms usr + 0ms krn ; 0ms fg
+      1 starts
+    Proc com.meizu.flyme.update:
+      CPU: 60ms usr + 70ms krn ; 0ms fg
+      1 starts
+    Proc system:
+      CPU: 36s 390ms usr + 31s 800ms krn ; 0ms fg
+    Proc com.meizu.safe:
+      CPU: 6s 260ms usr + 670ms krn ; 0ms fg
+      1 starts
+    Proc surfaceflinger:
+      CPU: 37s 620ms usr + 58s 890ms krn ; 0ms fg
+    Proc com.aliyun.uuid:
+      CPU: 0ms usr + 0ms krn ; 0ms fg
+      1 starts
+    Proc com.android.keychain:
+      CPU: 30ms usr + 0ms krn ; 0ms fg
+      2 starts
+    Proc fuelgauged:
+      CPU: 360ms usr + 1s 340ms krn ; 0ms fg
+    Proc com.meizu.alphame:
+      CPU: 700ms usr + 340ms krn ; 0ms fg
+      1 starts
+    Proc com.android.settings:
+      CPU: 90ms usr + 40ms krn ; 0ms fg
+      1 starts
+    Proc com.meizu.battery:
+      CPU: 7s 20ms usr + 1s 40ms krn ; 0ms fg
+      1 starts
+    Proc mcDriverDaemon:
+      CPU: 40ms usr + 80ms krn ; 0ms fg
+    Proc com.fingerprints.service:
+      CPU: 0ms usr + 0ms krn ; 0ms fg
+      1 starts
+    Proc servicemanager:
+      CPU: 290ms usr + 720ms krn ; 0ms fg
+    Proc ccci_mdinit:
+      CPU: 0ms usr + 60ms krn ; 0ms fg
+    Proc com.meizu.experiencedatasync:
+      CPU: 200ms usr + 100ms krn ; 0ms fg
+      1 starts
+    Apk android:
+      4 wakeup alarms
+
+background batterystats: 
+  1001:
+    Wake lock CellBroadcastHandler realtime
+    Wake lock GsmInboundSmsHandler realtime
+    Wake lock CdmaServiceCategoryProgramHandler realtime
+    Wake lock GsmCellBroadcastHandler realtime
+    Wake lock RILJ: 287ms partial (6 times) realtime
+    Wake lock SMSDispatcher realtime
+    Wake lock CdmaInboundSmsHandler realtime
+    TOTAL wake: 287ms partial realtime
+    Proc com.mediatek.engineermode:
+      CPU: 0ms usr + 0ms krn ; 0ms fg
+      1 starts
+    Proc ccci_fsd:
+      CPU: 50ms usr + 40ms krn ; 0ms fg
+    Proc com.android.phone:
+      CPU: 1s 180ms usr + 450ms krn ; 0ms fg
+      1 starts
+
+background batterystats: 
+  1003:
+    Proc bootanimation:
+      CPU: 220ms usr + 440ms krn ; 0ms fg
+
+background batterystats: 
+  1010:
+    Proc wifi2agps:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+
+background batterystats: 
+  1013:
+    Wake lock AudioMix realtime
+    Sensor 1: (not used)
+    Sensor 2: (not used)
+
+background batterystats: 
+  1014:
+    (nothing executed)
+
+background batterystats: 
+  1338:
+    (nothing executed)
+
+background batterystats: 
+  2000:
+    Proc batterywarning:
+      CPU: 10ms usr + 30ms krn ; 0ms fg
+    Proc emdlogger1:
+      CPU: 0ms usr + 60ms krn ; 0ms fg
+
+background batterystats: 
+  u0a0:
+    Proc com.amap.android.location:
+      CPU: 110ms usr + 10ms krn ; 0ms fg
+      1 starts
+
+background batterystats: 
+  u0a1:
+    Proc com.yunos.lifecard:
+      CPU: 110ms usr + 20ms krn ; 0ms fg
+      2 starts
+
+background batterystats: 
+  u0a2:
+    Proc com.yunos.alimobilesearch:
+      CPU: 40ms usr + 20ms krn ; 0ms fg
+      2 starts
+
+background batterystats: 
+  u0a4:
+    Wake lock *job*/com.android.browser/com.meizu.syncsdk.service.SchedulerService realtime
+    Job com.android.browser/com.meizu.syncsdk.service.SchedulerService: (not used)
+    Proc com.android.browser:
+      CPU: 290ms usr + 140ms krn ; 0ms fg
+      1 starts
+
+background batterystats: 
+  u0a5:
+    Wake lock ScheduleNextAlarmWakeLock realtime
+    Wake lock CalendarReceiver_Provider realtime
+    Wake lock *alarm* realtime
+
+background batterystats: 
+  u0a6:
+    Proc com.android.incallui:
+      CPU: 10ms usr + 0ms krn ; 0ms fg
+      1 starts
+    Proc android.process.acore:
+      CPU: 320ms usr + 190ms krn ; 0ms fg
+      1 starts
+
+background batterystats: 
+  u0a7:
+    Wake lock *alarm*: 24ms partial (1 times) realtime
+    Proc com.meizu.customizecenter:
+      CPU: 750ms usr + 240ms krn ; 0ms fg
+      1 starts
+
+background batterystats: 
+  u0a8:
+    Proc com.android.defcontainer:
+      CPU: 20ms usr + 10ms krn ; 0ms fg
+      1 starts
+
+background batterystats: 
+  u0a9:
+    Wake lock HeadlessTaskService realtime
+    Wake lock *alarm* realtime
+    Proc com.android.dialer:
+      CPU: 0ms usr + 0ms krn ; 0ms fg
+      1 starts
+    Proc com.meizu.netcontactservice:breakingscam:
+      CPU: 0ms usr + 0ms krn ; 0ms fg
+      1 starts
+
+background batterystats: 
+  u0a10:
+    Wake lock MediaScannerService: 2s 133ms partial (2 times) realtime
+    Proc android.process.media:
+      CPU: 870ms usr + 870ms krn ; 0ms fg
+      1 starts
+
+background batterystats: 
+  u0a12:
+    (nothing executed)
+
+background batterystats: 
+  u0a13:
+    (nothing executed)
+
+background batterystats: 
+  u0a14:
+    Wi-Fi network: 3.79KB received, 3.45KB sent (packets 10 received, 16 sent)
+    Wake lock *vibrator* realtime
+    Wake lock *alarm*: 10ms partial (1 times) realtime
+    TOTAL wake: 10ms partial realtime
+    Foreground for: 2h 17m 37s 733ms 
+    Active for: 2h 17m 37s 760ms 
+    Running for: 3h 4m 52s 720ms 
+    Proc com.meizu.flyme.launcher:
+      CPU: 1s 730ms usr + 560ms krn ; 0ms fg
+      1 starts
+
+background batterystats: 
+  u0a15:
+    Proc com.meizu.media.gallery:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+
+background batterystats: 
+  u0a17:
+    (nothing executed)
+
+background batterystats: 
+  u0a18:
+    Wake lock bugle_datamodel_service_wakelock realtime
+    Wake lock StartingAlertService realtime
+    Proc com.android.mms:
+      CPU: 0ms usr + 0ms krn ; 0ms fg
+      1 starts
+
+background batterystats: 
+  u0a19:
+    Proc com.meizu.media.music:
+      CPU: 220ms usr + 70ms krn ; 0ms fg
+      2 starts
+
+background batterystats: 
+  u0a20:
+    Proc com.android.musicfx:
+      CPU: 20ms usr + 10ms krn ; 0ms fg
+
+background batterystats: 
+  u0a22:
+    Wake lock *alarm* realtime
+
+background batterystats: 
+  u0a24:
+    Wake lock BaseThread realtime
+    Wake lock *alarm* realtime
+    Proc com.meizu.flyme.input:
+      CPU: 150ms usr + 70ms krn ; 0ms fg
+      1 starts
+
+background batterystats: 
+  u0a27:
+    Wake lock *job*/com.meizu.sceneinfo/.SceneInfoService realtime
+    Job com.meizu.sceneinfo/.SceneInfoService: (not used)
+    Proc com.meizu.sceneinfo:
+      CPU: 0ms usr + 0ms krn ; 0ms fg
+      1 starts
+
+background batterystats: 
+  u0a29:
+    Proc com.android.soundrecorder:
+      CPU: 0ms usr + 0ms krn ; 0ms fg
+      1 starts
+
+background batterystats: 
+  u0a30:
+    User activity: 21 other
+    Wake lock PhoneWindowManager.mProximityWakeLock realtime
+    Wake lock show keyguard: 554ms partial (2 times) realtime
+    Wake lock *alarm*: 68ms partial (3 times) realtime
+    TOTAL wake: 622ms partial realtime
+    Sensor 15: (not used)
+    Proc com.flyme.systemuitools:
+      CPU: 440ms usr + 110ms krn ; 0ms fg
+      1 starts
+    Proc com.android.systemui:
+      CPU: 8s 830ms usr + 2s 430ms krn ; 0ms fg
+      1 starts
+    Apk com.android.systemui:
+      2 wakeup alarms
+
+background batterystats: 
+  u0a31:
+    (nothing executed)
+
+background batterystats: 
+  u0a33:
+    (nothing executed)
+
+background batterystats: 
+  u0a35:
+    Proc com.aliyun.ams.tyid:
+      CPU: 700ms usr + 220ms krn ; 0ms fg
+
+background batterystats: 
+  u0a36:
+    Wake lock com.android.alarmclock.DeskClock realtime
+
+background batterystats: 
+  u0a37:
+    Wake lock *alarm* realtime
+    Proc com.alipay.android.app:
+      CPU: 20ms usr + 0ms krn ; 0ms fg
+      2 starts
+
+background batterystats: 
+  u0a38:
+    Wake lock *job*/com.meizu.mstore/com.meizu.cloud.app.jobscheduler.JobSchedulerService: 96ms partial (4 times) realtime
+    Job com.meizu.mstore/com.meizu.cloud.app.jobscheduler.JobSchedulerService: (not used)
+    Proc com.meizu.mstore:
+      CPU: 2s 420ms usr + 3s 560ms krn ; 0ms fg
+      1 starts
+
+background batterystats: 
+  u0a39:
+    Proc com.aliyun.ams.assistantservice:
+      CPU: 0ms usr + 0ms krn ; 0ms fg
+      1 starts
+
+background batterystats: 
+  u0a40:
+    (nothing executed)
+
+background batterystats: 
+  u0a41:
+    Wake lock StartingAlertService realtime
+    Proc com.android.calendar:remote:
+      CPU: 110ms usr + 80ms krn ; 0ms fg
+      2 starts
+
+background batterystats: 
+  u0a42:
+    (nothing executed)
+
+background batterystats: 
+  u0a45:
+    Proc com.meizu.desktopbackup:
+      CPU: 30ms usr + 30ms krn ; 0ms fg
+
+background batterystats: 
+  u0a46:
+    (nothing executed)
+
+background batterystats: 
+  u0a47:
+    Proc com.meizu.filemanager:
+      CPU: 10ms usr + 20ms krn ; 0ms fg
+
+background batterystats: 
+  u0a48:
+    Proc com.meizu.flymecommunication:
+      CPU: 10ms usr + 0ms krn ; 0ms fg
+      1 starts
+
+background batterystats: 
+  u0a49:
+    Proc com.meizu.flyme.telecom:
+      CPU: 0ms usr + 0ms krn ; 0ms fg
+      1 starts
+
+background batterystats: 
+  u0a56:
+    Proc com.mediatek.mtklogger:
+      CPU: 20ms usr + 0ms krn ; 0ms fg
+      2 starts
+
+background batterystats: 
+  u0a57:
+    Proc com.meizu.net.map:
+      CPU: 0ms usr + 0ms krn ; 0ms fg
+      1 starts
+
+background batterystats: 
+  u0a58:
+    Proc com.waves.maxxservice:
+      CPU: 0ms usr + 0ms krn ; 0ms fg
+      1 starts
+
+background batterystats: 
+  u0a59:
+    Proc com.meizu.account:
+      CPU: 40ms usr + 30ms krn ; 0ms fg
+
+background batterystats: 
+  u0a60:
+    Wake lock *alarm*: 176ms partial (13 times) realtime
+    Proc com.meizu.cloud:mzservice_v1:
+      CPU: 190ms usr + 110ms krn ; 0ms fg
+      1 starts
+    Apk com.meizu.cloud:
+      19 wakeup alarms
+
+background batterystats: 
+  u0a61:
+    (nothing executed)
+
+background batterystats: 
+  u0a62:
+    (nothing executed)
+
+background batterystats: 
+  u0a64:
+    Proc com.meizu.flyme.service.find:
+      CPU: 60ms usr + 0ms krn ; 0ms fg
+      1 starts
+
+background batterystats: 
+  u0a65:
+    Proc com.meizu.share:
+      CPU: 20ms usr + 30ms krn ; 0ms fg
+
+background batterystats: 
+  u0a66:
+    Proc com.meizu.mzsimcontacts:
+      CPU: 0ms usr + 0ms krn ; 0ms fg
+      1 starts
+
+background batterystats: 
+  u0a67:
+    Wake lock *alarm* realtime
+    Proc com.meizu.mzsyncservice:
+      CPU: 180ms usr + 40ms krn ; 0ms fg
+      1 starts
+    Apk com.meizu.mzsyncservice:
+      1 wakeup alarms
+
+background batterystats: 
+  u0a68:
+    (nothing executed)
+
+background batterystats: 
+  u0a70:
+    Proc com.svox.pico:
+      CPU: 10ms usr + 0ms krn ; 0ms fg
+
+background batterystats: 
+  u0a71:
+    Proc com.android.printspooler:
+      CPU: 0ms usr + 0ms krn ; 0ms fg
+      1 starts
+
+background batterystats: 
+  u0a72:
+    Proc com.meizu.media.reader:
+      CPU: 1s 270ms usr + 370ms krn ; 0ms fg
+      1 starts
+    Proc libweexjsb.so:
+      CPU: 10ms usr + 20ms krn ; 0ms fg
+
+background batterystats: 
+  u0a73:
+    (nothing executed)
+
+background batterystats: 
+  u0a75:
+    Proc com.meizu.net.search:
+      CPU: 1s 370ms usr + 290ms krn ; 0ms fg
+      2 starts
+
+background batterystats: 
+  u0a79:
+    Wake lock *alarm* realtime
+    Proc com.meizu.flyme.weather:
+      CPU: 80ms usr + 80ms krn ; 0ms fg
+      2 starts
+
+background batterystats: 
+  u0a88:
+    Wake lock pushagentPoxy realtime
+    Wake lock *sync*/com.sina.weibo.sync.authority/com.sina.weibo.account/???จจ??จจ?? realtime
+    Wake lock eventLooper realtime
+    Wake lock *sync*/com.android.contacts/com.sina.weibo.account/???จจ??จจ?? realtime
+    Wake lock *alarm*: 47ms partial (12 times) realtime
+    TOTAL wake: 47ms partial realtime
+    Sync com.android.contacts/com.sina.weibo.account/???จจ??จจ??: (not used)
+    Sync com.sina.weibo.sync.authority/com.sina.weibo.account/???จจ??จจ??: (not used)
+    Proc com.sina.weibo:remote:
+      CPU: 1s 920ms usr + 1s 70ms krn ; 0ms fg
+    Proc com.sina.weibo:
+      CPU: 560ms usr + 190ms krn ; 0ms fg
+
+background batterystats: 
+  u0a95:
+    Wake lock *alarm*: 275ms partial (27 times) realtime
+    Wake lock LocationManagerService realtime
+    TOTAL wake: 275ms partial realtime
+    Sensor 4: 37s 486ms realtime (1 times)
+    Foreground for: 37s 486ms 
+    Proc com.tencent.mobileqq:qzone:
+      CPU: 20ms usr + 0ms krn ; 0ms fg
+    Proc com.tencent.mobileqq:
+      CPU: 2s 710ms usr + 690ms krn ; 0ms fg
+      1 starts
+    Proc com.tencent.mobileqq:MSF:
+      CPU: 3s 40ms usr + 740ms krn ; 0ms fg
+      1 starts
+    Apk com.tencent.mobileqq:
+      44 wakeup alarms
+
+background batterystats: 
+  u0a97:
+    Wake lock WakerLock:482495609: 14ms partial (1 times) realtime
+    Wake lock WakerLock:739391285: 168ms partial (1 times) realtime
+    Wake lock WakerLock:404766239: 3s 324ms partial (23 times) realtime
+    Wake lock WakerLock:13335385: 15ms partial (1 times) realtime
+    Wake lock WakerLock:942634005: 170ms partial (1 times) realtime
+    Wake lock WakerLock:934523967: 279ms partial (1 times) realtime
+    Wake lock WakerLock:947625198: 2s 674ms partial (25 times) realtime
+    Wake lock WakerLock:471089584: 32ms partial (1 times) realtime
+    Wake lock WakerLock:235444386: 2s 110ms partial (4 times) realtime
+    Wake lock WakerLock:817059697: 2s 676ms partial (20 times) realtime
+    Wake lock WakerLock:663154135: 170ms partial (1 times) realtime
+    Wake lock WakerLock:689098114: 304ms partial (1 times) realtime
+    Wake lock WakerLock:325067703: 171ms partial (1 times) realtime
+    Wake lock WakerLock:902266107: 15ms partial (1 times) realtime
+    Wake lock WakerLock:265762815: 3s 87ms partial (23 times) realtime
+    Wake lock WakerLock:44917329: 750ms partial (7 times) realtime
+    Wake lock *alarm*: 2s 678ms partial (52 times) realtime
+    Wake lock WakerLock:957278126: 2s 899ms partial (19 times) realtime
+    TOTAL wake: 21s 536ms partial realtime
+    Proc com.tencent.mm:push:
+      CPU: 3s 180ms usr + 640ms krn ; 0ms fg
+    Proc com.tencent.mm:
+      CPU: 2s 480ms usr + 430ms krn ; 0ms fg
+      1 starts
+    Apk com.tencent.mm:
+      41 wakeup alarms
+
+background batterystats: 
+  u0a112:
+    Wake lock *sync*/com.tencent.mtt.account.sync/com.tencent.mtt.account.sync/QQ???จจก์???กง realtime
+
+background batterystats: 
+  u0a173:
+    Wi-Fi network: 47.56KB received, 26.90KB sent (packets 188 received, 238 sent)
+    Wake lock WindowManager realtime
+    Wake lock *alarm*: 2ms partial (1 times) realtime
+    TOTAL wake: 2ms partial realtime
+    Sensor 2: 12ms realtime (1 times)
+    Foreground for: 2h 51m 16s 640ms 
+    Active for: 2h 51m 57s 277ms 
+    Proc com.tianyancha.skyeye:channel:
+      CPU: 5s 590ms usr + 230ms krn ; 0ms fg
+      1 starts
+    Proc com.tianyancha.skyeye:
+      CPU: 3m 33s 240ms usr + 49s 790ms krn ; 0ms fg
+      1 starts
+    Apk com.tianyancha.skyeye:
+      5 wakeup alarms
+
+background batterystats: 
+  u0a174:
+    Wake lock WindowManager realtime
+    Wake lock *alarm* realtime
+    Sensor 2: (not used)
+
+Statistics since last unplugged:
+  Time on battery: 37s 555ms (0.3%) realtime, 14s 547ms (0.1%) uptime
+  Time on battery screen off: 26s 853ms (0.2%) realtime, 3s 844ms (0.0%) uptime
+  Total run time: 3h 18m 24s 55ms realtime, 3h 18m 1s 47ms uptime
+  Start clock time: 2018-05-14-15-19-46
+  Screen on: 10s 589ms (28.2%) 2x, Interactive: 10s 1ms (26.6%)
+  Screen brightnesses:
+    dark 2s 646ms (25.0%)
+    light 7s 943ms (75.0%)
+  Total partial wakelock time: 211ms
+  Mobile total received: 0B, sent: 0B (packets received 0, sent 0)
+  Phone signal levels:
+    very 37s 555ms (100.0%) 0x
+  Signal scanning time: 0ms
+  Radio types: (no activity)
+  Mobile radio active time: 0ms (0.0%) 0x
+  Wi-Fi total received: 0B, sent: 0B (packets received 0, sent 0)
+  Wifi on: 37s 555ms (100.0%), Wifi running: 37s 555ms (100.0%)
+  Wifi states: (no activity)
+  Wifi supplicant states:
+    completed 37s 555ms (100.0%) 1x
+  Wifi signal levels:
+    level(4) 37s 555ms (100.0%) 0x
+  Bluetooth on: 0ms (0.0%)
+  Bluetooth states: (no activity)
+
+  Device is currently plugged into power
+    Last discharge cycle start level: 100
+    Last discharge cycle end level: 100
+    Amount discharged while screen on: 0
+    Amount discharged while screen off: 0
+ 
+  Estimated power use (mAh):
+    Capacity: 3000, Computed drain: 1.57, actual drain: 0.00000000
+    Screen: 1.08
+    Uid 1000: 0.179
+    Uid 0: 0.148
+    Idle: 0.0449
+    Wifi: 0.0365
+    Uid u0a30: 0.0277
+    Uid u0a95: 0.0167
+    Cell standby: 0.0104
+    Uid u0a88: 0.00820
+    Uid 1001: 0.00818
+    Uid u0a14: 0.00456
+    Uid u0a38: 0.00182
+    Uid u0a64: 0.00182
+    Uid u0a24: 0.00126
+    Uid u0a41: 0.00126
+    Uid u0a67: 0.00126
+    Uid u0a0: 0.000911
+    Uid u0a79: 0.000911
+
+  All kernel wake locks:
+  Kernel Wake lock EINT wakelock: 2s 100ms (3 times) realtime
+  Kernel Wake lock md1_cldma_peer: 1s 485ms (2 times) realtime
+  Kernel Wake lock ttyC0       : 1s 483ms (2 times) realtime
+  Kernel Wake lock battery suspend wakelock: 675ms (1 times) realtime
+  Kernel Wake lock mmc1_detect : 665ms (4 times) realtime
+  Kernel Wake lock pmicThread_lock_mt6331 wakelock: 642ms (1 times) realtime
+  Kernel Wake lock WLAN timeout: 436ms (3 times) realtime
+  Kernel Wake lock PowerManagerService.WakeLocks: 212ms (2 times) realtime
+  Kernel Wake lock PowerManagerService.Display: 105ms (0 times) realtime
+  Kernel Wake lock alarm       : 77ms (1 times) realtime
+  Kernel Wake lock wireless    : 35ms (1 times) realtime
+  Kernel Wake lock ac          : 35ms (1 times) realtime
+  Kernel Wake lock battery     : 35ms (1 times) realtime
+  Kernel Wake lock usb         : 35ms (1 times) realtime
+  Kernel Wake lock sys_sync    : 31ms (1 times) realtime
+  Kernel Wake lock vcorefs_delay: 24ms (2 times) realtime
+  Kernel Wake lock vcorefs_dvfs: 23ms (1 times) realtime
+  Kernel Wake lock USB.lock    : 20ms (1 times) realtime
+  Kernel Wake lock pmicAuxadc irq wakelock: 10ms (29 times) realtime
+  Kernel Wake lock MSDC Transfer Lock: 1ms (41 times) realtime
+  Kernel Wake lock NETLINK     : 1ms (2 times) realtime
+  Kernel Wake lock WLAN interrupt: 1ms (7 times) realtime
+  Kernel Wake lock WLAN hif_thread: 1ms (8 times) realtime
+  Kernel Wake lock KeyEvents   : 1ms (2 times) realtime
+  Kernel Wake lock spi_wakelock: 1ms (9 times) realtime
+  Kernel Wake lock mmc0_detect : 1ms (4 times) realtime
+  Kernel Wake lock WLAN Timer  : 1ms (1 times) realtime
+
+  All partial wake locks:
+  Wake lock 1001 RILJ: 146ms (1 times) realtime
+  Wake lock 1000 *alarm*: 65ms (1 times) realtime
+
+  0:
+    Proc fpc1020_worker:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc ion_mm_heap:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc ksdioirqd/mmc2:
+      CPU: 0ms usr + 20ms krn ; 0ms fg
+    Proc present_fence_w:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc cfinteractive:
+      CPU: 0ms usr + 20ms krn ; 0ms fg
+    Proc hif_thread:
+      CPU: 0ms usr + 40ms krn ; 0ms fg
+    Proc kswapd0:
+      CPU: 0ms usr + 100ms krn ; 0ms fg
+    Proc mtk_wmtd:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc gsm0710muxd:
+      CPU: 0ms usr + 90ms krn ; 0ms fg
+    Proc frame_update_wo:
+      CPU: 0ms usr + 30ms krn ; 0ms fg
+    Proc lmkd:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc rcu_preempt:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc stp_sdio_tx_rx:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc hps_main:
+      CPU: 0ms usr + 20ms krn ; 0ms fg
+    Proc kworker/0:1:
+      CPU: 0ms usr + 40ms krn ; 0ms fg
+    Proc rx_thread:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc healthd:
+      CPU: 0ms usr + 20ms krn ; 0ms fg
+    Proc mmcqd/0:
+      CPU: 0ms usr + 90ms krn ; 0ms fg
+    Proc tx_thread:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc mtkrild:
+      CPU: 0ms usr + 20ms krn ; 0ms fg
+    Proc ksoftirqd/0:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc wpa_supplicant:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc kworker/2:1H:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc kworker/3:1H:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc kworker/u16:0:
+      CPU: 0ms usr + 150ms krn ; 0ms fg
+    Proc kworker/u16:1:
+      CPU: 0ms usr + 100ms krn ; 0ms fg
+    Proc kworker/u16:2:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc kworker/u16:3:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc kworker/u16:8:
+      CPU: 0ms usr + 20ms krn ; 0ms fg
+    Proc kworker/u17:0:
+      CPU: 0ms usr + 30ms krn ; 0ms fg
+    Proc kworker/u17:2:
+      CPU: 0ms usr + 20ms krn ; 0ms fg
+    Proc stp_dump3:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc mtk charger_hv_:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+  1000:
+    User activity: 2 other
+    Wake lock PhoneWindowManager.mBroadcastWakeLock realtime
+    Wake lock *job*/com.meizu.experiencedatasync/.service.PerformanceMonitorService realtime
+    Wake lock SyncLoopWakeLock realtime
+    Wake lock ActivityManager-Launch realtime
+    Wake lock *job*/android/com.android.server.pm.BackgroundDexOptService realtime
+    Wake lock *job*/com.meizu.flyme.update/.appupgrade.service.JobSchedulerService realtime
+    Wake lock AppManager realtime
+    Wake lock DHCP realtime
+    Wake lock NetworkStats realtime
+    Wake lock DHCP_WAKELOCK realtime
+    Wake lock SyncManagerHandleSyncAlarm realtime
+    Wake lock AudioMix realtime
+    Wake lock PhoneWindowManager.mPowerKeyWakeLock realtime
+    Wake lock *alarm*: 65ms partial (1 times) realtime
+    Wake lock WifiSuspend realtime
+    Wake lock ActivityManager-Sleep realtime
+    TOTAL wake: 65ms partial realtime
+    Job com.meizu.flyme.update/.appupgrade.service.JobSchedulerService: (not used)
+    Job android/com.android.server.pm.BackgroundDexOptService: (not used)
+    Job com.meizu.experiencedatasync/.service.PerformanceMonitorService: (not used)
+    Sensor 1: 9s 986ms realtime (2 times)
+    Foreground for: 37s 555ms 
+    Proc com.meizu.flyme.update:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc system:
+      CPU: 610ms usr + 440ms krn ; 0ms fg
+    Proc com.meizu.safe:
+      CPU: 120ms usr + 180ms krn ; 0ms fg
+    Proc surfaceflinger:
+      CPU: 60ms usr + 170ms krn ; 0ms fg
+    Proc fuelgauged:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc com.meizu.alphame:
+      CPU: 20ms usr + 10ms krn ; 0ms fg
+    Proc com.meizu.battery:
+      CPU: 10ms usr + 10ms krn ; 0ms fg
+    Proc servicemanager:
+      CPU: 20ms usr + 0ms krn ; 0ms fg
+    Proc com.meizu.experiencedatasync:
+      CPU: 10ms usr + 0ms krn ; 0ms fg
+    Apk com.meizu.flyme.update:
+      (nothing executed)
+    Apk android:
+      (nothing executed)
+    Apk com.meizu.safe:
+      Service com.meizu.networkmanager.service.PowerSavingControllService:
+        Created for: 627ms uptime
+        Starts: 1, launches: 1
+    Apk com.android.keychain:
+      (nothing executed)
+    Apk com.meizu.experiencedatasync:
+      (nothing executed)
+  1001:
+    Wake lock RILJ: 146ms partial (1 times) realtime
+    Foreground for: 37s 555ms 
+    Proc com.android.phone:
+      CPU: 40ms usr + 20ms krn ; 0ms fg
+  1013:
+    Wake lock AudioMix realtime
+  1338:
+    Active for: 37s 555ms 
+  u0a0:
+    Active for: 37s 555ms 
+    Proc com.amap.android.location:
+      CPU: 10ms usr + 0ms krn ; 0ms fg
+  u0a1:
+    Foreground for: 37s 555ms 
+    Apk com.yunos.lifecard:
+      (nothing executed)
+  u0a2:
+    Foreground for: 37s 555ms 
+    Apk com.yunos.alimobilesearch:
+      (nothing executed)
+  u0a4:
+    Foreground for: 37s 555ms 
+  u0a5:
+    Foreground for: 37s 555ms 
+  u0a6:
+    Foreground for: 37s 555ms 
+  u0a7:
+    Foreground for: 37s 555ms 
+    Apk com.meizu.customizecenter:
+      Service com.meizu.customizecenter.common.helper.scannerhelper.CustomizeScannerService:
+        Created for: 0ms uptime
+        Starts: 0, launches: 1
+  u0a8:
+    Running for: 37s 555ms 
+    Apk com.android.defcontainer:
+      (nothing executed)
+  u0a9:
+    Foreground for: 37s 555ms 
+  u0a10:
+    Wake lock MediaScannerService realtime
+    Running for: 37s 555ms 
+    Apk com.android.providers.media:
+      Service com.android.providers.media.MtpService:
+        Created for: 0ms uptime
+        Starts: 1, launches: 1
+  u0a12:
+    Foreground for: 37s 555ms 
+  u0a13:
+    Running for: 37s 555ms 
+  u0a14:
+    Wake lock *alarm* realtime
+    Foreground for: 37s 555ms 
+    Proc com.meizu.flyme.launcher:
+      CPU: 40ms usr + 10ms krn ; 0ms fg
+    Apk com.meizu.flyme.launcher:
+      (nothing executed)
+  u0a15:
+    Foreground for: 37s 555ms 
+    Apk com.meizu.media.gallery:
+      Service com.meizu.media.common.service.DlnaService:
+        Created for: 0ms uptime
+        Starts: 0, launches: 1
+  u0a17:
+    Foreground for: 37s 555ms 
+  u0a18:
+    Foreground for: 37s 555ms 
+  u0a19:
+    Foreground for: 37s 555ms 
+    Apk com.meizu.media.music:
+      (nothing executed)
+  u0a20:
+    Running for: 37s 555ms 
+    Apk com.android.musicfx:
+      (nothing executed)
+  u0a22:
+    Foreground for: 37s 555ms 
+  u0a24:
+    Wake lock *alarm* realtime
+    Active for: 37s 555ms 
+    Proc com.meizu.flyme.input:
+      CPU: 10ms usr + 0ms krn ; 0ms fg
+  u0a27:
+    Foreground for: 37s 555ms 
+  u0a29:
+    Foreground for: 37s 555ms 
+  u0a30:
+    User activity: 1 other
+    Wake lock PhoneWindowManager.mProximityWakeLock realtime
+    Wake lock show keyguard realtime
+    Wake lock *alarm* realtime
+    Sensor 15: 1s 162ms realtime (1 times)
+    Foreground for: 37s 555ms 
+    Proc com.flyme.systemuitools:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc com.android.systemui:
+      CPU: 190ms usr + 50ms krn ; 0ms fg
+  u0a31:
+    Foreground for: 37s 555ms 
+    Apk com.meizu.media.video:
+      (nothing executed)
+  u0a33:
+    Foreground for: 37s 555ms 
+  u0a35:
+    Foreground for: 37s 555ms 
+  u0a36:
+    Foreground for: 37s 555ms 
+  u0a37:
+    Foreground for: 37s 555ms 
+  u0a38:
+    Wake lock *job*/com.meizu.mstore/com.meizu.cloud.app.jobscheduler.JobSchedulerService realtime
+    Job com.meizu.mstore/com.meizu.cloud.app.jobscheduler.JobSchedulerService: (not used)
+    Active for: 140ms 
+    Running for: 37s 555ms 
+    Proc com.meizu.mstore:
+      CPU: 20ms usr + 0ms krn ; 0ms fg
+    Apk com.meizu.mstore:
+      Service com.meizu.cloud.app.update.ConditionHandlerService:
+        Created for: 129ms uptime
+        Starts: 3, launches: 3
+      Service com.meizu.flyme.appcenter.aidl.AidlCommonService:
+        Created for: 0ms uptime
+        Starts: 0, launches: 1
+  u0a39:
+    Foreground for: 37s 555ms 
+  u0a40:
+    Foreground for: 37s 555ms 
+  u0a41:
+    Active for: 78ms 
+    Running for: 37s 555ms 
+    Proc com.android.calendar:remote:
+      CPU: 10ms usr + 0ms krn ; 0ms fg
+  u0a42:
+    Foreground for: 37s 555ms 
+  u0a45:
+    Active for: 37s 555ms 
+  u0a46:
+    Foreground for: 37s 555ms 
+  u0a47:
+    Running for: 37s 555ms 
+  u0a48:
+    Foreground for: 37s 555ms 
+  u0a49:
+    Foreground for: 37s 555ms 
+  u0a56:
+    Foreground for: 37s 555ms 
+  u0a57:
+    Foreground for: 37s 555ms 
+  u0a58:
+    Foreground for: 37s 555ms 
+  u0a59:
+    Active for: 37s 555ms 
+  u0a60:
+    Wake lock *alarm* realtime
+    Active for: 37s 555ms 
+  u0a61:
+    Foreground for: 37s 555ms 
+  u0a62:
+    Foreground for: 37s 555ms 
+  u0a64:
+    Active for: 37s 555ms 
+    Proc com.meizu.flyme.service.find:
+      CPU: 20ms usr + 0ms krn ; 0ms fg
+    Apk com.meizu.flyme.service.find:
+      Service com.meizu.flyme.service.find.SimChangeHandleService:
+        Created for: 3s 50ms uptime
+        Starts: 1, launches: 1
+  u0a65:
+    Active for: 37s 555ms 
+  u0a66:
+    Foreground for: 37s 555ms 
+  u0a67:
+    Active for: 37s 555ms 
+    Proc com.meizu.mzsyncservice:
+      CPU: 10ms usr + 0ms krn ; 0ms fg
+  u0a68:
+    Foreground for: 37s 555ms 
+  u0a70:
+    Foreground for: 37s 555ms 
+  u0a71:
+    Foreground for: 37s 555ms 
+    Apk com.android.printspooler:
+      (nothing executed)
+  u0a72:
+    Foreground for: 37s 555ms 
+    Apk com.meizu.media.reader:
+      (nothing executed)
+  u0a73:
+    Foreground for: 37s 555ms 
+  u0a75:
+    Foreground for: 37s 555ms 
+    Apk com.meizu.net.search:
+      (nothing executed)
+  u0a79:
+    Running for: 37s 555ms 
+    Proc com.meizu.flyme.weather:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Apk com.meizu.flyme.weather:
+      (nothing executed)
+  u0a88:
+    Wake lock *alarm* realtime
+    Active for: 37s 555ms 
+    Proc com.sina.weibo:remote:
+      CPU: 10ms usr + 10ms krn ; 0ms fg
+    Proc com.sina.weibo:
+      CPU: 60ms usr + 10ms krn ; 0ms fg
+  u0a95:
+    Wake lock *alarm* realtime
+    Wake lock LocationManagerService realtime
+    Sensor 4: 37s 555ms realtime (0 times)
+    Foreground for: 37s 555ms 
+    Proc com.tencent.mobileqq:
+      CPU: 60ms usr + 20ms krn ; 0ms fg
+    Proc com.tencent.mobileqq:MSF:
+      CPU: 50ms usr + 0ms krn ; 0ms fg
+    Apk com.tencent.mobileqq:
+      Service com.tencent.mobileqq.qipc.QIPCServiceEx:
+        Created for: 0ms uptime
+        Starts: 0, launches: 1
+      Service com.tencent.mobileqq.app.CoreService$KernelService:
+        Created for: 0ms uptime
+        Starts: 1, launches: 1
+      Service com.tencent.mobileqq.app.CoreService:
+        Created for: 0ms uptime
+        Starts: 1, launches: 1
+      Service cooperation.qzone.QzonePluginProxyService:
+        Created for: 0ms uptime
+        Starts: 1, launches: 1
+      Service com.tencent.tmdownloader.internal.remote.RemoteOpService:
+        Created for: 0ms uptime
+        Starts: 0, launches: 1
+      Service com.tencent.mobileqq.music.QQPlayerService:
+        Created for: 0ms uptime
+        Starts: 0, launches: 1
+  u0a97:
+    Wake lock *alarm* realtime
+    Foreground for: 37s 555ms 
+  u0a174:
+    Wake lock WindowManager realtime
+    Wake lock *alarm* realtime
+    Sensor 2: (not used)
+    Apk com.tianyancha.skyeye:
+      Service com.taobao.accs.data.MsgDistributeService:
+        Created for: 0ms uptime
+        Starts: 1, launches: 1
+      Service com.taobao.accs.ChannelService:
+        Created for: 0ms uptime
+        Starts: 1, launches: 1
+      Service org.android.agoo.accs.AgooService:
+        Created for: 0ms uptime
+        Starts: 1, launches: 1
+
+background batterystats: 
+  -5:
+    (nothing executed)
+
+background batterystats: 
+  0:
+    Sync fpc1020_worker: (not used)
+    Sync : (not used)
+    Sync null: (not used)
+    Sync         : (not used)
+    Proc fpc1020_worker:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc ion_mm_heap:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc ksdioirqd/mmc2:
+      CPU: 0ms usr + 20ms krn ; 0ms fg
+    Proc present_fence_w:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc cfinteractive:
+      CPU: 0ms usr + 20ms krn ; 0ms fg
+    Proc hif_thread:
+      CPU: 0ms usr + 40ms krn ; 0ms fg
+    Proc kswapd0:
+      CPU: 0ms usr + 100ms krn ; 0ms fg
+    Proc mtk_wmtd:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc gsm0710muxd:
+      CPU: 0ms usr + 90ms krn ; 0ms fg
+    Proc frame_update_wo:
+      CPU: 0ms usr + 30ms krn ; 0ms fg
+    Proc lmkd:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc rcu_preempt:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc stp_sdio_tx_rx:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc hps_main:
+      CPU: 0ms usr + 20ms krn ; 0ms fg
+    Proc kworker/0:1:
+      CPU: 0ms usr + 40ms krn ; 0ms fg
+    Proc rx_thread:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc healthd:
+      CPU: 0ms usr + 20ms krn ; 0ms fg
+    Proc mmcqd/0:
+      CPU: 0ms usr + 90ms krn ; 0ms fg
+    Proc tx_thread:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc mtkrild:
+      CPU: 0ms usr + 20ms krn ; 0ms fg
+    Proc ksoftirqd/0:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc wpa_supplicant:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc kworker/2:1H:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc kworker/3:1H:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc kworker/u16:0:
+      CPU: 0ms usr + 150ms krn ; 0ms fg
+    Proc kworker/u16:1:
+      CPU: 0ms usr + 100ms krn ; 0ms fg
+    Proc kworker/u16:2:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc kworker/u16:3:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc kworker/u16:8:
+      CPU: 0ms usr + 20ms krn ; 0ms fg
+    Proc kworker/u17:0:
+      CPU: 0ms usr + 30ms krn ; 0ms fg
+    Proc kworker/u17:2:
+      CPU: 0ms usr + 20ms krn ; 0ms fg
+    Proc stp_dump3:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc mtk charger_hv_:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+
+background batterystats: 
+  15:
+    (nothing executed)
+
+background batterystats: 
+  1000:
+    Wi-Fi network: 65.92KB received, 20.17KB sent (packets 128 received, 131 sent)
+    User activity: 12 other, 46 touch
+    Wake lock PhoneWindowManager.mBroadcastWakeLock realtime
+    Wake lock *job*/com.meizu.experiencedatasync/.service.PerformanceMonitorService realtime
+    Wake lock SyncLoopWakeLock realtime
+    Wake lock ActivityManager-Launch realtime
+    Wake lock *job*/android/com.android.server.pm.BackgroundDexOptService realtime
+    Wake lock *job*/com.meizu.flyme.update/.appupgrade.service.JobSchedulerService realtime
+    Wake lock NextAlarmTracker realtime
+    Wake lock GpsLocationProvider realtime
+    Wake lock AppManager realtime
+    Wake lock DHCP realtime
+    Wake lock NetworkStats realtime
+    Wake lock DHCP_WAKELOCK realtime
+    Wake lock SyncManagerHandleSyncAlarm realtime
+    Wake lock *job*/com.meizu.flyme.update/.jobscheduler.JobSchedulerService realtime
+    Wake lock AudioMix realtime
+    Wake lock PhoneWindowManager.mPowerKeyWakeLock realtime
+    Wake lock *alarm*: 65ms partial (1 times) realtime
+    Wake lock WiredAccessoryManager realtime
+    Wake lock WifiSuspend realtime
+    Wake lock ActivityManager-Sleep realtime
+    TOTAL wake: 65ms partial realtime
+    Job com.meizu.flyme.update/.jobscheduler.JobSchedulerService: (not used)
+    Job com.meizu.flyme.update/.appupgrade.service.JobSchedulerService: (not used)
+    Job android/com.android.server.pm.BackgroundDexOptService: (not used)
+    Job com.meizu.experiencedatasync/.service.PerformanceMonitorService: (not used)
+    Sensor 1: (not used)
+    Sensor 4: (not used)
+    Proc com.meizu.flyme.update:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc system:
+      CPU: 610ms usr + 440ms krn ; 0ms fg
+    Proc com.meizu.safe:
+      CPU: 120ms usr + 180ms krn ; 0ms fg
+    Proc surfaceflinger:
+      CPU: 60ms usr + 170ms krn ; 0ms fg
+    Proc fuelgauged:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc com.meizu.alphame:
+      CPU: 20ms usr + 10ms krn ; 0ms fg
+    Proc com.meizu.battery:
+      CPU: 10ms usr + 10ms krn ; 0ms fg
+    Proc servicemanager:
+      CPU: 20ms usr + 0ms krn ; 0ms fg
+    Proc com.meizu.experiencedatasync:
+      CPU: 10ms usr + 0ms krn ; 0ms fg
+    Apk android:
+      4 wakeup alarms
+
+background batterystats: 
+  1001:
+    Wake lock CellBroadcastHandler realtime
+    Wake lock GsmInboundSmsHandler realtime
+    Wake lock CdmaServiceCategoryProgramHandler realtime
+    Wake lock GsmCellBroadcastHandler realtime
+    Wake lock RILJ: 146ms partial (1 times) realtime
+    Wake lock SMSDispatcher realtime
+    Wake lock CdmaInboundSmsHandler realtime
+    TOTAL wake: 146ms partial realtime
+    Proc com.android.phone:
+      CPU: 40ms usr + 20ms krn ; 0ms fg
+
+background batterystats: 
+  1003:
+    (nothing executed)
+
+background batterystats: 
+  1010:
+    (nothing executed)
+
+background batterystats: 
+  1013:
+    Wake lock AudioMix realtime
+    Sensor 1: (not used)
+    Sensor 2: (not used)
+
+background batterystats: 
+  1014:
+    (nothing executed)
+
+background batterystats: 
+  1338:
+    (nothing executed)
+
+background batterystats: 
+  2000:
+    (nothing executed)
+
+background batterystats: 
+  u0a0:
+    Proc com.amap.android.location:
+      CPU: 10ms usr + 0ms krn ; 0ms fg
+
+background batterystats: 
+  u0a1:
+    (nothing executed)
+
+background batterystats: 
+  u0a2:
+    (nothing executed)
+
+background batterystats: 
+  u0a4:
+    Wake lock *job*/com.android.browser/com.meizu.syncsdk.service.SchedulerService realtime
+    Job com.android.browser/com.meizu.syncsdk.service.SchedulerService: (not used)
+
+background batterystats: 
+  u0a5:
+    Wake lock ScheduleNextAlarmWakeLock realtime
+    Wake lock CalendarReceiver_Provider realtime
+    Wake lock *alarm* realtime
+
+background batterystats: 
+  u0a6:
+    (nothing executed)
+
+background batterystats: 
+  u0a7:
+    Wake lock *alarm* realtime
+
+background batterystats: 
+  u0a8:
+    (nothing executed)
+
+background batterystats: 
+  u0a9:
+    Wake lock HeadlessTaskService realtime
+    Wake lock *alarm* realtime
+
+background batterystats: 
+  u0a10:
+    Wake lock MediaScannerService realtime
+
+background batterystats: 
+  u0a12:
+    (nothing executed)
+
+background batterystats: 
+  u0a13:
+    (nothing executed)
+
+background batterystats: 
+  u0a14:
+    Wake lock *vibrator* realtime
+    Wake lock *alarm* realtime
+    Foreground for: 37s 555ms 
+    Proc com.meizu.flyme.launcher:
+      CPU: 40ms usr + 10ms krn ; 0ms fg
+
+background batterystats: 
+  u0a15:
+    (nothing executed)
+
+background batterystats: 
+  u0a17:
+    (nothing executed)
+
+background batterystats: 
+  u0a18:
+    Wake lock bugle_datamodel_service_wakelock realtime
+    Wake lock StartingAlertService realtime
+
+background batterystats: 
+  u0a19:
+    (nothing executed)
+
+background batterystats: 
+  u0a20:
+    (nothing executed)
+
+background batterystats: 
+  u0a22:
+    Wake lock *alarm* realtime
+
+background batterystats: 
+  u0a24:
+    Wake lock BaseThread realtime
+    Wake lock *alarm* realtime
+    Proc com.meizu.flyme.input:
+      CPU: 10ms usr + 0ms krn ; 0ms fg
+
+background batterystats: 
+  u0a27:
+    Wake lock *job*/com.meizu.sceneinfo/.SceneInfoService realtime
+    Job com.meizu.sceneinfo/.SceneInfoService: (not used)
+
+background batterystats: 
+  u0a29:
+    (nothing executed)
+
+background batterystats: 
+  u0a30:
+    User activity: 21 other
+    Wake lock PhoneWindowManager.mProximityWakeLock realtime
+    Wake lock show keyguard realtime
+    Wake lock *alarm* realtime
+    Sensor 15: (not used)
+    Proc com.flyme.systemuitools:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc com.android.systemui:
+      CPU: 190ms usr + 50ms krn ; 0ms fg
+    Apk com.android.systemui:
+      2 wakeup alarms
+
+background batterystats: 
+  u0a31:
+    (nothing executed)
+
+background batterystats: 
+  u0a33:
+    (nothing executed)
+
+background batterystats: 
+  u0a35:
+    (nothing executed)
+
+background batterystats: 
+  u0a36:
+    Wake lock com.android.alarmclock.DeskClock realtime
+
+background batterystats: 
+  u0a37:
+    Wake lock *alarm* realtime
+
+background batterystats: 
+  u0a38:
+    Wake lock *job*/com.meizu.mstore/com.meizu.cloud.app.jobscheduler.JobSchedulerService realtime
+    Job com.meizu.mstore/com.meizu.cloud.app.jobscheduler.JobSchedulerService: (not used)
+    Proc com.meizu.mstore:
+      CPU: 20ms usr + 0ms krn ; 0ms fg
+
+background batterystats: 
+  u0a39:
+    (nothing executed)
+
+background batterystats: 
+  u0a40:
+    (nothing executed)
+
+background batterystats: 
+  u0a41:
+    Wake lock StartingAlertService realtime
+    Proc com.android.calendar:remote:
+      CPU: 10ms usr + 0ms krn ; 0ms fg
+
+background batterystats: 
+  u0a42:
+    (nothing executed)
+
+background batterystats: 
+  u0a45:
+    (nothing executed)
+
+background batterystats: 
+  u0a46:
+    (nothing executed)
+
+background batterystats: 
+  u0a47:
+    (nothing executed)
+
+background batterystats: 
+  u0a48:
+    (nothing executed)
+
+background batterystats: 
+  u0a49:
+    (nothing executed)
+
+background batterystats: 
+  u0a56:
+    (nothing executed)
+
+background batterystats: 
+  u0a57:
+    (nothing executed)
+
+background batterystats: 
+  u0a58:
+    (nothing executed)
+
+background batterystats: 
+  u0a59:
+    (nothing executed)
+
+background batterystats: 
+  u0a60:
+    Wake lock *alarm* realtime
+    Apk com.meizu.cloud:
+      19 wakeup alarms
+
+background batterystats: 
+  u0a61:
+    (nothing executed)
+
+background batterystats: 
+  u0a62:
+    (nothing executed)
+
+background batterystats: 
+  u0a64:
+    Proc com.meizu.flyme.service.find:
+      CPU: 20ms usr + 0ms krn ; 0ms fg
+
+background batterystats: 
+  u0a65:
+    (nothing executed)
+
+background batterystats: 
+  u0a66:
+    (nothing executed)
+
+background batterystats: 
+  u0a67:
+    Wake lock *alarm* realtime
+    Proc com.meizu.mzsyncservice:
+      CPU: 10ms usr + 0ms krn ; 0ms fg
+    Apk com.meizu.mzsyncservice:
+      1 wakeup alarms
+
+background batterystats: 
+  u0a68:
+    (nothing executed)
+
+background batterystats: 
+  u0a70:
+    (nothing executed)
+
+background batterystats: 
+  u0a71:
+    (nothing executed)
+
+background batterystats: 
+  u0a72:
+    (nothing executed)
+
+background batterystats: 
+  u0a73:
+    (nothing executed)
+
+background batterystats: 
+  u0a75:
+    (nothing executed)
+
+background batterystats: 
+  u0a79:
+    Wake lock *alarm* realtime
+    Proc com.meizu.flyme.weather:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+
+background batterystats: 
+  u0a88:
+    Wake lock pushagentPoxy realtime
+    Wake lock *sync*/com.sina.weibo.sync.authority/com.sina.weibo.account/???จจ??จจ?? realtime
+    Wake lock eventLooper realtime
+    Wake lock *sync*/com.android.contacts/com.sina.weibo.account/???จจ??จจ?? realtime
+    Wake lock *alarm* realtime
+    Sync com.android.contacts/com.sina.weibo.account/???จจ??จจ??: (not used)
+    Sync com.sina.weibo.sync.authority/com.sina.weibo.account/???จจ??จจ??: (not used)
+    Proc com.sina.weibo:remote:
+      CPU: 10ms usr + 10ms krn ; 0ms fg
+    Proc com.sina.weibo:
+      CPU: 60ms usr + 10ms krn ; 0ms fg
+
+background batterystats: 
+  u0a95:
+    Wake lock *alarm* realtime
+    Wake lock LocationManagerService realtime
+    Sensor 4: 37s 555ms realtime (0 times)
+    Foreground for: 37s 555ms 
+    Proc com.tencent.mobileqq:
+      CPU: 60ms usr + 20ms krn ; 0ms fg
+    Proc com.tencent.mobileqq:MSF:
+      CPU: 50ms usr + 0ms krn ; 0ms fg
+    Apk com.tencent.mobileqq:
+      (nothing executed)
+
+background batterystats: 
+  u0a97:
+    Wake lock WakerLock:482495609 realtime
+    Wake lock WakerLock:739391285 realtime
+    Wake lock WakerLock:404766239 realtime
+    Wake lock WakerLock:13335385 realtime
+    Wake lock WakerLock:942634005 realtime
+    Wake lock WakerLock:934523967 realtime
+    Wake lock WakerLock:947625198 realtime
+    Wake lock WakerLock:471089584 realtime
+    Wake lock WakerLock:235444386 realtime
+    Wake lock WakerLock:817059697 realtime
+    Wake lock WakerLock:663154135 realtime
+    Wake lock WakerLock:689098114 realtime
+    Wake lock WakerLock:325067703 realtime
+    Wake lock WakerLock:902266107 realtime
+    Wake lock WakerLock:265762815 realtime
+    Wake lock WakerLock:44917329 realtime
+    Wake lock *alarm* realtime
+    Wake lock WakerLock:957278126 realtime
+    Apk com.tencent.mm:
+      41 wakeup alarms
+
+background batterystats: 
+  u0a112:
+    Wake lock *sync*/com.tencent.mtt.account.sync/com.tencent.mtt.account.sync/QQ???จจก์???กง realtime
+
+background batterystats: 
+  u0a173:
+    Wake lock WindowManager realtime
+    Wake lock *alarm* realtime
+    Sensor 2: (not used)
+    Foreground for: 37s 555ms 
+    Apk com.tianyancha.skyeye:
+      (nothing executed)
+
+background batterystats: 
+  u0a174:
+    Wake lock WindowManager realtime
+    Wake lock *alarm* realtime
+    Sensor 2: (not used)

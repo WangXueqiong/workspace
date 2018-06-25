@@ -1,0 +1,457 @@
+Camera module HAL API version: 0x100
+Camera module API version: 0x204
+Camera module name: QCamera Module
+Camera module author: Qualcomm Innovation Center Inc
+Number of camera devices: 2
+Active Camera Clients:
+[]
+Allowed users:
+0
+Vendor tag definitions:
+    Dumping configured vendor tag descriptors: 14 entries
+      0x80000000 (privatedata_reprocess) with type 1 (int32) defined in section org.codeaurora.qcamera3.privatedata
+      0x80010000 (cds_mode) with type 1 (int32) defined in section org.codeaurora.qcamera3.CDS
+      0x80020000 (opaque_raw_strides) with type 1 (int32) defined in section org.codeaurora.qcamera3.opaque_raw
+      0x80020001 (opaque_raw_format) with type 0 (byte) defined in section org.codeaurora.qcamera3.opaque_raw
+      0x80030000 (count) with type 1 (int32) defined in section org.codeaurora.qcamera3.crop
+      0x80030001 (data) with type 1 (int32) defined in section org.codeaurora.qcamera3.crop
+      0x80030002 (streamids) with type 1 (int32) defined in section org.codeaurora.qcamera3.crop
+      0x80040000 (tuning_meta_data_blob) with type 1 (int32) defined in section org.codeaurora.qcamera3.tuning_meta_data
+      0x80050000 (liveHdrLevelRange) with type 1 (int32) defined in section samsung.android.control
+      0x80050001 (liveHdrLevel) with type 1 (int32) defined in section samsung.android.control
+      0x80050002 (meteringAvailableMode) with type 1 (int32) defined in section samsung.android.control
+      0x80050003 (meteringMode) with type 1 (int32) defined in section samsung.android.control
+      0x80050004 (pafAvailableMode) with type 0 (byte) defined in section samsung.android.control
+      0x80050005 (pafMode) with type 1 (int32) defined in section samsung.android.control
+
+Prior client events (most recent at top):
+  12-24 17:28:03 : DISCONNECT device 0 client for package com.tianyancha.skyeye (PID 26932)
+  12-24 17:27:50 : CONNECT device 0 client for package com.tianyancha.skyeye (PID 26932)
+  12-24 17:27:50 : DISCONNECT device 0 client for package com.tianyancha.skyeye (PID 26932)
+  12-24 17:27:50 : EVICT device 0 client held by package com.tianyancha.skyeye (PID 26932, priority 2147483645)
+   - Evicted by device 0 client for package com.tianyancha.skyeye (PID 26932, priority 2147483645)
+  12-24 17:27:50 : CONNECT device 0 client for package com.tianyancha.skyeye (PID 26932)
+  12-24 17:27:49 : DISCONNECT device 0 client for package com.tianyancha.skyeye (PID 26932)
+  12-24 17:27:49 : CONNECT device 0 client for package com.tianyancha.skyeye (PID 26932)
+  12-24 16:47:35 : DISCONNECT device 1 client for package com.samsung.android.smartface (PID 12619)
+  12-24 16:47:34 : CONNECT device 1 client for package com.samsung.android.smartface (PID 12619)
+  12-24 16:36:20 : DISCONNECT device 1 client for package com.samsung.android.smartface (PID 12619)
+  12-24 16:36:18 : CONNECT device 1 client for package com.samsung.android.smartface (PID 12619)
+  12-24 16:36:14 : DISCONNECT device 1 client for package com.samsung.android.smartface (PID 12619)
+  12-24 16:36:12 : CONNECT device 1 client for package com.samsung.android.smartface (PID 12619)
+  12-24 16:28:16 : DISCONNECT device 1 client for package com.samsung.android.smartface (PID 12619)
+  12-24 16:28:14 : CONNECT device 1 client for package com.samsung.android.smartface (PID 12619)
+  12-24 16:10:57 : DISCONNECT device 0 client for package com.tianyancha.skyeye (PID 6502)
+  12-24 16:10:49 : CONNECT device 0 client for package com.tianyancha.skyeye (PID 6502)
+  12-24 16:10:49 : DISCONNECT device 0 client for package com.tianyancha.skyeye (PID 6502)
+  12-24 16:10:48 : EVICT device 0 client held by package com.tianyancha.skyeye (PID 6502, priority 2147483645)
+   - Evicted by device 0 client for package com.tianyancha.skyeye (PID 6502, priority 2147483645)
+  12-24 16:10:48 : CONNECT device 0 client for package com.tianyancha.skyeye (PID 6502)
+  12-24 16:10:48 : DISCONNECT device 0 client for package com.tianyancha.skyeye (PID 6502)
+  12-24 16:10:48 : CONNECT device 0 client for package com.tianyancha.skyeye (PID 6502)
+  12-23 17:43:51 : DISCONNECT device 1 client for package com.samsung.android.smartface (PID 5169)
+  12-23 17:43:50 : CONNECT device 1 client for package com.samsung.android.smartface (PID 5169)
+  12-22 23:20:03 : DISCONNECT device 1 client for package com.samsung.android.smartface (PID 5169)
+  12-22 23:20:02 : CONNECT device 1 client for package com.samsung.android.smartface (PID 5169)
+  12-22 22:25:34 : DISCONNECT device 1 client for package com.samsung.android.smartface (PID 5169)
+  12-22 22:25:33 : CONNECT device 1 client for package com.samsung.android.smartface (PID 5169)
+  12-22 21:32:04 : DISCONNECT device 1 client for package com.samsung.android.smartface (PID 26178)
+  12-22 21:32:03 : CONNECT device 1 client for package com.samsung.android.smartface (PID 26178)
+  12-22 20:51:57 : DISCONNECT device 1 client for package com.samsung.android.smartface (PID 26178)
+  12-22 20:51:56 : CONNECT device 1 client for package com.samsung.android.smartface (PID 26178)
+  12-22 20:36:34 : DISCONNECT device 1 client for package com.samsung.android.smartface (PID 13205)
+  12-22 20:36:32 : CONNECT device 1 client for package com.samsung.android.smartface (PID 13205)
+  12-22 20:24:42 : DISCONNECT device 1 client for package com.samsung.android.smartface (PID 13205)
+  12-22 20:24:40 : CONNECT device 1 client for package com.samsung.android.smartface (PID 13205)
+  12-22 20:07:00 : DISCONNECT device 1 client for package com.samsung.android.smartface (PID 13205)
+  12-22 20:06:59 : CONNECT device 1 client for package com.samsung.android.smartface (PID 13205)
+  12-21 18:55:03 : DISCONNECT device 1 client for package com.samsung.android.smartface (PID 24256)
+  12-21 18:55:02 : CONNECT device 1 client for package com.samsung.android.smartface (PID 24256)
+  12-21 16:42:52 : DISCONNECT device 1 client for package com.samsung.android.smartface (PID 24256)
+  12-21 16:42:50 : CONNECT device 1 client for package com.samsung.android.smartface (PID 24256)
+  12-21 14:50:24 : DISCONNECT device 1 client for package com.samsung.android.smartface (PID 24256)
+  12-21 14:50:23 : CONNECT device 1 client for package com.samsung.android.smartface (PID 24256)
+  12-21 14:41:46 : DISCONNECT device 1 client for package com.samsung.android.smartface (PID 29806)
+  12-21 14:41:44 : CONNECT device 1 client for package com.samsung.android.smartface (PID 29806)
+  12-21 14:05:56 : DISCONNECT device 1 client for package com.samsung.android.smartface (PID 29806)
+  12-21 14:05:55 : CONNECT device 1 client for package com.samsung.android.smartface (PID 29806)
+  12-20 20:32:43 : DISCONNECT device 1 client for package com.samsung.android.smartface (PID 24261)
+  12-20 20:32:42 : CONNECT device 1 client for package com.samsung.android.smartface (PID 24261)
+  12-20 20:01:03 : DISCONNECT device 1 client for package com.samsung.android.smartface (PID 8791)
+  12-20 20:01:01 : CONNECT device 1 client for package com.samsung.android.smartface (PID 8791)
+  12-20 18:59:54 : DISCONNECT device 1 client for package com.samsung.android.smartface (PID 20416)
+  12-20 18:59:52 : CONNECT device 1 client for package com.samsung.android.smartface (PID 20416)
+  12-20 18:59:47 : DISCONNECT device 1 client for package com.samsung.android.smartface (PID 20416)
+  12-20 18:59:46 : CONNECT device 1 client for package com.samsung.android.smartface (PID 20416)
+  12-20 18:59:27 : DISCONNECT device 1 client for package com.samsung.android.smartface (PID 20416)
+  12-20 18:59:26 : CONNECT device 1 client for package com.samsung.android.smartface (PID 20416)
+  12-20 18:36:20 : DISCONNECT device 1 client for package com.samsung.android.smartface (PID 20416)
+  12-20 18:36:18 : CONNECT device 1 client for package com.samsung.android.smartface (PID 20416)
+  12-20 18:25:59 : DISCONNECT device 0 client for package com.tianyancha.skyeye (PID 17512)
+  12-20 18:25:29 : CONNECT device 0 client for package com.tianyancha.skyeye (PID 17512)
+  12-20 18:25:29 : DISCONNECT device 0 client for package com.tianyancha.skyeye (PID 17512)
+  12-20 18:25:28 : EVICT device 0 client held by package com.tianyancha.skyeye (PID 17512, priority 2147483645)
+   - Evicted by device 0 client for package com.tianyancha.skyeye (PID 17512, priority 2147483645)
+  12-20 18:25:28 : CONNECT device 0 client for package com.tianyancha.skyeye (PID 17512)
+  12-20 18:25:28 : DISCONNECT device 0 client for package com.tianyancha.skyeye (PID 17512)
+  12-20 18:25:28 : CONNECT device 0 client for package com.tianyancha.skyeye (PID 17512)
+  12-20 18:25:27 : DISCONNECT device 0 client for package com.tianyancha.skyeye (PID 17512)
+  12-20 18:25:18 : CONNECT device 0 client for package com.tianyancha.skyeye (PID 17512)
+  12-20 18:25:18 : DISCONNECT device 0 client for package com.tianyancha.skyeye (PID 17512)
+  12-20 18:25:18 : EVICT device 0 client held by package com.tianyancha.skyeye (PID 17512, priority 2147483645)
+   - Evicted by device 0 client for package com.tianyancha.skyeye (PID 17512, priority 2147483645)
+  12-20 18:25:18 : CONNECT device 0 client for package com.tianyancha.skyeye (PID 17512)
+  12-20 18:25:17 : DISCONNECT device 0 client for package com.tianyancha.skyeye (PID 17512)
+  12-20 18:25:17 : CONNECT device 0 client for package com.tianyancha.skyeye (PID 17512)
+  12-20 18:25:17 : DISCONNECT device 0 client for package com.tianyancha.skyeye (PID 17512)
+  12-20 18:24:43 : CONNECT device 0 client for package com.tianyancha.skyeye (PID 17512)
+  12-20 18:24:43 : DISCONNECT device 0 client for package com.tianyancha.skyeye (PID 17512)
+  12-20 18:24:42 : EVICT device 0 client held by package com.tianyancha.skyeye (PID 17512, priority 2147483645)
+   - Evicted by device 0 client for package com.tianyancha.skyeye (PID 17512, priority 2147483645)
+  12-20 18:24:42 : CONNECT device 0 client for package com.tianyancha.skyeye (PID 17512)
+  12-20 18:20:11 : DISCONNECT device 0 client for package com.tianyancha.skyeye (PID 17512)
+  12-20 18:20:10 : CONNECT device 0 client for package com.tianyancha.skyeye (PID 17512)
+  12-20 18:20:10 : DISCONNECT device 0 client for package com.tianyancha.skyeye (PID 17512)
+  12-20 18:20:10 : EVICT device 0 client held by package com.tianyancha.skyeye (PID 17512, priority 2147483645)
+   - Evicted by device 0 client for package com.tianyancha.skyeye (PID 17512, priority 2147483645)
+  12-20 18:20:10 : CONNECT device 0 client for package com.tianyancha.skyeye (PID 17512)
+  12-20 18:20:09 : DISCONNECT device 0 client for package com.tianyancha.skyeye (PID 17512)
+  12-20 18:20:09 : CONNECT device 0 client for package com.tianyancha.skyeye (PID 17512)
+  12-20 18:19:33 : DISCONNECT device 0 client for package com.tianyancha.skyeye (PID 17512)
+  12-20 18:19:19 : CONNECT device 0 client for package com.tianyancha.skyeye (PID 17512)
+  12-20 18:19:18 : DISCONNECT device 0 client for package com.tianyancha.skyeye (PID 17512)
+  12-20 18:19:18 : EVICT device 0 client held by package com.tianyancha.skyeye (PID 17512, priority 2147483645)
+   - Evicted by device 0 client for package com.tianyancha.skyeye (PID 17512, priority 2147483645)
+  12-20 18:19:18 : CONNECT device 0 client for package com.tianyancha.skyeye (PID 17512)
+  12-20 18:19:18 : DISCONNECT device 0 client for package com.tianyancha.skyeye (PID 17512)
+  12-20 18:19:18 : CONNECT device 0 client for package com.tianyancha.skyeye (PID 17512)
+  12-20 18:17:22 : DISCONNECT device 0 client for package com.tianyancha.skyeye (PID 17512)
+  12-20 18:17:11 : CONNECT device 0 client for package com.tianyancha.skyeye (PID 17512)
+  12-20 18:17:11 : DISCONNECT device 0 client for package com.tianyancha.skyeye (PID 17512)
+  12-20 18:17:11 : EVICT device 0 client held by package com.tianyancha.skyeye (PID 17512, priority 2147483645)
+   - Evicted by device 0 client for package com.tianyancha.skyeye (PID 17512, priority 2147483645)
+  12-20 18:17:11 : CONNECT device 0 client for package com.tianyancha.skyeye (PID 17512)
+  12-20 18:17:10 : DISCONNECT device 0 client for package com.tianyancha.skyeye (PID 17512)
+  12-20 18:17:10 : CONNECT device 0 client for package com.tianyancha.skyeye (PID 17512)
+  ...
+
+Camera 0 information:
+  Facing: BACK
+  Orientation: 90
+  Resource Cost: 51
+  Conflicting Devices: NONE
+  Device version: 0x100
+  Camera1 API shim is using parameters:
+        CameraParameters::dump: mMap.size = 150
+	ae-bracket-hdr: Off
+	ae-bracket-hdr-values: Off,AE-Bracket
+	anti-shake: 0
+	antibanding: 50hz
+	antibanding-values: off,60hz,50hz,auto
+	auto-exposure-lock: false
+	auto-exposure-lock-supported: true
+	auto-whitebalance-lock: false
+	auto-whitebalance-lock-supported: true
+	brightness-step: 1
+	camera-mode: 0
+	contrast: 5
+	contrast-step: 1
+	denoise: denoise-on
+	denoise-values: denoise-off,denoise-on
+	dis: disable
+	dis-values: enable,disable
+	dual_mode: 0
+	dualrecording-hint: 0
+	dynamic-range-control: off
+	dynamic-range-control-values: 
+	effect: none
+	effect-values: none,mono,negative,solarize,sepia,posterize,whiteboard,blackboard,aqua,emboss,sketch,neon
+	exif_exptime: 0
+	exif_iso: 0
+	exposure-compensation: 0
+	exposure-compensation-step: 0.5
+	face-detection: off
+	face-detection-values: off,on
+	face-recognition: off
+	face-recognition-values: off,on
+	fast-fps-mode: 0
+	firmware-mode: none
+	flash-mode: off
+	flash-mode-values: off,auto,on,torch
+	flip-mode-values: off,flip-v,flip-h,flip-vh
+	fnumber-value-denominator: 100
+	fnumber-value-numerator: 220
+	focal-length: 4.80
+	focallength-35mm-value: 31
+	focallength-value-denominator: 100
+	focallength-value-numerator: 480
+	focus-areas: (0,0,0,0,0)
+	focus-distances: 0.10,1.20,Infinity
+	focus-mode: auto
+	focus-mode-values: auto,infinity,macro,continuous-video,continuous-picture
+	hfr-size-values: 2664x1500,1328x748,824x496
+	histogram: disable
+	histogram-values: enable,disable
+	horizontal-view-angle: 62
+	imageuniqueid-value: F16QLHF01SB
+
+	intelligent-mode: 0
+	iso: auto
+	iso-values: auto,ISO_HJR,100,200,400,800,1600
+	jpeg-quality: 96
+	jpeg-thumbnail-height: 288
+	jpeg-thumbnail-quality: 85
+	jpeg-thumbnail-size-values: 512x288,480x288,256x154,432x288,512x384,352x288,320x240,176x144,0x0
+	jpeg-thumbnail-width: 512
+	lensshade: enable
+	lensshade-values: enable,disable
+	llv_mode: 0
+	luma-adaptation: 3
+	max-brightness: 6
+	max-contrast: 10
+	max-exposure-compensation: 4
+	max-num-detected-faces-hw: 10
+	max-num-detected-faces-sw: 10
+	max-num-focus-areas: 1
+	max-num-metering-areas: 10
+	max-saturation: 10
+	max-sce-factor: 100
+	max-sharpness: 36
+	max-zoom: 63
+	maxaperture-value-denominator: 100
+	maxaperture-value-numerator: 228
+	mce: enable
+	mce-values: enable,disable
+	metering: center
+	metering-areas: (0,0,0,0,0)
+	metering-values: matrix,center,spot
+	min-brightness: 0
+	min-contrast: 0
+	min-exposure-compensation: -4
+	min-saturation: 0
+	min-sce-factor: -100
+	min-sharpness: 0
+	num-snaps-per-shutter: 1
+	phase-af: off
+	phase-af-values: off,on
+	picture-format: jpeg
+	picture-format-values: jpeg,bayer-qcom-10gbrg,bayer-qcom-10grbg,bayer-qcom-10rggb,bayer-qcom-10bggr,bayer-mipi-10gbrg,bayer-mipi-10grbg,bayer-mipi-10rggb,bayer-mipi-10bggr,yuv422sp
+	picture-size: 1920x1080
+	picture-size-values: 5312x2988,3984x2988,3264x2448,3264x1836,2560x1920,2048x1152,1920x1080,1280x960,1280x720,800x480,640x480,320x240
+	preferred-preview-size-for-video: 1920x1080
+	preview-flip: off
+	preview-format: yuv420sp
+	preview-format-values: yuv420sp,yuv420p
+	preview-fps-range: 10000,30000
+	preview-fps-range-values: (15000,15000),(24000,24000),(8000,30000),(10000,30000),(15000,30000),(30000,30000)
+	preview-frame-rate: 30
+	preview-frame-rate-values: 15,24,30
+	preview-size: 1920x1080
+	preview-size-values: 1920x1080,1440x1080,1280x720,1056x864,960x720,800x480,720x480,640x480,352x288,320x240,176x144
+	qc-camera-features: 542
+	qc-max-num-requested-faces: 10
+	raw-size: 5328x3000
+	redeye-reduction: disable
+	redeye-reduction-values: enable,disable
+	rt-hdr: off
+	rt-hdr-values: off,on
+	saturation: 5
+	saturation-step: 1
+	sce-factor-step: 10
+	scene-detect: off
+	scene-detect-values: off,on
+	scene-mode: auto
+	scene-mode-values: auto,hdr
+	selectable-zone-af: auto
+	selectable-zone-af-values: 
+	sharpness: 36
+	sharpness-step: 6
+	shot-mode: 0
+	skinToneEnhancement: 0
+	skinToneEnhancement-values: enable,disable
+	smart-screen-exposure: 0
+	smart-screen-exposure-values: vision-ae-normal,vision-ac-backlight
+	smooth-zoom-supported: false
+	snapshot-picture-flip: off
+	supported-live-snapshot-sizes: 5312x2988,4128x2322,4000x3000,3264x2448,3264x1836,3200x2400,2592x1944,2048x1536,2048x1152,1920x1080,1600x1200,1440x1080,1280x768,1280x720,1024x768,800x600,800x480,800x450,720x480,640x480,352x288,320x240,176x144
+	supported-shot-modes: normal-shot,panorama-burst
+	touch-af-aec: touch-off
+	touch-af-aec-values: touch-off,touch-on
+	vertical-view-angle: 38
+	video-flip: off
+	video-frame-format: yuv420sp
+	video-hfr: off
+	video-hfr-values: 60,90,150
+	video-size: 1920x1080
+	video-size-values: 1920x1080,1440x1080,1280x720,800x450,800x480,720x480,640x480,352x288,320x240,176x144
+	video-snapshot-supported: false
+	video-stabilization-supported: false
+	vtmode: 0
+	whitebalance: auto
+	whitebalance-values: auto,incandescent,fluorescent,daylight,cloudy-daylight
+	zoom: 0
+	zoom-ratios: 100,104,109,114,119,125,129,134,139,144,150,154,159,164,169,175,179,184,189,194,200,204,209,214,219,225,229,234,239,244,250,254,259,264,269,275,279,284,289,294,300,304,309,314,319,325,329,334,339,344,350,354,359,364,369,375,379,384,389,394,	zoom-supported: true
+	zsl: off
+	zsl-values: off,on
+  Device 0 is closed, no client instance
+Camera 1 information:
+  Facing: FRONT
+  Orientation: 270
+  Resource Cost: 51
+  Conflicting Devices: NONE
+  Device version: 0x100
+  Camera1 API shim is using parameters:
+        CameraParameters::dump: mMap.size = 148
+	ae-bracket-hdr: Off
+	ae-bracket-hdr-values: Off,AE-Bracket
+	anti-shake: 0
+	antibanding: 50hz
+	antibanding-values: off,60hz,50hz,auto
+	auto-exposure-lock: false
+	auto-exposure-lock-supported: true
+	auto-whitebalance-lock: false
+	auto-whitebalance-lock-supported: true
+	brightness-step: 1
+	camera-mode: 0
+	contrast: 5
+	contrast-step: 1
+	denoise: denoise-on
+	denoise-values: denoise-off,denoise-on
+	dis: disable
+	dis-values: enable,disable
+	dual_mode: 0
+	dualrecording-hint: 0
+	dynamic-range-control: off
+	dynamic-range-control-values: 
+	effect: none
+	effect-values: none,mono,negative,solarize,sepia,posterize,whiteboard,blackboard,aqua,emboss,sketch,neon
+	exif_exptime: 0
+	exif_iso: 0
+	exposure-compensation: 0
+	exposure-compensation-step: 0.5
+	face-detection: off
+	face-detection-values: off,on
+	face-recognition: off
+	face-recognition-values: off,on
+	fast-fps-mode: 0
+	firmware-mode: none
+	flash-mode: off
+	flash-mode-values: off
+	flip-mode-values: off,flip-v,flip-h,flip-vh
+	fnumber-value-denominator: 100
+	fnumber-value-numerator: 240
+	focal-length: 1.20
+	focallength-35mm-value: 22
+	focallength-value-denominator: 100
+	focallength-value-numerator: 120
+	focus-distances: 0.10,0.90,Infinity
+	focus-mode: fixed
+	focus-mode-values: fixed
+	hfr-size-values: 
+	histogram: disable
+	histogram-values: enable,disable
+	horizontal-view-angle: 79.99
+	intelligent-mode: 0
+	iso: auto
+	iso-values: auto,ISO_HJR,100,200,400,800,1600
+	jpeg-quality: 96
+	jpeg-thumbnail-height: 288
+	jpeg-thumbnail-quality: 85
+	jpeg-thumbnail-size-values: 512x288,480x288,256x154,432x288,512x384,352x288,320x240,176x144,0x0
+	jpeg-thumbnail-width: 512
+	lensshade: enable
+	lensshade-values: enable,disable
+	llv_mode: 0
+	luma-adaptation: 3
+	max-brightness: 6
+	max-contrast: 10
+	max-exposure-compensation: 4
+	max-num-detected-faces-hw: 10
+	max-num-detected-faces-sw: 10
+	max-num-focus-areas: 0
+	max-num-metering-areas: 10
+	max-saturation: 10
+	max-sce-factor: 100
+	max-sharpness: 36
+	max-zoom: 63
+	maxaperture-value-denominator: 100
+	maxaperture-value-numerator: 253
+	mce: enable
+	mce-values: enable,disable
+	metering: center
+	metering-areas: (0,0,0,0,0)
+	metering-values: matrix,center,spot
+	min-brightness: 0
+	min-contrast: 0
+	min-exposure-compensation: -4
+	min-saturation: 0
+	min-sce-factor: -100
+	min-sharpness: 0
+	num-snaps-per-shutter: 1
+	phase-af: off
+	phase-af-values: off,on
+	picture-format: jpeg
+	picture-format-values: jpeg,bayer-qcom-10gbrg,bayer-qcom-10grbg,bayer-qcom-10rggb,bayer-qcom-10bggr,bayer-mipi-10gbrg,bayer-mipi-10grbg,bayer-mipi-10rggb,bayer-mipi-10bggr,yuv422sp
+	picture-size: 1920x1080
+	picture-size-values: 1920x1080,1440x1080,1280x960,1280x720,960x720,720x480,640x480,320x240
+	preferred-preview-size-for-video: 1920x1080
+	preview-flip: off
+	preview-format: yuv420sp
+	preview-format-values: yuv420sp,yuv420p
+	preview-fps-range: 7000,30000
+	preview-fps-range-values: (7000,7000),(15000,15000),(24000,24000),(7000,30000),(8000,30000),(10000,30000),(15000,30000),(30000,30000),(7000,30000)
+	preview-frame-rate: 30
+	preview-frame-rate-values: 15,24,30
+	preview-size: 1920x1080
+	preview-size-values: 1920x1080,1440x1080,1280x720,1056x864,960x720,720x480,640x480,352x288,320x240,176x144
+	qc-camera-features: 542
+	qc-max-num-requested-faces: 10
+	raw-size: 1920x1080
+	redeye-reduction: disable
+	redeye-reduction-values: enable,disable
+	rt-hdr: off
+	rt-hdr-values: off,on
+	saturation: 5
+	saturation-step: 1
+	sce-factor-step: 10
+	scene-detect: off
+	scene-detect-values: off,on
+	scene-mode: auto
+	scene-mode-values: auto,hdr
+	selectable-zone-af: auto
+	selectable-zone-af-values: 
+	sharpness: 36
+	sharpness-step: 6
+	shot-mode: 0
+	skinToneEnhancement: 0
+	skinToneEnhancement-values: enable,disable
+	smart-screen-exposure: 0
+	smart-screen-exposure-values: vision-ae-normal,vision-ac-backlight
+	smooth-zoom-supported: false
+	snapshot-picture-flip: off
+	supported-live-snapshot-sizes: 1920x1080,1440x1080,1280x768,1280x720,1024x768,800x600,800x480,800x450,720x480,640x480,352x288,320x240,176x144
+	supported-shot-modes: normal-shot,panorama-burst
+	touch-af-aec: touch-off
+	touch-af-aec-values: touch-off,touch-on
+	vertical-view-angle: 50
+	video-flip: off
+	video-frame-format: yuv420sp
+	video-hfr: off
+	video-hfr-values: 
+	video-size: 1920x1080
+	video-size-values: 1920x1080,1440x1080,1280x720,960x720,800x450,720x480,640x480,352x288,320x240,176x144
+	video-snapshot-supported: false
+	video-stabilization-supported: false
+	vtmode: 0
+	whitebalance: auto
+	whitebalance-values: auto,incandescent,fluorescent,daylight,cloudy-daylight
+	zoom: 0
+	zoom-ratios: 100,104,109,114,119,125,129,134,139,144,150,154,159,164,169,175,179,184,189,194,200,204,209,214,219,225,229,234,239,244,250,254,259,264,269,275,279,284,289,294,300,304,309,314,319,325,329,334,339,344,350,354,359,364,369,375,379,384,389,394,	zoom-supported: true
+	zsl: off
+	zsl-values: off,on
+  Device 1 is closed, no client instance
+
+No active camera clients yet.
+
+Camera traces (0):
+  No camera traces collected.

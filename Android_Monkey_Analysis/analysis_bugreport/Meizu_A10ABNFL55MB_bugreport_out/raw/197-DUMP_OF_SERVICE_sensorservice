@@ -1,0 +1,91 @@
+Sensor List:
+LSM6DS3 Accelerometer Sensor| STMicroelectronics| version=1 |android.sensor.accelerometer| 0x00000001 | "" | type=1 | continuous | minRate=26.00Hz | maxRate=104.00Hz | FifoMax=128 events | non-wakeUp | last=< -0.5, -0.1,  9.8, 27120152872864>
+
+LSM6DS3 Gyroscope Sensor| STMicroelectronics| version=1 |android.sensor.gyroscope| 0x00000002 | "" | type=4 | continuous | minRate=26.00Hz | maxRate=104.00Hz | FifoMax=128 events | non-wakeUp | last=<  0.0,  0.0, -0.0, 27058222877706>
+
+LSM6DS3 Significant Motion Sensor| STMicroelectronics| version=1 |android.sensor.significant_motion| 0x00000003 | "" | type=17 | one-shot | maxDelay=0us |minDelay=-1us |no batching | wakeUp | last=<0.000000 0>
+
+LSM6DS3 Step Counter Sensor| STMicroelectronics| version=1 |android.sensor.step_counter| 0x00000004 | "" | type=19 | on-change | maxDelay=0us |minDelay=0us |no batching | non-wakeUp | last=<54, 770426985505>
+
+LSM6DS3 Step Detector Sensor| STMicroelectronics| version=1 |android.sensor.step_detector| 0x00000005 | "" | type=18 | special-trigger | maxDelay=0us |minDelay=0us |no batching | non-wakeUp | last=<0.000000 0>
+
+LSM6DS3 Tilt Sensor| STMicroelectronics| version=1 |android.sensor.tilt_detector| 0x00000006 | "" | type=22 | special-trigger | maxDelay=0us |minDelay=0us |no batching | wakeUp | last=<0.000000 0>
+
+AK09911 Magnetometer Sensor| ASAHI KASEI MICRODEVICES CORPORATION| version=1 |android.sensor.magnetic_field| 0x00000007 | "" | type=2 | continuous | minRate=26.00Hz | maxRate=104.00Hz | FifoMax=2 events | non-wakeUp | last=<  0.0,  0.0,  0.0, 0>
+
+iNemoEngine Game Rotation Vector Sensor| STMicroelectronics| version=1 |android.sensor.game_rotation_vector| 0x00000008 | "" | type=15 | continuous | minRate=26.00Hz | maxRate=104.00Hz | FifoMax=128 events | non-wakeUp | last=<  0.0,  0.0,  0.0,  0.0, 0>
+
+iNemoEngine Rotation Vector Sensor| STMicroelectronics| version=1 |android.sensor.rotation_vector| 0x00000009 | "" | type=11 | continuous | minRate=26.00Hz | maxRate=104.00Hz | FifoMax=2 events | non-wakeUp | last=<  0.0,  0.0,  0.0,  0.0,  0.0, 0>
+
+iNemoEngine Orientation Sensor| STMicroelectronics| version=1 |android.sensor.orientation| 0x0000000a | "" | type=3 | continuous | minRate=26.00Hz | maxRate=104.00Hz | FifoMax=2 events | non-wakeUp | last=<  0.0,  0.0,  0.0, 0>
+
+iNemoEngine Gravity Sensor| STMicroelectronics| version=1 |android.sensor.gravity| 0x0000000b | "" | type=9 | continuous | minRate=26.00Hz | maxRate=104.00Hz | FifoMax=2 events | non-wakeUp | last=<  0.0,  0.0,  0.0, 0>
+
+iNemoEngine Linear Acceleration Sensor| STMicroelectronics| version=1 |android.sensor.linear_acceleration| 0x0000000c | "" | type=10 | continuous | minRate=26.00Hz | maxRate=104.00Hz | FifoMax=2 events | non-wakeUp | last=<  0.0,  0.0,  0.0, 0>
+
+isl29125 light sensor| intersil  | version=1 |android.sensor.light| 0x0000000d | "" | type=5 | on-change | minRate=100.00Hz | minDelay=0us |no batching | non-wakeUp | last=<  0.0,  0.0,  0.0, 0>
+
+pa12200002 proximity sensor| txc       | version=1 |android.sensor.proximity| 0x0000000e | "" | type=8 | on-change | minRate=100.00Hz | minDelay=0us |no batching | non-wakeUp | last=<  4.0,  0.0,  0.0, 1526294235337816000>
+
+pa12200002 proximity sensor wakeup| txc       | version=1 |android.sensor.proximity| 0x0000000f | "" | type=8 | on-change | minRate=100.00Hz | minDelay=0us |no batching | wakeUp | last=<  4.0,  0.0,  0.0, 1526294235337816000>
+
+Rotation Vector Sensor| AOSP      | version=3 |android.sensor.rotation_vector| 0x5f726f76 | "" | type=11 | continuous | maxDelay=0us |maxRate=104.00Hz | no batching | non-wakeUp | last=<  0.0,  0.0,  0.0,  0.0,  0.0, 0>
+
+Gravity Sensor | AOSP      | version=3 |android.sensor.gravity| 0x5f677276 | "" | type=9 | continuous | maxDelay=0us |maxRate=104.00Hz | no batching | non-wakeUp | last=<  0.0,  0.0,  0.0, 0>
+
+Linear Acceleration Sensor| AOSP      | version=3 |android.sensor.linear_acceleration| 0x5f6c696e | "" | type=10 | continuous | maxDelay=0us |maxRate=104.00Hz | no batching | non-wakeUp | last=<  0.0,  0.0,  0.0, 0>
+
+Orientation Sensor| AOSP      | version=1 |android.sensor.orientation| 0x5f797072 | "" | type=3 | continuous | maxDelay=0us |maxRate=104.00Hz | no batching | non-wakeUp | last=<  0.0,  0.0,  0.0, 0>
+
+Corrected Gyroscope Sensor| AOSP      | version=1 |android.sensor.gyroscope| 0x5f636779 | "" | type=4 | continuous | maxDelay=0us |maxRate=104.00Hz | no batching | non-wakeUp | last=<  0.0,  0.0,  0.0, 0>
+
+Gyroscope Bias (debug)| AOSP      | version=1 |android.sensor.accelerometer| 0x5f676273 | "" | type=1 | continuous | maxDelay=0us |maxRate=104.00Hz | no batching | non-wakeUp | last=<  0.0,  0.0,  0.0, 0>
+
+9-axis fusion disabled (0 clients), gyro-rate= 200.00Hz, q=< 0, 0, 0, 0 > (0), b=< 0, 0, 0 >
+halVersion 16973825
+15 h/w sensors:
+handle=0x00000001, active-count=1, batch_period(ms)={ 66.7 }, selected=66.7 ms
+handle=0x00000001, active-count=1, batch_timeout(ms)={  0.0 }, selected= 0.0 ms
+handle=0x00000002, active-count=0, batch_period(ms)={  }, selected=-0.0 ms
+handle=0x00000002, active-count=0, batch_timeout(ms)={  }, selected=-0.0 ms
+handle=0x00000003, active-count=0, batch_period(ms)={  }, selected=-0.0 ms
+handle=0x00000003, active-count=0, batch_timeout(ms)={  }, selected=-0.0 ms
+handle=0x00000004, active-count=2, batch_period(ms)={ 200.0,  1.0 }, selected= 1.0 ms
+handle=0x00000004, active-count=2, batch_timeout(ms)={ 360000.0,  0.0 }, selected= 0.0 ms
+handle=0x00000005, active-count=0, batch_period(ms)={  }, selected=-0.0 ms
+handle=0x00000005, active-count=0, batch_timeout(ms)={  }, selected=-0.0 ms
+handle=0x00000006, active-count=0, batch_period(ms)={  }, selected=-0.0 ms
+handle=0x00000006, active-count=0, batch_timeout(ms)={  }, selected=-0.0 ms
+handle=0x00000007, active-count=0, batch_period(ms)={  }, selected=-0.0 ms
+handle=0x00000007, active-count=0, batch_timeout(ms)={  }, selected=-0.0 ms
+handle=0x00000008, active-count=0, batch_period(ms)={  }, selected=-0.0 ms
+handle=0x00000008, active-count=0, batch_timeout(ms)={  }, selected=-0.0 ms
+handle=0x00000009, active-count=0, batch_period(ms)={  }, selected=-0.0 ms
+handle=0x00000009, active-count=0, batch_timeout(ms)={  }, selected=-0.0 ms
+handle=0x0000000a, active-count=0, batch_period(ms)={  }, selected=-0.0 ms
+handle=0x0000000a, active-count=0, batch_timeout(ms)={  }, selected=-0.0 ms
+handle=0x0000000b, active-count=0, batch_period(ms)={  }, selected=-0.0 ms
+handle=0x0000000b, active-count=0, batch_timeout(ms)={  }, selected=-0.0 ms
+handle=0x0000000c, active-count=0, batch_period(ms)={  }, selected=-0.0 ms
+handle=0x0000000c, active-count=0, batch_timeout(ms)={  }, selected=-0.0 ms
+handle=0x0000000d, active-count=0, batch_period(ms)={  }, selected=-0.0 ms
+handle=0x0000000d, active-count=0, batch_timeout(ms)={  }, selected=-0.0 ms
+handle=0x0000000e, active-count=0, batch_period(ms)={  }, selected=-0.0 ms
+handle=0x0000000e, active-count=0, batch_timeout(ms)={  }, selected=-0.0 ms
+handle=0x0000000f, active-count=0, batch_period(ms)={  }, selected=-0.0 ms
+handle=0x0000000f, active-count=0, batch_timeout(ms)={  }, selected=-0.0 ms
+Active sensors:
+LSM6DS3 Accelerometer Sensor (handle=0x00000001, connections=1)
+LSM6DS3 Step Counter Sensor (handle=0x00000004, connections=2)
+Socket Buffer size = 984 events
+WakeLock Status: not held 
+3 active connections
+Connection Number: 0 
+	 WakeLockRefCount 0 | uid 10095 | cache size 0 | max cache size 0
+	 LSM6DS3 Step Counter Sensor 0x00000004 | status: active | pending flush events 0 
+Connection Number: 1 
+	 WakeLockRefCount 0 | uid 1000 | cache size 0 | max cache size 0
+	 LSM6DS3 Accelerometer Sensor 0x00000001 | status: active | pending flush events 0 
+Connection Number: 2 
+	 WakeLockRefCount 0 | uid 1000 | cache size 0 | max cache size 0
+	 LSM6DS3 Step Counter Sensor 0x00000004 | status: active | pending flush events 0 

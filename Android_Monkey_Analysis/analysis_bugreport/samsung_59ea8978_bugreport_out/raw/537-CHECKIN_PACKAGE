@@ -1,0 +1,1521 @@
+vers,1
+Verifiers:
+  Required: com.samsung.android.sm.devicesecurity (uid=5012)
+ifv,com.android.statementservice,10099
+lib,smatlib,jar,/system/framework/smatlib.jar
+lib,sec_platform_library,jar,/system/framework/sec_platform_library.jar
+lib,com.samsung.device,jar,/system/framework/com.samsung.device.jar
+lib,stayrotation,jar,/system/framework/stayrotation.jar
+lib,com.sec.android.mdm.gearpolicymanager,jar,/system/framework/sagearpolicymanager.jar
+lib,com.google.widevine.software.drm,jar,/system/framework/com.google.widevine.software.drm.jar
+lib,imsmanager-internal,jar,/system/framework/imsmanager-internal.jar
+lib,sechardware,jar,/system/framework/sechardware.jar
+lib,com.sec.android.app.multiwindow,jar,/system/framework/multiwindow.jar
+lib,seccamera,jar,/system/framework/seccamera.jar
+lib,com.gsma.services.nfc,jar,/system/framework/com.gsma.services.nfc.jar
+lib,com.samsung.bbc,jar,/system/framework/com.samsung.bbccommon.jar
+lib,touchwiz,jar,/system/framework/twframework.jar
+lib,com.android.location.provider,jar,/system/framework/com.android.location.provider.jar
+lib,secimaging,jar,/system/framework/secimaging.jar
+lib,secvision,jar,/system/framework/secvision.jar
+lib,SLinkNTSManager,jar,/system/framework/SLinkNTSManager.jar
+lib,sec_feature,jar,/system/framework/sec_feature.jar
+lib,com.sec.android.mdm,jar,/system/framework/sec_edm.jar
+lib,com.samsung.android.nfc.mpos,jar,/system/framework/com.samsung.android.nfc.mpos.jar
+lib,com.validity.fingerprint,jar,/system/framework/validity-sys.jar
+lib,com.android.future.usb.accessory,jar,/system/framework/com.android.future.usb.accessory.jar
+lib,sgi,jar,/system/framework/sgi.jar
+lib,sws,jar,/system/framework/sws.jar
+lib,saiv,jar,/system/framework/saiv.jar
+lib,javax.obex,jar,/system/framework/javax.obex.jar
+lib,secmediarecorder,jar,/system/framework/secmediarecorder.jar
+lib,simageis,jar,/system/framework/simageis.jar
+lib,seclvbmanager,jar,/system/framework/seclvbmanager.jar
+lib,com.sec.android.app.minimode,jar,/system/framework/minimode.jar
+lib,imsmanager,jar,imsmanager.jar
+lib,scamera_sdk_util,jar,/system/framework/scamera_sdk_util.jar
+lib,com.publicnfc,jar,/system/framework/com.publicnfc.jar
+lib,secvisualeffect,jar,/system/framework/secvisualeffect.jar
+lib,com.dsi.ant.antradio_library,jar,/system/framework/com.dsi.ant.antradio_library.jar
+lib,org.simalliance.openmobileapi,jar,/system/framework/org.simalliance.openmobileapi.jar
+lib,android.test.runner,jar,/system/framework/android.test.runner.jar
+lib,com.broadcom.nfc,jar,/system/framework/com.broadcom.nfc.jar
+lib,org.apache.http.legacy,jar,/system/framework/org.apache.http.legacy.jar
+lib,com.broadcom.bt,jar,/system/framework/com.broadcom.bt.jar
+lib,com.android.nfc_extras,jar,/system/framework/com.android.nfc_extras.jar
+lib,com.android.media.remotedisplay,jar,/system/framework/com.android.media.remotedisplay.jar
+lib,allshare,jar,/system/framework/allshare.jar
+lib,com.sec.smartcard.auth,jar,/system/framework/secsmartcard.jar
+lib,com.android.mediadrm.signer,jar,/system/framework/com.android.mediadrm.signer.jar
+lib,libvtmanagerjar,jar,/system/framework/libvtmanagerjar.jar
+lib,scrollpause,jar,/system/framework/scrollpause.jar
+lib,rcsopenapi,jar,/system/framework/rcsopenapi.jar
+feat,android.hardware.sensor.proximity
+feat,com.sec.feature.cover.sviewcover
+feat,com.sec.android.smartface.smart_scroll
+feat,com.sec.feature.motionrecognition_service
+feat,com.sec.android.smartface.smart_rotation
+feat,com.sec.feature.cover.sview
+feat,android.hardware.sensor.accelerometer
+feat,android.hardware.faketouch
+feat,android.hardware.usb.accessory
+feat,android.software.backup
+feat,android.hardware.touchscreen
+feat,android.hardware.touchscreen.multitouch
+feat,android.software.print
+feat,android.hardware.consumerir
+feat,com.samsung.feature.mirrorlink_fw
+feat,android.hardware.sensor.heartrate
+feat,android.software.voice_recognizers
+feat,android.hardware.sensor.gyroscope
+feat,com.sec.feature.slocation
+feat,com.sec.feature.secretmode_service
+feat,com.sec.feature.fingerprint_manager_service
+feat,com.sec.feature.sensorhub
+feat,android.hardware.bluetooth
+feat,android.hardware.camera.autofocus
+feat,android.hardware.telephony.gsm
+feat,com.samsung.android.feature.sdl.2301
+feat,com.sec.feature.samsunglinkplatform
+feat,android.software.sip.voip
+feat,com.sec.feature.hovering_ui
+feat,com.sec.feature.multiwindow.multiwindowlaunch
+feat,android.hardware.usb.host
+feat,android.hardware.audio.output
+feat,android.hardware.camera.flash
+feat,android.hardware.camera.front
+feat,android.hardware.screen.portrait
+feat,android.hardware.nfc
+feat,com.sec.android.mdm
+feat,com.nxp.mifare
+feat,android.hardware.sensor.stepdetector
+feat,android.software.home_screen
+feat,com.sec.feature.barcode_emulator
+feat,android.hardware.microphone
+feat,com.sec.feature.multiwindow
+feat,android.hardware.bluetooth_le
+feat,android.hardware.sensor.compass
+feat,android.hardware.touchscreen.multitouch.jazzhand
+feat,android.hardware.sensor.barometer
+feat,android.software.app_widgets
+feat,android.software.input_methods
+feat,android.hardware.sensor.light
+feat,android.software.device_admin
+feat,com.sec.feature.multiwindow.recentui
+feat,android.hardware.camera
+feat,android.hardware.screen.landscape
+feat,com.sec.feature.multiwindow.commonui
+feat,com.sec.feature.findo
+feat,com.sec.feature.nsflp
+feat,com.sec.feature.snote
+feat,android.software.webview
+feat,android.hardware.sensor.stepcounter
+feat,android.hardware.camera.any
+feat,android.software.connectionservice
+feat,android.hardware.touchscreen.multitouch.distinct
+feat,android.hardware.location.network
+feat,com.sec.android.secimaging
+feat,android.software.sip
+feat,android.hardware.wifi.direct
+feat,android.software.live_wallpaper
+feat,com.sec.feature.multiwindow.phone
+feat,com.sec.feature.multiwindow.centerbarclicksound
+feat,android.hardware.location.gps
+feat,android.software.midi
+feat,com.sec.feature.minimode
+feat,android.hardware.nfc.hce
+feat,com.sec.feature.multiwindow.multiinstance
+feat,com.sec.feature.wfd_support
+feat,android.hardware.wifi
+feat,android.hardware.location
+feat,com.sec.android.smartface.smart_pause
+feat,com.sec.feature.cover.flip
+feat,android.hardware.telephony
+feat,com.sec.android.smartface.smart_stay
+pkg,com.mobeam.barcodeService,1000,21,1411960250000,1388534426000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.bst.sync,10069,201602001,1411960250000,1457661286000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.iflytek.cmcc,10187,3395,1388534469804,1512869692522,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.samsung.android.provider.filterprovider,10093,200700000,1411960250000,1457661290000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.app.DataCreate,1001,1,1411960251000,1388534434000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.gd.mobicore.pa,10132,196687,1411960250000,1388534435000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.samsung.android.app.galaxyfinder,10032,407902000,1411960251000,1457661307000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.location.nsflp2,5013,14,1388534681000,1388534681000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.app.chromecustomizations,10077,100300000,1411960250000,1388534434000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.android.providers.telephony,1001,23,1411960250000,1388534434000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.widget.festivalsawidget,10220,100001,1457661290000,1457661290000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.app.parser,1000,1,1411960250000,1388534434000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.android.providers.calendar,10040,23,1411960251000,1388534446000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.osp.app.signin,10039,210356,1411960251000,1388534489000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.directshare,10007,3,1411960252000,1388534434000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.samsung.clipboardsaveservice,1000,1,1388534665000,1388534665000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.automation,1000,1,1411960250000,1388534434000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.android.providers.media,10041,811,1411960252000,1388534433000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.samsung.android.sdk.spenv10,10139,400000001,1411960250000,1457661295000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.example.sks.mvpdemo,10258,1,1459417914595,1459766819469,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.widgetapp.digitalclock,10081,101101000,1411960250000,1457661288000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.android.wallpapercropper,1000,23,1388534687000,1388534687000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.samsung.android.provider.shootingmodeprovider,10164,1,1411960250000,1388534432000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.app.wfdbroker,1000,200900116,1411960250000,1457661298000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.samsung.android.app.withtv,1000,108201600,1388534673000,1388534673000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.app.safetyassurance,5003,103602111,1388534665000,1388534665000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.factory.camera,1000,101500000,1411960250000,1388534432000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,org.simalliance.openmobileapi.service,10177,8,1388534673000,1388534673000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.huawei.appmarket,10393,70202301,1482982875331,1494313801398,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.usbsettings,1000,1,1411960250000,1388534432000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.samsung.android.easysetup,10110,40,1388534668000,1388534668000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.android.documentsui,10084,23,1411960250000,1388534449000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.android.externalstorage,10009,23,1411960251000,1388534450000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.easyonehand,1000,2,1411960250000,1388534434000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.factory,1000,23,1411960251000,1388534433000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.samsung.knox.knoxtrustagent,10185,4001002,1388534674000,1388534674000,?
+pkg-splt,base,0
+pkg-usr,0,ibsL,0,?
+pkg,tv.peel.smartremote,10196,1705030010,1388534502667,1498469747931,com.sec.android.app.samsungapps
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.android.htmlviewer,10158,110800000,1411960250000,1457661296000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.example.jnidemo,10235,1,1458220809127,1458220809127,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.android.mms.service,1001,23,1457661307000,1388534436000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.wandoujia.phoenix2.usbproxy,10019,6215,1461120855296,1461120855296,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.android.providers.downloads,10041,23,1411960251000,1388534435000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.samsung.ucs.agent.boot,1000,23,1388534673000,1388534673000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.theme.natural,10119,100000000,1411960250000,1457661293000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.wsomacp,10025,513000110,1411960251000,1457661307000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.android.browser.provider,10134,1,1411960250000,1388534450000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.app.tourviewer,10000,1,1411960252000,1457661305000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.infraware.polarisoffice5,10126,50360601,1411960250000,1388534471000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.app.FlashBarService,10116,1,1411960250000,1388534450000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.Kies,1000,1020,1411960251000,1388534431000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.app.voicenote,1000,2016061100,1388534507721,1487149733347,com.sec.android.preloadinstaller
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.app.easylauncher,10008,204400000,1411960251000,1457661306000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.samsung.knox.rcp.components,10130,4001020,1411960250000,1388534435000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.widgetapp.easymodecontactswidget,10008,104400200,1411960250000,1457661290000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.samsung.android.intelligenceservice2,5010,230602000,1388534687000,1388534687000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.monotype.android.font.miao,10107,100100001,1411960250000,1388534440000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.samsung.android.MtpApplication,1000,1,1411960251000,1388534446000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.app.factorykeystring,1000,23,1411960251000,1388534435000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.app.samsungapps,10038,420616110,1411960251000,1487146165136,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.emergencymode.service,1000,23,1411960250000,1388534432000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.app.wlantest,1000,1,1411960250000,1388534451000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.widgetapp.SPlannerAppWidget,10141,212001010,1411960250000,1388534440000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.widgetapp.activeapplicationwidget,10151,1,1411960250000,1388534435000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.app.billing,10036,303600006,1411960251000,1457661307000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.app.minimode.res,10179,23,1411960250000,1388534434000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.tencent.reading,10064,4510,1472537494479,1512870212045,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.android.defcontainer,10006,23,1411960251000,1388534433000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.daemonapp,10174,3,1411960250000,1457661286000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.enterprise.knox.attestation,10103,1,1411960250000,1388534434000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.android.pacprocessor,10122,23,1411960250000,1388534452000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.dsi.ant.service.socket,10058,41420,1411960250000,1472537603586,com.wandoujia.phoenix2
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.bst.floatingmsgproxy,10001,1,1411960251000,1388534458000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.app.popupuireceiver,1000,1,1411960250000,1388534450000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.AutoPreconfig,1001,1,1411960251000,1388534435000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.tencent.mm,10266,1100,1459508930283,1509943992631,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.app.soundalive,10051,203700410,1411960252000,1457661311000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.bertadata.qxb,10247,4100,1458633920664,1512869822675,?
+pkg-splt,base,0
+pkg-usr,0,IbSL,0,?
+pkg,com.sec.android.widget.greetingcardwidget,10222,100300100,1457661291000,1457661291000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.providers.security,1000,100100000,1411960250000,1388534436000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.provider.badge,10070,101300001,1411960250000,1388534435000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.android.certinstaller,10075,23,1411960250000,1388534437000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.samsung.android.securitylogagent,1000,435200100,1457661296000,1388534469000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.android.carrierconfig,10071,1,1388534681000,1388534681000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.app.taskmanager,10168,99123123,1411960250000,1388534436000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.samsung.android.app.assistantmenu,1000,160400113,1411960250000,1457661286000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.directconnect,10083,1,1411960250000,1388534434000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.samsung.SMT,1000,201503021,1411960250000,1457661296000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.samsung.dcm,5004,2,1388534665000,1388534665000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.ofviewer,10027,102100000,1411960251000,1457661307000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.samsung.everglades.video,10047,105600000,1411960251000,1388534447000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,android,1000,23,1411960251000,1388534459000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.tencent.android.qqdownloader,10406,7004130,1487147220729,1487147257529,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.android.contacts,10018,333101140,1411960251000,1388534471000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,cn.com.bmac.nfc,10011,2143,1509943663255,1509943663255,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.samsung.hs20provider,10111,1,1388534669000,1388534669000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.samsung.android.sm.devicesecurity,5012,1616601100,1388534686000,1388534686000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.baidu.searchbox,10182,41964928,1388534450366,1512870050086,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.dsi.ant.sample.acquirechannels,10108,10005,1388534666000,1388534666000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.samsung.android.smartface,1000,1,1388534687000,1388534687000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.android.mms,10044,1,1411960252000,1388534458000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.android.nfc,1027,23,1411960250000,1388534434000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.android.stk,1001,23,1411960250000,1388534432000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.knox.foldercontainer,1000,4001021,1388534669000,1388534669000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.android.backupconfirm,10002,23,1411960251000,1388534450000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.samsung.klmsagent,10016,2,1411960251000,1388534434000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.samsung.android.app.memo,10195,1600927002,1388534499202,1487149648006,com.sec.android.preloadinstaller
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.app.storycam,10173,4,1411960250000,1457661297000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.shuame.rootgenius,10336,84,1465297999639,1487146636731,?
+pkg-splt,base,0
+pkg-usr,0,IbSL,0,?
+pkg,com.sec.android.app.SecSetupWizard,1000,1,1411960250000,1388534441000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.android.statementservice,10099,1,1388534686000,1388534686000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.samsung.android.sdk.samsunglink,10037,73000,1411960251000,1487147584348,com.sec.android.app.samsungapps
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.tencent.engine,10127,1,1411960250000,1457661294000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.bst.airmessage,10001,1,1411960251000,1388534464000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.app.hwmoduletest,1000,23,1411960251000,1388534434000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.bcservice,1000,2,1411960250000,1388534432000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.android.calendar,10140,221901010,1411960250000,1388534465000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.modem.settings,1000,1,1411960250000,1388534436000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.android.phasebeam,10029,1,1411960251000,1457661307000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.koushikdutta.vysor,10431,1476680400,1512356311925,1512554974199,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.intsig.zdao,10430,20301,1505877328214,1505877328214,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.app.sysscope,1000,137800100,1411960250000,1457661297000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.app.wallpaperchooser,1000,302400410,1411960251000,1388534432000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.samsung.android.providers.context,10074,9,1388534681000,1388534681000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.app.servicemodeapp,1000,23,1411960251000,1388534450000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.preloadinstaller,1000,23,1411960250000,1388534434000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.monotype.android.font.kaiti,10102,100100001,1411960250000,1388534450000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.samsung.android.sdk.professionalaudio.utility.jammonitor,10152,210500000,1411960250000,1389485350000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.widgetapp.ap.hero.cmaweather,10073,1,1411960250000,1457661286000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.gallery3d,10042,23,1411960251000,1388534431000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.android.providers.settings,1000,23,1411960251000,1388534436000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.app.TransmitPowerService,10101,1,1388534687000,1388534687000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.android.sharedstoragebackup,10050,23,1411960251000,1388534434000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.widgetapp.dualclockdigital,10086,101601000,1411960250000,1388534438000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.samsung.android.app.colorblind,1000,232700110,1411960250000,1457661286000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.pagebuddynotisvc,10028,1,1411960251000,1388534451000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.android.printspooler,10142,1,1411960250000,1388534451000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.providers.settingsearch,10161,2,1411960250000,1388534450000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.knox.bluetooth,10184,4001001,1388534674000,1388534674000,?
+pkg-splt,base,0
+pkg-usr,0,ibsL,0,?
+pkg,com.android.dreams.basic,10072,23,1411960250000,1388534451000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.app.bcocr,10138,230007,1411960250000,1457661295000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.app.music,10150,1619116800,1411960250000,1487149914342,com.sec.android.app.samsungapps
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.android.incallui,1001,23,1411960250000,1388534435000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.app.samsungprintservice,10113,330,1411960250000,1494313668698,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.baidu.appsearch,10059,16794283,1465803388403,1512869668425,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.app.dictionary,10154,99999999,1411960250000,1388534451000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sgmc.phonenumberlocatorservice,10098,1,1388534682000,1388534682000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.android.inputdevices,1000,23,1411960251000,1388534436000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.esdk.elm,10087,500700000,1411960250000,1388534450000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.samsung.knox.kss,1000,4001013,1388534674000,1388534674000,?
+pkg-splt,base,0
+pkg-usr,0,ibsL,0,?
+pkg,com.sec.android.app.videoplayer,10048,106901000,1411960251000,1388534447000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.tencent.mtt,10062,8013760,1487145330077,1512870258309,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.tencent.update,10128,1,1411960250000,1457661294000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.app.filtermanager,10092,201301000,1411960250000,1457661290000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.service.sm,1000,38,1411960250000,1389485345000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.samsung.android.app.simplesharing,5011,220500000,1388534673000,1388534673000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.gallery3d.panorama360view,10124,2,1411960250000,1457661293000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.smartcard.manager,10166,10,1411960250000,1388534450000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.allsharecastplayer,1000,100300160,1411960250000,1457661285000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.Preconfig,1001,23,1411960250000,1388534432000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.enterprise.mdm.vpn,10088,13,1411960250000,1388534434000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.example.sks.mydemo,10298,1,1463392445557,1465994122525,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.dsi.ant.plugins.antplus,10057,30610,1411960250000,1472537812924,com.wandoujia.phoenix2
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.samsung.android.personalpage.service,1000,140904001,1411960251000,1457661307000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.widgetapp.dualcitywidget,10085,1,1411960250000,1388534492000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.samsung.android.service.travel,10171,1,1411960250000,1388534434000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.inputmethod,1000,144505010,1388534672000,1388534672000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.app.clockpackage,10079,116401000,1411960250000,1388534438000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.RilServiceModeApp,1001,23,1411960251000,1388534433000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.google.android.webview,10227,288309100,1457661297000,1388534424000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.haotianhua.getdevicestoken,10316,1,1464850527269,1464850527269,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.enterprise.knox.myknoxsetupwizard,10176,101900000,1388534669000,1388534669000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.android.onetimeinitializer,10026,23,1411960252000,1388534450000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.samsung.android.app.mirrorlink,1000,105300006,1457661293000,1457661293000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.kidsplat.installer,10159,3001,1411960250000,1388534434000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.android.server.telecom,1000,1,1388534665000,1388534665000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.samsung.android.clipboarduiservice,1000,23,1457661286000,1388534434000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.android.keychain,1000,23,1411960250000,1388534432000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.setdefaultlauncher,1000,1,1411960250000,1388534436000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.android.icredit,10325,443,1465195446690,1512869638147,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.samsung.android.app.sounddetector,1000,1,1388534665000,1388534665000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.myzaker.ZAKER_Phone,10067,578,1472538232044,1512869860676,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.samsung.android.asksmanager,10068,100800000,1388534681000,1388534681000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.samsung.android.sm,1000,1616601110,1388534507000,1388534507000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.android.calllogbackup,10018,23,1388534681000,1388534681000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.tencent.mobileqq,10356,692,1470709959337,1498470110163,com.sec.android.app.samsungapps
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.diagmonagent,1000,411300100,1411960251000,1457661306000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.samsung.android.packageinstaller,10123,23,1411960250000,1388534433000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.samsung.android.usbchargingblock,1000,1,1411960250000,1388534452000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.spp.push,10034,180200000,1411960251000,1498469540734,com.sec.android.app.samsungapps
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.dsi.ant.server,1000,30000,1411960250000,1388534432000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.example.getphoneid,10256,1,1459153350416,1459153641212,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.subway.bjsubway,10003,32100,1493708588859,1512870271709,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.widgetapp.digitalclockeasy,10082,100501000,1411960250000,1457661288000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.samsung.festivalmanager,10218,1506081819,1457661290000,1457661290000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.app.myfiles,10045,8,1411960251000,1388534435000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.android.proxyhandler,10031,23,1411960251000,1388534446000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.widget.festivalmemorywidget,10219,100200000,1457661290000,1457661290000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.samsung.android.allshare.service.fileshare,5005,19,1388534665000,1388534665000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.samsung.android.app.sreminder,10201,4000021,1457661311000,1498469691748,com.sec.android.app.samsungapps
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.mimage.photoretouching,10030,1,1411960252000,1457661307000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.app.launcher,10008,115500400,1411960252000,1388534433000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.qti.backupagent,10225,1,1457661294000,1388534432000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.samsung.helphub,1000,2,1457661292000,1388534450000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.app.sns3,10094,201200000,1388534684000,1388534684000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,flipboard.boxer.app,10121,441,1388534668000,1498469659618,com.sec.android.app.samsungapps
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.wandoujia.phoenix2,10021,16761,1461120868439,1512869510757,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.android.managedprovisioning,10188,23,1457661307000,1388534434000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.samsung.android.app.filterinstaller,1000,200000000,1411960250000,1457661290000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.GeoLookout,10097,2023702420,1411960250000,1457661291000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.providers.tasks,10169,23,1411960250000,1388534441000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.app.sbrowser,10133,540075000,1411960250000,1498469532272,com.sec.android.app.samsungapps
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.stub.paywithpaypal,10190,0,1457661307000,1388534452000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.lifevibes.trimapp,10053,1,1411960251000,1457661312000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.android.dreams.phototable,10125,23,1411960250000,1388534435000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.service.health,10014,211001,1411960252000,1457661306000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.samsung.safetyinformation,10143,100900100,1411960250000,1388534475000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.android.qichacha,10283,443,1461555577798,1512869614910,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.app.ringtoneBR,10180,23,1411960250000,1388534441000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.alibaba.weex,10061,5,1470212415954,1470212415954,com.baidu.appsearch
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.zhihu.android,10063,575,1472537285506,1512870406440,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.android.noisefield,10024,1,1411960251000,1457661307000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.app.moreservices,10115,100500000,1411960250000,1457661293000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.cleanmaster.sdk,10189,50602002,1457661307000,1388534507000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.samsung.android.app.accesscontrol,1000,151300037,1457661285000,1457661285000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.providers.chinaholiday,10214,100500000,1457661286000,1487147573610,com.sec.android.app.samsungapps
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.android.wallpaper.livepicker,10043,23,1411960251000,1388534435000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.samsung.android.beaconmanager,5006,41,1388534666000,1487150078910,com.sec.android.app.samsungapps
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.enterprise.mdm.services.simpin,1000,23,1411960250000,1388534451000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.samsung.ucs.ucspinpad,1000,1,1388534687000,1388534687000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.android.apps.tag,10052,200200100,1411960251000,1388534436000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.knox.shortcutsms,10229,4001004,1457661202000,1388534442000,?
+pkg-splt,base,0
+pkg-usr,0,ibsL,0,?
+pkg,com.bst.festivalrespreload1,10215,1411281142,1457661288000,1457661288000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.bst.festivalrespreload2,10216,1411281142,1457661290000,1457661290000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.samsung.android.app.FileShareClient,5005,19,1388534665000,1388534665000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.app.mv.player,10049,100300000,1411960251000,1457661310000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.app.popupcalculator,10194,323202000,1388534497154,1487149651630,com.sec.android.preloadinstaller
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.soagent,1000,311200000,1388534684000,1388534684000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.knox.containeragent2,1000,4001007,1457661298000,1388534431000,?
+pkg-splt,base,0
+pkg-usr,0,ibsL,0,?
+pkg,com.qihoo.appstore,10394,300070026,1483959654358,1488421710804,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.samsung.android.scloud.backup,10104,640300300,1388534687000,1388534687000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.samsung.android.fmm,1000,612800100,1388534681000,1388534681000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.samsung.android.mdm,10207,1,1457661292000,1388534432000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.app.shealth,10193,5721003,1388534492555,1498469645439,com.sec.android.app.samsungapps
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.phone,1001,1,1457661296000,1388534441000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.youba.barcode,10274,34,1461549946688,1494313806525,?
+pkg-splt,base,0
+pkg-usr,0,IbSL,0,?
+pkg,com.samsung.knox.appsupdateagent,1000,4001008,1388534669000,1388534669000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.autonavi.cmccmap,10183,30055,1388534455293,1498470258630,com.sec.android.app.samsungapps
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.knox.knoxsetupwizardclient,1000,4001027,1411960250000,1388534434000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.yellowpage,10178,204500000,1411960250000,1457661298000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.visionobjects.resourcemanager,10131,1503060059,1411960250000,1457661294000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.samsung.android.scloud,5009,171001100,1388534683000,1388534683000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.app.RilErrorNotifier,1000,1,1411960251000,1388534434000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.android.settings,1000,23,1411960251000,1388534462000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.samsung.app.newtrim,10170,102400000,1388534673000,1388534673000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.mmapp,10117,102200000,1411960250000,1457661307000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.location.nsflp,10010,12,1389485400000,1487147594481,com.sec.android.app.samsungapps
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.app.bluetoothtest,1000,23,1411960250000,1388534434000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.samsung.android.intelligenceservice,10004,220200000,1411960251000,1457661312000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.samsung.android.sm.policy,10114,100700000,1388534672000,1388534672000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.emergencylauncher,1000,107400220,1411960250000,1457661290000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.hearingadjust,10015,301700600,1411960251000,1457661307000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.samsung.android.dlp.service,1000,1,1388534672000,1388534672000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.samsung.android.bbc.bbcagent,1000,2,1388534666000,1388534666000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.samsung.android.nearby.mediaserver,10210,18,1457661285000,1388534434000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,org.vv.screentest,10206,69,1456725734187,1494311400317,com.sec.android.app.samsungapps
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.wssnps,1000,610600000,1411960251000,1388534474000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.samsung.greetingcard,10223,103901600,1457661291000,1457661291000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.samsung.android.app.watchmanagerstub,10096,111512310,1411960250000,1457661291000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.policydm,1000,418000000,1411960251000,1457661307000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,flipboard.cn,10095,400105,1411960250000,1512870293467,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.samsung.android.app.FileShareServer,5005,19,1388534665000,1388534665000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.samsung.android.sdk.professionalaudio.app.audioconnectionservice,10226,210000000,1457661296000,1457661296000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.samsung.android.bbc.fileprovider,10181,250400000,1388534674000,1388534674000,?
+pkg-splt,base,0
+pkg-usr,0,ibsL,0,?
+pkg,com.enhance.gameservice,10112,107500000,1388534668000,1388534668000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.app.snsimagecache,10157,100100000,1388534673000,1388534673000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.android.vpndialogs,10054,23,1411960252000,1388534451000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.app.eventnotification,10091,1604261454,1411960250000,1457661290000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.tianyancha.skyeye,10441,45,1514102397943,1514107043598,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.widget.samsungapps,10144,502066,1411960250000,1457661295000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.android.email,10155,5000400,1411960250000,1388534456000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.cyjh.mobileanjian,10335,2017005002,1465297575474,1494313819688,?
+pkg-splt,base,0
+pkg-usr,0,IbSL,0,?
+pkg,com.android.phone,1001,1,1411960251000,1388534448000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.android.shell,2000,23,1411960251000,1388534432000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.theme.chineseclassic,10076,100000000,1411960250000,1457661286000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.android.providers.userdictionary,10018,23,1411960250000,1388534434000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.enterprise.knox.cloudmdm.smdms,10172,37,1411960250000,1457661297000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.arcsoft.magicshotstudio,10020,32,1411960251000,1457661307000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.wssyncmldm,1000,154100110,1411960251000,1457661311000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.yingyonghui.market,10056,30060628,1465803284534,1494313714271,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.android.location.fused,1000,23,1388534681000,1388534681000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.samsung.android.sm.provider,1000,1604200000,1388534686000,1388534686000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.samsung.groupcast,10013,2007039,1411960251000,1457661306000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.app.themechooser,10160,102900400,1411960250000,1457661296000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.face,5004,1,1388534681000,1388534681000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.android.systemui,10017,23,1411960251000,1388534457000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.app.personalization,1000,23,1411960250000,1388534451000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.android.exchange,10156,5000400,1411960250000,1388534434000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.android.bluetoothmidiservice,10109,23,1388534667000,1388534667000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.amap.android.location,10090,345,1388534682000,1388534682000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.samsung.festivalwallpaper,10221,1606211121,1457661290000,1457661290000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,cn.goapk.market,10022,6410,1465803086137,1487146317240,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.provider.logsprovider,10018,2,1411960251000,1388534435000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.app.SamsungContentsAgent,10148,100500000,1411960250000,1457661296000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.samsung.aasaservice,1000,5,1457661285000,1388534431000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.lvlvlaw,10005,171203,1512976185073,1512976185073,com.sec.android.app.samsungapps
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.app.mediasync,10118,4,1411960250000,1388534432000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.samsung.android.allshare.service.mediashare,5007,18,1388534665000,1388534665000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.app.mt,1000,100100000,1411960250000,1457661293000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.samsung.android.app.gestureservice,1000,100000001,1411960250000,1457661291000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.provider.emergencymode,10089,1,1411960250000,1388534449000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.samsung.android.fingerprint.service,1000,10100,1411960252000,1388534433000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.knox.switcher,1000,4001008,1457661209000,1457661209000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.app.camera,10145,1,1411960250000,1388534452000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.android.bluetooth,1002,23,1411960250000,1388534433000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.qualcomm.timeservice,1000,23,1457661297000,1388534436000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.qualcomm.atfwd,1000,23,1388534673000,1388534673000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.android.providers.contacts,10018,19,1411960251000,1388534450000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.app.magnifier,10149,142100000,1411960250000,1457661307000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.widgetapp.webmanual,10175,100700100,1411960250000,1388534434000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.samsung.sec.android.application.csc,1001,23,1411960251000,1388534434000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.android.captiveportallogin,10213,23,1457661286000,1388534434000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.monotype.android.font.shaonv,10162,100100001,1411960250000,1388534436000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,net.oschina.app,10407,286,1487147320836,1498470304026,com.sec.android.app.samsungapps
+pkg-splt,base,0
+pkg-usr,0,IbSl,0,?
+pkg,com.sec.android.filter,10146,200100000,1411960250000,1457661295000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.samsung.android.sconnect,10129,40,1411960250000,1388534450000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.samsung.android.coreapps,5011,232800000,1388534667000,1388534667000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.easysettings,1000,23,1411960250000,1388534432000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.enterprise.knox.shareddevice.keyguard,1000,6559632,1388534674000,1388534674000,?
+pkg-splt,base,0
+pkg-usr,0,ibsL,0,?
+pkg,com.baidu.searchbox_samsung,10153,16786712,1411960250000,1472537899584,com.wandoujia.phoenix2
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.samsung.location,10137,51208,1411960250000,1457661294000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+pkg,com.sec.android.mimage.sstudio,10035,1,1411960251000,1457661307000,?
+pkg-splt,base,0
+pkg-usr,0,IbsL,0,?
+ren,com.samsung.android.packageinstaller -> com.android.packageinstaller
+dis,com.sec.android.app.samsungapps,10038,310611150,1411960251000,1388534422000,?
+dis-splt,base,0
+dis-usr,0,IbsL,0,?
+dis,com.samsung.android.sdk.samsunglink,10037,30066,1411960251000,1457661317000,?
+dis-splt,base,0
+dis-usr,0,IbsL,0,?
+dis,com.sec.android.app.music,10150,107000000,1411960250000,1388534446000,?
+dis-splt,base,0
+dis-usr,0,IbsL,0,?
+dis,com.sec.app.samsungprintservice,10113,73,1411960250000,1457661293000,?
+dis-splt,base,0
+dis-usr,0,IbsL,0,?
+dis,com.sec.spp.push,10034,160000000,1411960251000,1388534472000,?
+dis-splt,base,0
+dis-usr,0,IbsL,0,?
+dis,com.samsung.android.app.sreminder,10201,110071,1457661311000,1457661311000,?
+dis-splt,base,0
+dis-usr,0,IbsL,0,?
+dis,flipboard.boxer.app,10121,374,1388534668000,1388534668000,?
+dis-splt,base,0
+dis-usr,0,IbsL,0,?
+dis,com.sec.android.app.sbrowser,10133,403045030,1411960250000,1487146228113,?
+dis-splt,base,0
+dis-usr,0,IbsL,0,?
+dis,com.samsung.android.beaconmanager,5006,40,1388534666000,1388534666000,?
+dis-splt,base,0
+dis-usr,0,IbsL,0,?
+dis,com.sec.android.app.shealth,10193,3540118,1388534492555,1457661237000,?
+dis-splt,base,0
+dis-usr,0,IbsL,0,?
+dis,com.baidu.searchbox_samsung,10153,16779543,1411960250000,1457661296000,?
+dis-splt,base,0
+dis-usr,0,IbsL,0,?
+mPackagesOnlyForOwnerUser:
+mComponentsOnlyForOwnerUser:
+suid,10001,com.bst.suid
+suid,10041,android.media
+suid,5007,android.uid.asf_mediashare
+suid,10008,android.uid.sec.activitywidget
+suid,10017,android.uid.systemui
+suid,5010,android.uid.intelligenceservice
+suid,5012,android.uid.smds
+suid,1027,android.uid.nfc
+suid,5005,android.uid.asf_fileshare
+suid,5003,android.uid.sendhelpmessage
+suid,5011,android.uid.enhanced_features
+suid,5009,android.uid.samsungcloud
+suid,1002,android.uid.bluetooth
+suid,5004,android.uid.cmhservice
+suid,10018,android.uid.shared
+suid,1000,android.uid.system
+suid,5006,android.uid.bcmgr
+suid,5013,android.uid.nsflp
+suid,1001,android.uid.phone
+suid,2000,android.uid.shell
+suid,10040,android.uid.calendar
+suid,10004,com.samsung.android.intelligenceservice
+msg,14-1-1 12:00 AM: No settings file; creating initial state
+msg,12-12-31 11:35 PM: [XML_CORRUPTED] Need to read from backup stopped packages file
+msg,12-12-31 11:35 PM: [XML_CORRUPTED] Cleaning up stopped packages file: /data/system/users/0/package-restrictions.xml
+msg,12-12-31 11:35 PM: No secret packages file; assuming all normal
+msg,16-2-29 10:38 AM: No secret packages file; assuming all normal
+msg,16-3-4 5:29 PM: No secret packages file; assuming all normal
+msg,16/3/11 9:55 AM: System has been changed!! : G9008VZMU1BOI2
+msg,16/3/11 9:55 AM: New decl Package{43a8ce4 android} of permission  android.permission.NFC_TRANSACTION is system; overriding org.simalliance.openmobileapi.service
+msg,16/3/11 9:55 AM: New decl Package{43a8ce4 android} of permission  org.simalliance.openmobileapi.SMARTCARD is system; overriding org.simalliance.openmobileapi.service
+msg,16/3/11 9:55 AM: New decl Package{2ce3352e com.sec.pcw.device} of permission  com.sec.android.permission.DSMLAWMO is system; overriding com.sec.dsm.system
+msg,16/3/11 9:55 AM: Failed to recover certificates for com.sec.hearingadjust: null
+msg,16/3/11 9:55 AM: System package com.sec.hearingadjust signature changed; retaining data.
+msg,16/3/11 9:55 AM: Failed to recover certificates for com.lifevibes.trimapp: null
+msg,16/3/11 9:55 AM: System package com.lifevibes.trimapp signature changed; retaining data.
+msg,16/3/11 9:55 AM: Failed to recover certificates for com.samsung.dcm: null
+msg,16/3/11 9:55 AM: System package com.samsung.dcm signature changed; retaining data.
+msg,16/3/11 9:55 AM: Failed to recover certificates for com.sec.android.mmapp: null
+msg,16/3/11 9:55 AM: System package com.sec.android.mmapp signature changed; retaining data.
+msg,16/3/11 9:56 AM: Package com.fmm.dm shared user changed from <nothing> to android.uid.system; replacing with new
+msg,16/3/11 9:56 AM: System package com.fmm.dm has changed from uid: 10010 to 1000; old data erased
+msg,16/3/11 9:56 AM: Failed to recover certificates for com.fmm.ds: null
+msg,16/3/11 9:56 AM: System package com.fmm.ds signature changed; retaining data.
+msg,16/3/11 9:56 AM: Failed to recover certificates for com.sec.android.ofviewer: null
+msg,16/3/11 9:56 AM: System package com.sec.android.ofviewer signature changed; retaining data.
+msg,16/3/11 9:56 AM: Failed to recover certificates for com.sec.android.soagent: null
+msg,16/3/11 9:56 AM: System package com.sec.android.soagent signature changed; retaining data.
+msg,16/3/11 9:56 AM: New decl Package{33f59094 com.android.mms} of permission  com.sec.mms.permission.RECEIVE_MESSAGES_INFORMATION is system; overriding android
+msg,16/3/11 9:56 AM: Failed to recover certificates for com.sec.android.app.myfiles: null
+msg,16/3/11 9:56 AM: System package com.sec.android.app.myfiles signature changed; retaining data.
+msg,16/3/11 9:56 AM: New decl Package{3f2f38e3 com.android.systemui} of permission  com.sec.android.sviewcover.ACCESS is system; overriding com.sec.android.sviewcover
+msg,16/3/11 9:56 AM: New decl Package{16ed49c1 com.sec.automation} of permission  com.sec.modem.settings.permission.KEYSTRING is system; overriding com.sec.modem.settings
+msg,16/3/11 9:56 AM: Package com.samsung.android.mdm shared user changed from android.uid.system to <nothing>; replacing with new
+msg,16/3/11 9:56 AM: System package com.samsung.android.mdm has changed from uid: 1000 to 10207; old data erased
+msg,16/3/11 9:56 AM: Failed to recover certificates for com.sec.android.inputmethod.theme.lightchina: null
+msg,16/3/11 9:56 AM: System package com.sec.android.inputmethod.theme.lightchina signature changed; retaining data.
+msg,16/3/11 9:56 AM: Package com.samsung.android.app.accesscontrol shared user changed from <nothing> to android.uid.system; replacing with new
+msg,16/3/11 9:56 AM: System package com.samsung.android.app.accesscontrol has changed from uid: 10059 to 1000; old data erased
+msg,16/3/11 9:56 AM: Failed to recover certificates for com.sec.android.app.themechooser: null
+msg,16/3/11 9:56 AM: System package com.sec.android.app.themechooser signature changed; retaining data.
+msg,16/3/11 9:56 AM: New decl Package{29c604a0 com.samsung.android.nearby.mediaserver} of permission  conv.svc.sec.nearby.config.READ is system; overriding com.sec.android.nearby.mediaserver
+msg,16/3/11 9:56 AM: New decl Package{29c604a0 com.samsung.android.nearby.mediaserver} of permission  conv.svc.sec.nearby.config.WRITE is system; overriding com.sec.android.nearby.mediaserver
+msg,16/3/11 9:56 AM: New decl Package{29c604a0 com.samsung.android.nearby.mediaserver} of permission  conv.svc.sec.nearby.MEDIASHARE is system; overriding com.sec.android.nearby.mediaserver
+msg,16/3/11 9:56 AM: New decl Package{2ac87efc com.samsung.android.allshare.service.mediashare} of permission  com.sec.android.permission.PERSONAL_MEDIA is system; overriding com.sec.android.allshare.service.controlshare
+msg,16/3/11 9:56 AM: New decl Package{3e2f2022 com.samsung.android.app.headlines} of permission  sstream.app.broadcast.SYNC_USER is system; overriding flipboard.cn
+msg,16/3/11 9:56 AM: Package com.samsung.helphub shared user changed from <nothing> to android.uid.system; replacing with new
+msg,16/3/11 9:56 AM: System package com.samsung.helphub has changed from uid: 10121 to 1000; old data erased
+msg,16/3/11 9:56 AM: Package com.sec.phone shared user changed from <nothing> to android.uid.phone; replacing with new
+msg,16/3/11 9:56 AM: System package com.sec.phone has changed from uid: 10157 to 1001; old data erased
+msg,16/3/11 9:56 AM: Package com.qualcomm.timeservice shared user changed from <nothing> to android.uid.system; replacing with new
+msg,16/3/11 9:56 AM: System package com.qualcomm.timeservice has changed from uid: 10170 to 1000; old data erased
+msg,16/3/11 9:56 AM: System package com.sec.android.allshare.service.fileshare no longer exists; wiping its data
+msg,16/3/11 9:56 AM: System package com.sec.android.app.autorunchecker no longer exists; wiping its data
+msg,16/3/11 9:56 AM: System package com.sec.android.omc no longer exists; wiping its data
+msg,16/3/11 9:56 AM: System package com.siso.app.genericprintservice no longer exists; wiping its data
+msg,16/3/11 9:56 AM: System package com.sec.android.app.FileShareClient no longer exists; wiping its data
+msg,16/3/11 9:56 AM: System package com.sec.sdp no longer exists; wiping its data
+msg,16/3/11 9:56 AM: System package com.sec.android.app.msa no longer exists; wiping its data
+msg,16/3/11 9:56 AM: System package com.sec.android.service.cm no longer exists; wiping its data
+msg,16/3/11 9:56 AM: System package com.sec.enterprise.permissions no longer exists; wiping its data
+msg,16/3/11 9:56 AM: System package com.hp.android.printservice no longer exists; wiping its data
+msg,16/3/11 9:56 AM: System package com.samsung.android.scloud.proxy.memo no longer exists; wiping its data
+msg,16/3/11 9:56 AM: System package com.sec.connectionhandler no longer exists; wiping its data
+msg,16/3/11 9:56 AM: System package com.sec.android.nearby.mediaserver no longer exists; wiping its data
+msg,16/3/11 9:56 AM: System package com.sec.android.app.wluc no longer exists; wiping its data
+msg,16/3/11 9:56 AM: System package com.bst.festivaleffect.homescreen no longer exists; wiping its data
+msg,16/3/11 9:56 AM: System package com.sec.android.app.FileShareServer no longer exists; wiping its data
+msg,16/3/11 9:56 AM: System package com.sec.android.band no longer exists; wiping its data
+msg,16/3/11 9:56 AM: System package com.sec.android.service.bezel no longer exists; wiping its data
+msg,16/3/11 9:56 AM: System package com.sec.gprsapps no longer exists; wiping its data
+msg,16/3/11 9:56 AM: System package com.android.providers.downloads.ui no longer exists; wiping its data
+msg,16/3/11 9:56 AM: System package com.sec.android.app.mobileprint no longer exists; wiping its data
+msg,16/3/11 9:56 AM: System package com.sec.android.app.ma.recorder no longer exists; wiping its data
+msg,16/3/11 9:56 AM: System package com.samsung.memo.link.wechat no longer exists; wiping its data
+msg,16/3/11 9:56 AM: System package com.sec.android.allshare.service.mediashare no longer exists; wiping its data
+msg,16/3/11 9:56 AM: System package com.siso.app.generic no longer exists; wiping its data
+msg,16/3/11 9:56 AM: System package com.sec.android.wfds.printplugin no longer exists; wiping its data
+msg,16/3/11 9:56 AM: System package com.sec.android.sviewcover no longer exists; wiping its data
+msg,16/3/11 9:56 AM: System package com.epson.mobilephone.samsungprintservice no longer exists; wiping its data
+msg,16/3/11 9:56 AM: System package com.sec.android.fwupgrade no longer exists; wiping its data
+msg,16/3/11 9:56 AM: System package com.fixmo.isa no longer exists; wiping its data
+msg,16/3/11 9:56 AM: System package com.sec.knox.seandroid no longer exists; wiping its data
+msg,16/3/11 9:56 AM: System package com.sec.android.allshare.service.controlshare no longer exists; wiping its data
+msg,16/3/11 9:56 AM: System package com.sec.android.app.mss no longer exists; wiping its data
+msg,16/3/11 9:56 AM: System package com.android.keyguard no longer exists; wiping its data
+msg,16/3/11 9:56 AM: System package com.qualcomm.location no longer exists; wiping its data
+msg,16/3/11 9:56 AM: System package com.wsdm no longer exists; wiping its data
+msg,16/3/11 9:56 AM: System package com.qualcomm.atfwd no longer exists; wiping its data
+msg,16/3/11 9:56 AM: System package com.android.providers.applications no longer exists; wiping its data
+msg,16/3/11 9:56 AM: System package com.android.musicfx no longer exists; wiping its data
+msg,16/3/11 9:56 AM: System package com.sec.android.app.capabilitymanager no longer exists; wiping its data
+msg,16/3/11 9:56 AM: System package com.sec.dsm.phone no longer exists; wiping its data
+msg,16/3/11 9:57 AM: Dexopt with interpret-only for com.oupeng.browserpre.cmcc
+msg,16/3/11 9:57 AM: Dexopt with interpret-only for com.temobi.cartoonplayer
+msg,16/3/11 9:57 AM: Dexopt with interpret-only for com.samsung.valuepack
+msg,16/3/11 9:57 AM: Dexopt with interpret-only for com.sec.android.app.voicenote
+msg,16/3/11 9:57 AM: Dexopt with interpret-only for com.samsung.android.app.memo
+msg,16/3/11 9:57 AM: Dexopt with interpret-only for com.bst.ncr
+msg,16/3/11 9:57 AM: Dexopt with interpret-only for com.tmall.wireless
+msg,16/3/11 9:57 AM: Dexopt with interpret-only for com.sec.android.cmccportal
+msg,16/3/11 9:57 AM: Dexopt with interpret-only for com.erdo.mm.cartoonplayer
+msg,16/3/11 9:57 AM: Dexopt with interpret-only for com.temobi.mmplayerplug.activity
+msg,16/3/11 9:57 AM: Dexopt with interpret-only for com.baidu.searchbox
+msg,16/3/11 9:57 AM: Dexopt with interpret-only for com.sec.android.app.popupcalculator
+msg,16/3/11 9:57 AM: Dexopt with interpret-only for com.aspire.mm.readplugin
+msg,16/3/11 10:25 AM: System has been changed!! : G9008VZMU1BOJ4
+msg,16/3/11 10:25 AM: System package com.samsung.android.sdk.professionalaudio.utility.jammonitor signature changed; retaining data.
+msg,16/3/11 10:25 AM: System package com.android.location.fused no longer exists; wiping its data
+msg,17/1/17 8:39 PM: System has been changed!! : G9008VZMU1BPE1
+msg,17/1/17 8:39 PM: System package com.monotype.android.font.miao signature changed; retaining data.
+msg,17/1/17 8:39 PM: System package com.monotype.android.font.kaiti signature changed; retaining data.
+msg,17/1/17 8:39 PM: System package com.monotype.android.font.shaonv signature changed; retaining data.
+msg,17/1/17 8:39 PM: System package com.samsung.memorymanager no longer exists; wiping its data
+msg,17/2/15 ä¸å5:00: System has been changed because of library/system/framework/smatlib.jarplease check s/w ver. Is It Changed ?
+msg,17/2/15 ä¸å5:00: System has been changed!! : samsung/kltezm/klte:6.0.1/MMB29M/G9008VZMU1CQA1:user/release-keys
+msg,17/2/15 ä¸å5:00: New decl Package{9a793fb android} of permission  com.sec.android.permission.AT_COMMAND is system; overriding com.android.mms
+msg,17/2/15 ä¸å5:00: New decl Package{9a793fb android} of permission  com.samsung.android.memo.READ is system; overriding com.samsung.android.app.memo
+msg,17/2/15 ä¸å5:00: New decl Package{9a793fb android} of permission  com.samsung.android.memo.WRITE is system; overriding com.samsung.android.app.memo
+msg,17/2/15 ä¸å5:00: Package com.dsi.ant.service.socket at /system/priv-app/ANTRadioService reverting from /data/app/com.dsi.ant.service.socket-1: new version 41420 better than installed 41400
+msg,17/2/15 ä¸å5:00: New decl Package{9ae621a com.samsung.android.fmm} of permission  com.sec.pcw.device.permission.C2D_MESSAGE is system; overriding com.sec.pcw.device
+msg,17/2/15 ä¸å5:00: New decl Package{9ae621a com.samsung.android.fmm} of permission  com.sec.pcw.device.permission.PROTECT_SYSTEM is system; overriding com.sec.pcw.device
+msg,17/2/15 ä¸å5:00: New decl Package{9ae621a com.samsung.android.fmm} of permission  com.sec.pcw.device.contentprovider.permission.WRITE is system; overriding com.sec.pcw.device
+msg,17/2/15 ä¸å5:00: New decl Package{9ae621a com.samsung.android.fmm} of permission  com.sec.pcw.device.contentprovider.permission.READ is system; overriding com.sec.pcw.device
+msg,17/2/15 ä¸å5:00: New decl Package{9ae621a com.samsung.android.fmm} of permission  com.sec.pcw.device.permission.SITDM is system; overriding com.sec.pcw.device
+msg,17/2/15 ä¸å5:00: New decl Package{9ae621a com.samsung.android.fmm} of permission  com.sec.android.permission.DSMLAWMO is system; overriding com.sec.pcw.device
+msg,17/2/15 ä¸å5:00: New decl Package{9ae621a com.samsung.android.fmm} of permission  com.sec.android.permission.DSMPROVIDER is system; overriding com.sec.dsm.system
+msg,17/2/15 ä¸å5:00: Package com.samsung.dcm shared user changed from <nothing> to android.uid.cmhservice; replacing with new
+msg,17/2/15 ä¸å5:00: System package com.samsung.dcm has changed from uid: 10005 to 5004; old data erased
+msg,17/2/15 ä¸å5:00: System package com.sec.android.provider.badge signature changed; retaining data.
+msg,17/2/15 ä¸å5:00: System package com.sec.android.theme.chineseclassic signature changed; retaining data.
+msg,17/2/15 ä¸å5:00: Package com.samsung.android.providers.context shared user changed from com.samsung.android.intelligenceservice to <nothing>; replacing with new
+msg,17/2/15 ä¸å5:00: System package com.samsung.android.providers.context has changed from uid: 10004 to 10074; old data erased
+msg,17/2/15 ä¸å5:00: New decl Package{cff06de com.sec.android.service.health} of permission  com.sec.android.securestorage.permission.SECURE_STORAGE is system; overriding com.samsung.android.providers.context
+msg,17/2/15 ä¸å5:00: New decl Package{9f13b6 com.samsung.klmsagent} of permission  com.sec.esdk.elm.permission.ELM_INTENT_RECEIVE is system; overriding com.sec.esdk.elm
+msg,17/2/15 ä¸å5:00: System package com.cleanmaster.sdk signature changed; retaining data.
+msg,17/2/15 ä¸å5:00: Package com.sec.android.soagent shared user changed from <nothing> to android.uid.system; replacing with new
+msg,17/2/15 ä¸å5:00: System package com.sec.android.soagent has changed from uid: 10033 to 1000; old data erased
+msg,17/2/15 ä¸å5:00: New decl Package{3df6e5f com.sec.android.soagent} of permission  com.sec.android.fotaclient.permission.FOTA is system; overriding com.sec.android.fotaclient
+msg,17/2/15 ä¸å5:00: New decl Package{3df6e5f com.sec.android.soagent} of permission  com.sec.android.fota.permission.PUSH is system; overriding com.sec.android.fotaclient
+msg,17/2/15 ä¸å5:00: Package com.sec.android.app.safetyassurance shared user changed from <nothing> to android.uid.sendhelpmessage; replacing with new
+msg,17/2/15 ä¸å5:00: System package com.sec.android.app.safetyassurance has changed from uid: 10046 to 5003; old data erased
+msg,17/2/15 ä¸å5:00: New package com.samsung.android.packageinstaller renamed to replace old package com.android.packageinstaller
+msg,17/2/15 ä¸å5:00: New decl Package{c0e301f com.android.systemui} of permission  com.sec.android.permission.START_FLASHBARSERVICE is system; overriding com.sec.android.app.FlashBarService
+msg,17/2/15 ä¸å5:00: System package com.android.apps.tag signature changed; retaining data.
+msg,17/2/15 ä¸å5:00: New decl Package{b3d671b com.android.phone} of permission  com.sec.android.kies.calllog.BROADCAST_DETECT is system; overriding com.sec.android.provider.logsprovider
+msg,17/2/15 ä¸å5:00: Package com.android.server.telecom shared user changed from android.uid.phone to android.uid.system; replacing with new
+msg,17/2/15 ä¸å5:00: System package com.android.server.telecom has changed from uid: 1001 to 1000; old data erased
+msg,17/2/15 ä¸å5:00: Package com.android.wallpapercropper shared user changed from <nothing> to android.uid.system; replacing with new
+msg,17/2/15 ä¸å5:00: System package com.android.wallpapercropper has changed from uid: 10055 to 1000; old data erased
+msg,17/2/15 ä¸å5:00: New decl Package{1ad5bc7 com.wssnps} of permission  com.wssnps.permission.COM_WSSNPS is system; overriding com.sec.android.app.wallpaperchooser
+msg,17/2/15 ä¸å5:00: System package com.sec.android.theme.natural signature changed; retaining data.
+msg,17/2/15 ä¸å5:00: System package com.samsung.android.sdk.spenv10 signature changed; retaining data.
+msg,17/2/15 ä¸å5:00: System package com.sec.android.ofviewer signature changed; retaining data.
+msg,17/2/15 ä¸å5:00: New decl Package{c2a8385 com.samsung.android.sm.provider} of permission  com.samsung.permission.READ_SM_DATA is system; overriding com.samsung.android.sm
+msg,17/2/15 ä¸å5:00: New decl Package{c2a8385 com.samsung.android.sm.provider} of permission  com.samsung.permission.WRITE_SM_DATA is system; overriding com.samsung.android.sm
+msg,17/2/15 ä¸å5:00: New decl Package{141326d com.samsung.android.intelligenceservice2} of permission  com.samsung.android.internal.intelligence.useranalysis.permission.READ_PLACE is system; overriding com.samsung.android.intelligenceservice
+msg,17/2/15 ä¸å5:00: New decl Package{141326d com.samsung.android.intelligenceservice2} of permission  com.samsung.android.internal.intelligence.useranalysis.permission.WRITE_PLACE is system; overriding com.samsung.android.intelligenceservice
+msg,17/2/15 ä¸å5:00: Package com.samsung.android.beaconmanager shared user changed from <nothing> to android.uid.bcmgr; replacing with new
+msg,17/2/15 ä¸å5:00: System package com.samsung.android.beaconmanager has changed from uid: 10212 to 5006; old data erased
+msg,17/2/15 ä¸å5:00: System package com.sec.android.app.dictionary signature changed; retaining data.
+msg,17/2/15 ä¸å5:00: System package com.monotype.android.font.miao signature changed; retaining data.
+msg,17/2/15 ä¸å5:00: System package com.tencent.engine signature changed; retaining data.
+msg,17/2/15 ä¸å5:00: Package com.samsung.android.allshare.service.fileshare shared user changed from <nothing> to android.uid.asf_fileshare; replacing with new
+msg,17/2/15 ä¸å5:00: System package com.samsung.android.allshare.service.fileshare has changed from uid: 10205 to 5005; old data erased
+msg,17/2/15 ä¸å5:00: Package com.samsung.clipboardsaveservice shared user changed from <nothing> to android.uid.system; replacing with new
+msg,17/2/15 ä¸å5:00: System package com.samsung.clipboardsaveservice has changed from uid: 10078 to 1000; old data erased
+msg,17/2/15 ä¸å5:00: System package com.monotype.android.font.kaiti signature changed; retaining data.
+msg,17/2/15 ä¸å5:00: System package com.monotype.android.font.shaonv signature changed; retaining data.
+msg,17/2/15 ä¸å5:00: New decl Package{2658d1d flipboard.boxer.app} of permission  sstream.app.broadcast.SYNC_USER is system; overriding com.samsung.android.app.headlines
+msg,17/2/15 ä¸å5:00: Package com.dsi.ant.plugins.antplus at /system/app/ANTPlusPlugins reverting from /data/app/com.dsi.ant.plugins.antplus-1: new version 30610 better than installed 30600
+msg,17/2/15 ä¸å5:00: Package com.samsung.android.app.FileShareClient shared user changed from <nothing> to android.uid.asf_fileshare; replacing with new
+msg,17/2/15 ä¸å5:00: System package com.samsung.android.app.FileShareClient has changed from uid: 10208 to 5005; old data erased
+msg,17/2/15 ä¸å5:00: Package com.samsung.android.app.FileShareServer shared user changed from <nothing> to android.uid.asf_fileshare; replacing with new
+msg,17/2/15 ä¸å5:00: System package com.samsung.android.app.FileShareServer has changed from uid: 10209 to 5005; old data erased
+msg,17/2/15 ä¸å5:00: Package com.samsung.android.allshare.service.mediashare shared user changed from <nothing> to android.uid.asf_mediashare; replacing with new
+msg,17/2/15 ä¸å5:00: System package com.samsung.android.allshare.service.mediashare has changed from uid: 10211 to 5007; old data erased
+msg,17/2/15 ä¸å5:00: New decl Package{fc3f3f7 com.sec.android.widgetapp.dualcitywidget} of permission  com.sec.android.widgetapp.ap.hero.accuweather.permission.READ_ACCU_DATA is system; overriding com.sec.android.widgetapp.ap.hero.cmaweather
+msg,17/2/15 ä¸å5:00: New decl Package{fc3f3f7 com.sec.android.widgetapp.dualcitywidget} of permission  com.sec.android.widgetapp.ap.hero.accuweather.permission.WRITE_ACCU_DATA is system; overriding com.sec.android.widgetapp.ap.hero.cmaweather
+msg,17/2/15 ä¸å5:00: New decl Package{a12733d com.sec.knox.foldercontainer} of permission  com.sec.knox.admin.permission.ACTION_MANAGE_SHORTCUT is system; overriding com.sec.knox.knoxsetupwizardclient
+msg,17/2/15 ä¸å5:00: Package com.sec.android.app.sbrowser at /system/app/SBrowser_4_LATEST reverting from /data/app/com.sec.android.app.sbrowser-1: new version 403045030 better than installed 401051000
+msg,17/2/15 ä¸å5:00: System package com.tencent.update signature changed; retaining data.
+msg,17/2/15 ä¸å5:00: Package org.simalliance.openmobileapi.service shared user changed from org.simalliance.uid.openmobileapi to <nothing>; replacing with new
+msg,17/2/15 ä¸å5:00: System package org.simalliance.openmobileapi.service has changed from uid: 1101 to 10177; old data erased
+msg,17/2/15 ä¸å5:00: New decl Package{b2d80c0 org.simalliance.openmobileapi.service} of permission  org.simalliance.openmobileapi.SMARTCARD is system; overriding android
+msg,17/2/15 ä¸å5:00: New decl Package{b2d80c0 org.simalliance.openmobileapi.service} of permission  android.permission.NFC_TRANSACTION is system; overriding android
+msg,17/2/15 ä¸å5:00: Package com.samsung.android.app.sounddetector shared user changed from <nothing> to android.uid.system; replacing with new
+msg,17/2/15 ä¸å5:00: System package com.samsung.android.app.sounddetector has changed from uid: 10167 to 1000; old data erased
+msg,17/2/15 ä¸å5:00: Package com.sec.android.providers.chinaholiday at /system/app/ChinaHolidayProvider_M reverting from /data/app/com.sec.android.providers.chinaholiday-2: new version 100500000 better than installed 20161205
+msg,17/2/15 ä¸å5:00: New decl Package{4ccaa27 com.samsung.knox.kss} of permission  com.sec.knox.permission.KEYGUARD_SERVICE is system; overriding com.sec.knox.containeragent2
+msg,17/2/15 ä¸å5:00: System package com.samsung.android.app.headlines no longer exists; wiping its data
+msg,17/2/15 ä¸å5:00: System package com.sec.android.app.customerservice no longer exists; wiping its data
+msg,17/2/15 ä¸å5:00: System package com.sec.smartcontact no longer exists; wiping its data
+msg,17/2/15 ä¸å5:00: System package com.samsung.indexservice no longer exists; wiping its data
+msg,17/2/15 ä¸å5:00: System package com.sec.android.fotaclient no longer exists; wiping its data
+msg,17/2/15 ä¸å5:00: System package com.samsung.app.video no longer exists; wiping its data
+msg,17/2/15 ä¸å5:00: System package com.sec.dsm.system no longer exists; wiping its data
+msg,17/2/15 ä¸å5:00: System package com.LocalFota no longer exists; wiping its data
+msg,17/2/15 ä¸å5:00: System package com.samsung.android.app.airwakeupview no longer exists; wiping its data
+msg,17/2/15 ä¸å5:00: System package com.sec.knox.bridge no longer exists; wiping its data
+msg,17/2/15 ä¸å5:00: System package com.samsung.inputmethod no longer exists; wiping its data
+msg,17/2/15 ä¸å5:00: System package com.samsung.android.app.shareaccessibilitysettings no longer exists; wiping its data
+msg,17/2/15 ä¸å5:00: System package com.sec.knox.packageverifier no longer exists; wiping its data
+msg,17/2/15 ä¸å5:00: System package com.sec.android.inputmethod.theme.lightchina no longer exists; wiping its data
+msg,17/2/15 ä¸å5:00: System package com.sec.pcw.device no longer exists; wiping its data
+msg,17/2/15 ä¸å5:00: System package com.fmm.dm no longer exists; wiping its data
+msg,17/2/15 ä¸å5:00: System package com.fmm.ds no longer exists; wiping its data
+msg,17/2/15 ä¸å5:00: System package com.baidu.map.location no longer exists; wiping its data
+msg,17/2/15 ä¸å5:00: System package com.netease.print no longer exists; wiping its data
+msg,17/2/15 ä¸å5:00: System package com.samsung.slidinggallery no longer exists; wiping its data
+msg,17/2/15 ä¸å5:00: System package com.samsung.android.visualeffect.res no longer exists; wiping its data
+msg,17/2/15 ä¸å5:00: System package com.sec.tcpdumpservice no longer exists; wiping its data
+msg,17/2/15 ä¸å5:00: System package com.sec.android.app.sbrowsertry no longer exists; wiping its data
+msg,17/2/15 ä¸å5:00: System package com.sec.msc.nts.android.proxy no longer exists; wiping its data
+msg,17/2/15 ä¸å5:00: Updated system app + com.sec.location.nsflp no longer present; removing system privileges for com.sec.location.nsflp
+msg,17/2/15 ä¸å5:00: Updated system app + flipboard.cn no longer present; removing system privileges for flipboard.cn
+msg,17/2/15 ä¸å5:02: Dexopt with interpret-only for com.dsi.ant.service.socket
+msg,17/2/15 ä¸å5:02: Dexopt with interpret-only for com.sec.hearingadjust
+msg,17/2/15 ä¸å5:02: Dexopt with interpret-only for com.samsung.android.app.FileShareClient
+msg,17/2/15 ä¸å5:02: Dexopt with interpret-only for com.gd.mobicore.pa
+msg,17/2/15 ä¸å5:02: Dexopt with interpret-only for com.samsung.android.intelligenceservice2
+msg,17/2/15 ä¸å5:02: Dexopt with interpret-only for com.sec.enterprise.knox.myknoxsetupwizard
+msg,17/2/15 ä¸å5:02: Dexopt with interpret-only for com.samsung.android.sdk.professionalaudio.app.audioconnectionservice
+msg,17/2/15 ä¸å5:02: Dexopt with interpret-only for com.sec.android.app.sns3
+msg,17/2/15 ä¸å5:02: Dexopt with interpret-only for com.samsung.knox.rcp.components
+msg,17/2/15 ä¸å5:02: Dexopt with interpret-only for com.sec.android.mmapp
+msg,17/2/15 ä¸å5:02: Dexopt with interpret-only for com.samsung.android.sm.devicesecurity
+msg,17/2/15 ä¸å5:02: Dexopt with interpret-only for com.android.noisefield
+msg,17/2/15 ä¸å5:02: Dexopt with interpret-only for flipboard.boxer.app
+msg,17/2/15 ä¸å5:02: Dexopt with interpret-only for com.sec.app.TransmitPowerService
+msg,17/2/15 ä¸å5:02: Dexopt with interpret-only for com.sec.android.app.FlashBarService
+msg,17/2/15 ä¸å5:02: Dexopt with interpret-only for com.samsung.app.newtrim
+msg,17/2/15 ä¸å5:02: Dexopt with interpret-only for com.android.apps.tag
+msg,17/2/15 ä¸å5:03: Dexopt with interpret-only for com.dsi.ant.plugins.antplus
+msg,17/2/15 ä¸å5:03: Dexopt with interpret-only for com.sec.android.AutoPreconfig
+msg,17/2/15 ä¸å5:03: Dexopt with interpret-only for com.samsung.android.coreapps
+msg,17/2/15 ä¸å5:03: Dexopt with interpret-only for com.samsung.everglades.video
+msg,17/2/15 ä¸å5:03: Dexopt with interpret-only for com.sec.android.gallery3d.panorama360view
+msg,17/2/15 ä¸å5:03: Dexopt with interpret-only for com.sec.android.app.bcocr
+msg,17/2/15 ä¸å5:03: Dexopt with interpret-only for com.sec.android.app.dictionary
+msg,17/2/15 ä¸å5:03: Dexopt with interpret-only for com.sec.android.stub.paywithpaypal
+msg,17/2/15 ä¸å5:03: Dexopt with interpret-only for com.android.dreams.basic
+msg,17/2/15 ä¸å5:03: Dexopt with interpret-only for com.samsung.knox.knoxtrustagent
+msg,17/2/15 ä¸å5:03: Dexopt with interpret-only for com.samsung.safetyinformation
+msg,17/2/15 ä¸å5:03: Dexopt with interpret-only for com.sec.android.mimage.photoretouching
+msg,17/2/15 ä¸å5:03: Dexopt with interpret-only for com.sec.android.app.storycam
+msg,17/2/15 ä¸å5:03: Dexopt with interpret-only for com.sec.android.filter
+msg,17/2/15 ä¸å5:03: Dexopt with interpret-only for com.lifevibes.trimapp
+msg,17/2/15 ä¸å5:03: Dexopt with interpret-only for com.sec.android.app.ringtoneBR
+msg,17/2/15 ä¸å5:03: Dexopt with interpret-only for com.sec.enterprise.knox.attestation
+msg,17/2/15 ä¸å5:03: Dexopt with interpret-only for com.sec.enterprise.knox.cloudmdm.smdms
+msg,17/2/15 ä¸å5:03: Dexopt with interpret-only for com.sec.android.mimage.sstudio
+msg,17/2/15 ä¸å5:03: Dexopt with interpret-only for com.android.carrierconfig
+msg,17/2/15 ä¸å5:03: Dexopt with interpret-only for com.sec.enterprise.mdm.vpn
+msg,17/2/15 ä¸å5:03: Dexopt with interpret-only for com.samsung.android.sdk.professionalaudio.utility.jammonitor
+msg,17/2/15 ä¸å5:03: Dexopt with interpret-only for com.samsung.android.easysetup
+msg,17/2/15 ä¸å5:04: Dexopt with interpret-only for com.sec.android.Preconfig
+msg,17/2/15 ä¸å5:04: Dexopt with interpret-only for com.samsung.hs20provider
+msg,17/2/15 ä¸å5:04: Dexopt with interpret-only for com.sec.android.app.magnifier
+msg,17/2/15 ä¸å5:04: Dexopt with interpret-only for com.sec.android.app.filtermanager
+msg,17/2/15 ä¸å5:04: Dexopt with interpret-only for com.android.calllogbackup
+msg,17/2/15 ä¸å5:04: Dexopt with interpret-only for com.sec.android.app.mediasync
+msg,17/2/15 ä¸å5:05: Dexopt with interpret-only for com.arcsoft.magicshotstudio
+msg,17/2/15 ä¸å5:05: Dexopt with interpret-only for com.sec.android.app.billing
+msg,17/2/15 ä¸å5:05: Dexopt with interpret-only for com.samsung.android.beaconmanager
+msg,17/2/15 ä¸å5:05: Dexopt with interpret-only for com.android.captiveportallogin
+msg,17/2/15 ä¸å5:05: Dexopt with interpret-only for com.android.certinstaller
+msg,17/2/15 ä¸å5:05: Dexopt with interpret-only for com.android.backupconfirm
+msg,17/2/15 ä¸å5:05: Dexopt with interpret-only for com.samsung.android.app.simplesharing
+msg,17/2/15 ä¸å5:05: Dexopt with interpret-only for com.sec.knox.bluetooth
+msg,17/2/15 ä¸å5:05: Dexopt with interpret-only for com.sec.android.providers.tasks
+msg,17/2/15 ä¸å5:05: Dexopt with interpret-only for com.sec.android.directshare
+msg,17/2/15 ä¸å5:05: Dexopt with interpret-only for com.sec.android.RilServiceModeApp
+msg,17/2/15 ä¸å5:05: Dexopt with interpret-only for com.cleanmaster.sdk
+msg,17/2/15 ä¸å5:05: Dexopt with interpret-only for com.android.phasebeam
+msg,17/2/15 ä¸å5:05: Dexopt with interpret-only for com.android.wallpaper.livepicker
+msg,17/2/15 ä¸å5:05: Dexopt with interpret-only for com.android.pacprocessor
+msg,17/2/15 ä¸å5:05: Dexopt with interpret-only for com.sec.android.ofviewer
+msg,17/2/15 ä¸å5:05: Dexopt with interpret-only for com.android.sharedstoragebackup
+msg,17/2/15 ä¸å5:05: Dexopt with interpret-only for com.sec.android.widgetapp.webmanual
+msg,17/2/15 ä¸å5:05: Dexopt with interpret-only for com.android.htmlviewer
+msg,17/2/15 ä¸å5:05: Dexopt with interpret-only for com.samsung.android.sdk.spenv10
+msg,17/2/15 ä¸å5:05: Dexopt with interpret-only for com.qti.backupagent
+msg,17/2/15 ä¸å5:05: Dexopt with interpret-only for com.samsung.android.allshare.service.fileshare
+msg,17/2/15 ä¸å5:05: Dexopt with interpret-only for com.android.dreams.phototable
+msg,17/2/15 ä¸å5:05: Dexopt with interpret-only for com.samsung.android.mdm
+msg,17/2/15 ä¸å5:05: Dexopt with interpret-only for com.bst.sync
+msg,17/2/15 ä¸å5:05: Dexopt with interpret-only for com.sec.android.app.DataCreate
+msg,17/2/15 ä¸å5:05: Dexopt with interpret-only for com.sec.android.widgetapp.digitalclockeasy
+msg,17/2/15 ä¸å5:05: Dexopt with interpret-only for com.android.bluetoothmidiservice
+msg,17/2/15 ä¸å5:05: Dexopt with interpret-only for com.sec.android.directconnect
+msg,17/2/15 ä¸å5:05: Dexopt with interpret-only for com.sec.android.app.SamsungContentsAgent
+msg,17/2/15 ä¸å5:05: Dexopt with interpret-only for com.sec.android.app.snsimagecache
+msg,17/2/15 ä¸å5:05: Dexopt with interpret-only for com.samsung.android.scloud.backup
+msg,17/2/15 ä¸å5:05: Dexopt with interpret-only for com.samsung.android.allshare.service.mediashare
+msg,17/2/15 ä¸å5:06: Dexopt with interpret-only for com.android.vpndialogs
+msg,17/2/15 ä¸å5:06: Dexopt with interpret-only for com.sec.android.app.tourviewer
+msg,17/2/15 ä¸å5:06: Dexopt with interpret-only for com.sec.face
+msg,17/2/15 ä¸å5:06: Dexopt with interpret-only for com.samsung.android.bbc.fileprovider
+msg,17/2/15 ä¸å5:06: Dexopt with interpret-only for com.android.statementservice
+msg,17/2/15 ä¸å5:06: Dexopt with interpret-only for com.dsi.ant.sample.acquirechannels
+msg,17/2/15 ä¸å5:06: Dexopt with interpret-only for com.sec.knox.shortcutsms
+msg,17/2/15 ä¸å5:06: Dexopt with interpret-only for com.visionobjects.resourcemanager
+msg,17/2/15 ä¸å5:06: Dexopt with interpret-only for com.samsung.android.sm.policy
+msg,17/2/26 ä¸å8:56: performBootDexOpt, but not system changedcom.baidu.searchbox
+msg,17/2/26 ä¸å8:56: performBootDexOpt, but not system changedcom.tencent.mobileqq
+msg,17/2/26 ä¸å8:56: performBootDexOpt, but not system changedcom.iflytek.cmcc
+msg,16/2/29 ä¸å10:24: performBootDexOpt, but not system changedcom.huawei.appmarket
+msg,16/2/29 ä¸å10:24: performBootDexOpt, but not system changedcom.example.jnidemo
+msg,16/2/29 ä¸å10:24: performBootDexOpt, but not system changedcom.example.getphoneid
+msg,16/2/29 ä¸å10:24: performBootDexOpt, but not system changedcom.alibaba.weex
+msg,16/2/29 ä¸å10:24: performBootDexOpt, but not system changedcom.example.sks.mydemo
+msg,16/2/29 ä¸å10:24: performBootDexOpt, but not system changedcom.tencent.mtt
+msg,16/2/29 ä¸å10:24: performBootDexOpt, but not system changedcom.haotianhua.getdevicestoken
+msg,16/2/29 ä¸å10:24: performBootDexOpt, but not system changedcom.wandoujia.phoenix2.usbproxy
+msg,16/2/29 ä¸å10:24: performBootDexOpt, but not system changedcom.wandoujia.phoenix2
+msg,16/2/29 ä¸å10:24: performBootDexOpt, but not system changedcom.example.sks.mvpdemo
+msg,17/5/2 ä¸å4:20: Switch small oat to oat for com.bst.sync
+msg,17/5/2 ä¸å4:20: Switch small oat to oat for com.samsung.knox.rcp.components
+msg,17/5/2 ä¸å4:20: Switch small oat to oat for com.samsung.android.intelligenceservice2
+msg,17/5/2 ä¸å4:20: Switch small oat to oat for com.sec.android.AutoPreconfig
+msg,17/5/2 ä¸å4:20: Switch small oat to oat for com.samsung.everglades.video
+msg,17/5/2 ä¸å4:20: Switch small oat to oat for com.samsung.hs20provider
+msg,17/5/2 ä¸å4:20: Switch small oat to oat for com.samsung.android.sm.devicesecurity
+msg,17/5/2 ä¸å4:20: Switch small oat to oat for com.sec.app.TransmitPowerService
+msg,17/5/2 ä¸å4:20: Switch small oat to oat for com.samsung.android.app.simplesharing
+msg,17/5/2 ä¸å4:21: Switch small oat to oat for com.sec.android.app.sns3
+msg,17/5/2 ä¸å4:21: Switch small oat to oat for com.samsung.android.app.FileShareClient
+msg,17/5/2 ä¸å4:22: Switch small oat to oat for com.samsung.android.sm.policy
+msg,17/5/2 ä¸å4:22: Switch small oat to oat for com.sec.enterprise.knox.cloudmdm.smdms
+msg,17/5/2 ä¸å4:22: Switch small oat to oat for com.sec.face
+msg,17/5/2 ä¸å4:24: Switch small oat to oat for com.samsung.android.coreapps
+msg,17/12/4 ä¸å3:25: Switch small oat to oat for com.sec.android.app.mediasync
+[dumpsys: 0.058s elapsed]
+
+========================================================
+== Running Application Activities
+========================================================

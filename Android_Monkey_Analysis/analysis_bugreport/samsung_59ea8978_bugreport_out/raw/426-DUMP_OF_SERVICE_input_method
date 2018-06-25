@@ -1,0 +1,239 @@
+Current Input Method Manager state:
+  Input Methods:
+  InputMethod #0:
+    mId=com.sec.android.inputmethod/.SamsungKeypad mSettingsActivityName=com.sec.android.inputmethod.SamsungKeypadSettings
+    mIsDefaultResId=0x0
+    Service:
+      priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+      ServiceInfo:
+        name=com.sec.android.inputmethod.SamsungKeypad
+        packageName=com.sec.android.inputmethod
+        enabled=true exported=true processName=com.sec.android.inputmethod
+        permission=android.permission.BIND_INPUT_METHOD
+        flags=0x0
+  InputMethod #1:
+    mId=com.qihoo.appstore/com.qihoo360.mobilesafe.pcinput.HandoffIme mSettingsActivityName=null
+    mIsDefaultResId=0x0
+    Service:
+      priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+      ServiceInfo:
+        name=com.qihoo360.mobilesafe.pcinput.HandoffIme
+        packageName=com.qihoo.appstore
+        labelRes=0x0 nonLocalizedLabel=360æ¼ç¤ºé®ç icon=0x0 banner=0x0
+        enabled=true exported=true processName=com.qihoo.daemon
+        permission=android.permission.BIND_INPUT_METHOD
+        flags=0x0
+  InputMethod #2:
+    mId=com.koushikdutta.vysor/.VysorIME mSettingsActivityName=com.koushikdutta.vysor.DummyIMEActivity
+    mIsDefaultResId=0x0
+    Service:
+      priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+      ServiceInfo:
+        name=com.koushikdutta.vysor.VysorIME
+        packageName=com.koushikdutta.vysor
+        labelRes=0x7f080036 nonLocalizedLabel=null icon=0x0 banner=0x0
+        enabled=true exported=true processName=com.koushikdutta.vysor
+        permission=android.permission.BIND_INPUT_METHOD
+        flags=0x0
+  InputMethod #3:
+    mId=com.cyjh.mobileanjian/.input.inputkb mSettingsActivityName=null
+    mIsDefaultResId=0x0
+    Service:
+      priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+      ServiceInfo:
+        name=com.cyjh.mobileanjian.input.inputkb
+        packageName=com.cyjh.mobileanjian
+        labelRes=0x7f080094 nonLocalizedLabel=null icon=0x0 banner=0x0
+        enabled=true exported=true processName=com.cyjh.mobileanjian
+        permission=android.permission.BIND_INPUT_METHOD
+        flags=0x0
+  Clients:
+  Client ClientState{2516fff uid 10001 pid 26101}:
+    client=com.android.internal.view.IInputMethodClient$Stub$Proxy@b0691cc
+    inputContext=com.android.internal.view.IInputContext$Stub$Proxy@2006c15
+    sessionRequested=false
+    curSession=null
+  Client ClientState{c601113 uid 10017 pid 1571}:
+    client=com.android.internal.view.IInputMethodClient$Stub$Proxy@1cd3f50
+    inputContext=com.android.internal.view.IInputContext$Stub$Proxy@58e8549
+    sessionRequested=false
+    curSession=null
+  Client ClientState{85a9b2a uid 10017 pid 31209}:
+    client=com.android.internal.view.IInputMethodClient$Stub$Proxy@6570d1b
+    inputContext=com.android.internal.view.IInputContext$Stub$Proxy@6f0feb8
+    sessionRequested=false
+    curSession=null
+  Client ClientState{9c12e4e uid 10073 pid 2205}:
+    client=com.android.internal.view.IInputMethodClient$Stub$Proxy@1b0ab6f
+    inputContext=com.android.internal.view.IInputContext$Stub$Proxy@34f007c
+    sessionRequested=false
+    curSession=null
+  Client ClientState{c88b491 uid 10406 pid 23381}:
+    client=com.android.internal.view.IInputMethodClient$Stub$Proxy@65f3ff6
+    inputContext=com.android.internal.view.IInputContext$Stub$Proxy@a4f5ff7
+    sessionRequested=false
+    curSession=null
+  Client ClientState{6b12d05 uid 1000 pid 847}:
+    client=android.view.inputmethod.InputMethodManager$1@c606806
+    inputContext=android.view.inputmethod.InputMethodManager$ControlledInputConnectionWrapper@c05e15a
+    sessionRequested=false
+    curSession=null
+  Client ClientState{ec68f8b uid 1000 pid 4420}:
+    client=com.android.internal.view.IInputMethodClient$Stub$Proxy@ac9a868
+    inputContext=com.android.internal.view.IInputContext$Stub$Proxy@19c9481
+    sessionRequested=false
+    curSession=null
+  Client ClientState{1b0b926 uid 10017 pid 1325}:
+    client=com.android.internal.view.IInputMethodClient$Stub$Proxy@a0c9967
+    inputContext=com.android.internal.view.IInputContext$Stub$Proxy@ac4e314
+    sessionRequested=false
+    curSession=null
+  Client ClientState{93d9277 uid 10017 pid 1418}:
+    client=com.android.internal.view.IInputMethodClient$Stub$Proxy@4971c80
+    inputContext=com.android.internal.view.IInputContext$Stub$Proxy@a0652b9
+    sessionRequested=false
+    curSession=SessionState{uid 10017 pid 1418 method 7a426fe session 3134e64 channel ClientState{93d9277 uid 10017 pid 1418} (server)}
+  Client ClientState{c2d1926 uid 1000 pid 5840}:
+    client=com.android.internal.view.IInputMethodClient$Stub$Proxy@6417967
+    inputContext=com.android.internal.view.IInputContext$Stub$Proxy@9884314
+    sessionRequested=false
+    curSession=null
+  Client ClientState{1b90ec6 uid 10008 pid 1700}:
+    client=com.android.internal.view.IInputMethodClient$Stub$Proxy@e23a54e
+    inputContext=com.android.internal.view.IInputContext$Stub$Proxy@8c77b62
+    sessionRequested=false
+    curSession=SessionState{uid 10008 pid 1700 method 7a426fe session b3a2e5f channel ClientState{1b90ec6 uid 10008 pid 1700} (server)}
+  mCurMethodId=com.sec.android.inputmethod/.SamsungKeypad
+  mCurClient=ClientState{1b90ec6 uid 10008 pid 1700} mCurSeq=7536
+  mCurFocusedWindow=android.os.BinderProxy@87dea92
+  mCurId=com.sec.android.inputmethod/.SamsungKeypad mHaveConnect=true mBoundToMethod=true
+  mCurToken=android.os.Binder@7fedc8d
+  mCurIntent=Intent { act=android.view.InputMethod cmp=com.sec.android.inputmethod/.SamsungKeypad (has extras) }
+  mCurMethod=com.android.internal.view.IInputMethod$Stub$Proxy@7a426fe
+  mEnabledSession=SessionState{uid 10008 pid 1700 method 7a426fe session b3a2e5f channel ClientState{1b90ec6 uid 10008 pid 1700} (server)}
+  mShowRequested=false mShowExplicitlyRequested=false mShowForced=false mInputShown=false
+  mCurUserActionNotificationSequenceNumber=374
+  mSystemReady=true mInteractive=true
+  mSettingsObserver=SettingsObserver{mUserId=0 mRegistered=true mLastEnabled=com.samsung.inputmethod/.SamsungIME:com.sec.android.inputmethod/.SamsungKeypad:com.koushikdutta.vysor/.VysorIME}
+  mSwitchingController:
+    mSwitchingAwareRotationList:
+      rank=0 item=ImeSubtypeListItem{mImeName=Vysor mSubtypeName=Vysor mSubtypeId=0 mIsSystemLocale=false mIsSystemLanguage=false}
+    mSwitchingUnawareRotationList:
+      rank=0 item=ImeSubtypeListItem{mImeName=ä¸æé®ç mSubtypeName=å¤ç§è¯­è¨ mSubtypeId=47 mIsSystemLocale=true mIsSystemLanguage=true}
+ 
+Input method client state for android.view.inputmethod.InputMethodManager@2fe4530:
+  mService=com.android.internal.view.IInputMethodManager$Stub$Proxy@27845a9
+  mMainLooper=Looper (main, tid 1) {71de93d}
+  mIInputContext=android.view.inputmethod.InputMethodManager$ControlledInputConnectionWrapper@c25572e
+  mActive=true mHasBeenInactive=false mBindSequence=7536 mCurId=com.sec.android.inputmethod/.SamsungKeypad
+  mCurMethod=com.android.internal.view.IInputMethodSession$Stub$Proxy@57d439b
+  mCurRootView=com.android.internal.policy.PhoneWindow$DecorView{4d30093 V.E...... R....... 0,0-1080,1920}
+  mServedView=com.android.launcher2.AppIconView{47e6b4f VFED..CL. .F...... 0,0-270,330}
+  mNextServedView=com.android.launcher2.AppIconView{47e6b4f VFED..CL. .F...... 0,0-270,330}
+  mServedConnecting=false
+  mCurrentTextBoxAttribute:
+    inputType=0x0 imeOptions=0x0 privateImeOptions=null
+    actionLabel=null actionId=0
+    initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0
+    hintText=null label=null
+    packageName=com.sec.android.app.launcher fieldId=-1 fieldName=null
+    extras=null
+  mServedInputConnection=null
+  mCompletions=null
+  mCursorRect=Rect(0, 0 - 0, 0)
+  mCursorSelStart=0 mCursorSelEnd=0 mCursorCandStart=0 mCursorCandEnd=0
+  mNextUserActionNotificationSequenceNumber=374 mLastSentUserActionNotificationSequenceNumber=-1
+ 
+Input method service state for com.sec.android.inputmethod.SamsungKeypad@28a80d0:
+  mWindowCreated=true mWindowAdded=true
+  mWindowVisible=false mWindowWasVisible=false mInShowWindow=false
+  Configuration={0 1.0 showBtnBg = 0 ?mcc?mnc zh_CN ldltr sw360dp w360dp h616dp 480dpi nrml long port finger -keyb/v/h -nav/h mkbd/? s.10}
+  mToken=android.os.BinderProxy@dbb1c24
+  mInputBinding=InputBinding{android.os.BinderProxy@5b536f2 / uid 10008 / pid 1700}
+  mInputConnection=com.android.internal.view.InputConnectionWrapper@6125143
+  mStartedInputConnection=null
+  mInputStarted=true mInputViewStarted=false mCandidatesViewStarted=false
+  mInputEditorInfo:
+    inputType=0x0 imeOptions=0x0 privateImeOptions=null
+    actionLabel=null actionId=0
+    initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0
+    hintText=null label=null
+    packageName=com.sec.android.app.launcher fieldId=-1 fieldName=null
+    extras=null
+  mShowInputRequested=false mLastShowInputRequested=true mShowInputForced=false mShowInputFlags=0x0
+  mCandidatesVisibility=4 mFullscreenApplied=true mIsFullscreen=false mExtractViewHidden=false
+  mExtractedText: null
+  mExtractedToken=0
+  mIsInputViewShown=true mStatusIcon=0
+Last computed insets:
+  contentTopInsets=288 visibleTopInsets=288 touchableInsets=2 touchableRegion=SkRegion()
+ mShouldClearInsetOfPreviousIme=false
+
+####################################
+SamsungKeyboard Dump state :
+versionCode : 144505010
+versionName : 1.4.45
+
+ConfigFeature Status
+
+Primary Predict EngineType : XT9
+Floating Eng : XT9
+Operator : CHM
+Region : CHINA
+RO salesCode : CHM
+RO countryCode : CHINA
+
+===================================
+Debug Level : 0
+Tablet Mode :false
+KoreanMode :false
+Tablet Mode :false
+Current Lang Name : ä¸­æ
+Current Lang ID : [2053653326] Lang Code : [zh] Country Code : [CN]
+Orient Land : false
+InputType : 0
+ImeOptions : 0
+PrivateImeOptions : null
+
+===== EditorInfo status =====
+isAutoCompleteitionInput : false
+isUrlEmailMode : false isUrlInputType : false isEmailInputType : false
+isDigitEditor : true
+isNumberPasswordInputType : false
+isNumberOnlyInputType : true
+isDecimalNumberInputType : false
+isSignedNumberInputType : false
+isSignedDecimalNumberInputType : false
+isTextPasswordInputType : false
+isPasswordInputType : false
+isPhoneNumberInputClass : false
+isDateInputType : false isTimeInputType : false isDateTimeInputType : false
+isShortMessageInputType : false
+isSearchInputType : false
+
+===== PrivateImeOptions status =====
+RAW = null
+
+
+disableAutoCorrection = false
+disableEmoticonInput= false
+disableAmbiguousMode = false
+disableHWRInput = false
+disableVoice = false
+disableHanjaInput = false
+disableClipboard = false
+disableModeChange = false
+keyboardHeight = false
+enabledNextType = false
+
+
+===== ShiftController status =====
+ShiftState : false
+ShiftPressedState : false
+ShiftMomentaryState : false
+PressedShiftKeyCode : -255
+CapsLockState : false
+ShiftHoldOn : false
+SplitTapState : false
+
+survey Enabled : true

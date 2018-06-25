@@ -1,0 +1,60 @@
+<html>
+<head>
+  <title>f00020.html</title>
+  <link rel="stylesheet" type="text/css" href="themes/blue/style.css"/>
+  <link rel="stylesheet" type="text/css" href="jquery.treeTable.css"/>
+  <link rel="stylesheet" type="text/css" href="jquery.ui.css"/>
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+  <script type="text/javascript" src="jquery.js"></script>
+  <script type="text/javascript" src="jquery.cookie.js"></script>
+  <script type="text/javascript" src="jquery.hotkeys.js"></script>
+  <script type="text/javascript" src="jquery.jstree.js"></script>
+  <script type="text/javascript" src="jquery.tablesorter.js"></script>
+  <script type="text/javascript" src="jquery.tablednd.js"></script>
+  <script type="text/javascript" src="jquery.treeTable.js"></script>
+  <script type="text/javascript" src="jquery.flot.js"></script>
+  <script type="text/javascript" src="jquery.flot.navigate.js"></script>
+  <script type="text/javascript" src="jquery.flot.selection.js"></script>
+  <script type="text/javascript" src="jquery.ui.js"></script>
+  <script type="text/javascript" src="colResizable-1.3.source.js"></script>
+  <script type="text/javascript" src="/self$wsjs"></script>
+  <script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+<a name="ch0"></a><div class="btn-pop-out"><a href="f00020.html#ch0" target="_blank"><img src="ic_pop_out.png"/></a></div><h2>Fatal: </h2>
+<!--
+com.sonyericsson.chkbugreport.doc.InternalRef.<init>(InternalRef.java:33)
+com.sonyericsson.chkbugreport.doc.Bug.<init>(Bug.java:90)
+com.sonyericsson.chkbugreport.plugins.logs.LogPlugin.reportFatalLog(LogPlugin.java:417)
+com.sonyericsson.chkbugreport.plugins.logs.LogPlugin.analyze(LogPlugin.java:385)
+com.sonyericsson.chkbugreport.plugins.logs.SystemLogPlugin.analyze(SystemLogPlugin.java:113)
+com.sonyericsson.chkbugreport.plugins.logs.LogPlugin.load(LogPlugin.java:254)
+com.sonyericsson.chkbugreport.plugins.logs.SystemLogPlugin.load(SystemLogPlugin.java:64)
+com.sonyericsson.chkbugreport.Module.runPlugins(Module.java:662)
+com.sonyericsson.chkbugreport.Module.generate(Module.java:567)
+com.sonyericsson.chkbugreport.Main.run(Main.java:232)
+com.sonyericsson.chkbugreport.Main.main(Main.java:358)
+-->
+<div><a href="f00097.html#l34276938363">(link to log)</a></div><p>Log around the fatal log line (+/-10 lines):</p><div class="log">...<div class="log-line log-debug" id="l2246373427707904">12-24 17:22:18.289  <a href="f00227.html#ch0">1125</a>  2509 D NetworkManagement: Enter setInterfaceConfig, iface=wlan0</div>
+<div class="log-line log-debug" id="l2246373427773440">12-24 17:22:18.290  <a href="f00227.html#ch0">1125</a>  1146 D NetworkManagement: onEvent:600 Iface linkstate wlan0 down:5</div>
+<div class="log-line log-debug" id="l2246373427773441">12-24 17:22:18.290  <a href="f00227.html#ch0">1125</a>  2509 D NetdConnector: SND -&gt; {216 interface setcfg wlan0 0.0.0.0 0}</div>
+<div class="log-line log-debug" id="l2246373427773442">12-24 17:22:18.290   <a href="f00162.html#ch0">415</a>  1085 D FrameworkListener: dispatchCommand data = (216 interface setcfg wlan0 0.0.0.0 0)</div>
+<div class="log-line log-debug" id="l2246373427773443">12-24 17:22:18.290   <a href="f00162.html#ch0">415</a>  1085 D SocketClient: SocketClient sendData done: 200 216 Interface configuration set</div>
+<div class="log-line log-verbose" id="l2246373427773444">12-24 17:22:18.290  <a href="f00227.html#ch0">1125</a>  1146 V ActivityManager: Broadcast: Intent { act=android.net.conn.DATA_ACTIVITY_CHANGE flg=0x10 FromType=0xffffffff mCallingUid=1000 (has extras) } ordered=true userid=-1 callerApp=ProcessRecord{10a63b2 1125:system/1000, isShadow:false}</div>
+<div class="log-line log-debug" id="l2246373427773445">12-24 17:22:18.290  <a href="f00227.html#ch0">1125</a>  1275 D NetdConnector: RCV &lt;- {200 216 Interface configuration set}</div>
+<div class="log-line log-debug" id="l2246373427838976">12-24 17:22:18.291  <a href="f00227.html#ch0">1125</a>  2509 D NetdConnector: RMV &lt;- {200 216 Interface configuration set}</div>
+<div class="log-line log-debug" id="l2246373427838977">12-24 17:22:18.291  <a href="f00227.html#ch0">1125</a>  2509 D AlarmManager: manual remove option = PendingIntent{2d6e08c: PendingIntentRecord{63073d5 android broadcastIntent key.isShadow:false}}</div>
+<div class="log-line log-verbose" id="l2246373427838978">12-24 17:22:18.291  <a href="f00227.html#ch0">1125</a>  1146 V ActivityManager: Broadcast sticky: Intent { act=android.net.conn.DATA_ACTIVITY_CHANGE_CT flg=0x10 FromType=0xffffffff mCallingUid=1000 (has extras) } ordered=false userid=-1 callerApp=ProcessRecord{10a63b2 1125:system/1000, isShadow:false}</div>
+<div class="log-line log-fatal" id="l2246373432557568">12-24 17:22:18.363 <a href="f00161.html#ch0">10311</a> 10311 F AEE/DEBUG: </div>
+<div class="log-line log-fatal" id="l2246373432557569">12-24 17:22:18.363 <a href="f00161.html#ch0">10311</a> 10311 F AEE/DEBUG: </div>
+<div class="log-line log-fatal" id="l2246373432557570">12-24 17:22:18.363 <a href="f00161.html#ch0">10311</a> 10311 F AEE/DEBUG: ----- pid 1583 at 2017-12-24 17:22:18 -----</div>
+<div class="log-line log-fatal" id="l2246373432557571">12-24 17:22:18.363 <a href="f00161.html#ch0">10311</a> 10311 F AEE/DEBUG: Cmd line: /system/bin/sdcard</div>
+<div class="log-line log-fatal" id="l2246373432557572">12-24 17:22:18.363 <a href="f00161.html#ch0">10311</a> 10311 F AEE/DEBUG: ABI: 'arm64'</div>
+<div class="log-line log-debug" id="l2246373453791232">12-24 17:22:18.687   <a href="f00162.html#ch0">415</a>  1084 D SocketClient: SocketClient sendData done: </div>
+<div class="log-line log-debug" id="l2246373453791233">12-24 17:22:18.687   <a href="f00162.html#ch0">415</a>  1084 D SocketClient: SocketClient sendData done: </div>
+<div class="log-line log-debug" id="l2246373453922304">12-24 17:22:18.689   <a href="f00162.html#ch0">415</a>  1084 D SocketClient: SocketClient sendData done: </div>
+<div class="log-line log-debug" id="l2246373462507520">12-24 17:22:18.820  <a href="f00227.html#ch0">1125</a>  1962 D AlarmManager: manual remove option = PendingIntent{23af2e3: PendingIntentRecord{d0fbceb com.stv.stvpush broadcastIntent key.isShadow:false}}</div>
+<div class="log-line log-debug" id="l2246373462507521">12-24 17:22:18.820  <a href="f00227.html#ch0">1125</a>  1962 D AlarmManager: remove(operation) changed bounds; rebatching operation = PendingIntent{23af2e3: PendingIntentRecord{d0fbceb com.stv.stvpush broadcastIntent key.isShadow:false}}</div>
+<div class="log-line log-debug" id="l2246373462507522">12-24 17:22:18.820  <a href="f00227.html#ch0">1125</a>  1962 D AlarmManager: rebatchAllAlarmsLocked begin oldBatches count = 65</div>
+...</div></body>
+</html>

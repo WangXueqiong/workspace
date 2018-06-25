@@ -1,0 +1,31 @@
+WifiP2pService:
+ total records=10
+ rec[0]: time=12-20 16:51:03.246 processed=P2pDisabledState org=P2pDisabledState dest=P2pEnablingState what=131203(0x20083)
+ rec[1]: time=12-20 16:51:03.248 processed=P2pEnablingState org=P2pEnablingState dest=InactiveState what=147457(0x24001)
+ rec[2]: time=12-20 17:34:16.471 processed=P2pEnabledState org=InactiveState dest=P2pDisablingState what=131204(0x20084)
+ rec[3]: time=12-20 17:34:16.508 processed=P2pDisablingState org=P2pDisablingState dest=P2pDisabledState what=147458(0x24002)
+ rec[4]: time=12-20 19:28:16.604 processed=P2pDisabledState org=P2pDisabledState dest=P2pEnablingState what=131203(0x20083)
+ rec[5]: time=12-20 19:28:16.604 processed=P2pEnablingState org=P2pEnablingState dest=InactiveState what=147457(0x24001)
+ rec[6]: time=12-24 16:13:12.641 processed=P2pEnabledState org=InactiveState dest=P2pDisablingState what=131204(0x20084)
+ rec[7]: time=12-24 16:13:12.677 processed=P2pDisablingState org=P2pDisablingState dest=P2pDisabledState what=147458(0x24002)
+ rec[8]: time=12-24 17:18:40.649 processed=P2pDisabledState org=P2pDisabledState dest=P2pEnablingState what=131203(0x20083)
+ rec[9]: time=12-24 17:18:40.651 processed=P2pEnablingState org=P2pEnablingState dest=InactiveState what=147457(0x24001)
+curState=InactiveState
+mWifiP2pInfo groupFormed: false isGroupOwner: false groupOwnerAddress: null
+mGroup null
+mSavedPeerConfig null
+mSavedP2pGroup null
+Wi-Fi Direct api call history:
+[]
+
+mAutonomousGroup false
+mJoinExistingGroup false
+mDiscoveryStarted false
+mNetworkInfo [type: WIFI_P2P[] - WIFI_P2P, state: DISCONNECTED/DISCONNECTED, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: true]
+mTemporarilyDisconnectedWifi false
+mServiceDiscReqId null
+
+mEnableTrafficStatsPoll false
+mTrafficStatsPollToken 7
+mTxPkts 0
+mRxPkts 0

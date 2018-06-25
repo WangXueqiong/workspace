@@ -1,0 +1,47 @@
+========================================================
+== dumpstate: 2017-12-24 17:25:56
+========================================================
+
+Build: V066
+Build fingerprint: '360/QK1505/QK1505:6.0.1/MMB29M/6.0.066.P0.170823.QK1505:user/release-keys'
+Bootloader: unknown
+Radio: msm
+Network: (unknown)
+Kernel: Linux version 3.18.24-perf (system1@localhost) (gcc version 4.9.x-google 20140827 (prerelease) (GCC) ) #1 SMP PREEMPT Wed Aug 23 13:16:30 CST 2017
+Command line: sched_enable_hmp=1 sched_enable_power_aware=1 androidboot.console=ttyHSL0 androidboot.hardware=qcom msm_rtb.filter=0x237 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 androidboot.bootdevice=7824900.sdhci earlycon=msm_hsl_uart,0x78af000 androidboot.emmc=true androidboot.verifiedbootstate=green androidboot.veritymode=enforcing androidboot.keymaster=1 androidboot.serialno=9a05de63 androidboot.mode=normal androidboot.authorized_kernel=true androidboot.baseband=msm mdss_mdp.panel=1:dsi:0:qcom,mdss_dsi_ft8716_1080p_video:1:none:cfg:single_dsi product=1505_A02 hardver=P0 
+
+HW:         QK1505
+SW:         MMB29M
+Variant:    null/null
+Build type: user
+IMEI:       null
+
+================================
+Java Crash
+================================
+
+systemlog_log:
+12-24 16:03:52.573 16622 16622 E AndroidRuntime: FATAL EXCEPTION: main
+12-24 16:03:52.573 16622 16622 E AndroidRuntime: Process: com.koushikdutta.vysor, PID: 16622
+12-24 16:03:52.573 16622 16622 E AndroidRuntime: java.lang.IllegalArgumentException: View=com.android.internal.policy.PhoneWindow$DecorView{c101282 V.E...... R.....I. 0,0-0,0} not attached to window manager
+12-24 16:03:52.573 16622 16622 E AndroidRuntime: 	at android.view.WindowManagerGlobal.findViewLocked(WindowManagerGlobal.java:424)
+12-24 16:03:52.573 16622 16622 E AndroidRuntime: 	at android.view.WindowManagerGlobal.updateViewLayout(WindowManagerGlobal.java:336)
+12-24 16:03:52.573 16622 16622 E AndroidRuntime: 	at android.view.WindowManagerImpl.updateViewLayout(WindowManagerImpl.java:93)
+12-24 16:03:52.573 16622 16622 E AndroidRuntime: 	at android.app.Dialog.onWindowAttributesChanged(Dialog.java:718)
+12-24 16:03:52.573 16622 16622 E AndroidRuntime: 	at android.view.Window.dispatchWindowAttributesChanged(Window.java:878)
+12-24 16:03:52.573 16622 16622 E AndroidRuntime: 	at com.android.internal.policy.PhoneWindow.dispatchWindowAttributesChanged(PhoneWindow.java:4303)
+12-24 16:03:52.573 16622 16622 E AndroidRuntime: 	at android.view.Window.setLayout(Window.java:719)
+12-24 16:03:52.573 16622 16622 E AndroidRuntime: 	at android.inputmethodservice.InputMethodService.onConfigureWindow(InputMethodService.java:982)
+12-24 16:03:52.573 16622 16622 E AndroidRuntime: 	at android.inputmethodservice.InputMethodService.updateFullscreenMode(InputMethodService.java:953)
+12-24 16:03:52.573 16622 16622 E AndroidRuntime: 	at android.inputmethodservice.InputMethodService.showWindowInner(InputMethodService.java:1474)
+12-24 16:03:52.573 16622 16622 E AndroidRuntime: 	at android.inputmethodservice.InputMethodService.showWindow(InputMethodService.java:1449)
+12-24 16:03:52.573 16622 16622 E AndroidRuntime: 	at android.inputmethodservice.InputMethodService$InputMethodImpl.showSoftInput(InputMethodService.java:439)
+12-24 16:03:52.573 16622 16622 E AndroidRuntime: 	at android.inputmethodservice.IInputMethodWrapper.executeMessage(IInputMethodWrapper.java:203)
+12-24 16:03:52.573 16622 16622 E AndroidRuntime: 	at com.android.internal.os.HandlerCaller$MyHandler.handleMessage(HandlerCaller.java:37)
+12-24 16:03:52.573 16622 16622 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+12-24 16:03:52.573 16622 16622 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:148)
+12-24 16:03:52.573 16622 16622 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:5518)
+12-24 16:03:52.573 16622 16622 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+12-24 16:03:52.573 16622 16622 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:755)
+12-24 16:03:52.573 16622 16622 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:645)
+

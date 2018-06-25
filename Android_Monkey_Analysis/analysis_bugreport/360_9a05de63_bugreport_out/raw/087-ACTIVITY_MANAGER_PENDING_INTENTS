@@ -1,0 +1,1319 @@
+  * PendingIntentRecord{31fb705 com.qihoo360.mobilesafe startService}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startService flags=0x40000000
+    requestCode=2 requestResolvedType=null
+    requestIntent=act=ACTION_LAUNCH_PLUGIN flg=0x14000000 cmp=com.qihoo360.mobilesafe/.main.CasualService (has extras)
+  * PendingIntentRecord{4e24fe8 com.tencent.mm broadcastIntent}
+    uid=10106 packageName=com.tencent.mm type=broadcastIntent flags=0x0
+    requestCode=1106 requestResolvedType=null
+    requestIntent=act=ALARM_ACTION(5093) (has extras)
+  * PendingIntentRecord{f2a8898 com.tencent.mobileqq broadcastIntent}
+    uid=10111 packageName=com.tencent.mobileqq type=broadcastIntent flags=0x0
+    requestIntent=act=action.scheduler.access.trigger.timer
+  * PendingIntentRecord{184884e com.qihoo360.mobilesafe broadcastIntent}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=broadcastIntent flags=0x0
+    requestCode=2141520611 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{149fd6f com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520546 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{1726762 com.tencent.mm broadcastIntent}
+    uid=10106 packageName=com.tencent.mm type=broadcastIntent flags=0x0
+    requestCode=1077 requestResolvedType=null
+    requestIntent=act=ALARM_ACTION(5093) (has extras)
+    sent=true canceled=false
+  * PendingIntentRecord{b21298b com.tencent.mobileqq broadcastIntent}
+    uid=10111 packageName=com.tencent.mobileqq type=broadcastIntent flags=0x0
+    requestIntent=cmp=com.tencent.mobileqq/.app.NotificationDeleteReceiver
+  * PendingIntentRecord{4493a68 com.tencent.mm startService}
+    uid=10106 packageName=com.tencent.mm type=startService flags=0x0
+    requestCode=1 requestResolvedType=null
+    requestIntent=act=com.tencent.failnotificaiton.resend_msg flg=0x10000000 cmp=com.tencent.mm/.plugin.notification.ui.FailSendMsgNotification$FailSendNormalMsgNotificationService (has extras)
+  * PendingIntentRecord{4eafd21 com.eg.android.AlipayGphone broadcastIntent}
+    uid=10197 packageName=com.eg.android.AlipayGphone type=broadcastIntent flags=0x0
+    requestIntent=act=com.eg.android.AlipayGphone.push.action.CONNECT pkg=com.eg.android.AlipayGphone
+    sent=true canceled=false
+  * PendingIntentRecord{a92ea7c com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520533 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{be7cf05 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520454 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{5a4db5a com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520490 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{3a3018b com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520502 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{a76d367 android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=android.net.proxy.PAC_REFRESH
+  * PendingIntentRecord{1ab9514 com.android.systemui broadcastIntent}
+    uid=10032 packageName=com.android.systemui type=broadcastIntent flags=0x0
+    requestCode=2 requestResolvedType=null
+    requestIntent=act=screenshot_notification_delete (has extras)
+  * PendingIntentRecord{ef2c1bd com.tencent.mobileqq startActivity}
+    uid=10111 packageName=com.tencent.mobileqq type=startActivity flags=0x0
+    requestIntent=act=com.tencent.mobileqq.action.MAINACTIVITY flg=0x14000000 cmp=com.tencent.mobileqq/.activity.SplashActivity (has extras)
+  * PendingIntentRecord{911a419 com.qihoo.appstore startService}
+    uid=10010 packageName=com.qihoo.appstore type=startService flags=0x0
+    requestIntent=act=AUTO_GET_SINGIN_INFO_BACKGROUND_AND_SELF cmp=com.qihoo.appstore/com.qihoo.core.CoreService
+    sent=true canceled=false
+  * PendingIntentRecord{3623268 com.qihoo360.mobilesafe broadcastIntent}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=broadcastIntent flags=0x0
+    requestCode=2141520596 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{9b5681 com.qihoo360.mobilesafe broadcastIntent}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=broadcastIntent flags=0x0
+    requestCode=2141520572 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{99243b2 com.android.phone broadcastIntent}
+    uid=1001 packageName=com.android.phone type=broadcastIntent flags=0x0
+    requestIntent=act=com.android.internal.telephony.LONGSMS_FIRSTDISPLAY_TIMOUEOUT 0
+  * PendingIntentRecord{f455326 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520462 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{53e2b67 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520430 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{55c0d14 com.qihoo360.mobilesafe broadcastIntent}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=broadcastIntent flags=0x0
+    requestCode=2141520615 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{5a5d9bd com.qihoo360.mobilesafe broadcastIntent}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=broadcastIntent flags=0x0
+    requestCode=2141520564 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{5237bb2 com.qihoo360.mobilesafe broadcastIntent}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=broadcastIntent flags=0x0
+    requestCode=2141520558 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{415449a com.yulong.android.launcher3 broadcastIntent}
+    uid=10048 packageName=com.yulong.android.launcher3 type=broadcastIntent flags=0x0
+    requestCode=18 requestResolvedType=null
+    requestIntent=act=launcher.badge.adv.END (has extras)
+  * PendingIntentRecord{d781703 com.qihoo360.mobilesafe broadcastIntent}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=broadcastIntent flags=0x0
+    requestCode=2141520622 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{276e680 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520588 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{4c05a08 com.yulong.android.launcher3 broadcastIntent}
+    uid=10048 packageName=com.yulong.android.launcher3 type=broadcastIntent flags=0x0
+    requestCode=2 requestResolvedType=null
+    requestIntent=act=launcher.badge.adv.END (has extras)
+  * PendingIntentRecord{790dbd4 com.qihoo.appstore startService}
+    uid=10010 packageName=com.qihoo.appstore type=startService flags=0x0
+    requestIntent=act=CHECK_APPSTORE_UPDATE_BACKGROUND cmp=com.qihoo.appstore/com.qihoo.core.CoreService
+  * PendingIntentRecord{c9bcc17 com.tencent.mobileqq broadcastIntent}
+    uid=10111 packageName=com.tencent.mobileqq type=broadcastIntent flags=0x0
+    requestIntent=act=StepAlarmReceiver_action_report
+    sent=true canceled=false
+  * PendingIntentRecord{ddb54b9 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520556 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{a49a0fe com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520429 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{1933f03 android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestCode=1 requestResolvedType=null
+    requestIntent=act=android.app.backup.intent.RUN flg=0x40000000
+    sent=true canceled=false
+  * PendingIntentRecord{e695cda com.tencent.mm broadcastIntent}
+    uid=10106 packageName=com.tencent.mm type=broadcastIntent flags=0x0
+    requestCode=1105 requestResolvedType=null
+    requestIntent=act=ALARM_ACTION(5093) (has extras)
+    sent=true canceled=false
+  * PendingIntentRecord{2db205f com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520453 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{3a3eaac com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520447 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{b538375 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520485 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{61acf0a com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520594 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{3b637b com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520494 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{dbb0598 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520504 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{836ee80 com.tencent.mm startService}
+    uid=10106 packageName=com.tencent.mm type=startService flags=0x0
+    requestCode=1 requestResolvedType=null
+    requestIntent=act=com.tencent.failnotification.dismiss_msg cmp=com.tencent.mm/.plugin.notification.ui.FailSendMsgNotification$FailSendNormalMsgNotificationService (has extras)
+  * PendingIntentRecord{fe5e1f1 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520619 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{30ebcb9 android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=qiku.intent.action.BUTTON_LED_CHG
+  * PendingIntentRecord{11ed1d6 com.qihoo360.mobilesafe broadcastIntent}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=broadcastIntent flags=0x0
+    requestCode=2141520525 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{f331ffb com.tencent.mobileqq broadcastIntent}
+    uid=10111 packageName=com.tencent.mobileqq type=broadcastIntent flags=0x0
+    requestIntent=act=MSF_Action_Refresh_Steps
+    sent=true canceled=false
+  * PendingIntentRecord{1a1b1d7 android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=com.android.server.device_idle.STEP_IDLE_STATE flg=0x40000000 pkg=android
+    sent=true canceled=false
+  * PendingIntentRecord{b6dd6de android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=com.android.server.action.UPDATE_TWILIGHT_STATE
+    sent=true canceled=false
+  * PendingIntentRecord{f92bc57 com.qihoo360.mobilesafe broadcastIntent}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=broadcastIntent flags=0x0
+    requestCode=2141520509 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{d99df41 com.qiku.android.cloudsync broadcastIntent}
+    uid=10011 packageName=com.qiku.android.cloudsync type=broadcastIntent flags=0x0
+    requestIntent=act=com.xmpp.action.ALARM_TIMEUP
+    sent=true canceled=false
+  * PendingIntentRecord{926e344 com.qihoo360.mobilesafe broadcastIntent}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=broadcastIntent flags=0x0
+    requestCode=2141520586 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{2497cf com.yulong.android.ota broadcastIntent}
+    uid=1000 packageName=com.yulong.android.ota type=broadcastIntent flags=0x0
+    requestCode=1 requestResolvedType=null
+    requestIntent=act=com.qiku.ota.alarm.showdialog
+    sent=true canceled=false
+  * PendingIntentRecord{965ac2d com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520626 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{28e3562 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520463 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{a58e4ef android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=android.content.jobscheduler.JOB_DEADLINE_EXPIRED
+    sent=true canceled=false
+  * PendingIntentRecord{69cc6f3 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520437 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{850efb0 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520559 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{59dde29 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520417 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{4556b75 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=536872000 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{9a970a com.qihoo360.mobilesafe startService}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startService flags=0x40000000
+    requestIntent=act=ACTION_LAUNCH_PLUGIN cmp=com.qihoo360.mobilesafe/.main.CasualService (has extras)
+  * PendingIntentRecord{7938b7b com.qihoo.appstore startActivity}
+    uid=10010 packageName=com.qihoo.appstore type=startActivity flags=0x0
+    requestCode=2078581163 requestResolvedType=null
+    requestIntent=cmp=com.qihoo.appstore/.home.LauncherActivity (has extras)
+  * PendingIntentRecord{a9e45ae com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520574 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{132df4f com.qihoo360.mobilesafe broadcastIntent}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=broadcastIntent flags=0x0
+    requestCode=2141520448 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{8cd56dc com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520415 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{a740d98 android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestCode=5 requestResolvedType=null
+    requestIntent=act=android.app.backup.intent.INIT
+  * PendingIntentRecord{f6ef519 com.qihoo.appstore startService}
+    uid=10010 packageName=com.qihoo.appstore type=startService flags=0x0
+    requestIntent=act=RESTART_PUSH pkg=com.qihoo.appstore cmp=com.qihoo.appstore/com.qihoo.core.CoreService
+    sent=true canceled=false
+  * PendingIntentRecord{a0d33e5 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520569 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{58d0eba com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520488 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{568216b com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520418 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{b4704c8 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520609 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{9f8a3bf com.qiku.configcenter startService}
+    uid=10072 packageName=com.qiku.configcenter type=startService flags=0x0
+    requestIntent=act=com.qiku.intent.action.PERIODICAL_CHECK cmp=com.qiku.configcenter/.ConfigCenterService
+    sent=true canceled=false
+  * PendingIntentRecord{8505359 com.tianyancha.skyeye broadcastIntent}
+    uid=10299 packageName=com.tianyancha.skyeye type=broadcastIntent flags=0x0
+    requestIntent=act=com.taobao.accs.intent.action.COMMAND pkg=com.tianyancha.skyeye (has extras)
+    sent=true canceled=false
+  * PendingIntentRecord{b622961 com.qihoo360.mobilesafe broadcastIntent}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=broadcastIntent flags=0x0
+    requestCode=2141520541 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{7d319d6 com.eg.android.AlipayGphone startService}
+    uid=10197 packageName=com.eg.android.AlipayGphone type=startService flags=0x40000000
+    requestIntent=act=alipay.pushservice.action.CLICK_4tGaafYuRW cmp=com.eg.android.AlipayGphone/com.alipay.mobile.rome.pushservice.integration.PushDistributerService (has extras)
+  * PendingIntentRecord{36d5c86 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520461 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{4f4482e com.tencent.mm broadcastIntent}
+    uid=10106 packageName=com.tencent.mm type=broadcastIntent flags=0x0
+    requestIntent=cmp=com.tencent.mm/.booter.MMReceivers$AlarmReceiver
+    sent=true canceled=false
+  * PendingIntentRecord{8456457 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141519897 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{d656947 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520424 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{e2ba574 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520620 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{b6fa9d com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520587 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{b2bb12 com.android.gallery3d broadcastIntent}
+    uid=10020 packageName=com.android.gallery3d type=broadcastIntent flags=0x0
+    requestIntent=act=android.mtp.MtpClient.action.USB_PERMISSION
+  * PendingIntentRecord{30552e3 com.qihoo360.mobilesafe broadcastIntent}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=broadcastIntent flags=0x0
+    requestCode=2141520535 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{717a4e0 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520427 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{e8da399 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520598 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{b7d765e com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520580 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{7c15d16 com.tencent.mm broadcastIntent}
+    uid=10106 packageName=com.tencent.mm type=broadcastIntent flags=0x0
+    requestCode=1091 requestResolvedType=null
+    requestIntent=act=ALARM_ACTION(5093) (has extras)
+    sent=true canceled=false
+  * PendingIntentRecord{9303a3f com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520553 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{7022f0c com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520408 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{58be055 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520590 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{27b4629 android startActivity}
+    uid=1000 packageName=android type=startActivity flags=0x0
+    requestIntent=act=android.settings.APPLICATION_DETAILS_SETTINGS dat=package:com.tencent.mm
+  * PendingIntentRecord{1a69a6a com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520432 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{ef83b5b com.qihoo360.mobilesafe broadcastIntent}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=broadcastIntent flags=0x0
+    requestCode=2141520551 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{1b7dedc com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=536870936 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{5292ff8 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520584 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{f72cd1 com.qihoo360.mobilesafe broadcastIntent}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=broadcastIntent flags=0x0
+    requestCode=2141520585 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{b591be5 android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=com.android.internal.location.ALARM_WAKEUP
+  * PendingIntentRecord{38bf336 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520511 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{a390925 com.eg.android.AlipayGphone broadcastIntent}
+    uid=10197 packageName=com.eg.android.AlipayGphone type=broadcastIntent flags=0x0
+    requestCode=20140225 requestResolvedType=null
+    requestIntent=act=com.eg.android.AlipayGphone.push.action.AMNET_ALARMTIMER (has extras)
+  * PendingIntentRecord{38ed6ba com.qihoo360.mobilesafe startService}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startService flags=0x40000000
+    requestCode=-15001 requestResolvedType=null
+    requestIntent=act=ACTION_LAUNCH_PLUGIN cmp=com.qihoo360.mobilesafe/.main.CasualService (has extras)
+  * PendingIntentRecord{8753237 com.qihoo360.mobilesafe broadcastIntent}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=broadcastIntent flags=0x0
+    requestCode=2141520492 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{cbd53a4 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520457 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{da98e76 android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=android.content.syncmanager.SYNC_ALARM
+    sent=true canceled=false
+  * PendingIntentRecord{79511ee com.qihoo.appstore startService}
+    uid=10010 packageName=com.qihoo.appstore type=startService flags=0x0
+    requestIntent=act=AUTO_UPDATE_APP_AND_SELF_BACKGROUND cmp=com.qihoo.appstore/com.qihoo.core.CoreService
+    sent=true canceled=false
+  * PendingIntentRecord{f0c50d com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520539 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{c1e61bc com.yulong.android.launcher3 broadcastIntent}
+    uid=10048 packageName=com.yulong.android.launcher3 type=broadcastIntent flags=0x0
+    requestCode=20 requestResolvedType=null
+    requestIntent=act=launcher.badge.adv.END (has extras)
+  * PendingIntentRecord{79c0cc2 com.qihoo360.mobilesafe broadcastIntent}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=broadcastIntent flags=0x0
+    requestCode=2141520442 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{960bad3 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520505 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{94e0610 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520512 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{3c3a486 com.android.phone broadcastIntent}
+    uid=1001 packageName=com.android.phone type=broadcastIntent flags=0x0
+    requestIntent=act=com.android.internal.telephony.LONGSMS_FIRSTDISPLAY_TIMOUEOUT 1
+  * PendingIntentRecord{c121147 com.qihoo360.mobilesafe startService}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startService flags=0x40000000
+    requestCode=3 requestResolvedType=null
+    requestIntent=act=ACTION_LAUNCH_PLUGIN flg=0x14000000 cmp=com.qihoo360.mobilesafe/.main.CasualService (has extras)
+  * PendingIntentRecord{ae93273 com.tencent.mobileqq broadcastIntent}
+    uid=10111 packageName=com.tencent.mobileqq type=broadcastIntent flags=0x0
+    requestIntent=act=com.tencent.mobileqq:MSF_44949136
+    sent=true canceled=false
+  * PendingIntentRecord{c71a509 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520623 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{aa2330e com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520423 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{9772f7d com.yulong.android.calendar broadcastIntent}
+    uid=10007 packageName=com.yulong.android.calendar type=broadcastIntent flags=0x0
+    requestIntent=act=yulong.intent.action.CUSTOMDAY_NEXTALERT
+  * PendingIntentRecord{d72312f com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520439 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{583b04b com.yulong.android.launcher3 broadcastIntent}
+    uid=10048 packageName=com.yulong.android.launcher3 type=broadcastIntent flags=0x0
+    requestCode=94960842 requestResolvedType=null
+    requestIntent=act=qiku.launcher.action.data.report
+    sent=true canceled=false
+  * PendingIntentRecord{8df2d74 com.android.systemui startActivity}
+    uid=10032 packageName=com.android.systemui type=startActivity flags=0x0
+    requestCode=1 requestResolvedType=image/png
+    requestIntent=act=action_nextgen_edit dat=content://media/external/images/media/61795 typ=image/png flg=0x10008001 (has extras)
+  * PendingIntentRecord{df5733c com.qihoo360.mobilesafe broadcastIntent}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=broadcastIntent flags=0x0
+    requestCode=2141520548 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{ac8cf10 com.eg.android.AlipayGphone broadcastIntent}
+    uid=10197 packageName=com.eg.android.AlipayGphone type=broadcastIntent flags=0x0
+    requestCode=72224 requestResolvedType=null
+    requestIntent=act=com.eg.android.AlipayGphone.push.action.AMNET_ALARMTIMER (has extras)
+  * PendingIntentRecord{297e29d com.qihoo.appstore startActivity}
+    uid=10010 packageName=com.qihoo.appstore type=startActivity flags=0x0
+    requestIntent=act=com.qihoo.appstore.notify_download_list cmp=com.qihoo.appstore/.home.MainActivity (has extras)
+  * PendingIntentRecord{4258312 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=536870937 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{fe763c7 com.qiku.cardmanager broadcastIntent}
+    uid=10093 packageName=com.qiku.cardmanager type=broadcastIntent flags=0x0
+    requestIntent=act=com.qiku.utils.update.action.UPDATE_CHECK
+    sent=true canceled=false
+  * PendingIntentRecord{70688c5 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520498 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{8d2721a com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520495 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{a7ab14b com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520409 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{3448728 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520496 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{64bec41 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520613 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{b9595e6 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520503 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{8411727 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520617 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{c9f4a41 com.eg.android.AlipayGphone startService}
+    uid=10197 packageName=com.eg.android.AlipayGphone type=startService flags=0x0
+    requestIntent=act=com.eg.android.AlipayGphone.intent.action.COCKROACH (has extras)
+  * PendingIntentRecord{7eeedd4 com.qihoo360.mobilesafe broadcastIntent}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=broadcastIntent flags=0x0
+    requestCode=2141520531 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{32a0b7d com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520537 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{5a1c855 com.android.systemui startActivity}
+    uid=10032 packageName=com.android.systemui type=startActivity flags=0x0
+    requestCode=0 requestResolvedType=image/png
+    requestIntent=act=android.intent.action.VIEW dat=content://media/external/images/media/61796 typ=image/png flg=0x10000000
+  * PendingIntentRecord{8152a72 com.qihoo360.mobilesafe broadcastIntent}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=broadcastIntent flags=0x0
+    requestCode=2141520542 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{a1dfec3 com.qiku.logredirect broadcastIntent}
+    uid=1000 packageName=com.qiku.logredirect type=broadcastIntent flags=0x0
+    requestIntent=cmp=com.qiku.logredirect/.LogRedirectorReceiver
+  * PendingIntentRecord{371340 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520410 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{2d0e279 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520540 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{e91ae56 android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=com.android.server.task.controllers.IdleController.ACTION_TRIGGER_IDLE flg=0x40000000 pkg=android
+    sent=true canceled=false
+  * PendingIntentRecord{e63819c com.sina.weibo broadcastIntent}
+    uid=10179 packageName=com.sina.weibo type=broadcastIntent flags=0x0
+    requestIntent=act=com.sina.pushtask.isruning.action.1004
+    sent=true canceled=false
+  * PendingIntentRecord{b225912 android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=android.net.wifi.DHCP_RENEW
+  * PendingIntentRecord{a877bbe com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520568 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{829b861 com.tencent.mm broadcastIntent}
+    uid=10106 packageName=com.tencent.mm type=broadcastIntent flags=0x0
+    requestIntent=act=action.scheduler.access.trigger.timer
+  * PendingIntentRecord{657c41f com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520600 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{1a236c com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520443 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{3742d35 com.koushikdutta.vysor broadcastIntent}
+    uid=10002 packageName=com.koushikdutta.vysor type=broadcastIntent flags=0x0
+    requestIntent=act=com.koushikdutta.vysor.5fe5cb8f-ce03-472b-a49b-a7baa6e3cdbc.SWITCH_KEYBOARD
+  * PendingIntentRecord{697723c com.sina.weibo broadcastIntent}
+    uid=10179 packageName=com.sina.weibo type=broadcastIntent flags=0x0
+    requestIntent=act=com.sina.heartbeat.action.1004
+    sent=true canceled=false
+  * PendingIntentRecord{f62dba4 android startActivity}
+    uid=1000 packageName=android type=startActivity flags=0x0
+    requestIntent=act=android.settings.APPLICATION_DETAILS_SETTINGS dat=package:com.eg.android.AlipayGphone
+  * PendingIntentRecord{a3b95ca com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520414 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{73e833b com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520413 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{c3c0a58 com.qihoo360.mobilesafe broadcastIntent}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=broadcastIntent flags=0x0
+    requestCode=2141520501 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{dbad0d android startActivity}
+    uid=1000 packageName=android type=startActivity flags=0x0
+    requestIntent=act=android.settings.ACTION_NOTIFICATION_LISTENER_SETTINGS
+  * PendingIntentRecord{8c767b1 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520446 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{8c64dbe com.tencent.mm broadcastIntent}
+    uid=10106 packageName=com.tencent.mm type=broadcastIntent flags=0x0
+    requestCode=1080 requestResolvedType=null
+    requestIntent=act=ALARM_ACTION(5093) (has extras)
+    sent=true canceled=false
+  * PendingIntentRecord{2654496 com.qihoo360.mobilesafe broadcastIntent}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=broadcastIntent flags=0x0
+    requestCode=2141520595 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{2081817 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520629 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{d937404 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520433 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{439cded com.qihoo360.mobilesafe broadcastIntent}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=broadcastIntent flags=0x0
+    requestCode=2141520561 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{ba91422 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520583 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{f6c1eb3 com.qihoo360.mobilesafe broadcastIntent}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=broadcastIntent flags=0x0
+    requestCode=2141520554 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{3d5cc70 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520497 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{5092b35 com.eg.android.AlipayGphone broadcastIntent}
+    uid=10197 packageName=com.eg.android.AlipayGphone type=broadcastIntent flags=0x0
+    requestCode=100 requestResolvedType=null
+    requestIntent=act=com.eg.android.AlipayGphone.push.action.CHECK pkg=com.eg.android.AlipayGphone
+    sent=true canceled=false
+  * PendingIntentRecord{4f25be9 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520550 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{21e4456 com.yulong.android.ota startService}
+    uid=1000 packageName=com.yulong.android.ota type=startService flags=0x0
+    requestIntent=act=android.intent.action.ALARM_GET_STRATEGY (has extras)
+    sent=true canceled=false
+  * PendingIntentRecord{268506e com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520419 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{4230d09 com.android.systemui startActivity}
+    uid=10032 packageName=com.android.systemui type=startActivity flags=0x0
+    requestCode=1 requestResolvedType=image/png
+    requestIntent=act=action_nextgen_edit dat=content://media/external/images/media/61796 typ=image/png flg=0x10008001 (has extras)
+  * PendingIntentRecord{edb7b0e android startActivity}
+    uid=1000 packageName=android type=startActivity flags=0x0
+    requestIntent=act=android.settings.INPUT_METHOD_SETTINGS
+  * PendingIntentRecord{5b82934 android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=com.android.server.NetworkTimeUpdateService.action.POLL
+    sent=true canceled=false
+  * PendingIntentRecord{dc5d92f com.android.systemui startActivity}
+    uid=10032 packageName=com.android.systemui type=startActivity flags=0x0
+    requestCode=0 requestResolvedType=image/png
+    requestIntent=act=android.intent.action.VIEW dat=content://media/external/images/media/61799 typ=image/png flg=0x10000000
+  * PendingIntentRecord{1fff30f com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520514 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{2a33f9c com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520416 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{b8bcda5 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520411 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{b583a1a com.android.systemui startActivity}
+    uid=10032 packageName=com.android.systemui type=startActivity flags=0x0
+    requestIntent=act=android.intent.action.CHOOSER flg=0x10008000 (has extras)
+  * PendingIntentRecord{5cd057a com.qihoo360.mobilesafe broadcastIntent}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=broadcastIntent flags=0x0
+    requestCode=2141520445 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{652b12b com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520577 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{6738f28 com.qihoo.appstore broadcastIntent}
+    uid=10010 packageName=com.qihoo.appstore type=broadcastIntent flags=0x0
+    requestIntent=act=com.qihoo.appstore.utils.ActivityBroadcastReceiver.ACTION_INTENT_TRANSFER pkg=com.qihoo.appstore cmp=com.qihoo.appstore/.utils.BackgroundStartActivity$ActivityBroadcastReceiver (has extras)
+  * PendingIntentRecord{572b988 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520510 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{a61bf27 com.tencent.mm startService}
+    uid=10106 packageName=com.tencent.mm type=startService flags=0x0
+    requestCode=1 requestResolvedType=null
+    requestIntent=act=com.tencent.failnotification.click_msg cmp=com.tencent.mm/.plugin.notification.ui.FailSendMsgNotification$FailSendNormalMsgNotificationService (has extras)
+  * PendingIntentRecord{d909f21 com.qihoo360.mobilesafe broadcastIntent}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=broadcastIntent flags=0x0
+    requestCode=2141520459 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{b95ff46 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520543 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{8c93507 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520526 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{63de634 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520545 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{6f6ece8 com.qiku.powerengine broadcastIntent}
+    uid=1000 packageName=com.qiku.powerengine type=broadcastIntent flags=0x0
+    requestIntent=act=android.action.BROADCAST_WEIXIN_STANDBY (has extras)
+    sent=true canceled=false
+  * PendingIntentRecord{4b70c5d com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520557 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{6660abb com.tencent.mm broadcastIntent}
+    uid=10106 packageName=com.tencent.mm type=broadcastIntent flags=0x0
+    requestCode=1087 requestResolvedType=null
+    requestIntent=act=ALARM_ACTION(5093) (has extras)
+    sent=true canceled=false
+  * PendingIntentRecord{1a126c3 android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=android.settings.SHOW_INPUT_METHOD_PICKER
+  * PendingIntentRecord{4a2c9d2 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520444 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{e55373d com.tencent.mm broadcastIntent}
+    uid=10106 packageName=com.tencent.mm type=broadcastIntent flags=0x0
+    requestCode=1083 requestResolvedType=null
+    requestIntent=act=ALARM_ACTION(5093) (has extras)
+    sent=true canceled=false
+  * PendingIntentRecord{f486f49 com.tencent.mm broadcastIntent}
+    uid=10106 packageName=com.tencent.mm type=broadcastIntent flags=0x0
+    requestCode=1065 requestResolvedType=null
+    requestIntent=act=ALARM_ACTION(5093) (has extras)
+    sent=true canceled=false
+  * PendingIntentRecord{d3a1aa3 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520428 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{2ed31a0 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520412 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{b516caa android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x4000000
+    requestIntent=act=android.intent.action.DATE_CHANGED flg=0x20000000
+    sent=true canceled=false
+  * PendingIntentRecord{28e9d6 com.qiku.logsystem startService}
+    uid=1000 packageName=com.qiku.logsystem type=startService flags=0x0
+    requestIntent=cmp=com.qiku.logsystem/.services.ControlDispatchService (has extras)
+    sent=true canceled=false
+  * PendingIntentRecord{dac4a79 com.android.packageinstaller startActivity}
+    uid=10046 packageName=com.android.packageinstaller type=startActivity flags=0x0
+    requestIntent=act=android.intent.action.dotstub.downloadactivity
+  * PendingIntentRecord{5dd1159 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520425 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{3a2c3be com.android.systemui startActivity}
+    uid=10032 packageName=com.android.systemui type=startActivity flags=0x0
+    requestCode=0 requestResolvedType=image/png
+    requestIntent=act=android.intent.action.VIEW dat=content://media/external/images/media/61795 typ=image/png flg=0x10000000
+  * PendingIntentRecord{e3fb11e com.qihoo360.mobilesafe broadcastIntent}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=broadcastIntent flags=0x0
+    requestCode=2141520538 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{449bdff com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520487 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{d83c7cc com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520567 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{bc46a15 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520563 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{6feab3b android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=com.android.server.WifiManager.action.DEVICE_IDLE
+  * PendingIntentRecord{c31c12a com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520581 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{a863b1b com.qihoo360.mobilesafe broadcastIntent}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=broadcastIntent flags=0x0
+    requestCode=2141520528 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{2ef0f30 com.yulong.android.launcher3 broadcastIntent}
+    uid=10048 packageName=com.yulong.android.launcher3 type=broadcastIntent flags=0x0
+    requestIntent=act=com.yulong.android.launcher3.freezer.unused
+    sent=true canceled=false
+  * PendingIntentRecord{6d4b768 com.yulong.android.ota broadcastIntent}
+    uid=1000 packageName=com.yulong.android.ota type=broadcastIntent flags=0x0
+    requestIntent=act=com.qiku.ota.alarm.visit (has extras)
+    sent=true canceled=false
+  * PendingIntentRecord{6a7cfb1 android startActivity}
+    uid=1000 packageName=android type=startActivity flags=0x0
+    requestIntent=act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.android.settings/com.qiku.android.settings.activities.YLUsbSettings
+  * PendingIntentRecord{30b94b8 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520536 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{18e9291 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520513 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{aa18c96 com.qihoo.appstore broadcastIntent}
+    uid=10010 packageName=com.qihoo.appstore type=broadcastIntent flags=0x0
+    requestCode=-2029469742 requestResolvedType=null
+    requestIntent=act=com.qihoo.appstore.utils.ActivityBroadcastReceiver.ACTION_INTENT_TRANSFER pkg=com.qihoo.appstore cmp=com.qihoo.appstore/.utils.BackgroundStartActivity$ActivityBroadcastReceiver (has extras)
+  * PendingIntentRecord{782c5f6 com.qihoo360.mobilesafe broadcastIntent}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=broadcastIntent flags=0x0
+    requestCode=2141520618 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{b08365 com.qihoo.appstore startService}
+    uid=10010 packageName=com.qihoo.appstore type=startService flags=0x0
+    requestIntent=act=AUTO_UPDATE_APP_DAYTIME_AND_SELF_BACKGROUND cmp=com.qihoo.appstore/com.qihoo.core.CoreService
+    sent=true canceled=false
+  * PendingIntentRecord{d436df7 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520460 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{211afc5 com.yulong.android.launcher3 broadcastIntent}
+    uid=10048 packageName=com.yulong.android.launcher3 type=broadcastIntent flags=0x0
+    requestCode=205816800 requestResolvedType=null
+    requestIntent=act=qiku.launcher.action.click.report
+    sent=true canceled=false
+  * PendingIntentRecord{5414464 com.qihoo360.mobilesafe broadcastIntent}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=broadcastIntent flags=0x0
+    requestCode=2141520500 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{cee03f6 com.tencent.mm broadcastIntent}
+    uid=10106 packageName=com.tencent.mm type=broadcastIntent flags=0x0
+    requestCode=1094 requestResolvedType=null
+    requestIntent=act=ALARM_ACTION(5093) (has extras)
+    sent=true canceled=false
+  * PendingIntentRecord{1a2c017 android startActivity}
+    uid=1000 packageName=android type=startActivity flags=0x0
+    requestIntent=act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.android.settings/.DevelopmentSettings
+    sent=true canceled=false
+  * PendingIntentRecord{8f8c6cd com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520614 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{e0d4b82 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520599 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{19cfc04 com.qihoo.appstore startActivity}
+    uid=10010 packageName=com.qihoo.appstore type=startActivity flags=0x0
+    requestCode=2078581331 requestResolvedType=null
+    requestIntent=cmp=com.qihoo.appstore/.home.LauncherActivity (has extras)
+  * PendingIntentRecord{a5e2de9 android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=com.android.server.action.NETWORK_STATS_POLL
+    sent=true canceled=false
+  * PendingIntentRecord{136f293 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520426 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{f61dc22 com.tencent.mm startService}
+    uid=10106 packageName=com.tencent.mm type=startService flags=0x0
+    requestCode=2 requestResolvedType=null
+    requestIntent=act=com.tencent.failnotification.click_sns cmp=com.tencent.mm/.plugin.notification.ui.FailSendMsgNotification$FailSendSnsMsgNotificationService (has extras)
+  * PendingIntentRecord{20946b3 android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=com.qiku.android.service.Watchdog.OTABYFORCE pkg=android
+  * PendingIntentRecord{2efd470 android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=com.qiku.gps.monitor.timer.action pkg=android
+  * PendingIntentRecord{d013910 com.yulong.android.launcher3 broadcastIntent}
+    uid=10048 packageName=com.yulong.android.launcher3 type=broadcastIntent flags=0x0
+    requestIntent=act=com.yulong.android.launcher3.location.get
+    sent=true canceled=false
+  * PendingIntentRecord{30042d0 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520464 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{85802c9 com.qihoo360.mobilesafe broadcastIntent}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=broadcastIntent flags=0x0
+    requestCode=2141520455 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{ec89dce com.qihoo360.mobilesafe broadcastIntent}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=broadcastIntent flags=0x0
+    requestCode=2141520605 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{6d424ef com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520534 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{b6ebbfc com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520486 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{c550285 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520570 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{ed4c8da com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520597 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{868210b com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520627 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{7e99be8 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520576 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{9684201 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520603 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{34698a6 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520628 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{df5c2e7 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520489 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{8b08e94 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520451 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{915fd3d com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520420 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{bb39932 com.qihoo360.mobilesafe broadcastIntent}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=broadcastIntent flags=0x0
+    requestCode=2141520589 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{d312f06 com.tencent.mm broadcastIntent}
+    uid=10106 packageName=com.tencent.mm type=broadcastIntent flags=0x0
+    requestCode=1 requestResolvedType=null
+    requestIntent=act=com.tencent.mm.TrafficStatsReceiver
+    sent=true canceled=false
+  * PendingIntentRecord{2d1a683 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520403 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{520000 com.qihoo360.mobilesafe broadcastIntent}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=broadcastIntent flags=0x0
+    requestCode=2141520592 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{eea3039 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520549 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{c4d0c90 com.yulong.android.launcher3 broadcastIntent}
+    uid=10048 packageName=com.yulong.android.launcher3 type=broadcastIntent flags=0x0
+    requestIntent=act=com.yulong.android.launcher3.AppConf
+  * PendingIntentRecord{97e167e com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520529 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{8fe27df com.qihoo360.mobilesafe broadcastIntent}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=broadcastIntent flags=0x0
+    requestCode=2141520493 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{a6cd92b com.tencent.mm startActivity}
+    uid=10106 packageName=com.tencent.mm type=startActivity flags=0x0
+    requestCode=4097 requestResolvedType=null
+    requestIntent=flg=0x24000000 cmp=com.tencent.mm/.ui.LauncherUI (has extras)
+  * PendingIntentRecord{9d71c2c com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520434 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{13496f5 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520530 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{fe11c8a com.qihoo360.mobilesafe broadcastIntent}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=broadcastIntent flags=0x0
+    requestCode=2141520565 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{19198ec android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=com.android.server.WifiManager.action.START_PNO flg=0x4000000 pkg=android
+  * PendingIntentRecord{d016d88 com.qihoo.appstore startService}
+    uid=10010 packageName=com.qihoo.appstore type=startService flags=0x0
+    requestIntent=act=TAKE_PUSH_KEEPALIVE pkg=com.qihoo.appstore cmp=com.qihoo.appstore/com.qihoo.core.CoreService
+  * PendingIntentRecord{1e7e878 com.tencent.mm broadcastIntent}
+    uid=10106 packageName=com.tencent.mm type=broadcastIntent flags=0x0
+    requestCode=1074 requestResolvedType=null
+    requestIntent=act=ALARM_ACTION(5093) (has extras)
+    sent=true canceled=false
+  * PendingIntentRecord{cc5c188 com.android.phone broadcastIntent}
+    uid=1001 packageName=com.android.phone type=broadcastIntent flags=0x0
+    requestIntent=act=com.android.internal.telephony.LONGSMS_TIMOUEOUT 1
+  * PendingIntentRecord{7788cd com.qihoo.appstore startService}
+    uid=10010 packageName=com.qihoo.appstore type=startService flags=0x0
+    requestCode=2130838159 requestResolvedType=null
+    requestIntent=act=com.qihoo.appstore.notificationCore cmp=com.qihoo.appstore/.push.TransitService (has extras)
+    sent=true canceled=false
+  * PendingIntentRecord{4cbbbe com.qiku.widget3d broadcastIntent}
+    uid=10080 packageName=com.qiku.widget3d type=broadcastIntent flags=0x0
+    requestIntent=act=com.qiku.widget3d.AppConf
+  * PendingIntentRecord{64762fb com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520630 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{5afcf18 com.qihoo360.mobilesafe broadcastIntent}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=broadcastIntent flags=0x0
+    requestCode=2141520458 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{184ad71 com.qihoo360.mobilesafe broadcastIntent}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=broadcastIntent flags=0x0
+    requestCode=2141520449 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{8bc7756 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520591 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{71f33d7 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520441 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{c24dd8e com.yulong.android.launcher3 broadcastIntent}
+    uid=10048 packageName=com.yulong.android.launcher3 type=broadcastIntent flags=0x0
+    requestCode=19 requestResolvedType=null
+    requestIntent=act=launcher.badge.adv.END (has extras)
+  * PendingIntentRecord{95ec4c4 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520435 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{e5afad com.qihoo360.mobilesafe broadcastIntent}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=broadcastIntent flags=0x0
+    requestCode=2141520579 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{a20b2e2 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520610 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{3393673 com.qihoo360.mobilesafe broadcastIntent}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=broadcastIntent flags=0x0
+    requestCode=2141520452 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{a8632b7 com.yulong.android.ota startService}
+    uid=1000 packageName=com.yulong.android.ota type=startService flags=0x0
+    requestIntent=act=android.intent.action.ALARM_GET_PUSH (has extras)
+    sent=true canceled=false
+  * PendingIntentRecord{de56930 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520527 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{57142a3 android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=com.android.server.WifiManager.action.START_SCAN flg=0x4000000 pkg=android
+  * PendingIntentRecord{9939a0 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141519874 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{bda99a9 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520507 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{89b1b2e com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520562 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{fe6c6cf com.qihoo360.mobilesafe broadcastIntent}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=broadcastIntent flags=0x0
+    requestCode=2141520573 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{af0572f com.qihoo.appstore startService}
+    uid=10010 packageName=com.qihoo.appstore type=startService flags=0x0
+    requestIntent=act=CHECK_UPDATE_BACKGROUND cmp=com.qihoo.appstore/com.qihoo.core.CoreService
+  * PendingIntentRecord{461e1cf com.tencent.mm broadcastIntent}
+    uid=10106 packageName=com.tencent.mm type=broadcastIntent flags=0x0
+    requestCode=1071 requestResolvedType=null
+    requestIntent=act=ALARM_ACTION(5093) (has extras)
+    sent=true canceled=false
+  * PendingIntentRecord{8efe85c com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520440 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{a1a2765 com.qihoo360.mobilesafe broadcastIntent}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=broadcastIntent flags=0x0
+    requestCode=2141520582 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{241bc3a com.qihoo360.mobilesafe broadcastIntent}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=broadcastIntent flags=0x0
+    requestCode=2141520508 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{c3300eb com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520616 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{512ddb com.qiku.cardmanager startService}
+    uid=10093 packageName=com.qiku.cardmanager type=startService flags=0x0
+    requestIntent=act=com.qiku.cardmanager.config.FETCHCONFIG cmp=com.qiku.cardmanager/.CardManagerService
+    sent=true canceled=false
+  * PendingIntentRecord{cc12e48 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520560 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{92a8bd1 com.sina.weibo broadcastIntent}
+    uid=10179 packageName=com.sina.weibo type=broadcastIntent flags=0x0
+    requestIntent=cmp=com.sina.weibo/.localpush.LocalPushAlarmReceiver
+  * PendingIntentRecord{9905034 com.tianyancha.skyeye startService}
+    uid=10299 packageName=com.tianyancha.skyeye type=startService flags=0x0
+    requestIntent=act=com.tianyancha.skyeye.intent.action.COCKROACH (has extras)
+    sent=true canceled=false
+  * PendingIntentRecord{e0ad4e1 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520406 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{d7a631b com.tencent.mm startService}
+    uid=10106 packageName=com.tencent.mm type=startService flags=0x0
+    requestCode=1 requestResolvedType=null
+    requestIntent=act=com.tencent.failnotification.omit_msg cmp=com.tencent.mm/.plugin.notification.ui.FailSendMsgNotification$FailSendNormalMsgNotificationService (has extras)
+  * PendingIntentRecord{79ec2c9 android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=android.content.jobscheduler.JOB_DELAY_EXPIRED
+    sent=true canceled=false
+  * PendingIntentRecord{7c2fa91 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=536870914 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{e7f6206 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520607 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{2bec0c7 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520407 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{f5215f7 com.tencent.mm startService}
+    uid=10106 packageName=com.tencent.mm type=startService flags=0x0
+    requestCode=2 requestResolvedType=null
+    requestIntent=act=com.tencent.failnotification.dismiss_sns cmp=com.tencent.mm/.plugin.notification.ui.FailSendMsgNotification$FailSendSnsMsgNotificationService (has extras)
+  * PendingIntentRecord{adee6f4 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520491 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{ffede1d com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520575 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{caecc64 com.android.systemui startActivity}
+    uid=10032 packageName=com.android.systemui type=startActivity flags=0x0
+    requestCode=1 requestResolvedType=image/png
+    requestIntent=act=action_nextgen_edit dat=content://media/external/images/media/61799 typ=image/png flg=0x10008001 (has extras)
+  * PendingIntentRecord{e9f9892 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520544 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{82da74c android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=android.intent.action.TIME_TICK flg=0x50000000
+    sent=true canceled=false
+  * PendingIntentRecord{d5ca263 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520606 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{57d7e60 com.qihoo360.mobilesafe broadcastIntent}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=broadcastIntent flags=0x0
+    requestCode=2141520555 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{20baecd android startActivity}
+    uid=1000 packageName=android type=startActivity flags=0x0
+    requestIntent=act=android.intent.action.CHOOSER (has extras)
+  * PendingIntentRecord{dca1382 com.qihoo.appstore startActivity}
+    uid=10010 packageName=com.qihoo.appstore type=startActivity flags=0x0
+    requestCode=2021584516 requestResolvedType=null
+    requestIntent=cmp=com.qihoo.appstore/.home.LauncherActivity (has extras)
+  * PendingIntentRecord{593535 com.yulong.android.calendar startService}
+    uid=10007 packageName=com.yulong.android.calendar type=startService flags=0x0
+    requestIntent=act=yulong.intent.action.CACULATE_UNALERT_AGENDA
+  * PendingIntentRecord{1303f19 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520624 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{3b16ac9 com.tencent.mm startActivity}
+    uid=10106 packageName=com.tencent.mm type=startActivity flags=0x0
+    requestIntent=flg=0x24000000 cmp=com.tencent.mm/.ui.LauncherUI (has extras)
+  * PendingIntentRecord{189e5ce com.qihoo.appstore broadcastIntent}
+    uid=10010 packageName=com.qihoo.appstore type=broadcastIntent flags=0x0
+    requestCode=-2029469875 requestResolvedType=null
+    requestIntent=act=com.qihoo.appstore.utils.ActivityBroadcastReceiver.ACTION_INTENT_TRANSFER pkg=com.qihoo.appstore cmp=com.qihoo.appstore/.utils.BackgroundStartActivity$ActivityBroadcastReceiver (has extras)
+  * PendingIntentRecord{b1aabde com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520436 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{66d01bf com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520499 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{bac208c com.eg.android.AlipayGphone broadcastIntent}
+    uid=10197 packageName=com.eg.android.AlipayGphone type=broadcastIntent flags=0x0
+    requestCode=77271 requestResolvedType=null
+    requestIntent=act=com.eg.android.AlipayGphone.push.action.AMNET_ALARMTIMER (has extras)
+  * PendingIntentRecord{7dcea85 com.tencent.mm startService}
+    uid=10106 packageName=com.tencent.mm type=startService flags=0x0
+    requestCode=2 requestResolvedType=null
+    requestIntent=act=com.tencent.failnotification.omit_sns cmp=com.tencent.mm/.plugin.notification.ui.FailSendMsgNotification$FailSendSnsMsgNotificationService (has extras)
+  * PendingIntentRecord{27cb3d5 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520625 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{b38e332 com.qiku.powerengine broadcastIntent}
+    uid=1000 packageName=com.qiku.powerengine type=broadcastIntent flags=0x0
+    requestCode=2 requestResolvedType=null
+    requestIntent=act=android.action.BROADCAST_WEIXIN_STANDBY (has extras)
+    sent=true canceled=false
+  * PendingIntentRecord{9a1a7ea com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520578 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{128f80d com.tencent.mm broadcastIntent}
+    uid=10106 packageName=com.tencent.mm type=broadcastIntent flags=0x0
+    requestCode=1068 requestResolvedType=null
+    requestIntent=act=ALARM_ACTION(5093) (has extras)
+    sent=true canceled=false
+  * PendingIntentRecord{3f9fadb com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520602 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{c40b978 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520450 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{6290da com.android.phone broadcastIntent}
+    uid=1001 packageName=com.android.phone type=broadcastIntent flags=0x0
+    requestIntent=act=com.android.ims.IMS_INCOMING_CALL flg=0x10000000
+  * PendingIntentRecord{ae1b851 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520566 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{7ea58b6 com.qihoo360.mobilesafe broadcastIntent}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=broadcastIntent flags=0x0
+    requestCode=2141520608 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{2175439 com.tencent.mm broadcastIntent}
+    uid=10106 packageName=com.tencent.mm type=broadcastIntent flags=0x0
+    requestCode=1107 requestResolvedType=null
+    requestIntent=act=ALARM_ACTION(5093) (has extras)
+  * PendingIntentRecord{89369b7 com.qihoo360.mobilesafe broadcastIntent}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=broadcastIntent flags=0x0
+    requestCode=2141520532 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{b83f524 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520571 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{560a3e8 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141519896 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{986aa01 com.android.phone broadcastIntent}
+    uid=1001 packageName=com.android.phone type=broadcastIntent flags=0x0
+    requestIntent=act=com.android.internal.telephony.LONGSMS_TIMOUEOUT 0
+  * PendingIntentRecord{9b8888d com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520506 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{4fe6ae7 com.tencent.mm startService}
+    uid=10106 packageName=com.tencent.mm type=startService flags=0x0
+    requestCode=2 requestResolvedType=null
+    requestIntent=act=com.tencent.failnotificaiton.resend_sns flg=0x10000000 cmp=com.tencent.mm/.plugin.notification.ui.FailSendMsgNotification$FailSendSnsMsgNotificationService (has extras)
+  * PendingIntentRecord{73b4a42 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520422 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{5eaea53 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520552 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{79d3f90 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520431 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{b22089 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520456 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{4b7c88e com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520421 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{d2fd8af com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520604 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{7bec4bc com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520601 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{1933c45 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520593 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{8326132 android broadcastIntent}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=com.android.internal.location.ALARM_TIMEOUT
+  * PendingIntentRecord{a6bdf9a com.qihoo360.mobilesafe broadcastIntent}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=broadcastIntent flags=0x0
+    requestCode=2141520621 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{92b50cb com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520438 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{21170a8 com.qihoo360.mobilesafe broadcastIntent}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=broadcastIntent flags=0x0
+    requestCode=2141520612 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK pkg=com.qihoo360.mobilesafe (has extras)
+  * PendingIntentRecord{bb057c1 com.qihoo360.mobilesafe startActivity}
+    uid=10004 packageName=com.qihoo360.mobilesafe type=startActivity flags=0x0
+    requestCode=2141520547 requestResolvedType=null
+    requestIntent=act=com.qihoo360.mobilesafe.notification.CLICK flg=0x10000000 pkg=com.qihoo360.mobilesafe (has extras)
+

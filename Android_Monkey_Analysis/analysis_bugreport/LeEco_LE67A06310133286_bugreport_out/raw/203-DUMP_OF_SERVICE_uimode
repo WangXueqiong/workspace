@@ -1,0 +1,6 @@
+Current UI Mode Service state:
+  mDockState=0 mLastBroadcastState=0
+  mNightMode=1  mOledMode=4 mCarModeEnabled=false mComputedNightMode=false mCarModeEnableFlags=0
+  mCurUiMode=0x51 mSetUiMode=0x51
+  mHoldingConfiguration=false mSystemReady=true
+  mTwilightService.getCurrentState()={TwilightState: isNight=false, mYesterdaySunset=2017å¹´12æ23æ¥ ä¸å5:25:29, mTodaySunrise=2017å¹´12æ24æ¥ ä¸å7:05:10, mTodaySunset=2017å¹´12æ24æ¥ ä¸å5:26:02, mTomorrowSunrise=2017å¹´12æ25æ¥ ä¸å7:05:34}

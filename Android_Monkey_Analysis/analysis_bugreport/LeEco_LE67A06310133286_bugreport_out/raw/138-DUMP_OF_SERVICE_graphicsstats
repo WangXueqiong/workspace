@@ -1,0 +1,104 @@
+Package: android
+Stats since: 26021138539ns
+Total frames rendered: 3
+Janky frames: 2 (66.67%)
+90th percentile: 32ms
+95th percentile: 32ms
+99th percentile: 32ms
+Number Missed Vsync: 0
+Number High input latency: 0
+Number Slow UI thread: 0
+Number Slow bitmap uploads: 1
+Number Slow issue draw commands: 2
+
+Package: com.android.systemui
+Stats since: 33503082309ns
+Total frames rendered: 1433
+Janky frames: 154 (10.75%)
+90th percentile: 16ms
+95th percentile: 28ms
+99th percentile: 77ms
+Number Missed Vsync: 61
+Number High input latency: 1
+Number Slow UI thread: 91
+Number Slow bitmap uploads: 41
+Number Slow issue draw commands: 18
+
+Package: com.android.launcher3
+Stats since: 39391774924ns
+Total frames rendered: 785
+Janky frames: 85 (10.83%)
+90th percentile: 16ms
+95th percentile: 28ms
+99th percentile: 65ms
+Number Missed Vsync: 25
+Number High input latency: 1
+Number Slow UI thread: 55
+Number Slow bitmap uploads: 14
+Number Slow issue draw commands: 18
+
+Package: com.koushikdutta.vysor
+Stats since: 237777971013ns
+Total frames rendered: 0
+Janky frames: 0 (nan%)
+90th percentile: 133ms
+95th percentile: 133ms
+99th percentile: 133ms
+Number Missed Vsync: 0
+Number High input latency: 0
+Number Slow UI thread: 0
+Number Slow bitmap uploads: 0
+Number Slow issue draw commands: 0
+
+Package: com.tencent.mm
+Stats since: 272839012861ns
+Total frames rendered: 753
+Janky frames: 172 (22.84%)
+90th percentile: 27ms
+95th percentile: 46ms
+99th percentile: 105ms
+Number Missed Vsync: 61
+Number High input latency: 0
+Number Slow UI thread: 82
+Number Slow bitmap uploads: 38
+Number Slow issue draw commands: 52
+
+Package: com.android.settings
+Stats since: 936354681132ns
+Total frames rendered: 141
+Janky frames: 33 (23.40%)
+90th percentile: 19ms
+95th percentile: 34ms
+99th percentile: 89ms
+Number Missed Vsync: 12
+Number High input latency: 0
+Number Slow UI thread: 30
+Number Slow bitmap uploads: 15
+Number Slow issue draw commands: 4
+
+Package: com.tianyancha.skyeye
+Stats since: 206457927934ns
+Total frames rendered: 7526
+Janky frames: 700 (9.30%)
+90th percentile: 16ms
+95th percentile: 20ms
+99th percentile: 30ms
+Number Missed Vsync: 64
+Number High input latency: 2
+Number Slow UI thread: 78
+Number Slow bitmap uploads: 47
+Number Slow issue draw commands: 530
+
+Package: com.tianyancha.skyeye
+Stats since: 886724757898ns
+Total frames rendered: 41954
+Janky frames: 922 (2.20%)
+90th percentile: 9ms
+95th percentile: 11ms
+99th percentile: 26ms
+Number Missed Vsync: 238
+Number High input latency: 34
+Number Slow UI thread: 303
+Number Slow bitmap uploads: 95
+Number Slow issue draw commands: 472
+

@@ -1,0 +1,35 @@
+0 0 Dumping loop status
+0 0 /dev/block/loop0 0 253:0 1253 0:0 0 0x1 {} {}
+0 0 Dumping DM status
+0 0 system 253:0 1 1 0x00000021 253:0
+0 0 Dumping mounted filesystems
+0 0 rootfs / rootfs ro,seclabel 0 0
+0 0 tmpfs /dev tmpfs rw,seclabel,nosuid,relatime,mode=755 0 0
+0 0 devpts /dev/pts devpts rw,seclabel,relatime,mode=600 0 0
+0 0 proc /proc proc rw,relatime 0 0
+0 0 sysfs /sys sysfs rw,seclabel,relatime 0 0
+0 0 selinuxfs /sys/fs/selinux selinuxfs rw,relatime 0 0
+0 0 debugfs /sys/kernel/debug debugfs rw,seclabel,relatime 0 0
+0 0 none /acct cgroup rw,relatime,cpuacct 0 0
+0 0 none /sys/fs/cgroup tmpfs rw,seclabel,relatime,mode=750,gid=1000 0 0
+0 0 tmpfs /mnt tmpfs rw,seclabel,relatime,mode=755,gid=1000 0 0
+0 0 none /dev/cpuctl cgroup rw,relatime,cpu 0 0
+0 0 pstore /sys/fs/pstore pstore rw,seclabel,relatime 0 0
+0 0 /dev/block/dm-0 /system ext4 ro,seclabel,relatime,data=ordered 0 0
+0 0 /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/userdata /data ext4 rw,seclabel,nosuid,nodev,noatime,discard,noauto_da_alloc,resuid=10010,data=ordered 0 0
+0 0 /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/cache /cache ext4 rw,seclabel,nosuid,nodev,noatime,discard,noauto_da_alloc,data=ordered 0 0
+0 0 /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/protect1 /protect_f ext4 rw,seclabel,nosuid,nodev,noatime,nodelalloc,noauto_da_alloc,commit=1,data=ordered 0 0
+0 0 /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/protect2 /protect_s ext4 rw,seclabel,nosuid,nodev,noatime,nodelalloc,noauto_da_alloc,commit=1,data=ordered 0 0
+0 0 /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/nvdata /nvdata ext4 rw,seclabel,nosuid,nodev,noatime,discard,noauto_da_alloc,data=ordered 0 0
+0 0 /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/nvcfg /nvcfg ext4 rw,seclabel,nosuid,nodev,noatime,nodelalloc,noauto_da_alloc,commit=1,data=ordered 0 0
+0 0 /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/persist /persist ext4 rw,seclabel,nosuid,nodev,noatime,nodelalloc,noauto_da_alloc,commit=1,data=ordered 0 0
+0 0 /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/letvfingerprint /letvfingerprint ext4 ro,seclabel,nosuid,nodev,noatime,nodelalloc,noauto_da_alloc,commit=1,data=ordered 0 0
+0 0 adb /dev/usb-ffs/adb functionfs rw,relatime 0 0
+0 0 tmpfs /storage tmpfs rw,seclabel,relatime,mode=755,gid=1000 0 0
+0 0 /dev/fuse /mnt/runtime/default/emulated fuse rw,nosuid,nodev,noexec,noatime,user_id=1023,group_id=1023,default_permissions,allow_other 0 0
+0 0 /dev/fuse /storage/emulated fuse rw,nosuid,nodev,noexec,noatime,user_id=1023,group_id=1023,default_permissions,allow_other 0 0
+0 0 /dev/fuse /mnt/runtime/read/emulated fuse rw,nosuid,nodev,noexec,noatime,user_id=1023,group_id=1023,default_permissions,allow_other 0 0
+0 0 /dev/fuse /mnt/runtime/write/emulated fuse rw,nosuid,nodev,noexec,noatime,user_id=1023,group_id=1023,default_permissions,allow_other 0 0
+200 0 dump complete
+[vdc: 0.061s elapsed]
+

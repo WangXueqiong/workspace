@@ -1,0 +1,187 @@
+objs:
+--------------
+mdss_fb0_retire sw_sync: 209621
+  pt signaled@34157.520443: 209620
+  pt signaled@34158.068406: 209621
+
+mdss_fb_0 sw_sync: 209662
+  pt signaled@21034.122517: 135218
+  pt signaled@34144.497827: 209597
+  pt signaled@34144.514421: 209598
+  pt signaled@34144.531016: 209599
+  pt signaled@34147.855541: 209654
+  pt signaled@34147.872375: 209655
+  pt signaled@34157.486490: 209660
+  pt signaled@34158.052625: 209661
+  pt signaled@34158.068921: 209662
+  pt signaled@34158.068922: 209662
+  pt signaled@34158.068922: 209662
+  pt signaled@34158.068923: 209662
+
+mdss_fb_1 sw_sync: 0
+
+mdss_fb_2 sw_sync: 0
+
+kgsl-3d0_surfaceflinger(317)-surfaceflinger(317)-1 kgsl-timeline: 856253 retired:856255
+  pt signaled@21034.122513: 290041
+  pt signaled@21127.512826: 290213
+  pt signaled@34087.413405: 833916
+  pt signaled@34144.475083: 855757
+  pt signaled@34144.491587: 855765
+  pt signaled@34144.507969: 855775
+  pt signaled@34144.524148: 855785
+  pt signaled@34147.855309: 856193
+  pt signaled@34147.871815: 856201
+  pt signaled@34153.491565: 856229
+  pt signaled@34156.499487: 856237
+  pt signaled@34157.486489: 856241
+  pt signaled@34157.497661: 856245
+  pt signaled@34158.052624: 856249
+  pt signaled@34158.059262: 856253
+  pt signaled@34158.065425: 855785
+
+kgsl-3d0_mm-qcamera-daem(365)-mm-qcamera-daem(660)-2 kgsl-timeline: 0 retired:0
+
+kgsl-3d0_mm-qcamera-daem(365)-mm-qcamera-daem(661)-3 kgsl-timeline: 0 retired:0
+
+kgsl-3d0_mm-qcamera-daem(365)-mm-qcamera-daem(659)-4 kgsl-timeline: 0 retired:0
+
+kgsl-3d0_.imagewallpaper(1571)-.imagewallpaper(1571)-5 kgsl-timeline: 7 retired:31632
+  pt signaled@23.877436: 7
+
+kgsl-3d0_id.app.launcher(1700)-RenderThread(1887)-5 kgsl-timeline: 31632 retired:31632
+  pt signaled@33377.428430: 31536
+  pt signaled@34144.166681: 31628
+  pt signaled@34144.305743: 31632
+  pt signaled@34158.065485: 31632
+
+kgsl-3d0_ndroid.systemui(1325)-RenderThread(1741)-6 kgsl-timeline: 94879 retired:94879
+  pt signaled@21034.122515: 59478
+  pt signaled@34157.486490: 94873
+  pt signaled@34158.045681: 94879
+  pt signaled@34158.052624: 94876
+  pt signaled@34158.065530: 94879
+
+kgsl-3d0_system_server(847)-PowerManagerSer(1105)-7 kgsl-timeline: 1535 retired:1539
+
+kgsl-3d0_oid.inputmethod(4420)-RenderThread(7466)-11 kgsl-timeline: 12971 retired:12975
+
+mdss_rot_107374 sw_sync: 7068
+
+kgsl-3d0_mediaserver(346)-VideoEncMsgThre(6828)-19 kgsl-timeline: 0 retired:78370
+
+kgsl-3d0_id.qqdownloader(23381)-RenderThread(24930)-8 kgsl-timeline: 6 retired:10
+
+kgsl-3d0_.bst.airmessage(26101)-RenderThread(26136)-10 kgsl-timeline: 0 retired:2
+
+kgsl-3d0_p.music:service(30386)-p.music:service(30421)-12 kgsl-timeline: 0 retired:0
+
+kgsl-3d0_emui:screenshot(31209)-RenderThread(31225)-13 kgsl-timeline: 538 retired:545
+
+kgsl-3d0_system_server(847)-RenderThread(1299)-14 kgsl-timeline: 2725 retired:2725
+  pt signaled@34147.846068: 2725
+  pt signaled@34147.855310: 2711
+  pt signaled@34147.871816: 2718
+  pt signaled@34158.065577: 2725
+
+fences:
+--------------
+[e82c8a00] kgsl-3d0-pid-1571-ctx-5-ts-7: signaled
+  kgsl-3d0_.imagewallpaper(1571)-.imagewallpaper(1571)-5_pt signaled@23.877436: 7 / 7 retired:31632
+
+[dcc3e180] StatusBar:0: signaled
+  kgsl-3d0_surfaceflinger(317)-surfaceflinger(317)-1_pt signaled@21034.122513: 290041 / 856253 retired:856255
+  kgsl-3d0_ndroid.systemui(1325)-RenderThread(1741)-6_pt signaled@21034.122515: 59478 / 94879 retired:94879
+  mdss_fb_0_pt signaled@21034.122517: 135218 / 209662
+
+[d444a500] FocusedStackFrame:1: signaled
+  kgsl-3d0_surfaceflinger(317)-surfaceflinger(317)-1_pt signaled@21127.512826: 290213 / 856253 retired:856255
+
+[cf54e100] SurfaceTexture-0-1700-1:2: signaled
+  kgsl-3d0_id.app.launcher(1700)-RenderThread(1887)-5_pt signaled@33377.428430: 31536 / 31632 retired:31632
+
+[e29c6800] kgsl-3d0-pid-317-ctx-1-ts-83391: signaled
+  kgsl-3d0_surfaceflinger(317)-surfaceflinger(317)-1_pt signaled@34087.413405: 833916 / 856253 retired:856255
+
+[d3afac00] SurfaceTexture-0-1700-1:1: signaled
+  kgsl-3d0_id.app.launcher(1700)-RenderThread(1887)-5_pt signaled@34144.166681: 31628 / 31632 retired:31632
+
+[d98de980] kgsl-3d0-pid-1700-ctx-5-ts-3163: signaled
+  kgsl-3d0_id.app.launcher(1700)-RenderThread(1887)-5_pt signaled@34144.305743: 31632 / 31632 retired:31632
+
+[d8845600] FramebufferSurface:1: signaled
+  mdss_fb_0_pt signaled@34144.497827: 209597 / 209662
+  kgsl-3d0_surfaceflinger(317)-surfaceflinger(317)-1_pt signaled@34144.475083: 855757 / 856253 retired:856255
+
+[de5f9980] FramebufferSurface:0: signaled
+  mdss_fb_0_pt signaled@34144.514421: 209598 / 209662
+  kgsl-3d0_surfaceflinger(317)-surfaceflinger(317)-1_pt signaled@34144.491587: 855765 / 856253 retired:856255
+
+[e8f0a980] FramebufferSurface:2: signaled
+  mdss_fb_0_pt signaled@34144.531016: 209599 / 209662
+  kgsl-3d0_surfaceflinger(317)-surfaceflinger(317)-1_pt signaled@34144.507969: 855775 / 856253 retired:856255
+
+[daf81880] kgsl-3d0-pid-317-ctx-1-ts-85578: signaled
+  kgsl-3d0_surfaceflinger(317)-surfaceflinger(317)-1_pt signaled@34144.524148: 855785 / 856253 retired:856255
+
+[d60a0d00] kgsl-3d0-pid-847-ctx-14-ts-2725: signaled
+  kgsl-3d0_system_server(847)-RenderThread(1299)-14_pt signaled@34147.846068: 2725 / 2725 retired:2725
+
+[d8bd7600] TwToolBoxFloatingViewer:0: signaled
+  kgsl-3d0_surfaceflinger(317)-surfaceflinger(317)-1_pt signaled@34147.855309: 856193 / 856253 retired:856255
+  kgsl-3d0_system_server(847)-RenderThread(1299)-14_pt signaled@34147.855310: 2711 / 2725 retired:2725
+  mdss_fb_0_pt signaled@34147.855541: 209654 / 209662
+
+[ea435600] TwToolBoxFloatingViewer:2: signaled
+  kgsl-3d0_surfaceflinger(317)-surfaceflinger(317)-1_pt signaled@34147.871815: 856201 / 856253 retired:856255
+  kgsl-3d0_system_server(847)-RenderThread(1299)-14_pt signaled@34147.871816: 2718 / 2725 retired:2725
+  mdss_fb_0_pt signaled@34147.872375: 209655 / 209662
+
+[c429ba00] kgsl-3d0-pid-317-ctx-1-ts-85622: signaled
+  kgsl-3d0_surfaceflinger(317)-surfaceflinger(317)-1_pt signaled@34153.491565: 856229 / 856253 retired:856255
+
+[e8cbba80] kgsl-3d0-pid-317-ctx-1-ts-85623: signaled
+  kgsl-3d0_surfaceflinger(317)-surfaceflinger(317)-1_pt signaled@34156.499487: 856237 / 856253 retired:856255
+
+[e1c7b200] StatusBar:1: signaled
+  kgsl-3d0_surfaceflinger(317)-surfaceflinger(317)-1_pt signaled@34157.486489: 856241 / 856253 retired:856255
+  kgsl-3d0_ndroid.systemui(1325)-RenderThread(1741)-6_pt signaled@34157.486490: 94873 / 94879 retired:94879
+  mdss_fb_0_pt signaled@34157.486490: 209660 / 209662
+
+[e1c7b100] kgsl-3d0-pid-317-ctx-1-ts-85624: signaled
+  kgsl-3d0_surfaceflinger(317)-surfaceflinger(317)-1_pt signaled@34157.497661: 856245 / 856253 retired:856255
+
+[dadb1500] mdp-retire: signaled
+  mdss_fb0_retire_pt signaled@34157.520443: 209620 / 209621
+
+[e6f20b80] kgsl-3d0-pid-1325-ctx-6-ts-9487: signaled
+  kgsl-3d0_ndroid.systemui(1325)-RenderThread(1741)-6_pt signaled@34158.045681: 94879 / 94879 retired:94879
+
+[dadb1480] StatusBar:2: signaled
+  kgsl-3d0_surfaceflinger(317)-surfaceflinger(317)-1_pt signaled@34158.052624: 856249 / 856253 retired:856255
+  kgsl-3d0_ndroid.systemui(1325)-RenderThread(1741)-6_pt signaled@34158.052624: 94876 / 94879 retired:94879
+  mdss_fb_0_pt signaled@34158.052625: 209661 / 209662
+
+[dadb1700] kgsl-3d0-pid-317-ctx-1-ts-85625: signaled
+  kgsl-3d0_surfaceflinger(317)-surfaceflinger(317)-1_pt signaled@34158.059262: 856253 / 856253 retired:856255
+
+[dadb1f80] mdp-retire: signaled
+  mdss_fb0_retire_pt signaled@34158.068406: 209621 / 209621
+
+[dadb1e80] FramebufferSurface:1: signaled
+  mdss_fb_0_pt signaled@34158.068921: 209662 / 209662
+  kgsl-3d0_surfaceflinger(317)-surfaceflinger(317)-1_pt signaled@34158.065425: 855785 / 856253 retired:856255
+
+[dadb1b80] com.sec.android.app.launcher:2: signaled
+  mdss_fb_0_pt signaled@34158.068922: 209662 / 209662
+  kgsl-3d0_id.app.launcher(1700)-RenderThread(1887)-5_pt signaled@34158.065485: 31632 / 31632 retired:31632
+
+[dadb1680] StatusBar:0: signaled
+  mdss_fb_0_pt signaled@34158.068922: 209662 / 209662
+  kgsl-3d0_ndroid.systemui(1325)-RenderThread(1741)-6_pt signaled@34158.065530: 94879 / 94879 retired:94879
+
+[dadb1580] TwToolBoxFloatingViewer:1: signaled
+  mdss_fb_0_pt signaled@34158.068923: 209662 / 209662
+  kgsl-3d0_system_server(847)-RenderThread(1299)-14_pt signaled@34158.065577: 2725 / 2725 retired:2725
+
+

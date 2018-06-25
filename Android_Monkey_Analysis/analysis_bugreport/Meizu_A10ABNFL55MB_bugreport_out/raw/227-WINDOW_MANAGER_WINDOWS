@@ -1,0 +1,303 @@
+  Window #10 Window{11605c1 u0 Heads Up}:
+    mDisplayId=0 mSession=Session{2c8fecf4 1065:u0a10030} mClient=android.os.BinderProxy@37e916a8
+    mOwnerUid=10030 mShowToOwnerOnly=false package=com.android.systemui appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillx750) gr=#30 sim=#20 ty=2014 fl=#1800328 fmt=-3 wanim=0x7f1000ff surfaceInsets=Rect(0, 0 - 0, 0)splitmode == 0 meizuFlags=0x0Meizu WM.LayoutParams [ flags=0x0] }
+    Requested w=1080 h=750 mLayoutSeq=1364
+    mBaseLayer=161000 mSubLayer=0 mAnimLayer=161000+0=161000 mLastLayer=161000
+    mToken=WindowToken{19a15e87 null}
+    mRootToken=WindowToken{19a15e87 null}
+    mViewVisibility=0x8 mHaveFrame=true mObscured=false
+    mSeq=0 mSystemUiVisibility=0x0
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mTouchableInsets=3 mGivenInsetsPending=false
+    touchable region=SkRegion((0,0,1080,227))
+    mConfiguration={1.0 ?mcc?mnc zh_CN ?layoutDir sw360dp w360dp h618dp 480dpi nrml long port finger -keyb/v/h -nav/h s.5}
+    mHasSurface=false mShownFrame=[0.0,0.0][1080.0,750.0] isReadyForDisplay()=false
+    mFrame=[0,0][1080,750] last=[0,0][1080,750]
+    mSystemDecorRect=[0,0][1080,750] last=[0,0][0,0]
+    Frames: containing=[0,0][1080,1920] parent=[0,0][1080,1920]
+        display=[-10000,-10000][10000,10000] overscan=[-10000,-10000][10000,10000]
+        content=[0,0][1080,750] visible=[0,0][1080,750]
+        decor=[0,0][1080,1920]
+    Cur insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0] stable=[0,66][0,0]
+    Lst insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0] stable=[0,66][0,0]
+    WindowStateAnimator{45abfee Heads Up}:
+      mShownAlpha=1.0 mAlpha=1.0 mLastAlpha=0.0
+  Window #9 Window{dede063 u0 StatusBar}:
+    mDisplayId=0 mSession=Session{2c8fecf4 1065:u0a10030} mClient=android.os.BinderProxy@9d70e92
+    mOwnerUid=10030 mShowToOwnerOnly=false package=com.android.systemui appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillx66) gr=#30 sim=#10 ty=2000 fl=#81840048 fmt=-3 vsysui=0x600 surfaceInsets=Rect(0, 0 - 0, 0)splitmode == 0 meizuFlags=0x0Meizu WM.LayoutParams [ flags=0x0] }
+    Requested w=1080 h=66 mLayoutSeq=1538
+    mBaseLayer=151000 mSubLayer=0 mAnimLayer=151000+0=151000 mLastLayer=151000
+    mToken=WindowToken{19a15e87 null}
+    mRootToken=WindowToken{19a15e87 null}
+    mViewVisibility=0x0 mHaveFrame=true mObscured=false
+    mSeq=0 mSystemUiVisibility=0x600
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mConfiguration={1.0 ?mcc?mnc zh_CN ?layoutDir sw360dp w360dp h618dp 480dpi nrml long port finger -keyb/v/h -nav/h s.5}
+    mHasSurface=true mShownFrame=[0.0,0.0][1080.0,66.0] isReadyForDisplay()=true
+    mFrame=[0,0][1080,66] last=[0,0][1080,66]
+    mSystemDecorRect=[0,0][1080,66] last=[0,0][0,0]
+    Frames: containing=[0,0][1080,1920] parent=[0,0][1080,1920]
+        display=[0,0][1080,1920] overscan=[0,0][1080,1920]
+        content=[0,0][1080,66] visible=[0,0][1080,66]
+        decor=[0,0][0,0]
+    Cur insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0] stable=[0,0][0,0]
+    Lst insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0] stable=[0,0][0,0]
+    WindowStateAnimator{3972d969 StatusBar}:
+      mAnimating=false mLocalAnimating=false mAnimationIsEntrance=true mAnimation=null
+      mSurface=Surface(name=StatusBar)
+      mDrawState=HAS_DRAWN mLastHidden=false
+      Surface: shown=true layer=151000 alpha=1.0 rect=(0.0,0.0) 1080.0 x 66.0
+    mLastFreezeDuration=+7h30m44s300ms
+  Window #8 Window{342f1949 u0 KeyguardScrim}:
+    mDisplayId=0 mSession=Session{2793754d 788:1000} mClient=android.view.ViewRootImpl$W@3303a350
+    mOwnerUid=1000 mShowToOwnerOnly=false package=android appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillxfill) sim=#10 ty=2029 fl=#1110900 pfl=0x1 fmt=-3 or=5 vsysui=0x3610000 surfaceInsets=Rect(0, 0 - 0, 0)splitmode == 0 meizuFlags=0x0Meizu WM.LayoutParams [ flags=0x0] }
+    Requested w=1080 h=1920 mLayoutSeq=39
+    mBaseLayer=131000 mSubLayer=0 mAnimLayer=131000+0=131000 mLastLayer=131000
+    mToken=WindowToken{19a15e87 null}
+    mRootToken=WindowToken{19a15e87 null}
+    mViewVisibility=0x8 mHaveFrame=true mObscured=false
+    mSeq=0 mSystemUiVisibility=0x3610000
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mConfiguration={1.0 ?mcc?mnc zh_CN ?layoutDir sw360dp w360dp h618dp 480dpi nrml long port finger -keyb/v/h -nav/h s.5}
+    mHasSurface=false mShownFrame=[0.0,0.0][1080.0,1920.0] isReadyForDisplay()=false
+    mFrame=[0,0][1080,1920] last=[0,0][1080,1920]
+    mSystemDecorRect=[0,0][1080,1920] last=[0,0][0,0]
+    Frames: containing=[0,0][1080,1920] parent=[0,0][1080,1920]
+        display=[0,0][1080,1920] overscan=[0,0][1080,1920]
+        content=[0,66][1080,1920] visible=[0,66][1080,1920]
+        decor=[0,0][1080,1920]
+    Cur insets: overscan=[0,0][0,0] content=[0,66][0,0] visible=[0,66][0,0] stable=[0,66][0,0]
+    Lst insets: overscan=[0,0][0,0] content=[0,66][0,0] visible=[0,66][0,0] stable=[0,66][0,0]
+    WindowStateAnimator{f3bcff0 KeyguardScrim}:
+    mLastFreezeDuration=+36s51ms
+  Window #7 Window{3751f0c1 u0 InputMethod}:
+    mDisplayId=0 mSession=Session{13efb49a 1486:u0a10024} mClient=android.os.BinderProxy@3145cda8
+    mOwnerUid=10024 mShowToOwnerOnly=true package=com.meizu.flyme.input appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillxwrap) gr=#50 sim=#20 ty=2011 fl=#1800108 fmt=-2 wanim=0xa100005 vsysui=0x300 surfaceInsets=Rect(0, 0 - 0, 0) needsMenuKey=2splitmode == 0 meizuFlags=0x0Meizu WM.LayoutParams [ flags=0x0] }
+    Requested w=1080 h=891 mLayoutSeq=1194
+    mIsImWindow=true mIsWallpaper=false mIsFloatingLayer=true mWallpaperVisible=false
+    mBaseLayer=111000 mSubLayer=0 mAnimLayer=21035+0=21035 mLastLayer=21040
+    mToken=WindowToken{37ec91b4 android.os.Binder@2d77f803}
+    mRootToken=WindowToken{37ec91b4 android.os.Binder@2d77f803}
+    mViewVisibility=0x8 mHaveFrame=true mObscured=false
+    mSeq=0 mSystemUiVisibility=0x300
+    mGivenContentInsets=[0,132][0,0] mGivenVisibleInsets=[0,132][0,0]
+    mTouchableInsets=2 mGivenInsetsPending=false
+    touchable region=SkRegion((0,1161,1080,1920))
+    mConfiguration={1.0 ?mcc?mnc zh_CN ?layoutDir sw360dp w360dp h618dp 480dpi nrml long port finger -keyb/v/h -nav/h s.5}
+    mHasSurface=false mShownFrame=[0.0,1029.0][1080.0,1920.0] isReadyForDisplay()=false
+    mFrame=[0,1029][1080,1920] last=[0,1029][1080,1920]
+    mSystemDecorRect=[0,0][1080,891] last=[0,0][0,0]
+    Frames: containing=[0,66][1080,1920] parent=[0,66][1080,1920]
+        display=[0,66][1080,1920] overscan=[0,66][1080,1920]
+        content=[0,1029][1080,1920] visible=[0,1029][1080,1920]
+        decor=[0,0][0,0]
+    Cur insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0] stable=[0,0][0,0]
+    Lst insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0] stable=[0,0][0,0]
+    WindowStateAnimator{b620033 InputMethod}:
+      mAnimating=false mLocalAnimating=false mAnimationIsEntrance=true mAnimation=null
+  Window #6 Window{11401b4 u0 com.meizu.flyme.launcher/com.meizu.flyme.launcher.Launcher}:
+    mDisplayId=0 mSession=Session{34306934 1760:u0a10014} mClient=android.os.BinderProxy@1a008e87
+    mOwnerUid=10014 mShowToOwnerOnly=true package=com.meizu.flyme.launcher appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillxfill) sim=#120 ty=1 fl=#8d910100 fmt=-2 wanim=0x1030380 vsysui=0x700 surfaceInsets=Rect(0, 0 - 0, 0) needsMenuKey=2splitmode == 0 meizuFlags=0x0Meizu WM.LayoutParams [ flags=0x0] }
+    Requested w=1080 h=1920 mLayoutSeq=1538
+    mBaseLayer=21000 mSubLayer=0 mAnimLayer=21030+0=21030 mLastLayer=21030
+    mToken=AppWindowToken{1b341671 token=Token{e473c18 ActivityRecord{1463fb u0 com.meizu.flyme.launcher/.Launcher t447}}}
+    mRootToken=AppWindowToken{1b341671 token=Token{e473c18 ActivityRecord{1463fb u0 com.meizu.flyme.launcher/.Launcher t447}}}
+    mAppToken=AppWindowToken{1b341671 token=Token{e473c18 ActivityRecord{1463fb u0 com.meizu.flyme.launcher/.Launcher t447}}}
+    mViewVisibility=0x0 mHaveFrame=true mObscured=false
+    mSeq=0 mSystemUiVisibility=0x700
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mConfiguration={1.0 ?mcc?mnc zh_CN ?layoutDir sw360dp w360dp h618dp 480dpi nrml long port finger -keyb/v/h -nav/h s.5}
+    mHasSurface=true mShownFrame=[0.0,0.0][1080.0,1920.0] isReadyForDisplay()=true
+    mFrame=[0,0][1080,1920] last=[0,0][1080,1920]
+    mSystemDecorRect=[0,0][1080,1920] last=[0,0][0,0]
+    Frames: containing=[0,0][1080,1920] parent=[0,0][1080,1920]
+        display=[0,0][1080,1920] overscan=[0,0][1080,1920]
+        content=[0,66][1080,1920] visible=[0,66][1080,1920]
+        decor=[0,0][1080,1920]
+    Cur insets: overscan=[0,0][0,0] content=[0,66][0,0] visible=[0,66][0,0] stable=[0,66][0,0]
+    Lst insets: overscan=[0,0][0,0] content=[0,66][0,0] visible=[0,66][0,0] stable=[0,66][0,0]
+    WindowStateAnimator{27bbb531 com.meizu.flyme.launcher/com.meizu.flyme.launcher.Launcher}:
+      mSurface=Surface(name=com.meizu.flyme.launcher/com.meizu.flyme.launcher.Launcher)
+      mDrawState=HAS_DRAWN mLastHidden=false
+      Surface: shown=true layer=21030 alpha=1.0 rect=(0.0,0.0) 1080.0 x 1920.0
+    mWallpaperX=0.0 mWallpaperY=0.5
+  Window #5 Window{75ffa1 u0 com.tianyancha.skyeye/com.tianyancha.skyeye.MainActivity}:
+    mDisplayId=0 mSession=Session{271ed8d5 2720:u0a10174} mClient=android.os.BinderProxy@26074c08
+    mOwnerUid=10174 mShowToOwnerOnly=true package=com.tianyancha.skyeye appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillxfill) sim=#120 ty=1 fl=#81810100 wanim=0x7f0e0009 vsysui=0x700 surfaceInsets=Rect(0, 0 - 0, 0) needsMenuKey=2splitmode == 0 meizuFlags=0x0Meizu WM.LayoutParams [ flags=0x0] }
+    Requested w=1080 h=1920 mLayoutSeq=1524
+    mBaseLayer=21000 mSubLayer=0 mAnimLayer=21025+0=21025 mLastLayer=22025
+    mToken=AppWindowToken{2d1e6ba7 token=Token{2e170cc1 ActivityRecord{39bdd9a8 u0 com.tianyancha.skyeye/.MainActivity t463}}}
+    mRootToken=AppWindowToken{2d1e6ba7 token=Token{2e170cc1 ActivityRecord{39bdd9a8 u0 com.tianyancha.skyeye/.MainActivity t463}}}
+    mAppToken=AppWindowToken{2d1e6ba7 token=Token{2e170cc1 ActivityRecord{39bdd9a8 u0 com.tianyancha.skyeye/.MainActivity t463}}}
+    mViewVisibility=0x8 mHaveFrame=true mObscured=false
+    mSeq=0 mSystemUiVisibility=0x700
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mConfiguration={1.0 ?mcc?mnc zh_CN ?layoutDir sw360dp w360dp h618dp 480dpi nrml long port finger -keyb/v/h -nav/h s.5}
+    mHasSurface=false mShownFrame=[0.0,0.0][1080.0,1920.0] isReadyForDisplay()=false
+    mFrame=[0,0][1080,1920] last=[0,0][1080,1920]
+    mSystemDecorRect=[0,0][1080,1920] last=[0,0][0,0]
+    Frames: containing=[0,0][1080,1920] parent=[0,0][1080,1920]
+        display=[0,0][1080,1920] overscan=[0,0][1080,1920]
+        content=[0,66][1080,1920] visible=[0,66][1080,1920]
+        decor=[0,0][1080,1920]
+    Cur insets: overscan=[0,0][0,0] content=[0,66][0,0] visible=[0,66][0,0] stable=[0,66][0,0]
+    Lst insets: overscan=[0,0][0,0] content=[0,66][0,0] visible=[0,66][0,0] stable=[0,66][0,0]
+    WindowStateAnimator{27ee633e com.tianyancha.skyeye/com.tianyancha.skyeye.MainActivity}:
+      mShownAlpha=1.0 mAlpha=1.0 mLastAlpha=0.0
+  Window #4 Window{ce00e61 u0 com.android.settings/com.android.settings.deviceinfo.Status}:
+    mDisplayId=0 mSession=Session{1dbfec3d 4714:1000} mClient=android.os.BinderProxy@10295dc8
+    mOwnerUid=1000 mShowToOwnerOnly=true package=com.android.settings appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillxfill) sim=#120 ty=1 fl=#8d810100 wanim=0x1030466 vsysui=0x700 surfaceInsets=Rect(0, 0 - 0, 0) needsMenuKey=2splitmode == 0 meizuFlags=0x200Meizu WM.LayoutParams [ flags=0x0] }
+    Requested w=1080 h=1920 mLayoutSeq=1472
+    mBaseLayer=21000 mSubLayer=0 mAnimLayer=21020+0=21020 mLastLayer=22020
+    mToken=AppWindowToken{140528b0 token=Token{2f7f8662 ActivityRecord{2f5a12d u0 com.android.settings/.deviceinfo.Status t450}}}
+    mRootToken=AppWindowToken{140528b0 token=Token{2f7f8662 ActivityRecord{2f5a12d u0 com.android.settings/.deviceinfo.Status t450}}}
+    mAppToken=AppWindowToken{140528b0 token=Token{2f7f8662 ActivityRecord{2f5a12d u0 com.android.settings/.deviceinfo.Status t450}}}
+    mViewVisibility=0x8 mHaveFrame=true mObscured=false
+    mSeq=0 mSystemUiVisibility=0x700
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mConfiguration={1.0 ?mcc?mnc zh_CN ?layoutDir sw360dp w360dp h618dp 480dpi nrml long port finger -keyb/v/h -nav/h s.5}
+    mHasSurface=false mShownFrame=[0.0,0.0][1080.0,1920.0] isReadyForDisplay()=false
+    mFrame=[0,0][1080,1920] last=[0,0][1080,1920]
+    mSystemDecorRect=[0,0][1080,1920] last=[0,0][0,0]
+    Frames: containing=[0,0][1080,1920] parent=[0,0][1080,1920]
+        display=[0,0][1080,1920] overscan=[0,0][1080,1920]
+        content=[0,66][1080,1920] visible=[0,66][1080,1920]
+        decor=[0,0][1080,1920]
+    Cur insets: overscan=[0,0][0,0] content=[0,66][0,0] visible=[0,66][0,0] stable=[0,66][0,0]
+    Lst insets: overscan=[0,0][0,0] content=[0,66][0,0] visible=[0,66][0,0] stable=[0,66][0,0]
+    WindowStateAnimator{25e5736d com.android.settings/com.android.settings.deviceinfo.Status}:
+      mShownAlpha=1.0 mAlpha=1.0 mLastAlpha=0.0
+  Window #3 Window{33651e98 u0 com.android.settings/com.android.settings.SubSettings}:
+    mDisplayId=0 mSession=Session{1dbfec3d 4714:1000} mClient=android.os.BinderProxy@24a407b
+    mOwnerUid=1000 mShowToOwnerOnly=true package=com.android.settings appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillxfill) sim=#20 ty=1 fl=#8d810100 wanim=0x1030466 vsysui=0x700 surfaceInsets=Rect(0, 0 - 0, 0) needsMenuKey=2splitmode == 0 meizuFlags=0x200Meizu WM.LayoutParams [ flags=0x0] }
+    Requested w=1080 h=1920 mLayoutSeq=1008
+    mBaseLayer=21000 mSubLayer=0 mAnimLayer=21015+0=21015 mLastLayer=21020
+    mToken=AppWindowToken{2df4c1fe token=Token{14badf80 ActivityRecord{38dc5403 u0 com.android.settings/.SubSettings t450}}}
+    mRootToken=AppWindowToken{2df4c1fe token=Token{14badf80 ActivityRecord{38dc5403 u0 com.android.settings/.SubSettings t450}}}
+    mAppToken=AppWindowToken{2df4c1fe token=Token{14badf80 ActivityRecord{38dc5403 u0 com.android.settings/.SubSettings t450}}}
+    mViewVisibility=0x8 mHaveFrame=true mObscured=false
+    mSeq=0 mSystemUiVisibility=0x700
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mConfiguration={1.0 ?mcc?mnc zh_CN ?layoutDir sw360dp w360dp h618dp 480dpi nrml long port finger -keyb/v/h -nav/h s.5}
+    mHasSurface=false mShownFrame=[0.0,0.0][1080.0,1920.0] isReadyForDisplay()=false
+    mFrame=[0,0][1080,1920] last=[0,0][1080,1920]
+    mSystemDecorRect=[0,0][1080,1920] last=[0,0][0,0]
+    Frames: containing=[0,0][1080,1920] parent=[0,0][1080,1920]
+        display=[0,0][1080,1920] overscan=[0,0][1080,1920]
+        content=[0,66][1080,1920] visible=[0,66][1080,1920]
+        decor=[0,0][1080,1920]
+    Cur insets: overscan=[0,0][0,0] content=[0,66][0,0] visible=[0,66][0,0] stable=[0,66][0,0]
+    Lst insets: overscan=[0,0][0,0] content=[0,66][0,0] visible=[0,66][0,0] stable=[0,66][0,0]
+    WindowStateAnimator{10b83f84 com.android.settings/com.android.settings.SubSettings}:
+      mShownAlpha=1.0 mAlpha=1.0 mLastAlpha=0.8
+  Window #2 Window{1456a566 u0 com.android.settings/com.android.settings.Settings}:
+    mDisplayId=0 mSession=Session{1dbfec3d 4714:1000} mClient=android.os.BinderProxy@273189c1
+    mOwnerUid=1000 mShowToOwnerOnly=true package=com.android.settings appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillxfill) sim=#20 ty=1 fl=#8d810100 wanim=0x1030466 vsysui=0x700 surfaceInsets=Rect(0, 0 - 0, 0) needsMenuKey=2splitmode == 0 meizuFlags=0x200Meizu WM.LayoutParams [ flags=0x0] }
+    Requested w=1080 h=1920 mLayoutSeq=999
+    mBaseLayer=21000 mSubLayer=0 mAnimLayer=21010+0=21010 mLastLayer=21015
+    mToken=AppWindowToken{22c6642a token=Token{3704b4ff ActivityRecord{21c0241e u0 com.android.settings/.Settings t450}}}
+    mRootToken=AppWindowToken{22c6642a token=Token{3704b4ff ActivityRecord{21c0241e u0 com.android.settings/.Settings t450}}}
+    mAppToken=AppWindowToken{22c6642a token=Token{3704b4ff ActivityRecord{21c0241e u0 com.android.settings/.Settings t450}}}
+    mViewVisibility=0x8 mHaveFrame=true mObscured=false
+    mSeq=0 mSystemUiVisibility=0x700
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mConfiguration={1.0 ?mcc?mnc zh_CN ?layoutDir sw360dp w360dp h618dp 480dpi nrml long port finger -keyb/v/h -nav/h s.5}
+    mHasSurface=false mShownFrame=[0.0,0.0][1080.0,1920.0] isReadyForDisplay()=false
+    mFrame=[0,0][1080,1920] last=[0,0][1080,1920]
+    mSystemDecorRect=[0,0][1080,1920] last=[0,0][0,0]
+    Frames: containing=[0,0][1080,1920] parent=[0,0][1080,1920]
+        display=[0,0][1080,1920] overscan=[0,0][1080,1920]
+        content=[0,66][1080,1920] visible=[0,66][1080,1920]
+        decor=[0,0][1080,1920]
+    Cur insets: overscan=[0,0][0,0] content=[0,66][0,0] visible=[0,66][0,0] stable=[0,66][0,0]
+    Lst insets: overscan=[0,0][0,0] content=[0,66][0,0] visible=[0,66][0,0] stable=[0,66][0,0]
+    WindowStateAnimator{15dae197 com.android.settings/com.android.settings.Settings}:
+      mShownAlpha=1.0 mAlpha=1.0 mLastAlpha=0.8
+  Window #1 Window{e69cf24 u0 com.tencent.mobileqq/com.tencent.mobileqq.activity.SplashActivity}:
+    mDisplayId=0 mSession=Session{3cfa118c 13391:u0a10095} mClient=android.os.BinderProxy@36606bb7
+    mOwnerUid=10095 mShowToOwnerOnly=true package=com.tencent.mobileqq appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillxfill) sim=#120 ty=1 fl=#5810100 fmt=-3 wanim=0x7f0e031a vsysui=0x500 sysuil=true surfaceInsets=Rect(0, 0 - 0, 0) needsMenuKey=2splitmode == 0 meizuFlags=0x0Meizu WM.LayoutParams [ flags=0x0] }
+    Requested w=0 h=0 mLayoutSeq=1538
+    mBaseLayer=21000 mSubLayer=0 mAnimLayer=21005+0=21005 mLastLayer=0
+    mToken=AppWindowToken{38d98b06 token=Token{290aef48 ActivityRecord{127725eb u0 com.tencent.mobileqq/.activity.SplashActivity t451}}}
+    mRootToken=AppWindowToken{38d98b06 token=Token{290aef48 ActivityRecord{127725eb u0 com.tencent.mobileqq/.activity.SplashActivity t451}}}
+    mAppToken=AppWindowToken{38d98b06 token=Token{290aef48 ActivityRecord{127725eb u0 com.tencent.mobileqq/.activity.SplashActivity t451}}}
+    mViewVisibility=0x8 mHaveFrame=true mObscured=false
+    mSeq=0 mSystemUiVisibility=0x500
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mConfiguration=null
+    mHasSurface=false mShownFrame=[0.0,0.0][0.0,0.0] isReadyForDisplay()=false
+    mFrame=[0,0][1080,1920] last=[0,0][0,0]
+    mSystemDecorRect=[0,0][0,0] last=[0,0][0,0]
+    Frames: containing=[0,0][1080,1920] parent=[0,0][1080,1920]
+        display=[0,0][1080,1920] overscan=[0,0][1080,1920]
+        content=[0,66][1080,1920] visible=[0,66][1080,1920]
+        decor=[0,0][1080,1920]
+    Cur insets: overscan=[0,0][0,0] content=[0,66][0,0] visible=[0,66][0,0] stable=[0,66][0,0]
+    Lst insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0] stable=[0,0][0,0]
+    WindowStateAnimator{31074416 com.tencent.mobileqq/com.tencent.mobileqq.activity.SplashActivity}:
+      mShownAlpha=0.0 mAlpha=1.0 mLastAlpha=0.0
+  Window #0 Window{263c3cfd u0 com.android.systemui.ImageWallpaper}:
+    mDisplayId=0 mSession=Session{2c8fecf4 1065:u0a10030} mClient=android.os.BinderProxy@270cf554
+    mOwnerUid=10030 mShowToOwnerOnly=true package=null appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(1080x1920) gr=#800033 ty=2013 fl=#318 fmt=2 wanim=0x10302e5 surfaceInsets=Rect(0, 0 - 0, 0)splitmode == 0 meizuFlags=0x0Meizu WM.LayoutParams [ flags=0x0] }
+    Requested w=1080 h=1920 mLayoutSeq=1538
+    mIsImWindow=false mIsWallpaper=true mIsFloatingLayer=true mWallpaperVisible=true
+    mBaseLayer=21000 mSubLayer=0 mAnimLayer=21000+0=21000 mLastLayer=21000
+    mToken=WindowToken{95711dd android.os.Binder@3bb9ac23}
+    mRootToken=WindowToken{95711dd android.os.Binder@3bb9ac23}
+    mViewVisibility=0x0 mHaveFrame=true mObscured=false
+    mSeq=0 mSystemUiVisibility=0x0
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mConfiguration={1.0 ?mcc?mnc zh_CN ?layoutDir sw360dp w360dp h618dp 480dpi nrml long port finger -keyb/v/h -nav/h s.5}
+    mHasSurface=true mShownFrame=[0.0,0.0][1080.0,1920.0] isReadyForDisplay()=true
+    mFrame=[0,0][1080,1920] last=[0,0][1080,1920]
+    mSystemDecorRect=[0,0][1080,1920] last=[0,0][0,0]
+    Frames: containing=[0,0][1080,1920] parent=[0,0][1080,1920]
+        display=[-10000,-10000][10000,10000] overscan=[0,0][1080,1920]
+        content=[0,0][1080,1920] visible=[0,66][1080,1920]
+        decor=[0,0][1080,1920]
+    Cur insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,66][0,0] stable=[0,66][0,0]
+    Lst insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,66][0,0] stable=[0,66][0,0]
+    WindowStateAnimator{37431dd8 com.android.systemui.ImageWallpaper}:
+      mSurface=Surface(name=com.android.systemui.ImageWallpaper)
+      mDrawState=HAS_DRAWN mLastHidden=false
+      Surface: shown=true layer=21000 alpha=1.0 rect=(0.0,0.0) 1080.0 x 1920.0
+    mLastFreezeDuration=+36s186ms
+    mWallpaperX=0.0 mWallpaperY=0.5
+
+  mCurConfiguration={1.0 ?mcc?mnc zh_CN ?layoutDir sw360dp w360dp h618dp 480dpi nrml long port finger -keyb/v/h -nav/h s.5}
+  mHasPermanentDpad=false
+  mCurrentFocus=Window{11401b4 u0 com.meizu.flyme.launcher/com.meizu.flyme.launcher.Launcher}
+  mFocusedApp=AppWindowToken{1b341671 token=Token{e473c18 ActivityRecord{1463fb u0 com.meizu.flyme.launcher/.Launcher t447}}}
+  mInTouchMode=true mLayoutSeq=1538
+  mLastDisplayFreezeDuration=0 due to Window{dede063 u0 StatusBar}
+  mSystemDecorLayer=151000 mScreenRect=[0,0][1080,1920]
+  mLastStatusBarVisibility=0x40008700
+  mWallpaperTarget=Window{11401b4 u0 com.meizu.flyme.launcher/com.meizu.flyme.launcher.Launcher}
+  mLastWallpaperX=0.0 mLastWallpaperY=0.5
+  mSystemBooted=true mDisplayEnabled=true
+  mTransactionSequence=2162
+  mDisplayFrozen=false windows=false client=false apps=0 waitingForConfig=false
+  mRotation=0 mAltOrientation=false
+  mLastWindowForcedOrientation=-1 mForcedAppOrientation=1
+  mDeferredRotationPauseCount=0
+  Animation settings: disabled=false window=1.0 transition=1.0 animator=1.0
+  mTraversalScheduled=false
+  mStartingIconInTransition=false mSkipAppTransitionAnimation=false
+  mLayoutToAnim:
+ mNextAppTransition=0xffffffff  mAppTransitionState=APP_STATE_IDLE
+[dumpsys: 22.225s elapsed]
+
+========================================================
+== Checkins
+========================================================

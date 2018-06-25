@@ -1,0 +1,23 @@
+Filesystem                  Size     Used     Free   Blksize
+/dev                      845.5M   152.0K   845.3M      4.0K
+/sys/fs/cgroup            845.5M    12.0K   845.5M      4.0K
+/mnt                      845.5M     0.0K   845.5M      4.0K
+/mnt/secure               845.5M     0.0K   845.5M      4.0K
+/firmware                  77.0M     8.4M    68.5M     16.0K
+/firmware-modem            64.0M    52.7M    11.3M     16.0K
+/system                     2.3G     2.0G   252.0M      4.0K
+/data                      12.0G     8.2G     3.8G      4.0K
+/cache                    147.6M     5.0M   142.6M      4.0K
+/persist                    7.9M     4.0M     3.8M      4.0K
+/efs                       13.8M     4.3M     9.5M      4.0K
+/preload                    9.8M     7.0M     2.9M      4.0K
+/persdata/absolute          8.8M     4.1M     4.8M      4.0K
+/storage                  845.5M     0.0K   845.5M      4.0K
+/mnt/knox                  12.0G     8.2G     3.8G      4.0K
+/mnt/shell/enc_media       12.0G     8.2G     3.8G      4.0K
+/storage/emulated          12.0G     8.2G     3.8G      4.0K
+/data/enc_user             12.0G     8.2G     3.8G      4.0K
+/mnt/shell/enc_emulated    12.0G     8.2G     3.8G      4.0K
+*** df: Exit code 1
+[df: 0.040s elapsed]
+

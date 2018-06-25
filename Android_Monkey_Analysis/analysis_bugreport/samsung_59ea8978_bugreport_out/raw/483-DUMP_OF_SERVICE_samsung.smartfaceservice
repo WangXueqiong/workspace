@@ -1,0 +1,50 @@
+SmartFace service is up and running!
+ # of clients: 0
+ # of active clients: 0
+
+ Vision Camera: true
+ Method: qualcomm: intelligent-mode and no-display
+ Size: 320x180
+ Size2: 480x272
+
+ # of Workers: 2
+ (Thread[Scroll/Pause Worker,5,main]) supports 110011
+ mCurrnetFlatState: false
+ mCurrentMoveState: false
+ mAccelerometerRegistered: false
+ mPageStatus: 0
+ mState: NOT_INIT
+
+ (Thread[Stay/Rotation Worker,5,main]) supports 1100
+
+SmartFaceService State:
+ mScrollEnabled: false
+ mPauseEnabled: false
+ mStayEnabled: true
+ mRotationEnabled: false
+ mMultiWindowEnabled: false
+ mClearCoverOpened: true
+ mFolderCoverOpened: true
+ mChangedByDock: false
+ mFaceScrollState: false
+ mLux: 0.0
+ Indicator type: none
+
+SmartFaceService System Feature:
+ has Smart Stay: true
+ has Smart Rotation: true
+ has Smart Scroll: true
+ has Smart Pause: true
+
+ Camera is not opened
+
+
+Dump of SmartFaceService Activity
+ Time ref. : 12-24 17:32:38.777:34218538
+	32963647: SmartFaceService: mScrollEnabled:false mPauseEnabled:false mStayEnabled:true mRotationEnabled:false, (false,true)
+	32963656: SmartFaceService: from registerCoverManager -> mClearCoverOpened: true
+	32963656: SmartFaceService: Update service state according to cover state: true
+	34140898: SmartFaceService: mScrollEnabled:false mPauseEnabled:false mStayEnabled:true mRotationEnabled:false, (false,true)
+	34140902: SmartFaceService: mScrollEnabled:false mPauseEnabled:false mStayEnabled:true mRotationEnabled:false, (false,true)
+--------------------------------------
+

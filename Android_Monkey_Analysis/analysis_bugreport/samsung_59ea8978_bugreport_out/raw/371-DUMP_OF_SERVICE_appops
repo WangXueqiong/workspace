@@ -1,0 +1,1711 @@
+Current AppOps Service state:
+  Op mode watchers:
+    Op COARSE_LOCATION:
+      #0: com.android.server.AppOpsService$Callback@d923308
+    Op SYSTEM_ALERT_WINDOW:
+      #0: com.android.server.AppOpsService$Callback@2fc5aa1
+    Op PLAY_AUDIO:
+      #0: com.android.server.AppOpsService$Callback@295d4c6
+      #1: com.android.server.AppOpsService$Callback@7c41c87
+      #2: com.android.server.AppOpsService$Callback@69b77b4
+      #3: com.android.server.AppOpsService$Callback@7e2ffdd
+      #4: com.android.server.AppOpsService$Callback@1bbfa23
+      #5: com.android.server.AppOpsService$Callback@4e9e768
+      #6: com.android.server.AppOpsService$Callback@8889b1
+    Op TOAST_WINDOW:
+      #0: com.android.server.AppOpsService$Callback@2fc5aa1
+  Package mode watchers:
+    Pkg com.android.nfc:
+      #0: com.android.server.AppOpsService$Callback@4e9e768
+    Pkg com.sec.android.inputmethod:
+      #0: com.android.server.AppOpsService$Callback@7e2ffdd
+    Pkg com.android.systemui:
+      #0: com.android.server.AppOpsService$Callback@295d4c6
+      #1: com.android.server.AppOpsService$Callback@7c41c87
+      #2: com.android.server.AppOpsService$Callback@1bbfa23
+      #3: com.android.server.AppOpsService$Callback@8889b1
+  All mode watchers:
+    android.os.BinderProxy@b3ff35 -> com.android.server.AppOpsService$Callback@7e2ffdd
+    android.media.SoundPool$1@1fce1f6 -> com.android.server.AppOpsService$Callback@69b77b4
+    android.os.BinderProxy@4a92d04 -> com.android.server.AppOpsService$Callback@7c41c87
+    android.os.BinderProxy@83d1c69 -> com.android.server.AppOpsService$Callback@1bbfa23
+    android.os.BinderProxy@a087a1c -> com.android.server.AppOpsService$Callback@4e9e768
+    android.os.BinderProxy@cd7af37 -> com.android.server.AppOpsService$Callback@295d4c6
+    android.os.BinderProxy@f5f281e -> com.android.server.AppOpsService$Callback@8889b1
+    android.app.AppOpsManager$1@fa44e01 -> com.android.server.AppOpsService$Callback@d923308
+    android.app.AppOpsManager$1@ff1af85 -> com.android.server.AppOpsService$Callback@2fc5aa1
+  Clients:
+    android.os.Binder@1395577:
+      ClientState{mAppToken=android.os.Binder@1395577, local}
+    android.os.BinderProxy@c264436:
+      ClientState{mAppToken=android.os.BinderProxy@c264436, pid=346}
+
+  Uid 0:
+    Package root:
+      AUDIO_MEDIA_VOLUME: mode=0; time=+2m19s651ms ago
+  Uid 1000:
+    Package com.mobeam.barcodeService:
+      ASSIST_STRUCTURE: mode=0; time=+659d23h55m3s734ms ago
+      USE_SIP: mode=0; time=+312d1h33m21s873ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+34m23s834ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+34m23s834ms ago
+    Package com.sec.android.app.parser:
+      USE_SIP: mode=0; time=+363d7h43m51s439ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+41d6h57m43s573ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+41d6h57m43s573ms ago
+    Package com.samsung.clipboardsaveservice:
+      READ_EXTERNAL_STORAGE: mode=0; time=+3m58s760ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+3m58s760ms ago
+    Package com.sec.automation:
+      BODY_SENSORS: mode=0; time=+116d7h13m4s306ms ago
+    Package com.android.wallpapercropper:
+      BODY_SENSORS: mode=0; time=+69d2h42m49s384ms ago
+    Package com.sec.android.app.wfdbroker:
+      BODY_SENSORS: mode=0; time=+17d23h23m10s308ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+4d0h41m2s427ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+4d0h41m2s427ms ago
+    Package com.sec.factory.camera:
+      ASSIST_STRUCTURE: mode=0; time=+659d23h55m0s120ms ago
+      USE_SIP: mode=0; time=+312d1h33m14s900ms ago
+      BODY_SENSORS: mode=0; time=+300d19h31m51s135ms ago
+    Package com.sec.usbsettings:
+      USE_SIP: mode=0; time=+312d1h33m20s621ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+4d0h40m49s141ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+4d0h40m49s141ms ago
+    Package com.sec.android.easyonehand:
+      BODY_SENSORS: mode=0; time=+31d22h56m23s860ms ago
+    Package com.sec.factory:
+      ASSIST_STRUCTURE: mode=0; time=+659d23h55m13s999ms ago
+      USE_SIP: mode=0; time=+312d1h32m15s367ms ago
+      BODY_SENSORS: mode=0; time=+73d7h39m1s317ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+4d0h40m52s69ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+4d0h40m52s69ms ago
+    Package com.samsung.ucs.agent.boot:
+      READ_EXTERNAL_STORAGE: mode=0; time=+4d0h41m4s445ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+4d0h41m4s445ms ago
+    Package com.sec.android.Kies:
+      USE_SIP: mode=0; time=+312d0h52m34s893ms ago
+      BODY_SENSORS: mode=0; time=+188d5h51m17s843ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+1d20h0m6s598ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+1d20h0m6s598ms ago
+    Package com.sec.android.app.voicenote:
+      USE_SIP: mode=1; rejectTime=+312d1h33m20s665ms ago
+      BODY_SENSORS: mode=0; time=+94d1h12m59s709ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+303d0h60m0s801ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+303d0h60m0s801ms ago
+    Package com.samsung.android.MtpApplication:
+      WRITE_SETTINGS: mode=0; time=+312d0h52m51s305ms ago
+      WAKE_LOCK: mode=0; time=+572d23h33m34s636ms ago; duration=+4h8m47s626ms
+      ASSIST_STRUCTURE: mode=0; time=+659d23h55m12s929ms ago
+      USE_SIP: mode=0; time=+312d0h52m39s210ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+1m38s169ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+1h35m5s638ms ago
+    Package com.sec.android.app.factorykeystring:
+      ASSIST_STRUCTURE: mode=0; time=+659d23h55m14s4ms ago
+      USE_SIP: mode=0; time=+312d1h33m18s723ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+4d0h40m46s952ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+4d0h40m46s952ms ago
+    Package com.sec.android.emergencymode.service:
+      ASSIST_STRUCTURE: mode=0; time=+659d23h55m17s617ms ago
+      USE_SIP: mode=0; time=+312d1h33m21s300ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+4d0h41m4s811ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+4d0h41m4s811ms ago
+    Package com.sec.android.app.wlantest:
+      BODY_SENSORS: mode=0; time=+48d4h52m30s467ms ago
+    Package com.sec.android.app.popupuireceiver:
+      ASSIST_STRUCTURE: mode=0; time=+659d23h55m18s211ms ago
+      USE_SIP: mode=0; time=+312d0h52m34s916ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+14m40s656ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+14m40s656ms ago
+    Package com.sec.android.providers.security:
+      USE_SIP: mode=0; time=+312d0h53m40s399ms ago
+    Package com.samsung.android.securitylogagent:
+      WAKE_LOCK: mode=0; time=+1h37m45s805ms ago; duration=+772ms
+      USE_SIP: mode=0; time=+312d1h29m47s550ms ago
+      BODY_SENSORS: mode=0; time=+223d6h25m2s451ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+13m27s265ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+13m27s265ms ago
+    Package com.samsung.android.app.assistantmenu:
+      ASSIST_STRUCTURE: mode=0; time=+659d23h55m4s262ms ago
+      USE_SIP: mode=0; time=+312d0h53m40s405ms ago
+      BODY_SENSORS: mode=0; time=+293d6h38m4s875ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+14m31s254ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+14m31s254ms ago
+    Package com.samsung.SMT:
+      USE_SIP: mode=0; time=+312d0h53m40s402ms ago
+      BODY_SENSORS: mode=0; time=+254d21h48m48s780ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+95d7h39m32s958ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+95d7h39m32s958ms ago
+    Package android:
+      COARSE_LOCATION: mode=0; time=+37s339ms ago
+      FINE_LOCATION: mode=0; time=+4d7h48m21s99ms ago
+      VIBRATE: mode=0; time=+3d22h4m4s220ms ago; duration=+507ms
+      READ_CONTACTS: mode=0; time=+13m27s692ms ago
+      WIFI_SCAN: mode=0; time=+13m18s145ms ago
+      POST_NOTIFICATION: mode=0; time=+44s83ms ago
+      WRITE_SMS: mode=1; rejectTime=+13m27s700ms ago
+      WRITE_SETTINGS: mode=0; time=+312d0h51m42s718ms ago
+      SYSTEM_ALERT_WINDOW: mode=0; time=+3d23h56m48s432ms ago; duration=+2s427ms
+      ACCESS_NOTIFICATIONS: mode=0; time=+1h3m34s1ms ago
+      AUDIO_RING_VOLUME: mode=0; time=+2m25s532ms ago
+      AUDIO_MEDIA_VOLUME: mode=0; time=+44d2h30m39s776ms ago
+      WAKE_LOCK: mode=0; time=+43s665ms ago; duration=+7ms
+      MONITOR_LOCATION: mode=0; time=+4d0h41m4s536ms ago (running)
+      ASSIST_STRUCTURE: mode=0; time=+659d23h55m17s173ms ago
+      OP_READ_PHONE_STATE: mode=0; time=+13m23s139ms ago
+      USE_SIP: mode=0; time=+312d0h53m40s399ms ago
+      PROCESS_OUTGOING_CALLS: mode=0; time=+311d23h57m48s550ms ago
+      BODY_SENSORS: mode=0; time=+4d0h41m9s197ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+12d21h22m24s599ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+12d21h22m24s599ms ago
+      TURN_ON_SCREEN: mode=0; time=+20m45s266ms ago
+      READ_MMS: mode=0; time=+4d7h44m6s700ms ago
+      BOOT_COMPLETED: mode=0; time=+13m21s894ms ago
+      DATA_CONNECT_CHANGE: mode=0; time=+311d23h57m48s655ms ago
+      GET_ACCOUNTS: mode=0; time=+3d3h7m4s563ms ago
+    Package com.samsung.android.smartface:
+      CAMERA: mode=0; time=+44m32s653ms ago; duration=+2s114ms
+      WAKE_LOCK: mode=0; time=+44m32s648ms ago; duration=+2s216ms
+      BODY_SENSORS: mode=0; time=+20m24s605ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+20m24s729ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+20m24s729ms ago
+    Package com.sec.knox.foldercontainer:
+      READ_EXTERNAL_STORAGE: mode=0; time=+4d0h40m47s955ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+4d0h40m47s955ms ago
+    Package com.sec.android.app.SecSetupWizard:
+      READ_CONTACTS: mode=0; time=+664d7h13m44s762ms ago
+      WRITE_SETTINGS: mode=0; time=+664d7h13m41s914ms ago
+      USE_SIP: mode=0; time=+312d1h33m5s318ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+4d0h40m46s32ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+4d0h40m46s32ms ago
+    Package com.sec.android.app.hwmoduletest:
+      VIBRATE: mode=0; time=+41d6h55m41s799ms ago; duration=+142ms
+      BODY_SENSORS: mode=0; time=+41d6h57m32s120ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+41d6h57m34s887ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+41d6h57m34s887ms ago
+    Package com.sec.modem.settings:
+      ASSIST_STRUCTURE: mode=0; time=+659d23h54m51s138ms ago
+      USE_SIP: mode=0; time=+312d1h33m20s557ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+4d0h40m48s805ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+4d0h40m48s805ms ago
+    Package com.sec.android.app.sysscope:
+      ASSIST_STRUCTURE: mode=0; time=+659d23h54m50s367ms ago
+      USE_SIP: mode=0; time=+312d1h33m17s953ms ago
+      BODY_SENSORS: mode=0; time=+70d7h53m55s138ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+4d0h40m52s144ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+4d0h40m52s144ms ago
+    Package com.sec.android.app.wallpaperchooser:
+      BODY_SENSORS: mode=0; time=+128d1h32m36s471ms ago
+    Package com.sec.android.app.servicemodeapp:
+      READ_EXTERNAL_STORAGE: mode=0; time=+4d0h40m48s317ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+4d0h40m48s317ms ago
+    Package com.sec.android.preloadinstaller:
+      WRITE_SETTINGS: mode=0; time=+340d20h48m14s308ms ago
+      USE_SIP: mode=0; time=+340d20h48m9s128ms ago
+      BODY_SENSORS: mode=0; time=+236d2h30m7s229ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+312d0h25m10s846ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+312d0h25m10s846ms ago
+    Package com.android.providers.settings:
+      USE_SIP: mode=0; time=+312d0h53m40s399ms ago
+    Package com.samsung.android.app.colorblind:
+      ASSIST_STRUCTURE: mode=0; time=+659d23h55m1s519ms ago
+      USE_SIP: mode=0; time=+312d1h33m15s493ms ago
+    Package com.sec.android.service.sm:
+      ASSIST_STRUCTURE: mode=0; time=+659d23h54m51s979ms ago
+      USE_SIP: mode=0; time=+312d0h53m40s402ms ago
+      BODY_SENSORS: mode=0; time=+303d1h0m56s429ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+4d0h41m2s503ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+4d0h41m2s503ms ago
+    Package com.samsung.android.personalpage.service:
+      READ_EXTERNAL_STORAGE: mode=0; time=+17d5h9m24s81ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+17d5h9m24s81ms ago
+    Package com.sec.android.inputmethod:
+      VIBRATE: mode=0; time=+54s679ms ago; duration=+12ms
+      READ_CONTACTS: mode=0; time=+3d3h2m45s934ms ago
+      WAKE_LOCK: mode=0; time=+3d3h20m8s161ms ago; duration=+142ms
+      OP_READ_PHONE_STATE: mode=0; time=+311d23h55m45s806ms ago
+      BODY_SENSORS: mode=0; time=+48d4h36m6s864ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+4d0h40m43s908ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+4d0h40m43s908ms ago
+    Package com.samsung.android.app.mirrorlink:
+      USE_SIP: mode=0; time=+312d0h52m35s104ms ago
+      BODY_SENSORS: mode=0; time=+231d1h34m22s503ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+14m33s346ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+14m33s346ms ago
+    Package com.android.server.telecom:
+      READ_CONTACTS: mode=0; time=+311d23h55m51s288ms ago
+      READ_CALL_LOG: mode=0; time=+4d0h41m3s460ms ago
+      WRITE_CALL_LOG: mode=0; time=+311d23h55m45s834ms ago
+      TAKE_AUDIO_FOCUS: mode=0; time=+311d23h55m50s610ms ago
+      WAKE_LOCK: mode=0; time=+311d23h57m42s304ms ago; duration=+6s147ms
+      MUTE_MICROPHONE: mode=0; time=+311d23h55m45s810ms ago
+      DELETE_CALL_LOG: mode=0; time=+311d23h55m45s834ms ago
+    Package com.samsung.android.clipboarduiservice:
+      BODY_SENSORS: mode=0; time=+18d6h1m52s588ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+3d23h9m12s528ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+3d23h9m12s528ms ago
+    Package com.android.keychain:
+      USE_SIP: mode=0; time=+312d0h58m42s248ms ago
+      BODY_SENSORS: mode=0; time=+219d22h36m46s651ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+14m40s740ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+14m40s740ms ago
+    Package com.samsung.android.sm:
+      POST_NOTIFICATION: mode=0; time=+4d3h40m5s70ms ago
+      WRITE_SETTINGS: mode=0; time=+312d1h33m18s652ms ago
+      USE_SIP: mode=0; time=+312d0h52m24s781ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+12m56s503ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+12m56s503ms ago
+    Package com.sec.android.diagmonagent:
+      ASSIST_STRUCTURE: mode=0; time=+659d23h55m12s572ms ago
+      USE_SIP: mode=0; time=+312d1h29m46s315ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+13m8s401ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+13m8s401ms ago
+    Package com.samsung.android.usbchargingblock:
+      BODY_SENSORS: mode=0; time=+44d6h50m15s136ms ago
+    Package com.dsi.ant.server:
+      ASSIST_STRUCTURE: mode=0; time=+659d23h55m4s671ms ago
+      USE_SIP: mode=0; time=+312d0h53m40s399ms ago
+    Package com.samsung.helphub:
+      USE_SIP: mode=0; time=+312d0h37m34s650ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+14m33s422ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+14m33s422ms ago
+    Package com.samsung.android.app.filterinstaller:
+      ASSIST_STRUCTURE: mode=0; time=+659d23h54m59s688ms ago
+      USE_SIP: mode=0; time=+312d0h37m34s702ms ago
+      BODY_SENSORS: mode=0; time=+52d3h28m53s202ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+14m33s513ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+14m33s513ms ago
+    Package com.samsung.android.app.accesscontrol:
+      WRITE_SETTINGS: mode=0; time=+312d1h33m24s320ms ago
+      USE_SIP: mode=0; time=+312d1h33m20s188ms ago
+      BODY_SENSORS: mode=0; time=+148d21h54m2s782ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+4d0h40m47s90ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+4d0h40m47s90ms ago
+    Package com.sec.enterprise.mdm.services.simpin:
+      USE_SIP: mode=0; time=+312d0h53m40s400ms ago
+    Package com.samsung.ucs.ucspinpad:
+      BODY_SENSORS: mode=0; time=+664d7h7m26s804ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+4d0h41m2s491ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+4d0h41m2s491ms ago
+    Package com.sec.android.soagent:
+      READ_EXTERNAL_STORAGE: mode=0; time=+13m7s382ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+13m7s382ms ago
+    Package com.samsung.android.fmm:
+      BODY_SENSORS: mode=0; time=+174d6h45m37s70ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+3d3h18m36s433ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+3d3h18m36s433ms ago
+      GET_ACCOUNTS: mode=0; time=+3d3h18m36s8ms ago
+    Package com.sec.knox.knoxsetupwizardclient:
+      ASSIST_STRUCTURE: mode=0; time=+659d23h54m56s886ms ago
+      USE_SIP: mode=0; time=+312d1h4m17s300ms ago
+      BODY_SENSORS: mode=0; time=+52d5h33m3s239ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+4d0h40m46s929ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+4d0h40m46s929ms ago
+    Package com.sec.app.RilErrorNotifier:
+      WAKE_LOCK: mode=0; time=+4d1h26m33s413ms ago; duration=+562ms
+      USE_SIP: mode=0; time=+312d0h37m35s69ms ago
+      BODY_SENSORS: mode=0; time=+65d2h0m22s112ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+4d1h26m33s525ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+4d1h26m33s525ms ago
+    Package com.android.settings:
+      COARSE_LOCATION: mode=0
+      READ_CONTACTS: mode=0; time=+228d4h43m36s721ms ago
+      WIFI_SCAN: mode=0; time=+1d21h23m19s99ms ago
+      POST_NOTIFICATION: mode=0; time=+293d6h26m30s968ms ago
+      READ_SMS: mode=0; time=+541d2h16m43s399ms ago
+      WRITE_SETTINGS: mode=0; time=+312d0h37m34s896ms ago
+      WAKE_LOCK: mode=0; time=+1h17m26s852ms ago; duration=+74ms
+      TOAST_WINDOW: mode=0; time=+293d6h26m30s236ms ago; duration=+703ms
+      ASSIST_STRUCTURE: mode=0; time=+659d23h55m8s698ms ago
+      USE_SIP: mode=0; time=+312d0h37m34s900ms ago
+      BODY_SENSORS: mode=0; time=+4d0h40m48s45ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+3m30s378ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+3m30s378ms ago
+      GET_ACCOUNTS: mode=0; time=+1d21h23m7s230ms ago
+    Package com.sec.android.app.bluetoothtest:
+      ASSIST_STRUCTURE: mode=0; time=+659d23h55m3s318ms ago
+      USE_SIP: mode=0; time=+312d0h53m40s400ms ago
+      BODY_SENSORS: mode=0; time=+48d0h24m43s604ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+4d0h40m48s114ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+4d0h40m48s114ms ago
+    Package com.samsung.android.bbc.bbcagent:
+      BODY_SENSORS: mode=0; time=+20d6h44m59s342ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+1s679ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+1s679ms ago
+    Package com.wssnps:
+      ASSIST_STRUCTURE: mode=0; time=+659d23h55m6s751ms ago
+      USE_SIP: mode=0; time=+312d1h33m15s404ms ago
+      BODY_SENSORS: mode=0; time=+53d1h31m2s85ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+1h35m5s720ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+1h35m5s720ms ago
+    Package com.policydm:
+      WRITE_SETTINGS: mode=0; time=-6936d22h8m40s866ms ago
+      WAKE_LOCK: mode=0; time=+312d1h0m35s206ms ago; duration=+118ms
+      ASSIST_STRUCTURE: mode=0; time=+659d23h55m11s373ms ago
+      USE_SIP: mode=0; time=+312d0h53m40s404ms ago
+      BODY_SENSORS: mode=0; time=+151d2h51m45s301ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+13m7s681ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+13m7s681ms ago
+    Package com.wssyncmldm:
+      POST_NOTIFICATION: mode=0; time=+180d23h35m16s423ms ago
+      WRITE_SETTINGS: mode=0; time=+312d0h51m27s424ms ago
+      WAKE_LOCK: mode=0; time=+180d23h35m12s938ms ago; duration=+5s100ms
+      ASSIST_STRUCTURE: mode=0; time=+659d23h55m8s508ms ago
+      USE_SIP: mode=0; time=+312d0h51m34s341ms ago
+      BODY_SENSORS: mode=0; time=+161d1h23m30s200ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+13m7s81ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+13m7s81ms ago
+    Package com.samsung.android.sm.provider:
+      BODY_SENSORS: mode=0; time=+4d7h49m19s445ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+3m49s74ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+3m49s74ms ago
+    Package com.samsung.aasaservice:
+      USE_SIP: mode=0; time=+312d0h53m40s404ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+3m55s60ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+3m55s60ms ago
+    Package com.sec.android.app.mt:
+      ASSIST_STRUCTURE: mode=0; time=+659d23h54m55s978ms ago
+      USE_SIP: mode=0; time=+312d0h48m36s15ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+4d0h41m1s24ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+4d0h41m1s24ms ago
+    Package com.samsung.android.app.gestureservice:
+      READ_EXTERNAL_STORAGE: mode=0; time=+311d23h55m50s546ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+311d23h55m50s546ms ago
+    Package com.samsung.android.fingerprint.service:
+      USE_SIP: mode=0; time=+312d0h53m40s440ms ago
+      BODY_SENSORS: mode=0; time=+96d6h48m0s8ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+4d7h48m11s839ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+4d7h48m11s839ms ago
+    Package com.sec.knox.switcher:
+      BODY_SENSORS: mode=0; time=+115d2h50m55s330ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+13m8s41ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+13m8s41ms ago
+    Package com.qualcomm.timeservice:
+      USE_SIP: mode=0; time=+312d1h29m47s365ms ago
+      BODY_SENSORS: mode=0; time=+15d22h32m27s611ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+5h32m7s560ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+5h32m7s560ms ago
+    Package com.qualcomm.atfwd:
+      BODY_SENSORS: mode=0; time=+664d6h52m10s44ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+17m56s185ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+17m56s185ms ago
+    Package com.sec.android.easysettings:
+      BODY_SENSORS: mode=0; time=+66d6h8m27s440ms ago
+  Uid 1001:
+    Package com.android.providers.telephony:
+      WRITE_SMS: mode=0
+      USE_SIP: mode=0; time=+312d0h53m40s400ms ago
+    Package com.android.mms.service:
+      WRITE_SMS: mode=0
+    Package com.sec.android.AutoPreconfig:
+      READ_EXTERNAL_STORAGE: mode=0; time=+4d0h40m50s551ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+4d0h40m50s551ms ago
+      BOOT_COMPLETED: mode=0; time=+4d0h40m50s551ms ago
+    Package com.android.stk:
+      POST_NOTIFICATION: mode=0; time=+312d0h21m27s143ms ago
+      WAKE_LOCK: mode=0; time=+312d1h33m0s762ms ago; duration=+5s58ms
+      TOAST_WINDOW: mode=0; time=+312d0h21m23s43ms ago; duration=+4s85ms
+      ASSIST_STRUCTURE: mode=0; time=+659d23h54m50s411ms ago
+      USE_SIP: mode=0; time=+312d0h37m34s595ms ago
+      TURN_ON_SCREEN: mode=0; time=+312d0h21m36s157ms ago
+      BOOT_COMPLETED: mode=0; time=+4d0h40m50s595ms ago
+    Package com.android.incallui:
+      READ_CONTACTS: mode=0; time=+311d23h55m50s571ms ago
+      READ_CALL_LOG: mode=0; time=+311d23h55m50s136ms ago
+      POST_NOTIFICATION: mode=0; time=+311d23h55m49s903ms ago
+      READ_SMS: mode=0; time=+363d0h55m10s257ms ago
+      SYSTEM_ALERT_WINDOW: mode=3; rejectTime=+311d23h55m50s230ms ago
+      TOAST_WINDOW: mode=0; time=+312d0h6m33s238ms ago; duration=+2s570ms
+      USE_SIP: mode=0; time=+312d0h53m40s401ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+4d0h41m2s304ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+4d0h41m2s304ms ago
+      GET_ACCOUNTS: mode=0; time=+311d23h55m50s140ms ago
+    Package com.sec.android.RilServiceModeApp:
+      READ_EXTERNAL_STORAGE: mode=0; time=+312d0h5m14s304ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+312d0h5m14s304ms ago
+    Package com.sec.phone:
+      WAKE_LOCK: mode=0; time=+4d0h40m38s158ms ago; duration=+17ms
+      USE_SIP: mode=0; time=+312d1h33m0s369ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+4d0h40m38s333ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+4d0h40m38s333ms ago
+      BOOT_COMPLETED: mode=0; time=+4d0h40m50s350ms ago
+    Package com.android.phone:
+      COARSE_LOCATION: mode=0; time=+664d6h56m18s348ms ago
+      READ_CONTACTS: mode=0; time=+1h18m50s323ms ago
+      WRITE_CALL_LOG: mode=0; time=+654d7h20m13s534ms ago
+      POST_NOTIFICATION: mode=0; time=+311d23h57m46s12ms ago
+      READ_SMS: mode=0; time=+43s74ms ago
+      WRITE_SMS: mode=0; time=+43s144ms ago
+      READ_ICC_SMS: mode=0; time=+43s100ms ago
+      WRITE_ICC_SMS: mode=0; time=+4d0h40m43s233ms ago
+      WRITE_SETTINGS: mode=0; time=+312d0h48m36s22ms ago
+      WAKE_LOCK: mode=0; time=+38s177ms ago; duration=+9ms
+      TOAST_WINDOW: mode=0; time=+311d23h57m43s899ms ago; duration=+2s84ms
+      ASSIST_STRUCTURE: mode=0; time=+659d23h55m8s523ms ago
+      USE_SIP: mode=0; time=+312d0h48m36s39ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+4d0h41m6s319ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+4d0h41m6s319ms ago
+      READ_MMS: mode=0; time=+43s74ms ago
+      BOOT_COMPLETED: mode=0; time=+4d0h40m48s951ms ago
+    Package com.samsung.sec.android.application.csc:
+      WRITE_SETTINGS: mode=0; time=+312d1h33m34s682ms ago
+      ASSIST_STRUCTURE: mode=0; time=+659d23h55m16s891ms ago
+      USE_SIP: mode=0; time=+312d0h53m40s400ms ago
+      BOOT_COMPLETED: mode=0; time=+4d0h40m50s628ms ago
+  Uid 1002:
+    Package com.android.bluetooth:
+      WRITE_SMS: mode=0
+      WRITE_SETTINGS: mode=0; time=+312d1h33m26s387ms ago
+      WAKE_LOCK: mode=0; time=+1h17m28s297ms ago
+      USE_SIP: mode=0; time=+312d0h53m40s401ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+1h18m25s271ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+4d0h41m2s481ms ago
+  Uid 1013:
+    Package media:
+      CAMERA: mode=0; time=+4d0h41m5s329ms ago; duration=+281ms
+      WAKE_LOCK: mode=0; time=+2m29s726ms ago (running)
+  Uid 1027:
+    Package com.android.nfc:
+      WAKE_LOCK: mode=0; time=+20m43s586ms ago; duration=+140ms
+      USE_SIP: mode=0; time=+312d0h53m40s400ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+4d0h41m4s757ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+4d0h41m4s757ms ago
+      BOOT_COMPLETED: mode=0; time=+4d0h40m49s244ms ago
+  Uid 2000:
+    Package com.android.shell:
+      WRITE_SETTINGS: mode=0; time=+335d3h7m15s570ms ago
+      READ_CLIPBOARD: mode=0; time=+1h26m11s278ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+1h37m33s923ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+1h37m33s923ms ago
+  Uid 5003:
+    Package com.sec.android.app.safetyassurance:
+      WAKE_LOCK: mode=0; time=+4d0h40m40s143ms ago; duration=+76ms
+      READ_EXTERNAL_STORAGE: mode=0; time=+4d0h40m40s339ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+4d0h40m40s339ms ago
+      BOOT_COMPLETED: mode=0; time=+4d0h40m40s339ms ago
+  Uid 5004:
+    Package com.samsung.dcm:
+      READ_CALENDAR: mode=0; time=+1m38s400ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+1m38s585ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+3m58s655ms ago
+    Package com.sec.face:
+      READ_EXTERNAL_STORAGE: mode=0; time=+3m58s881ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+3m58s881ms ago
+  Uid 5005:
+    Package com.samsung.android.app.FileShareClient:
+      READ_EXTERNAL_STORAGE: mode=0; time=+13m27s544ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+13m27s544ms ago
+    Package com.samsung.android.app.FileShareServer:
+      READ_EXTERNAL_STORAGE: mode=0; time=+13m27s382ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+13m27s382ms ago
+      BOOT_COMPLETED: mode=0; time=+4d0h40m48s370ms ago
+  Uid 5006:
+    Package com.samsung.android.beaconmanager:
+      READ_EXTERNAL_STORAGE: mode=0; time=+4d0h40m44s893ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+4d0h40m44s893ms ago
+      BOOT_COMPLETED: mode=0; time=+4d0h40m44s894ms ago
+  Uid 5009:
+    Package com.samsung.android.scloud:
+      READ_EXTERNAL_STORAGE: mode=0; time=+4d0h40m43s637ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+4d0h40m43s637ms ago
+      BOOT_COMPLETED: mode=0; time=+4d0h40m44s4ms ago
+      GET_ACCOUNTS: mode=0; time=+4d0h40m43s296ms ago
+  Uid 5010:
+    Package com.samsung.android.intelligenceservice2:
+      READ_EXTERNAL_STORAGE: mode=0; time=+14m41s256ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+14m41s256ms ago
+      BOOT_COMPLETED: mode=0; time=+4d0h40m42s494ms ago
+  Uid 5011:
+    Package com.samsung.android.app.simplesharing:
+      READ_EXTERNAL_STORAGE: mode=0; time=+4d0h40m32s619ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+4d0h40m32s619ms ago
+      BOOT_COMPLETED: mode=0; time=+4d0h40m49s53ms ago
+    Package com.samsung.android.coreapps:
+      WAKE_LOCK: mode=0; time=+7h47m43s775ms ago; duration=+1s151ms
+      READ_EXTERNAL_STORAGE: mode=0; time=+12m54s901ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+12m54s901ms ago
+      BOOT_COMPLETED: mode=0; time=+4d0h40m40s402ms ago
+      GET_ACCOUNTS: mode=0; time=+4d7h49m4s10ms ago
+  Uid 5012:
+    Package com.samsung.android.sm.devicesecurity:
+      OP_READ_PHONE_STATE: mode=0; time=+1h27m45s813ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+14m33s699ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+14m33s699ms ago
+      BOOT_COMPLETED: mode=0; time=+4d0h40m42s786ms ago
+  Uid 5013:
+    Package com.sec.location.nsflp2:
+      READ_EXTERNAL_STORAGE: mode=0; time=+4d0h41m5s68ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+4d0h41m5s68ms ago
+      BOOT_COMPLETED: mode=0; time=+4d0h40m49s252ms ago
+  Uid u0a1:
+    Package com.bst.floatingmsgproxy:
+      ASSIST_STRUCTURE: mode=0; time=+659d23h55m17s150ms ago
+      USE_SIP: mode=0; time=+312d0h51m54s794ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+12m57s362ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+12m57s362ms ago
+      BOOT_COMPLETED: mode=0; time=+4d0h40m46s178ms ago
+    Package com.bst.airmessage:
+      READ_CONTACTS: mode=0; time=+312d1h32m7s879ms ago
+      SYSTEM_ALERT_WINDOW: mode=0; time=+654d7h29m47s380ms ago; duration=+23h49m8s876ms
+      ASSIST_STRUCTURE: mode=0; time=+659d23h55m17s169ms ago
+      USE_SIP: mode=0; time=+312d0h51m54s825ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+14m30s569ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+14m30s569ms ago
+      BOOT_COMPLETED: mode=0; time=+4d0h40m47s876ms ago
+  Uid u0a3:
+    Package com.subway.bjsubway:
+      COARSE_LOCATION: mode=0; time=+236d2h27m41s331ms ago
+      FINE_LOCATION: mode=0; time=+236d2h27m41s352ms ago
+      WIFI_SCAN: mode=0; time=+236d2h27m41s352ms ago
+      NEIGHBORING_CELLS: mode=0; time=+236d2h27m41s343ms ago
+      WRITE_SETTINGS: mode=3; rejectTime=+236d2h27m41s395ms ago
+      WAKE_LOCK: mode=0; time=+236d2h13m14s857ms ago; duration=+23ms
+      MONITOR_LOCATION: mode=0; time=+236d2h27m40s123ms ago; duration=+1s292ms
+      OP_READ_PHONE_STATE: mode=0; time=+236d2h27m41s288ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+236d2h27m41s423ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+236d2h27m41s423ms ago
+      BOOT_COMPLETED: mode=1; rejectTime=+4d0h40m46s229ms ago
+  Uid u0a4:
+    Package com.samsung.android.intelligenceservice:
+      ASSIST_STRUCTURE: mode=0; time=+659d23h55m6s967ms ago
+      USE_SIP: mode=0; time=+312d0h53m40s440ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+312d0h24m15s670ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+312d0h24m15s670ms ago
+  Uid u0a5:
+    Package com.lvlvlaw:
+      POST_NOTIFICATION: mode=0; time=+13d2h2m13s855ms ago
+      WAKE_LOCK: mode=0; time=+13d1h27m46s77ms ago; duration=+1ms
+      OP_READ_PHONE_STATE: mode=0; time=+13d2h2m11s948ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+13d2h2m11s13ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+13d2h2m11s13ms ago
+      BOOT_COMPLETED: mode=1; rejectTime=+4d0h40m46s250ms ago
+  Uid u0a6:
+    Package com.android.defcontainer:
+      USE_SIP: mode=0; time=+312d0h53m40s441ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+14m35s535ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+14m35s535ms ago
+  Uid u0a8:
+    Package com.sec.android.app.launcher:
+      POST_NOTIFICATION: mode=0; time=+14d7h59m47s117ms ago
+      WRITE_SETTINGS: mode=0; time=+312d0h51m45s582ms ago
+      AUDIO_RING_VOLUME: mode=0; time=+654d4h23m34s96ms ago
+      TOAST_WINDOW: mode=0; time=+14d7h59m42s585ms ago; duration=+4s576ms
+      USE_SIP: mode=0; time=+312d0h53m40s480ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+4d0h41m4s344ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+4d0h41m4s344ms ago
+  Uid u0a9:
+    Package com.android.externalstorage:
+      USE_SIP: mode=0; time=+312d0h58m59s640ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+1h37m33s821ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+1h37m33s821ms ago
+  Uid u0a10:
+    Package com.sec.location.nsflp:
+      USE_SIP: mode=0; time=+312d0h53m40s403ms ago
+  Uid u0a11:
+    Package cn.com.bmac.nfc:
+      COARSE_LOCATION: mode=0; time=+28d6h26m12s628ms ago
+      FINE_LOCATION: mode=0; time=+28d6h26m41s509ms ago
+      WIFI_SCAN: mode=0; time=+28d6h26m41s720ms ago
+      POST_NOTIFICATION: mode=0; time=+28d6h26m0s238ms ago
+      NEIGHBORING_CELLS: mode=0; time=+28d6h26m42s10ms ago
+      WRITE_SMS: mode=1; rejectTime=+28d6h26m28s535ms ago
+      WRITE_SETTINGS: mode=3; rejectTime=+28d6h26m42s94ms ago
+      CAMERA: mode=0; time=+28d6h26m28s7ms ago; duration=+376ms
+      WAKE_LOCK: mode=0; time=+48d4h33m33s561ms ago; duration=+1ms
+      MONITOR_LOCATION: mode=0; time=+28d6h26m42s704ms ago; duration=+1m27s954ms
+      TOAST_WINDOW: mode=0; time=+28d6h25m57s664ms ago; duration=+2s517ms
+      OP_READ_PHONE_STATE: mode=0; time=+28d6h26m20s483ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+28d6h25m16s529ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+28d6h25m16s529ms ago
+      BOOT_COMPLETED: mode=1; rejectTime=+4d0h40m46s296ms ago
+  Uid u0a13:
+    Package com.samsung.groupcast:
+      RECEIVE_SMS: mode=0; time=+312d1h32m9s74ms ago
+      USE_SIP: mode=0; time=+312d0h58m41s417ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+14m35s765ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+14m35s765ms ago
+  Uid u0a14:
+    Package com.sec.android.service.health:
+      USE_SIP: mode=0; time=+312d0h37m34s772ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+14m32s36ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+14m32s36ms ago
+  Uid u0a16:
+    Package com.samsung.klmsagent:
+      ASSIST_STRUCTURE: mode=0; time=+659d23h55m11s545ms ago
+      USE_SIP: mode=0; time=+312d0h58m45s986ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+4d0h40m43s280ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+4d0h40m43s280ms ago
+      BOOT_COMPLETED: mode=0; time=+4d0h40m43s281ms ago
+  Uid u0a17:
+    Package com.android.systemui:
+      COARSE_LOCATION: mode=0
+      VIBRATE: mode=0; time=+3d23h19m41s984ms ago; duration=+182ms
+      READ_CONTACTS: mode=0; time=+44m19s673ms ago
+      READ_CALENDAR: mode=0; time=+44m19s703ms ago
+      WIFI_SCAN: mode=0; time=+13m26s415ms ago
+      POST_NOTIFICATION: mode=0; time=+1m38s598ms ago
+      WRITE_SETTINGS: mode=0; time=+312d0h52m27s372ms ago
+      SYSTEM_ALERT_WINDOW: mode=0; time=+353d0h0m47s883ms ago; duration=+976ms
+      TAKE_AUDIO_FOCUS: mode=0; time=+3d22h23m35s910ms ago
+      WAKE_LOCK: mode=0; time=+44m19s393ms ago; duration=+679ms
+      TOAST_WINDOW: mode=0; time=+13m21s532ms ago; duration=+1s672ms
+      ASSIST_STRUCTURE: mode=0; time=+659d23h55m7s629ms ago
+      OP_READ_PHONE_STATE: mode=0; time=+311d23h55m45s806ms ago
+      USE_SIP: mode=0; time=+312d0h52m29s284ms ago
+      PROCESS_OUTGOING_CALLS: mode=0; time=+585d7h25m45s210ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+1m38s655ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+1m38s655ms ago
+      TURN_ON_SCREEN: mode=0; time=+35d8h4m21s58ms ago
+      BOOT_COMPLETED: mode=0; time=+4d0h40m48s971ms ago
+  Uid u0a18:
+    Package com.android.contacts:
+      READ_CONTACTS: mode=0; time=+312d0h22m58s30ms ago
+      WRITE_CONTACTS: mode=0; time=+312d1h33m8s203ms ago
+      WRITE_CALL_LOG: mode=0; time=+312d0h51m45s215ms ago
+      POST_NOTIFICATION: mode=0; time=+363d7h56m55s55ms ago
+      CALL_PHONE: mode=0; time=+363d0h55m11s637ms ago
+      WRITE_SMS: mode=1; rejectTime=+4d0h40m33s577ms ago
+      WAKE_LOCK: mode=0; time=+312d1h33m8s281ms ago; duration=+1ms
+      ASSIST_STRUCTURE: mode=0; time=+659d23h55m18s244ms ago
+      OP_READ_PHONE_STATE: mode=0; time=+4d0h39m41s637ms ago
+      USE_SIP: mode=0; time=+312d0h51m45s573ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+15m25s269ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+15m25s269ms ago
+      BOOT_COMPLETED: mode=0; time=+4d0h40m46s335ms ago
+      GET_ACCOUNTS: mode=0; time=+14m43s291ms ago
+    Package com.android.providers.userdictionary:
+      USE_SIP: mode=0; time=+312d0h53m40s405ms ago
+    Package com.sec.android.provider.logsprovider:
+      READ_CONTACTS: mode=0; time=+312d1h32m8s419ms ago
+      USE_SIP: mode=0; time=+312d0h51m47s872ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+312d0h25m12s716ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+312d0h25m12s716ms ago
+      GET_ACCOUNTS: mode=0; time=+312d0h25m11s961ms ago
+    Package com.android.providers.contacts:
+      READ_CONTACTS: mode=0; time=+3m54s402ms ago
+      WRITE_CONTACTS: mode=0; time=+312d0h22m57s826ms ago
+      READ_CALL_LOG: mode=0; time=+1h18m50s111ms ago
+      WRITE_CALL_LOG: mode=0; time=+4d0h39m41s627ms ago
+      WRITE_CALENDAR: mode=0; time=+335d20h40m27s308ms ago
+      ASSIST_STRUCTURE: mode=0; time=+659d23h55m10s61ms ago
+      ADD_VOICEMAIL: mode=0; time=+1h37m40s263ms ago
+      USE_SIP: mode=0; time=+312d0h53m40s405ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+4d0h41m4s965ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+4d0h41m4s965ms ago
+      BOOT_COMPLETED: mode=0; time=+4d0h40m40s359ms ago
+      DELETE_CALL_LOG: mode=0; time=+4d0h40m40s491ms ago
+      GET_ACCOUNTS: mode=0; time=+3d3h7m4s593ms ago
+  Uid u0a19:
+    Package com.wandoujia.phoenix2.usbproxy:
+      READ_CONTACTS: mode=0; time=+608d1h4m7s406ms ago
+      POST_NOTIFICATION: mode=0; time=+608d1h4m8s264ms ago
+      READ_SMS: mode=0; time=+608d1h4m7s987ms ago
+      READ_ICC_SMS: mode=0; time=+43d23h58m17s888ms ago
+      USE_SIP: mode=1; rejectTime=+338d21h59m43s458ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+43d23h58m17s918ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+43d23h58m17s917ms ago
+      READ_MMS: mode=0; time=+43d23h58m17s888ms ago
+  Uid u0a21:
+    Package com.wandoujia.phoenix2:
+      COARSE_LOCATION: mode=0; time=+1d21h16m56s205ms ago
+      FINE_LOCATION: mode=0; time=+1d21h16m56s252ms ago
+      WIFI_SCAN: mode=0; time=+1d21h16m56s252ms ago
+      POST_NOTIFICATION: mode=0; time=+1d21h5m0s249ms ago
+      NEIGHBORING_CELLS: mode=0; time=+1d21h16m55s892ms ago
+      WRITE_SMS: mode=1; rejectTime=+1d21h16m48s850ms ago
+      WRITE_SETTINGS: mode=0; time=+1d21h16m46s378ms ago
+      SYSTEM_ALERT_WINDOW: mode=3; rejectTime=+96d1h12m6s381ms ago
+      WAKE_LOCK: mode=0; time=+3d3h17m43s440ms ago; duration=+3s607ms
+      TOAST_WINDOW: mode=0; time=+1d21h5m25s774ms ago; duration=+4s637ms
+      OP_READ_PHONE_STATE: mode=0; time=+1d20h55m9s500ms ago
+      USE_SIP: mode=1; rejectTime=+338d21h59m43s466ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+1d20h55m19s650ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+1d20h55m19s650ms ago
+      BOOT_COMPLETED: mode=0; time=+4d0h40m38s796ms ago
+      GET_ACCOUNTS: mode=0; time=+1d21h16m51s612ms ago
+  Uid u0a22:
+    Package cn.goapk.market:
+      COARSE_LOCATION: mode=0
+      FINE_LOCATION: mode=0; time=+352d20h27m20s922ms ago
+      WIFI_SCAN: mode=0; time=+352d20h27m20s947ms ago
+      POST_NOTIFICATION: mode=0; time=+181d0h41m21s716ms ago
+      NEIGHBORING_CELLS: mode=0; time=+352d20h27m20s894ms ago
+      WRITE_SETTINGS: mode=0; time=+181d0h48m58s679ms ago
+      WAKE_LOCK: mode=0; time=+352d22h56m24s488ms ago; duration=+5ms
+      TOAST_WINDOW: mode=0; time=+236d2h27m14s270ms ago; duration=+2s564ms
+      OP_READ_PHONE_STATE: mode=0; time=+181d0h48m51s929ms ago
+      USE_SIP: mode=1; rejectTime=+312d0h37m34s593ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+181d0h31m19s94ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+181d0h31m19s94ms ago
+      BOOT_COMPLETED: mode=0; time=+4d0h40m46s303ms ago
+  Uid u0a25:
+    Package com.wsomacp:
+      USE_SIP: mode=0; time=+312d0h58m46s234ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+43s46ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+43s46ms ago
+  Uid u0a26:
+    Package com.android.onetimeinitializer:
+      ASSIST_STRUCTURE: mode=0; time=+659d23h55m12s771ms ago
+      USE_SIP: mode=0; time=+312d1h33m21s583ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+4d0h40m42s414ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+4d0h40m42s414ms ago
+      BOOT_COMPLETED: mode=0; time=+4d0h40m42s415ms ago
+  Uid u0a28:
+    Package com.sec.android.pagebuddynotisvc:
+      ASSIST_STRUCTURE: mode=0; time=+659d23h55m12s183ms ago
+      USE_SIP: mode=0; time=+312d0h37m34s921ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+9m14s432ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+9m14s432ms ago
+      BOOT_COMPLETED: mode=0; time=+4d0h40m42s275ms ago
+  Uid u0a32:
+    Package com.samsung.android.app.galaxyfinder:
+      ASSIST_STRUCTURE: mode=0; time=+659d23h55m11s945ms ago
+      USE_SIP: mode=0; time=+312d0h53m40s402ms ago
+  Uid u0a34:
+    Package com.sec.spp.push:
+      POST_NOTIFICATION: mode=0; time=+12h45m57s511ms ago
+      WAKE_LOCK: mode=0; time=+12m48s65ms ago; duration=+1ms
+      ASSIST_STRUCTURE: mode=0; time=+659d23h55m10s854ms ago
+      USE_SIP: mode=0; time=+312d0h51m16s444ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+14m29s493ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+14m29s493ms ago
+      BOOT_COMPLETED: mode=0; time=+4d0h40m44s767ms ago
+  Uid u0a37:
+    Package com.samsung.android.sdk.samsunglink:
+      OP_READ_PHONE_STATE: mode=0; time=+14m32s914ms ago
+      USE_SIP: mode=0; time=+312d0h37m34s501ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+14m32s937ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+14m32s937ms ago
+      GET_ACCOUNTS: mode=0; time=+180d23h59m39s948ms ago
+  Uid u0a38:
+    Package com.sec.android.app.samsungapps:
+      POST_NOTIFICATION: mode=0; time=+1d21h34m12s148ms ago
+      OP_READ_PHONE_STATE: mode=0; time=+1d21h34m12s714ms ago
+      USE_SIP: mode=0; time=+312d0h53m40s480ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+12m47s156ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+12m47s156ms ago
+      BOOT_COMPLETED: mode=0; time=+4d0h40m49s130ms ago
+      GET_ACCOUNTS: mode=0; time=+1d21h34m13s120ms ago
+  Uid u0a39:
+    Package com.osp.app.signin:
+      ASSIST_STRUCTURE: mode=0; time=+659d23h55m10s130ms ago
+      USE_SIP: mode=0; time=+312d1h29m46s542ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+13m7s270ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+13m7s270ms ago
+      BOOT_COMPLETED: mode=0; time=+4d0h40m46s248ms ago
+      GET_ACCOUNTS: mode=0; time=+13m7s172ms ago
+  Uid u0a40:
+    Package com.android.providers.calendar:
+      READ_CONTACTS: mode=0; time=+3m54s402ms ago
+      READ_CALENDAR: mode=0; time=+1m38s400ms ago
+      WRITE_CALENDAR: mode=0; time=+4d0h40m48s65ms ago
+      WAKE_LOCK: mode=0; time=+4d0h40m29s722ms ago; duration=+84ms
+      ASSIST_STRUCTURE: mode=0; time=+659d23h55m10s87ms ago
+      USE_SIP: mode=0; time=+312d0h52m28s808ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+3m58s175ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+3m58s175ms ago
+      BOOT_COMPLETED: mode=0; time=+4d0h40m48s412ms ago
+      GET_ACCOUNTS: mode=0; time=+3m57s681ms ago
+  Uid u0a41:
+    Package com.android.providers.media:
+      WAKE_LOCK: mode=0; time=+1h34m59s79ms ago; duration=+6s659ms
+      ASSIST_STRUCTURE: mode=0; time=+659d23h55m10s3ms ago
+      USE_SIP: mode=0; time=+312d0h52m35s207ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+94d21h46m14s954ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+95d0h51m22s624ms ago
+      BOOT_COMPLETED: mode=0; time=+4d0h40m40s349ms ago
+    Package com.android.providers.downloads:
+      POST_NOTIFICATION: mode=0; time=+223d0h36m13s797ms ago
+      TOAST_WINDOW: mode=0; time=+223d0h36m11s224ms ago; duration=+2s542ms
+      ASSIST_STRUCTURE: mode=0; time=+659d23h55m10s53ms ago
+      USE_SIP: mode=0; time=+312d0h52m52s52ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+1m38s139ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+1m38s139ms ago
+      BOOT_COMPLETED: mode=0; time=+4d0h40m48s26ms ago
+  Uid u0a42:
+    Package com.sec.android.gallery3d:
+      VIBRATE: mode=0; time=+95d3h33m4s419ms ago; duration=+13ms
+      READ_CALENDAR: mode=0; time=+12d23h31m0s961ms ago
+      USE_SIP: mode=0; time=+312d0h51m45s577ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+14m41s866ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+14m41s866ms ago
+      GET_ACCOUNTS: mode=0; time=+4d2h1m24s111ms ago
+  Uid u0a44:
+    Package com.android.mms:
+      READ_CONTACTS: mode=0; time=+3d3h7m2s158ms ago
+      WRITE_CALL_LOG: mode=0; time=+4d0h40m40s491ms ago
+      POST_NOTIFICATION: mode=0; time=+4d0h40m40s802ms ago
+      READ_SMS: mode=0; time=+43s74ms ago
+      WRITE_SMS: mode=0; time=+43s144ms ago
+      RECEIVE_SMS: mode=0; time=+312d0h24m8s608ms ago
+      READ_ICC_SMS: mode=0; time=+43s100ms ago
+      WRITE_ICC_SMS: mode=0; time=+4d0h40m43s233ms ago
+      WAKE_LOCK: mode=0; time=+4d0h40m40s267ms ago; duration=+4s99ms
+      ASSIST_STRUCTURE: mode=0; time=+659d23h55m9s863ms ago
+      OP_READ_PHONE_STATE: mode=0; time=+43s480ms ago
+      USE_SIP: mode=0; time=+312d0h51m45s567ms ago
+      USE_FINGERPRINT: mode=0; time=+312d0h58m56s687ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+43s618ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+43s618ms ago
+      READ_MMS: mode=0; time=+43s74ms ago
+      BOOT_COMPLETED: mode=0; time=+4d0h40m44s350ms ago
+      DELETE_CALL_LOG: mode=0; time=+4d0h40m40s491ms ago
+  Uid u0a45:
+    Package com.sec.android.app.myfiles:
+      POST_NOTIFICATION: mode=0; time=+338d19h23m23s245ms ago
+      USE_SIP: mode=0; time=+312d0h58m41s420ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+14m35s400ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+14m35s400ms ago
+  Uid u0a47:
+    Package com.samsung.everglades.video:
+      USE_SIP: mode=0; time=+473d23h55m34s51ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+4d0h40m59s112ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+4d0h40m59s112ms ago
+  Uid u0a48:
+    Package com.sec.android.app.videoplayer:
+      WAKE_LOCK: mode=0; time=+1d20h55m15s452ms ago; duration=+7s123ms
+      USE_SIP: mode=0; time=+312d0h45m3s81ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+5m48s906ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+5m48s906ms ago
+  Uid u0a49:
+    Package com.sec.android.app.mv.player:
+      USE_SIP: mode=0; time=+312d1h33m24s699ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+4d0h40m55s449ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+4d0h40m55s449ms ago
+  Uid u0a51:
+    Package com.sec.android.app.soundalive:
+      USE_SIP: mode=0; time=+312d0h53m40s404ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+34m22s603ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+34m22s603ms ago
+  Uid u0a56:
+    Package com.yingyonghui.market:
+      COARSE_LOCATION: mode=0
+      WIFI_SCAN: mode=0; time=+95d3h1m58s91ms ago
+      POST_NOTIFICATION: mode=0; time=+95d3h1m38s178ms ago
+      WAKE_LOCK: mode=0; time=+95d3h2m8s918ms ago; duration=+10s774ms
+      TOAST_WINDOW: mode=0; time=+95d3h1m36s534ms ago; duration=+1s579ms
+      OP_READ_PHONE_STATE: mode=0; time=+95d1h47m6s686ms ago
+      USE_SIP: mode=1; rejectTime=+312d0h52m24s682ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+95d1h47m6s666ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+95d1h47m6s666ms ago
+      BOOT_COMPLETED: mode=0; time=+4d0h40m46s230ms ago
+  Uid u0a59:
+    Package com.baidu.appsearch:
+      COARSE_LOCATION: mode=0; time=+1h32m46s424ms ago
+      FINE_LOCATION: mode=0; time=+1h18m54s630ms ago
+      WIFI_SCAN: mode=0; time=+1h18m54s630ms ago
+      POST_NOTIFICATION: mode=0; time=+1h18m16s847ms ago
+      NEIGHBORING_CELLS: mode=0; time=+335d20h38m57s158ms ago
+      WRITE_SETTINGS: mode=0; time=+1h37m50s185ms ago
+      WAKE_LOCK: mode=0; time=+48d4h45m0s328ms ago; duration=+1m31s790ms
+      MONITOR_LOCATION: mode=0; time=+453d1h8m46s398ms ago; duration=+14m25s837ms
+      OP_READ_PHONE_STATE: mode=0; time=+1h12m58s945ms ago
+      USE_SIP: mode=1; rejectTime=+335d20h32m20s677ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+58m55s595ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+58m55s595ms ago
+      BOOT_COMPLETED: mode=0; time=+15d22h32m3s294ms ago
+  Uid u0a61:
+    Package com.alibaba.weex:
+      POST_NOTIFICATION: mode=0; time=+507d22h53m8s808ms ago
+      SYSTEM_ALERT_WINDOW: mode=0; time=+229d1h41m28s647ms ago; duration=+26s804ms
+      CAMERA: mode=0; time=+507d22h52m49s721ms ago; duration=+2s770ms
+      USE_SIP: mode=0; time=+507d6h34m49s659ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+229d1h41m55s880ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+229d1h41m55s880ms ago
+  Uid u0a62:
+    Package com.tencent.mtt:
+      OP_READ_PHONE_STATE: mode=0; time=+95d1h29m5s732ms ago
+      USE_SIP: mode=1
+      READ_EXTERNAL_STORAGE: mode=0; time=+95d1h29m5s627ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+95d1h29m5s627ms ago
+      BOOT_COMPLETED: mode=0; time=+4d0h40m38s794ms ago
+  Uid u0a63:
+    Package com.zhihu.android:
+      OP_READ_PHONE_STATE: mode=0; time=+44d6h50m7s464ms ago
+      USE_SIP: mode=1; rejectTime=+480d10h7m49s838ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+44d6h50m7s585ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+44d6h50m7s585ms ago
+      BOOT_COMPLETED: mode=0; time=+4d0h40m46s231ms ago
+  Uid u0a64:
+    Package com.tencent.reading:
+      COARSE_LOCATION: mode=0
+      FINE_LOCATION: mode=0; time=+52d3h16m16s566ms ago
+      WIFI_SCAN: mode=0; time=+52d3h16m16s566ms ago
+      POST_NOTIFICATION: mode=0; time=+51d21h35m10s398ms ago
+      NEIGHBORING_CELLS: mode=0; time=+481d3h9m32s228ms ago
+      WRITE_SETTINGS: mode=0; time=+52d3h16m16s451ms ago
+      WAKE_LOCK: mode=0; time=+51d20h32m51s125ms ago; duration=+10ms
+      OP_READ_PHONE_STATE: mode=0; time=+51d20h34m3s458ms ago
+      USE_SIP: mode=1; rejectTime=+312d0h38m6s408ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+48d4h52m23s167ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+48d4h52m23s167ms ago
+      BOOT_COMPLETED: mode=0; time=+4d0h40m50s632ms ago
+  Uid u0a67:
+    Package com.myzaker.ZAKER_Phone:
+      COARSE_LOCATION: mode=0; time=+312d0h24m49s86ms ago
+      FINE_LOCATION: mode=0; time=+394d1h5m28s579ms ago
+      WIFI_SCAN: mode=0; time=+312d1h5m51s232ms ago
+      POST_NOTIFICATION: mode=0; time=+312d0h58m3s825ms ago
+      NEIGHBORING_CELLS: mode=0; time=+312d1h5m51s264ms ago
+      RECEIVE_SMS: mode=0; time=+312d1h32m9s30ms ago
+      WAKE_LOCK: mode=0; time=+312d0h58m4s14ms ago; duration=+4ms
+      OP_READ_PHONE_STATE: mode=0; time=+311d23h55m45s801ms ago
+      USE_SIP: mode=1; rejectTime=+312d0h38m6s382ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+312d0h24m47s920ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+312d0h24m47s920ms ago
+      BOOT_COMPLETED: mode=0; time=+4d0h40m46s297ms ago
+      GET_ACCOUNTS: mode=0; time=+312d0h24m48s940ms ago
+  Uid u0a68:
+    Package com.samsung.android.asksmanager:
+      READ_EXTERNAL_STORAGE: mode=0; time=+14m35s822ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+14m35s822ms ago
+      BOOT_COMPLETED: mode=0; time=+4d0h40m48s550ms ago
+  Uid u0a69:
+    Package com.bst.sync:
+      ASSIST_STRUCTURE: mode=0; time=+659d23h55m3s736ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+4d0h40m59s110ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+4d0h40m59s110ms ago
+  Uid u0a70:
+    Package com.sec.android.provider.badge:
+      USE_SIP: mode=0; time=+312d0h53m40s425ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+14m29s924ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+14m29s924ms ago
+  Uid u0a71:
+    Package com.android.carrierconfig:
+      READ_EXTERNAL_STORAGE: mode=0; time=+312d0h24m56s901ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+312d0h24m56s901ms ago
+  Uid u0a73:
+    Package com.sec.android.widgetapp.ap.hero.cmaweather:
+      ASSIST_STRUCTURE: mode=0; time=+659d23h55m2s483ms ago
+      USE_SIP: mode=0; time=+312d0h52m27s576ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+13m0s427ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+13m0s427ms ago
+  Uid u0a74:
+    Package com.samsung.android.providers.context:
+      READ_CONTACTS: mode=0; time=+4d7h48m11s155ms ago
+      OP_READ_PHONE_STATE: mode=0; time=+4d7h47m59s713ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+4d0h41m2s347ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+4d0h41m2s347ms ago
+      BOOT_COMPLETED: mode=0; time=+4d0h40m45s973ms ago
+      GET_ACCOUNTS: mode=0; time=+4d7h48m11s68ms ago
+  Uid u0a79:
+    Package com.sec.android.app.clockpackage:
+      POST_NOTIFICATION: mode=0; time=+618d7h41m42s618ms ago
+      WRITE_SETTINGS: mode=0; time=+312d1h31m8s303ms ago
+      TAKE_AUDIO_FOCUS: mode=0; time=+621d9h52m6s555ms ago
+      WAKE_LOCK: mode=0; time=+4d0h40m45s175ms ago; duration=+2s575ms
+      ASSIST_STRUCTURE: mode=0; time=+659d23h55m2s437ms ago
+      USE_SIP: mode=0; time=+312d1h29m51s790ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+4d0h40m48s4ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+4d0h40m48s4ms ago
+      BOOT_COMPLETED: mode=0; time=+4d0h40m47s573ms ago
+  Uid u0a81:
+    Package com.sec.android.widgetapp.digitalclock:
+      USE_SIP: mode=0; time=+312d0h51m45s541ms ago
+  Uid u0a84:
+    Package com.android.documentsui:
+      USE_SIP: mode=0; time=+312d0h58m59s383ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+1h37m34s22ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+1h37m34s22ms ago
+  Uid u0a85:
+    Package com.sec.android.widgetapp.dualcitywidget:
+      USE_SIP: mode=0; time=+312d0h38m8s440ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+4d0h40m52s588ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+4d0h40m52s588ms ago
+  Uid u0a86:
+    Package com.sec.android.widgetapp.dualclockdigital:
+      USE_SIP: mode=0; time=+312d0h51m45s469ms ago
+  Uid u0a87:
+    Package com.sec.esdk.elm:
+      ASSIST_STRUCTURE: mode=0; time=+659d23h55m1s189ms ago
+      USE_SIP: mode=0; time=+312d0h58m45s934ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+4d0h40m29s749ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+4d0h40m29s749ms ago
+  Uid u0a89:
+    Package com.sec.android.provider.emergencymode:
+      USE_SIP: mode=0; time=+312d1h33m25s883ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+4d0h41m4s980ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+4d0h41m4s980ms ago
+  Uid u0a90:
+    Package com.amap.android.location:
+      COARSE_LOCATION: mode=0; time=+13m23s5ms ago
+      FINE_LOCATION: mode=0; time=+13m18s148ms ago
+      WIFI_SCAN: mode=0; time=+13m18s148ms ago
+      NEIGHBORING_CELLS: mode=0; time=+4d7h48m50s586ms ago
+      MONITOR_LOCATION: mode=0; time=+13m23s130ms ago (running)
+      OP_READ_PHONE_STATE: mode=0; time=+4d0h38m4s72ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+13m20s895ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+13m20s895ms ago
+  Uid u0a91:
+    Package com.sec.android.app.eventnotification:
+      READ_CALENDAR: mode=0; time=+5h32m7s749ms ago
+      POST_NOTIFICATION: mode=0; time=+5h32m7s760ms ago
+      ASSIST_STRUCTURE: mode=0; time=+659d23h55m0s844ms ago
+      USE_SIP: mode=0; time=+312d0h52m24s770ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+20m21s655ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+20m21s655ms ago
+      BOOT_COMPLETED: mode=0; time=+4d0h40m48s716ms ago
+  Uid u0a93:
+    Package com.samsung.android.provider.filterprovider:
+      USE_SIP: mode=0; time=+312d0h48m53s15ms ago
+  Uid u0a94:
+    Package com.sec.android.app.sns3:
+      READ_EXTERNAL_STORAGE: mode=0; time=+23h37m44s597ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+23h37m44s597ms ago
+      BOOT_COMPLETED: mode=0; time=+4d0h40m48s889ms ago
+  Uid u0a95:
+    Package flipboard.cn:
+      POST_NOTIFICATION: mode=0; time=+18h18m22s503ms ago
+      WAKE_LOCK: mode=0; time=+60s444ms ago; duration=+1ms
+      USE_SIP: mode=0; time=+312d0h38m32s228ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+20m20s921ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+20m20s921ms ago
+      BOOT_COMPLETED: mode=1
+  Uid u0a96:
+    Package com.samsung.android.app.watchmanagerstub:
+      ASSIST_STRUCTURE: mode=0; time=+659d23h54m59s304ms ago
+      USE_SIP: mode=0; time=+312d0h58m41s474ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+14m40s745ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+14m40s745ms ago
+      BOOT_COMPLETED: mode=0; time=+4d0h40m40s379ms ago
+  Uid u0a97:
+    Package com.sec.android.GeoLookout:
+      WRITE_SETTINGS: mode=0; time=+312d0h58m38s246ms ago
+      ASSIST_STRUCTURE: mode=0; time=+659d23h54m58s958ms ago
+      USE_SIP: mode=0; time=+312d0h51m45s544ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+42s858ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+42s858ms ago
+      BOOT_COMPLETED: mode=0; time=+4d0h40m48s586ms ago
+  Uid u0a99:
+    Package com.android.statementservice:
+      READ_EXTERNAL_STORAGE: mode=0; time=+9d2h24m56s731ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+9d2h24m56s731ms ago
+  Uid u0a101:
+    Package com.sec.app.TransmitPowerService:
+      READ_EXTERNAL_STORAGE: mode=0; time=+1h37m54s301ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+1h37m54s301ms ago
+  Uid u0a104:
+    Package com.samsung.android.scloud.backup:
+      READ_EXTERNAL_STORAGE: mode=0; time=+312d0h24m18s658ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+312d0h24m18s658ms ago
+  Uid u0a111:
+    Package com.samsung.hs20provider:
+      READ_EXTERNAL_STORAGE: mode=0; time=+13m27s716ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+13m27s716ms ago
+  Uid u0a112:
+    Package com.enhance.gameservice:
+      READ_EXTERNAL_STORAGE: mode=0; time=+20m24s752ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+20m24s752ms ago
+      BOOT_COMPLETED: mode=0; time=+4d0h40m39s338ms ago
+  Uid u0a114:
+    Package com.samsung.android.sm.policy:
+      WAKE_LOCK: mode=0; time=+1d5h37m44s741ms ago; duration=+1s432ms
+      READ_EXTERNAL_STORAGE: mode=0; time=+13m7s915ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+13m7s915ms ago
+      BOOT_COMPLETED: mode=0; time=+4d0h40m38s721ms ago
+  Uid u0a115:
+    Package com.sec.android.app.moreservices:
+      READ_EXTERNAL_STORAGE: mode=0; time=+311d23h51m3s851ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+311d23h51m3s851ms ago
+  Uid u0a118:
+    Package com.sec.android.app.mediasync:
+      READ_EXTERNAL_STORAGE: mode=0; time=+20d5h59m15s664ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+20d5h59m15s664ms ago
+  Uid u0a121:
+    Package flipboard.boxer.app:
+      READ_EXTERNAL_STORAGE: mode=0; time=+3d3h24m9s950ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+3d3h24m9s950ms ago
+      BOOT_COMPLETED: mode=0; time=+4d0h40m49s161ms ago
+  Uid u0a123:
+    Package com.android.packageinstaller:
+      POST_NOTIFICATION: mode=0; time=+1h37m42s190ms ago
+      TOAST_WINDOW: mode=0; time=+1h37m38s127ms ago; duration=+4s10ms
+      USE_SIP: mode=0; time=+312d1h1m6s851ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+14m35s19ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+14m35s19ms ago
+  Uid u0a127:
+    Package com.tencent.engine:
+      ASSIST_STRUCTURE: mode=0; time=+659d23h55m18s522ms ago
+      USE_SIP: mode=0; time=+312d0h53m40s403ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+17m3s93ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+17m3s93ms ago
+  Uid u0a129:
+    Package com.samsung.android.sconnect:
+      READ_CONTACTS: mode=0; time=+659d23h54m41s186ms ago
+      WRITE_SETTINGS: mode=0; time=+312d1h33m24s841ms ago
+      ASSIST_STRUCTURE: mode=0; time=+659d23h54m55s616ms ago
+      USE_SIP: mode=0; time=+312d0h58m41s387ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+14m31s129ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+14m31s129ms ago
+      BOOT_COMPLETED: mode=0; time=+4d0h40m38s907ms ago
+  Uid u0a130:
+    Package com.samsung.knox.rcp.components:
+      READ_EXTERNAL_STORAGE: mode=0; time=+14m31s43ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+14m31s43ms ago
+      BOOT_COMPLETED: mode=0; time=+4d0h40m46s689ms ago
+  Uid u0a133:
+    Package com.sec.android.app.sbrowser:
+      POST_NOTIFICATION: mode=0; time=+223d6h21m36s67ms ago
+      WRITE_SETTINGS: mode=0; time=+661d1h47m11s614ms ago
+      TOAST_WINDOW: mode=0; time=+223d6h21m33s501ms ago; duration=+2s520ms
+      ASSIST_STRUCTURE: mode=0; time=+659d23h54m54s777ms ago
+      USE_SIP: mode=0; time=+312d0h58m5s909ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+13m7s271ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+13m7s271ms ago
+      BOOT_COMPLETED: mode=0; time=+4d0h40m38s623ms ago
+      GET_ACCOUNTS: mode=0; time=+14m32s756ms ago
+  Uid u0a134:
+    Package com.android.browser.provider:
+      USE_SIP: mode=0; time=+481d3h20m9s700ms ago
+  Uid u0a140:
+    Package com.android.calendar:
+      READ_CALENDAR: mode=0; time=+3m56s160ms ago
+      WRITE_CALENDAR: mode=0; time=+653d7h2m38s280ms ago
+      POST_NOTIFICATION: mode=0; time=+312d0h51m54s381ms ago
+      WAKE_LOCK: mode=0; time=+3m56s103ms ago; duration=+133ms
+      ASSIST_STRUCTURE: mode=0; time=+659d23h54m54s123ms ago
+      USE_SIP: mode=0; time=+312d0h52m27s130ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+3m56s269ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+3m56s269ms ago
+      BOOT_COMPLETED: mode=0; time=+4d0h40m47s192ms ago
+      GET_ACCOUNTS: mode=0; time=+115d2h50m39s0ms ago
+  Uid u0a141:
+    Package com.sec.android.widgetapp.SPlannerAppWidget:
+      READ_CALENDAR: mode=0; time=+664d7h13m40s394ms ago
+      USE_SIP: mode=0; time=+312d0h52m27s341ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+3m56s525ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+3m56s525ms ago
+  Uid u0a142:
+    Package com.android.printspooler:
+      USE_SIP: mode=0; time=+312d1h21m10s713ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+1h12m46s912ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+1h12m46s912ms ago
+  Uid u0a144:
+    Package com.sec.android.widget.samsungapps:
+      USE_SIP: mode=0; time=+348d20h36m6s750ms ago
+  Uid u0a145:
+    Package com.sec.android.app.camera:
+      POST_NOTIFICATION: mode=0; time=+15d21h5m4s600ms ago
+      CAMERA: mode=0; time=+15d21h4m45s857ms ago; duration=+21s80ms
+      TAKE_AUDIO_FOCUS: mode=0; time=+15d21h5m38s21ms ago
+      WAKE_LOCK: mode=0; time=+15d21h4m45s837ms ago; duration=+31s698ms
+      TOAST_WINDOW: mode=0; time=+15d21h5m2s29ms ago; duration=+2s554ms
+      ASSIST_STRUCTURE: mode=0; time=+659d23h54m54s122ms ago
+      USE_SIP: mode=0; time=+312d0h51m45s465ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+43s169ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+43s169ms ago
+      BOOT_COMPLETED: mode=0; time=+4d0h40m43s416ms ago
+  Uid u0a150:
+    Package com.sec.android.app.music:
+      POST_NOTIFICATION: mode=0; time=+2m22s863ms ago
+      TAKE_AUDIO_FOCUS: mode=0; time=+2m23s38ms ago
+      WAKE_LOCK: mode=0; time=+2m23s36ms ago (running)
+      USE_SIP: mode=0; time=+312d1h31m7s828ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+1m38s169ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+1m52s860ms ago
+  Uid u0a151:
+    Package com.sec.android.widgetapp.activeapplicationwidget:
+      USE_SIP: mode=0; time=+312d0h51m42s798ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+42s787ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+42s787ms ago
+  Uid u0a153:
+    Package com.baidu.searchbox_samsung:
+      COARSE_LOCATION: mode=0; time=+13m17s760ms ago
+      FINE_LOCATION: mode=0; time=+13m17s752ms ago
+      READ_CONTACTS: mode=0; time=+1h18m50s323ms ago
+      READ_CALL_LOG: mode=0; time=+1h18m50s111ms ago
+      WIFI_SCAN: mode=0; time=+13m17s752ms ago
+      POST_NOTIFICATION: mode=0; time=+44d2h17m26s946ms ago
+      NEIGHBORING_CELLS: mode=0; time=+44d6h46m48s223ms ago
+      READ_SMS: mode=0
+      READ_ICC_SMS: mode=0; time=+1h18m50s218ms ago
+      WRITE_SETTINGS: mode=0; time=+13m17s730ms ago
+      RECORD_AUDIO: mode=0; time=+508d1h13m32s375ms ago
+      READ_CLIPBOARD: mode=0; time=+335d20h39m6s587ms ago
+      TAKE_AUDIO_FOCUS: mode=0; time=+508d1h13m32s394ms ago
+      WAKE_LOCK: mode=0; time=+335d20h36m53s871ms ago; duration=+563ms
+      MONITOR_LOCATION: mode=0; time=+43d23h58m20s377ms ago; duration=+6h48m27s912ms
+      TOAST_WINDOW: mode=0; time=+44d2h17m23s396ms ago; duration=+2s579ms
+      OP_READ_PHONE_STATE: mode=0; time=+13m23s33ms ago
+      USE_SIP: mode=0; time=+312d0h58m6s93ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+12m51s487ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+12m51s487ms ago
+      READ_MMS: mode=0; time=+1h18m50s220ms ago
+      BOOT_COMPLETED: mode=0; time=+4d0h40m38s701ms ago
+  Uid u0a155:
+    Package com.android.email:
+      READ_CONTACTS: mode=0; time=+3d3h7m3s422ms ago
+      ASSIST_STRUCTURE: mode=0; time=+659d23h54m52s749ms ago
+      USE_SIP: mode=0; time=+312d1h29m32s27ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+12m54s26ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+12m54s26ms ago
+      BOOT_COMPLETED: mode=0; time=+4d0h40m46s317ms ago
+      GET_ACCOUNTS: mode=0; time=+3d3h7m3s326ms ago
+  Uid u0a156:
+    Package com.android.exchange:
+      READ_CONTACTS: mode=0; time=+3d3h7m3s463ms ago
+      RECEIVE_SMS: mode=0; time=+312d1h32m9s46ms ago
+      ASSIST_STRUCTURE: mode=0; time=+659d23h54m52s614ms ago
+      USE_SIP: mode=0; time=+312d0h53m40s402ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+12m53s863ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+12m53s863ms ago
+      BOOT_COMPLETED: mode=0; time=+4d0h40m46s269ms ago
+      GET_ACCOUNTS: mode=0; time=+3d3h7m3s452ms ago
+  Uid u0a159:
+    Package com.sec.kidsplat.installer:
+      OP_READ_PHONE_STATE: mode=0; time=+229d2h15m33s297ms ago
+      USE_SIP: mode=0; time=+312d0h58m41s453ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+14m33s256ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+14m33s256ms ago
+  Uid u0a160:
+    Package com.sec.android.app.themechooser:
+      WRITE_SETTINGS: mode=0; time=+585d7h17m54s799ms ago
+      USE_SIP: mode=0; time=+312d0h58m41s468ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+14m41s493ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+14m41s493ms ago
+  Uid u0a161:
+    Package com.sec.providers.settingsearch:
+      USE_SIP: mode=0; time=+312d1h31m7s504ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+4d0h40m48s923ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+4d0h40m48s923ms ago
+  Uid u0a164:
+    Package com.samsung.android.provider.shootingmodeprovider:
+      ASSIST_STRUCTURE: mode=0; time=+659d23h54m51s560ms ago
+      USE_SIP: mode=0; time=+312d0h58m41s466ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+14m33s812ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+14m33s812ms ago
+      BOOT_COMPLETED: mode=0; time=+4d0h40m43s157ms ago
+  Uid u0a166:
+    Package com.sec.smartcard.manager:
+      USE_SIP: mode=0; time=+312d1h32m1s868ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+4d0h41m4s479ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+4d0h41m4s479ms ago
+  Uid u0a168:
+    Package com.sec.android.app.taskmanager:
+      POST_NOTIFICATION: mode=0; time=+572d22h27m12s279ms ago
+      ASSIST_STRUCTURE: mode=0; time=+659d23h54m49s982ms ago
+      USE_SIP: mode=0; time=+312d1h29m47s451ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+4d0h40m45s388ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+4d0h40m45s388ms ago
+      BOOT_COMPLETED: mode=0; time=+4d0h40m45s389ms ago
+  Uid u0a171:
+    Package com.samsung.android.service.travel:
+      ASSIST_STRUCTURE: mode=0; time=+659d23h54m49s677ms ago
+      USE_SIP: mode=0; time=+312d0h37m34s894ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+12m54s649ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+12m54s649ms ago
+      BOOT_COMPLETED: mode=0; time=+4d0h40m39s731ms ago
+  Uid u0a172:
+    Package com.sec.enterprise.knox.cloudmdm.smdms:
+      WRITE_SMS: mode=1; rejectTime=+14m40s905ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+14m41s58ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+14m41s58ms ago
+      BOOT_COMPLETED: mode=0; time=+4d0h40m41s191ms ago
+  Uid u0a174:
+    Package com.sec.android.daemonapp:
+      COARSE_LOCATION: mode=0
+      FINE_LOCATION: mode=0; time=+4d7h48m21s126ms ago
+      GPS: mode=0; time=+17d23h22m39s420ms ago; duration=+46ms
+      WRITE_SETTINGS: mode=0; time=+312d1h33m21s430ms ago
+      MONITOR_LOCATION: mode=0; time=+4d7h48m21s110ms ago; duration=+29s552ms
+      MONITOR_HIGH_POWER_LOCATION: mode=0; time=+17d23h22m39s743ms ago; duration=+332ms
+      ASSIST_STRUCTURE: mode=0; time=+659d23h54m48s963ms ago
+      USE_SIP: mode=0; time=+312d0h52m28s141ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+20m23s643ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+20m23s643ms ago
+      BOOT_COMPLETED: mode=0; time=+4d0h40m45s102ms ago
+  Uid u0a177:
+    Package org.simalliance.openmobileapi.service:
+      READ_EXTERNAL_STORAGE: mode=0; time=+4d0h40m45s537ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+4d0h40m45s537ms ago
+      BOOT_COMPLETED: mode=0; time=+4d0h40m45s537ms ago
+  Uid u0a178:
+    Package com.sec.android.yellowpage:
+      WRITE_SETTINGS: mode=0; time=+654d7h20m13s672ms ago
+      USE_SIP: mode=0; time=+312d1h33m20s149ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+1h26m43s352ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+1h26m43s352ms ago
+  Uid u0a182:
+    Package com.baidu.searchbox:
+      COARSE_LOCATION: mode=0; time=+303d0h55m48s418ms ago
+      FINE_LOCATION: mode=0; time=+335d20h35m47s933ms ago
+      READ_CONTACTS: mode=0; time=+481d3h26m0s732ms ago
+      READ_CALL_LOG: mode=0; time=+587d7h21m56s813ms ago
+      WIFI_SCAN: mode=0; time=+335d20h35m47s938ms ago
+      POST_NOTIFICATION: mode=0; time=+303d0h59m58s455ms ago
+      NEIGHBORING_CELLS: mode=0; time=+363d7h40m37s554ms ago
+      READ_SMS: mode=0
+      WRITE_SMS: mode=1; rejectTime=+303d0h58m57s296ms ago
+      READ_ICC_SMS: mode=0; time=+587d7h21m57s4ms ago
+      WRITE_SETTINGS: mode=0; time=+303d1h0m3s17ms ago
+      WAKE_LOCK: mode=0; time=+481d3h26m22s488ms ago; duration=+590ms
+      MONITOR_LOCATION: mode=0; time=+481d3h25m50s571ms ago; duration=+30s983ms
+      OP_READ_PHONE_STATE: mode=0; time=+303d0h55m48s423ms ago
+      USE_SIP: mode=1; time=+586d7h57m19s779ms ago; rejectTime=+335d20h32m20s659ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+303d0h59m8s853ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+303d0h59m8s853ms ago
+      BOOT_COMPLETED: mode=0; time=+4d0h40m46s249ms ago
+  Uid u0a183:
+    Package com.autonavi.cmccmap:
+      OP_READ_PHONE_STATE: mode=0; time=+229d2h7m58s623ms ago
+      USE_SIP: mode=1
+      READ_EXTERNAL_STORAGE: mode=0; time=+229d2h7m58s617ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+229d2h7m58s617ms ago
+  Uid u0a187:
+    Package com.iflytek.cmcc:
+      COARSE_LOCATION: mode=0; time=+312d0h24m50s391ms ago
+      RECEIVE_SMS: mode=0; time=+312d1h32m9s109ms ago
+      WRITE_SETTINGS: mode=3; rejectTime=+4d0h41m2s539ms ago
+      OP_READ_PHONE_STATE: mode=0; time=+4d0h41m2s13ms ago
+      USE_SIP: mode=1; time=+586d7h57m25s175ms ago; rejectTime=+312d0h52m24s783ms ago
+      PROCESS_OUTGOING_CALLS: mode=0; time=+311d23h57m48s551ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+4d0h41m1s950ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+4d0h41m1s950ms ago
+  Uid u0a188:
+    Package com.android.managedprovisioning:
+      USE_SIP: mode=0; time=+312d1h33m12s66ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+4d0h40m42s929ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+4d0h40m42s929ms ago
+      BOOT_COMPLETED: mode=0; time=+4d0h40m42s930ms ago
+  Uid u0a189:
+    Package com.cleanmaster.sdk:
+      USE_SIP: mode=0; time=+573d22h10m34s633ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+180d23h41m24s189ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+180d23h41m24s189ms ago
+  Uid u0a193:
+    Package com.sec.android.app.shealth:
+      READ_CONTACTS: mode=0; time=+4d0h40m43s224ms ago
+      POST_NOTIFICATION: mode=0; time=+536d7h41m27s179ms ago
+      RECEIVE_SMS: mode=0; time=+4d0h40m43s229ms ago
+      SEND_SMS: mode=0; time=+4d0h40m43s233ms ago
+      WRITE_SETTINGS: mode=0; time=+536d7h41m47s838ms ago
+      ASSIST_STRUCTURE: mode=0; time=+659d23h54m43s214ms ago
+      OP_READ_PHONE_STATE: mode=0; time=+14m31s631ms ago
+      USE_SIP: mode=0; time=+312d0h53m40s405ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+14m31s917ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+14m31s917ms ago
+      BOOT_COMPLETED: mode=0; time=+4d0h40m46s354ms ago
+      GET_ACCOUNTS: mode=0; time=+180d23h57m49s932ms ago
+  Uid u0a194:
+    Package com.sec.android.app.popupcalculator:
+      READ_EXTERNAL_STORAGE: mode=0; time=+95d23h27m18s17ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+95d23h27m18s17ms ago
+  Uid u0a195:
+    Package com.samsung.android.app.memo:
+      USE_SIP: mode=1; time=+631d23h23m15s482ms ago; rejectTime=+363d0h41m25s285ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+312d0h16m10s85ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+312d0h16m10s85ms ago
+  Uid u0a196:
+    Package tv.peel.smartremote:
+      COARSE_LOCATION: mode=0
+      FINE_LOCATION: mode=0; time=+47d20h3m1s712ms ago
+      WIFI_SCAN: mode=0; time=+47d20h5m8s368ms ago
+      POST_NOTIFICATION: mode=0; time=+229d2h16m54s52ms ago
+      WAKE_LOCK: mode=0; time=+229d2h16m47s882ms ago; duration=+7ms
+      MONITOR_LOCATION: mode=0; time=+47d20h3m37s700ms ago; duration=+1m30s13ms
+      TOAST_WINDOW: mode=0; time=+229d2h16m51s684ms ago; duration=+2s20ms
+      ASSIST_STRUCTURE: mode=0; time=+659d23h54m43s207ms ago
+      OP_READ_PHONE_STATE: mode=0; time=+47d20h5m8s524ms ago
+      USE_SIP: mode=1; time=+586d7h57m17s661ms ago; rejectTime=+312d1h30m30s723ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+47d20h1m52s871ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+47d20h1m52s871ms ago
+      BOOT_COMPLETED: mode=0; time=+4d0h40m38s795ms ago
+  Uid u0a201:
+    Package com.samsung.android.app.sreminder:
+      COARSE_LOCATION: mode=0; time=+213d2h57m59s613ms ago
+      FINE_LOCATION: mode=0; time=+213d2h57m59s608ms ago
+      GPS: mode=0; time=+627d3h3m19s292ms ago; duration=+7s641ms
+      READ_CALENDAR: mode=0; time=+587d5h32m5s779ms ago
+      WIFI_SCAN: mode=0; time=+213d2h57m59s706ms ago
+      POST_NOTIFICATION: mode=0; time=+213d2h57m59s309ms ago
+      RECEIVE_SMS: mode=0; time=+312d1h32m9s108ms ago
+      WRITE_SETTINGS: mode=0; time=+353d0h19m23s658ms ago
+      MONITOR_LOCATION: mode=0; time=+481d3h16m37s649ms ago; duration=+6m48s528ms
+      MONITOR_HIGH_POWER_LOCATION: mode=0; time=+627d3h3m19s314ms ago; duration=+7s628ms
+      TOAST_WINDOW: mode=0; time=+311d23h50m11s636ms ago; duration=+2s486ms
+      OP_READ_PHONE_STATE: mode=0; time=+96d0h45m18s363ms ago
+      USE_SIP: mode=0; time=+312d0h45m2s942ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+13m22s443ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+13m22s443ms ago
+      BOOT_COMPLETED: mode=0; time=+4d0h40m44s88ms ago
+      GET_ACCOUNTS: mode=0; time=+229d2h15m40s752ms ago
+  Uid u0a206:
+    Package org.vv.screentest:
+      COARSE_LOCATION: mode=0; time=+229d1h41m16s35ms ago
+      WIFI_SCAN: mode=0; time=+481d3h18m47s768ms ago
+      POST_NOTIFICATION: mode=0; time=+594d1h43m38s344ms ago
+      MONITOR_LOCATION: mode=0; time=+228d21h52m1s190ms ago; duration=+3h49m20s376ms
+      OP_READ_PHONE_STATE: mode=0; time=+229d1h41m12s517ms ago
+      USE_SIP: mode=1; rejectTime=+481d3h17m55s925ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+229d1h26m9s489ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+229d1h26m9s489ms ago
+  Uid u0a210:
+    Package com.samsung.android.nearby.mediaserver:
+      WRITE_SETTINGS: mode=0; time=+312d0h37m34s658ms ago
+      USE_SIP: mode=0; time=+312d0h37m34s736ms ago
+  Uid u0a214:
+    Package com.sec.android.providers.chinaholiday:
+      USE_SIP: mode=0; time=+312d0h52m28s397ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+1h3m39s29ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+1h3m39s29ms ago
+  Uid u0a219:
+    Package com.sec.android.widget.festivalmemorywidget:
+      READ_SMS: mode=0; time=+502d5h32m3s402ms ago
+      USE_SIP: mode=0; time=+312d0h52m27s352ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+3m56s645ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+3m56s645ms ago
+  Uid u0a220:
+    Package com.sec.android.widget.festivalsawidget:
+      USE_SIP: mode=0; time=+501d7h30m16s200ms ago
+  Uid u0a221:
+    Package com.samsung.festivalwallpaper:
+      USE_SIP: mode=0; time=+312d0h58m41s432ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+14m41s589ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+14m41s589ms ago
+  Uid u0a222:
+    Package com.sec.android.widget.greetingcardwidget:
+      READ_CALENDAR: mode=0; time=+501d17h25m46s148ms ago
+      USE_SIP: mode=0; time=+312d0h52m27s347ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+3m56s203ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+3m56s203ms ago
+  Uid u0a223:
+    Package com.samsung.greetingcard:
+      READ_EXTERNAL_STORAGE: mode=0; time=+1d17h32m7s977ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+1d17h32m7s977ms ago
+      BOOT_COMPLETED: mode=0; time=+4d0h40m48s242ms ago
+  Uid u0a235:
+    Package com.example.jnidemo:
+      USE_SIP: mode=0; time=+564d22h17m29s219ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+96d6h28m17s864ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+96d6h28m17s864ms ago
+  Uid u0a247:
+    Package com.bertadata.qxb:
+      COARSE_LOCATION: mode=0; time=+17d5h21m21s538ms ago
+      FINE_LOCATION: mode=0; time=+17d5h21m20s927ms ago
+      GPS: mode=0; time=+17d5h40m12s418ms ago; duration=+30s86ms
+      WIFI_SCAN: mode=0; time=+17d5h21m21s580ms ago
+      POST_NOTIFICATION: mode=0; time=+111d6h26m20s683ms ago
+      NEIGHBORING_CELLS: mode=0; time=+480d22h32m33s662ms ago
+      WRITE_SETTINGS: mode=0; time=+481d3h3m14s312ms ago
+      CAMERA: mode=0; time=+481d3h2m1s563ms ago; duration=+3s180ms
+      TAKE_AUDIO_FOCUS: mode=0; time=+642d1h16m28s507ms ago
+      WAKE_LOCK: mode=0; time=+17d5h9m22s705ms ago
+      MONITOR_LOCATION: mode=0; time=+17d5h21m20s923ms ago; duration=+1s77ms
+      MONITOR_HIGH_POWER_LOCATION: mode=0; time=+17d5h40m12s457ms ago; duration=+30s52ms
+      TOAST_WINDOW: mode=0; time=+111d6h26m18s86ms ago; duration=+2s522ms
+      OP_READ_PHONE_STATE: mode=0; time=+17d5h6m51s562ms ago
+      USE_SIP: mode=1; rejectTime=+480d22h16m30s878ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+17d6h5m44s536ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+17d6h5m44s536ms ago
+      BOOT_COMPLETED: mode=1
+      GET_ACCOUNTS: mode=0; time=+17d7h15m2s504ms ago
+  Uid u0a256:
+    Package com.example.getphoneid:
+      USE_SIP: mode=0; time=+636d0h54m6s455ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+96d6h28m24s455ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+96d6h28m24s455ms ago
+  Uid u0a258:
+    Package com.example.sks.mvpdemo:
+      POST_NOTIFICATION: mode=0; time=+311d23h50m28s513ms ago
+      TOAST_WINDOW: mode=0; time=+311d23h50m25s961ms ago; duration=+3s560ms
+      USE_SIP: mode=0; time=+628d7h13m10s454ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+96d6h28m29s365ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+96d6h28m29s365ms ago
+  Uid u0a266:
+    Package com.tencent.mm:
+      COARSE_LOCATION: mode=0; time=+3d3h18m32s172ms ago
+      FINE_LOCATION: mode=0; time=+3d3h17m56s976ms ago
+      VIBRATE: mode=0; time=+28d6h26m0s877ms ago; duration=+1s2ms
+      READ_CONTACTS: mode=0; time=+75d7h27m45s238ms ago
+      WIFI_SCAN: mode=0; time=+3d3h17m56s976ms ago
+      POST_NOTIFICATION: mode=0; time=+3d3h8m3s739ms ago
+      NEIGHBORING_CELLS: mode=0; time=+3d3h18m32s160ms ago
+      WRITE_SMS: mode=1; rejectTime=+3d3h18m11s380ms ago
+      WRITE_SETTINGS: mode=0; time=+338d2h5m1s977ms ago
+      CAMERA: mode=0; time=+348d21h22m28s906ms ago; duration=+4s235ms
+      READ_CLIPBOARD: mode=0; time=+48d4h41m38s774ms ago
+      WAKE_LOCK: mode=0; time=+1h42m44s862ms ago; duration=+556ms
+      TOAST_WINDOW: mode=0; time=+151d2h49m28s371ms ago; duration=+3s78ms
+      OP_READ_PHONE_STATE: mode=0; time=+3d3h7m15s52ms ago
+      USE_SIP: mode=1; time=+586d7h57m35s896ms ago; rejectTime=+312d1h3m25s153ms ago
+      BODY_SENSORS: mode=0; time=+3d3h7m0s995ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+13m2s690ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+13m2s690ms ago
+      BOOT_COMPLETED: mode=0; time=+4d0h40m41s529ms ago
+      GET_ACCOUNTS: mode=0; time=+3d3h7m4s739ms ago
+  Uid u0a274:
+    Package com.youba.barcode:
+      POST_NOTIFICATION: mode=0; time=+569d22h55m54s310ms ago
+      CAMERA: mode=0; time=+472d6h47m45s1ms ago; duration=+8s903ms
+      WRITE_CLIPBOARD: mode=0; time=+569d22h56m15s232ms ago
+      USE_SIP: mode=1; rejectTime=+472d6h26m16s964ms ago
+  Uid u0a283:
+    Package com.android.qichacha:
+      COARSE_LOCATION: mode=0; time=+117d6h15m18s702ms ago
+      FINE_LOCATION: mode=0; time=+117d6h15m18s710ms ago
+      WIFI_SCAN: mode=0; time=+501d7h30m37s249ms ago
+      POST_NOTIFICATION: mode=0; time=+117d2h12m41s436ms ago
+      NEIGHBORING_CELLS: mode=0; time=+502d21h11m46s389ms ago
+      WRITE_SETTINGS: mode=0; time=+117d6h15m13s990ms ago
+      RECORD_AUDIO: mode=0; time=+502d21h10m26s732ms ago
+      TAKE_AUDIO_FOCUS: mode=0; time=+502d21h10m26s775ms ago
+      MONITOR_LOCATION: mode=0; time=+502d21h11m46s335ms ago; duration=+131ms
+      TOAST_WINDOW: mode=0; time=+117d2h12m39s489ms ago; duration=+1s849ms
+      OP_READ_PHONE_STATE: mode=0; time=+116d23h15m33s544ms ago
+      USE_SIP: mode=1; rejectTime=+312d1h22m40s750ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+116d22h32m46s527ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+116d22h32m46s527ms ago
+      BOOT_COMPLETED: mode=1
+  Uid u0a298:
+    Package com.example.sks.mydemo:
+      USE_SIP: mode=0; time=+494d17h32m6s192ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+311d23h49m44s159ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+311d23h49m44s159ms ago
+  Uid u0a316:
+    Package com.haotianhua.getdevicestoken:
+      USE_SIP: mode=0; time=+570d1h51m3s240ms ago
+  Uid u0a325:
+    Package com.android.icredit:
+      COARSE_LOCATION: mode=0; time=+53d0h20m48s156ms ago
+      FINE_LOCATION: mode=0; time=+53d0h22m36s84ms ago
+      WIFI_SCAN: mode=0; time=+53d0h22m36s91ms ago
+      POST_NOTIFICATION: mode=0; time=+53d1h7m56s430ms ago
+      NEIGHBORING_CELLS: mode=0; time=+481d3h5m40s917ms ago
+      WRITE_SMS: mode=1; rejectTime=+95d0h57m22s282ms ago
+      WRITE_SETTINGS: mode=0; time=+53d1h8m0s627ms ago
+      MONITOR_LOCATION: mode=0; time=+481d3h5m38s546ms ago; duration=+2s450ms
+      TOAST_WINDOW: mode=0; time=+94d23h50m29s821ms ago; duration=+2s595ms
+      OP_READ_PHONE_STATE: mode=0; time=+53d0h22m36s42ms ago
+      USE_SIP: mode=1; rejectTime=+335d3h3m9s510ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+53d0h24m57s71ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+53d0h24m57s70ms ago
+      BOOT_COMPLETED: mode=1; rejectTime=+4d0h40m38s796ms ago
+  Uid u0a335:
+    Package com.cyjh.mobileanjian:
+      POST_NOTIFICATION: mode=0; time=+335d3h19m48s110ms ago
+      WRITE_SETTINGS: mode=0; time=+312d0h57m57s859ms ago
+      USE_SIP: mode=1; rejectTime=+312d0h53m40s390ms ago
+  Uid u0a336:
+    Package com.shuame.rootgenius:
+      COARSE_LOCATION: mode=0
+      WIFI_SCAN: mode=0; time=+564d22h18m27s296ms ago
+      WRITE_SETTINGS: mode=0; time=+564d22h18m27s149ms ago
+      WAKE_LOCK: mode=0; time=+564d22h18m20s627ms ago; duration=+2s161ms
+      USE_SIP: mode=1; rejectTime=+564d21h39m50s752ms ago
+  Uid u0a356:
+    Package com.tencent.mobileqq:
+      COARSE_LOCATION: mode=0; time=+13m18s233ms ago
+      FINE_LOCATION: mode=0; time=+13m18s103ms ago
+      GPS: mode=0; time=+117d6h14m35s771ms ago; duration=+158ms
+      VIBRATE: mode=0; time=+44d6h49m24s894ms ago; duration=+608ms
+      WIFI_SCAN: mode=0; time=+13m18s103ms ago
+      POST_NOTIFICATION: mode=0; time=+23h59m15s568ms ago
+      NEIGHBORING_CELLS: mode=0; time=+13m18s228ms ago
+      WRITE_SMS: mode=1; rejectTime=+6m35s313ms ago
+      WRITE_SETTINGS: mode=0; time=+95d3h38m25s750ms ago
+      CAMERA: mode=0; time=+70d7h25m55s695ms ago; duration=+1s589ms
+      RECORD_AUDIO: mode=0; time=+185d2h48m59s724ms ago
+      READ_CLIPBOARD: mode=0; time=+52d3h16m21s27ms ago
+      WRITE_CLIPBOARD: mode=0; time=+296d6h20m22s246ms ago
+      TAKE_AUDIO_FOCUS: mode=0; time=+4d3h38m28s26ms ago
+      WAKE_LOCK: mode=0; time=+23h57m58s733ms ago; duration=+10s309ms
+      MONITOR_LOCATION: mode=0; time=+53d0h28m53s593ms ago; duration=+13m13s310ms
+      MONITOR_HIGH_POWER_LOCATION: mode=0; time=+117d6h14m35s772ms ago; duration=+177ms
+      TOAST_WINDOW: mode=0; time=+3d23h35m27s820ms ago; duration=+2s229ms
+      OP_READ_PHONE_STATE: mode=0; time=+6m35s312ms ago
+      USE_SIP: mode=1; time=+502d6h58m49s311ms ago; rejectTime=+312d0h58m49s551ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+3m14s402ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+3m14s402ms ago
+      TURN_ON_SCREEN: mode=0; time=+23h58m9s43ms ago
+      BOOT_COMPLETED: mode=0; time=+4d0h40m52s153ms ago
+      GET_ACCOUNTS: mode=0; time=+15m17s353ms ago
+  Uid u0a393:
+    Package com.huawei.appmarket:
+      POST_NOTIFICATION: mode=0; time=+360d5h47m39s624ms ago
+      WAKE_LOCK: mode=0; time=+360d5h45m33s839ms ago; duration=+119ms
+      OP_READ_PHONE_STATE: mode=0; time=+312d0h24m49s44ms ago
+      USE_SIP: mode=1; rejectTime=+312d0h52m52s516ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+312d0h25m6s9ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+312d0h25m6s9ms ago
+      BOOT_COMPLETED: mode=1
+  Uid u0a394:
+    Package com.qihoo.appstore:
+      COARSE_LOCATION: mode=0; time=+28d6h37m25s258ms ago
+      FINE_LOCATION: mode=0; time=+28d6h37m25s312ms ago
+      READ_CONTACTS: mode=0; time=+254d17h18m32s65ms ago
+      READ_CALL_LOG: mode=0; time=+254d17h18m31s819ms ago
+      WIFI_SCAN: mode=0; time=+28d6h37m25s312ms ago
+      POST_NOTIFICATION: mode=0; time=+43d23h58m46s45ms ago
+      READ_SMS: mode=0; time=+254d17h18m32s13ms ago
+      WRITE_SMS: mode=1
+      READ_ICC_SMS: mode=0; time=+254d17h18m32s41ms ago
+      WRITE_ICC_SMS: mode=0; rejectTime=+254d17h18m26s729ms ago
+      WRITE_SETTINGS: mode=0; time=+348d22h31m8s603ms ago
+      CAMERA: mode=0; time=+219d22h32m40s521ms ago; duration=+521ms
+      READ_CLIPBOARD: mode=0; time=+296d18h35m11s665ms ago
+      WAKE_LOCK: mode=0; time=+43d23h43m46s761ms ago; duration=+17ms
+      MONITOR_LOCATION: mode=0; time=+28d6h37m25s35ms ago; duration=+679ms
+      TOAST_WINDOW: mode=0; time=+43d23h38m15s592ms ago; duration=+20m31s764ms
+      OP_READ_PHONE_STATE: mode=0; time=+4d0h41m2s816ms ago
+      USE_SIP: mode=1; rejectTime=+312d0h38m6s351ms ago
+      PROCESS_OUTGOING_CALLS: mode=0; time=+311d23h57m48s552ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+4d0h41m2s674ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+4d0h41m2s674ms ago
+      READ_MMS: mode=0; time=+254d17h18m32s13ms ago
+      GET_ACCOUNTS: mode=0; time=+219d22h32m33s523ms ago
+  Uid u0a406:
+    Package com.tencent.android.qqdownloader:
+      COARSE_LOCATION: mode=0; time=+17m56s429ms ago
+      FINE_LOCATION: mode=0; time=+23h40m55s228ms ago
+      WIFI_SCAN: mode=0; time=+23h40m55s228ms ago
+      POST_NOTIFICATION: mode=0; time=+1d21h5m6s642ms ago
+      NEIGHBORING_CELLS: mode=0; time=+17m56s378ms ago
+      WRITE_SETTINGS: mode=0; time=+95d5h55m35s45ms ago
+      SYSTEM_ALERT_WINDOW: mode=3; rejectTime=+14m42s359ms ago
+      CAMERA: mode=0; time=+223d0h36m23s843ms ago; duration=+11s955ms
+      READ_CLIPBOARD: mode=0; time=+48d4h47m13s68ms ago
+      WAKE_LOCK: mode=0; time=+2m56s808ms ago; duration=+16ms
+      TOAST_WINDOW: mode=0; time=+48d4h44m18s458ms ago; duration=+4s34ms
+      OP_READ_PHONE_STATE: mode=0; time=+12m52s53ms ago
+      USE_SIP: mode=1; rejectTime=+312d0h37m35s232ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+99ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+99ms ago
+      BOOT_COMPLETED: mode=0; time=+4d0h40m50s633ms ago
+  Uid u0a430:
+    Package com.intsig.zdao:
+      COARSE_LOCATION: mode=0; time=+95d1h26m3s564ms ago
+      FINE_LOCATION: mode=0; time=+95d1h26m3s554ms ago
+      WIFI_SCAN: mode=0; time=+95d1h27m7s933ms ago
+      POST_NOTIFICATION: mode=0; time=+95d6h15m18s189ms ago
+      NEIGHBORING_CELLS: mode=0; time=+95d6h5m25s554ms ago
+      TOAST_WINDOW: mode=0; time=+95d6h15m15s601ms ago; duration=+2s579ms
+      READ_EXTERNAL_STORAGE: mode=0; time=+95d1h46m54s676ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+95d1h46m54s676ms ago
+      BOOT_COMPLETED: mode=1; rejectTime=+4d0h40m52s149ms ago
+  Uid u0a431:
+    Package com.koushikdutta.vysor:
+      POST_NOTIFICATION: mode=0; time=+1h30m49s260ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+1h30m49s776ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+1h30m49s776ms ago
+      BOOT_COMPLETED: mode=1
+  Uid u0a441:
+    Package com.tianyancha.skyeye:
+      COARSE_LOCATION: mode=0; time=+42s997ms ago
+      FINE_LOCATION: mode=0; time=+43s3ms ago
+      GPS: mode=0; time=+1h17m10s24ms ago; duration=+1m45s281ms
+      READ_CONTACTS: mode=0; time=+1h18m25s252ms ago
+      WIFI_SCAN: mode=0; time=+1h18m51s969ms ago
+      POST_NOTIFICATION: mode=0; time=+48s275ms ago
+      NEIGHBORING_CELLS: mode=0; time=+1h22m20s629ms ago
+      CAMERA: mode=0; time=+4m5s327ms ago; duration=+12s735ms
+      RECORD_AUDIO: mode=0; time=+1h18m20s775ms ago
+      READ_CLIPBOARD: mode=0; time=+1h26m11s288ms ago
+      WRITE_CLIPBOARD: mode=0; time=+1h26m11s280ms ago
+      TAKE_AUDIO_FOCUS: mode=0; time=+1h18m20s796ms ago
+      MONITOR_LOCATION: mode=0; time=+1h13m42s941ms ago; duration=+8m37s939ms
+      MONITOR_HIGH_POWER_LOCATION: mode=0; time=+1h17m10s125ms ago; duration=+1m45s587ms
+      TOAST_WINDOW: mode=0; time=+47s575ms ago; duration=+683ms
+      OP_READ_PHONE_STATE: mode=0; time=+26s209ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+32s461ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+32s460ms ago
+      BOOT_COMPLETED: mode=1

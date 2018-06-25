@@ -1,0 +1,162 @@
+           CPU0       CPU1       CPU2       CPU3       CPU4       CPU5       CPU6       CPU7       
+  3:     190956      72434      65486      62873    1214982    1300056     918699     870296       GIC  20  arch_timer
+  5:     125696      35263      24435      28854    2627883    2156083    2068206    1993827       GIC  39  arch_mem_timer
+ 16:          5          0          0          0          0          0          0          0   msmgpio   9  7864900.sdhci cd
+ 20:          4          0          0          0          0          0          0          0   msmgpio  13  hall-switch-irq
+ 55:         62          0          1          1          0          0          0          0   msmgpio  48  gf
+ 72:      50562          4          0          0          7          4          3          5   msmgpio  65  fts_ts
+ 92:         10          0          0          0          0          0          0          0   msmgpio  85  volume_up
+149:      27029          0          0          0     168884     157481     719609      33607       GIC  65  kgsl-3d0
+150:          4          0          0          0          0          0          0          0       GIC  59  smp2p
+151:          5          0          0          0          0          0          0          0       GIC 175  smp2p
+152:          5          0          0          0          0          0          0          0       GIC 323  smp2p
+153:          0          0          0          0          0          0          0          0       GIC 231  arm-smmu global fault
+154:          0          0          0          0          0          0          0          0       GIC 257  arm-smmu-context-fault
+155:          0          0          0          0          0          0          0          0       GIC 264  arm-smmu-context-fault
+158:          0          0          0          0          0          0          0          0       GIC  73  msm_iommu_global_cfg_irq
+161:          0          0          0          0          0          0          0          0       GIC 114  nidnt_nidnt
+162:         99          0          0          0          4         32        192        609       GIC 224  spdm_bw_hyp
+163:       1367          0          0          0          0          0          0     147349       GIC  76  msm_vidc
+164:       3937        289        185        313      28993      24359      19880      19981       GIC 203  601d4.qcom,mpm
+165:          0          0          0          0          0          0          0          0       GIC 307  ARM64 primary DBE IRQ
+166:          0          0          0          0          0          0          0          0       GIC 308  ARM64 secondary DBE IRQ
+167:          0          0          0          0          0          0          0          0       GIC 305  ARM64 primary ext IRQ
+168:          0          0          0          0          0          0          0          0       GIC 306  ARM64 secondary ext IRQ
+170:          0          0          0          0          0          0          0          0       GIC  23  arm-pmu
+171:        233          0          0          0          2          0          0          8       GIC 216  tsens_interrupt
+172:          0          0          0          0          0          0          0          0       GIC 346  tsens_critical_interrupt
+174:       5135          0          0          0      36799       3337       1676       3638       GIC 270  sps
+176:        519          0          0          0          0          0        159       1176       GIC 127  i2c-msm-v2-irq
+177:        720          0          0          0      28483       6683       2459      11988       GIC 129  i2c-msm-v2-irq
+178:         95          0          0          0          0         67         42          0       GIC 331  i2c-msm-v2-irq
+179:     189538          0          0          0     535338     375340     221274      91287       GIC 215  408000.qcom,cpu-bwmon
+180:       1912          0          0          0        931       2781          2        704       GIC  57  qcom,smd-modem
+181:          2          0          0          0          0          0          0          0       GIC  58  qcom,smsm-modem
+182:       2517          0          0          0       4627       2051       1788       4638       GIC 174  qcom,smd-wcnss
+183:          0          0          0          0          0          0          0          0       GIC 176  qcom,smsm-wcnss
+184:      47299          0          0          0     642471     225422      27379     582145       GIC 321  qcom,smd-adsp
+185:          0          0          0          0          0          0          0          0       GIC 322  qcom,smsm-adsp
+186:     281627       6968       5630       5887     547356     755121     360921     238008       GIC 200  qcom,smd-rpm
+187:          0          0          0          0          0          0          0          0       GIC  35  apps_wdog_bark
+189:          2          0          0          0          0          0          0          0       GIC 260  ipa
+190:         26          0          0          0          0          0          0          0       GIC 262  sps
+191:     199228          0          0          0     109878     103420       5252     158792       GIC 177  wcnss_wlan
+192:     241899          0          0          0     997958     323981     293406     210001       GIC 178  wcnss_wlan
+193:          0          0          0          0          0          0          0          0       GIC 239  sps
+194:          0          0          0          0          0          0          0          0       GIC 344  7803000.sdcc1ice
+196:     468085          0          0          0      18459     227927     835369     114896       GIC 155  mmc0
+197:       7552          0          0          0        226       2033        930       4736       GIC 170  7824900.sdhci
+198:      62597          0          0          0        510        598       1996       1730       GIC 157  mmc1
+199:       9680          0          0          0        215         87        144        250       GIC 253  7864900.sdhci
+200:       9298          0          0          0       4348       2107      22817      42358       GIC 222  200f000.qcom,spmi
+201:         33          0          0          0          4          6          6          5  qpnp-int  64  qpnp_kpdpwr_status
+202:          2          0          0          0          4          0          0          2  qpnp-int  65  qpnp_resin_status
+205:          0          0          0          0          0          0          0          0  qpnp-int 288  pm8953_tz
+208:          1          0          0          0          0          0          0          0  qpnp-int 419  qpnp_adc_tm_high_interrupt
+209:          0          0          0          0          0          0          0          0  qpnp-int 420  qpnp_adc_tm_low_interrupt
+210:          0          0          0          0          0          0          0          0  qpnp-int 777  qpnp_rtc_alarm
+221:          0          0          0          0          0          0          0          0  qpnp-int 3971  Elect Insert
+222:          0          0          0          0          0          0          0          0  qpnp-int 3972  Button Release detect
+223:          0          0          0          0          0          0          0          0  qpnp-int 3973  Button Press detect
+224:          0          0          0          0          0          0          0          0  qpnp-int 3974  Elect Remove
+225:          0          0          0          0          0          0          0          0  qpnp-int 3975  mbhc sw intr
+227:          0          0          0          0          0          0          0          0  qpnp-int 3977  HPH_R OCP detect
+228:          0          0          0          0          0          0          0          0  qpnp-int 3978  HPH_L OCP detect
+233:          0          0          0          0          0          0          0          0  qpnp-int 4224  chg-error
+237:          4          0          0          0          2          0          2          2  qpnp-int 4228  chg-p2f-thr
+238:          0          0          0          0          0          0          0          0  qpnp-int 4229  chg-rechg-thr
+239:          0          0          0          0          0          0          0          0  qpnp-int 4230  chg-taper-thr
+240:          0          0          0          0          0          0          0          0  qpnp-int 4231  chg-tcc-thr
+241:          0          0          0          0          0          0          0          0  qpnp-int 4232  otg-fail
+242:          0          0          0          0          0          0          0          0  qpnp-int 4233  otg-oc
+243:          0          0          0          0          0          0          0          0  qpnp-int 4235  usbid-change
+244:          0          0          0          0          0          0          0          0  qpnp-int 4240  batt-hot
+245:          0          0          0          0          0          0          0          0  qpnp-int 4241  batt-warm
+246:          0          0          0          0          0          0          0          0  qpnp-int 4242  batt-cold
+247:          0          0          0          0          0          0          0          0  qpnp-int 4243  batt-cool
+249:          0          0          0          0          0          0          0          0  qpnp-int 4245  batt-low
+250:          0          0          0          0          0          0          0          0  qpnp-int 4246  batt-missing
+252:          2          0          0          0          2          0          0          2  qpnp-int 4248  usbin-uv
+253:          0          0          0          0          0          0          0          0  qpnp-int 4249  usbin-ov
+254:          2          0          0          0          2          0          0          2  qpnp-int 4250  usbin-src-det
+255:          1          0          0          0          0          0          0          0  qpnp-int 4253  aicl-done
+256:          0          0          0          0          0          0          0          0  qpnp-int 4256  dcin-uv
+258:          2          0          0          0          6          0        112         22  qpnp-int 4272  power-ok
+259:          0          0          0          0          0          0          0          0  qpnp-int 4273  temp-shutdown
+260:          0          0          0          0          0          0          0          0  qpnp-int 4274  wdog-timeout
+266:          0          0          0          0          0          0          0          0  qpnp-int 4610  full-soc
+267:          0          0          0          0          0          0          0          0  qpnp-int 4611  empty-soc
+268:        124          3          0          0          3          3         57        100  qpnp-int 4612  delta-soc
+269:          0          0          0          0          0          0          0          0  qpnp-int 4613  first-est-done
+271:          0          0          0          0          0          0          0          0  qpnp-int 4616  soft-cold
+272:          0          0          0          0          0          0          0          0  qpnp-int 4617  soft-hot
+273:          1          0          0          0          0          0          0          0  qpnp-int 4618  vbatt-low
+277:          0          0          0          0          0          0          0          0  qpnp-int 4622  batt-missing
+279:       9002          0          0          0       4327       2098      22641      42225  qpnp-int 4640  mem-avail
+281:          0          0          1          0          0          0          0          0  qpnp-int 4624  bcl_ibat_interrupt
+282:          0          0          0          0          0          0          0          0  qpnp-int 4625  bcl_vbat_interrupt
+283:          0          0          0          0          0          0          0          0  qpnp-int 7874  qpnp_wled_sc_irq
+284:          0          0          0          0          0          0          0          0  qpnp-int 7680  qpnp_sc_irq
+286:          0          0          0          0          0          0          0          0       GIC  56  modem
+287:          0          0          0          0          0          0          0          0       GIC 325  adsp
+288:          0          0          0          0          0          0          0          0       GIC 181  wcnss
+289:          0          0          0          0          0          0          0          0       GIC 168  hs_phy_irq
+290:          0          0          0          0          0          0          0          0       GIC 252  ss_phy_irq
+291:          3          0          0          0          0         87          0          0       GIC 166  msm_dwc3
+292:          0          0          0          0          0          0          0          0       GIC  47  cpr3
+293:          0          0          0          0          0          0          0          0       GIC 110  csiphy
+294:          0          0          0          0          0          0          0          0       GIC 111  csiphy
+295:          0          0          0          0          0          0          0          0       GIC 347  csiphy
+296:          3          0          0          0          0          0          0          0       GIC  83  csid
+297:          0          0          0          0          0          0          0          0       GIC  84  csid
+298:          3          0          0          0          0          0          0          0       GIC 185  csid
+299:          0          0          0          0          0          0          0          0       GIC  87  ispif
+300:          8          0          0          0          0          0          0          0       GIC  89  vfe
+301:          8          0          0          0          0          0          0          0       GIC  61  vfe
+303:          4          0          0          0          0          0          0          0       GIC  81
+304:        858          0          0          0          0          0          0          0       GIC  82  cci
+305:      10665          0          0          0     161244      93612       6318     265897       GIC 104  MDSS
+306:          0          0          0          0          0          0          0          0       GIC 285  msm_iommu_secure_irq
+307:          0          0          0          0          0          0          0          0       GIC 286  msm_iommu_secure_irq
+308:          0          0          0          0          0          0          0          0       GIC 287  msm_iommu_secure_irq
+309:          0          0          0          0          0          0          0          0       GIC  85  msm_iommu_secure_irq
+310:          0          0          0          0          0          0          0          0       GIC  86  msm_iommu_secure_irq
+311:          0          0          0          0          0          0          0          0       GIC  90  msm_iommu_secure_irq
+312:          0          0          0          0          0          0          0          0       GIC  92  msm_iommu_secure_irq
+313:          0          0          0          0          0          0          0          0       GIC 108  msm_iommu_secure_irq
+314:          0          0          0          0          0          0          0          0       GIC 109  msm_iommu_secure_irq
+315:          0          0          0          0          0          0          0          0       GIC 112  msm_iommu_secure_irq
+316:          0          0          0          0          0          0          0          0       GIC 126  msm_iommu_secure_irq
+317:          0          0          0          0          0          0          0          0       GIC 136  msm_iommu_secure_irq
+318:          0          0          0          0          0          0          0          0       GIC 137  msm_iommu_secure_irq
+319:          0          0          0          0          0          0          0          0       GIC 138  msm_iommu_secure_irq
+320:          0          0          0          0          0          0          0          0       GIC 141  msm_iommu_secure_irq
+321:          0          0          0          0          0          0          0          0       GIC 142  msm_iommu_secure_irq
+322:          0          0          0          0          0          0          0          0       GIC 143  msm_iommu_secure_irq
+323:          0          0          0          0          0          0          0          0       GIC 144  msm_iommu_secure_irq
+324:          0          0          0          0          0          0          0          0       GIC 145  msm_iommu_secure_irq
+325:          0          0          0          0          0          0          0          0       GIC 147  msm_iommu_secure_irq
+326:          0          0          0          0          0          0          0          0       GIC 146  msm_iommu_secure_irq
+455:          0          0          0          0          0          0          0          0  smp2p_gpio   0  modem
+456:          1          0          0          0          0          0          0          0  smp2p_gpio   1  error_ready_interrupt
+457:          1          0          0          0          0          0          0          0  smp2p_gpio   2  modem
+458:          0          0          0          0          0          0          0          0  smp2p_gpio   3  modem
+487:          0          0          0          0          0          0          0          0  smp2p_gpio   0  adsp
+488:          1          0          0          0          0          0          0          0  smp2p_gpio   1  error_ready_interrupt
+489:          1          0          0          0          0          0          0          0  smp2p_gpio   2  adsp
+490:          0          0          0          0          0          0          0          0  smp2p_gpio   3  adsp
+519:          0          0          0          0          0          0          0          0  smp2p_gpio   0  wcnss
+520:          1          0          0          0          0          0          0          0  smp2p_gpio   1  error_ready_interrupt
+521:          1          0          0          0          0          0          0          0  smp2p_gpio   2  wcnss
+522:          0          0          0          0          0          0          0          0  smp2p_gpio   3  wcnss
+551:       1450          0          0          0          0     935231          0          0       GIC 172  dwc3
+IPI0:   1009758     970195     883162     879093    7376862    7093947    6700086    6837081       Rescheduling interrupts
+IPI1:     27008      46236      47463      48915     145723     125459      69014     159192       Function call interrupts
+IPI2:    342649     232029     224159     208375     171433     108390     115975     163474       Single function call interrupts
+IPI3:         0          0          0          0          0          0          0          0       CPU stop interrupts
+IPI4:      8298       6606       8215       9834     301307     295661     290325     288254       Timer broadcast interrupts
+IPI5:         0          0          0          0          0          0          0          0       IRQ work interrupts
+IPI6:         0          0          0          0          0          0          0          0       CPU wakeup interrupts
+IPI7:         0          0          0          0          0          0          0          0       CPU backtrace
+Err:          0
+

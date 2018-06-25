@@ -1,0 +1,48 @@
+mState=on
+mIsZeroClickRequested=true
+mScreenState=ON_UNLOCKED
+mIsAirplaneSensitive=true
+mIsAirplaneToggleable=true
+wirelessStop=false
+isLedTransaction=false
+isAuthTransaction=false
+isFirmwareDown=false
+IsLedCoverAttached=false
+mTechMask: default
+mEnableLPD: true
+mEnableReader: false
+mEnableHostRouting: true
+mEnableP2p: true
+mIsSendEnabled=true
+mIsReceiveEnabled=true
+mLinkState=LINK_STATE_DOWN
+mSendState=SEND_STATE_NOTHING_TO_SEND
+mCallbackNdef=null
+mMessageToSend=null
+mUrisToSend=null
+Registered HCE services for current user: 
+
+Registered dynamic services by GSMA API:
+
+DynamicServiceManager cache:
+
+Preferred services (in order of importance): 
+    *** Current preferred foreground service: null
+    *** Current preferred payment service: null
+        Next tap default: null
+        Default for foreground app (UID: 0): null
+        Default in payment settings: null
+        Payment settings allows override: false
+
+    AID cache entries: 
+    Service preferred by foreground app: null
+    Preferred payment service: null
+
+Routing table:
+    Default route: secure element
+
+Bound services: 
+mOverrideIntent=null
+mOverrideFilters=null
+mOverrideTechLists=null
+libnfc llc error_count=0

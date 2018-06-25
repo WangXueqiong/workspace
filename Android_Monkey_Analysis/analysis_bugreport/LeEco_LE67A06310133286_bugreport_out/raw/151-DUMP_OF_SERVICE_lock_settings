@@ -1,0 +1,13 @@
+LOCK MANAGER (dumpsys lock_settings)
+
+Phone control status: 
+    [mDescriptor]: 108
+    [mBindValue]: 0
+    [mLockValue]: 0
+    [mWipeValue]: 0
+    [mWipeCountValue]: 0
+    [mActivateValue]: 2
+    mPasswordTryTimes: 0 getPasswordTryTimes:0 deadLine:0
+access.control.    getLeuiTryTimes: 0 deadLine:null
+file.protected.    getLeuiTryTimes: 0 deadLine:null
+

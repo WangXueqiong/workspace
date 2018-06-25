@@ -1,0 +1,17 @@
+- offline : 1-2
+- online : 0,3
+- possible : 0-3
+- cpu_normalized_load : -
+- run_queue_avg : 1.2
+- run_queue_poll_ms : -
+                             0           1           2           3
+------------------------------------------------------------------
+cpu_utilization              7           -           -          67
+cpuinfo_cur_freq             -           -           -           -
+cpuinfo_max_freq       2457600           -           -     2457600
+cpuinfo_min_freq        300000           -           -      300000
+scaling_cur_freq       1497600           -           -     1497600
+scaling_governor   interactive           -           - interactive
+scaling_max_freq             -           -           -     1497600
+scaling_min_freq        300000           -           -      300000
+

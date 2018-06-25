@@ -1,0 +1,31 @@
+PRINT MANAGER STATE (dumpsys print)
+user state 0:
+  installed services:
+    service:
+      componentName=com.sec.app.samsungprintservice/com.sec.mobileprint.printservice.plugin.SamsungPrintService
+      settingsActivity=com.sec.mobileprint.printservice.plugin.ui.ActivityPluginSettings
+      addPrintersActivity=com.sec.mobileprint.printservice.plugin.ui.ActivityAddPrinter
+      avancedOptionsActivity=com.sec.mobileprint.printservice.plugin.ui.ActivityAdvancedPrintSettings
+  enabled services:
+    service:
+      componentName=com.sec.app.samsungprintservice/com.sec.mobileprint.kitkat.plugin.SamsungKitKatPrintService
+    service:
+      componentName=com.sec.app.samsungprintservice/com.sec.mobileprint.printservice.plugin.SamsungPrintService
+  active services:
+    service:
+      componentName=com.sec.app.samsungprintservice/com.sec.mobileprint.printservice.plugin.SamsungPrintService
+      destroyed=false
+      bound=false
+      hasDicoverySession=false
+      hasActivePrintJobs=false
+      isDiscoveringPrinters=false
+      trackedPrinters=null
+  cached print jobs:
+  discovery mediator:
+  print spooler:
+    destroyed=false
+    bound=false
+    print jobs:
+    print job files:
+
+

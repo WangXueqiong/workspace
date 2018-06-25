@@ -1,0 +1,520 @@
+TASK com.meizu.flyme.launcher id=447
+  ACTIVITY com.meizu.flyme.launcher/.Launcher 1463fb pid=1760
+    Local Activity 31ef1a5e State:
+      mResumed=true mStopped=false mFinished=false
+      mLoadersStarted=true
+      mChangingConfigurations=false
+      mCurrentConfig={1.0 ?mcc?mnc zh_CN ?layoutDir sw360dp w360dp h618dp 480dpi nrml long port finger -keyb/v/h -nav/h s.5}
+    FragmentManager misc state:
+      mActivity=com.meizu.flyme.launcher.Launcher@31ef1a5e
+      mContainer=android.app.Activity$1@35f10e5d
+      mCurState=5 mStateSaved=false mDestroyed=false
+    ViewRoot:
+      mAdded=true mRemoved=false
+      mConsumeBatchedInputScheduled=false
+      mConsumeBatchedInputImmediatelyScheduled=false
+      mPendingInputEventCount=0
+      mProcessInputEventsScheduled=false
+      mTraversalScheduled=false
+      android.view.ViewRootImpl$NativePreImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$ImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$NativePostImeInputStage: mQueueLength=0
+    Choreographer:
+      mFrameScheduled=false
+      mLastFrameTime=17389700 (78904 ms ago)
+    View Hierarchy:
+      com.android.internal.policy.impl.PhoneWindow$DecorView{380378fb V.E..... R....... 0,0-1080,1920}
+        android.widget.LinearLayout{3786a9d7 V.E..... ........ 0,0-1080,1920}
+          android.view.ViewStub{1f6002c4 G.E..... ......I. 0,0-0,0 #1020375}
+          android.widget.FrameLayout{45115ad V.E..... ........ 0,0-1080,1920 #1020002 android:id/content}
+            android.widget.FrameLayout{31965fa9 V.E..... ........ 0,0-1080,1920 #7f100077 app:id/launcher}
+              com.meizu.flyme.launcher.UninstallBlurBg{13e2692e I.ED.... ......ID 0,0-1080,216 #7f100078 app:id/uninstall_bg}
+              com.meizu.flyme.launcher.DragLayer{3b06fccf V.E..... ........ 0,0-1080,1920 #7f100079 app:id/drag_layer}
+                com.meizu.flyme.launcher.TitleView{16cc4d65 I.ED.... ......ID 0,1442-1080,1502 #7f10007a app:id/mz_title_view}
+                com.meizu.flyme.launcher.Workspace{35afea3a V.EDH..L ........ -3379,-1653-4460,3573 #7f10007b app:id/workspace}
+                  com.meizu.flyme.launcher.CellLayout{3b1dd05b V.ED..CL ........ 3403,1749-4435,3189}
+                    com.meizu.flyme.launcher.bt{28fa0f8 V.E..... ........ 0,0-1032,1440}
+                      com.meizu.flyme.launcher.ShortcutIcon{15ce31a6 VFE...CL ........ 0,576-258,864 #9c000002}
+                        com.meizu.flyme.launcher.IconBackGroundView{284fe7e7 V.ED.... ........ 0,0-258,288 #7f1000c6 app:id/shortcut_background}
+                        com.meizu.flyme.launcher.ShortcutIconLayout{6584f94 V.E..... ........ 0,0-258,288 #7f1000c7 app:id/shortcut_icon}
+                          android.widget.ImageView{3c512a3d V.ED.... ........ 51,48-207,204 #7f1000c8 app:id/app_icon}
+                          android.widget.FrameLayout{119bc232 V.E..... ........ 18,204-240,288}
+                            com.meizu.flyme.launcher.BubbleTextView{19291b83 V.ED.... ........ 0,0-222,84 #7f1000c9 app:id/app_name}
+                            android.widget.ImageView{734d100 G.ED.... ......I. 0,0-0,0 #7f1000ca app:id/selected_content}
+                            android.widget.FrameLayout{f2b2d39 G.E...C. ......I. 0,0-0,0 #7f1000cb app:id/push_activity}
+                              android.widget.LinearLayout{103fcf7e V.E..... ......I. 0,0-0,0}
+                                android.widget.ImageView{15d7ecdf V.ED.... ......I. 0,0-0,0 #7f1000cc app:id/push_icon}
+                                android.widget.TextView{2a95fd2c V.ED.... ......ID 0,0-0,0 #7f1000cd app:id/push_msg}
+                      com.meizu.flyme.launcher.ShortcutIcon{77877fb VFE...CL ........ 258,576-516,864 #9c000102}
+                        com.meizu.flyme.launcher.IconBackGroundView{29fbc018 V.ED.... ........ 0,0-258,288 #7f1000c6 app:id/shortcut_background}
+                        com.meizu.flyme.launcher.ShortcutIconLayout{3f484a71 V.E..... ........ 0,0-258,288 #7f1000c7 app:id/shortcut_icon}
+                          android.widget.ImageView{3cdc5056 V.ED.... ........ 51,48-207,204 #7f1000c8 app:id/app_icon}
+                          android.widget.FrameLayout{2cc98d7 V.E..... ........ 18,204-240,288}
+                            com.meizu.flyme.launcher.BubbleTextView{14f8c5c4 V.ED.... ........ 0,0-222,84 #7f1000c9 app:id/app_name}
+                            android.widget.ImageView{33c61cad G.ED.... ......I. 0,0-0,0 #7f1000ca app:id/selected_content}
+                            android.widget.FrameLayout{2e51be2 G.E...C. ......I. 0,0-0,0 #7f1000cb app:id/push_activity}
+                              android.widget.LinearLayout{3cd7eb73 V.E..... ......I. 0,0-0,0}
+                                android.widget.ImageView{3f9e7a30 V.ED.... ......I. 0,0-0,0 #7f1000cc app:id/push_icon}
+                                android.widget.TextView{10d4d6a9 V.ED.... ......ID 0,0-0,0 #7f1000cd app:id/push_msg}
+                      com.meizu.flyme.launcher.ShortcutIcon{2d3bcbcf VFE...CL ........ 516,576-774,864 #9c000202}
+                        com.meizu.flyme.launcher.IconBackGroundView{2ba9095c V.ED.... ........ 0,0-258,288 #7f1000c6 app:id/shortcut_background}
+                        com.meizu.flyme.launcher.ShortcutIconLayout{30fb3465 V.E..... ........ 0,0-258,288 #7f1000c7 app:id/shortcut_icon}
+                          android.widget.ImageView{100a453a V.ED.... ........ 51,48-207,204 #7f1000c8 app:id/app_icon}
+                          android.widget.FrameLayout{3a5355eb V.E..... ........ 18,204-240,288}
+                            com.meizu.flyme.launcher.BubbleTextView{186b5f48 V.ED.... ........ 0,0-222,84 #7f1000c9 app:id/app_name}
+                            android.widget.ImageView{166fb1e1 G.ED.... ......I. 0,0-0,0 #7f1000ca app:id/selected_content}
+                            android.widget.FrameLayout{ac77b06 G.E...C. ......I. 0,0-0,0 #7f1000cb app:id/push_activity}
+                              android.widget.LinearLayout{b0f65c7 V.E..... ......I. 0,0-0,0}
+                                android.widget.ImageView{257b27f4 V.ED.... ......I. 0,0-0,0 #7f1000cc app:id/push_icon}
+                                android.widget.TextView{16548b1d V.ED.... ......ID 0,0-0,0 #7f1000cd app:id/push_msg}
+                      com.meizu.flyme.launcher.ShortcutIcon{341ccf60 VFE...CL ........ 774,576-1032,864 #9c000302}
+                        com.meizu.flyme.launcher.IconBackGroundView{3bb3bc19 V.ED.... ........ 0,0-258,288 #7f1000c6 app:id/shortcut_background}
+                        com.meizu.flyme.launcher.ShortcutIconLayout{32ce4de V.E..... ........ 0,0-258,288 #7f1000c7 app:id/shortcut_icon}
+                          android.widget.ImageView{298d46bf V.ED.... ........ 51,48-207,204 #7f1000c8 app:id/app_icon}
+                          android.widget.FrameLayout{336f818c V.E..... ........ 18,204-240,288}
+                            com.meizu.flyme.launcher.BubbleTextView{1e3b00d5 V.ED.... ........ 0,0-222,84 #7f1000c9 app:id/app_name}
+                            android.widget.ImageView{131e70ea G.ED.... ......I. 0,0-0,0 #7f1000ca app:id/selected_content}
+                            android.widget.FrameLayout{29598fdb G.E...C. ......I. 0,0-0,0 #7f1000cb app:id/push_activity}
+                              android.widget.LinearLayout{3592a78 V.E..... ......I. 0,0-0,0}
+                                android.widget.ImageView{28b7d551 V.ED.... ......I. 0,0-0,0 #7f1000cc app:id/push_icon}
+                                android.widget.TextView{26eab1b6 V.ED.... ......ID 0,0-0,0 #7f1000cd app:id/push_msg}
+                      com.meizu.flyme.launcher.ShortcutIcon{b53758d VFE...CL ........ 0,864-258,1152 #9c000003}
+                        com.meizu.flyme.launcher.IconBackGroundView{38683342 V.ED.... ........ 0,0-258,288 #7f1000c6 app:id/shortcut_background}
+                        com.meizu.flyme.launcher.ShortcutIconLayout{2b081f53 V.E..... ........ 0,0-258,288 #7f1000c7 app:id/shortcut_icon}
+                          android.widget.ImageView{1932d090 V.ED.... ........ 51,48-207,204 #7f1000c8 app:id/app_icon}
+                          android.widget.FrameLayout{158edd89 V.E..... ........ 18,204-240,288}
+                            com.meizu.flyme.launcher.BubbleTextView{164a418e V.ED.... ........ 0,0-222,84 #7f1000c9 app:id/app_name}
+                            android.widget.ImageView{1f6b5daf G.ED.... ......I. 0,0-0,0 #7f1000ca app:id/selected_content}
+                            android.widget.FrameLayout{3b9c65bc G.E...C. ......I. 0,0-0,0 #7f1000cb app:id/push_activity}
+                              android.widget.LinearLayout{33fec945 V.E..... ......I. 0,0-0,0}
+                                android.widget.ImageView{352ce89a V.ED.... ......I. 0,0-0,0 #7f1000cc app:id/push_icon}
+                                android.widget.TextView{141a25cb V.ED.... ......ID 0,0-0,0 #7f1000cd app:id/push_msg}
+                      com.meizu.flyme.launcher.ShortcutIcon{560f466 VFE...CL ........ 258,864-516,1152 #9c000103}
+                        com.meizu.flyme.launcher.IconBackGroundView{1a353a7 V.ED.... ........ 0,0-258,288 #7f1000c6 app:id/shortcut_background}
+                        com.meizu.flyme.launcher.ShortcutIconLayout{1031b054 V.E..... ........ 0,0-258,288 #7f1000c7 app:id/shortcut_icon}
+                          android.widget.ImageView{3dd9dbfd V.ED.... ........ 51,48-207,204 #7f1000c8 app:id/app_icon}
+                          android.widget.FrameLayout{1977f0f2 V.E..... ........ 18,204-240,288}
+                            com.meizu.flyme.launcher.BubbleTextView{30a78343 V.ED.... ........ 0,0-222,84 #7f1000c9 app:id/app_name}
+                            android.widget.ImageView{a237dc0 G.ED.... ......I. 0,0-0,0 #7f1000ca app:id/selected_content}
+                            android.widget.FrameLayout{23ed3af9 G.E...C. ......I. 0,0-0,0 #7f1000cb app:id/push_activity}
+                              android.widget.LinearLayout{29902a3e V.E..... ......I. 0,0-0,0}
+                                android.widget.ImageView{935109f V.ED.... ......I. 0,0-0,0 #7f1000cc app:id/push_icon}
+                                android.widget.TextView{10a2b5ec V.ED.... ......ID 0,0-0,0 #7f1000cd app:id/push_msg}
+                      com.meizu.flyme.launcher.ShortcutIcon{3be417bb VFE...CL ........ 516,864-774,1152 #9c000203}
+                        com.meizu.flyme.launcher.IconBackGroundView{14fb44d8 V.ED.... ........ 0,0-258,288 #7f1000c6 app:id/shortcut_background}
+                        com.meizu.flyme.launcher.ShortcutIconLayout{15065031 V.E..... ........ 0,0-258,288 #7f1000c7 app:id/shortcut_icon}
+                          android.widget.ImageView{17054316 V.ED.... ........ 51,48-207,204 #7f1000c8 app:id/app_icon}
+                          android.widget.FrameLayout{20b27497 V.E..... ........ 18,204-240,288}
+                            com.meizu.flyme.launcher.BubbleTextView{f4bd684 V.ED.... ........ 0,0-222,84 #7f1000c9 app:id/app_name}
+                            android.widget.ImageView{cbebe6d G.ED.... ......I. 0,0-0,0 #7f1000ca app:id/selected_content}
+                            android.widget.FrameLayout{8a7aa2 G.E...C. ......I. 0,0-0,0 #7f1000cb app:id/push_activity}
+                              android.widget.LinearLayout{279fc333 V.E..... ......I. 0,0-0,0}
+                                android.widget.ImageView{38f1d6f0 V.ED.... ......I. 0,0-0,0 #7f1000cc app:id/push_icon}
+                                android.widget.TextView{1c15d469 V.ED.... ......ID 0,0-0,0 #7f1000cd app:id/push_msg}
+                      com.meizu.flyme.launcher.ShortcutIcon{1b5721c VFE...CL ........ 774,864-1032,1152 #9c000303}
+                        com.meizu.flyme.launcher.IconBackGroundView{20ae4e25 V.ED.... ........ 0,0-258,288 #7f1000c6 app:id/shortcut_background}
+                        com.meizu.flyme.launcher.ShortcutIconLayout{1ba4bbfa V.E..... ........ 0,0-258,288 #7f1000c7 app:id/shortcut_icon}
+                          android.widget.ImageView{13c665ab V.ED.... ........ 51,48-207,204 #7f1000c8 app:id/app_icon}
+                          android.widget.FrameLayout{2bb59408 V.E..... ........ 18,204-240,288}
+                            com.meizu.flyme.launcher.BubbleTextView{359aa7a1 V.ED.... ........ 0,0-222,84 #7f1000c9 app:id/app_name}
+                            android.widget.ImageView{39729dc6 G.ED.... ......I. 0,0-0,0 #7f1000ca app:id/selected_content}
+                            android.widget.FrameLayout{2f03b187 G.E...C. ......I. 0,0-0,0 #7f1000cb app:id/push_activity}
+                              android.widget.LinearLayout{3a13e8b4 V.E..... ......I. 0,0-0,0}
+                                android.widget.ImageView{3a991cdd V.ED.... ......I. 0,0-0,0 #7f1000cc app:id/push_icon}
+                                android.widget.TextView{9ead052 V.ED.... ......ID 0,0-0,0 #7f1000cd app:id/push_msg}
+                      com.meizu.flyme.launcher.ShortcutIcon{1a419f9e VFE...CL ........ 0,1152-258,1440 #9c000004}
+                        com.meizu.flyme.launcher.IconBackGroundView{3ec74a7f V.ED.... ........ 0,0-258,288 #7f1000c6 app:id/shortcut_background}
+                        com.meizu.flyme.launcher.ShortcutIconLayout{10c79a4c V.E..... ........ 0,0-258,288 #7f1000c7 app:id/shortcut_icon}
+                          android.widget.ImageView{18c80a95 V.ED.... ........ 51,48-207,204 #7f1000c8 app:id/app_icon}
+                          android.widget.FrameLayout{30900f9b V.E..... ........ 18,204-240,288}
+                            com.meizu.flyme.launcher.BubbleTextView{3efa0f38 V.ED.... ........ 0,0-222,84 #7f1000c9 app:id/app_name}
+                            android.widget.ImageView{3e6bbb11 G.ED.... ......I. 0,0-0,0 #7f1000ca app:id/selected_content}
+                            android.widget.FrameLayout{27040476 G.E...C. ......I. 0,0-0,0 #7f1000cb app:id/push_activity}
+                              android.widget.LinearLayout{3f560a77 V.E..... ......I. 0,0-0,0}
+                                android.widget.ImageView{3ddce6e4 V.ED.... ......I. 0,0-0,0 #7f1000cc app:id/push_icon}
+                                android.widget.TextView{1dbff74d V.ED.... ......ID 0,0-0,0 #7f1000cd app:id/push_msg}
+                      com.meizu.flyme.launcher.ShortcutIcon{29f38d50 VFE...CL ........ 258,1152-516,1440 #9c000104}
+                        com.meizu.flyme.launcher.IconBackGroundView{2da1bb49 V.ED.... ........ 0,0-258,288 #7f1000c6 app:id/shortcut_background}
+                        com.meizu.flyme.launcher.ShortcutIconLayout{18632c4e V.E..... ........ 0,0-258,288 #7f1000c7 app:id/shortcut_icon}
+                          android.widget.ImageView{2c0dd16f V.ED.... ........ 51,48-207,204 #7f1000c8 app:id/app_icon}
+                          android.widget.FrameLayout{228c2e7c V.E..... ........ 18,204-240,288}
+                            com.meizu.flyme.launcher.BubbleTextView{1bc1c305 V.ED.... ........ 0,0-222,84 #7f1000c9 app:id/app_name}
+                            android.widget.ImageView{35c9bf5a G.ED.... ......I. 0,0-0,0 #7f1000ca app:id/selected_content}
+                            android.widget.FrameLayout{38d0158b G.E...C. ......I. 0,0-0,0 #7f1000cb app:id/push_activity}
+                              android.widget.LinearLayout{babb668 V.E..... ......I. 0,0-0,0}
+                                android.widget.ImageView{6208a81 V.ED.... ......I. 0,0-0,0 #7f1000cc app:id/push_icon}
+                                android.widget.TextView{26d47726 V.ED.... ......ID 0,0-0,0 #7f1000cd app:id/push_msg}
+                      com.meizu.flyme.launcher.ShortcutIcon{104a4dbd VFE...CL ........ 516,1152-774,1440 #9c000204}
+                        com.meizu.flyme.launcher.IconBackGroundView{3080dfb2 V.ED.... ........ 0,0-258,288 #7f1000c6 app:id/shortcut_background}
+                        com.meizu.flyme.launcher.ShortcutIconLayout{20b3ab03 V.E..... ........ 0,0-258,288 #7f1000c7 app:id/shortcut_icon}
+                          android.widget.ImageView{31ecea80 V.ED.... ........ 51,48-207,204 #7f1000c8 app:id/app_icon}
+                          android.widget.FrameLayout{105308b9 V.E..... ........ 18,204-240,288}
+                            com.meizu.flyme.launcher.BubbleTextView{381944fe V.ED.... ........ 0,0-222,84 #7f1000c9 app:id/app_name}
+                            android.widget.ImageView{303bf45f G.ED.... ......I. 0,0-0,0 #7f1000ca app:id/selected_content}
+                            android.widget.FrameLayout{2e762eac G.E...C. ......I. 0,0-0,0 #7f1000cb app:id/push_activity}
+                              android.widget.LinearLayout{f927775 V.E..... ......I. 0,0-0,0}
+                                android.widget.ImageView{1b40b30a V.ED.... ......I. 0,0-0,0 #7f1000cc app:id/push_icon}
+                                android.widget.TextView{14d5777b V.ED.... ......ID 0,0-0,0 #7f1000cd app:id/push_msg}
+                      com.meizu.flyme.launcher.ShortcutIcon{3cbef5d6 VFE...CL ........ 774,1152-1032,1440 #9c000304}
+                        com.meizu.flyme.launcher.IconBackGroundView{5ba1057 V.ED.... ........ 0,0-258,288 #7f1000c6 app:id/shortcut_background}
+                        com.meizu.flyme.launcher.ShortcutIconLayout{1b7da744 V.E..... ........ 0,0-258,288 #7f1000c7 app:id/shortcut_icon}
+                          android.widget.ImageView{200f202d V.ED.... ........ 51,48-207,204 #7f1000c8 app:id/app_icon}
+                          android.widget.FrameLayout{120c9962 V.E..... ........ 18,204-240,288}
+                            com.meizu.flyme.launcher.BubbleTextView{9e55af3 V.ED.... ........ 0,0-222,84 #7f1000c9 app:id/app_name}
+                            android.widget.ImageView{234ff3b0 G.ED.... ......I. 0,0-0,0 #7f1000ca app:id/selected_content}
+                            android.widget.FrameLayout{f6a9229 G.E...C. ......I. 0,0-0,0 #7f1000cb app:id/push_activity}
+                              android.widget.LinearLayout{3d9ee9ae V.E..... ......I. 0,0-0,0}
+                                android.widget.ImageView{1270b34f V.ED.... ......I. 0,0-0,0 #7f1000cc app:id/push_icon}
+                                android.widget.TextView{2eb89adc V.ED.... ......ID 0,0-0,0 #7f1000cd app:id/push_msg}
+                      com.meizu.flyme.launcher.au{1eaf356b V.E....L R....... 0,0-1032,288 #9c000000}
+                        android.widget.FrameLayout{2ea288c8 V.E..... ........ 24,24-1008,264 #7f10022b app:id/weather_plate}
+                          android.widget.RelativeLayout{33915d61 V.E..... ........ 0,22-984,217 #7f10022c app:id/search_layout}
+                            android.widget.RelativeLayout{195e8086 V.E...C. ........ 659,40-959,155 #7f10022d app:id/widget_right_layout}
+                              android.widget.LinearLayout{609bd47 V.E..... ........ 132,0-264,115}
+                                android.widget.ImageView{35bb6974 V.ED.... ........ 0,27-60,87 #7f100101 app:id/week_img}
+                                android.widget.TextView{3e921f12 V.ED.... ........ 60,29-132,86 #7f10022e app:id/widget_temp}
+                            android.widget.RelativeLayout{39ae6e3 V.E...C. ........ 25,40-659,155 #7f10022f app:id/widget_left_layout}
+                              android.widget.ImageView{31dfa8e0 V.ED.... ........ 33,21-105,93 #7f100230 app:id/search_icon}
+                              android.widget.TextView{1eef5799 V.ED.... ........ 105,29-634,86 #7f100231 app:id/hot_key_word_text}
+                  com.meizu.flyme.launcher.CellLayout{1899d4a4 V.ED..CL ........ 4483,1749-5515,3189}
+                    com.meizu.flyme.launcher.bt{3321b20d V.E..... ........ 0,0-1032,1440}
+                      com.meizu.flyme.launcher.ShortcutIcon{3e1c9679 VFE...CL ........ 0,0-258,288 #9c010000}
+                        com.meizu.flyme.launcher.IconBackGroundView{29b1fbe V.ED.... ........ 0,0-258,288 #7f1000c6 app:id/shortcut_background}
+                        com.meizu.flyme.launcher.ShortcutIconLayout{2aac981f V.E..... ........ 0,0-258,288 #7f1000c7 app:id/shortcut_icon}
+                          android.widget.ImageView{8d0676c V.ED.... ........ 51,48-207,204 #7f1000c8 app:id/app_icon}
+                          android.widget.FrameLayout{19e579ca V.E..... ........ 18,204-240,288}
+                            com.meizu.flyme.launcher.BubbleTextView{2e0c973b V.ED.... ........ 0,0-222,84 #7f1000c9 app:id/app_name}
+                            android.widget.ImageView{24128e58 G.ED.... ......I. 0,0-0,0 #7f1000ca app:id/selected_content}
+                            android.widget.FrameLayout{33559bb1 G.E...C. ......I. 0,0-0,0 #7f1000cb app:id/push_activity}
+                              android.widget.LinearLayout{cc96896 V.E..... ......I. 0,0-0,0}
+                                android.widget.ImageView{9a36c17 V.ED.... ......I. 0,0-0,0 #7f1000cc app:id/push_icon}
+                                android.widget.TextView{164e3804 V.ED.... ......ID 0,0-0,0 #7f1000cd app:id/push_msg}
+                      com.meizu.flyme.launcher.ShortcutIcon{2778d070 VFE...CL ........ 258,0-516,288 #9c010100}
+                        com.meizu.flyme.launcher.IconBackGroundView{4930fe9 V.ED.... ........ 0,0-258,288 #7f1000c6 app:id/shortcut_background}
+                        com.meizu.flyme.launcher.ShortcutIconLayout{38acf46e V.E..... ........ 0,0-258,288 #7f1000c7 app:id/shortcut_icon}
+                          android.widget.ImageView{f31c70f V.ED.... ........ 51,48-207,204 #7f1000c8 app:id/app_icon}
+                          android.widget.FrameLayout{2772839c V.E..... ........ 18,204-240,288}
+                            com.meizu.flyme.launcher.BubbleTextView{1683c1a5 V.ED.... ........ 0,0-222,84 #7f1000c9 app:id/app_name}
+                            android.widget.ImageView{25b7e97a G.ED.... ......I. 0,0-0,0 #7f1000ca app:id/selected_content}
+                            android.widget.FrameLayout{26cdc52b G.E...C. ......I. 0,0-0,0 #7f1000cb app:id/push_activity}
+                              android.widget.LinearLayout{21f23d88 V.E..... ......I. 0,0-0,0}
+                                android.widget.ImageView{2213d321 V.ED.... ......I. 0,0-0,0 #7f1000cc app:id/push_icon}
+                                android.widget.TextView{394b2346 V.ED.... ......ID 0,0-0,0 #7f1000cd app:id/push_msg}
+                      com.meizu.flyme.launcher.ShortcutIcon{1039805d VFE...CL ........ 516,0-774,288 #9c010200}
+                        com.meizu.flyme.launcher.IconBackGroundView{12862dd2 V.ED.... ........ 0,0-258,288 #7f1000c6 app:id/shortcut_background}
+                        com.meizu.flyme.launcher.ShortcutIconLayout{783aea3 V.E..... ........ 0,0-258,288 #7f1000c7 app:id/shortcut_icon}
+                          android.widget.ImageView{75935a0 V.ED.... ........ 51,48-207,204 #7f1000c8 app:id/app_icon}
+                          android.widget.FrameLayout{2912c559 V.E..... ........ 18,204-240,288}
+                            com.meizu.flyme.launcher.BubbleTextView{30f5551e V.ED.... ........ 0,0-222,84 #7f1000c9 app:id/app_name}
+                            android.widget.ImageView{b9891ff G.ED.... ......I. 0,0-0,0 #7f1000ca app:id/selected_content}
+                            android.widget.FrameLayout{16ac0bcc G.E...C. ......I. 0,0-0,0 #7f1000cb app:id/push_activity}
+                              android.widget.LinearLayout{3ea15e15 V.E..... ......I. 0,0-0,0}
+                                android.widget.ImageView{2e9da52a V.ED.... ......I. 0,0-0,0 #7f1000cc app:id/push_icon}
+                                android.widget.TextView{9ee4f1b V.ED.... ......ID 0,0-0,0 #7f1000cd app:id/push_msg}
+                      com.meizu.flyme.launcher.FolderIcon{2d18c1f7 VFE...CL ........ 774,0-1032,288 #9c010300}
+                        com.meizu.flyme.launcher.IconBackGroundView{3aae0864 G.ED.... ......ID 0,0-0,0 #7f100072 app:id/foldericon_background}
+                        android.widget.LinearLayout{24003acd V.E..... ........ 0,0-258,288 #7f100073 app:id/folder_icon}
+                          android.widget.ImageView{2d91af82 V.ED.... ........ 51,48-207,204 #7f100074 app:id/preview_background}
+                          com.meizu.flyme.launcher.BubbleTextView{b0d8693 V.ED.... ........ 18,204-240,288 #7f100075 app:id/folder_icon_name}
+                      com.meizu.flyme.launcher.ShortcutIcon{bc67322 VFE...CL ........ 0,288-258,576 #9c010001}
+                        com.meizu.flyme.launcher.IconBackGroundView{28df91b3 V.ED.... ........ 0,0-258,288 #7f1000c6 app:id/shortcut_background}
+                        com.meizu.flyme.launcher.ShortcutIconLayout{2907c370 V.E..... ........ 0,0-258,288 #7f1000c7 app:id/shortcut_icon}
+                          android.widget.ImageView{2e7a86e9 V.ED.... ........ 51,48-207,204 #7f1000c8 app:id/app_icon}
+                          android.widget.FrameLayout{207c9f6e V.E..... ........ 18,204-240,288}
+                            com.meizu.flyme.launcher.BubbleTextView{ab7960f V.ED.... ........ 0,0-222,84 #7f1000c9 app:id/app_name}
+                            android.widget.ImageView{1e7da69c G.ED.... ......I. 0,0-0,0 #7f1000ca app:id/selected_content}
+                            android.widget.FrameLayout{3ceba8a5 G.E...C. ......I. 0,0-0,0 #7f1000cb app:id/push_activity}
+                              android.widget.LinearLayout{1257447a V.E..... ......I. 0,0-0,0}
+                                android.widget.ImageView{1661842b V.ED.... ......I. 0,0-0,0 #7f1000cc app:id/push_icon}
+                                android.widget.TextView{220c9088 V.ED.... ......ID 0,0-0,0 #7f1000cd app:id/push_msg}
+                      com.meizu.flyme.launcher.ShortcutIcon{20052e46 VFE...CL ........ 258,288-516,576 #9c010101}
+                        com.meizu.flyme.launcher.IconBackGroundView{6723807 V.ED.... ........ 0,0-258,288 #7f1000c6 app:id/shortcut_background}
+                        com.meizu.flyme.launcher.ShortcutIconLayout{281e2d34 V.E..... ........ 0,0-258,288 #7f1000c7 app:id/shortcut_icon}
+                          android.widget.ImageView{30d7475d V.ED.... ........ 51,48-207,204 #7f1000c8 app:id/app_icon}
+                          android.widget.FrameLayout{3255e8d2 V.E..... ........ 18,204-240,288}
+                            com.meizu.flyme.launcher.BubbleTextView{3ff04da3 V.ED.... ........ 0,0-222,84 #7f1000c9 app:id/app_name}
+                            android.widget.ImageView{200ae8a0 G.ED.... ......I. 0,0-0,0 #7f1000ca app:id/selected_content}
+                            android.widget.FrameLayout{345fc59 G.E...C. ......I. 0,0-0,0 #7f1000cb app:id/push_activity}
+                              android.widget.LinearLayout{3d85c01e V.E..... ......I. 0,0-0,0}
+                                android.widget.ImageView{27b020ff V.ED.... ......I. 0,0-0,0 #7f1000cc app:id/push_icon}
+                                android.widget.TextView{1445eecc V.ED.... ......ID 0,0-0,0 #7f1000cd app:id/push_msg}
+                      com.meizu.flyme.launcher.ShortcutIcon{2b49c02a VFE...CL ........ 516,288-774,576 #9c010201}
+                        com.meizu.flyme.launcher.IconBackGroundView{316fce1b V.ED.... ........ 0,0-258,288 #7f1000c6 app:id/shortcut_background}
+                        com.meizu.flyme.launcher.ShortcutIconLayout{21492bb8 V.E..... ........ 0,0-258,288 #7f1000c7 app:id/shortcut_icon}
+                          android.widget.ImageView{3fc9dd91 V.ED.... ........ 51,48-207,204 #7f1000c8 app:id/app_icon}
+                          android.widget.FrameLayout{199bb4f6 V.E..... ........ 18,204-240,288}
+                            com.meizu.flyme.launcher.BubbleTextView{4b330f7 V.ED.... ........ 0,0-222,84 #7f1000c9 app:id/app_name}
+                            android.widget.ImageView{2f414b64 G.ED.... ......I. 0,0-0,0 #7f1000ca app:id/selected_content}
+                            android.widget.FrameLayout{371dc1cd G.E...C. ......I. 0,0-0,0 #7f1000cb app:id/push_activity}
+                              android.widget.LinearLayout{3a462a82 V.E..... ......I. 0,0-0,0}
+                                android.widget.ImageView{135fe593 V.ED.... ......I. 0,0-0,0 #7f1000cc app:id/push_icon}
+                                android.widget.TextView{1a79b9d0 V.ED.... ......ID 0,0-0,0 #7f1000cd app:id/push_msg}
+                      com.meizu.flyme.launcher.ShortcutIcon{1f306cce VFE...CL ........ 774,288-1032,576 #9c010301}
+                        com.meizu.flyme.launcher.IconBackGroundView{3e1947ef V.ED.... ........ 0,0-258,288 #7f1000c6 app:id/shortcut_background}
+                        com.meizu.flyme.launcher.ShortcutIconLayout{3688a2fc V.E..... ........ 0,0-258,288 #7f1000c7 app:id/shortcut_icon}
+                          android.widget.ImageView{24be5d85 V.ED.... ........ 51,48-207,204 #7f1000c8 app:id/app_icon}
+                          android.widget.FrameLayout{3f6a87da V.E..... ........ 18,204-240,288}
+                            com.meizu.flyme.launcher.BubbleTextView{225c740b V.ED.... ........ 0,0-222,84 #7f1000c9 app:id/app_name}
+                            android.widget.ImageView{183af2e8 G.ED.... ......I. 0,0-0,0 #7f1000ca app:id/selected_content}
+                            android.widget.FrameLayout{e8c4d01 G.E...C. ......I. 0,0-0,0 #7f1000cb app:id/push_activity}
+                              android.widget.LinearLayout{f947a6 V.E..... ......I. 0,0-0,0}
+                                android.widget.ImageView{2e5c45e7 V.ED.... ......I. 0,0-0,0 #7f1000cc app:id/push_icon}
+                                android.widget.TextView{12405594 V.ED.... ......ID 0,0-0,0 #7f1000cd app:id/push_msg}
+                      com.meizu.flyme.launcher.ShortcutIcon{13623832 VFE...CL ........ 0,576-258,864 #9c010002}
+                        com.meizu.flyme.launcher.IconBackGroundView{169d5983 V.ED.... ........ 0,0-258,288 #7f1000c6 app:id/shortcut_background}
+                        com.meizu.flyme.launcher.ShortcutIconLayout{10973700 V.E..... ........ 0,0-258,288 #7f1000c7 app:id/shortcut_icon}
+                          android.widget.ImageView{2d249b39 V.ED.... ........ 51,48-207,204 #7f1000c8 app:id/app_icon}
+                          android.widget.FrameLayout{26f7a57e V.E..... ........ 18,204-240,288}
+                            com.meizu.flyme.launcher.BubbleTextView{9520adf V.ED.... ........ 0,0-222,84 #7f1000c9 app:id/app_name}
+                            android.widget.ImageView{3eb8c32c G.ED.... ......I. 0,0-0,0 #7f1000ca app:id/selected_content}
+                            android.widget.FrameLayout{202ab1f5 G.E...C. ......I. 0,0-0,0 #7f1000cb app:id/push_activity}
+                              android.widget.LinearLayout{ce49b8a V.E..... ......I. 0,0-0,0}
+                                android.widget.ImageView{3b7675fb V.ED.... ......I. 0,0-0,0 #7f1000cc app:id/push_icon}
+                                android.widget.TextView{2484e618 V.ED.... ......ID 0,0-0,0 #7f1000cd app:id/push_msg}
+                      com.meizu.flyme.launcher.ShortcutIcon{bf8e656 VFE...CL ........ 258,576-516,864 #9c010102}
+                        com.meizu.flyme.launcher.IconBackGroundView{2bac76d7 V.ED.... ........ 0,0-258,288 #7f1000c6 app:id/shortcut_background}
+                        com.meizu.flyme.launcher.ShortcutIconLayout{25ee4bc4 V.E..... ........ 0,0-258,288 #7f1000c7 app:id/shortcut_icon}
+                          android.widget.ImageView{1f242aad V.ED.... ........ 51,48-207,204 #7f1000c8 app:id/app_icon}
+                          android.widget.FrameLayout{363511e2 V.E..... ........ 18,204-240,288}
+                            com.meizu.flyme.launcher.BubbleTextView{36d7a973 V.ED.... ........ 0,0-222,84 #7f1000c9 app:id/app_name}
+                            android.widget.ImageView{11666030 G.ED.... ......I. 0,0-0,0 #7f1000ca app:id/selected_content}
+                            android.widget.FrameLayout{2f05c4a9 G.E...C. ......I. 0,0-0,0 #7f1000cb app:id/push_activity}
+                              android.widget.LinearLayout{b166a2e V.E..... ......I. 0,0-0,0}
+                                android.widget.ImageView{1a7969cf V.ED.... ......I. 0,0-0,0 #7f1000cc app:id/push_icon}
+                                android.widget.TextView{29094f5c V.ED.... ......ID 0,0-0,0 #7f1000cd app:id/push_msg}
+                      com.meizu.flyme.launcher.ShortcutIcon{32a2fb3a VFE...CL ........ 516,576-774,864 #9c010202}
+                        com.meizu.flyme.launcher.IconBackGroundView{ccd3eb V.ED.... ........ 0,0-258,288 #7f1000c6 app:id/shortcut_background}
+                        com.meizu.flyme.launcher.ShortcutIconLayout{128a0548 V.E..... ........ 0,0-258,288 #7f1000c7 app:id/shortcut_icon}
+                          android.widget.ImageView{10105fe1 V.ED.... ........ 51,48-207,204 #7f1000c8 app:id/app_icon}
+                          android.widget.FrameLayout{1d359106 V.E..... ........ 18,204-240,288}
+                            com.meizu.flyme.launcher.BubbleTextView{32a2c3c7 V.ED.... ........ 0,0-222,84 #7f1000c9 app:id/app_name}
+                            android.widget.ImageView{19de2df4 G.ED.... ......I. 0,0-0,0 #7f1000ca app:id/selected_content}
+                            android.widget.FrameLayout{3452191d G.E...C. ......I. 0,0-0,0 #7f1000cb app:id/push_activity}
+                              android.widget.LinearLayout{1409b792 V.E..... ......I. 0,0-0,0}
+                                android.widget.ImageView{afdd563 V.ED.... ......I. 0,0-0,0 #7f1000cc app:id/push_icon}
+                                android.widget.TextView{32aa3560 V.ED.... ......ID 0,0-0,0 #7f1000cd app:id/push_msg}
+                      com.meizu.flyme.launcher.ShortcutIcon{687bade VFE...CL ........ 774,576-1032,864 #9c010302}
+                        com.meizu.flyme.launcher.IconBackGroundView{86e64bf V.ED.... ........ 0,0-258,288 #7f1000c6 app:id/shortcut_background}
+                        com.meizu.flyme.launcher.ShortcutIconLayout{246d478c V.E..... ........ 0,0-258,288 #7f1000c7 app:id/shortcut_icon}
+                          android.widget.ImageView{309c4ed5 V.ED.... ........ 51,48-207,204 #7f1000c8 app:id/app_icon}
+                          android.widget.FrameLayout{2050a6ea V.E..... ........ 18,204-240,288}
+                            com.meizu.flyme.launcher.BubbleTextView{182e8ddb V.ED.... ........ 0,0-222,84 #7f1000c9 app:id/app_name}
+                            android.widget.ImageView{d6d5078 G.ED.... ......I. 0,0-0,0 #7f1000ca app:id/selected_content}
+                            android.widget.FrameLayout{3ae00351 G.E...C. ......I. 0,0-0,0 #7f1000cb app:id/push_activity}
+                              android.widget.LinearLayout{340a47b6 V.E..... ......I. 0,0-0,0}
+                                android.widget.ImageView{36fe2cb7 V.ED.... ......I. 0,0-0,0 #7f1000cc app:id/push_icon}
+                                android.widget.TextView{2862fc24 V.ED.... ......ID 0,0-0,0 #7f1000cd app:id/push_msg}
+                      com.meizu.flyme.launcher.ShortcutIcon{6eb2942 VFE...CL ........ 0,864-258,1152 #9c010003}
+                        com.meizu.flyme.launcher.IconBackGroundView{3bedd53 V.ED.... ........ 0,0-258,288 #7f1000c6 app:id/shortcut_background}
+                        com.meizu.flyme.launcher.ShortcutIconLayout{e5b690 V.E..... ........ 0,0-258,288 #7f1000c7 app:id/shortcut_icon}
+                          android.widget.ImageView{22cecb89 V.ED.... ........ 51,48-207,204 #7f1000c8 app:id/app_icon}
+                          android.widget.FrameLayout{906978e V.E..... ........ 18,204-240,288}
+                            com.meizu.flyme.launcher.BubbleTextView{1fcffbaf V.ED.... ........ 0,0-222,84 #7f1000c9 app:id/app_name}
+                            android.widget.ImageView{297abbc G.ED.... ......I. 0,0-0,0 #7f1000ca app:id/selected_content}
+                            android.widget.FrameLayout{204f9745 G.E...C. ......I. 0,0-0,0 #7f1000cb app:id/push_activity}
+                              android.widget.LinearLayout{6589e9a V.E..... ......I. 0,0-0,0}
+                                android.widget.ImageView{392aa3cb V.ED.... ......I. 0,0-0,0 #7f1000cc app:id/push_icon}
+                                android.widget.TextView{f11c7a8 V.ED.... ......ID 0,0-0,0 #7f1000cd app:id/push_msg}
+                      com.meizu.flyme.launcher.ShortcutIcon{1c920a66 VFE...CL ........ 258,864-516,1152 #9c010103}
+                        com.meizu.flyme.launcher.IconBackGroundView{1a3db1a7 V.ED.... ........ 0,0-258,288 #7f1000c6 app:id/shortcut_background}
+                        com.meizu.flyme.launcher.ShortcutIconLayout{68fb654 V.E..... ........ 0,0-258,288 #7f1000c7 app:id/shortcut_icon}
+                          android.widget.ImageView{2db669fd V.ED.... ........ 51,48-207,204 #7f1000c8 app:id/app_icon}
+                          android.widget.FrameLayout{1a466f2 V.E..... ........ 18,204-240,288}
+                            com.meizu.flyme.launcher.BubbleTextView{1b89c143 V.ED.... ........ 0,0-222,84 #7f1000c9 app:id/app_name}
+                            android.widget.ImageView{2f5be3c0 G.ED.... ......I. 0,0-0,0 #7f1000ca app:id/selected_content}
+                            android.widget.FrameLayout{1004a8f9 G.E...C. ......I. 0,0-0,0 #7f1000cb app:id/push_activity}
+                              android.widget.LinearLayout{270e003e V.E..... ......I. 0,0-0,0}
+                                android.widget.ImageView{12fd2e9f V.ED.... ......I. 0,0-0,0 #7f1000cc app:id/push_icon}
+                                android.widget.TextView{27fb7bec V.ED.... ......ID 0,0-0,0 #7f1000cd app:id/push_msg}
+                      com.meizu.flyme.launcher.ShortcutIcon{5e5e24a VFE...CL ........ 516,864-774,1152 #9c010203}
+                        com.meizu.flyme.launcher.IconBackGroundView{1d1015bb V.ED.... ........ 0,0-258,288 #7f1000c6 app:id/shortcut_background}
+                        com.meizu.flyme.launcher.ShortcutIconLayout{101a6ad8 V.E..... ........ 0,0-258,288 #7f1000c7 app:id/shortcut_icon}
+                          android.widget.ImageView{22dd7e31 V.ED.... ........ 51,48-207,204 #7f1000c8 app:id/app_icon}
+                          android.widget.FrameLayout{1fa7d916 V.E..... ........ 18,204-240,288}
+                            com.meizu.flyme.launcher.BubbleTextView{1ba05297 V.ED.... ........ 0,0-222,84 #7f1000c9 app:id/app_name}
+                            android.widget.ImageView{14375c84 G.ED.... ......I. 0,0-0,0 #7f1000ca app:id/selected_content}
+                            android.widget.FrameLayout{bdacc6d G.E...C. ......I. 0,0-0,0 #7f1000cb app:id/push_activity}
+                              android.widget.LinearLayout{3fc070a2 V.E..... ......I. 0,0-0,0}
+                                android.widget.ImageView{68d8133 V.ED.... ......I. 0,0-0,0 #7f1000cc app:id/push_icon}
+                                android.widget.TextView{80fbcf0 V.ED.... ......ID 0,0-0,0 #7f1000cd app:id/push_msg}
+                      com.meizu.flyme.launcher.ShortcutIcon{9d8f4ee VFE...CL ........ 774,864-1032,1152 #9c010303}
+                        com.meizu.flyme.launcher.IconBackGroundView{2a14fd8f V.ED.... ........ 0,0-258,288 #7f1000c6 app:id/shortcut_background}
+                        com.meizu.flyme.launcher.ShortcutIconLayout{3bcbb81c V.E..... ........ 0,0-258,288 #7f1000c7 app:id/shortcut_icon}
+                          android.widget.ImageView{97e1c25 V.ED.... ........ 51,48-207,204 #7f1000c8 app:id/app_icon}
+                          android.widget.FrameLayout{20e371fa V.E..... ........ 18,204-240,288}
+                            com.meizu.flyme.launcher.BubbleTextView{2eede3ab V.ED.... ........ 0,0-222,84 #7f1000c9 app:id/app_name}
+                            android.widget.ImageView{37ea3a08 G.ED.... ......I. 0,0-0,0 #7f1000ca app:id/selected_content}
+                            android.widget.FrameLayout{169955a1 G.E...C. ......I. 0,0-0,0 #7f1000cb app:id/push_activity}
+                              android.widget.LinearLayout{32e6b3c6 V.E..... ......I. 0,0-0,0}
+                                android.widget.ImageView{8250f87 V.ED.... ......I. 0,0-0,0 #7f1000cc app:id/push_icon}
+                                android.widget.TextView{beceeb4 V.ED.... ......ID 0,0-0,0 #7f1000cd app:id/push_msg}
+                      com.meizu.flyme.launcher.ShortcutIcon{17d4aadd VFE...CL ........ 0,1152-258,1440 #9c010004}
+                        com.meizu.flyme.launcher.IconBackGroundView{358a4652 V.ED.... ........ 0,0-258,288 #7f1000c6 app:id/shortcut_background}
+                        com.meizu.flyme.launcher.ShortcutIconLayout{22b91d23 V.E..... ........ 0,0-258,288 #7f1000c7 app:id/shortcut_icon}
+                          android.widget.ImageView{1bc44220 V.ED.... ........ 51,48-207,204 #7f1000c8 app:id/app_icon}
+                          android.widget.FrameLayout{237617d9 V.E..... ........ 18,204-240,288}
+                            com.meizu.flyme.launcher.BubbleTextView{1f62759e V.ED.... ........ 0,0-222,84 #7f1000c9 app:id/app_name}
+                            android.widget.ImageView{32f6687f G.ED.... ......I. 0,0-0,0 #7f1000ca app:id/selected_content}
+                            android.widget.FrameLayout{17fb604c G.E...C. ......I. 0,0-0,0 #7f1000cb app:id/push_activity}
+                              android.widget.LinearLayout{14275895 V.E..... ......I. 0,0-0,0}
+                                android.widget.ImageView{29fc4daa V.ED.... ......I. 0,0-0,0 #7f1000cc app:id/push_icon}
+                                android.widget.TextView{3b930d9b V.ED.... ......ID 0,0-0,0 #7f1000cd app:id/push_msg}
+                      com.meizu.flyme.launcher.ShortcutIcon{3273c599 VFE...CL ........ 258,1152-516,1440 #9c010104}
+                        com.meizu.flyme.launcher.IconBackGroundView{2ed5f05e V.ED.... ........ 0,0-258,288 #7f1000c6 app:id/shortcut_background}
+                        com.meizu.flyme.launcher.ShortcutIconLayout{27082c3f V.E..... ........ 0,0-258,288 #7f1000c7 app:id/shortcut_icon}
+                          android.widget.ImageView{13b0390c V.ED.... ........ 51,48-207,204 #7f1000c8 app:id/app_icon}
+                          android.widget.FrameLayout{1b0cb46a V.E..... ........ 18,204-240,288}
+                            com.meizu.flyme.launcher.BubbleTextView{f244709 V.ED.... ........ 0,0-222,84 #7f1000c9 app:id/app_name}
+                            android.widget.ImageView{3a0d2d0e G.ED.... ......I. 0,0-0,0 #7f1000ca app:id/selected_content}
+                            android.widget.FrameLayout{222aa32f G.E...C. ......I. 0,0-0,0 #7f1000cb app:id/push_activity}
+                              android.widget.LinearLayout{2f39fd3c V.E..... ......I. 0,0-0,0}
+                                android.widget.ImageView{1f414ac5 V.ED.... ......I. 0,0-0,0 #7f1000cc app:id/push_icon}
+                                android.widget.TextView{cf30c1a V.ED.... ......ID 0,0-0,0 #7f1000cd app:id/push_msg}
+                com.meizu.flyme.launcher.Hotseat{189e0c48 V.E....L ........ 0,1626-1080,1878 #7f10007c app:id/hotseat}
+                  com.meizu.flyme.launcher.MzHotseat{2ab95ae1 V.ED.... ........ 0,0-1080,252 #7f100076 app:id/layout}
+                    com.meizu.flyme.launcher.bt{15a27006 V.E..... ........ 24,0-1104,252}
+                      com.meizu.flyme.launcher.ShortcutIcon{1ff2ac0e VFE...CL ........ 41,0-299,294 #9b000000}
+                        com.meizu.flyme.launcher.IconBackGroundView{2b93b62f V.ED.... ........ 0,0-258,294 #7f1000c6 app:id/shortcut_background}
+                        com.meizu.flyme.launcher.ShortcutIconLayout{26c1143c V.E..... ........ 0,0-258,294 #7f1000c7 app:id/shortcut_icon}
+                          android.widget.ImageView{36c815c5 V.ED.... ........ 51,48-207,204 #7f1000c8 app:id/app_icon}
+                          android.widget.FrameLayout{39af864b V.E..... ........ 18,204-240,294}
+                            com.meizu.flyme.launcher.BubbleTextView{33a93828 I.ED.... ......ID 0,0-222,90 #7f1000c9 app:id/app_name}
+                            android.widget.ImageView{25194941 G.ED.... ......I. 0,0-0,0 #7f1000ca app:id/selected_content}
+                            android.widget.FrameLayout{295c2ee6 G.E...C. ......I. 0,0-0,0 #7f1000cb app:id/push_activity}
+                              android.widget.LinearLayout{1e6e3c27 V.E..... ......I. 0,0-0,0}
+                                android.widget.ImageView{386daed4 V.ED.... ......I. 0,0-0,0 #7f1000cc app:id/push_icon}
+                                android.widget.TextView{3df0387d V.ED.... ......ID 0,0-0,0 #7f1000cd app:id/push_msg}
+                      com.meizu.flyme.launcher.FolderIcon{256834be VFE...CL ........ 387,0-645,294 #9b010100}
+                        com.meizu.flyme.launcher.IconBackGroundView{3664891f G.ED.... ......ID 0,0-0,0 #7f100072 app:id/foldericon_background}
+                        android.widget.LinearLayout{3790046c V.E..... ........ 0,0-258,294 #7f100073 app:id/folder_icon}
+                          android.widget.ImageView{2132fa35 V.ED.... ........ 51,48-207,204 #7f100074 app:id/preview_background}
+                          com.meizu.flyme.launcher.BubbleTextView{24eedeca I.ED.... ......ID 18,204-240,294 #7f100075 app:id/folder_icon_name}
+                      com.meizu.flyme.launcher.ShortcutIcon{1c5eb3cd VFE...CL ........ 733,0-991,294 #9b020200}
+                        com.meizu.flyme.launcher.IconBackGroundView{ca93482 V.ED.... ........ 0,0-258,294 #7f1000c6 app:id/shortcut_background}
+                        com.meizu.flyme.launcher.ShortcutIconLayout{10972793 V.E..... ........ 0,0-258,294 #7f1000c7 app:id/shortcut_icon}
+                          android.widget.ImageView{d1cd3d0 V.ED.... ........ 51,48-207,204 #7f1000c8 app:id/app_icon}
+                          android.widget.FrameLayout{afbfc9 V.E..... ........ 18,204-240,294}
+                            com.meizu.flyme.launcher.BubbleTextView{35ba16ce I.ED.... ......ID 0,0-222,90 #7f1000c9 app:id/app_name}
+                            android.widget.ImageView{482a9ef G.ED.... ......I. 0,0-0,0 #7f1000ca app:id/selected_content}
+                            android.widget.FrameLayout{19435cfc G.E...C. ......I. 0,0-0,0 #7f1000cb app:id/push_activity}
+                              android.widget.LinearLayout{2eeb8f85 V.E..... ......I. 0,0-0,0}
+                                android.widget.ImageView{5e4d1da V.ED.... ......I. 0,0-0,0 #7f1000cc app:id/push_icon}
+                                android.widget.TextView{22f9f60b V.ED.... ......ID 0,0-0,0 #7f1000cd app:id/push_msg}
+                android.widget.FrameLayout{1aaba4f4 G.E..... ......I. 0,0-0,0 #7f10007d app:id/overview_panel}
+                  android.widget.LinearLayout{300fc41d V.E..... ......I. 0,0-0,0}
+                    android.widget.LinearLayout{fe58692 V.E...C. ......I. 0,0-0,0 #7f1000a1 app:id/arrangeicon_button}
+                      android.widget.FrameLayout{1aa6f863 V.E..... ......I. 0,0-0,0}
+                        com.meizu.flyme.launcher.ArrangeIconView{38581c60 V.ED.... ......I. 0,0-0,0 #7f1000a2 app:id/arrange_view}
+                        android.widget.ImageView{25d179de V.ED.... ......I. 0,0-0,0 #7f1000a3 app:id/arrange_icon}
+                      android.widget.TextView{d06b7bf V.ED.... ......ID 0,0-0,0 #7f1000a4 app:id/arrange_text}
+                    android.widget.Space{34929e8c I.ED.... ......I. 0,0-0,0}
+                    android.widget.TextView{3b0459d5 G.ED..C. ......I. 0,0-0,0 #7f1000a5 app:id/alignment_button}
+                    android.widget.LinearLayout{3f755ea V.E...C. ......I. 0,0-0,0 #7f1000a6 app:id/widget_button}
+                      android.widget.FrameLayout{297910db V.E..... ......I. 0,0-0,0}
+                        com.meizu.flyme.launcher.WidgetIconView{30111778 V.ED.... ......I. 0,0-0,0 #7f1000a7 app:id/widget_view}
+                        android.widget.ImageView{1cece6b6 V.ED.... ......I. 0,0-0,0 #7f1000a8 app:id/widget_icon}
+                      android.widget.TextView{25eddfb7 V.ED.... ......ID 0,0-0,0 #7f1000a9 app:id/widget_text}
+                    android.widget.Space{1efc3324 I.ED.... ......I. 0,0-0,0}
+                    android.widget.LinearLayout{3aceee8d V.E...C. ......I. 0,0-0,0 #7f1000aa app:id/wallpaper_button}
+                      android.widget.FrameLayout{24d8b842 V.E..... ......I. 0,0-0,0}
+                        com.meizu.flyme.launcher.WallpaperIconView{3d76c053 V.ED.... ......I. 0,0-0,0 #7f1000ab app:id/smartwallpaper_view}
+                        android.widget.ImageView{13c8e689 V.ED.... ......I. 0,0-0,0 #7f1000ac app:id/wallpaper_icon}
+                      android.widget.TextView{39be168e V.ED.... ......ID 0,0-0,0 #7f1000ad app:id/wallpaper_text}
+                  android.widget.LinearLayout{a30eaf V.E..... ......I. 0,0-0,0}
+                    android.widget.TextView{3e40c2bc G.ED..C. ......I. 0,0-0,0 #7f1000ae app:id/top_button}
+                    android.widget.Space{16506245 I.ED.... ......I. 0,0-0,0}
+                    android.widget.TextView{4890d9a G.ED..C. ......I. 0,0-0,0 #7f1000af app:id/bottom_button}
+                com.meizu.flyme.launcher.PageIndicator{31b54ea8 G.E..... ......I. 0,0-0,0 #7f100058 app:id/page_indicator}
+                com.meizu.flyme.launcher.MzIconPageIndicator{2619ddc1 VFED.... ........ 465,1560-615,1620 #7f10007e app:id/icon_page_indicator}
+                  android.widget.LinearLayout{1eda6966 V.E..... ........ 0,0-150,60}
+                    com.meizu.flyme.launcher.MzIconPageIndicator$a{120349d1 V.E...C. ........ 0,0-75,60}
+                      android.view.View{148a4c36 V.ED.... ........ 8,0-68,60}
+                      android.widget.ImageView{9df1737 V.ED.... ........ 8,0-68,60}
+                    com.meizu.flyme.launcher.MzIconPageIndicator$a{ca6f5c2 V.E...C. ........ 75,0-150,60}
+                      android.view.View{1803efd3 V.ED.... ........ 8,0-68,60}
+                      android.widget.ImageView{3cf19710 V.ED.... ..S..... 8,0-68,60}
+                com.meizu.flyme.launcher.SearchDropTargetBar{13a594fd V.E..... ........ 0,-11-1080,94 #7f10007f app:id/qsb_bar}
+                  android.widget.LinearLayout{993b5f2 V.E..... ........ 0,0-1080,105 #7f1000c1 app:id/drag_target_bar}
+                    android.widget.FrameLayout{24094ac0 V.E..... ........ 0,0-540,105}
+                      com.meizu.flyme.launcher.DeleteDropTarget{3d3b83f9 V.ED.... ........ 0,0-540,105 #7f100068 app:id/delete_target_text}
+                    android.widget.FrameLayout{233f3e V.E..... ........ 540,0-1080,105}
+                      com.meizu.flyme.launcher.InfoDropTarget{343b019f V.ED.... ........ 0,0-540,105 #7f100069 app:id/info_target_text}
+                  android.widget.RelativeLayout{3df397ba G.E..... ......I. 0,0-0,0}
+                    com.meizu.flyme.launcher.HolographicLinearLayout{2cce766b VFED..C. ......I. 0,0-0,0 #7f1000c4 app:id/search_button_container}
+                      android.widget.ImageView{3dbf35c8 V.ED.... ......I. 0,0-0,0 #7f100046 app:id/search_button}
+                    com.meizu.flyme.launcher.HolographicLinearLayout{2d7d0661 VFED..C. ......I. 0,0-0,0 #7f1000c5 app:id/voice_button_container}
+                      android.widget.ImageView{6337586 V.ED.... ......I. 0,0-0,0 #7f100085 app:id/voice_button}
+                com.meizu.flyme.launcher.ScrimView{179852ec G.E..... ......I. 0,0-0,0 #7f100080 app:id/cling_scrim}
+                com.meizu.flyme.launcher.Cling{3490114a G.E...C. ......I. 0,0-0,0 #7f100081 app:id/first_run_cling}
+                  android.widget.FrameLayout{2fd818bb V.E..... ......I. 0,0-0,0 #7f10006c app:id/content}
+                    android.widget.LinearLayout{122db1d8 V.E..... ......I. 0,0-0,0 #7f10006d app:id/bubble_content}
+                      android.widget.TextView{eb4b931 V.ED.... ......ID 0,0-0,0}
+                      android.widget.TextView{45f816 V.ED.... ......ID 0,0-0,0}
+                    android.widget.TextView{26658597 G.ED.... ......I. 0,0-0,0 #7f10006e app:id/search_bar_hint}
+                    android.widget.TextView{31b81384 G.ED.... ......I. 0,0-0,0 #7f10006f app:id/custom_content_hint}
+                    android.widget.TextView{1d6ab76d V.ED.... ......I. 0,0-0,0}
+                  android.widget.Button{15a17fa2 VFED..C. ......I. 0,0-0,0}
+                com.meizu.flyme.launcher.Cling{3e3bf3ee G.E...C. ......I. 0,0-0,0 #7f100082 app:id/workspace_cling}
+                  android.widget.FrameLayout{1bed908f V.E..... ......I. 0,0-0,0 #7f10006c app:id/content}
+                    android.widget.LinearLayout{23cc4f1c V.E..... ......I. 0,0-0,0}
+                      android.widget.LinearLayout{9c06725 V.E..... ......I. 0,0-0,0}
+                        android.widget.TextView{31f760fa V.ED.... ......ID 0,0-0,0}
+                        android.widget.TextView{213ca6ab V.ED.... ......ID 0,0-0,0}
+                      android.widget.ImageView{34dd4108 V.ED.... ......I. 0,0-0,0}
+                    android.widget.LinearLayout{3550a1 G.E..... ......I. 0,0-0,0 #7f1000f9 app:id/focused_hotseat_app_bubble}
+                      android.widget.LinearLayout{12ca92c6 V.E..... ......I. 0,0-0,0}
+                        android.widget.TextView{41d0287 V.ED.... ......ID 0,0-0,0 #7f1000fa app:id/focused_hotseat_app_title}
+                        android.widget.TextView{128965b4 V.ED.... ......ID 0,0-0,0 #7f1000fb app:id/focused_hotseat_app_description}
+                      android.widget.ImageView{1eb555dd V.ED.... ......I. 0,0-0,0}
+                  android.widget.Button{194d1552 VFED..C. ......I. 0,0-0,0}
+                com.meizu.flyme.launcher.Cling{35312920 G.E...C. ......I. 0,0-0,0 #7f100083 app:id/folder_cling}
+                  android.widget.FrameLayout{f3672d9 V.E..... ......I. 0,0-0,0}
+                    android.widget.LinearLayout{3e03349e V.E..... ......I. 0,0-0,0}
+                      android.widget.LinearLayout{3199bb7f V.E..... ......I. 0,0-0,0}
+                        android.widget.TextView{38cfb74c V.ED.... ......ID 0,0-0,0 #7f100070 app:id/folder_cling_title}
+                        android.widget.TextView{b126395 V.ED.... ......ID 0,0-0,0 #7f100071 app:id/folder_cling_create_folder}
+                      android.widget.ImageView{2b69fcaa V.ED.... ......I. 0,0-0,0}
+                  android.widget.Button{1c98909b VFED..C. ......I. 0,0-0,0 #7f100052 app:id/cling_dismiss}
+                com.meizu.flyme.launcher.DrawableStateProxyView{1be6fc38 G.E...C. ......I. 0,0-0,0 #7f100084 app:id/voice_button_proxy}
+                com.meizu.flyme.launcher.AppsCustomizeTabHost{4c33976 GFE..... ......I. 0,0-0,0 #7f100086 app:id/apps_customize_pane}
+                  android.widget.LinearLayout{29e59b77 G.E..... ......I. 0,0-0,0 #7f100054 app:id/apps_customize_content}
+                    android.widget.FrameLayout{12ba3e4 G.E..... ......I. 0,0-0,0 #7f100055 app:id/tabs_container}
+                      com.meizu.flyme.launcher.FocusOnlyTabWidget{31dc704d VFE..... ......I. 0,0-0,0 #1020013 android:id/tabs}
+                        com.meizu.flyme.launcher.AccessibleTabView{182de368 VFED..C. ..S...I. 0,0-0,0}
+                        com.meizu.flyme.launcher.AccessibleTabView{1143b381 VFED..C. ......I. 0,0-0,0}
+                      android.widget.TextView{d8e7813 VFED..C. ......I. 0,0-0,0 #7f100056 app:id/market_button}
+                    android.widget.FrameLayout{1ff11a50 V.E..... ......I. 0,0-0,0 #1020011 android:id/tabcontent}
+                      com.meizu.flyme.launcher.AppsCustomizePagedView{398cc449 V.E..... ......I. 0,0-0,0 #7f100057 app:id/apps_customize_pane_content}
+                      android.widget.FrameLayout{f558b7c G.E..... ......ID 0,0-0,0 #7f100059 app:id/animation_buffer}
+                      com.meizu.flyme.launcher.PageIndicator{1052e45a V.E..... ......I. 0,0-0,0 #7f100058 app:id/page_indicator}
+                com.meizu.flyme.launcher.MzArrangeIconsPreview{3c3e5067 I.E..... ......I. 0,1542-1080,1920 #7f100087 app:id/arrange_preview_workspace}
+                  android.widget.ImageView{39b1ce14 I.ED.... ......I. 0,342-1080,351 #7f10005e app:id/scroll_divider}
+                  android.widget.ImageView{34f706bd I.ED.... ......ID 0,342-1080,351 #7f10005f app:id/paged_view_indicator}
+                  com.meizu.flyme.launcher.PreviewWorkspace{469a4b2 I.E..... ......I. 0,0-1080,318 #7f100060 app:id/preview_workspace}
+                  com.meizu.flyme.launcher.ScrollIndicatorDropTarget{24d58c03 I.ED.... ......I. 0,318-1080,378 #7f100061 app:id/scroll_indicator_drop_target}
+                com.meizu.flyme.launcher.MzWidgetGroupView{59251b9 I.E..... ......ID 0,1533-1080,1920 #7f100088 app:id/widget_group}
+                  android.widget.ImageView{224959fe I.ED.... ......I. 0,351-1080,360 #7f10005e app:id/scroll_divider}
+                  android.widget.ImageView{b1ae55f I.ED.... ......ID 0,351-1080,360 #7f10005f app:id/paged_view_indicator}
+                  com.meizu.flyme.launcher.PreviewWidget{32d0cbac V.E..... ......ID 0,0-1080,336 #7f1000f4 app:id/widget_preview_content}
+                com.meizu.flyme.launcher.MzSmartWallpaper{dd180a I.E..... ......I. 0,1542-1080,1920 #7f100089 app:id/mz_wallpaper}
+                  android.widget.ImageView{1d32787b I.ED.... ......I. 0,342-1080,351 #7f10005e app:id/scroll_divider}
+                  android.widget.ImageView{3954f698 I.ED.... ......ID 0,342-1080,351 #7f10005f app:id/paged_view_indicator}
+                  com.meizu.flyme.launcher.PreviewWallpaper{1ddf7ef1 I.E..... ......I. 0,0-1080,318 #7f1000ce app:id/preview_wallpaper}
+                com.meizu.flyme.launcher.MzNfcShareDropTarget{3d662157 G.E..... ......I. 0,0-0,0 #7f10008a app:id/nfc_share_drop_target}
+                  android.widget.ImageView{22eee444 V.ED.... ......I. 0,0-0,0}
+              android.view.View{39dc192d G.ED..C. ......I. 0,0-0,0 #7f10008b app:id/mask}
+              com.meizu.flyme.launcher.UninstallLayout{3ec17bf3 I.E..... ......ID 0,0-1080,216 #7f10008c app:id/uninstall_layout}
+                android.widget.ImageView{3d1800b0 I.ED.... ......I. 75,30-231,186 #7f1000cf app:id/uninstall_icon}
+                android.widget.LinearLayout{b8e1b29 V.E..... ......ID 0,36-840,179}
+                  android.widget.TextView{227e3eae V.ED.... ......ID 270,9-840,74 #7f1000d0 app:id/uninstall_appname}
+                  android.widget.TextView{f6de44f V.ED.... ......ID 270,74-840,143 #7f1000d1 app:id/uninstall_datainfo}
+                android.widget.Button{317477dc VFED..C. ......ID 834,72-1014,144 #7f1000d2 app:id/ok_button}
+    Looper (main, tid 1) {22f1a3d2}
+      (Total messages: 0, idling=false, quitting=false)
+ 
+Debug logs: 
+[dumpsys: 0.101s elapsed]
+
+========================================================
+== Running Application Services
+========================================================

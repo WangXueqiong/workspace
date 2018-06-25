@@ -1,0 +1,526 @@
+9,0,i,vers,15,132,HEXCNFN5902606111S,HEXCNFN5902606111S
+9,hsp,0,10134,"com.tencent.mm"
+9,hsp,1,10140,"com.tianyancha.skyeye"
+9,hsp,2,0,"0"
+9,h,0:RESET:TIME:1514106180427
+9,h,0,Bl=100,Bs=d,Bh=g,Bp=n,Bt=320,Bv=4384,+r,+w,+Wr,+S,Pst=off,Pss=4,Sb=1,+Ww,+W,Wss=3,Wsp=compl,Efg=0
+9,h,0,Etp=1
+9,h,0,Eur=2
+9,h,0,Euf=2
+9,h,360,Bs=c
+9,h,565,Bs=f,Bp=u,+BP
+9,0,i,uid,1000,com.mediatek.ppl
+9,0,i,uid,1000,com.huaqin.runtime
+9,0,i,uid,1000,com.leeco.regservice
+9,0,i,uid,1000,com.goodix.fingerprint
+9,0,i,uid,1000,com.letv.android.theme
+9,0,i,uid,1000,com.eui.sdk.appupgrade
+9,0,i,uid,1000,com.letv.android.hawk
+9,0,i,uid,1000,com.letv.android.euitransfer.appdata
+9,0,i,uid,1000,android
+9,0,i,uid,1000,com.mediatek.connectivity
+9,0,i,uid,1000,com.singulariti.niapp
+9,0,i,uid,1000,com.letv.android.systemreport
+9,0,i,uid,1000,com.android.providers.settings
+9,0,i,uid,1000,com.mediatek.batterywarning
+9,0,i,uid,1000,com.android.inputdevices
+9,0,i,uid,1000,com.mediatek
+9,0,i,uid,1000,com.mediatek.nlpservice
+9,0,i,uid,1000,com.android.server.telecom
+9,0,i,uid,1000,com.android.keychain
+9,0,i,uid,1000,com.dsi.ant.server
+9,0,i,uid,1000,com.letv.android.monitor
+9,0,i,uid,1000,com.mediatek.atci.service
+9,0,i,uid,1000,com.hq.lcdtest
+9,0,i,uid,1000,com.letv.android.DebugUtils
+9,0,i,uid,1000,com.mediatek.thermalmanager
+9,0,i,uid,1000,com.dolby
+9,0,i,uid,1000,com.hq.tptest
+9,0,i,uid,1000,com.android.settings
+9,0,i,uid,1000,com.huaqin.factoryservice
+9,0,i,uid,1000,com.letv.bsp.crashhandler
+9,0,i,uid,1000,com.android.location.fused
+9,0,i,uid,1000,com.hq.cameratest
+9,0,i,uid,1001,com.mediatek.gba
+9,0,i,uid,1001,com.mediatek.ims
+9,0,i,uid,1001,com.mediatek.selfregister
+9,0,i,uid,1001,com.android.providers.telephony
+9,0,i,uid,1001,com.softsim.control
+9,0,i,uid,1001,com.mediatek.ygps
+9,0,i,uid,1001,com.android.mms.service
+9,0,i,uid,1001,com.mediatek.engineermode
+9,0,i,uid,1001,com.android.vendors.bridge.softsim
+9,0,i,uid,1001,com.android.stk
+9,0,i,uid,1001,com.mediatek.hetcomm
+9,0,i,uid,1001,com.mediatek.deviceregister
+9,0,i,uid,1001,com.mediatek.esntrack
+9,0,i,uid,1001,com.mtk.telephony
+9,0,i,uid,1001,com.android.phone
+9,0,i,uid,1001,com.hqfactory.factory
+9,0,i,uid,2000,com.letv.bugpostbox
+9,0,i,uid,2000,com.android.shell
+9,0,i,uid,10002,com.android.providers.calendar
+9,0,i,uid,10003,com.android.providers.applications
+9,0,i,uid,10003,com.android.contacts
+9,0,i,uid,10003,com.android.providers.calllogbackup
+9,0,i,uid,10003,com.android.providers.userdictionary
+9,0,i,uid,10003,com.android.providers.contacts
+9,0,i,uid,10005,com.android.defcontainer
+9,0,i,uid,10006,com.android.dialer
+9,0,i,uid,10007,com.android.providers.media
+9,0,i,uid,10007,com.android.providers.downloads
+9,0,i,uid,10007,com.android.providers.downloads.ui
+9,0,i,uid,10008,com.android.externalstorage
+9,0,i,uid,10010,com.android.launcher3
+9,0,i,uid,10011,com.letv.domain
+9,0,i,uid,10012,com.letv.android.freeflow
+9,0,i,uid,10013,com.letv.walletbiz
+9,0,i,uid,10013,com.letv.wallet
+9,0,i,uid,10014,com.stv.stvpush
+9,0,i,uid,10016,com.android.cellbroadcastreceiver
+9,0,i,uid,10018,com.letv.android.ecoProvider
+9,0,i,uid,10020,com.android.mms
+9,0,i,uid,10021,com.letv.android.note
+9,0,i,uid,10022,com.letv.android.powercontroller
+9,0,i,uid,10022,com.letv.android.privacydata
+9,0,i,uid,10022,com.letv.android.phonecontrol
+9,0,i,uid,10023,com.letv.roaming
+9,0,i,uid,10026,com.letv.android.supermanager
+9,0,i,uid,10032,com.android.managedprovisioning
+9,0,i,uid,10033,com.android.onetimeinitializer
+9,0,i,uid,10038,com.android.systemui
+9,0,i,uid,10046,com.android.browser
+9,0,i,uid,10051,com.android.deskclock
+9,0,i,uid,10052,se.dirac.acs
+9,0,i,uid,10053,com.android.documentsui
+9,0,i,uid,10054,com.mediatek.providers.drm
+9,0,i,uid,10055,se.dirac.examples.effectservice
+9,0,i,uid,10056,com.android.email
+9,0,i,uid,10057,com.android.exchange
+9,0,i,uid,10061,com.android.inputmethod.latin
+9,0,i,uid,10069,com.letv.android.accountinfo
+9,0,i,uid,10070,com.letv.android.backup
+9,0,i,uid,10070,com.letv.android.backupclient
+9,0,i,uid,10070,com.letv.android.cloudservice
+9,0,i,uid,10071,com.letv.android.bugreporter
+9,0,i,uid,10072,com.android.calendar
+9,0,i,uid,10076,com.letv.android.filemanager
+9,0,i,uid,10079,com.letv.gallery3d.syncservice
+9,0,i,uid,10080,com.android.music
+9,0,i,uid,10081,com.letv.android.ota
+9,0,i,uid,10082,com.letv.android.personalized
+9,0,i,uid,10085,com.letv.android.letvsafe
+9,0,i,uid,10086,com.letv.leui.schpwronoff
+9,0,i,uid,10088,com.letv.app.appstore
+9,0,i,uid,10089,com.letv.android.themesettings
+9,0,i,uid,10090,com.letv.android.themestore
+9,0,i,uid,10091,com.letv.android.usagestats
+9,0,i,uid,10094,com.letv.android.wallpaperonline
+9,0,i,uid,10099,com.mediatek.mtklogger
+9,0,i,uid,10100,com.mediatek.floatmenu
+9,0,i,uid,10102,com.tencent.android.location
+9,0,i,uid,10104,com.mediatek.omacp
+9,0,i,uid,10107,com.svox.pico
+9,0,i,uid,10108,com.android.printspooler
+9,0,i,uid,10111,com.sohu.inputmethod.sogou.leshi
+9,0,i,uid,10113,com.android.VRAdmin
+9,0,i,uid,10114,com.icoolme.android.weather
+9,0,i,uid,10115,com.letv.agnes
+9,0,i,uid,10119,com.letv.android.mobileactivation
+9,0,i,uid,10121,com.letv.android.quicksearchbox
+9,0,i,uid,10131,com.koushikdutta.vysor
+9,0,i,uid,10134,com.tencent.mm
+9,0,i,uid,10140,com.tianyancha.skyeye
+9,0,l,bt,0,925,925,1188174,1188174,1514106180391,0,0
+9,0,l,gn,0,0,1601,1286,0,0,11,12
+9,0,l,gwfl,925,925,0,0,0,0
+9,0,l,gble,0,0,0,0
+9,0,l,m,925,0,0,0,0,0,925,0,2,0,0,0,0,0,0
+9,0,l,br,0,925,0,0,0
+9,0,l,sgt,0,0,0,0,0
+9,0,l,sst,0
+9,0,l,sgc,0,0,0,0,0
+9,0,l,dct,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+9,0,l,dcc,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+9,0,l,wst,0,0,0,0,0,0,0,0
+9,0,l,wsc,0,0,0,0,0,0,0,0
+9,0,l,wsst,0,0,0,0,0,0,0,0,0,0,925,0,0
+9,0,l,wssc,0,0,0,0,0,0,0,0,0,0,1,0,0
+9,0,l,wsgt,0,0,0,925,0
+9,0,l,wsgc,0,0,0,0,0
+9,0,l,dc,0,0,0,0
+9,0,l,kwl,event1      ,0,0
+9,0,l,kwl,ccci_sys    ,0,0
+9,0,l,kwl,ccci_ipc_7  ,0,0
+9,0,l,kwl,ccci_ioctl2 ,0,0
+9,0,l,kwl,EINT wakelock,0,0
+9,0,l,kwl,ccci3_lb_it ,0,0
+9,0,l,kwl,ccci_ipc_5  ,0,0
+9,0,l,kwl,battery suspend wakelock,0,0
+9,0,l,kwl,ccci3_ioctl4,0,0
+9,0,l,kwl,Offload wakelock,0,0
+9,0,l,kwl,ccci_ioctl3 ,0,0
+9,0,l,kwl,pmicThread_lock_mt6328 wakelock,0,0
+9,0,l,kwl,ttyC0       ,0,0
+9,0,l,kwl,wireless    ,0,0
+9,0,l,kwl,soc:typec_common@0,0,0
+9,0,l,kwl,ccci3_at3   ,0,0
+9,0,l,kwl,rawbulk-modem,0,0
+9,0,l,kwl,rawbulk-at  ,0,0
+9,0,l,kwl,ccci_rpc_k  ,0,0
+9,0,l,kwl,ccci_fs     ,0,0
+9,0,l,kwl,rawbulk-ets ,0,0
+9,0,l,kwl,ccci_ipc_6  ,0,0
+9,0,l,kwl,rawbulk-pcv ,0,0
+9,0,l,kwl,scp wakelock,0,0
+9,0,l,kwl,ccci_aud    ,0,0
+9,0,l,kwl,ccci3_at2   ,0,0
+9,0,l,kwl,ttyC3       ,0,0
+9,0,l,kwl,accdet wakelock,0,0
+9,0,l,kwl,MT662x      ,0,0
+9,0,l,kwl,call_pcm_dump_wake_lock,0,0
+9,0,l,kwl,ccmni0      ,0,0
+9,0,l,kwl,ccci3_ioctl3,0,0
+9,0,l,kwl,ccci_it     ,0,0
+9,0,l,kwl,ccci_rpc    ,0,0
+9,0,l,kwl,rawbulk-dummy2,0,0
+9,0,l,kwl,WLAN hif_thread,0,0
+9,0,l,kwl,WLAN timeout,0,0
+9,0,l,kwl,ccmni4      ,0,0
+9,0,l,kwl,KeyEvents   ,0,0
+9,0,l,kwl,event17     ,0,0
+9,0,l,kwl,alarmtimer  ,0,0
+9,0,l,kwl,ccci3_fs    ,0,0
+9,0,l,kwl,ccci_ctrl   ,0,0
+9,0,l,kwl,ccci_imsc   ,0,0
+9,0,l,kwl,vibrator    ,0,0
+9,0,l,kwl,ccmni2      ,0,0
+9,0,l,kwl,battery meter wakelock,0,0
+9,0,l,kwl,ccci_lb_it  ,0,0
+9,0,l,kwl,xhci.wakelock,0,0
+9,0,l,kwl,gpswakelock ,0,0
+9,0,l,kwl,ccci3_ctrl  ,0,0
+9,0,l,kwl,WLAN rx_thread,0,0
+9,0,l,kwl,ccci3_monitor,0,0
+9,0,l,kwl,alarm       ,0,0
+9,0,l,kwl,ac          ,0,0
+9,0,l,kwl,battery     ,0,0
+9,0,l,kwl,ccci3_tty2  ,0,0
+9,0,l,kwl,bat_percent_notify_lock wakelock,0,0
+9,0,l,kwl,rawbulk-gps ,0,0
+9,0,l,kwl,ccci_ioctl0 ,0,0
+9,0,l,kwl,ccmni-lan   ,0,0
+9,0,l,kwl,ccci_ipc_2  ,0,0
+9,0,l,kwl,event0      ,0,0
+9,0,l,kwl,ccci3_poll  ,0,0
+9,0,l,kwl,ccci3_ioctl1,0,0
+9,0,l,kwl,PowerManagerService.Display,0,0
+9,0,l,kwl,ttyC1       ,0,0
+9,0,l,kwl,ccci_ccb_dhl,0,0
+9,0,l,kwl,md3_ccif_trm,0,0
+9,0,l,kwl,bq25890h    ,0,0
+9,0,l,kwl,leds wakelock,0,0
+9,0,l,kwl,usb         ,0,0
+9,0,l,kwl,ccci3_aud   ,0,0
+9,0,l,kwl,ccmni_md3   ,0,0
+9,0,l,kwl,ccci_ipc_1220_0,0,0
+9,0,l,kwl,ccmni3      ,0,0
+9,0,l,kwl,ccci_imsa   ,0,0
+9,0,l,kwl,NETLINK     ,0,0
+9,0,l,kwl,cc3mni0     ,0,0
+9,0,l,kwl,ccci3_tty1  ,0,0
+9,0,l,kwl,md1_wakelock,0,0
+9,0,l,kwl,pmicAuxadc irq wakelock,0,0
+9,0,l,kwl,ccci3_md_log_ctrl,0,0
+9,0,l,kwl,eventpoll   ,0,0
+9,0,l,kwl,ccci_ipc_4  ,0,0
+9,0,l,kwl,ccmni7      ,0,0
+9,0,l,kwl,PowerManagerService.WakeLocks,0,0
+9,0,l,kwl,md1_cldma_peer,0,0
+9,0,l,kwl,ccci3_data  ,0,0
+9,0,l,kwl,USB.lock    ,0,0
+9,0,l,kwl,mt-rtc      ,0,0
+9,0,l,kwl,WLAN interrupt,0,0
+9,0,l,kwl,ccci3_at4   ,0,0
+9,0,l,kwl,cc3mni2     ,0,0
+9,0,l,kwl,ccci_monitor,0,0
+9,0,l,kwl,SensorService_wakelock,0,0
+9,0,l,kwl,ccci_ipc_8  ,0,0
+9,0,l,kwl,ccci_imsv   ,0,0
+9,0,l,kwl,wmtFuncCtrl ,0,0
+9,0,l,kwl,ccci_ioctl1 ,0,0
+9,0,l,kwl,ccci_raw_dbm,0,0
+9,0,l,kwl,ccmni5      ,0,0
+9,0,l,kwl,ccci3_it    ,0,0
+9,0,l,kwl,rawbulk-dummy0,0,0
+9,0,l,kwl,ccci3_lb_dl ,0,0
+9,0,l,kwl,ccci_raw_netd,0,0
+9,0,l,kwl,accdet timer wakelock,0,0
+9,0,l,kwl,dlpt_notify_lock wakelock,0,0
+9,0,l,kwl,ccci_poll   ,0,0
+9,0,l,kwl,ttyC2       ,0,0
+9,0,l,kwl,ccci_raw_usb,0,0
+9,0,l,kwl,rawbulk-dummy1,0,0
+9,0,l,kwl,ccci3_at    ,0,0
+9,0,l,kwl,binder      ,0,0
+9,0,l,kwl,md1_cldma_trm,0,0
+9,0,l,kwl,ccci_imsdc  ,0,0
+9,0,l,kwl,ccci_ipc_3  ,0,0
+9,0,l,kwl,spi_wakelock,0,0
+9,0,l,kwl,ccci3_ioctl0,0,0
+9,0,l,kwl,WLAN tx_thread,0,0
+9,0,l,kwl,event18     ,0,0
+9,0,l,kwl,ccci_ioctl4 ,0,0
+9,0,l,kwl,ccmni6      ,0,0
+9,0,l,kwl,dpe_lock_wakelock,0,0
+9,0,l,kwl,event2      ,0,0
+9,0,l,kwl,[timerfd]   ,0,0
+9,0,l,kwl,accdet key wakelock,0,0
+9,0,l,kwl,accdet irq wakelock,0,0
+9,0,l,kwl,cc3mni1     ,0,0
+9,0,l,kwl,isp_lock_wakelock,0,0
+9,0,l,kwl,ccmni_md1   ,0,0
+9,0,l,kwl,ccci3_ioctl2,0,0
+9,0,l,kwl,ccmni1      ,0,0
+9,0,l,kwl,PowerManagerService.Broadcasts,0,0
+9,0,l,kwl,ccci_md_log_ctrl,0,0
+9,0,l,kwl,ccci_raw_dhl,0,0
+9,0,l,kwl,WLAN Timer  ,0,0
+9,0,l,kwl,kpd wakelock,0,0
+9,0,l,kwl,ccci_mdl_monitor,0,0
+9,0,l,pws,3000,0.0695,0,0
+9,0,l,pwi,scrn,0.0442
+9,10140,l,pwi,uid,0.00813
+9,1000,l,pwi,uid,0.00538
+9,0,l,pwi,uid,0.00493
+9,10114,l,pwi,uid,0.00470
+9,1036,l,pwi,uid,0.000573
+9,1001,l,pwi,uid,0.000469
+9,10022,l,pwi,uid,0.000469
+9,10038,l,pwi,uid,0.000234
+9,10134,l,pwi,uid,0.000128
+9,1013,l,pwi,uid,0.000117
+9,10131,l,pwi,uid,0.0000802
+9,0,l,pwi,wifi,0.0000514
+9,0,l,nt,0,0,910,198,0,0,7,4,0,0
+9,0,l,cpu,0,430,0
+9,0,l,pr,kworker/u21:2,0,2730,0,0,0,0
+9,0,l,pr,kworker/u21:0,0,4600,0,0,0,0
+9,0,l,pr,kworker/u20:5,0,1530,0,0,0,0
+9,0,l,pr,kworker/u20:3,0,740,0,0,0,0
+9,0,l,pr,kworker/u20:1,0,630,0,0,0,0
+9,0,l,pr,kworker/u20:0,0,1200,0,0,0,0
+9,0,l,pr,btif_rxd,0,50,0,0,0,0
+9,0,l,pr,kworker/4:1H,0,10,0,0,0,0
+9,0,l,pr,kworker/0:1H,0,10,0,0,0,0
+9,0,l,pr,display_check_a,0,160,0,0,0,0
+9,0,l,pr,bat_routine_thr,0,90,0,0,0,0
+9,0,l,pr,migration/9,0,20,0,0,0,0
+9,0,l,pr,migration/8,0,30,0,0,0,0
+9,0,l,pr,migration/7,0,10,0,0,0,0
+9,0,l,pr,migration/6,0,30,0,0,0,0
+9,0,l,pr,migration/5,0,50,0,0,0,0
+9,0,l,pr,migration/4,0,50,0,0,0,0
+9,0,l,pr,migration/0,0,70,0,0,0,0
+9,0,l,pr,wpa_supplicant,70,170,0,0,0,0
+9,0,l,pr,ksoftirqd/9,0,10,0,0,0,0
+9,0,l,pr,ksoftirqd/8,0,10,0,0,0,0
+9,0,l,pr,ksoftirqd/5,0,100,0,0,0,0
+9,0,l,pr,ksoftirqd/4,0,190,0,0,0,0
+9,0,l,pr,ksoftirqd/0,0,10,0,0,0,0
+9,0,l,pr,mtkrild,40,80,0,0,0,0
+9,0,l,pr,tx_thread,0,350,0,0,0,0
+9,0,l,pr,mmcqd/0,0,890,0,0,0,0
+9,0,l,pr,dlpt_notify_thr,0,20,0,0,0,0
+9,0,l,pr,healthd,0,10,0,0,0,0
+9,0,l,pr,rx_thread,0,560,0,0,0,0
+9,0,l,pr,kworker/6:1,0,10,0,0,0,0
+9,0,l,pr,kworker/5:0,0,360,0,0,0,0
+9,0,l,pr,kworker/4:3,0,590,0,0,0,0
+9,0,l,pr,kworker/4:2,0,670,0,0,0,0
+9,0,l,pr,kworker/0:3,0,50,0,0,0,0
+9,0,l,pr,hps_main,0,2150,0,0,0,0
+9,0,l,pr,disp_delay_trig,0,20,0,0,0,0
+9,0,l,pr,viarild,20,30,0,0,0,0
+9,0,l,pr,rcu_sched,0,20,0,0,0,0
+9,0,l,pr,rcu_preempt,0,1290,0,0,0,0
+9,0,l,pr,netd,20,90,0,0,0,0
+9,0,l,pr,logd,10070,5910,0,0,0,0
+9,0,l,pr,lmkd,0,50,0,0,0,0
+9,0,l,pr,adbd,1550,7010,0,0,0,0
+9,0,l,pr,pbm,0,280,0,0,0,0
+9,0,l,pr,jbd2/mmcblk0p38,0,90,0,0,0,0
+9,0,l,pr,gsm0710muxd,20,0,0,0,0,0
+9,0,l,pr,kswapd0,0,80,0,0,0,0
+9,0,l,pr,ueventd,0,10,0,0,0,0
+9,0,l,pr,hang_detect,0,10,0,0,0,0
+9,0,l,pr,hif_thread,0,700,0,0,0,0
+9,0,l,pr,wdtk-5,0,10,0,0,0,0
+9,0,l,pr,wdtk-0,0,10,0,0,0,0
+9,0,l,pr,sdcard,0,20,0,0,0,0
+9,0,l,pr,krtatm,0,130,0,0,0,0
+9,0,l,pr,cfinteractive,0,810,0,0,0,0
+9,0,l,pr,volte_stack,20,70,0,0,0,0
+9,0,l,pr,disp_check,0,80,0,0,0,0
+9,0,l,pr,rilproxy,30,30,0,0,0,0
+9,0,l,pr,decouple_update,0,1910,0,0,0,0
+9,0,l,pr,present_fence_w,0,930,0,0,0,0
+9,0,l,pr,disp_idlemgr,0,160,0,0,0,0
+9,0,l,pr,pmic_thread,0,10,0,0,0,0
+9,0,l,pr,volte_ua,20,50,0,0,0,0
+9,0,l,pr,ion_mm_heap,0,360,0,0,0,0
+9,1000,l,wl,*alarm*,0,f,0,0,p,0,0,w,0
+9,1000,l,wl,DHCP_WAKELOCK,0,f,0,0,p,0,0,w,0
+9,1000,l,wl,NetworkStats,0,f,0,0,p,0,0,w,0
+9,1000,l,wl,GpsLocationProvider,0,f,0,0,p,0,0,w,0
+9,1000,l,wl,ConnectivityService,0,f,0,0,p,0,0,w,0
+9,1000,l,wl,WifiStateMachine,0,f,0,0,p,0,0,w,0
+9,1000,l,st,925,925,925
+9,1000,l,cpu,260,210,0
+9,1000,l,pr,volte_imcb,0,40,0,0,0,0
+9,1000,l,pr,servicemanager,3280,4860,0,0,0,0
+9,1000,l,pr,com.android.settings,10,30,0,0,0,0
+9,1000,l,pr,com.mediatek.atci.service,70,20,0,0,0,0
+9,1000,l,pr,thermalloadalgod,10,60,0,0,0,0
+9,1000,l,pr,aal,910,1170,0,0,0,0
+9,1000,l,pr,ged_srv,50,130,0,0,0,0
+9,1000,l,pr,gas_srv,110,160,0,0,0,0
+9,1000,l,pr,surfaceflinger,37320,43530,0,0,0,0
+9,1000,l,pr,vtservice,0,10,0,0,0,0
+9,1000,l,pr,system,9640,6880,0,0,0,0
+9,1000,l,pr,thermal,0,70,0,0,0,0
+9,1000,l,pr,com.letv.android.hawk,20,20,0,0,0,0
+9,1000,l,pr,6620_launcher,0,10,0,0,0,0
+9,1001,l,wl,RILJ,0,f,0,0,p,-1,0,w,0
+9,1001,l,st,925,925,925
+9,1001,l,cpu,30,10,0
+9,1001,l,pr,com.android.phone,580,270,0,0,0,0
+9,1013,l,wl,AudioMix,0,f,0,0,p,0,0,w,0
+9,1013,l,cpu,0,10,0
+9,1013,l,pr,mediaserver,15230,19970,0,0,0,0
+9,1021,l,pr,mtk_agpsd,30,200,0,0,0,0
+9,1036,l,cpu,30,20,0
+9,2000,l,st,925,925,925
+9,2000,l,pr,app_process32,18290,12560,0,0,0,0
+9,2000,l,pr,batterywarning,0,10,0,0,0,0
+9,10002,l,st,925,925,925
+9,10003,l,st,925,925,925
+9,10005,l,st,925,925,925
+9,10006,l,st,925,925,925
+9,10007,l,st,0,925,925
+9,10007,l,pr,android.process.media,30,10,0,0,0,0
+9,10007,l,apk,0,com.android.providers.media,com.android.providers.media.MtpService,0,1,1
+9,10008,l,st,925,925,925
+9,10010,l,wl,*launch*,0,f,0,0,p,0,0,w,0
+9,10010,l,st,925,925,925
+9,10010,l,pr,com.android.launcher3,410,330,0,0,0,0
+9,10011,l,st,0,0,925
+9,10012,l,st,925,925,925
+9,10013,l,st,925,925,925
+9,10014,l,wl,*alarm*,0,f,0,0,p,0,0,w,0
+9,10014,l,wl,wake:com.stv.stvpush/.service.CommonService,0,f,0,0,p,0,0,w,0
+9,10014,l,st,0,925,925
+9,10014,l,pr,com.stv.stvpush,10,30,0,0,0,0
+9,10016,l,st,925,925,925
+9,10018,l,st,0,0,925
+9,10020,l,st,0,925,925
+9,10020,l,pr,com.android.mms,20,10,0,0,0,0
+9,10021,l,st,0,0,925
+9,10022,l,wl,*alarm*,0,f,0,0,p,0,0,w,0
+9,10022,l,wl,CHECK_BG_APP,0,f,0,0,p,0,0,w,0
+9,10022,l,st,925,925,925
+9,10022,l,cpu,30,10,0
+9,10022,l,pr,com.letv.android.phonecontrol,0,20,0,0,0,0
+9,10023,l,st,925,925,925
+9,10026,l,st,925,925,925
+9,10032,l,st,925,925,925
+9,10033,l,st,925,925,925
+9,10038,l,st,925,925,925
+9,10038,l,cpu,20,0,0
+9,10038,l,pr,com.android.systemui,2320,1200,0,0,0,0
+9,10038,l,pr,com.android.systemui:imagewallpaper,10,0,0,0,0,0
+9,10046,l,st,0,925,925
+9,10046,l,pr,com.android.browser,0,10,0,0,0,0
+9,10051,l,st,0,925,925
+9,10052,l,st,925,925,925
+9,10053,l,st,925,925,925
+9,10054,l,st,0,0,925
+9,10055,l,st,925,925,925
+9,10056,l,st,0,0,925
+9,10057,l,st,925,925,925
+9,10061,l,st,925,925,925
+9,10061,l,pr,com.android.inputmethod.latin,0,10,0,0,0,0
+9,10069,l,st,925,925,925
+9,10070,l,st,925,925,925
+9,10071,l,st,925,925,925
+9,10072,l,st,0,0,925
+9,10076,l,st,0,0,925
+9,10079,l,st,925,925,925
+9,10080,l,st,0,925,925
+9,10080,l,pr,com.android.music,30,10,0,0,0,0
+9,10080,l,apk,0,com.android.music,com.android.music.play.MediaPlaybackService,0,1,1
+9,10081,l,st,0,925,925
+9,10082,l,st,925,925,925
+9,10085,l,st,925,925,925
+9,10086,l,st,925,925,925
+9,10088,l,wl,*alarm*,0,f,0,0,p,0,0,w,0
+9,10088,l,st,0,925,925
+9,10088,l,pr,com.letv.app.appstore,10,10,0,0,0,0
+9,10089,l,st,925,925,925
+9,10090,l,st,0,925,925
+9,10090,l,pr,com.letv.android.themestore,40,50,0,0,0,0
+9,10091,l,st,0,0,925
+9,10091,l,pr,com.letv.android.usagestats,20,10,0,0,0,0
+9,10091,l,apk,0,com.letv.android.usagestats,com.letv.android.usagestats.UsageStatsReportService,0,1,1
+9,10094,l,st,925,925,925
+9,10099,l,st,925,925,925
+9,10100,l,st,925,925,925
+9,10102,l,st,0,925,925
+9,10102,l,pr,com.tencent.android.location,50,10,0,0,0,0
+9,10104,l,st,925,925,925
+9,10107,l,st,925,925,925
+9,10108,l,st,925,925,925
+9,10108,l,apk,0,com.android.printspooler,com.android.printspooler.model.PrintSpoolerService,0,0,1
+9,10111,l,st,0,925,925
+9,10111,l,pr,com.sohu.inputmethod.sogou.leshi,10,30,0,0,0,0
+9,10113,l,st,0,925,925
+9,10114,l,nt,0,0,691,1088,0,0,4,8,0,0
+9,10114,l,wl,*alarm*,0,f,0,0,p,0,0,w,0
+9,10114,l,st,836,925,925
+9,10114,l,cpu,290,120,0
+9,10114,l,pr,com.icoolme.android.weather,100,50,0,0,0,0
+9,10114,l,pr,com.icoolme.android.weather:widget,20,0,0,0,0,0
+9,10114,l,apk,0,com.icoolme.android.weather,com.amap.api.location.APSService,0,0,1
+9,10114,l,apk,0,com.icoolme.android.weather,com.icoolme.android.weather.service.WeatherInfoRequestService,183,1,1
+9,10115,l,st,925,925,925
+9,10115,l,pr,com.letv.agnes,90,30,0,0,0,0
+9,10119,l,wl,*job*/com.letv.android.mobileactivation/.job.SupportJobService,0,f,0,0,p,0,0,w,0
+9,10119,l,wl,*job*/com.letv.android.mobileactivation/.job.FirstJobService,0,f,0,0,p,0,0,w,0
+9,10119,l,st,0,0,925
+9,10119,l,pr,com.letv.android.mobileactivation,10,20,0,0,0,0
+9,10121,l,st,0,925,925
+9,10121,l,pr,com.letv.android.quicksearchbox,10,30,0,0,0,0
+9,10131,l,st,0,925,925
+9,10131,l,cpu,10,0,0
+9,10131,l,pr,com.koushikdutta.vysor,100,10,0,0,0,0
+9,10134,l,wl,*alarm*,0,f,0,0,p,0,0,w,0
+9,10134,l,wl,*vibrator*,0,f,0,0,p,0,0,w,0
+9,10134,l,sr,19,925,0
+9,10134,l,st,925,925,925
+9,10134,l,pr,com.tencent.mm:tools,60,30,0,0,0,0
+9,10134,l,pr,com.tencent.mm:exdevice,20,10,0,0,0,0
+9,10134,l,pr,com.tencent.mm,5890,2120,0,0,0,0
+9,10134,l,pr,com.tencent.mm:push,730,480,0,0,0,0
+9,10134,l,pr,com.tencent.mm:support,30,30,0,0,0,0
+9,10140,l,wl,*launch*,0,f,0,0,p,0,0,w,0
+9,10140,l,wl,WindowManager,0,f,0,0,p,0,0,w,0
+9,10140,l,fg,925,0
+9,10140,l,st,925,925,925
+9,10140,l,cpu,550,160,0
+9,10140,l,pr,com.tianyancha.skyeye,133380,35190,0,0,0,0
+9,10140,l,pr,com.tianyancha.skyeye:channel,70,50,0,0,0,0
+9,10140,l,apk,0,com.tianyancha.skyeye,com.taobao.accs.ChannelService,0,1,1
+9,10140,l,apk,0,com.tianyancha.skyeye,org.android.agoo.accs.AgooService,0,1,0
+9,10140,l,apk,0,com.tianyancha.skyeye,com.taobao.accs.data.MsgDistributeService,0,1,0
+[dumpsys: 0.039s elapsed]
+

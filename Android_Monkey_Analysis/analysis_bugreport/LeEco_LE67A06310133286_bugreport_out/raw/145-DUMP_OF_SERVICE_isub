@@ -1,0 +1,514 @@
+SubscriptionController:
+ defaultSubId=-1
+ defaultDataSubId=-1
+ defaultVoiceSubId=-1
+ defaultSmsSubId=-1
+ defaultDataPhoneId=-1
+ defaultVoicePhoneId=-1
+ defaultSmsPhoneId=-1
+++++++++++++++++++++++++++++++++
+ ActiveSubInfoList: is null
+++++++++++++++++++++++++++++++++
+ AllSubInfoList: is null
+++++++++++++++++++++++++++++++++
+0: 12-24 17:17:43 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+1: 12-24 17:17:54 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+2: 12-24 17:17:54 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+3: 12-24 17:17:54 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+4: 12-24 17:17:54 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+5: 12-24 17:17:54 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+6: 12-24 17:17:54 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+7: 12-24 17:17:54 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+8: 12-24 17:17:54 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+9: 12-24 17:17:54 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+10: 12-24 17:17:54 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+11: 12-24 17:17:54 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+12: 12-24 17:17:54 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+13: 12-24 17:17:54 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+14: 12-24 17:17:54 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+15: 12-24 17:17:54 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+16: 12-24 17:17:54 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+17: 12-24 17:17:59 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+18: 12-24 17:17:59 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+19: 12-24 17:17:59 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+20: 12-24 17:17:59 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+21: 12-24 17:17:59 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+22: 12-24 17:17:59 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+23: 12-24 17:17:59 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+24: 12-24 17:17:59 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+25: 12-24 17:17:59 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+26: 12-24 17:17:59 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+27: 12-24 17:17:59 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+28: 12-24 17:17:59 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+29: 12-24 17:17:59 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+30: 12-24 17:17:59 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+31: 12-24 17:17:59 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+32: 12-24 17:17:59 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+33: 12-24 17:18:09 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+34: 12-24 17:18:09 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+35: 12-24 17:18:09 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+36: 12-24 17:18:09 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+37: 12-24 17:18:09 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+38: 12-24 17:18:09 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+39: 12-24 17:18:09 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+40: 12-24 17:18:09 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+41: 12-24 17:18:09 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+42: 12-24 17:18:09 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+43: 12-24 17:18:09 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+44: 12-24 17:18:09 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+45: 12-24 17:18:09 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+46: 12-24 17:18:09 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+47: 12-24 17:18:09 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+48: 12-24 17:18:09 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+49: 12-24 17:18:14 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+50: 12-24 17:18:14 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+51: 12-24 17:18:14 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+52: 12-24 17:18:14 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+53: 12-24 17:18:14 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+54: 12-24 17:18:14 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+55: 12-24 17:18:14 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+56: 12-24 17:18:14 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+57: 12-24 17:18:14 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+58: 12-24 17:18:14 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+59: 12-24 17:18:14 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+60: 12-24 17:18:14 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+61: 12-24 17:18:14 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+62: 12-24 17:18:14 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+63: 12-24 17:18:14 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+64: 12-24 17:18:14 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+65: 12-24 17:18:19 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+66: 12-24 17:18:19 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+67: 12-24 17:18:19 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+68: 12-24 17:18:19 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+69: 12-24 17:18:19 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+70: 12-24 17:18:19 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+71: 12-24 17:18:19 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+72: 12-24 17:18:19 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+73: 12-24 17:18:19 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+74: 12-24 17:18:19 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+75: 12-24 17:18:19 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+76: 12-24 17:18:19 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+77: 12-24 17:18:19 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+78: 12-24 17:18:19 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+79: 12-24 17:18:19 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+80: 12-24 17:18:19 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+81: 12-24 17:18:35 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+82: 12-24 17:18:35 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+83: 12-24 17:18:35 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+84: 12-24 17:18:35 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+85: 12-24 17:18:35 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+86: 12-24 17:18:35 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+87: 12-24 17:18:35 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+88: 12-24 17:18:35 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+89: 12-24 17:18:35 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+90: 12-24 17:18:35 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+91: 12-24 17:18:35 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+92: 12-24 17:18:35 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+93: 12-24 17:18:35 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+94: 12-24 17:18:35 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+95: 12-24 17:18:35 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+96: 12-24 17:18:35 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+97: 12-24 17:18:40 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+98: 12-24 17:18:40 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+99: 12-24 17:18:40 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+100: 12-24 17:18:40 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+101: 12-24 17:18:40 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+102: 12-24 17:18:40 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+103: 12-24 17:18:40 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+104: 12-24 17:18:40 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+105: 12-24 17:18:40 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+106: 12-24 17:18:40 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+107: 12-24 17:18:40 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+108: 12-24 17:18:40 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+109: 12-24 17:18:40 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+110: 12-24 17:18:40 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+111: 12-24 17:18:40 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+112: 12-24 17:18:40 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+113: 12-24 17:18:50 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+114: 12-24 17:18:50 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+115: 12-24 17:18:50 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+116: 12-24 17:18:50 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+117: 12-24 17:18:50 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+118: 12-24 17:18:50 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+119: 12-24 17:18:50 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+120: 12-24 17:18:50 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+121: 12-24 17:18:50 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+122: 12-24 17:18:50 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+123: 12-24 17:18:50 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+124: 12-24 17:18:50 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+125: 12-24 17:18:50 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+126: 12-24 17:18:50 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+127: 12-24 17:18:50 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+128: 12-24 17:18:50 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+129: 12-24 17:18:55 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+130: 12-24 17:18:55 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+131: 12-24 17:18:55 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+132: 12-24 17:18:55 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+133: 12-24 17:18:55 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+134: 12-24 17:18:55 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+135: 12-24 17:18:55 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+136: 12-24 17:18:55 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+137: 12-24 17:18:55 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+138: 12-24 17:18:55 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+139: 12-24 17:18:55 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+140: 12-24 17:18:55 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+141: 12-24 17:18:55 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+142: 12-24 17:18:55 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+143: 12-24 17:18:55 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+144: 12-24 17:18:55 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+145: 12-24 17:19:05 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+146: 12-24 17:19:05 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+147: 12-24 17:19:05 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+148: 12-24 17:19:05 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+149: 12-24 17:19:05 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+150: 12-24 17:19:05 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+151: 12-24 17:19:05 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+152: 12-24 17:19:05 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+153: 12-24 17:19:05 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+154: 12-24 17:19:05 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+155: 12-24 17:19:05 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+156: 12-24 17:19:05 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+157: 12-24 17:19:05 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+158: 12-24 17:19:05 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+159: 12-24 17:19:05 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+160: 12-24 17:19:05 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+161: 12-24 17:19:21 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+162: 12-24 17:19:21 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+163: 12-24 17:19:21 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+164: 12-24 17:19:21 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+165: 12-24 17:19:21 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+166: 12-24 17:19:21 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+167: 12-24 17:19:21 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+168: 12-24 17:19:21 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+169: 12-24 17:19:21 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+170: 12-24 17:19:21 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+171: 12-24 17:19:21 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+172: 12-24 17:19:21 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+173: 12-24 17:19:21 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+174: 12-24 17:19:21 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+175: 12-24 17:19:21 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+176: 12-24 17:19:21 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+177: 12-24 17:19:26 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+178: 12-24 17:19:26 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+179: 12-24 17:19:26 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+180: 12-24 17:19:26 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+181: 12-24 17:19:26 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+182: 12-24 17:19:26 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+183: 12-24 17:19:26 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+184: 12-24 17:19:26 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+185: 12-24 17:19:26 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+186: 12-24 17:19:26 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+187: 12-24 17:19:26 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+188: 12-24 17:19:26 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+189: 12-24 17:19:26 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+190: 12-24 17:19:26 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+191: 12-24 17:19:26 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+192: 12-24 17:19:26 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+193: 12-24 17:19:27 pid=1713 tid=1725 [getPhoneId] asked for default subId=-1
+194: 12-24 17:19:27 pid=1713 tid=1725 [getPhoneId]- invalid subId = -1 return = -1
+195: 12-24 17:19:36 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+196: 12-24 17:19:36 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+197: 12-24 17:19:36 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+198: 12-24 17:19:36 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+199: 12-24 17:19:36 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+200: 12-24 17:19:36 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+201: 12-24 17:19:36 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+202: 12-24 17:19:36 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+203: 12-24 17:19:36 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+204: 12-24 17:19:36 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+205: 12-24 17:19:36 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+206: 12-24 17:19:36 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+207: 12-24 17:19:36 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+208: 12-24 17:19:36 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+209: 12-24 17:19:36 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+210: 12-24 17:19:36 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+211: 12-24 17:19:51 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+212: 12-24 17:19:51 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+213: 12-24 17:19:51 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+214: 12-24 17:19:51 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+215: 12-24 17:19:51 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+216: 12-24 17:19:51 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+217: 12-24 17:19:51 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+218: 12-24 17:19:51 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+219: 12-24 17:19:51 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+220: 12-24 17:19:51 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+221: 12-24 17:19:51 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+222: 12-24 17:19:51 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+223: 12-24 17:19:51 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+224: 12-24 17:19:51 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+225: 12-24 17:19:51 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+226: 12-24 17:19:51 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+227: 12-24 17:19:56 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+228: 12-24 17:19:56 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+229: 12-24 17:19:56 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+230: 12-24 17:19:56 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+231: 12-24 17:19:56 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+232: 12-24 17:19:56 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+233: 12-24 17:19:56 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+234: 12-24 17:19:56 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+235: 12-24 17:19:56 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+236: 12-24 17:19:56 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+237: 12-24 17:19:56 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+238: 12-24 17:19:56 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+239: 12-24 17:19:56 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+240: 12-24 17:19:56 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+241: 12-24 17:19:56 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+242: 12-24 17:19:56 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+243: 12-24 17:19:57 pid=1713 tid=1725 [getPhoneId] asked for default subId=-1
+244: 12-24 17:19:57 pid=1713 tid=1725 [getPhoneId]- invalid subId = -1 return = -1
+245: 12-24 17:20:02 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+246: 12-24 17:20:02 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+247: 12-24 17:20:02 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+248: 12-24 17:20:02 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+249: 12-24 17:20:02 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+250: 12-24 17:20:02 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+251: 12-24 17:20:02 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+252: 12-24 17:20:02 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+253: 12-24 17:20:02 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+254: 12-24 17:20:02 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+255: 12-24 17:20:02 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+256: 12-24 17:20:02 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+257: 12-24 17:20:02 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+258: 12-24 17:20:02 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+259: 12-24 17:20:02 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+260: 12-24 17:20:02 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+261: 12-24 17:20:02 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+262: 12-24 17:20:02 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+263: 12-24 17:20:07 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+264: 12-24 17:20:07 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+265: 12-24 17:20:07 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+266: 12-24 17:20:07 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+267: 12-24 17:20:07 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+268: 12-24 17:20:07 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+269: 12-24 17:20:07 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+270: 12-24 17:20:07 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+271: 12-24 17:20:07 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+272: 12-24 17:20:07 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+273: 12-24 17:20:07 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+274: 12-24 17:20:07 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+275: 12-24 17:20:07 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+276: 12-24 17:20:07 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+277: 12-24 17:20:07 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+278: 12-24 17:20:07 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+279: 12-24 17:20:07 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+280: 12-24 17:20:07 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+281: 12-24 17:20:17 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+282: 12-24 17:20:17 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+283: 12-24 17:20:17 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+284: 12-24 17:20:17 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+285: 12-24 17:20:17 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+286: 12-24 17:20:17 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+287: 12-24 17:20:17 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+288: 12-24 17:20:17 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+289: 12-24 17:20:17 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+290: 12-24 17:20:17 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+291: 12-24 17:20:17 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+292: 12-24 17:20:17 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+293: 12-24 17:20:17 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+294: 12-24 17:20:17 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+295: 12-24 17:20:17 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+296: 12-24 17:20:17 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+297: 12-24 17:20:22 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+298: 12-24 17:20:22 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+299: 12-24 17:20:22 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+300: 12-24 17:20:22 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+301: 12-24 17:20:22 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+302: 12-24 17:20:22 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+303: 12-24 17:20:22 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+304: 12-24 17:20:22 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+305: 12-24 17:20:22 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+306: 12-24 17:20:22 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+307: 12-24 17:20:22 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+308: 12-24 17:20:22 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+309: 12-24 17:20:22 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+310: 12-24 17:20:22 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+311: 12-24 17:20:22 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+312: 12-24 17:20:22 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+313: 12-24 17:20:30 pid=1713 tid=1725 [getPhoneId]- invalid subId = -1 return = -1
+314: 12-24 17:20:32 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+315: 12-24 17:20:32 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+316: 12-24 17:20:32 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+317: 12-24 17:20:32 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+318: 12-24 17:20:32 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+319: 12-24 17:20:32 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+320: 12-24 17:20:32 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+321: 12-24 17:20:32 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+322: 12-24 17:20:32 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+323: 12-24 17:20:32 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+324: 12-24 17:20:32 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+325: 12-24 17:20:32 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+326: 12-24 17:20:32 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+327: 12-24 17:20:32 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+328: 12-24 17:20:32 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+329: 12-24 17:20:32 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+330: 12-24 17:20:58 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+331: 12-24 17:20:58 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+332: 12-24 17:20:58 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+333: 12-24 17:20:58 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+334: 12-24 17:20:58 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+335: 12-24 17:20:58 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+336: 12-24 17:20:58 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+337: 12-24 17:20:58 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+338: 12-24 17:20:58 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+339: 12-24 17:20:58 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+340: 12-24 17:20:58 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+341: 12-24 17:20:58 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+342: 12-24 17:20:58 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+343: 12-24 17:20:58 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+344: 12-24 17:20:58 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+345: 12-24 17:20:58 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+346: 12-24 17:21:03 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+347: 12-24 17:21:03 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+348: 12-24 17:21:03 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+349: 12-24 17:21:03 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+350: 12-24 17:21:03 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+351: 12-24 17:21:03 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+352: 12-24 17:21:03 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+353: 12-24 17:21:03 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+354: 12-24 17:21:03 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+355: 12-24 17:21:03 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+356: 12-24 17:21:03 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+357: 12-24 17:21:03 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+358: 12-24 17:21:03 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+359: 12-24 17:21:03 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+360: 12-24 17:21:03 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+361: 12-24 17:21:03 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+362: 12-24 17:21:08 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+363: 12-24 17:21:08 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+364: 12-24 17:21:08 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+365: 12-24 17:21:08 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+366: 12-24 17:21:08 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+367: 12-24 17:21:08 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+368: 12-24 17:21:08 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+369: 12-24 17:21:08 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+370: 12-24 17:21:08 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+371: 12-24 17:21:08 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+372: 12-24 17:21:08 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+373: 12-24 17:21:08 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+374: 12-24 17:21:08 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+375: 12-24 17:21:08 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+376: 12-24 17:21:08 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+377: 12-24 17:21:08 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+378: 12-24 17:21:12 pid=1713 tid=1724 [getPhoneId]- invalid subId = -1 return = -1
+379: 12-24 17:21:13 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+380: 12-24 17:21:13 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+381: 12-24 17:21:13 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+382: 12-24 17:21:13 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+383: 12-24 17:21:13 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+384: 12-24 17:21:13 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+385: 12-24 17:21:13 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+386: 12-24 17:21:13 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+387: 12-24 17:21:13 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+388: 12-24 17:21:13 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+389: 12-24 17:21:13 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+390: 12-24 17:21:13 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+391: 12-24 17:21:13 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+392: 12-24 17:21:13 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+393: 12-24 17:21:13 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+394: 12-24 17:21:13 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+395: 12-24 17:21:18 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+396: 12-24 17:21:18 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+397: 12-24 17:21:18 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+398: 12-24 17:21:18 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+399: 12-24 17:21:18 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+400: 12-24 17:21:18 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+401: 12-24 17:21:18 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+402: 12-24 17:21:18 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+403: 12-24 17:21:18 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+404: 12-24 17:21:18 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+405: 12-24 17:21:18 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+406: 12-24 17:21:18 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+407: 12-24 17:21:18 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+408: 12-24 17:21:18 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+409: 12-24 17:21:18 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+410: 12-24 17:21:18 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+411: 12-24 17:21:34 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+412: 12-24 17:21:34 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+413: 12-24 17:21:34 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+414: 12-24 17:21:34 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+415: 12-24 17:21:34 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+416: 12-24 17:21:34 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+417: 12-24 17:21:34 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+418: 12-24 17:21:34 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+419: 12-24 17:21:34 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+420: 12-24 17:21:34 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+421: 12-24 17:21:34 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+422: 12-24 17:21:34 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+423: 12-24 17:21:34 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+424: 12-24 17:21:34 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+425: 12-24 17:21:34 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+426: 12-24 17:21:34 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+427: 12-24 17:22:15 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+428: 12-24 17:22:15 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+429: 12-24 17:22:15 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+430: 12-24 17:22:15 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+431: 12-24 17:22:15 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+432: 12-24 17:22:15 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+433: 12-24 17:22:15 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+434: 12-24 17:22:15 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+435: 12-24 17:22:15 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+436: 12-24 17:22:15 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+437: 12-24 17:22:15 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+438: 12-24 17:22:15 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+439: 12-24 17:22:15 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+440: 12-24 17:22:15 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+441: 12-24 17:22:15 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+442: 12-24 17:22:15 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+443: 12-24 17:22:17 pid=1713 tid=1725 [getActiveSubIdList] simInfoSet=[]
+444: 12-24 17:22:17 pid=1713 tid=1725 [getActiveSubIdList] X subIdArr.length=0
+445: 12-24 17:22:18 pid=1713 tid=2355 [getActiveSubIdList] simInfoSet=[]
+446: 12-24 17:22:18 pid=1713 tid=2355 [getActiveSubIdList] X subIdArr.length=0
+447: 12-24 17:22:18 pid=1713 tid=1725 [getPhoneId]- invalid subId = -1 return = -1
+448: 12-24 17:22:18 pid=1713 tid=1725 [getPhoneId]- invalid subId = -1 return = -1
+449: 12-24 17:22:20 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+450: 12-24 17:22:20 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+451: 12-24 17:22:20 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+452: 12-24 17:22:20 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+453: 12-24 17:22:20 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+454: 12-24 17:22:20 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+455: 12-24 17:22:20 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+456: 12-24 17:22:20 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+457: 12-24 17:22:20 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+458: 12-24 17:22:20 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+459: 12-24 17:22:20 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+460: 12-24 17:22:20 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+461: 12-24 17:22:20 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+462: 12-24 17:22:20 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+463: 12-24 17:22:20 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+464: 12-24 17:22:20 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+465: 12-24 17:22:25 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+466: 12-24 17:22:25 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+467: 12-24 17:22:25 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+468: 12-24 17:22:25 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+469: 12-24 17:22:25 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+470: 12-24 17:22:25 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+471: 12-24 17:22:25 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+472: 12-24 17:22:25 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+473: 12-24 17:22:25 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+474: 12-24 17:22:25 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+475: 12-24 17:22:25 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+476: 12-24 17:22:25 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+477: 12-24 17:22:25 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+478: 12-24 17:22:25 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+479: 12-24 17:22:25 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+480: 12-24 17:22:25 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+481: 12-24 17:22:26 pid=1713 tid=1817 [getPhoneId]- invalid subId = -1 return = -1
+482: 12-24 17:22:30 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+483: 12-24 17:22:30 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+484: 12-24 17:22:30 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+485: 12-24 17:22:30 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+486: 12-24 17:22:30 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+487: 12-24 17:22:30 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+488: 12-24 17:22:30 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+489: 12-24 17:22:30 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+490: 12-24 17:22:30 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+491: 12-24 17:22:30 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+492: 12-24 17:22:30 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+493: 12-24 17:22:30 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+494: 12-24 17:22:30 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+495: 12-24 17:22:30 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+496: 12-24 17:22:30 pid=1713 tid=1713 [getPhoneId] asked for default subId=-1
+497: 12-24 17:22:30 pid=1713 tid=1713 [getPhoneId]- invalid subId = -1 return = -1
+498: 12-24 17:22:34 pid=1713 tid=1817 [getActiveSubInfoList]+
+499: 12-24 17:22:34 pid=1713 tid=1817 [getActiveSubInfoList] Sub Controller not ready
+++++++++++++++++++++++++++++++++

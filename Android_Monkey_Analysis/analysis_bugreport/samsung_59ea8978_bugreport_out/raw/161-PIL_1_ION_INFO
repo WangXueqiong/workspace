@@ -1,0 +1,17 @@
+          client              pid             size
+----------------------------------------------------
+           pil-0                1         30408704
+----------------------------------------------------
+orphaned allocations (info is from last known client):
+----------------------------------------------------
+  total orphaned                0
+          total          30408704
+----------------------------------------------------
+total bytes currently allocated: 1d00000
+total heap size: 1d00000
+
+Memory Map
+          client  start address    end address     size (hex)
+           pil-0 0x04d00000 0x064fffff       25165824 (1800000)
+           pil-0 0x06500000 0x069fffff        5242880 (500000)
+

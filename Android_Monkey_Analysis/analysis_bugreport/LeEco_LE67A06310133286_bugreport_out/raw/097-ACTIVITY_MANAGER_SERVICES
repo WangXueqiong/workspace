@@ -1,0 +1,1142 @@
+  User 0 active services:
+  * ServiceRecord{b4916 u0 com.tencent.android.location/com.tencent.geolocation.flp.TencentLocationService, isShadow:false}
+    intent={act=com.android.location.service.v3.NetworkLocationProvider FromType=0xffffffff mCallingUid=1000 pkg=com.tencent.android.location}
+    packageName=com.tencent.android.location
+    processName=com.tencent.android.location
+    permission=android.permission.WRITE_SECURE_SETTINGS
+    baseDir=/system/app/NetworkLocation_Tencet/NetworkLocation_Tencet.apk
+    dataDir=/data/user/0/com.tencent.android.location
+    app=ProcessRecord{5b7fb89 1982:com.tencent.android.location/u0a102, isShadow:false}
+    createTime=-47m45s687ms startingBgTimeout=--
+    lastActivity=-47m40s684ms restartTime=-47m45s591ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{3328d06 CREATE}:
+      intent={act=com.android.location.service.GeocodeProvider FromType=0xffffffff mCallingUid=1000 pkg=com.tencent.android.location}
+      binder=android.os.BinderProxy@c220fc7
+      requested=true received=true hasBound=false doRebind=false
+      * Client AppBindRecord{63989f4 ProcessRecord{10a63b2 1125:system/1000, isShadow:false}}
+        Per-process Connections:
+          ConnectionRecord{1463910 u0 CR !FG !VIS com.tencent.android.location/com.tencent.geolocation.flp.TencentLocationService:@1dd9d3}
+    * IntentBindRecord{540451d CREATE}:
+      intent={act=com.android.location.service.v3.NetworkLocationProvider FromType=0xffffffff mCallingUid=1000 pkg=com.tencent.android.location}
+      binder=android.os.BinderProxy@2da7392
+      requested=true received=true hasBound=false doRebind=false
+      * Client AppBindRecord{b25e163 ProcessRecord{10a63b2 1125:system/1000, isShadow:false}}
+        Per-process Connections:
+          ConnectionRecord{4af6e4f u0 CR !FG !VIS com.tencent.android.location/com.tencent.geolocation.flp.TencentLocationService:@907b0ae}
+    All Connections:
+      ConnectionRecord{1463910 u0 CR !FG !VIS com.tencent.android.location/com.tencent.geolocation.flp.TencentLocationService:@1dd9d3}
+      ConnectionRecord{4af6e4f u0 CR !FG !VIS com.tencent.android.location/com.tencent.geolocation.flp.TencentLocationService:@907b0ae}
+, isShadow:false
+
+  * ServiceRecord{251d1ef u0 com.android.launcher3/com.yidian.news.HipuService, isShadow:false}
+    intent={FromType=0xffffffff mCallingUid=10010 cmp=com.android.launcher3/com.yidian.news.HipuService}
+    packageName=com.android.launcher3
+    processName=com.android.launcher3
+    baseDir=/data/app/com.android.launcher3-1/base.apk
+    dataDir=/data/user/0/com.android.launcher3
+    app=ProcessRecord{8d6150f 2147:com.android.launcher3/u0a10, isShadow:false}
+    createTime=-47m34s951ms startingBgTimeout=--
+    lastActivity=-15s185ms restartTime=-47m34s951ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=true callStart=true lastStartId=4
+, isShadow:false
+
+  * ServiceRecord{82e7a97 u0 com.letv.app.appstore/.service.PackageUpdateInfoService, isShadow:false}
+    intent={FromType=0xffffffff mCallingUid=10088 cmp=com.letv.app.appstore/.service.PackageUpdateInfoService}
+    packageName=com.letv.app.appstore
+    processName=com.letv.app.appstore
+    baseDir=/system/app/LetvStore/LetvStore.apk
+    dataDir=/data/user/0/com.letv.app.appstore
+    app=ProcessRecord{14199bd 2369:com.letv.app.appstore/u0a88, isShadow:false}
+    createTime=-47m26s465ms startingBgTimeout=--
+    lastActivity=-1m33s147ms restartTime=-47m26s465ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=14
+, isShadow:false
+
+  * ServiceRecord{1af11b u0 com.letv.android.supermanager/.aidl.SuperManagerService, isShadow:false}
+    intent={FromType=0xffffffff mCallingUid=10022 cmp=com.letv.android.supermanager/.aidl.SuperManagerService}
+    packageName=com.letv.android.supermanager
+    processName=com.letv.android.supermanager
+    baseDir=/system/priv-app/LetvSuperManager/LetvSuperManager.apk
+    dataDir=/data/user/0/com.letv.android.supermanager
+    app=ProcessRecord{8ef8f2a 5191:com.letv.android.supermanager/u0a26, isShadow:false}
+    createTime=-46m33s141ms startingBgTimeout=--
+    lastActivity=-46m33s97ms restartTime=-46m33s97ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{f5f5160 CREATE}:
+      intent={FromType=0xffffffff mCallingUid=10022 cmp=com.letv.android.supermanager/.aidl.SuperManagerService}
+      binder=android.os.BinderProxy@6a11619
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{7a836de ProcessRecord{583fa17 2111:com.letv.android.phonecontrol/u0a22, isShadow:false}}
+        Per-process Connections:
+          ConnectionRecord{cc0b015 u0 CR com.letv.android.supermanager/.aidl.SuperManagerService:@b4d65cc}
+    All Connections:
+      ConnectionRecord{cc0b015 u0 CR com.letv.android.supermanager/.aidl.SuperManagerService:@b4d65cc}
+, isShadow:false
+
+  * ServiceRecord{b10d40f u0 com.tencent.mm/.ipcinvoker.wx_extension.service.MainProcessIPCService, isShadow:false}
+    intent={FromType=0xffffffff mCallingUid=10134 cmp=com.tencent.mm/.ipcinvoker.wx_extension.service.MainProcessIPCService}
+    packageName=com.tencent.mm
+    processName=com.tencent.mm
+    baseDir=/data/app/com.tencent.mm-1/base.apk
+    dataDir=/data/user/0/com.tencent.mm
+    app=ProcessRecord{af14cd0 6028:com.tencent.mm/u0a134, isShadow:false}
+    createTime=-43m35s891ms startingBgTimeout=--
+    lastActivity=-29m23s573ms restartTime=-43m35s891ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{10b30bf CREATE}:
+      intent={FromType=0xffffffff mCallingUid=10134 cmp=com.tencent.mm/.ipcinvoker.wx_extension.service.MainProcessIPCService}
+      binder=android.os.BinderProxy@d58238c
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{3a3fad5 ProcessRecord{2a4de09 6298:com.tencent.mm:support/u0a134, isShadow:false}}
+        Per-process Connections:
+          ConnectionRecord{d9c156e u0 CR WPRI com.tencent.mm/.ipcinvoker.wx_extension.service.MainProcessIPCService:@33614e9}
+      * Client AppBindRecord{8fce2ea ProcessRecord{40da39b 8537:com.tencent.mm:tools/u0a134, isShadow:false}}
+        Per-process Connections:
+          ConnectionRecord{ab1c3b2 u0 CR WPRI com.tencent.mm/.ipcinvoker.wx_extension.service.MainProcessIPCService:@ae041bd}
+    All Connections:
+      ConnectionRecord{d9c156e u0 CR WPRI com.tencent.mm/.ipcinvoker.wx_extension.service.MainProcessIPCService:@33614e9}
+      ConnectionRecord{ab1c3b2 u0 CR WPRI com.tencent.mm/.ipcinvoker.wx_extension.service.MainProcessIPCService:@ae041bd}
+, isShadow:false
+
+  * ServiceRecord{9ed650d u0 com.tianyancha.skyeye/com.taobao.accs.ChannelService, isShadow:false}
+    intent={act=com.taobao.accs.intent.action.START_SERVICE FromType=0xffffffff mCallingUid=10140 cmp=com.tianyancha.skyeye/com.taobao.accs.ChannelService}
+    packageName=com.tianyancha.skyeye
+    processName=com.tianyancha.skyeye:channel
+    baseDir=/data/app/com.tianyancha.skyeye-2/base.apk
+    dataDir=/data/user/0/com.tianyancha.skyeye
+    app=ProcessRecord{f4873a4 10314:com.tianyancha.skyeye:channel/u0a140, isShadow:false}
+    createTime=-13s735ms startingBgTimeout=+1s280ms
+    lastActivity=-3s291ms restartTime=-13s703ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=2
+, isShadow:false
+
+  * ServiceRecord{9a83271 u0 com.android.systemui/.keyguard.KeyguardService, isShadow:false}
+    intent={FromType=0xffffffff mCallingUid=1000 cmp=com.android.systemui/.keyguard.KeyguardService}
+    packageName=com.android.systemui
+    processName=com.android.systemui
+    baseDir=/system/priv-app/SystemUI/SystemUI.apk
+    dataDir=/data/user/0/com.android.systemui
+    app=ProcessRecord{79d0740 1629:com.android.systemui/u0a38, isShadow:false}
+    createTime=-47m34s655ms startingBgTimeout=--
+    lastActivity=-47m34s655ms restartTime=-47m34s655ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{bcc19db CREATE}:
+      intent={FromType=0xffffffff mCallingUid=1000 cmp=com.android.systemui/.keyguard.KeyguardService}
+      binder=android.os.BinderProxy@29ec78
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{4b66f51 ProcessRecord{10a63b2 1125:system/1000, isShadow:false}}
+        Per-process Connections:
+          ConnectionRecord{3ca4818 u0 CR com.android.systemui/.keyguard.KeyguardService:@4cc1ffb}
+    All Connections:
+      ConnectionRecord{3ca4818 u0 CR com.android.systemui/.keyguard.KeyguardService:@4cc1ffb}
+, isShadow:false
+
+  * ServiceRecord{2767848 u0 com.tencent.mm/.plugin.sport.service.SportService, isShadow:false}
+    intent={FromType=0xffffffff mCallingUid=10134 cmp=com.tencent.mm/.plugin.sport.service.SportService}
+    packageName=com.tencent.mm
+    processName=com.tencent.mm:exdevice
+    baseDir=/data/app/com.tencent.mm-1/base.apk
+    dataDir=/data/user/0/com.tencent.mm
+    app=ProcessRecord{104925c 6132:com.tencent.mm:exdevice/u0a134, isShadow:false}
+    createTime=-43m40s298ms startingBgTimeout=--
+    lastActivity=-43m40s262ms restartTime=-43m40s262ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{13e43b6 CREATE}:
+      intent={flg=0x10000000 FromType=0xffffffff mCallingUid=10134 cmp=com.tencent.mm/.plugin.sport.service.SportService}
+      binder=android.os.BinderProxy@4e878b7
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{4d5824 ProcessRecord{af14cd0 6028:com.tencent.mm/u0a134, isShadow:false}}
+        Per-process Connections:
+          ConnectionRecord{21bd8cf u0 CR com.tencent.mm/.plugin.sport.service.SportService:@111352e}
+    All Connections:
+      ConnectionRecord{21bd8cf u0 CR com.tencent.mm/.plugin.sport.service.SportService:@111352e}
+, isShadow:false
+
+  * ServiceRecord{db272d6 u0 com.leeco.regservice/cn.richinfo.dm.service.DMService, isShadow:false}
+    intent={FromType=0xffffffff mCallingUid=1000 cmp=com.leeco.regservice/cn.richinfo.dm.service.DMService}
+    packageName=com.leeco.regservice
+    processName=com.leeco.regservice
+    baseDir=/system/vendor/app/ctm/ctm.apk
+    dataDir=/data/user/0/com.leeco.regservice
+    app=ProcessRecord{3ef66f1 2924:com.leeco.regservice/1000, isShadow:false}
+    createTime=-47m36s526ms startingBgTimeout=-47m21s525ms
+    lastActivity=-32m17s407ms restartTime=-47m36s526ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=10
+, isShadow:false
+
+  * ServiceRecord{7010b8a u0 com.android.systemui/.ImageWallpaper, isShadow:false}
+    intent={act=android.service.wallpaper.WallpaperService FromType=0xffffffff mCallingUid=1000 cmp=com.android.systemui/.ImageWallpaper}
+    packageName=com.android.systemui
+    processName=com.android.systemui:imagewallpaper
+    permission=android.permission.BIND_WALLPAPER
+    baseDir=/system/priv-app/SystemUI/SystemUI.apk
+    dataDir=/data/user/0/com.android.systemui
+    app=ProcessRecord{e449e46 1928:com.android.systemui:imagewallpaper/u0a38, isShadow:false}
+    createTime=-47m46s31ms startingBgTimeout=--
+    lastActivity=-47m45s902ms restartTime=-47m45s902ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{1a1af8d CREATE}:
+      intent={act=android.service.wallpaper.WallpaperService FromType=0xffffffff mCallingUid=1000 cmp=com.android.systemui/.ImageWallpaper}
+      binder=android.os.BinderProxy@962e542
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{401e953 ProcessRecord{10a63b2 1125:system/1000, isShadow:false}}
+        Per-process Connections:
+          ConnectionRecord{a813515 u0 CR FGSA UI com.android.systemui/.ImageWallpaper:@f58decc}
+          ConnectionRecord{f6a5a21 u0 CR UI com.android.systemui/.ImageWallpaper:@2028088}
+    All Connections:
+      ConnectionRecord{f6a5a21 u0 CR UI com.android.systemui/.ImageWallpaper:@2028088}
+      ConnectionRecord{a813515 u0 CR FGSA UI com.android.systemui/.ImageWallpaper:@f58decc}
+, isShadow:false
+
+  * ServiceRecord{ab16ea0 u0 com.tencent.mm/.booter.NotifyReceiver$NotifyService, isShadow:false}
+    intent={FromType=0xffffffff mCallingUid=10134 cmp=com.tencent.mm/.booter.NotifyReceiver$NotifyService}
+    packageName=com.tencent.mm
+    processName=com.tencent.mm
+    baseDir=/data/app/com.tencent.mm-1/base.apk
+    dataDir=/data/user/0/com.tencent.mm
+    app=ProcessRecord{af14cd0 6028:com.tencent.mm/u0a134, isShadow:false}
+    isForeground=true foregroundId=-1212 foregroundNoti=Notification(pri=-2 contentView=com.tencent.mm/0x109010b vibrate=null sound=null isShadow = false isOriginalStyle = false defaults=0x0 flags=0x62 color=0xff607d8b vis=PRIVATE)
+    createTime=-43m35s725ms startingBgTimeout=--
+    lastActivity=-1m21s286ms restartTime=-43m35s725ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=true callStart=true lastStartId=8
+, isShadow:false
+
+  * ServiceRecord{df1142b u0 com.letv.android.usagestats/.UsageStatsReportService, isShadow:false}
+    intent={act=com.letv.android.usagestats.REPORT FromType=0xffffffff mCallingUid=1000 pkg=com.letv.android.usagestats}
+    packageName=com.letv.android.usagestats
+    processName=com.letv.android.usagestats
+    permission=android.permission.PACKAGE_USAGE_STATS
+    baseDir=/system/app/LetvUsageStatsReporter/LetvUsageStatsReporter.apk
+    dataDir=/data/user/0/com.letv.android.usagestats
+    app=ProcessRecord{15d2844 8309:com.letv.android.usagestats/u0a91, isShadow:false}
+    createTime=-3m6s143ms startingBgTimeout=--
+    lastActivity=-24s274ms restartTime=-3m6s143ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=58
+, isShadow:false
+
+  * ServiceRecord{562061c u0 com.dsi.ant.server/.AntService, isShadow:false}
+    intent={act=com.dsi.ant.server.IAntHal FromType=0xffffffff mCallingUid=1000}
+    packageName=com.dsi.ant.server
+    processName=system
+    permission=com.dsi.ant.permission.ANTRADIO
+    baseDir=/system/app/AntHalService/AntHalService.apk
+    dataDir=/data/user/0/com.dsi.ant.server
+    app=ProcessRecord{10a63b2 1125:system/1000, isShadow:false}
+    createTime=-47m19s466ms startingBgTimeout=--
+    lastActivity=-47m19s465ms restartTime=-47m19s465ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=true callStart=true lastStartId=1
+, isShadow:false
+
+  * ServiceRecord{58ed618 u0 com.koushikdutta.vysor/.VysorIME, isShadow:false}
+    intent={act=android.view.InputMethod FromType=0xffffffff mCallingUid=1000 cmp=com.koushikdutta.vysor/.VysorIME}
+    packageName=com.koushikdutta.vysor
+    processName=com.koushikdutta.vysor
+    permission=android.permission.BIND_INPUT_METHOD
+    baseDir=/data/app/com.koushikdutta.vysor-1/base.apk
+    dataDir=/data/user/0/com.koushikdutta.vysor
+    app=ProcessRecord{220a832 1938:com.koushikdutta.vysor/u0a131, isShadow:false}
+    createTime=-47m45s977ms startingBgTimeout=--
+    lastActivity=-2m38s473ms restartTime=-47m45s824ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=64
+    Bindings:
+    * IntentBindRecord{319d290 CREATE}:
+      intent={act=android.view.InputMethod FromType=0xffffffff mCallingUid=1000 cmp=com.koushikdutta.vysor/.VysorIME}
+      binder=android.os.BinderProxy@b86b789
+      requested=true received=true hasBound=false doRebind=false
+      * Client AppBindRecord{13e138e ProcessRecord{10a63b2 1125:system/1000, isShadow:false}}
+        Per-process Connections:
+          ConnectionRecord{2627b20 u0 CR !FG UI !VIS com.koushikdutta.vysor/.VysorIME:@e789a23}
+    All Connections:
+      ConnectionRecord{2627b20 u0 CR !FG UI !VIS com.koushikdutta.vysor/.VysorIME:@e789a23}
+, isShadow:false
+
+  * ServiceRecord{d4d22a8 u0 com.letv.android.powercontroller/com.letv.android.gmsmanager.GmsManagerService, isShadow:false}
+    intent={act=android.intent.action.BOOT_COMPLETED FromType=0xffffffff mCallingUid=10022 cmp=com.letv.android.powercontroller/com.letv.android.gmsmanager.GmsManagerService}
+    packageName=com.letv.android.powercontroller
+    processName=com.letv.android.phonecontrol
+    baseDir=/system/priv-app/LetvPowerController/LetvPowerController.apk
+    dataDir=/data/user/0/com.letv.android.powercontroller
+    app=ProcessRecord{583fa17 2111:com.letv.android.phonecontrol/u0a22, isShadow:false}
+    createTime=-47m23s88ms startingBgTimeout=--
+    lastActivity=-7m20s536ms restartTime=-47m23s88ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=true callStart=true lastStartId=7
+, isShadow:false
+
+  * ServiceRecord{c93e25a u0 com.letv.agnes/.service.ReportService, isShadow:false}
+    intent={act=com.letv.agnes.REPORT_SERVICE FromType=0xffffffff mCallingUid=1000 pkg=com.letv.agnes}
+    packageName=com.letv.agnes
+    processName=com.letv.agnes
+    baseDir=/system/app/agnes_service/agnes_service.apk
+    dataDir=/data/user/0/com.letv.agnes
+    app=ProcessRecord{5ad854c 3468:com.letv.agnes/u0a115, isShadow:false}
+    createTime=-47m50s873ms startingBgTimeout=--
+    lastActivity=-32s695ms restartTime=-47m29s140ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=43
+    Bindings:
+    * IntentBindRecord{f37c7af CREATE}:
+      intent={act=com.letv.agnes.REPORT_SERVICE FromType=0xffffffff mCallingUid=1000 pkg=com.letv.agnes}
+      binder=android.os.BinderProxy@9f187bc
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{a9a4345 ProcessRecord{10a63b2 1125:system/1000, isShadow:false}}
+        Per-process Connections:
+          ConnectionRecord{296826a u0 CR com.letv.agnes/.service.ReportService:@20f3161}
+          ConnectionRecord{389c486 u0 CR com.letv.agnes/.service.ReportService:@20f3161}
+          ConnectionRecord{4d1571a u0 CR com.letv.agnes/.service.ReportService:@bcde1c5}
+          ConnectionRecord{59b4eca u0 CR com.letv.agnes/.service.ReportService:@20f3161}
+          ConnectionRecord{dafbcdd u0 CR com.letv.agnes/.service.ReportService:@20f3161}
+          ConnectionRecord{dbd960b u0 CR com.letv.agnes/.service.ReportService:@20f3161}
+      * Client AppBindRecord{8bda9a ProcessRecord{15d2844 8309:com.letv.android.usagestats/u0a91, isShadow:false}}
+        Per-process Connections:
+          ConnectionRecord{e2684b0 u0 CR com.letv.agnes/.service.ReportService:@a78ff3}
+      * Client AppBindRecord{5432fcb ProcessRecord{4e23501 3630:com.android.deskclock/u0a51, isShadow:false}}
+        Per-process Connections:
+          ConnectionRecord{87b32df u0 CR com.letv.agnes/.service.ReportService:@1ec6d7e}
+      * Client AppBindRecord{82d63a8 ProcessRecord{583fa17 2111:com.letv.android.phonecontrol/u0a22, isShadow:false}}
+        Per-process Connections:
+          ConnectionRecord{c9c0fee u0 CR com.letv.agnes/.service.ReportService:@fa76969}
+      * Client AppBindRecord{ba0cec1 ProcessRecord{79d0740 1629:com.android.systemui/u0a38, isShadow:false}}
+        Per-process Connections:
+          ConnectionRecord{a40cbb1 u0 CR com.letv.agnes/.service.ReportService:@3ec7e58}
+      * Client AppBindRecord{cbd0666 ProcessRecord{8d6150f 2147:com.android.launcher3/u0a10, isShadow:false}}
+        Per-process Connections:
+          ConnectionRecord{296e5b7 u0 CR com.letv.agnes/.service.ReportService:@a1e44b6}
+      * Client AppBindRecord{d52fda7 ProcessRecord{91b8546 6954:com.android.settings/1000, isShadow:false}}
+        Per-process Connections:
+          ConnectionRecord{86ca5d u0 CR com.letv.agnes/.service.ReportService:@9ddc34}
+      * Client AppBindRecord{bc91254 ProcessRecord{9477df5 2648:com.android.music/u0a80, isShadow:false}}
+        Per-process Connections:
+          ConnectionRecord{de6cca2 u0 CR com.letv.agnes/.service.ReportService:@371186d}
+      * Client AppBindRecord{92a95fd ProcessRecord{971cb2f 3961:com.android.mms/u0a20, isShadow:false}}
+        Per-process Connections:
+          ConnectionRecord{262f7a5 u0 CR com.letv.agnes/.service.ReportService:@314d19c}
+      * Client AppBindRecord{f8322f2 ProcessRecord{b06b48a 4751:com.letv.android.ota/u0a81, isShadow:false}}
+        Per-process Connections:
+          ConnectionRecord{362b8eb u0 CR com.letv.agnes/.service.ReportService:@dfd543a}
+      * Client AppBindRecord{8a7cd43 ProcessRecord{d87debd 7071:com.letv.walletbiz/u0a13, isShadow:false}}
+        Per-process Connections:
+          ConnectionRecord{2be18e5 u0 CR com.letv.agnes/.service.ReportService:@5ceafdc}
+      * Client AppBindRecord{4ceffc0 ProcessRecord{e449e46 1928:com.android.systemui:imagewallpaper/u0a38, isShadow:false}}
+        Per-process Connections:
+          ConnectionRecord{96714bf u0 CR com.letv.agnes/.service.ReportService:@2352ade}
+      * Client AppBindRecord{c8f94f9 ProcessRecord{eab13e0 7825:com.letv.android.filemanager/u0a76, isShadow:false}}
+        Per-process Connections:
+          ConnectionRecord{54d2b96 u0 CR com.letv.agnes/.service.ReportService:@e528ab1}
+    All Connections:
+      ConnectionRecord{86ca5d u0 CR com.letv.agnes/.service.ReportService:@9ddc34}
+      ConnectionRecord{e2684b0 u0 CR com.letv.agnes/.service.ReportService:@a78ff3}
+      ConnectionRecord{87b32df u0 CR com.letv.agnes/.service.ReportService:@1ec6d7e}
+      ConnectionRecord{389c486 u0 CR com.letv.agnes/.service.ReportService:@20f3161}
+      ConnectionRecord{296826a u0 CR com.letv.agnes/.service.ReportService:@20f3161}
+      ConnectionRecord{59b4eca u0 CR com.letv.agnes/.service.ReportService:@20f3161}
+      ConnectionRecord{dbd960b u0 CR com.letv.agnes/.service.ReportService:@20f3161}
+      ConnectionRecord{dafbcdd u0 CR com.letv.agnes/.service.ReportService:@20f3161}
+      ConnectionRecord{96714bf u0 CR com.letv.agnes/.service.ReportService:@2352ade}
+      ConnectionRecord{262f7a5 u0 CR com.letv.agnes/.service.ReportService:@314d19c}
+      ConnectionRecord{de6cca2 u0 CR com.letv.agnes/.service.ReportService:@371186d}
+      ConnectionRecord{a40cbb1 u0 CR com.letv.agnes/.service.ReportService:@3ec7e58}
+      ConnectionRecord{2be18e5 u0 CR com.letv.agnes/.service.ReportService:@5ceafdc}
+      ConnectionRecord{296e5b7 u0 CR com.letv.agnes/.service.ReportService:@a1e44b6}
+      ConnectionRecord{4d1571a u0 CR com.letv.agnes/.service.ReportService:@bcde1c5}
+      ConnectionRecord{362b8eb u0 CR com.letv.agnes/.service.ReportService:@dfd543a}
+      ConnectionRecord{54d2b96 u0 CR com.letv.agnes/.service.ReportService:@e528ab1}
+      ConnectionRecord{c9c0fee u0 CR com.letv.agnes/.service.ReportService:@fa76969}
+, isShadow:false
+
+  * ServiceRecord{89fa2ec u0 com.icoolme.android.weather/.service.WeatherInfoRequestService, isShadow:false}
+    intent={FromType=0xffffffff mCallingUid=10114 cmp=com.icoolme.android.weather/.service.WeatherInfoRequestService}
+    packageName=com.icoolme.android.weather
+    processName=com.icoolme.android.weather:widget
+    baseDir=/system/app/ZuiMeiWeather/ZuiMeiWeather.apk
+    dataDir=/data/user/0/com.icoolme.android.weather
+    app=ProcessRecord{bac1657 3888:com.icoolme.android.weather:widget/u0a114, isShadow:false}
+    createTime=-19m32s55ms startingBgTimeout=--
+    lastActivity=-19m32s55ms restartTime=-19m32s55ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+, isShadow:false
+
+  * ServiceRecord{7391658 u0 com.letv.android.freeflow/.service.WorkService, isShadow:false}
+    intent={FromType=0xffffffff mCallingUid=10012 cmp=com.letv.android.freeflow/.service.WorkService}
+    packageName=com.letv.android.freeflow
+    processName=com.letv.android.freeflow
+    baseDir=/system/priv-app/LeFreeFlow/LeFreeFlow.apk
+    dataDir=/data/user/0/com.letv.android.freeflow
+    app=ProcessRecord{4a31fca 2081:com.letv.android.freeflow/u0a12, isShadow:false}
+    createTime=-47m32s244ms startingBgTimeout=--
+    lastActivity=-32m18s784ms restartTime=-47m32s244ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=2
+, isShadow:false
+
+  * ServiceRecord{7beae56 u0 com.android.deskclock/.alarms.starclock.download.LeStarDownloadService, isShadow:false}
+    intent={FromType=0xffffffff mCallingUid=10051 cmp=com.android.deskclock/.alarms.starclock.download.LeStarDownloadService}
+    packageName=com.android.deskclock
+    processName=com.android.deskclock
+    baseDir=/system/app/DeskClock/DeskClock.apk
+    dataDir=/data/user/0/com.android.deskclock
+    app=ProcessRecord{4e23501 3630:com.android.deskclock/u0a51, isShadow:false}
+    createTime=-47m27s318ms startingBgTimeout=-47m12s316ms
+    lastActivity=-32m17s785ms restartTime=-47m27s317ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=2
+, isShadow:false
+
+  * ServiceRecord{2060236 u0 com.letv.android.supermanager/.aidl.ScanInstallingService, isShadow:false}
+    intent={FromType=0xffffffff mCallingUid=10026 cmp=com.letv.android.supermanager/.aidl.ScanInstallingService}
+    packageName=com.letv.android.supermanager
+    processName=com.letv.android.supermanager
+    baseDir=/system/priv-app/LetvSuperManager/LetvSuperManager.apk
+    dataDir=/data/user/0/com.letv.android.supermanager
+    app=ProcessRecord{8ef8f2a 5191:com.letv.android.supermanager/u0a26, isShadow:false}
+    createTime=-44m52s316ms startingBgTimeout=--
+    lastActivity=-7m20s474ms restartTime=-44m52s316ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=true callStart=true lastStartId=3
+    Delivered Starts:
+    #0 id=1 dur=-44m52s314ms dxc=1
+      intent=Intent { FromType=0xffffffff mCallingUid=10026 cmp=com.letv.android.supermanager/.aidl.ScanInstallingService (has extras) }
+    #1 id=2 dur=-33m42s774ms dxc=1
+      intent=Intent { FromType=0xffffffff mCallingUid=10026 cmp=com.letv.android.supermanager/.aidl.ScanInstallingService (has extras) }
+    #2 id=3 dur=-7m20s474ms dxc=1
+      intent=Intent { FromType=0xffffffff mCallingUid=10026 cmp=com.letv.android.supermanager/.aidl.ScanInstallingService (has extras) }
+, isShadow:false
+
+  * ServiceRecord{bd2235a u0 com.tencent.mm/.plugin.appbrand.ipc.AppBrandMainProcessService, isShadow:false}
+    intent={FromType=0xffffffff mCallingUid=10134 cmp=com.tencent.mm/.plugin.appbrand.ipc.AppBrandMainProcessService}
+    packageName=com.tencent.mm
+    processName=com.tencent.mm
+    baseDir=/data/app/com.tencent.mm-1/base.apk
+    dataDir=/data/user/0/com.tencent.mm
+    app=ProcessRecord{af14cd0 6028:com.tencent.mm/u0a134, isShadow:false}
+    createTime=-29m23s603ms startingBgTimeout=--
+    lastActivity=-29m23s603ms restartTime=-29m23s603ms createdFromFg=false
+    Bindings:
+    * IntentBindRecord{a1c7c3e CREATE}:
+      intent={FromType=0xffffffff mCallingUid=10134 cmp=com.tencent.mm/.plugin.appbrand.ipc.AppBrandMainProcessService}
+      binder=android.os.BinderProxy@1effa9f
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{78457ec ProcessRecord{40da39b 8537:com.tencent.mm:tools/u0a134, isShadow:false}}
+        Per-process Connections:
+          ConnectionRecord{4dd3705 u0 CR com.tencent.mm/.plugin.appbrand.ipc.AppBrandMainProcessService:@1dcf27c}
+    All Connections:
+      ConnectionRecord{4dd3705 u0 CR com.tencent.mm/.plugin.appbrand.ipc.AppBrandMainProcessService:@1dcf27c}
+, isShadow:false
+
+  * ServiceRecord{c0023d9 u0 com.stv.stvpush/.service.StvPushService, isShadow:false}
+    intent={act=com.stv.stvpush.ACTION_SERVICE_PUSH FromType=0xffffffff mCallingUid=10010 cmp=com.stv.stvpush/.service.StvPushService}
+    packageName=com.stv.stvpush
+    processName=com.stv.stvpush
+    baseDir=/system/priv-app/LePush/LePush.apk
+    dataDir=/data/user/0/com.stv.stvpush
+    app=ProcessRecord{d7e4fc6 2734:com.stv.stvpush/u0a14, isShadow:false}
+    createTime=-47m38s971ms startingBgTimeout=--
+    lastActivity=-32m17s94ms restartTime=-47m38s847ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=33
+, isShadow:false
+
+  * ServiceRecord{fb3a2 u0 se.dirac.examples.effectservice/.EffectService, isShadow:false}
+    intent={FromType=0xffffffff mCallingUid=10022 cmp=se.dirac.examples.effectservice/.EffectService}
+    packageName=se.dirac.examples.effectservice
+    processName=se.dirac.examples.effectservice
+    baseDir=/system/app/EffectService/EffectService.apk
+    dataDir=/data/user/0/se.dirac.examples.effectservice
+    app=ProcessRecord{26f6997 4123:se.dirac.examples.effectservice/u0a55, isShadow:false}
+    createTime=-47m23s6ms startingBgTimeout=--
+    lastActivity=-47m22s966ms restartTime=-47m22s966ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{2ab87b5 CREATE}:
+      intent={FromType=0xffffffff mCallingUid=10022 cmp=se.dirac.examples.effectservice/.EffectService}
+      binder=android.os.BinderProxy@1601e4a
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{663a1bb ProcessRecord{583fa17 2111:com.letv.android.phonecontrol/u0a22, isShadow:false}}
+        Per-process Connections:
+          ConnectionRecord{4cafd31 u0 CR se.dirac.examples.effectservice/.EffectService:@d6285d8}
+    All Connections:
+      ConnectionRecord{4cafd31 u0 CR se.dirac.examples.effectservice/.EffectService:@d6285d8}
+, isShadow:false
+
+  * ServiceRecord{79ed0f4 u0 com.tencent.mm/.booter.CoreService, isShadow:false}
+    intent={FromType=0xffffffff mCallingUid=10134 cmp=com.tencent.mm/.booter.CoreService}
+    packageName=com.tencent.mm
+    processName=com.tencent.mm:push
+    baseDir=/data/app/com.tencent.mm-1/base.apk
+    dataDir=/data/user/0/com.tencent.mm
+    app=ProcessRecord{4c756e1 6174:com.tencent.mm:push/u0a134, isShadow:false}
+    isForeground=true foregroundId=-1213 foregroundNoti=Notification(pri=-2 contentView=com.tencent.mm/0x109010b vibrate=null sound=null isShadow = false isOriginalStyle = false defaults=0x0 flags=0x62 color=0xff607d8b vis=PRIVATE)
+    createTime=-43m39s934ms startingBgTimeout=--
+    lastActivity=-13m29s416ms restartTime=-43m39s866ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=5
+    Bindings:
+    * IntentBindRecord{55506d8 CREATE}:
+      intent={FromType=0xffffffff mCallingUid=10134 cmp=com.tencent.mm/.booter.CoreService}
+      binder=android.os.BinderProxy@59ea31
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{e89d516 ProcessRecord{af14cd0 6028:com.tencent.mm/u0a134, isShadow:false}}
+        Per-process Connections:
+          ConnectionRecord{4412c7 u0 CR com.tencent.mm/.booter.CoreService:@85ebc06}
+    All Connections:
+      ConnectionRecord{4412c7 u0 CR com.tencent.mm/.booter.CoreService:@85ebc06}
+, isShadow:false
+
+  * ServiceRecord{4a09e97 u0 com.android.bluetooth/.a2dp.A2dpService, isShadow:false}
+    intent={act=android.bluetooth.IBluetoothA2dp FromType=0xffffffff mCallingUid=1000 cmp=com.android.bluetooth/.a2dp.A2dpService}
+    packageName=com.android.bluetooth
+    processName=com.android.bluetooth
+    baseDir=/system/app/Bluetooth/Bluetooth.apk
+    dataDir=/data/user/0/com.android.bluetooth
+    app=null
+    createTime=-47m46s74ms startingBgTimeout=--
+    lastActivity=-47m46s74ms restartTime=-- createdFromFg=true
+    Bindings:
+    * IntentBindRecord{87fb884}:
+      intent={act=android.bluetooth.IBluetoothA2dp FromType=0xffffffff mCallingUid=1000 cmp=com.android.bluetooth/.a2dp.A2dpService}
+      binder=null
+      requested=false received=false hasBound=false doRebind=false
+      * Client AppBindRecord{2b1f86d ProcessRecord{10a63b2 1125:system/1000, isShadow:false}}
+        Per-process Connections:
+          ConnectionRecord{157ba6c u0 com.android.bluetooth/.a2dp.A2dpService:@c41571f}
+    All Connections:
+      ConnectionRecord{157ba6c u0 com.android.bluetooth/.a2dp.A2dpService:@c41571f}
+, isShadow:false
+
+  * ServiceRecord{55e3544 u0 com.icoolme.android.weather/.widget.WeatherWidgetService, isShadow:false}
+    intent={FromType=0xffffffff mCallingUid=10114 cmp=com.icoolme.android.weather/.widget.WeatherWidgetService}
+    packageName=com.icoolme.android.weather
+    processName=com.icoolme.android.weather:widget
+    baseDir=/system/app/ZuiMeiWeather/ZuiMeiWeather.apk
+    dataDir=/data/user/0/com.icoolme.android.weather
+    app=ProcessRecord{bac1657 3888:com.icoolme.android.weather:widget/u0a114, isShadow:false}
+    isForeground=true foregroundId=61 foregroundNoti=Notification(pri=0 contentView=com.icoolme.android.weather/0x109010b vibrate=null sound=null isShadow = false isOriginalStyle = false defaults=0x0 flags=0x62 color=0x00000000 vis=PRIVATE)
+    createTime=-47m24s987ms startingBgTimeout=--
+    lastActivity=-17m59s391ms restartTime=-47m24s984ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=7
+, isShadow:false
+
+  * ServiceRecord{a75a116 u0 com.letv.app.appstore/.service.InstalledPackageInfoService, isShadow:false}
+    intent={FromType=0xffffffff mCallingUid=10088 cmp=com.letv.app.appstore/.service.InstalledPackageInfoService}
+    packageName=com.letv.app.appstore
+    processName=com.letv.app.appstore
+    baseDir=/system/app/LetvStore/LetvStore.apk
+    dataDir=/data/user/0/com.letv.app.appstore
+    app=ProcessRecord{14199bd 2369:com.letv.app.appstore/u0a88, isShadow:false}
+    createTime=-47m26s477ms startingBgTimeout=--
+    lastActivity=-1m33s146ms restartTime=-47m26s477ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=14
+, isShadow:false
+
+  * ServiceRecord{86d695 u0 com.android.browser/org.chromium.chrome.browser.download.DownloadService, isShadow:false}
+    intent={FromType=0xffffffff mCallingUid=10046 cmp=com.android.browser/org.chromium.chrome.browser.download.DownloadService}
+    packageName=com.android.browser
+    processName=com.android.browser
+    baseDir=/system/app/Browser/Browser.apk
+    dataDir=/data/user/0/com.android.browser
+    app=ProcessRecord{42b2f3d 2187:com.android.browser/u0a46, isShadow:false}
+    createTime=-47m43s298ms startingBgTimeout=--
+    lastActivity=-47m43s298ms restartTime=-47m43s298ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+, isShadow:false
+
+  * ServiceRecord{fcf780e u0 com.tencent.mm/.ipcinvoker.wx_extension.service.SupportProcessIPCService, isShadow:false}
+    intent={FromType=0xffffffff mCallingUid=10134 cmp=com.tencent.mm/.ipcinvoker.wx_extension.service.SupportProcessIPCService}
+    packageName=com.tencent.mm
+    processName=com.tencent.mm:support
+    baseDir=/data/app/com.tencent.mm-1/base.apk
+    dataDir=/data/user/0/com.tencent.mm
+    app=ProcessRecord{2a4de09 6298:com.tencent.mm:support/u0a134, isShadow:false}
+    createTime=-43m37s365ms startingBgTimeout=--
+    lastActivity=-43m37s308ms restartTime=-43m37s308ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{c62ca2 CREATE}:
+      intent={FromType=0xffffffff mCallingUid=10134 cmp=com.tencent.mm/.ipcinvoker.wx_extension.service.SupportProcessIPCService}
+      binder=android.os.BinderProxy@d468d33
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{e81d8f0 ProcessRecord{af14cd0 6028:com.tencent.mm/u0a134, isShadow:false}}
+        Per-process Connections:
+          ConnectionRecord{1d68310 u0 CR WPRI com.tencent.mm/.ipcinvoker.wx_extension.service.SupportProcessIPCService:@6f90bd3}
+    All Connections:
+      ConnectionRecord{1d68310 u0 CR WPRI com.tencent.mm/.ipcinvoker.wx_extension.service.SupportProcessIPCService:@6f90bd3}
+, isShadow:false
+
+  * ServiceRecord{208fbe u0 com.android.systemui/.SystemUIService, isShadow:false}
+    intent={FromType=0xffffffff mCallingUid=1000 cmp=com.android.systemui/.SystemUIService}
+    packageName=com.android.systemui
+    processName=com.android.systemui
+    baseDir=/system/priv-app/SystemUI/SystemUI.apk
+    dataDir=/data/user/0/com.android.systemui
+    app=ProcessRecord{79d0740 1629:com.android.systemui/u0a38, isShadow:false}
+    createTime=-47m48s174ms startingBgTimeout=--
+    lastActivity=-47m48s135ms restartTime=-47m48s135ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+, isShadow:false
+
+  * ServiceRecord{2199877 u0 android/.hardware.location.GeofenceHardwareService, isShadow:false}
+    intent={FromType=0xffffffff mCallingUid=1000 cmp=android/.hardware.location.GeofenceHardwareService}
+    packageName=android
+    processName=system
+    permission=android.permission.LOCATION_HARDWARE
+    baseDir=/system/framework/framework-res.apk
+    dataDir=/data/system
+    app=ProcessRecord{10a63b2 1125:system/1000, isShadow:false}
+    createTime=-47m45s402ms startingBgTimeout=--
+    lastActivity=-47m45s402ms restartTime=-47m45s402ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{702ae69 CREATE}:
+      intent={FromType=0xffffffff mCallingUid=1000 cmp=android/.hardware.location.GeofenceHardwareService}
+      binder=android.hardware.location.GeofenceHardwareService$1@b7e70ee
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{152c98f ProcessRecord{10a63b2 1125:system/1000, isShadow:false}}
+        Per-process Connections:
+          ConnectionRecord{f850a76 u0 CR android/.hardware.location.GeofenceHardwareService:@fd51911}
+    All Connections:
+      ConnectionRecord{f850a76 u0 CR android/.hardware.location.GeofenceHardwareService:@fd51911}
+, isShadow:false
+
+  * ServiceRecord{cb81bfb u0 com.letv.android.phonecontrol/.client.PhoneControlService, isShadow:false}
+    intent={FromType=0xffffffff mCallingUid=10022 cmp=com.letv.android.phonecontrol/.client.PhoneControlService}
+    packageName=com.letv.android.phonecontrol
+    processName=com.letv.android.phonecontrol
+    permission=com.letv.android.phonecontrol.permisson.PHONE_CONTROL
+    baseDir=/system/priv-app/LetvPhoneControl/LetvPhoneControl.apk
+    dataDir=/data/user/0/com.letv.android.phonecontrol
+    app=ProcessRecord{583fa17 2111:com.letv.android.phonecontrol/u0a22, isShadow:false}
+    createTime=-47m20s355ms startingBgTimeout=--
+    lastActivity=-47m20s355ms restartTime=-47m20s355ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+, isShadow:false
+
+  * ServiceRecord{b3adf14 u0 com.letv.android.themestore/.service.TrialService, isShadow:false}
+    intent={FromType=0xffffffff mCallingUid=10090 cmp=com.letv.android.themestore/.service.TrialService}
+    packageName=com.letv.android.themestore
+    processName=com.letv.android.themestore
+    baseDir=/system/app/LetvThemeStore2/LetvThemeStore2.apk
+    dataDir=/data/user/0/com.letv.android.themestore
+    app=ProcessRecord{cee6484 3804:com.letv.android.themestore/u0a90, isShadow:false}
+    createTime=-47m25s603ms startingBgTimeout=-47m10s601ms
+    lastActivity=-47m25s603ms restartTime=-47m25s603ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+, isShadow:false
+
+  * ServiceRecord{6228648 u0 com.letv.android.ota/.service.UpdateService, isShadow:false}
+    intent={act=com.letv.android.ota.ACTION_BOOT_COMPLETED FromType=0xffffffff mCallingUid=10081 cmp=com.letv.android.ota/.service.UpdateService}
+    packageName=com.letv.android.ota
+    processName=com.letv.android.ota
+    baseDir=/system/app/LetvOta/LetvOta.apk
+    dataDir=/data/user/0/com.letv.android.ota
+    app=ProcessRecord{b06b48a 4751:com.letv.android.ota/u0a81, isShadow:false}
+    createTime=-47m16s928ms startingBgTimeout=-47m1s926ms
+    lastActivity=-47m16s928ms restartTime=-47m16s928ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=true callStart=true lastStartId=1
+, isShadow:false
+
+  * ServiceRecord{943c635 u0 com.android.server.telecom/.components.BluetoothPhoneService, isShadow:false}
+    intent={FromType=0xffffffff mCallingUid=1000 cmp=com.android.server.telecom/.components.BluetoothPhoneService}
+    packageName=com.android.server.telecom
+    processName=system
+    baseDir=/system/priv-app/Telecom/Telecom.apk
+    dataDir=/data/user/0/com.android.server.telecom
+    app=ProcessRecord{10a63b2 1125:system/1000, isShadow:false}
+    createTime=-47m43s879ms startingBgTimeout=--
+    lastActivity=-47m43s879ms restartTime=-47m43s879ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+, isShadow:false
+
+  * ServiceRecord{3fb6185 u0 com.huaqin.factoryservice/.FactorySetService, isShadow:false}
+    intent={FromType=0xffffffff mCallingUid=1000 cmp=com.huaqin.factoryservice/.FactorySetService}
+    packageName=com.huaqin.factoryservice
+    processName=com.huaqin.factoryservice
+    baseDir=/system/priv-app/FactoryServiceHQ/FactoryServiceHQ.apk
+    dataDir=/data/user/0/com.huaqin.factoryservice
+    app=ProcessRecord{ca714f7 5064:com.huaqin.factoryservice/1000, isShadow:false}
+    createTime=-47m14s125ms startingBgTimeout=-46m59s123ms
+    lastActivity=-47m14s125ms restartTime=-47m14s125ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+, isShadow:false
+
+  * ServiceRecord{795f6dd u0 com.letv.android.powercontroller/.MainService, isShadow:false}
+    intent={FromType=0xffffffff mCallingUid=10010 cmp=com.letv.android.powercontroller/.MainService}
+    packageName=com.letv.android.powercontroller
+    processName=com.letv.android.phonecontrol
+    baseDir=/system/priv-app/LetvPowerController/LetvPowerController.apk
+    dataDir=/data/user/0/com.letv.android.powercontroller
+    app=ProcessRecord{583fa17 2111:com.letv.android.phonecontrol/u0a22, isShadow:false}
+    createTime=-47m38s947ms startingBgTimeout=--
+    lastActivity=-33m0s374ms restartTime=-47m38s947ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+    Bindings:
+    * IntentBindRecord{d43941c CREATE}:
+      intent={FromType=0xffffffff mCallingUid=10010 cmp=com.letv.android.powercontroller/.MainService}
+      binder=android.os.BinderProxy@68ec825
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{d64adfa ProcessRecord{79d0740 1629:com.android.systemui/u0a38, isShadow:false}}
+        Per-process Connections:
+          ConnectionRecord{7c30cc1 u0 CR com.letv.android.powercontroller/.MainService:@e99d9a8}
+      * Client AppBindRecord{a3c6fab ProcessRecord{8d6150f 2147:com.android.launcher3/u0a10, isShadow:false}}
+        Per-process Connections:
+          ConnectionRecord{ff3eab4 u0 CR com.letv.android.powercontroller/.MainService:@43a7b87}
+    All Connections:
+      ConnectionRecord{ff3eab4 u0 CR com.letv.android.powercontroller/.MainService:@43a7b87}
+      ConnectionRecord{7c30cc1 u0 CR com.letv.android.powercontroller/.MainService:@e99d9a8}
+, isShadow:false
+
+  * ServiceRecord{48da6d2 u0 com.letv.bsp.crashhandler/.CrashHandleService, isShadow:false}
+    intent={act=letv.intent.action.crashhandler.MONITOR_CRASH FromType=0xffffffff mCallingUid=1000 cmp=com.letv.bsp.crashhandler/.CrashHandleService}
+    packageName=com.letv.bsp.crashhandler
+    processName=com.letv.bsp.crashhandler
+    baseDir=/system/priv-app/LetvCrashHandler/LetvCrashHandler.apk
+    dataDir=/data/user/0/com.letv.bsp.crashhandler
+    app=ProcessRecord{847c021 4295:com.letv.bsp.crashhandler/1000, isShadow:false}
+    createTime=-47m21s38ms startingBgTimeout=-47m6s36ms
+    lastActivity=-47m21s38ms restartTime=-47m21s38ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+, isShadow:false
+
+  * ServiceRecord{2ea1b27 u0 com.android.server.telecom/.components.TelecomService, isShadow:false}
+    intent={act=com.android.ITelecomService FromType=0xffffffff mCallingUid=1000 cmp=com.android.server.telecom/.components.TelecomService}
+    packageName=com.android.server.telecom
+    processName=system
+    baseDir=/system/priv-app/Telecom/Telecom.apk
+    dataDir=/data/user/0/com.android.server.telecom
+    app=ProcessRecord{10a63b2 1125:system/1000, isShadow:false}
+    createTime=-47m48s497ms startingBgTimeout=--
+    lastActivity=-47m48s497ms restartTime=-47m48s497ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{f03d608 CREATE}:
+      intent={act=com.android.ITelecomService FromType=0xffffffff mCallingUid=1000 cmp=com.android.server.telecom/.components.TelecomService}
+      binder=com.android.server.telecom.TelecomServiceImpl$1@208c1a1
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{c3fafc6 ProcessRecord{10a63b2 1125:system/1000, isShadow:false}}
+        Per-process Connections:
+          ConnectionRecord{af029e6 u0 CR IMP FGS com.android.server.telecom/.components.TelecomService:@ee45041}
+    All Connections:
+      ConnectionRecord{af029e6 u0 CR IMP FGS com.android.server.telecom/.components.TelecomService:@ee45041}
+, isShadow:false
+
+  * ServiceRecord{2f86d69 u0 com.android.providers.media/.MtpService, isShadow:false}
+    intent={FromType=0xffffffff mCallingUid=10007 cmp=com.android.providers.media/.MtpService}
+    packageName=com.android.providers.media
+    processName=android.process.media
+    baseDir=/system/priv-app/MediaProvider/MediaProvider.apk
+    dataDir=/data/user/0/com.android.providers.media
+    app=ProcessRecord{ebefdf9 2521:android.process.media/u0a7, isShadow:false}
+    createTime=-19m31s281ms startingBgTimeout=--
+    lastActivity=-19m31s263ms restartTime=-19m31s281ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=true callStart=true lastStartId=1
+    Delivered Starts:
+    #0 id=1 dur=-19m31s280ms dxc=1
+      intent=Intent { FromType=0xffffffff mCallingUid=10007 cmp=com.android.providers.media/.MtpService (has extras) }
+    Bindings:
+    * IntentBindRecord{7d05b87 CREATE}:
+      intent={FromType=0xffffffff mCallingUid=10007 cmp=com.android.providers.media/.MtpService}
+      binder=android.os.BinderProxy@1044ab4
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{8ced6dd ProcessRecord{ebefdf9 2521:android.process.media/u0a7, isShadow:false}}
+        Per-process Connections:
+          ConnectionRecord{c04208f u0 CR com.android.providers.media/.MtpService:@d52c3ee}
+    All Connections:
+      ConnectionRecord{c04208f u0 CR com.android.providers.media/.MtpService:@d52c3ee}
+, isShadow:false
+
+  * ServiceRecord{acff48f u0 com.dolby/.dax.service.DsService, isShadow:false}
+    intent={act=com.dolby.api.IDs FromType=0xffffffff mCallingUid=10022 cmp=com.dolby/.dax.service.DsService}
+    packageName=com.dolby
+    processName=com.dolby
+    baseDir=/system/vendor/app/Ds2/Ds2.apk
+    dataDir=/data/user/0/com.dolby
+    app=ProcessRecord{bfd7fed 2128:com.dolby/1000, isShadow:false}
+    createTime=-47m22s971ms startingBgTimeout=--
+    lastActivity=-47m15s34ms restartTime=-47m22s971ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+    Bindings:
+    * IntentBindRecord{1770252 CREATE}:
+      intent={act=com.dolby.api.IDs FromType=0xffffffff mCallingUid=10022 cmp=com.dolby/.dax.service.DsService}
+      binder=android.os.BinderProxy@fcd2923
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{f55e20 ProcessRecord{583fa17 2111:com.letv.android.phonecontrol/u0a22, isShadow:false}}
+        Per-process Connections:
+          ConnectionRecord{35967ee u0 CR com.dolby/.dax.service.DsService:@232169}
+    All Connections:
+      ConnectionRecord{35967ee u0 CR com.dolby/.dax.service.DsService:@232169}
+, isShadow:false
+
+  * ServiceRecord{4addca6 u0 com.letv.android.quicksearchbox/.service.LocalService, isShadow:false}
+    intent={FromType=0xffffffff mCallingUid=10121 cmp=com.letv.android.quicksearchbox/.service.LocalService}
+    packageName=com.letv.android.quicksearchbox
+    processName=com.letv.android.quicksearchbox
+    baseDir=/system/app/supersearch/supersearch.apk
+    dataDir=/data/user/0/com.letv.android.quicksearchbox
+    app=ProcessRecord{94b4ea3 5439:com.letv.android.quicksearchbox/u0a121, isShadow:false}
+    createTime=-45m51s896ms startingBgTimeout=-45m36s894ms
+    lastActivity=-45m51s896ms restartTime=-45m51s896ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+, isShadow:false
+
+  * ServiceRecord{8d4e320 u0 com.android.VRAdmin/.VRAdminService, isShadow:false}
+    intent={FromType=0xffffffff mCallingUid=10113 cmp=com.android.VRAdmin/.VRAdminService}
+    packageName=com.android.VRAdmin
+    processName=com.android.VRAdmin
+    baseDir=/system/app/VRAdmin/VRAdmin.apk
+    dataDir=/data/user/0/com.android.VRAdmin
+    app=ProcessRecord{257bf52 4928:com.android.VRAdmin/u0a113, isShadow:false}
+    createTime=-47m15s473ms startingBgTimeout=-47m0s471ms
+    lastActivity=-47m15s473ms restartTime=-47m15s473ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+, isShadow:false
+
+  * ServiceRecord{3ba1415 u0 com.android.mms/.TmSDKSecureService, isShadow:false}
+    intent={FromType=0xffffffff mCallingUid=10020 cmp=com.android.mms/.TmSDKSecureService}
+    packageName=com.android.mms
+    processName=com.android.mms
+    baseDir=/data/app/com.android.mms-1/base.apk
+    dataDir=/data/user/0/com.android.mms
+    app=ProcessRecord{971cb2f 3961:com.android.mms/u0a20, isShadow:false}
+    createTime=-47m23s689ms startingBgTimeout=-47m8s687ms
+    lastActivity=-47m23s689ms restartTime=-47m23s689ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=true callStart=true lastStartId=1
+, isShadow:false
+
+  * ServiceRecord{477cc19 u0 com.android.music/.play.MediaPlaybackService, isShadow:false}
+    intent={act=com.letv.music.musicservicecommand.refresh FromType=0xffffffff mCallingUid=10080 cmp=com.android.music/.play.MediaPlaybackService}
+    packageName=com.android.music
+    processName=com.android.music
+    baseDir=/system/app/LetvMusic/LetvMusic.apk
+    dataDir=/data/user/0/com.android.music
+    app=ProcessRecord{9477df5 2648:com.android.music/u0a80, isShadow:false}
+    isForeground=true foregroundId=0 foregroundNoti=null
+    createTime=-7m37s320ms startingBgTimeout=-7m22s318ms
+    lastActivity=-37s723ms restartTime=-7m37s320ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=true callStart=true lastStartId=21
+, isShadow:false
+
+  * ServiceRecord{def7143 u0 com.android.location.fused/.FusedLocationService, isShadow:false}
+    intent={act=com.android.location.service.FusedLocationProvider FromType=0xffffffff mCallingUid=1000 pkg=com.android.location.fused}
+    packageName=com.android.location.fused
+    processName=system
+    permission=android.permission.WRITE_SECURE_SETTINGS
+    baseDir=/system/priv-app/FusedLocation/FusedLocation.apk
+    dataDir=/data/user/0/com.android.location.fused
+    app=ProcessRecord{10a63b2 1125:system/1000, isShadow:false}
+    createTime=-47m45s678ms startingBgTimeout=--
+    lastActivity=-47m45s678ms restartTime=-47m45s678ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{7e703d9 CREATE}:
+      intent={act=com.android.location.service.FusedLocationProvider FromType=0xffffffff mCallingUid=1000 pkg=com.android.location.fused}
+      binder=com.android.location.provider.LocationProviderBase$Service@35ef19e
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{b3f347f ProcessRecord{10a63b2 1125:system/1000, isShadow:false}}
+        Per-process Connections:
+          ConnectionRecord{c52d6f2 u0 CR !FG !VIS com.android.location.fused/.FusedLocationService:@55899fd}
+    All Connections:
+      ConnectionRecord{c52d6f2 u0 CR !FG !VIS com.android.location.fused/.FusedLocationService:@55899fd}
+, isShadow:false
+
+  * ServiceRecord{8f36dd9 u0 com.mediatek.atci.service/.AtciService, isShadow:false}
+    intent={FromType=0xffffffff mCallingUid=1000 cmp=com.mediatek.atci.service/.AtciService}
+    packageName=com.mediatek.atci.service
+    processName=com.mediatek.atci.service
+    baseDir=/system/app/AtciService/AtciService.apk
+    dataDir=/data/user/0/com.mediatek.atci.service
+    app=ProcessRecord{e415225 4462:com.mediatek.atci.service/1000, isShadow:false}
+    createTime=-47m19s349ms startingBgTimeout=-47m4s347ms
+    lastActivity=-47m19s349ms restartTime=-47m19s349ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+, isShadow:false
+
+  * ServiceRecord{fd004e1 u0 com.sohu.inputmethod.sogou.leshi/com.sohu.inputmethod.settings.status.SogouStatusService, isShadow:false}
+    intent={FromType=0xffffffff mCallingUid=10111 cmp=com.sohu.inputmethod.sogou.leshi/com.sohu.inputmethod.settings.status.SogouStatusService}
+    packageName=com.sohu.inputmethod.sogou.leshi
+    processName=com.sohu.inputmethod.status
+    baseDir=/system/app/SogouInput/SogouInput.apk
+    dataDir=/data/user/0/com.sohu.inputmethod.sogou.leshi
+    app=ProcessRecord{c602c3a 6605:com.sohu.inputmethod.status/u0a111, isShadow:false}
+    createTime=-41m19s327ms startingBgTimeout=-41m4s309ms
+    lastActivity=-41m14s875ms restartTime=-41m19s190ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=2
+, isShadow:false
+
+  * ServiceRecord{1d0f3e5 u0 com.letv.app.appstore/.thirdGetDownloadInfo.ThirdGetDownloadInfoService, isShadow:false}
+    intent={act=com.letv.mobile.appstore.AppStoreDownloadInterface FromType=0xffffffff mCallingUid=10010 pkg=com.letv.app.appstore cmp=com.letv.app.appstore/.thirdGetDownloadInfo.ThirdGetDownloadInfoService}
+    packageName=com.letv.app.appstore
+    processName=com.letv.app.appstore
+    baseDir=/system/app/LetvStore/LetvStore.apk
+    dataDir=/data/user/0/com.letv.app.appstore
+    app=ProcessRecord{14199bd 2369:com.letv.app.appstore/u0a88, isShadow:false}
+    createTime=-47m43s134ms startingBgTimeout=--
+    lastActivity=-47m33s406ms restartTime=-47m42s812ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=2
+    Bindings:
+    * IntentBindRecord{5223c4c CREATE}:
+      intent={act=com.letv.mobile.appstore.AppStoreDownloadInterface FromType=0xffffffff mCallingUid=10010 pkg=com.letv.app.appstore cmp=com.letv.app.appstore/.thirdGetDownloadInfo.ThirdGetDownloadInfoService}
+      binder=android.os.BinderProxy@cbb0495
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{74489aa ProcessRecord{8d6150f 2147:com.android.launcher3/u0a10, isShadow:false}}
+        Per-process Connections:
+          ConnectionRecord{303eb67 u0 CR com.letv.app.appstore/.thirdGetDownloadInfo.ThirdGetDownloadInfoService:@58a1326}
+    * IntentBindRecord{d9c999b CREATE}:
+      intent={act=com.letv.mobile.appstore.AppStoreDownloadInterface FromType=0xffffffff mCallingUid=10010 cmp=com.letv.app.appstore/.thirdGetDownloadInfo.ThirdGetDownloadInfoService}
+      binder=android.os.BinderProxy@b5cd138
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{7945511 ProcessRecord{8d6150f 2147:com.android.launcher3/u0a10, isShadow:false}}
+        Per-process Connections:
+          ConnectionRecord{12378f0 u0 CR com.letv.app.appstore/.thirdGetDownloadInfo.ThirdGetDownloadInfoService:@4eaad33}
+          ConnectionRecord{bec8fa1 u0 CR com.letv.app.appstore/.thirdGetDownloadInfo.ThirdGetDownloadInfoService:@1fe1c08}
+    All Connections:
+      ConnectionRecord{bec8fa1 u0 CR com.letv.app.appstore/.thirdGetDownloadInfo.ThirdGetDownloadInfoService:@1fe1c08}
+      ConnectionRecord{12378f0 u0 CR com.letv.app.appstore/.thirdGetDownloadInfo.ThirdGetDownloadInfoService:@4eaad33}
+      ConnectionRecord{303eb67 u0 CR com.letv.app.appstore/.thirdGetDownloadInfo.ThirdGetDownloadInfoService:@58a1326}
+, isShadow:false
+
+  * ServiceRecord{ff6f9ab u0 com.android.inputmethod.latin/.spellcheck.AndroidSpellCheckerService, isShadow:false}
+    intent={act=android.service.textservice.SpellCheckerService FromType=0xffffffff mCallingUid=1000 cmp=com.android.inputmethod.latin/.spellcheck.AndroidSpellCheckerService}
+    packageName=com.android.inputmethod.latin
+    processName=com.android.inputmethod.latin
+    permission=android.permission.BIND_TEXT_SERVICE
+    baseDir=/system/app/LatinIME/LatinIME.apk
+    dataDir=/data/user/0/com.android.inputmethod.latin
+    app=ProcessRecord{26c5af0 8476:com.android.inputmethod.latin/u0a61, isShadow:false}
+    createTime=-29m28s617ms startingBgTimeout=--
+    lastActivity=-29m28s617ms restartTime=-29m28s617ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{8399676 CREATE}:
+      intent={act=android.service.textservice.SpellCheckerService FromType=0xffffffff mCallingUid=1000 cmp=com.android.inputmethod.latin/.spellcheck.AndroidSpellCheckerService}
+      binder=android.os.BinderProxy@1a13477
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{aa9c8e4 ProcessRecord{10a63b2 1125:system/1000, isShadow:false}}
+        Per-process Connections:
+          ConnectionRecord{6ab1ffa u0 CR FGSA com.android.inputmethod.latin/.spellcheck.AndroidSpellCheckerService:@bffc225}
+    All Connections:
+      ConnectionRecord{6ab1ffa u0 CR FGSA com.android.inputmethod.latin/.spellcheck.AndroidSpellCheckerService:@bffc225}
+, isShadow:false
+
+  * ServiceRecord{da85d66 u0 com.letv.android.powercontroller/com.letv.android.ringtonemanager.LeUIRingtoneSettingService, isShadow:false}
+    intent={FromType=0xffffffff mCallingUid=10022 cmp=com.letv.android.powercontroller/com.letv.android.ringtonemanager.LeUIRingtoneSettingService}
+    packageName=com.letv.android.powercontroller
+    processName=com.letv.android.phonecontrol
+    baseDir=/system/priv-app/LetvPowerController/LetvPowerController.apk
+    dataDir=/data/user/0/com.letv.android.powercontroller
+    app=ProcessRecord{583fa17 2111:com.letv.android.phonecontrol/u0a22, isShadow:false}
+    createTime=-47m23s83ms startingBgTimeout=--
+    lastActivity=-47m23s83ms restartTime=-47m23s83ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+, isShadow:false
+
+  * ServiceRecord{5ac2572 u0 com.letv.android.freeflow/.aidl.FreeFlowService, isShadow:false}
+    intent={FromType=0xffffffff mCallingUid=10088 cmp=com.letv.android.freeflow/.aidl.FreeFlowService}
+    packageName=com.letv.android.freeflow
+    processName=com.letv.android.freeflow
+    baseDir=/system/priv-app/LeFreeFlow/LeFreeFlow.apk
+    dataDir=/data/user/0/com.letv.android.freeflow
+    app=ProcessRecord{4a31fca 2081:com.letv.android.freeflow/u0a12, isShadow:false}
+    createTime=-47m40s592ms startingBgTimeout=--
+    lastActivity=-47m40s452ms restartTime=-47m40s592ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{9d8314d CREATE}:
+      intent={FromType=0xffffffff mCallingUid=10088 cmp=com.letv.android.freeflow/.aidl.FreeFlowService}
+      binder=android.os.BinderProxy@ea0a402
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{7eaa113 ProcessRecord{14199bd 2369:com.letv.app.appstore/u0a88, isShadow:false}}
+        Per-process Connections:
+          ConnectionRecord{5e0ddc3 u0 CR com.letv.android.freeflow/.aidl.FreeFlowService:@100b0d4}
+          ConnectionRecord{b24127d u0 CR com.letv.android.freeflow/.aidl.FreeFlowService:@100b0d4}
+    All Connections:
+      ConnectionRecord{b24127d u0 CR com.letv.android.freeflow/.aidl.FreeFlowService:@100b0d4}
+      ConnectionRecord{5e0ddc3 u0 CR com.letv.android.freeflow/.aidl.FreeFlowService:@100b0d4}
+, isShadow:false
+
+  * ServiceRecord{680bdee u0 com.mediatek.nlpservice/.NlpService, isShadow:false}
+    intent={FromType=0xffffffff mCallingUid=1000 cmp=com.mediatek.nlpservice/.NlpService}
+    packageName=com.mediatek.nlpservice
+    processName=com.mediatek.nlpservice
+    baseDir=/system/app/NlpService/NlpService.apk
+    dataDir=/data/user/0/com.mediatek.nlpservice
+    app=ProcessRecord{cbb6e96 2099:com.mediatek.nlpservice/1000, isShadow:false}
+    createTime=-47m16s17ms startingBgTimeout=--
+    lastActivity=-47m16s17ms restartTime=-47m16s17ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+, isShadow:false
+
+  * ServiceRecord{224e36c u0 com.android.phone/.TelephonyDebugService, isShadow:false}
+    intent={FromType=0xffffffff mCallingUid=1001 cmp=com.android.phone/.TelephonyDebugService}
+    packageName=com.android.phone
+    processName=com.android.phone
+    baseDir=/system/priv-app/TeleService/TeleService.apk
+    dataDir=/data/user/0/com.android.phone
+    app=ProcessRecord{4443907 1713:com.android.phone/1001, isShadow:false}
+    createTime=-47m42s321ms startingBgTimeout=--
+    lastActivity=-47m42s321ms restartTime=-47m42s321ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+, isShadow:false
+
+  * ServiceRecord{a6494a1 u0 se.dirac.acs/.AudioControlService, isShadow:false}
+    intent={FromType=0xffffffff mCallingUid=10055 cmp=se.dirac.acs/.AudioControlService}
+    packageName=se.dirac.acs
+    processName=se.dirac.acs
+    baseDir=/system/app/DiracAudioControlService/DiracAudioControlService.apk
+    dataDir=/data/user/0/se.dirac.acs
+    app=ProcessRecord{f53f9b1 2093:se.dirac.acs/u0a52, isShadow:false}
+    createTime=-47m22s839ms startingBgTimeout=--
+    lastActivity=-47m21s828ms restartTime=-47m22s839ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=2
+    Bindings:
+    * IntentBindRecord{3ac8f50}:
+      intent={FromType=0xffffffff mCallingUid=10055 cmp=se.dirac.acs/.AudioControlService}
+      binder=android.os.BinderProxy@c039549
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{478fe4e ProcessRecord{26f6997 4123:se.dirac.examples.effectservice/u0a55, isShadow:false}}
+        Per-process Connections:
+          ConnectionRecord{fe479b4 u0 se.dirac.acs/.AudioControlService:@867e687}
+    All Connections:
+      ConnectionRecord{fe479b4 u0 se.dirac.acs/.AudioControlService:@867e687}
+, isShadow:false
+
+  * ServiceRecord{4caa946 u0 com.mediatek.gba/.GbaService, isShadow:false}
+    intent={FromType=0xffffffff mCallingUid=1001 cmp=com.mediatek.gba/.GbaService}
+    packageName=com.mediatek.gba
+    processName=com.mediatek.gba
+    baseDir=/system/app/Gba/Gba.apk
+    dataDir=/data/user/0/com.mediatek.gba
+    app=ProcessRecord{681661f 2044:com.mediatek.gba/1001, isShadow:false}
+    createTime=-47m44s780ms startingBgTimeout=--
+    lastActivity=-47m44s780ms restartTime=-47m44s780ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+, isShadow:false
+
+  Connection bindings to services:
+  * ConnectionRecord{1463910 u0 CR !FG !VIS com.tencent.android.location/com.tencent.geolocation.flp.TencentLocationService:@1dd9d3}
+    binding=AppBindRecord{63989f4 com.tencent.android.location/com.tencent.geolocation.flp.TencentLocationService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@1dd9d3 flags=0x40000005
+  * ConnectionRecord{35967ee u0 CR com.dolby/.dax.service.DsService:@232169}
+    binding=AppBindRecord{f55e20 com.dolby/.dax.service.DsService:com.letv.android.phonecontrol}
+    conn=android.os.BinderProxy@232169 flags=0x1
+  * ConnectionRecord{86ca5d u0 CR com.letv.agnes/.service.ReportService:@9ddc34}
+    binding=AppBindRecord{d52fda7 com.letv.agnes/.service.ReportService:com.android.settings}
+    conn=android.os.BinderProxy@9ddc34 flags=0x1
+  * ConnectionRecord{e2684b0 u0 CR com.letv.agnes/.service.ReportService:@a78ff3}
+    binding=AppBindRecord{8bda9a com.letv.agnes/.service.ReportService:com.letv.android.usagestats}
+    conn=android.os.BinderProxy@a78ff3 flags=0x1
+  * ConnectionRecord{b24127d u0 CR com.letv.android.freeflow/.aidl.FreeFlowService:@100b0d4}
+    binding=AppBindRecord{7eaa113 com.letv.android.freeflow/.aidl.FreeFlowService:com.letv.app.appstore}
+    conn=android.os.BinderProxy@100b0d4 flags=0x1
+  * ConnectionRecord{5e0ddc3 u0 CR com.letv.android.freeflow/.aidl.FreeFlowService:@100b0d4}
+    binding=AppBindRecord{7eaa113 com.letv.android.freeflow/.aidl.FreeFlowService:com.letv.app.appstore}
+    conn=android.os.BinderProxy@100b0d4 flags=0x1
+  * ConnectionRecord{21bd8cf u0 CR com.tencent.mm/.plugin.sport.service.SportService:@111352e}
+    binding=AppBindRecord{4d5824 com.tencent.mm/.plugin.sport.service.SportService:com.tencent.mm}
+    conn=android.os.BinderProxy@111352e flags=0x1
+  * ConnectionRecord{4dd3705 u0 CR com.tencent.mm/.plugin.appbrand.ipc.AppBrandMainProcessService:@1dcf27c}
+    binding=AppBindRecord{78457ec com.tencent.mm/.plugin.appbrand.ipc.AppBrandMainProcessService:com.tencent.mm:tools}
+    conn=android.os.BinderProxy@1dcf27c flags=0x1
+  * ConnectionRecord{87b32df u0 CR com.letv.agnes/.service.ReportService:@1ec6d7e}
+    binding=AppBindRecord{5432fcb com.letv.agnes/.service.ReportService:com.android.deskclock}
+    conn=android.os.BinderProxy@1ec6d7e flags=0x1
+  * ConnectionRecord{bec8fa1 u0 CR com.letv.app.appstore/.thirdGetDownloadInfo.ThirdGetDownloadInfoService:@1fe1c08}
+    binding=AppBindRecord{7945511 com.letv.app.appstore/.thirdGetDownloadInfo.ThirdGetDownloadInfoService:com.android.launcher3}
+    conn=android.os.BinderProxy@1fe1c08 flags=0x1
+  * ConnectionRecord{f6a5a21 u0 CR UI com.android.systemui/.ImageWallpaper:@2028088}
+    binding=AppBindRecord{401e953 com.android.systemui/.ImageWallpaper:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@2028088 flags=0x20000001
+  * ConnectionRecord{389c486 u0 CR com.letv.agnes/.service.ReportService:@20f3161}
+    binding=AppBindRecord{a9a4345 com.letv.agnes/.service.ReportService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@20f3161 flags=0x1
+  * ConnectionRecord{296826a u0 CR com.letv.agnes/.service.ReportService:@20f3161}
+    binding=AppBindRecord{a9a4345 com.letv.agnes/.service.ReportService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@20f3161 flags=0x1
+  * ConnectionRecord{59b4eca u0 CR com.letv.agnes/.service.ReportService:@20f3161}
+    binding=AppBindRecord{a9a4345 com.letv.agnes/.service.ReportService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@20f3161 flags=0x1
+  * ConnectionRecord{dbd960b u0 CR com.letv.agnes/.service.ReportService:@20f3161}
+    binding=AppBindRecord{a9a4345 com.letv.agnes/.service.ReportService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@20f3161 flags=0x1
+  * ConnectionRecord{dafbcdd u0 CR com.letv.agnes/.service.ReportService:@20f3161}
+    binding=AppBindRecord{a9a4345 com.letv.agnes/.service.ReportService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@20f3161 flags=0x1
+  * ConnectionRecord{96714bf u0 CR com.letv.agnes/.service.ReportService:@2352ade}
+    binding=AppBindRecord{4ceffc0 com.letv.agnes/.service.ReportService:com.android.systemui:imagewallpaper}
+    conn=android.os.BinderProxy@2352ade flags=0x1
+  * ConnectionRecord{262f7a5 u0 CR com.letv.agnes/.service.ReportService:@314d19c}
+    binding=AppBindRecord{92a95fd com.letv.agnes/.service.ReportService:com.android.mms}
+    conn=android.os.BinderProxy@314d19c flags=0x1
+  * ConnectionRecord{d9c156e u0 CR WPRI com.tencent.mm/.ipcinvoker.wx_extension.service.MainProcessIPCService:@33614e9}
+    binding=AppBindRecord{3a3fad5 com.tencent.mm/.ipcinvoker.wx_extension.service.MainProcessIPCService:com.tencent.mm:support}
+    conn=android.os.BinderProxy@33614e9 flags=0x21
+  * ConnectionRecord{de6cca2 u0 CR com.letv.agnes/.service.ReportService:@371186d}
+    binding=AppBindRecord{bc91254 com.letv.agnes/.service.ReportService:com.android.music}
+    conn=android.os.BinderProxy@371186d flags=0x1
+  * ConnectionRecord{a40cbb1 u0 CR com.letv.agnes/.service.ReportService:@3ec7e58}
+    binding=AppBindRecord{ba0cec1 com.letv.agnes/.service.ReportService:com.android.systemui}
+    conn=android.os.BinderProxy@3ec7e58 flags=0x1
+  * ConnectionRecord{ff3eab4 u0 CR com.letv.android.powercontroller/.MainService:@43a7b87}
+    binding=AppBindRecord{a3c6fab com.letv.android.powercontroller/.MainService:com.android.launcher3}
+    conn=android.os.BinderProxy@43a7b87 flags=0x1
+  * ConnectionRecord{3ca4818 u0 CR com.android.systemui/.keyguard.KeyguardService:@4cc1ffb}
+    binding=AppBindRecord{4b66f51 com.android.systemui/.keyguard.KeyguardService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@4cc1ffb flags=0x1
+  * ConnectionRecord{12378f0 u0 CR com.letv.app.appstore/.thirdGetDownloadInfo.ThirdGetDownloadInfoService:@4eaad33}
+    binding=AppBindRecord{7945511 com.letv.app.appstore/.thirdGetDownloadInfo.ThirdGetDownloadInfoService:com.android.launcher3}
+    conn=android.os.BinderProxy@4eaad33 flags=0x1
+  * ConnectionRecord{c52d6f2 u0 CR !FG !VIS com.android.location.fused/.FusedLocationService:@55899fd}
+    binding=AppBindRecord{b3f347f com.android.location.fused/.FusedLocationService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@55899fd flags=0x40000005
+  * ConnectionRecord{303eb67 u0 CR com.letv.app.appstore/.thirdGetDownloadInfo.ThirdGetDownloadInfoService:@58a1326}
+    binding=AppBindRecord{74489aa com.letv.app.appstore/.thirdGetDownloadInfo.ThirdGetDownloadInfoService:com.android.launcher3}
+    conn=android.os.BinderProxy@58a1326 flags=0x1
+  * ConnectionRecord{2be18e5 u0 CR com.letv.agnes/.service.ReportService:@5ceafdc}
+    binding=AppBindRecord{8a7cd43 com.letv.agnes/.service.ReportService:com.letv.walletbiz}
+    conn=android.os.BinderProxy@5ceafdc flags=0x1
+  * ConnectionRecord{1d68310 u0 CR WPRI com.tencent.mm/.ipcinvoker.wx_extension.service.SupportProcessIPCService:@6f90bd3}
+    binding=AppBindRecord{e81d8f0 com.tencent.mm/.ipcinvoker.wx_extension.service.SupportProcessIPCService:com.tencent.mm}
+    conn=android.os.BinderProxy@6f90bd3 flags=0x21
+  * ConnectionRecord{4412c7 u0 CR com.tencent.mm/.booter.CoreService:@85ebc06}
+    binding=AppBindRecord{e89d516 com.tencent.mm/.booter.CoreService:com.tencent.mm}
+    conn=android.os.BinderProxy@85ebc06 flags=0x1
+  * ConnectionRecord{fe479b4 u0 se.dirac.acs/.AudioControlService:@867e687}
+    binding=AppBindRecord{478fe4e se.dirac.acs/.AudioControlService:se.dirac.examples.effectservice}
+    conn=android.os.BinderProxy@867e687 flags=0x0
+  * ConnectionRecord{4af6e4f u0 CR !FG !VIS com.tencent.android.location/com.tencent.geolocation.flp.TencentLocationService:@907b0ae}
+    binding=AppBindRecord{b25e163 com.tencent.android.location/com.tencent.geolocation.flp.TencentLocationService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@907b0ae flags=0x40000005
+  * ConnectionRecord{296e5b7 u0 CR com.letv.agnes/.service.ReportService:@a1e44b6}
+    binding=AppBindRecord{cbd0666 com.letv.agnes/.service.ReportService:com.android.launcher3}
+    conn=android.os.BinderProxy@a1e44b6 flags=0x1
+  * ConnectionRecord{ab1c3b2 u0 CR WPRI com.tencent.mm/.ipcinvoker.wx_extension.service.MainProcessIPCService:@ae041bd}
+    binding=AppBindRecord{8fce2ea com.tencent.mm/.ipcinvoker.wx_extension.service.MainProcessIPCService:com.tencent.mm:tools}
+    conn=android.os.BinderProxy@ae041bd flags=0x21
+  * ConnectionRecord{cc0b015 u0 CR com.letv.android.supermanager/.aidl.SuperManagerService:@b4d65cc}
+    binding=AppBindRecord{7a836de com.letv.android.supermanager/.aidl.SuperManagerService:com.letv.android.phonecontrol}
+    conn=android.os.BinderProxy@b4d65cc flags=0x1
+  * ConnectionRecord{4d1571a u0 CR com.letv.agnes/.service.ReportService:@bcde1c5}
+    binding=AppBindRecord{a9a4345 com.letv.agnes/.service.ReportService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@bcde1c5 flags=0x1
+  * ConnectionRecord{6ab1ffa u0 CR FGSA com.android.inputmethod.latin/.spellcheck.AndroidSpellCheckerService:@bffc225}
+    binding=AppBindRecord{aa9c8e4 com.android.inputmethod.latin/.spellcheck.AndroidSpellCheckerService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@bffc225 flags=0x2000001
+  * ConnectionRecord{157ba6c u0 com.android.bluetooth/.a2dp.A2dpService:@c41571f}
+    binding=AppBindRecord{2b1f86d com.android.bluetooth/.a2dp.A2dpService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@c41571f flags=0x0
+  * ConnectionRecord{c04208f u0 CR com.android.providers.media/.MtpService:@d52c3ee}
+    binding=AppBindRecord{8ced6dd com.android.providers.media/.MtpService:android.process.media}
+    conn=android.os.BinderProxy@d52c3ee flags=0x1
+  * ConnectionRecord{4cafd31 u0 CR se.dirac.examples.effectservice/.EffectService:@d6285d8}
+    binding=AppBindRecord{663a1bb se.dirac.examples.effectservice/.EffectService:com.letv.android.phonecontrol}
+    conn=android.os.BinderProxy@d6285d8 flags=0x1
+  * ConnectionRecord{362b8eb u0 CR com.letv.agnes/.service.ReportService:@dfd543a}
+    binding=AppBindRecord{f8322f2 com.letv.agnes/.service.ReportService:com.letv.android.ota}
+    conn=android.os.BinderProxy@dfd543a flags=0x1
+  * ConnectionRecord{54d2b96 u0 CR com.letv.agnes/.service.ReportService:@e528ab1}
+    binding=AppBindRecord{c8f94f9 com.letv.agnes/.service.ReportService:com.letv.android.filemanager}
+    conn=android.os.BinderProxy@e528ab1 flags=0x1
+  * ConnectionRecord{2627b20 u0 CR !FG UI !VIS com.koushikdutta.vysor/.VysorIME:@e789a23}
+    binding=AppBindRecord{13e138e com.koushikdutta.vysor/.VysorIME:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@e789a23 flags=0x60000005
+  * ConnectionRecord{7c30cc1 u0 CR com.letv.android.powercontroller/.MainService:@e99d9a8}
+    binding=AppBindRecord{d64adfa com.letv.android.powercontroller/.MainService:com.android.systemui}
+    conn=android.os.BinderProxy@e99d9a8 flags=0x1
+  * ConnectionRecord{af029e6 u0 CR IMP FGS com.android.server.telecom/.components.TelecomService:@ee45041}
+    binding=AppBindRecord{c3fafc6 com.android.server.telecom/.components.TelecomService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@ee45041 flags=0x4000041
+  * ConnectionRecord{a813515 u0 CR FGSA UI com.android.systemui/.ImageWallpaper:@f58decc}
+    binding=AppBindRecord{401e953 com.android.systemui/.ImageWallpaper:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@f58decc flags=0x22000001
+  * ConnectionRecord{c9c0fee u0 CR com.letv.agnes/.service.ReportService:@fa76969}
+    binding=AppBindRecord{82d63a8 com.letv.agnes/.service.ReportService:com.letv.android.phonecontrol}
+    conn=android.os.BinderProxy@fa76969 flags=0x1
+  * ConnectionRecord{f850a76 u0 CR android/.hardware.location.GeofenceHardwareService:@fd51911}
+    binding=AppBindRecord{152c98f android/.hardware.location.GeofenceHardwareService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@fd51911 flags=0x1
+

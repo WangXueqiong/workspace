@@ -1,0 +1,191 @@
+<html>
+<head>
+  <title>f00296.html</title>
+  <link rel="stylesheet" type="text/css" href="themes/blue/style.css"/>
+  <link rel="stylesheet" type="text/css" href="jquery.treeTable.css"/>
+  <link rel="stylesheet" type="text/css" href="jquery.ui.css"/>
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+  <script type="text/javascript" src="jquery.js"></script>
+  <script type="text/javascript" src="jquery.cookie.js"></script>
+  <script type="text/javascript" src="jquery.hotkeys.js"></script>
+  <script type="text/javascript" src="jquery.jstree.js"></script>
+  <script type="text/javascript" src="jquery.tablesorter.js"></script>
+  <script type="text/javascript" src="jquery.tablednd.js"></script>
+  <script type="text/javascript" src="jquery.treeTable.js"></script>
+  <script type="text/javascript" src="jquery.flot.js"></script>
+  <script type="text/javascript" src="jquery.flot.navigate.js"></script>
+  <script type="text/javascript" src="jquery.flot.selection.js"></script>
+  <script type="text/javascript" src="jquery.ui.js"></script>
+  <script type="text/javascript" src="colResizable-1.3.source.js"></script>
+  <script type="text/javascript" src="/self$wsjs"></script>
+  <script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+<a name="ch0"></a><div class="btn-pop-out"><a href="f00296.html#ch0" target="_blank"><img src="ic_pop_out.png"/></a></div><h1>Battery level - interactive chart</h1>
+<h1>!!! UNDER CONSTRUCTION !!!</h1>
+<button id="zoomOutBtn">Zoom out</button>
+<div id="chart" style="width: 800px; height: 400px;"></div>
+<div id="chart3" style="width: 800px; height: 25px;"></div>
+<script type="text/javascript">
+$(function(){
+function fixSize(plot,canvas,expW) {
+  canvas.width(canvas.width() + expW - plot.width());
+  plot.resize();
+  plot.setupGrid();
+  plot.draw();
+}
+function onZoomSelection(event, ranges) {
+  plot = $.plot(chart, data,
+                $.extend(true, {}, options, {
+                    xaxis: { min: ranges.xaxis.from, max: ranges.xaxis.to }
+                 }));
+  plot3 = $.plot(chart3, data3,
+                $.extend(true, {}, options3, {
+                    xaxis: { min: ranges.xaxis.from, max: ranges.xaxis.to }
+                 }));
+}
+function onZoomOut(e) {
+  e.preventDefault();
+  plot = $.plot(chart, data, options);
+  plot3 = $.plot(chart3, data3, options3);
+}
+$("#zoomOutBtn").click(onZoomOut);
+var data = [
+  {
+  label: "Battery level (%)",
+  yaxis: 1,
+  data: [
+
+    [14641765966,97], [14642045950,98], [14642368651,97], [14643148089,96], [14644544110,95], [14646824094,94], [14648374083,93], [14650741082,92], 
+    [14652010086,91], [14653255719,90], [14653348649,91], [14653418663,92], [14653488637,93], [14653658642,94], [14653870937,95], [14654090932,96], 
+    [14654970938,99], [14655587172,100]]
+  },
+  {
+  label: "Battery voltage (mV)",
+  yaxis: 2,
+  data: [
+
+    [14641765966,4262], [14642045950,4350], [14642368651,4294], [14643148089,4230], [14644544110,4228], [14646824094,4227], [14648374083,4225], [14650741082,4223], 
+    [14652010086,4196], [14653255719,4170], [14653348649,4210], [14653418663,4252], [14653488637,4294], [14653658642,4352], [14653870937,4347], [14654090932,4352], 
+    [14654970938,4351], [14655587172,4342]]
+  },
+  {
+  label: "Battery temperature (C*10)",
+  yaxis: 3,
+  data: [
+
+    [14641765966,260], [14642045950,290], [14642368651,300], [14643148089,300], [14644544110,270], [14646824094,270], [14648374083,270], [14650741082,260], 
+    [14652010086,260], [14653255719,270], [14653348649,280], [14653418663,280], [14653488637,280], [14653658642,290], [14653870937,300], [14654090932,310], 
+    [14654970938,310], [14655587172,310]]
+  },
+];
+var chart = $("#chart");
+var options = {
+  selection: { mode: 'x' },
+  legend: { position: 'nw', margin: [ -200, 0 ], }, 
+  yaxes: [
+  {
+    labelWidth: 200,
+  },
+  {
+    position: 'right',
+  },
+  {
+    position: 'right',
+  },
+  ],
+  xaxis: {
+    mode: "time",
+    min: 14641718012,
+    max: 14668058897,
+  },
+  grid: {
+    hoverable: true,
+    clickable: true,
+  }
+};
+chart.bind("plotselected", onZoomSelection);
+chart.bind("plothover", function(event,pos,item) { flotHover(plot,event,pos,item); });
+var plot = $.plot(chart, data, options);
+fixSize(plot, chart, 800);
+var data3 = [
+  {
+  label: "screen",
+  lines: { show: true, fill: true },
+  data: [
+]
+  },
+];
+var chart3 = $("#chart3");
+var options3 = {
+  selection: { mode: 'x' },
+  legend: { position: 'nw', margin: [ -200, 0 ], }, 
+  yaxis: {
+    labelWidth: 200,
+    ticks: [ ],
+  },
+  xaxis: {
+    show: false,
+    min: 14641718012,
+    max: 14668058897,
+  },
+  grid: {
+    markings: [
+      { xaxis: { from: 14642528730, to: 14642528730}, color: "#ff8080"}, 
+      { xaxis: { from: 14642528730, to: 14643128127}, color: "#80ff80"}, 
+      { xaxis: { from: 14643128127, to: 14643132806}, color: "#ffff80"}, 
+      { xaxis: { from: 14643132806, to: 14643316886}, color: "#ff8080"}, 
+      { xaxis: { from: 14643316886, to: 14651920068}, color: "#80ff80"}, 
+      { xaxis: { from: 14651920068, to: 14651921220}, color: "#ffff80"}, 
+      { xaxis: { from: 14651921220, to: 14652256769}, color: "#ff8080"}, 
+      { xaxis: { from: 14652256769, to: 14653278913}, color: "#80ff80"}, 
+      { xaxis: { from: 14653278913, to: 14653280545}, color: "#ffff80"}, 
+      { xaxis: { from: 14653280545, to: 14653581933}, color: "#ff8080"}, 
+      { xaxis: { from: 14653581933, to: 14653701696}, color: "#80ff80"}, 
+      { xaxis: { from: 14653701696, to: 14653703215}, color: "#ffff80"}, 
+      { xaxis: { from: 14653703215, to: 14654081078}, color: "#ff8080"}, 
+      { xaxis: { from: 14654081078, to: 14654662378}, color: "#80ff80"}, 
+      { xaxis: { from: 14654662378, to: 14654665085}, color: "#ffff80"}, 
+      { xaxis: { from: 14654665085, to: 14656728105}, color: "#ff8080"}, 
+      { xaxis: { from: 14656728105, to: 14656786208}, color: "#80ff80"}, 
+      { xaxis: { from: 14656786208, to: 14656796208}, color: "#ffff80"}, 
+      { xaxis: { from: 14656796208, to: 14656823803}, color: "#80ff80"}, 
+      { xaxis: { from: 14656823803, to: 14656833733}, color: "#ffff80"}, 
+      { xaxis: { from: 14656833733, to: 14656982661}, color: "#80ff80"}, 
+      { xaxis: { from: 14656982661, to: 14656983566}, color: "#ffff80"}, 
+      { xaxis: { from: 14656983566, to: 14657292005}, color: "#ff8080"}, 
+      { xaxis: { from: 14657292005, to: 14657350537}, color: "#80ff80"}, 
+      { xaxis: { from: 14657350537, to: 14657351338}, color: "#ffff80"}, 
+      { xaxis: { from: 14657351338, to: 14657945401}, color: "#ff8080"}, 
+      { xaxis: { from: 14657945401, to: 14658607324}, color: "#80ff80"}, 
+      { xaxis: { from: 14658607324, to: 14658608412}, color: "#ffff80"}, 
+      { xaxis: { from: 14658608412, to: 14658908412}, color: "#ff8080"}, 
+      { xaxis: { from: 14658908412, to: 14659490215}, color: "#80ff80"}, 
+      { xaxis: { from: 14659490215, to: 14659491238}, color: "#ffff80"}, 
+      { xaxis: { from: 14659491238, to: 14659791237}, color: "#ff8080"}, 
+      { xaxis: { from: 14659791237, to: 14660337640}, color: "#80ff80"}, 
+      { xaxis: { from: 14660337640, to: 14660339400}, color: "#ffff80"}, 
+      { xaxis: { from: 14660339400, to: 14660836472}, color: "#ff8080"}, 
+      { xaxis: { from: 14660836472, to: 14661591563}, color: "#80ff80"}, 
+      { xaxis: { from: 14661591563, to: 14661593307}, color: "#ffff80"}, 
+      { xaxis: { from: 14661593307, to: 14661893308}, color: "#ff8080"}, 
+      { xaxis: { from: 14661893308, to: 14662361479}, color: "#80ff80"}, 
+      { xaxis: { from: 14662361479, to: 14662362602}, color: "#ffff80"}, 
+      { xaxis: { from: 14662362602, to: 14662662602}, color: "#ff8080"}, 
+      { xaxis: { from: 14662662602, to: 14663344775}, color: "#80ff80"}, 
+      { xaxis: { from: 14663344775, to: 14663346231}, color: "#ffff80"}, 
+      { xaxis: { from: 14663346231, to: 14663704432}, color: "#ff8080"}, 
+      { xaxis: { from: 14663704432, to: 14667916588}, color: "#80ff80"}, 
+      { xaxis: { from: 14667916588, to: 14667917535}, color: "#ffff80"}, 
+      { xaxis: { from: 14667917535, to: 14667917535}, color: "#ff8080"}, 
+      { xaxis: { from: 14667917535, to: 14668058897}, color: "#ff8080"}, 
+    ],
+  }
+};
+chart3.bind("plotselected", onZoomSelection);
+var plot3 = $.plot(chart3, data3, options3);
+fixSize(plot3, chart3, 800);
+});
+</script>
+</body>
+</html>

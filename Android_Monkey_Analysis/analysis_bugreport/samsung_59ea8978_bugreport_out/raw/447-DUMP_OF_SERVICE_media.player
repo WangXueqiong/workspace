@@ -1,0 +1,46 @@
+ Client
+  pid(30386), connId(220), status(0), looping(false)
+ NuPlayer
+ AudioOutput
+  stream type(3), left - right volume(1.000000, 1.000000)
+  msec per frame(0.022676), latency (839)
+  aux effect id(0), send level (0.000000)
+ AudioTrack::dump
+  stream type(3), left - right volume(1.000000, 1.000000)
+  format(1000000), channel count(2), frame count(32768)
+  sample rate(44100), speed(1.000000), status(0)
+  state(0), latency (839)
+
+ Client
+  pid(1325), connId(128), status(0), looping(false)
+ NuPlayer
+  mime(audio/vorbis)
+    decoder(OMX.google.vorbis.decoder)
+ AudioOutput
+  stream type(5), left - right volume(0.000000, 0.000000)
+  msec per frame(0.022676), latency (280)
+  aux effect id(0), send level (0.000000)
+ AudioTrack::dump
+  stream type(-1), left - right volume(0.000000, 0.000000)
+  format(1), channel count(2), frame count(8820)
+  sample rate(44100), speed(1.000000), status(0)
+  state(1), latency (280)
+
+ 12 registered handlers:
+  361: NuPlayerDriver Looper: 14 messages processed
+  362: generic: 11 messages processed
+  363: NuPlayerRenderer: 80 messages processed
+  364: NPDecoder: 99 messages processed
+  365: NPDecoder-CL: 98 messages processed
+  366: NPDecoder-CL: 147 messages processed
+  367: OMX.google.vorbis.decoder: 76 messages processed
+  507: : 78032 messages processed
+  638: NuPlayerDriver Looper: 11 messages processed
+  639: generic: 114 messages processed
+  640: NuPlayerRenderer: 125 messages processed
+  641: NPDecoder: 224 messages processed
+ No media recorder client
+
+ Files opened and/or mapped:
+  /proc/346/fd/43 -> /system/media/audio/ui/Charger_Connection.ogg
+  /proc/346/fd/83 -> /storage/emulated/0/Samsung/Music/Over_the_horizon.mp3

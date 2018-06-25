@@ -1,0 +1,7 @@
+Linux version 3.4.0-10359277 (dpi@SWHE9419) (gcc version 4.9.x-google 20140827 (prerelease) (GCC) ) #1 SMP PREEMPT Mon Jan 16 12:48:16 KST 2017
+
+type=2000 msg=audit(0.560:1): initialized
+type=1403 msg=audit(1402077707.270:11): policy loaded auid=4294967295 ses=4294967295
+type=1404 msg=audit(1402077707.270:12): config_always_enforce - true; enforcing=1 old_enforcing=1 auid=4294967295 ses=4294967295
+type=1305 msg=audit(1513734175.801:252): audit_enabled=1 old=1 auid=4294967295 ses=4294967295 subj=u:r:auditd:s0 res=1
+

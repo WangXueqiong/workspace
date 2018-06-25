@@ -1,0 +1,36 @@
+Providers:
+  [0] provider ProviderId{user:0, app:10005, cmp:ComponentInfo{com.yulong.android.calendar.widget/com.yulong.android.calendar.widget.CalendarAppWidgetProvider}}
+    min=(69121x38401)   minResize=(69121x38401) updatePeriodMillis=0 resizeMode=33 autoAdvanceViewId=-1 initialLayout=#7f030000 initialKeyguardLayout=#7f030000 zombie=false
+  [1] provider ProviderId{user:0, app:10005, cmp:ComponentInfo{com.yulong.android.calendar.widget/com.yulong.android.calendar.widget.CalendarMonthWidgetProvider}}
+    min=(102401x107777)   minResize=(102401x78849) updatePeriodMillis=0 resizeMode=21 autoAdvanceViewId=-1 initialLayout=#7f030008 initialKeyguardLayout=#0 zombie=false
+  [2] provider ProviderId{user:0, app:10105, cmp:ComponentInfo{com.assistant.icontrol/com.icontrol.widget.AppWidgetForTv}}
+    min=(76801x25601)   minResize=(76801x25601) updatePeriodMillis=0 resizeMode=33 autoAdvanceViewId=-1 initialLayout=#7f0301e2 initialKeyguardLayout=#0 zombie=false
+  [3] provider ProviderId{user:0, app:10105, cmp:ComponentInfo{com.assistant.icontrol/com.icontrol.widget.MyAppWidget}}
+    min=(76801x56321)   minResize=(76801x56321) updatePeriodMillis=0 resizeMode=33 autoAdvanceViewId=-1 initialLayout=#7f0301d2 initialKeyguardLayout=#0 zombie=false
+  [4] provider ProviderId{user:0, app:10179, cmp:ComponentInfo{com.sina.weibo/com.sina.weibo.gowidget.GoWidgetProvider}}
+    min=(75265x46081)   minResize=(75265x46081) updatePeriodMillis=0 resizeMode=31 autoAdvanceViewId=-1 initialLayout=#7f03019c initialKeyguardLayout=#0 zombie=false
+  [5] provider ProviderId{user:0, app:10101, cmp:ComponentInfo{com.moji.mjweather/com.moji.mjweather.CMojiWidget4x1}}
+    min=(64001x10241)   minResize=(64001x10241) updatePeriodMillis=1800000 resizeMode=31 autoAdvanceViewId=-1 initialLayout=#7f040299 initialKeyguardLayout=#0 zombie=false
+  [6] provider ProviderId{user:0, app:10101, cmp:ComponentInfo{com.moji.mjweather/com.moji.mjweather.CMojiWidget4x2}}
+    min=(64001x28161)   minResize=(64001x28161) updatePeriodMillis=1800000 resizeMode=31 autoAdvanceViewId=-1 initialLayout=#7f04029f initialKeyguardLayout=#0 zombie=false
+  [7] provider ProviderId{user:0, app:10101, cmp:ComponentInfo{com.moji.mjweather/com.moji.mjweather.CMojiWidget5x1}}
+    min=(82177x10241)   minResize=(82177x10241) updatePeriodMillis=1800000 resizeMode=31 autoAdvanceViewId=-1 initialLayout=#7f0402a4 initialKeyguardLayout=#0 zombie=false
+  [8] provider ProviderId{user:0, app:10101, cmp:ComponentInfo{com.moji.mjweather/com.moji.mjweather.CMojiWidget5x2}}
+    min=(82177x28161)   minResize=(82177x28161) updatePeriodMillis=1800000 resizeMode=31 autoAdvanceViewId=-1 initialLayout=#7f0402a8 initialKeyguardLayout=#0 zombie=false
+  [9] provider ProviderId{user:0, app:10110, cmp:ComponentInfo{com.sina.news/com.sina.news.ui.widget.HeadlineWidgetSmall}}
+    min=(75265x10241)   minResize=(75265x10241) updatePeriodMillis=1800000 resizeMode=01 autoAdvanceViewId=-1 initialLayout=#7f0401a4 initialKeyguardLayout=#0 zombie=false
+  [10] provider ProviderId{user:0, app:10110, cmp:ComponentInfo{com.sina.news/com.sina.news.ui.widget.HeadlineWidgetLarge}}
+    min=(75265x28161)   minResize=(75265x28161) updatePeriodMillis=2400000 resizeMode=01 autoAdvanceViewId=-1 initialLayout=#7f0401a3 initialKeyguardLayout=#0 zombie=false
+  [11] provider ProviderId{user:0, app:10110, cmp:ComponentInfo{com.sina.news/com.sina.news.ui.widget.HdpicWidget}}
+    min=(75265x28161)   minResize=(75265x28161) updatePeriodMillis=2100000 resizeMode=01 autoAdvanceViewId=-1 initialLayout=#7f0401a3 initialKeyguardLayout=#0 zombie=false
+  [12] provider ProviderId{user:0, app:10132, cmp:ComponentInfo{com.jingdong.app.mall/com.jingdong.app.mall.widget.JdWidget}}
+    min=(75265x25601)   minResize=(75265x25601) updatePeriodMillis=86400000 resizeMode=01 autoAdvanceViewId=-1 initialLayout=#7f0303d0 initialKeyguardLayout=#0 zombie=false
+ 
+Widgets:
+ 
+Hosts:
+  [0] hostId=HostId{user:0, app:10048, hostId:2048, pkg:com.yulong.android.launcher3}
+    callbacks=com.android.internal.appwidget.IAppWidgetHost$Stub$Proxy@8392b83
+    widgets.size=0 zombie=false
+ 
+Grants:

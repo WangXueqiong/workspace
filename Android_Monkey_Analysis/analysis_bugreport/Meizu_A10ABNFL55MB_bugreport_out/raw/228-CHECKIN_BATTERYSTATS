@@ -1,0 +1,24 @@
+9,0,i,vers,12,116,LMY47I,LMY47I
+9,hsp,0,10095,"com.tencent.mobileqq"
+9,hsp,1,10097,"com.tencent.mm"
+9,hsp,2,10030,"com.flyme.systemuitools"
+9,hsp,3,10014,"com.meizu.flyme.launcher"
+9,hsp,4,0,"0"
+9,hsp,5,-1,"screen"
+9,hsp,6,1001,"RILJ"
+9,hsp,7,1000,"*alarm*:android.intent.action.TIME_TICK"
+9,h,0:RESET:TIME:1526282386158
+9,h,0,Bl=100,Bs=n,Bh=g,Bp=n,Bt=320,Bv=4331,+r,+a,Pst=out,Pss=
+Exception occurred while dumping:
+java.lang.ArrayIndexOutOfBoundsException: length=5; index=5
+	at android.os.BatteryStats.printBitDescriptions(BatteryStats.java:3479)
+	at android.os.BatteryStats$HistoryPrinter.printNextItem(BatteryStats.java:3682)
+	at android.os.BatteryStats.dumpHistoryLocked(BatteryStats.java:3938)
+	at android.os.BatteryStats.dumpCheckinLocked(BatteryStats.java:4141)
+	at com.android.server.am.BatteryStatsService.dump(BatteryStatsService.java:933)
+	at android.os.Binder.dump(Binder.java:327)
+	at android.os.Binder.onTransact(Binder.java:293)
+	at com.android.internal.app.IBatteryStats$Stub.onTransact(IBatteryStats.java:832)
+	at android.os.Binder.execTransact(Binder.java:454)
+[dumpsys: 0.100s elapsed]
+

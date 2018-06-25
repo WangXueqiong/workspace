@@ -1,0 +1,51 @@
+Providers:
+  [0] provider ProviderId{user:0, app:10001, cmp:ComponentInfo{com.yunos.lifecard/com.yunos.alimobilesearch.widget.SearchWidgetProvider}}
+    min=(66561x10241)   minResize=(66561x10241) updatePeriodMillis=0 resizeMode=01 autoAdvanceViewId=-1 initialLayout=#7f04012a initialKeyguardLayout=#0 zombie=false
+  [1] provider ProviderId{user:0, app:10002, cmp:ComponentInfo{com.yunos.alimobilesearch/com.yunos.alimobilesearch.widget.SearchWidgetProvider}}
+    min=(66561x10241)   minResize=(66561x10241) updatePeriodMillis=0 resizeMode=01 autoAdvanceViewId=-1 initialLayout=#7f040060 initialKeyguardLayout=#0 zombie=false
+  [2] provider ProviderId{user:0, app:1000, cmp:ComponentInfo{com.meizu.safe/com.meizu.networkmanager.provider.SafeWidgetProvider}}
+    min=(75777x257)   minResize=(75777x257) updatePeriodMillis=0 resizeMode=01 autoAdvanceViewId=-1 initialLayout=#7f030107 initialKeyguardLayout=#0 zombie=false
+  [3] provider ProviderId{user:0, app:10068, cmp:ComponentInfo{com.meizu.notepaper/com.meizu.flyme.notepaper.app.NotesAppWidgetProvider}}
+    min=(76289x25601)   minResize=(76289x25601) updatePeriodMillis=0 resizeMode=23 autoAdvanceViewId=-1 initialLayout=#7f03009c initialKeyguardLayout=#0 zombie=false
+  [4] provider ProviderId{user:0, app:10068, cmp:ComponentInfo{com.meizu.notepaper/com.meizu.flyme.notepaper.app.NotesSmallAppWidgetProvider}}
+    min=(76289x10753)   minResize=(76289x10753) updatePeriodMillis=0 resizeMode=03 autoAdvanceViewId=-1 initialLayout=#7f03009d initialKeyguardLayout=#0 zombie=false
+  [5] provider ProviderId{user:0, app:10079, cmp:ComponentInfo{com.meizu.flyme.weather/com.meizu.flyme.weather.WeatherWidgetProvider}}
+    min=(72705x12801)   minResize=(72705x12801) updatePeriodMillis=10800000 resizeMode=01 autoAdvanceViewId=-1 initialLayout=#7f0300cf initialKeyguardLayout=#0 zombie=false
+  [6] provider ProviderId{user:0, app:10079, cmp:ComponentInfo{com.meizu.flyme.weather/com.meizu.flyme.weather.WeatherWidgetNoSearchProvider}}
+    min=(72705x12801)   minResize=(72705x12801) updatePeriodMillis=10800000 resizeMode=01 autoAdvanceViewId=-1 initialLayout=#7f0300d0 initialKeyguardLayout=#0 zombie=false
+  [7] provider ProviderId{user:0, app:10079, cmp:ComponentInfo{com.meizu.flyme.weather/com.meizu.flyme.weather.WeatherWidgetTimeProvider}}
+    min=(72705x25601)   minResize=(72705x25601) updatePeriodMillis=10800000 resizeMode=01 autoAdvanceViewId=-1 initialLayout=#7f0300d1 initialKeyguardLayout=#0 zombie=false
+  [8] provider ProviderId{user:0, app:10079, cmp:ComponentInfo{com.meizu.flyme.weather/com.meizu.flyme.weather.EasyWeatherWidgetProvider}}
+    min=(64001x28161)   minResize=(64001x28161) updatePeriodMillis=10800000 resizeMode=01 autoAdvanceViewId=-1 initialLayout=#7f0300d2 initialKeyguardLayout=#0 zombie=false
+  [9] provider ProviderId{user:0, app:10072, cmp:ComponentInfo{com.meizu.media.reader/com.meizu.media.reader.module.appwidget.ReaderAppWidgetProvider}}
+    min=(77825x71681)   minResize=(77825x71681) updatePeriodMillis=0 resizeMode=21 autoAdvanceViewId=-1 initialLayout=#7f040138 initialKeyguardLayout=#0 zombie=false
+  [10] provider ProviderId{user:0, app:10019, cmp:ComponentInfo{com.meizu.media.music/com.meizu.media.music.appwidget.MusicAppWidgetProvider_window}}
+    min=(72705x72705)   minResize=(72705x72705) updatePeriodMillis=86400000 resizeMode=02 autoAdvanceViewId=-1 initialLayout=#7f040030 initialKeyguardLayout=#0 zombie=false
+  [11] provider ProviderId{user:0, app:10019, cmp:ComponentInfo{com.meizu.media.music/com.meizu.media.music.appwidget.MusicAppWidgetProvider_resize}}
+    min=(76801x10241)   minResize=(76801x10241) updatePeriodMillis=86400000 resizeMode=21 autoAdvanceViewId=-1 initialLayout=#7f04002e initialKeyguardLayout=#0 zombie=false
+  [12] provider ProviderId{user:0, app:10041, cmp:ComponentInfo{com.android.calendar/com.meizu.flyme.calendar.widget.countdown.CountDownWidgetProvider}}
+    min=(72705x12801)   minResize=(72705x12801) updatePeriodMillis=0 resizeMode=03 autoAdvanceViewId=-1 initialLayout=#7f040043 initialKeyguardLayout=#0 zombie=false
+  [13] provider ProviderId{user:0, app:10041, cmp:ComponentInfo{com.android.calendar/com.meizu.flyme.calendar.widget.CalendarAgendaWidgetProvider}}
+    min=(76289x25601)   minResize=(76289x25601) updatePeriodMillis=0 resizeMode=03 autoAdvanceViewId=-1 initialLayout=#7f040042 initialKeyguardLayout=#0 zombie=false
+  [14] provider ProviderId{user:0, app:10033, cmp:ComponentInfo{com.meizu.flyme.wallet/com.meizu.flyme.wallet.widget.WalletBillWidgetProvider}}
+    min=(72705x12801)   minResize=(72705x12801) updatePeriodMillis=86400000 resizeMode=01 autoAdvanceViewId=-1 initialLayout=#7f0401e0 initialKeyguardLayout=#0 zombie=false
+  [15] provider ProviderId{user:0, app:10088, cmp:ComponentInfo{com.sina.weibo/com.sina.weibo.gowidget.GoWidgetProvider}}
+    min=(75265x46081)   minResize=(75265x46081) updatePeriodMillis=0 resizeMode=31 autoAdvanceViewId=-1 initialLayout=#7f04021f initialKeyguardLayout=#0 zombie=false
+  [16] provider ProviderId{user:0, app:10092, cmp:ComponentInfo{com.qq.reader/com.qq.reader.widget.ReaderWidget}}
+    min=(75265x37377)   minResize=(75265x37377) updatePeriodMillis=0 resizeMode=01 autoAdvanceViewId=-1 initialLayout=#7f040367 initialKeyguardLayout=#0 zombie=false
+  [17] provider ProviderId{user:0, app:10085, cmp:ComponentInfo{com.meizu.net.pedometer/com.meizu.net.pedometer.widget.PedometerWidgetProvider}}
+    min=(76801x13569)   minResize=(76801x13569) updatePeriodMillis=0 resizeMode=01 autoAdvanceViewId=-1 initialLayout=#7f0300a0 initialKeyguardLayout=#0 zombie=false
+ 
+Widgets:
+  [0] id=2
+    host=HostId{user:0, app:10014, hostId:1024, pkg:com.meizu.flyme.launcher}
+    provider=ProviderId{user:0, app:10079, cmp:ComponentInfo{com.meizu.flyme.weather/com.meizu.flyme.weather.WeatherWidgetProvider}}
+    host.callbacks=com.android.internal.appwidget.IAppWidgetHost$Stub$Proxy@1091df2a
+    views=android.widget.RemoteViews@6d31757
+ 
+Hosts:
+  [0] hostId=HostId{user:0, app:10014, hostId:1024, pkg:com.meizu.flyme.launcher}
+    callbacks=com.android.internal.appwidget.IAppWidgetHost$Stub$Proxy@1091df2a
+    widgets.size=1 zombie=false
+ 
+Grants:

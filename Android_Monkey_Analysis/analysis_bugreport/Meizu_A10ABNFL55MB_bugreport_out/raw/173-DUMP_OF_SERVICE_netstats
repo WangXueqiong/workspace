@@ -1,0 +1,30 @@
+Active interfaces:
+  iface=wlan0 ident=[{type=WIFI, subType=COMBINED, networkId=JD-office}] 
+Active UID interfaces:
+  iface=wlan0 ident=[{type=WIFI, subType=COMBINED, networkId=JD-office}] 
+Dev stats:
+  Pending bytes: 1715424
+  History since boot:
+  ident=[{type=WIFI, subType=COMBINED, networkId=JD-office}] uid=-1 set=ALL tag=0x0
+    NetworkStatsHistory: bucketDuration=3600
+      st=1526266800 rb=43665453 rp=42080 tb=2552705 tp=30421 op=0
+      st=1526270400 rb=262548 rp=481 tb=50998 tp=580 op=0
+      st=1526274000 rb=927985 rp=2026 tb=93635 tp=801 op=0
+      st=1526277600 rb=4305659 rp=20366 tb=334491 tp=2524 op=0
+      st=1526281200 rb=43511273 rp=54120 tb=2297319 tp=27335 op=0
+      st=1526284800 rb=1862616 rp=17701 tb=178346 tp=1173 op=0
+      st=1526288400 rb=1285764 rp=7265 tb=142833 tp=1024 op=0
+      st=1526292000 rb=3810011 rp=6496 tb=273914 tp=2230 op=0
+Xt stats:
+  Pending bytes: 1368
+  History since boot:
+  ident=[{type=WIFI, subType=COMBINED, networkId=JD-office}] uid=-1 set=ALL tag=0x0
+    NetworkStatsHistory: bucketDuration=3600
+      st=1526266800 rb=42936994 rp=37370 tb=2121420 tp=29942 op=0
+      st=1526270400 rb=253347 rp=416 tb=41172 tp=519 op=0
+      st=1526274000 rb=879549 rp=1354 tb=81671 tp=775 op=0
+      st=1526277600 rb=3875998 rp=15328 tb=297960 tp=2480 op=0
+      st=1526281200 rb=42512695 rp=45678 tb=1913431 tp=27294 op=0
+      st=1526284800 rb=1430978 rp=11259 tb=161076 tp=1145 op=0
+      st=1526288400 rb=1105979 rp=4533 tb=127583 tp=991 op=0
+      st=1526292000 rb=3684207 rp=5302 tb=242025 tp=2206 op=0

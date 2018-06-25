@@ -1,0 +1,1152 @@
+  User 0 active services:
+  * ServiceRecord{36b781a3 u0 com.android.bluetooth/.hid.HidService}
+    intent={act=android.bluetooth.IBluetoothInputDevice cmp=com.android.bluetooth/.hid.HidService}
+    packageName=com.android.bluetooth
+    processName=com.android.bluetooth
+    baseDir=/system/app/Bluetooth/Bluetooth.apk
+    dataDir=/data/data/com.android.bluetooth
+    app=null
+    createTime=-7h31m4s733ms startingBgTimeout=--
+    lastActivity=-4h49m54s10ms restartTime=-- createdFromFg=true
+    Bindings:
+    * IntentBindRecord{1cb40ca0}:
+      intent={act=android.bluetooth.IBluetoothInputDevice cmp=com.android.bluetooth/.hid.HidService}
+      binder=null
+      requested=false received=false hasBound=false doRebind=false
+      * Client AppBindRecord{38425059 ProcessRecord{3978115f 1065:com.android.systemui/u0a30}}
+        Per-process Connections:
+          ConnectionRecord{1dccff02 u0 com.android.bluetooth/.hid.HidService:@10e1184d}
+          ConnectionRecord{32857527 u0 com.android.bluetooth/.hid.HidService:@18d8abe6}
+    All Connections:
+      ConnectionRecord{1dccff02 u0 com.android.bluetooth/.hid.HidService:@10e1184d}
+      ConnectionRecord{32857527 u0 com.android.bluetooth/.hid.HidService:@18d8abe6}
+
+  * ServiceRecord{38ee89c7 u0 com.meizu.desktopbackup/com.meizu.backup.compontent.BackupRestoreService}
+    intent={act=action_notify_auto_backup_state_changed cmp=com.meizu.desktopbackup/com.meizu.backup.compontent.BackupRestoreService}
+    packageName=com.meizu.desktopbackup
+    processName=com.meizu.desktopbackup
+    baseDir=/data/app/com.meizu.desktopbackup-1/base.apk
+    dataDir=/data/data/com.meizu.desktopbackup
+    app=ProcessRecord{2a914323 4213:com.meizu.desktopbackup/u0a45}
+    createTime=-7h30m44s314ms startingBgTimeout=-4h49m18s589ms
+    lastActivity=-4h49m33s591ms restartTime=-4h49m33s591ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+
+  * ServiceRecord{351fe8f2 u0 com.tianyancha.skyeye/org.android.agoo.accs.AgooService}
+    intent={act=com.taobao.accs.intent.action.RECEIVE pkg=com.tianyancha.skyeye cmp=com.tianyancha.skyeye/org.android.agoo.accs.AgooService}
+    packageName=com.tianyancha.skyeye
+    processName=com.tianyancha.skyeye
+    baseDir=/data/app/com.tianyancha.skyeye-2/base.apk
+    dataDir=/data/data/com.tianyancha.skyeye
+    app=ProcessRecord{1dadae24 2720:com.tianyancha.skyeye/u0a174}
+    createTime=-47s351ms startingBgTimeout=--
+    lastActivity=-47s351ms restartTime=-47s351ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=true callStart=true lastStartId=1
+
+  * ServiceRecord{30fd7c33 u0 com.tencent.mobileqq/cooperation.qzone.QzonePluginProxyService}
+    intent={act=com.qzone.intent.action.PRELOAD_FRIEND_FEEDS cmp=com.tencent.mobileqq/cooperation.qzone.QzonePluginProxyService}
+    packageName=com.tencent.mobileqq
+    processName=com.tencent.mobileqq:qzone
+    baseDir=/data/app/com.tencent.mobileqq-2/base.apk
+    dataDir=/data/data/com.tencent.mobileqq
+    app=ProcessRecord{3036b438 2676:com.tencent.mobileqq:qzone/u0a95}
+    createTime=-50s755ms startingBgTimeout=--
+    lastActivity=-50s715ms restartTime=-50s715ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=true callStart=true lastStartId=1
+
+  * ServiceRecord{1763e4a2 u0 com.sina.weibo/.business.WeiboRemoteServiceHolder}
+    intent={pkg=com.sina.weibo cmp=com.sina.weibo/.business.WeiboRemoteServiceHolder}
+    packageName=com.sina.weibo
+    processName=com.sina.weibo:remote
+    baseDir=/data/app/com.sina.weibo-2/base.apk
+    dataDir=/data/data/com.sina.weibo
+    app=ProcessRecord{dd5f8f4 3440:com.sina.weibo:remote/u0a88}
+    createTime=-7h30m33s839ms startingBgTimeout=-4h49m8s115ms
+    lastActivity=-4h49m13s734ms restartTime=-4h49m23s116ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=2
+
+  * ServiceRecord{11a240b2 u0 com.meizu.flyme.input/com.meizu.input.MzInputService}
+    intent={act=android.view.InputMethod cmp=com.meizu.flyme.input/com.meizu.input.MzInputService}
+    packageName=com.meizu.flyme.input
+    processName=com.meizu.flyme.input
+    permission=android.permission.BIND_INPUT_METHOD
+    baseDir=/system/priv-app/MzInput/MzInput.apk
+    dataDir=/data/data/com.meizu.flyme.input
+    app=ProcessRecord{3688016c 1486:com.meizu.flyme.input/u0a24}
+    createTime=-7h31m8s456ms startingBgTimeout=--
+    lastActivity=-2h15m52s984ms restartTime=-4h49m57s713ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{268d841e CREATE}:
+      intent={act=android.view.InputMethod cmp=com.meizu.flyme.input/com.meizu.input.MzInputService}
+      binder=android.os.BinderProxy@15b694ff
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{1c5d52cc ProcessRecord{3eacc6ce 788:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{1f8092bd u0 CR !FG UI !VIS com.meizu.flyme.input/com.meizu.input.MzInputService:@317a0a14}
+    All Connections:
+      ConnectionRecord{1f8092bd u0 CR !FG UI !VIS com.meizu.flyme.input/com.meizu.input.MzInputService:@317a0a14}
+
+  * ServiceRecord{b501ee4 u0 com.tianyancha.skyeye/com.taobao.accs.ChannelService}
+    intent={act=com.taobao.accs.intent.action.START_SERVICE cmp=com.tianyancha.skyeye/com.taobao.accs.ChannelService}
+    packageName=com.tianyancha.skyeye
+    processName=com.tianyancha.skyeye:channel
+    baseDir=/data/app/com.tianyancha.skyeye-2/base.apk
+    dataDir=/data/data/com.tianyancha.skyeye
+    app=ProcessRecord{3a7b9767 3186:com.tianyancha.skyeye:channel/u0a174}
+    createTime=-38s933ms startingBgTimeout=--
+    lastActivity=-27s605ms restartTime=-38s885ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=3
+
+  * ServiceRecord{163e2a18 u0 com.meizu.flyme.update/.download.QueryUpdateService}
+    intent={act=com.meizu.flyme.update.QUERY_UPDATE pkg=com.meizu.flyme.update cmp=com.meizu.flyme.update/.download.QueryUpdateService}
+    packageName=com.meizu.flyme.update
+    processName=com.meizu.flyme.update
+    permission=com.meizu.flyme.update.QUERY_UPDATE
+    baseDir=/data/app/com.meizu.flyme.update-1/base.apk
+    dataDir=/data/data/com.meizu.flyme.update
+    app=ProcessRecord{17695ead 12827:com.meizu.flyme.update/1000}
+    createTime=-3h45m14s999ms startingBgTimeout=--
+    lastActivity=-3h44m51s967ms restartTime=-3h44m51s967ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{18be9915 CREATE}:
+      intent={act=com.meizu.flyme.update.QUERY_UPDATE pkg=com.meizu.flyme.update cmp=com.meizu.flyme.update/.download.QueryUpdateService}
+      binder=android.os.BinderProxy@1709c42a
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{2b69821b ProcessRecord{154d65f5 4714:com.android.settings/1000}}
+        Per-process Connections:
+          ConnectionRecord{efa49fb u0 CR com.meizu.flyme.update/.download.QueryUpdateService:@37833f8a}
+    All Connections:
+      ConnectionRecord{efa49fb u0 CR com.meizu.flyme.update/.download.QueryUpdateService:@37833f8a}
+
+  * ServiceRecord{2d496f6 u0 com.tencent.mobileqq/com.tencent.tmdownloader.internal.remote.RemoteOpService}
+    intent={cmp=com.tencent.mobileqq/com.tencent.tmdownloader.internal.remote.RemoteOpService}
+    packageName=com.tencent.mobileqq
+    processName=com.tencent.mobileqq
+    baseDir=/data/app/com.tencent.mobileqq-2/base.apk
+    dataDir=/data/data/com.tencent.mobileqq
+    app=ProcessRecord{3a521945 13391:com.tencent.mobileqq/u0a95}
+    createTime=-49s44ms startingBgTimeout=--
+    lastActivity=-49s44ms restartTime=-49s44ms createdFromFg=false
+    Bindings:
+    * IntentBindRecord{32d3e2f4 CREATE}:
+      intent={cmp=com.tencent.mobileqq/com.tencent.tmdownloader.internal.remote.RemoteOpService}
+      binder=android.os.BinderProxy@30162a1d
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{29b2f492 ProcessRecord{3036b438 2676:com.tencent.mobileqq:qzone/u0a95}}
+        Per-process Connections:
+          ConnectionRecord{cb10791 u0 CR com.tencent.mobileqq/com.tencent.tmdownloader.internal.remote.RemoteOpService:@60abdb8}
+    All Connections:
+      ConnectionRecord{cb10791 u0 CR com.tencent.mobileqq/com.tencent.tmdownloader.internal.remote.RemoteOpService:@60abdb8}
+
+  * ServiceRecord{3af0ab74 u0 com.android.systemui/.keyguard.KeyguardService}
+    intent={cmp=com.android.systemui/.keyguard.KeyguardService}
+    packageName=com.android.systemui
+    processName=com.android.systemui
+    baseDir=/system/priv-app/SystemUI/SystemUI.apk
+    dataDir=/data/data/com.android.systemui
+    app=ProcessRecord{3978115f 1065:com.android.systemui/u0a30}
+    createTime=-7h31m5s39ms startingBgTimeout=--
+    lastActivity=-4h49m54s316ms restartTime=-4h49m54s316ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{369424f7 CREATE}:
+      intent={cmp=com.android.systemui/.keyguard.KeyguardService}
+      binder=android.os.BinderProxy@2e612f64
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{2729d5cd ProcessRecord{3eacc6ce 788:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{29a2c747 u0 CR com.android.systemui/.keyguard.KeyguardService:@1aed7286}
+    All Connections:
+      ConnectionRecord{29a2c747 u0 CR com.android.systemui/.keyguard.KeyguardService:@1aed7286}
+
+  * ServiceRecord{1188cfab u0 com.meizu.safe/.SafeSecureService}
+    intent={cmp=com.meizu.safe/.SafeSecureService}
+    packageName=com.meizu.safe
+    processName=com.meizu.safe
+    baseDir=/system/app/MzSecurity/MzSecurity.apk
+    dataDir=/data/data/com.meizu.safe
+    app=ProcessRecord{215d21bc 1290:com.meizu.safe/1000}
+    createTime=-7h31m6s134ms startingBgTimeout=--
+    lastActivity=-4h49m55s411ms restartTime=-4h49m55s411ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+
+  * ServiceRecord{2d07b152 u0 com.android.systemui/.ImageWallpaper}
+    intent={act=android.service.wallpaper.WallpaperService cmp=com.android.systemui/.ImageWallpaper}
+    packageName=com.android.systemui
+    processName=com.android.systemui
+    permission=android.permission.BIND_WALLPAPER
+    baseDir=/system/priv-app/SystemUI/SystemUI.apk
+    dataDir=/data/data/com.android.systemui
+    app=ProcessRecord{3978115f 1065:com.android.systemui/u0a30}
+    createTime=-7h31m8s563ms startingBgTimeout=--
+    lastActivity=-4h49m57s840ms restartTime=-4h49m57s840ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{1582ae82 CREATE}:
+      intent={act=android.service.wallpaper.WallpaperService cmp=com.android.systemui/.ImageWallpaper}
+      binder=android.os.BinderProxy@345c1993
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{35b3ddd0 ProcessRecord{3eacc6ce 788:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{3088e1dd u0 CR UI com.android.systemui/.ImageWallpaper:@3883a1b4}
+    All Connections:
+      ConnectionRecord{3088e1dd u0 CR UI com.android.systemui/.ImageWallpaper:@3883a1b4}
+
+  * ServiceRecord{d9637b3 u0 com.meizu.share/.BluetoothOppService}
+    intent={cmp=com.meizu.share/.BluetoothOppService}
+    packageName=com.meizu.share
+    processName=com.meizu.share
+    permission=android.permission.ACCESS_BLUETOOTH_SHARE
+    baseDir=/system/app/MzShare/MzShare.apk
+    dataDir=/data/data/com.meizu.share
+    app=ProcessRecord{3249e1e 4010:com.meizu.share/u0a65}
+    createTime=-7h30m46s241ms startingBgTimeout=-4h49m20s517ms
+    lastActivity=-4h49m35s518ms restartTime=-4h49m35s518ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+
+  * ServiceRecord{83a02d4 u0 com.meizu.cloud/.service.MzCloudService}
+    intent={cmp=com.meizu.cloud/.service.MzCloudService}
+    packageName=com.meizu.cloud
+    processName=com.meizu.cloud
+    baseDir=/system/app/MzCloudService/MzCloudService.apk
+    dataDir=/data/data/com.meizu.cloud
+    app=ProcessRecord{a0b01c9 3960:com.meizu.cloud/u0a60}
+    createTime=-7h30m46s547ms startingBgTimeout=-4h49m20s823ms
+    lastActivity=-4h49m35s824ms restartTime=-4h49m35s824ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+
+  * ServiceRecord{30e17a9b u0 com.amap.android.location/.NetworkLocationService}
+    intent={act=com.android.location.service.v3.NetworkLocationProvider pkg=com.amap.android.location cmp=com.amap.android.location/.NetworkLocationService}
+    packageName=com.amap.android.location
+    processName=com.amap.android.location
+    permission=android.permission.WRITE_SECURE_SETTINGS
+    baseDir=/system/priv-app/AMapNetworkLocation_meizu/AMapNetworkLocation_meizu.apk
+    dataDir=/data/data/com.amap.android.location
+    app=ProcessRecord{e8dedda 1551:com.amap.android.location/u0a0}
+    createTime=-7h31m6s759ms startingBgTimeout=--
+    lastActivity=-4h49m56s36ms restartTime=-4h49m56s36ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{bb130ce CREATE}:
+      intent={act=com.android.location.service.v3.NetworkLocationProvider pkg=com.amap.android.location cmp=com.amap.android.location/.NetworkLocationService}
+      binder=android.os.BinderProxy@4a4bbef
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{354106fc ProcessRecord{3eacc6ce 788:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{34fc4eaa u0 CR !FG !VIS com.amap.android.location/.NetworkLocationService:@2512bd95}
+    All Connections:
+      ConnectionRecord{34fc4eaa u0 CR !FG !VIS com.amap.android.location/.NetworkLocationService:@2512bd95}
+
+  * ServiceRecord{324dc8d u0 com.tencent.mm/.booter.NotifyReceiver$NotifyService}
+    intent={cmp=com.tencent.mm/.booter.NotifyReceiver$NotifyService}
+    packageName=com.tencent.mm
+    processName=com.tencent.mm
+    baseDir=/data/app/com.tencent.mm-1/base.apk
+    dataDir=/data/data/com.tencent.mm
+    app=ProcessRecord{3094c48c 7087:com.tencent.mm/u0a97}
+    isForeground=true foregroundId=-1212 foregroundNoti=Notification(pri=0 contentView=null headsUpContentView=null bigContentView=null vibrate=null sound=null defaults=0x0 flags=0x62 color=0x00000000 vis=PRIVATE)
+    createTime=-7h30m10s363ms startingBgTimeout=-4h48m44s639ms
+    lastActivity=-2m50s557ms restartTime=-4h48m59s640ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=true callStart=true lastStartId=72
+
+  * ServiceRecord{22c12c44 u0 com.flyme.systemuitools/com.meizu.luckymoney.LuckyMoneyService}
+    intent={cmp=com.flyme.systemuitools/com.meizu.luckymoney.LuckyMoneyService}
+    packageName=com.flyme.systemuitools
+    processName=com.flyme.systemuitools
+    baseDir=/system/priv-app/SystemUITools/SystemUITools.apk
+    dataDir=/data/data/com.flyme.systemuitools
+    app=ProcessRecord{277c1672 2181:com.flyme.systemuitools/u0a30}
+    isForeground=true foregroundId=-99 foregroundNoti=Notification(pri=0 contentView=null headsUpContentView=null bigContentView=null vibrate=null sound=null defaults=0x0 flags=0x62 color=0x00000000 vis=PRIVATE)
+    createTime=-7h31m2s427ms startingBgTimeout=--
+    lastActivity=-4h49m30s926ms restartTime=-4h49m51s704ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=2
+
+  * ServiceRecord{608ebd8 u0 com.waves.maxxservice/.MaxxService}
+    intent={cmp=com.waves.maxxservice/.MaxxService}
+    packageName=com.waves.maxxservice
+    processName=com.waves.maxxservice
+    baseDir=/system/app/MaxxService/MaxxService.apk
+    dataDir=/data/data/com.waves.maxxservice
+    app=ProcessRecord{1fb8f185 1625:com.waves.maxxservice/u0a58}
+    createTime=-7h30m40s496ms startingBgTimeout=--
+    lastActivity=-4h49m29s773ms restartTime=-4h49m29s773ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+
+  * ServiceRecord{1b2cb89d u0 com.meizu.media.gallery/com.meizu.media.common.service.DlnaService}
+    intent={cmp=com.meizu.media.gallery/com.meizu.media.common.service.DlnaService}
+    packageName=com.meizu.media.gallery
+    processName=com.meizu.media.gallery
+    baseDir=/system/priv-app/Gallery/Gallery.apk
+    dataDir=/data/data/com.meizu.media.gallery
+    app=ProcessRecord{2c0e286 1488:com.meizu.media.gallery/u0a15}
+    createTime=-6m4s382ms startingBgTimeout=--
+    lastActivity=-6m4s381ms restartTime=-6m4s381ms createdFromFg=false
+    Bindings:
+    * IntentBindRecord{2a2ce63 CREATE}:
+      intent={cmp=com.meizu.media.gallery/com.meizu.media.common.service.DlnaService}
+      binder=android.os.BinderProxy@3dc63a60
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{39704b19 ProcessRecord{2c0e286 1488:com.meizu.media.gallery/u0a15}}
+        Per-process Connections:
+          ConnectionRecord{22099b74 u0 CR com.meizu.media.gallery/com.meizu.media.common.service.DlnaService:@2ac97747}
+    All Connections:
+      ConnectionRecord{22099b74 u0 CR com.meizu.media.gallery/com.meizu.media.common.service.DlnaService:@2ac97747}
+
+  * ServiceRecord{2278f1e3 u0 com.meizu.safe/com.meizu.networkmanager.service.TrafficPollingService}
+    intent={cmp=com.meizu.safe/com.meizu.networkmanager.service.TrafficPollingService}
+    packageName=com.meizu.safe
+    processName=com.meizu.safe
+    baseDir=/system/app/MzSecurity/MzSecurity.apk
+    dataDir=/data/data/com.meizu.safe
+    app=ProcessRecord{215d21bc 1290:com.meizu.safe/1000}
+    createTime=-7h31m6s597ms startingBgTimeout=--
+    lastActivity=-52s762ms restartTime=-4h49m55s874ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=true callStart=true lastStartId=23
+    Delivered Starts:
+    #0 id=1 dur=-4h49m55s873ms dxc=1
+      intent=Intent { cmp=com.meizu.safe/com.meizu.networkmanager.service.TrafficPollingService }
+    #1 id=2 dur=-4h49m46s411ms dxc=1
+      intent=Intent { cmp=com.meizu.safe/com.meizu.networkmanager.service.TrafficPollingService }
+    #2 id=3 dur=-4h49m29s691ms dxc=1
+      intent=Intent { cmp=com.meizu.safe/com.meizu.networkmanager.service.TrafficPollingService }
+    #3 id=4 dur=-4h49m18s155ms dxc=1
+      intent=Intent { cmp=com.meizu.safe/com.meizu.networkmanager.service.TrafficPollingService }
+    #4 id=5 dur=-4h49m18s134ms dxc=1
+      intent=Intent { cmp=com.meizu.safe/com.meizu.networkmanager.service.TrafficPollingService }
+    #5 id=6 dur=-4h49m16s300ms dxc=1
+      intent=Intent { cmp=com.meizu.safe/com.meizu.networkmanager.service.TrafficPollingService (has extras) }
+    #6 id=7 dur=-4h33m57s381ms dxc=1
+      intent=Intent { cmp=com.meizu.safe/com.meizu.networkmanager.service.TrafficPollingService (has extras) }
+    #7 id=8 dur=-4h23m18s191ms dxc=1
+      intent=Intent { cmp=com.meizu.safe/com.meizu.networkmanager.service.TrafficPollingService (has extras) }
+    #8 id=9 dur=-4h16m25s564ms dxc=1
+      intent=Intent { cmp=com.meizu.safe/com.meizu.networkmanager.service.TrafficPollingService (has extras) }
+    #9 id=10 dur=-4h9m23s23ms dxc=1
+      intent=Intent { cmp=com.meizu.safe/com.meizu.networkmanager.service.TrafficPollingService (has extras) }
+    #10 id=11 dur=-3h53m21s144ms dxc=1
+      intent=Intent { cmp=com.meizu.safe/com.meizu.networkmanager.service.TrafficPollingService (has extras) }
+    #11 id=12 dur=-3h25m21s482ms dxc=1
+      intent=Intent { cmp=com.meizu.safe/com.meizu.networkmanager.service.TrafficPollingService }
+    #12 id=13 dur=-3h24m27s604ms dxc=1
+      intent=Intent { cmp=com.meizu.safe/com.meizu.networkmanager.service.TrafficPollingService }
+    #13 id=14 dur=-3h15m4s923ms dxc=1
+      intent=Intent { cmp=com.meizu.safe/com.meizu.networkmanager.service.TrafficPollingService (has extras) }
+    #14 id=15 dur=-3h8m57s847ms dxc=1
+      intent=Intent { cmp=com.meizu.safe/com.meizu.networkmanager.service.TrafficPollingService (has extras) }
+    #15 id=16 dur=-2h47m59s837ms dxc=1
+      intent=Intent { cmp=com.meizu.safe/com.meizu.networkmanager.service.TrafficPollingService (has extras) }
+    #16 id=17 dur=-2h33m17s803ms dxc=1
+      intent=Intent { cmp=com.meizu.safe/com.meizu.networkmanager.service.TrafficPollingService (has extras) }
+    #17 id=18 dur=-2h19m9s717ms dxc=1
+      intent=Intent { cmp=com.meizu.safe/com.meizu.networkmanager.service.TrafficPollingService (has extras) }
+    #18 id=19 dur=-1h58m15s867ms dxc=1
+      intent=Intent { cmp=com.meizu.safe/com.meizu.networkmanager.service.TrafficPollingService (has extras) }
+    #19 id=20 dur=-1h45m26s532ms dxc=1
+      intent=Intent { cmp=com.meizu.safe/com.meizu.networkmanager.service.TrafficPollingService (has extras) }
+    #20 id=21 dur=-1h29m2s836ms dxc=1
+      intent=Intent { cmp=com.meizu.safe/com.meizu.networkmanager.service.TrafficPollingService (has extras) }
+    #21 id=22 dur=-12m51s351ms dxc=1
+      intent=Intent { cmp=com.meizu.safe/com.meizu.networkmanager.service.TrafficPollingService (has extras) }
+    #22 id=23 dur=-52s762ms dxc=1
+      intent=Intent { cmp=com.meizu.safe/com.meizu.networkmanager.service.TrafficPollingService (has extras) }
+
+  * ServiceRecord{3181dcbc u0 com.aliyun.ams.tyid/com.aliyun.ams.flyme.yunosaccount.service.YunOSAuthToken}
+    intent={act=com.aliyun.ams.flyme.yunosaccount.YunOSAuthToken pkg=com.aliyun.ams.tyid cmp=com.aliyun.ams.tyid/com.aliyun.ams.flyme.yunosaccount.service.YunOSAuthToken}
+    packageName=com.aliyun.ams.tyid
+    processName=com.aliyun.ams.tyid
+    permission=com.aliyun.ams.flyme.yunosaccount.permission.ACCOUNT_AUTHTOKEN
+    baseDir=/system/priv-app/account/account.apk
+    dataDir=/data/data/com.aliyun.ams.tyid
+    app=ProcessRecord{177664b 4845:com.aliyun.ams.tyid/u0a35}
+    createTime=-7h30m41s141ms startingBgTimeout=--
+    lastActivity=-53s39ms restartTime=-4h49m30s231ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{9c2101 CREATE}:
+      intent={act=com.aliyun.ams.flyme.yunosaccount.YunOSAuthToken pkg=com.aliyun.ams.tyid cmp=com.aliyun.ams.tyid/com.aliyun.ams.flyme.yunosaccount.service.YunOSAuthToken}
+      binder=android.os.BinderProxy@1c4e8ba6
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{246239e7 ProcessRecord{17efd889 1618:com.aliyun.ams.assistantservice/u0a39}}
+        Per-process Connections:
+          ConnectionRecord{63050af u0 CR com.aliyun.ams.tyid/com.aliyun.ams.flyme.yunosaccount.service.YunOSAuthToken:@80f208e}
+    All Connections:
+      ConnectionRecord{63050af u0 CR com.aliyun.ams.tyid/com.aliyun.ams.flyme.yunosaccount.service.YunOSAuthToken:@80f208e}
+
+  * ServiceRecord{295c3933 u0 com.tencent.mobileqq/.app.CoreService$KernelService}
+    intent={cmp=com.tencent.mobileqq/.app.CoreService$KernelService}
+    packageName=com.tencent.mobileqq
+    processName=com.tencent.mobileqq
+    baseDir=/data/app/com.tencent.mobileqq-2/base.apk
+    dataDir=/data/data/com.tencent.mobileqq
+    app=ProcessRecord{3a521945 13391:com.tencent.mobileqq/u0a95}
+    isForeground=true foregroundId=537056366 foregroundNoti=Notification(pri=0 contentView=com.tencent.mobileqq/0xa030052 headsUpContentView=/0xa030056 bigContentView=null vibrate=null sound=null defaults=0x0 flags=0x62 color=0x00000000 vis=PRIVATE)
+    createTime=-12m52s172ms startingBgTimeout=-12m37s171ms
+    lastActivity=-12m52s172ms restartTime=-12m52s172ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=true callStart=true lastStartId=1
+
+  * ServiceRecord{96fef44 u0 com.meizu.flyme.service.find/.PhoneLocationService}
+    intent={cmp=com.meizu.flyme.service.find/.PhoneLocationService}
+    packageName=com.meizu.flyme.service.find
+    processName=com.meizu.flyme.service.find
+    permission=com.meizu.flyme.service.find.permisson.PhoneLocationService
+    baseDir=/system/app/MzPhoneLocationService/MzPhoneLocationService.apk
+    dataDir=/data/data/com.meizu.flyme.service.find
+    app=ProcessRecord{cea8b08 2685:com.meizu.flyme.service.find/u0a64}
+    createTime=-7h30m57s204ms startingBgTimeout=-4h49m31s480ms
+    lastActivity=-4h49m43s835ms restartTime=-4h49m46s480ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=2
+
+  * ServiceRecord{96f5d1e u0 com.meizu.cloud/.pushsdk.pushservice.MzPushService}
+    intent={act=com.meizu.pushservice.action.START cmp=com.meizu.cloud/.pushsdk.pushservice.MzPushService}
+    packageName=com.meizu.cloud
+    processName=com.meizu.cloud:mzservice_v1
+    baseDir=/system/app/MzCloudService/MzCloudService.apk
+    dataDir=/data/data/com.meizu.cloud
+    app=ProcessRecord{1b213994 2816:com.meizu.cloud:mzservice_v1/u0a60}
+    createTime=-7h30m56s634ms startingBgTimeout=--
+    lastActivity=-6m4s415ms restartTime=-4h49m45s862ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=41
+
+  * ServiceRecord{97f41aa u0 com.tencent.mm/.booter.CoreService}
+    intent={cmp=com.tencent.mm/.booter.CoreService}
+    packageName=com.tencent.mm
+    processName=com.tencent.mm:push
+    baseDir=/data/app/com.tencent.mm-1/base.apk
+    dataDir=/data/data/com.tencent.mm
+    app=ProcessRecord{8574d03 5580:com.tencent.mm:push/u0a97}
+    isForeground=true foregroundId=-1213 foregroundNoti=Notification(pri=0 contentView=null headsUpContentView=null bigContentView=null vibrate=null sound=null defaults=0x0 flags=0x62 color=0x00000000 vis=PRIVATE)
+    createTime=-7h30m29s760ms startingBgTimeout=-4h49m4s36ms
+    lastActivity=-29s229ms restartTime=-4h49m19s37ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=33
+    Bindings:
+    * IntentBindRecord{928cc3d CREATE}:
+      intent={cmp=com.tencent.mm/.booter.CoreService}
+      binder=android.os.BinderProxy@8c7bc32
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{190e8d83 ProcessRecord{3094c48c 7087:com.tencent.mm/u0a97}}
+        Per-process Connections:
+          ConnectionRecord{d5f072d u0 CR com.tencent.mm/.booter.CoreService:@410ca44}
+    All Connections:
+      ConnectionRecord{d5f072d u0 CR com.tencent.mm/.booter.CoreService:@410ca44}
+
+  * ServiceRecord{10a25b00 u0 com.android.bluetooth/.a2dp.A2dpService}
+    intent={act=android.bluetooth.IBluetoothA2dp cmp=com.android.bluetooth/.a2dp.A2dpService}
+    packageName=com.android.bluetooth
+    processName=com.android.bluetooth
+    baseDir=/system/app/Bluetooth/Bluetooth.apk
+    dataDir=/data/data/com.android.bluetooth
+    app=null
+    createTime=-7h31m8s543ms startingBgTimeout=--
+    lastActivity=-4h49m57s820ms restartTime=-- createdFromFg=true
+    Bindings:
+    * IntentBindRecord{2edaef39}:
+      intent={act=android.bluetooth.IBluetoothA2dp cmp=com.android.bluetooth/.a2dp.A2dpService}
+      binder=null
+      requested=false received=false hasBound=false doRebind=false
+      * Client AppBindRecord{2731697e ProcessRecord{3978115f 1065:com.android.systemui/u0a30}}
+        Per-process Connections:
+          ConnectionRecord{10d156c5 u0 com.android.bluetooth/.a2dp.A2dpService:@2412b93c}
+          ConnectionRecord{33c64176 u0 com.android.bluetooth/.a2dp.A2dpService:@2a0ccc11}
+      * Client AppBindRecord{13a27edf ProcessRecord{3eacc6ce 788:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{29cb5d4e u0 com.android.bluetooth/.a2dp.A2dpService:@19b81049}
+    All Connections:
+      ConnectionRecord{29cb5d4e u0 com.android.bluetooth/.a2dp.A2dpService:@19b81049}
+      ConnectionRecord{10d156c5 u0 com.android.bluetooth/.a2dp.A2dpService:@2412b93c}
+      ConnectionRecord{33c64176 u0 com.android.bluetooth/.a2dp.A2dpService:@2a0ccc11}
+
+  * ServiceRecord{3e2cc46d u0 com.tencent.mobileqq/.app.CoreService}
+    intent={cmp=com.tencent.mobileqq/.app.CoreService}
+    packageName=com.tencent.mobileqq
+    processName=com.tencent.mobileqq
+    baseDir=/data/app/com.tencent.mobileqq-2/base.apk
+    dataDir=/data/data/com.tencent.mobileqq
+    app=ProcessRecord{3a521945 13391:com.tencent.mobileqq/u0a95}
+    createTime=-12m52s176ms startingBgTimeout=-12m37s174ms
+    lastActivity=-50s858ms restartTime=-12m52s176ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=3
+
+  * ServiceRecord{2962b377 u0 com.tencent.mobileqq/.qipc.QIPCServiceEx}
+    intent={cmp=com.tencent.mobileqq/.qipc.QIPCServiceEx}
+    packageName=com.tencent.mobileqq
+    processName=com.tencent.mobileqq
+    baseDir=/data/app/com.tencent.mobileqq-2/base.apk
+    dataDir=/data/data/com.tencent.mobileqq
+    app=ProcessRecord{3a521945 13391:com.tencent.mobileqq/u0a95}
+    createTime=-50s538ms startingBgTimeout=--
+    lastActivity=-50s538ms restartTime=-50s538ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{1a07c7de CREATE}:
+      intent={cmp=com.tencent.mobileqq/.qipc.QIPCServiceEx}
+      binder=android.os.BinderProxy@28f245f5
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{27e9edbf ProcessRecord{3036b438 2676:com.tencent.mobileqq:qzone/u0a95}}
+        Per-process Connections:
+          ConnectionRecord{3e25b176 u0 CR com.tencent.mobileqq/.qipc.QIPCServiceEx:@d83fc11}
+    All Connections:
+      ConnectionRecord{3e25b176 u0 CR com.tencent.mobileqq/.qipc.QIPCServiceEx:@d83fc11}
+
+  * ServiceRecord{1e6c334b u0 com.android.systemui/.SystemUIService}
+    intent={cmp=com.android.systemui/.SystemUIService}
+    packageName=com.android.systemui
+    processName=com.android.systemui
+    baseDir=/system/priv-app/SystemUI/SystemUI.apk
+    dataDir=/data/data/com.android.systemui
+    app=ProcessRecord{3978115f 1065:com.android.systemui/u0a30}
+    createTime=-7h31m9s398ms startingBgTimeout=--
+    lastActivity=-4h49m58s648ms restartTime=-4h49m58s648ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+
+  * ServiceRecord{30cce040 u0 android/.hardware.location.GeofenceHardwareService}
+    intent={cmp=android/.hardware.location.GeofenceHardwareService}
+    packageName=android
+    processName=system
+    permission=android.permission.LOCATION_HARDWARE
+    baseDir=/system/framework/framework-res.apk
+    dataDir=/data/system
+    app=ProcessRecord{3eacc6ce 788:system/1000}
+    createTime=-7h31m8s277ms startingBgTimeout=--
+    lastActivity=-4h49m57s554ms restartTime=-4h49m57s554ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{c5a29fb CREATE}:
+      intent={cmp=android/.hardware.location.GeofenceHardwareService}
+      binder=android.hardware.location.GeofenceHardwareService$1@2e508a18
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{28ee4c71 ProcessRecord{3eacc6ce 788:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{1d66dfc3 u0 CR android/.hardware.location.GeofenceHardwareService:@360ef72}
+    All Connections:
+      ConnectionRecord{1d66dfc3 u0 CR android/.hardware.location.GeofenceHardwareService:@360ef72}
+
+  * ServiceRecord{f5f094a u0 com.meizu.mstore/com.meizu.flyme.appcenter.aidl.AidlCommonService}
+    intent={act=com.meizu.flyme.appcenter.AidlCommonService cmp=com.meizu.mstore/com.meizu.flyme.appcenter.aidl.AidlCommonService}
+    packageName=com.meizu.mstore
+    processName=com.meizu.mstore
+    baseDir=/data/app/com.meizu.mstore-1/base.apk
+    dataDir=/data/data/com.meizu.mstore
+    app=ProcessRecord{239fdd1d 5417:com.meizu.mstore/u0a38}
+    createTime=-51s370ms startingBgTimeout=--
+    lastActivity=-51s370ms restartTime=-51s370ms createdFromFg=false
+    Bindings:
+    * IntentBindRecord{25c49c8c CREATE}:
+      intent={act=com.meizu.flyme.appcenter.AidlCommonService cmp=com.meizu.mstore/com.meizu.flyme.appcenter.aidl.AidlCommonService}
+      binder=android.os.BinderProxy@1cb17fd5
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{4483ea ProcessRecord{31a1199f 2535:com.meizu.media.reader/u0a72}}
+        Per-process Connections:
+          ConnectionRecord{cf73eb5 u0 CR com.meizu.mstore/com.meizu.flyme.appcenter.aidl.AidlCommonService:@27608aec}
+    All Connections:
+      ConnectionRecord{cf73eb5 u0 CR com.meizu.mstore/com.meizu.flyme.appcenter.aidl.AidlCommonService:@27608aec}
+
+  * ServiceRecord{2ac9fa92 u0 com.sina.weibo/com.sina.push.service.SinaPushService}
+    intent={pkg=com.sina.weibo cmp=com.sina.weibo/com.sina.push.service.SinaPushService}
+    packageName=com.sina.weibo
+    processName=com.sina.weibo:remote
+    permission=com.sina.permission.SINA_PUSH
+    baseDir=/data/app/com.sina.weibo-2/base.apk
+    dataDir=/data/data/com.sina.weibo
+    app=ProcessRecord{dd5f8f4 3440:com.sina.weibo:remote/u0a88}
+    createTime=-7h30m48s473ms startingBgTimeout=--
+    lastActivity=-51s552ms restartTime=-4h49m37s750ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=59
+
+  * ServiceRecord{93a38c7 u0 com.android.settings/com.meizu.settings.donotdisturb.MzDonotDisturbService}
+    intent={cmp=com.android.settings/com.meizu.settings.donotdisturb.MzDonotDisturbService}
+    packageName=com.android.settings
+    processName=com.android.settings
+    baseDir=/system/priv-app/Settings/Settings.apk
+    dataDir=/data/data/com.android.settings
+    app=ProcessRecord{154d65f5 4714:com.android.settings/1000}
+    createTime=-7h30m41s976ms startingBgTimeout=-4h49m16s252ms
+    lastActivity=-4h49m31s253ms restartTime=-4h49m31s253ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+
+  * ServiceRecord{a74fdcf u0 com.meizu.flyme.update/.appupgrade.download.AppDownloadService}
+    intent={cmp=com.meizu.flyme.update/.appupgrade.download.AppDownloadService}
+    packageName=com.meizu.flyme.update
+    processName=com.meizu.flyme.update
+    baseDir=/data/app/com.meizu.flyme.update-1/base.apk
+    dataDir=/data/data/com.meizu.flyme.update
+    app=ProcessRecord{17695ead 12827:com.meizu.flyme.update/1000}
+    createTime=-3h45m14s915ms startingBgTimeout=--
+    lastActivity=-3h44m51s906ms restartTime=-3h44m51s906ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{1eca3ead CREATE}:
+      intent={cmp=com.meizu.flyme.update/.appupgrade.download.AppDownloadService}
+      binder=android.os.BinderProxy@220395e2
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{21fddd73 ProcessRecord{17695ead 12827:com.meizu.flyme.update/1000}}
+        Per-process Connections:
+          ConnectionRecord{1e33ce2e u0 CR com.meizu.flyme.update/.appupgrade.download.AppDownloadService:@386a38a9}
+    All Connections:
+      ConnectionRecord{1e33ce2e u0 CR com.meizu.flyme.update/.appupgrade.download.AppDownloadService:@386a38a9}
+
+  * ServiceRecord{1c38bb12 u0 com.android.server.telecom/.BluetoothPhoneService}
+    intent={cmp=com.android.server.telecom/.BluetoothPhoneService}
+    packageName=com.android.server.telecom
+    processName=system
+    baseDir=/system/priv-app/Telecom/Telecom.apk
+    dataDir=/data/data/com.android.server.telecom
+    app=ProcessRecord{3eacc6ce 788:system/1000}
+    createTime=-7h31m7s393ms startingBgTimeout=--
+    lastActivity=-4h49m56s670ms restartTime=-4h49m56s670ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+
+  * ServiceRecord{20475178 u0 com.yunos.baseservice.cmns_client/.client.CmnsService}
+    intent={act=com.yunos.CmnsService cmp=com.yunos.baseservice.cmns_client/.client.CmnsService}
+    packageName=com.yunos.baseservice.cmns_client
+    processName=com.aliyun.ams.assistantservice
+    baseDir=/system/app/BaseService/BaseService.apk
+    dataDir=/data/data/com.yunos.baseservice.cmns_client
+    app=ProcessRecord{17efd889 1618:com.aliyun.ams.assistantservice/u0a39}
+    createTime=-7h30m41s181ms startingBgTimeout=--
+    lastActivity=-4h49m30s457ms restartTime=-4h49m30s457ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+
+  * ServiceRecord{10842430 u0 com.meizu.flyme.update/.download.FwDownloadService}
+    intent={cmp=com.meizu.flyme.update/.download.FwDownloadService}
+    packageName=com.meizu.flyme.update
+    processName=com.meizu.flyme.update
+    baseDir=/data/app/com.meizu.flyme.update-1/base.apk
+    dataDir=/data/data/com.meizu.flyme.update
+    app=ProcessRecord{17695ead 12827:com.meizu.flyme.update/1000}
+    createTime=-3h45m14s918ms startingBgTimeout=--
+    lastActivity=-3h44m51s909ms restartTime=-3h44m51s909ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{c828430 CREATE}:
+      intent={cmp=com.meizu.flyme.update/.download.FwDownloadService}
+      binder=android.os.BinderProxy@4f918a9
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{3f492e2e ProcessRecord{17695ead 12827:com.meizu.flyme.update/1000}}
+        Per-process Connections:
+          ConnectionRecord{1481fd73 u0 CR com.meizu.flyme.update/.download.FwDownloadService:@398435e2}
+    All Connections:
+      ConnectionRecord{1481fd73 u0 CR com.meizu.flyme.update/.download.FwDownloadService:@398435e2}
+
+  * ServiceRecord{247b93e7 u0 com.meizu.battery/com.meizu.power.PowerService}
+    intent={cmp=com.meizu.battery/com.meizu.power.PowerService}
+    packageName=com.meizu.battery
+    processName=com.meizu.battery
+    permission=com.meizu.battery.permission.service
+    baseDir=/system/app/MzBatteryManager/MzBatteryManager.apk
+    dataDir=/data/data/com.meizu.battery
+    app=ProcessRecord{27b11695 1393:com.meizu.battery/1000}
+    createTime=-7h31m8s189ms startingBgTimeout=--
+    lastActivity=-4h49m57s466ms restartTime=-4h49m57s466ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+
+  * ServiceRecord{10f542fb u0 com.android.providers.media/.MtpService}
+    intent={cmp=com.android.providers.media/.MtpService}
+    packageName=com.android.providers.media
+    processName=android.process.media
+    baseDir=/system/priv-app/MediaProvider/MediaProvider.apk
+    dataDir=/data/data/com.android.providers.media
+    app=ProcessRecord{3c7c13e9 4472:android.process.media/u0a10}
+    createTime=-3h16m29s823ms startingBgTimeout=-3h16m14s822ms
+    lastActivity=-3h16m29s819ms restartTime=-3h16m29s823ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+    Bindings:
+    * IntentBindRecord{23ceddcf CREATE}:
+      intent={cmp=com.android.providers.media/.MtpService}
+      binder=android.os.BinderProxy@23c3b35c
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{30219665 ProcessRecord{3c7c13e9 4472:android.process.media/u0a10}}
+        Per-process Connections:
+          ConnectionRecord{2b958d71 u0 CR com.android.providers.media/.MtpService:@3bf82f18}
+    All Connections:
+      ConnectionRecord{2b958d71 u0 CR com.android.providers.media/.MtpService:@3bf82f18}
+
+  * ServiceRecord{29409ce9 u0 com.meizu.share/.ShareService}
+    intent={cmp=com.meizu.share/.ShareService}
+    packageName=com.meizu.share
+    processName=com.meizu.share
+    baseDir=/system/app/MzShare/MzShare.apk
+    dataDir=/data/data/com.meizu.share
+    app=ProcessRecord{3249e1e 4010:com.meizu.share/u0a65}
+    createTime=-7h30m46s242ms startingBgTimeout=-4h49m20s518ms
+    lastActivity=-4h49m35s519ms restartTime=-4h49m35s519ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+
+  * ServiceRecord{9ab3589 u0 com.tianyancha.skyeye/com.taobao.accs.data.MsgDistributeService}
+    intent={act=com.taobao.accs.intent.action.RECEIVE pkg=com.tianyancha.skyeye cmp=com.tianyancha.skyeye/com.taobao.accs.data.MsgDistributeService}
+    packageName=com.tianyancha.skyeye
+    processName=com.tianyancha.skyeye
+    baseDir=/data/app/com.tianyancha.skyeye-2/base.apk
+    dataDir=/data/data/com.tianyancha.skyeye
+    app=ProcessRecord{1dadae24 2720:com.tianyancha.skyeye/u0a174}
+    createTime=-48s18ms startingBgTimeout=--
+    lastActivity=-2s925ms restartTime=-48s18ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=true callStart=true lastStartId=2
+
+  * ServiceRecord{1c7852f6 u0 com.meizu.mzsyncservice/com.meizu.sync.service.SyncmlService}
+    intent={cmp=com.meizu.mzsyncservice/com.meizu.sync.service.SyncmlService}
+    packageName=com.meizu.mzsyncservice
+    processName=com.meizu.mzsyncservice
+    baseDir=/system/app/MzSyncService/MzSyncService.apk
+    dataDir=/data/data/com.meizu.mzsyncservice
+    app=ProcessRecord{75aa28f 4037:com.meizu.mzsyncservice/u0a67}
+    createTime=-7h30m45s944ms startingBgTimeout=-4h49m20s220ms
+    lastActivity=-4h48m56s531ms restartTime=-4h49m35s221ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=4
+
+  * ServiceRecord{2cace6fe u0 com.meizu.customizecenter/.common.helper.scannerhelper.CustomizeScannerService}
+    intent={cmp=com.meizu.customizecenter/.common.helper.scannerhelper.CustomizeScannerService}
+    packageName=com.meizu.customizecenter
+    processName=com.meizu.customizecenter
+    baseDir=/system/priv-app/CustomizeCenter/CustomizeCenter.apk
+    dataDir=/data/data/com.meizu.customizecenter
+    app=ProcessRecord{18282549 1434:com.meizu.customizecenter/u0a7}
+    createTime=-6m4s873ms startingBgTimeout=--
+    lastActivity=-6m4s873ms restartTime=-6m4s873ms createdFromFg=false
+    Bindings:
+    * IntentBindRecord{2e59a6db CREATE}:
+      intent={cmp=com.meizu.customizecenter/.common.helper.scannerhelper.CustomizeScannerService}
+      binder=android.os.BinderProxy@3564f578
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{11974451 ProcessRecord{18282549 1434:com.meizu.customizecenter/u0a7}}
+        Per-process Connections:
+          ConnectionRecord{2647f2b9 u0 CR com.meizu.customizecenter/.common.helper.scannerhelper.CustomizeScannerService:@85b3c80}
+    All Connections:
+      ConnectionRecord{2647f2b9 u0 CR com.meizu.customizecenter/.common.helper.scannerhelper.CustomizeScannerService:@85b3c80}
+
+  * ServiceRecord{80af96a u0 com.sina.weibo/.weiyou.refactor.service.DMService}
+    intent={act=action_mps_msg pkg=com.sina.weibo cmp=com.sina.weibo/.weiyou.refactor.service.DMService}
+    packageName=com.sina.weibo
+    processName=com.sina.weibo
+    baseDir=/data/app/com.sina.weibo-2/base.apk
+    dataDir=/data/data/com.sina.weibo
+    app=ProcessRecord{257f9d47 6870:com.sina.weibo/u0a88}
+    createTime=-7h29m30s139ms startingBgTimeout=-4h48m4s415ms
+    lastActivity=-4h23m28s268ms restartTime=-4h48m19s416ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=true callStart=true lastStartId=31
+
+  * ServiceRecord{3d197939 u0 com.meizu.experiencedatasync/.service.ReceiveErrorLogService}
+    intent={cmp=com.meizu.experiencedatasync/.service.ReceiveErrorLogService}
+    packageName=com.meizu.experiencedatasync
+    processName=com.meizu.experiencedatasync
+    baseDir=/system/priv-app/ExperienceDataSync/ExperienceDataSync.apk
+    dataDir=/data/data/com.meizu.experiencedatasync
+    app=ProcessRecord{1b4dd448 1525:com.meizu.experiencedatasync/1000}
+    createTime=-7h31m8s185ms startingBgTimeout=--
+    lastActivity=-4h49m57s462ms restartTime=-4h49m57s462ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=true callStart=true lastStartId=1
+    Delivered Starts:
+    #0 id=1 dur=-4h49m57s461ms dxc=1
+      intent=Intent { cmp=com.meizu.experiencedatasync/.service.ReceiveErrorLogService }
+
+  * ServiceRecord{11d54c0c u0 com.android.location.fused/.FusedLocationService}
+    intent={act=com.android.location.service.FusedLocationProvider pkg=com.android.location.fused cmp=com.android.location.fused/.FusedLocationService}
+    packageName=com.android.location.fused
+    processName=system
+    permission=android.permission.WRITE_SECURE_SETTINGS
+    baseDir=/system/priv-app/FusedLocation/FusedLocation.apk
+    dataDir=/data/data/com.android.location.fused
+    app=ProcessRecord{3eacc6ce 788:system/1000}
+    createTime=-7h31m8s285ms startingBgTimeout=--
+    lastActivity=-4h49m57s562ms restartTime=-4h49m57s562ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{313dff3a CREATE}:
+      intent={act=com.android.location.service.FusedLocationProvider pkg=com.android.location.fused cmp=com.android.location.fused/.FusedLocationService}
+      binder=com.android.location.provider.LocationProviderBase$Service@3c0587eb
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{886a948 ProcessRecord{3eacc6ce 788:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{2f19ab3f u0 CR !FG !VIS com.android.location.fused/.FusedLocationService:@34520b5e}
+    All Connections:
+      ConnectionRecord{2f19ab3f u0 CR !FG !VIS com.android.location.fused/.FusedLocationService:@34520b5e}
+
+  * ServiceRecord{1895b34e u0 com.amap.android.location/.GeocodeService}
+    intent={act=com.android.location.service.GeocodeProvider pkg=com.amap.android.location cmp=com.amap.android.location/.GeocodeService}
+    packageName=com.amap.android.location
+    processName=com.amap.android.location
+    permission=android.permission.WRITE_SECURE_SETTINGS
+    baseDir=/system/priv-app/AMapNetworkLocation_meizu/AMapNetworkLocation_meizu.apk
+    dataDir=/data/data/com.amap.android.location
+    app=ProcessRecord{e8dedda 1551:com.amap.android.location/u0a0}
+    createTime=-7h31m6s759ms startingBgTimeout=--
+    lastActivity=-4h49m56s36ms restartTime=-4h49m56s36ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{1e9a33e1 CREATE}:
+      intent={act=com.android.location.service.GeocodeProvider pkg=com.amap.android.location cmp=com.amap.android.location/.GeocodeService}
+      binder=android.os.BinderProxy@47cd506
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{3ab2b7c7 ProcessRecord{3eacc6ce 788:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{327dfe49 u0 CR !FG !VIS com.amap.android.location/.GeocodeService:@315afc50}
+    All Connections:
+      ConnectionRecord{327dfe49 u0 CR !FG !VIS com.amap.android.location/.GeocodeService:@315afc50}
+
+  * ServiceRecord{2d697f12 u0 com.sina.weibo/.HotEventService}
+    intent={cmp=com.sina.weibo/.HotEventService}
+    packageName=com.sina.weibo
+    processName=com.sina.weibo:remote
+    baseDir=/data/app/com.sina.weibo-2/base.apk
+    dataDir=/data/data/com.sina.weibo
+    app=ProcessRecord{dd5f8f4 3440:com.sina.weibo:remote/u0a88}
+    createTime=-7h30m15s713ms startingBgTimeout=--
+    lastActivity=-4h49m4s990ms restartTime=-4h49m4s990ms createdFromFg=false
+    Bindings:
+    * IntentBindRecord{1d0111f4 CREATE}:
+      intent={cmp=com.sina.weibo/.HotEventService}
+      binder=android.os.BinderProxy@3a52d1d
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{22813b92 ProcessRecord{257f9d47 6870:com.sina.weibo/u0a88}}
+        Per-process Connections:
+          ConnectionRecord{ebe4e9d u0 CR com.sina.weibo/.HotEventService:@52bc974}
+    All Connections:
+      ConnectionRecord{ebe4e9d u0 CR com.sina.weibo/.HotEventService:@52bc974}
+
+  * ServiceRecord{2fea7ab0 u0 com.meizu.privacy/.PrivacyController}
+    intent={cmp=com.meizu.privacy/.PrivacyController}
+    packageName=com.meizu.privacy
+    processName=com.meizu.privacy
+    permission=meizu.permission.BIND_PRIVACY_CONTROLER
+    baseDir=/system/app/PrivacyController/PrivacyController.apk
+    dataDir=/data/data/com.meizu.privacy
+    app=ProcessRecord{1521df04 5084:com.meizu.privacy/1338}
+    createTime=-7h30m39s585ms startingBgTimeout=-4h49m13s860ms
+    lastActivity=-52s762ms restartTime=-4h49m28s862ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=17
+
+  * ServiceRecord{36ba6786 u0 com.amap.android.location/.internal.server.NetworkLocationService}
+    intent={act=com.amap.android.location.internal.ANDROID_NLP pkg=com.amap.android.location cmp=com.amap.android.location/.internal.server.NetworkLocationService}
+    packageName=com.amap.android.location
+    processName=com.amap.android.location
+    baseDir=/system/priv-app/AMapNetworkLocation_meizu/AMapNetworkLocation_meizu.apk
+    dataDir=/data/data/com.amap.android.location
+    app=ProcessRecord{e8dedda 1551:com.amap.android.location/u0a0}
+    createTime=-7h31m6s617ms startingBgTimeout=--
+    lastActivity=-4h49m55s893ms restartTime=-4h49m55s893ms createdFromFg=false
+    Bindings:
+    * IntentBindRecord{36190963 CREATE}:
+      intent={act=com.amap.android.location.internal.ANDROID_NLP pkg=com.amap.android.location cmp=com.amap.android.location/.internal.server.NetworkLocationService}
+      binder=android.os.BinderProxy@f175960
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{a6c7e19 ProcessRecord{e8dedda 1551:com.amap.android.location/u0a0}}
+        Per-process Connections:
+          ConnectionRecord{14e08061 u0 CR com.amap.android.location/.internal.server.NetworkLocationService:@2fc57c8}
+    All Connections:
+      ConnectionRecord{14e08061 u0 CR com.amap.android.location/.internal.server.NetworkLocationService:@2fc57c8}
+
+  * ServiceRecord{366b4f84 u0 com.meizu.battery/com.meizu.power.apps.appnotification.PermanentNotificationService}
+    intent={act=android.service.notification.NotificationListenerService cmp=com.meizu.battery/com.meizu.power.apps.appnotification.PermanentNotificationService}
+    packageName=com.meizu.battery
+    processName=com.meizu.battery
+    permission=android.permission.BIND_NOTIFICATION_LISTENER_SERVICE
+    baseDir=/system/app/MzBatteryManager/MzBatteryManager.apk
+    dataDir=/data/data/com.meizu.battery
+    app=ProcessRecord{27b11695 1393:com.meizu.battery/1000}
+    createTime=-7h31m8s588ms startingBgTimeout=--
+    lastActivity=-4h49m56s896ms restartTime=-4h49m57s775ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+    Bindings:
+    * IntentBindRecord{1ef37ede CREATE}:
+      intent={act=android.service.notification.NotificationListenerService cmp=com.meizu.battery/com.meizu.power.apps.appnotification.PermanentNotificationService}
+      binder=android.os.BinderProxy@1c08d8bf
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{488ab8c ProcessRecord{3eacc6ce 788:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{25303197 u0 CR com.meizu.battery/com.meizu.power.apps.appnotification.PermanentNotificationService:@1e1fd416}
+    All Connections:
+      ConnectionRecord{25303197 u0 CR com.meizu.battery/com.meizu.power.apps.appnotification.PermanentNotificationService:@1e1fd416}
+
+  * ServiceRecord{cbde2d5 u0 com.android.bluetooth/.map.BluetoothMapService}
+    intent={act=android.bluetooth.IBluetoothMap cmp=com.android.bluetooth/.map.BluetoothMapService}
+    packageName=com.android.bluetooth
+    processName=com.android.bluetooth
+    baseDir=/system/app/Bluetooth/Bluetooth.apk
+    dataDir=/data/data/com.android.bluetooth
+    app=null
+    createTime=-7h31m4s759ms startingBgTimeout=--
+    lastActivity=-4h49m54s36ms restartTime=-- createdFromFg=true
+    Bindings:
+    * IntentBindRecord{db4aaea}:
+      intent={act=android.bluetooth.IBluetoothMap cmp=com.android.bluetooth/.map.BluetoothMapService}
+      binder=null
+      requested=false received=false hasBound=false doRebind=false
+      * Client AppBindRecord{3cfc41db ProcessRecord{3978115f 1065:com.android.systemui/u0a30}}
+        Per-process Connections:
+          ConnectionRecord{1af17940 u0 com.android.bluetooth/.map.BluetoothMapService:@274a3cc3}
+    All Connections:
+      ConnectionRecord{1af17940 u0 com.android.bluetooth/.map.BluetoothMapService:@274a3cc3}
+
+  * ServiceRecord{d568eab u0 com.android.phone/.TelephonyDebugService}
+    intent={cmp=com.android.phone/.TelephonyDebugService}
+    packageName=com.android.phone
+    processName=com.android.phone
+    baseDir=/system/priv-app/TeleService/TeleService.apk
+    dataDir=/data/data/com.android.phone
+    app=ProcessRecord{2a1ab3d5 1696:com.android.phone/1001}
+    createTime=-7h31m2s774ms startingBgTimeout=--
+    lastActivity=-4h49m52s52ms restartTime=-4h49m52s52ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+
+  * ServiceRecord{30fdd0e u0 com.android.server.telecom/.TelecomService}
+    intent={act=com.android.ITelecomService cmp=com.android.server.telecom/.TelecomService}
+    packageName=com.android.server.telecom
+    processName=system
+    baseDir=/system/priv-app/Telecom/Telecom.apk
+    dataDir=/data/data/com.android.server.telecom
+    app=ProcessRecord{3eacc6ce 788:system/1000}
+    createTime=-7h31m9s621ms startingBgTimeout=--
+    lastActivity=-4h49m58s898ms restartTime=-4h49m58s898ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{1ddaf478 CREATE}:
+      intent={act=com.android.ITelecomService cmp=com.android.server.telecom/.TelecomService}
+      binder=com.android.server.telecom.TelecomService$TelecomServiceImpl@3986d751
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{2daa8bb6 ProcessRecord{3eacc6ce 788:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{4c3b709 u0 CR IMP com.android.server.telecom/.TelecomService:@2a352010}
+    All Connections:
+      ConnectionRecord{4c3b709 u0 CR IMP com.android.server.telecom/.TelecomService:@2a352010}
+
+  * ServiceRecord{3ab6d869 u0 com.meizu.account/.service.MeizuAccountService}
+    intent={cmp=com.meizu.account/.service.MeizuAccountService}
+    packageName=com.meizu.account
+    processName=com.meizu.account
+    baseDir=/data/app/com.meizu.account-1/base.apk
+    dataDir=/data/data/com.meizu.account
+    app=ProcessRecord{235d6af8 4343:com.meizu.account/u0a59}
+    createTime=-7h30m43s964ms startingBgTimeout=-4h49m18s240ms
+    lastActivity=-4h49m33s241ms restartTime=-4h49m33s241ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+
+  * ServiceRecord{3400e15e u0 com.meizu.safe/.blockService.GuardService}
+    intent={cmp=com.meizu.safe/.blockService.GuardService}
+    packageName=com.meizu.safe
+    processName=com.meizu.safe
+    baseDir=/system/app/MzSecurity/MzSecurity.apk
+    dataDir=/data/data/com.meizu.safe
+    app=ProcessRecord{215d21bc 1290:com.meizu.safe/1000}
+    createTime=-7h31m6s597ms startingBgTimeout=--
+    lastActivity=-4h49m29s695ms restartTime=-4h49m55s874ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=2
+
+  * ServiceRecord{1626e7c9 u0 com.tencent.mobileqq/.msf.service.MsfService}
+    intent={cmp=com.tencent.mobileqq/.msf.service.MsfService}
+    packageName=com.tencent.mobileqq
+    processName=com.tencent.mobileqq:MSF
+    baseDir=/data/app/com.tencent.mobileqq-2/base.apk
+    dataDir=/data/data/com.tencent.mobileqq
+    app=ProcessRecord{203e001f 2298:com.tencent.mobileqq:MSF/u0a95}
+    createTime=-7h30m59s759ms startingBgTimeout=-4h49m34s36ms
+    lastActivity=-49s973ms restartTime=-4h49m49s36ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=15
+    Bindings:
+    * IntentBindRecord{2cf320b7 CREATE}:
+      intent={cmp=com.tencent.mobileqq/.msf.service.MsfService}
+      binder=android.os.BinderProxy@3c06e024
+      requested=true received=true hasBound=false doRebind=false
+      * Client AppBindRecord{3bdef4b6 ProcessRecord{3036b438 2676:com.tencent.mobileqq:qzone/u0a95}}
+        Per-process Connections:
+          ConnectionRecord{1c3b22d6 u0 CR com.tencent.mobileqq/.msf.service.MsfService:@219103ac}
+          ConnectionRecord{3ce52875 u0 CR com.tencent.mobileqq/.msf.service.MsfService:@219103ac}
+      * Client AppBindRecord{2710978d ProcessRecord{3a521945 13391:com.tencent.mobileqq/u0a95}}
+        Per-process Connections:
+          ConnectionRecord{2a65f5cb u0 CR com.tencent.mobileqq/.msf.service.MsfService:@2905f89a}
+    All Connections:
+      ConnectionRecord{3ce52875 u0 CR com.tencent.mobileqq/.msf.service.MsfService:@219103ac}
+      ConnectionRecord{1c3b22d6 u0 CR com.tencent.mobileqq/.msf.service.MsfService:@219103ac}
+      ConnectionRecord{2a65f5cb u0 CR com.tencent.mobileqq/.msf.service.MsfService:@2905f89a}
+
+  * ServiceRecord{160f1153 u0 com.android.bluetooth/.pan.PanService}
+    intent={act=android.bluetooth.IBluetoothPan cmp=com.android.bluetooth/.pan.PanService}
+    packageName=com.android.bluetooth
+    processName=com.android.bluetooth
+    baseDir=/system/app/Bluetooth/Bluetooth.apk
+    dataDir=/data/data/com.android.bluetooth
+    app=null
+    createTime=-7h31m10s700ms startingBgTimeout=--
+    lastActivity=-4h49m59s977ms restartTime=-- createdFromFg=true
+    Bindings:
+    * IntentBindRecord{34e3da90}:
+      intent={act=android.bluetooth.IBluetoothPan cmp=com.android.bluetooth/.pan.PanService}
+      binder=null
+      requested=false received=false hasBound=false doRebind=false
+      * Client AppBindRecord{cfc1f89 ProcessRecord{3978115f 1065:com.android.systemui/u0a30}}
+        Per-process Connections:
+          ConnectionRecord{1ba8be8b u0 com.android.bluetooth/.pan.PanService:@39676c5a}
+          ConnectionRecord{248e7b35 u0 com.android.bluetooth/.pan.PanService:@314e96c}
+      * Client AppBindRecord{5eb5b8e ProcessRecord{3eacc6ce 788:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{2a168294 u0 com.android.bluetooth/.pan.PanService:@362b06e7}
+    All Connections:
+      ConnectionRecord{248e7b35 u0 com.android.bluetooth/.pan.PanService:@314e96c}
+      ConnectionRecord{2a168294 u0 com.android.bluetooth/.pan.PanService:@362b06e7}
+      ConnectionRecord{1ba8be8b u0 com.android.bluetooth/.pan.PanService:@39676c5a}
+
+  * ServiceRecord{6503b52 u0 com.flyme.systemuitools/com.meizu.notification.FlymeNotificationFilterService}
+    intent={act=com.meizu.notification.FILTER pkg=com.flyme.systemuitools cmp=com.flyme.systemuitools/com.meizu.notification.FlymeNotificationFilterService}
+    packageName=com.flyme.systemuitools
+    processName=com.flyme.systemuitools
+    baseDir=/system/priv-app/SystemUITools/SystemUITools.apk
+    dataDir=/data/data/com.flyme.systemuitools
+    app=ProcessRecord{277c1672 2181:com.flyme.systemuitools/u0a30}
+    createTime=-7h31m10s545ms startingBgTimeout=--
+    lastActivity=-4h49m51s798ms restartTime=-4h49m51s798ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{18ef6faf CREATE}:
+      intent={act=com.meizu.notification.FILTER pkg=com.flyme.systemuitools cmp=com.flyme.systemuitools/com.meizu.notification.FlymeNotificationFilterService}
+      binder=android.os.BinderProxy@22540fbc
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{21fe2b45 ProcessRecord{3eacc6ce 788:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{3ad553dd u0 CR com.flyme.systemuitools/com.meizu.notification.FlymeNotificationFilterService:@17529bb4}
+    All Connections:
+      ConnectionRecord{3ad553dd u0 CR com.flyme.systemuitools/com.meizu.notification.FlymeNotificationFilterService:@17529bb4}
+
+  * ServiceRecord{2d9e659 u0 com.tencent.mobileqq/.music.QQPlayerService}
+    intent={cmp=com.tencent.mobileqq/.music.QQPlayerService}
+    packageName=com.tencent.mobileqq
+    processName=com.tencent.mobileqq
+    baseDir=/data/app/com.tencent.mobileqq-2/base.apk
+    dataDir=/data/data/com.tencent.mobileqq
+    app=ProcessRecord{3a521945 13391:com.tencent.mobileqq/u0a95}
+    createTime=-49s289ms startingBgTimeout=--
+    lastActivity=-49s289ms restartTime=-49s289ms createdFromFg=false
+    Bindings:
+    * IntentBindRecord{2741d5b7 CREATE}:
+      intent={cmp=com.tencent.mobileqq/.music.QQPlayerService}
+      binder=android.os.BinderProxy@8aff124
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{343ad48d ProcessRecord{3036b438 2676:com.tencent.mobileqq:qzone/u0a95}}
+        Per-process Connections:
+          ConnectionRecord{17343aa0 u0 CR WPRI com.tencent.mobileqq/.music.QQPlayerService:@3383a7a3}
+    All Connections:
+      ConnectionRecord{17343aa0 u0 CR WPRI com.tencent.mobileqq/.music.QQPlayerService:@3383a7a3}
+
+  * ServiceRecord{3495c960 u0 com.meizu.mstore/com.meizu.cloud.app.downlad.AppDownloadService}
+    intent={cmp=com.meizu.mstore/com.meizu.cloud.app.downlad.AppDownloadService}
+    packageName=com.meizu.mstore
+    processName=com.meizu.mstore
+    baseDir=/data/app/com.meizu.mstore-1/base.apk
+    dataDir=/data/data/com.meizu.mstore
+    app=ProcessRecord{239fdd1d 5417:com.meizu.mstore/u0a38}
+    createTime=-7h30m34s493ms startingBgTimeout=--
+    lastActivity=-4h49m23s758ms restartTime=-4h49m23s770ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{195b36c1 CREATE}:
+      intent={cmp=com.meizu.mstore/com.meizu.cloud.app.downlad.AppDownloadService}
+      binder=android.os.BinderProxy@30cb4e66
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{157a5a7 ProcessRecord{239fdd1d 5417:com.meizu.mstore/u0a38}}
+        Per-process Connections:
+          ConnectionRecord{1cb3963 u0 CR com.meizu.mstore/com.meizu.cloud.app.downlad.AppDownloadService:@1de2b92}
+          ConnectionRecord{3dbf9aea u0 CR com.meizu.mstore/com.meizu.cloud.app.downlad.AppDownloadService:@3b5e92d5}
+    All Connections:
+      ConnectionRecord{1cb3963 u0 CR com.meizu.mstore/com.meizu.cloud.app.downlad.AppDownloadService:@1de2b92}
+      ConnectionRecord{3dbf9aea u0 CR com.meizu.mstore/com.meizu.cloud.app.downlad.AppDownloadService:@3b5e92d5}
+
+  Connection bindings to services:
+  * ConnectionRecord{1cb3963 u0 CR com.meizu.mstore/com.meizu.cloud.app.downlad.AppDownloadService:@1de2b92}
+    binding=AppBindRecord{157a5a7 com.meizu.mstore/com.meizu.cloud.app.downlad.AppDownloadService:com.meizu.mstore}
+    conn=android.os.BinderProxy@1de2b92 flags=0x1
+  * ConnectionRecord{14e08061 u0 CR com.amap.android.location/.internal.server.NetworkLocationService:@2fc57c8}
+    binding=AppBindRecord{a6c7e19 com.amap.android.location/.internal.server.NetworkLocationService:com.amap.android.location}
+    conn=android.os.BinderProxy@2fc57c8 flags=0x1
+  * ConnectionRecord{248e7b35 u0 com.android.bluetooth/.pan.PanService:@314e96c}
+    binding=AppBindRecord{cfc1f89 com.android.bluetooth/.pan.PanService:com.android.systemui}
+    conn=android.os.BinderProxy@314e96c flags=0x0
+  * ConnectionRecord{1d66dfc3 u0 CR android/.hardware.location.GeofenceHardwareService:@360ef72}
+    binding=AppBindRecord{28ee4c71 android/.hardware.location.GeofenceHardwareService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@360ef72 flags=0x1
+  * ConnectionRecord{d5f072d u0 CR com.tencent.mm/.booter.CoreService:@410ca44}
+    binding=AppBindRecord{190e8d83 com.tencent.mm/.booter.CoreService:com.tencent.mm}
+    conn=android.os.BinderProxy@410ca44 flags=0x1
+  * ConnectionRecord{ebe4e9d u0 CR com.sina.weibo/.HotEventService:@52bc974}
+    binding=AppBindRecord{22813b92 com.sina.weibo/.HotEventService:com.sina.weibo}
+    conn=android.os.BinderProxy@52bc974 flags=0x1
+  * ConnectionRecord{cb10791 u0 CR com.tencent.mobileqq/com.tencent.tmdownloader.internal.remote.RemoteOpService:@60abdb8}
+    binding=AppBindRecord{29b2f492 com.tencent.mobileqq/com.tencent.tmdownloader.internal.remote.RemoteOpService:com.tencent.mobileqq:qzone}
+    conn=android.os.BinderProxy@60abdb8 flags=0x1
+  * ConnectionRecord{63050af u0 CR com.aliyun.ams.tyid/com.aliyun.ams.flyme.yunosaccount.service.YunOSAuthToken:@80f208e}
+    binding=AppBindRecord{246239e7 com.aliyun.ams.tyid/com.aliyun.ams.flyme.yunosaccount.service.YunOSAuthToken:com.aliyun.ams.assistantservice}
+    conn=android.os.BinderProxy@80f208e flags=0x1
+  * ConnectionRecord{2647f2b9 u0 CR com.meizu.customizecenter/.common.helper.scannerhelper.CustomizeScannerService:@85b3c80}
+    binding=AppBindRecord{11974451 com.meizu.customizecenter/.common.helper.scannerhelper.CustomizeScannerService:com.meizu.customizecenter}
+    conn=android.os.BinderProxy@85b3c80 flags=0x1
+  * ConnectionRecord{3e25b176 u0 CR com.tencent.mobileqq/.qipc.QIPCServiceEx:@d83fc11}
+    binding=AppBindRecord{27e9edbf com.tencent.mobileqq/.qipc.QIPCServiceEx:com.tencent.mobileqq:qzone}
+    conn=android.os.BinderProxy@d83fc11 flags=0x1
+  * ConnectionRecord{1dccff02 u0 com.android.bluetooth/.hid.HidService:@10e1184d}
+    binding=AppBindRecord{38425059 com.android.bluetooth/.hid.HidService:com.android.systemui}
+    conn=android.os.BinderProxy@10e1184d flags=0x0
+  * ConnectionRecord{3ad553dd u0 CR com.flyme.systemuitools/com.meizu.notification.FlymeNotificationFilterService:@17529bb4}
+    binding=AppBindRecord{21fe2b45 com.flyme.systemuitools/com.meizu.notification.FlymeNotificationFilterService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@17529bb4 flags=0x1
+  * ConnectionRecord{32857527 u0 com.android.bluetooth/.hid.HidService:@18d8abe6}
+    binding=AppBindRecord{38425059 com.android.bluetooth/.hid.HidService:com.android.systemui}
+    conn=android.os.BinderProxy@18d8abe6 flags=0x0
+  * ConnectionRecord{29cb5d4e u0 com.android.bluetooth/.a2dp.A2dpService:@19b81049}
+    binding=AppBindRecord{13a27edf com.android.bluetooth/.a2dp.A2dpService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@19b81049 flags=0x0
+  * ConnectionRecord{29a2c747 u0 CR com.android.systemui/.keyguard.KeyguardService:@1aed7286}
+    binding=AppBindRecord{2729d5cd com.android.systemui/.keyguard.KeyguardService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@1aed7286 flags=0x1
+  * ConnectionRecord{25303197 u0 CR com.meizu.battery/com.meizu.power.apps.appnotification.PermanentNotificationService:@1e1fd416}
+    binding=AppBindRecord{488ab8c com.meizu.battery/com.meizu.power.apps.appnotification.PermanentNotificationService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@1e1fd416 flags=0x1
+  * ConnectionRecord{3ce52875 u0 CR com.tencent.mobileqq/.msf.service.MsfService:@219103ac}
+    binding=AppBindRecord{3bdef4b6 com.tencent.mobileqq/.msf.service.MsfService:com.tencent.mobileqq:qzone}
+    conn=android.os.BinderProxy@219103ac flags=0x1
+  * ConnectionRecord{1c3b22d6 u0 CR com.tencent.mobileqq/.msf.service.MsfService:@219103ac}
+    binding=AppBindRecord{3bdef4b6 com.tencent.mobileqq/.msf.service.MsfService:com.tencent.mobileqq:qzone}
+    conn=android.os.BinderProxy@219103ac flags=0x1
+  * ConnectionRecord{10d156c5 u0 com.android.bluetooth/.a2dp.A2dpService:@2412b93c}
+    binding=AppBindRecord{2731697e com.android.bluetooth/.a2dp.A2dpService:com.android.systemui}
+    conn=android.os.BinderProxy@2412b93c flags=0x0
+  * ConnectionRecord{34fc4eaa u0 CR !FG !VIS com.amap.android.location/.NetworkLocationService:@2512bd95}
+    binding=AppBindRecord{354106fc com.amap.android.location/.NetworkLocationService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@2512bd95 flags=0x40000005
+  * ConnectionRecord{1af17940 u0 com.android.bluetooth/.map.BluetoothMapService:@274a3cc3}
+    binding=AppBindRecord{3cfc41db com.android.bluetooth/.map.BluetoothMapService:com.android.systemui}
+    conn=android.os.BinderProxy@274a3cc3 flags=0x0
+  * ConnectionRecord{cf73eb5 u0 CR com.meizu.mstore/com.meizu.flyme.appcenter.aidl.AidlCommonService:@27608aec}
+    binding=AppBindRecord{4483ea com.meizu.mstore/com.meizu.flyme.appcenter.aidl.AidlCommonService:com.meizu.media.reader}
+    conn=android.os.BinderProxy@27608aec flags=0x1
+  * ConnectionRecord{2a65f5cb u0 CR com.tencent.mobileqq/.msf.service.MsfService:@2905f89a}
+    binding=AppBindRecord{2710978d com.tencent.mobileqq/.msf.service.MsfService:com.tencent.mobileqq}
+    conn=android.os.BinderProxy@2905f89a flags=0x1
+  * ConnectionRecord{33c64176 u0 com.android.bluetooth/.a2dp.A2dpService:@2a0ccc11}
+    binding=AppBindRecord{2731697e com.android.bluetooth/.a2dp.A2dpService:com.android.systemui}
+    conn=android.os.BinderProxy@2a0ccc11 flags=0x0
+  * ConnectionRecord{4c3b709 u0 CR IMP com.android.server.telecom/.TelecomService:@2a352010}
+    binding=AppBindRecord{2daa8bb6 com.android.server.telecom/.TelecomService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@2a352010 flags=0x41
+  * ConnectionRecord{22099b74 u0 CR com.meizu.media.gallery/com.meizu.media.common.service.DlnaService:@2ac97747}
+    binding=AppBindRecord{39704b19 com.meizu.media.gallery/com.meizu.media.common.service.DlnaService:com.meizu.media.gallery}
+    conn=android.os.BinderProxy@2ac97747 flags=0x1
+  * ConnectionRecord{327dfe49 u0 CR !FG !VIS com.amap.android.location/.GeocodeService:@315afc50}
+    binding=AppBindRecord{3ab2b7c7 com.amap.android.location/.GeocodeService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@315afc50 flags=0x40000005
+  * ConnectionRecord{1f8092bd u0 CR !FG UI !VIS com.meizu.flyme.input/com.meizu.input.MzInputService:@317a0a14}
+    binding=AppBindRecord{1c5d52cc com.meizu.flyme.input/com.meizu.input.MzInputService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@317a0a14 flags=0x60000005
+  * ConnectionRecord{17343aa0 u0 CR WPRI com.tencent.mobileqq/.music.QQPlayerService:@3383a7a3}
+    binding=AppBindRecord{343ad48d com.tencent.mobileqq/.music.QQPlayerService:com.tencent.mobileqq:qzone}
+    conn=android.os.BinderProxy@3383a7a3 flags=0x21
+  * ConnectionRecord{2f19ab3f u0 CR !FG !VIS com.android.location.fused/.FusedLocationService:@34520b5e}
+    binding=AppBindRecord{886a948 com.android.location.fused/.FusedLocationService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@34520b5e flags=0x40000005
+  * ConnectionRecord{2a168294 u0 com.android.bluetooth/.pan.PanService:@362b06e7}
+    binding=AppBindRecord{5eb5b8e com.android.bluetooth/.pan.PanService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@362b06e7 flags=0x0
+  * ConnectionRecord{efa49fb u0 CR com.meizu.flyme.update/.download.QueryUpdateService:@37833f8a}
+    binding=AppBindRecord{2b69821b com.meizu.flyme.update/.download.QueryUpdateService:com.android.settings}
+    conn=android.os.BinderProxy@37833f8a flags=0x1
+  * ConnectionRecord{1e33ce2e u0 CR com.meizu.flyme.update/.appupgrade.download.AppDownloadService:@386a38a9}
+    binding=AppBindRecord{21fddd73 com.meizu.flyme.update/.appupgrade.download.AppDownloadService:com.meizu.flyme.update}
+    conn=android.os.BinderProxy@386a38a9 flags=0x1
+  * ConnectionRecord{3088e1dd u0 CR UI com.android.systemui/.ImageWallpaper:@3883a1b4}
+    binding=AppBindRecord{35b3ddd0 com.android.systemui/.ImageWallpaper:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@3883a1b4 flags=0x20000001
+  * ConnectionRecord{1ba8be8b u0 com.android.bluetooth/.pan.PanService:@39676c5a}
+    binding=AppBindRecord{cfc1f89 com.android.bluetooth/.pan.PanService:com.android.systemui}
+    conn=android.os.BinderProxy@39676c5a flags=0x0
+  * ConnectionRecord{1481fd73 u0 CR com.meizu.flyme.update/.download.FwDownloadService:@398435e2}
+    binding=AppBindRecord{3f492e2e com.meizu.flyme.update/.download.FwDownloadService:com.meizu.flyme.update}
+    conn=android.os.BinderProxy@398435e2 flags=0x1
+  * ConnectionRecord{3dbf9aea u0 CR com.meizu.mstore/com.meizu.cloud.app.downlad.AppDownloadService:@3b5e92d5}
+    binding=AppBindRecord{157a5a7 com.meizu.mstore/com.meizu.cloud.app.downlad.AppDownloadService:com.meizu.mstore}
+    conn=android.os.BinderProxy@3b5e92d5 flags=0x1
+  * ConnectionRecord{2b958d71 u0 CR com.android.providers.media/.MtpService:@3bf82f18}
+    binding=AppBindRecord{30219665 com.android.providers.media/.MtpService:android.process.media}
+    conn=android.os.BinderProxy@3bf82f18 flags=0x1
+

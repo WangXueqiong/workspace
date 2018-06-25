@@ -1,0 +1,322 @@
+user=0 
+  In-memory daily stats
+  timeRange="2018/5/14 08:00???18:37" 
+    packages
+      package=com.meizu.flyme.launcher totalTime="35:28" lastTime="2018/5/14 18:37" 
+      package=com.meizu.perfui totalTime="00:02" lastTime="2018/5/14 15:12" 
+      package=com.tencent.mobileqq totalTime="00:23" lastTime="2018/5/14 15:08" 
+      package=com.android.settings totalTime="1:06:51" lastTime="2018/5/14 18:37" 
+      package=com.tianyancha.skyeye totalTime="1:44:35" lastTime="2018/5/14 18:37" 
+      package=com.android.systemui totalTime="00:03" lastTime="2018/5/14 15:23" 
+    configurations
+    events
+      time="2018/5/14 11:11" type=MOVE_TO_BACKGROUND package=com.meizu.flyme.launcher class=com.meizu.flyme.launcher.Launcher 
+      time="2018/5/14 11:11" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.SplashPage 
+      time="2018/5/14 11:11" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.SplashPage 
+      time="2018/5/14 11:11" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.activity.LaunchActivity 
+      time="2018/5/14 11:11" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.activity.LaunchActivity 
+      time="2018/5/14 11:11" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2018/5/14 11:11" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2018/5/14 11:11" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.LoginActivity 
+      time="2018/5/14 11:12" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.LoginActivity 
+      time="2018/5/14 11:12" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2018/5/14 11:22" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2018/5/14 11:32" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2018/5/14 11:32" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2018/5/14 11:32" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.search.SearchCompanyActivity 
+      time="2018/5/14 11:32" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.search.SearchCompanyActivity 
+      time="2018/5/14 11:32" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.detail.company.FirmDetailActivity 
+      time="2018/5/14 11:32" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.detail.company.FirmDetailActivity 
+      time="2018/5/14 11:32" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.detail.datadimension.companyinfo.CompanyInfoActivity 
+      time="2018/5/14 11:33" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.detail.datadimension.companyinfo.CompanyInfoActivity 
+      time="2018/5/14 11:33" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.detail.company.FirmDetailActivity 
+      time="2018/5/14 11:35" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.detail.company.FirmDetailActivity 
+      time="2018/5/14 13:58" type=MOVE_TO_FOREGROUND package=com.meizu.flyme.launcher class=com.meizu.flyme.launcher.Launcher 
+      time="2018/5/14 13:58" type=MOVE_TO_BACKGROUND package=com.meizu.flyme.launcher class=com.meizu.flyme.launcher.Launcher 
+      time="2018/5/14 13:58" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.SplashPage 
+      time="2018/5/14 13:58" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.SplashPage 
+      time="2018/5/14 13:58" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.AdvertActivity 
+      time="2018/5/14 13:58" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.AdvertActivity 
+      time="2018/5/14 13:58" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2018/5/14 13:58" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2018/5/14 13:58" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.search.SearchCompanyActivity 
+      time="2018/5/14 13:58" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.search.SearchCompanyActivity 
+      time="2018/5/14 13:58" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.detail.company.FirmDetailActivity 
+      time="2018/5/14 13:59" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.detail.company.FirmDetailActivity 
+      time="2018/5/14 13:59" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.detail.datadimension.companyinfo.CompanyInfoActivity 
+      time="2018/5/14 14:04" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.detail.datadimension.companyinfo.CompanyInfoActivity 
+      time="2018/5/14 14:21" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.detail.datadimension.companyinfo.CompanyInfoActivity 
+      time="2018/5/14 14:21" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.detail.datadimension.companyinfo.CompanyInfoActivity 
+      time="2018/5/14 14:21" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.detail.company.FirmDetailActivity 
+      time="2018/5/14 14:26" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.detail.company.FirmDetailActivity 
+      time="2018/5/14 14:28" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.detail.company.FirmDetailActivity 
+      time="2018/5/14 14:28" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.detail.company.FirmDetailActivity 
+      time="2018/5/14 14:28" type=MOVE_TO_FOREGROUND package=com.meizu.flyme.launcher class=com.meizu.flyme.launcher.Launcher 
+      time="2018/5/14 14:34" type=MOVE_TO_BACKGROUND package=com.meizu.flyme.launcher class=com.meizu.flyme.launcher.Launcher 
+      time="2018/5/14 14:44" type=MOVE_TO_FOREGROUND package=com.meizu.flyme.launcher class=com.meizu.flyme.launcher.Launcher 
+      time="2018/5/14 14:47" type=MOVE_TO_BACKGROUND package=com.meizu.flyme.launcher class=com.meizu.flyme.launcher.Launcher 
+      time="2018/5/14 14:47" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.detail.company.FirmDetailActivity 
+      time="2018/5/14 14:52" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.detail.company.FirmDetailActivity 
+      time="2018/5/14 14:52" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.search.SearchCompanyActivity 
+      time="2018/5/14 14:52" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.search.SearchCompanyActivity 
+      time="2018/5/14 14:52" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2018/5/14 14:52" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2018/5/14 14:52" type=MOVE_TO_FOREGROUND package=com.meizu.flyme.launcher class=com.meizu.flyme.launcher.Launcher 
+      time="2018/5/14 14:52" type=MOVE_TO_BACKGROUND package=com.meizu.flyme.launcher class=com.meizu.flyme.launcher.Launcher 
+      time="2018/5/14 14:52" type=MOVE_TO_FOREGROUND package=com.android.settings class=com.android.settings.Settings 
+      time="2018/5/14 14:53" type=MOVE_TO_BACKGROUND package=com.android.settings class=com.android.settings.Settings 
+      time="2018/5/14 14:53" type=MOVE_TO_FOREGROUND package=com.android.settings class=com.android.settings.SubSettings 
+      time="2018/5/14 14:53" type=MOVE_TO_BACKGROUND package=com.android.settings class=com.android.settings.SubSettings 
+      time="2018/5/14 14:53" type=MOVE_TO_FOREGROUND package=com.android.settings class=com.android.settings.Settings 
+      time="2018/5/14 14:53" type=MOVE_TO_BACKGROUND package=com.android.settings class=com.android.settings.Settings 
+      time="2018/5/14 14:53" type=MOVE_TO_FOREGROUND package=com.android.settings class=com.android.settings.SubSettings 
+      time="2018/5/14 14:53" type=MOVE_TO_BACKGROUND package=com.android.settings class=com.android.settings.SubSettings 
+      time="2018/5/14 14:53" type=MOVE_TO_FOREGROUND package=com.android.settings class=com.android.settings.SubSettings 
+      time="2018/5/14 14:54" type=MOVE_TO_BACKGROUND package=com.android.settings class=com.android.settings.SubSettings 
+      time="2018/5/14 14:54" type=MOVE_TO_FOREGROUND package=com.android.settings class=com.android.settings.SubSettings 
+      time="2018/5/14 14:54" type=MOVE_TO_BACKGROUND package=com.android.settings class=com.android.settings.SubSettings 
+      time="2018/5/14 14:54" type=MOVE_TO_FOREGROUND package=com.android.settings class=com.android.settings.Settings 
+      time="2018/5/14 14:54" type=MOVE_TO_BACKGROUND package=com.android.settings class=com.android.settings.Settings 
+      time="2018/5/14 14:54" type=MOVE_TO_FOREGROUND package=com.meizu.flyme.launcher class=com.meizu.flyme.launcher.Launcher 
+      time="2018/5/14 14:56" type=MOVE_TO_BACKGROUND package=com.meizu.flyme.launcher class=com.meizu.flyme.launcher.Launcher 
+      time="2018/5/14 14:56" type=MOVE_TO_FOREGROUND package=com.android.settings class=com.android.settings.Settings 
+      time="2018/5/14 14:56" type=MOVE_TO_BACKGROUND package=com.android.settings class=com.android.settings.Settings 
+      time="2018/5/14 14:56" type=MOVE_TO_FOREGROUND package=com.android.settings class=com.android.settings.SubSettings 
+      time="2018/5/14 14:56" type=MOVE_TO_BACKGROUND package=com.android.settings class=com.android.settings.SubSettings 
+      time="2018/5/14 14:56" type=MOVE_TO_FOREGROUND package=com.android.settings class=com.android.settings.deviceinfo.Status 
+      time="2018/5/14 14:58" type=MOVE_TO_BACKGROUND package=com.android.settings class=com.android.settings.deviceinfo.Status 
+      time="2018/5/14 14:58" type=MOVE_TO_FOREGROUND package=com.meizu.flyme.launcher class=com.meizu.flyme.launcher.Launcher 
+      time="2018/5/14 14:58" type=MOVE_TO_BACKGROUND package=com.meizu.flyme.launcher class=com.meizu.flyme.launcher.Launcher 
+      time="2018/5/14 14:58" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2018/5/14 14:58" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2018/5/14 14:58" type=MOVE_TO_FOREGROUND package=com.meizu.flyme.launcher class=com.meizu.flyme.launcher.Launcher 
+      time="2018/5/14 15:04" type=MOVE_TO_BACKGROUND package=com.meizu.flyme.launcher class=com.meizu.flyme.launcher.Launcher 
+      time="2018/5/14 15:04" type=MOVE_TO_FOREGROUND package=com.android.settings class=com.android.settings.Settings 
+      time="2018/5/14 15:04" type=MOVE_TO_BACKGROUND package=com.android.settings class=com.android.settings.Settings 
+      time="2018/5/14 15:04" type=MOVE_TO_FOREGROUND package=com.android.settings class=com.android.settings.SubSettings 
+      time="2018/5/14 15:04" type=MOVE_TO_BACKGROUND package=com.android.settings class=com.android.settings.SubSettings 
+      time="2018/5/14 15:04" type=MOVE_TO_FOREGROUND package=com.android.settings class=com.android.settings.Settings 
+      time="2018/5/14 15:04" type=MOVE_TO_BACKGROUND package=com.android.settings class=com.android.settings.Settings 
+      time="2018/5/14 15:04" type=MOVE_TO_FOREGROUND package=com.android.settings class=com.android.settings.SubSettings 
+      time="2018/5/14 15:04" type=MOVE_TO_BACKGROUND package=com.android.settings class=com.android.settings.SubSettings 
+      time="2018/5/14 15:04" type=MOVE_TO_FOREGROUND package=com.android.settings class=com.android.settings.SubSettings 
+      time="2018/5/14 15:08" type=MOVE_TO_BACKGROUND package=com.android.settings class=com.android.settings.SubSettings 
+      time="2018/5/14 15:08" type=MOVE_TO_FOREGROUND package=com.meizu.flyme.launcher class=com.meizu.flyme.launcher.Launcher 
+      time="2018/5/14 15:08" type=MOVE_TO_BACKGROUND package=com.meizu.flyme.launcher class=com.meizu.flyme.launcher.Launcher 
+      time="2018/5/14 15:08" type=MOVE_TO_FOREGROUND package=com.android.settings class=com.android.settings.Settings 
+      time="2018/5/14 15:08" type=MOVE_TO_BACKGROUND package=com.android.settings class=com.android.settings.Settings 
+      time="2018/5/14 15:08" type=MOVE_TO_FOREGROUND package=com.meizu.flyme.launcher class=com.meizu.flyme.launcher.Launcher 
+      time="2018/5/14 15:08" type=MOVE_TO_BACKGROUND package=com.meizu.flyme.launcher class=com.meizu.flyme.launcher.Launcher 
+      time="2018/5/14 15:08" type=MOVE_TO_FOREGROUND package=com.tencent.mobileqq class=com.tencent.mobileqq.activity.SplashActivity 
+      time="2018/5/14 15:08" type=MOVE_TO_BACKGROUND package=com.tencent.mobileqq class=com.tencent.mobileqq.activity.SplashActivity 
+      time="2018/5/14 15:08" type=MOVE_TO_FOREGROUND package=com.meizu.flyme.launcher class=com.meizu.flyme.launcher.Launcher 
+      time="2018/5/14 15:11" type=MOVE_TO_BACKGROUND package=com.meizu.flyme.launcher class=com.meizu.flyme.launcher.Launcher 
+      time="2018/5/14 15:11" type=MOVE_TO_FOREGROUND package=com.android.settings class=com.android.settings.Settings 
+      time="2018/5/14 15:11" type=MOVE_TO_BACKGROUND package=com.android.settings class=com.android.settings.Settings 
+      time="2018/5/14 15:11" type=MOVE_TO_FOREGROUND package=com.android.settings class=com.android.settings.SubSettings 
+      time="2018/5/14 15:11" type=MOVE_TO_BACKGROUND package=com.android.settings class=com.android.settings.SubSettings 
+      time="2018/5/14 15:11" type=MOVE_TO_FOREGROUND package=com.android.settings class=com.android.settings.Settings 
+      time="2018/5/14 15:11" type=MOVE_TO_BACKGROUND package=com.android.settings class=com.android.settings.Settings 
+      time="2018/5/14 15:11" type=MOVE_TO_FOREGROUND package=com.android.settings class=com.android.settings.SubSettings 
+      time="2018/5/14 15:11" type=MOVE_TO_BACKGROUND package=com.android.settings class=com.android.settings.SubSettings 
+      time="2018/5/14 15:11" type=MOVE_TO_FOREGROUND package=com.android.settings class=com.android.settings.SubSettings 
+      time="2018/5/14 15:11" type=MOVE_TO_BACKGROUND package=com.android.settings class=com.android.settings.SubSettings 
+      time="2018/5/14 15:11" type=MOVE_TO_FOREGROUND package=com.android.settings class=com.android.settings.SubSettings 
+      time="2018/5/14 15:11" type=MOVE_TO_BACKGROUND package=com.android.settings class=com.android.settings.SubSettings 
+      time="2018/5/14 15:11" type=MOVE_TO_FOREGROUND package=com.android.settings class=com.android.settings.SubSettings 
+      time="2018/5/14 15:12" type=MOVE_TO_BACKGROUND package=com.android.settings class=com.android.settings.SubSettings 
+      time="2018/5/14 15:12" type=MOVE_TO_FOREGROUND package=com.meizu.perfui class=com.meizu.perfui.settings.SettingsActivity 
+      time="2018/5/14 15:12" type=MOVE_TO_BACKGROUND package=com.meizu.perfui class=com.meizu.perfui.settings.SettingsActivity 
+      time="2018/5/14 15:12" type=MOVE_TO_FOREGROUND package=com.android.settings class=com.android.settings.SubSettings 
+      time="2018/5/14 15:13" type=MOVE_TO_BACKGROUND package=com.android.settings class=com.android.settings.SubSettings 
+      time="2018/5/14 15:13" type=MOVE_TO_FOREGROUND package=com.android.settings class=com.android.settings.AppPicker 
+      time="2018/5/14 15:13" type=MOVE_TO_BACKGROUND package=com.android.settings class=com.android.settings.AppPicker 
+      time="2018/5/14 15:13" type=MOVE_TO_FOREGROUND package=com.android.settings class=com.android.settings.SubSettings 
+      time="2018/5/14 15:13" type=MOVE_TO_BACKGROUND package=com.android.settings class=com.android.settings.SubSettings 
+      time="2018/5/14 15:13" type=MOVE_TO_FOREGROUND package=com.android.settings class=com.android.settings.SubSettings 
+      time="2018/5/14 15:13" type=MOVE_TO_BACKGROUND package=com.android.settings class=com.android.settings.SubSettings 
+      time="2018/5/14 15:13" type=MOVE_TO_FOREGROUND package=com.android.settings class=com.android.settings.SubSettings 
+      time="2018/5/14 15:13" type=MOVE_TO_BACKGROUND package=com.android.settings class=com.android.settings.SubSettings 
+      time="2018/5/14 15:13" type=MOVE_TO_FOREGROUND package=com.meizu.flyme.launcher class=com.meizu.flyme.launcher.Launcher 
+      time="2018/5/14 15:18" type=MOVE_TO_BACKGROUND package=com.meizu.flyme.launcher class=com.meizu.flyme.launcher.Launcher 
+      time="2018/5/14 15:23" type=MOVE_TO_FOREGROUND package=com.meizu.flyme.launcher class=com.meizu.flyme.launcher.Launcher 
+      time="2018/5/14 15:23" type=MOVE_TO_BACKGROUND package=com.meizu.flyme.launcher class=com.meizu.flyme.launcher.Launcher 
+      time="2018/5/14 15:23" type=MOVE_TO_FOREGROUND package=com.android.systemui class=com.android.systemui.usb.UsbDebuggingActivity 
+      time="2018/5/14 15:23" type=MOVE_TO_BACKGROUND package=com.android.systemui class=com.android.systemui.usb.UsbDebuggingActivity 
+      time="2018/5/14 15:23" type=MOVE_TO_FOREGROUND package=com.meizu.flyme.launcher class=com.meizu.flyme.launcher.Launcher 
+      time="2018/5/14 15:28" type=MOVE_TO_BACKGROUND package=com.meizu.flyme.launcher class=com.meizu.flyme.launcher.Launcher 
+      time="2018/5/14 15:29" type=MOVE_TO_FOREGROUND package=com.meizu.flyme.launcher class=com.meizu.flyme.launcher.Launcher 
+      time="2018/5/14 15:29" type=MOVE_TO_BACKGROUND package=com.meizu.flyme.launcher class=com.meizu.flyme.launcher.Launcher 
+      time="2018/5/14 15:29" type=MOVE_TO_FOREGROUND package=com.android.settings class=com.android.settings.Settings 
+      time="2018/5/14 15:29" type=MOVE_TO_BACKGROUND package=com.android.settings class=com.android.settings.Settings 
+      time="2018/5/14 15:29" type=MOVE_TO_FOREGROUND package=com.android.settings class=com.android.settings.SubSettings 
+      time="2018/5/14 15:29" type=MOVE_TO_BACKGROUND package=com.android.settings class=com.android.settings.SubSettings 
+      time="2018/5/14 15:29" type=MOVE_TO_FOREGROUND package=com.android.settings class=com.android.settings.deviceinfo.Status 
+      time="2018/5/14 15:32" type=MOVE_TO_BACKGROUND package=com.android.settings class=com.android.settings.deviceinfo.Status 
+      time="2018/5/14 15:32" type=MOVE_TO_FOREGROUND package=com.meizu.flyme.launcher class=com.meizu.flyme.launcher.Launcher 
+      time="2018/5/14 15:33" type=MOVE_TO_BACKGROUND package=com.meizu.flyme.launcher class=com.meizu.flyme.launcher.Launcher 
+      time="2018/5/14 15:33" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.SplashPage 
+      time="2018/5/14 15:33" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.SplashPage 
+      time="2018/5/14 15:33" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.activity.LaunchActivity 
+      time="2018/5/14 15:33" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.activity.LaunchActivity 
+      time="2018/5/14 15:33" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2018/5/14 15:33" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2018/5/14 15:33" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.activity.LaunchActivity 
+      time="2018/5/14 15:34" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.activity.LaunchActivity 
+      time="2018/5/14 15:34" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2018/5/14 15:39" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2018/5/14 15:41" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2018/5/14 15:42" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2018/5/14 15:42" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2018/5/14 15:44" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2018/5/14 15:44" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2018/5/14 15:45" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2018/5/14 15:45" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2018/5/14 15:45" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2018/5/14 15:45" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2018/5/14 15:46" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2018/5/14 15:47" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2018/5/14 15:47" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2018/5/14 15:50" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2018/5/14 15:55" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2018/5/14 16:04" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2018/5/14 16:09" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2018/5/14 16:18" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2018/5/14 16:22" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2018/5/14 16:22" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.LoginActivity 
+      time="2018/5/14 16:27" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.LoginActivity 
+      time="2018/5/14 16:39" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2018/5/14 16:39" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2018/5/14 16:44" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2018/5/14 16:46" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2018/5/14 16:46" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2018/5/14 16:47" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2018/5/14 16:47" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2018/5/14 16:47" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2018/5/14 16:47" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2018/5/14 16:52" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2018/5/14 16:57" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2018/5/14 17:09" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2018/5/14 17:15" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2018/5/14 17:16" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2018/5/14 17:28" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2018/5/14 17:28" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2018/5/14 17:29" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2018/5/14 17:29" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2018/5/14 17:29" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2018/5/14 17:29" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2018/5/14 17:31" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2018/5/14 17:31" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2018/5/14 17:43" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2018/5/14 17:43" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2018/5/14 17:43" type=MOVE_TO_BACKGROUND package=com.android.settings class=com.android.settings.deviceinfo.Status 
+      time="2018/5/14 17:43" type=MOVE_TO_FOREGROUND package=com.android.settings class=com.android.settings.deviceinfo.Status 
+      time="2018/5/14 17:44" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2018/5/14 17:44" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2018/5/14 17:44" type=MOVE_TO_BACKGROUND package=com.android.settings class=com.android.settings.deviceinfo.Status 
+      time="2018/5/14 17:44" type=MOVE_TO_FOREGROUND package=com.android.settings class=com.android.settings.deviceinfo.Status 
+      time="2018/5/14 17:46" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2018/5/14 17:46" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2018/5/14 18:05" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2018/5/14 18:05" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2018/5/14 18:10" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2018/5/14 18:10" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2018/5/14 18:25" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2018/5/14 18:25" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2018/5/14 18:25" type=MOVE_TO_FOREGROUND package=com.meizu.flyme.launcher class=com.meizu.flyme.launcher.Launcher 
+      time="2018/5/14 18:25" type=MOVE_TO_BACKGROUND package=com.meizu.flyme.launcher class=com.meizu.flyme.launcher.Launcher 
+      time="2018/5/14 18:25" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2018/5/14 18:25" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2018/5/14 18:25" type=MOVE_TO_FOREGROUND package=com.meizu.flyme.launcher class=com.meizu.flyme.launcher.Launcher 
+      time="2018/5/14 18:25" type=MOVE_TO_BACKGROUND package=com.meizu.flyme.launcher class=com.meizu.flyme.launcher.Launcher 
+      time="2018/5/14 18:25" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.SplashPage 
+      time="2018/5/14 18:25" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.SplashPage 
+      time="2018/5/14 18:25" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.AdvertActivity 
+      time="2018/5/14 18:25" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.AdvertActivity 
+      time="2018/5/14 18:25" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2018/5/14 18:26" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2018/5/14 18:26" type=MOVE_TO_FOREGROUND package=com.meizu.flyme.launcher class=com.meizu.flyme.launcher.Launcher 
+      time="2018/5/14 18:27" type=MOVE_TO_BACKGROUND package=com.meizu.flyme.launcher class=com.meizu.flyme.launcher.Launcher 
+      time="2018/5/14 18:27" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2018/5/14 18:27" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2018/5/14 18:27" type=MOVE_TO_FOREGROUND package=com.meizu.flyme.launcher class=com.meizu.flyme.launcher.Launcher 
+      time="2018/5/14 18:30" type=MOVE_TO_BACKGROUND package=com.meizu.flyme.launcher class=com.meizu.flyme.launcher.Launcher 
+      time="2018/5/14 18:36" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2018/5/14 18:36" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2018/5/14 18:37" type=MOVE_TO_FOREGROUND package=com.android.settings class=com.android.settings.deviceinfo.Status 
+      time="2018/5/14 18:37" type=MOVE_TO_FOREGROUND package=com.meizu.flyme.launcher class=com.meizu.flyme.launcher.Launcher 
+      time="2018/5/14 18:37" type=MOVE_TO_BACKGROUND package=com.meizu.flyme.launcher class=com.meizu.flyme.launcher.Launcher 
+      time="2018/5/14 18:37" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.SplashPage 
+      time="2018/5/14 18:37" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.SplashPage 
+      time="2018/5/14 18:37" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.AdvertActivity 
+      time="2018/5/14 18:37" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.AdvertActivity 
+      time="2018/5/14 18:37" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2018/5/14 18:37" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2018/5/14 18:37" type=MOVE_TO_FOREGROUND package=com.meizu.flyme.launcher class=com.meizu.flyme.launcher.Launcher 
+  In-memory weekly stats
+  timeRange="2018/5/10 08:00 ??? 2018/5/14 18:37" 
+    packages
+      package=com.meizu.flyme.launcher totalTime="35:28" lastTime="2018/5/14 18:37" 
+      package=com.meizu.perfui totalTime="00:02" lastTime="2018/5/14 15:12" 
+      package=com.tencent.mobileqq totalTime="00:23" lastTime="2018/5/14 15:08" 
+      package=com.android.settings totalTime="1:06:51" lastTime="2018/5/14 18:37" 
+      package=com.tianyancha.skyeye totalTime="1:44:35" lastTime="2018/5/14 18:37" 
+      package=com.android.systemui totalTime="00:03" lastTime="2018/5/14 15:23" 
+    configurations
+    events
+  In-memory monthly stats
+  timeRange="2018/4/19 08:00 ??? 2018/5/14 18:37" 
+    packages
+      package=com.meizu.flyme.launcher totalTime="35:28" lastTime="2018/5/14 18:37" 
+      package=com.meizu.perfui totalTime="00:02" lastTime="2018/5/14 15:12" 
+      package=com.tencent.mobileqq totalTime="00:23" lastTime="2018/5/14 15:08" 
+      package=com.android.settings totalTime="1:06:51" lastTime="2018/5/14 18:37" 
+      package=com.tianyancha.skyeye totalTime="1:44:35" lastTime="2018/5/14 18:37" 
+      package=com.android.systemui totalTime="00:03" lastTime="2018/5/14 15:23" 
+    configurations
+    events
+  In-memory yearly stats
+  timeRange="2018/1/29 19:53 ??? 2018/5/14 18:37" 
+    packages
+      package=com.meizu.documentsui totalTime="00:08" lastTime="2018/4/24 19:43" 
+      package=com.meizu.flyme.launcher totalTime="6:23:45" lastTime="2018/5/14 18:37" 
+      package=com.sankuai.meituan totalTime="08:09" lastTime="2018/4/16 17:06" 
+      package=com.meizu.filemanager totalTime="03:01" lastTime="2018/3/28 16:39" 
+      package=com.android.browser totalTime="2:06:18" lastTime="2018/4/11 15:34" 
+      package=com.tencent.mm totalTime="5:33:00" lastTime="2018/5/8 20:40" 
+      package=com.meizu.flyme.update totalTime="00:18" lastTime="2018/4/24 19:02" 
+      package=android totalTime="00:21" lastTime="2018/5/9 15:56" 
+      package=com.huawei.hwid totalTime="00:00" lastTime="2018/4/13 16:29" 
+      package=com.meizu.media.camera totalTime="03:23" lastTime="2018/5/11 14:11" 
+      package=com.meizu.mstore totalTime="24:29" lastTime="2018/5/8 20:18" 
+      package=com.meizu.net.search totalTime="00:39" lastTime="2018/4/16 19:58" 
+      package=com.meizu.perfui totalTime="00:02" lastTime="2018/5/14 15:12" 
+      package=com.meizu.safe totalTime="00:15" lastTime="2018/5/7 10:16" 
+      package=com.meizu.connectivitysettings totalTime="04:11" lastTime="2018/5/11 14:12" 
+      package=com.pp.assistant totalTime="00:18" lastTime="2018/4/16 15:30" 
+      package=com.tencent.mtt totalTime="6:56:13" lastTime="2018/5/11 14:12" 
+      package=com.android.dialer totalTime="05:39" lastTime="2018/5/7 10:27" 
+      package=com.flyme.systemuitools totalTime="00:06" lastTime="2018/2/9 12:06" 
+      package=com.meizu.account totalTime="00:01" lastTime="2018/4/24 19:03" 
+      package=com.tencent.mobileqq totalTime="2:22:07" lastTime="2018/5/14 15:08" 
+      package=com.android.packageinstaller totalTime="14:09" lastTime="2018/5/9 18:30" 
+      package=com.meizu.media.gallery totalTime="08:12" lastTime="2018/4/19 17:47" 
+      package=com.meizu.voiceassistant totalTime="00:16" lastTime="2018/4/12 16:24" 
+      package=com.meizu.setup totalTime="01:18" lastTime="2018/2/9 12:06" 
+      package=com.tianyancha.business totalTime="1:50:59" lastTime="2018/5/9 15:58" 
+      package=com.tianyancha.skyeye.huawei totalTime="11:05" lastTime="2018/4/13 16:30" 
+      package=com.android.settings totalTime="3:36:36" lastTime="2018/5/14 18:37" 
+      package=com.meizu.battery totalTime="00:01" lastTime="2018/3/27 13:43" 
+      package=com.tianyancha.skyeye totalTime="37:59:09" lastTime="2018/5/14 18:37" 
+      package=com.android.email totalTime="00:11" lastTime="2018/5/7 10:27" 
+      package=com.sina.weibo totalTime="01:33" lastTime="2018/5/7 10:32" 
+      package=com.meizu.customizecenter totalTime="00:02" lastTime="2018/2/9 12:06" 
+      package=com.android.systemui totalTime="01:19" lastTime="2018/5/14 15:23" 
+      package=com.qq.reader totalTime="00:04" lastTime="2018/4/10 20:18" 
+    configurations
+      config=zh-rCN-sw360dp-w640dp-h338dp-normal-long-land-notnight-xxhdpi-finger-keysexposed-nokeys-navhidden-nonav-v22 totalTime="47:32" lastTime="2018/5/9 17:04" count=61 
+      config=zh-rCN-sw360dp-w360dp-h618dp-normal-long-port-xxhdpi-finger-keysexposed-nokeys-navhidden-nonav-v22 totalTime="00:51" lastTime="2018/5/14 11:06" count=30 
+      config=zh-rCN-sw360dp-w360dp-h618dp-normal-long-port-xxhdpi-notouch-keysexposed-nokeys-navhidden-nonav-v22 totalTime="00:01" lastTime="2018/5/14 11:06" count=20 
+      config=zh-rCN-sw360dp-w360dp-h640dp-normal-long-port-xxhdpi-notouch-keysexposed-nokeys-navhidden-nonav-v22 totalTime="00:00" lastTime="2018/5/14 11:06" count=30 
+      config=zh-rCN-sw360dp-w360dp-h618dp-normal-long-port-notnight-xxhdpi-finger-keysexposed-nokeys-navhidden-nonav-v22 totalTime="1823:52:10" lastTime="2018/5/14 11:06" count=91 
+    events

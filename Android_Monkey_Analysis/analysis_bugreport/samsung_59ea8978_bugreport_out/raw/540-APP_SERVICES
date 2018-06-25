@@ -1,0 +1,2276 @@
+PROVIDER ContentProviderRecord{f2c824e u0 com.android.providers.telephony/.TelephonyProvider} pid=1301
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{4dc747c u0 com.android.providers.telephony/.HbpcdLookupProvider} pid=1301
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{ed2755a u0 com.android.providers.telephony/com.samsung.android.scloud.oem.lib.bnr.BNRClientProivder} pid=1301
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{9ba5c68 u0 com.android.phone/.callsettings.CallSettingsProvider} pid=1301
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{6b28d26 u0 com.android.providers.telephony/.ImProvider} pid=1301
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{e77dbbd u0 android/com.android.server.am.DumpHeapProvider} pid=847
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{f2a55b2 u0 com.android.providers.telephony/.MessageProvider} pid=1301
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{26a5080 u0 android/com.android.server.SEAMSProvider} pid=847
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{ecb76b9 u0 com.android.providers.telephony/.MmsSmsProvider} pid=1301
+    Client:
+      Default SMS app: com.android.mms
+
+PROVIDER ContentProviderRecord{dcd125f u0 android/com.android.server.enterprise.content.SecContentProvider2} pid=847
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{63f4ac u0 com.android.server.telecom/.NextiTelecomProvider} pid=847
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{823c575 u0 com.sec.android.providers.security/.SecurityPoliciesProvider} pid=847
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{ae2e90a u0 com.android.providers.settings/.SettingsProvider} pid=847
+    Client:
+      GLOBAL SETTINGS (user 0)
+      _id:31 name:low_battery_sound_timeout value:0
+      _id:22 name:car_undock_sound value:/system/media/audio/ui/Undock.ogg
+      _id:91 name:volte_vt_enabled value:1
+      _id:102 name:global_proxy_pac_url value:
+      _id:417 name:development_settings_enabled value:1
+      _id:57 name:window_animation_scale value:1.0
+      _id:100 name:global_http_proxy_password value:
+      _id:53 name:first_sim_brightness_flag value:1
+      _id:40 name:def_tactileassist_sharpness_serm value:15
+      _id:110 name:multi_sim_data_call value:2147483643
+      _id:39 name:def_tactileassist_density_serm value:15
+      _id:432 name:mode_ringer value:2
+      _id:26 name:default_install_location value:0
+      _id:154 name:wifi_display_on value:0
+      _id:64 name:device_name value:SM-G9008V
+      _id:44 name:font_size value:2
+      _id:6 name:wifi_networks_available_notification_on value:1
+      _id:48 name:mtp_current_user_id value:0
+      _id:433 name:bluetooth_on value:0
+      _id:191 name:low_power_trigger_level value:0
+      _id:81 name:multi_sim_data_call_slot value:0
+      _id:59 name:bugreport_in_power_menu value:0
+      _id:87 name:mobile_data value:1
+      _id:49 name:wifi_watchdog_on value:1
+      _id:27 name:emergency_tone value:0
+      _id:84 name:multi_sim_sms_prompt value:0
+      _id:24 name:dock_audio_media_enabled value:1
+      _id:405 name:verifier_verify_adb_installs value:0
+      _id:418 name:adb_enabled value:1
+      _id:66 name:trusted_sound value:/system/media/audio/ui/Trusted.ogg
+      _id:15 name:unlock_sound value:/system/media/audio/ui/Unlock.ogg
+      _id:35 name:def_tactileassist_strength_erm value:15
+      _id:46 name:def_tactileassist_strength_lra value:7
+      _id:41 name:def_tactileassist_strength_pzo value:15
+      _id:1 name:airplane_mode_radios value:cell,bluetooth,wifi,nfc
+      _id:12 name:wifi_max_dhcp_retry_count value:9
+      _id:2 name:airplane_mode_toggleable_radios value:bluetooth,nfc
+      _id:68 name:network_scoring_provisioned value:1
+      _id:63 name:heads_up_notifications_enabled value:1
+      _id:32 name:def_tactileassist_enable value:0
+      _id:29 name:preferred_network_mode value:0
+      _id:20 name:desk_undock_sound value:/system/media/audio/ui/Undock.ogg
+      _id:97 name:global_http_proxy_host value:
+      _id:98 name:global_http_proxy_port value:0
+      _id:60 name:debug_app value:{null}
+      _id:5 name:wifi_sleep_policy value:2
+      _id:18 name:dock_sounds_enabled value:0
+      _id:69 name:wifi_scan_always_enabled value:1
+      _id:70 name:overlay_display_devices value:{null}
+      _id:34 name:def_tactileassist_level value:2
+      _id:62 name:wifi_display_limited_contents_playing value:0
+      _id:21 name:car_dock_sound value:/system/media/audio/ui/Dock.ogg
+      _id:101 name:global_http_proxy_exclusion_list value:
+      _id:16 name:power_sounds_enabled value:1
+      _id:382 name:stay_on_while_plugged_in value:0
+      _id:424 name:zen_mode_config_etag value:6654009
+      _id:25 name:set_install_location value:0
+      _id:351 name:zen_mode value:0
+      _id:258 name:transition_animation_scale value:1.0
+      _id:65 name:guest_user_enabled value:1
+      _id:9 name:data_roaming value:0
+      _id:96 name:package_verifier_enable value:1
+      _id:75 name:debug.force_rtl value:0
+      _id:90 name:theater_mode_on value:0
+      _id:8 name:cdma_cell_broadcast_sms value:1
+      _id:429 name:boot_time_connected value:0
+      _id:99 name:global_http_proxy_username value:
+      _id:86 name:multi_sim_voice_call_slot value:0
+      _id:0 name:airplane_mode_on value:0
+      _id:17 name:low_battery_sound value:/system/media/audio/ui/LowBattery.ogg
+      _id:61 name:wait_for_debugger value:0
+      _id:10 name:netstats_enabled value:1
+      _id:30 name:subscription_mode value:1
+      _id:3 name:assisted_gps_enabled value:1
+      _id:14 name:lock_sound value:/system/media/audio/ui/Lock.ogg
+      _id:4 name:auto_time_zone value:1
+      _id:38 name:def_tactileassist_strength_serm value:15
+      _id:73 name:show_processes value:0
+      _id:434 name:wifi_on value:1
+      _id:52 name:wifi_country_code value:cn
+      _id:23 name:wireless_charging_started_sound value:/system/media/audio/ui/WirelessChargingStarted.ogg
+      _id:55 name:device_provisioned value:1
+      _id:92 name:wifi_watchdog_version value:100728833
+      _id:74 name:auto_time value:1
+      _id:85 name:multi_sim_voice_prompt value:0
+      _id:11 name:usb_mass_storage_enabled value:1
+      _id:56 name:wifi_p2p_device_name value:Galaxy S5
+      _id:109 name:multi_sim_sms value:2147483643
+      _id:54 name:tether_dun_required value:0
+      _id:108 name:multi_sim_voice_call value:2147483643
+      _id:37 name:def_tactileassist_sharpness_erm value:15
+      _id:47 name:def_tactileassist_sharpness_lra value:10
+      _id:43 name:def_tactileassist_sharpness_pzo value:15
+      _id:36 name:def_tactileassist_density_erm value:15
+      _id:45 name:def_tactileassist_density_lra value:10
+      _id:42 name:def_tactileassist_density_pzo value:15
+      _id:28 name:call_auto_retry value:0
+      _id:67 name:wifi_share_profile value:1
+      _id:51 name:audio_safe_volume_state value:3
+      _id:95 name:coreapps_features_sid_4 value:1
+      _id:33 name:def_tactileassist_internal_enable value:1
+      _id:19 name:desk_dock_sound value:/system/media/audio/ui/Dock.ogg
+      _id:58 name:animator_duration_scale value:1.0
+
+      SECURE SETTINGS (user 0)
+      _id:85 name:lock_screen_show_notifications value:1
+      _id:10 name:accessibility_script_injection value:0
+      _id:34 name:roam_guard_call_domestic value:1
+      _id:111 name:bt_svcst_com.android.bluetooth.map.BluetoothMapService value:1
+      _id:338 name:media_button_receiver value:com.sec.android.app.music/com.samsung.android.app.music.service.receiver.MediaButtonReceiver
+      _id:59 name:accessibility_sec_captioning_enabled value:1
+      _id:27 name:lock_motion_tilt_to_unlock value:0
+      _id:15 name:accessibility_script_injection_url value:https://ssl.gstatic.com/accessibility/javascript/android/AndroidVox_v1.js
+      _id:25 name:usb_setting_mode value:0
+      _id:119 name:wifi_wwsm_patch_remove_sns_menu_from_settings value:0
+      _id:1 name:location_pdr_enabled value:0
+      _id:991 name:default_input_method value:com.sec.android.inputmethod/.SamsungKeypad
+      _id:35 name:roam_guard_data_domestic value:1
+      _id:112 name:bt_svcst_com.android.bluetooth.hfpclient.HeadsetClientService value:0
+      _id:87 name:sleep_timeout value:-1
+      _id:82 name:recent_menukey_dialog_do_not_show_checking value:1
+      _id:988 name:location_providers_allowed value:network
+      _id:86 name:lock_screen_allow_private_notifications value:0
+      _id:48 name:roam_guard_call_domestic_forced value:0
+      _id:97 name:double_tap_to_wake value:1
+      _id:50 name:roam_guard_call_international_forced value:0
+      _id:14 name:speak_password value:0
+      _id:121 name:personal_mode_lock_type value:0
+      _id:84 name:wake_gesture_enabled value:1
+      _id:19 name:screensaver_activate_on_sleep value:1
+      _id:11 name:accessibility_web_content_key_bindings value:0x13=0x01000100; 0x14=0x01010100; 0x15=0x02000001; 0x16=0x02010001; 0x200000013=0x02000601; 0x200000014=0x02010601; 0x200000015=0x03020101; 0x200000016=0x03010201; 0x200000023=0x02000301; 0x200000024=0x02010301; 0x200000037=0x03070201; 0x200000038=0x03000701:0x03010701:0x03020701;
+      _id:51 name:roam_guard_data_international_forced value:0
+      _id:31 name:b_es_offl_enabled value:1
+      _id:4 name:backup_enabled value:0
+      _id:42 name:roam_setting_call_domestic value:1
+      _id:29 name:tts_default_locale value:com.samsung.SMT:zho-CHN,com.google.android.tts:eng-usa,com.svox.pico:eng-USA
+      _id:104 name:enabled_on_first_boot_system_print_services value:com.sec.app.samsungprintservice/com.sec.mobileprint.kitkat.plugin.SamsungKitKatPrintService:com.sec.app.samsungprintservice/com.sec.mobileprint.kitkat.plugin.SamsungKitKatPrintService:com.sec.app.samsungprintservice/com.sec.mobileprint.printservice.plugin.SamsungPrintService
+      _id:76 name:user_setup_complete value:1
+      _id:60 name:lock_screen_lock_after_timeout value:5000
+      _id:47 name:roam_dial_international_enabled value:0
+      _id:94 name:enabled_accessibility_services value:
+      _id:90 name:trust_agents_initialized value:1
+      _id:43 name:roam_setting_data_domestic value:0
+      _id:41 name:sprint_gsm_sms_guard value:1
+      _id:88 name:wifi_hotspot20_enable value:1
+      _id:24 name:accessibility_display_magnification_auto_update value:1
+      _id:16 name:lockscreen.disabled value:0
+      _id:122 name:fingerprint_webpass value:0
+      _id:67 name:lock_screen_owner_info_enabled value:0
+      _id:45 name:roam_setting_data_international value:0
+      _id:75 name:wifi_cmcc_manual value:0
+      _id:81 name:recent_menukey_dialog_do_not_show value:1
+      _id:106 name:bt_svcst_com.android.bluetooth.hfp.HeadsetService value:1
+      _id:100 name:selected_spell_checker_subtype value:0
+      _id:52 name:roam_setting_call_domestic_forced value:0
+      _id:12 name:long_press_timeout value:500
+      _id:109 name:bt_svcst_com.android.bluetooth.hdp.HealthService value:1
+      _id:44 name:roam_setting_call_international value:0
+      _id:54 name:roam_setting_call_international_forced value:0
+      _id:73 name:bluetooth_addr_valid value:1
+      _id:118 name:voice_recognition_service value:
+      _id:37 name:roam_guard_data_international value:1
+      _id:20 name:screensaver_components value:com.android.dreams.basic/com.android.dreams.basic.Colors
+      _id:117 name:voice_interaction_service value:
+      _id:23 name:accessibility_display_magnification_scale value:2.0
+      _id:55 name:roam_setting_data_international_forced value:0
+      _id:18 name:screensaver_activate_on_dock value:0
+      _id:5 name:backup_transport value:com.google.android.backup/.BackupTransportService
+      _id:0 name:data_roaming2 value:0
+      _id:36 name:roam_guard_call_international value:1
+      _id:78 name:msa_user_consented value:1
+      _id:101 name:volume_controller_service_component value:{null}
+      _id:26 name:lockscreen.options value:enable_facelock
+      _id:1282 name:input_methods_subtype_history value:com.sec.android.inputmethod/.SamsungKeypad;48863634:com.koushikdutta.vysor/.VysorIME;-921088104
+      _id:3 name:mock_location value:0
+      _id:115 name:bluetooth_name value:Galaxy S5
+      _id:61 name:sms_outgoing_check_interval_ms value:600000
+      _id:38 name:roam_guard_sms_international value:1
+      _id:974 name:anr_show_background value:0
+      _id:17 name:screensaver_enabled value:0
+      _id:105 name:bt_svcst_com.android.bluetooth.gatt.GattService value:1
+      _id:123 name:fingerprint_used_samsungaccount value:0
+      _id:6 name:mount_play_not_snd value:1
+      _id:56 name:roam_dial_international_forced value:0
+      _id:9 name:mount_ums_notify_enabled value:1
+      _id:110 name:bt_svcst_com.android.bluetooth.pan.PanService value:1
+      _id:46 name:sprint_gsm_data_roaming value:0
+      _id:108 name:bt_svcst_com.android.bluetooth.hid.HidService value:1
+      _id:64 name:android_id value:da9078e7e886a090
+      _id:13 name:touch_exploration_enabled value:0
+      _id:342 name:spell_checker_enabled value:0
+      _id:120 name:klm_eula_shown value:0
+      _id:96 name:enabled_notification_listeners value:com.qihoo.appstore/com.qihoo.appstore.AppStoreNotificationListenerService
+      _id:107 name:bt_svcst_com.android.bluetooth.a2dp.A2dpService value:1
+      _id:49 name:roam_guard_data_domestic_forced value:0
+      _id:28 name:tts_default_synth value:com.samsung.SMT
+      _id:39 name:sprint_gsm_voice_guard value:1
+      _id:33 name:b_ds_dialog_displayed_settings value:0
+      _id:1283 name:selected_input_method_subtype value:-1639844166
+      _id:8 name:mount_ums_prompt value:1
+      _id:113 name:bt_svcst_com.android.bluetooth.a2dp.A2dpSinkService value:0
+      _id:79 name:cr_msa_auto_update value:1
+      _id:99 name:selected_spell_checker value:com.sec.android.inputmethod/.base.spellcheckservice.SamsungIMESpellCheckerService
+      _id:77 name:last_setup_shown value:eclair_1
+      _id:116 name:assistant value:com.samsung.android.app.sreminder/.phone.cardlist.MainActivity
+      _id:21 name:screensaver_default_component value:com.google.android.deskclock/com.android.deskclock.Screensaver
+      _id:7 name:mount_ums_autostart value:0
+      _id:57 name:lock_screen_quick_note value:1
+      _id:40 name:sprint_gsm_data_guard value:1
+      _id:89 name:show_note_about_notification_hiding value:0
+      _id:63 name:sms_default_application value:com.android.mms
+      _id:103 name:enabled_print_services value:com.sec.app.samsungprintservice/com.sec.mobileprint.kitkat.plugin.SamsungKitKatPrintService:com.sec.app.samsungprintservice/com.sec.mobileprint.printservice.plugin.SamsungPrintService
+      _id:83 name:install_non_market_apps value:1
+      _id:32 name:b_ds_dialog_displayed_on_boot value:0
+      _id:72 name:bluetooth_address value:50:F0:D3:A8:6F:22
+      _id:58 name:auto_swipe_main_user value:0
+      _id:95 name:accessibility_enabled value:0
+      _id:22 name:accessibility_display_magnification_enabled value:0
+      _id:30 name:lock_signature_visible_pattern value:1
+      _id:80 name:cr_msa_wifi_only value:1
+      _id:53 name:roam_setting_data_domestic_forced value:0
+      _id:534 name:enabled_input_methods value:com.samsung.inputmethod/.SamsungIME:com.sec.android.inputmethod/.SamsungKeypad:com.koushikdutta.vysor/.VysorIME
+      _id:74 name:data_national_roaming_mode value:0
+      _id:62 name:sms_outgoing_check_max_count value:1000
+      _id:2 name:kddi_cpa_on value:0
+
+      SYSTEM SETTINGS (user 0)
+      _id:510 name:com.baidu.pushservice.le value:com.baidu.appsearch,
+      _id:215 name:contextual_page_s_pen value:0
+      _id:492 name:screen_off_timeout_rollback value:600000
+      _id:196 name:finger_air_view_highlight value:1
+      _id:534 name:volume_ring_earpiece value:11
+      _id:550 name:SMLDM_BEARER value:0
+      _id:469 name:time_key value:300
+      _id:263 name:onehand_pattern_enabled value:0
+      _id:60 name:haptic_feedback_extra value:0
+      _id:558 name:bt_svcst_com.android.bluetooth.map.BluetoothMapService value:1
+      _id:418 name:quick_connect_allow_connect value:0
+      _id:622 name:popup_incoming_call value:1
+      _id:174 name:glance_view_notification value:0
+      _id:605 name:accessibility_magnifier value:0
+      _id:277 name:safetycare_geonews_county value:
+      _id:143 name:motion_zooming_sensitivity value:5
+      _id:385 name:festival_effect_weather_widget value:0
+      _id:371 name:lock_screen_clock_text_size value:30
+      _id:166 name:air_motion_glance_view value:0
+      _id:349 name:parental_control_block_key value:1
+      _id:168 name:air_motion_clip value:0
+      _id:154 name:air_motion_turn value:0
+      _id:23 name:window_animation_scale value:1.0
+      _id:317 name:pen_hovering_speed_dial_preview value:0
+      _id:88 name:spliteview_mode_myfiles value:1
+      _id:320 name:pen_hovering_ripple_effect value:0
+      _id:169 name:glance_view_time_date value:0
+      _id:227 name:lock_screen_shortcut_number_of_apps value:5
+      _id:2274 name:intelligent_sleep_mode value:1
+      _id:102 name:sim1_value value:0
+      _id:160 name:air_motion_turn_now_playing_on_music value:1
+      _id:348 name:mass_kids_mode value:0
+      _id:52 name:dualclock_menu_settings value:1
+      _id:587 name:shutdown_device value:true
+      _id:297 name:smart_bonding_file_size value:1
+      _id:81 name:drivelink_rejectmessage_on value:0
+      _id:551 name:internet_call_settings_visibility value:0
+      _id:66 name:driving_mode_on value:1
+      _id:233 name:recommended_apps_automatically_dockings value:0
+      _id:489 name:636f6d2e616e64726f69642e7169636861636861dynamicreid value:6R0M9e51lmhGQGAN0Z+hRw==
+      _id:491 name:636f6d2e616e64726f69642e7169636861636861dynamicrsid value:EYelykjSiIzNJhhHh9PeHA==
+      _id:401 name:country_cert_info_enable value:0
+      _id:342 name:easy_mode_myfiles value:0
+      _id:481 name:dxCRMxhQkdGePGnp value:ECA99C059C9295C4F7B2798A2FDFAF9FDDB16E20B71A6FB69FF2F63F5672D678
+      _id:148 name:surface_palm_swipe value:1
+      _id:149 name:surface_palm_touch value:1
+      _id:116 name:flash_notification value:0
+      _id:220 name:contextual_page_audio_dock value:1
+      _id:164 name:air_motion_web_navigate value:0
+      _id:490 name:6c709c11d2d46a7b value:MV1dz571d91790c341a97005a605f8274MV
+      _id:219 name:contextual_page_roaming value:1
+      _id:437 name:FOTA_CLIENT_TERM_VER value:3.0
+      _id:114 name:tag_current_location_scrapbook value:0
+      _id:315 name:pen_hovering_information_preview value:0
+      _id:442 name:SPD_REGISTERD value:1
+      _id:180 name:air_motion_scroll_album_and_photo value:0
+      _id:122 name:safety_zone_notification_vibrate value:0
+      _id:528 name:homecity_timezone_city value:ä¸­å½æ åæ¶é´ (åäº¬)
+      _id:473 name:festival_effect_charging_effect value:1
+      _id:559 name:bt_svcst_com.android.bluetooth.hfpclient.HeadsetClientService value:0
+      _id:2468 name:dd7893586a493dc3 value:907a340774d2f5ef7eba5dd76289bc631f239c4ddaebd7cca7b86f91e461076570e496120162278413b8b2e5a1cd913f46cfedbbd6f19765f7d4479f62e71b67fa1a5a31fdbbd348cbfc8b303d12588af136b84ee9ec12e24e5a8d0faa1eecdec432dc227713153f50fbc7990e6b42d43e164ffa19ed51827fcd2feba6ced0cadef58746cc65b02dba7765526a10d10438af2d5a0f2b28544eafc076a4137b6a12884538c98502e6adedd5bfad29c3552c0b1474c6ff122d05a3ecede13b37c5b9a0d50ee00d0fbb8d67ee4b3c0c3593442c51c4821bb052669c3dfb9403c4924b254751e279d327ebbb624e6ba8af0e2ba0364a2ea2afa20c7db626228ced096bde06df51bae4284b5155c225090befc4760d6f0d54d52a8b28b1607da99df0
+      _id:2504 name:tw_tool_box_floating_y_ratio value:0.27239582
+      _id:474 name:festival_effect_messages_background value:1
+      _id:625 name:set_incomingcall_disconnect value:0
+      _id:386 name:airmessage_alert value:0
+      _id:2623 name:volume_music_speaker value:1
+      _id:333 name:easy_mode_camera value:0
+      _id:299 name:smart_bonding_notification_do_not_show_speed value:0
+      _id:518 name:com.baidu.pushservice.cst value:1470659132653
+      _id:61 name:notification_light_pulse value:0
+      _id:424 name:device_name value:Galaxy S5
+      _id:171 name:glance_view_new_message value:0
+      _id:260 name:onehand_dialer_enabled value:0
+      _id:29 name:VIB_NOTIFICATION_MAGNITUDE value:5
+      _id:256 name:led_indicator_voice_recording value:1
+      _id:130 name:motion_pick_up_to_call_out value:1
+      _id:573 name:media_mount_count value:0
+      _id:804 name:SOFTWARE_UPDATE_WIFI_ONLY2 value:1
+      _id:417 name:disasteralert_test_mode_state value:0
+      _id:414 name:notification_sound value:content://media/internal/audio/media/31
+      _id:599 name:com.sec.android.inputmethod.height value:750
+      _id:186 name:arc_motion_ripple_effect value:0
+      _id:508 name:com.baidu.deviceid.v2 value:aPLTRHv1JRoUGC3hr0Ykf8QhTJIYGjxlnEw2yACi2FOsP/KREHY0/mO6Tm0cf9uCc4jNvkGvAl4V
+      e+DjJDPBs0UxN15qsr0YqDD8FA6UllyDPrkKA8hwL511mTwKDfR6
+      _id:2493 name:mtp_open_session value:0
+      _id:523 name:com.baidu.pushservice290472 value:ENyFr6cBTlj+JiGyYFJovDY8zeg4EGf2lDyt+cy7vbU=
+      _id:140 name:motion_double_tap value:0
+      _id:279 name:safetycare_earthquake_coverage value:1000
+_id:50 name:display_battery_percentage value:1
+      _id:32 name:powersaving_switch value:0
+      _id:1989 name:next_alarm_formatted value:
+      _id:483 name:com.baidu.pushservice.channel_id value:4106420494282745290
+      _id:597 name:prefer_data_id value:0
+      _id:396 name:autoredial_mode value:0
+      _id:111 name:personal_mode_lock_type value:0
+      _id:4 name:volume_alarm value:11
+      _id:0 name:volume_music value:7
+      _id:3 name:volume_voice value:4
+      _id:41 name:show_password value:1
+      _id:208 name:mouse_hovering_highlight value:0
+      _id:502 name:636f6d2e616e64726f69642e69637265646974dynamicreid value:3YdDwW5itmlskv32/4HX/w==
+      _id:503 name:636f6d2e616e64726f69642e69637265646974dynamicrsid value:an7XjNgj7klSuCLRVQA0Ng==
+      _id:357 name:edit_after_screen_capture value:0
+      _id:136 name:motion_pan_to_browse_image value:0
+      _id:535 name:microphone_mute value:0
+      _id:579 name:keyguard_current_wallpaper_file_path value://system/wallpaper/lockscreen_default_wallpaper.png
+      _id:425 name:FOTA_CLIENT_BOOT_TIME value:1456712306789
+      _id:409 name:my_profile_text_size value:39.0
+      _id:363 name:my_profile_background_color value:0
+      _id:358 name:my_profile_enabled value:0
+      _id:18 name:premium_watch_display_signature value:0
+      _id:979 name:SOFTWARE_UPDATE_SET_INSTALL_TIME value:-1
+      _id:268 name:emergency_mode value:0
+      _id:381 name:airplane_mode_on_reason_usb3 value:0
+      _id:545 name:com.baidu.android.pushservice.PushSettings.debug_mode value:0
+      _id:416 name:ringtone value:content://media/internal/audio/media/57
+      _id:526 name:direct_access value:0
+      _id:1081 name:SOFTWARE_UPDATE_LAST_CHECKED_DATE value:1498471015677
+      _id:193 name:air_button_onoff value:0
+      _id:282 name:grip_rotation_lock value:0
+      _id:398 name:call_extra_volume value:1
+      _id:151 name:air_motion_engine value:0
+      _id:228 name:finger_print_shortcut_list value:; ; ; ; ; ; ; ; ; ;
+      _id:568 name:aw_daemon_service_key_version_check value:2014
+      _id:55 name:desk_home_screen_display value:0
+      _id:78 name:drivelink_notification value:0
+      _id:368 name:lock_screen_date_and_year value:1
+      _id:319 name:pen_hovering_sound value:0
+      _id:109 name:torch_light value:0
+      _id:26 name:usbapcpmode value:1
+      _id:331 name:easy_mode_switch value:1
+      _id:632 name:settings_gridui value:0
+      _id:345 name:easy_mode_splanner value:0
+      _id:293 name:smart_scroll_adv_gmail_body value:0
+      _id:443 name:use_Wait_Wifi_db value:0
+      _id:145 name:motion_tilt_to_scroll_list_sensitivity value:5
+      _id:28 name:VIB_RECVCALL_MAGNITUDE value:5
+      _id:48 name:ringtone_after_vibration value:0
+      _id:21 name:premium_watch_dual_clock value:0
+      _id:201 name:finger_air_view_pointer value:0
+      _id:298 name:smart_bonding_notification value:1
+      _id:374 name:fingerprint_secret_box value:0
+      _id:125 name:camera_quick_access_sound_feedback value:1
+      _id:63 name:sip_key_feedback_vibration value:1
+      _id:359 name:my_profile_text_color value:-1
+      _id:35 name:ultra_powersaving_mode value:0
+      _id:80 name:drivelink_readout_speed value:2
+      _id:15 name:hearing_aid value:0
+      _id:637 name:phone1_on value:0
+      _id:59 name:phone2_on value:1
+      _id:609 name:notipanel_missing_restored value:1
+      _id:485 name:JPush_DeviceId value:33c98b3ced824dc908c9f4391cfce738
+      _id:404 name:SOFTWARE_UPDATE_WIFI_ONLY value:1
+      _id:259 name:hand_adaptable_operation value:0
+      _id:530 name:settings_listui value:0
+      _id:137 name:motion_shake value:0
+      _id:103 name:sim2_value value:0
+      _id:435 name:FOTA_CLIENT_HEARTBEAT_PERIOD value:14
+      _id:300 name:smart_bonding_notification_do_not_show value:0
+      _id:40 name:psm_touchkey_led value:1
+      _id:213 name:mouse_hovering_progress_bar_preview value:0
+      _id:176 name:glance_view_nearest_alarm value:0
+      _id:378 name:toddler_mode_switch value:0
+      _id:71 name:driving_mode_alarm_notification value:0
+      _id:1220 name:tbs_enhance_qb_validation value:284af89dee06f0f7648ac1f1ae497f78449a0bd232754b45
+      _id:562 name:bt_svcst_com.android.bluetooth.hid.HidDevService value:0
+      _id:524 name:__OMG_DEVICE_INFO__ value:xjgf5jAYjxMxiRrT1ZRL5XKaJpN97G+lX3lTtwiC2ag8eBZrjOuIgrU3TTbxTnEZXFAun+ZWX0wsE2RB91nbagABnaw5rIOECaStQ3Dzseh19KJGdc4gGAwi9mRDQ1U=
+      _id:451 name:data_copy_state value:1
+      _id:1 name:volume_ring value:11
+      _id:239 name:toolbox_earphones_only value:0
+      _id:250 name:unlock_text value:1
+      _id:328 name:pen_detect_mode_disabled value:0
+      _id:461 name:dormant_start_min value:0
+      _id:77 name:drivelink_navigation value:navigation
+      _id:2513 name:vibrate_in_silent value:1
+      _id:128 name:motion_engine value:1
+      _id:428 name:homecity_timezone value:Asia/Shanghai
+      _id:90 name:spliteview_mode_im value:1
+      _id:353 name:kids_time_mgr_enable_start_min value:0
+      _id:139 name:motion_shake_refresh_guide_show_again value:0
+      _id:153 name:air_motion_scroll value:0
+      _id:248 name:default_vibration_pattern value:content://com.android.settings.personalvibration.PersonalVibrationProvider/1
+      _id:226 name:lock_screen_shortcut_app_list value:com.android.contacts/com.android.contacts.activities.DialtactsActivity;com.sec.chaton/com.sec.chaton.HomeActivity;com.google.android.googlequicksearchbox/com.google.android.googlequicksearchbox.SearchActivity;com.android.browser/com.android.browser.BrowserActivity;com.sec.android.app.camera/com.sec.android.app.camera.Camera;
+      _id:623 name:IP_CALL_NUMBER value:AUTO
+      _id:439 name:kikin_system_disabled value:1
+      _id:501 name:mtp_switch_to_usb20 value:0
+      _id:516 name:devcie_id_generated value:33c98b3ced824dc908c9f4391cfce738
+      _id:269 name:safety_care_user_agree value:0
+      _id:527 name:com.baidu.pushservice.PushSettings.connect_state value:0
+      _id:157 name:air_motion_scroll_email_body value:1
+      _id:179 name:air_motion_scroll_email_list value:0
+      _id:74 name:driving_mode_message_contents value:0
+      _id:68 name:driving_mode_message_notification value:0
+      _id:290 name:smart_scroll_adv_email_body value:1
+      _id:172 name:glance_view_now_playing_music value:0
+      _id:289 name:smart_scroll_adv_email_list value:1
+      _id:980 name:SOFTWARE_UPDATE_SET_INSTALL_EVERYDAY value:0
+      _id:2475 name:com.baidu.push.cur_prio value:62
+      _id:355 name:kids_time_mgr_enable_end_min value:0
+      _id:163 name:air_motion_call_accept_auto_start_speaker value:1
+      _id:326 name:pen_gesture_guide value:1
+      _id:2571 name:screen_brightness_mode value:0
+      _id:399 name:regional value:0
+      _id:454 name:dormant_switch_onoff value:0
+      _id:394 name:min_minder value:0
+      _id:238 name:toolbox_frequently_used value:0
+      _id:9 name:mute_streams_affected value:46
+      _id:1824 name:wdj_eH1hbFd7fFdjbXE value:Hh8XHxsfHBYcGxsXFxodGBgbHh4eHA==
+      _id:375 name:fingerprint_webpass value:0
+      _id:364 name:my_profile_font_filename value:fonts/Kaiti.ttf
+      _id:181 name:master_side_motion value:0
+      _id:411 name:storage_mmc_size value:15758000128
+      _id:512 name:com.baidu.pushservice.channel_token_rsa value:OuDrkobtgxA2KROHIljecklxKYetoFgHyc8TdB47bSqdS4JDH50f/ULV4opkSJ711vLGhDv7EB2AwbBU1/oAo6j6bbP5yoaXTQ9Hu7LZAYwkoUEK1Qvsrumwvu9wrbrTBYmI/OHbBVu5eRVFe0Rj2juIi0Tgcuoa1kHUpJNdfSo=
+      _id:391 name:bt_svcst_init value:1
+      _id:517 name:iflytek.deviceid.key value:26f48849d5b1c0de7de14ae1b5969daca
+      _id:438 name:SMLDM_FOTA_START value:1
+      _id:479 name:bluetooth_hfp_ibr value:1
+      _id:354 name:kids_time_mgr_enable_end_hour value:12
+      _id:421 name:wifi_cmcc_manual value:0
+      _id:16 name:tty_mode value:0
+      _id:397 name:call_noise_reduction value:1
+      _id:497 name:sys_setting_tes_guid value:82d9eb1461b42294360db74c13b788cb
+      _id:223 name:lockscreen_shortcut_box value:0
+      _id:30 name:power_saving_mode value:1
+      _id:292 name:smart_scroll_adv_chrome value:0
+      _id:301 name:open_camera value:0
+      _id:553 name:bt_svcst_com.android.bluetooth.hfp.HeadsetService value:1
+      _id:347 name:easy_mode_voicerecorder value:0
+      _id:390 name:com.baidu.deviceid value:EB778956CDA6ACA06C61EC0C2AA4F5FC
+      _id:11 name:dim_screen value:1
+      _id:198 name:finger_air_view_information_preview value:0
+      _id:295 name:smart_motion value:1
+      _id:370 name:lock_screen_clock_text_alignment value:1
+      _id:426 name:security_update_db value:1
+      _id:245 name:notification_panel_active_number_of_apps_for_reset value:10
+      _id:177 name:air_motion_scroll_all_list value:0
+      _id:511 name:com.baidu.push.cur_pkg value:com.baidu.appsearch
+      _id:49 name:display_battery_level value:1
+      _id:225 name:kg_multiple_lockscreen value:0
+      _id:556 name:bt_svcst_com.android.bluetooth.hdp.HealthService value:1
+      _id:294 name:face_smart_scroll value:1
+      _id:460 name:dormant_start_hour value:21
+      _id:162 name:air_motion_turn_note_page_view value:1
+      _id:242 name:notification_panel_brightness_adjustment value:1
+      _id:302 name:e_reading_display_mode value:1
+      _id:429 name:FOTA_CLIENT_FOTA_TIME value:1456724319108
+      _id:569 name:udsState value:0
+      _id:133 name:motion_zooming_guide_show_again value:0
+      _id:281 name:smart_scroll value:0
+      _id:596 name:handwriting_language_list value:en_US;zh_CN;
+      _id:509 name:044722919089CC914B7F39B866866613 value:EE5CE173FBED2D1DF8E57694BA80AE38
+      _id:276 name:safetycare_geonews_zone value:
+      _id:152 name:air_motion_wake_up value:0
+      _id:452 name:FOTA_CLIENT_HEARTBEAT_ADD value:p/2VzTap0zU1NWVgEUMtioS7eDeAYkSUtmTvJydIxr3r9kLKOAyn0xkv7B5DuQZtSouePLelpSH4WxTeT6Jwpw==
+      _id:222 name:lock_screen_shortcut value:1
+      _id:611 name:psm_display value:0
+      _id:72 name:driving_mode_schedule_notification value:0
+      _id:221 name:set_shortcuts_mode value:1
+      _id:265 name:sound_profile_edit_mode value:0
+      _id:419 name:quick_connect_contact_only value:1
+      _id:53 name:cradle_connect value:0
+      _id:464 name:dormant_allow_list value:None
+      _id:1697 name:smart_pause value:0
+      _id:161 name:air_motion_turn_bgm_on_lock_screen value:1
+      _id:548 name:any_screen_running value:0
+      _id:210 name:mouse_hovering_information_preview value:0
+      _id:531 name:egg_mode value:1477469954707
+      _id:304 name:lock_screen_face_with_voice value:0
+      _id:187 name:arc_motion_quick_glance value:0
+      _id:104 name:sim3_value value:0
+      _id:403 name:wbamr_mode value:0
+      _id:6 name:volume_bluetooth_sco value:7
+      _id:79 name:drivelink_notification_incoming_call value:0
+      _id:323 name:pen_hovering_list_scroll value:0
+      _id:325 name:pen_detachment_notification value:/system/media/audio/ui/Pen_att_noti1.ogg,/system/media/audio/ui/Pen_det_noti1.ogg
+      _id:432 name:lockscreen_sounds_enabled value:0
+      _id:542 name:sfp value:e5640fa0910b5a5d41d92d69fd7654a6_0fe214b3-5f25-4de4-86fb-280d3e60d603_1483959659841
+      _id:324 name:pen_hovering_ink_effect value:4
+      _id:329 name:pen_detach_application value:0
+      _id:486 name:user_rotation value:0
+      _id:422 name:samsung_eula_agree value:1
+      _id:251 name:audio_balance value:50
+      _id:264 name:sound_profile_mode value:0
+      _id:305 name:screen_mode_automatic_setting value:1
+      _id:75 name:driving_mode_air_call_accept value:0
+      _id:170 name:glance_view_missed_call value:0
+      _id:267 name:intelligent_rotation_mode value:0
+      _id:2675 name:accelerometer_rotation value:1
+      _id:513 name:com.baidu.pushservice.cur_period value:3
+      _id:278 name:safetycare_disaster_popup value:0
+      _id:578 name:keyguard_current_wallpaper_type value:1
+      _id:253 name:led_indicator_charing value:1
+      _id:477 name:current_festival_wallpaper_package value:
+      _id:270 name:safety_care_disaster_user_agree value:0
+      _id:2479 name:enable_mtp_settings value:0
+      _id:120 name:safety_zone_enable value:0
+      _id:466 name:lock_additional_weather value:1
+      _id:1298 name:__MTA_DEVICE_INFO_CHECK_ENTITY__ value:{"ts":1509603351966,"times":0,"mfreq":1024,"mdays":3}
+      _id:204 name:finger_air_view_sound_and_haptic_feedback value:0
+      _id:240 name:toolbox_apps value:com.sec.android.app.camera/com.sec.android.app.camera.Camera;com.sec.android.app.sbrowser/com.sec.android.app.sbrowser.SBrowserMainActivity;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+      _id:47 name:information_ticker_auto_refresh value:1
+      _id:313 name:pen_hovering value:0
+      _id:352 name:kids_time_mgr_enable_start_hour value:8
+      _id:499 name:sys_setting_tes_gtime value:1463119381
+      _id:498 name:sys_setting_tes_vcode value:284af89dee06f0f7648ac1f1ae497f78449a0bd232754b45
+      _id:20 name:premium_watch_style_option value:0
+      _id:335 name:easy_mode_contacts value:0
+      _id:380 name:toddler_mode_wifi_state value:0
+      _id:493 name:screen_off_timeout value:600000
+      _id:112 name:tag_current_location_camera value:0
+      _id:82 name:drivelink_rejectmessage_body value:
+      _id:382 name:festival_effect_enabled value:1
+      _id:307 name:multi_window_position value:0
+      _id:505 name:android.{F46B117B-CBC7-4ac2-8F3C-43C1649DC76WR} value:cn.goapk.market
+      _id:231 name:recommended_apps_automatically_earphones value:0
+      _id:496 name:show_touches value:0
+      _id:86 name:spliteview_mode_memo value:1
+      _id:224 name:is_secured_lock value:0
+      _id:341 name:easy_mode_messages value:0
+      _id:10 name:vibrate_when_ringing value:0
+      _id:471 name:festival_effect_lockscreen_wallpaper value:1
+      _id:34 name:blackgrey_powersaving_mode value:0
+      _id:108 name:high_contrast value:0
+      _id:218 name:contextual_page_desk_cardle value:0
+      _id:384 name:festival_effect_notification_panel value:1
+      _id:570 name:mtp_usb_connection_status value:0
+      _id:25 name:uartapcpmode value:0
+      _id:588 name:hide_rotation_lock_toggle_for_accessibility value:0
+      _id:67 name:driving_mode_incoming_call_notification value:0
+      _id:408 name:alarm_alert value:content://media/internal/audio/media/7
+      _id:552 name:bt_svcst_com.android.bluetooth.gatt.GattService value:1
+      _id:131 name:motion_overturn value:0
+      _id:376 name:fingerprint_used_samsungaccount value:0
+      _id:246 name:notification_panel_active_number_of_apps value:10
+      _id:504 name:android.{F46B117B-CBC7-4ac2-8F3C-43C1649DC760} value:ChZF+2tGsyFiTyCLrIGV6g==
+      _id:506 name:android.{F46B117B-CBC7-4ac2-8F3C-43C1649DC7PK} value:MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCiiByw0W40uhK+khvIEneisE1pPtvId6ewOeFm4ohO0UVmcnB6RCJz7/J+xk4jlEfqJyfXm5BcRyxdERcbK4uzmDOwSgd4XaV2X+A4iN2EgJ5PdY6kZuWzJ0L2/gyFgbIs+0FWUOc449VoLojPcH/CNmwZultVSU2oBx0+GS7e8QIDAQAB
+      _id:1021 name:android.{F46B117B-CBC7-4ac2-8F3C-43C1649DC7PN} value:eCziC7ATAM8IEgiGmCGyAg==,IkxHuwElopVqc3X5xF43ug==,G85EQK51aHCxVgLEaGn92w==,HjkJisX3kGHvQL708yiQdQ==,mw4iCFinbNzQ3w+cB0Sv0Q==,xtWa4EnUW6rVfq0gPUn5rQ==,92dllzYzT2L8v6AKisYZCQ==,cNtwoZV4WYS58fZF2OVrMg==,bhyzjQ0e09yPuLLepRA1mA==,0V+MY5Uqx3KNTnKTbxz4PA==,u47OgzF7BuxFPRh9YXkqVg==,Yz29CU5a/u/4XBuan7dYgw==,yaRlYB4XUk3acQpwoXCTng==,KuvGlNXydf8f212iqe50Fw==,8SnKrXzT1V4Bm6ImlncxXw==,lyF2LoXjOD9UFBUj7Gj3cw==,wEP8X8OnjW2j4dGOBliQEQ==,3MdqAgA4eJOgfi+mto6vAw==,E655NYwUufKA+NaNdFwH4g==,aEn2q4ffpyhpmIkEYwzrdA==,k4Lty1y5l6RHaM9s1Fy3aA==,/oA6i2CItDypt2B4Mwnv1A==,pRsmaQGfZ7CSzTmvA8Uqkw==,a/NejIGGQ2U1Swtcqu1/AQ==,3ABUW9O4go8DOgKsJbLTbQ==,DTArKU/B9gh/0vQtOAv4Eg==,oQYuq/BsfyfeqndHGDInTQ==,vWdh43468QBzM9gru5TdqA==,Ds4NeO3k571B4J1TtEielg==,Qqh21ElAzd2XtTuuiDHtNQ==,msPgnAk33eYTH2P8PJgAKA==,dojt8jIli+DHJgGoG80S2A==,mUKMOCT9wnIa22jKsswFbQ==,6tL0pNIFX5y+NGzY02K/yg==,xxUq3iu8m+sTFf6MfS0yFQ==,62GkS5zV6X/D9nQ+82aLEg==,Vcn+js2nBprcC3dBce5O+Q==,eswnnlMWmd3ibsxNWlC+ww==,2XBYZylE2qg1axUefFY3xw==,eodyUOlZnCRX5i6zs4IG9g==,TxqqkUja8E1FzJHRzaH9RA==,wX3xLbR0BbREsRxVAAymgA==,MjdO2A2ieePO0pOBtHw1hA==,QbPhQmi8jQ70UradN9UidA==,iw9JJxyVHnTH7mogHZokSQ==,RkcV4ctRSVWSKKuRI2MA+g==,oH6/6VOTOHQrvtfQvSFsmg==,UwOA83vHUR0HBnvU9tLPRA==,Cme1NGQAKeuk0sIeFOtzFg==,itcDTW/kW0oLNQkJ++6iSw==,xIyRFcutgFtXf+Ko+1xPVw==,ZxIK6ZnfV7vmRsdm650MOg==,GBuThzLmvRA3HAdeUW3aQQ==,jeYAXJaa82VD7WLLPpSGWA==,c+qPHruCrl8v/DuxkpBrjw==,JUjoiZIdFUEM7W7oKtHZwQ==,unB25djtETdubLEC1YCrPA==,BFgLuT5PoikIYtHaYmL47A==,Go2y7YS3iJaQp3nKHfru8Q==,jopkffNeZdUvgpZ3ahs+7w==,EyNMshwHTMlP4XS8Ns5BiA==,a6WJs1zKX/jyNNtp9Eh+jw==,h9q4Ida+3s4JL+RXewqxrg==,sA8SdOjyjJaBOKgnvcb4BQ==,i/+9qkiGjjifaVVLPYFvRQ==,FvENAbnXFA3ncxFPr4Cmbg==,UoAMEAHvfhSPTQKdcpZPZA==,5Nuf65ybe5AjyAje5TFOXw==,4IBr+TaWNCJw9aCupzyI2w==,jWB4t5YGYWCDTnLQvjN8ow==,Z7+ow5RXOBDm7y8rlrrbDA==,o741yoqV68Qb8iK6NTVg/A==,BPi1UDzEzGTv2EPgTZu4+w==,tpGoS9guUWgDxpqmbJSeqA==,xQjGIqKkZrh5nzdI0SInWQ==,d3FGbqST+mCTFrmd4arufA==,bPZU+RAhtrwILZ8qdqYleA==,RpYwy+tTSgfJuoJj9CydCw==,+6fgxA5rAtBtXW6BRdOdsQ==,93CEc6zwdEq+yr64t60dpw==,MOYgRtoXfdSBrq8GC8Lb5g==,4Z3DlfBI7g3igSCfMYdkdw==,fgeqhBhAvgiLj9fQL6+YDg==,R1jtunZnJsI1M6Bhd245cQ==,SbPX7ej4KcBMoNvAjayxrA==,hEAr/qCB7+ecIBBGdBogaA==,U3MXC4fLRr4F/NWxXsZ/Kw==,1hVOcCffvhMichY3YySWjA==,FJdjMH0R2nVukt7qwqnrqw==,zzz3K9jlOw233bCm8iCK+Q==,Vce2gAAEPXUc8+R44MBUtw==,eHBVf8X3JUKJ5ZKtOapDWQ==,SPzlnEMJnR4iuHbQpdePlQ==,oYBwMuxDcwQlEYcegRfx8g==,zfnQglq0Y1eunhJC6KY2hQ==,bA0tftEmUsruzSkmBlI2yA==,jUhUhNKQ7BdVXnrMg9Aagw==,TNK/uUtYWIvjHCXdlqG3xw==,Qi2FjO65zCEfASmyVQ1UjQ==,6bJlvKnZIpA7A+dbhjL09w==,x8pH5WEE7qjjpxVq1PEe+w==,fTV83V9mNsEAzyZ0lvg0vQ==,ALsQ9Ao2mVuHAn88sjrJDA==,tlsiIn+Wll3Sx9vHxMr5lw==,9vHOmYrVy9bdSNQfdSdOMQ==,1686ZRtl1fNUHxfretqPxA==,dBt/urhooy9gw2RM4NsABg==,o1NpqnqX3UR3Uef5Oggiog==,fDy5I/bQH13WT6GFLvzptw==,+JNLUml+pTmAidzJ102zMg==,f0c5n1gXzwJyERE5XQdQVg==,Fwq68D1W/DxXJbgOmQ5onA==,/CDChuFijC5tehNYq+fM1Q==,vWMhYF0EUUWH0suTUCfXLg==,GELQ7esS5ARN9lwa3gIsKg==,gyBVluW8UPRh0fse34L4tA==,Od4e6NG84tnicuz7lZGbDw==,pGEvpNt9YRLAkMI4YdR2KQ==,jV4XUneMcEAYVjzhtr8XCw==,5I6YuVcyElS4VdFbG2xVHw==,EWOM8FK0iarE8ddpZQe2Hg==,yTWuWSXIDh1T3isRP9dx2Q==,bhRtlCsf7MHIjVUVMCdieA==,EfmkX3SRZSRLVIurBGiV4A==,7jWp9DK59vN7kxlig2NY3Q==,450sfeGRVrBoPNk+hzXzSA==,JSELJGrruhYoMjWmTyDIbg==,SttKbM7XVEkTg8SGJ/e6Gg==,YNy7c2t8qNdFGThivWzanQ==,PMlFdh+4qtrevyyZdGpo8g==,0e2IXkNZ5Ab2ACaf3UviLA==,yAxBooEtpmZlYKjFIppVuw==,5iRUDZ3VDN/jdp7Fes1bVw==,TQfDPiEVBzd+6Vj5oXCBIw==,shJG8I21tK1ecNJPFZ+XYA==,A+Vj+IB2f02UMZ5cbHuYHA==,LzGEIgB66sNqcxNkyEX09A==,YbuA0YwtKycBa8tTJWk8XA==,+pZ2BKbZ2IT6hwbENvQPJw==,a9kXZ61B/5PoEjv7XujWYQ==,KUAG0qdAGke5ndddb1Jf0Q==,atTPRmW1BsGH0cnTWWavFw==,6/OY9E5oRcpwff3MbR11oQ==,fiyvlKMSpGLrDxam5TmkGw==,DX200/YY15PGHZYYMH1IHg==,UFQZwDYZD6rKmzafD+RxKw==,vn+5GfKBPbM1hkMELPSNdg==,fcth0A1+kZsLprKQc1qbMw==,fbuSLMesL31bygBx6phJwg==,PRkD3f5kGtWp+TivvzZQhw==,tPw4Mj4TphgTTyGBy9g1oA==,Y+ewYyplGXXE5PNgnpyjLQ==,X8T0xwwzim5C9zRlToJyVw==,+IN8bBRGYpSWDcVI3vEa5g==,WUQCTkG8+xl3xgS0h1CkTw==,+mEea2Pd1HS6Xh1NMpxrOw==,PL7lXGNda8D3A0e22TwSng==,T6ng4mauvneqr6rv1f6MpQ==,U661cGu+Gz4FsRGloMds1w==,ZL2MUoh+/LMR8epHdjTZKw==,5PrRLZgTCNQLvtlrQ3oKuw==,kNOacd6p8FcV1eJw4Afesg==,1MlgoUdJA4BcPhMMgnEODA==,cX/QR9D9QWyLoFE/MErTnw==,JI3LBZTcPlENwDeKlOPc5A==,OtkmcYX2SxhkM8A3ml2DlQ==,mhQ7LC7ygV4/aUnTyA9Dsg==,Xvx6AT35nXSo4jmexrTJXA==,Yz1IjV+figwJ0N/mJ7Jcfg==,47xiUvA4Njx7CDwWxbYb7g==,QnViDp0YacNXzwXQQbH6UA==,Fx8raFEJYRLjq3BXNl10Wg==,pLIFkjjkBtiC+j9uBS/RdQ==,XA+cv2Rik00NN+rjkjAAGQ==,VvPx/mwH2vA27SG1q4YH9g==,S5TZaXX2IDzFu0C2OsRGOQ==,qZoHQQIUfUJunc2CagoN3A==,qQPnBDKNcxqHwU08XcgQRw==,0adsfcriThd/NJ/9PlRjPA==,uROz7PmJsZAES71Is6zGvQ==,P231w4rx3r03zBUMPA8F6A==,CEqzvDT3qnzP+DZT9Sq6/A==,12AgiwiGoduu5tj9zkndLg==,AouOd01tnZ1GK7dIj8oSAA==,GxMRBdN9NkTyeb4dh8TUww==,dHiB/08DyPyGfvCm6/Se0Q==,LhXb/NfIcdhhdYuusOkQHQ==,qmI0dB+FtVnC2qm4EkX9IA==,kLYlpXOqv9TBinrzXAsqvg==,MrfoF3vZNM74o+oRGQV54Q==,xpTtbrMMLOsH4lkA2miUkg==,O539XX9q+yYoyit4TDRrBQ==,x+hqyfh2DErd0yK88vmQkg==,Ig/KdJrNn/Q5zpLl6cNvkg==,4lEr3Re4e069ra5im1bU7A==,JypI6xAgYWLFVdxdKUgAGQ==,EUEFjL31tUsbR2oWZDf2YA==,YCI7mwfzfZk8O11AZiI2Sw==,fmiXKmmt+UyixZxYRtx57Q==,uzsCPt8f32GGnFUf9sA8UA==,A1uFBZL/FGvkRT/CzUZAQg==,MkH3hjHJuEdDdPSYpjSaZw==,KgsNYE0NyZ4Evf481Dg7jA==,MYvP7xgwZih/98Mh3E8sBA==,e/uIFfanzNdH0c0J5Lph6Q==,rSDpCA8kL8qPafawRAMngw==,gNpZ+3/gplqn2381TziWkw==,D7LpH87pELihFgHGrTO56Q==,uVNti54pmVyrqqLuPXAPuA==,lrWxTdk8ybBOp75K/tFpDw==,zlWKbAC8Klm5aUcDo+AEvg==,jje0L85T5uQfv43PHoxoyg==,cWWtamj6q0XoPjAAipn/Xg==,NjGg7HILnXJstNXGN4oUeg==,H9NQwKvSRkwn+zadEf5KhA==,c6DG8M6x+lm766Imap+Dxw==,t/ZrEKgwK0hWmTcm1iV16A==,GsfrCVKdIuoWhtBrV0HB3w==,UgrZb/QHs4Msni1u5FlQQA==,WG8YX9JROsAv8mbEMbOBAA==,QmpViMURDNAdWvF+R62yIw==,JzV2n3gOlA5ntpalJ4dQkw==,kb4yBYnV0ax6X6F+GmXLDw==,DNdzJr0IbEZuZAjvthZe2g==,QJ+AM89/HOmQY0tCus06Ug==,wxsyNkzhnKj80VCkF+zOWA==,rWkvcTE6vqwAv2IpjP0jHg==,umU4HDKB9C/OjhfFIPocqA==,dcLteR1RoHzXtfAFANKWsg==,Z0MgqeBGaK088vfFqvDt4A==,0CiUVUMwEEj/IGQYq/2Tig==,YfDwlDGsOyiovVTzApbjHQ==,XZm5BxRg490xKXI7dsiEPQ==,k9kd3at3iT3/XXKmKXDznQ==,3l7TT0nT5v4XrWH+B4+RZQ==,syY8VwfK5ysC8DonL9/bfA==,0bDGbT7Lac1nS23Mb46rzw==,T+PyIOXMe2xKEgnDfcW4CA==,pnAVkn3uKTOh1KKKWDpo1g==,ffOttsC/MyfUODx10B5AWQ==,C9KIQYo/JzNURfc/K1ei0Q==,jB+kSqAEezXwwBjCt7ESjA==,YYC8WGMcsHPalCBO0zTaXw==,R+AhGUWb0GNIztjm57tbPg==,qPL7RYTX6csXPMdGoau/hw==,866X+oysgdNqwybqZIL7jA==,zWKrp/yM+rkGtuA570CdGw==,RkGXNSmImdibGf30G5ZMFw==,/XbSax9xpdwRFfA2cBepjw==,FSDzaJCJyOkUTPlvsCrzFA==,Nc6UGlAJboRFvMtRw9Nyig==,Gb+7Ysd6DsCk2ZJ3xI7MNw==,5uOE4uicVahWpQYm6EQJxA==,33BkfL3qPza1vKXLl2YL/Q==,F2FhvpAODimTSvyoPrET+A==,ZHrSiIHSoXfA7ocB1fS5pQ==,P/wH0ug3kyOKe6ehlsAHNQ==,/HBOaxPE+ya/XkEfddqE8g==,FMRv72IndB+iXdBrazyHMQ==,4EWoPwHpy4jbEgztPYncXA==,/6Q4nKKSqrKV8I7bkIT8lw==,FpwhGpoYmhFT08T4RDA2yg==,JluYvNAKsOc6b7eCdr0xhQ==,5CEOJB279wimAuQi6lv0Cg==,+HOnE/Pz1XCdx2RBh0HE8g==,IknULjEUw1qE2RwHc1VP/Q==,YAW7xvMSGQwlmGy7Ndgktw==,wvhyIuqNaT4Trj8lbH78pA==,hAb3t22bgMG9equp7NSCOA==,GbsydJapcxk9RSpef4z7Mw==,PSlz7shi3eDRxphTleeH1A==,odW2llr9nJ0Nx/4ELR/8vQ==,AmKyh/7pb4bQcaXbHv8nzw==,HJc6PW5xQsSUvbjf4Uc8GQ==,FZ6/6cGKIMxraxG64938dQ==,B1hOsSXJkpxrJrOh7Gbm/Q==,yDc2sV1dL+ZIIrRoDHDAOg==,ykyx6meoQ5stmFRaLIOo3A==,o577V/CFeLbPCmfJnQefyA==,1a7dA+JuwVY4j59D3P1rdg==,evNJQBnJBsPoKt2kidvCqA==,lYaZnpBPPDOkaAQ/yWZOqA==,/FQ2muE+9UZd9EYfO8qZdQ==,DS7SioytXoECcmuOjih4eA==,cv1GS2Dhk6+B3xDrHctK5Q==,oZ5XQLYtXG6kscE7uOgd2w==,rUE5Se1Ba9VWZIy8NduwZw==,8auUcyenlVrQj2MZto2SqA==,bqJ3PttADS4I+2nUiHLvng==,iW6DwTsmy+A6PXlgtEOp8A==,qu1w+CG/96NXuFqBOYl/bg==,M7lwBCOfjbIOnwyU4bcIZg==,siK/E+fc+mk/hHfTrsGb2Q==,68Tr2BkyZNceIsO1fmodfw==,0ufJ+iBPdSbA8uIayyopWw==,6UCis0K9sWZj25SeA+X4iQ==,NSPGMVjCqY2Zi+HSqGMX6g==,YMRKE80mH3YHjesXPbgmyA==,NTZOWNJPuH0sXRMEV6tMSg==,lLy5CPfWUdJ9cBsvYn5Wcw==,6UydTOURBBs2/pXF3GOTvQ==,gCDObjcbGaXZW3WqkQl4KQ==,unLpOD1CZ+NUcyg6JOEFXQ==,CeWxn//dTJ2lJ0LOU24diw==,GomgGGhPGZhIZkewd+gwQA==,nSbGRG/Xu45B2ZtiYrF97w==,0Tgobb31heZdiHD4rUy4mw==,MVEkGf9/YSUscKTrCrs+VA==,JQSIyG7DAe7BeOyISlzjPQ==,zIyiEKRzGZZ9g3oKY3bqAg==,XWyi9/fUfdvyNx1VGsV52g==,2Gk7NyMc/nTUEmWVereXPA==,ZVC8KdKpJA8Zepj3a5LM+w==,LcFaq0NPYCtt7uZn7j82RQ==,7Nt9G7f6Sw9FXAeSH0HcSA==,n/8uKQxvtmr0bmooXJeZWA==,0aN4Vx7G4Ug0QktSdgrjyQ==,GE452E0vS51XBdPy3EmrDQ==,hOVZZENCf1Pvyk4dSJcvMw==,Yt9hBCCjDBPO2s8wUYdN/A==,fgZt5fTZRj3ubyqapwg6ng==,OkKazvwGi7RWEuDlHBfjBw==,xxh7KRTmGP7iYwcFyXTDQw==,GymgtFPZr+5sZx5Me4eGZA==,wB3GsPUoavtVPZAMQFOojg==,8JBoMlzMDKcSDSfWF/3e5w==,GJJrzcBJfp8XnLcwrOwYCw==,WxnurnVLGEIdSAVOSodE5w==,sUmU/FnTvXX9nCvycj9xDg==,n0to8UkJp4I2nGSSLMFJPg==,ZzTkOvfSrCi9SQeoJK5EVg==,15hFYSVfkH8/eMQS6v2nmA==,ebOO4IGbmlVT9V4xR5l+HA==,jPb4AntRcgjgF0VIcmgZ5g==,FVPmgetNkKZqHXnwZJqI5w==,3RgY4NsnCErLgzuEDaGO7g==,zPFbzw1AKjyaKNkwJq9LzA==,m1B+XiirJqtRP+xVr4Hgpw==,HoseOsBxe8jh7NwbY7y7Vg==,d0mO6VWgheocTm5rm7uoAw==,t47DgmTMNcWxiRtwdr1wiw==,uFpHbPMXY9DDGO7atSE7MA==,S58yaw2GGH422DRNlSh84g==,myeTmorowb4MjM6udOgIPA==,PCfASsZkwNy8Vhv4t/X9zw==,qGXm5ZoCO7nLyOq0ifBmog==,u7ALXcqEeOcjQ2/Gfq9Nuw==,KiKYMLaVpJlCPTMgglMUbg==,+odyCQNsoZQFkWpgv+pPbQ==,UUAZaCXsA6PX4k8CctT/2Q==,ohDGWJDkWrHkjykNO523uw==,4xDje9kjwUZId9RtmuxBOw==,qPzFk+5DEVId9GCK7XXCcg==,eePbJnTMVrAvhTE+s9N4tw==,zB6+82agQOYIrKf6GWhqqA==,oaTyS2mF49QcBAf9+TlSKA==,/cH9mbbA2dMf/cVKfpWDqg==,YhKOSPMMZTweuivHKAIVfA==,pC6DhZmIN+jGgU/4Yu1xew==
+      _id:507 name:android.{F46B117B-CBC7-4ac2-8F3C-43C1649DC7PV} value:1
+      _id:31 name:auto_adjust_touch value:0
+      _id:514 name:auto_power_up_alarm value:1
+      _id:613 name:voicenote_recording_enable value:0
+      _id:19 name:premium_watch_switch_onoff value:0
+      _id:64 name:pointer_speed value:0
+      _id:235 name:recommended_apps_automatically_roaming value:0
+      _id:369 name:lock_screen_clock_text_color value:-1
+      _id:56 name:automatic_unlock value:1
+      _id:476 name:current_festival_effect_package value:com.bst.festivalrespreload2
+      _id:51 name:with_circle value:0
+      _id:608 name:notification_panel_active_app_list_for_reset value:Wifi;Location;MobileData;SilentMode;AutoRotate;Bluetooth;NetworkBooster;Toolbox;PersonalMode;DormantMode;UltraPowerSaving;MultiWindow;AllShareCast;WiFiHotspot;Nfc;SmartStay;SmartPause;PowerSaving;Sync;AirplaneMode;FloatingMessage;
+      _id:311 name:quick_launch_app value:1
+      _id:360 name:my_profile_information value:Life companion
+      _id:515 name:tbs_downloading_com.tencent.mm value:36524|0
+      _id:459 name:dormant_always value:1
+      _id:123 name:safety_zone_list value:
+      _id:65 name:lock_screen_vibration_feedback value:1
+      _id:192 name:arc_motion_messaging value:0
+      _id:449 name:icc_lock_enable value:0
+      _id:406 name:use_wifi_only_db value:1
+      _id:427 name:bd_setting_i value:355066066789894
+      _id:389 name:43B7F6D6117A73991BB0A02280A75E8A value:EB778956CDA6ACA06C61EC0C2AA4F5FC
+      _id:366 name:kg_enable_camera_widget value:0
+      _id:484 name:com.baidu.pushservice.channel_token value:042194132574701550081069681283535172485610696680943969280056
+      _id:557 name:bt_svcst_com.android.bluetooth.pan.PanService value:1
+      _id:69 name:driving_mode_email_notification value:0
+      _id:39 name:psm_location_manager value:1
+      _id:62 name:sip_key_feedback_sound value:1
+      _id:45 name:contents_type value:1
+      _id:92 name:select_icon_1 value:0
+      _id:93 name:select_icon_2 value:1
+      _id:94 name:select_icon_3 value:2
+      _id:95 name:select_icon_4 value:3
+      _id:96 name:select_icon_5 value:4
+      _id:36 name:psm_switch value:1
+      _id:525 name:__OTHER_DEVICE_INFO___1100679360 value:xjgf5jAYjxRgjkXT1ZkVtHCWI5Yq7GimXHwLs1jW2Pk9eRJo2O2IhrNtSjbxR3EZXFAun+ZWX0wsE2RB/FrRYQUBnqw8so3SEOu1SHXwtO9z8KBCctQuTgEr4yNbSRlk
+      _id:24 name:transition_animation_scale value:1.0
+_id:173 name:glance_view_battery_charging_info value:0
+      _id:138 name:motion_shake_scan_guide_show_again value:0
+      _id:135 name:motion_panning value:0
+      _id:367 name:kg_enable_camera_widget_type value:1
+      _id:286 name:smart_scroll_acceleration value:1
+      _id:182 name:side_motion_one_hand_operation value:0
+      _id:351 name:parental_control_block_call value:0
+      _id:203 name:finger_air_view_speed_dial_tip value:1
+      _id:165 name:air_motion_note_swap value:0
+      _id:212 name:mouse_hovering_magnetic_ui value:0
+      _id:388 name:mode_ringer_streams_affected value:422
+      _id:118 name:wifi_ap_sort value:1
+      _id:22 name:premium_watch_sound value:0
+      _id:350 name:parental_control_add_apps_auto value:1
+      _id:110 name:activity_zone_is_using_torch_light value:0
+      _id:124 name:camera_quick_access value:0
+      _id:330 name:pen_writing_buddy value:1
+      _id:555 name:bt_svcst_com.android.bluetooth.hid.HidService value:1
+      _id:288 name:smart_scroll_adv_web value:1
+      _id:581 name:org.agoo.android.packs_v1.umeng value:{null}
+      _id:383 name:festival_effect_home_lock_screen value:1
+      _id:142 name:motion_peek_chapter_preview value:0
+      _id:97 name:select_name_1 value:SIM 1
+      _id:98 name:select_name_2 value:SIM 2
+      _id:99 name:select_name_3 value:SIM 3
+      _id:100 name:select_name_4 value:SIM 4
+      _id:101 name:select_name_5 value:SIM 5
+      _id:255 name:led_indicator_missed_event value:1
+      _id:520 name:636f6d2e77616e646f756a69612e70686f656e697832dynamicreid value:XbbU6A9yIsIal4YHm4tJog==
+      _id:521 name:636f6d2e77616e646f756a69612e70686f656e697832dynamicrsid value:ytOGqcpFWNtfs1nkmESNBg==
+      _id:113 name:tag_current_location_snote value:0
+      _id:532 name:com.taobao.accs.BINDED_PACKAGE value:[1472499581651,{"p":"com.wandoujia.phoenix2","s":"BINDED"}]
+      _id:607 name:notification_panel_active_app_list value:Wifi;Location;MobileData;SilentMode;AutoRotate;Bluetooth;NetworkBooster;Toolbox;PersonalMode;DormantMode;UltraPowerSaving;MultiWindow;AllShareCast;WiFiHotspot;Nfc;SmartStay;SmartPause;PowerSaving;Sync;AirplaneMode;FloatingMessage;
+      _id:183 name:side_motion_peek value:0
+      _id:5 name:volume_notification value:11
+      _id:175 name:glance_view_status_bar value:0
+      _id:440 name:lock_my_mobile value:0
+      _id:456 name:dormant_disable_notifications value:1
+      _id:287 name:smart_scroll_visual_feedback_icon value:1
+      _id:126 name:master_motion value:1
+      _id:91 name:clock_position value:0
+      _id:158 name:air_motion_turn_single_photo_view value:1
+      _id:44 name:information_ticker value:0
+      _id:105 name:sim4_value value:0
+      _id:337 name:easy_mode_gallery value:0
+      _id:129 name:motion_pick_up value:1
+      _id:610 name:eth_device_conn value:1
+      _id:458 name:dormant_disable_led_indicator value:1
+      _id:580 name:keyguard_current_wallpaper_res_id value:-1
+      _id:537 name:auto_brightness_detail value:100
+      _id:121 name:safety_zone_notification_enable value:0
+      _id:262 name:onehand_calculator_enabled value:0
+      _id:261 name:onehand_samsungkeypad_enabled value:0
+      _id:197 name:finger_air_view_magnifier value:0
+      _id:372 name:lock_screen_clock_size value:1
+      _id:43 name:una_setting value:1
+      _id:549 name:GEAR_VOICEMAIL_ENABLED value:1
+      _id:14 name:dtmf_tone_type value:0
+      _id:488 name:FOTA_CLIENT_POLLING_TIME value:2113598361072
+      _id:430 name:dtmf_tone value:0
+      _id:1219 name:tbs_enhance_qb_guid value:82d9eb1461b42294360db74c13b788cb
+      _id:462 name:dormant_end_hour value:6
+      _id:494 name:__MTA_DEVICE_INFO__ value:xjgD6zAYj0Q33hOG1ZxF5nCaKZl27Hm8SnAJpFaXq/piAzRm/+rXi7Y0a0P7SgAJQUN0x+dWSUxsFyca9l+AYFALyPNsspPGUOWjRX3wte8g8KMVcdMxCRdroHUbFxp7IAZox+SCzb5dMlgzx0aAYGarMUXu
+      _id:73 name:driving_mode_unlock_screen_contents value:0
+      _id:487 name:FOTA_CLIENT_HEARTBEAT_TIME value:2114618663057
+      _id:206 name:mouse_hovering_icon_label value:0
+      _id:76 name:drivelink_mode value:0
+      _id:2622 name:volume_ring_speaker value:10
+      _id:402 name:csc_pref_camera_forced_shuttersound_key value:1
+      _id:407 name:NearbyDownloadTo value:/storage/emulated/0/Download
+      _id:318 name:pen_hovering_webpage_magnifier value:0
+      _id:12 name:knox_screen_off_timeout value:30000
+      _id:159 name:air_motion_turn_internet_window value:1
+      _id:229 name:recommended_apps_setting value:1
+      _id:258 name:any_screen_enabled value:0
+      _id:316 name:pen_hovering_progress_preview value:0
+      _id:167 name:air_motion_item_move value:0
+      _id:554 name:bt_svcst_com.android.bluetooth.a2dp.A2dpService value:1
+      _id:27 name:VIB_FEEDBACK_MAGNITUDE value:3
+      _id:400 name:time_12_24 value:24
+      _id:495 name:pointer_location value:0
+      _id:146 name:motion_pan_to_browse_image_sensitivity value:5
+      _id:107 name:show_clock value:1
+      _id:314 name:pen_hovering_pointer value:1
+      _id:236 name:recommended_apps_list_roaming value:com.sec.android.app.camera/com.sec.android.app.camera.Camera;com.android.email/com.android.email.activity.Welcome;
+      _id:254 name:led_indicator_low_battery value:0
+      _id:463 name:dormant_end_min value:0
+      _id:591 name:keyguard_default_wallpaper_res_id value:2130838009
+      _id:575 name:sdcard_launch value:0
+      _id:306 name:multi_window_enabled value:0
+      _id:178 name:air_motion_scroll_contact_list value:0
+      _id:547 name:kids_home_mode value:0
+      _id:447 name:sbeam_mode value:0
+      _id:7 name:volume_music_headset value:9
+      _id:2494 name:mtp_running_status value:1
+      _id:2 name:volume_system value:9
+      _id:46 name:sliding_speed value:1
+      _id:577 name:lockscreen_zoom_panning_effect value:0
+      _id:478 name:current_festival_wallpaper_class value:
+      _id:566 name:com.samsung.android.nearby.mediaserver.NEARBY_SERVER_STARTED value:0
+      _id:17 name:assisted_dialing value:0
+      _id:200 name:finger_air_view_full_text value:0
+      _id:2285 name:toolbox_onoff value:1
+      _id:453 name:intelligent_screen_mode value:1
+      _id:600 name:com.sec.android.inputmethod.height_landscape value:540
+      _id:132 name:motion_zooming value:0
+      _id:33 name:data_powersaving_mode value:0
+      _id:393 name:call_conn_tone value:1
+      _id:147 name:surface_motion_engine value:1
+      _id:563 name:block_emergency_message value:0
+      _id:2676 name:sip_input_language value:zh_CN
+      _id:232 name:recommended_apps_list_earphones value:com.sec.android.app.music/com.samsung.musicplus.MusicMainActivity;com.samsung.everglades.video/com.samsung.everglades.video.VideoMain;com.android.contacts/com.android.dialer.DialtactsActivity;
+      _id:560 name:bt_svcst_com.android.bluetooth.a2dp.A2dpSinkService value:0
+      _id:356 name:accelerometer_rotation_second value:0
+      _id:188 name:arc_motion_call_accept value:0
+      _id:410 name:db_first_booting value:1
+      _id:127 name:motion_merged_mute_pause value:1
+      _id:436 name:FOTA_CLIENT_REGISTRATION value:1
+      _id:468 name:notification_reminder value:0
+      _id:156 name:air_motion_scroll_web_page value:1
+      _id:322 name:pen_hovering_icon_label value:0
+      _id:377 name:fingerprint_confirmed_samsungaccount value:0
+      _id:584 name:pms_notification_panel_brightness_adjustment value:1
+      _id:283 name:smart_scroll_type value:0
+      _id:285 name:smart_scroll_unit value:0
+      _id:339 name:easy_mode_internet value:0
+      _id:194 name:rapid_key_input_menu_checked value:0
+      _id:115 name:tag_current_location_voicerecorder value:0
+      _id:379 name:toddler_mode_data_state value:0
+      _id:199 name:finger_air_view_show_up_indicator value:0
+      _id:144 name:motion_panning_sensitivity value:5
+      _id:87 name:spliteview_mode_music value:1
+      _id:365 name:my_profile_font_package value:com.monotype.android.font.kaiti
+      _id:83 name:spliteview_mode_phone value:1
+      _id:572 name:mtp_usb_conditions_met value:0
+      _id:291 name:smart_scroll_adv_readers_hub value:1
+      _id:141 name:motion_peek_view_albums_list value:0
+      _id:431 name:sound_effects_enabled value:0
+      _id:592 name:mtp_event_status value:0
+      _id:205 name:mouse_hovering value:0
+      _id:470 name:festival_effect_festival_home value:1
+      _id:134 name:motion_tilt_to_list_scrolling value:0
+      _id:340 name:easy_mode_magnifier value:0
+      _id:207 name:mouse_hovering_list_scroll value:0
+      _id:423 name:send_security_reports value:1
+      _id:247 name:notification_panel_default_active_app_list value:Wifi;Location;MobileData;SilentMode;AutoRotate;Bluetooth;NetworkBooster;Toolbox;PersonalMode;DormantMode;UltraPowerSaving;MultiWindow;AllShareCast;WiFiHotspot;Nfc;SmartStay;SmartPause;PowerSaving;Sync;AirplaneMode;
+      _id:309 name:country_code value:011
+      _id:472 name:festival_effect_unlock_effect value:1
+      _id:361 name:my_profile_text_alignment value:1
+      _id:214 name:contextual_page value:1
+      _id:441 name:one_time_operate value:1
+      _id:190 name:arc_motion_always value:0
+      _id:308 name:open_multi_window_view value:0
+      _id:362 name:my_profile_is_text_button_selected value:1
+      _id:185 name:arc_motion_browse value:0
+      _id:85 name:spliteview_mode_calendar value:1
+      _id:273 name:automatic_sending_interval value:0
+      _id:54 name:cradle_enable value:0
+      _id:275 name:safetycare_geolookout_registering value:0
+      _id:296 name:smart_bonding value:0
+      _id:519 name:org.agoo.android.sudo.umeng value:BnK+ewOL4XrPWzsDRrese2ruUgt9V068PwJzcVkBtcg=
+      _id:475 name:festival_effect_text_arts_effect value:1
+      _id:412 name:preload_list value:
+      _id:321 name:pen_attach_detach_vibration value:0
+      _id:230 name:recommended_apps_automatically value:1
+      _id:209 name:mouse_hovering_magnifier value:0
+      _id:598 name:onehand_direction value:1
+      _id:13 name:knox_finger_print_plus value:0
+      _id:8 name:volume_music_headphone value:9
+      _id:2477 name:mtp_drive_display value:1
+      _id:249 name:lockscreen_ripple_effect value:3
+      _id:241 name:power_sharing_cable value:80
+      _id:106 name:sim5_value value:0
+      _id:327 name:pen_detachment_alert value:0
+      _id:564 name:scon_is_running value:0
+      _id:445 name:FOTA_CLIENT_PUSH value:4
+      _id:434 name:FOTA_CLIENT_TEST value:0
+      _id:2644 name:screen_brightness value:203
+      _id:444 name:FOTA_CLIENT_DIAGMON_REGISTERED value:1
+      _id:252 name:dmb_antenna_auto_start value:0
+      _id:2503 name:tw_tool_box_floating_x_ratio value:0.65185183
+      _id:373 name:db_lockscreen_is_smart_lock value:0
+      _id:57 name:cradle_launch value:1
+      _id:195 name:finger_air_view value:0
+      _id:271 name:send_emergency_message value:0
+      _id:303 name:reading_mode_app_list value:com.google.android.apps.books/com.google.android.apps.books.app.BooksActivity;
+      _id:415 name:access_control_enabled value:0
+      _id:191 name:arc_motion_music_playback value:0
+      _id:620 name:wb_amr_mode value:0
+      _id:457 name:dormant_disable_alarm_and_timer value:1
+      _id:150 name:surface_tap_and_twist value:0
+      _id:539 name:cn.goapk.marketfi value:1465803086137
+      _id:1080 name:cn.goapk.marketrt value:1498466589744
+      _id:904 name:cn.goapk.marketvc value:6410
+      _id:455 name:dormant_disable_incoming_calls value:1
+      _id:42 name:button_key_light value:1500
+      _id:561 name:bt_svcst_com.android.bluetooth.sapclient.SapClientService value:0
+      _id:272 name:the_string_of_emergency_message value:
+      _id:636 name:updateSharedDevice value:0
+      _id:482 name:mqBRboGZkQPcAkyk value:Vupx8S3uZ8UDAKu7DG78/kl+
+      _id:84 name:spliteview_mode_message value:1
+      _id:543 name:FestivalList value:
+      _id:257 name:led_indicator_incoming_notification value:0
+      _id:274 name:safetycare_earthquake value:0
+      _id:2492 name:mtp_sync_alive value:0
+      _id:312 name:pen_settings value:1
+      _id:448 name:autoreject_maxcount value:100
+      _id:155 name:air_motion_call_accept value:0
+      _id:571 name:media_player_mode value:0
+      _id:2500 name:airmessage_on value:0
+      _id:615 name:samsung_errorlog_agree value:1
+      _id:544 name:tbs_downloading_com.tencent.mobileqq value:43015|0
+      _id:624 name:volume_voice_speaker value:5
+      _id:216 name:contextual_page_earphone value:1
+      _id:467 name:weather_cover value:1
+      _id:405 name:SOFTWARE_UPDATE_AUTO_UPDATE value:1
+      _id:184 name:master_arc_motion value:0
+      _id:392 name:call_end_tone value:1
+      _id:202 name:finger_air_view_pregress_bar_preview value:1
+      _id:211 name:mouse_hovering_full_text value:0
+      _id:217 name:contextual_page_car_cradle value:0
+      _id:619 name:hearing_musiccheck value:0
+      _id:284 name:smart_scroll_sensitivity value:15
+      _id:1699 name:personal_mode_enabled value:0
+      _id:89 name:spliteview_mode_socialhub value:1
+      _id:413 name:boottime value:1
+      _id:395 name:alertoncall_mode value:1
+      _id:37 name:psm_cpu_clock value:1
+      _id:334 name:easy_mode_clock value:0
+      _id:336 name:easy_mode_email value:0
+      _id:433 name:haptic_feedback_enabled value:0
+      _id:70 name:driving_mode_voice_mail_notification value:0
+      _id:343 name:easy_mode_music value:0
+      _id:344 name:easy_mode_phone value:0
+      _id:117 name:power_key_hold value:0
+      _id:346 name:easy_mode_video value:0
+      _id:189 name:arc_motion_search value:0
+      _id:310 name:wake_up_lock_screen value:0
+      _id:500 name:current_sec_theme_package value:{null}
+      _id:234 name:recommended_apps_list_dockings value:com.android.email/com.android.email.activity.Welcome;com.sec.android.gallery3d/com.sec.android.gallery3d.app.GalleryActivity;com.samsung.everglades.video/com.samsung.everglades.video.VideoMain;com.sec.android.app.music/com.samsung.musicplus.MusicMainActivity;
+      _id:119 name:psm_battery_level value:30
+      _id:332 name:easy_mode_call value:0
+      _id:338 name:easy_mode_home value:1
+
+
+PROVIDER ContentProviderRecord{d5a757b u0 android/com.android.internal.os.SmartManagerProvider} pid=847
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{771af98 u0 android/com.android.server.enterprise.content.SecContentProvider} pid=847
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{67843f1 u0 com.android.providers.telephony/.SmsProvider} pid=1301
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{490ee57 u0 com.android.providers.telephony/.MmsProvider} pid=1301
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{175e2fd u0 com.sec.android.app.music/com.samsung.android.app.music.provider.SettingProvider} pid=30404
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{79870c0 u0 flipboard.cn/cn.jpush.android.service.DataProvider} pid=21285
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{18fa8ba u0 com.samsung.android.providers.context/.log.ManageAppLogProvider} pid=2075
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{cfc2ec8 u0 com.samsung.android.providers.context/.log.ReportAppStatusSurveyProvider} pid=2075
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{eb5d53e u0 com.sec.android.gallery3d/.gadget.MagazineWidgetRotationProvider} pid=24938
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{bf3d8ec u0 com.samsung.android.coreapps/.contact.db.CAgentProvider} pid=27585
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{8b6074a u0 com.bst.airmessage/.db.AirMessageDBProvider} pid=26101
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{636c599 u0 com.samsung.android.providers.context/.status.PlaceStatusProvider} pid=2075
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{fd54e16 u0 com.sec.android.GeoLookout/.db.DisasterProvider} pid=2591
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{93e5984 u0 com.android.settings/com.samsung.android.scloud.oem.lib.bnr.BNRClientProivder} pid=31740
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{b7cd9f8 u0 com.android.providers.downloads/.DownloadProvider} pid=2354
+    Client:
+      Downloads updated in last hour:
+
+PROVIDER ContentProviderRecord{dd035a2 u0 com.tencent.mobileqq/cooperation.readinjoy.content.ReadInJoyDataProvider} pid=24241
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{5a19da4 u0 com.android.providers.contacts/.CallLogProvider} pid=1592
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{30989f0 u0 com.sec.android.app.music/com.samsung.android.app.music.provider.SharedProvider} pid=30404
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{9a009ee u0 com.tencent.mobileqq/com.tencent.common.config.provider.QZoneConfigProvider} pid=24241
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{115551c u0 flipboard.cn/flipboard.remoteservice.FLFeedItemContentProvider} pid=21285
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{e86d6fa u0 flipboard.cn/flipboard.remoteservice.UserContentProvider} pid=21285
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{62a0c1a u0 com.android.providers.contacts/.sfinder.FindoSuggestionsProvider} pid=1592
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{4b0a708 u0 flipboard.cn/android.support.v4.content.FileProvider} pid=21285
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{7db68c6 u0 com.tencent.android.qqdownloader/com.qq.provider.EbooksProvider} pid=23651
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{32d2bb4 u0 com.android.calendar/.globalSearch.CalendarSuggestionsProvider} pid=31326
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{d954b52 u0 com.sec.android.app.samsungapps/android.support.v4.content.FileProvider} pid=27734
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{34b4f20 u0 com.sec.spp.push/.provider.RegInfoProvider} pid=17567
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{6a47d40 u0 com.samsung.android.providers.context/.log.UseAppSurveyLogProvider} pid=2075
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{32bf5be u0 com.samsung.android.providers.context/.log.ExchangeCallLogProvider} pid=2075
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{1adafca u0 com.sec.android.inputmethod/com.samsung.android.scloud.oem.lib.sync.SyncClientProivder} pid=4420
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{1acb458 u0 com.android.phone/.PhoneSearchIndexablesProvider} pid=1301
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{d98ca9e u0 com.tencent.android.qqdownloader/com.tencent.assistant.db.contentprovider.ExternalProvider} pid=23381
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{a64be04 u0 com.android.providers.telephony/.NwkInfoProvider} pid=1301
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{5663d4c u0 com.android.mms/.SuggestionsProvider} pid=2507
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{dc2f2aa u0 com.android.settings/.settingssearch.SettingsSearchConnectProvider} pid=31740
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{25fe238 u0 com.sec.android.daemonapp/.ap.yahoostock.stockclock.db.PublicContentProviderForEdaily} pid=21164
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{d71b670 u0 com.sec.android.inputmethod/.implement.setting.provider.KeyboardSettingsProvider} pid=4420
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{53c432b u0 com.sec.android.widgetapp.dualcitywidget/.provider.cmaweather.CmaContentProvider} pid=3153
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{2b58f76 u0 com.samsung.android.sm.provider/com.samsung.android.sm.database.SmProvider} pid=31446
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{35b3e4d u0 com.samsung.android.coreapps/.rshare.db.RSettingProvider} pid=27585
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{1318121 u0 com.sec.smartcard.manager/com.sec.smartcard.pinservice.SmartCardContentProvider} pid=1730
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{e7cf613 u0 com.android.contacts/android.support.v4.content.FileProvider} pid=24282
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{ea92b1e u0 com.sec.android.inputmethod/.scloudsync.SipSyncProvider} pid=4420
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{2ad1cc u0 com.sec.android.app.launcher/com.android.launcher2.LauncherProviderID} pid=1700
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{15b174e u0 com.android.calendar/.preference.PreferenceProvider} pid=31326
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{999917c u0 com.tencent.android.qqdownloader/com.tencent.assistant.db.contentprovider.AssistantProvider} pid=23381
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{dd55a5a u0 com.sec.android.daemonapp/.ap.kweather.common.KWeatherContentProvider} pid=21164
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{4ffa4c9 u0 com.sec.android.inputmethod/com.samsung.android.scloud.oem.lib.bnr.BNRClientProivder} pid=4420
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{30996ef u0 com.samsung.android.providers.context/.server.ServerDBProvider} pid=2075
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{9ac4968 u0 com.sec.android.gallery3d/.provider.GalleryProvider} pid=24938
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{37ec226 u0 com.android.settings/.favorite.MySettingsProvider} pid=31740
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{bb09414 u0 com.android.settings/.search.SettingsSearchIndexablesProvider} pid=31740
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{504dab2 u0 com.sec.spp.push/.provider.PushClientProvider} pid=17567
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{70cdd80 u0 com.wsomacp/.db.XCPDBSqlProvider} pid=2581
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{d46c35f u0 com.tencent.android.qqdownloader/com.tencent.assistant.db.contentprovider.PluginProvider} pid=23381
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{46c7883 u0 com.android.phone/.SettingSearchProvider} pid=1301
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{dbe5239 u0 com.android.providers.userdictionary/.UserDictionaryProvider} pid=1592
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{7875e75 u0 com.android.settings/.myplace.MyPlaceProvider} pid=31740
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{93e367b u0 com.tencent.android.qqdownloader/com.qq.provider.CacheProvider} pid=23651
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{afc6cf1 u0 com.android.settings/.personalvibration.PersonalVibrationProvider} pid=31740
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{16fbf57 u0 com.tencent.mobileqq/.openapi.OpenApiProvider} pid=24241
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{6d9e72d u0 com.sec.android.app.samsungapps/.SaProvider} pid=27734
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{3e031ad u0 com.samsung.android.providers.context/.profile.ProfileProvider} pid=2075
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{cc6f9f3 u0 com.sec.android.gallery3d/.remote.sns.SNSContentProvider} pid=24938
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{59ac929 u0 com.sec.android.gallery3d/.remote.picasa.PicasaContentProvider} pid=24938
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{7fe92eb u0 com.android.phone/.IccProvider} pid=1301
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{e5db6e1 u0 com.samsung.android.providers.context/.log.PlayMusicLogProvider} pid=2075
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{b4d424f u0 com.samsung.android.coreapps/.easysignup.db.EasySignUpProvider} pid=27585
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{f9de01d u0 com.android.providers.media/.MediaProvider} pid=2354
+    Client:
+      internal.db: version 811, 196 rows, 0 inserts, 0 updates, 0 deletes, 56 queries, scan started 12æ20æ¥ 16:51 (00:00)
+      2014-01-01 00:01:00.147 : Database upgraded from version 63 to 709 in 0 seconds
+      2014-01-01 00:01:05.245 : Volume:internal/Current DB items:0/Checked files:151/Directories:7 (I:158/U:0/D:0)
+      2014-01-01 00:01:05.247 : MP4_1_75_75 OGG_129_3334_25 
+      2012-12-31 23:35:21.892 : Volume:internal/Current DB items:160/Checked files:151/Directories:7 (I:0/U:0/D:0)
+      2016-02-29 10:38:23.446 : Volume:internal/Current DB items:160/Checked files:151/Directories:7 (I:0/U:0/D:0)
+      2016-03-04 17:36:58.917 : Volume:internal/Current DB items:160/Checked files:151/Directories:7 (I:0/U:0/D:0)
+      2016-03-11 01:57:59.151 : Database upgraded from version 709 to 713 in 0 seconds
+      2016-03-11 01:58:49.316 : Volume:internal/Current DB items:160/Checked files:155/Directories:8 (I:18/U:126/D:13)
+      2016-03-11 01:58:49.317 : OGG_128_3636_28 
+      2016-03-11 02:27:16.737 : Volume:internal/Current DB items:165/Checked files:155/Directories:8 (I:0/U:0/D:0)
+      2016-04-18 06:27:58.696 : Volume:internal/Current DB items:165/Checked files:155/Directories:8 (I:0/U:0/D:0)
+      2016-05-12 02:08:35.703 : Volume:internal/Current DB items:165/Checked files:155/Directories:8 (I:0/U:0/D:0)
+      2016-05-16 02:09:57.746 : Volume:internal/Current DB items:165/Checked files:155/Directories:8 (I:0/U:0/D:0)
+      2016-06-08 07:54:08.253 : Volume:internal/Current DB items:165/Checked files:155/Directories:8 (I:0/U:0/D:0)
+      2016-06-29 02:06:46.632 : Volume:internal/Current DB items:165/Checked files:155/Directories:8 (I:0/U:0/D:0)
+      2016-06-29 08:23:24.223 : Volume:internal/Current DB items:165/Checked files:155/Directories:8 (I:0/U:0/D:0)
+      2016-07-19 12:00:55.953 : Volume:internal/Current DB items:165/Checked files:155/Directories:8 (I:0/U:0/D:0)
+      2016-08-02 06:34:34.056 : Volume:internal/Current DB items:165/Checked files:155/Directories:8 (I:0/U:0/D:0)
+      2016-08-04 06:22:56.162 : Volume:internal/Current DB items:165/Checked files:155/Directories:8 (I:0/U:0/D:0)
+      2016-08-29 05:24:29.543 : Volume:internal/Current DB items:165/Checked files:155/Directories:8 (I:0/U:0/D:0)
+      2016-09-01 00:44:36.304 : Volume:internal/Current DB items:165/Checked files:155/Directories:8 (I:0/U:0/D:0)
+      2016-09-04 01:27:25.529 : Volume:internal/Current DB items:165/Checked files:155/Directories:8 (I:0/U:0/D:0)
+      2016-09-06 09:33:35.257 : Volume:internal/Current DB items:165/Checked files:155/Directories:8 (I:0/U:0/D:0)
+      2016-09-11 07:58:16.472 : Volume:internal/Current DB items:165/Checked files:155/Directories:8 (I:0/U:0/D:0)
+      2016-09-13 07:41:52.863 : Volume:internal/Current DB items:165/Checked files:155/Directories:8 (I:0/U:0/D:0)
+      2016-09-14 00:51:15.771 : Volume:internal/Current DB items:165/Checked files:155/Directories:8 (I:0/U:0/D:0)
+      2016-09-14 07:23:06.469 : Volume:internal/Current DB items:165/Checked files:155/Directories:8 (I:0/U:0/D:0)
+      2016-09-19 11:55:38.716 : Volume:internal/Current DB items:165/Checked files:155/Directories:8 (I:0/U:0/D:0)
+      2016-09-20 01:53:27.103 : Volume:internal/Current DB items:165/Checked files:155/Directories:8 (I:0/U:0/D:0)
+      2016-09-22 02:09:00.582 : Volume:internal/Current DB items:165/Checked files:155/Directories:8 (I:0/U:0/D:0)
+      2016-09-23 02:25:44.737 : Volume:internal/Current DB items:165/Checked files:155/Directories:8 (I:0/U:0/D:0)
+      2016-09-25 03:07:22.078 : Volume:internal/Current DB items:165/Checked files:155/Directories:8 (I:0/U:0/D:0)
+      2016-09-26 09:16:22.593 : Volume:internal/Current DB items:165/Checked files:155/Directories:8 (I:0/U:0/D:0)
+      2016-09-30 01:40:24.284 : Volume:internal/Current DB items:165/Checked files:155/Directories:8 (I:0/U:0/D:0)
+      2016-10-24 11:33:29.655 : Volume:internal/Current DB items:165/Checked files:155/Directories:8 (I:0/U:0/D:0)
+      2016-10-26 08:18:43.028 : Volume:internal/Current DB items:165/Checked files:155/Directories:8 (I:0/U:0/D:0)
+      2016-10-30 08:01:48.104 : Volume:internal/Current DB items:165/Checked files:155/Directories:8 (I:0/U:0/D:0)
+      2016-11-01 02:06:19.940 : Volume:internal/Current DB items:165/Checked files:155/Directories:8 (I:0/U:0/D:0)
+      2016-11-02 02:08:52.566 : Volume:internal/Current DB items:165/Checked files:155/Directories:8 (I:0/U:0/D:0)
+      2016-11-24 10:17:17.215 : Volume:internal/Current DB items:165/Checked files:155/Directories:8 (I:0/U:0/D:0)
+      2016-11-25 02:15:17.462 : Volume:internal/Current DB items:165/Checked files:155/Directories:8 (I:0/U:0/D:0)
+      2016-11-27 06:07:51.968 : Volume:internal/Current DB items:165/Checked files:155/Directories:8 (I:0/U:0/D:0)
+      2016-11-28 04:49:43.902 : Volume:internal/Current DB items:165/Checked files:155/Directories:8 (I:0/U:0/D:0)
+      2016-12-08 02:54:25.008 : Volume:internal/Current DB items:165/Checked files:155/Directories:8 (I:0/U:0/D:0)
+      2016-12-16 02:36:00.118 : Volume:internal/Current DB items:165/Checked files:155/Directories:8 (I:0/U:0/D:0)
+      2016-12-26 01:27:47.294 : Volume:internal/Current DB items:165/Checked files:155/Directories:8 (I:0/U:0/D:0)
+      2016-12-26 02:47:51.251 : Volume:internal/Current DB items:165/Checked files:155/Directories:8 (I:0/U:0/D:0)
+      2017-01-03 01:20:08.790 : Volume:internal/Current DB items:165/Checked files:155/Directories:8 (I:0/U:0/D:0)
+      2017-01-06 01:15:08.462 : Volume:internal/Current DB items:165/Checked files:155/Directories:8 (I:0/U:0/D:0)
+      2017-01-09 02:23:46.836 : Volume:internal/Current DB items:165/Checked files:155/Directories:8 (I:0/U:0/D:0)
+      2017-01-11 07:27:21.783 : Volume:internal/Current DB items:165/Checked files:155/Directories:8 (I:0/U:0/D:0)
+      2017-01-17 11:53:01.093 : Volume:internal/Current DB items:165/Checked files:155/Directories:8 (I:0/U:0/D:0)
+      2017-01-17 12:44:51.818 : Volume:internal/Current DB items:165/Checked files:155/Directories:8 (I:0/U:0/D:0)
+      2017-01-18 09:19:00.924 : Volume:internal/Current DB items:165/Checked files:155/Directories:8 (I:0/U:0/D:0)
+      2017-01-19 03:42:13.666 : Volume:internal/Current DB items:165/Checked files:155/Directories:8 (I:0/U:0/D:0)
+      2017-01-20 07:26:59.090 : Volume:internal/Current DB items:165/Checked files:155/Directories:8 (I:0/U:0/D:0)
+      2017-01-22 12:51:03.691 : Volume:internal/Current DB items:165/Checked files:155/Directories:8 (I:0/U:0/D:0)
+      2017-01-23 06:08:34.608 : Volume:internal/Current DB items:165/Checked files:155/Directories:8 (I:0/U:0/D:0)
+      2017-02-15 07:53:16.742 : Volume:internal/Current DB items:165/Checked files:155/Directories:8 (I:0/U:0/D:0)
+      2017-02-15 07:58:45.789 : Volume:internal/Current DB items:165/Checked files:155/Directories:8 (I:0/U:0/D:0)
+      2017-02-15 09:06:54.918 : Database upgraded from version 713 to 811 in 0 seconds
+      2017-02-15 09:07:43.066 : Volume:internal/Current DB items:165/Checked files:186/Directories:8 (I:37/U:157/D:6)
+      2017-02-15 09:07:43.075 : OGG_144_4178_29 
+      2017-02-24 08:31:50.640 : Volume:internal/Current DB items:196/Checked files:186/Directories:8 (I:0/U:0/D:0)
+      2017-02-26 12:57:36.516 : Volume:internal/Current DB items:196/Checked files:186/Directories:8 (I:0/U:0/D:0)
+      2017-02-26 14:00:37.322 : Volume:internal/Current DB items:196/Checked files:186/Directories:8 (I:0/U:0/D:0)
+      2017-03-03 03:09:50.306 : Volume:internal/Current DB items:196/Checked files:186/Directories:8 (I:0/U:0/D:0)
+      2017-03-06 02:54:27.166 : Volume:internal/Current DB items:196/Checked files:186/Directories:8 (I:0/U:0/D:0)
+      2017-03-09 01:22:37.280 : Volume:internal/Current DB items:196/Checked files:186/Directories:8 (I:0/U:0/D:0)
+      2016-02-29 02:25:47.744 : Volume:internal/Current DB items:196/Checked files:186/Directories:8 (I:0/U:0/D:0)
+      2016-02-29 02:40:16.219 : Volume:internal/Current DB items:196/Checked files:186/Directories:8 (I:0/U:0/D:0)
+      2017-05-02 07:02:24.153 : Volume:internal/Current DB items:196/Checked files:186/Directories:8 (I:0/U:0/D:0)
+      2017-05-07 07:58:06.446 : Volume:internal/Current DB items:196/Checked files:186/Directories:8 (I:0/U:0/D:0)
+      2017-05-08 01:30:09.229 : Volume:internal/Current DB items:196/Checked files:186/Directories:8 (I:0/U:0/D:0)
+      2017-05-15 03:07:48.500 : Volume:internal/Current DB items:196/Checked files:186/Directories:8 (I:0/U:0/D:0)
+      2017-05-15 08:24:32.325 : Volume:internal/Current DB items:196/Checked files:186/Directories:8 (I:0/U:0/D:0)
+      2017-05-18 10:55:41.803 : Volume:internal/Current DB items:196/Checked files:186/Directories:8 (I:0/U:0/D:0)
+      2017-05-25 06:33:53.208 : Volume:internal/Current DB items:196/Checked files:186/Directories:8 (I:0/U:0/D:0)
+      2017-06-11 09:25:57.395 : Volume:internal/Current DB items:196/Checked files:186/Directories:8 (I:0/U:0/D:0)
+      2017-06-15 01:51:46.977 : Volume:internal/Current DB items:196/Checked files:186/Directories:8 (I:0/U:0/D:0)
+      2017-06-19 03:41:26.729 : Volume:internal/Current DB items:196/Checked files:186/Directories:8 (I:0/U:0/D:0)
+      2017-06-26 08:40:27.240 : Volume:internal/Current DB items:196/Checked files:186/Directories:8 (I:0/U:0/D:0)
+      2017-06-29 09:54:01.214 : Volume:internal/Current DB items:196/Checked files:186/Directories:8 (I:0/U:0/D:0)
+      2017-07-03 02:47:22.763 : Volume:internal/Current DB items:196/Checked files:186/Directories:8 (I:0/U:0/D:0)
+      2017-07-16 07:56:17.622 : Volume:internal/Current DB items:196/Checked files:186/Directories:8 (I:0/U:0/D:0)
+      2017-07-16 08:09:16.680 : Volume:internal/Current DB items:196/Checked files:186/Directories:8 (I:0/U:0/D:0)
+      2017-07-26 06:41:06.812 : Volume:internal/Current DB items:196/Checked files:186/Directories:8 (I:0/U:0/D:0)
+      2017-07-28 11:38:47.782 : Volume:internal/Current DB items:196/Checked files:186/Directories:8 (I:0/U:0/D:0)
+      2017-07-30 02:48:03.972 : Volume:internal/Current DB items:196/Checked files:186/Directories:8 (I:0/U:0/D:0)
+      2017-08-10 07:37:41.403 : Volume:internal/Current DB items:196/Checked files:186/Directories:8 (I:0/U:0/D:0)
+      2017-08-18 08:00:14.728 : Volume:internal/Current DB items:196/Checked files:186/Directories:8 (I:0/U:0/D:0)
+      2017-08-29 03:17:23.043 : Volume:internal/Current DB items:196/Checked files:186/Directories:8 (I:0/U:0/D:0)
+      2017-08-30 02:19:45.041 : Volume:internal/Current DB items:196/Checked files:186/Directories:8 (I:0/U:0/D:0)
+      2017-08-31 06:41:51.079 : Volume:internal/Current DB items:196/Checked files:186/Directories:8 (I:0/U:0/D:0)
+      2017-09-19 02:44:37.529 : Volume:internal/Current DB items:196/Checked files:186/Directories:8 (I:0/U:0/D:0)
+      2017-09-21 07:17:01.128 : Volume:internal/Current DB items:196/Checked files:186/Directories:8 (I:0/U:0/D:0)
+      2017-09-21 08:19:43.655 : Volume:internal/Current DB items:196/Checked files:186/Directories:8 (I:0/U:0/D:0)
+      2017-10-10 01:40:37.501 : Volume:internal/Current DB items:196/Checked files:186/Directories:8 (I:0/U:0/D:0)
+      2017-10-12 01:53:45.406 : Volume:internal/Current DB items:196/Checked files:186/Directories:8 (I:0/U:0/D:0)
+      2017-10-15 01:38:36.860 : Volume:internal/Current DB items:196/Checked files:186/Directories:8 (I:0/U:0/D:0)
+      2017-10-16 06:49:59.372 : Volume:internal/Current DB items:196/Checked files:186/Directories:8 (I:0/U:0/D:0)
+      2017-10-19 03:24:20.979 : Volume:internal/Current DB items:196/Checked files:186/Directories:8 (I:0/U:0/D:0)
+      2017-10-20 07:32:29.697 : Volume:internal/Current DB items:196/Checked files:186/Directories:8 (I:0/U:0/D:0)
+      2017-11-01 08:01:40.468 : Volume:internal/Current DB items:196/Checked files:186/Directories:8 (I:0/U:0/D:0)
+      2017-11-02 03:59:48.936 : Volume:internal/Current DB items:196/Checked files:186/Directories:8 (I:0/U:0/D:0)
+      2017-11-02 06:03:49.983 : Volume:internal/Current DB items:196/Checked files:186/Directories:8 (I:0/U:0/D:0)
+      2017-11-06 04:40:16.919 : Volume:internal/Current DB items:196/Checked files:186/Directories:8 (I:0/U:0/D:0)
+      2017-11-06 04:57:46.157 : Volume:internal/Current DB items:196/Checked files:186/Directories:8 (I:0/U:0/D:0)
+      2017-11-06 09:08:07.273 : Volume:internal/Current DB items:196/Checked files:186/Directories:8 (I:0/U:0/D:0)
+      2017-11-10 02:42:36.147 : Volume:internal/Current DB items:196/Checked files:186/Directories:8 (I:0/U:0/D:0)
+      2017-11-22 10:36:20.140 : Volume:internal/Current DB items:196/Checked files:186/Directories:8 (I:0/U:0/D:0)
+      2017-11-26 02:54:56.751 : Volume:internal/Current DB items:196/Checked files:186/Directories:8 (I:0/U:0/D:0)
+      2017-12-04 02:47:44.082 : Volume:internal/Current DB items:196/Checked files:186/Directories:8 (I:0/U:0/D:0)
+      2017-12-06 03:30:50.683 : Volume:internal/Current DB items:196/Checked files:186/Directories:8 (I:0/U:0/D:0)
+      2017-12-06 10:09:31.342 : Volume:internal/Current DB items:196/Checked files:186/Directories:8 (I:0/U:0/D:0)
+      2017-12-08 11:00:11.945 : Volume:internal/Current DB items:196/Checked files:186/Directories:8 (I:0/U:0/D:0)
+      2017-12-20 01:43:15.994 : Volume:internal/Current DB items:196/Checked files:186/Directories:8 (I:0/U:0/D:0)
+      2017-12-20 08:51:30.449 : Volume:internal/Current DB items:196/Checked files:186/Directories:8 (I:0/U:0/D:0)
+      external.db: version 811, 9990 rows, 1060 inserts, 5912 updates, 160 deletes, 358877 queries, scan started 12æ24æ¥ 15:57 (00:06)
+      2017-06-15 01:51:46.106 : Volume:external/Current DB items:6750/Checked files:5136/Directories:1573 (I:20/U:224/D:40)
+      2017-06-15 01:51:57.067 : Volume:external/Current DB items:6730/Checked files:5137/Directories:1573 (I:1/U:2/D:0)
+      2017-06-19 03:41:02.048 : android.intent.action.MEDIA_MOUNTED
+      2017-06-19 03:41:11.815 : android.intent.action.BOOT_COMPLETED
+      2017-06-19 03:41:26.506 : Volume:external/Current DB items:6731/Checked files:5236/Directories:1581 (I:212/U:308/D:105)
+      2017-06-19 03:41:35.197 : Volume:external/Current DB items:6838/Checked files:5239/Directories:1581 (I:3/U:9/D:0)
+      2017-06-26 08:39:59.500 : android.intent.action.MEDIA_MOUNTED
+      2017-06-26 08:40:08.381 : android.intent.action.BOOT_COMPLETED
+      2017-06-26 08:40:27.039 : Volume:external/Current DB items:6841/Checked files:5526/Directories:1587 (I:413/U:216/D:118)
+      2017-06-26 08:40:35.992 : Volume:external/Current DB items:7136/Checked files:5528/Directories:1587 (I:2/U:6/D:2)
+      2017-06-29 09:53:40.301 : android.intent.action.MEDIA_MOUNTED
+      2017-06-29 09:53:47.853 : android.intent.action.BOOT_COMPLETED
+      2017-06-29 09:54:00.512 : Volume:external/Current DB items:7136/Checked files:5570/Directories:1587 (I:74/U:283/D:32)
+      2017-06-29 09:54:11.922 : Volume:external/Current DB items:7178/Checked files:5572/Directories:1587 (I:2/U:3/D:0)
+      2017-07-03 02:46:43.507 : android.intent.action.MEDIA_MOUNTED
+      2017-07-03 02:46:52.777 : android.intent.action.BOOT_COMPLETED
+      2017-07-03 02:47:22.511 : Volume:external/Current DB items:7180/Checked files:5599/Directories:1787 (I:1035/U:771/D:806)
+      2017-07-03 02:47:32.230 : Volume:external/Current DB items:7409/Checked files:5618/Directories:1787 (I:19/U:10/D:2)
+      2017-07-16 07:55:26.715 : android.intent.action.MEDIA_MOUNTED
+      2017-07-16 07:55:36.264 : android.intent.action.BOOT_COMPLETED
+      2017-07-16 07:56:17.322 : Volume:external/Current DB items:7426/Checked files:5342/Directories:1787 (I:119/U:587/D:393)
+      2017-07-16 07:56:31.292 : Volume:external/Current DB items:7152/Checked files:5363/Directories:1787 (I:22/U:215/D:3)
+      2017-07-16 08:08:49.669 : android.intent.action.MEDIA_MOUNTED
+      2017-07-16 08:08:57.394 : android.intent.action.BOOT_COMPLETED
+      2017-07-16 08:09:16.156 : Volume:external/Current DB items:7171/Checked files:5397/Directories:1795 (I:80/U:779/D:38)
+      2017-07-16 08:09:27.027 : Volume:external/Current DB items:7213/Checked files:5397/Directories:1795 (I:0/U:8/D:0)
+      2017-07-16 08:10:51.611 : android.intent.action.MEDIA_SCANNER_SCAN_FILE
+      2017-07-26 06:40:35.372 : android.intent.action.MEDIA_MOUNTED
+      2017-07-26 06:40:45.530 : android.intent.action.BOOT_COMPLETED
+      2017-07-26 06:41:06.261 : Volume:external/Current DB items:7215/Checked files:5364/Directories:1796 (I:7/U:534/D:41)
+      2017-07-26 06:41:06.264 : PNG_1_6_6 
+      2017-07-26 06:41:18.376 : Volume:external/Current DB items:7181/Checked files:5373/Directories:1796 (I:9/U:20/D:0)
+      2017-07-28 11:38:17.789 : android.intent.action.MEDIA_MOUNTED
+      2017-07-28 11:38:26.109 : android.intent.action.BOOT_COMPLETED
+      2017-07-28 11:38:47.541 : Volume:external/Current DB items:7190/Checked files:5645/Directories:2126 (I:645/U:799/D:43)
+      2017-07-28 11:38:59.287 : Volume:external/Current DB items:7792/Checked files:5647/Directories:2126 (I:2/U:4/D:0)
+      2017-07-30 02:47:39.072 : android.intent.action.MEDIA_MOUNTED
+      2017-07-30 02:47:48.625 : android.intent.action.BOOT_COMPLETED
+      2017-07-30 02:48:03.768 : Volume:external/Current DB items:7794/Checked files:5669/Directories:2128 (I:44/U:743/D:20)
+      2017-07-30 02:48:13.865 : Volume:external/Current DB items:7818/Checked files:5685/Directories:2128 (I:16/U:8/D:0)
+      2017-07-30 02:48:33.429 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-07-30 02:48:44.942 : Volume:external/Current DB items:7833/Checked files:5685/Directories:2131 (I:8/U:38/D:4)
+      2017-07-30 06:00:28.708 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-07-30 06:00:28.874 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-07-30 06:00:41.530 : Volume:external/Current DB items:7837/Checked files:5697/Directories:2131 (I:26/U:576/D:14)
+      2017-07-30 06:00:46.855 : Volume:external/Current DB items:7849/Checked files:5699/Directories:2131 (I:2/U:5/D:0)
+      2017-07-30 10:25:53.554 : android.intent.action.MEDIA_SCANNER_SCAN_FILE
+      2017-07-30 10:26:02.896 : android.intent.action.MEDIA_SCANNER_SCAN_FILE
+      2017-07-30 10:40:37.073 : android.intent.action.MEDIA_SCANNER_SCAN_FILE
+      2017-07-30 10:44:39.081 : android.intent.action.MEDIA_SCANNER_SCAN_FILE
+      2017-07-30 10:45:33.577 : android.intent.action.MEDIA_SCANNER_SCAN_FILE
+      2017-07-30 10:48:19.394 : android.intent.action.MEDIA_SCANNER_SCAN_FILE
+      2017-07-30 10:48:24.070 : android.intent.action.MEDIA_SCANNER_SCAN_FILE
+      2017-07-30 10:48:46.963 : android.intent.action.MEDIA_SCANNER_SCAN_FILE
+      2017-07-30 10:53:01.802 : android.intent.action.MEDIA_SCANNER_SCAN_FILE
+      2017-07-30 10:53:42.784 : android.intent.action.MEDIA_SCANNER_SCAN_FILE
+      2017-08-10 07:37:18.160 : android.intent.action.MEDIA_MOUNTED
+      2017-08-10 07:37:30.015 : android.intent.action.BOOT_COMPLETED
+      2017-08-10 07:37:40.967 : Volume:external/Current DB items:7865/Checked files:5638/Directories:2131 (I:58/U:67/D:130)
+      2017-08-10 07:37:40.990 : JPG_8_34_4 
+      2017-08-10 07:37:49.131 : Volume:external/Current DB items:7793/Checked files:5640/Directories:2131 (I:2/U:2/D:3)
+      2017-08-18 07:59:44.972 : android.intent.action.MEDIA_MOUNTED
+      2017-08-18 07:59:54.570 : android.intent.action.BOOT_COMPLETED
+      2017-08-18 08:00:14.435 : Volume:external/Current DB items:7792/Checked files:5642/Directories:2138 (I:83/U:674/D:74)
+      2017-08-18 08:00:25.733 : Volume:external/Current DB items:7801/Checked files:5646/Directories:2138 (I:4/U:6/D:0)
+      2017-08-29 03:16:36.326 : android.intent.action.MEDIA_MOUNTED
+      2017-08-29 03:16:53.727 : android.intent.action.BOOT_COMPLETED
+      2017-08-29 03:17:22.897 : Volume:external/Current DB items:7805/Checked files:5657/Directories:2139 (I:51/U:779/D:37)
+      2017-08-29 03:17:31.174 : Volume:external/Current DB items:7819/Checked files:5659/Directories:2139 (I:2/U:6/D:2)
+      2017-08-30 02:19:15.715 : android.intent.action.MEDIA_MOUNTED
+      2017-08-30 02:19:23.465 : android.intent.action.BOOT_COMPLETED
+      2017-08-30 02:19:44.910 : Volume:external/Current DB items:7819/Checked files:5773/Directories:2223 (I:235/U:1074/D:37)
+      2017-08-30 02:19:52.287 : Volume:external/Current DB items:8017/Checked files:5774/Directories:2224 (I:2/U:3/D:0)
+      2017-08-31 06:41:25.729 : android.intent.action.MEDIA_MOUNTED
+      2017-08-31 06:41:35.985 : android.intent.action.BOOT_COMPLETED
+      2017-08-31 06:41:50.808 : Volume:external/Current DB items:8019/Checked files:5780/Directories:2226 (I:8/U:14/D:0)
+      2017-08-31 06:42:00.219 : Volume:external/Current DB items:8027/Checked files:5782/Directories:2226 (I:2/U:4/D:0)
+      2017-09-19 02:44:17.709 : android.intent.action.MEDIA_MOUNTED
+      2017-09-19 02:44:33.294 : android.intent.action.BOOT_COMPLETED
+      2017-09-19 02:44:36.625 : Volume:external/Current DB items:8029/Checked files:5772/Directories:2226 (I:1/U:7/D:11)
+      2017-09-19 02:44:54.102 : Volume:external/Current DB items:8019/Checked files:5773/Directories:2226 (I:1/U:1/D:0)
+      2017-09-20 02:00:57.179 : android.intent.action.MEDIA_SCANNER_SCAN_FILE
+      2017-09-20 02:08:01.390 : android.intent.action.MEDIA_SCANNER_SCAN_FILE
+      2017-09-20 02:08:06.820 : android.intent.action.MEDIA_SCANNER_SCAN_FILE
+      2017-09-20 02:08:26.329 : com.samsung.MEDIA_SCAN
+      2017-09-20 02:08:26.459 : com.samsung.MEDIA_SCAN
+      2017-09-20 02:08:26.968 : Start MediaScannerService due to .nomedia file was deleted
+      2017-09-20 02:08:27.288 : Start MediaScannerService due to .nomedia file was deleted
+      2017-09-20 02:08:30.875 : com.samsung.MEDIA_SCAN
+      2017-09-20 02:08:30.914 : com.samsung.MEDIA_SCAN
+      2017-09-20 02:08:40.601 : Volume:external/Current DB items:8022/Checked files:5772/Directories:2240 (I:185/U:848/D:174)
+      2017-09-20 02:08:45.833 : Volume:external/Current DB items:8032/Checked files:5771/Directories:2240 (I:0/U:1/D:0)
+      2017-09-20 03:16:41.049 : android.intent.action.MEDIA_SCANNER_SCAN_FILE
+      2017-09-20 03:23:40.173 : android.intent.action.MEDIA_SCANNER_SCAN_FILE
+      2017-09-20 03:23:56.811 : android.intent.action.MEDIA_SCANNER_SCAN_FILE
+      2017-09-20 03:27:16.049 : android.intent.action.MEDIA_SCANNER_SCAN_FILE
+      2017-09-20 03:27:52.144 : android.intent.action.MEDIA_SCANNER_SCAN_FILE
+      2017-09-20 03:30:31.193 : android.intent.action.MEDIA_SCANNER_SCAN_FILE
+      2017-09-20 03:30:39.501 : android.intent.action.MEDIA_SCANNER_SCAN_FILE
+      2017-09-20 03:37:16.040 : android.intent.action.MEDIA_SCANNER_SCAN_FILE
+      2017-09-20 03:37:29.746 : android.intent.action.MEDIA_SCANNER_SCAN_FILE
+      2017-09-20 03:37:47.476 : android.intent.action.MEDIA_SCANNER_SCAN_FILE
+      2017-09-20 06:13:36.421 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-09-20 06:13:47.581 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-09-20 06:13:47.589 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-09-20 06:13:50.907 : Volume:external/Current DB items:8042/Checked files:6110/Directories:2294 (I:428/U:613/D:45)
+      2017-09-20 06:13:57.027 : Volume:external/Current DB items:8425/Checked files:6110/Directories:2294 (I:0/U:1/D:0)
+      2017-09-20 06:14:02.182 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-09-20 06:14:09.587 : Volume:external/Current DB items:8425/Checked files:6110/Directories:2294 (I:0/U:3/D:0)
+      2017-09-20 06:22:23.246 : android.intent.action.MEDIA_SCANNER_SCAN_FILE
+      2017-09-20 07:50:30.416 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-09-20 07:50:30.573 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-09-20 07:50:38.253 : Volume:external/Current DB items:8426/Checked files:6151/Directories:2294 (I:42/U:44/D:2)
+      2017-09-20 07:50:44.417 : Volume:external/Current DB items:8466/Checked files:6151/Directories:2294 (I:0/U:2/D:0)
+      2017-09-20 08:40:45.420 : android.intent.action.MEDIA_SCANNER_SCAN_FILE
+      2017-09-21 07:16:39.993 : android.intent.action.MEDIA_MOUNTED
+      2017-09-21 07:16:49.567 : android.intent.action.BOOT_COMPLETED
+      2017-09-21 07:17:00.564 : Volume:external/Current DB items:8467/Checked files:6262/Directories:2296 (I:134/U:56/D:22)
+      2017-09-21 07:17:00.569 : PNG_3_36_12 
+      2017-09-21 07:17:09.192 : Volume:external/Current DB items:8579/Checked files:6266/Directories:2296 (I:4/U:4/D:0)
+      2017-09-21 08:19:19.201 : android.intent.action.MEDIA_MOUNTED
+      2017-09-21 08:19:26.851 : android.intent.action.BOOT_COMPLETED
+      2017-09-21 08:19:43.466 : Volume:external/Current DB items:8583/Checked files:6321/Directories:2296 (I:56/U:693/D:1)
+      2017-09-21 08:19:52.397 : Volume:external/Current DB items:8638/Checked files:6321/Directories:2296 (I:0/U:6/D:0)
+      2017-10-10 01:40:01.251 : android.intent.action.MEDIA_MOUNTED
+      2017-10-10 01:40:19.191 : android.intent.action.BOOT_COMPLETED
+      2017-10-10 01:40:37.357 : Volume:external/Current DB items:8638/Checked files:6325/Directories:2297 (I:32/U:642/D:24)
+      2017-10-10 01:40:50.022 : Volume:external/Current DB items:8646/Checked files:6328/Directories:2297 (I:3/U:6/D:3)
+      2017-10-12 01:53:16.847 : android.intent.action.MEDIA_MOUNTED
+      2017-10-12 01:53:29.854 : android.intent.action.BOOT_COMPLETED
+      2017-10-12 01:53:45.231 : Volume:external/Current DB items:8646/Checked files:6299/Directories:2377 (I:186/U:217/D:135)
+      2017-10-12 01:53:53.419 : Volume:external/Current DB items:8697/Checked files:6301/Directories:2377 (I:2/U:4/D:0)
+      2017-10-15 01:38:24.717 : android.intent.action.MEDIA_MOUNTED
+      2017-10-15 01:38:33.275 : android.intent.action.BOOT_COMPLETED
+      2017-10-15 01:38:36.268 : Volume:external/Current DB items:8699/Checked files:6302/Directories:2377 (I:1/U:19/D:0)
+      2017-10-15 01:38:49.010 : Volume:external/Current DB items:8700/Checked files:6303/Directories:2377 (I:1/U:1/D:0)
+      2017-10-16 06:49:32.499 : android.intent.action.MEDIA_MOUNTED
+      2017-10-16 06:49:40.785 : android.intent.action.BOOT_COMPLETED
+      2017-10-16 06:49:59.220 : Volume:external/Current DB items:8701/Checked files:6372/Directories:2392 (I:105/U:701/D:21)
+      2017-10-16 06:50:11.289 : Volume:external/Current DB items:8785/Checked files:6382/Directories:2392 (I:10/U:10/D:0)
+      2017-10-19 03:23:55.978 : android.intent.action.MEDIA_MOUNTED
+      2017-10-19 03:24:06.313 : android.intent.action.BOOT_COMPLETED
+      2017-10-19 03:24:20.499 : Volume:external/Current DB items:8795/Checked files:6387/Directories:2393 (I:8/U:549/D:1)
+      2017-10-19 03:24:29.116 : Volume:external/Current DB items:8802/Checked files:6392/Directories:2393 (I:5/U:6/D:1)
+      2017-10-20 07:31:56.757 : android.intent.action.MEDIA_MOUNTED
+      2017-10-20 07:32:06.367 : android.intent.action.BOOT_COMPLETED
+      2017-10-20 07:32:29.302 : Volume:external/Current DB items:8806/Checked files:6403/Directories:2393 (I:19/U:46/D:8)
+      2017-10-20 07:32:51.965 : Volume:external/Current DB items:8817/Checked files:6413/Directories:2393 (I:10/U:13/D:0)
+      2017-11-01 08:01:16.689 : android.intent.action.MEDIA_MOUNTED
+      2017-11-01 08:01:24.765 : android.intent.action.BOOT_COMPLETED
+      2017-11-01 08:01:40.257 : Volume:external/Current DB items:8827/Checked files:6345/Directories:2425 (I:70/U:645/D:106)
+      2017-11-01 08:01:48.248 : Volume:external/Current DB items:8791/Checked files:6346/Directories:2425 (I:1/U:4/D:0)
+      2017-11-02 03:59:16.776 : android.intent.action.MEDIA_MOUNTED
+      2017-11-02 03:59:28.571 : android.intent.action.BOOT_COMPLETED
+      2017-11-02 03:59:48.609 : Volume:external/Current DB items:8792/Checked files:6297/Directories:2411 (I:52/U:902/D:115)
+      2017-11-02 04:00:02.146 : Volume:external/Current DB items:8729/Checked files:6303/Directories:2411 (I:6/U:14/D:0)
+      2017-11-02 06:03:25.558 : android.intent.action.MEDIA_MOUNTED
+      2017-11-02 06:03:34.821 : android.intent.action.BOOT_COMPLETED
+      2017-11-02 06:03:49.778 : Volume:external/Current DB items:8735/Checked files:6311/Directories:2412 (I:9/U:565/D:0)
+      2017-11-02 06:04:00.129 : Volume:external/Current DB items:8744/Checked files:6311/Directories:2412 (I:0/U:7/D:0)
+      2017-11-06 04:39:48.905 : android.intent.action.MEDIA_MOUNTED
+      2017-11-06 04:39:57.876 : android.intent.action.BOOT_COMPLETED
+      2017-11-06 04:40:16.751 : Volume:external/Current DB items:8744/Checked files:6527/Directories:2444 (I:281/U:687/D:33)
+      2017-11-06 04:40:29.284 : Volume:external/Current DB items:8992/Checked files:6537/Directories:2444 (I:10/U:10/D:0)
+      2017-11-06 04:56:11.350 : android.intent.action.MEDIA_MOUNTED
+      2017-11-06 04:56:25.746 : android.intent.action.BOOT_COMPLETED
+      2017-11-06 04:57:44.558 : Volume:external/Current DB items:9002/Checked files:6619/Directories:2488 (I:131/U:818/D:5)
+      2017-11-06 04:58:03.112 : Volume:external/Current DB items:9128/Checked files:6619/Directories:2488 (I:0/U:17/D:0)
+      2017-11-06 09:07:36.493 : android.intent.action.MEDIA_MOUNTED
+      2017-11-06 09:07:43.725 : android.intent.action.BOOT_COMPLETED
+      2017-11-06 09:08:06.744 : Volume:external/Current DB items:9128/Checked files:6644/Directories:2500 (I:37/U:57/D:0)
+      2017-11-06 09:08:19.910 : Volume:external/Current DB items:9165/Checked files:6650/Directories:2500 (I:6/U:17/D:0)
+      2017-11-10 02:42:03.988 : android.intent.action.MEDIA_MOUNTED
+      2017-11-10 02:42:16.689 : android.intent.action.BOOT_COMPLETED
+      2017-11-10 02:42:35.955 : Volume:external/Current DB items:9171/Checked files:6680/Directories:2500 (I:51/U:671/D:20)
+      2017-11-10 02:43:34.454 : Volume:external/Current DB items:9202/Checked files:6690/Directories:2500 (I:11/U:14/D:1)
+      2017-11-10 06:51:12.340 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-11-10 06:51:24.120 : Volume:external/Current DB items:9212/Checked files:6668/Directories:2499 (I:42/U:721/D:66)
+      2017-11-10 06:57:27.606 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-11-10 06:57:34.298 : Volume:external/Current DB items:9188/Checked files:6668/Directories:2499 (I:0/U:3/D:0)
+      2017-11-10 06:58:01.319 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-11-10 06:58:07.966 : Volume:external/Current DB items:9188/Checked files:6668/Directories:2499 (I:0/U:1/D:0)
+      2017-11-10 06:58:28.148 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-11-10 06:58:29.704 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-11-10 06:58:34.976 : Volume:external/Current DB items:9188/Checked files:6668/Directories:2499 (I:0/U:0/D:0)
+      2017-11-10 06:58:41.188 : Volume:external/Current DB items:9188/Checked files:6668/Directories:2499 (I:0/U:0/D:0)
+      2017-11-10 07:03:49.616 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-11-10 07:03:49.782 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-11-10 07:03:56.703 : Volume:external/Current DB items:9188/Checked files:6671/Directories:2499 (I:3/U:15/D:0)
+      2017-11-10 07:04:02.482 : Volume:external/Current DB items:9191/Checked files:6671/Directories:2499 (I:0/U:0/D:0)
+      2017-11-22 10:35:53.668 : android.intent.action.MEDIA_MOUNTED
+      2017-11-22 10:36:01.220 : android.intent.action.BOOT_COMPLETED
+      2017-11-22 10:36:19.836 : Volume:external/Current DB items:9191/Checked files:7008/Directories:2503 (I:392/U:752/D:51)
+      2017-11-22 10:36:28.327 : Volume:external/Current DB items:9532/Checked files:7010/Directories:2503 (I:2/U:4/D:0)
+      2017-11-26 02:54:45.025 : android.intent.action.MEDIA_MOUNTED
+      2017-11-26 02:54:56.300 : Volume:external/Current DB items:9534/Checked files:7005/Directories:2503 (I:1/U:6/D:6)
+      2017-11-26 02:54:56.482 : android.intent.action.BOOT_COMPLETED
+      2017-11-26 02:55:10.217 : Volume:external/Current DB items:9529/Checked files:7005/Directories:2503 (I:0/U:0/D:0)
+      2017-12-04 02:47:21.388 : android.intent.action.MEDIA_MOUNTED
+      2017-12-04 02:47:30.204 : android.intent.action.BOOT_COMPLETED
+      2017-12-04 02:47:43.909 : Volume:external/Current DB items:9529/Checked files:7125/Directories:2556 (I:184/U:169/D:11)
+      2017-12-04 02:47:51.808 : Volume:external/Current DB items:9702/Checked files:7127/Directories:2556 (I:2/U:3/D:0)
+      2017-12-04 02:48:18.926 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-04 02:48:25.248 : Volume:external/Current DB items:9704/Checked files:7127/Directories:2556 (I:0/U:1/D:0)
+      2017-12-04 02:49:40.391 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-04 02:49:47.468 : Volume:external/Current DB items:9704/Checked files:7127/Directories:2556 (I:0/U:2/D:0)
+      2017-12-04 02:50:03.395 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-04 02:50:10.585 : Volume:external/Current DB items:9704/Checked files:7127/Directories:2556 (I:0/U:0/D:0)
+      2017-12-04 02:53:43.236 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-04 02:53:50.445 : Volume:external/Current DB items:9704/Checked files:7127/Directories:2556 (I:0/U:0/D:0)
+      2017-12-04 02:56:46.890 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-04 02:56:54.107 : Volume:external/Current DB items:9704/Checked files:7127/Directories:2556 (I:0/U:0/D:0)
+      2017-12-04 03:00:02.288 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-04 03:00:09.498 : Volume:external/Current DB items:9704/Checked files:7127/Directories:2556 (I:0/U:1/D:0)
+      2017-12-04 03:00:44.791 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-04 03:00:51.926 : Volume:external/Current DB items:9704/Checked files:7127/Directories:2556 (I:0/U:0/D:0)
+      2017-12-04 03:06:13.421 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-04 03:06:20.571 : Volume:external/Current DB items:9704/Checked files:7127/Directories:2556 (I:0/U:1/D:0)
+      2017-12-04 03:10:26.725 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-04 03:10:33.842 : Volume:external/Current DB items:9704/Checked files:7127/Directories:2556 (I:0/U:0/D:0)
+      2017-12-04 03:34:36.715 : android.intent.action.MEDIA_SCANNER_SCAN_FILE
+      2017-12-04 03:43:07.076 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-04 03:43:20.227 : Volume:external/Current DB items:9705/Checked files:7128/Directories:2556 (I:1/U:16/D:1)
+      2017-12-04 03:43:20.233 : PNG_1_1_1 
+      2017-12-04 04:07:57.312 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-04 04:07:57.464 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-04 04:08:04.888 : Volume:external/Current DB items:9705/Checked files:7128/Directories:2556 (I:0/U:3/D:0)
+      2017-12-04 04:08:11.126 : Volume:external/Current DB items:9705/Checked files:7128/Directories:2556 (I:0/U:0/D:0)
+      2017-12-06 03:30:26.589 : android.intent.action.MEDIA_MOUNTED
+      2017-12-06 03:30:36.304 : android.intent.action.BOOT_COMPLETED
+      2017-12-06 03:30:50.050 : Volume:external/Current DB items:9705/Checked files:7125/Directories:2556 (I:1/U:5/D:4)
+      2017-12-06 03:31:04.022 : Volume:external/Current DB items:9702/Checked files:7127/Directories:2556 (I:2/U:3/D:0)
+      2017-12-06 03:31:25.057 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-06 03:31:32.139 : Volume:external/Current DB items:9704/Checked files:7127/Directories:2556 (I:0/U:1/D:0)
+      2017-12-06 03:43:57.954 : android.intent.action.MEDIA_SCANNER_SCAN_FILE
+      2017-12-06 07:02:34.747 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-06 07:02:34.923 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-06 07:02:40.733 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-06 07:02:40.836 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-06 07:02:42.562 : Volume:external/Current DB items:9705/Checked files:7128/Directories:2556 (I:0/U:13/D:0)
+      2017-12-06 07:02:42.563 : PNG_1_1_1 
+      2017-12-06 07:02:49.256 : Volume:external/Current DB items:9705/Checked files:7128/Directories:2556 (I:0/U:1/D:0)
+      2017-12-06 10:09:08.631 : android.intent.action.MEDIA_MOUNTED
+      2017-12-06 10:09:15.822 : android.intent.action.BOOT_COMPLETED
+      2017-12-06 10:09:31.084 : Volume:external/Current DB items:9705/Checked files:7128/Directories:2556 (I:0/U:10/D:0)
+      2017-12-06 10:09:41.808 : Volume:external/Current DB items:9705/Checked files:7128/Directories:2556 (I:0/U:5/D:0)
+      2017-12-06 10:10:18.159 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-06 10:10:24.571 : Volume:external/Current DB items:9705/Checked files:7128/Directories:2556 (I:0/U:1/D:0)
+      2017-12-07 02:10:47.687 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-07 02:10:47.857 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-07 02:10:56.138 : Volume:external/Current DB items:9705/Checked files:7131/Directories:2556 (I:3/U:13/D:0)
+      2017-12-07 02:10:56.139 : PNG_1_1_1 
+      2017-12-07 02:11:02.191 : Volume:external/Current DB items:9708/Checked files:7131/Directories:2556 (I:0/U:0/D:0)
+      2017-12-07 02:20:10.592 : android.intent.action.MEDIA_SCANNER_SCAN_FILE
+      2017-12-07 02:34:17.071 : android.intent.action.MEDIA_SCANNER_SCAN_FILE
+      2017-12-07 02:40:41.850 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-07 02:40:50.972 : Volume:external/Current DB items:9710/Checked files:7134/Directories:2556 (I:1/U:15/D:0)
+      2017-12-07 02:40:50.974 : PNG_1_1_1 
+      2017-12-07 02:42:14.847 : android.intent.action.MEDIA_SCANNER_SCAN_FILE
+      2017-12-07 02:49:18.354 : android.intent.action.MEDIA_SCANNER_SCAN_FILE
+      2017-12-07 02:55:32.769 : android.intent.action.MEDIA_SCANNER_SCAN_FILE
+      2017-12-07 02:55:43.553 : android.intent.action.MEDIA_SCANNER_SCAN_FILE
+      2017-12-07 03:13:43.258 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-07 03:13:43.430 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-07 03:13:50.165 : Volume:external/Current DB items:9715/Checked files:7138/Directories:2556 (I:0/U:13/D:0)
+      2017-12-07 03:13:50.167 : PNG_1_1_1 
+      2017-12-07 03:13:55.973 : Volume:external/Current DB items:9715/Checked files:7138/Directories:2556 (I:0/U:0/D:0)
+      2017-12-07 03:28:17.378 : android.intent.action.MEDIA_SCANNER_SCAN_FILE
+      2017-12-07 03:28:49.675 : android.intent.action.MEDIA_SCANNER_SCAN_FILE
+      2017-12-07 03:31:36.341 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-07 03:31:46.291 : Volume:external/Current DB items:9717/Checked files:7140/Directories:2556 (I:0/U:14/D:0)
+      2017-12-07 03:40:40.517 : android.intent.action.MEDIA_SCANNER_SCAN_FILE
+      2017-12-07 03:40:42.851 : android.intent.action.MEDIA_SCANNER_SCAN_FILE
+      2017-12-07 03:40:52.214 : android.intent.action.MEDIA_SCANNER_SCAN_FILE
+      2017-12-07 04:04:08.297 : android.intent.action.MEDIA_SCANNER_SCAN_FILE
+      2017-12-07 04:07:28.428 : android.intent.action.MEDIA_SCANNER_SCAN_FILE
+      2017-12-07 04:10:25.807 : android.intent.action.MEDIA_SCANNER_SCAN_FILE
+      2017-12-07 04:10:33.592 : android.intent.action.MEDIA_SCANNER_SCAN_FILE
+      2017-12-07 04:22:36.384 : android.intent.action.MEDIA_SCANNER_SCAN_FILE
+      2017-12-07 05:38:40.730 : android.intent.action.MEDIA_SCANNER_SCAN_FILE
+      2017-12-07 06:03:03.694 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-08 10:59:52.505 : android.intent.action.MEDIA_MOUNTED
+      2017-12-08 11:00:00.592 : android.intent.action.BOOT_COMPLETED
+      2017-12-08 11:00:11.675 : Volume:external/Current DB items:9725/Checked files:7153/Directories:2557 (I:6/U:17/D:0)
+      2017-12-08 11:00:11.677 : PNG_1_15_15 
+      2017-12-08 11:00:18.903 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-08 11:00:21.285 : Volume:external/Current DB items:9731/Checked files:7155/Directories:2557 (I:2/U:3/D:0)
+      2017-12-08 11:00:30.453 : Volume:external/Current DB items:9733/Checked files:7155/Directories:2557 (I:0/U:1/D:0)
+      2017-12-08 11:06:58.004 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-08 11:06:59.648 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-08 11:07:05.309 : Volume:external/Current DB items:9733/Checked files:7155/Directories:2557 (I:0/U:13/D:0)
+      2017-12-08 11:07:12.113 : Volume:external/Current DB items:9733/Checked files:7155/Directories:2557 (I:0/U:0/D:0)
+      2017-12-08 11:08:09.706 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-08 11:08:09.852 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-08 11:08:16.405 : Volume:external/Current DB items:9733/Checked files:7155/Directories:2557 (I:0/U:1/D:0)
+      2017-12-08 11:08:23.073 : Volume:external/Current DB items:9733/Checked files:7155/Directories:2557 (I:0/U:0/D:0)
+      2017-12-08 11:10:14.537 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-08 11:10:14.705 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-08 11:10:20.976 : Volume:external/Current DB items:9733/Checked files:7155/Directories:2557 (I:0/U:2/D:0)
+      2017-12-08 11:10:27.755 : Volume:external/Current DB items:9733/Checked files:7155/Directories:2557 (I:0/U:0/D:0)
+      2017-12-08 11:21:09.025 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-08 11:21:09.184 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-08 11:21:15.463 : Volume:external/Current DB items:9733/Checked files:7155/Directories:2557 (I:0/U:2/D:0)
+      2017-12-08 11:21:21.423 : Volume:external/Current DB items:9733/Checked files:7155/Directories:2557 (I:0/U:0/D:0)
+      2017-12-08 12:26:50.664 : com.samsung.MEDIA_SCAN
+      2017-12-08 12:26:50.783 : com.samsung.MEDIA_SCAN
+      2017-12-08 12:26:59.605 : Volume:external/Current DB items:9733/Checked files:7155/Directories:2557 (I:0/U:13/D:0)
+      2017-12-08 12:27:06.322 : Volume:external/Current DB items:9733/Checked files:7155/Directories:2557 (I:0/U:0/D:0)
+      2017-12-10 01:31:08.196 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-10 01:31:16.182 : Volume:external/Current DB items:9733/Checked files:7157/Directories:2557 (I:2/U:5/D:0)
+      2017-12-10 02:11:57.184 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-10 02:11:57.355 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-10 02:12:05.667 : Volume:external/Current DB items:9735/Checked files:7166/Directories:2563 (I:15/U:13/D:0)
+      2017-12-10 02:12:05.674 : PNG_3_5_1 
+      2017-12-10 02:12:12.975 : Volume:external/Current DB items:9750/Checked files:7166/Directories:2563 (I:0/U:0/D:0)
+      2017-12-10 02:12:55.243 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-10 02:12:55.395 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-10 02:13:02.416 : Volume:external/Current DB items:9750/Checked files:7166/Directories:2563 (I:0/U:2/D:0)
+      2017-12-10 02:13:08.990 : Volume:external/Current DB items:9750/Checked files:7166/Directories:2563 (I:0/U:0/D:0)
+      2017-12-10 02:13:27.687 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-10 02:13:27.832 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-10 02:13:33.993 : Volume:external/Current DB items:9750/Checked files:7166/Directories:2563 (I:0/U:2/D:0)
+      2017-12-10 02:13:41.398 : Volume:external/Current DB items:9750/Checked files:7166/Directories:2563 (I:0/U:0/D:0)
+      2017-12-10 02:16:47.989 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-10 02:16:48.151 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-10 02:16:54.840 : Volume:external/Current DB items:9750/Checked files:7166/Directories:2563 (I:0/U:3/D:0)
+      2017-12-10 02:17:00.873 : Volume:external/Current DB items:9750/Checked files:7166/Directories:2563 (I:0/U:0/D:0)
+      2017-12-11 09:55:11.141 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-11 09:55:21.316 : Volume:external/Current DB items:9750/Checked files:7171/Directories:2576 (I:18/U:25/D:0)
+      2017-12-11 09:55:21.319 : PNG_1_2_2 
+      2017-12-11 11:07:39.832 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-11 11:07:40.023 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-11 11:07:47.737 : Volume:external/Current DB items:9768/Checked files:7171/Directories:2576 (I:0/U:11/D:0)
+      2017-12-11 11:07:47.738 : PNG_1_5_5 
+      2017-12-11 11:07:54.144 : Volume:external/Current DB items:9768/Checked files:7171/Directories:2576 (I:0/U:4/D:0)
+      2017-12-11 11:22:30.656 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-11 11:22:30.816 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-11 11:22:37.386 : Volume:external/Current DB items:9768/Checked files:7171/Directories:2576 (I:0/U:8/D:0)
+      2017-12-11 11:22:43.305 : Volume:external/Current DB items:9768/Checked files:7171/Directories:2576 (I:0/U:0/D:0)
+      2017-12-11 11:50:22.342 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-11 11:50:22.499 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-11 11:50:29.023 : Volume:external/Current DB items:9768/Checked files:7171/Directories:2576 (I:0/U:10/D:0)
+      2017-12-11 11:50:29.025 : PNG_1_1_1 
+      2017-12-11 11:50:35.016 : Volume:external/Current DB items:9768/Checked files:7171/Directories:2576 (I:0/U:0/D:0)
+      2017-12-11 11:50:50.963 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-11 11:50:59.061 : Volume:external/Current DB items:9768/Checked files:7171/Directories:2576 (I:0/U:1/D:0)
+      2017-12-11 12:12:58.180 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-11 12:12:58.312 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-11 12:13:06.164 : Volume:external/Current DB items:9768/Checked files:7171/Directories:2576 (I:0/U:13/D:0)
+      2017-12-11 12:13:06.166 : PNG_1_1_1 
+      2017-12-11 12:13:12.113 : Volume:external/Current DB items:9768/Checked files:7171/Directories:2576 (I:0/U:0/D:0)
+      2017-12-15 06:50:30.788 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-15 06:50:34.886 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-15 06:50:40.600 : Volume:external/Current DB items:9768/Checked files:7174/Directories:2576 (I:6/U:14/D:3)
+      2017-12-15 06:50:47.355 : Volume:external/Current DB items:9771/Checked files:7174/Directories:2576 (I:0/U:0/D:0)
+      2017-12-15 06:50:57.620 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-15 06:51:04.245 : Volume:external/Current DB items:9771/Checked files:7174/Directories:2576 (I:0/U:0/D:0)
+      2017-12-15 10:54:44.858 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-15 10:54:45.062 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-20 01:42:58.471 : android.intent.action.MEDIA_MOUNTED
+      2017-12-20 01:43:05.868 : android.intent.action.BOOT_COMPLETED
+      2017-12-20 01:43:14.497 : Volume:external/Current DB items:9771/Checked files:7166/Directories:2576 (I:1/U:12/D:9)
+      2017-12-20 01:43:14.505 : PNG_1_7_7 
+      2017-12-20 01:43:26.008 : Volume:external/Current DB items:9763/Checked files:7168/Directories:2576 (I:2/U:1/D:0)
+      2017-12-20 05:59:54.689 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-20 05:59:54.877 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-20 06:00:11.964 : Volume:external/Current DB items:9765/Checked files:6863/Directories:2576 (I:34/U:35/D:339)
+      2017-12-20 06:00:11.965 : PNG_1_2_2 
+      2017-12-20 06:00:19.001 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-20 06:00:19.015 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-20 06:00:21.492 : Volume:external/Current DB items:9460/Checked files:6865/Directories:2576 (I:2/U:4/D:0)
+      2017-12-20 06:00:30.032 : Volume:external/Current DB items:9462/Checked files:6865/Directories:2576 (I:0/U:4/D:0)
+      2017-12-20 07:30:37.628 : android.intent.action.MEDIA_SCANNER_SCAN_FILE
+      2017-12-20 07:30:38.077 : android.intent.action.MEDIA_SCANNER_SCAN_FILE
+      2017-12-20 08:51:08.960 : android.intent.action.MEDIA_MOUNTED
+      2017-12-20 08:51:16.800 : android.intent.action.BOOT_COMPLETED
+      2017-12-20 08:51:30.080 : Volume:external/Current DB items:9463/Checked files:6576/Directories:2576 (I:7/U:20/D:297)
+      2017-12-20 08:51:40.862 : Volume:external/Current DB items:9173/Checked files:6576/Directories:2576 (I:0/U:6/D:0)
+      2017-12-20 09:21:02.654 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-20 09:21:08.224 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-20 09:21:08.276 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-20 09:21:18.239 : Volume:external/Current DB items:9173/Checked files:6557/Directories:2563 (I:47/U:754/D:79)
+      2017-12-20 09:21:18.239 : PNG_1_2_2 
+      2017-12-20 09:21:24.831 : Volume:external/Current DB items:9141/Checked files:6557/Directories:2563 (I:0/U:1/D:0)
+      2017-12-20 09:21:30.609 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-20 09:21:36.579 : Volume:external/Current DB items:9141/Checked files:6557/Directories:2563 (I:0/U:1/D:0)
+      2017-12-20 10:04:25.699 : android.intent.action.MEDIA_SCANNER_SCAN_FILE
+      2017-12-20 10:04:33.825 : android.intent.action.MEDIA_SCANNER_SCAN_FILE
+      2017-12-20 10:05:44.487 : android.intent.action.MEDIA_SCANNER_SCAN_FILE
+      2017-12-20 10:06:16.915 : android.intent.action.MEDIA_SCANNER_SCAN_FILE
+      2017-12-20 10:07:47.636 : android.intent.action.MEDIA_SCANNER_SCAN_FILE
+      2017-12-20 10:11:40.159 : android.intent.action.MEDIA_SCANNER_SCAN_FILE
+      2017-12-20 10:12:27.603 : android.intent.action.MEDIA_SCANNER_SCAN_FILE
+      2017-12-20 10:15:32.412 : android.intent.action.MEDIA_SCANNER_SCAN_FILE
+      2017-12-20 10:15:57.211 : android.intent.action.MEDIA_SCANNER_SCAN_FILE
+      2017-12-20 10:18:37.155 : android.intent.action.MEDIA_SCANNER_SCAN_FILE
+      2017-12-20 10:21:39.202 : android.intent.action.MEDIA_SCANNER_SCAN_FILE
+      2017-12-20 10:21:51.727 : android.intent.action.MEDIA_SCANNER_SCAN_FILE
+      2017-12-20 10:22:20.406 : android.intent.action.MEDIA_SCANNER_SCAN_FILE
+      2017-12-20 10:25:29.085 : android.intent.action.MEDIA_SCANNER_SCAN_FILE
+      2017-12-20 10:59:20.759 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-20 10:59:20.937 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-20 10:59:31.002 : Volume:external/Current DB items:9155/Checked files:6574/Directories:2563 (I:16/U:28/D:13)
+      2017-12-20 10:59:36.805 : Volume:external/Current DB items:9158/Checked files:6574/Directories:2563 (I:0/U:1/D:0)
+      2017-12-20 10:59:52.830 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-20 10:59:52.958 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-20 10:59:55.636 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-20 10:59:55.644 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-20 11:00:00.088 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-20 11:00:00.161 : Volume:external/Current DB items:9158/Checked files:6576/Directories:2563 (I:2/U:3/D:0)
+      2017-12-20 11:00:00.374 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-20 11:00:02.972 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-20 11:00:02.999 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-20 11:00:03.500 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-20 11:00:03.515 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-20 11:00:06.897 : Volume:external/Current DB items:9160/Checked files:6577/Directories:2563 (I:1/U:2/D:0)
+      2017-12-20 11:00:13.173 : Volume:external/Current DB items:9161/Checked files:6577/Directories:2563 (I:0/U:0/D:0)
+      2017-12-20 11:43:42.512 : android.intent.action.MEDIA_SCANNER_SCAN_FILE
+      2017-12-20 11:43:59.792 : android.intent.action.MEDIA_SCANNER_SCAN_FILE
+      2017-12-20 11:44:58.996 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-20 11:44:59.203 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-20 11:45:09.561 : Volume:external/Current DB items:9164/Checked files:6588/Directories:2563 (I:8/U:545/D:0)
+      2017-12-20 11:45:09.566 : PNG_1_1_1 
+      2017-12-20 11:45:15.496 : Volume:external/Current DB items:9172/Checked files:6588/Directories:2563 (I:0/U:0/D:0)
+      2017-12-20 12:22:18.437 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-20 12:22:18.630 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-20 12:22:21.518 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-20 12:22:21.549 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-20 12:22:25.857 : Volume:external/Current DB items:9172/Checked files:6591/Directories:2563 (I:3/U:18/D:0)
+      2017-12-20 12:22:36.210 : Volume:external/Current DB items:9175/Checked files:6591/Directories:2563 (I:0/U:2/D:0)
+      2017-12-20 12:23:53.947 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-20 12:23:53.981 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-20 12:24:00.810 : Volume:external/Current DB items:9175/Checked files:6591/Directories:2563 (I:0/U:6/D:0)
+      2017-12-20 12:24:10.258 : Volume:external/Current DB items:9175/Checked files:6591/Directories:2563 (I:0/U:0/D:0)
+      2017-12-20 12:24:10.524 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-20 12:24:10.692 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-20 12:24:13.504 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-20 12:24:13.607 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-20 12:24:15.026 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-20 12:24:15.102 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-20 12:24:17.170 : Volume:external/Current DB items:9175/Checked files:6591/Directories:2563 (I:0/U:0/D:0)
+      2017-12-20 12:24:21.522 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-20 12:24:21.535 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-20 12:24:22.797 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-20 12:24:23.211 : Volume:external/Current DB items:9175/Checked files:6591/Directories:2563 (I:0/U:0/D:0)
+      2017-12-20 12:24:25.596 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-20 12:24:25.617 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-20 12:24:29.498 : Volume:external/Current DB items:9175/Checked files:6591/Directories:2563 (I:0/U:0/D:0)
+      2017-12-20 12:24:36.505 : Volume:external/Current DB items:9175/Checked files:6591/Directories:2563 (I:0/U:1/D:0)
+      2017-12-20 12:24:38.545 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-20 12:24:38.562 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-20 12:24:44.824 : Volume:external/Current DB items:9175/Checked files:6591/Directories:2563 (I:0/U:0/D:0)
+      2017-12-20 12:24:55.741 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-20 12:24:55.752 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-20 12:24:55.891 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-20 12:25:01.493 : Volume:external/Current DB items:9175/Checked files:6591/Directories:2563 (I:0/U:0/D:0)
+      2017-12-20 12:25:06.960 : Volume:external/Current DB items:9175/Checked files:6591/Directories:2563 (I:0/U:0/D:0)
+      2017-12-21 06:07:04.673 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-21 06:07:04.731 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-21 06:07:25.716 : Volume:external/Current DB items:9175/Checked files:6633/Directories:2564 (I:58/U:649/D:15)
+      2017-12-21 06:07:25.721 : PNG_3_6_2 
+      2017-12-21 06:07:34.173 : Volume:external/Current DB items:9218/Checked files:6633/Directories:2564 (I:0/U:1/D:0)
+      2017-12-21 06:10:12.073 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-21 06:10:19.645 : Volume:external/Current DB items:9218/Checked files:6633/Directories:2564 (I:0/U:2/D:0)
+      2017-12-21 06:15:06.053 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-21 06:15:06.223 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-21 06:15:15.020 : Volume:external/Current DB items:9218/Checked files:6822/Directories:2685 (I:310/U:40/D:0)
+      2017-12-21 06:15:15.042 : PNG_1_8_8 
+      2017-12-21 06:15:22.374 : Volume:external/Current DB items:9528/Checked files:6829/Directories:2687 (I:9/U:1/D:0)
+      2017-12-22 12:12:00.857 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-22 12:12:01.024 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-22 12:12:11.406 : Volume:external/Current DB items:9537/Checked files:7114/Directories:2706 (I:335/U:42/D:31)
+      2017-12-22 12:12:18.479 : Volume:external/Current DB items:9841/Checked files:7114/Directories:2706 (I:0/U:0/D:0)
+      2017-12-22 12:15:12.383 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-22 12:15:28.743 : Volume:external/Current DB items:9841/Checked files:7115/Directories:2706 (I:1/U:9/D:0)
+      2017-12-22 12:15:28.744 : PNG_1_2_2 
+      2017-12-22 13:32:02.204 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-22 13:32:02.363 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-22 13:32:17.964 : Volume:external/Current DB items:9863/Checked files:7148/Directories:2708 (I:67/U:567/D:53)
+      2017-12-22 13:32:17.971 : PNG_1_1_1 
+      2017-12-22 13:32:24.720 : Volume:external/Current DB items:9877/Checked files:7148/Directories:2708 (I:0/U:6/D:0)
+      2017-12-24 07:54:35.371 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-24 07:54:39.598 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-24 07:54:44.521 : Volume:external/Current DB items:9877/Checked files:7250/Directories:2709 (I:111/U:46/D:8)
+      2017-12-24 07:54:51.454 : Volume:external/Current DB items:9980/Checked files:7250/Directories:2709 (I:0/U:0/D:0)
+      2017-12-24 07:55:06.792 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-24 07:55:13.995 : Volume:external/Current DB items:9980/Checked files:7250/Directories:2709 (I:0/U:0/D:0)
+      2017-12-24 07:56:14.959 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-24 07:56:22.093 : Volume:external/Current DB items:9980/Checked files:7250/Directories:2709 (I:0/U:0/D:0)
+      2017-12-24 07:57:02.586 : com.samsung.intent.action.MTP_FILE_SCAN
+      2017-12-24 07:57:09.360 : Volume:external/Current DB items:9980/Checked files:7251/Directories:2709 (I:1/U:2/D:0)
+      2017-12-24 08:05:29.134 : android.intent.action.MEDIA_SCANNER_SCAN_FILE
+      2017-12-24 08:07:58.981 : android.intent.action.MEDIA_SCANNER_SCAN_FILE
+      2017-12-24 08:12:09.643 : android.intent.action.MEDIA_SCANNER_SCAN_FILE
+      2017-12-24 08:13:42.394 : android.intent.action.MEDIA_SCANNER_SCAN_FILE
+      2017-12-24 08:14:57.654 : android.intent.action.MEDIA_SCANNER_SCAN_FILE
+      2017-12-24 08:16:39.225 : android.intent.action.MEDIA_SCANNER_SCAN_FILE
+      2017-12-24 09:28:09.883 : android.intent.action.MEDIA_SCANNER_SCAN_FILE
+      2017-12-24 09:28:47.459 : android.intent.action.MEDIA_SCANNER_SCAN_FILE
+      2017-12-24 09:30:29.906 : android.intent.action.MEDIA_SCANNER_SCAN_FILE
+      .nomedia file dump
+      external.db:
+      /storage/emulated/0/.SPenSDK30/.nomedia
+      /storage/emulated/0/360/newssdk/com.qihoo.appstore/cache/.nomedia
+      /storage/emulated/0/cn.com.bmac.nfc/.nomedia
+      /storage/emulated/0/cn.com.bmac.nfc/unicorn/.nomedia
+      /storage/emulated/0/news/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/0d0b71f68ff38ae31ef0d0f17a83e483/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/0d0b71f68ff38ae31ef0d0f17a83e483/image2/58/b7/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/0d0b71f68ff38ae31ef0d0f17a83e483/image2/fa/3e/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/0d0b71f68ff38ae31ef0d0f17a83e483/sns/4/5/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/0d0b71f68ff38ae31ef0d0f17a83e483/sns/a/2/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/0d0b71f68ff38ae31ef0d0f17a83e483/sns/c/6/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/3c1b55ab9ffd6540a712d7a8185ccb61/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/3c1b55ab9ffd6540a712d7a8185ccb61/image2/31/0e/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/3c1b55ab9ffd6540a712d7a8185ccb61/image2/33/dc/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/3c1b55ab9ffd6540a712d7a8185ccb61/image2/4b/51/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/3c1b55ab9ffd6540a712d7a8185ccb61/image2/53/27/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/3c1b55ab9ffd6540a712d7a8185ccb61/image2/69/55/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/3c1b55ab9ffd6540a712d7a8185ccb61/image2/6d/f1/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/3c1b55ab9ffd6540a712d7a8185ccb61/image2/a1/7b/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/3c1b55ab9ffd6540a712d7a8185ccb61/image2/e3/25/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/3c1b55ab9ffd6540a712d7a8185ccb61/sns/9/6/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/48c0e6f29451b6ce25647720d0cece4c/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/48c0e6f29451b6ce25647720d0cece4c/image2/06/e1/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/48c0e6f29451b6ce25647720d0cece4c/image2/15/13/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/48c0e6f29451b6ce25647720d0cece4c/image2/2a/99/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/48c0e6f29451b6ce25647720d0cece4c/image2/52/b8/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/48c0e6f29451b6ce25647720d0cece4c/image2/6c/38/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/48c0e6f29451b6ce25647720d0cece4c/image2/9d/4e/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/48c0e6f29451b6ce25647720d0cece4c/image2/a2/6c/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/48c0e6f29451b6ce25647720d0cece4c/image2/af/67/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/48c0e6f29451b6ce25647720d0cece4c/image2/c8/2d/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/48c0e6f29451b6ce25647720d0cece4c/image2/d7/a7/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/CheckResUpdate/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/e7b94193352d835a843abdbe20911087/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/e7b94193352d835a843abdbe20911087/image2/06/36/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/e7b94193352d835a843abdbe20911087/image2/14/84/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/e7b94193352d835a843abdbe20911087/image2/17/8e/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/e7b94193352d835a843abdbe20911087/image2/26/3a/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/e7b94193352d835a843abdbe20911087/image2/54/b6/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/e7b94193352d835a843abdbe20911087/image2/be/fe/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/e7b94193352d835a843abdbe20911087/image2/fe/38/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/e7b94193352d835a843abdbe20911087/sns/7/2/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/e7b94193352d835a843abdbe20911087/sns/a/8/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/e7b94193352d835a843abdbe20911087/sns/d/3/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/e7b94193352d835a843abdbe20911087/sns/e/0/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/05/2d/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/08/c1/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/0b/4b/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/0e/28/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/0e/50/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/0e/ea/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/0f/23/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/14/09/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/14/62/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/14/63/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/14/71/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/14/7e/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/16/8b/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/1a/d6/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/1e/5a/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/20/50/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/21/ab/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/24/11/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/25/51/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/26/b8/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/2d/a6/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/2e/ff/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/30/48/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/35/4f/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/35/90/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/38/15/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/3d/84/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/40/0d/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/40/4d/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/42/93/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/42/f5/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/47/4d/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/49/48/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/4e/94/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/4f/1d/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/57/98/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/58/e4/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/5c/52/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/60/e6/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/61/a8/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/62/02/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/63/3e/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/68/10/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/6a/4f/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/6b/16/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/75/42/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/78/27/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/7c/85/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/81/1b/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/88/42/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/89/13/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/99/0a/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/99/fa/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/9a/eb/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/9b/c0/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/9e/4f/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/a4/d1/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/a6/8e/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/a8/79/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/ad/51/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/ae/5f/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/ba/65/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/bb/f0/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/bc/d2/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/be/2f/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/c1/d0/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/c2/ce/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/c7/56/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/ca/5a/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/ca/83/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/cc/8e/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/ce/bd/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/cf/63/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/d4/fa/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/de/fd/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/df/69/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/e2/e5/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/e6/ac/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/e7/5b/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/ea/b4/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/ea/e4/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/ec/5c/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/ec/d2/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/f2/8f/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/f3/97/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/f7/61/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/f9/6f/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/fe/06/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/fe/8d/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/image2/ff/13/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/sns/0/4/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/sns/0/6/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/sns/0/f/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/sns/1/2/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/sns/1/4/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/sns/1/5/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/sns/1/8/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/sns/1/c/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/sns/1/d/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/sns/2/2/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/sns/2/6/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/sns/2/8/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/sns/2/b/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/sns/2/d/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/sns/2/f/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/sns/3/7/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/sns/3/c/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/sns/4/1/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/sns/4/2/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/sns/4/5/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/sns/4/a/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/sns/4/b/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/sns/4/c/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/sns/4/e/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/sns/5/7/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/sns/5/8/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/sns/5/c/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/sns/5/e/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/sns/6/e/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/sns/7/5/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/sns/7/6/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/sns/7/7/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/sns/7/a/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/sns/7/b/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/sns/8/2/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/sns/8/7/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/sns/8/a/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/sns/8/b/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/sns/8/c/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/sns/8/d/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/sns/9/1/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/sns/9/7/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/sns/9/8/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/sns/9/a/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/sns/9/b/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/sns/9/c/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/sns/9/f/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/sns/a/0/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/sns/a/2/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/sns/a/3/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/sns/a/6/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/sns/a/7/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/sns/a/a/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/sns/a/d/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/sns/a/f/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/sns/b/0/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/sns/b/3/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/sns/b/4/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/sns/b/7/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/sns/b/9/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/sns/b/a/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/sns/b/e/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/sns/c/2/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/sns/c/5/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/sns/c/6/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/sns/c/a/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/sns/c/c/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/sns/c/d/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/sns/c/f/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/sns/d/1/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/sns/d/4/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/sns/d/5/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/sns/d/7/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/sns/d/9/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/sns/d/b/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/sns/e/5/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/sns/e/6/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/sns/e/9/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/sns/e/a/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/sns/e/f/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/sns/f/0/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/sns/f/2/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/sns/f/4/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/fcf494ebf9eec8024b82ac96614663cf/sns/f/e/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/vusericon/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/wvtemp/.nomedia
+      /storage/emulated/0/Tencent/MicroMsg/wxacache/.nomedia
+      /storage/emulated/0/Tencent/MobileQQ/.apollo/.nomedia
+      /storage/emulated/0/Tencent/MobileQQ/.nomedia
+      /storage/emulated/0/Tencent/MobileQQ/ar_model/0/.nomedia
+      /storage/emulated/0/Tencent/MobileQQ/ar_model/0/1ed29ec5e715ec2920e97385b2e5b11a/.nomedia
+      /storage/emulated/0/Tencent/MobileQQ/ar_model/0/40a7cd236c4dbc884d2db45514b39d1d/.nomedia
+      /storage/emulated/0/Tencent/MobileQQ/ar_model/0/539e33204f5107da99d3fcc9052f356e/.nomedia
+      /storage/emulated/0/Tencent/MobileQQ/ar_model/0/7e4a87e4c418e2fb4f6ee584056d8346/.nomedia
+      /storage/emulated/0/Tencent/MobileQQ/ar_model/0/8072a540b46fc14e5ceab3e7ce483a46/.nomedia
+      /storage/emulated/0/Tencent/MobileQQ/ar_model/0/b36c44224924e038e241630a4058345e/.nomedia
+      /storage/emulated/0/Tencent/MobileQQ/ar_model/0/c2ddff9934e72bea615cea1e90b65fd8/.nomedia
+      /storage/emulated/0/Tencent/MobileQQ/ar_model/0/cd7a81f5e83f51286c07760ad6b8d0d0/.nomedia
+      /storage/emulated/0/Tencent/MobileQQ/ar_model/0/e51c2d0cdf6ed2f1409eb6349a6ed7cd/.nomedia
+      /storage/emulated/0/Tencent/MobileQQ/ar_model/1/.nomedia
+      /storage/emulated/0/Tencent/MobileQQ/head/.nomedia
+      /storage/emulated/0/Tencent/MobileQQ/head/_hd/.nomedia
+      /storage/emulated/0/Tencent/MobileQQ/thumb/.nomedia
+      /storage/emulated/0/Tencent/MobileQQ/thumb2/.nomedia
+      /storage/emulated/0/Tencent/tassistant/cloudkit/html/17/.nomedia
+      /storage/emulated/0/Tencent/tassistant/cloudkit/html/2/.nomedia
+      /storage/emulated/0/Tencent/tassistant/cloudkit/html/22/.nomedia
+      /storage/emulated/0/Tencent/tassistant/gif/.nomedia
+      /storage/emulated/0/Tencent/tassistant/pic/.nomedia
+      /storage/emulated/0/Tencent/tassistant/ThumbnailCache/blue_img/.nomedia
+      /storage/emulated/0/Tencent/tassistant/ThumbnailCache/flexible/.nomedia
+      /storage/emulated/0/Tencent/tassistant/ThumbnailCache/icon/.nomedia
+      /storage/emulated/0/Tencent/tassistant/ThumbnailCache/iconbyapk/.nomedia
+      /storage/emulated/0/Tencent/tassistant/ThumbnailCache/iconlocal/.nomedia
+      /storage/emulated/0/Tencent/tassistant/ThumbnailCache/middle/.nomedia
+      /storage/emulated/0/Tencent/tassistant/ThumbnailCache/middlebyorig/.nomedia
+      /storage/emulated/0/Tencent/tassistant/ThumbnailCache/middlebyvideo/.nomedia
+      /storage/emulated/0/Tencent/tassistant/ThumbnailCache/middlelocal/.nomedia
+      /storage/emulated/0/Tencent/tassistant/ThumbnailCache/resuming/.nomedia
+      /storage/emulated/0/Tencent/tassistant/ThumbnailCache/round/.nomedia
+      /storage/emulated/0/Tencent/tassistant/ThumbnailCache/smallbymp3/.nomedia
+      /storage/emulated/0/Tencent/tassistant/ThumbnailCache/tjdata/.nomedia
+
+
+PROVIDER ContentProviderRecord{46dcee5 u0 com.sec.android.daemonapp/.ap.cmaweather.common.CmaContentProvider} pid=21164
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{a45b46b u0 com.samsung.android.sm.provider/com.samsung.android.sm.database.lowpowercontext.LowpowerContextProvider} pid=31446
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{8bd6119 u0 com.android.phone/.BackupRestoreProvider} pid=1301
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{ab17461 u0 com.tencent.android.qqdownloader/com.tencent.assistant.localres.localapk.LocalApkProvider} pid=25228
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{e092c47 u0 com.samsung.dcm/com.sec.dcm.provider.DCMProvider} pid=31245
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{31312b6 u0 com.android.bluetooth/.opp.BluetoothOppProvider} pid=2017
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{d2ff59d u0 com.tianyancha.skyeye/com.umeng.message.provider.MessageProvider} pid=2484
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{da245e3 u0 com.tencent.mobileqq/com.tencent.mqq.shared_file_accessor.ContentProviderImpl} pid=24241
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{5e9455e u0 com.sec.android.app.videoplayer/android.support.v4.content.FileProvider} pid=29804
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{5c0160c u0 com.android.mms/android.support.v4.content.FileProvider} pid=2507
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{880596a u0 com.android.mms/.csc.PreferenceProvider} pid=2507
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{f5e86f8 u0 com.android.contacts/com.samsung.android.scloud.oem.lib.ClientProvider} pid=24282
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{7c2a236 u0 com.android.calendar/android.support.v4.content.FileProvider} pid=31326
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{f9fb954 u0 com.samsung.android.providers.context/.log.UseAppLogProvider} pid=2075
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{103a1f2 u0 com.samsung.android.providers.context/.log.BrowseWebLogProvider} pid=2075
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{a711aa4 u0 com.tencent.android.qqdownloader/com.tencent.assistant.daemon.statistic.ProcessStatisticProvider} pid=25228
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{a0eabc2 u0 com.android.providers.calendar/.CalendarProvider2} pid=31279
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{ca8deec u0 com.samsung.android.providers.context/.log.UseAppFeatureSurveyLogProvider} pid=2075
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{4917d4a u0 com.android.providers.contacts/.ContactsProvider2} pid=1592
+    Client:
+      Contact aggregator type: class com.android.providers.contacts.aggregation.ContactAggregator2
+      FastScrollingIndex stats:
+      request=2  miss=0 (0%)  avg time=0ms
+
+PROVIDER ContentProviderRecord{5bafdd8 u0 com.android.providers.downloads/.DownloadStorageProvider} pid=2354
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{cf22416 u0 com.samsung.android.providers.context/.log.ManageAppSurveyLogProvider} pid=2075
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{ece1f84 u0 com.samsung.android.providers.context/.log.ReportAppErrorSurveyLogProvider} pid=2075
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{ee46ba2 u0 com.samsung.android.providers.context/.log.WriteDocumentLogProvider} pid=2075
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{7401009 u0 com.sec.android.gallery3d/.provider.GallerySearchProvider} pid=24938
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{e7a142f u0 com.android.mms/.settings.provider.PreferenceProviderExport} pid=2507
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{7d0a3c5 u0 com.sec.android.app.music/com.samsung.android.app.music.provider.MusicProvider} pid=30404
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{79dc44b u0 com.android.settings/android.support.v4.content.FileProvider} pid=31740
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{91cb741 u0 com.sec.android.app.videoplayer/.videowall.ThumbProvider} pid=29804
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{25a27 u0 com.tencent.android.qqdownloader/com.tencent.assistant.db.contentprovider.AstSettingsProvider} pid=25228
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{9bc867d u0 com.tencent.mobileqq/.content.FriendListProvider} pid=24241
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{73a71b4 u0 com.android.providers.telephony/.ChannelsProvider} pid=1301
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{3071c3 u0 com.sec.android.app.videoplayer/.db.FinDoProvider} pid=29804
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{f900d79 u0 com.samsung.android.coreapps/.easysignup.db.EasySignUpProviderPublic} pid=27585
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{1e6f520 u0 com.android.providers.contacts/.VoicemailContentProvider} pid=1592
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{69e671f u0 com.sec.android.daemonapp/.ap.weathernewsjp.common.WeatherNewsContentProvider} pid=21164
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{47b0835 u0 com.sec.android.app.videoplayer/.db.AllShareProvider} pid=29804
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{8cc563b u0 com.samsung.android.coreapps/.rshare.db.RShareProvider} pid=27585
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{2f56576 u0 com.android.providers.media/.MediaDocumentsProvider} pid=2354
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{aca6302 u0 com.android.bluetooth/.map.MmsFileProvider} pid=2017
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{2e0f2b1 u0 com.sec.android.daemonapp/.ap.common.WeatherContentProvider} pid=21164
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{a201b17 u0 com.tencent.android.qqdownloader/com.tencent.assistant.db.contentprovider.StReportDbProvider} pid=25228
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{457177c u0 com.sec.android.app.launcher/com.samsung.android.scloud.oem.lib.bnr.BNRClientProivder} pid=1700
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{de108ed u0 com.tencent.android.qqdownloader/com.tencent.assistant.db.contentprovider.AppLinkProvider} pid=23381
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{48151b3 u0 com.sec.android.daemonapp/.ap.yahoostock.stockclock.db.PublicContentProvider} pid=21164
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{6601826 u0 com.android.providers.contacts/.debug.DumpFileProvider} pid=1592
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{3a590b2 u0 com.samsung.android.providers.context/.log.ExchangeEmailLogProvider} pid=2075
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{15246e9 u0 com.samsung.android.coreapps/.rshare.db.RQuotaProvider} pid=27585
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{eb5560f u0 com.samsung.android.coreapps/.shop.provider.ShopProvider} pid=27585
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{57f68a5 u0 com.sec.android.app.music/com.samsung.android.app.music.provider.MusicSearchProvider} pid=30404
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{c7b442b u0 com.tencent.android.qqdownloader/com.tencent.assistant.db.contentprovider.AstDaemonDbProvider} pid=25228
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{2a2ea21 u0 com.android.settings/.autohaptic.ReverbContentProvider} pid=31740
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{467f807 u0 com.sec.face/.provider.FaceProvider} pid=31232
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{a16a8d2 u0 com.tencent.android.qqdownloader/android.support.v4.content.FileProvider} pid=23381
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{af4d6d6 u0 com.sec.android.app.launcher/com.android.launcher2.LauncherProvider} pid=1700
+    Client:
+      nothing to dump
+[dumpsys: 1.035s elapsed]
+
+========================================================
+== TIMECHECK 24.501486 dumpstate: done 
+========================================================

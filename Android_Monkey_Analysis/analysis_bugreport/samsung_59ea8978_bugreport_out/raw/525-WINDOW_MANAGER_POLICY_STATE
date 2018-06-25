@@ -1,0 +1,123 @@
+    mSafeMode=false mSystemReady=true mSystemBooted=true
+    mLidState=-1 mLidOpenRotation=-1 mCameraLensCoverState=-1 mHdmiPlugged=false
+    mLastSystemUiFlags=0x8600 mResettingSystemUiFlags=0x0 mForceClearedSystemUiFlags=0x0
+    mWakeGestureEnabledSetting=true
+    mSupportAutoRotation=true
+    mUiMode=1 mDockMode=0 mCarDockRotation=-1 mDeskDockRotation=-1
+    mUserRotationMode=0 mUserRotation=0 mAllowAllRotations=0
+    mCurrentAppOrientation=1
+    mCarDockEnablesAccelerometer=true mDeskDockEnablesAccelerometer=true
+    mLidKeyboardAccessibility=0 mLidNavigationAccessibility=0 mLidControlsSleep=false
+    mShortPressOnPowerBehavior=1 mLongPressOnPowerBehavior=1
+    mDoublePressOnPowerBehavior=3 mTriplePressOnPowerBehavior=4
+    mHasSoftInput=true
+    mAwake=true
+    mScreenOnEarly=true mScreenOnFully=true
+    mKeyguardDrawComplete=true mWindowManagerDrawComplete=true
+    mOrientationSensorEnabled=true
+    mOverscanScreen=(0,0) 1080x1920
+    mRestrictedOverscanScreen=(0,0) 1080x1920
+    mUnrestrictedScreen=(0,0) 1080x1920
+    mRestrictedScreen=(0,0) 1080x1920
+    mStableFullscreen=(0,0)-(1080,1920)
+    mStable=(0,72)-(1080,1920)
+    mSystem=(0,0)-(1080,1920)
+    mCur=(0,72)-(1080,1920)
+    mContent=(0,72)-(1080,1920)
+    mVoiceContent=(0,72)-(1080,1920)
+    mDock=(0,72)-(1080,1920)
+    mDockLayer=268435456 mStatusBarLayer=161000
+    mShowingLockscreen=false mShowingDream=false mDreamingLockscreen=false mDreamingSleepToken=null
+    mStatusBar=Window{1880415 u0 d0 StatusBar} isStatusBarKeyguard=false
+    mFocusedWindow=Window{a018c63 u0 d0 com.sec.android.app.launcher/com.android.launcher2.Launcher}
+    mFocusedApp=Token{d8fec2f ActivityRecord{405fa0e u0 com.sec.android.app.launcher/com.android.launcher2.Launcher t5630}}
+    mTopFullscreenOpaqueWindowState=Window{a018c63 u0 d0 com.sec.android.app.launcher/com.android.launcher2.Launcher}
+    mTopFullscreenOpaqueOrDimmingWindowState=Window{a018c63 u0 d0 com.sec.android.app.launcher/com.android.launcher2.Launcher}
+    mTopIsFullscreen=false mHideLockScreen=false
+    mForceStatusBar=true mForceStatusBarFromKeyguard=false
+    mDismissKeyguard=0 mWinDismissingKeyguard=null mHomePressed=false
+    mAllowLockscreenWhenOn=false mLockScreenTimeout=600000 mLockScreenTimerActive=false
+    mEndcallBehavior=2 mIncallPowerBehavior=1 mLongPressOnHomeBehavior=2
+    mLandscapeRotation=1 mSeascapeRotation=3
+    mPortraitRotation=0 mUpsideDownRotation=2
+    mDemoHdmiRotation=1 mDemoHdmiRotationLock=false
+    mUndockedHdmiRotation=-1
+    mIsDefaultKeyguardRotationAnmationAlwaysUsed=false
+    mKeyMapping.size=0
+    BarController.StatusBar
+      mState=WINDOW_STATE_SHOWING
+      mTransientBar=TRANSIENT_BAR_NONE
+    PolicyControl.sImmersiveStatusFilter=null
+    PolicyControl.sImmersiveNavigationFilter=null
+    PolicyControl.sImmersivePreconfirmationsFilter=null
+    WakeGestureListener
+      mTriggerRequested=false
+      mSensor=null
+    WindowOrientationListener
+      mEnabled=true
+      mCurrentRotation=0
+      mSContextManager=android.hardware.scontext.SContextManager@2dd9b33
+      OrientationSensorJudge
+        mDesiredRotation=-1
+        mProposedRotation=-1
+        mTouching=false
+        mTouchEndedTimestampNanos=348042873815630
+    KeyguardServiceDelegate
+      showing=false
+      showingAndNotOccluded=true
+      inputRestricted=false
+      occluded=false
+      secure=false
+      dreaming=false
+      systemIsReady=true
+      deviceHasKeyguard=true
+      enabled=false
+      offReason=3
+      currentUser=0
+      bootCompleted=true
+      screenState=2
+      interactiveState=1
+      KeyguardStateMonitor
+        mIsShowing=false
+        mSimSecure=false
+        mInputRestricted=false
+        mCurrentUserId=0
+    mPenState=-1
+    mPerformEditAfterScreenCapture=false mHasFlashAnnotateComponent=false
+    mIsSafetyAssuranceEnabled=false mIsUseAccessControl=false mIsEnabledAccessControl=false
+    mIsKidsModeEnabled=false mIsEasyModeEnabled=false mIsDockHomeEnabled=false
+    mDoubleTapOnHomeBehavior=0 mAvailableDoublTapOnHomeCommand=true
+mDoubleTapHomeUser=0    mComponentNameOfDoubleTapOnHomeCommandIntent=null
+    mTripleTapOnHomeBehavior=0 mAvailableVoiceCommand=false
+    mHasFakeMenuKeyRecent=true mHasFakeMenuKeyBack=false
+    mSideSyncSourcePresentationActived=false
+    mIsWakeupPrevention=false
+    mWakeupPreventionPackages=[]
+    mPowerKeyTriggered=false mHomeKeyTriggered=false
+    mVolumeDownKeyTriggered=false mVolumeUpKeyTriggered=false
+    mCameraKeyTriggered=false mCameraRecordKeyTriggered=false
+    mFlashKeyTriggered=false mWiFiProtectedSetupKeyTriggered=false
+    mBackKeyTriggered=false
+    mRecentKeyTriggered=false
+    mMenuKeyTriggered=false
+    mHasPermanentMenuKey=false
+    isCameraSpecialized=false isUseVibetonz=false
+    hasSPenFeature=false hasHardMenuBackKey=false
+    hasQwertyKeyboard=false hasNumericKeyboard=false
+    isScreenShotChordEnabled=true isOneTouchReportChordEnabled=false
+    isSupportDMBAntennaDetach=false isMultiSIMDevice=false
+    mCoverCloseRotation=0
+    mIsSupportFlipCover=true
+    mIsSupportSViewCover=true
+    mHideSViewCoverWindowState=null
+    OriginalmUnrestrictedScreen=(0,0) 0x0
+    mOriginalStableFullscreen=(0,0)-(0,0)
+    mOriginalStable=(0,0)-(0,0)
+    mOriginalSystem=(0,0)-(0,0)
+    mOriginalDock=(0,0)-(0,0)
+    mSViewCoverUnrestrictedScreen=(0,0) 0x0
+    mSViewCoverStableFullscreen=(0,0)-(0,0)
+    mSViewCoverStable=(0,0)-(0,0)
+    mSViewCoverSystem=(0,0)-(0,0)
+    mSViewCoverDock=(0,0)-(0,0)
+

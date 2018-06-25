@@ -1,0 +1,260 @@
+Package: com.android.systemui
+Stats since: 22711464000ns
+Total frames rendered: 7253
+Janky frames: 1224 (16.88%)
+90th percentile: 20ms
+95th percentile: 26ms
+99th percentile: 57ms
+Number Missed Vsync: 214
+Number High input latency: 6
+Number Slow UI thread: 674
+Number Slow bitmap uploads: 67
+Number Slow issue draw commands: 361
+
+Package: com.qiku.multitask
+Stats since: 24764643427ns
+Total frames rendered: 32
+Janky frames: 7 (21.88%)
+90th percentile: 44ms
+95th percentile: 53ms
+99th percentile: 117ms
+Number Missed Vsync: 3
+Number High input latency: 0
+Number Slow UI thread: 5
+Number Slow bitmap uploads: 2
+Number Slow issue draw commands: 3
+
+Package: com.yulong.android.launcher3
+Stats since: 25614059416ns
+Total frames rendered: 4851
+Janky frames: 430 (8.86%)
+90th percentile: 15ms
+95th percentile: 23ms
+99th percentile: 53ms
+Number Missed Vsync: 70
+Number High input latency: 7
+Number Slow UI thread: 240
+Number Slow bitmap uploads: 30
+Number Slow issue draw commands: 189
+
+Package: com.android.settings
+Stats since: 223273935069ns
+Total frames rendered: 2678
+Janky frames: 107 (4.00%)
+90th percentile: 13ms
+95th percentile: 15ms
+99th percentile: 42ms
+Number Missed Vsync: 47
+Number High input latency: 0
+Number Slow UI thread: 55
+Number Slow bitmap uploads: 3
+Number Slow issue draw commands: 25
+
+Package: com.android.phone
+Stats since: 3277162888331ns
+Total frames rendered: 279
+Janky frames: 10 (3.58%)
+90th percentile: 7ms
+95th percentile: 7ms
+99th percentile: 48ms
+Number Missed Vsync: 10
+Number High input latency: 0
+Number Slow UI thread: 6
+Number Slow bitmap uploads: 0
+Number Slow issue draw commands: 3
+
+Package: com.tencent.mm
+Stats since: 929356986935ns
+Total frames rendered: 481
+Janky frames: 49 (10.19%)
+90th percentile: 16ms
+95th percentile: 25ms
+99th percentile: 69ms
+Number Missed Vsync: 16
+Number High input latency: 0
+Number Slow UI thread: 28
+Number Slow bitmap uploads: 1
+Number Slow issue draw commands: 19
+
+Package: com.qihoo360.mobilesafe
+Stats since: 34043168058ns
+Total frames rendered: 404
+Janky frames: 95 (23.51%)
+90th percentile: 23ms
+95th percentile: 32ms
+99th percentile: 65ms
+Number Missed Vsync: 13
+Number High input latency: 0
+Number Slow UI thread: 84
+Number Slow bitmap uploads: 3
+Number Slow issue draw commands: 13
+
+Package: com.qiku.cardmanager
+Stats since: 13621886756311ns
+Total frames rendered: 3027
+Janky frames: 23 (0.76%)
+90th percentile: 13ms
+95th percentile: 13ms
+99th percentile: 15ms
+Number Missed Vsync: 4
+Number High input latency: 0
+Number Slow UI thread: 8
+Number Slow bitmap uploads: 0
+Number Slow issue draw commands: 14
+
+Package: com.qiku.powermaster
+Stats since: 22675235244524ns
+Total frames rendered: 238
+Janky frames: 62 (26.05%)
+90th percentile: 26ms
+95th percentile: 29ms
+99th percentile: 44ms
+Number Missed Vsync: 6
+Number High input latency: 0
+Number Slow UI thread: 22
+Number Slow bitmap uploads: 4
+Number Slow issue draw commands: 43
+
+Package: com.koushikdutta.vysor
+Stats since: 23000169722317ns
+Total frames rendered: 0
+Janky frames: 0 (nan%)
+90th percentile: 133ms
+95th percentile: 133ms
+99th percentile: 133ms
+Number Missed Vsync: 0
+Number High input latency: 0
+Number Slow UI thread: 0
+Number Slow bitmap uploads: 0
+Number Slow issue draw commands: 0
+
+Package: com.android.systemui
+Stats since: 8617549971553ns
+Total frames rendered: 138
+Janky frames: 20 (14.49%)
+90th percentile: 16ms
+95th percentile: 27ms
+99th percentile: 81ms
+Number Missed Vsync: 9
+Number High input latency: 1
+Number Slow UI thread: 13
+Number Slow bitmap uploads: 6
+Number Slow issue draw commands: 5
+
+Package: com.ziroom.ziroomcustomer
+Stats since: 10767444835160ns
+Total frames rendered: 3330
+Janky frames: 133 (3.99%)
+90th percentile: 15ms
+95th percentile: 16ms
+99th percentile: 26ms
+Number Missed Vsync: 16
+Number High input latency: 1
+Number Slow UI thread: 51
+Number Slow bitmap uploads: 18
+Number Slow issue draw commands: 47
+
+Package: com.tianyancha.skyeye
+Stats since: 13365381158700ns
+Total frames rendered: 48298
+Janky frames: 3379 (7.00%)
+90th percentile: 15ms
+95th percentile: 17ms
+99th percentile: 36ms
+Number Missed Vsync: 342
+Number High input latency: 4
+Number Slow UI thread: 959
+Number Slow bitmap uploads: 68
+Number Slow issue draw commands: 1187
+
+Package: com.qihoo.browser
+Stats since: 22088899569644ns
+Total frames rendered: 25
+Janky frames: 3 (12.00%)
+90th percentile: 30ms
+95th percentile: 53ms
+99th percentile: 73ms
+Number Missed Vsync: 3
+Number High input latency: 0
+Number Slow UI thread: 3
+Number Slow bitmap uploads: 0
+Number Slow issue draw commands: 1
+
+Package: com.android.packageinstaller
+Stats since: 559948006607ns
+Total frames rendered: 3751
+Janky frames: 102 (2.72%)
+90th percentile: 10ms
+95th percentile: 12ms
+99th percentile: 19ms
+Number Missed Vsync: 8
+Number High input latency: 0
+Number Slow UI thread: 14
+Number Slow bitmap uploads: 5
+Number Slow issue draw commands: 84
+
+Package: com.yulong.android.ota
+Stats since: 49764194249ns
+Total frames rendered: 15
+Janky frames: 11 (73.33%)
+90th percentile: 77ms
+95th percentile: 133ms
+99th percentile: 133ms
+Number Missed Vsync: 1
+Number High input latency: 0
+Number Slow UI thread: 1
+Number Slow bitmap uploads: 0
+Number Slow issue draw commands: 10
+
+Package: com.tianyancha.skyeye
+Stats since: 22861735146120ns
+Total frames rendered: 36096
+Janky frames: 507 (1.40%)
+90th percentile: 8ms
+95th percentile: 8ms
+99th percentile: 21ms
+Number Missed Vsync: 147
+Number High input latency: 5
+Number Slow UI thread: 249
+Number Slow bitmap uploads: 45
+Number Slow issue draw commands: 169
+
+Package: com.tencent.mobileqq
+Stats since: 184980290240ns
+Total frames rendered: 2258
+Janky frames: 324 (14.35%)
+90th percentile: 20ms
+95th percentile: 24ms
+99th percentile: 69ms
+Number Missed Vsync: 61
+Number High input latency: 0
+Number Slow UI thread: 243
+Number Slow bitmap uploads: 17
+Number Slow issue draw commands: 93
+
+Package: com.tencent.mobileqq
+Stats since: 10122108895771ns
+Total frames rendered: 471
+Janky frames: 35 (7.43%)
+90th percentile: 13ms
+95th percentile: 24ms
+99th percentile: 57ms
+Number Missed Vsync: 17
+Number High input latency: 0
+Number Slow UI thread: 25
+Number Slow bitmap uploads: 2
+Number Slow issue draw commands: 7
+
+Package: com.sina.weibo
+Stats since: 12448157036863ns
+Total frames rendered: 106
+Janky frames: 7 (6.60%)
+90th percentile: 8ms
+95th percentile: 20ms
+99th percentile: 113ms
+Number Missed Vsync: 2
+Number High input latency: 0
+Number Slow UI thread: 6
+Number Slow bitmap uploads: 1
+Number Slow issue draw commands: 4
+

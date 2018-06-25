@@ -1,0 +1,302 @@
+Current Location Manager state:
+  Location Listeners:
+    Reciever[2c934 listener UpdateRecord[passive com.amap.android.location(10090) Request[POWER_NONE passive fastest=+1s0ms]]]
+    Reciever[2aed6a1 listener UpdateRecord[passive android(1000) Request[POWER_NONE passive fastest=0]]]
+    Reciever[fb3227 listener UpdateRecord[passive android(1000) Request[POWER_NONE passive fastest=+1ms]]]
+    Reciever[cb60221 listener UpdateRecord[passive android(1000) Request[POWER_NONE passive fastest=0]]]
+    Reciever[b3b976e listener UpdateRecord[network android(1000) Request[POWER_LOW network requested=+24h0m0s0ms fastest=+24h0m0s0ms]]]
+  Active Records by Provider:
+    network:
+      UpdateRecord[network android(1000) Request[POWER_LOW network requested=+24h0m0s0ms fastest=+24h0m0s0ms]]
+    gps:
+    passive:
+      UpdateRecord[passive android(1000) Request[POWER_NONE passive fastest=0]]
+      UpdateRecord[passive android(1000) Request[POWER_NONE passive fastest=+1ms]]
+      UpdateRecord[passive android(1000) Request[POWER_NONE passive fastest=0]]
+      UpdateRecord[passive com.amap.android.location(10090) Request[POWER_NONE passive fastest=+1s0ms]]
+  Historical Records by Provider:
+    com.tencent.mobileqq: gps: Interval 2 seconds: Duration requested 0 out of the last 5798 minutes
+    com.wandoujia.phoenix2: gps: Min interval 0 seconds: Max interval 5 seconds: Duration requested 0 out of the last 5663 minutes
+    com.tianyancha.skyeye: gps: Interval 1 seconds: Duration requested 8 out of the last 82 minutes
+    com.tianyancha.skyeye: passive: Interval 9 seconds: Duration requested 8 out of the last 82 minutes
+    android: network: Interval 86400 seconds: Duration requested 5801 out of the last 5801 minutes: Currently active
+    com.amap.android.location: passive: Interval 1 seconds: Duration requested 5618 out of the last 5798 minutes: Currently active
+    android: passive: Min interval 0 seconds: Max interval 0 seconds: Duration requested 5801 out of the last 5801 minutes: Currently active
+  Last Known Locations:
+  Last Known Locations Coarse Intervals:
+  Location Request List:
+    [
+    Location Request at [2017-12-20 16:51:03]
+      request 2aed6a1 passive Request[POWER_NONE passive fastest=0] from android(1000)
+        >> Location Request is from Android System(1000) print stack dump!.
+java.lang.Throwable: stack dump
+	at com.android.server.LocationManagerService.requestLocationUpdatesLocked(LocationManagerService.java:2099)
+	at com.android.server.LocationManagerService.requestLocationUpdates(LocationManagerService.java:2055)
+	at android.location.LocationManager.requestLocationUpdates(LocationManager.java:908)
+	at android.location.LocationManager.requestLocationUpdates(LocationManager.java:834)
+	at com.android.server.location.GpsLocationProvider$ProviderHandler.initialize(GpsLocationProvider.java:2261)
+	at com.android.server.location.GpsLocationProvider$ProviderHandler.handleMessage(GpsLocationProvider.java:2179)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:158)
+	at android.os.HandlerThread.run(HandlerThread.java:61)
+, 
+    Location Request at [2017-12-20 16:51:03]
+      request fb3227 passive Request[POWER_NONE passive fastest=+1ms] from android(1000)
+        >> Location Request is from Android System(1000) print stack dump!.
+java.lang.Throwable: stack dump
+	at com.android.server.LocationManagerService.requestLocationUpdatesLocked(LocationManagerService.java:2099)
+	at com.android.server.LocationManagerService.requestLocationUpdates(LocationManagerService.java:2055)
+	at android.location.LocationManager.requestLocationUpdates(LocationManager.java:908)
+	at android.location.LocationManager.requestLocationUpdates(LocationManager.java:469)
+	at com.samsung.location.lib.e.d(Unknown Source)
+	at com.samsung.location.lib.m.handleMessage(Unknown Source)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:158)
+	at com.samsung.location.SLocationService.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:818)
+, 
+    Location Request at [2017-12-20 16:51:04]
+      request b3b976e network Request[POWER_LOW network requested=+24h0m0s0ms fastest=+24h0m0s0ms] from android(1000)
+        >> Location Request is from Android System(1000) print stack dump!.
+java.lang.Throwable: stack dump
+	at com.android.server.LocationManagerService.requestLocationUpdatesLocked(LocationManagerService.java:2099)
+	at com.android.server.LocationManagerService.requestLocationUpdates(LocationManagerService.java:2055)
+	at android.location.LocationManager.requestLocationUpdates(LocationManager.java:908)
+	at android.location.LocationManager.requestLocationUpdates(LocationManager.java:469)
+	at com.android.server.twilight.TwilightService$LocationHandler.handleMessage(TwilightService.java:274)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:158)
+	at com.android.server.SystemServer.run(SystemServer.java:508)
+	at com.android.server.SystemServer.main(SystemServer.java:363)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1230)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1120)
+, 
+    Location Request at [2017-12-20 16:51:04]
+      request cb60221 passive Request[POWER_NONE passive fastest=0] from android(1000)
+        >> Location Request is from Android System(1000) print stack dump!.
+java.lang.Throwable: stack dump
+	at com.android.server.LocationManagerService.requestLocationUpdatesLocked(LocationManagerService.java:2099)
+	at com.android.server.LocationManagerService.requestLocationUpdates(LocationManagerService.java:2055)
+	at android.location.LocationManager.requestLocationUpdates(LocationManager.java:908)
+	at android.location.LocationManager.requestLocationUpdates(LocationManager.java:469)
+	at com.android.server.twilight.TwilightService$LocationHandler.handleMessage(TwilightService.java:299)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:158)
+	at com.android.server.SystemServer.run(SystemServer.java:508)
+	at com.android.server.SystemServer.main(SystemServer.java:363)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1230)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1120)
+, 
+    Location Remove at [2017-12-20 16:51:06]
+      remove 832b5da by com.samsung.android.app.sreminder, 
+    Location Remove at [2017-12-20 16:51:17]
+      remove d60fe7c by com.samsung.android.app.sreminder, 
+    Location Remove at [2017-12-20 16:51:17]
+      remove 7c08f67 by com.samsung.android.app.sreminder, 
+    Location Remove at [2017-12-20 16:51:25]
+      remove daf80b3 by com.samsung.android.app.sreminder, 
+    Location Remove at [2017-12-20 16:51:42]
+      remove 490e50d by com.samsung.android.app.sreminder, 
+    Location Remove at [2017-12-20 16:52:39]
+      remove 6b2b0bf by com.samsung.android.app.sreminder, 
+    Location Remove at [2017-12-20 16:52:43]
+      remove 7c3021f by com.samsung.android.app.sreminder, 
+    Location Request at [2017-12-20 16:54:04]
+      request 7f6d6b7 passive Request[POWER_NONE passive fastest=+1s0ms] from com.amap.android.location(10090), 
+    Location Request at [2017-12-20 16:54:09]
+      request 74a7f0e gps Request[ACCURACY_FINE gps requested=+2s0ms fastest=+2s0ms] from com.tencent.mobileqq(10356), 
+    Location Remove at [2017-12-20 16:54:09]
+      remove 74a7f0e by com.tencent.mobileqq, 
+    Location Request at [2017-12-20 16:54:09]
+      request 7dac7be gps Request[ACCURACY_FINE gps requested=+2s0ms fastest=+2s0ms] from com.tencent.mobileqq(10356), 
+    Location Remove at [2017-12-20 16:54:11]
+      remove 7dac7be by com.tencent.mobileqq, 
+    Location Request at [2017-12-20 16:54:11]
+      request 872615 gps Request[ACCURACY_FINE gps requested=+2s0ms fastest=+2s0ms] from com.tencent.mobileqq(10356), 
+    Location Remove at [2017-12-20 16:54:13]
+      remove 872615 by com.tencent.mobileqq, 
+    Location Remove at [2017-12-20 16:56:31]
+      remove d11c9f2 by com.samsung.android.app.sreminder, 
+    Location Remove at [2017-12-20 17:34:16]
+      remove 7f6d6b7 by com.amap.android.location, 
+    Location Remove at [2017-12-20 17:34:17]
+      remove 4162f00 by com.samsung.android.app.sreminder, 
+    Location Request at [2017-12-20 19:09:02]
+      request c46b84d gps Request[ACCURACY_FINE gps requested=0 fastest=0] from com.wandoujia.phoenix2(10021), 
+    Location Request at [2017-12-20 19:09:02]
+      request 2760013 gps Request[ACCURACY_FINE gps requested=+5s0ms fastest=+5s0ms] from com.wandoujia.phoenix2(10021), 
+    Location Remove at [2017-12-20 19:09:02]
+      remove c46b84d by com.wandoujia.phoenix2, 
+    Location Remove at [2017-12-20 19:09:02]
+      remove 2760013 by com.wandoujia.phoenix2, 
+    Location Remove at [2017-12-20 19:18:26]
+      remove 922cbc0 by com.samsung.android.app.sreminder, 
+    Location Remove at [2017-12-20 19:28:20]
+      remove e591c3d by com.samsung.android.app.sreminder, 
+    Location Request at [2017-12-20 19:28:20]
+      request 91aaf8a passive Request[POWER_NONE passive fastest=+1s0ms] from com.amap.android.location(10090), 
+    Location Request at [2017-12-20 19:28:40]
+      request 798565f gps Request[ACCURACY_FINE gps requested=+2s0ms fastest=+2s0ms] from com.tencent.mobileqq(10356), 
+    Location Remove at [2017-12-20 19:28:40]
+      remove 798565f by com.tencent.mobileqq, 
+    Location Request at [2017-12-20 19:28:41]
+      request af41cf3 gps Request[ACCURACY_FINE gps requested=+2s0ms fastest=+2s0ms] from com.tencent.mobileqq(10356), 
+    Location Remove at [2017-12-20 19:28:42]
+      remove af41cf3 by com.tencent.mobileqq, 
+    Location Remove at [2017-12-20 19:31:05]
+      remove 58951da by com.samsung.android.app.sreminder, 
+    Location Remove at [2017-12-20 19:33:26]
+      remove c428548 by com.samsung.android.app.sreminder, 
+    Location Request at [2017-12-20 20:43:50]
+      request 44e31ed gps Request[ACCURACY_FINE gps requested=+2s0ms fastest=+2s0ms] from com.tencent.mobileqq(10356), 
+    Location Remove at [2017-12-20 20:43:50]
+      remove 44e31ed by com.tencent.mobileqq, 
+    Location Request at [2017-12-20 20:43:55]
+      request 51ed171 gps Request[ACCURACY_FINE gps requested=+2s0ms fastest=+2s0ms] from com.tencent.mobileqq(10356), 
+    Location Remove at [2017-12-20 20:43:56]
+      remove 51ed171 by com.tencent.mobileqq, 
+    Location Remove at [2017-12-21 02:04:22]
+      remove 6a11194 by com.samsung.android.app.sreminder, 
+    Location Request at [2017-12-21 14:07:08]
+      request b3a7b56 gps Request[ACCURACY_FINE gps requested=0 fastest=0] from com.wandoujia.phoenix2(10021), 
+    Location Request at [2017-12-21 14:07:08]
+      request 57668c4 gps Request[ACCURACY_FINE gps requested=+5s0ms fastest=+5s0ms] from com.wandoujia.phoenix2(10021), 
+    Location Remove at [2017-12-21 14:07:08]
+      remove b3a7b56 by com.wandoujia.phoenix2, 
+    Location Remove at [2017-12-21 14:07:08]
+      remove 57668c4 by com.wandoujia.phoenix2, 
+    Location Remove at [2017-12-21 14:11:23]
+      remove 7d32a5b by com.samsung.android.app.sreminder, 
+    Location Remove at [2017-12-21 14:13:35]
+      remove f6ac914 by com.samsung.android.app.sreminder, 
+    Location Remove at [2017-12-21 14:25:05]
+      remove 8afb0d by com.samsung.android.app.sreminder, 
+    Location Request at [2017-12-22 02:04:32]
+      request a665015 gps Request[ACCURACY_FINE gps requested=+2s0ms fastest=+2s0ms] from com.tencent.mobileqq(10356), 
+    Location Remove at [2017-12-22 02:04:32]
+      remove a665015 by com.tencent.mobileqq, 
+    Location Request at [2017-12-22 02:04:32]
+      request 4f0893 gps Request[ACCURACY_FINE gps requested=+2s0ms fastest=+2s0ms] from com.tencent.mobileqq(10356), 
+    Location Remove at [2017-12-22 02:04:34]
+      remove 4f0893 by com.tencent.mobileqq, 
+    Location Remove at [2017-12-22 02:09:24]
+      remove b54e9d7 by com.samsung.android.app.sreminder, 
+    Location Request at [2017-12-22 05:44:23]
+      request 26ada27 gps Request[ACCURACY_FINE gps requested=+2s0ms fastest=+2s0ms] from com.tencent.mobileqq(10356), 
+    Location Remove at [2017-12-22 05:44:24]
+      remove 26ada27 by com.tencent.mobileqq, 
+    Location Request at [2017-12-22 20:15:09]
+      request 5179bb8 gps Request[ACCURACY_FINE gps requested=0 fastest=0] from com.wandoujia.phoenix2(10021), 
+    Location Request at [2017-12-22 20:15:09]
+      request 8a7a4f6 gps Request[ACCURACY_FINE gps requested=+5s0ms fastest=+5s0ms] from com.wandoujia.phoenix2(10021), 
+    Location Remove at [2017-12-22 20:15:09]
+      remove 5179bb8 by com.wandoujia.phoenix2, 
+    Location Remove at [2017-12-22 20:15:09]
+      remove 8a7a4f6 by com.wandoujia.phoenix2, 
+    Location Request at [2017-12-22 20:22:05]
+      request a78e52d gps Request[ACCURACY_FINE gps requested=+2s0ms fastest=+2s0ms] from com.tencent.mobileqq(10356), 
+    Location Remove at [2017-12-22 20:22:06]
+      remove a78e52d by com.tencent.mobileqq, 
+    Location Request at [2017-12-22 20:22:11]
+      request a6fa7fd gps Request[ACCURACY_FINE gps requested=+2s0ms fastest=+2s0ms] from com.tencent.mobileqq(10356), 
+    Location Remove at [2017-12-22 20:22:11]
+      remove a6fa7fd by com.tencent.mobileqq, 
+    Location Remove at [2017-12-23 02:04:22]
+      remove 37bf79a by com.samsung.android.app.sreminder, 
+    Location Request at [2017-12-23 19:34:26]
+      request 3207754 gps Request[ACCURACY_FINE gps requested=+2s0ms fastest=+2s0ms] from com.tencent.mobileqq(10356), 
+    Location Remove at [2017-12-23 19:34:26]
+      remove 3207754 by com.tencent.mobileqq, 
+    Location Request at [2017-12-23 19:34:26]
+      request 23b2b4a gps Request[ACCURACY_FINE gps requested=+2s0ms fastest=+2s0ms] from com.tencent.mobileqq(10356), 
+    Location Remove at [2017-12-23 19:34:28]
+      remove 23b2b4a by com.tencent.mobileqq, 
+    Location Request at [2017-12-23 23:04:23]
+      request 16e27bb gps Request[ACCURACY_FINE gps requested=+2s0ms fastest=+2s0ms] from com.tencent.mobileqq(10356), 
+    Location Remove at [2017-12-23 23:04:23]
+      remove 16e27bb by com.tencent.mobileqq, 
+    Location Remove at [2017-12-24 02:14:23]
+      remove e685a17 by com.samsung.android.app.sreminder, 
+    Location Remove at [2017-12-24 15:54:27]
+      remove c42e689 by com.samsung.android.app.sreminder, 
+    Location Remove at [2017-12-24 15:54:34]
+      remove 3ac16ce by com.samsung.android.app.sreminder, 
+    Location Request at [2017-12-24 16:09:47]
+      request f4e193e passive Request[POWER_NONE passive fastest=+9s0ms] from com.tianyancha.skyeye(10441), 
+    Location Request at [2017-12-24 16:09:47]
+      request 45e0abb gps Request[ACCURACY_FINE gps requested=+1s0ms fastest=+1s0ms] from com.tianyancha.skyeye(10441), 
+    Location Remove at [2017-12-24 16:13:13]
+      remove 91aaf8a by com.amap.android.location, 
+    Location Remove at [2017-12-24 16:13:13]
+      remove d385df4 by com.samsung.android.app.sreminder, 
+    Location Remove at [2017-12-24 16:14:58]
+      remove afdeb6a by com.samsung.android.app.sreminder, 
+    Location Remove at [2017-12-24 16:18:25]
+      remove 45e0abb by com.tianyancha.skyeye, 
+    Location Remove at [2017-12-24 16:18:25]
+      remove f4e193e by com.tianyancha.skyeye, 
+    Location Remove at [2017-12-24 17:11:42]
+      remove 2c49470 by com.samsung.android.app.sreminder, 
+    Location Remove at [2017-12-24 17:12:45]
+      remove 18b2872 by com.samsung.android.app.sreminder, 
+    Location Remove at [2017-12-24 17:17:26]
+      remove ab53965 by com.samsung.android.app.sreminder, 
+    Location Remove at [2017-12-24 17:17:32]
+      remove 34c643b by com.samsung.android.app.sreminder, 
+    Location Remove at [2017-12-24 17:18:44]
+      remove 7c4e717 by com.samsung.android.app.sreminder, 
+    Location Request at [2017-12-24 17:18:45]
+      request 2c934 passive Request[POWER_NONE passive fastest=+1s0ms] from com.amap.android.location(10090), 
+    Location Request at [2017-12-24 17:18:47]
+      request 5bec9f4 gps Request[ACCURACY_FINE gps requested=+2s0ms fastest=+2s0ms] from com.tencent.mobileqq(10356), 
+    Location Remove at [2017-12-24 17:18:48]
+      remove 5bec9f4 by com.tencent.mobileqq, 
+    Location Request at [2017-12-24 17:18:49]
+      request 774f884 gps Request[ACCURACY_FINE gps requested=+2s0ms fastest=+2s0ms] from com.tencent.mobileqq(10356), 
+    Location Remove at [2017-12-24 17:18:50]
+      remove 774f884 by com.tencent.mobileqq]
+  Geofences:
+  Enabled Providers:
+    fused
+    passive
+  mWhitelist=[] mBlacklist=[]
+  fudger: offset: -25, -684 (meters)
+passive Internal State:
+mReportLocation=true
+gps Internal State:
+  mFixInterval=1000
+  mDisableGps (battery saver mode)=false
+  mEngineCapabilities=0x37 (SCHED MSB MSA ON_DEMAND_TIME )
+nullnetwork Internal State (com.amap.android.location):
+REMOTE SERVICE name=network pkg=com.amap.android.location version=2147483647
+fused Internal State (com.sec.location.nsflp2):
+REMOTE SERVICE name=fused pkg=com.sec.location.nsflp2 version=100
+##### NS-FLP #####
+AllRequestList - Running Processes
+GpsMonitorList
+NlpMonitorList
+FusedMonitorList
+DetectList
+ValidList
+GpsRequestList
+NlpRequestList
+FusedRequestList
+GpsPausedList
+NlpPausedList
+FusedPausedList
+GpsRequestListForWIFI
+WorkSource
+null
+FusedStatus
+mEnabled=false null
+Location(GPS)=null
+Location(NLP)=null
+    isGpsAvaialble=false
+    isNlpAvaialble=true
+Version=2.1.13
+BLGPS size=101
+BLNLP size=49
+BL Version=20170413000029
+SVNum0UsedSV0/AvgSignalPower=0

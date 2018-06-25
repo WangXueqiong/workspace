@@ -1,0 +1,55 @@
+NetworkFactories for: Telephony Ethernet WIFI_UT WIFI Telephony
+
+Active default network: none
+
+Current Networks:
+  NetworkAgentInfo{ ni{[type: WIFI[], state: CONNECTING/OBTAINING_IPADDR, reason: (unspecified), extra: "JD-office", roaming: false, failover: false, isAvailable: true]}  network{1002}  lp{{InterfaceName: wlan0 LinkAddresses: [fe80::b6ef:faff:fe8e:a3d8/64,]  Routes: [fe80::/64 -> :: wlan0,] DnsAddresses: [] Domains: null MTU: 0 TcpBufferSizes: 524288,1048576,2097152,262144,524288,1048576 PcscfAddresses: [] }}  nc{[ Transports: WIFI Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN LinkUpBandwidth>=1048576Kbps LinkDnBandwidth>=1048576Kbps]}  Score{20}  everValidated{false}  lastValidated{false}  created{false} lingering{false} explicitlySelected{false} acceptUnvalidated{false} everCaptivePortalDetected{false} lastCaptivePortalDetected{false} }
+    Requests:
+    Lingered:
+
+Network Requests:
+  Listen from uid/pid:10131/1938 for NetworkRequest [ id=3, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+  Request from uid/pid:1000/1125 for NetworkRequest [ id=1, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+  Listen from uid/pid:10010/2147 for NetworkRequest [ id=9, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+  Listen from uid/pid:10134/6298 for NetworkRequest [ id=8, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ]
+  Listen from uid/pid:10134/8537 for NetworkRequest [ id=12, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ]
+  Listen from uid/pid:10038/1629 for NetworkRequest [ id=4, legacyType=-1, [] ]
+  
+mLegacyTypeTracker:
+  Supported types: 0 1 2 3 4 5 7 10 11 12 14 15 17 34 35 36 37 38 40 41 49
+  Current state:
+
+mNetTransitionWakeLock: currently held, last requested for NetworkAgentInfo [WIFI () - 1001]
+
+Tethering:
+  mUpstreamIfaceTypes: MOBILE WIFI MOBILE_HIPRI BLUETOOTH ETHERNET 49
+  Tether state:
+
+mValidationLogs (most recent first):
+1002
+1001
+  12-24 16:50:14.338 - Checking http://204.scloud.letv.com/generate_204 on "JD-office", 204.scloud.letv.com=123.59.123.244
+  12-24 16:50:14.369 - isCaptivePortal: ret=204 headers={null=[HTTP/1.1 204 No Content], Connection=[keep-alive], Date=[Sun, 24 Dec 2017 08:50:14 GMT], Leeco=[0.002-SLBMTIzLjU5LjEyMy4xMzcK-ID204129.30.0:80-204], Server=[nginx], X-Android-Received-Millis=[1514105414368], X-Android-Response-Source=[NETWORK 204], X-Android-Selected-Protocol=[http/1.1], X-Android-Sent-Millis=[1514105414357]}
+1000
+  12-24 16:34:53.429 - Checking http://204.scloud.letv.com/generate_204 on "JD-office", 204.scloud.letv.com=123.59.123.244
+  12-24 16:35:00.763 - isCaptivePortal: ret=204 headers={null=[HTTP/1.1 204 No Content], Connection=[keep-alive], Date=[Sun, 24 Dec 2017 08:35:01 GMT], Leeco=[0.001-SLBMTIzLjU5LjEyMy42Ngo=-ID204112.38.88:80-204], Server=[nginx], X-Android-Received-Millis=[1514104500754], X-Android-Response-Source=[NETWORK 204], X-Android-Selected-Protocol=[http/1.1], X-Android-Sent-Millis=[1514104493440]}
+
+mNetworkRequestInfoLogs (most recent first):
+  12-24 17:22:08.805 - RELEASE Listen from uid/pid:10140/9473 for NetworkRequest [ id=13, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+  12-24 17:20:03.782 - REGISTER Listen from uid/pid:10140/9473 for NetworkRequest [ id=13, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+  12-24 17:15:11.103 - RELEASE Listen from uid/pid:10140/7122 for NetworkRequest [ id=10, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+  12-24 16:53:12.814 - RELEASE Listen from uid/pid:10134/8537 for NetworkRequest [ id=11, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ]
+  12-24 16:53:09.957 - REGISTER Listen from uid/pid:10134/8537 for NetworkRequest [ id=12, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ]
+  12-24 16:53:09.871 - REGISTER Listen from uid/pid:10134/8537 for NetworkRequest [ id=11, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ]
+  12-24 16:50:21.167 - REGISTER Listen from uid/pid:10140/7122 for NetworkRequest [ id=10, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+  12-24 16:49:46.871 - REGISTER Listen from uid/pid:10010/2147 for NetworkRequest [ id=9, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+  12-24 16:48:24.082 - RELEASE Listen from uid/pid:10139/5668 for NetworkRequest [ id=6, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+  12-24 16:39:01.018 - RELEASE Listen from uid/pid:10134/6298 for NetworkRequest [ id=7, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ]
+  12-24 16:38:58.661 - REGISTER Listen from uid/pid:10134/6298 for NetworkRequest [ id=8, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ]
+  12-24 16:38:58.563 - REGISTER Listen from uid/pid:10134/6298 for NetworkRequest [ id=7, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ]
+  12-24 16:38:32.809 - REGISTER Listen from uid/pid:10139/5668 for NetworkRequest [ id=6, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+  12-24 16:38:17.933 - RELEASE Listen from uid/pid:1001/4911 for NetworkRequest [ id=5, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+  12-24 16:35:27.641 - REGISTER Listen from uid/pid:1001/4911 for NetworkRequest [ id=5, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+  12-24 16:34:54.229 - REGISTER Listen from uid/pid:10038/1629 for NetworkRequest [ id=4, legacyType=-1, [] ]
+  12-24 16:34:49.417 - REGISTER Listen from uid/pid:10131/1938 for NetworkRequest [ id=3, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+  12-24 16:34:42.638 - REGISTER Request from uid/pid:1000/1125 for NetworkRequest [ id=1, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]

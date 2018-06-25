@@ -1,0 +1,32 @@
+          client              pid             size
+----------------------------------------------------
+     mediaserver              346           131072
+     mediaserver              346           434176
+     mediaserver              346           434176
+       voc_cal-0              199             4096
+   voip_client-0              199             8192
+   voip_client-1              199             4096
+   adsprpc-smd-0                1            12288
+----------------------------------------------------
+orphaned allocations (info is from last known client):
+----------------------------------------------------
+  total orphaned                0
+          total            593920
+----------------------------------------------------
+total bytes currently allocated: 91000
+total heap size: 614000
+
+Memory Map
+          client  start address    end address     size (hex)
+       voc_cal-0 0x76000000 0x76000fff           4096 (1000)
+   voip_client-0 0x76001000 0x76002fff           8192 (2000)
+   voip_client-1 0x76003000 0x76003fff           4096 (1000)
+   adsprpc-smd-0 0x76004000 0x76004fff           4096 (1000)
+audio_acdb_client-0 0x76005000 0x7606efff         434176 (6a000)
+           346-0 0x76005000 0x7606efff         434176 (6a000)
+            FREE 0x7606f000 0x7608efff         131072 (20000)
+   adsprpc-smd-0 0x7608f000 0x7608ffff           4096 (1000)
+   adsprpc-smd-0 0x76090000 0x76090fff           4096 (1000)
+  audio_client-2 0x76091000 0x760b0fff         131072 (20000)
+            FREE       760b1000       76613fff        5648384 (563000)
+

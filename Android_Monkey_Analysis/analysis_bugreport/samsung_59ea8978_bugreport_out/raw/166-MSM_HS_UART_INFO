@@ -1,0 +1,2144 @@
+[  9082.724448432] Queing bam descriptor
+[  9082.724807338] msm_hs_submit_tx_locked(): [UART_TX]<12>
+[  9082.724812442] HSUART write:  : 01 54 fd 08 04 a0 01 ff 93 e0 7f 04              .T..........
+[  9082.724817754] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[  9082.724822182] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9082.724827754] SR:a84 ISR:82ab DMRX:0 RX_SNAP:f TXFS:2000 RXFS:0
+[  9082.724826765] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e445a, size=0xc, flags=0xc000, line=0
+[  9082.724831348] clk_req_state:0x0 rx.flush:0
+[  9082.724833432] clk_state:3
+[  9082.724837286] In msm_serial_hs_tx_tlet()
+[  9082.724841661] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9082.724847234] SR:a84 ISR:82ab DMRX:0 RX_SNAP:f TXFS:800 RXFS:0
+[  9082.724850515] clk_req_state:0x0 rx.flush:0
+[  9082.724852598] clk_state:3
+[  9082.725648067] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0x8, flags=0xe000
+[  9082.725657234] In msm_serial_hs_rx_tlet
+[  9082.725661296] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9082.725667077] SR:a8c ISR:82ab DMRX:0 RX_SNAP:8 TXFS:0 RXFS:0
+[  9082.725670723] clk_req_state:0x0 rx.flush:0
+[  9082.725672754] clk_state:3
+[  9082.725674786] msm_serial_hs_rx_tlet():[UART_RX]<8>
+[  9082.725679577] HSUART Read:  : 04 0e 05 01 54 fd 00 04                          ....T...
+[  9082.725683067] Queing bam descriptor
+[  9082.725957025] msm_hs_submit_tx_locked(): [UART_TX]<12>
+[  9082.725961869] HSUART write:  : 01 54 fd 08 04 cc 25 ad 32 86 70 04              .T....%.2.p.
+[  9082.725967754] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[  9082.725972859] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9082.725978900] SR:a84 ISR:82ab DMRX:0 RX_SNAP:8 TXFS:2000 RXFS:0
+[  9082.725978275] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e4466, size=0xc, flags=0xc000, line=0
+[  9082.725982234] clk_req_state:0x0 rx.flush:0
+[  9082.725984525] clk_state:3
+[  9082.725987963] In msm_serial_hs_tx_tlet()
+[  9082.725992702] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9082.725997911] SR:a84 ISR:82ab DMRX:0 RX_SNAP:8 TXFS:800 RXFS:0
+[  9082.726001557] clk_req_state:0x0 rx.flush:0
+[  9082.726003744] clk_state:3
+[  9082.726901452] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0x8, flags=0xe000
+[  9082.726910671] In msm_serial_hs_rx_tlet
+[  9082.726914734] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9082.726920567] SR:a8c ISR:82ab DMRX:0 RX_SNAP:8 TXFS:0 RXFS:0
+[  9082.726924109] clk_req_state:0x0 rx.flush:0
+[  9082.726926192] clk_state:3
+[  9082.726928171] msm_serial_hs_rx_tlet():[UART_RX]<8>
+[  9082.726933067] HSUART Read:  : 04 0e 05 01 54 fd 00 04                          ....T...
+[  9082.726936348] Queing bam descriptor
+[  9082.727403952] msm_hs_submit_tx_locked(): [UART_TX]<12>
+[  9082.727408744] HSUART write:  : 01 54 fd 08 04 76 83 b8 81 ce 4b 03              .T...v....K.
+[  9082.727414317] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[  9082.727419161] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9082.727424786] SR:a84 ISR:82ab DMRX:0 RX_SNAP:8 TXFS:2000 RXFS:0
+[  9082.727423900] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e4472, size=0xc, flags=0xc000, line=0
+[  9082.727428171] clk_req_state:0x0 rx.flush:0
+[  9082.727430307] clk_state:3
+[  9082.727433848] In msm_serial_hs_tx_tlet()
+[  9082.727438692] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9082.727444525] SR:a84 ISR:82ab DMRX:0 RX_SNAP:8 TXFS:800 RXFS:0
+[  9082.727448171] clk_req_state:0x0 rx.flush:0
+[  9082.727451088] clk_state:3
+[  9082.728151088] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0x8, flags=0xe000
+[  9082.728160411] In msm_serial_hs_rx_tlet
+[  9082.728164577] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9082.728169473] SR:a8c ISR:82ab DMRX:0 RX_SNAP:8 TXFS:0 RXFS:0
+[  9082.728172702] clk_req_state:0x0 rx.flush:0
+[  9082.728174786] clk_state:3
+[  9082.728177390] msm_serial_hs_rx_tlet():[UART_RX]<8>
+[  9082.728182077] HSUART Read:  : 04 0e 05 01 54 fd 00 04                          ....T...
+[  9082.728185619] Queing bam descriptor
+[  9082.728772338] msm_hs_submit_tx_locked(): [UART_TX]<12>
+[  9082.728777650] HSUART write:  : 01 54 fd 08 04 0f 78 38 40 f0 4b 03              .T....x8@.K.
+[  9082.728783119] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[  9082.728787754] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9082.728793692] SR:a84 ISR:82ab DMRX:0 RX_SNAP:8 TXFS:2000 RXFS:0
+[  9082.728793015] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e447e, size=0xc, flags=0xc000, line=0
+[  9082.728797077] clk_req_state:0x0 rx.flush:0
+[  9082.728799629] clk_state:3
+[  9082.728803015] In msm_serial_hs_tx_tlet()
+[  9082.728807650] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9082.728812702] SR:a84 ISR:82ab DMRX:0 RX_SNAP:8 TXFS:800 RXFS:0
+[  9082.728816452] clk_req_state:0x0 rx.flush:0
+[  9082.728818744] clk_state:3
+[  9082.729402390] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0x8, flags=0xe000
+[  9082.729410671] In msm_serial_hs_rx_tlet
+[  9082.729414525] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9082.729419473] SR:a8c ISR:82ab DMRX:0 RX_SNAP:8 TXFS:0 RXFS:0
+[  9082.729423015] clk_req_state:0x0 rx.flush:0
+[  9082.729425098] clk_state:3
+[  9082.729427077] msm_serial_hs_rx_tlet():[UART_RX]<8>
+[  9082.729432025] HSUART Read:  : 04 0e 05 01 54 fd 00 04                          ....T...
+[  9082.729435254] Queing bam descriptor
+[  9082.730181921] msm_hs_submit_tx_locked(): [UART_TX]<12>
+[  9082.730186452] HSUART write:  : 01 54 fd 08 04 63 d2 f6 f3 c7 64 02              .T...c....d.
+[  9082.730191348] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[  9082.730195984] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9082.730201661] SR:a84 ISR:82ab DMRX:0 RX_SNAP:8 TXFS:2000 RXFS:0
+[  9082.730200671] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e448a, size=0xc, flags=0xc000, line=0
+[  9082.730205098] clk_req_state:0x0 rx.flush:0
+[  9082.730207286] clk_state:3
+[  9082.730211036] In msm_serial_hs_tx_tlet()
+[  9082.730215359] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9082.730220567] SR:a84 ISR:82ab DMRX:0 RX_SNAP:8 TXFS:800 RXFS:0
+[  9082.730223900] clk_req_state:0x0 rx.flush:0
+[  9082.730226088] clk_state:3
+[  9082.730654109] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0x8, flags=0xe000
+[  9082.730662390] In msm_serial_hs_rx_tlet
+[  9082.730666192] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9082.730671140] SR:a8c ISR:82ab DMRX:0 RX_SNAP:8 TXFS:0 RXFS:0
+[  9082.730674317] clk_req_state:0x0 rx.flush:0
+[  9082.730676400] clk_state:3
+[  9082.730678796] msm_serial_hs_rx_tlet():[UART_RX]<8>
+[  9082.730683015] HSUART Read:  : 04 0e 05 01 54 fd 00 04                          ....T...
+[  9082.730686140] Queing bam descriptor
+[  9082.731443640] msm_hs_submit_tx_locked(): [UART_TX]<12>
+[  9082.731447963] HSUART write:  : 01 54 fd 08 04 ae 8a fe c1 dc 49 02              .T........I.
+[  9082.731453171] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[  9082.731457650] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9082.731463588] SR:a84 ISR:82ab DMRX:0 RX_SNAP:8 TXFS:2000 RXFS:0
+[  9082.731462963] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e4496, size=0xc, flags=0xc000, line=0
+[  9082.731466921] clk_req_state:0x0 rx.flush:0
+[  9082.731469057] clk_state:3
+[  9082.731472598] In msm_serial_hs_tx_tlet()
+[  9082.731477650] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9082.731482807] SR:a84 ISR:82ab DMRX:0 RX_SNAP:8 TXFS:800 RXFS:0
+[  9082.731486400] clk_req_state:0x0 rx.flush:0
+[  9082.731488484] clk_state:3
+[  9082.731905046] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0x8, flags=0xe000
+[  9082.731913015] In msm_serial_hs_rx_tlet
+[  9082.731917077] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9082.731922390] SR:a8c ISR:82ab DMRX:0 RX_SNAP:8 TXFS:0 RXFS:0
+[  9082.731926088] clk_req_state:0x0 rx.flush:0
+[  9082.731928900] clk_state:3
+[  9082.731930879] msm_serial_hs_rx_tlet():[UART_RX]<8>
+[  9082.731935463] HSUART Read:  : 04 0e 05 01 54 fd 00 04                          ....T...
+[  9082.731938588] Queing bam descriptor
+[  9082.732218275] msm_hs_submit_tx_locked(): [UART_TX]<12>
+[  9082.732222650] HSUART write:  : 01 54 fd 08 04 57 cc c3 16 af 58 01              .T...W....X.
+[  9082.732227598] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[  9082.732232754] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9082.732238432] SR:a84 ISR:82ab DMRX:0 RX_SNAP:8 TXFS:2000 RXFS:0
+[  9082.732237390] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e44a2, size=0xc, flags=0xc000, line=0
+[  9082.732241817] clk_req_state:0x0 rx.flush:0
+[  9082.732243848] clk_state:3
+[  9082.732247286] In msm_serial_hs_tx_tlet()
+[  9082.732251296] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9082.732256609] SR:a84 ISR:82ab DMRX:0 RX_SNAP:8 TXFS:800 RXFS:0
+[  9082.732259838] clk_req_state:0x0 rx.flush:0
+[  9082.732261973] clk_state:3
+[  9082.733156609] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0x8, flags=0xe000
+[  9082.733165515] In msm_serial_hs_rx_tlet
+[  9082.733169473] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9082.733175202] SR:a8c ISR:82ab DMRX:0 RX_SNAP:8 TXFS:0 RXFS:0
+[  9082.733178848] clk_req_state:0x0 rx.flush:0
+[  9082.733180984] clk_state:3
+[  9082.733182963] msm_serial_hs_rx_tlet():[UART_RX]<8>
+[  9082.733187754] HSUART Read:  : 04 0e 05 01 54 fd 00 04                          ....T...
+[  9082.733191036] Queing bam descriptor
+[  9082.733440359] msm_hs_submit_tx_locked(): [UART_TX]<12>
+[  9082.733444786] HSUART write:  : 01 54 fd 08 04 51 c2 82 23 41 49 01              .T...Q..#AI.
+[  9082.733450254] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[  9082.733455202] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9082.733460671] SR:a84 ISR:82ab DMRX:0 RX_SNAP:8 TXFS:2000 RXFS:0
+[  9082.733459421] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e44ae, size=0xc, flags=0xc000, line=0
+[  9082.733464057] clk_req_state:0x0 rx.flush:0
+[  9082.733466140] clk_state:3
+[  9082.733470046] In msm_serial_hs_tx_tlet()
+[  9082.733474421] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9082.733480046] SR:a84 ISR:82ab DMRX:0 RX_SNAP:8 TXFS:800 RXFS:0
+[  9082.733483744] clk_req_state:0x0 rx.flush:0
+[  9082.733485827] clk_state:3
+[  9082.734407911] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0x8, flags=0xe000
+[  9082.734417754] In msm_serial_hs_rx_tlet
+[  9082.734422025] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9082.734427963] SR:a8c ISR:82ab DMRX:0 RX_SNAP:8 TXFS:0 RXFS:0
+[  9082.734431192] clk_req_state:0x0 rx.flush:0
+[  9082.734433327] clk_state:3
+[  9082.734435359] msm_serial_hs_rx_tlet():[UART_RX]<8>
+[  9082.734439942] HSUART Read:  : 04 0e 05 01 54 fd 00 04                          ....T...
+[  9082.734443275] Queing bam descriptor
+[  9082.734705515] msm_hs_submit_tx_locked(): [UART_TX]<10>
+[  9082.734710411] HSUART write:  : 01 05 20 06 0a a0 89 39 89 54                    .. ....9.T
+[  9082.734716140] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[  9082.734720827] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9082.734726504] SR:a84 ISR:82ab DMRX:0 RX_SNAP:8 TXFS:1800 RXFS:0
+[  9082.734725723] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e44ba, size=0xa, flags=0xc000, line=0
+[  9082.734729994] clk_req_state:0x0 rx.flush:0
+[  9082.734732129] clk_state:3
+[  9082.734735775] In msm_serial_hs_tx_tlet()
+[  9082.734739838] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9082.734745463] SR:a84 ISR:82ab DMRX:0 RX_SNAP:8 TXFS:0 RXFS:0
+[  9082.734748744] clk_req_state:0x0 rx.flush:0
+[  9082.734750827] clk_state:3
+[  9082.735629213] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0x7, flags=0xe000
+[  9082.735637494] In msm_serial_hs_rx_tlet
+[  9082.735641713] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9082.735646973] SR:a8c ISR:82ab DMRX:0 RX_SNAP:7 TXFS:0 RXFS:0
+[  9082.735650775] clk_req_state:0x0 rx.flush:0
+[  9082.735652911] clk_state:3
+[  9082.735655307] msm_serial_hs_rx_tlet():[UART_RX]<7>
+[  9082.735659577] HSUART Read:  : 04 0e 04 01 05 20 00                             ..... .
+[  9082.735662859] Queing bam descriptor
+[  9082.735913640] msm_hs_submit_tx_locked(): [UART_TX]<10>
+[  9082.735919577] HSUART write:  : 01 05 20 06 71 06 1c fc 23 42                    .. .q...#B
+[  9082.735925254] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[  9082.735929786] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9082.735935254] SR:a84 ISR:82ab DMRX:0 RX_SNAP:7 TXFS:1800 RXFS:0
+[  9082.735933900] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e44c4, size=0xa, flags=0xc000, line=0
+[  9082.735939057] clk_req_state:0x0 rx.flush:0
+[  9082.735941192] clk_state:3
+[  9082.735945515] In msm_serial_hs_tx_tlet()
+[  9082.735949890] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9082.735955723] SR:a84 ISR:82ab DMRX:0 RX_SNAP:7 TXFS:0 RXFS:0
+[  9082.735959734] clk_req_state:0x0 rx.flush:0
+[  9082.735961817] clk_state:3
+[  9082.736879838] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0x7, flags=0xe000
+[  9082.736888796] In msm_serial_hs_rx_tlet
+[  9082.736892650] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9082.736898223] SR:a8c ISR:82ab DMRX:0 RX_SNAP:7 TXFS:0 RXFS:0
+[  9082.736901504] clk_req_state:0x0 rx.flush:0
+[  9082.736903588] clk_state:3
+[  9082.736905723] msm_serial_hs_rx_tlet():[UART_RX]<7>
+[  9082.736910150] HSUART Read:  : 04 0e 04 01 05 20 00                             ..... .
+[  9082.736913536] Queing bam descriptor
+[  9084.702607858] msm_hs_tx_empty(): SR Reg Read 0xa8c
+[  9084.702703275] msm_hs_request_clock_off(): TXEMT, queuing clock off work
+[  9084.702844629] In msm_hs_check_clock_off:
+[  9084.702860411] In msm_hs_stop_rx_locked():
+[  9084.702918171] msm_hs_check_clock_off: rx.flush 4 clk_state 2
+[  9084.703368744] hsuart_disconnect_rx_endpoint_work: Calling Completion
+[  9084.703388223] hsuart_disconnect_rx_endpoint_work: Done Completion
+[  9084.704067025] In msm_hs_check_clock_off:
+[  9084.704118796] Bus voting:0
+[  9084.707417702] msm_hs_clock_unvote: Clock OFF successful
+[  9170.227829881] Bus voting:1
+[  9170.230358423] msm_hs_clock_vote: Clock ON successful
+[  9170.230364777] msm_hs_request_clock_on:clock state 3
+
+[  9170.230371652] msm_hs_request_clock_on: rx.flush 5
+[  9170.230606392] msm_hs_start_rx_locked:Enqueue Rx Cmd
+[  9170.230618110] MR1:70 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9170.230629569] SR:20c ISR:82e1 DMRX:0 RX_SNAP:0 TXFS:0 RXFS:0
+[  9170.230634569] clk_req_state:0x0 rx.flush:0
+[  9170.230637173] clk_state:3
+[  9170.230639621] msm_hs_request_clock_on:Clock ON Successful
+[  9170.230649413] MR1:70 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9170.230659360] SR:20c ISR:82e1 DMRX:0 RX_SNAP:0 TXFS:0 RXFS:0
+[  9170.230663423] clk_req_state:0x0 rx.flush:0
+[  9170.230665975] clk_state:3
+[  9170.230810923] msm_hs_submit_tx_locked(): [UART_TX]<4>
+[  9170.230818110] HSUART write:  : 01 59 fd 00                                      .Y..
+[  9170.230827694] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[  9170.230836965] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9170.230847746] SR:204 ISR:82e1 DMRX:0 RX_SNAP:0 TXFS:c00 RXFS:0
+[  9170.230851860] clk_req_state:0x0 rx.flush:0
+[  9170.230854360] clk_state:3
+[  9170.230854985] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e44ce, size=0x4, flags=0xc000, line=0
+[  9170.230869308] In msm_serial_hs_tx_tlet()
+[  9170.230880194] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9170.230890715] SR:204 ISR:82e1 DMRX:0 RX_SNAP:0 TXFS:c00 RXFS:0
+[  9170.230894933] clk_req_state:0x0 rx.flush:0
+[  9170.230897538] clk_state:3
+[  9170.236358006] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0x17, flags=0xe000
+[  9170.236371652] In msm_serial_hs_rx_tlet
+[  9170.236380923] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9170.236391235] SR:a8c ISR:82ab DMRX:0 RX_SNAP:17 TXFS:0 RXFS:0
+[  9170.236396288] clk_req_state:0x0 rx.flush:0
+[  9170.236398944] clk_state:3
+[  9170.236402433] msm_serial_hs_rx_tlet():[UART_RX]<23>
+[  9170.236410454] HSUART Read:  : 04 0e 14 01 59 fd 00 00 00 00 00 87 0a 00 00 c0  ....Y...........
+[  9170.236415454] Queing bam descriptor
+[  9172.232570089] msm_hs_tx_empty(): SR Reg Read 0xa8c
+[  9172.232607069] msm_hs_request_clock_off(): TXEMT, queuing clock off work
+[  9172.232660923] In msm_hs_check_clock_off:
+[  9172.232666131] In msm_hs_stop_rx_locked():
+[  9172.232687277] msm_hs_check_clock_off: rx.flush 4 clk_state 2
+[  9172.232927277] hsuart_disconnect_rx_endpoint_work: Calling Completion
+[  9172.232933423] hsuart_disconnect_rx_endpoint_work: Done Completion
+[  9172.233782381] In msm_hs_check_clock_off:
+[  9172.233803839] Bus voting:0
+[  9172.237328996] msm_hs_clock_unvote: Clock OFF successful
+[  9444.836324698] Bus voting:1
+[  9444.838817042] msm_hs_clock_vote: Clock ON successful
+[  9444.838821625] msm_hs_request_clock_on:clock state 3
+
+[  9444.838825010] msm_hs_request_clock_on: rx.flush 5
+[  9444.839003969] msm_hs_start_rx_locked:Enqueue Rx Cmd
+[  9444.839009958] MR1:70 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9444.839015479] SR:20c ISR:82e1 DMRX:0 RX_SNAP:0 TXFS:0 RXFS:0
+[  9444.839018135] clk_req_state:0x0 rx.flush:0
+[  9444.839021208] clk_state:3
+[  9444.839023969] msm_hs_request_clock_on:Clock ON Successful
+[  9444.839028344] MR1:70 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9444.839033031] SR:20c ISR:82e1 DMRX:0 RX_SNAP:0 TXFS:0 RXFS:0
+[  9444.839035427] clk_req_state:0x0 rx.flush:0
+[  9444.839037094] clk_state:3
+[  9444.839135479] msm_hs_submit_tx_locked(): [UART_TX]<5>
+[  9444.839139698] HSUART write:  : 01 1a 0c 01 02                                   .....
+[  9444.839144854] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[  9444.839148865] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9444.839153917] SR:204 ISR:82e1 DMRX:0 RX_SNAP:0 TXFS:1000 RXFS:0
+[  9444.839156677] clk_req_state:0x0 rx.flush:0
+[  9444.839158500] clk_state:3
+[  9444.839156052] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e44d2, size=0x5, flags=0xc000, line=0
+[  9444.839164906] In msm_serial_hs_tx_tlet()
+[  9444.839169698] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9444.839174594] SR:204 ISR:82e1 DMRX:0 RX_SNAP:0 TXFS:1000 RXFS:0
+[  9444.839176990] clk_req_state:0x0 rx.flush:0
+[  9444.839178552] clk_state:3
+[  9444.844626469] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0x7, flags=0xe000
+[  9444.844653396] In msm_serial_hs_rx_tlet
+[  9444.844657875] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9444.844663135] SR:a8c ISR:82ab DMRX:0 RX_SNAP:7 TXFS:0 RXFS:0
+[  9444.844665583] clk_req_state:0x0 rx.flush:0
+[  9444.844667198] clk_state:3
+[  9444.844669333] msm_serial_hs_rx_tlet():[UART_RX]<7>
+[  9444.844673083] HSUART Read:  : 04 0e 04 01 1a 0c 00                             .......
+[  9444.844676365] Queing bam descriptor
+[  9444.845943031] msm_hs_submit_tx_locked(): [UART_TX]<5>
+[  9444.845949281] HSUART write:  : 01 1a 0c 01 00                                   .....
+[  9444.845957094] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[  9444.845962458] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9444.845968083] SR:a84 ISR:82ab DMRX:0 RX_SNAP:7 TXFS:400 RXFS:0
+[  9444.845967458] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e44d7, size=0x5, flags=0xc000, line=0
+[  9444.845970635] clk_req_state:0x0 rx.flush:0
+[  9444.845972354] clk_state:3
+[  9444.845976208] In msm_serial_hs_tx_tlet()
+[  9444.845980792] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9444.845985167] SR:a8c ISR:82ab DMRX:0 RX_SNAP:7 TXFS:0 RXFS:0
+[  9444.845987615] clk_req_state:0x0 rx.flush:0
+[  9444.845989229] clk_state:3
+[  9444.846362719] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0x7, flags=0xe000
+[  9444.846378344] In msm_serial_hs_rx_tlet
+[  9444.846383552] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9444.846388083] SR:a8c ISR:82ab DMRX:0 RX_SNAP:7 TXFS:0 RXFS:0
+[  9444.846390583] clk_req_state:0x0 rx.flush:0
+[  9444.846392667] clk_state:3
+[  9444.846395062] msm_serial_hs_rx_tlet():[UART_RX]<7>
+[  9444.846398812] HSUART Read:  : 04 0e 04 01 1a 0c 00                             .......
+[  9444.846402458] Queing bam descriptor
+[  9444.863175948] msm_hs_submit_tx_locked(): [UART_TX]<245>
+[  9444.863183083] HSUART write:  : 01 52 0c f1 01 0a 09 47 61 6c 61 78 79 20 53 35  .R.....Galaxy S5
+[  9444.863191208] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[  9444.863196417] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9444.863202094] SR:a84 ISR:82aa DMRX:0 RX_SNAP:7 TXFS:223a RXFS:0
+[  9444.863204958] clk_req_state:0x0 rx.flush:0
+[  9444.863206573] clk_state:3
+[  9444.863207615] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e44dc, size=0xf5, flags=0xc000, line=0
+[  9444.863216104] In msm_serial_hs_tx_tlet()
+[  9444.863220375] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9444.863224854] SR:a84 ISR:82aa DMRX:0 RX_SNAP:7 TXFS:20b9 RXFS:0
+[  9444.863228292] clk_req_state:0x0 rx.flush:0
+[  9444.863230740] clk_state:3
+[  9444.864417667] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0x7, flags=0xe000
+[  9444.864426625] In msm_serial_hs_rx_tlet
+[  9444.864430427] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9444.864435010] SR:a8c ISR:82ab DMRX:0 RX_SNAP:7 TXFS:0 RXFS:0
+[  9444.864437458] clk_req_state:0x0 rx.flush:0
+[  9444.864439021] clk_state:3
+[  9444.864440948] msm_serial_hs_rx_tlet():[UART_RX]<7>
+[  9444.864444594] HSUART Read:  : 04 0e 04 01 52 0c 00                             ....R..
+[  9444.864447719] Queing bam descriptor
+[  9444.871405792] msm_hs_submit_tx_locked(): [UART_TX]<245>
+[  9444.871412250] HSUART write:  : 01 52 0c f1 01 0a 09 47 61 6c 61 78 79 20 53 35  .R.....Galaxy S5
+[  9444.871419906] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[  9444.871424333] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9444.871430115] SR:a84 ISR:82aa DMRX:0 RX_SNAP:7 TXFS:223a RXFS:0
+[  9444.871432927] clk_req_state:0x0 rx.flush:0
+[  9444.871434646] clk_state:3
+[  9444.871437562] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e45d1, size=0xf5, flags=0xc000, line=0
+[  9444.871445635] In msm_serial_hs_tx_tlet()
+[  9444.871449854] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9444.871455010] SR:a84 ISR:82aa DMRX:0 RX_SNAP:7 TXFS:20b9 RXFS:0
+[  9444.871457458] clk_req_state:0x0 rx.flush:0
+[  9444.871459125] clk_state:3
+[  9444.872659021] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0x7, flags=0xe000
+[  9444.872666469] In msm_serial_hs_rx_tlet
+[  9444.872670583] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9444.872676312] SR:a8c ISR:82ab DMRX:0 RX_SNAP:7 TXFS:0 RXFS:0
+[  9444.872678552] clk_req_state:0x0 rx.flush:0
+[  9444.872680115] clk_state:3
+[  9444.872682250] msm_serial_hs_rx_tlet():[UART_RX]<7>
+[  9444.872686104] HSUART Read:  : 04 0e 04 01 52 0c 00                             ....R..
+[  9444.872688865] Queing bam descriptor
+[  9444.872909281] msm_hs_submit_tx_locked(): [UART_TX]<245>
+[  9444.872913708] HSUART write:  : 01 52 0c f1 01 0a 09 47 61 6c 61 78 79 20 53 35  .R.....Galaxy S5
+[  9444.872918031] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[  9444.872921885] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9444.872926833] SR:a84 ISR:82aa DMRX:0 RX_SNAP:7 TXFS:20bb RXFS:0
+[  9444.872929854] clk_req_state:0x0 rx.flush:0
+[  9444.872932406] clk_state:3
+[  9444.872940271] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e46c6, size=0xf5, flags=0xc000, line=0
+[  9444.872946625] In msm_serial_hs_tx_tlet()
+[  9444.872950167] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9444.872954125] SR:a84 ISR:82aa DMRX:0 RX_SNAP:7 TXFS:2238 RXFS:0
+[  9444.872956469] clk_req_state:0x0 rx.flush:0
+[  9444.872958031] clk_state:3
+[  9444.874138240] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0x7, flags=0xe000
+[  9444.874146156] In msm_serial_hs_rx_tlet
+[  9444.874149385] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9444.874153396] SR:a8c ISR:82ab DMRX:0 RX_SNAP:7 TXFS:0 RXFS:0
+[  9444.874155740] clk_req_state:0x0 rx.flush:0
+[  9444.874157354] clk_state:3
+[  9444.874159021] msm_serial_hs_rx_tlet():[UART_RX]<7>
+[  9444.874162250] HSUART Read:  : 04 0e 04 01 52 0c 00                             ....R..
+[  9444.874164802] Queing bam descriptor
+[  9444.874396573] msm_hs_submit_tx_locked(): [UART_TX]<245>
+[  9444.874400635] HSUART write:  : 01 52 0c f1 01 0a 09 47 61 6c 61 78 79 20 53 35  .R.....Galaxy S5
+[  9444.874406104] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[  9444.874409906] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9444.874414646] SR:a84 ISR:82aa DMRX:0 RX_SNAP:7 TXFS:20bb RXFS:0
+[  9444.874417198] clk_req_state:0x0 rx.flush:0
+[  9444.874418760] clk_state:3
+[  9444.874422146] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e47bb, size=0xf5, flags=0xc000, line=0
+[  9444.874429542] In msm_serial_hs_tx_tlet()
+[  9444.874432875] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9444.874436833] SR:a84 ISR:82aa DMRX:0 RX_SNAP:7 TXFS:2139 RXFS:0
+[  9444.874439125] clk_req_state:0x0 rx.flush:0
+[  9444.874440635] clk_state:3
+[  9444.875630219] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0x7, flags=0xe000
+[  9444.875638083] In msm_serial_hs_rx_tlet
+[  9444.875641417] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9444.875646312] SR:a8c ISR:82ab DMRX:0 RX_SNAP:7 TXFS:0 RXFS:0
+[  9444.875648604] clk_req_state:0x0 rx.flush:0
+[  9444.875650271] clk_state:3
+[  9444.875652094] msm_serial_hs_rx_tlet():[UART_RX]<7>
+[  9444.875656000] HSUART Read:  : 04 0e 04 01 52 0c 00                             ....R..
+[  9444.875658917] Queing bam descriptor
+[  9444.875887771] msm_hs_submit_tx_locked(): [UART_TX]<245>
+[  9444.875891885] HSUART write:  : 01 52 0c f1 01 0a 09 47 61 6c 61 78 79 20 53 35  .R.....Galaxy S5
+[  9444.875896885] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[  9444.875900844] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9444.875905948] SR:a84 ISR:82aa DMRX:0 RX_SNAP:7 TXFS:223a RXFS:0
+[  9444.875908500] clk_req_state:0x0 rx.flush:0
+[  9444.875910792] clk_state:3
+[  9444.875910479] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e48b0, size=0xf5, flags=0xc000, line=0
+[  9444.875918396] In msm_serial_hs_tx_tlet()
+[  9444.875922042] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9444.875926469] SR:a84 ISR:82aa DMRX:0 RX_SNAP:7 TXFS:2139 RXFS:0
+[  9444.875929125] clk_req_state:0x0 rx.flush:0
+[  9444.875930792] clk_state:3
+[  9444.877098760] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0x7, flags=0xe000
+[  9444.877108396] In msm_serial_hs_rx_tlet
+[  9444.877113083] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9444.877117302] SR:a8c ISR:82ab DMRX:0 RX_SNAP:7 TXFS:0 RXFS:0
+[  9444.877119958] clk_req_state:0x0 rx.flush:0
+[  9444.877121573] clk_state:3
+[  9444.877123500] msm_serial_hs_rx_tlet():[UART_RX]<7>
+[  9444.877127302] HSUART Read:  : 04 0e 04 01 52 0c 00                             ....R..
+[  9444.877131104] Queing bam descriptor
+[  9444.883190844] msm_hs_submit_tx_locked(): [UART_TX]<245>
+[  9444.883199177] HSUART write:  : 01 52 0c f1 01 0a 09 47 61 6c 61 78 79 20 53 35  .R.....Galaxy S5
+[  9444.883208604] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[  9444.883214594] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9444.883221677] SR:a84 ISR:82aa DMRX:0 RX_SNAP:7 TXFS:21ba RXFS:0
+[  9444.883225479] clk_req_state:0x0 rx.flush:0
+[  9444.883227615] clk_state:3
+[  9444.883226365] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e49a5, size=0xf5, flags=0xc000, line=0
+[  9444.883235219] In msm_serial_hs_tx_tlet()
+[  9444.883239542] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9444.883244125] SR:a84 ISR:82aa DMRX:0 RX_SNAP:7 TXFS:20b9 RXFS:0
+[  9444.883246625] clk_req_state:0x0 rx.flush:0
+[  9444.883248187] clk_state:3
+[  9444.884445010] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0x7, flags=0xe000
+[  9444.884464385] In msm_serial_hs_rx_tlet
+[  9444.884468396] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9444.884473135] SR:a8c ISR:82ab DMRX:0 RX_SNAP:7 TXFS:0 RXFS:0
+[  9444.884476573] clk_req_state:0x0 rx.flush:0
+[  9444.884478240] clk_state:3
+[  9444.884480531] msm_serial_hs_rx_tlet():[UART_RX]<7>
+[  9444.884484021] HSUART Read:  : 04 0e 04 01 52 0c 00                             ....R..
+[  9444.884487458] Queing bam descriptor
+[  9444.884814490] msm_hs_submit_tx_locked(): [UART_TX]<245>
+[  9444.884820479] HSUART write:  : 01 52 0c f1 01 0a 09 47 61 6c 61 78 79 20 53 35  .R.....Galaxy S5
+[  9444.884826573] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[  9444.884832302] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9444.884839333] SR:a84 ISR:82aa DMRX:0 RX_SNAP:7 TXFS:21ba RXFS:0
+[  9444.884843969] clk_req_state:0x0 rx.flush:0
+[  9444.884847875] clk_state:3
+[  9444.884854490] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e4a9a, size=0xf5, flags=0xc000, line=0
+[  9444.884870219] In msm_serial_hs_tx_tlet()
+[  9444.884874594] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9444.884880115] SR:a84 ISR:82aa DMRX:0 RX_SNAP:7 TXFS:21b7 RXFS:0
+[  9444.884882510] clk_req_state:0x0 rx.flush:0
+[  9444.884884125] clk_state:3
+[  9444.886040115] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0x7, flags=0xe000
+[  9444.886050583] In msm_serial_hs_rx_tlet
+[  9444.886054646] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9444.886059490] SR:a8c ISR:82ab DMRX:0 RX_SNAP:7 TXFS:0 RXFS:0
+[  9444.886061781] clk_req_state:0x0 rx.flush:0
+[  9444.886063292] clk_state:3
+[  9444.886065427] msm_serial_hs_rx_tlet():[UART_RX]<7>
+[  9444.886068812] HSUART Read:  : 04 0e 04 01 52 0c 00                             ....R..
+[  9444.886072354] Queing bam descriptor
+[  9444.888074385] msm_hs_submit_tx_locked(): [UART_TX]<7>
+[  9444.888081729] HSUART write:  : 01 24 0c 03 0c 02 52                             .$....R
+[  9444.888089906] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[  9444.888094698] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9444.888099542] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e4b8f, size=0x7, flags=0xc000, line=0
+[  9444.888101000] SR:a84 ISR:82ab DMRX:0 RX_SNAP:7 TXFS:c00 RXFS:0
+[  9444.888105062] clk_req_state:0x0 rx.flush:0
+[  9444.888107198] clk_state:3
+[  9444.888110792] In msm_serial_hs_tx_tlet()
+[  9444.888114698] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9444.888119385] SR:a8c ISR:82ab DMRX:0 RX_SNAP:7 TXFS:0 RXFS:0
+[  9444.888121885] clk_req_state:0x0 rx.flush:0
+[  9444.888123500] clk_state:3
+[  9444.888495062] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0x7, flags=0xe000
+[  9444.888501990] In msm_serial_hs_rx_tlet
+[  9444.888505479] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9444.888509802] SR:a8c ISR:82ab DMRX:0 RX_SNAP:7 TXFS:0 RXFS:0
+[  9444.888512510] clk_req_state:0x0 rx.flush:0
+[  9444.888514073] clk_state:3
+[  9444.888516156] msm_serial_hs_rx_tlet():[UART_RX]<7>
+[  9444.888519750] HSUART Read:  : 04 0e 04 01 24 0c 00                             ....$..
+[  9444.888523031] Queing bam descriptor
+[  9444.888749906] msm_hs_submit_tx_locked(): [UART_TX]<245>
+[  9444.888754646] HSUART write:  : 01 52 0c f1 01 0a 09 47 61 6c 61 78 79 20 53 35  .R.....Galaxy S5
+[  9444.888760479] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[  9444.888773760] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9444.888789385] SR:a84 ISR:82aa DMRX:0 RX_SNAP:7 TXFS:21b9 RXFS:0
+[  9444.888792823] clk_req_state:0x0 rx.flush:0
+[  9444.888794958] clk_state:3
+[  9444.888804281] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e4b96, size=0xf5, flags=0xc000, line=0
+[  9444.888811260] In msm_serial_hs_tx_tlet()
+[  9444.888814542] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9444.888818812] SR:a84 ISR:82aa DMRX:0 RX_SNAP:7 TXFS:2137 RXFS:0
+[  9444.888821521] clk_req_state:0x0 rx.flush:0
+[  9444.888823135] clk_state:3
+[  9444.889977979] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0x7, flags=0xe000
+[  9444.889986677] In msm_serial_hs_rx_tlet
+[  9444.889991104] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9444.889995687] SR:a8c ISR:82ab DMRX:0 RX_SNAP:7 TXFS:0 RXFS:0
+[  9444.889997979] clk_req_state:0x0 rx.flush:0
+[  9444.889999594] clk_state:3
+[  9444.890001208] msm_serial_hs_rx_tlet():[UART_RX]<7>
+[  9444.890004437] HSUART Read:  : 04 0e 04 01 52 0c 00                             ....R..
+[  9444.890007146] Queing bam descriptor
+[  9444.890294594] msm_hs_submit_tx_locked(): [UART_TX]<245>
+[  9444.890299594] HSUART write:  : 01 52 0c f1 01 0a 09 47 61 6c 61 78 79 20 53 35  .R.....Galaxy S5
+[  9444.890305427] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[  9444.890309750] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9444.890315583] SR:a84 ISR:82aa DMRX:0 RX_SNAP:7 TXFS:223a RXFS:0
+[  9444.890319385] clk_req_state:0x0 rx.flush:0
+[  9444.890317667] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e4c8b, size=0xf5, flags=0xc000, line=0
+[  9444.890321469] clk_state:3
+[  9444.890325792] In msm_serial_hs_tx_tlet()
+[  9444.890329177] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9444.890333135] SR:a84 ISR:82aa DMRX:0 RX_SNAP:7 TXFS:21b9 RXFS:0
+[  9444.890335479] clk_req_state:0x0 rx.flush:0
+[  9444.890336990] clk_state:3
+[  9444.891498344] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0x7, flags=0xe000
+[  9444.891506677] In msm_serial_hs_rx_tlet
+[  9444.891510687] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9444.891515531] SR:a8c ISR:82ab DMRX:0 RX_SNAP:7 TXFS:0 RXFS:0
+[  9444.891518031] clk_req_state:0x0 rx.flush:0
+[  9444.891519750] clk_state:3
+[  9444.891521625] msm_serial_hs_rx_tlet():[UART_RX]<7>
+[  9444.891525323] HSUART Read:  : 04 0e 04 01 52 0c 00                             ....R..
+[  9444.891528500] Queing bam descriptor
+[  9445.221155375] msm_hs_submit_tx_locked(): [UART_TX]<4>
+[  9445.221161208] HSUART write:  : 01 18 20 00                                      .. .
+[  9445.221170635] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[  9445.221177510] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9445.221181625] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e4d80, size=0x4, flags=0xc000, line=0
+[  9445.221185375] SR:a84 ISR:82ab DMRX:0 RX_SNAP:7 TXFS:0 RXFS:0
+[  9445.221190114] clk_req_state:0x0 rx.flush:0
+[  9445.221192250] clk_state:3
+[  9445.221196885] In msm_serial_hs_tx_tlet()
+[  9445.221201469] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9445.221207250] SR:a8c ISR:82ab DMRX:0 RX_SNAP:7 TXFS:0 RXFS:0
+[  9445.221209802] clk_req_state:0x0 rx.flush:0
+[  9445.221212042] clk_state:3
+[  9445.221623604] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0xf, flags=0xe000
+[  9445.221631364] In msm_serial_hs_rx_tlet
+[  9445.221635531] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9445.221641052] SR:a8c ISR:82ab DMRX:0 RX_SNAP:f TXFS:0 RXFS:0
+[  9445.221644437] clk_req_state:0x0 rx.flush:0
+[  9445.221646625] clk_state:3
+[  9445.221649646] msm_serial_hs_rx_tlet():[UART_RX]<15>
+[  9445.221655896] HSUART Read:  : 04 0e 0c 01 18 20 00 77 10 75 9b 5f fe a6 bc     ..... .w.u._...
+[  9445.221659802] Queing bam descriptor
+[  9445.222589333] msm_hs_submit_tx_locked(): [UART_TX]<4>
+[  9445.222594073] HSUART write:  : 01 18 20 00                                      .. .
+[  9445.222600479] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[  9445.222605062] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9445.222609802] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e4d84, size=0x4, flags=0xc000, line=0
+[  9445.222612614] SR:a84 ISR:82ab DMRX:0 RX_SNAP:f TXFS:0 RXFS:0
+[  9445.222616521] clk_req_state:0x0 rx.flush:0
+[  9445.222618500] clk_state:3
+[  9445.222622094] In msm_serial_hs_tx_tlet()
+[  9445.222626781] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9445.222631364] SR:a8c ISR:82ab DMRX:0 RX_SNAP:f TXFS:0 RXFS:0
+[  9445.222633969] clk_req_state:0x0 rx.flush:0
+[  9445.222635427] clk_state:3
+[  9445.223056156] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0xf, flags=0xe000
+[  9445.223064646] In msm_serial_hs_rx_tlet
+[  9445.223069281] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9445.223074385] SR:a8c ISR:82ab DMRX:0 RX_SNAP:f TXFS:0 RXFS:0
+[  9445.223077250] clk_req_state:0x0 rx.flush:0
+[  9445.223078917] clk_state:3
+[  9445.223080896] msm_serial_hs_rx_tlet():[UART_RX]<15>
+[  9445.223085792] HSUART Read:  : 04 0e 0c 01 18 20 00 40 b9 50 02 86 7a ed 52     ..... .@.P..z.R
+[  9445.223089021] Queing bam descriptor
+[  9445.223384385] msm_hs_submit_tx_locked(): [UART_TX]<4>
+[  9445.223388708] HSUART write:  : 01 18 20 00                                      .. .
+[  9445.223395375] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[  9445.223399906] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9445.223405635] SR:a84 ISR:82ab DMRX:0 RX_SNAP:f TXFS:0 RXFS:0
+[  9445.223406260] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e4d88, size=0x4, flags=0xc000, line=0
+[  9445.223408812] clk_req_state:0x0 rx.flush:0
+[  9445.223410844] clk_state:3
+[  9445.223415062] In msm_serial_hs_tx_tlet()
+[  9445.223419229] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9445.223423864] SR:a8c ISR:82ab DMRX:0 RX_SNAP:f TXFS:0 RXFS:0
+[  9445.223426469] clk_req_state:0x0 rx.flush:0
+[  9445.223428239] clk_state:3
+[  9445.223691625] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0xf, flags=0xe000
+[  9445.223699125] In msm_serial_hs_rx_tlet
+[  9445.223703239] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9445.223708552] SR:a8c ISR:82ab DMRX:0 RX_SNAP:f TXFS:0 RXFS:0
+[  9445.223711312] clk_req_state:0x0 rx.flush:0
+[  9445.223714073] clk_state:3
+[  9445.223717146] msm_serial_hs_rx_tlet():[UART_RX]<15>
+[  9445.223723448] HSUART Read:  : 04 0e 0c 01 18 20 00 15 fc 05 eb 56 33 da d7     ..... .....V3..
+[  9445.223727823] Queing bam descriptor
+[  9445.224011156] msm_hs_submit_tx_locked(): [UART_TX]<4>
+[  9445.224015479] HSUART write:  : 01 18 20 00                                      .. .
+[  9445.224021833] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[  9445.224026469] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9445.224028917] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e4d8c, size=0x4, flags=0xc000, line=0
+[  9445.224032562] SR:a84 ISR:82ab DMRX:0 RX_SNAP:f TXFS:0 RXFS:0
+[  9445.224036677] clk_req_state:0x0 rx.flush:0
+[  9445.224040427] clk_state:3
+[  9445.224043552] In msm_serial_hs_tx_tlet()
+[  9445.224047354] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9445.224051208] SR:a8c ISR:82ab DMRX:0 RX_SNAP:f TXFS:0 RXFS:0
+[  9445.224053708] clk_req_state:0x0 rx.flush:0
+[  9445.224055948] clk_state:3
+[  9445.224318708] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0xf, flags=0xe000
+[  9445.224325896] In msm_serial_hs_rx_tlet
+[  9445.224329281] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9445.224333135] SR:a8c ISR:82ab DMRX:0 RX_SNAP:f TXFS:0 RXFS:0
+[  9445.224335479] clk_req_state:0x0 rx.flush:0
+[  9445.224337094] clk_state:3
+[  9445.224339281] msm_serial_hs_rx_tlet():[UART_RX]<15>
+[  9445.224343969] HSUART Read:  : 04 0e 0c 01 18 20 00 a8 3e 27 cd 3d d0 ab d2     ..... ..>'.=...
+[  9445.224347042] Queing bam descriptor
+[  9445.224656208] msm_hs_submit_tx_locked(): [UART_TX]<4>
+[  9445.224660687] HSUART write:  : 01 18 20 00                                      .. .
+[  9445.224667146] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[  9445.224671937] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9445.224674594] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e4d90, size=0x4, flags=0xc000, line=0
+[  9445.224678604] SR:a84 ISR:82ab DMRX:0 RX_SNAP:f TXFS:0 RXFS:0
+[  9445.224682354] clk_req_state:0x0 rx.flush:0
+[  9445.224684385] clk_state:3
+[  9445.224687875] In msm_serial_hs_tx_tlet()
+[  9445.224691885] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9445.224696364] SR:a8c ISR:82ab DMRX:0 RX_SNAP:f TXFS:0 RXFS:0
+[  9445.224698604] clk_req_state:0x0 rx.flush:0
+[  9445.224700062] clk_state:3
+[  9445.224991989] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0xf, flags=0xe000
+[  9445.224999906] In msm_serial_hs_rx_tlet
+[  9445.225003656] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9445.225007510] SR:a8c ISR:82ab DMRX:0 RX_SNAP:f TXFS:0 RXFS:0
+[  9445.225009906] clk_req_state:0x0 rx.flush:0
+[  9445.225011469] clk_state:3
+[  9445.225013187] msm_serial_hs_rx_tlet():[UART_RX]<15>
+[  9445.225017927] HSUART Read:  : 04 0e 0c 01 18 20 00 7f 9b 80 89 a5 45 7b 05     ..... ......E{.
+[  9445.225021208] Queing bam descriptor
+[  9445.225286417] msm_hs_submit_tx_locked(): [UART_TX]<4>
+[  9445.225290583] HSUART write:  : 01 18 20 00                                      .. .
+[  9445.225298344] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[  9445.225303656] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9445.225306260] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e4d94, size=0x4, flags=0xc000, line=0
+[  9445.225312146] SR:a84 ISR:82ab DMRX:0 RX_SNAP:f TXFS:0 RXFS:0
+[  9445.225317719] clk_req_state:0x0 rx.flush:0
+[  9445.225321260] clk_state:3
+[  9445.225326260] In msm_serial_hs_tx_tlet()
+[  9445.225331208] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9445.225336729] SR:a8c ISR:82ab DMRX:0 RX_SNAP:f TXFS:0 RXFS:0
+[  9445.225340375] clk_req_state:0x0 rx.flush:0
+[  9445.225341937] clk_state:3
+[  9445.225610635] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0xf, flags=0xe000
+[  9445.225618187] In msm_serial_hs_rx_tlet
+[  9445.225622250] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9445.225626937] SR:a8c ISR:82ab DMRX:0 RX_SNAP:f TXFS:0 RXFS:0
+[  9445.225629281] clk_req_state:0x0 rx.flush:0
+[  9445.225630792] clk_state:3
+[  9445.225632614] msm_serial_hs_rx_tlet():[UART_RX]<15>
+[  9445.225638031] HSUART Read:  : 04 0e 0c 01 18 20 00 d5 3f 3d ad 6f fa b0 91     ..... ..?=.o...
+[  9445.225642094] Queing bam descriptor
+[  9445.225884646] msm_hs_submit_tx_locked(): [UART_TX]<10>
+[  9445.225888864] HSUART write:  : 01 05 20 06 d6 26 2b 77 10 75                    .. ..&+w.u
+[  9445.225894698] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[  9445.225899854] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9445.225903969] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e4d98, size=0xa, flags=0xc000, line=0
+[  9445.225905479] SR:a84 ISR:82ab DMRX:0 RX_SNAP:f TXFS:1800 RXFS:0
+[  9445.225909073] clk_req_state:0x0 rx.flush:0
+[  9445.225911000] clk_state:3
+[  9445.225914333] In msm_serial_hs_tx_tlet()
+[  9445.225917927] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9445.225921833] SR:a84 ISR:82ab DMRX:0 RX_SNAP:f TXFS:400 RXFS:0
+[  9445.225924229] clk_req_state:0x0 rx.flush:0
+[  9445.225925687] clk_state:3
+[  9445.226161312] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0x7, flags=0xe000
+[  9445.226168864] In msm_serial_hs_rx_tlet
+[  9445.226173135] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9445.226177927] SR:a8c ISR:82ab DMRX:0 RX_SNAP:7 TXFS:0 RXFS:0
+[  9445.226180167] clk_req_state:0x0 rx.flush:0
+[  9445.226181677] clk_state:3
+[  9445.226184333] msm_serial_hs_rx_tlet():[UART_RX]<7>
+[  9445.226187927] HSUART Read:  : 04 0e 04 01 05 20 00                             ..... .
+[  9445.226191625] Queing bam descriptor
+[  9445.226431208] msm_hs_submit_tx_locked(): [UART_TX]<12>
+[  9445.226435479] HSUART write:  : 01 54 fd 08 04 70 7a 0f 40 b9 50 01              .T...pz.@.P.
+[  9445.226440948] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[  9445.226445583] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9445.226449333] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e4da2, size=0xc, flags=0xc000, line=0
+[  9445.226450844] SR:a84 ISR:82ab DMRX:0 RX_SNAP:7 TXFS:2000 RXFS:0
+[  9445.226453917] clk_req_state:0x0 rx.flush:0
+[  9445.226455792] clk_state:3
+[  9445.226458812] In msm_serial_hs_tx_tlet()
+[  9445.226462406] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9445.226466469] SR:a84 ISR:82ab DMRX:0 RX_SNAP:7 TXFS:c00 RXFS:0
+[  9445.226468760] clk_req_state:0x0 rx.flush:0
+[  9445.226471208] clk_state:3
+[  9445.226716781] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0x8, flags=0xe000
+[  9445.226724177] In msm_serial_hs_rx_tlet
+[  9445.226727719] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9445.226731885] SR:a8c ISR:82ab DMRX:0 RX_SNAP:8 TXFS:0 RXFS:0
+[  9445.226734646] clk_req_state:0x0 rx.flush:0
+[  9445.226736208] clk_state:3
+[  9445.226737979] msm_serial_hs_rx_tlet():[UART_RX]<8>
+[  9445.226741885] HSUART Read:  : 04 0e 05 01 54 fd 00 04                          ....T...
+[  9445.226744750] Queing bam descriptor
+[  9445.227048969] msm_hs_submit_tx_locked(): [UART_TX]<12>
+[  9445.227053552] HSUART write:  : 01 54 fd 08 04 f2 c3 62 15 fc 45 02              .T.....b..E.
+[  9445.227058969] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[  9445.227063344] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9445.227067458] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e4dae, size=0xc, flags=0xc000, line=0
+[  9445.227068969] SR:a84 ISR:82ab DMRX:0 RX_SNAP:8 TXFS:2000 RXFS:0
+[  9445.227071989] clk_req_state:0x0 rx.flush:0
+[  9445.227073917] clk_state:3
+[  9445.227076989] In msm_serial_hs_tx_tlet()
+[  9445.227080583] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9445.227084385] SR:a84 ISR:82ab DMRX:0 RX_SNAP:8 TXFS:c00 RXFS:0
+[  9445.227086781] clk_req_state:0x0 rx.flush:0
+[  9445.227088292] clk_state:3
+[  9445.227463864] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0x8, flags=0xe000
+[  9445.227470271] In msm_serial_hs_rx_tlet
+[  9445.227473656] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9445.227477771] SR:a8c ISR:82ab DMRX:0 RX_SNAP:8 TXFS:0 RXFS:0
+[  9445.227480062] clk_req_state:0x0 rx.flush:0
+[  9445.227481625] clk_state:3
+[  9445.227483344] msm_serial_hs_rx_tlet():[UART_RX]<8>
+[  9445.227486885] HSUART Read:  : 04 0e 05 01 54 fd 00 04                          ....T...
+[  9445.227490010] Queing bam descriptor
+[  9445.227728396] msm_hs_submit_tx_locked(): [UART_TX]<12>
+[  9445.227732927] HSUART write:  : 01 54 fd 08 04 55 7a 27 a8 3e 67 03              .T...Uz'.>g.
+[  9445.227739125] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[  9445.227743656] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9445.227749229] SR:a84 ISR:82ab DMRX:0 RX_SNAP:8 TXFS:2000 RXFS:0
+[  9445.227748604] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e4dba, size=0xc, flags=0xc000, line=0
+[  9445.227752302] clk_req_state:0x0 rx.flush:0
+[  9445.227754229] clk_state:3
+[  9445.227757146] In msm_serial_hs_tx_tlet()
+[  9445.227760844] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9445.227764906] SR:a84 ISR:82ab DMRX:0 RX_SNAP:8 TXFS:c00 RXFS:0
+[  9445.227767562] clk_req_state:0x0 rx.flush:0
+[  9445.227769073] clk_state:3
+[  9445.228321104] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0x8, flags=0xe000
+[  9445.228331000] In msm_serial_hs_rx_tlet
+[  9445.228335010] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9445.228341104] SR:a8c ISR:82ab DMRX:0 RX_SNAP:8 TXFS:0 RXFS:0
+[  9445.228345167] clk_req_state:0x0 rx.flush:0
+[  9445.228347823] clk_state:3
+[  9445.228349802] msm_serial_hs_rx_tlet():[UART_RX]<8>
+[  9445.228353708] HSUART Read:  : 04 0e 05 01 54 fd 00 04                          ....T...
+[  9445.228356677] Queing bam descriptor
+[  9445.228579073] msm_hs_submit_tx_locked(): [UART_TX]<12>
+[  9445.228583292] HSUART write:  : 01 54 fd 08 04 b9 79 1d 7f 9b 40 04              .T....y...@.
+[  9445.228590323] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[  9445.228595427] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9445.228598604] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e4dc6, size=0xc, flags=0xc000, line=0
+[  9445.228601052] SR:a84 ISR:82ab DMRX:0 RX_SNAP:8 TXFS:2000 RXFS:0
+[  9445.228606156] clk_req_state:0x0 rx.flush:0
+[  9445.228609385] clk_state:3
+[  9445.228613708] In msm_serial_hs_tx_tlet()
+[  9445.228617667] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9445.228623448] SR:a84 ISR:82ab DMRX:0 RX_SNAP:8 TXFS:400 RXFS:0
+[  9445.228625792] clk_req_state:0x0 rx.flush:0
+[  9445.228628135] clk_state:3
+[  9445.229023552] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0x8, flags=0xe000
+[  9445.229030479] In msm_serial_hs_rx_tlet
+[  9445.229033864] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[  9445.229038083] SR:a8c ISR:82ab DMRX:0 RX_SNAP:8 TXFS:0 RXFS:0
+[  9445.229040479] clk_req_state:0x0 rx.flush:0
+[  9445.229041989] clk_state:3
+[  9445.229043500] msm_serial_hs_rx_tlet():[UART_RX]<8>
+[  9445.229046937] HSUART Read:  : 04 0e 05 01 54 fd 00 04                          ....T...
+[  9445.229049750] Queing bam descriptor
+[  9447.212415948] msm_hs_tx_empty(): SR Reg Read 0xa8c
+[  9447.212435062] msm_hs_request_clock_off(): TXEMT, queuing clock off work
+[  9447.212472041] In msm_hs_check_clock_off:
+[  9447.212475010] In msm_hs_stop_rx_locked():
+[  9447.212486052] msm_hs_check_clock_off: rx.flush 4 clk_state 2
+[  9447.212605427] hsuart_disconnect_rx_endpoint_work: Calling Completion
+[  9447.212608760] hsuart_disconnect_rx_endpoint_work: Done Completion
+[  9447.213583031] In msm_hs_check_clock_off:
+[  9447.213595843] Bus voting:0
+[  9447.215800739] msm_hs_clock_unvote: Clock OFF successful
+[ 29167.104834827] Bus voting:1
+[ 29167.107813994] msm_hs_clock_vote: Clock ON successful
+[ 29167.107825400] msm_hs_request_clock_on:clock state 3
+
+[ 29167.107835452] msm_hs_request_clock_on: rx.flush 5
+[ 29167.108041494] msm_hs_start_rx_locked:Enqueue Rx Cmd
+[ 29167.108046806] MR1:70 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.108053004] SR:20c ISR:82e1 DMRX:0 RX_SNAP:0 TXFS:0 RXFS:0
+[ 29167.108055504] clk_req_state:0x0 rx.flush:0
+[ 29167.108057066] clk_state:3
+[ 29167.108058785] msm_hs_request_clock_on:Clock ON Successful
+[ 29167.108062223] MR1:70 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.108067848] SR:20c ISR:82e1 DMRX:0 RX_SNAP:0 TXFS:0 RXFS:0
+[ 29167.108070244] clk_req_state:0x0 rx.flush:0
+[ 29167.108071754] clk_state:3
+[ 29167.108224046] msm_hs_submit_tx_locked(): [UART_TX]<245>
+[ 29167.108229410] HSUART write:  : 01 52 0c f1 01 0a 09 47 61 6c 61 78 79 20 53 35  .R.....Galaxy S5
+[ 29167.108234879] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[ 29167.108238525] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.108244462] SR:204 ISR:82e0 DMRX:0 RX_SNAP:0 TXFS:21bb RXFS:0
+[ 29167.108247014] clk_req_state:0x0 rx.flush:0
+[ 29167.108248473] clk_state:3
+[ 29167.108250869] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e4dd2, size=0xf5, flags=0xc000, line=0
+[ 29167.108259879] In msm_serial_hs_tx_tlet()
+[ 29167.108264462] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.108269306] SR:204 ISR:82e0 DMRX:0 RX_SNAP:0 TXFS:21bb RXFS:0
+[ 29167.108271754] clk_req_state:0x0 rx.flush:0
+[ 29167.108273264] clk_state:3
+[ 29167.114464619] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0x7, flags=0xe000
+[ 29167.114499723] In msm_serial_hs_rx_tlet
+[ 29167.114504566] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.114509410] SR:a8c ISR:82ab DMRX:0 RX_SNAP:7 TXFS:0 RXFS:0
+[ 29167.114512119] clk_req_state:0x0 rx.flush:0
+[ 29167.114513733] clk_state:3
+[ 29167.114516077] msm_serial_hs_rx_tlet():[UART_RX]<7>
+[ 29167.114521129] HSUART Read:  : 04 0e 04 01 52 0c 00                             ....R..
+[ 29167.114524723] Queing bam descriptor
+[ 29167.115692744] msm_hs_submit_tx_locked(): [UART_TX]<7>
+[ 29167.115698785] HSUART write:  : 01 24 0c 03 0c 02 5a                             .$....Z
+[ 29167.115708421] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[ 29167.115713941] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.115719619] SR:a84 ISR:82ab DMRX:0 RX_SNAP:7 TXFS:c00 RXFS:0
+[ 29167.115722014] clk_req_state:0x0 rx.flush:0
+[ 29167.115724514] clk_state:3
+[ 29167.115723733] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e4ec7, size=0x7, flags=0xc000, line=0
+[ 29167.115735764] In msm_serial_hs_tx_tlet()
+[ 29167.115739358] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.115743889] SR:a8c ISR:82ab DMRX:0 RX_SNAP:7 TXFS:0 RXFS:0
+[ 29167.115746389] clk_req_state:0x0 rx.flush:0
+[ 29167.115747952] clk_state:3
+[ 29167.116111389] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0x7, flags=0xe000
+[ 29167.116138681] In msm_serial_hs_rx_tlet
+[ 29167.116143056] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.116148473] SR:a8c ISR:82ab DMRX:0 RX_SNAP:7 TXFS:0 RXFS:0
+[ 29167.116150764] clk_req_state:0x0 rx.flush:0
+[ 29167.116152327] clk_state:3
+[ 29167.116153941] msm_serial_hs_rx_tlet():[UART_RX]<7>
+[ 29167.116160139] HSUART Read:  : 04 0e 04 01 24 0c 00                             ....$..
+[ 29167.116163733] Queing bam descriptor
+[ 29167.116426962] msm_hs_submit_tx_locked(): [UART_TX]<245>
+[ 29167.116430869] HSUART write:  : 01 52 0c f1 01 0a 09 47 61 6c 61 78 79 20 53 35  .R.....Galaxy S5
+[ 29167.116436441] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[ 29167.116441546] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.116446598] SR:a84 ISR:82aa DMRX:0 RX_SNAP:7 TXFS:223a RXFS:0
+[ 29167.116449098] clk_req_state:0x0 rx.flush:0
+[ 29167.116450869] clk_state:3
+[ 29167.116450244] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e4ece, size=0xf5, flags=0xc000, line=0
+[ 29167.116495973] In msm_serial_hs_tx_tlet()
+[ 29167.116499931] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.116504410] SR:a84 ISR:82aa DMRX:0 RX_SNAP:7 TXFS:21b6 RXFS:0
+[ 29167.116506806] clk_req_state:0x0 rx.flush:0
+[ 29167.116509358] clk_state:3
+[ 29167.117643994] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0x7, flags=0xe000
+[ 29167.117653629] In msm_serial_hs_rx_tlet
+[ 29167.117657483] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.117662014] SR:a8c ISR:82ab DMRX:0 RX_SNAP:7 TXFS:0 RXFS:0
+[ 29167.117664462] clk_req_state:0x0 rx.flush:0
+[ 29167.117666077] clk_state:3
+[ 29167.117667900] msm_serial_hs_rx_tlet():[UART_RX]<7>
+[ 29167.117672848] HSUART Read:  : 04 0e 04 01 52 0c 00                             ....R..
+[ 29167.117675869] Queing bam descriptor
+[ 29167.118012275] msm_hs_submit_tx_locked(): [UART_TX]<6>
+[ 29167.118016181] HSUART write:  : 01 26 0c 02 60 00                                .&..`.
+[ 29167.118022119] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[ 29167.118026702] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.118029514] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e4fc3, size=0x6, flags=0xc000, line=0
+[ 29167.118031546] SR:a84 ISR:82ab DMRX:0 RX_SNAP:7 TXFS:800 RXFS:0
+[ 29167.118034098] clk_req_state:0x0 rx.flush:0
+[ 29167.118035764] clk_state:3
+[ 29167.118038629] In msm_serial_hs_tx_tlet()
+[ 29167.118042587] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.118047691] SR:a8c ISR:82ab DMRX:0 RX_SNAP:7 TXFS:0 RXFS:0
+[ 29167.118049983] clk_req_state:0x0 rx.flush:0
+[ 29167.118051806] clk_state:3
+[ 29167.118417327] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0x7, flags=0xe000
+[ 29167.118424566] In msm_serial_hs_rx_tlet
+[ 29167.118428160] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.118432587] SR:a8c ISR:82ab DMRX:0 RX_SNAP:7 TXFS:0 RXFS:0
+[ 29167.118434931] clk_req_state:0x0 rx.flush:0
+[ 29167.118436389] clk_state:3
+[ 29167.118437900] msm_serial_hs_rx_tlet():[UART_RX]<7>
+[ 29167.118441129] HSUART Read:  : 04 0e 04 01 26 0c 00                             ....&..
+[ 29167.118444462] Queing bam descriptor
+[ 29167.118676546] msm_hs_submit_tx_locked(): [UART_TX]<55>
+[ 29167.118680921] HSUART write:  : 01 52 0c f1 01 0a 09 47 61 6c 61 78 79 20 53 35  .R.....Galaxy S5
+[ 29167.118686025] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[ 29167.118689827] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.118694254] SR:a84 ISR:82aa DMRX:0 RX_SNAP:7 TXFS:208b RXFS:0
+[ 29167.118697223] clk_req_state:0x0 rx.flush:0
+[ 29167.118699410] clk_state:3
+[ 29167.118697848] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e4fc9, size=0x37, flags=0xc000, line=0
+[ 29167.118704566] msm_hs_submit_tx_locked(): [UART_TX]<190>
+[ 29167.118707014] HSUART write:  : 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[ 29167.118710816] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[ 29167.118714514] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.118719358] SR:a84 ISR:82aa DMRX:0 RX_SNAP:7 TXFS:2089 RXFS:0
+[ 29167.118721806] clk_req_state:0x0 rx.flush:0
+[ 29167.118723316] clk_state:3
+[ 29167.118725816] In msm_serial_hs_tx_tlet()
+[ 29167.118729358] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.118733473] SR:a84 ISR:82aa DMRX:0 RX_SNAP:7 TXFS:2088 RXFS:0
+[ 29167.118735764] clk_req_state:0x0 rx.flush:0
+[ 29167.118737223] clk_state:3
+[ 29167.118851494] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e4000, size=0xbe, flags=0xc000, line=0
+[ 29167.118859983] In msm_serial_hs_tx_tlet()
+[ 29167.118863473] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.118867639] SR:a84 ISR:82aa DMRX:0 RX_SNAP:7 TXFS:222d RXFS:0
+[ 29167.118869879] clk_req_state:0x0 rx.flush:0
+[ 29167.118871389] clk_state:3
+[ 29167.119897900] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0x7, flags=0xe000
+[ 29167.119914983] In msm_serial_hs_rx_tlet
+[ 29167.119919150] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.119924150] SR:a8c ISR:82ab DMRX:0 RX_SNAP:7 TXFS:0 RXFS:0
+[ 29167.119927379] clk_req_state:0x0 rx.flush:0
+[ 29167.119929723] clk_state:3
+[ 29167.119932379] msm_serial_hs_rx_tlet():[UART_RX]<7>
+[ 29167.119936441] HSUART Read:  : 04 0e 04 01 52 0c 00                             ....R..
+[ 29167.119939827] Queing bam descriptor
+[ 29167.120972952] msm_hs_submit_tx_locked(): [UART_TX]<245>
+[ 29167.120978473] HSUART write:  : 01 52 0c f1 01 0a 09 47 61 6c 61 78 79 20 53 35  .R.....Galaxy S5
+[ 29167.120984879] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[ 29167.120989514] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.120995191] SR:a84 ISR:82aa DMRX:0 RX_SNAP:7 TXFS:223a RXFS:0
+[ 29167.120997900] clk_req_state:0x0 rx.flush:0
+[ 29167.120999410] clk_state:3
+[ 29167.121000556] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e40be, size=0xf5, flags=0xc000, line=0
+[ 29167.121008994] In msm_serial_hs_tx_tlet()
+[ 29167.121013160] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.121018160] SR:a84 ISR:82aa DMRX:0 RX_SNAP:7 TXFS:20b9 RXFS:0
+[ 29167.121020452] clk_req_state:0x0 rx.flush:0
+[ 29167.121022014] clk_state:3
+[ 29167.122191233] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0x7, flags=0xe000
+[ 29167.122203837] In msm_serial_hs_rx_tlet
+[ 29167.122207952] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.122213004] SR:a8c ISR:82ab DMRX:0 RX_SNAP:7 TXFS:0 RXFS:0
+[ 29167.122216702] clk_req_state:0x0 rx.flush:0
+[ 29167.122218525] clk_state:3
+[ 29167.122220660] msm_serial_hs_rx_tlet():[UART_RX]<7>
+[ 29167.122224931] HSUART Read:  : 04 0e 04 01 52 0c 00                             ....R..
+[ 29167.122228056] Queing bam descriptor
+[ 29167.122569514] msm_hs_submit_tx_locked(): [UART_TX]<8>
+[ 29167.122573941] HSUART write:  : 01 3a 0c 04 01 33 8b 9e                          .:...3..
+[ 29167.122579775] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[ 29167.122584566] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.122589879] SR:a84 ISR:82ab DMRX:0 RX_SNAP:7 TXFS:1000 RXFS:0
+[ 29167.122592223] clk_req_state:0x0 rx.flush:0
+[ 29167.122590764] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e41b3, size=0x8, flags=0xc000, line=0
+[ 29167.122594150] clk_state:3
+[ 29167.122598473] In msm_serial_hs_tx_tlet()
+[ 29167.122602691] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.122607379] SR:a84 ISR:82ab DMRX:0 RX_SNAP:7 TXFS:0 RXFS:0
+[ 29167.122610816] clk_req_state:0x0 rx.flush:0
+[ 29167.122612379] clk_state:3
+[ 29167.122991494] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0x7, flags=0xe000
+[ 29167.123000452] In msm_serial_hs_rx_tlet
+[ 29167.123004671] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.123009879] SR:a8c ISR:82ab DMRX:0 RX_SNAP:7 TXFS:0 RXFS:0
+[ 29167.123012066] clk_req_state:0x0 rx.flush:0
+[ 29167.123013577] clk_state:3
+[ 29167.123015608] msm_serial_hs_rx_tlet():[UART_RX]<7>
+[ 29167.123021285] HSUART Read:  : 04 0e 04 01 3a 0c 00                             ....:..
+[ 29167.123024046] Queing bam descriptor
+[ 29167.123270035] msm_hs_submit_tx_locked(): [UART_TX]<5>
+[ 29167.123274723] HSUART write:  : 01 1a 0c 01 01                                   .....
+[ 29167.123279879] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[ 29167.123284150] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.123289462] SR:a84 ISR:82ab DMRX:0 RX_SNAP:7 TXFS:400 RXFS:0
+[ 29167.123292223] clk_req_state:0x0 rx.flush:0
+[ 29167.123290712] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e41bb, size=0x5, flags=0xc000, line=0
+[ 29167.123293733] clk_state:3
+[ 29167.123298160] In msm_serial_hs_tx_tlet()
+[ 29167.123301858] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.123306285] SR:a8c ISR:82ab DMRX:0 RX_SNAP:7 TXFS:0 RXFS:0
+[ 29167.123308681] clk_req_state:0x0 rx.flush:0
+[ 29167.123310244] clk_state:3
+[ 29167.123853212] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0x7, flags=0xe000
+[ 29167.123862171] In msm_serial_hs_rx_tlet
+[ 29167.123866233] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.123870764] SR:a8c ISR:82ab DMRX:0 RX_SNAP:7 TXFS:0 RXFS:0
+[ 29167.123873160] clk_req_state:0x0 rx.flush:0
+[ 29167.123874671] clk_state:3
+[ 29167.123876598] msm_serial_hs_rx_tlet():[UART_RX]<7>
+[ 29167.123880921] HSUART Read:  : 04 0e 04 01 1a 0c 00                             .......
+[ 29167.123883785] Queing bam descriptor
+[ 29167.124121910] msm_hs_submit_tx_locked(): [UART_TX]<5>
+[ 29167.124125869] HSUART write:  : 01 1a 0c 01 03                                   .....
+[ 29167.124130973] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[ 29167.124134931] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.124139723] SR:a84 ISR:82ab DMRX:0 RX_SNAP:7 TXFS:800 RXFS:0
+[ 29167.124142483] clk_req_state:0x0 rx.flush:0
+[ 29167.124144098] clk_state:3
+[ 29167.124142171] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e41c0, size=0x5, flags=0xc000, line=0
+[ 29167.124149983] In msm_serial_hs_tx_tlet()
+[ 29167.124153889] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.124158108] SR:a8c ISR:82ab DMRX:0 RX_SNAP:7 TXFS:0 RXFS:0
+[ 29167.124160660] clk_req_state:0x0 rx.flush:0
+[ 29167.124162119] clk_state:3
+[ 29167.124459566] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0x7, flags=0xe000
+[ 29167.124466285] In msm_serial_hs_rx_tlet
+[ 29167.124469879] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.124473785] SR:a8c ISR:82ab DMRX:0 RX_SNAP:7 TXFS:0 RXFS:0
+[ 29167.124476077] clk_req_state:0x0 rx.flush:0
+[ 29167.124477535] clk_state:3
+[ 29167.124479254] msm_serial_hs_rx_tlet():[UART_RX]<7>
+[ 29167.124482379] HSUART Read:  : 04 0e 04 01 1a 0c 00                             .......
+[ 29167.124484879] Queing bam descriptor
+[ 29167.124731962] msm_hs_submit_tx_locked(): [UART_TX]<5>
+[ 29167.124735816] HSUART write:  : 01 1a 0c 01 02                                   .....
+[ 29167.124740348] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[ 29167.124743994] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.124748264] SR:a84 ISR:82ab DMRX:0 RX_SNAP:7 TXFS:800 RXFS:0
+[ 29167.124750504] clk_req_state:0x0 rx.flush:0
+[ 29167.124752066] clk_state:3
+[ 29167.124752691] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e41c5, size=0x5, flags=0xc000, line=0
+[ 29167.124759983] In msm_serial_hs_tx_tlet()
+[ 29167.124763785] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.124767639] SR:a8c ISR:82ab DMRX:0 RX_SNAP:7 TXFS:0 RXFS:0
+[ 29167.124769931] clk_req_state:0x0 rx.flush:0
+[ 29167.124771389] clk_state:3
+[ 29167.124987744] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0x7, flags=0xe000
+[ 29167.124994619] In msm_serial_hs_rx_tlet
+[ 29167.124997900] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.125001754] SR:a8c ISR:82ab DMRX:0 RX_SNAP:7 TXFS:0 RXFS:0
+[ 29167.125003889] clk_req_state:0x0 rx.flush:0
+[ 29167.125005400] clk_state:3
+[ 29167.125007066] msm_serial_hs_rx_tlet():[UART_RX]<7>
+[ 29167.125010764] HSUART Read:  : 04 0e 04 01 1a 0c 00                             .......
+[ 29167.125013264] Queing bam descriptor
+[ 29167.125224046] msm_hs_submit_tx_locked(): [UART_TX]<5>
+[ 29167.125228525] HSUART write:  : 01 1a 0c 01 00                                   .....
+[ 29167.125233004] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[ 29167.125237952] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.125243316] SR:a84 ISR:82ab DMRX:0 RX_SNAP:7 TXFS:400 RXFS:0
+[ 29167.125245660] clk_req_state:0x0 rx.flush:0
+[ 29167.125247171] clk_state:3
+[ 29167.125245035] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e41ca, size=0x5, flags=0xc000, line=0
+[ 29167.125252066] In msm_serial_hs_tx_tlet()
+[ 29167.125255764] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.125259566] SR:a8c ISR:82ab DMRX:0 RX_SNAP:7 TXFS:0 RXFS:0
+[ 29167.125261910] clk_req_state:0x0 rx.flush:0
+[ 29167.125263369] clk_state:3
+[ 29167.126186389] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0x7, flags=0xe000
+[ 29167.126194983] In msm_serial_hs_rx_tlet
+[ 29167.126199306] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.126204358] SR:a8c ISR:82ab DMRX:0 RX_SNAP:7 TXFS:0 RXFS:0
+[ 29167.126206910] clk_req_state:0x0 rx.flush:0
+[ 29167.126208473] clk_state:3
+[ 29167.126210400] msm_serial_hs_rx_tlet():[UART_RX]<7>
+[ 29167.126214931] HSUART Read:  : 04 0e 04 01 1a 0c 00                             .......
+[ 29167.126218316] Queing bam descriptor
+[ 29167.126479150] msm_hs_submit_tx_locked(): [UART_TX]<245>
+[ 29167.126483733] HSUART write:  : 01 52 0c f1 01 0a 09 47 61 6c 61 78 79 20 53 35  .R.....Galaxy S5
+[ 29167.126488837] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[ 29167.126492483] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.126497014] SR:a84 ISR:82aa DMRX:0 RX_SNAP:7 TXFS:20bb RXFS:0
+[ 29167.126499619] clk_req_state:0x0 rx.flush:0
+[ 29167.126501181] clk_state:3
+[ 29167.126503941] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e41cf, size=0xf5, flags=0xc000, line=0
+[ 29167.126511858] In msm_serial_hs_tx_tlet()
+[ 29167.126555296] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.126560296] SR:a84 ISR:82aa DMRX:0 RX_SNAP:7 TXFS:2136 RXFS:0
+[ 29167.126562744] clk_req_state:0x0 rx.flush:0
+[ 29167.126564358] clk_state:3
+[ 29167.127549827] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0x7, flags=0xe000
+[ 29167.127560816] In msm_serial_hs_rx_tlet
+[ 29167.127564879] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.127569358] SR:a8c ISR:82ab DMRX:0 RX_SNAP:7 TXFS:0 RXFS:0
+[ 29167.127571910] clk_req_state:0x0 rx.flush:0
+[ 29167.127573525] clk_state:3
+[ 29167.127576181] msm_serial_hs_rx_tlet():[UART_RX]<7>
+[ 29167.127580087] HSUART Read:  : 04 0e 04 01 52 0c 00                             ....R..
+[ 29167.127584202] Queing bam descriptor
+[ 29167.127850973] msm_hs_submit_tx_locked(): [UART_TX]<245>
+[ 29167.127855660] HSUART write:  : 01 52 0c f1 01 0a 09 47 61 6c 61 78 79 20 53 35  .R.....Galaxy S5
+[ 29167.127861441] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[ 29167.127865608] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.127870816] SR:a84 ISR:82aa DMRX:0 RX_SNAP:7 TXFS:223a RXFS:0
+[ 29167.127873264] clk_req_state:0x0 rx.flush:0
+[ 29167.127875712] clk_state:3
+[ 29167.127874827] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e42c4, size=0xf5, flags=0xc000, line=0
+[ 29167.127881858] In msm_serial_hs_tx_tlet()
+[ 29167.127885816] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.127890348] SR:a84 ISR:82aa DMRX:0 RX_SNAP:7 TXFS:2139 RXFS:0
+[ 29167.127892587] clk_req_state:0x0 rx.flush:0
+[ 29167.127894098] clk_state:3
+[ 29167.129101025] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0x7, flags=0xe000
+[ 29167.129126389] In msm_serial_hs_rx_tlet
+[ 29167.129130816] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.129136129] SR:a8c ISR:82ab DMRX:0 RX_SNAP:7 TXFS:0 RXFS:0
+[ 29167.129138525] clk_req_state:0x0 rx.flush:0
+[ 29167.129140139] clk_state:3
+[ 29167.129142275] msm_serial_hs_rx_tlet():[UART_RX]<7>
+[ 29167.129146494] HSUART Read:  : 04 0e 04 01 52 0c 00                             ....R..
+[ 29167.129149775] Queing bam descriptor
+[ 29167.129444827] msm_hs_submit_tx_locked(): [UART_TX]<245>
+[ 29167.129449879] HSUART write:  : 01 52 0c f1 01 0a 09 47 61 6c 61 78 79 20 53 35  .R.....Galaxy S5
+[ 29167.129455191] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[ 29167.129459306] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.129463681] SR:a84 ISR:82aa DMRX:0 RX_SNAP:7 TXFS:20bb RXFS:0
+[ 29167.129466129] clk_req_state:0x0 rx.flush:0
+[ 29167.129467952] clk_state:3
+[ 29167.129470087] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e43b9, size=0xf5, flags=0xc000, line=0
+[ 29167.129478577] In msm_serial_hs_tx_tlet()
+[ 29167.129482483] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.129486910] SR:a84 ISR:82aa DMRX:0 RX_SNAP:7 TXFS:2139 RXFS:0
+[ 29167.129489306] clk_req_state:0x0 rx.flush:0
+[ 29167.129490921] clk_state:3
+[ 29167.130677483] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0x7, flags=0xe000
+[ 29167.130689879] In msm_serial_hs_rx_tlet
+[ 29167.130694150] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.130699098] SR:a8c ISR:82ab DMRX:0 RX_SNAP:7 TXFS:0 RXFS:0
+[ 29167.130701546] clk_req_state:0x0 rx.flush:0
+[ 29167.130703056] clk_state:3
+[ 29167.130704983] msm_serial_hs_rx_tlet():[UART_RX]<7>
+[ 29167.130708889] HSUART Read:  : 04 0e 04 01 52 0c 00                             ....R..
+[ 29167.130712587] Queing bam descriptor
+[ 29167.130999983] msm_hs_submit_tx_locked(): [UART_TX]<245>
+[ 29167.131004306] HSUART write:  : 01 52 0c f1 01 0a 09 47 61 6c 61 78 79 20 53 35  .R.....Galaxy S5
+[ 29167.131009514] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[ 29167.131014619] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.131020452] SR:a84 ISR:82aa DMRX:0 RX_SNAP:7 TXFS:223a RXFS:0
+[ 29167.131022900] clk_req_state:0x0 rx.flush:0
+[ 29167.131024410] clk_state:3
+[ 29167.131023525] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e44ae, size=0xf5, flags=0xc000, line=0
+[ 29167.131030660] In msm_serial_hs_tx_tlet()
+[ 29167.131034671] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.131039566] SR:a84 ISR:82aa DMRX:0 RX_SNAP:7 TXFS:2139 RXFS:0
+[ 29167.131041910] clk_req_state:0x0 rx.flush:0
+[ 29167.131043525] clk_state:3
+[ 29167.132232379] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0x7, flags=0xe000
+[ 29167.132245504] In msm_serial_hs_rx_tlet
+[ 29167.132249514] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.132254566] SR:a8c ISR:82ab DMRX:0 RX_SNAP:7 TXFS:0 RXFS:0
+[ 29167.132256858] clk_req_state:0x0 rx.flush:0
+[ 29167.132258525] clk_state:3
+[ 29167.132260921] msm_serial_hs_rx_tlet():[UART_RX]<7>
+[ 29167.132265452] HSUART Read:  : 04 0e 04 01 52 0c 00                             ....R..
+[ 29167.132269775] Queing bam descriptor
+[ 29167.132530764] msm_hs_submit_tx_locked(): [UART_TX]<245>
+[ 29167.132535191] HSUART write:  : 01 52 0c f1 01 0a 09 47 61 6c 61 78 79 20 53 35  .R.....Galaxy S5
+[ 29167.132541650] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[ 29167.132545712] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.132550764] SR:a84 ISR:82aa DMRX:0 RX_SNAP:7 TXFS:223a RXFS:0
+[ 29167.132553785] clk_req_state:0x0 rx.flush:0
+[ 29167.132555869] clk_state:3
+[ 29167.132554410] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e45a3, size=0xf5, flags=0xc000, line=0
+[ 29167.132562900] In msm_serial_hs_tx_tlet()
+[ 29167.132567171] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.132571598] SR:a84 ISR:82aa DMRX:0 RX_SNAP:7 TXFS:2139 RXFS:0
+[ 29167.132574827] clk_req_state:0x0 rx.flush:0
+[ 29167.132576389] clk_state:3
+[ 29167.133757275] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0x7, flags=0xe000
+[ 29167.133767066] In msm_serial_hs_rx_tlet
+[ 29167.133770504] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.133774983] SR:a8c ISR:82ab DMRX:0 RX_SNAP:7 TXFS:0 RXFS:0
+[ 29167.133777379] clk_req_state:0x0 rx.flush:0
+[ 29167.133778889] clk_state:3
+[ 29167.133780764] msm_serial_hs_rx_tlet():[UART_RX]<7>
+[ 29167.133784254] HSUART Read:  : 04 0e 04 01 52 0c 00                             ....R..
+[ 29167.133787535] Queing bam descriptor
+[ 29167.134016546] msm_hs_submit_tx_locked(): [UART_TX]<5>
+[ 29167.134020139] HSUART write:  : 01 1a 0c 01 00                                   .....
+[ 29167.134025400] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[ 29167.134029514] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.134034619] SR:a84 ISR:82ab DMRX:0 RX_SNAP:7 TXFS:400 RXFS:0
+[ 29167.134036858] clk_req_state:0x0 rx.flush:0
+[ 29167.134035244] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e4698, size=0x5, flags=0xc000, line=0
+[ 29167.134038473] clk_state:3
+[ 29167.134042431] In msm_serial_hs_tx_tlet()
+[ 29167.134045973] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.134050348] SR:a8c ISR:82ab DMRX:0 RX_SNAP:7 TXFS:0 RXFS:0
+[ 29167.134052691] clk_req_state:0x0 rx.flush:0
+[ 29167.134055139] clk_state:3
+[ 29167.134503212] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0x7, flags=0xe000
+[ 29167.134511129] In msm_serial_hs_rx_tlet
+[ 29167.134514514] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.134518681] SR:a8c ISR:82ab DMRX:0 RX_SNAP:7 TXFS:0 RXFS:0
+[ 29167.134521025] clk_req_state:0x0 rx.flush:0
+[ 29167.134522639] clk_state:3
+[ 29167.134524358] msm_serial_hs_rx_tlet():[UART_RX]<7>
+[ 29167.134527691] HSUART Read:  : 04 0e 04 01 1a 0c 00                             .......
+[ 29167.134530921] Queing bam descriptor
+[ 29167.134743994] msm_hs_submit_tx_locked(): [UART_TX]<5>
+[ 29167.134747691] HSUART write:  : 01 1a 0c 01 02                                   .....
+[ 29167.134752848] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[ 29167.134757327] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.134762379] SR:a84 ISR:82ab DMRX:0 RX_SNAP:7 TXFS:400 RXFS:0
+[ 29167.134764723] clk_req_state:0x0 rx.flush:0
+[ 29167.134763004] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e469d, size=0x5, flags=0xc000, line=0
+[ 29167.134766285] clk_state:3
+[ 29167.134770608] In msm_serial_hs_tx_tlet()
+[ 29167.134774462] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.134778421] SR:a8c ISR:82ab DMRX:0 RX_SNAP:7 TXFS:0 RXFS:0
+[ 29167.134780973] clk_req_state:0x0 rx.flush:0
+[ 29167.134782483] clk_state:3
+[ 29167.135299150] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0x7, flags=0xe000
+[ 29167.135311754] In msm_serial_hs_rx_tlet
+[ 29167.135322223] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.135332587] SR:a8c ISR:82ab DMRX:0 RX_SNAP:7 TXFS:0 RXFS:0
+[ 29167.135335869] clk_req_state:0x0 rx.flush:0
+[ 29167.135337431] clk_state:3
+[ 29167.135339358] msm_serial_hs_rx_tlet():[UART_RX]<7>
+[ 29167.135343212] HSUART Read:  : 04 0e 04 01 1a 0c 00                             .......
+[ 29167.135346754] Queing bam descriptor
+[ 29167.188467744] msm_hs_submit_tx_locked(): [UART_TX]<245>
+[ 29167.188473733] HSUART write:  : 01 52 0c f1 01 0a 09 47 61 6c 61 78 79 20 53 35  .R.....Galaxy S5
+[ 29167.188481754] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[ 29167.188485869] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.188491025] SR:a84 ISR:82aa DMRX:0 RX_SNAP:7 TXFS:223a RXFS:0
+[ 29167.188493733] clk_req_state:0x0 rx.flush:0
+[ 29167.188495348] clk_state:3
+[ 29167.188501546] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e46a2, size=0xf5, flags=0xc000, line=0
+[ 29167.188510816] In msm_serial_hs_tx_tlet()
+[ 29167.188515087] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.188519879] SR:a84 ISR:82aa DMRX:0 RX_SNAP:7 TXFS:2238 RXFS:0
+[ 29167.188522431] clk_req_state:0x0 rx.flush:0
+[ 29167.188524046] clk_state:3
+[ 29167.189711129] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0x7, flags=0xe000
+[ 29167.189721494] In msm_serial_hs_rx_tlet
+[ 29167.189725921] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.189731129] SR:a8c ISR:82ab DMRX:0 RX_SNAP:7 TXFS:0 RXFS:0
+[ 29167.189733525] clk_req_state:0x0 rx.flush:0
+[ 29167.189735035] clk_state:3
+[ 29167.189737275] msm_serial_hs_rx_tlet():[UART_RX]<7>
+[ 29167.189740921] HSUART Read:  : 04 0e 04 01 52 0c 00                             ....R..
+[ 29167.189744150] Queing bam descriptor
+[ 29167.254801546] msm_hs_submit_tx_locked(): [UART_TX]<245>
+[ 29167.254811129] HSUART write:  : 01 52 0c f1 01 0a 09 47 61 6c 61 78 79 20 53 35  .R.....Galaxy S5
+[ 29167.254819254] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[ 29167.254824046] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.254830087] SR:a84 ISR:82aa DMRX:0 RX_SNAP:7 TXFS:223a RXFS:0
+[ 29167.254833160] clk_req_state:0x0 rx.flush:0
+[ 29167.254834723] clk_state:3
+[ 29167.254847744] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e4797, size=0xf5, flags=0xc000, line=0
+[ 29167.254860973] In msm_serial_hs_tx_tlet()
+[ 29167.254866129] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.254871441] SR:a84 ISR:82aa DMRX:0 RX_SNAP:7 TXFS:2237 RXFS:0
+[ 29167.254873941] clk_req_state:0x0 rx.flush:0
+[ 29167.254875504] clk_state:3
+[ 29167.256036650] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0x7, flags=0xe000
+[ 29167.256089566] In msm_serial_hs_rx_tlet
+[ 29167.256095452] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.256100556] SR:a8c ISR:82ab DMRX:0 RX_SNAP:7 TXFS:0 RXFS:0
+[ 29167.256104202] clk_req_state:0x0 rx.flush:0
+[ 29167.256106077] clk_state:3
+[ 29167.256108837] msm_serial_hs_rx_tlet():[UART_RX]<7>
+[ 29167.256113733] HSUART Read:  : 04 0e 04 01 52 0c 00                             ....R..
+[ 29167.256118212] Queing bam descriptor
+[ 29167.269413004] msm_hs_submit_tx_locked(): [UART_TX]<4>
+[ 29167.269421233] HSUART write:  : 01 18 20 00                                      .. .
+[ 29167.269433525] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[ 29167.269439618] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.269446181] SR:a84 ISR:82ab DMRX:0 RX_SNAP:7 TXFS:0 RXFS:0
+[ 29167.269449723] clk_req_state:0x0 rx.flush:0
+[ 29167.269451233] clk_state:3
+[ 29167.269450035] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e488c, size=0x4, flags=0xc000, line=0
+[ 29167.269461754] In msm_serial_hs_tx_tlet()
+[ 29167.269466858] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.269472639] SR:a8c ISR:82ab DMRX:0 RX_SNAP:7 TXFS:0 RXFS:0
+[ 29167.269475087] clk_req_state:0x0 rx.flush:0
+[ 29167.269476598] clk_state:3
+[ 29167.269899931] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0xf, flags=0xe000
+[ 29167.269907431] In msm_serial_hs_rx_tlet
+[ 29167.269911337] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.269915816] SR:a8c ISR:82ab DMRX:0 RX_SNAP:f TXFS:0 RXFS:0
+[ 29167.269919462] clk_req_state:0x0 rx.flush:0
+[ 29167.269920973] clk_state:3
+[ 29167.269923629] msm_serial_hs_rx_tlet():[UART_RX]<15>
+[ 29167.269929723] HSUART Read:  : 04 0e 0c 01 18 20 00 f5 ff 18 b2 ca 90 ad 3a     ..... ........:
+[ 29167.269933525] Queing bam descriptor
+[ 29167.271057796] msm_hs_submit_tx_locked(): [UART_TX]<4>
+[ 29167.271067639] HSUART write:  : 01 18 20 00                                      .. .
+[ 29167.271079358] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[ 29167.271084566] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.271091493] SR:a84 ISR:82ab DMRX:0 RX_SNAP:f TXFS:0 RXFS:0
+[ 29167.271094098] clk_req_state:0x0 rx.flush:0
+[ 29167.271095660] clk_state:3
+[ 29167.271095035] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e4890, size=0x4, flags=0xc000, line=0
+[ 29167.271115400] In msm_serial_hs_tx_tlet()
+[ 29167.271119618] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.271123733] SR:a8c ISR:82ab DMRX:0 RX_SNAP:f TXFS:0 RXFS:0
+[ 29167.271126129] clk_req_state:0x0 rx.flush:0
+[ 29167.271127639] clk_state:3
+[ 29167.271549150] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0xf, flags=0xe000
+[ 29167.271557014] In msm_serial_hs_rx_tlet
+[ 29167.271561285] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.271566598] SR:a8c ISR:82ab DMRX:0 RX_SNAP:f TXFS:0 RXFS:0
+[ 29167.271569462] clk_req_state:0x0 rx.flush:0
+[ 29167.271571129] clk_state:3
+[ 29167.271572796] msm_serial_hs_rx_tlet():[UART_RX]<15>
+[ 29167.271579358] HSUART Read:  : 04 0e 0c 01 18 20 00 4a 1e 78 a8 2a 44 f3 32     ..... .J.x.*D.2
+[ 29167.271582223] Queing bam descriptor
+[ 29167.274242431] msm_hs_submit_tx_locked(): [UART_TX]<4>
+[ 29167.274249358] HSUART write:  : 01 18 20 00                                      .. .
+[ 29167.274258733] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[ 29167.274263525] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.274269827] SR:a84 ISR:82ab DMRX:0 RX_SNAP:f TXFS:0 RXFS:0
+[ 29167.274272691] clk_req_state:0x0 rx.flush:0
+[ 29167.274274202] clk_state:3
+[ 29167.274272066] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e4894, size=0x4, flags=0xc000, line=0
+[ 29167.274282171] In msm_serial_hs_tx_tlet()
+[ 29167.274286129] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.274290764] SR:a8c ISR:82ab DMRX:0 RX_SNAP:f TXFS:0 RXFS:0
+[ 29167.274293212] clk_req_state:0x0 rx.flush:0
+[ 29167.274294723] clk_state:3
+[ 29167.274721337] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0xf, flags=0xe000
+[ 29167.274730608] In msm_serial_hs_rx_tlet
+[ 29167.274734566] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.274739462] SR:a8c ISR:82ab DMRX:0 RX_SNAP:f TXFS:0 RXFS:0
+[ 29167.274741806] clk_req_state:0x0 rx.flush:0
+[ 29167.274743316] clk_state:3
+[ 29167.274745608] msm_serial_hs_rx_tlet():[UART_RX]<15>
+[ 29167.274751077] HSUART Read:  : 04 0e 0c 01 18 20 00 87 e4 7a d5 a1 ad 13 14     ..... ...z.....
+[ 29167.274755191] Queing bam descriptor
+[ 29167.275008577] msm_hs_submit_tx_locked(): [UART_TX]<4>
+[ 29167.275013108] HSUART write:  : 01 18 20 00                                      .. .
+[ 29167.275019098] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[ 29167.275023421] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.275029098] SR:a84 ISR:82ab DMRX:0 RX_SNAP:f TXFS:0 RXFS:0
+[ 29167.275031546] clk_req_state:0x0 rx.flush:0
+[ 29167.275029723] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e4898, size=0x4, flags=0xc000, line=0
+[ 29167.275033993] clk_state:3
+[ 29167.275039150] In msm_serial_hs_tx_tlet()
+[ 29167.275043837] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.275048108] SR:a8c ISR:82ab DMRX:0 RX_SNAP:f TXFS:0 RXFS:0
+[ 29167.275051025] clk_req_state:0x0 rx.flush:0
+[ 29167.275052483] clk_state:3
+[ 29167.275485139] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0xf, flags=0xe000
+[ 29167.275494410] In msm_serial_hs_rx_tlet
+[ 29167.275499879] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.275504879] SR:a8c ISR:82ab DMRX:0 RX_SNAP:f TXFS:0 RXFS:0
+[ 29167.275507483] clk_req_state:0x0 rx.flush:0
+[ 29167.275509046] clk_state:3
+[ 29167.275510660] msm_serial_hs_rx_tlet():[UART_RX]<15>
+[ 29167.275521546] HSUART Read:  : 04 0e 0c 01 18 20 00 d6 52 f0 e7 0f 7f 5c 81     ..... ..R....\.
+[ 29167.275525296] Queing bam descriptor
+[ 29167.275775712] msm_hs_submit_tx_locked(): [UART_TX]<4>
+[ 29167.275779618] HSUART write:  : 01 18 20 00                                      .. .
+[ 29167.275785556] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[ 29167.275789566] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.275794462] SR:a84 ISR:82ab DMRX:0 RX_SNAP:f TXFS:0 RXFS:0
+[ 29167.275796754] clk_req_state:0x0 rx.flush:0
+[ 29167.275795087] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e489c, size=0x4, flags=0xc000, line=0
+[ 29167.275798733] clk_state:3
+[ 29167.275802483] In msm_serial_hs_tx_tlet()
+[ 29167.275806702] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.275810816] SR:a8c ISR:82ab DMRX:0 RX_SNAP:f TXFS:0 RXFS:0
+[ 29167.275813212] clk_req_state:0x0 rx.flush:0
+[ 29167.275814723] clk_state:3
+[ 29167.276248473] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0xf, flags=0xe000
+[ 29167.276255868] In msm_serial_hs_rx_tlet
+[ 29167.276259410] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.276263889] SR:a8c ISR:82ab DMRX:0 RX_SNAP:f TXFS:0 RXFS:0
+[ 29167.276266181] clk_req_state:0x0 rx.flush:0
+[ 29167.276267639] clk_state:3
+[ 29167.276269775] msm_serial_hs_rx_tlet():[UART_RX]<15>
+[ 29167.276274306] HSUART Read:  : 04 0e 0c 01 18 20 00 34 e8 8f cf 2c 32 46 c1     ..... .4...,2F.
+[ 29167.276278264] Queing bam descriptor
+[ 29167.276547743] msm_hs_submit_tx_locked(): [UART_TX]<4>
+[ 29167.276552796] HSUART write:  : 01 18 20 00                                      .. .
+[ 29167.276558004] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[ 29167.276562379] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.276568421] SR:a84 ISR:82ab DMRX:0 RX_SNAP:f TXFS:0 RXFS:0
+[ 29167.276567275] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e48a0, size=0x4, flags=0xc000, line=0
+[ 29167.276570816] clk_req_state:0x0 rx.flush:0
+[ 29167.276572379] clk_state:3
+[ 29167.276576077] In msm_serial_hs_tx_tlet()
+[ 29167.276581285] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.276586962] SR:a8c ISR:82ab DMRX:0 RX_SNAP:f TXFS:0 RXFS:0
+[ 29167.276589202] clk_req_state:0x0 rx.flush:0
+[ 29167.276590660] clk_state:3
+[ 29167.277052743] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0xf, flags=0xe000
+[ 29167.277061754] In msm_serial_hs_rx_tlet
+[ 29167.277065764] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.277071546] SR:a8c ISR:82ab DMRX:0 RX_SNAP:f TXFS:0 RXFS:0
+[ 29167.277073837] clk_req_state:0x0 rx.flush:0
+[ 29167.277075348] clk_state:3
+[ 29167.277076962] msm_serial_hs_rx_tlet():[UART_RX]<15>
+[ 29167.277082431] HSUART Read:  : 04 0e 0c 01 18 20 00 15 97 4a c5 f9 98 e2 88     ..... ...J.....
+[ 29167.277085608] Queing bam descriptor
+[ 29167.277415712] msm_hs_submit_tx_locked(): [UART_TX]<10>
+[ 29167.277421181] HSUART write:  : 01 05 20 06 b3 02 6a f5 ff 58                    .. ...j..X
+[ 29167.277426702] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[ 29167.277430608] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.277435348] SR:a84 ISR:82ab DMRX:0 RX_SNAP:f TXFS:1800 RXFS:0
+[ 29167.277438316] clk_req_state:0x0 rx.flush:0
+[ 29167.277439827] clk_state:3
+[ 29167.277438941] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e48a4, size=0xa, flags=0xc000, line=0
+[ 29167.277446858] In msm_serial_hs_tx_tlet()
+[ 29167.277450764] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.277455139] SR:a84 ISR:82ab DMRX:0 RX_SNAP:f TXFS:400 RXFS:0
+[ 29167.277457483] clk_req_state:0x0 rx.flush:0
+[ 29167.277458993] clk_state:3
+[ 29167.278279098] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0x7, flags=0xe000
+[ 29167.278296129] In msm_serial_hs_rx_tlet
+[ 29167.278300608] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.278305243] SR:a8c ISR:82ab DMRX:0 RX_SNAP:7 TXFS:0 RXFS:0
+[ 29167.278307639] clk_req_state:0x0 rx.flush:0
+[ 29167.278309150] clk_state:3
+[ 29167.278311598] msm_serial_hs_rx_tlet():[UART_RX]<7>
+[ 29167.278318525] HSUART Read:  : 04 0e 04 01 05 20 00                             ..... .
+[ 29167.278322327] Queing bam descriptor
+[ 29167.278584202] msm_hs_submit_tx_locked(): [UART_TX]<12>
+[ 29167.278588160] HSUART write:  : 01 54 fd 08 04 a3 14 da 4a 1e 78 01              .T......J.x.
+[ 29167.278594931] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[ 29167.278599462] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.278605296] SR:a84 ISR:82ab DMRX:0 RX_SNAP:7 TXFS:2000 RXFS:0
+[ 29167.278607796] clk_req_state:0x0 rx.flush:0
+[ 29167.278609306] clk_state:3
+[ 29167.278607171] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e48ae, size=0xc, flags=0xc000, line=0
+[ 29167.278625660] In msm_serial_hs_tx_tlet()
+[ 29167.278629462] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.278633733] SR:a84 ISR:82ab DMRX:0 RX_SNAP:7 TXFS:0 RXFS:0
+[ 29167.278636233] clk_req_state:0x0 rx.flush:0
+[ 29167.278651546] clk_state:3
+[ 29167.278897066] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0x8, flags=0xe000
+[ 29167.278947431] In msm_serial_hs_rx_tlet
+[ 29167.278951598] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.278956077] SR:a8c ISR:82ab DMRX:0 RX_SNAP:8 TXFS:0 RXFS:0
+[ 29167.278958577] clk_req_state:0x0 rx.flush:0
+[ 29167.278960139] clk_state:3
+[ 29167.278961702] msm_serial_hs_rx_tlet():[UART_RX]<8>
+[ 29167.278966441] HSUART Read:  : 04 0e 05 01 54 fd 00 04                          ....T...
+[ 29167.278969514] Queing bam descriptor
+[ 29167.279381962] msm_hs_submit_tx_locked(): [UART_TX]<12>
+[ 29167.279386598] HSUART write:  : 01 54 fd 08 04 f9 96 e0 87 e4 7a 02              .T........z.
+[ 29167.279392223] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[ 29167.279396233] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.279401441] SR:a84 ISR:82ab DMRX:0 RX_SNAP:8 TXFS:2000 RXFS:0
+[ 29167.279404410] clk_req_state:0x0 rx.flush:0
+[ 29167.279405921] clk_state:3
+[ 29167.279404723] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e48ba, size=0xc, flags=0xc000, line=0
+[ 29167.279412848] In msm_serial_hs_tx_tlet()
+[ 29167.279417223] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.279421598] SR:a84 ISR:82ab DMRX:0 RX_SNAP:8 TXFS:800 RXFS:0
+[ 29167.279424254] clk_req_state:0x0 rx.flush:0
+[ 29167.279426077] clk_state:3
+[ 29167.280168056] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0x8, flags=0xe000
+[ 29167.280178577] In msm_serial_hs_rx_tlet
+[ 29167.280182535] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.280186858] SR:a8c ISR:82ab DMRX:0 RX_SNAP:8 TXFS:0 RXFS:0
+[ 29167.280189775] clk_req_state:0x0 rx.flush:0
+[ 29167.280191285] clk_state:3
+[ 29167.280193316] msm_serial_hs_rx_tlet():[UART_RX]<8>
+[ 29167.280197535] HSUART Read:  : 04 0e 05 01 54 fd 00 04                          ....T...
+[ 29167.280201025] Queing bam descriptor
+[ 29167.280430816] msm_hs_submit_tx_locked(): [UART_TX]<12>
+[ 29167.280435087] HSUART write:  : 01 54 fd 08 04 fe 82 84 d6 52 70 03              .T.......Rp.
+[ 29167.280440868] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[ 29167.280445296] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.280450035] SR:a84 ISR:82ab DMRX:0 RX_SNAP:8 TXFS:2000 RXFS:0
+[ 29167.280452691] clk_req_state:0x0 rx.flush:0
+[ 29167.280454462] clk_state:3
+[ 29167.280453004] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e48c6, size=0xc, flags=0xc000, line=0
+[ 29167.280460660] In msm_serial_hs_tx_tlet()
+[ 29167.280464775] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.280482639] SR:a84 ISR:82ab DMRX:0 RX_SNAP:8 TXFS:0 RXFS:0
+[ 29167.280485608] clk_req_state:0x0 rx.flush:0
+[ 29167.280487171] clk_state:3
+[ 29167.280706702] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0x8, flags=0xe000
+[ 29167.280713837] In msm_serial_hs_rx_tlet
+[ 29167.280717691] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.280721962] SR:a8c ISR:82ab DMRX:0 RX_SNAP:8 TXFS:0 RXFS:0
+[ 29167.280724254] clk_req_state:0x0 rx.flush:0
+[ 29167.280725764] clk_state:3
+[ 29167.280727327] msm_serial_hs_rx_tlet():[UART_RX]<8>
+[ 29167.280730816] HSUART Read:  : 04 0e 05 01 54 fd 00 04                          ....T...
+[ 29167.280733681] Queing bam descriptor
+[ 29167.280921233] msm_hs_submit_tx_locked(): [UART_TX]<12>
+[ 29167.280925035] HSUART write:  : 01 54 fd 08 04 32 9d 95 34 e8 4f 04              .T...2..4.O.
+[ 29167.280929827] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[ 29167.280933733] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.280938993] SR:a84 ISR:82ab DMRX:0 RX_SNAP:8 TXFS:2000 RXFS:0
+[ 29167.280938681] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e48d2, size=0xc, flags=0xc000, line=0
+[ 29167.280941441] clk_req_state:0x0 rx.flush:0
+[ 29167.280943160] clk_state:3
+[ 29167.280945973] In msm_serial_hs_tx_tlet()
+[ 29167.280949566] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.280953316] SR:a84 ISR:82ab DMRX:0 RX_SNAP:8 TXFS:1000 RXFS:0
+[ 29167.280955764] clk_req_state:0x0 rx.flush:0
+[ 29167.280957327] clk_state:3
+[ 29167.281201493] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0x8, flags=0xe000
+[ 29167.281209827] In msm_serial_hs_rx_tlet
+[ 29167.281213837] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.281218577] SR:a8c ISR:82ab DMRX:0 RX_SNAP:8 TXFS:0 RXFS:0
+[ 29167.281220973] clk_req_state:0x0 rx.flush:0
+[ 29167.281222535] clk_state:3
+[ 29167.281224306] msm_serial_hs_rx_tlet():[UART_RX]<8>
+[ 29167.281228368] HSUART Read:  : 04 0e 05 01 54 fd 00 04                          ....T...
+[ 29167.281232118] Queing bam descriptor
+[ 29167.770320660] msm_hs_submit_tx_locked(): [UART_TX]<245>
+[ 29167.770327848] HSUART write:  : 01 52 0c f1 01 0a 09 47 61 6c 61 78 79 20 53 35  .R.....Galaxy S5
+[ 29167.770340035] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[ 29167.770346389] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.770351858] SR:a84 ISR:82aa DMRX:0 RX_SNAP:8 TXFS:223a RXFS:0
+[ 29167.770354983] clk_req_state:0x0 rx.flush:0
+[ 29167.770356546] clk_state:3
+[ 29167.770358993] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e48de, size=0xf5, flags=0xc000, line=0
+[ 29167.770370087] In msm_serial_hs_tx_tlet()
+[ 29167.770375087] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.770380452] SR:a84 ISR:82aa DMRX:0 RX_SNAP:8 TXFS:21b8 RXFS:0
+[ 29167.770382900] clk_req_state:0x0 rx.flush:0
+[ 29167.770384462] clk_state:3
+[ 29167.771573837] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0x7, flags=0xe000
+[ 29167.771618160] In msm_serial_hs_rx_tlet
+[ 29167.771625035] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29167.771630973] SR:a8c ISR:82ab DMRX:0 RX_SNAP:7 TXFS:0 RXFS:0
+[ 29167.771633368] clk_req_state:0x0 rx.flush:0
+[ 29167.771634931] clk_state:3
+[ 29167.771637379] msm_serial_hs_rx_tlet():[UART_RX]<7>
+[ 29167.771642952] HSUART Read:  : 04 0e 04 01 52 0c 00                             ....R..
+[ 29167.771647639] Queing bam descriptor
+[ 29169.766147900] msm_hs_tx_empty(): SR Reg Read 0xa8c
+[ 29169.766164722] msm_hs_request_clock_off(): TXEMT, queuing clock off work
+[ 29169.766192952] In msm_hs_check_clock_off:
+[ 29169.766196337] In msm_hs_stop_rx_locked():
+[ 29169.766207014] msm_hs_check_clock_off: rx.flush 4 clk_state 2
+[ 29169.766322275] hsuart_disconnect_rx_endpoint_work: Calling Completion
+[ 29169.766325764] hsuart_disconnect_rx_endpoint_work: Done Completion
+[ 29169.767239410] In msm_hs_check_clock_off:
+[ 29169.767251389] Bus voting:0
+[ 29169.769446181] msm_hs_clock_unvote: Clock OFF successful
+[ 29202.606581438] Bus voting:1
+[ 29202.609285136] msm_hs_clock_vote: Clock ON successful
+[ 29202.609291594] msm_hs_request_clock_on:clock state 3
+
+[ 29202.609296594] msm_hs_request_clock_on: rx.flush 5
+[ 29202.609470448] msm_hs_start_rx_locked:Enqueue Rx Cmd
+[ 29202.609478261] MR1:70 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29202.609486646] SR:20c ISR:82e1 DMRX:0 RX_SNAP:0 TXFS:0 RXFS:0
+[ 29202.609490813] clk_req_state:0x0 rx.flush:0
+[ 29202.609493626] clk_state:3
+[ 29202.609496021] msm_hs_request_clock_on:Clock ON Successful
+[ 29202.609500761] MR1:70 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29202.609507323] SR:20c ISR:82e1 DMRX:0 RX_SNAP:0 TXFS:0 RXFS:0
+[ 29202.609511021] clk_req_state:0x0 rx.flush:0
+[ 29202.609513365] clk_state:3
+[ 29202.609648573] msm_hs_submit_tx_locked(): [UART_TX]<4>
+[ 29202.609654355] HSUART write:  : 01 59 fd 00                                      .Y..
+[ 29202.609661751] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[ 29202.609666230] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29202.609673053] SR:204 ISR:82e1 DMRX:0 RX_SNAP:0 TXFS:c00 RXFS:0
+[ 29202.609676959] clk_req_state:0x0 rx.flush:0
+[ 29202.609673938] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e49d3, size=0x4, flags=0xc000, line=0
+[ 29202.609679511] clk_state:3
+[ 29202.609685344] In msm_serial_hs_tx_tlet()
+[ 29202.609690240] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29202.609696490] SR:204 ISR:82e1 DMRX:0 RX_SNAP:0 TXFS:c00 RXFS:0
+[ 29202.609700084] clk_req_state:0x0 rx.flush:0
+[ 29202.609702219] clk_state:3
+[ 29202.615190917] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0x17, flags=0xe000
+[ 29202.615202636] In msm_serial_hs_rx_tlet
+[ 29202.615207532] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29202.615214303] SR:a8c ISR:82ab DMRX:0 RX_SNAP:17 TXFS:0 RXFS:0
+[ 29202.615217948] clk_req_state:0x0 rx.flush:0
+[ 29202.615220084] clk_state:3
+[ 29202.615222584] msm_serial_hs_rx_tlet():[UART_RX]<23>
+[ 29202.615229198] HSUART Read:  : 04 0e 14 01 59 fd 00 00 00 00 00 96 0f 00 00 cf  ....Y...........
+[ 29202.615233365] Queing bam descriptor
+[ 29204.606298573] msm_hs_tx_empty(): SR Reg Read 0xa8c
+[ 29204.606325084] msm_hs_request_clock_off(): TXEMT, queuing clock off work
+[ 29204.606357375] In msm_hs_check_clock_off:
+[ 29204.606361594] In msm_hs_stop_rx_locked():
+[ 29204.606374459] msm_hs_check_clock_off: rx.flush 4 clk_state 2
+[ 29204.606533105] hsuart_disconnect_rx_endpoint_work: Calling Completion
+[ 29204.606538834] hsuart_disconnect_rx_endpoint_work: Done Completion
+[ 29204.607415292] In msm_hs_check_clock_off:
+[ 29204.607431750] Bus voting:0
+[ 29204.609951021] msm_hs_clock_unvote: Clock OFF successful
+[ 29539.641856353] Bus voting:1
+[ 29539.644761197] msm_hs_clock_vote: Clock ON successful
+[ 29539.644767134] msm_hs_request_clock_on:clock state 3
+
+[ 29539.644771718] msm_hs_request_clock_on: rx.flush 5
+[ 29539.644984634] msm_hs_start_rx_locked:Enqueue Rx Cmd
+[ 29539.644991249] MR1:70 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29539.644999113] SR:20c ISR:82e1 DMRX:0 RX_SNAP:0 TXFS:0 RXFS:0
+[ 29539.645003697] clk_req_state:0x0 rx.flush:0
+[ 29539.645005728] clk_state:3
+[ 29539.645008853] msm_hs_request_clock_on:Clock ON Successful
+[ 29539.645013332] MR1:70 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29539.645019686] SR:20c ISR:82e1 DMRX:0 RX_SNAP:0 TXFS:0 RXFS:0
+[ 29539.645023905] clk_req_state:0x0 rx.flush:0
+[ 29539.645027134] clk_state:3
+[ 29539.645169478] msm_hs_submit_tx_locked(): [UART_TX]<5>
+[ 29539.645175259] HSUART write:  : 01 1a 0c 01 02                                   .....
+[ 29539.645182863] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[ 29539.645187968] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29539.645194009] SR:204 ISR:82e1 DMRX:0 RX_SNAP:0 TXFS:1000 RXFS:0
+[ 29539.645197343] clk_req_state:0x0 rx.flush:0
+[ 29539.645199218] clk_state:3
+[ 29539.645196718] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e49d7, size=0x5, flags=0xc000, line=0
+[ 29539.645206874] In msm_serial_hs_tx_tlet()
+[ 29539.645211457] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29539.645219113] SR:204 ISR:82e1 DMRX:0 RX_SNAP:0 TXFS:1000 RXFS:0
+[ 29539.645222291] clk_req_state:0x0 rx.flush:0
+[ 29539.645224270] clk_state:3
+[ 29539.650695728] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0x7, flags=0xe000
+[ 29539.650750780] In msm_serial_hs_rx_tlet
+[ 29539.650756666] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29539.650764166] SR:a8c ISR:82ab DMRX:0 RX_SNAP:7 TXFS:0 RXFS:0
+[ 29539.650767707] clk_req_state:0x0 rx.flush:0
+[ 29539.650771822] clk_state:3
+[ 29539.650775624] msm_serial_hs_rx_tlet():[UART_RX]<7>
+[ 29539.650787759] HSUART Read:  : 04 0e 04 01 1a 0c 00                             .......
+[ 29539.650794426] Queing bam descriptor
+[ 29539.651243645] msm_hs_submit_tx_locked(): [UART_TX]<5>
+[ 29539.651249009] HSUART write:  : 01 1a 0c 01 00                                   .....
+[ 29539.651257082] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[ 29539.651262707] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29539.651267238] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e49dc, size=0x5, flags=0xc000, line=0
+[ 29539.651269634] SR:a84 ISR:82ab DMRX:0 RX_SNAP:7 TXFS:0 RXFS:0
+[ 29539.651274218] clk_req_state:0x0 rx.flush:0
+[ 29539.651276197] clk_state:3
+[ 29539.651279582] In msm_serial_hs_tx_tlet()
+[ 29539.651284426] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29539.651291509] SR:a8c ISR:82ab DMRX:0 RX_SNAP:7 TXFS:0 RXFS:0
+[ 29539.651295520] clk_req_state:0x0 rx.flush:0
+[ 29539.651297395] clk_state:3
+[ 29539.651665311] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0x7, flags=0xe000
+[ 29539.651674374] In msm_serial_hs_rx_tlet
+[ 29539.651678384] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29539.651684530] SR:a8c ISR:82ab DMRX:0 RX_SNAP:7 TXFS:0 RXFS:0
+[ 29539.651687395] clk_req_state:0x0 rx.flush:0
+[ 29539.651689374] clk_state:3
+[ 29539.651691926] msm_serial_hs_rx_tlet():[UART_RX]<7>
+[ 29539.651696822] HSUART Read:  : 04 0e 04 01 1a 0c 00                             .......
+[ 29539.651701353] Queing bam descriptor
+[ 29539.711783593] msm_hs_submit_tx_locked(): [UART_TX]<245>
+[ 29539.711795624] HSUART write:  : 01 52 0c f1 01 0a 09 47 61 6c 61 78 79 20 53 35  .R.....Galaxy S5
+[ 29539.711813124] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[ 29539.711818853] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29539.711826040] SR:a84 ISR:82aa DMRX:0 RX_SNAP:7 TXFS:223a RXFS:0
+[ 29539.711831822] clk_req_state:0x0 rx.flush:0
+[ 29539.711835259] clk_state:3
+[ 29539.711876093] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e49e1, size=0xf5, flags=0xc000, line=0
+[ 29539.711908228] In msm_serial_hs_tx_tlet()
+[ 29539.711913749] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29539.711919634] SR:a84 ISR:82aa DMRX:0 RX_SNAP:7 TXFS:21b3 RXFS:0
+[ 29539.711923072] clk_req_state:0x0 rx.flush:0
+[ 29539.711925363] clk_state:3
+[ 29539.713041822] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0x7, flags=0xe000
+[ 29539.713052863] In msm_serial_hs_rx_tlet
+[ 29539.713057238] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29539.713063020] SR:a8c ISR:82ab DMRX:0 RX_SNAP:7 TXFS:0 RXFS:0
+[ 29539.713066040] clk_req_state:0x0 rx.flush:0
+[ 29539.713068176] clk_state:3
+[ 29539.713070728] msm_serial_hs_rx_tlet():[UART_RX]<7>
+[ 29539.713075468] HSUART Read:  : 04 0e 04 01 52 0c 00                             ....R..
+[ 29539.713079374] Queing bam descriptor
+[ 29539.715041822] msm_hs_submit_tx_locked(): [UART_TX]<245>
+[ 29539.715048176] HSUART write:  : 01 52 0c f1 01 0a 09 47 61 6c 61 78 79 20 53 35  .R.....Galaxy S5
+[ 29539.715057343] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[ 29539.715063280] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29539.715069790] SR:a84 ISR:82aa DMRX:0 RX_SNAP:7 TXFS:21ba RXFS:0
+[ 29539.715073488] clk_req_state:0x0 rx.flush:0
+[ 29539.715075415] clk_state:3
+[ 29539.715074218] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e4ad6, size=0xf5, flags=0xc000, line=0
+[ 29539.715084895] In msm_serial_hs_tx_tlet()
+[ 29539.715089947] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29539.715095103] SR:a84 ISR:82aa DMRX:0 RX_SNAP:7 TXFS:2238 RXFS:0
+[ 29539.715098124] clk_req_state:0x0 rx.flush:0
+[ 29539.715100051] clk_state:3
+[ 29539.716278488] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0x7, flags=0xe000
+[ 29539.716290780] In msm_serial_hs_rx_tlet
+[ 29539.716295259] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29539.716300884] SR:a8c ISR:82ab DMRX:0 RX_SNAP:7 TXFS:0 RXFS:0
+[ 29539.716304218] clk_req_state:0x0 rx.flush:0
+[ 29539.716306093] clk_state:3
+[ 29539.716308593] msm_serial_hs_rx_tlet():[UART_RX]<7>
+[ 29539.716312551] HSUART Read:  : 04 0e 04 01 52 0c 00                             ....R..
+[ 29539.716316249] Queing bam descriptor
+[ 29539.716556978] msm_hs_submit_tx_locked(): [UART_TX]<245>
+[ 29539.716562030] HSUART write:  : 01 52 0c f1 01 0a 09 47 61 6c 61 78 79 20 53 35  .R.....Galaxy S5
+[ 29539.716568801] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[ 29539.716573905] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29539.716580624] SR:a84 ISR:82aa DMRX:0 RX_SNAP:7 TXFS:223a RXFS:0
+[ 29539.716584999] clk_req_state:0x0 rx.flush:0
+[ 29539.716582915] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e4bcb, size=0xf5, flags=0xc000, line=0
+[ 29539.716587759] clk_state:3
+[ 29539.716593801] In msm_serial_hs_tx_tlet()
+[ 29539.716598384] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29539.716603228] SR:a84 ISR:82aa DMRX:0 RX_SNAP:7 TXFS:20b9 RXFS:0
+[ 29539.716606353] clk_req_state:0x0 rx.flush:0
+[ 29539.716609530] clk_state:3
+[ 29539.717783124] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0x7, flags=0xe000
+[ 29539.717794738] In msm_serial_hs_rx_tlet
+[ 29539.717798957] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29539.717804113] SR:a8c ISR:82ab DMRX:0 RX_SNAP:7 TXFS:0 RXFS:0
+[ 29539.717809165] clk_req_state:0x0 rx.flush:0
+[ 29539.717811249] clk_state:3
+[ 29539.717813332] msm_serial_hs_rx_tlet():[UART_RX]<7>
+[ 29539.717817499] HSUART Read:  : 04 0e 04 01 52 0c 00                             ....R..
+[ 29539.717822551] Queing bam descriptor
+[ 29539.718097499] msm_hs_submit_tx_locked(): [UART_TX]<245>
+[ 29539.718102499] HSUART write:  : 01 52 0c f1 01 0a 09 47 61 6c 61 78 79 20 53 35  .R.....Galaxy S5
+[ 29539.718108228] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[ 29539.718113124] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29539.718118384] SR:a84 ISR:82aa DMRX:0 RX_SNAP:7 TXFS:223a RXFS:0
+[ 29539.718122290] clk_req_state:0x0 rx.flush:0
+[ 29539.718124218] clk_state:3
+[ 29539.718121978] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e4cc0, size=0xf5, flags=0xc000, line=0
+[ 29539.718133124] In msm_serial_hs_tx_tlet()
+[ 29539.718137655] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29539.718142655] SR:a84 ISR:82aa DMRX:0 RX_SNAP:7 TXFS:20b9 RXFS:0
+[ 29539.718145832] clk_req_state:0x0 rx.flush:0
+[ 29539.718147863] clk_state:3
+[ 29539.719332082] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0x7, flags=0xe000
+[ 29539.719343540] In msm_serial_hs_rx_tlet
+[ 29539.719348645] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29539.719354686] SR:a8c ISR:82ab DMRX:0 RX_SNAP:7 TXFS:0 RXFS:0
+[ 29539.719357655] clk_req_state:0x0 rx.flush:0
+[ 29539.719359530] clk_state:3
+[ 29539.719362186] msm_serial_hs_rx_tlet():[UART_RX]<7>
+[ 29539.719367343] HSUART Read:  : 04 0e 04 01 52 0c 00                             ....R..
+[ 29539.719371145] Queing bam descriptor
+[ 29539.719665988] msm_hs_submit_tx_locked(): [UART_TX]<245>
+[ 29539.719670572] HSUART write:  : 01 52 0c f1 01 0a 09 47 61 6c 61 78 79 20 53 35  .R.....Galaxy S5
+[ 29539.719677082] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[ 29539.719681457] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29539.719690624] SR:a84 ISR:82aa DMRX:0 RX_SNAP:7 TXFS:21ba RXFS:0
+[ 29539.719694895] clk_req_state:0x0 rx.flush:0
+[ 29539.719692863] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e4db5, size=0xf5, flags=0xc000, line=0
+[ 29539.719696822] clk_state:3
+[ 29539.719701613] In msm_serial_hs_tx_tlet()
+[ 29539.719706457] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29539.719712134] SR:a84 ISR:82aa DMRX:0 RX_SNAP:7 TXFS:20b9 RXFS:0
+[ 29539.719715155] clk_req_state:0x0 rx.flush:0
+[ 29539.719717551] clk_state:3
+[ 29539.720898593] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0x7, flags=0xe000
+[ 29539.720912759] In msm_serial_hs_rx_tlet
+[ 29539.720917551] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29539.720923540] SR:a8c ISR:82ab DMRX:0 RX_SNAP:7 TXFS:0 RXFS:0
+[ 29539.720926613] clk_req_state:0x0 rx.flush:0
+[ 29539.720928540] clk_state:3
+[ 29539.720932395] msm_serial_hs_rx_tlet():[UART_RX]<7>
+[ 29539.720936561] HSUART Read:  : 04 0e 04 01 52 0c 00                             ....R..
+[ 29539.720940363] Queing bam descriptor
+[ 29539.728278749] msm_hs_submit_tx_locked(): [UART_TX]<245>
+[ 29539.728290728] HSUART write:  : 01 52 0c f1 01 0a 09 47 61 6c 61 78 79 20 53 35  .R.....Galaxy S5
+[ 29539.728308124] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[ 29539.728315468] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29539.728322759] SR:a84 ISR:82aa DMRX:0 RX_SNAP:7 TXFS:21ba RXFS:0
+[ 29539.728326509] clk_req_state:0x0 rx.flush:0
+[ 29539.728328488] clk_state:3
+[ 29539.728340832] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e4eaa, size=0xf5, flags=0xc000, line=0
+[ 29539.728370624] In msm_serial_hs_tx_tlet()
+[ 29539.728375676] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29539.728381822] SR:a84 ISR:82aa DMRX:0 RX_SNAP:7 TXFS:20b6 RXFS:0
+[ 29539.728385676] clk_req_state:0x0 rx.flush:0
+[ 29539.728387759] clk_state:3
+[ 29539.729529270] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0x7, flags=0xe000
+[ 29539.729541093] In msm_serial_hs_rx_tlet
+[ 29539.729546249] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29539.729552030] SR:a8c ISR:82ab DMRX:0 RX_SNAP:7 TXFS:0 RXFS:0
+[ 29539.729555311] clk_req_state:0x0 rx.flush:0
+[ 29539.729557290] clk_state:3
+[ 29539.729560624] msm_serial_hs_rx_tlet():[UART_RX]<7>
+[ 29539.729567968] HSUART Read:  : 04 0e 04 01 52 0c 00                             ....R..
+[ 29539.729572603] Queing bam descriptor
+[ 29539.731605103] msm_hs_submit_tx_locked(): [UART_TX]<97>
+[ 29539.731615155] HSUART write:  : 01 52 0c f1 01 0a 09 47 61 6c 61 78 79 20 53 35  .R.....Galaxy S5
+[ 29539.731628436] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[ 29539.731636665] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29539.731646926] SR:a84 ISR:82aa DMRX:0 RX_SNAP:7 TXFS:2115 RXFS:0
+[ 29539.731650259] clk_req_state:0x0 rx.flush:0
+[ 29539.731652134] clk_state:3
+[ 29539.731668801] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e4f9f, size=0x61, flags=0xc000, line=0
+[ 29539.731677863] msm_hs_submit_tx_locked(): [UART_TX]<148>
+[ 29539.731681249] HSUART write:  : 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+[ 29539.731686040] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[ 29539.731690572] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29539.731696040] SR:a84 ISR:82aa DMRX:0 RX_SNAP:7 TXFS:2191 RXFS:0
+[ 29539.731699009] clk_req_state:0x0 rx.flush:0
+[ 29539.731700936] clk_state:3
+[ 29539.731705363] In msm_serial_hs_tx_tlet()
+[ 29539.731711145] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29539.731716353] SR:a84 ISR:82aa DMRX:0 RX_SNAP:7 TXFS:2090 RXFS:0
+[ 29539.731719478] clk_req_state:0x0 rx.flush:0
+[ 29539.731721405] clk_state:3
+[ 29539.731932551] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e4000, size=0x94, flags=0xc000, line=0
+[ 29539.731941978] In msm_serial_hs_tx_tlet()
+[ 29539.731946926] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29539.731951822] SR:a84 ISR:82aa DMRX:0 RX_SNAP:7 TXFS:21a2 RXFS:0
+[ 29539.731955207] clk_req_state:0x0 rx.flush:0
+[ 29539.731957134] clk_state:3
+[ 29539.732849582] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0x7, flags=0xe000
+[ 29539.732858384] In msm_serial_hs_rx_tlet
+[ 29539.732861978] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29539.732867238] SR:a8c ISR:82ab DMRX:0 RX_SNAP:7 TXFS:0 RXFS:0
+[ 29539.732870207] clk_req_state:0x0 rx.flush:0
+[ 29539.732872186] clk_state:3
+[ 29539.732874634] msm_serial_hs_rx_tlet():[UART_RX]<7>
+[ 29539.732878697] HSUART Read:  : 04 0e 04 01 52 0c 00                             ....R..
+[ 29539.732882863] Queing bam descriptor
+[ 29539.733157447] msm_hs_submit_tx_locked(): [UART_TX]<7>
+[ 29539.733162290] HSUART write:  : 01 24 0c 03 0c 02 52                             .$....R
+[ 29539.733167863] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[ 29539.733172082] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29539.733178072] SR:a84 ISR:82ab DMRX:0 RX_SNAP:7 TXFS:c00 RXFS:0
+[ 29539.733181093] clk_req_state:0x0 rx.flush:0
+[ 29539.733178801] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e4094, size=0x7, flags=0xc000, line=0
+[ 29539.733183176] clk_state:3
+[ 29539.733188332] In msm_serial_hs_tx_tlet()
+[ 29539.733192655] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29539.733197759] SR:a8c ISR:82ab DMRX:0 RX_SNAP:7 TXFS:0 RXFS:0
+[ 29539.733200728] clk_req_state:0x0 rx.flush:0
+[ 29539.733202603] clk_state:3
+[ 29539.733629738] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0x7, flags=0xe000
+[ 29539.733637395] In msm_serial_hs_rx_tlet
+[ 29539.733641197] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29539.733645988] SR:a8c ISR:82ab DMRX:0 RX_SNAP:7 TXFS:0 RXFS:0
+[ 29539.733649113] clk_req_state:0x0 rx.flush:0
+[ 29539.733651040] clk_state:3
+[ 29539.733652915] msm_serial_hs_rx_tlet():[UART_RX]<7>
+[ 29539.733656561] HSUART Read:  : 04 0e 04 01 24 0c 00                             ....$..
+[ 29539.733660624] Queing bam descriptor
+[ 29539.734082343] msm_hs_submit_tx_locked(): [UART_TX]<245>
+[ 29539.734087915] HSUART write:  : 01 52 0c f1 01 0a 09 47 61 6c 61 78 79 20 53 35  .R.....Galaxy S5
+[ 29539.734093332] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[ 29539.734097603] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29539.734103072] SR:a84 ISR:82aa DMRX:0 RX_SNAP:7 TXFS:223a RXFS:0
+[ 29539.734107603] clk_req_state:0x0 rx.flush:0
+[ 29539.734105780] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e409b, size=0xf5, flags=0xc000, line=0
+[ 29539.734109634] clk_state:3
+[ 29539.734114843] In msm_serial_hs_tx_tlet()
+[ 29539.734118957] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29539.734123697] SR:a84 ISR:82aa DMRX:0 RX_SNAP:7 TXFS:2139 RXFS:0
+[ 29539.734126874] clk_req_state:0x0 rx.flush:0
+[ 29539.734128801] clk_state:3
+[ 29539.735294738] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0x7, flags=0xe000
+[ 29539.735304582] In msm_serial_hs_rx_tlet
+[ 29539.735308957] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29539.735314270] SR:a8c ISR:82ab DMRX:0 RX_SNAP:7 TXFS:0 RXFS:0
+[ 29539.735317343] clk_req_state:0x0 rx.flush:0
+[ 29539.735320207] clk_state:3
+[ 29539.735322759] msm_serial_hs_rx_tlet():[UART_RX]<7>
+[ 29539.735327134] HSUART Read:  : 04 0e 04 01 52 0c 00                             ....R..
+[ 29539.735330728] Queing bam descriptor
+[ 29539.735568384] msm_hs_submit_tx_locked(): [UART_TX]<245>
+[ 29539.735573749] HSUART write:  : 01 52 0c f1 01 0a 09 47 61 6c 61 78 79 20 53 35  .R.....Galaxy S5
+[ 29539.735580520] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[ 29539.735586040] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29539.735593332] SR:a84 ISR:82aa DMRX:0 RX_SNAP:7 TXFS:21ba RXFS:0
+[ 29539.735596874] clk_req_state:0x0 rx.flush:0
+[ 29539.735596249] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e4190, size=0xf5, flags=0xc000, line=0
+[ 29539.735599270] clk_state:3
+[ 29539.735607186] In msm_serial_hs_tx_tlet()
+[ 29539.735612238] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29539.735618280] SR:a84 ISR:82aa DMRX:0 RX_SNAP:7 TXFS:2238 RXFS:0
+[ 29539.735622447] clk_req_state:0x0 rx.flush:0
+[ 29539.735626040] clk_state:3
+[ 29539.736804322] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0x7, flags=0xe000
+[ 29539.736841249] In msm_serial_hs_rx_tlet
+[ 29539.736847082] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29539.736852863] SR:a8c ISR:82ab DMRX:0 RX_SNAP:7 TXFS:0 RXFS:0
+[ 29539.736857134] clk_req_state:0x0 rx.flush:0
+[ 29539.736859165] clk_state:3
+[ 29539.736862447] msm_serial_hs_rx_tlet():[UART_RX]<7>
+[ 29539.736867186] HSUART Read:  : 04 0e 04 01 52 0c 00                             ....R..
+[ 29539.736871457] Queing bam descriptor
+[ 29540.010731457] msm_hs_submit_tx_locked(): [UART_TX]<4>
+[ 29540.010739218] HSUART write:  : 01 18 20 00                                      .. .
+[ 29540.010747655] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[ 29540.010752603] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29540.010760468] SR:a84 ISR:82ab DMRX:0 RX_SNAP:7 TXFS:0 RXFS:0
+[ 29540.010764634] clk_req_state:0x0 rx.flush:0
+[ 29540.010761093] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e4285, size=0x4, flags=0xc000, line=0
+[ 29540.010766613] clk_state:3
+[ 29540.010773488] In msm_serial_hs_tx_tlet()
+[ 29540.010778436] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29540.010784738] SR:a8c ISR:82ab DMRX:0 RX_SNAP:7 TXFS:0 RXFS:0
+[ 29540.010788228] clk_req_state:0x0 rx.flush:0
+[ 29540.010790207] clk_state:3
+[ 29540.011212395] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0xf, flags=0xe000
+[ 29540.011221978] In msm_serial_hs_rx_tlet
+[ 29540.011226770] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29540.011232499] SR:a8c ISR:82ab DMRX:0 RX_SNAP:f TXFS:0 RXFS:0
+[ 29540.011235468] clk_req_state:0x0 rx.flush:0
+[ 29540.011237395] clk_state:3
+[ 29540.011240363] msm_serial_hs_rx_tlet():[UART_RX]<15>
+[ 29540.011248124] HSUART Read:  : 04 0e 0c 01 18 20 00 1d c5 06 6a 6b 3e 43 25     ..... ....jk>C%
+[ 29540.011252915] Queing bam descriptor
+[ 29540.011565936] msm_hs_submit_tx_locked(): [UART_TX]<4>
+[ 29540.011570676] HSUART write:  : 01 18 20 00                                      .. .
+[ 29540.011577811] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[ 29540.011583176] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29540.011590155] SR:a84 ISR:82ab DMRX:0 RX_SNAP:f TXFS:0 RXFS:0
+[ 29540.011593332] clk_req_state:0x0 rx.flush:0
+[ 29540.011590780] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e4289, size=0x4, flags=0xc000, line=0
+[ 29540.011595311] clk_state:3
+[ 29540.011600624] In msm_serial_hs_tx_tlet()
+[ 29540.011605051] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29540.011610363] SR:a8c ISR:82ab DMRX:0 RX_SNAP:f TXFS:0 RXFS:0
+[ 29540.011613332] clk_req_state:0x0 rx.flush:0
+[ 29540.011615155] clk_state:3
+[ 29540.012032759] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0xf, flags=0xe000
+[ 29540.012042343] In msm_serial_hs_rx_tlet
+[ 29540.012046770] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29540.012052134] SR:a8c ISR:82ab DMRX:0 RX_SNAP:f TXFS:0 RXFS:0
+[ 29540.012054999] clk_req_state:0x0 rx.flush:0
+[ 29540.012056926] clk_state:3
+[ 29540.012058801] msm_serial_hs_rx_tlet():[UART_RX]<15>
+[ 29540.012066770] HSUART Read:  : 04 0e 0c 01 18 20 00 34 be af 52 3c 1b 4a 9c     ..... .4..R<.J.
+[ 29540.012070155] Queing bam descriptor
+[ 29540.012320468] msm_hs_submit_tx_locked(): [UART_TX]<4>
+[ 29540.012326405] HSUART write:  : 01 18 20 00                                      .. .
+[ 29540.012333436] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[ 29540.012338072] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29540.012343228] SR:a84 ISR:82ab DMRX:0 RX_SNAP:f TXFS:0 RXFS:0
+[ 29540.012346405] clk_req_state:0x0 rx.flush:0
+[ 29540.012348384] clk_state:3
+[ 29540.012349738] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e428d, size=0x4, flags=0xc000, line=0
+[ 29540.012358540] In msm_serial_hs_tx_tlet()
+[ 29540.012365363] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29540.012371874] SR:a8c ISR:82ab DMRX:0 RX_SNAP:f TXFS:0 RXFS:0
+[ 29540.012374999] clk_req_state:0x0 rx.flush:0
+[ 29540.012376978] clk_state:3
+[ 29540.012794270] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0xf, flags=0xe000
+[ 29540.012803749] In msm_serial_hs_rx_tlet
+[ 29540.012807915] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29540.012812447] SR:a8c ISR:82ab DMRX:0 RX_SNAP:f TXFS:0 RXFS:0
+[ 29540.012815468] clk_req_state:0x0 rx.flush:0
+[ 29540.012817395] clk_state:3
+[ 29540.012819895] msm_serial_hs_rx_tlet():[UART_RX]<15>
+[ 29540.012832030] HSUART Read:  : 04 0e 0c 01 18 20 00 32 e5 ce 65 01 08 38 05     ..... .2..e..8.
+[ 29540.012836561] Queing bam descriptor
+[ 29540.013176405] msm_hs_submit_tx_locked(): [UART_TX]<4>
+[ 29540.013182186] HSUART write:  : 01 18 20 00                                      .. .
+[ 29540.013189738] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[ 29540.013194843] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29540.013198332] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e4291, size=0x4, flags=0xc000, line=0
+[ 29540.013200572] SR:a84 ISR:82ab DMRX:0 RX_SNAP:f TXFS:0 RXFS:0
+[ 29540.013203593] clk_req_state:0x0 rx.flush:0
+[ 29540.013205520] clk_state:3
+[ 29540.013209218] In msm_serial_hs_tx_tlet()
+[ 29540.013213332] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29540.013218072] SR:a8c ISR:82ab DMRX:0 RX_SNAP:f TXFS:0 RXFS:0
+[ 29540.013220936] clk_req_state:0x0 rx.flush:0
+[ 29540.013223072] clk_state:3
+[ 29540.013682811] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0xf, flags=0xe000
+[ 29540.013693228] In msm_serial_hs_rx_tlet
+[ 29540.013697395] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29540.013701978] SR:a8c ISR:82ab DMRX:0 RX_SNAP:f TXFS:0 RXFS:0
+[ 29540.013704790] clk_req_state:0x0 rx.flush:0
+[ 29540.013708176] clk_state:3
+[ 29540.013711978] msm_serial_hs_rx_tlet():[UART_RX]<15>
+[ 29540.013717863] HSUART Read:  : 04 0e 0c 01 18 20 00 12 80 04 ac e5 d5 aa b7     ..... .........
+[ 29540.013723801] Queing bam descriptor
+[ 29540.014184270] msm_hs_submit_tx_locked(): [UART_TX]<4>
+[ 29540.014189113] HSUART write:  : 01 18 20 00                                      .. .
+[ 29540.014195415] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[ 29540.014200051] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29540.014207082] SR:a84 ISR:82ab DMRX:0 RX_SNAP:f TXFS:0 RXFS:0
+[ 29540.014212395] clk_req_state:0x0 rx.flush:0
+[ 29540.014215832] clk_state:3
+[ 29540.014237968] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e4295, size=0x4, flags=0xc000, line=0
+[ 29540.014262082] In msm_serial_hs_tx_tlet()
+[ 29540.014266978] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29540.014272238] SR:a8c ISR:82ab DMRX:0 RX_SNAP:f TXFS:0 RXFS:0
+[ 29540.014275259] clk_req_state:0x0 rx.flush:0
+[ 29540.014277186] clk_state:3
+[ 29540.014674790] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0xf, flags=0xe000
+[ 29540.014684061] In msm_serial_hs_rx_tlet
+[ 29540.014687915] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29540.014693593] SR:a8c ISR:82ab DMRX:0 RX_SNAP:f TXFS:0 RXFS:0
+[ 29540.014696457] clk_req_state:0x0 rx.flush:0
+[ 29540.014698436] clk_state:3
+[ 29540.014700363] msm_serial_hs_rx_tlet():[UART_RX]<15>
+[ 29540.014708905] HSUART Read:  : 04 0e 0c 01 18 20 00 a6 28 61 39 71 cf c4 e7     ..... ..(a9q...
+[ 29540.014713280] Queing bam descriptor
+[ 29540.015004374] msm_hs_submit_tx_locked(): [UART_TX]<4>
+[ 29540.015010311] HSUART write:  : 01 18 20 00                                      .. .
+[ 29540.015017238] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[ 29540.015022134] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29540.015027290] SR:a84 ISR:82ab DMRX:0 RX_SNAP:f TXFS:0 RXFS:0
+[ 29540.015030207] clk_req_state:0x0 rx.flush:0
+[ 29540.015032186] clk_state:3
+[ 29540.015030832] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e4299, size=0x4, flags=0xc000, line=0
+[ 29540.015039634] In msm_serial_hs_tx_tlet()
+[ 29540.015044165] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29540.015049061] SR:a8c ISR:82ab DMRX:0 RX_SNAP:f TXFS:0 RXFS:0
+[ 29540.015051978] clk_req_state:0x0 rx.flush:0
+[ 29540.015053801] clk_state:3
+[ 29540.015581509] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0xf, flags=0xe000
+[ 29540.015591509] In msm_serial_hs_rx_tlet
+[ 29540.015596197] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29540.015601040] SR:a8c ISR:82ab DMRX:0 RX_SNAP:f TXFS:0 RXFS:0
+[ 29540.015604009] clk_req_state:0x0 rx.flush:0
+[ 29540.015606145] clk_state:3
+[ 29540.015608749] msm_serial_hs_rx_tlet():[UART_RX]<15>
+[ 29540.015615207] HSUART Read:  : 04 0e 0c 01 18 20 00 37 83 5b 60 12 a2 02 38     ..... .7.[`...8
+[ 29540.015619218] Queing bam descriptor
+[ 29540.015892343] msm_hs_submit_tx_locked(): [UART_TX]<10>
+[ 29540.015896770] HSUART write:  : 01 05 20 06 d7 94 9c 1d c5 46                    .. ......F
+[ 29540.015902603] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[ 29540.015907082] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29540.015912759] SR:a84 ISR:82ab DMRX:0 RX_SNAP:f TXFS:1800 RXFS:0
+[ 29540.015915884] clk_req_state:0x0 rx.flush:0
+[ 29540.015914009] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e429d, size=0xa, flags=0xc000, line=0
+[ 29540.015917759] clk_state:3
+[ 29540.015922707] In msm_serial_hs_tx_tlet()
+[ 29540.015929218] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29540.015936822] SR:a84 ISR:82ab DMRX:0 RX_SNAP:f TXFS:0 RXFS:0
+[ 29540.015939790] clk_req_state:0x0 rx.flush:0
+[ 29540.015941613] clk_state:3
+[ 29540.016322186] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0x7, flags=0xe000
+[ 29540.016334165] In msm_serial_hs_rx_tlet
+[ 29540.016340155] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29540.016345884] SR:a8c ISR:82ab DMRX:0 RX_SNAP:7 TXFS:0 RXFS:0
+[ 29540.016348801] clk_req_state:0x0 rx.flush:0
+[ 29540.016350728] clk_state:3
+[ 29540.016352655] msm_serial_hs_rx_tlet():[UART_RX]<7>
+[ 29540.016358332] HSUART Read:  : 04 0e 04 01 05 20 00                             ..... .
+[ 29540.016361665] Queing bam descriptor
+[ 29540.016745051] msm_hs_submit_tx_locked(): [UART_TX]<12>
+[ 29540.016752447] HSUART write:  : 01 54 fd 08 04 56 82 94 34 be 6f 01              .T...V..4.o.
+[ 29540.016758384] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[ 29540.016762759] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29540.016769999] SR:a84 ISR:82ab DMRX:0 RX_SNAP:7 TXFS:2000 RXFS:0
+[ 29540.016773593] clk_req_state:0x0 rx.flush:0
+[ 29540.016775468] clk_state:3
+[ 29540.016773905] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e42a7, size=0xc, flags=0xc000, line=0
+[ 29540.016782707] In msm_serial_hs_tx_tlet()
+[ 29540.016786822] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29540.016791718] SR:a84 ISR:82ab DMRX:0 RX_SNAP:7 TXFS:400 RXFS:0
+[ 29540.016794790] clk_req_state:0x0 rx.flush:0
+[ 29540.016796613] clk_state:3
+[ 29540.017181770] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0x8, flags=0xe000
+[ 29540.017193332] In msm_serial_hs_rx_tlet
+[ 29540.017198124] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29540.017203697] SR:a8c ISR:82ab DMRX:0 RX_SNAP:8 TXFS:0 RXFS:0
+[ 29540.017206665] clk_req_state:0x0 rx.flush:0
+[ 29540.017208593] clk_state:3
+[ 29540.017210676] msm_serial_hs_rx_tlet():[UART_RX]<8>
+[ 29540.017215415] HSUART Read:  : 04 0e 05 01 54 fd 00 04                          ....T...
+[ 29540.017218957] Queing bam descriptor
+[ 29540.017538436] msm_hs_submit_tx_locked(): [UART_TX]<12>
+[ 29540.017544113] HSUART write:  : 01 54 fd 08 04 fb 18 e7 32 e5 4e 02              .T......2.N.
+[ 29540.017550103] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[ 29540.017554165] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29540.017560155] SR:a84 ISR:82ab DMRX:0 RX_SNAP:8 TXFS:2000 RXFS:0
+[ 29540.017563228] clk_req_state:0x0 rx.flush:0
+[ 29540.017562030] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e42b3, size=0xc, flags=0xc000, line=0
+[ 29540.017565155] clk_state:3
+[ 29540.017588853] In msm_serial_hs_tx_tlet()
+[ 29540.017594113] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29540.017599374] SR:a8c ISR:82ab DMRX:0 RX_SNAP:8 TXFS:0 RXFS:0
+[ 29540.017602499] clk_req_state:0x0 rx.flush:0
+[ 29540.017604426] clk_state:3
+[ 29540.018066197] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0x8, flags=0xe000
+[ 29540.018076040] In msm_serial_hs_rx_tlet
+[ 29540.018080051] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29540.018084790] SR:a8c ISR:82ab DMRX:0 RX_SNAP:8 TXFS:0 RXFS:0
+[ 29540.018087655] clk_req_state:0x0 rx.flush:0
+[ 29540.018089634] clk_state:3
+[ 29540.018091665] msm_serial_hs_rx_tlet():[UART_RX]<8>
+[ 29540.018095884] HSUART Read:  : 04 0e 05 01 54 fd 00 04                          ....T...
+[ 29540.018099165] Queing bam descriptor
+[ 29540.018374582] msm_hs_submit_tx_locked(): [UART_TX]<12>
+[ 29540.018379061] HSUART write:  : 01 54 fd 08 04 04 57 40 12 80 44 03              .T....W@..D.
+[ 29540.018384165] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[ 29540.018388332] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29540.018393957] SR:a84 ISR:82ab DMRX:0 RX_SNAP:8 TXFS:2000 RXFS:0
+[ 29540.018396978] clk_req_state:0x0 rx.flush:0
+[ 29540.018396249] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e42bf, size=0xc, flags=0xc000, line=0
+[ 29540.018399165] clk_state:3
+[ 29540.018404843] In msm_serial_hs_tx_tlet()
+[ 29540.018408905] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29540.018413957] SR:a84 ISR:82ab DMRX:0 RX_SNAP:8 TXFS:800 RXFS:0
+[ 29540.018417082] clk_req_state:0x0 rx.flush:0
+[ 29540.018418957] clk_state:3
+[ 29540.018979426] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0x8, flags=0xe000
+[ 29540.018990259] In msm_serial_hs_rx_tlet
+[ 29540.018994686] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29540.018999895] SR:a8c ISR:82ab DMRX:0 RX_SNAP:8 TXFS:0 RXFS:0
+[ 29540.019002915] clk_req_state:0x0 rx.flush:0
+[ 29540.019004895] clk_state:3
+[ 29540.019007290] msm_serial_hs_rx_tlet():[UART_RX]<8>
+[ 29540.019012030] HSUART Read:  : 04 0e 05 01 54 fd 00 04                          ....T...
+[ 29540.019015520] Queing bam descriptor
+[ 29540.019318124] msm_hs_submit_tx_locked(): [UART_TX]<12>
+[ 29540.019322603] HSUART write:  : 01 54 fd 08 04 c8 de 2c a6 28 61 04              .T.....,.(a.
+[ 29540.019329895] msm_hs_submit_tx_locked:Enqueue Tx Cmd
+[ 29540.019335311] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29540.019341509] SR:a84 ISR:82ab DMRX:0 RX_SNAP:8 TXFS:2000 RXFS:0
+[ 29540.019344999] clk_req_state:0x0 rx.flush:0
+[ 29540.019346874] clk_state:3
+[ 29540.019344686] msm_hs_sps_tx_callback: ev_id=1, addr=0x227e42cb, size=0xc, flags=0xc000, line=0
+[ 29540.019353228] In msm_serial_hs_tx_tlet()
+[ 29540.019357447] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29540.019362395] SR:a84 ISR:82ab DMRX:0 RX_SNAP:8 TXFS:400 RXFS:0
+[ 29540.019365259] clk_req_state:0x0 rx.flush:0
+[ 29540.019367082] clk_state:3
+[ 29540.019741822] msm_hs_sps_rx_callback: sps ev_id=1, addr=0x2a860000, size=0x8, flags=0xe000
+[ 29540.019752499] In msm_serial_hs_rx_tlet
+[ 29540.019757082] MR1:f0 MR2:374 TFWR:4 RFWR:20 DMEN:c IMR:40 MISR:0 NCF_TX:0
+[ 29540.019762238] SR:a8c ISR:82ab DMRX:0 RX_SNAP:8 TXFS:0 RXFS:0
+[ 29540.019766353] clk_req_state:0x0 rx.flush:0
+[ 29540.019768332] clk_state:3
+[ 29540.019771613] msm_serial_hs_rx_tlet():[UART_RX]<8>
+[ 29540.019776770] HSUART Read:  : 04 0e 05 01 54 fd 00 04                          ....T...
+[ 29540.019781301] Queing bam descriptor
+[ 29541.646237967] msm_hs_tx_empty(): SR Reg Read 0xa8c
+[ 29541.646261978] msm_hs_request_clock_off(): TXEMT, queuing clock off work
+[ 29541.646290155] In msm_hs_check_clock_off:
+[ 29541.646294009] In msm_hs_stop_rx_locked():
+[ 29541.646309269] msm_hs_check_clock_off: rx.flush 4 clk_state 2
+[ 29541.646450936] hsuart_disconnect_rx_endpoint_work: Calling Completion
+[ 29541.646455155] hsuart_disconnect_rx_endpoint_work: Done Completion
+[ 29541.647357447] In msm_hs_check_clock_off:
+[ 29541.647374582] Bus voting:0
+[ 29541.649445780] msm_hs_clock_unvote: Clock OFF successful
+
+

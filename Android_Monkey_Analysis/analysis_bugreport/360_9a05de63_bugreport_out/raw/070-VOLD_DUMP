@@ -1,0 +1,32 @@
+0 0 Dumping loop status
+0 0 Dumping DM status
+0 0 Dumping mounted filesystems
+0 0 rootfs / rootfs ro,seclabel,size=1715508k,nr_inodes=428877 0 0
+0 0 tmpfs /dev tmpfs rw,seclabel,nosuid,relatime,size=1820984k,nr_inodes=455246,mode=755 0 0
+0 0 devpts /dev/pts devpts rw,seclabel,relatime,mode=600 0 0
+0 0 proc /proc proc rw,relatime 0 0
+0 0 sysfs /sys sysfs rw,seclabel,relatime 0 0
+0 0 selinuxfs /sys/fs/selinux selinuxfs rw,relatime 0 0
+0 0 debugfs /sys/kernel/debug debugfs rw,seclabel,relatime 0 0
+0 0 none /acct cgroup rw,relatime,cpuacct 0 0
+0 0 none /sys/fs/cgroup tmpfs rw,seclabel,relatime,size=1820984k,nr_inodes=455246,mode=750,gid=1000 0 0
+0 0 tmpfs /mnt tmpfs rw,seclabel,relatime,size=1820984k,nr_inodes=455246,mode=755,gid=1000 0 0
+0 0 none /dev/cpuctl cgroup rw,relatime,cpu 0 0
+0 0 /dev/block/bootdevice/by-name/system /system ext4 ro,seclabel,relatime,data=ordered 0 0
+0 0 /dev/block/bootdevice/by-name/userdata /data ext4 rw,seclabel,nosuid,nodev,relatime,nodelalloc,noauto_da_alloc,data=ordered 0 0
+0 0 /dev/block/bootdevice/by-name/cache /cache ext4 rw,seclabel,nosuid,nodev,relatime,data=ordered 0 0
+0 0 /dev/block/bootdevice/by-name/persist /persist ext4 rw,seclabel,nosuid,nodev,relatime,data=ordered 0 0
+0 0 /dev/block/bootdevice/by-name/dsp /dsp ext4 ro,seclabel,nosuid,nodev,relatime,data=ordered 0 0
+0 0 /dev/block/bootdevice/by-name/modem /firmware vfat ro,context=u:object_r:firmware_file:s0,relatime,uid=1000,gid=1000,fmask=0337,dmask=0227,codepage=437,iocharset=iso8859-1,shortname=lower,errors=remount-ro 0 0
+0 0 /dev/block/bootdevice/by-name/panic /panic ext4 rw,seclabel,nosuid,nodev,noatime,nodelalloc,data=ordered 0 0
+0 0 tmpfs /storage tmpfs rw,seclabel,relatime,size=1820984k,nr_inodes=455246,mode=755,gid=1000 0 0
+0 0 none /config configfs rw,relatime 0 0
+0 0 adb /dev/usb-ffs/adb functionfs rw,relatime 0 0
+0 0 /dev/fuse /data/qiku_secure fuse rw,nosuid,nodev,relatime,user_id=1201,group_id=1201,default_permissions,allow_other 0 0
+0 0 /dev/fuse /mnt/runtime/default/emulated fuse rw,nosuid,nodev,noexec,noatime,user_id=1023,group_id=1023,default_permissions,allow_other 0 0
+0 0 /dev/fuse /storage/emulated fuse rw,nosuid,nodev,noexec,noatime,user_id=1023,group_id=1023,default_permissions,allow_other 0 0
+0 0 /dev/fuse /mnt/runtime/read/emulated fuse rw,nosuid,nodev,noexec,noatime,user_id=1023,group_id=1023,default_permissions,allow_other 0 0
+0 0 /dev/fuse /mnt/runtime/write/emulated fuse rw,nosuid,nodev,noexec,noatime,user_id=1023,group_id=1023,default_permissions,allow_other 0 0
+200 0 dump complete
+[vdc: 0.050s elapsed]
+

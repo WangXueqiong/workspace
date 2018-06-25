@@ -1,0 +1,182 @@
+NetworkManagementService NativeDaemonConnector Log:
+12-24 17:27:04.644 - RCV <- {601 limit alert globalAlert lo}
+12-24 17:27:04.651 - SND -> {1012 bandwidth gettetherstats}
+12-24 17:27:04.652 - RCV <- {200 1012 Tethering stats list completed}
+12-24 17:27:04.659 - SND -> {1013 bandwidth setglobalalert 2097152}
+12-24 17:27:04.660 - RCV <- {200 1013 Bandwidth command succeeeded}
+12-24 17:27:08.179 - RCV <- {601 limit alert globalAlert lo}
+12-24 17:27:08.184 - SND -> {1014 bandwidth gettetherstats}
+12-24 17:27:08.185 - RCV <- {200 1014 Tethering stats list completed}
+12-24 17:27:08.196 - SND -> {1015 bandwidth setglobalalert 2097152}
+12-24 17:27:08.196 - RCV <- {200 1015 Bandwidth command succeeeded}
+12-24 17:27:19.346 - RCV <- {601 limit alert globalAlert lo}
+12-24 17:27:19.349 - SND -> {1016 bandwidth gettetherstats}
+12-24 17:27:19.349 - RCV <- {200 1016 Tethering stats list completed}
+12-24 17:27:19.355 - SND -> {1017 bandwidth setglobalalert 2097152}
+12-24 17:27:19.358 - RCV <- {200 1017 Bandwidth command succeeeded}
+12-24 17:27:30.711 - RCV <- {601 limit alert globalAlert lo}
+12-24 17:27:30.714 - SND -> {1018 bandwidth gettetherstats}
+12-24 17:27:30.714 - RCV <- {200 1018 Tethering stats list completed}
+12-24 17:27:30.719 - SND -> {1019 bandwidth setglobalalert 2097152}
+12-24 17:27:30.720 - RCV <- {200 1019 Bandwidth command succeeeded}
+12-24 17:27:41.193 - RCV <- {601 limit alert globalAlert lo}
+12-24 17:27:41.196 - SND -> {1020 bandwidth gettetherstats}
+12-24 17:27:41.197 - RCV <- {200 1020 Tethering stats list completed}
+12-24 17:27:41.201 - SND -> {1021 bandwidth setglobalalert 2097152}
+12-24 17:27:41.203 - RCV <- {200 1021 Bandwidth command succeeeded}
+12-24 17:27:51.291 - RCV <- {601 limit alert globalAlert lo}
+12-24 17:27:51.294 - SND -> {1022 bandwidth gettetherstats}
+12-24 17:27:51.295 - RCV <- {200 1022 Tethering stats list completed}
+12-24 17:27:51.303 - SND -> {1023 bandwidth setglobalalert 2097152}
+12-24 17:27:51.305 - RCV <- {200 1023 Bandwidth command succeeeded}
+12-24 17:28:00.407 - RCV <- {601 limit alert globalAlert lo}
+12-24 17:28:00.412 - SND -> {1024 bandwidth gettetherstats}
+12-24 17:28:00.412 - RCV <- {200 1024 Tethering stats list completed}
+12-24 17:28:00.423 - SND -> {1025 bandwidth setglobalalert 2097152}
+12-24 17:28:00.425 - RCV <- {200 1025 Bandwidth command succeeeded}
+12-24 17:28:19.119 - RCV <- {601 limit alert globalAlert lo}
+12-24 17:28:19.123 - SND -> {1026 bandwidth gettetherstats}
+12-24 17:28:19.124 - RCV <- {200 1026 Tethering stats list completed}
+12-24 17:28:19.171 - SND -> {1027 bandwidth setglobalalert 2097152}
+12-24 17:28:19.173 - RCV <- {200 1027 Bandwidth command succeeeded}
+12-24 17:28:25.583 - RCV <- {601 limit alert globalAlert lo}
+12-24 17:28:25.588 - SND -> {1028 bandwidth gettetherstats}
+12-24 17:28:25.589 - RCV <- {200 1028 Tethering stats list completed}
+12-24 17:28:25.598 - SND -> {1029 bandwidth setglobalalert 2097152}
+12-24 17:28:25.601 - RCV <- {200 1029 Bandwidth command succeeeded}
+12-24 17:28:33.930 - RCV <- {601 limit alert globalAlert lo}
+12-24 17:28:33.934 - SND -> {1030 bandwidth gettetherstats}
+12-24 17:28:33.935 - RCV <- {200 1030 Tethering stats list completed}
+12-24 17:28:33.944 - SND -> {1031 bandwidth setglobalalert 2097152}
+12-24 17:28:33.947 - RCV <- {200 1031 Bandwidth command succeeeded}
+12-24 17:28:46.235 - RCV <- {601 limit alert globalAlert lo}
+12-24 17:28:46.238 - SND -> {1032 bandwidth gettetherstats}
+12-24 17:28:46.244 - RCV <- {200 1032 Tethering stats list completed}
+12-24 17:28:46.250 - SND -> {1033 bandwidth setglobalalert 2097152}
+12-24 17:28:46.252 - RCV <- {200 1033 Bandwidth command succeeeded}
+12-24 17:28:58.322 - RCV <- {601 limit alert globalAlert lo}
+12-24 17:28:58.328 - SND -> {1034 bandwidth gettetherstats}
+12-24 17:28:58.329 - RCV <- {200 1034 Tethering stats list completed}
+12-24 17:28:58.339 - SND -> {1035 bandwidth setglobalalert 2097152}
+12-24 17:28:58.341 - RCV <- {200 1035 Bandwidth command succeeeded}
+12-24 17:29:09.996 - RCV <- {601 limit alert globalAlert lo}
+12-24 17:29:09.999 - SND -> {1036 bandwidth gettetherstats}
+12-24 17:29:10.000 - RCV <- {200 1036 Tethering stats list completed}
+12-24 17:29:10.006 - SND -> {1037 bandwidth setglobalalert 2097152}
+12-24 17:29:10.006 - RCV <- {200 1037 Bandwidth command succeeeded}
+12-24 17:29:19.954 - RCV <- {601 limit alert globalAlert lo}
+12-24 17:29:19.957 - SND -> {1038 bandwidth gettetherstats}
+12-24 17:29:19.958 - RCV <- {200 1038 Tethering stats list completed}
+12-24 17:29:19.974 - SND -> {1039 bandwidth setglobalalert 2097152}
+12-24 17:29:19.976 - RCV <- {200 1039 Bandwidth command succeeeded}
+12-24 17:29:28.879 - RCV <- {601 limit alert globalAlert lo}
+12-24 17:29:28.883 - SND -> {1040 bandwidth gettetherstats}
+12-24 17:29:28.884 - RCV <- {200 1040 Tethering stats list completed}
+12-24 17:29:28.893 - SND -> {1041 bandwidth setglobalalert 2097152}
+12-24 17:29:28.896 - RCV <- {200 1041 Bandwidth command succeeeded}
+12-24 17:29:37.839 - RCV <- {601 limit alert globalAlert lo}
+12-24 17:29:37.843 - SND -> {1042 bandwidth gettetherstats}
+12-24 17:29:37.843 - RCV <- {200 1042 Tethering stats list completed}
+12-24 17:29:37.867 - SND -> {1043 bandwidth setglobalalert 2097152}
+12-24 17:29:37.869 - RCV <- {200 1043 Bandwidth command succeeeded}
+12-24 17:29:40.823 - RCV <- {601 limit alert globalAlert lo}
+12-24 17:29:40.827 - SND -> {1044 bandwidth gettetherstats}
+12-24 17:29:40.827 - RCV <- {200 1044 Tethering stats list completed}
+12-24 17:29:40.844 - SND -> {1045 bandwidth setglobalalert 2097152}
+12-24 17:29:40.845 - RCV <- {200 1045 Bandwidth command succeeeded}
+12-24 17:29:42.518 - RCV <- {601 limit alert globalAlert lo}
+12-24 17:29:42.521 - SND -> {1046 bandwidth gettetherstats}
+12-24 17:29:42.521 - RCV <- {200 1046 Tethering stats list completed}
+12-24 17:29:42.528 - SND -> {1047 bandwidth setglobalalert 2097152}
+12-24 17:29:42.530 - RCV <- {200 1047 Bandwidth command succeeeded}
+12-24 17:29:45.252 - RCV <- {601 limit alert globalAlert lo}
+12-24 17:29:45.258 - SND -> {1048 bandwidth gettetherstats}
+12-24 17:29:45.258 - RCV <- {200 1048 Tethering stats list completed}
+12-24 17:29:45.271 - SND -> {1049 bandwidth setglobalalert 2097152}
+12-24 17:29:45.274 - RCV <- {200 1049 Bandwidth command succeeeded}
+12-24 17:29:46.853 - RCV <- {601 limit alert globalAlert lo}
+12-24 17:29:46.857 - SND -> {1050 bandwidth gettetherstats}
+12-24 17:29:46.857 - RCV <- {200 1050 Tethering stats list completed}
+12-24 17:29:46.871 - SND -> {1051 bandwidth setglobalalert 2097152}
+12-24 17:29:46.872 - RCV <- {200 1051 Bandwidth command succeeeded}
+12-24 17:29:47.914 - RCV <- {601 limit alert globalAlert lo}
+12-24 17:29:47.918 - SND -> {1052 bandwidth gettetherstats}
+12-24 17:29:47.918 - RCV <- {200 1052 Tethering stats list completed}
+12-24 17:29:47.932 - SND -> {1053 bandwidth setglobalalert 2097152}
+12-24 17:29:47.933 - RCV <- {200 1053 Bandwidth command succeeeded}
+12-24 17:29:52.508 - RCV <- {601 limit alert globalAlert lo}
+12-24 17:29:52.514 - SND -> {1054 bandwidth gettetherstats}
+12-24 17:29:52.514 - RCV <- {200 1054 Tethering stats list completed}
+12-24 17:29:52.519 - SND -> {1055 bandwidth setglobalalert 2097152}
+12-24 17:29:52.520 - RCV <- {200 1055 Bandwidth command succeeeded}
+12-24 17:30:01.531 - RCV <- {601 limit alert globalAlert lo}
+12-24 17:30:01.537 - SND -> {1056 bandwidth gettetherstats}
+12-24 17:30:01.537 - RCV <- {200 1056 Tethering stats list completed}
+12-24 17:30:01.555 - SND -> {1057 bandwidth setglobalalert 2097152}
+12-24 17:30:01.559 - RCV <- {200 1057 Bandwidth command succeeeded}
+12-24 17:30:11.826 - RCV <- {601 limit alert globalAlert lo}
+12-24 17:30:11.831 - SND -> {1058 bandwidth gettetherstats}
+12-24 17:30:11.831 - RCV <- {200 1058 Tethering stats list completed}
+12-24 17:30:11.848 - SND -> {1059 bandwidth setglobalalert 2097152}
+12-24 17:30:11.848 - RCV <- {200 1059 Bandwidth command succeeeded}
+12-24 17:30:21.039 - RCV <- {601 limit alert globalAlert lo}
+12-24 17:30:21.043 - SND -> {1060 bandwidth gettetherstats}
+12-24 17:30:21.045 - RCV <- {200 1060 Tethering stats list completed}
+12-24 17:30:21.061 - SND -> {1061 bandwidth setglobalalert 2097152}
+12-24 17:30:21.063 - RCV <- {200 1061 Bandwidth command succeeeded}
+12-24 17:30:32.047 - RCV <- {601 limit alert globalAlert lo}
+12-24 17:30:32.055 - SND -> {1062 bandwidth gettetherstats}
+12-24 17:30:32.055 - RCV <- {200 1062 Tethering stats list completed}
+12-24 17:30:32.064 - SND -> {1063 bandwidth setglobalalert 2097152}
+12-24 17:30:32.066 - RCV <- {200 1063 Bandwidth command succeeeded}
+12-24 17:30:40.569 - RCV <- {601 limit alert globalAlert lo}
+12-24 17:30:40.573 - SND -> {1064 bandwidth gettetherstats}
+12-24 17:30:40.573 - RCV <- {200 1064 Tethering stats list completed}
+12-24 17:30:40.582 - SND -> {1065 bandwidth setglobalalert 2097152}
+12-24 17:30:40.583 - RCV <- {200 1065 Bandwidth command succeeeded}
+12-24 17:30:51.373 - RCV <- {601 limit alert globalAlert lo}
+12-24 17:30:51.376 - SND -> {1066 bandwidth gettetherstats}
+12-24 17:30:51.376 - RCV <- {200 1066 Tethering stats list completed}
+12-24 17:30:51.387 - SND -> {1067 bandwidth setglobalalert 2097152}
+12-24 17:30:51.388 - RCV <- {200 1067 Bandwidth command succeeeded}
+12-24 17:31:03.002 - RCV <- {601 limit alert globalAlert lo}
+12-24 17:31:03.005 - SND -> {1068 bandwidth gettetherstats}
+12-24 17:31:03.005 - RCV <- {200 1068 Tethering stats list completed}
+12-24 17:31:03.011 - SND -> {1069 bandwidth setglobalalert 2097152}
+12-24 17:31:03.012 - RCV <- {200 1069 Bandwidth command succeeeded}
+12-24 17:31:11.987 - RCV <- {601 limit alert globalAlert lo}
+12-24 17:31:11.990 - SND -> {1070 bandwidth gettetherstats}
+12-24 17:31:11.990 - RCV <- {200 1070 Tethering stats list completed}
+12-24 17:31:11.996 - SND -> {1071 bandwidth setglobalalert 2097152}
+12-24 17:31:11.997 - RCV <- {200 1071 Bandwidth command succeeeded}
+12-24 17:31:24.773 - RCV <- {601 limit alert globalAlert lo}
+12-24 17:31:24.776 - SND -> {1072 bandwidth gettetherstats}
+12-24 17:31:24.777 - RCV <- {200 1072 Tethering stats list completed}
+12-24 17:31:24.782 - SND -> {1073 bandwidth setglobalalert 2097152}
+12-24 17:31:24.783 - RCV <- {200 1073 Bandwidth command succeeeded}
+12-24 17:32:28.889 - RCV <- {601 limit alert globalAlert lo}
+12-24 17:32:28.893 - SND -> {1074 bandwidth gettetherstats}
+12-24 17:32:28.893 - RCV <- {200 1074 Tethering stats list completed}
+12-24 17:32:28.906 - SND -> {1075 bandwidth setglobalalert 2097152}
+12-24 17:32:28.908 - RCV <- {200 1075 Bandwidth command succeeeded}
+
+Pending requests:
+  Cmd 1 - null
+  Cmd 111 - null
+  Cmd 840 - null
+
+Bandwidth control enabled: true
+mMobileActivityFromRadio=false mLastPowerStateFromRadio=1
+mNetworkActive=true
+Active quota ifaces: {}
+Active alert ifaces: {}
+UID reject on quota ifaces: []
+UID firewall rule: []
+UID firewall standby chain enabled: true
+UID firewall standby rule: []
+UID firewall dozable chain enabled: false
+UID firewall dozable rule: []
+Idle timers:
+  wlan0:
+    timeout=15 type=1 networkCount=1
+Firewall enabled: false

@@ -1,0 +1,570 @@
+Battery History (0% used, 84 used of 256KB, 3 strings using 114):
+                    0 (9) RESET:TIME: 2017-12-24-17-03-00
+                    0 (2) 100 c41000e1 status=discharging health=good plug=none temp=320 volt=4384 +running +wake_lock +wifi_radio +screen phone_state=off phone_signal_strength=great brightness=dim +wifi_running +wifi wifi_signal_strength=3 wifi_suppl=completed fg=u0a134:"com.tencent.mm"
+                    0 (2) 100 c41000e1 top=u0a140:"com.tianyancha.skyeye"
+                    0 (2) 100 c41000e1 user=0:"0"
+                    0 (2) 100 c41000e1 userfg=0:"0"
+               +360ms (2) 100 c41000e1 status=charging
+               +925ms (2) 100 c41800e1 status=full plug=usb +plugged
+
+Per-PID Stats:
+  PID 1125 wake time: +40s747ms
+  PID 1713 wake time: +121ms
+  PID 0 wake time: +3s694ms
+  PID 1125 wake time: +179ms
+  PID 1125 wake time: +75ms
+  PID 2734 wake time: +39ms
+  PID 1125 wake time: +11ms
+  PID 2111 wake time: +40ms
+  PID 1125 wake time: +22ms
+  PID 1125 wake time: +23ms
+  PID 1125 wake time: +90ms
+  PID 1125 wake time: +1s127ms
+  PID 1125 wake time: +22s369ms
+
+Daily stats:
+  Current start time: 2017-12-24-07-47-43
+  Next min deadline: 2017-12-25-01-00-00
+  Next max deadline: 2017-12-25-03-00-00
+    Package changes:
+      Update com.tianyancha.skyeye vers=0
+      Update com.tianyancha.skyeye vers=45
+      Update com.tianyancha.skyeye vers=45
+      Update com.tianyancha.skyeye vers=0
+      Update com.tianyancha.skyeye vers=45
+      Update com.tianyancha.skyeye vers=0
+      Update com.tianyancha.skyeye vers=45
+      Update com.tianyancha.skyeye vers=0
+      Update com.tianyancha.skyeye vers=45
+      Update com.tianyancha.skyeye vers=45
+  Daily from 2017-12-23-15-10-15 to 2017-12-24-07-47-43:
+    Discharge step durations:
+      #0: +4h30m29s480ms to 96 (screen-off, power-save-off, device-idle-off)
+      #1: +3h42m6s928ms to 97 (screen-off, power-save-off, device-idle-off)
+      #2: +3h32m40s800ms to 98 (screen-off, power-save-off, device-idle-off)
+        Discharge total time: 16d 7h 49m 33s 600ms  (from 3 steps)
+        Discharge screen off time: 16d 7h 49m 33s 600ms  (from 3 steps)
+  Daily from 2017-12-22-10-35-42 to 2017-12-23-15-10-15:
+    Package changes:
+      Update com.tianyancha.skyeye vers=45
+      Update com.android.mms vers=10151
+  Daily from 2017-12-21-09-06-00 to 2017-12-22-10-35-42:
+    Package changes:
+      Update com.tianyancha.skyeye vers=45
+      Update com.tianyancha.skyeye vers=41
+      Update com.tianyancha.skyeye vers=45
+      Update com.tianyancha.skyeye vers=45
+      Update com.tianyancha.skyeye vers=45
+      Update com.tianyancha.skyeye vers=0
+      Update com.tianyancha.skyeye vers=43
+      Update com.eg.android.AlipayGphone vers=121
+  Daily from 2017-12-20-08-53-50 to 2017-12-21-09-06-00:
+    Package changes:
+      Update com.tianyancha.skyeye vers=0
+      Update com.tianyancha.skyeye vers=45
+      Update com.tianyancha.skyeye vers=41
+      Update com.tencent.mm vers=1180
+      Update com.tianyancha.skyeye vers=45
+      Update com.tianyancha.skyeye vers=45
+      Update com.tianyancha.skyeye vers=41
+  Daily from 2017-12-19-11-28-26 to 2017-12-20-08-53-50:
+    Package changes:
+      Update com.android.calendar vers=12304
+      Update com.android.launcher3 vers=13304
+  Daily from 2017-12-19-10-05-21 to 2017-12-19-11-28-26:
+    Package changes:
+      Update com.koushikdutta.vysor vers=1476680400
+      Update com.tianyancha.skyeye vers=45
+
+Statistics since last charge:
+  System starts: 0, currently on battery: false
+  Time on battery: 925ms (0.1%) realtime, 925ms (0.1%) uptime
+  Time on battery screen off: 0ms (0.0%) realtime, 0ms (0.0%) uptime
+  Total run time: 19m 32s 904ms realtime, 19m 32s 904ms uptime
+  Start clock time: 2017-12-24-17-03-00
+  Screen on: 925ms (100.0%) 0x, Interactive: 925ms (100.0%)
+  Screen brightnesses:
+    dim 925ms (100.0%)
+  Connectivity changes: 1
+  Mobile total received: 0B, sent: 0B (packets received 0, sent 0)
+  Phone signal levels: (no activity)
+  Signal scanning time: 0ms
+  Radio types: (no activity)
+  Mobile radio active time: 0ms (0.0%) 0x
+  Wi-Fi total received: 1.56KB, sent: 1.26KB (packets received 11, sent 12)
+  Wifi on: 925ms (100.0%), Wifi running: 925ms (100.0%)
+  Wifi states: (no activity)
+  Wifi supplicant states:
+    completed 925ms (100.0%) 1x
+  Wifi signal levels:
+    level(3) 925ms (100.0%) 0x
+  WiFi Idle time: 0ms (--%)
+  WiFi Rx time:   0ms (--%)
+  WiFi Tx time:   0ms (--%)
+  WiFi Power drain: 0mAh
+  Bluetooth Idle time: 0ms (--%)
+  Bluetooth Rx time:   0ms (--%)
+  Bluetooth Tx time:   0ms (--%)
+  Bluetooth Power drain: 0mAh
+
+  Device battery use since last full charge
+    Amount discharged (lower bound): 0
+    Amount discharged (upper bound): 0
+    Amount discharged while screen on: 0
+    Amount discharged while screen off: 0
+
+  Estimated power use (mAh):
+    Capacity: 3000, Computed drain: 0.0695, actual drain: 0
+    Screen: 0.0442
+    Uid u0a140: 0.00813 ( cpu=0.00813 )
+    Uid 1000: 0.00538 ( cpu=0.00538 )
+    Uid 0: 0.00493 ( cpu=0.00492 wifi=0.00000551 )
+    Uid u0a114: 0.00470 ( cpu=0.00469 wifi=0.00000601 )
+    Uid 1036: 0.000573 ( cpu=0.000573 )
+    Uid 1001: 0.000469 ( cpu=0.000469 )
+    Uid u0a22: 0.000469 ( cpu=0.000469 )
+    Uid u0a38: 0.000234 ( cpu=0.000234 )
+    Uid u0a134: 0.000128 ( sensor=0.000128 )
+    Uid 1013: 0.000117 ( cpu=0.000117 )
+    Uid u0a131: 0.0000802 ( cpu=0.0000802 )
+    Wifi: 0.0000514 ( wifi=0.0000514 )
+
+  0:
+    Wi-Fi network: 910B received, 198B sent (packets 7 received, 4 sent)
+    Total cpu time: u=0ms s=430ms p=0mAh
+    Proc kworker/u21:2:
+      CPU: 0ms usr + 2s 730ms krn ; 0ms fg
+    Proc kworker/u21:0:
+      CPU: 0ms usr + 4s 600ms krn ; 0ms fg
+    Proc kworker/u20:5:
+      CPU: 0ms usr + 1s 530ms krn ; 0ms fg
+    Proc kworker/u20:3:
+      CPU: 0ms usr + 740ms krn ; 0ms fg
+    Proc kworker/u20:1:
+      CPU: 0ms usr + 630ms krn ; 0ms fg
+    Proc kworker/u20:0:
+      CPU: 0ms usr + 1s 200ms krn ; 0ms fg
+    Proc btif_rxd:
+      CPU: 0ms usr + 50ms krn ; 0ms fg
+    Proc kworker/4:1H:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc kworker/0:1H:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc display_check_a:
+      CPU: 0ms usr + 160ms krn ; 0ms fg
+    Proc bat_routine_thr:
+      CPU: 0ms usr + 90ms krn ; 0ms fg
+    Proc migration/9:
+      CPU: 0ms usr + 20ms krn ; 0ms fg
+    Proc migration/8:
+      CPU: 0ms usr + 30ms krn ; 0ms fg
+    Proc migration/7:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc migration/6:
+      CPU: 0ms usr + 30ms krn ; 0ms fg
+    Proc migration/5:
+      CPU: 0ms usr + 50ms krn ; 0ms fg
+    Proc migration/4:
+      CPU: 0ms usr + 50ms krn ; 0ms fg
+    Proc migration/0:
+      CPU: 0ms usr + 70ms krn ; 0ms fg
+    Proc wpa_supplicant:
+      CPU: 70ms usr + 170ms krn ; 0ms fg
+    Proc ksoftirqd/9:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc ksoftirqd/8:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc ksoftirqd/5:
+      CPU: 0ms usr + 100ms krn ; 0ms fg
+    Proc ksoftirqd/4:
+      CPU: 0ms usr + 190ms krn ; 0ms fg
+    Proc ksoftirqd/0:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc mtkrild:
+      CPU: 40ms usr + 80ms krn ; 0ms fg
+    Proc tx_thread:
+      CPU: 0ms usr + 350ms krn ; 0ms fg
+    Proc mmcqd/0:
+      CPU: 0ms usr + 890ms krn ; 0ms fg
+    Proc dlpt_notify_thr:
+      CPU: 0ms usr + 20ms krn ; 0ms fg
+    Proc healthd:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc rx_thread:
+      CPU: 0ms usr + 560ms krn ; 0ms fg
+    Proc kworker/6:1:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc kworker/5:0:
+      CPU: 0ms usr + 360ms krn ; 0ms fg
+    Proc kworker/4:3:
+      CPU: 0ms usr + 590ms krn ; 0ms fg
+    Proc kworker/4:2:
+      CPU: 0ms usr + 670ms krn ; 0ms fg
+    Proc kworker/0:3:
+      CPU: 0ms usr + 50ms krn ; 0ms fg
+    Proc hps_main:
+      CPU: 0ms usr + 2s 150ms krn ; 0ms fg
+    Proc disp_delay_trig:
+      CPU: 0ms usr + 20ms krn ; 0ms fg
+    Proc viarild:
+      CPU: 20ms usr + 30ms krn ; 0ms fg
+    Proc rcu_sched:
+      CPU: 0ms usr + 20ms krn ; 0ms fg
+    Proc rcu_preempt:
+      CPU: 0ms usr + 1s 290ms krn ; 0ms fg
+    Proc netd:
+      CPU: 20ms usr + 90ms krn ; 0ms fg
+    Proc logd:
+      CPU: 10s 70ms usr + 5s 910ms krn ; 0ms fg
+    Proc lmkd:
+      CPU: 0ms usr + 50ms krn ; 0ms fg
+    Proc adbd:
+      CPU: 1s 550ms usr + 7s 10ms krn ; 0ms fg
+    Proc pbm:
+      CPU: 0ms usr + 280ms krn ; 0ms fg
+    Proc jbd2/mmcblk0p38:
+      CPU: 0ms usr + 90ms krn ; 0ms fg
+    Proc gsm0710muxd:
+      CPU: 20ms usr + 0ms krn ; 0ms fg
+    Proc kswapd0:
+      CPU: 0ms usr + 80ms krn ; 0ms fg
+    Proc ueventd:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc hang_detect:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc hif_thread:
+      CPU: 0ms usr + 700ms krn ; 0ms fg
+    Proc wdtk-5:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc wdtk-0:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc sdcard:
+      CPU: 0ms usr + 20ms krn ; 0ms fg
+    Proc krtatm:
+      CPU: 0ms usr + 130ms krn ; 0ms fg
+    Proc cfinteractive:
+      CPU: 0ms usr + 810ms krn ; 0ms fg
+    Proc volte_stack:
+      CPU: 20ms usr + 70ms krn ; 0ms fg
+    Proc disp_check:
+      CPU: 0ms usr + 80ms krn ; 0ms fg
+    Proc rilproxy:
+      CPU: 30ms usr + 30ms krn ; 0ms fg
+    Proc decouple_update:
+      CPU: 0ms usr + 1s 910ms krn ; 0ms fg
+    Proc present_fence_w:
+      CPU: 0ms usr + 930ms krn ; 0ms fg
+    Proc disp_idlemgr:
+      CPU: 0ms usr + 160ms krn ; 0ms fg
+    Proc pmic_thread:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc volte_ua:
+      CPU: 20ms usr + 50ms krn ; 0ms fg
+    Proc ion_mm_heap:
+      CPU: 0ms usr + 360ms krn ; 0ms fg
+  1000:
+    Wake lock *alarm* realtime
+    Wake lock DHCP_WAKELOCK realtime
+    Wake lock NetworkStats realtime
+    Wake lock GpsLocationProvider realtime
+    Wake lock ConnectivityService realtime
+    Wake lock WifiStateMachine realtime
+    Sensor 1: (not used)
+    Foreground for: 925ms 
+    Total cpu time: u=260ms s=210ms p=0mAh
+    Proc volte_imcb:
+      CPU: 0ms usr + 40ms krn ; 0ms fg
+    Proc servicemanager:
+      CPU: 3s 280ms usr + 4s 860ms krn ; 0ms fg
+    Proc com.android.settings:
+      CPU: 10ms usr + 30ms krn ; 0ms fg
+    Proc com.mediatek.atci.service:
+      CPU: 70ms usr + 20ms krn ; 0ms fg
+    Proc thermalloadalgod:
+      CPU: 10ms usr + 60ms krn ; 0ms fg
+    Proc aal:
+      CPU: 910ms usr + 1s 170ms krn ; 0ms fg
+    Proc ged_srv:
+      CPU: 50ms usr + 130ms krn ; 0ms fg
+    Proc gas_srv:
+      CPU: 110ms usr + 160ms krn ; 0ms fg
+    Proc surfaceflinger:
+      CPU: 37s 320ms usr + 43s 530ms krn ; 0ms fg
+    Proc vtservice:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc system:
+      CPU: 9s 640ms usr + 6s 880ms krn ; 0ms fg
+    Proc thermal:
+      CPU: 0ms usr + 70ms krn ; 0ms fg
+    Proc com.letv.android.hawk:
+      CPU: 20ms usr + 20ms krn ; 0ms fg
+    Proc 6620_launcher:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Apk com.android.keychain:
+      (nothing executed)
+  1001:
+    Wake lock RILJ realtime
+    Foreground for: 925ms 
+    Total cpu time: u=30ms s=10ms p=0mAh
+    Proc com.android.phone:
+      CPU: 580ms usr + 270ms krn ; 0ms fg
+  1013:
+    Wake lock AudioMix realtime
+    Total cpu time: u=0ms s=10ms p=0mAh
+    Proc mediaserver:
+      CPU: 15s 230ms usr + 19s 970ms krn ; 0ms fg
+  1021:
+    Proc mtk_agpsd:
+      CPU: 30ms usr + 200ms krn ; 0ms fg
+  1036:
+    Total cpu time: u=30ms s=20ms p=0mAh
+    (nothing executed)
+  2000:
+    Foreground for: 925ms 
+    Proc app_process32:
+      CPU: 18s 290ms usr + 12s 560ms krn ; 0ms fg
+    Proc batterywarning:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+  u0a2:
+    Foreground for: 925ms 
+  u0a3:
+    Foreground for: 925ms 
+  u0a5:
+    Foreground for: 925ms 
+    Apk com.android.defcontainer:
+      (nothing executed)
+  u0a6:
+    Foreground for: 925ms 
+  u0a7:
+    Active for: 925ms 
+    Proc android.process.media:
+      CPU: 30ms usr + 10ms krn ; 0ms fg
+    Apk com.android.providers.media:
+      Service com.android.providers.media.MtpService:
+        Created for: 0ms uptime
+        Starts: 1, launches: 1
+  u0a8:
+    Foreground for: 925ms 
+  u0a10:
+    Wake lock *launch* realtime
+    Foreground for: 925ms 
+    Proc com.android.launcher3:
+      CPU: 410ms usr + 330ms krn ; 0ms fg
+  u0a11:
+    Running for: 925ms 
+  u0a12:
+    Foreground for: 925ms 
+  u0a13:
+    Foreground for: 925ms 
+  u0a14:
+    Wake lock *alarm* realtime
+    Wake lock wake:com.stv.stvpush/.service.CommonService realtime
+    Active for: 925ms 
+    Proc com.stv.stvpush:
+      CPU: 10ms usr + 30ms krn ; 0ms fg
+    Apk com.stv.stvpush:
+      (nothing executed)
+  u0a16:
+    Foreground for: 925ms 
+  u0a18:
+    Running for: 925ms 
+  u0a20:
+    Active for: 925ms 
+    Proc com.android.mms:
+      CPU: 20ms usr + 10ms krn ; 0ms fg
+  u0a21:
+    Running for: 925ms 
+  u0a22:
+    Wake lock *alarm* realtime
+    Wake lock CHECK_BG_APP realtime
+    Foreground for: 925ms 
+    Total cpu time: u=30ms s=10ms p=0mAh
+    Proc com.letv.android.phonecontrol:
+      CPU: 0ms usr + 20ms krn ; 0ms fg
+  u0a23:
+    Foreground for: 925ms 
+  u0a26:
+    Foreground for: 925ms 
+  u0a32:
+    Foreground for: 925ms 
+  u0a33:
+    Foreground for: 925ms 
+  u0a38:
+    Foreground for: 925ms 
+    Total cpu time: u=20ms s=0ms p=0mAh
+    Proc com.android.systemui:
+      CPU: 2s 320ms usr + 1s 200ms krn ; 0ms fg
+    Proc com.android.systemui:imagewallpaper:
+      CPU: 10ms usr + 0ms krn ; 0ms fg
+  u0a46:
+    Active for: 925ms 
+    Proc com.android.browser:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+  u0a51:
+    Active for: 925ms 
+  u0a52:
+    Foreground for: 925ms 
+  u0a53:
+    Foreground for: 925ms 
+  u0a54:
+    Running for: 925ms 
+  u0a55:
+    Foreground for: 925ms 
+  u0a56:
+    Running for: 925ms 
+  u0a57:
+    Foreground for: 925ms 
+  u0a61:
+    Foreground for: 925ms 
+    Proc com.android.inputmethod.latin:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+  u0a69:
+    Foreground for: 925ms 
+  u0a70:
+    Foreground for: 925ms 
+  u0a71:
+    Foreground for: 925ms 
+  u0a72:
+    Running for: 925ms 
+  u0a76:
+    Running for: 925ms 
+    Apk com.letv.android.filemanager:
+      (nothing executed)
+  u0a79:
+    Foreground for: 925ms 
+  u0a80:
+    Active for: 925ms 
+    Proc com.android.music:
+      CPU: 30ms usr + 10ms krn ; 0ms fg
+    Apk com.android.music:
+      Service com.android.music.play.MediaPlaybackService:
+        Created for: 0ms uptime
+        Starts: 1, launches: 1
+  u0a81:
+    Active for: 925ms 
+  u0a82:
+    Foreground for: 925ms 
+  u0a85:
+    Foreground for: 925ms 
+  u0a86:
+    Foreground for: 925ms 
+  u0a88:
+    Wake lock *alarm* realtime
+    Active for: 925ms 
+    Proc com.letv.app.appstore:
+      CPU: 10ms usr + 10ms krn ; 0ms fg
+  u0a89:
+    Foreground for: 925ms 
+  u0a90:
+    Active for: 925ms 
+    Proc com.letv.android.themestore:
+      CPU: 40ms usr + 50ms krn ; 0ms fg
+  u0a91:
+    Running for: 925ms 
+    Proc com.letv.android.usagestats:
+      CPU: 20ms usr + 10ms krn ; 0ms fg
+    Apk com.letv.android.usagestats:
+      Service com.letv.android.usagestats.UsageStatsReportService:
+        Created for: 0ms uptime
+        Starts: 1, launches: 1
+  u0a94:
+    Foreground for: 925ms 
+  u0a99:
+    Foreground for: 925ms 
+  u0a100:
+    Foreground for: 925ms 
+  u0a102:
+    Active for: 925ms 
+    Proc com.tencent.android.location:
+      CPU: 50ms usr + 10ms krn ; 0ms fg
+  u0a104:
+    Foreground for: 925ms 
+  u0a107:
+    Foreground for: 925ms 
+  u0a108:
+    Foreground for: 925ms 
+  u0a111:
+    Active for: 925ms 
+    Proc com.sohu.inputmethod.sogou.leshi:
+      CPU: 10ms usr + 30ms krn ; 0ms fg
+  u0a113:
+    Active for: 925ms 
+  u0a114:
+    Wi-Fi network: 691B received, 1.06KB sent (packets 4 received, 8 sent)
+    Wake lock *alarm* realtime
+    Foreground for: 836ms 
+    Active for: 925ms 
+    Total cpu time: u=290ms s=120ms p=0mAh
+    Proc com.icoolme.android.weather:
+      CPU: 100ms usr + 50ms krn ; 0ms fg
+    Proc com.icoolme.android.weather:widget:
+      CPU: 20ms usr + 0ms krn ; 0ms fg
+    Apk com.icoolme.android.weather:
+      Service com.amap.api.location.APSService:
+        Created for: 0ms uptime
+        Starts: 0, launches: 1
+      Service com.icoolme.android.weather.service.WeatherInfoRequestService:
+        Created for: 183ms uptime
+        Starts: 1, launches: 1
+  u0a115:
+    Foreground for: 925ms 
+    Proc com.letv.agnes:
+      CPU: 90ms usr + 30ms krn ; 0ms fg
+  u0a119:
+    Wake lock *job*/com.letv.android.mobileactivation/.job.SupportJobService realtime
+    Wake lock *job*/com.letv.android.mobileactivation/.job.FirstJobService realtime
+    Job com.letv.android.mobileactivation/.job.FirstJobService: (not used)
+    Job com.letv.android.mobileactivation/.job.SupportJobService: (not used)
+    Running for: 925ms 
+    Proc com.letv.android.mobileactivation:
+      CPU: 10ms usr + 20ms krn ; 0ms fg
+    Apk com.letv.android.mobileactivation:
+      (nothing executed)
+  u0a121:
+    Active for: 925ms 
+    Proc com.letv.android.quicksearchbox:
+      CPU: 10ms usr + 30ms krn ; 0ms fg
+  u0a131:
+    Active for: 925ms 
+    Total cpu time: u=10ms s=0ms p=0mAh
+    Proc com.koushikdutta.vysor:
+      CPU: 100ms usr + 10ms krn ; 0ms fg
+  u0a134:
+    Wake lock *alarm* realtime
+    Wake lock *vibrator* realtime
+    Sensor 19: 925ms realtime (0 times)
+    Foreground for: 925ms 
+    Proc com.tencent.mm:tools:
+      CPU: 60ms usr + 30ms krn ; 0ms fg
+    Proc com.tencent.mm:exdevice:
+      CPU: 20ms usr + 10ms krn ; 0ms fg
+    Proc com.tencent.mm:
+      CPU: 5s 890ms usr + 2s 120ms krn ; 0ms fg
+    Proc com.tencent.mm:push:
+      CPU: 730ms usr + 480ms krn ; 0ms fg
+    Proc com.tencent.mm:support:
+      CPU: 30ms usr + 30ms krn ; 0ms fg
+    Apk com.tencent.mm:
+      (nothing executed)
+  u0a140:
+    Wake lock *launch* realtime
+    Wake lock WindowManager realtime
+    Sensor GPS: (not used)
+    Foreground activities: 925ms realtime (0 times)
+    Foreground for: 925ms 
+    Total cpu time: u=550ms s=160ms p=0mAh
+    Proc com.tianyancha.skyeye:
+      CPU: 2m 13s 380ms usr + 35s 190ms krn ; 0ms fg
+    Proc com.tianyancha.skyeye:channel:
+      CPU: 70ms usr + 50ms krn ; 0ms fg
+    Apk com.tianyancha.skyeye:
+      Service com.taobao.accs.ChannelService:
+        Created for: 0ms uptime
+        Starts: 1, launches: 1
+      Service org.android.agoo.accs.AgooService:
+        Created for: 0ms uptime
+        Starts: 1, launches: 0
+      Service com.taobao.accs.data.MsgDistributeService:
+        Created for: 0ms uptime
+        Starts: 1, launches: 0
+

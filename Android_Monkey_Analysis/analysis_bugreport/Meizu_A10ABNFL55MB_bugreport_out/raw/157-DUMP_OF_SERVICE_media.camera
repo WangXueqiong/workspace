@@ -1,0 +1,32 @@
+Camera module HAL API version: 0x100
+Camera module API version: 0x203
+Camera module name: MediaTek Camera Module
+Camera module author: MediaTek
+Number of camera devices: 2
+
+Vendor tag definitions:
+    Dumping configured vendor tag descriptors: 9 entries
+      0x80000000 (gesturemode) with type 1 (int32) defined in section com.mediatek.facefeature
+      0x80000001 (gestureresult) with type 1 (int32) defined in section com.mediatek.facefeature
+      0x80000002 (smiledetectmode) with type 1 (int32) defined in section com.mediatek.facefeature
+      0x80000003 (smiledetectresult) with type 1 (int32) defined in section com.mediatek.facefeature
+      0x80000004 (asdmode) with type 1 (int32) defined in section com.mediatek.facefeature
+      0x80000005 (asdresult) with type 1 (int32) defined in section com.mediatek.facefeature
+      0x80000006 (availablegesturemodes) with type 1 (int32) defined in section com.mediatek.facefeature
+      0x80000007 (availablesmiledetectmodes) with type 1 (int32) defined in section com.mediatek.facefeature
+      0x80000008 (availableasdmodes) with type 1 (int32) defined in section com.mediatek.facefeature
+Camera 0 static information:
+  Facing: BACK
+  Orientation: 90
+  Device version: 0x100
+  Device is closed, no client instance
+Camera 1 static information:
+  Facing: FRONT
+  Orientation: 270
+  Device version: 0x100
+  Device is closed, no client instance
+
+No active camera clients yet.
+
+Camera traces (0):
+  No camera traces collected.

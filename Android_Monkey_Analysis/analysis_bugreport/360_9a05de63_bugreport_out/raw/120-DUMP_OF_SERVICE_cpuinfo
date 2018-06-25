@@ -1,0 +1,172 @@
+Load: 7.87 / 6.7 / 5.94
+CPU usage from 774897ms to 99257ms ago:
+  26% 485/surfaceflinger: 13% user + 12% kernel / faults: 149467 minor
+  11% 498/mediaserver: 4% user + 7.7% kernel / faults: 570 minor 4 major
+  9.8% 1546/system_server: 6% user + 3.7% kernel / faults: 659485 minor 23 major
+  9.2% 8203/app_process32: 5.2% user + 4% kernel / faults: 29425 minor 4 major
+  5.2% 636/adbd: 0.7% user + 4.5% kernel / faults: 225 minor
+  1.9% 2025/com.android.systemui: 1.6% user + 0.2% kernel / faults: 91367 minor 31 major
+  1.6% 630/mm-pp-dpps: 0.3% user + 1.3% kernel / faults: 40 minor
+  1.5% 4962/mdss_fb0: 0% user + 1.5% kernel
+  1.5% 12974/kworker/u16:8: 0% user + 1.5% kernel
+  1.5% 32677/com.qihoo360.mobilesafe:GuardService: 1% user + 0.4% kernel / faults: 42395 minor 100 major
+  1.4% 12696/kworker/u16:2: 0% user + 1.4% kernel
+  1.2% 535/sensors.qcom: 0.5% user + 0.6% kernel / faults: 153 minor 2 major
+  1.1% 12973/kworker/u16:5: 0% user + 1.1% kernel
+  0.8% 7573/com.sina.weibo: 0.1% user + 0.6% kernel / faults: 7661 minor 6 major
+  0.8% 12634/kworker/u16:0: 0% user + 0.8% kernel
+  0.8% 12972/kworker/u16:4: 0% user + 0.8% kernel
+  0.6% 12919/kworker/u16:3: 0% user + 0.6% kernel
+  0.5% 8524/com.tencent.mobileqq: 0.3% user + 0.2% kernel / faults: 24911 minor 388 major
+  0.5% 73/kworker/u16:1: 0% user + 0.5% kernel
+  0.5% 32603/com.tencent.mobileqq:MSF: 0.4% user + 0.1% kernel / faults: 14128 minor 17 major
+  0% 2961/com.qiku.multitask: 0% user + 0% kernel / faults: 65273 minor 2 major
+  0.3% 5080/com.eg.android.AlipayGphone:push: 0.2% user + 0.1% kernel / faults: 37122 minor 22 major
+  0.3% 555/cnss_diag: 0% user + 0.2% kernel / faults: 13 minor 1 major
+  0.3% 2448/com.android.phone: 0.1% user + 0.1% kernel / faults: 3210 minor 6 major
+  0.2% 322/cfinteractive: 0% user + 0.2% kernel
+  0.2% 328/mmc-cmdqd/0: 0% user + 0.2% kernel
+  0.2% 8/rcu_sched: 0% user + 0.2% kernel
+  0.2% 7/rcu_preempt: 0% user + 0.2% kernel
+  0.2% 484/servicemanager: 0.1% user + 0.1% kernel
+  0.2% 5404/com.eg.android.AlipayGphone: 0.1% user + 0% kernel / faults: 17533 minor 5 major
+  0.2% 53/rcuop/6: 0% user + 0.2% kernel
+  0.1% 39/rcuop/4: 0% user + 0.1% kernel
+  0.1% 30643/com.qihoo.daemon: 0.1% user + 0% kernel / faults: 20809 minor 39 major
+  0.1% 3558/irq/179-408000.: 0% user + 0.1% kernel
+  0.1% 40/rcuos/4: 0% user + 0.1% kernel
+  0.1% 1982/sdcard: 0% user + 0.1% kernel / faults: 13 minor
+  0.1% 54/rcuos/6: 0% user + 0.1% kernel
+  0.1% 2789/com.yulong.android.launcher3: 0.1% user + 0% kernel / faults: 12713 minor 6 major
+  0% 3534/com.android.defcontainer: 0% user + 0% kernel / faults: 1455 minor
+  0.1% 3727/com.tencent.mobileqq:TMAssistantDownloadSDKService: 0.1% user + 0% kernel / faults: 2363 minor 3 major
+  0.1% 651/msm_irqbalance: 0% user + 0.1% kernel / faults: 5 minor
+  0.1% 2572/com.qiku.logsystem: 0% user + 0% kernel / faults: 8996 minor 1 major
+  0.1% 12567/kworker/5:2: 0% user + 0.1% kernel
+  0.1% 5131/com.tencent.mm: 0% user + 0% kernel / faults: 2433 minor 89 major
+  0.1% 7853/com.sina.weibo:remote: 0% user + 0% kernel / faults: 8323 minor 2 major
+  0% 10/rcuop/0: 0% user + 0% kernel
+  0% 1780/com.qiku.android.cloudsync:online: 0% user + 0% kernel / faults: 11827 minor 48 major
+  0% 25/rcuop/2: 0% user + 0% kernel
+  0% 5093/com.tencent.mm:push: 0% user + 0% kernel / faults: 4124 minor 13 major
+  0% 46/rcuop/5: 0% user + 0% kernel
+  0% 60/rcuop/7: 0% user + 0% kernel
+  0% 97/system: 0% user + 0% kernel
+  0% 426/logd: 0% user + 0% kernel / faults: 4 minor
+  0% 32745/com.qiku.healthguard: 0% user + 0% kernel / faults: 980 minor 2 major
+  0% 413/jbd2/mmcblk0p51: 0% user + 0% kernel
+  0% 2944/com.quicinc.cne.CNEService: 0% user + 0% kernel / faults: 965 minor
+  0% 2500/com.android.providers.contacts: 0% user + 0% kernel / faults: 484 minor
+  0% 164/kswapd0: 0% user + 0% kernel
+  0% 543/netd: 0% user + 0% kernel / faults: 1493 minor
+  0% 25018/com.qiku.android.cloudsync: 0% user + 0% kernel / faults: 3495 minor 2 major
+  0% 14429/com.android.settings.wifi: 0% user + 0% kernel / faults: 14075 minor 2 major
+  0% 580/cnss-daemon: 0% user + 0% kernel / faults: 48 minor 1 major
+  0% 483/lmkd: 0% user + 0% kernel
+  0% 43/ksoftirqd/5: 0% user + 0% kernel
+  0% 3606/perfd: 0% user + 0% kernel / faults: 297 minor
+  0% 18796/com.qiku.powermaster: 0% user + 0% kernel / faults: 2114 minor
+  0% 548/installd: 0% user + 0% kernel / faults: 99 minor
+  0% 550/keystore: 0% user + 0% kernel / faults: 83 minor
+  0% 553/cnd: 0% user + 0% kernel / faults: 141 minor 4 major
+  0% 573/zygote: 0% user + 0% kernel / faults: 22452 minor
+  0% 47/rcuos/5: 0% user + 0% kernel
+  0% 572/zygote64: 0% user + 0% kernel / faults: 28256 minor
+  0% 61/rcuos/7: 0% user + 0% kernel
+  0% 2873/com.amap.android.location: 0% user + 0% kernel / faults: 1238 minor
+  0% 36/ksoftirqd/4: 0% user + 0% kernel
+  0% 702/dpmd: 0% user + 0% kernel / faults: 59 minor 2 major
+  0% 57/ksoftirqd/7: 0% user + 0% kernel
+  0% 637/lowi-server: 0% user + 0% kernel / faults: 158 minor 1 major
+  0% 12807/com.qiku.logredirect: 0% user + 0% kernel / faults: 9702 minor 1 major
+  0% 50/ksoftirqd/6: 0% user + 0% kernel
+  0% 283/focal_esd_prote: 0% user + 0% kernel
+  0% 640/xtwifi-client: 0% user + 0% kernel / faults: 43 minor
+  0% 18/rcuop/1: 0% user + 0% kernel
+  0% 581/loc_launcher: 0% user + 0% kernel / faults: 29 minor
+  0% 3002/com.qualcomm.qti.tetherservice: 0% user + 0% kernel / faults: 174 minor
+  0% 707/ipacm: 0% user + 0% kernel / faults: 25 minor 1 major
+  0% 2973/com.qti.dpmserviceapp: 0% user + 0% kernel / faults: 377 minor
+  0% 12856/com.qiku.cardmanager: 0% user + 0% kernel / faults: 525 minor 19 major
+  0% 32/rcuop/3: 0% user + 0% kernel
+  0% 12751/com.qihoo360.accounts: 0% user + 0% kernel / faults: 1464 minor
+  0% 1//init: 0% user + 0% kernel / faults: 75 minor
+  0% 2203/com.qiku.powerengine:remote: 0% user + 0% kernel / faults: 1031 minor
+  0% 74/msm_watchdog: 0% user + 0% kernel
+  0% 391/kworker/6:1H: 0% user + 0% kernel
+  0% 21/migration/2: 0% user + 0% kernel
+  0% 28/migration/3: 0% user + 0% kernel
+  0% 401/ueventd: 0% user + 0% kernel / faults: 52 minor
+  0% 2340/com.qiku.magazine: 0% user + 0% kernel / faults: 230 minor
+  0% 2769/com.android.settings: 0% user + 0% kernel / faults: 213 minor
+  0% 14/migration/1: 0% user + 0% kernel
+  0% 4873/android.process.media: 0% user + 0% kernel / faults: 1096 minor 3 major
+  0% 12257/kworker/6:2: 0% user + 0% kernel
+  0% 13/migration/0: 0% user + 0% kernel
+  0% 323/irq/197-7824900: 0% user + 0% kernel
+  0% 11943/kworker/0:1: 0% user + 0% kernel
+  0% 12840/kworker/7:3: 0% user + 0% kernel
+  0% 11/rcuos/0: 0% user + 0% kernel
+  0% 49/migration/6: 0% user + 0% kernel
+  0% 431/kauditd: 0% user + 0% kernel
+  0% 488/rmt_storage: 0% user + 0% kernel / faults: 48 minor 1 major
+  0% 561/thermal-engine: 0% user + 0% kernel / faults: 12 minor
+  0% 16718/com.qihoo360.mobilesafe.clean:background_clean: 0% user + 0% kernel / faults: 451 minor
+  0% 32627/com.android.systemui:messagebox: 0% user + 0% kernel / faults: 257 minor 1 major
+  0% 26/rcuos/2: 0% user + 0% kernel
+  0% 29/ksoftirqd/3: 0% user + 0% kernel
+  0% 35/migration/4: 0% user + 0% kernel
+  0% 56/migration/7: 0% user + 0% kernel
+  0% 198/hwrng: 0% user + 0% kernel
+  0% 439/vold: 0% user + 0% kernel / faults: 6 minor
+  0% 482/healthd: 0% user + 0% kernel
+  0% 568/hvdcp_opti: 0% user + 0% kernel / faults: 4 minor
+  0% 852/netmgrd: 0% user + 0% kernel / faults: 67 minor 2 major
+  0% 2196/kworker/2:1: 0% user + 0% kernel
+  0% 3890/com.yulong.android.coolsafe:remote: 0% user + 0% kernel / faults: 216 minor 1 major
+  0% 7755/kworker/1:3: 0% user + 0% kernel
+  0% 8247/kworker/4:0: 0% user + 0% kernel
+  0% 11636/com.yulong.android.coolsafe: 0% user + 0% kernel / faults: 598 minor
+  0% 12656/kworker/3:0: 0% user + 0% kernel
+  0% 14853/com.qiku.service.container: 0% user + 0% kernel / faults: 433 minor
+ +0% 13004/com.koushikdutta.vysor: 0% user + 0% kernel
+ +0% 13340/kworker/4:2: 0% user + 0% kernel
+ +0% 13437/kworker/6:1: 0% user + 0% kernel
+ +0% 13598/com.tianyancha.skyeye: 0% user + 0% kernel
+ +0% 13765/com.tianyancha.skyeye:channel: 0% user + 0% kernel
+ +0% 13852/kworker/5:0: 0% user + 0% kernel
+ +0% 13864/com.qihoo.appstore: 0% user + 0% kernel
+ +0% 15241/kworker/7:0: 0% user + 0% kernel
+ +0% 15303/kworker/4:1: 0% user + 0% kernel
+ +0% 15321/kworker/6:0: 0% user + 0% kernel
+ +0% 15403/com.yulong.android.filebrowser: 0% user + 0% kernel
+ +0% 15479/com.yulong.android.ota: 0% user + 0% kernel
+ +0% 15495/com.yulong.android.ota:plugin: 0% user + 0% kernel
+ +0% 15535/com.yulong.android.xtime: 0% user + 0% kernel
+ +0% 15583/com.qiku.riskinsight: 0% user + 0% kernel
+ +0% 15949/kworker/1:0: 0% user + 0% kernel
+ +0% 16017/com.android.gallery3d: 0% user + 0% kernel
+ +0% 16132/com.yulong.android.settings: 0% user + 0% kernel
+ +0% 16460/kworker/5:1: 0% user + 0% kernel
+ +0% 16649/com.android.commands.monkey: 0% user + 0% kernel
+ +0% 16663/kworker/u16:6: 0% user + 0% kernel
+ +0% 16664/kworker/u16:9: 0% user + 0% kernel
+ +0% 16685/kworker/0:0: 0% user + 0% kernel
+ +0% 16754/com.codeaurora.fmradio: 0% user + 0% kernel
+ +0% 17035/kworker/7:1: 0% user + 0% kernel
+ +0% 17211/com.qiku.android.register: 0% user + 0% kernel
+ +0% 17335/VosWDThread: 0% user + 0% kernel
+ +0% 17337/VosMCThread: 0% user + 0% kernel
+ +0% 17338/VosTXThread: 0% user + 0% kernel
+ +0% 17339/VosRXThread: 0% user + 0% kernel
+ +0% 17340/wlan_logging_th: 0% user + 0% kernel
+ +0% 17344/wpa_supplicant: 0% user + 0% kernel
+ +0% 17457/dhcpcd: 0% user + 0% kernel
+ +0% 17740/com.android.systemui:screenshot: 0% user + 0% kernel
+ +0% 17804/com.qiku.music.service: 0% user + 0% kernel
+ +0% 17858/kworker/5:3: 0% user + 0% kernel
+ +0% 17863/com.android.mms: 0% user + 0% kernel
+ +0% 17890/com.qiku.freecall: 0% user + 0% kernel
+ +0% 17895/kworker/6:3: 0% user + 0% kernel
+ +0% 17978/com.android.inputmethod.latin: 0% user + 0% kernel
+15% TOTAL: 8.7% user + 5.7% kernel + 0.1% iowait + 0.6% irq + 0.3% softirq

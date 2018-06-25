@@ -1,0 +1,60 @@
+<html>
+<head>
+  <title>f00195.html</title>
+  <link rel="stylesheet" type="text/css" href="themes/blue/style.css"/>
+  <link rel="stylesheet" type="text/css" href="jquery.treeTable.css"/>
+  <link rel="stylesheet" type="text/css" href="jquery.ui.css"/>
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+  <script type="text/javascript" src="jquery.js"></script>
+  <script type="text/javascript" src="jquery.cookie.js"></script>
+  <script type="text/javascript" src="jquery.hotkeys.js"></script>
+  <script type="text/javascript" src="jquery.jstree.js"></script>
+  <script type="text/javascript" src="jquery.tablesorter.js"></script>
+  <script type="text/javascript" src="jquery.tablednd.js"></script>
+  <script type="text/javascript" src="jquery.treeTable.js"></script>
+  <script type="text/javascript" src="jquery.flot.js"></script>
+  <script type="text/javascript" src="jquery.flot.navigate.js"></script>
+  <script type="text/javascript" src="jquery.flot.selection.js"></script>
+  <script type="text/javascript" src="jquery.ui.js"></script>
+  <script type="text/javascript" src="colResizable-1.3.source.js"></script>
+  <script type="text/javascript" src="/self$wsjs"></script>
+  <script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+<a name="ch0"></a><div class="btn-pop-out"><a href="f00195.html#ch0" target="_blank"><img src="ic_pop_out.png"/></a></div><h2>Fatal: signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x0</h2>
+<!--
+com.sonyericsson.chkbugreport.doc.InternalRef.<init>(InternalRef.java:33)
+com.sonyericsson.chkbugreport.doc.Bug.<init>(Bug.java:90)
+com.sonyericsson.chkbugreport.plugins.logs.LogPlugin.reportFatalLog(LogPlugin.java:417)
+com.sonyericsson.chkbugreport.plugins.logs.LogPlugin.analyze(LogPlugin.java:385)
+com.sonyericsson.chkbugreport.plugins.logs.SystemLogPlugin.analyze(SystemLogPlugin.java:113)
+com.sonyericsson.chkbugreport.plugins.logs.LogPlugin.load(LogPlugin.java:254)
+com.sonyericsson.chkbugreport.plugins.logs.SystemLogPlugin.load(SystemLogPlugin.java:64)
+com.sonyericsson.chkbugreport.Module.runPlugins(Module.java:662)
+com.sonyericsson.chkbugreport.Module.generate(Module.java:567)
+com.sonyericsson.chkbugreport.Main.run(Main.java:232)
+com.sonyericsson.chkbugreport.Main.main(Main.java:358)
+-->
+<div><a href="f00344.html#l34092021251">(link to log)</a></div><p>Log around the fatal log line (+/-10 lines):</p><div class="log">...<div class="log-line log-fatal" id="l2234254684520466">12-22 14:00:20.943 <a href="f00450.html#ch0">32626</a> 32307 F google-breakpad: M F728F000 00000000 0000F000 735867D77BADA5BFD7146BFCF69B6E790 libcutils.so</div>
+<div class="log-line log-fatal" id="l2234254684520467">12-22 14:00:20.943 <a href="f00450.html#ch0">32626</a> 32307 F google-breakpad: M F72A1000 00000000 00004000 A42D29C67BA4104E9D7D695F7D2CBDB20 libNimsWrap.so</div>
+<div class="log-line log-fatal" id="l2234254684520468">12-22 14:00:20.943 <a href="f00450.html#ch0">32626</a> 32307 F google-breakpad: M F72D7000 00000000 0001C000 54CE6355E1B540782C8228FE34A269500 linker</div>
+<div class="log-line log-fatal" id="l2234254684520469">12-22 14:00:20.943 <a href="f00450.html#ch0">32626</a> 32307 F google-breakpad: -----END BREAKPAD MICRODUMP-----</div>
+<div class="log-line log-fatal" id="l2234254700511232">12-22 14:00:21.187 <a href="f00453.html#ch0">30160</a> 32307 F libc    : Fatal signal 11 (SIGSEGV), code 1, fault addr 0x0 in tid 32307 (Chrome_InProcRe)</div>
+<div class="log-line log-fatal" id="l2234254704640000">12-22 14:00:21.250   <a href="f00388.html#ch0">544</a>   544 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***</div>
+<div class="log-line log-fatal" id="l2234254704640001">12-22 14:00:21.250   <a href="f00388.html#ch0">544</a>   544 F DEBUG   : Build fingerprint: '360/QK1505/QK1505:6.0.1/MMB29M/6.0.066.P0.170823.QK1505:user/release-keys'</div>
+<div class="log-line log-fatal" id="l2234254704640002">12-22 14:00:21.250   <a href="f00388.html#ch0">544</a>   544 F DEBUG   : Revision: '0'</div>
+<div class="log-line log-fatal" id="l2234254704640003">12-22 14:00:21.250   <a href="f00388.html#ch0">544</a>   544 F DEBUG   : ABI: 'arm'</div>
+<div class="log-line log-fatal" id="l2234254704640004">12-22 14:00:21.250   <a href="f00388.html#ch0">544</a>   544 F DEBUG   : pid: 30160, tid: 32307, name: Chrome_InProcRe  &gt;&gt;&gt; com.tianyancha.skyeye &lt;&lt;&lt;</div>
+<div class="log-line log-fatal" id="l2234254704705536">12-22 14:00:21.251   <a href="f00388.html#ch0">544</a>   544 F DEBUG   : signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x0</div>
+<div class="log-line log-fatal" id="l2234254724169728">12-22 14:00:21.548   <a href="f00388.html#ch0">544</a>   544 F DEBUG   :     r0 00000000  r1 00000001  r2 00000002  r3 e77b0dd5</div>
+<div class="log-line log-fatal" id="l2234254724235264">12-22 14:00:21.549   <a href="f00388.html#ch0">544</a>   544 F DEBUG   :     r4 5e933f80  r5 d256018c  r6 acd1b270  r7 d2560188</div>
+<div class="log-line log-fatal" id="l2234254724235265">12-22 14:00:21.549   <a href="f00388.html#ch0">544</a>   544 F DEBUG   :     r8 e9125ab7  r9 00000000  sl 5e933f88  fp d16841a1</div>
+<div class="log-line log-fatal" id="l2234254724235266">12-22 14:00:21.549   <a href="f00388.html#ch0">544</a>   544 F DEBUG   :     ip f706e5d8  sp d2560180  lr e82dcb51  pc e82dcb52  cpsr 200e0030</div>
+<div class="log-line log-fatal" id="l2234254725939200">12-22 14:00:21.575   <a href="f00388.html#ch0">544</a>   544 F DEBUG   : </div>
+<div class="log-line log-fatal" id="l2234254725939201">12-22 14:00:21.575   <a href="f00388.html#ch0">544</a>   544 F DEBUG   : backtrace:</div>
+<div class="log-line log-fatal" id="l2234254726922240">12-22 14:00:21.590   <a href="f00388.html#ch0">544</a>   544 F DEBUG   :     #00 pc 00da2b52  /system/app/BY_3RD_Webview/BY_3RD_Webview.apk (offset 0x47da000)</div>
+<div class="log-line log-error" id="l2234254863958016">12-22 14:00:23.681 <a href="f00417.html#ch0">32497</a> 32624 E ActivityThread: Failed to find provider info for com.qihoo360.mobilesafeguard</div>
+<div class="log-line log-error" id="l2234254873919488">12-22 14:00:23.833  <a href="f00552.html#ch0">1546</a>  1984 E NativeCrashListener: Exception dealing with report</div>
+<div class="log-line log-error" id="l2234254873919489">12-22 14:00:23.833  <a href="f00552.html#ch0">1546</a>  1984 E NativeCrashListener: android.system.ErrnoException: read failed: EAGAIN (Try again)</div>
+...</div></body>
+</html>

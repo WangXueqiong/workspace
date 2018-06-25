@@ -1,0 +1,5 @@
+ifname total_skb_rx_bytes total_skb_rx_packets total_skb_tx_bytes total_skb_tx_packets rx_tcp_bytes rx_tcp_packets rx_udp_bytes rx_udp_packets rx_other_bytes rx_other_packets tx_tcp_bytes tx_tcp_packets tx_udp_bytes tx_udp_packets tx_other_bytes tx_other_packets
+wlan0 26472363 36180 2343656 23201 25179180 23357 1290635 12808 2548 15 2310022 22801 21085 326 12549 74
+p2p0 0 0 216 3 0 0 0 0 0 0 0 0 0 0 216 3
+lo 49633967 133685 49633967 133685 49626975 133600 2728 40 4264 45 49626975 133600 2728 40 4264 45
+

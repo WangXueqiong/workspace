@@ -1,0 +1,18 @@
+Filesystem               Size     Used     Free   Blksize
+/dev                     1.4G   120.0K     1.4G   4096
+/sys/fs/cgroup           1.4G    12.0K     1.4G   4096
+/mnt                     1.4G     0.0K     1.4G   4096
+/system                  3.8G     3.3G   572.7M   4096
+/data                   23.9G     2.1G    21.8G   4096
+/cache                 418.4M   548.0K   417.9M   4096
+/protect_f               3.9M    68.0K     3.8M   4096
+/protect_s               7.3M    60.0K     7.2M   4096
+/nvdata                 27.5M     5.1M    22.4M   4096
+/nvcfg                   3.9M    80.0K     3.8M   4096
+/persist                11.7M    44.0K    11.7M   4096
+/letvfingerprint        15.7M    44.0K    15.6M   4096
+/storage                 1.4G     0.0K     1.4G   4096
+/storage/emulated       23.9G     2.1G    21.8G   4096
+*** df: Exit code 1
+[df: 0.011s elapsed]
+

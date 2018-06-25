@@ -1,0 +1,18 @@
+Active interfaces:
+  iface=wlan0 ident=[{type=WIFI, subType=COMBINED, networkId=JD-office}] 
+Active UID interfaces:
+  iface=wlan0 ident=[{type=WIFI, subType=COMBINED, networkId=JD-office}] 
+Dev stats:
+  Pending bytes: 642561
+  History since boot:
+  ident=[{type=WIFI, subType=COMBINED, networkId=JD-office}] uid=-1 set=ALL tag=0x0
+    NetworkStatsHistory: bucketDuration=3600
+      st=1514102400 rb=18074914 rp=28115 tb=1958603 tp=16942 op=0
+      st=1514106000 rb=9283667 rp=16911 tb=711501 tp=6316 op=0
+Xt stats:
+  Pending bytes: 602491
+  History since boot:
+  ident=[{type=WIFI, subType=COMBINED, networkId=JD-office}] uid=-1 set=ALL tag=0x0
+    NetworkStatsHistory: bucketDuration=3600
+      st=1514102400 rb=17560364 rp=24203 tb=1720041 tp=16888 op=0
+      st=1514106000 rb=8905455 rp=11933 tb=622571 tp=6298 op=0

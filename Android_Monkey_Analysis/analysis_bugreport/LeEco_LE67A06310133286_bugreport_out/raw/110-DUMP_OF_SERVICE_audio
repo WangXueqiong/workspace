@@ -1,0 +1,116 @@
+
+MediaFocusControl dump time: ä¸å5:22:33
+
+Audio Focus stack entries (last is top of stack):
+  source:android.os.BinderProxy@8f0c37f -- pack: com.android.music -- client: android.media.AudioManager@1b01c82com.android.music.play.MediaPlaybackService$4@f37ef93 -- gain: GAIN -- flags:  -- loss: none -- uid: 10080 -- attr: AudioAttributes: usage=1 content=2 flags=0x0 tags=
+
+ Notify on duck: true
+
+
+Remote Control stack entries (last is top of stack):
+
+Remote Control Client stack entries (last is top of stack):
+
+Current remote control generation ID = 0
+
+Remote Volume State:
+  has remote: false
+  is remote active: false
+  rccId: -1
+  volume handling: PLAYBACK_VOLUME_VARIABLE(1)
+  volume: 15
+  volume steps: 15
+
+Remote Control Display list entries:
+
+Stream volumes (device: index)
+- STREAM_VOICE_CALL:
+   Muted: false
+   Min: 1
+   Max: 7
+   Current: 40000000 (default): 4
+   Devices: earpiece
+- STREAM_SYSTEM:
+   Muted: false
+   Min: 0
+   Max: 15
+   Current: 2 (speaker): 4, 40000000 (default): 8
+   Devices: speaker
+- STREAM_RING:
+   Muted: false
+   Min: 0
+   Max: 15
+   Current: 2 (speaker): 4, 40000000 (default): 8
+   Devices: speaker
+- STREAM_MUSIC:
+   Muted: false
+   Min: 0
+   Max: 15
+   Current: 40000000 (default): 8
+   Devices: speaker
+- STREAM_ALARM:
+   Muted: false
+   Min: 0
+   Max: 15
+   Current: 40000000 (default): 8
+   Devices: speaker
+- STREAM_NOTIFICATION:
+   Muted: false
+   Min: 0
+   Max: 15
+   Current: 2 (speaker): 4, 40000000 (default): 8
+   Devices: speaker
+- STREAM_BLUETOOTH_SCO:
+   Muted: false
+   Min: 1
+   Max: 15
+   Current: 40000000 (default): 7
+   Devices: earpiece
+- STREAM_SYSTEM_ENFORCED:
+   Muted: false
+   Min: 0
+   Max: 15
+   Current: 2 (speaker): 15, 40000000 (default): 15
+   Devices: speaker
+- STREAM_DTMF:
+   Muted: false
+   Min: 0
+   Max: 15
+   Current: 2 (speaker): 4, 40000000 (default): 8
+   Devices: speaker
+- STREAM_TTS:
+   Muted: false
+   Min: 0
+   Max: 15
+   Current: 40000000 (default): 8
+   Devices: speaker
+
+- mute affected streams = 0x2e
+
+Ringer mode: 
+- mode (internal) = NORMAL
+- mode (external) = NORMAL
+- ringer mode affected streams = 0x126 (STREAM_SYSTEM,STREAM_RING,STREAM_NOTIFICATION,STREAM_DTMF)
+- ringer mode muted streams = 0x0
+- delegate = ZenModeHelper
+
+Audio routes:
+  mMainType=0x0
+  mBluetoothName=null
+
+Other state:
+  mVolumeController=VolumeController(android.os.BinderProxy@d4e1f4c,mVisible=false)
+  mSafeMediaVolumeState=SAFE_MEDIA_VOLUME_ACTIVE
+  mSafeMediaVolumeIndex=120
+  mPendingVolumeCommand=null
+  mMusicActiveMs=0
+  mMcc=0
+  mCameraSoundForced=true
+  mHasVibrator=true
+  mControllerService={mUid=0,mComponent=null}
+  mVolumePolicy=VolumePolicy[volumeDownToEnterSilent=true,volumeUpToExitSilent=true,doNotDisturbWhenSilent=true,vibrateToSilentDebounce=400]
+  mHasVibrator=true
+  mMode=0
+  MuteKey State=0
+
+Audio policies:

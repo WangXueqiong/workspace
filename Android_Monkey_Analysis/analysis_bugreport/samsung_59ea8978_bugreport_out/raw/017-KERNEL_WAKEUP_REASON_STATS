@@ -1,0 +1,12 @@
+irq	wakeup_count	name
+57	11	smd_dev
+200	3592	smd_dev
+203	3520	fc4281d0.qcom,mpm
+222	1185	fc4cf000.qcom,spmi
+240	2395	msmgpio
+290	2	qpnp_kpdpwr_status
+299	1179	qpnp_rtc_alarm
+305	3	max77804k-irq
+625	2392	bcmsdh_sdmmc
+636	4	home_key
+

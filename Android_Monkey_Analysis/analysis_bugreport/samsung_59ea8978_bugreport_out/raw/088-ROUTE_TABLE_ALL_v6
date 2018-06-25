@@ -1,0 +1,22 @@
+unreachable default dev lo  table 0  proto kernel  metric 4294967295  error -101 hoplimit 255
+unreachable default dev lo  table 0  proto kernel  metric 4294967295  error -101 hoplimit 255
+unreachable default dev lo  table 0  proto kernel  metric 4294967295  error -101 hoplimit 255
+fe80::/64 dev dummy0  table dummy0  proto kernel  metric 256 
+default dev dummy0  table dummy0  proto static  metric 1024 
+unreachable default dev lo  table 0  proto kernel  metric 4294967295  error -101 hoplimit 255
+fe80::/64 dev p2p0  table 1022  proto kernel  metric 256 
+unreachable default dev lo  table 0  proto kernel  metric 4294967295  error -101 hoplimit 255
+unreachable default dev lo  table 0  proto kernel  metric 4294967295  error -101 hoplimit 255
+fe80::/64 dev wlan0  table wlan0  proto kernel  metric 256 
+fe80::/64 dev wlan0  table wlan0  proto static  metric 1024 
+unreachable default dev lo  table 0  proto kernel  metric 4294967295  error -101 hoplimit 255
+local ::1 via :: dev lo  table local  proto none  metric 0 
+local fe80::3079:3ff:fe67:70ea via :: dev lo  table local  proto none  metric 0 
+local fe80::c0bd:d1ff:fe90:de5a via :: dev lo  table local  proto none  metric 0 
+local fe80::c2bd:d1ff:fe90:de5a via :: dev lo  table local  proto none  metric 0 
+ff00::/8 dev dummy0  table local  metric 256 
+ff00::/8 dev p2p0  table local  metric 256 
+ff00::/8 dev wlan0  table local  metric 256 
+unreachable default dev lo  table 0  proto kernel  metric 4294967295  error -101 hoplimit 255
+[ip: 0.020s elapsed]
+

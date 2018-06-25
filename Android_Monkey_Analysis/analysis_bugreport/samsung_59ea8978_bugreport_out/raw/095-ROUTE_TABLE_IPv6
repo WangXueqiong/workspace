@@ -1,0 +1,9 @@
+local ::1 via :: dev lo  proto none  metric 0 
+local fe80::3079:3ff:fe67:70ea via :: dev lo  proto none  metric 0 
+local fe80::c0bd:d1ff:fe90:de5a via :: dev lo  proto none  metric 0 
+local fe80::c2bd:d1ff:fe90:de5a via :: dev lo  proto none  metric 0 
+ff00::/8 dev dummy0  metric 256 
+ff00::/8 dev p2p0  metric 256 
+ff00::/8 dev wlan0  metric 256 
+[ip: 0.016s elapsed]
+

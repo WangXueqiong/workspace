@@ -1,0 +1,8 @@
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+10: wlan0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qlen 1000
+    inet6 fe80::6a3e:34ff:febc:7cef/64 scope link 
+       valid_lft forever preferred_lft forever
+[ip: 0.101s elapsed]
+

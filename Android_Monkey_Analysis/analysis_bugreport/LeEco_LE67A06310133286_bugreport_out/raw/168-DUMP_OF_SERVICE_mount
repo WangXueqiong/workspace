@@ -1,0 +1,47 @@
+Disks:
+
+Volumes:
+  VolumeInfo{emulated}:
+    type=EMULATED diskId=null partGuid=null mountFlags=PRIMARY|VISIBLE mountUserId=-1 state=MOUNTED 
+    fsType=null fsUuid=null fsLabel=null 
+    path=/storage/emulated internalPath=/data/media 
+
+Records:
+
+Primary storage UUID: null
+Force adoptable: false
+
+mObbMounts:
+
+mObbPathToStateMap:
+
+mConnection:
+  12-24 16:34:42.318 - RCV <- {200 2 asec operation succeeded}
+  12-24 16:34:42.319 - RMV <- {200 2 asec operation succeeded}
+  12-24 16:34:44.322 - SND -> {3 volume reset}
+  12-24 16:34:44.323 - RCV <- {651 emulated 7}
+  12-24 16:34:44.323 - RCV <- {659 emulated}
+  12-24 16:34:44.323 - RCV <- {651 emulated 0}
+  12-24 16:34:44.324 - RCV <- {650 emulated 2 "" ""}
+  12-24 16:34:44.324 - RCV <- {200 3 Command succeeded}
+  12-24 16:34:44.324 - RMV <- {200 3 Command succeeded}
+  12-24 16:34:44.324 - SND -> {4 volume user_added 0 0}
+  12-24 16:34:44.325 - RCV <- {200 4 Command succeeded}
+  12-24 16:34:44.325 - RMV <- {200 4 Command succeeded}
+  12-24 16:34:44.336 - SND -> {5 volume mount emulated 3 -1}
+  12-24 16:34:44.339 - RCV <- {651 emulated 1}
+  12-24 16:34:44.339 - RCV <- {656 emulated /data/media}
+  12-24 16:34:44.339 - RCV <- {655 emulated /storage/emulated}
+  12-24 16:34:44.389 - RCV <- {651 emulated 2}
+  12-24 16:34:44.391 - RCV <- {200 5 Command succeeded}
+  12-24 16:34:44.391 - RMV <- {200 5 Command succeeded}
+  12-24 16:34:47.503 - SND -> {6 volume user_started 0}
+  12-24 16:34:47.507 - RCV <- {200 6 Command succeeded}
+  12-24 16:34:47.507 - RMV <- {200 6 Command succeeded}
+  12-24 16:35:04.493 - SND -> {7 volume mkdirs /storage/emulated/0/Android/data/com.android.dialer/files/apk/}
+  12-24 16:35:04.531 - RCV <- {200 7 Command succeeded}
+  12-24 16:35:04.532 - RMV <- {200 7 Command succeeded}
+  
+  Pending requests:
+
+Last maintenance: 2017-12-24 09:12:29

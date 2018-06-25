@@ -1,0 +1,1523 @@
+  User 0 active services:
+  * ServiceRecord{1564a2a u0 com.tianyancha.skyeye/org.android.agoo.accs.AgooService}
+    intent={act=com.taobao.accs.intent.action.RECEIVE pkg=com.tianyancha.skyeye cmp=com.tianyancha.skyeye/org.android.agoo.accs.AgooService}
+    packageName=com.tianyancha.skyeye
+    processName=com.tianyancha.skyeye
+    baseDir=/data/app/com.tianyancha.skyeye-2/base.apk
+    dataDir=/data/user/0/com.tianyancha.skyeye
+    app=ProcessRecord{2d2901b 2484:com.tianyancha.skyeye/u0a441}
+    createTime=-25s769ms startingBgTimeout=-10s755ms
+    lastActivity=-25s685ms restartTime=-25s768ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=true callStart=true lastStartId=6
+
+  * ServiceRecord{3d16310 u0 com.sec.android.app.soundalive/.SAControlPanelService}
+    intent={cmp=com.sec.android.app.soundalive/.SAControlPanelService}
+    packageName=com.sec.android.app.soundalive
+    processName=com.sec.android.app.soundalive
+    baseDir=/system/priv-app/SoundAlive_20_M/SoundAlive_20_M.apk
+    dataDir=/data/user/0/com.sec.android.app.soundalive
+    app=ProcessRecord{e614d8a 20342:com.sec.android.app.soundalive/u0a51}
+    createTime=-1h26m29s807ms startingBgTimeout=-1h26m14s801ms
+    lastActivity=-2m22s920ms restartTime=-34m22s302ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=72
+    restartCount=0 restartDelay=-- nextRestartTime=-34m22s449ms crashCount=0
+
+  * ServiceRecord{ddf6408 u0 com.sec.android.widgetapp.dualcitywidget/.WeatherClockService}
+    intent={cmp=com.sec.android.widgetapp.dualcitywidget/.WeatherClockService}
+    packageName=com.sec.android.widgetapp.dualcitywidget
+    processName=com.sec.android.widgetapp.dualcitywidget
+    baseDir=/system/app/DualCityWidget/DualCityWidget.apk
+    dataDir=/data/user/0/com.sec.android.widgetapp.dualcitywidget
+    app=ProcessRecord{fa76f8f 3153:com.sec.android.widgetapp.dualcitywidget/u0a85}
+    createTime=-4d0h40m52s26ms startingBgTimeout=-9h28m58s89ms
+    lastActivity=-42s661ms restartTime=-9h29m13s91ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=61
+
+  * ServiceRecord{55c19cd u0 com.samsung.ucs.agent.boot/.BootAgentService}
+    intent={cmp=com.samsung.ucs.agent.boot/.BootAgentService}
+    packageName=com.samsung.ucs.agent.boot
+    processName=com.samsung.ucs.agent.boot
+    permission=com.sec.enterprise.permission.KNOX_UCM_BIND_PLUGIN
+    baseDir=/system/app/bootagent/bootagent.apk
+    dataDir=/data/user/0/com.samsung.ucs.agent.boot
+    app=ProcessRecord{af0f044 1743:com.samsung.ucs.agent.boot/1000}
+    createTime=-4d0h41m4s5ms startingBgTimeout=--
+    lastActivity=-9h29m24s958ms restartTime=-9h29m24s958ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{a63352d CREATE}:
+      intent={cmp=com.samsung.ucs.agent.boot/.BootAgentService}
+      binder=android.os.BinderProxy@43f8a62
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{503f7f3 ProcessRecord{84d17fd 847:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{4eb5958 u0 CR com.samsung.ucs.agent.boot/.BootAgentService:@8edae3b}
+    All Connections:
+      ConnectionRecord{4eb5958 u0 CR com.samsung.ucs.agent.boot/.BootAgentService:@8edae3b}
+
+  * ServiceRecord{957c1c3 u0 com.sec.android.app.bluetoothtest/.BluetoothBDTestService}
+    intent={cmp=com.sec.android.app.bluetoothtest/.BluetoothBDTestService}
+    packageName=com.sec.android.app.bluetoothtest
+    processName=com.android.phone
+    permission=com.sec.android.app.bluetoothtest.permission.KEYSTRING
+    baseDir=/system/app/BluetoothTest/BluetoothTest.apk
+    dataDir=/data/user/0/com.sec.android.app.bluetoothtest
+    app=ProcessRecord{37ca530 1301:com.android.phone/1001}
+    createTime=-4d0h40m47s571ms startingBgTimeout=--
+    lastActivity=-9h29m8s637ms restartTime=-9h29m8s637ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+
+  * ServiceRecord{e3eff68 u0 com.qualcomm.atfwd/.AtFwdService}
+    intent={cmp=com.qualcomm.atfwd/.AtFwdService}
+    packageName=com.qualcomm.atfwd
+    processName=com.qualcomm.telephony
+    permission=com.qualcomm.permission.ATCMD
+    baseDir=/system/app/atfwd/atfwd.apk
+    dataDir=/data/user/0/com.qualcomm.atfwd
+    app=ProcessRecord{199a8a0 23696:com.qualcomm.telephony/1000}
+    createTime=-4d0h40m38s906ms startingBgTimeout=-9h28m44s969ms
+    lastActivity=-17m55s956ms restartTime=-17m55s956ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=18
+    restartCount=0 restartDelay=-- nextRestartTime=-17m56s27ms crashCount=0
+
+  * ServiceRecord{70ff5cb u0 com.tencent.android.qqdownloader/com.tencent.assistant.daemon.CoreService}
+    intent={cmp=com.tencent.android.qqdownloader/com.tencent.assistant.daemon.CoreService}
+    packageName=com.tencent.android.qqdownloader
+    processName=com.tencent.android.qqdownloader:daemon
+    baseDir=/data/app/com.tencent.android.qqdownloader-2/base.apk
+    dataDir=/data/user/0/com.tencent.android.qqdownloader
+    app=ProcessRecord{ea59c8f 25228:com.tencent.android.qqdownloader:daemon/u0a406}
+    createTime=-18m2s750ms startingBgTimeout=--
+    lastActivity=-14m34s590ms restartTime=-14m38s269ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=true callStart=true lastStartId=4
+    restartCount=0 restartDelay=-- nextRestartTime=-7m49s435ms crashCount=0
+    Delivered Starts:
+    #0 id=1 dur=-14m38s265ms dxc=2
+      intent=Intent { cmp=com.tencent.android.qqdownloader/com.tencent.assistant.daemon.CoreService }
+    #1 id=2 dur=-14m38s265ms dxc=2
+      intent=Intent { cmp=com.tencent.android.qqdownloader/com.tencent.assistant.daemon.CoreService (has extras) }
+    #2 id=3 dur=-14m38s181ms dxc=1
+      intent=Intent { cmp=com.tencent.android.qqdownloader/com.tencent.assistant.daemon.CoreService }
+    #3 id=4 dur=-14m34s590ms dxc=1
+      intent=Intent { cmp=com.tencent.android.qqdownloader/com.tencent.assistant.daemon.CoreService (has extras) }
+    Bindings:
+    * IntentBindRecord{b8dbc59 CREATE}:
+      intent={cmp=com.tencent.android.qqdownloader/com.tencent.assistant.daemon.CoreService}
+      binder=android.os.BinderProxy@92801e
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{69de0ff ProcessRecord{52cbe7c 23482:com.tencent.android.qqdownloader:tools/u0a406}}
+        Per-process Connections:
+          ConnectionRecord{44cf5a u0 CR com.tencent.android.qqdownloader/com.tencent.assistant.daemon.CoreService:@5ff1305}
+          ConnectionRecord{7023033 u0 CR com.tencent.android.qqdownloader/com.tencent.assistant.daemon.CoreService:@5ff1305}
+      * Client AppBindRecord{aecc ProcessRecord{6b55316 23381:com.tencent.android.qqdownloader/u0a406}}
+        Per-process Connections:
+          ConnectionRecord{16e7ba2 u0 CR com.tencent.android.qqdownloader/com.tencent.assistant.daemon.CoreService:@3894497}
+          ConnectionRecord{8226684 u0 CR com.tencent.android.qqdownloader/com.tencent.assistant.daemon.CoreService:@3894497}
+      * Client AppBindRecord{354c515 ProcessRecord{7272f12 23544:com.tencent.android.qqdownloader:wns/u0a406}}
+        Per-process Connections:
+          ConnectionRecord{2a338e0 u0 CR com.tencent.android.qqdownloader/com.tencent.assistant.daemon.CoreService:@5f2b6e3}
+          ConnectionRecord{c9e236d u0 CR com.tencent.android.qqdownloader/com.tencent.assistant.daemon.CoreService:@5f2b6e3}
+      * Client AppBindRecord{262802a ProcessRecord{ea59c8f 25228:com.tencent.android.qqdownloader:daemon/u0a406}}
+        Per-process Connections:
+          ConnectionRecord{6755325 u0 CR com.tencent.android.qqdownloader/com.tencent.assistant.daemon.CoreService:@7d16b1c}
+      * Client AppBindRecord{1798e1b ProcessRecord{ed489ca 23651:com.tencent.android.qqdownloader:connect/u0a406}}
+        Per-process Connections:
+          ConnectionRecord{125af84 u0 CR com.tencent.android.qqdownloader/com.tencent.assistant.daemon.CoreService:@eb6673b}
+          ConnectionRecord{9c01e58 u0 CR com.tencent.android.qqdownloader/com.tencent.assistant.daemon.CoreService:@eb6673b}
+    All Connections:
+      ConnectionRecord{8226684 u0 CR com.tencent.android.qqdownloader/com.tencent.assistant.daemon.CoreService:@3894497}
+      ConnectionRecord{16e7ba2 u0 CR com.tencent.android.qqdownloader/com.tencent.assistant.daemon.CoreService:@3894497}
+      ConnectionRecord{2a338e0 u0 CR com.tencent.android.qqdownloader/com.tencent.assistant.daemon.CoreService:@5f2b6e3}
+      ConnectionRecord{c9e236d u0 CR com.tencent.android.qqdownloader/com.tencent.assistant.daemon.CoreService:@5f2b6e3}
+      ConnectionRecord{44cf5a u0 CR com.tencent.android.qqdownloader/com.tencent.assistant.daemon.CoreService:@5ff1305}
+      ConnectionRecord{7023033 u0 CR com.tencent.android.qqdownloader/com.tencent.assistant.daemon.CoreService:@5ff1305}
+      ConnectionRecord{6755325 u0 CR com.tencent.android.qqdownloader/com.tencent.assistant.daemon.CoreService:@7d16b1c}
+      ConnectionRecord{9c01e58 u0 CR com.tencent.android.qqdownloader/com.tencent.assistant.daemon.CoreService:@eb6673b}
+      ConnectionRecord{125af84 u0 CR com.tencent.android.qqdownloader/com.tencent.assistant.daemon.CoreService:@eb6673b}
+
+  * ServiceRecord{938016b u0 com.bst.airmessage/.host.AirMessageService}
+    intent={act=com.bst.airmessage.BINDE_SERVICE cmp=com.bst.airmessage/.host.AirMessageService}
+    packageName=com.bst.airmessage
+    processName=com.bst.airmessage
+    baseDir=/system/priv-app/AirMessage/AirMessage.apk
+    dataDir=/data/user/0/com.bst.airmessage
+    app=ProcessRecord{63df037 26101:com.bst.airmessage/u0a1}
+    createTime=-14m30s408ms startingBgTimeout=--
+    lastActivity=-43s131ms restartTime=-14m30s361ms createdFromFg=false
+    Bindings:
+    * IntentBindRecord{defebb8 CREATE}:
+      intent={act=com.bst.airmessage.BINDE_SERVICE cmp=com.bst.airmessage/.host.AirMessageService}
+      binder=android.os.BinderProxy@1499d91
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{98074f6 ProcessRecord{1c5afd3 2507:com.android.mms/u0a44}}
+        Per-process Connections:
+          ConnectionRecord{83fc27 u0 CR com.bst.airmessage/.host.AirMessageService:@330eee6}
+      * Client AppBindRecord{b98f0f7 ProcessRecord{b27e90e 27537:com.bst.floatingmsgproxy/u0a1}}
+        Per-process Connections:
+          ConnectionRecord{49193c u0 CR com.bst.airmessage/.host.AirMessageService:@7d4af2f}
+    All Connections:
+      ConnectionRecord{83fc27 u0 CR com.bst.airmessage/.host.AirMessageService:@330eee6}
+      ConnectionRecord{49193c u0 CR com.bst.airmessage/.host.AirMessageService:@7d4af2f}
+
+  * ServiceRecord{580a909 u0 com.tencent.android.qqdownloader/com.tencent.assistant.localres.localapk.loadapkservice.GetApkInfoService}
+    intent={cmp=com.tencent.android.qqdownloader/com.tencent.assistant.localres.localapk.loadapkservice.GetApkInfoService}
+    packageName=com.tencent.android.qqdownloader
+    processName=com.tencent.android.qqdownloader:tools
+    baseDir=/data/app/com.tencent.android.qqdownloader-2/base.apk
+    dataDir=/data/user/0/com.tencent.android.qqdownloader
+    app=ProcessRecord{52cbe7c 23482:com.tencent.android.qqdownloader:tools/u0a406}
+    createTime=-17m57s405ms startingBgTimeout=--
+    lastActivity=-17m57s405ms restartTime=-17m57s405ms createdFromFg=false
+    Bindings:
+    * IntentBindRecord{f940b64 CREATE}:
+      intent={cmp=com.tencent.android.qqdownloader/com.tencent.assistant.localres.localapk.loadapkservice.GetApkInfoService}
+      binder=android.os.BinderProxy@d981cd
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{3b6ea82 ProcessRecord{6b55316 23381:com.tencent.android.qqdownloader/u0a406}}
+        Per-process Connections:
+          ConnectionRecord{8e69a10 u0 CR com.tencent.android.qqdownloader/com.tencent.assistant.localres.localapk.loadapkservice.GetApkInfoService:@46f1ed3}
+    All Connections:
+      ConnectionRecord{8e69a10 u0 CR com.tencent.android.qqdownloader/com.tencent.assistant.localres.localapk.loadapkservice.GetApkInfoService:@46f1ed3}
+
+  * ServiceRecord{2691f54 u0 com.tencent.mtt/.sdk.BrowserSdkService}
+    intent={act=com.tencent.mtt.ACTION_ACTIVE_PUSH pkg=com.tencent.mtt}
+    packageName=com.tencent.mtt
+    processName=com.tencent.mtt
+    baseDir=/data/app/com.tencent.mtt-1/base.apk
+    dataDir=/data/user/0/com.tencent.mtt
+    app=null
+    createTime=-23h54m55s683ms startingBgTimeout=--
+    lastActivity=-1h57m15s244ms restartTime=-- createdFromFg=false
+
+  * ServiceRecord{fe35012 u0 com.qihoo.appstore/.AppStoreNotificationListenerService}
+    intent={act=android.service.notification.NotificationListenerService cmp=com.qihoo.appstore/.AppStoreNotificationListenerService}
+    packageName=com.qihoo.appstore
+    processName=com.qihoo.daemon
+    permission=android.permission.BIND_NOTIFICATION_LISTENER_SERVICE
+    baseDir=/data/app/com.qihoo.appstore-1/base.apk
+    dataDir=/data/user/0/com.qihoo.appstore
+    app=null
+    createTime=-4d0h41m0s968ms startingBgTimeout=--
+    lastActivity=-9h29m22s34ms restartTime=-- createdFromFg=true
+
+  * ServiceRecord{5f1924 u0 com.sec.android.inputmethod/.SamsungKeypad}
+    intent={act=android.view.InputMethod cmp=com.sec.android.inputmethod/.SamsungKeypad}
+    packageName=com.sec.android.inputmethod
+    processName=com.sec.android.inputmethod
+    permission=android.permission.BIND_INPUT_METHOD
+    baseDir=/system/app/SamsungIMEv3_SYSTEMUID_XT9_Sogou_BST/SamsungIMEv3_SYSTEMUID_XT9_Sogou_BST.apk
+    dataDir=/data/user/0/com.sec.android.inputmethod
+    app=ProcessRecord{beab650 4420:com.sec.android.inputmethod/1000}
+    createTime=-1h14m39s46ms startingBgTimeout=--
+    lastActivity=-48s765ms restartTime=-1h14m39s45ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{9e2dcc0 CREATE}:
+      intent={act=android.view.InputMethod cmp=com.sec.android.inputmethod/.SamsungKeypad}
+      binder=android.os.BinderProxy@15aadf9
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{c34213e ProcessRecord{84d17fd 847:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{1149db7 u0 CR !FG UI !VIS com.sec.android.inputmethod/.SamsungKeypad:@19fdcb6}
+    All Connections:
+      ConnectionRecord{1149db7 u0 CR !FG UI !VIS com.sec.android.inputmethod/.SamsungKeypad:@19fdcb6}
+
+  * ServiceRecord{af6c69f u0 com.sec.android.daemonapp/.ap.accuweather.WeatherClockService}
+    intent={cmp=com.sec.android.daemonapp/.ap.accuweather.WeatherClockService}
+    packageName=com.sec.android.daemonapp
+    processName=com.sec.android.daemonapp
+    baseDir=/system/app/WeatherDaemon2014_MMR/WeatherDaemon2014_MMR.apk
+    dataDir=/data/user/0/com.sec.android.daemonapp
+    app=ProcessRecord{7f26fb8 21164:com.sec.android.daemonapp/u0a174}
+    createTime=-4d0h41m3s536ms startingBgTimeout=--
+    lastActivity=-20m23s438ms restartTime=-20m23s438ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=11
+    restartCount=0 restartDelay=-- nextRestartTime=-20m23s482ms crashCount=0
+
+  * ServiceRecord{5a25b5e u0 com.qihoo.appstore/.scheduler.CoreJobService}
+    intent={cmp=com.qihoo.appstore/.scheduler.CoreJobService}
+    packageName=com.qihoo.appstore
+    processName=com.qihoo.daemon
+    permission=android.permission.BIND_JOB_SERVICE
+    baseDir=/data/app/com.qihoo.appstore-1/base.apk
+    dataDir=/data/user/0/com.qihoo.appstore
+    app=null
+    createTime=-4d0h40m37s432ms startingBgTimeout=--
+    lastActivity=-9h28m58s498ms restartTime=-- createdFromFg=true
+
+  * ServiceRecord{f5ea92d u0 flipboard.cn/cn.jpush.android.service.PushService}
+    intent={cmp=flipboard.cn/cn.jpush.android.service.PushService}
+    packageName=flipboard.cn
+    processName=flipboard.cn
+    baseDir=/data/app/flipboard.cn-1/base.apk
+    dataDir=/data/user/0/flipboard.cn
+    app=ProcessRecord{f9d38a8 21285:flipboard.cn/u0a95}
+    createTime=-4d0h40m54s80ms startingBgTimeout=--
+    lastActivity=-20m20s343ms restartTime=-20m21s572ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=26
+    restartCount=0 restartDelay=-- nextRestartTime=-20m11s494ms crashCount=0
+    Bindings:
+    * IntentBindRecord{6abbb3f CREATE}:
+      intent={cmp=flipboard.cn/cn.jpush.android.service.PushService}
+      binder=android.os.BinderProxy@2e1a593
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{d3879d0 ProcessRecord{f9d38a8 21285:flipboard.cn/u0a95}}
+        Per-process Connections:
+          ConnectionRecord{c6b1d84 u0 CR flipboard.cn/cn.jpush.android.service.PushService:@3367797}
+    All Connections:
+      ConnectionRecord{c6b1d84 u0 CR flipboard.cn/cn.jpush.android.service.PushService:@3367797}
+
+  * ServiceRecord{3c6096e u0 com.tianyancha.skyeye/com.taobao.accs.ChannelService}
+    intent={act=com.taobao.accs.intent.action.START_SERVICE cmp=com.tianyancha.skyeye/com.taobao.accs.ChannelService}
+    packageName=com.tianyancha.skyeye
+    processName=com.tianyancha.skyeye:channel
+    baseDir=/data/app/com.tianyancha.skyeye-2/base.apk
+    dataDir=/data/user/0/com.tianyancha.skyeye
+    app=ProcessRecord{d096dc9 2720:com.tianyancha.skyeye:channel/u0a441}
+    createTime=-32s943ms startingBgTimeout=-17s924ms
+    lastActivity=-22s333ms restartTime=-32s874ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=2
+
+  * ServiceRecord{fddeef8 u0 com.sec.android.app.music/com.samsung.android.app.music.service.PlayerService}
+    intent={act=com.samsung.musicplus.action.SERVICE_COMMAND cmp=com.sec.android.app.music/com.samsung.android.app.music.service.PlayerService}
+    packageName=com.sec.android.app.music
+    processName=com.sec.android.app.music:service
+    baseDir=/data/app/com.sec.android.app.music-1/base.apk
+    dataDir=/data/user/0/com.sec.android.app.music
+    app=ProcessRecord{5e2767a 30386:com.sec.android.app.music:service/u0a150}
+    isForeground=true foregroundId=117506050 foregroundNoti=Notification(pri=0 contentView=com.sec.android.app.music/0x7f0400b8 vibrate=null sound=null defaults=0x0 flags=0x62 color=0x00000000 vis=PUBLIC secFlags=0x0 secPriority=0)
+    createTime=-4m3s664ms startingBgTimeout=--
+    lastActivity=-4m3s664ms restartTime=-4m3s664ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=true callStart=true lastStartId=1
+
+  * ServiceRecord{8110bd0 u0 com.android.systemui/.keyguard.KeyguardService}
+    intent={cmp=com.android.systemui/.keyguard.KeyguardService}
+    packageName=com.android.systemui
+    processName=com.android.systemui
+    baseDir=/system/priv-app/SystemUI/SystemUI.apk
+    dataDir=/data/user/0/com.android.systemui
+    app=ProcessRecord{be626e6 1325:com.android.systemui/u0a17}
+    createTime=-4d0h41m5s535ms startingBgTimeout=--
+    lastActivity=-9h29m23s657ms restartTime=-9h29m26s601ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{f2acc5b CREATE}:
+      intent={cmp=com.android.systemui/.keyguard.KeyguardService}
+      binder=android.os.BinderProxy@8deecf8
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{2eea5d1 ProcessRecord{84d17fd 847:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{963fc0a u0 CR com.android.systemui/.keyguard.KeyguardService:@8814475}
+      * Client AppBindRecord{6c87836 ProcessRecord{be626e6 1325:com.android.systemui/u0a17}}
+        Per-process Connections:
+          ConnectionRecord{a593f93 u0 CR com.android.systemui/.keyguard.KeyguardService:@a44ac82}
+    All Connections:
+      ConnectionRecord{963fc0a u0 CR com.android.systemui/.keyguard.KeyguardService:@8814475}
+      ConnectionRecord{a593f93 u0 CR com.android.systemui/.keyguard.KeyguardService:@a44ac82}
+
+  * ServiceRecord{19c0a0b u0 com.android.bluetooth/.btservice.AdapterService}
+    intent={act=android.bluetooth.IBluetooth cmp=com.android.bluetooth/.btservice.AdapterService}
+    packageName=com.android.bluetooth
+    processName=com.android.bluetooth
+    baseDir=/system/app/Bluetooth/Bluetooth.apk
+    dataDir=/data/user/0/com.android.bluetooth
+    app=ProcessRecord{d969bb7 2017:com.android.bluetooth/1002}
+    createTime=-4d0h41m7s19ms startingBgTimeout=--
+    lastActivity=-9h29m22s565ms restartTime=-9h29m22s565ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{7bfd337 CREATE}:
+      intent={act=android.bluetooth.IBluetooth cmp=com.android.bluetooth/.btservice.AdapterService}
+      binder=android.os.BinderProxy@291e0a4
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{d66ce0d ProcessRecord{84d17fd 847:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{577bdac u0 CR IMP com.android.bluetooth/.btservice.AdapterService:@91e5f5f}
+    All Connections:
+      ConnectionRecord{577bdac u0 CR IMP com.android.bluetooth/.btservice.AdapterService:@91e5f5f}
+
+  * ServiceRecord{29be1c2 u0 com.iflytek.cmcc/com.iflytek.common.LaunchService}
+    intent={act=com.iflytek.common.ACTION_LAUNCH pkg=com.iflytek.cmcc}
+    packageName=com.iflytek.cmcc
+    processName=com.iflytek.cmcc
+    baseDir=/data/app/com.iflytek.cmcc-1/base.apk
+    dataDir=/data/user/0/com.iflytek.cmcc
+    app=null
+    createTime=-4d0h35m28s698ms startingBgTimeout=--
+    lastActivity=-9h23m49s764ms restartTime=-- createdFromFg=true
+
+  * ServiceRecord{76f9e91 u0 com.android.systemui/.ImageWallpaper}
+    intent={act=android.service.wallpaper.WallpaperService cmp=com.android.systemui/.ImageWallpaper}
+    packageName=com.android.systemui
+    processName=com.android.systemui.imagewallpaper
+    permission=android.permission.BIND_WALLPAPER
+    baseDir=/system/priv-app/SystemUI/SystemUI.apk
+    dataDir=/data/user/0/com.android.systemui
+    app=ProcessRecord{9346bd3 1571:com.android.systemui.imagewallpaper/u0a17}
+    createTime=-4d0h41m4s841ms startingBgTimeout=--
+    lastActivity=-9h29m25s849ms restartTime=-9h29m25s849ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{c5e6310 CREATE}:
+      intent={act=android.service.wallpaper.WallpaperService cmp=com.android.systemui/.ImageWallpaper}
+      binder=android.os.BinderProxy@4bf3e09
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{e4a580e ProcessRecord{84d17fd 847:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{932e7e9 u0 CR FGSA UI com.android.systemui/.ImageWallpaper:@dd10870}
+    All Connections:
+      ConnectionRecord{932e7e9 u0 CR FGSA UI com.android.systemui/.ImageWallpaper:@dd10870}
+
+  * ServiceRecord{ab35005 u0 com.sec.enterprise.mdm.services.simpin/.EnterpriseSimPin}
+    intent={act=com.sec.enterprise.SimPinCode cmp=com.sec.enterprise.mdm.services.simpin/.EnterpriseSimPin}
+    packageName=com.sec.enterprise.mdm.services.simpin
+    processName=com.android.phone
+    permission=android.permission.sec.MDM_PHONE_RESTRICTION
+    baseDir=/system/app/EdmSimPinService/EdmSimPinService.apk
+    dataDir=/data/user/0/com.sec.enterprise.mdm.services.simpin
+    app=ProcessRecord{37ca530 1301:com.android.phone/1001}
+    createTime=-4d0h41m2s698ms startingBgTimeout=--
+    lastActivity=-9h29m23s763ms restartTime=-9h29m23s763ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{54ff22f CREATE}:
+      intent={act=com.sec.enterprise.SimPinCode cmp=com.sec.enterprise.mdm.services.simpin/.EnterpriseSimPin}
+      binder=android.os.BinderProxy@e2ea03c
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{914b1c5 ProcessRecord{84d17fd 847:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{947cf7c u0 CR com.sec.enterprise.mdm.services.simpin/.EnterpriseSimPin:@9df566f}
+    All Connections:
+      ConnectionRecord{947cf7c u0 CR com.sec.enterprise.mdm.services.simpin/.EnterpriseSimPin:@9df566f}
+
+  * ServiceRecord{c871e50 u0 com.amap.android.location/.NetworkLocationService}
+    intent={act=com.android.location.service.v3.NetworkLocationProvider pkg=com.amap.android.location}
+    packageName=com.amap.android.location
+    processName=com.amap.android.location
+    permission=android.permission.WRITE_SECURE_SETTINGS
+    baseDir=/system/priv-app/NetworkLocation_Autonavi/NetworkLocation_Autonavi.apk
+    dataDir=/data/user/0/com.amap.android.location
+    app=ProcessRecord{1c113c8 1611:com.amap.android.location/u0a90}
+    createTime=-4d0h41m2s722ms startingBgTimeout=--
+    lastActivity=-9h29m23s788ms restartTime=-9h29m23s788ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{f57e71a CREATE}:
+      intent={act=com.android.location.service.v3.NetworkLocationProvider pkg=com.amap.android.location}
+      binder=android.os.BinderProxy@8f3824b
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{2638428 ProcessRecord{84d17fd 847:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{e6a0c13 u0 CR !FG !VIS com.amap.android.location/.NetworkLocationService:@91edb02}
+    All Connections:
+      ConnectionRecord{e6a0c13 u0 CR !FG !VIS com.amap.android.location/.NetworkLocationService:@91edb02}
+
+  * ServiceRecord{38e0b55 u0 com.dsi.ant.server/.AntService}
+    intent={act=com.dsi.ant.server.IAntHal}
+    packageName=com.dsi.ant.server
+    processName=system
+    permission=com.dsi.ant.permission.ANTRADIO
+    baseDir=/system/app/AntHalService/AntHalService.apk
+    dataDir=/data/user/0/com.dsi.ant.server
+    app=ProcessRecord{84d17fd 847:system/1000}
+    createTime=-4d0h40m47s813ms startingBgTimeout=--
+    lastActivity=-9h29m8s879ms restartTime=-9h29m8s879ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=true callStart=true lastStartId=1
+
+  * ServiceRecord{817d8ed u0 com.bst.airmessage/.AirMsgUiService}
+    intent={cmp=com.bst.airmessage/.AirMsgUiService}
+    packageName=com.bst.airmessage
+    processName=com.bst.airmessage
+    baseDir=/system/priv-app/AirMessage/AirMessage.apk
+    dataDir=/data/user/0/com.bst.airmessage
+    app=ProcessRecord{63df037 26101:com.bst.airmessage/u0a1}
+    createTime=-4d0h40m47s364ms startingBgTimeout=-9h28m53s423ms
+    lastActivity=-14m30s359ms restartTime=-14m30s359ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=4
+    restartCount=0 restartDelay=-- nextRestartTime=-14m29s744ms crashCount=0
+
+  * ServiceRecord{fd87f2d u0 com.sec.location.nsflp2/.nsmonitor.NSMonitorService}
+    intent={cmp=com.sec.location.nsflp2/.nsmonitor.NSMonitorService}
+    packageName=com.sec.location.nsflp2
+    processName=com.sec.location.nsflp2
+    baseDir=/system/priv-app/NSFusedLocation_Global/NSFusedLocation_Global.apk
+    dataDir=/data/user/0/com.sec.location.nsflp2
+    app=ProcessRecord{593a541 1621:com.sec.location.nsflp2/5013}
+    createTime=-4d0h41m4s589ms startingBgTimeout=--
+    lastActivity=-9h29m25s618ms restartTime=-9h29m25s618ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{d7d5ae6 CREATE}:
+      intent={cmp=com.sec.location.nsflp2/.nsmonitor.NSMonitorService}
+      binder=android.os.BinderProxy@3f5f827
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{680bad4 ProcessRecord{84d17fd 847:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{d3d3cab u0 CR com.sec.location.nsflp2/.nsmonitor.NSMonitorService:@de48efa}
+    All Connections:
+      ConnectionRecord{d3d3cab u0 CR com.sec.location.nsflp2/.nsmonitor.NSMonitorService:@de48efa}
+
+  * ServiceRecord{9c5daf0 u0 com.android.bluetooth/.gatt.GattService}
+    intent={cmp=com.android.bluetooth/.gatt.GattService}
+    packageName=com.android.bluetooth
+    processName=com.android.bluetooth
+    baseDir=/system/app/Bluetooth/Bluetooth.apk
+    dataDir=/data/user/0/com.android.bluetooth
+    app=ProcessRecord{d969bb7 2017:com.android.bluetooth/1002}
+    createTime=-4d0h41m0s983ms startingBgTimeout=--
+    lastActivity=-9h29m20s612ms restartTime=-9h29m22s48ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=true callStart=true lastStartId=1
+    Bindings:
+    * IntentBindRecord{1b4547d CREATE}:
+      intent={act=android.bluetooth.IBluetoothGatt cmp=com.android.bluetooth/.gatt.GattService}
+      binder=android.os.BinderProxy@1343f72
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{2bfefc3 ProcessRecord{84d17fd 847:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{b3beab0 u0 CR IMP com.android.bluetooth/.gatt.GattService:@91e5f5f}
+    All Connections:
+      ConnectionRecord{b3beab0 u0 CR IMP com.android.bluetooth/.gatt.GattService:@91e5f5f}
+
+  * ServiceRecord{36783d8 u0 com.baidu.searchbox/com.baidu.android.pushservice.PushService}
+    intent={act=com.baidu.android.pushservice.action.METHOD pkg=com.baidu.searchbox cmp=com.baidu.searchbox/com.baidu.android.pushservice.PushService}
+    packageName=com.baidu.searchbox
+    processName=com.baidu.searchbox:bdservice_v1
+    baseDir=/data/app/com.baidu.searchbox-2/base.apk
+    dataDir=/data/user/0/com.baidu.searchbox
+    app=null
+    createTime=-1h37m53s539ms startingBgTimeout=--
+    lastActivity=-1h37m53s539ms restartTime=-- createdFromFg=false
+
+  * ServiceRecord{3575ab u0 com.sec.android.widgetapp.dualcitywidget/.ContactObserverService}
+    intent={cmp=com.sec.android.widgetapp.dualcitywidget/.ContactObserverService}
+    packageName=com.sec.android.widgetapp.dualcitywidget
+    processName=com.sec.android.widgetapp.dualcitywidget
+    baseDir=/system/app/DualCityWidget/DualCityWidget.apk
+    dataDir=/data/user/0/com.sec.android.widgetapp.dualcitywidget
+    app=ProcessRecord{fa76f8f 3153:com.sec.android.widgetapp.dualcitywidget/u0a85}
+    createTime=-4d0h40m52s36ms startingBgTimeout=-9h28m58s99ms
+    lastActivity=-9h29m13s102ms restartTime=-9h29m13s102ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+
+  * ServiceRecord{cdc3130 u0 com.baidu.searchbox_samsung/com.baidu.hello.MoPlusService}
+    intent={cmp=com.baidu.searchbox_samsung/com.baidu.hello.MoPlusService}
+    packageName=com.baidu.searchbox_samsung
+    processName=com.baidu.searchbox_samsung:bdmoservice
+    baseDir=/data/app/com.baidu.searchbox_samsung-1/base.apk
+    dataDir=/data/user/0/com.baidu.searchbox_samsung
+    app=ProcessRecord{c2e1e73 21188:com.baidu.searchbox_samsung:bdmoservice/u0a153}
+    createTime=-20m22s443ms startingBgTimeout=-20m7s438ms
+    lastActivity=-12m47s397ms restartTime=-20m22s442ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=true callStart=true lastStartId=4
+
+  * ServiceRecord{fec0d2e u0 org.simalliance.openmobileapi.service/.SmartcardService}
+    intent={act=org.simalliance.openmobileapi.BIND_SERVICE pkg=org.simalliance.openmobileapi.service}
+    packageName=org.simalliance.openmobileapi.service
+    processName=org.simalliance.openmobileapi.service:remote
+    permission=org.simalliance.openmobileapi.SMARTCARD
+    baseDir=/system/app/SmartcardService/SmartcardService.apk
+    dataDir=/data/user/0/org.simalliance.openmobileapi.service
+    app=ProcessRecord{f1224db 1861:org.simalliance.openmobileapi.service:remote/u0a177}
+    createTime=-4d0h41m3s57ms startingBgTimeout=--
+    lastActivity=-9h29m24s31ms restartTime=-9h29m24s31ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{a98b040 CREATE}:
+      intent={act=org.simalliance.openmobileapi.BIND_SERVICE pkg=org.simalliance.openmobileapi.service}
+      binder=android.os.BinderProxy@a36bb79
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{f02e0be ProcessRecord{8828cfb 1686:com.android.nfc/1027}}
+        Per-process Connections:
+          ConnectionRecord{70ce771 u0 CR org.simalliance.openmobileapi.service/.SmartcardService:@bacb118}
+    All Connections:
+      ConnectionRecord{70ce771 u0 CR org.simalliance.openmobileapi.service/.SmartcardService:@bacb118}
+
+  * ServiceRecord{d511a16 u0 com.baidu.searchbox/com.baidu.android.pushservice.CommandService}
+    intent={act=com.baidu.android.pushservice.action.MESSAGE pkg=com.baidu.searchbox cmp=com.baidu.searchbox/com.baidu.android.pushservice.CommandService}
+    packageName=com.baidu.searchbox
+    processName=com.baidu.searchbox
+    baseDir=/data/app/com.baidu.searchbox-2/base.apk
+    dataDir=/data/user/0/com.baidu.searchbox
+    app=null
+    createTime=-1h37m47s666ms startingBgTimeout=--
+    lastActivity=-1h37m47s666ms restartTime=-- createdFromFg=false
+
+  * ServiceRecord{47eff97 u0 com.baidu.searchbox/com.baidu.sapi2.share.ShareService}
+    intent={act=baidu.intent.action.account.SHARE_SERVICE cmp=com.baidu.searchbox/com.baidu.sapi2.share.ShareService}
+    packageName=com.baidu.searchbox
+    processName=com.baidu.searchbox
+    baseDir=/data/app/com.baidu.searchbox-2/base.apk
+    dataDir=/data/user/0/com.baidu.searchbox
+    app=null
+    createTime=-1h37m58s914ms startingBgTimeout=--
+    lastActivity=-1h37m58s914ms restartTime=-- createdFromFg=true
+
+  * ServiceRecord{7c29086 u0 com.tencent.android.qqdownloader/com.tencent.wns.service.WnsMain}
+    intent={cmp=com.tencent.android.qqdownloader/com.tencent.wns.service.WnsMain}
+    packageName=com.tencent.android.qqdownloader
+    processName=com.tencent.android.qqdownloader:wns
+    baseDir=/data/app/com.tencent.android.qqdownloader-2/base.apk
+    dataDir=/data/user/0/com.tencent.android.qqdownloader
+    app=ProcessRecord{7272f12 23544:com.tencent.android.qqdownloader:wns/u0a406}
+    createTime=-17m58s403ms startingBgTimeout=-17m43s385ms
+    lastActivity=-17m58s333ms restartTime=-17m58s333ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+    Bindings:
+    * IntentBindRecord{eed2cce CREATE}:
+      intent={cmp=com.tencent.android.qqdownloader/com.tencent.wns.service.WnsMain}
+      binder=android.os.BinderProxy@3f707ef
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{67362fc ProcessRecord{6b55316 23381:com.tencent.android.qqdownloader/u0a406}}
+        Per-process Connections:
+          ConnectionRecord{bbbad61 u0 CR com.tencent.android.qqdownloader/com.tencent.wns.service.WnsMain:@ec418c8}
+    All Connections:
+      ConnectionRecord{bbbad61 u0 CR com.tencent.android.qqdownloader/com.tencent.wns.service.WnsMain:@ec418c8}
+
+  * ServiceRecord{c2a1dbb u0 com.sec.android.app.eventnotification/.SystemReceiverService}
+    intent={cmp=com.sec.android.app.eventnotification/.SystemReceiverService}
+    packageName=com.sec.android.app.eventnotification
+    processName=com.sec.android.app.eventnotification
+    baseDir=/system/app/EventNotificationPhase2_M/EventNotificationPhase2_M.apk
+    dataDir=/data/user/0/com.sec.android.app.eventnotification
+    app=ProcessRecord{2321d85 21303:com.sec.android.app.eventnotification/u0a91}
+    createTime=-5h32m7s601ms startingBgTimeout=-1h39m59s817ms
+    lastActivity=-20m21s458ms restartTime=-20m21s458ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=3
+    restartCount=0 restartDelay=-- nextRestartTime=-20m21s497ms crashCount=0
+
+  * ServiceRecord{17d49cd u0 com.samsung.dcm/.framework.FrameworkService}
+    intent={act=com.samsung.dcm.action.DCM_EXECUTE cmp=com.samsung.dcm/.framework.FrameworkService}
+    packageName=com.samsung.dcm
+    processName=com.samsung.dcm:DCMService
+    permission=com.sec.dcm.provider.DCMProvider.START
+    baseDir=/system/priv-app/DCMProvider/DCMProvider.apk
+    dataDir=/data/user/0/com.samsung.dcm
+    app=ProcessRecord{47660f8 31245:com.samsung.dcm:DCMService/5004}
+    createTime=-3m58s636ms startingBgTimeout=--
+    lastActivity=-1m38s45ms restartTime=-3m58s587ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=true callStart=true lastStartId=10
+    Delivered Starts:
+    #0 id=9 dur=-1m38s96ms dxc=1
+      intent=Intent { act=com.samsung.dcm.action.DCM_EXECUTE cmp=com.samsung.dcm/.framework.FrameworkService (has extras) }
+    #1 id=10 dur=-1m38s45ms dxc=1
+      intent=Intent { act=com.samsung.dcm.action.DCM_EXECUTE cmp=com.samsung.dcm/.framework.FrameworkService (has extras) }
+
+  * ServiceRecord{d80ab6 u0 org.simalliance.openmobileapi.service/org.simalliance.openmobileapi.uiccterminal.UiccTerminal}
+    intent={cmp=org.simalliance.openmobileapi.service/org.simalliance.openmobileapi.uiccterminal.UiccTerminal}
+    packageName=org.simalliance.openmobileapi.service
+    processName=org.simalliance.openmobileapi.service:remote
+    permission=org.simalliance.openmobileapi.BIND_TERMINAL
+    baseDir=/system/app/SmartcardService/SmartcardService.apk
+    dataDir=/data/user/0/org.simalliance.openmobileapi.service
+    app=ProcessRecord{f1224db 1861:org.simalliance.openmobileapi.service:remote/u0a177}
+    createTime=-4d0h41m2s889ms startingBgTimeout=--
+    lastActivity=-9h29m23s955ms restartTime=-9h29m23s955ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{b884aca CREATE}:
+      intent={cmp=org.simalliance.openmobileapi.service/org.simalliance.openmobileapi.uiccterminal.UiccTerminal}
+      binder=android.os.BinderProxy@20d943b
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{3944758 ProcessRecord{f1224db 1861:org.simalliance.openmobileapi.service:remote/u0a177}}
+        Per-process Connections:
+          ConnectionRecord{50ef251 u0 CR org.simalliance.openmobileapi.service/org.simalliance.openmobileapi.uiccterminal.UiccTerminal:@e569b78}
+    All Connections:
+      ConnectionRecord{50ef251 u0 CR org.simalliance.openmobileapi.service/org.simalliance.openmobileapi.uiccterminal.UiccTerminal:@e569b78}
+
+  * ServiceRecord{4484996 u0 com.bertadata.qxb/cn.jpush.android.service.DaemonService}
+    intent={cmp=com.bertadata.qxb/cn.jpush.android.service.DaemonService}
+    packageName=com.bertadata.qxb
+    processName=com.bertadata.qxb
+    baseDir=/data/app/com.bertadata.qxb-2/base.apk
+    dataDir=/data/user/0/com.bertadata.qxb
+    app=null
+    createTime=-4d0h40m53s389ms startingBgTimeout=--
+    lastActivity=-9h29m14s455ms restartTime=-- createdFromFg=false
+
+  * ServiceRecord{d41c16d u0 com.android.bluetooth/.a2dp.A2dpService}
+    intent={act=android.bluetooth.IBluetoothA2dp cmp=com.android.bluetooth/.a2dp.A2dpService}
+    packageName=com.android.bluetooth
+    processName=com.android.bluetooth
+    baseDir=/system/app/Bluetooth/Bluetooth.apk
+    dataDir=/data/user/0/com.android.bluetooth
+    app=null
+    createTime=-1h15m21s925ms startingBgTimeout=--
+    lastActivity=-1h15m21s925ms restartTime=-- createdFromFg=false
+    Bindings:
+    * IntentBindRecord{53cc1a2}:
+      intent={act=android.bluetooth.IBluetoothA2dp cmp=com.android.bluetooth/.a2dp.A2dpService}
+      binder=null
+      requested=false received=false hasBound=false doRebind=false
+      * Client AppBindRecord{e3347da ProcessRecord{5e2767a 30386:com.sec.android.app.music:service/u0a150}}
+        Per-process Connections:
+          ConnectionRecord{300d0ed u0 com.android.bluetooth/.a2dp.A2dpService:@cd8a304}
+          ConnectionRecord{4823210 u0 com.android.bluetooth/.a2dp.A2dpService:@55a16d3}
+          ConnectionRecord{52293c1 u0 com.android.bluetooth/.a2dp.A2dpService:@5371ca8}
+          ConnectionRecord{b66ca4f u0 com.android.bluetooth/.a2dp.A2dpService:@cd2fcae}
+          ConnectionRecord{dad377e u0 com.android.bluetooth/.a2dp.A2dpService:@1cd3539}
+    All Connections:
+      ConnectionRecord{dad377e u0 com.android.bluetooth/.a2dp.A2dpService:@1cd3539}
+      ConnectionRecord{52293c1 u0 com.android.bluetooth/.a2dp.A2dpService:@5371ca8}
+      ConnectionRecord{4823210 u0 com.android.bluetooth/.a2dp.A2dpService:@55a16d3}
+      ConnectionRecord{b66ca4f u0 com.android.bluetooth/.a2dp.A2dpService:@cd2fcae}
+      ConnectionRecord{300d0ed u0 com.android.bluetooth/.a2dp.A2dpService:@cd8a304}
+
+  * ServiceRecord{306f56e u0 cn.com.bmac.nfc/cn.jpush.android.service.DaemonService}
+    intent={cmp=cn.com.bmac.nfc/cn.jpush.android.service.DaemonService}
+    packageName=cn.com.bmac.nfc
+    processName=cn.com.bmac.nfc
+    baseDir=/data/app/cn.com.bmac.nfc-1/base.apk
+    dataDir=/data/user/0/cn.com.bmac.nfc
+    app=null
+    createTime=-4d0h40m53s387ms startingBgTimeout=--
+    lastActivity=-9h29m14s453ms restartTime=-- createdFromFg=false
+
+  * ServiceRecord{2c6f5f0 u0 com.wandoujia.phoenix2/com.taobao.agoo.TaobaoMessageIntentReceiverService}
+    intent={act=org.android.agoo.client.MessageReceiverService pkg=com.wandoujia.phoenix2}
+    packageName=com.wandoujia.phoenix2
+    processName=com.wandoujia.phoenix2
+    baseDir=/data/app/com.wandoujia.phoenix2-2/base.apk
+    dataDir=/data/user/0/com.wandoujia.phoenix2
+    app=null
+    createTime=-1d17h52m45s326ms startingBgTimeout=--
+    lastActivity=-2h17m49s572ms restartTime=-- createdFromFg=true
+
+  * ServiceRecord{b2c700 u0 com.tencent.mobileqq/.qipc.QIPCServiceEx}
+    intent={cmp=com.tencent.mobileqq/.qipc.QIPCServiceEx}
+    packageName=com.tencent.mobileqq
+    processName=com.tencent.mobileqq
+    baseDir=/data/app/com.tencent.mobileqq-2/base.apk
+    dataDir=/data/user/0/com.tencent.mobileqq
+    app=ProcessRecord{998f656 24241:com.tencent.mobileqq/u0a356}
+    createTime=-15m22s212ms startingBgTimeout=--
+    lastActivity=-14m31s470ms restartTime=-15m22s212ms createdFromFg=false
+    Bindings:
+    * IntentBindRecord{856340b CREATE}:
+      intent={cmp=com.tencent.mobileqq/.qipc.QIPCServiceEx}
+      binder=android.os.BinderProxy@c11b2e8
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{f7c0d01 ProcessRecord{bc78322 24227:com.tencent.mobileqq:TMAssistantDownloadSDKService/u0a356}}
+        Per-process Connections:
+          ConnectionRecord{ead2983 u0 CR com.tencent.mobileqq/.qipc.QIPCServiceEx:@58f4832}
+    All Connections:
+      ConnectionRecord{ead2983 u0 CR com.tencent.mobileqq/.qipc.QIPCServiceEx:@58f4832}
+
+  * ServiceRecord{71c58c8 u0 com.samsung.sec.android.application.csc/.CscUpdateService}
+    intent={cmp=com.samsung.sec.android.application.csc/.CscUpdateService}
+    packageName=com.samsung.sec.android.application.csc
+    processName=com.android.phone
+    permission=com.samsung.sec.android.application.csc
+    baseDir=/system/priv-app/CSC/CSC.apk
+    dataDir=/data/user/0/com.samsung.sec.android.application.csc
+    app=ProcessRecord{37ca530 1301:com.android.phone/1001}
+    createTime=-4d0h40m50s161ms startingBgTimeout=--
+    lastActivity=-9h29m11s227ms restartTime=-9h29m11s227ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+
+  * ServiceRecord{5f2ac2f u0 com.sec.spp.push/.PushClientService}
+    intent={cmp=com.sec.spp.push/.PushClientService}
+    packageName=com.sec.spp.push
+    processName=com.sec.spp.push
+    baseDir=/data/app/com.sec.spp.push-2/base.apk
+    dataDir=/data/user/0/com.sec.spp.push
+    app=ProcessRecord{93bba0e 17567:com.sec.spp.push/u0a34}
+    createTime=-1h8m27s480ms startingBgTimeout=-1h8m12s466ms
+    lastActivity=-7m46s222ms restartTime=-1h8m27s480ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=6
+
+  * ServiceRecord{f69ef80 u0 com.android.systemui/.SystemUIService}
+    intent={cmp=com.android.systemui/.SystemUIService}
+    packageName=com.android.systemui
+    processName=com.android.systemui
+    baseDir=/system/priv-app/SystemUI/SystemUI.apk
+    dataDir=/data/user/0/com.android.systemui
+    app=ProcessRecord{be626e6 1325:com.android.systemui/u0a17}
+    createTime=-4d0h41m6s534ms startingBgTimeout=--
+    lastActivity=-9h29m27s450ms restartTime=-9h29m27s450ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+
+  * ServiceRecord{39e4d1c u0 android/.hardware.location.GeofenceHardwareService}
+    intent={cmp=android/.hardware.location.GeofenceHardwareService}
+    packageName=android
+    processName=system
+    permission=android.permission.LOCATION_HARDWARE
+    baseDir=/system/framework/framework-res.apk
+    dataDir=/data/system
+    app=ProcessRecord{84d17fd 847:system/1000}
+    createTime=-4d0h41m4s601ms startingBgTimeout=--
+    lastActivity=-9h29m25s667ms restartTime=-9h29m25s667ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{f88022b CREATE}:
+      intent={cmp=android/.hardware.location.GeofenceHardwareService}
+      binder=android.hardware.location.GeofenceHardwareService$1@5d43688
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{928d821 ProcessRecord{84d17fd 847:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{bf0c68f u0 CR android/.hardware.location.GeofenceHardwareService:@81241ee}
+    All Connections:
+      ConnectionRecord{bf0c68f u0 CR android/.hardware.location.GeofenceHardwareService:@81241ee}
+
+  * ServiceRecord{3849519 u0 com.samsung.android.smartface/.SmartFaceServiceStarter}
+    intent={cmp=com.samsung.android.smartface/.SmartFaceServiceStarter}
+    packageName=com.samsung.android.smartface
+    processName=com.samsung.android.smartface
+    baseDir=/system/priv-app/smartfaceservice/smartfaceservice.apk
+    dataDir=/data/user/0/com.samsung.android.smartface
+    app=ProcessRecord{38e07a6 21051:com.samsung.android.smartface/1000}
+    createTime=-3d22h55m50s176ms startingBgTimeout=--
+    lastActivity=-20m24s518ms restartTime=-20m24s518ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=19
+    restartCount=0 restartDelay=-- nextRestartTime=-20m24s572ms crashCount=0
+
+  * ServiceRecord{2c44446 u0 com.tencent.reading/.push.PushService}
+    intent={cmp=com.tencent.reading/.push.PushService}
+    packageName=com.tencent.reading
+    processName=com.tencent.reading:PushService
+    baseDir=/data/app/com.tencent.reading-1/base.apk
+    dataDir=/data/user/0/com.tencent.reading
+    app=null
+    createTime=-4d0h27m41s838ms startingBgTimeout=--
+    lastActivity=-9h16m2s904ms restartTime=-- createdFromFg=true
+
+  * ServiceRecord{b1c6ba0 u0 com.sec.android.pagebuddynotisvc/.PageBuddyNotiSvc}
+    intent={act=com.sec.android.pagebuddynotisvc}
+    packageName=com.sec.android.pagebuddynotisvc
+    processName=com.sec.android.pagebuddynotisvc
+    baseDir=/system/priv-app/PageBuddyNotiSvcK/PageBuddyNotiSvcK.apk
+    dataDir=/data/user/0/com.sec.android.pagebuddynotisvc
+    app=ProcessRecord{a3205e7 28659:com.sec.android.pagebuddynotisvc/u0a28}
+    createTime=-4d0h40m41s629ms startingBgTimeout=-9h28m47s686ms
+    lastActivity=-9m14s141ms restartTime=-9m14s141ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=18
+    restartCount=0 restartDelay=-- nextRestartTime=-9m14s276ms crashCount=0
+
+  * ServiceRecord{e0db668 u0 com.samsung.android.MtpApplication/.MtpService}
+    intent={cmp=com.samsung.android.MtpApplication/.MtpService}
+    packageName=com.samsung.android.MtpApplication
+    processName=com.samsung.android.MtpApplication
+    baseDir=/system/priv-app/MtpApplication/MtpApplication.apk
+    dataDir=/data/user/0/com.samsung.android.MtpApplication
+    app=ProcessRecord{f7a158b 5840:com.samsung.android.MtpApplication/1000}
+    createTime=-1h35m5s365ms startingBgTimeout=--
+    lastActivity=-1h35m5s351ms restartTime=-1h35m5s365ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=3
+
+  * ServiceRecord{dbe2003 u0 com.sec.location.nsflp2/.FusedLocationService}
+    intent={act=com.android.location.service.FusedLocationProvider pkg=com.sec.location.nsflp2}
+    packageName=com.sec.location.nsflp2
+    processName=com.sec.location.nsflp2
+    permission=android.permission.WRITE_SECURE_SETTINGS
+    baseDir=/system/priv-app/NSFusedLocation_Global/NSFusedLocation_Global.apk
+    dataDir=/data/user/0/com.sec.location.nsflp2
+    app=ProcessRecord{593a541 1621:com.sec.location.nsflp2/5013}
+    createTime=-4d0h41m2s636ms startingBgTimeout=--
+    lastActivity=-9h29m23s702ms restartTime=-9h29m23s702ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{7ba3334 CREATE}:
+      intent={act=com.android.location.service.FusedLocationProvider pkg=com.sec.location.nsflp2}
+      binder=android.os.BinderProxy@419d55d
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{f05ed2 ProcessRecord{84d17fd 847:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{c0808b2 u0 CR !FG !VIS com.sec.location.nsflp2/.FusedLocationService:@407abd}
+    All Connections:
+      ConnectionRecord{c0808b2 u0 CR !FG !VIS com.sec.location.nsflp2/.FusedLocationService:@407abd}
+
+  * ServiceRecord{fc87135 u0 com.tencent.android.qqdownloader/com.qq.AppService.IPCService}
+    intent={cmp=com.tencent.android.qqdownloader/com.qq.AppService.IPCService}
+    packageName=com.tencent.android.qqdownloader
+    processName=com.tencent.android.qqdownloader:connect
+    permission=com.qq.AppService.permission.out.IPC_SERVICE
+    baseDir=/data/app/com.tencent.android.qqdownloader-2/base.apk
+    dataDir=/data/user/0/com.tencent.android.qqdownloader
+    app=ProcessRecord{ed489ca 23651:com.tencent.android.qqdownloader:connect/u0a406}
+    createTime=-17m56s609ms startingBgTimeout=--
+    lastActivity=-17m56s571ms restartTime=-17m56s571ms createdFromFg=false
+    Bindings:
+    * IntentBindRecord{cc31594 CREATE}:
+      intent={cmp=com.tencent.android.qqdownloader/com.qq.AppService.IPCService}
+      binder=android.os.BinderProxy@41b783d
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{a82f832 ProcessRecord{6b55316 23381:com.tencent.android.qqdownloader/u0a406}}
+        Per-process Connections:
+          ConnectionRecord{bc4f76c u0 CR com.tencent.android.qqdownloader/com.qq.AppService.IPCService:@559681f}
+    All Connections:
+      ConnectionRecord{bc4f76c u0 CR com.tencent.android.qqdownloader/com.qq.AppService.IPCService:@559681f}
+
+  * ServiceRecord{9e3169a u0 com.android.server.telecom/.components.BluetoothPhoneService}
+    intent={cmp=com.android.server.telecom/.components.BluetoothPhoneService}
+    packageName=com.android.server.telecom
+    processName=system
+    baseDir=/system/priv-app/Telecom/Telecom.apk
+    dataDir=/data/user/0/com.android.server.telecom
+    app=ProcessRecord{84d17fd 847:system/1000}
+    createTime=-4d0h41m3s703ms startingBgTimeout=--
+    lastActivity=-9h29m24s769ms restartTime=-9h29m24s769ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+    Bindings:
+    * IntentBindRecord{8f8f6b8}:
+      intent={act=android.bluetooth.IBluetoothHeadsetPhone cmp=com.android.server.telecom/.components.BluetoothPhoneService}
+      binder=com.android.server.telecom.BluetoothPhoneServiceImpl$1@77d4c91
+      requested=true received=true hasBound=false doRebind=false
+
+  * ServiceRecord{6fad6e9 u0 com.tencent.android.qqdownloader/com.tencent.assistant.sdk.SDKSupportService}
+    intent={act=com.tencent.android.qqdownloader.SDKService cmp=com.tencent.android.qqdownloader/com.tencent.assistant.sdk.SDKSupportService}
+    packageName=com.tencent.android.qqdownloader
+    processName=com.tencent.android.qqdownloader
+    baseDir=/data/app/com.tencent.android.qqdownloader-2/base.apk
+    dataDir=/data/user/0/com.tencent.android.qqdownloader
+    app=ProcessRecord{6b55316 23381:com.tencent.android.qqdownloader/u0a406}
+    createTime=-15m24s895ms startingBgTimeout=--
+    lastActivity=-13m13s826ms restartTime=-15m24s894ms createdFromFg=false
+    Bindings:
+    * IntentBindRecord{a0f1983 CREATE}:
+      intent={act=com.tencent.android.qqdownloader.SDKService cmp=com.tencent.android.qqdownloader/com.tencent.assistant.sdk.SDKSupportService}
+      binder=android.os.BinderProxy@85f700
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{44c5b39 ProcessRecord{998f656 24241:com.tencent.mobileqq/u0a356}}
+        Per-process Connections:
+          ConnectionRecord{fba8b98 u0 CR com.tencent.android.qqdownloader/com.tencent.assistant.sdk.SDKSupportService:@d417b}
+      * Client AppBindRecord{f64657e ProcessRecord{bc78322 24227:com.tencent.mobileqq:TMAssistantDownloadSDKService/u0a356}}
+        Per-process Connections:
+          ConnectionRecord{d175370 u0 CR com.tencent.android.qqdownloader/com.tencent.assistant.sdk.SDKSupportService:@c3361b3}
+    All Connections:
+      ConnectionRecord{fba8b98 u0 CR com.tencent.android.qqdownloader/com.tencent.assistant.sdk.SDKSupportService:@d417b}
+      ConnectionRecord{d175370 u0 CR com.tencent.android.qqdownloader/com.tencent.assistant.sdk.SDKSupportService:@c3361b3}
+
+  * ServiceRecord{b870f4b u0 com.bst.floatingmsgproxy/.net.sp.SfSpService}
+    intent={act=com.bst.floatingmsgproxy.net.sp.ISfAirMessage pkg=com.bst.floatingmsgproxy}
+    packageName=com.bst.floatingmsgproxy
+    processName=com.bst.floatingmsgproxy
+    baseDir=/system/priv-app/AirMessageProxy/AirMessageProxy.apk
+    dataDir=/data/user/0/com.bst.floatingmsgproxy
+    app=ProcessRecord{b27e90e 27537:com.bst.floatingmsgproxy/u0a1}
+    createTime=-12m57s48ms startingBgTimeout=--
+    lastActivity=-12m57s48ms restartTime=-12m57s48ms createdFromFg=false
+    Bindings:
+    * IntentBindRecord{21fcadf CREATE}:
+      intent={act=com.bst.floatingmsgproxy.net.sp.ISfAirMessage pkg=com.bst.floatingmsgproxy}
+      binder=android.os.BinderProxy@ed3832c
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{20e71f5 ProcessRecord{b27e90e 27537:com.bst.floatingmsgproxy/u0a1}}
+        Per-process Connections:
+          ConnectionRecord{afd881a u0 CR com.bst.floatingmsgproxy/.net.sp.SfSpService:@53836c5}
+    All Connections:
+      ConnectionRecord{afd881a u0 CR com.bst.floatingmsgproxy/.net.sp.SfSpService:@53836c5}
+
+  * ServiceRecord{1e234c6 u0 com.wandoujia.phoenix2/.TaobaoIntentService}
+    intent={act=org.agoo.android.intent.action.RECEIVE pkg=com.wandoujia.phoenix2}
+    packageName=com.wandoujia.phoenix2
+    processName=com.wandoujia.phoenix2
+    baseDir=/data/app/com.wandoujia.phoenix2-2/base.apk
+    dataDir=/data/user/0/com.wandoujia.phoenix2
+    app=null
+    createTime=-1d17h52m45s343ms startingBgTimeout=--
+    lastActivity=-2h17m49s589ms restartTime=-- createdFromFg=true
+
+  * ServiceRecord{575c010 u0 com.tencent.engine/.DemoSecureService}
+    intent={cmp=com.tencent.engine/.DemoSecureService}
+    packageName=com.tencent.engine
+    processName=com.tencent.engine
+    baseDir=/system/app/QQInterceptService/QQInterceptService.apk
+    dataDir=/data/user/0/com.tencent.engine
+    app=ProcessRecord{f5d5b8a 23975:com.tencent.engine/u0a127}
+    createTime=-4d0h40m43s347ms startingBgTimeout=-9h28m49s405ms
+    lastActivity=-17m2s635ms restartTime=-17m2s754ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=35
+    restartCount=0 restartDelay=-- nextRestartTime=-17m2s946ms crashCount=0
+
+  * ServiceRecord{c75a9b3 u0 com.sec.smartcard.manager/com.sec.enterprise.mdm.sc.bai.BaiMobileAgentService}
+    intent={cmp=com.sec.smartcard.manager/com.sec.enterprise.mdm.sc.bai.BaiMobileAgentService}
+    packageName=com.sec.smartcard.manager
+    processName=com.sec.smartcard.manager
+    baseDir=/system/priv-app/SmartcardManager/SmartcardManager.apk
+    dataDir=/data/user/0/com.sec.smartcard.manager
+    app=ProcessRecord{7f23946 1730:com.sec.smartcard.manager/u0a166}
+    createTime=-4d0h41m4s42ms startingBgTimeout=--
+    lastActivity=-9h29m25s45ms restartTime=-9h29m25s45ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{14651b8 CREATE}:
+      intent={cmp=com.sec.smartcard.manager/com.sec.enterprise.mdm.sc.bai.BaiMobileAgentService}
+      binder=android.os.BinderProxy@4270b91
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{d4c4af6 ProcessRecord{84d17fd 847:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{3022579 u0 CR com.sec.smartcard.manager/com.sec.enterprise.mdm.sc.bai.BaiMobileAgentService:@7278240}
+    All Connections:
+      ConnectionRecord{3022579 u0 CR com.sec.smartcard.manager/com.sec.enterprise.mdm.sc.bai.BaiMobileAgentService:@7278240}
+
+  * ServiceRecord{c6bf6e3 u0 com.android.stk/.StkAppService}
+    intent={cmp=com.android.stk/.StkAppService}
+    packageName=com.android.stk
+    processName=com.android.phone
+    baseDir=/system/app/Stk/Stk.apk
+    dataDir=/data/user/0/com.android.stk
+    app=ProcessRecord{37ca530 1301:com.android.phone/1001}
+    createTime=-4d0h40m50s120ms startingBgTimeout=--
+    lastActivity=-9h29m11s187ms restartTime=-9h29m11s187ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+
+  * ServiceRecord{b99ed80 u0 android/com.android.server.DrmEventService}
+    intent={act=android.intent.action.BOOT_COMPLETED cmp=android/com.android.server.DrmEventService bqHint=4}
+    packageName=android
+    processName=system
+    baseDir=/system/framework/framework-res.apk
+    dataDir=/data/system
+    app=ProcessRecord{84d17fd 847:system/1000}
+    createTime=-4d0h40m48s199ms startingBgTimeout=--
+    lastActivity=-9h29m9s264ms restartTime=-9h29m9s264ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+
+  * ServiceRecord{a008614 u0 com.android.server.telecom/.components.TelecomService}
+    intent={act=com.android.ITelecomService cmp=com.android.server.telecom/.components.TelecomService}
+    packageName=com.android.server.telecom
+    processName=system
+    baseDir=/system/priv-app/Telecom/Telecom.apk
+    dataDir=/data/user/0/com.android.server.telecom
+    app=ProcessRecord{84d17fd 847:system/1000}
+    createTime=-4d0h41m6s558ms startingBgTimeout=--
+    lastActivity=-9h29m27s624ms restartTime=-9h29m27s624ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{4669bc9 CREATE}:
+      intent={act=com.android.ITelecomService cmp=com.android.server.telecom/.components.TelecomService}
+      binder=com.android.server.telecom.TelecomServiceImpl$1@99dc2ce
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{2dae5ef ProcessRecord{84d17fd 847:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{634e867 u0 CR IMP FGS com.android.server.telecom/.components.TelecomService:@51ce426}
+    All Connections:
+      ConnectionRecord{634e867 u0 CR IMP FGS com.android.server.telecom/.components.TelecomService:@51ce426}
+
+  * ServiceRecord{93bd114 u0 com.android.providers.media/.MtpService}
+    intent={cmp=com.android.providers.media/.MtpService}
+    packageName=com.android.providers.media
+    processName=android.process.media
+    baseDir=/system/priv-app/SecMediaProvider/SecMediaProvider.apk
+    dataDir=/data/user/0/com.android.providers.media
+    app=ProcessRecord{e2246b3 2354:android.process.media/u0a41}
+    createTime=-1h35m5s345ms startingBgTimeout=--
+    lastActivity=-1h35m5s340ms restartTime=-1h35m5s345ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=true callStart=true lastStartId=1
+    Delivered Starts:
+    #0 id=1 dur=-1h35m5s342ms dxc=1
+      intent=Intent { cmp=com.android.providers.media/.MtpService (has extras) }
+    Bindings:
+    * IntentBindRecord{eaed7b4 CREATE}:
+      intent={cmp=com.android.providers.media/.MtpService}
+      binder=android.os.BinderProxy@f62dfdd
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{f3cd752 ProcessRecord{e2246b3 2354:android.process.media/u0a41}}
+        Per-process Connections:
+          ConnectionRecord{3382eac u0 CR com.android.providers.media/.MtpService:@6c5f45f}
+    All Connections:
+      ConnectionRecord{3382eac u0 CR com.android.providers.media/.MtpService:@6c5f45f}
+
+  * ServiceRecord{64d3c4e u0 com.tencent.android.qqdownloader/com.tencent.assistant.tools.ToolService}
+    intent={cmp=com.tencent.android.qqdownloader/com.tencent.assistant.tools.ToolService}
+    packageName=com.tencent.android.qqdownloader
+    processName=com.tencent.android.qqdownloader:tools
+    baseDir=/data/app/com.tencent.android.qqdownloader-2/base.apk
+    dataDir=/data/user/0/com.tencent.android.qqdownloader
+    app=ProcessRecord{52cbe7c 23482:com.tencent.android.qqdownloader:tools/u0a406}
+    createTime=-18m2s72ms startingBgTimeout=--
+    lastActivity=-17m38s940ms restartTime=-18m2s30ms createdFromFg=false
+    Bindings:
+    * IntentBindRecord{36035fb CREATE}:
+      intent={cmp=com.tencent.android.qqdownloader/com.tencent.assistant.tools.ToolService}
+      binder=android.os.BinderProxy@b8ba618
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{5a13871 ProcessRecord{52cbe7c 23482:com.tencent.android.qqdownloader:tools/u0a406}}
+        Per-process Connections:
+          ConnectionRecord{bb92fbe u0 CR com.tencent.android.qqdownloader/com.tencent.assistant.tools.ToolService:@fa8e679}
+      * Client AppBindRecord{d3da656 ProcessRecord{6b55316 23381:com.tencent.android.qqdownloader/u0a406}}
+        Per-process Connections:
+          ConnectionRecord{83473c u0 CR com.tencent.android.qqdownloader/com.tencent.assistant.tools.ToolService:@502d52f}
+          ConnectionRecord{7aa0b49 u0 CR com.tencent.android.qqdownloader/com.tencent.assistant.tools.ToolService:@ab1d50}
+      * Client AppBindRecord{87236d7 ProcessRecord{ed489ca 23651:com.tencent.android.qqdownloader:connect/u0a406}}
+        Per-process Connections:
+          ConnectionRecord{144c804 u0 CR com.tencent.android.qqdownloader/com.tencent.assistant.tools.ToolService:@1bebb1}
+          ConnectionRecord{31a3c17 u0 CR com.tencent.android.qqdownloader/com.tencent.assistant.tools.ToolService:@1bebb1}
+          ConnectionRecord{3ec8822 u0 CR com.tencent.android.qqdownloader/com.tencent.assistant.tools.ToolService:@1bebb1}
+          ConnectionRecord{65291ed u0 CR com.tencent.android.qqdownloader/com.tencent.assistant.tools.ToolService:@1bebb1}
+          ConnectionRecord{77911a5 u0 CR com.tencent.android.qqdownloader/com.tencent.assistant.tools.ToolService:@1bebb1}
+          ConnectionRecord{97c82b3 u0 CR com.tencent.android.qqdownloader/com.tencent.assistant.tools.ToolService:@1bebb1}
+          ConnectionRecord{9997896 u0 CR com.tencent.android.qqdownloader/com.tencent.assistant.tools.ToolService:@1bebb1}
+          ConnectionRecord{9d35fe9 u0 CR com.tencent.android.qqdownloader/com.tencent.assistant.tools.ToolService:@1bebb1}
+          ConnectionRecord{c8af97a u0 CR com.tencent.android.qqdownloader/com.tencent.assistant.tools.ToolService:@1bebb1}
+    All Connections:
+      ConnectionRecord{9997896 u0 CR com.tencent.android.qqdownloader/com.tencent.assistant.tools.ToolService:@1bebb1}
+      ConnectionRecord{31a3c17 u0 CR com.tencent.android.qqdownloader/com.tencent.assistant.tools.ToolService:@1bebb1}
+      ConnectionRecord{144c804 u0 CR com.tencent.android.qqdownloader/com.tencent.assistant.tools.ToolService:@1bebb1}
+      ConnectionRecord{65291ed u0 CR com.tencent.android.qqdownloader/com.tencent.assistant.tools.ToolService:@1bebb1}
+      ConnectionRecord{3ec8822 u0 CR com.tencent.android.qqdownloader/com.tencent.assistant.tools.ToolService:@1bebb1}
+      ConnectionRecord{97c82b3 u0 CR com.tencent.android.qqdownloader/com.tencent.assistant.tools.ToolService:@1bebb1}
+      ConnectionRecord{9d35fe9 u0 CR com.tencent.android.qqdownloader/com.tencent.assistant.tools.ToolService:@1bebb1}
+      ConnectionRecord{77911a5 u0 CR com.tencent.android.qqdownloader/com.tencent.assistant.tools.ToolService:@1bebb1}
+      ConnectionRecord{c8af97a u0 CR com.tencent.android.qqdownloader/com.tencent.assistant.tools.ToolService:@1bebb1}
+      ConnectionRecord{7aa0b49 u0 CR com.tencent.android.qqdownloader/com.tencent.assistant.tools.ToolService:@ab1d50}
+      ConnectionRecord{83473c u0 CR com.tencent.android.qqdownloader/com.tencent.assistant.tools.ToolService:@502d52f}
+      ConnectionRecord{bb92fbe u0 CR com.tencent.android.qqdownloader/com.tencent.assistant.tools.ToolService:@fa8e679}
+
+  * ServiceRecord{48fff1d u0 com.samsung.android.providers.context/.ContextService}
+    intent={act=android.intent.action.BOOT_COMPLETED cmp=com.samsung.android.providers.context/.ContextService}
+    packageName=com.samsung.android.providers.context
+    processName=com.samsung.android.providers.context
+    permission=com.samsung.android.providers.context.permission.CONTEXTSERVICE
+    baseDir=/system/priv-app/ContextProvider/ContextProvider.apk
+    dataDir=/data/user/0/com.samsung.android.providers.context
+    app=ProcessRecord{ea3cd22 2075:com.samsung.android.providers.context/u0a74}
+    createTime=-4d0h41m1s380ms startingBgTimeout=--
+    lastActivity=-9h29m6s579ms restartTime=-9h29m22s445ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=true callStart=true lastStartId=2
+    Delivered Starts:
+    #0 id=1 dur=-9h29m22s437ms dxc=1
+      intent=Intent { act=android.intent.action.BOOT_COMPLETED cmp=com.samsung.android.providers.context/.ContextService }
+    #1 id=2 dur=-9h29m6s573ms dxc=1
+      intent=Intent { act=android.intent.action.BOOT_COMPLETED cmp=com.samsung.android.providers.context/.ContextService }
+
+  * ServiceRecord{a17bad u0 com.android.server.telecom/.components.BluetoothVoIPService}
+    intent={act=com.samsung.bt.hfp.IBluetoothHeadsetVoIP cmp=com.android.server.telecom/.components.BluetoothVoIPService}
+    packageName=com.android.server.telecom
+    processName=system
+    baseDir=/system/priv-app/Telecom/Telecom.apk
+    dataDir=/data/user/0/com.android.server.telecom
+    app=ProcessRecord{84d17fd 847:system/1000}
+    createTime=-4d0h41m4s725ms startingBgTimeout=--
+    lastActivity=-9h29m24s768ms restartTime=-9h29m25s791ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=2
+    Bindings:
+    * IntentBindRecord{4575b94}:
+      intent={act=com.samsung.bt.hfp.IBluetoothHeadsetVoIP cmp=com.android.server.telecom/.components.BluetoothVoIPService}
+      binder=com.android.server.telecom.BluetoothVoIPServiceImpl$1@f91463d
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{46fae32 ProcessRecord{37ca530 1301:com.android.phone/1001}}
+        Per-process Connections:
+          ConnectionRecord{5bab72e u0 com.android.server.telecom/.components.BluetoothVoIPService:@98725a9}
+    All Connections:
+      ConnectionRecord{5bab72e u0 com.android.server.telecom/.components.BluetoothVoIPService:@98725a9}
+
+  * ServiceRecord{bdb1c40 u0 com.android.systemui/.recents.RecentsService}
+    intent={cmp=com.android.systemui/.recents.RecentsService}
+    packageName=com.android.systemui
+    processName=com.android.systemui.recents
+    baseDir=/system/priv-app/SystemUI/SystemUI.apk
+    dataDir=/data/user/0/com.android.systemui
+    app=ProcessRecord{74c9783 1418:com.android.systemui.recents/u0a17}
+    createTime=-4d0h41m6s8ms startingBgTimeout=--
+    lastActivity=-9h29m26s992ms restartTime=-9h29m26s992ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{4189d00 CREATE}:
+      intent={cmp=com.android.systemui/.recents.RecentsService}
+      binder=android.os.BinderProxy@c510939
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{a667b7e ProcessRecord{be626e6 1325:com.android.systemui/u0a17}}
+        Per-process Connections:
+          ConnectionRecord{23466d4 u0 CR com.android.systemui/.recents.RecentsService:@cbcd427}
+    All Connections:
+      ConnectionRecord{23466d4 u0 CR com.android.systemui/.recents.RecentsService:@cbcd427}
+
+  * ServiceRecord{8aeb2f1 u0 com.amap.android.location/.GeocodeService}
+    intent={act=com.android.location.service.GeocodeProvider pkg=com.amap.android.location}
+    packageName=com.amap.android.location
+    processName=com.amap.android.location
+    permission=android.permission.WRITE_SECURE_SETTINGS
+    baseDir=/system/priv-app/NetworkLocation_Autonavi/NetworkLocation_Autonavi.apk
+    dataDir=/data/user/0/com.amap.android.location
+    app=ProcessRecord{1c113c8 1611:com.amap.android.location/u0a90}
+    createTime=-4d0h41m2s592ms startingBgTimeout=--
+    lastActivity=-9h29m23s657ms restartTime=-9h29m23s657ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{8b728df CREATE}:
+      intent={act=com.android.location.service.GeocodeProvider pkg=com.amap.android.location}
+      binder=android.os.BinderProxy@fea892c
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{affff5 ProcessRecord{84d17fd 847:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{5d07a98 u0 CR !FG !VIS com.amap.android.location/.GeocodeService:@198c7b}
+    All Connections:
+      ConnectionRecord{5d07a98 u0 CR !FG !VIS com.amap.android.location/.GeocodeService:@198c7b}
+
+  * ServiceRecord{e05a467 u0 com.amap.android.location/.internal.server.NetworkLocationService}
+    intent={act=com.amap.android.location.internal.ANDROID_NLP pkg=com.amap.android.location}
+    packageName=com.amap.android.location
+    processName=com.amap.android.location
+    baseDir=/system/priv-app/NetworkLocation_Autonavi/NetworkLocation_Autonavi.apk
+    dataDir=/data/user/0/com.amap.android.location
+    app=ProcessRecord{1c113c8 1611:com.amap.android.location/u0a90}
+    createTime=-4d0h41m2s652ms startingBgTimeout=--
+    lastActivity=-9h29m23s718ms restartTime=-9h29m23s718ms createdFromFg=false
+    Bindings:
+    * IntentBindRecord{76ad18a CREATE}:
+      intent={act=com.amap.android.location.internal.ANDROID_NLP pkg=com.amap.android.location}
+      binder=android.os.BinderProxy@f0f73fb
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{e0d0c18 ProcessRecord{1c113c8 1611:com.amap.android.location/u0a90}}
+        Per-process Connections:
+          ConnectionRecord{30b1026 u0 CR com.amap.android.location/.internal.server.NetworkLocationService:@71de781}
+    All Connections:
+      ConnectionRecord{30b1026 u0 CR com.amap.android.location/.internal.server.NetworkLocationService:@71de781}
+
+  * ServiceRecord{6a80eb8 u0 com.sec.android.widgetapp.ap.hero.cmaweather/.SurfaceWidgetWeather}
+    intent={cmp=com.sec.android.widgetapp.ap.hero.cmaweather/.SurfaceWidgetWeather}
+    packageName=com.sec.android.widgetapp.ap.hero.cmaweather
+    processName=com.sec.android.widgetapp.ap.hero.cmaweather:SurfaceWidget
+    baseDir=/system/app/CMAWeatherPhone2014_K_MMR_fHD/CMAWeatherPhone2014_K_MMR_fHD.apk
+    dataDir=/data/user/0/com.sec.android.widgetapp.ap.hero.cmaweather
+    app=ProcessRecord{7cda671 2205:com.sec.android.widgetapp.ap.hero.cmaweather:SurfaceWidget/u0a73}
+    createTime=-4d0h40m41s216ms startingBgTimeout=--
+    lastActivity=-9h29m2s282ms restartTime=-9h29m2s282ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{7ac7c56 CREATE}:
+      intent={cmp=com.sec.android.widgetapp.ap.hero.cmaweather/.SurfaceWidgetWeather}
+      binder=android.os.BinderProxy@2d754d7
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{6d2d1c4 ProcessRecord{4279a84 1700:com.sec.android.app.launcher/u0a8}}
+        Per-process Connections:
+          ConnectionRecord{5405d1b u0 CR com.sec.android.widgetapp.ap.hero.cmaweather/.SurfaceWidgetWeather:@6d72b2a}
+    All Connections:
+      ConnectionRecord{5405d1b u0 CR com.sec.android.widgetapp.ap.hero.cmaweather/.SurfaceWidgetWeather:@6d72b2a}
+
+  * ServiceRecord{1eeda23 u0 com.myzaker.ZAKER_Phone/com.taobao.accs.ChannelService}
+    intent={act=com.taobao.accs.intent.action.ELECTION pkg=com.myzaker.ZAKER_Phone cmp=com.myzaker.ZAKER_Phone/com.taobao.accs.ChannelService}
+    packageName=com.myzaker.ZAKER_Phone
+    processName=com.myzaker.ZAKER_Phone:channel
+    baseDir=/data/app/com.myzaker.ZAKER_Phone-1/base.apk
+    dataDir=/data/user/0/com.myzaker.ZAKER_Phone
+    app=null
+    createTime=-3d21h44m16s318ms startingBgTimeout=--
+    lastActivity=-6h32m44s311ms restartTime=-- createdFromFg=true
+
+  * ServiceRecord{6a10bc4 u0 com.samsung.android.bbc.bbcagent/com.samsung.android.bbc.test.BBCDebugService}
+    intent={cmp=com.samsung.android.bbc.bbcagent/com.samsung.android.bbc.test.BBCDebugService}
+    packageName=com.samsung.android.bbc.bbcagent
+    processName=com.samsung.android.bbc.bbcagent
+    baseDir=/system/app/BBCAgent/BBCAgent.apk
+    dataDir=/data/user/0/com.samsung.android.bbc.bbcagent
+    app=null
+    createTime=-1s527ms startingBgTimeout=--
+    lastActivity=-1s526ms restartTime=-- createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=false lastStartId=1
+    Pending Starts:
+    #0 id=1
+      intent=Intent { cmp=com.samsung.android.bbc.bbcagent/com.samsung.android.bbc.test.BBCDebugService }
+
+  * ServiceRecord{8f2e2f5 u0 com.android.phone/.TelephonyDebugService}
+    intent={cmp=com.android.phone/.TelephonyDebugService}
+    packageName=com.android.phone
+    processName=com.android.phone
+    baseDir=/system/priv-app/TeleService/TeleService.apk
+    dataDir=/data/user/0/com.android.phone
+    app=ProcessRecord{37ca530 1301:com.android.phone/1001}
+    createTime=-4d0h41m4s750ms startingBgTimeout=--
+    lastActivity=-9h29m25s816ms restartTime=-9h29m25s816ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+
+  * ServiceRecord{35e3d0b u0 com.tencent.mobileqq/com.tencent.tmdownloader.TMAssistantDownloadService}
+    intent={cmp=com.tencent.mobileqq/com.tencent.tmdownloader.TMAssistantDownloadService}
+    packageName=com.tencent.mobileqq
+    processName=com.tencent.mobileqq:TMAssistantDownloadSDKService
+    baseDir=/data/app/com.tencent.mobileqq-2/base.apk
+    dataDir=/data/user/0/com.tencent.mobileqq
+    app=ProcessRecord{bc78322 24227:com.tencent.mobileqq:TMAssistantDownloadSDKService/u0a356}
+    createTime=-4d0h37m53s36ms startingBgTimeout=--
+    lastActivity=-13m13s697ms restartTime=-15m25s777ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=34
+    restartCount=0 restartDelay=-- nextRestartTime=-15m25s817ms crashCount=0
+    Bindings:
+    * IntentBindRecord{88c07e2 CREATE}:
+      intent={cmp=com.tencent.mobileqq/com.tencent.tmdownloader.TMAssistantDownloadService}
+      binder=android.os.BinderProxy@1bfeaad
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{705d1e2 ProcessRecord{bc78322 24227:com.tencent.mobileqq:TMAssistantDownloadSDKService/u0a356}}
+        Per-process Connections:
+          ConnectionRecord{778660f u0 CR com.tencent.mobileqq/com.tencent.tmdownloader.TMAssistantDownloadService:@77eaf6e}
+    All Connections:
+      ConnectionRecord{778660f u0 CR com.tencent.mobileqq/com.tencent.tmdownloader.TMAssistantDownloadService:@77eaf6e}
+
+  * ServiceRecord{9e73310 u0 com.enhance.gameservice/.IpmService}
+    intent={cmp=com.enhance.gameservice/.IpmService}
+    packageName=com.enhance.gameservice
+    processName=com.enhance.gameservice
+    baseDir=/system/app/GameOptimizer/GameOptimizer.apk
+    dataDir=/data/user/0/com.enhance.gameservice
+    app=ProcessRecord{f40d382 21039:com.enhance.gameservice/u0a112}
+    createTime=-4d0h40m37s259ms startingBgTimeout=-9h28m43s316ms
+    lastActivity=-13m20s108ms restartTime=-20m24s548ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=17
+    restartCount=0 restartDelay=-- nextRestartTime=-20m14s576ms crashCount=0
+    Bindings:
+    * IntentBindRecord{129b2a9 CREATE}:
+      intent={cmp=com.enhance.gameservice/.IpmService}
+      binder=android.os.BinderProxy@a396973
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{a852030 ProcessRecord{f40d382 21039:com.enhance.gameservice/u0a112}}
+        Per-process Connections:
+          ConnectionRecord{c283ad5 u0 CR com.enhance.gameservice/.IpmService:@45638c}
+    All Connections:
+      ConnectionRecord{c283ad5 u0 CR com.enhance.gameservice/.IpmService:@45638c}
+
+  * ServiceRecord{d0f7aad u0 com.tencent.mobileqq/.msf.service.MsfService}
+    intent={cmp=com.tencent.mobileqq/.msf.service.MsfService}
+    packageName=com.tencent.mobileqq
+    processName=com.tencent.mobileqq:MSF
+    baseDir=/data/app/com.tencent.mobileqq-2/base.apk
+    dataDir=/data/user/0/com.tencent.mobileqq
+    app=ProcessRecord{58aad53 24434:com.tencent.mobileqq:MSF/u0a356}
+    createTime=-15m22s85ms startingBgTimeout=-15m7s70ms
+    lastActivity=-14m31s329ms restartTime=-15m22s33ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=6
+    Bindings:
+    * IntentBindRecord{f9d84a9 CREATE}:
+      intent={cmp=com.tencent.mobileqq/.msf.service.MsfService}
+      binder=android.os.BinderProxy@8332a2e
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{23729cf ProcessRecord{998f656 24241:com.tencent.mobileqq/u0a356}}
+        Per-process Connections:
+          ConnectionRecord{5c621e2 u0 CR com.tencent.mobileqq/.msf.service.MsfService:@db346d7}
+          ConnectionRecord{634dbc4 u0 CR com.tencent.mobileqq/.msf.service.MsfService:@db346d7}
+          ConnectionRecord{e0d4690 u0 CR com.tencent.mobileqq/.msf.service.MsfService:@db346d7}
+    All Connections:
+      ConnectionRecord{634dbc4 u0 CR com.tencent.mobileqq/.msf.service.MsfService:@db346d7}
+      ConnectionRecord{5c621e2 u0 CR com.tencent.mobileqq/.msf.service.MsfService:@db346d7}
+      ConnectionRecord{e0d4690 u0 CR com.tencent.mobileqq/.msf.service.MsfService:@db346d7}
+
+  * ServiceRecord{5540f5c u0 com.android.bluetooth/.pan.PanService}
+    intent={act=android.bluetooth.IBluetoothPan cmp=com.android.bluetooth/.pan.PanService}
+    packageName=com.android.bluetooth
+    processName=com.android.bluetooth
+    baseDir=/system/app/Bluetooth/Bluetooth.apk
+    dataDir=/data/user/0/com.android.bluetooth
+    app=null
+    createTime=-13m27s203ms startingBgTimeout=--
+    lastActivity=-13m27s203ms restartTime=-- createdFromFg=false
+    Bindings:
+    * IntentBindRecord{ea0c265}:
+      intent={act=android.bluetooth.IBluetoothPan cmp=com.android.bluetooth/.pan.PanService}
+      binder=null
+      requested=false received=false hasBound=false doRebind=false
+
+  * ServiceRecord{f6f73c9 u0 com.samsung.ucs.ucspinpad/.UcsPinpadService}
+    intent={act=com.samsung.ucs.ucspinpad.BIND_UCS_PINPAD_SERVICE pkg=com.samsung.ucs.ucspinpad}
+    packageName=com.samsung.ucs.ucspinpad
+    processName=com.samsung.ucs.ucspinpad
+    baseDir=/system/priv-app/UcsPinpad/UcsPinpad.apk
+    dataDir=/data/user/0/com.samsung.ucs.ucspinpad
+    app=ProcessRecord{8241363 2005:com.samsung.ucs.ucspinpad/1000}
+    createTime=-4d0h41m7s142ms startingBgTimeout=--
+    lastActivity=-9h29m22s614ms restartTime=-9h29m22s614ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{6d69b60 CREATE}:
+      intent={act=com.samsung.ucs.ucspinpad.BIND_UCS_PINPAD_SERVICE pkg=com.samsung.ucs.ucspinpad}
+      binder=android.os.BinderProxy@8f79819
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{e1990de ProcessRecord{84d17fd 847:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{ba55f54 u0 CR com.samsung.ucs.ucspinpad/.UcsPinpadService:@eec5ea7}
+    All Connections:
+      ConnectionRecord{ba55f54 u0 CR com.samsung.ucs.ucspinpad/.UcsPinpadService:@eec5ea7}
+
+  Pending services:
+  * Pending ServiceRecord{6a10bc4 u0 com.samsung.android.bbc.bbcagent/com.samsung.android.bbc.test.BBCDebugService}
+    intent={cmp=com.samsung.android.bbc.bbcagent/com.samsung.android.bbc.test.BBCDebugService}
+    packageName=com.samsung.android.bbc.bbcagent
+    processName=com.samsung.android.bbc.bbcagent
+    baseDir=/system/app/BBCAgent/BBCAgent.apk
+    dataDir=/data/user/0/com.samsung.android.bbc.bbcagent
+    app=null
+    createTime=-1s528ms startingBgTimeout=--
+    lastActivity=-1s527ms restartTime=-- createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=false lastStartId=1
+    Pending Starts:
+    #0 id=1
+      intent=Intent { cmp=com.samsung.android.bbc.bbcagent/com.samsung.android.bbc.test.BBCDebugService }
+
+  Connection bindings to services:
+  * ConnectionRecord{fba8b98 u0 CR com.tencent.android.qqdownloader/com.tencent.assistant.sdk.SDKSupportService:@d417b}
+    binding=AppBindRecord{44c5b39 com.tencent.android.qqdownloader/com.tencent.assistant.sdk.SDKSupportService:com.tencent.mobileqq}
+    conn=android.os.BinderProxy@d417b flags=0x1
+  * ConnectionRecord{5d07a98 u0 CR !FG !VIS com.amap.android.location/.GeocodeService:@198c7b}
+    binding=AppBindRecord{affff5 com.amap.android.location/.GeocodeService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@198c7b flags=0x40000005
+  * ConnectionRecord{9997896 u0 CR com.tencent.android.qqdownloader/com.tencent.assistant.tools.ToolService:@1bebb1}
+    binding=AppBindRecord{87236d7 com.tencent.android.qqdownloader/com.tencent.assistant.tools.ToolService:com.tencent.android.qqdownloader:connect}
+    conn=android.os.BinderProxy@1bebb1 flags=0x1
+  * ConnectionRecord{31a3c17 u0 CR com.tencent.android.qqdownloader/com.tencent.assistant.tools.ToolService:@1bebb1}
+    binding=AppBindRecord{87236d7 com.tencent.android.qqdownloader/com.tencent.assistant.tools.ToolService:com.tencent.android.qqdownloader:connect}
+    conn=android.os.BinderProxy@1bebb1 flags=0x1
+  * ConnectionRecord{144c804 u0 CR com.tencent.android.qqdownloader/com.tencent.assistant.tools.ToolService:@1bebb1}
+    binding=AppBindRecord{87236d7 com.tencent.android.qqdownloader/com.tencent.assistant.tools.ToolService:com.tencent.android.qqdownloader:connect}
+    conn=android.os.BinderProxy@1bebb1 flags=0x1
+  * ConnectionRecord{65291ed u0 CR com.tencent.android.qqdownloader/com.tencent.assistant.tools.ToolService:@1bebb1}
+    binding=AppBindRecord{87236d7 com.tencent.android.qqdownloader/com.tencent.assistant.tools.ToolService:com.tencent.android.qqdownloader:connect}
+    conn=android.os.BinderProxy@1bebb1 flags=0x1
+  * ConnectionRecord{3ec8822 u0 CR com.tencent.android.qqdownloader/com.tencent.assistant.tools.ToolService:@1bebb1}
+    binding=AppBindRecord{87236d7 com.tencent.android.qqdownloader/com.tencent.assistant.tools.ToolService:com.tencent.android.qqdownloader:connect}
+    conn=android.os.BinderProxy@1bebb1 flags=0x1
+  * ConnectionRecord{97c82b3 u0 CR com.tencent.android.qqdownloader/com.tencent.assistant.tools.ToolService:@1bebb1}
+    binding=AppBindRecord{87236d7 com.tencent.android.qqdownloader/com.tencent.assistant.tools.ToolService:com.tencent.android.qqdownloader:connect}
+    conn=android.os.BinderProxy@1bebb1 flags=0x1
+  * ConnectionRecord{9d35fe9 u0 CR com.tencent.android.qqdownloader/com.tencent.assistant.tools.ToolService:@1bebb1}
+    binding=AppBindRecord{87236d7 com.tencent.android.qqdownloader/com.tencent.assistant.tools.ToolService:com.tencent.android.qqdownloader:connect}
+    conn=android.os.BinderProxy@1bebb1 flags=0x1
+  * ConnectionRecord{77911a5 u0 CR com.tencent.android.qqdownloader/com.tencent.assistant.tools.ToolService:@1bebb1}
+    binding=AppBindRecord{87236d7 com.tencent.android.qqdownloader/com.tencent.assistant.tools.ToolService:com.tencent.android.qqdownloader:connect}
+    conn=android.os.BinderProxy@1bebb1 flags=0x1
+  * ConnectionRecord{c8af97a u0 CR com.tencent.android.qqdownloader/com.tencent.assistant.tools.ToolService:@1bebb1}
+    binding=AppBindRecord{87236d7 com.tencent.android.qqdownloader/com.tencent.assistant.tools.ToolService:com.tencent.android.qqdownloader:connect}
+    conn=android.os.BinderProxy@1bebb1 flags=0x1
+  * ConnectionRecord{c0808b2 u0 CR !FG !VIS com.sec.location.nsflp2/.FusedLocationService:@407abd}
+    binding=AppBindRecord{f05ed2 com.sec.location.nsflp2/.FusedLocationService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@407abd flags=0x40000005
+  * ConnectionRecord{c283ad5 u0 CR com.enhance.gameservice/.IpmService:@45638c}
+    binding=AppBindRecord{a852030 com.enhance.gameservice/.IpmService:com.enhance.gameservice}
+    conn=android.os.BinderProxy@45638c flags=0x1
+  * ConnectionRecord{7aa0b49 u0 CR com.tencent.android.qqdownloader/com.tencent.assistant.tools.ToolService:@ab1d50}
+    binding=AppBindRecord{d3da656 com.tencent.android.qqdownloader/com.tencent.assistant.tools.ToolService:com.tencent.android.qqdownloader}
+    conn=android.os.BinderProxy@ab1d50 flags=0x1
+  * ConnectionRecord{b68441 u0 com.android.bluetooth/.hfp.HeadsetService:@da7f28}
+    binding=AppBindRecord{fe69c85 com.android.bluetooth/.hfp.HeadsetService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@da7f28 flags=0x0
+  * ConnectionRecord{acb8ae8 u0 DEAD com.android.bluetooth/.hfp.HeadsetService:@da7f28}
+    binding=AppBindRecord{34ffeaa com.android.bluetooth/.hfp.HeadsetService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@da7f28 flags=0x0
+  * ConnectionRecord{1149db7 u0 CR !FG UI !VIS com.sec.android.inputmethod/.SamsungKeypad:@19fdcb6}
+    binding=AppBindRecord{c34213e com.sec.android.inputmethod/.SamsungKeypad:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@19fdcb6 flags=0x60000005
+  * ConnectionRecord{dad377e u0 com.android.bluetooth/.a2dp.A2dpService:@1cd3539}
+    binding=AppBindRecord{e3347da com.android.bluetooth/.a2dp.A2dpService:com.sec.android.app.music:service}
+    conn=android.os.BinderProxy@1cd3539 flags=0x0
+  * ConnectionRecord{83fc27 u0 CR com.bst.airmessage/.host.AirMessageService:@330eee6}
+    binding=AppBindRecord{98074f6 com.bst.airmessage/.host.AirMessageService:com.android.mms}
+    conn=android.os.BinderProxy@330eee6 flags=0x1
+  * ConnectionRecord{c6b1d84 u0 CR flipboard.cn/cn.jpush.android.service.PushService:@3367797}
+    binding=AppBindRecord{d3879d0 flipboard.cn/cn.jpush.android.service.PushService:flipboard.cn}
+    conn=android.os.BinderProxy@3367797 flags=0x1
+  * ConnectionRecord{8226684 u0 CR com.tencent.android.qqdownloader/com.tencent.assistant.daemon.CoreService:@3894497}
+    binding=AppBindRecord{aecc com.tencent.android.qqdownloader/com.tencent.assistant.daemon.CoreService:com.tencent.android.qqdownloader}
+    conn=android.os.BinderProxy@3894497 flags=0x1
+  * ConnectionRecord{16e7ba2 u0 CR com.tencent.android.qqdownloader/com.tencent.assistant.daemon.CoreService:@3894497}
+    binding=AppBindRecord{aecc com.tencent.android.qqdownloader/com.tencent.assistant.daemon.CoreService:com.tencent.android.qqdownloader}
+    conn=android.os.BinderProxy@3894497 flags=0x1
+  * ConnectionRecord{8e69a10 u0 CR com.tencent.android.qqdownloader/com.tencent.assistant.localres.localapk.loadapkservice.GetApkInfoService:@46f1ed3}
+    binding=AppBindRecord{3b6ea82 com.tencent.android.qqdownloader/com.tencent.assistant.localres.localapk.loadapkservice.GetApkInfoService:com.tencent.android.qqdownloader}
+    conn=android.os.BinderProxy@46f1ed3 flags=0x1
+  * ConnectionRecord{83473c u0 CR com.tencent.android.qqdownloader/com.tencent.assistant.tools.ToolService:@502d52f}
+    binding=AppBindRecord{d3da656 com.tencent.android.qqdownloader/com.tencent.assistant.tools.ToolService:com.tencent.android.qqdownloader}
+    conn=android.os.BinderProxy@502d52f flags=0x1
+  * ConnectionRecord{634e867 u0 CR IMP FGS com.android.server.telecom/.components.TelecomService:@51ce426}
+    binding=AppBindRecord{2dae5ef com.android.server.telecom/.components.TelecomService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@51ce426 flags=0x4000041
+  * ConnectionRecord{52293c1 u0 com.android.bluetooth/.a2dp.A2dpService:@5371ca8}
+    binding=AppBindRecord{e3347da com.android.bluetooth/.a2dp.A2dpService:com.sec.android.app.music:service}
+    conn=android.os.BinderProxy@5371ca8 flags=0x0
+  * ConnectionRecord{afd881a u0 CR com.bst.floatingmsgproxy/.net.sp.SfSpService:@53836c5}
+    binding=AppBindRecord{20e71f5 com.bst.floatingmsgproxy/.net.sp.SfSpService:com.bst.floatingmsgproxy}
+    conn=android.os.BinderProxy@53836c5 flags=0x1
+  * ConnectionRecord{bc4f76c u0 CR com.tencent.android.qqdownloader/com.qq.AppService.IPCService:@559681f}
+    binding=AppBindRecord{a82f832 com.tencent.android.qqdownloader/com.qq.AppService.IPCService:com.tencent.android.qqdownloader}
+    conn=android.os.BinderProxy@559681f flags=0x1
+  * ConnectionRecord{4823210 u0 com.android.bluetooth/.a2dp.A2dpService:@55a16d3}
+    binding=AppBindRecord{e3347da com.android.bluetooth/.a2dp.A2dpService:com.sec.android.app.music:service}
+    conn=android.os.BinderProxy@55a16d3 flags=0x0
+  * ConnectionRecord{ead2983 u0 CR com.tencent.mobileqq/.qipc.QIPCServiceEx:@58f4832}
+    binding=AppBindRecord{f7c0d01 com.tencent.mobileqq/.qipc.QIPCServiceEx:com.tencent.mobileqq:TMAssistantDownloadSDKService}
+    conn=android.os.BinderProxy@58f4832 flags=0x1
+  * ConnectionRecord{2a338e0 u0 CR com.tencent.android.qqdownloader/com.tencent.assistant.daemon.CoreService:@5f2b6e3}
+    binding=AppBindRecord{354c515 com.tencent.android.qqdownloader/com.tencent.assistant.daemon.CoreService:com.tencent.android.qqdownloader:wns}
+    conn=android.os.BinderProxy@5f2b6e3 flags=0x1
+  * ConnectionRecord{c9e236d u0 CR com.tencent.android.qqdownloader/com.tencent.assistant.daemon.CoreService:@5f2b6e3}
+    binding=AppBindRecord{354c515 com.tencent.android.qqdownloader/com.tencent.assistant.daemon.CoreService:com.tencent.android.qqdownloader:wns}
+    conn=android.os.BinderProxy@5f2b6e3 flags=0x1
+  * ConnectionRecord{44cf5a u0 CR com.tencent.android.qqdownloader/com.tencent.assistant.daemon.CoreService:@5ff1305}
+    binding=AppBindRecord{69de0ff com.tencent.android.qqdownloader/com.tencent.assistant.daemon.CoreService:com.tencent.android.qqdownloader:tools}
+    conn=android.os.BinderProxy@5ff1305 flags=0x1
+  * ConnectionRecord{7023033 u0 CR com.tencent.android.qqdownloader/com.tencent.assistant.daemon.CoreService:@5ff1305}
+    binding=AppBindRecord{69de0ff com.tencent.android.qqdownloader/com.tencent.assistant.daemon.CoreService:com.tencent.android.qqdownloader:tools}
+    conn=android.os.BinderProxy@5ff1305 flags=0x1
+  * ConnectionRecord{3382eac u0 CR com.android.providers.media/.MtpService:@6c5f45f}
+    binding=AppBindRecord{f3cd752 com.android.providers.media/.MtpService:android.process.media}
+    conn=android.os.BinderProxy@6c5f45f flags=0x1
+  * ConnectionRecord{5405d1b u0 CR com.sec.android.widgetapp.ap.hero.cmaweather/.SurfaceWidgetWeather:@6d72b2a}
+    binding=AppBindRecord{6d2d1c4 com.sec.android.widgetapp.ap.hero.cmaweather/.SurfaceWidgetWeather:com.sec.android.app.launcher}
+    conn=android.os.BinderProxy@6d72b2a flags=0x1
+  * ConnectionRecord{30b1026 u0 CR com.amap.android.location/.internal.server.NetworkLocationService:@71de781}
+    binding=AppBindRecord{e0d0c18 com.amap.android.location/.internal.server.NetworkLocationService:com.amap.android.location}
+    conn=android.os.BinderProxy@71de781 flags=0x1
+  * ConnectionRecord{3022579 u0 CR com.sec.smartcard.manager/com.sec.enterprise.mdm.sc.bai.BaiMobileAgentService:@7278240}
+    binding=AppBindRecord{d4c4af6 com.sec.smartcard.manager/com.sec.enterprise.mdm.sc.bai.BaiMobileAgentService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@7278240 flags=0x1
+  * ConnectionRecord{778660f u0 CR com.tencent.mobileqq/com.tencent.tmdownloader.TMAssistantDownloadService:@77eaf6e}
+    binding=AppBindRecord{705d1e2 com.tencent.mobileqq/com.tencent.tmdownloader.TMAssistantDownloadService:com.tencent.mobileqq:TMAssistantDownloadSDKService}
+    conn=android.os.BinderProxy@77eaf6e flags=0x1
+  * ConnectionRecord{6755325 u0 CR com.tencent.android.qqdownloader/com.tencent.assistant.daemon.CoreService:@7d16b1c}
+    binding=AppBindRecord{262802a com.tencent.android.qqdownloader/com.tencent.assistant.daemon.CoreService:com.tencent.android.qqdownloader:daemon}
+    conn=android.os.BinderProxy@7d16b1c flags=0x1
+  * ConnectionRecord{49193c u0 CR com.bst.airmessage/.host.AirMessageService:@7d4af2f}
+    binding=AppBindRecord{b98f0f7 com.bst.airmessage/.host.AirMessageService:com.bst.floatingmsgproxy}
+    conn=android.os.BinderProxy@7d4af2f flags=0x1
+  * ConnectionRecord{bf0c68f u0 CR android/.hardware.location.GeofenceHardwareService:@81241ee}
+    binding=AppBindRecord{928d821 android/.hardware.location.GeofenceHardwareService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@81241ee flags=0x1
+  * ConnectionRecord{963fc0a u0 CR com.android.systemui/.keyguard.KeyguardService:@8814475}
+    binding=AppBindRecord{2eea5d1 com.android.systemui/.keyguard.KeyguardService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@8814475 flags=0x1
+  * ConnectionRecord{4eb5958 u0 CR com.samsung.ucs.agent.boot/.BootAgentService:@8edae3b}
+    binding=AppBindRecord{503f7f3 com.samsung.ucs.agent.boot/.BootAgentService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@8edae3b flags=0x1
+  * ConnectionRecord{577bdac u0 CR IMP com.android.bluetooth/.btservice.AdapterService:@91e5f5f}
+    binding=AppBindRecord{d66ce0d com.android.bluetooth/.btservice.AdapterService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@91e5f5f flags=0x41
+  * ConnectionRecord{b3beab0 u0 CR IMP com.android.bluetooth/.gatt.GattService:@91e5f5f}
+    binding=AppBindRecord{2bfefc3 com.android.bluetooth/.gatt.GattService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@91e5f5f flags=0x41
+  * ConnectionRecord{e6a0c13 u0 CR !FG !VIS com.amap.android.location/.NetworkLocationService:@91edb02}
+    binding=AppBindRecord{2638428 com.amap.android.location/.NetworkLocationService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@91edb02 flags=0x40000005
+  * ConnectionRecord{5bab72e u0 com.android.server.telecom/.components.BluetoothVoIPService:@98725a9}
+    binding=AppBindRecord{46fae32 com.android.server.telecom/.components.BluetoothVoIPService:com.android.phone}
+    conn=android.os.BinderProxy@98725a9 flags=0x0
+  * ConnectionRecord{947cf7c u0 CR com.sec.enterprise.mdm.services.simpin/.EnterpriseSimPin:@9df566f}
+    binding=AppBindRecord{914b1c5 com.sec.enterprise.mdm.services.simpin/.EnterpriseSimPin:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@9df566f flags=0x1
+  * ConnectionRecord{a593f93 u0 CR com.android.systemui/.keyguard.KeyguardService:@a44ac82}
+    binding=AppBindRecord{6c87836 com.android.systemui/.keyguard.KeyguardService:com.android.systemui}
+    conn=android.os.BinderProxy@a44ac82 flags=0x1
+  * ConnectionRecord{70ce771 u0 CR org.simalliance.openmobileapi.service/.SmartcardService:@bacb118}
+    binding=AppBindRecord{f02e0be org.simalliance.openmobileapi.service/.SmartcardService:com.android.nfc}
+    conn=android.os.BinderProxy@bacb118 flags=0x1
+  * ConnectionRecord{d175370 u0 CR com.tencent.android.qqdownloader/com.tencent.assistant.sdk.SDKSupportService:@c3361b3}
+    binding=AppBindRecord{f64657e com.tencent.android.qqdownloader/com.tencent.assistant.sdk.SDKSupportService:com.tencent.mobileqq:TMAssistantDownloadSDKService}
+    conn=android.os.BinderProxy@c3361b3 flags=0x1
+  * ConnectionRecord{23466d4 u0 CR com.android.systemui/.recents.RecentsService:@cbcd427}
+    binding=AppBindRecord{a667b7e com.android.systemui/.recents.RecentsService:com.android.systemui}
+    conn=android.os.BinderProxy@cbcd427 flags=0x1
+  * ConnectionRecord{b66ca4f u0 com.android.bluetooth/.a2dp.A2dpService:@cd2fcae}
+    binding=AppBindRecord{e3347da com.android.bluetooth/.a2dp.A2dpService:com.sec.android.app.music:service}
+    conn=android.os.BinderProxy@cd2fcae flags=0x0
+  * ConnectionRecord{300d0ed u0 com.android.bluetooth/.a2dp.A2dpService:@cd8a304}
+    binding=AppBindRecord{e3347da com.android.bluetooth/.a2dp.A2dpService:com.sec.android.app.music:service}
+    conn=android.os.BinderProxy@cd8a304 flags=0x0
+  * ConnectionRecord{634dbc4 u0 CR com.tencent.mobileqq/.msf.service.MsfService:@db346d7}
+    binding=AppBindRecord{23729cf com.tencent.mobileqq/.msf.service.MsfService:com.tencent.mobileqq}
+    conn=android.os.BinderProxy@db346d7 flags=0x1
+  * ConnectionRecord{5c621e2 u0 CR com.tencent.mobileqq/.msf.service.MsfService:@db346d7}
+    binding=AppBindRecord{23729cf com.tencent.mobileqq/.msf.service.MsfService:com.tencent.mobileqq}
+    conn=android.os.BinderProxy@db346d7 flags=0x1
+  * ConnectionRecord{e0d4690 u0 CR com.tencent.mobileqq/.msf.service.MsfService:@db346d7}
+    binding=AppBindRecord{23729cf com.tencent.mobileqq/.msf.service.MsfService:com.tencent.mobileqq}
+    conn=android.os.BinderProxy@db346d7 flags=0x1
+  * ConnectionRecord{932e7e9 u0 CR FGSA UI com.android.systemui/.ImageWallpaper:@dd10870}
+    binding=AppBindRecord{e4a580e com.android.systemui/.ImageWallpaper:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@dd10870 flags=0x22000001
+  * ConnectionRecord{d3d3cab u0 CR com.sec.location.nsflp2/.nsmonitor.NSMonitorService:@de48efa}
+    binding=AppBindRecord{680bad4 com.sec.location.nsflp2/.nsmonitor.NSMonitorService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@de48efa flags=0x1
+  * ConnectionRecord{50ef251 u0 CR org.simalliance.openmobileapi.service/org.simalliance.openmobileapi.uiccterminal.UiccTerminal:@e569b78}
+    binding=AppBindRecord{3944758 org.simalliance.openmobileapi.service/org.simalliance.openmobileapi.uiccterminal.UiccTerminal:org.simalliance.openmobileapi.service:remote}
+    conn=android.os.BinderProxy@e569b78 flags=0x1
+  * ConnectionRecord{9c01e58 u0 CR com.tencent.android.qqdownloader/com.tencent.assistant.daemon.CoreService:@eb6673b}
+    binding=AppBindRecord{1798e1b com.tencent.android.qqdownloader/com.tencent.assistant.daemon.CoreService:com.tencent.android.qqdownloader:connect}
+    conn=android.os.BinderProxy@eb6673b flags=0x1
+  * ConnectionRecord{125af84 u0 CR com.tencent.android.qqdownloader/com.tencent.assistant.daemon.CoreService:@eb6673b}
+    binding=AppBindRecord{1798e1b com.tencent.android.qqdownloader/com.tencent.assistant.daemon.CoreService:com.tencent.android.qqdownloader:connect}
+    conn=android.os.BinderProxy@eb6673b flags=0x1
+  * ConnectionRecord{bbbad61 u0 CR com.tencent.android.qqdownloader/com.tencent.wns.service.WnsMain:@ec418c8}
+    binding=AppBindRecord{67362fc com.tencent.android.qqdownloader/com.tencent.wns.service.WnsMain:com.tencent.android.qqdownloader}
+    conn=android.os.BinderProxy@ec418c8 flags=0x1
+  * ConnectionRecord{ba55f54 u0 CR com.samsung.ucs.ucspinpad/.UcsPinpadService:@eec5ea7}
+    binding=AppBindRecord{e1990de com.samsung.ucs.ucspinpad/.UcsPinpadService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@eec5ea7 flags=0x1
+  * ConnectionRecord{bb92fbe u0 CR com.tencent.android.qqdownloader/com.tencent.assistant.tools.ToolService:@fa8e679}
+    binding=AppBindRecord{5a13871 com.tencent.android.qqdownloader/com.tencent.assistant.tools.ToolService:com.tencent.android.qqdownloader:tools}
+    conn=android.os.BinderProxy@fa8e679 flags=0x1
+

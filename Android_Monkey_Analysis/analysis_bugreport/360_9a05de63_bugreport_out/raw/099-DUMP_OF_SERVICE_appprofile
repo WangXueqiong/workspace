@@ -1,0 +1,171 @@
+mAppProfilesAutoSaving
+<APPLICATION Label=APP_PROFILE_SCREEN_ON >
+<PROPERTY Label=time_out_ms Value=800 >
+<PROPERTY Label=cpu_freq_min Value=2016 >
+</APPLICATION>
+
+<APPLICATION Label=APP_PROFILE_FINISH_ACTIVITY >
+<PROPERTY Label=time_out_ms Value=300 >
+<PROPERTY Label=cpu_freq_min Value=2016 >
+</APPLICATION>
+
+<APPLICATION Label=com.baidu.navi >
+<PROPERTY Label=gpu_level_max Value=5 >
+<PROPERTY Label=cpu_freq_max Value=1036 >
+</APPLICATION>
+
+<APPLICATION Label=com.antutu.ABenchMark >
+<PROPERTY Label=gpu_level_min Value=1 >
+<PROPERTY Label=sched_boost Value=1 >
+<PROPERTY Label=power_collapse Value=1 >
+<PROPERTY Label=cpu_freq_min Value=2016 >
+</APPLICATION>
+
+<APPLICATION Label=com.antutu.benchmark.full >
+<PROPERTY Label=gpu_level_min Value=1 >
+<PROPERTY Label=sched_boost Value=1 >
+<PROPERTY Label=power_collapse Value=1 >
+<PROPERTY Label=cpu_freq_min Value=2016 >
+</APPLICATION>
+
+<APPLICATION Label=APP_PROFILE_SCREEN_OFF >
+<PROPERTY Label=cpu_freq_max Value=1000 >
+</APPLICATION>
+
+<APPLICATION Label=com.tencent.map >
+<PROPERTY Label=gpu_level_max Value=5 >
+<PROPERTY Label=cpu_freq_max Value=1036 >
+</APPLICATION>
+
+<APPLICATION Label=APP_PROFILE_LOW_BATTERY >
+<PROPERTY Label=cpu_freq_max Value=1036 >
+</APPLICATION>
+
+<APPLICATION Label=com.android.gallery3d >
+<PROPERTY Label=gpu_level_max Value=3 >
+<PROPERTY Label=cpu_freq_max Value=1689 >
+</APPLICATION>
+
+<APPLICATION Label=APP_PROFILE_START_ACTIVITY >
+<PROPERTY Label=gpu_level_min Value=1 >
+<PROPERTY Label=sched_boost Value=1 >
+<PROPERTY Label=time_out_ms Value=1000 >
+<PROPERTY Label=cpu_freq_min Value=2016 >
+</APPLICATION>
+
+<APPLICATION Label=com.baidu.BaiduMap >
+<PROPERTY Label=gpu_level_max Value=5 >
+<PROPERTY Label=cpu_freq_max Value=1036 >
+</APPLICATION>
+
+<APPLICATION Label=com.autonavi.minimap >
+<PROPERTY Label=gpu_level_max Value=5 >
+<PROPERTY Label=cpu_freq_max Value=1036 >
+</APPLICATION>
+
+<APPLICATION Label=APP_PROFILE_KEY_PRESS >
+<PROPERTY Label=sched_boost Value=1 >
+<PROPERTY Label=time_out_ms Value=300 >
+<PROPERTY Label=cpu_freq_min Value=2016 >
+</APPLICATION>
+
+<APPLICATION Label=APP_PROFILE_NORMAL_BATTERY >
+<PROPERTY Label=cpu_freq_max Value=2016 >
+</APPLICATION>
+
+<APPLICATION Label=org.codeaurora.snapcam >
+<PROPERTY Label=cpu_freq_min Value=1401 >
+</APPLICATION>
+
+<APPLICATION Label=com.ludashi.benchmark >
+<PROPERTY Label=gpu_level_min Value=1 >
+<PROPERTY Label=power_collapse Value=1 >
+<PROPERTY Label=cpu_freq_min Value=2016 >
+</APPLICATION>
+
+mAppProfilesRegular
+<APPLICATION Label=APP_PROFILE_SCREEN_ON >
+<PROPERTY Label=time_out_ms Value=800 >
+<PROPERTY Label=cpu_freq_min Value=2016 >
+</APPLICATION>
+
+<APPLICATION Label=APP_PROFILE_FINISH_ACTIVITY >
+<PROPERTY Label=time_out_ms Value=300 >
+<PROPERTY Label=cpu_freq_min Value=2016 >
+</APPLICATION>
+
+<APPLICATION Label=com.baidu.navi >
+<PROPERTY Label=gpu_level_max Value=5 >
+<PROPERTY Label=cpu_freq_max Value=1036 >
+</APPLICATION>
+
+<APPLICATION Label=com.antutu.ABenchMark >
+<PROPERTY Label=gpu_level_min Value=1 >
+<PROPERTY Label=sched_boost Value=1 >
+<PROPERTY Label=power_collapse Value=1 >
+<PROPERTY Label=cpu_freq_min Value=2016 >
+</APPLICATION>
+
+<APPLICATION Label=com.antutu.benchmark.full >
+<PROPERTY Label=gpu_level_min Value=1 >
+<PROPERTY Label=sched_boost Value=1 >
+<PROPERTY Label=power_collapse Value=1 >
+<PROPERTY Label=cpu_freq_min Value=2016 >
+</APPLICATION>
+
+<APPLICATION Label=APP_PROFILE_SCREEN_OFF >
+<PROPERTY Label=cpu_freq_max Value=1000 >
+</APPLICATION>
+
+<APPLICATION Label=com.tencent.map >
+<PROPERTY Label=gpu_level_max Value=5 >
+<PROPERTY Label=cpu_freq_max Value=1036 >
+</APPLICATION>
+
+<APPLICATION Label=APP_PROFILE_LOW_BATTERY >
+<PROPERTY Label=cpu_freq_max Value=1036 >
+</APPLICATION>
+
+<APPLICATION Label=com.android.gallery3d >
+<PROPERTY Label=gpu_level_max Value=3 >
+<PROPERTY Label=cpu_freq_max Value=1689 >
+</APPLICATION>
+
+<APPLICATION Label=APP_PROFILE_START_ACTIVITY >
+<PROPERTY Label=gpu_level_min Value=1 >
+<PROPERTY Label=sched_boost Value=1 >
+<PROPERTY Label=time_out_ms Value=1000 >
+<PROPERTY Label=cpu_freq_min Value=2016 >
+</APPLICATION>
+
+<APPLICATION Label=com.baidu.BaiduMap >
+<PROPERTY Label=gpu_level_max Value=5 >
+<PROPERTY Label=cpu_freq_max Value=1036 >
+</APPLICATION>
+
+<APPLICATION Label=com.autonavi.minimap >
+<PROPERTY Label=gpu_level_max Value=5 >
+<PROPERTY Label=cpu_freq_max Value=1036 >
+</APPLICATION>
+
+<APPLICATION Label=APP_PROFILE_KEY_PRESS >
+<PROPERTY Label=sched_boost Value=1 >
+<PROPERTY Label=time_out_ms Value=300 >
+<PROPERTY Label=cpu_freq_min Value=2016 >
+</APPLICATION>
+
+<APPLICATION Label=APP_PROFILE_NORMAL_BATTERY >
+<PROPERTY Label=cpu_freq_max Value=2016 >
+</APPLICATION>
+
+<APPLICATION Label=org.codeaurora.snapcam >
+<PROPERTY Label=cpu_freq_min Value=1401 >
+</APPLICATION>
+
+<APPLICATION Label=com.ludashi.benchmark >
+<PROPERTY Label=gpu_level_min Value=1 >
+<PROPERTY Label=power_collapse Value=1 >
+<PROPERTY Label=cpu_freq_min Value=2016 >
+</APPLICATION>
+
+

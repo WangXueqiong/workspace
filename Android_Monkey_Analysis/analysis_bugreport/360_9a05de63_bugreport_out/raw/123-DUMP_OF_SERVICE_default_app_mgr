@@ -1,0 +1,105 @@
+QikuDefaultAppService
+*version=1
+*ALL_TYPES=[launcher, dialer, sms, browser, gallery, camera, contact]
+*SHOWN_TYPES=[launcher, dialer, sms, browser, gallery, camera, contact]
+
+# launcher #
+  Default: com.yulong.android.launcher3
+  Sys-Def: com.yulong.android.launcher3
+  Kernels: 
+    1 Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME,android.intent.category.DEFAULT] }
+  Actions: 
+    1 FilterAction { actions=[android.intent.action.MAIN] categories=[android.intent.category.HOME, android.intent.category.DEFAULT] }
+  Matched: 
+    1 com.yulong.android.launcher3
+  SysAppOrder: empty
+
+# dialer #
+  Default: com.android.mms
+  Sys-Def: com.android.mms
+  Kernels: 
+    1 Intent { act=android.intent.action.DIAL cat=[android.intent.category.DEFAULT] }
+    2 Intent { act=android.intent.action.DIAL cat=[android.intent.category.DEFAULT] dat=tel:xx }
+  Actions: 
+    1 FilterAction { actions=[android.intent.action.DIAL] categories=[android.intent.category.DEFAULT, android.intent.category.BROWSABLE] }
+    2 FilterAction { actions=[android.intent.action.DIAL, android.intent.action.VIEW] categories=[android.intent.category.DEFAULT, android.intent.category.BROWSABLE] schemes=[tel] }
+  Matched: 
+    1 com.android.mms
+  SysAppOrder: empty
+
+# sms #
+  Default: null
+  Sys-Def: com.android.mms
+  Kernels: 
+    1 Intent { act=android.intent.action.MAIN cat=[android.intent.category.DEFAULT] typ=vnd.android-dir/mms-sms }
+    2 Intent { act=android.intent.action.SEND cat=[android.intent.category.DEFAULT] dat=sms:xx }
+    3 Intent { act=android.intent.action.VIEW cat=[android.intent.category.DEFAULT] dat=smsto:xx }
+  Actions: 
+    1 FilterAction { actions=[android.intent.action.MAIN, android.intent.action.VIEW] categories=[android.intent.category.DEFAULT, android.intent.category.BROWSABLE] types=[vnd.android-dir/mms-sms, vnd.android.cursor.dir/mms] }
+    2 FilterAction { actions=[android.intent.action.SEND, android.intent.action.SENDTO] categories=[android.intent.category.DEFAULT, android.intent.category.BROWSABLE] schemes=[sms, smsto] }
+    3 FilterAction { actions=[android.intent.action.VIEW] categories=[android.intent.category.DEFAULT, android.intent.category.BROWSABLE] schemes=[sms, smsto] }
+  Matched: 
+    1 com.android.mms
+  SysAppOrder: empty
+
+# browser #
+  Default: com.qihoo.browser
+  Sys-Def: com.qihoo.browser
+  Kernels: 
+    1 Intent { act=android.intent.action.VIEW cat=[android.intent.category.DEFAULT] dat=http:///... }
+    2 Intent { act=android.intent.action.VIEW cat=[android.intent.category.DEFAULT] dat=http://tangwei.test.com/... }
+    3 Intent { act=android.intent.action.VIEW cat=[android.intent.category.DEFAULT] dat=http://tangwei.test.com/... }
+  Actions: 
+    1 FilterAction { actions=[android.intent.action.VIEW] categories=[android.intent.category.BROWSABLE, android.intent.category.DEFAULT] schemes=[http, https] }
+    2 FilterAction { actions=[android.intent.action.VIEW] categories=[android.intent.category.BROWSABLE, android.intent.category.DEFAULT] schemes=[http, https] authorities=[*] }
+    3 FilterAction { actions=[android.intent.action.VIEW] categories=[android.intent.category.BROWSABLE, android.intent.category.DEFAULT] schemes=[http, https] paths=[PatternMatcher{GLOB: *}] }
+  Matched: 
+    1 com.qihoo.browser
+    2 com.moji.mjweather
+  SysAppOrder: empty
+
+# gallery #
+  Default: com.android.gallery3d
+  Sys-Def: com.android.gallery3d
+  Kernels: 
+    1 Intent { act=android.intent.action.VIEW cat=[android.intent.category.DEFAULT] typ=image/* }
+    2 Intent { act=android.intent.action.MAIN cat=[android.intent.category.DEFAULT,android.intent.category.APP_GALLERY] }
+    3 Intent { act=android.intent.action.PICK cat=[android.intent.category.DEFAULT] typ=vnd.android.cursor.dir/image }
+  Actions: 
+    1 FilterAction { actions=[android.intent.action.VIEW, android.intent.action.GET_CONTENT, android.intent.action.PICK] categories=[android.intent.category.DEFAULT, android.intent.category.OPENABLE, android.intent.category.APP_GALLERY] types=[image] }
+    2 FilterAction { actions=[android.intent.action.MAIN] categories=[android.intent.category.DEFAULT, android.intent.category.OPENABLE, android.intent.category.APP_GALLERY] }
+    3 FilterAction { actions=[android.intent.action.PICK, android.intent.action.VIEW, android.intent.action.GET_CONTENT] categories=[android.intent.category.DEFAULT, android.intent.category.OPENABLE, android.intent.category.APP_GALLERY] types=[vnd.android.cursor.dir/image] }
+  Matched: 
+    1 com.android.gallery3d
+  SysAppOrder: empty
+
+# camera #
+  Default: com.android.camera
+  Sys-Def: com.android.camera
+  Kernels: 
+    1 Intent { act=android.media.action.IMAGE_CAPTURE cat=[android.intent.category.DEFAULT] }
+  Actions: 
+    1 FilterAction { actions=[android.media.action.IMAGE_CAPTURE] categories=[android.intent.category.DEFAULT] }
+    2 FilterAction { actions=[android.media.action.STILL_IMAGE_CAMERA] categories=[android.intent.category.DEFAULT] }
+  Matched: 
+    1 com.android.camera
+  SysAppOrder: empty
+
+# contact #
+  Default: com.android.mms
+  Sys-Def: com.android.mms
+  Kernels: 
+    1 Intent { act=android.intent.action.VIEW cat=[android.intent.category.DEFAULT] typ=vnd.android.cursor.dir/contact }
+    2 Intent { act=android.intent.action.INSERT cat=[android.intent.category.DEFAULT] typ=vnd.android.cursor.dir/contact }
+    3 Intent { act=android.intent.action.VIEW cat=[android.intent.category.DEFAULT] typ=vnd.android.cursor.item/contact }
+    4 Intent { act=android.intent.action.EDIT cat=[android.intent.category.DEFAULT] typ=vnd.android.cursor.item/contact }
+    5 Intent { act=android.intent.action.PICK cat=[android.intent.category.DEFAULT] typ=vnd.android.cursor.dir/contact }
+  Actions: 
+    1 FilterAction { actions=[android.intent.action.VIEW] categories=[android.intent.category.DEFAULT] types=[vnd.android.cursor.dir/contact, vnd.android.cursor.dir/person, vnd.android.cursor.dir/raw_contact] }
+    2 FilterAction { actions=[android.intent.action.INSERT] categories=[android.intent.category.DEFAULT] types=[vnd.android.cursor.dir/contact, vnd.android.cursor.dir/person, vnd.android.cursor.dir/raw_contact] }
+    3 FilterAction { actions=[android.intent.action.VIEW] categories=[android.intent.category.DEFAULT] types=[vnd.android.cursor.item/contact, vnd.android.cursor.item/person, vnd.android.cursor.item/raw_contact] }
+    4 FilterAction { actions=[android.intent.action.EDIT] categories=[android.intent.category.DEFAULT] types=[vnd.android.cursor.item/contact, vnd.android.cursor.item/person, vnd.android.cursor.item/raw_contact] }
+    5 FilterAction { actions=[android.intent.action.PICK] categories=[android.intent.category.DEFAULT] types=[vnd.android.cursor.dir/contact, vnd.android.cursor.dir/person, vnd.android.cursor.dir/phone_v2, vnd.android.cursor.dir/phone, vnd.android.cursor.dir/raw_contact] }
+  Matched: 
+    1 com.android.mms
+  SysAppOrder: empty

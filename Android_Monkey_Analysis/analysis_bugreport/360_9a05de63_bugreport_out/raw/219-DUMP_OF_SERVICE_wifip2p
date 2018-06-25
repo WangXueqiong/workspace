@@ -1,0 +1,40 @@
+WifiP2pService:
+ total records=18
+ rec[0]: time=12-21 17:41:00.871 processed=P2pDisabledState org=P2pDisabledState dest=P2pEnablingState what=131203(0x20083)
+ rec[1]: time=12-21 17:41:00.871 processed=P2pEnablingState org=P2pEnablingState dest=InactiveState what=147457(0x24001)
+ rec[2]: time=12-21 17:53:15.940 processed=P2pEnabledState org=InactiveState dest=P2pDisablingState what=131204(0x20084)
+ rec[3]: time=12-21 17:53:15.968 processed=P2pDisablingState org=P2pDisablingState dest=P2pDisabledState what=147458(0x24002)
+ rec[4]: time=12-21 17:54:21.380 processed=P2pDisabledState org=P2pDisabledState dest=P2pEnablingState what=131203(0x20083)
+ rec[5]: time=12-21 17:54:21.380 processed=P2pEnablingState org=P2pEnablingState dest=InactiveState what=147457(0x24001)
+ rec[6]: time=12-22 14:22:35.502 processed=P2pEnabledState org=InactiveState dest=P2pDisablingState what=131204(0x20084)
+ rec[7]: time=12-22 14:22:35.506 processed=P2pDisablingState org=P2pDisablingState dest=P2pDisabledState what=147458(0x24002)
+ rec[8]: time=12-22 14:24:12.204 processed=P2pDisabledState org=P2pDisabledState dest=P2pEnablingState what=131203(0x20083)
+ rec[9]: time=12-22 14:24:12.204 processed=P2pEnablingState org=P2pEnablingState dest=InactiveState what=147457(0x24001)
+ rec[10]: time=12-24 17:20:45.508 processed=P2pEnabledState org=InactiveState dest=P2pDisablingState what=131204(0x20084)
+ rec[11]: time=12-24 17:20:45.537 processed=P2pDisablingState org=P2pDisablingState dest=P2pDisabledState what=147458(0x24002)
+ rec[12]: time=12-24 17:21:10.228 processed=P2pDisabledState org=P2pDisabledState dest=P2pEnablingState what=131203(0x20083)
+ rec[13]: time=12-24 17:21:10.228 processed=P2pEnablingState org=P2pEnablingState dest=InactiveState what=147457(0x24001)
+ rec[14]: time=12-24 17:23:58.735 processed=P2pEnabledState org=InactiveState dest=P2pDisablingState what=131204(0x20084)
+ rec[15]: time=12-24 17:23:58.738 processed=P2pDisablingState org=P2pDisablingState dest=P2pDisabledState what=147458(0x24002)
+ rec[16]: time=12-24 17:24:06.899 processed=P2pDisabledState org=P2pDisabledState dest=P2pEnablingState what=131203(0x20083)
+ rec[17]: time=12-24 17:24:06.899 processed=P2pEnablingState org=P2pEnablingState dest=InactiveState what=147457(0x24001)
+curState=InactiveState
+mWifiP2pInfo groupFormed: false isGroupOwner: false groupOwnerAddress: null
+mGroup null
+mSavedPeerConfig 
+ address: 
+ wps:  setup: 0
+ BSSID: null
+ pin: null
+
+ groupOwnerIntent: -1
+ persist: -2
+mSavedP2pGroup null
+
+mAutonomousGroup false
+mJoinExistingGroup false
+mDiscoveryStarted false
+mNetworkInfo [type: WIFI_P2P[], state: UNKNOWN/IDLE, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: true]
+mTemporarilyDisconnectedWifi false
+mServiceDiscReqId null
+

@@ -1,0 +1,37 @@
+          client              pid             size
+----------------------------------------------------
+   system_server              847           528384
+ secure_storage_              458          1683456
+        keystore              351            86016
+        qseecomd              338            20480
+        qseecomd              338            20480
+        qseecomd              338            20480
+        qseecomd              338            20480
+qseecom-kernel-0                1          2564096
+      qsee_log-0                1            32768
+----------------------------------------------------
+orphaned allocations (info is from last known client):
+----------------------------------------------------
+  total orphaned                0
+          total           2596864
+----------------------------------------------------
+
+Memory Map
+          client  start address    end address     size (hex)
+      qsee_log-0 0x65800000 0x65807fff          32768 (8000)
+qseecom-kernel-0 0x65808000 0x6580cfff          20480 (5000)
+           338-0 0x65808000 0x6580cfff          20480 (5000)
+qseecom-kernel-0 0x65810000 0x65814fff          20480 (5000)
+           338-1 0x65810000 0x65814fff          20480 (5000)
+qseecom-kernel-0 0x65818000 0x6581cfff          20480 (5000)
+           338-2 0x65818000 0x6581cfff          20480 (5000)
+qseecom-kernel-0 0x65820000 0x65824fff          20480 (5000)
+           338-3 0x65820000 0x65824fff          20480 (5000)
+qseecom-kernel-0 0x65840000 0x65854fff          86016 (15000)
+           351-0 0x65840000 0x65854fff          86016 (15000)
+qseecom-kernel-0 0x65880000 0x658acfff         184320 (2d000)
+qseecom-kernel-0 0x65900000 0x65980fff         528384 (81000)
+           847-4 0x65900000 0x65980fff         528384 (81000)
+qseecom-kernel-0 0x65a00000 0x65b9afff        1683456 (19b000)
+           458-0 0x65a00000 0x65b9afff        1683456 (19b000)
+

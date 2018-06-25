@@ -1,0 +1,134 @@
+size/num main               radio              events             system             crash              kernel
+Total    127259437/1291072  7926388/102700     342201/4389        8080731/68674      505/12             0/0
+Now      241845/2401        254497/3248        259413/3396        252245/2221        505/12
+
+Chattiest UIDs in main log buffer:                              Size Pruned
+UID   PACKAGE                                                   BYTES LINES
+1013  media                                                    190855
+2000  shell                                                     16738
+1000  system                                                    11710
+10140 com.tianyancha.skyeye                                      6340
+10134 com.tencent.mm                                             4527
+
+
+Chattiest UIDs in radio log buffer:                             Size Pruned
+UID   PACKAGE                                                   BYTES LINES
+1001  radio                                                    114788
+1000  system                                                   112937
+1021  gps                                                       24030
+10134 com.tencent.mm                                             1952
+
+
+Chattiest UIDs in events log buffer:                             Size
+UID   PACKAGE                                                   BYTES
+1000  system                                                   223268
+10010 com.android.launcher3                                     14962
+10140 com.tianyancha.skyeye                                     11463
+10134 com.tencent.mm                                             3484
+
+
+Chattiest UIDs in system log buffer:                            Size Pruned
+UID   PACKAGE                                                   BYTES LINES
+1000  system                                                   200128
+0     root                                                      21224
+10140 com.tianyancha.skyeye                                     20418
+10134 com.tencent.mm                                             3912
+10091 com.letv.android.usagestats                                2244
+
+
+Chattiest UIDs in crash log buffer:                              Size
+UID   PACKAGE                                                   BYTES
+0     root                                                        505
+
+
+Chattiest PIDs:                                                 Size Pruned
+  PID/UID   COMMAND LINE                                        BYTES LINES
+ 1125/1000  system_server                                      516509
+  419/1013  /system/bin/mediaserver                            190855
+ 1713/1001  com.android.phone                                   69753
+  435/1021  /system/bin/mtk_agpsd                               24030
+ 9473/10140 com.tianyancha.skyeye                               23135
+  415/0     /system/bin/netd                                    22886
+ 1176/1001  /system/bin/mtkrild                                 20664
+  385/1000  /system/bin/surfaceflinger                          20282
+ 9185/2000  /system/bin/app_process32                           16922
+ 1214/1001  /system/bin/rilproxy                                13656
+ 1108/1001  /system/bin/viarild                                  9782
+10314/10140 com.tianyancha.skyeye:channel                        8814
+ 6028/10134 com.tencent.mm                                       7124
+ 9710/10010 ps                                                   6825
+
+
+Chattiest TIDs:                                                 Size Pruned
+  TID/UID   COMM                                                BYTES LINES
+ 9222/1013  MtkOmxVencEncod                                    160569
+ 1713/1001  com.android.phone                                   38178
+ 1125/1000  system_server                                       34499
+ 1962/1000  Binder_9                                            33516
+ 1140/1000  Binder_2                                            33100
+ 1608/1000  Binder_4                                            30318
+ 9221/1013  MtkOmxVencCmdTh                                     29016
+ 1975/1000  Binder_B                                            25086
+ 1124/1021  /system/bin/mtk_agpsd                               24030
+ 1579/1000  Binder_3                                            23918
+ 2157/1000  Binder_E                                            23307
+ 1267/1000  InputDispatcher                                     22593
+ 9473/10140 com.tianyancha.skyeye                               22206
+ 1143/1000  android.bg                                          21736
+ 1153/1000  android.display                                     19737
+ 1139/1000  Binder_1                                            19051
+ 2152/1000  Binder_C                                            18951
+  385/1000  /system/bin/surfaceflinger                          18717
+ 2167/1000  Binder_10                                           17322
+ 1884/1000  Binder_8                                            16853
+ 1698/1000  Binder_6                                            16164
+ 1144/1000  ActivityManager                                     16056
+ 1276/1000  NetworkStats                                        15988
+ 9220/2000  CodecLooper                                         15853
+ 2156/1000  Binder_D                                            15790
+ 1279/1000  WifiStateMachin                                     15223
+ 2166/1000  Binder_F                                            15020
+ 1282/1000  ConnectivitySer                                     14231
+ 1699/1000  Binder_7                                            13090
+ 1653/1000  Binder_5                                            11903
+ 1218/1001  Ril Proxy Main                                      10185
+ 1120/1001  /system/bin/viarild                                  9782
+
+
+Chattiest events log buffer TAGs:                                Size
+    TAG/UID   TAGNAME                                           BYTES
+   1003       auditd                                            25278
+  30047/1000  am_pss                                            20279
+  30044/1000  am_home_stack_moved                               20105
+  30025/1000  am_broadcast_discard_app                          15503
+  60100/1000  sf_frame_dur                                      15415
+  30013/1000  am_pause_activity                                 10508
+  30005/1000  am_create_activity                                10415
+  30043/1000  am_focused_activity                               10290
+   2751/1000  notification_cancel                                9434
+  30022       am_on_resume_called                                9001
+  30001/1000  am_finish_activity                                 8884
+  30021       am_on_paused_called                                8827
+   2750/1000  notification_enqueue                               8622
+  30018/1000  am_destroy_activity                                8573
+  51100/1000  netstats_mobile_sample                             7440
+  51101/1000  netstats_wifi_sample                               7440
+  31002/1000  wm_task_moved                                      7414
+  30014/1000  am_proc_start                                      7368
+  30009/1000  am_activity_launch_time                            7323
+  30006/1000  am_restart_activity                                7128
+  27511/1000  notification_expansion                             5612
+  27531/1000  notification_visibility                            5080
+  30007/1000  am_resume_activity                                 4207
+  30023/1000  am_kill                                            3692
+  30010/1000  am_proc_bound                                      2681
+  27530/1000  notification_canceled                              2489
+  30011/1000  am_proc_died                                       2204
+  30003/1000  am_new_intent                                      1761
+  30035/1000  am_schedule_service_restart                         744
+   2767/1000  vibrator_source                                     732
+  31003/1000  wm_task_removed                                     727
+  36062/10038 sysui_goto_task                                     694
+
+[logcat: 0.015s elapsed]
+

@@ -1,0 +1,10 @@
+PING 114.114.114.114 (114.114.114.114) 56(84) bytes of data.
+64 bytes from 114.114.114.114: icmp_seq=1 ttl=76 time=17.0 ms
+64 bytes from 114.114.114.114: icmp_seq=2 ttl=79 time=20.5 ms
+64 bytes from 114.114.114.114: icmp_seq=3 ttl=88 time=16.4 ms
+
+--- 114.114.114.114 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 1001ms
+rtt min/avg/max/mdev = 16.406/17.996/20.539/1.816 ms
+[ping: 1.102s elapsed]
+

@@ -1,0 +1,176 @@
+Current Input Method Manager state:
+  Input Methods:
+  InputMethod #0:
+    mId=com.xinshuru.inputmethod/.FTInputService mSettingsActivityName=com.xinshuru.inputmethod.FTInputSettingsActivity
+    mIsDefaultResId=0x0
+    Service:
+      priority=1000 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=true
+      ServiceInfo:
+        name=com.xinshuru.inputmethod.FTInputService
+        packageName=com.xinshuru.inputmethod
+        enabled=true exported=true processName=com.xinshuru.inputmethod.service
+        permission=android.permission.BIND_INPUT_METHOD
+        flags=0x0
+  InputMethod #1:
+    mId=com.android.inputmethod.latin/.LatinIME mSettingsActivityName=com.android.inputmethod.latin.settings.SettingsActivity
+    mIsDefaultResId=0x7f070000
+    Service:
+      priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+      ServiceInfo:
+        name=com.android.inputmethod.latin.LatinIME
+        packageName=com.android.inputmethod.latin
+        labelRes=0x7f0a0038 nonLocalizedLabel=null icon=0x0 banner=0x0
+        enabled=true exported=true processName=com.android.inputmethod.latin
+        permission=android.permission.BIND_INPUT_METHOD
+        flags=0x0
+  InputMethod #2:
+    mId=com.qihoo.appstore/com.qihoo360.mobilesafe.pcinput.HandoffIme mSettingsActivityName=null
+    mIsDefaultResId=0x0
+    Service:
+      priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+      ServiceInfo:
+        name=com.qihoo360.mobilesafe.pcinput.HandoffIme
+        packageName=com.qihoo.appstore
+        labelRes=0x0 nonLocalizedLabel=360æ¼ç¤ºé®çï¼è¯·å¿ä¸»å¨éæ©ï¼ icon=0x0 banner=0x0
+        enabled=true exported=true processName=com.qihoo.daemon
+        permission=android.permission.BIND_INPUT_METHOD
+        flags=0x0
+  InputMethod #3:
+    mId=com.koushikdutta.vysor/.VysorIME mSettingsActivityName=com.koushikdutta.vysor.DummyIMEActivity
+    mIsDefaultResId=0x0
+    Service:
+      priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+      ServiceInfo:
+        name=com.koushikdutta.vysor.VysorIME
+        packageName=com.koushikdutta.vysor
+        labelRes=0x7f080036 nonLocalizedLabel=null icon=0x0 banner=0x0
+        enabled=true exported=true processName=com.koushikdutta.vysor
+        permission=android.permission.BIND_INPUT_METHOD
+        flags=0x0
+  Clients:
+  Client ClientState{bbbafdb uid 10094 pid 18796}:
+    client=com.android.internal.view.IInputMethodClient$Stub$Proxy@117dbcc
+    inputContext=com.android.internal.view.IInputContext$Stub$Proxy@7e8ee15
+    sessionRequested=false
+    curSession=null
+  Client ClientState{471c980 uid 10093 pid 12856}:
+    client=com.android.internal.view.IInputMethodClient$Stub$Proxy@ff5f52a
+    inputContext=com.android.internal.view.IInputContext$Stub$Proxy@4e85f1b
+    sessionRequested=false
+    curSession=null
+  Client ClientState{1b38376 uid 10106 pid 5131}:
+    client=com.android.internal.view.IInputMethodClient$Stub$Proxy@dcce8b8
+    inputContext=com.android.internal.view.IInputContext$Stub$Proxy@5775691
+    sessionRequested=false
+    curSession=null
+  Client ClientState{9513e5f uid 10002 pid 13004}:
+    client=com.android.internal.view.IInputMethodClient$Stub$Proxy@512b0ac
+    inputContext=com.android.internal.view.IInputContext$Stub$Proxy@bd1d175
+    sessionRequested=false
+    curSession=null
+  Client ClientState{55639f6 uid 10004 pid 32677}:
+    client=com.android.internal.view.IInputMethodClient$Stub$Proxy@5a3d1f7
+    inputContext=com.android.internal.view.IInputContext$Stub$Proxy@cc3d864
+    sessionRequested=false
+    curSession=null
+  Client ClientState{ca9cacd uid 1001 pid 2448}:
+    client=com.android.internal.view.IInputMethodClient$Stub$Proxy@e681f63
+    inputContext=com.android.internal.view.IInputContext$Stub$Proxy@7a3ff82
+    sessionRequested=false
+    curSession=null
+  Client ClientState{9399693 uid 1000 pid 2961}:
+    client=com.android.internal.view.IInputMethodClient$Stub$Proxy@21816d0
+    inputContext=com.android.internal.view.IInputContext$Stub$Proxy@1546c9
+    sessionRequested=false
+    curSession=null
+  Client ClientState{b5c8063 uid 10032 pid 2025}:
+    client=com.android.internal.view.IInputMethodClient$Stub$Proxy@d1691ce
+    inputContext=com.android.internal.view.IInputContext$Stub$Proxy@65d08ef
+    sessionRequested=false
+    curSession=SessionState{uid 10032 pid 2025 method ba6050a session af5617b channel ClientState{b5c8063 uid 10032 pid 2025} (server)}
+  Client ClientState{62fcffc uid 1000 pid 1546}:
+    client=android.view.inputmethod.InputMethodManager$1@ea50dc6
+    inputContext=android.view.inputmethod.InputMethodManager$ControlledInputConnectionWrapper@ca28685
+    sessionRequested=false
+    curSession=null
+  Client ClientState{be116a5 uid 1000 pid 2769}:
+    client=com.android.internal.view.IInputMethodClient$Stub$Proxy@60dfcda
+    inputContext=com.android.internal.view.IInputContext$Stub$Proxy@19b450b
+    sessionRequested=false
+    curSession=null
+  Client ClientState{88916d7 uid 10048 pid 2789}:
+    client=com.android.internal.view.IInputMethodClient$Stub$Proxy@fa7efe8
+    inputContext=com.android.internal.view.IInputContext$Stub$Proxy@b0a0601
+    sessionRequested=false
+    curSession=SessionState{uid 10048 pid 2789 method ba6050a session e502b98 channel ClientState{88916d7 uid 10048 pid 2789} (server)}
+  Client ClientState{4fb0ff1 uid 10032 pid 17740}:
+    client=com.android.internal.view.IInputMethodClient$Stub$Proxy@32767d6
+    inputContext=com.android.internal.view.IInputContext$Stub$Proxy@eee9a57
+    sessionRequested=false
+    curSession=null
+  mCurMethodId=com.koushikdutta.vysor/.VysorIME
+  mCurClient=ClientState{88916d7 uid 10048 pid 2789} mCurSeq=1363
+  mCurFocusedWindow=android.os.BinderProxy@1b6fdf2
+  mCurId=com.koushikdutta.vysor/.VysorIME mHaveConnect=true mBoundToMethod=true
+  mCurToken=android.os.Binder@3ffd843
+  mCurIntent=Intent { act=android.view.InputMethod cmp=com.koushikdutta.vysor/.VysorIME (has extras) }
+  mCurMethod=com.android.internal.view.IInputMethod$Stub$Proxy@ba6050a
+  mEnabledSession=SessionState{uid 10048 pid 2789 method ba6050a session e502b98 channel ClientState{88916d7 uid 10048 pid 2789} (server)}
+  mShowRequested=false mShowExplicitlyRequested=false mShowForced=false mInputShown=false
+  mCurUserActionNotificationSequenceNumber=8
+  mSystemReady=true mInteractive=true
+  mSettingsObserver=SettingsObserver{mUserId=0 mRegistered=true mLastEnabled=com.koushikdutta.vysor/.VysorIME:com.xinshuru.inputmethod/.FTInputService:com.qihoo.appstore/com.qihoo360.mobilesafe.pcinput.HandoffIme}
+  mSwitchingController:
+    mSwitchingAwareRotationList:
+      rank=0 item=ImeSubtypeListItem{mImeName=Vysor mSubtypeName=Vysor mSubtypeId=0 mIsSystemLocale=false mIsSystemLanguage=false}
+    mSwitchingUnawareRotationList:
+      rank=0 item=ImeSubtypeListItem{mImeName=360æ¼ç¤ºé®çï¼è¯·å¿ä¸»å¨éæ©ï¼ mSubtypeName=ä¸­æ mSubtypeId=0 mIsSystemLocale=false mIsSystemLanguage=true}
+      rank=1 item=ImeSubtypeListItem{mImeName=æå¿è¾å¥æ³ mSubtypeName=null mSubtypeId=-1 mIsSystemLocale=false mIsSystemLanguage=false}
+ 
+Input method client state for android.view.inputmethod.InputMethodManager@87a57f8:
+  mService=com.android.internal.view.IInputMethodManager$Stub$Proxy@4b534d1
+  mMainLooper=Looper (main, tid 1) {1e55b36}
+  mIInputContext=android.view.inputmethod.InputMethodManager$ControlledInputConnectionWrapper@2367a37
+  mActive=true mHasBeenInactive=false mBindSequence=1363 mCurId=com.koushikdutta.vysor/.VysorIME
+  mCurMethod=com.android.internal.view.IInputMethodSession$Stub$Proxy@3fda948
+  mCurRootView=com.android.internal.policy.PhoneWindow$DecorView{7f8fba4 V.E...... R......D 0,0-1080,1920}
+  mServedView=com.yulong.android.launcher3.FolderIcon{db84e64 VFE...C.. .F...... 24,120-282,410 #9c030000}
+  mNextServedView=com.yulong.android.launcher3.FolderIcon{db84e64 VFE...C.. .F...... 24,120-282,410 #9c030000}
+  mServedConnecting=false
+  mCurrentTextBoxAttribute:
+    inputType=0x0 imeOptions=0x0 privateImeOptions=null
+    actionLabel=null actionId=0
+    initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0
+    hintText=null label=null
+    packageName=com.yulong.android.launcher3 fieldId=-1677524992 fieldName=null
+    extras=null
+  mServedInputConnection=null
+  mCompletions=null
+  mCursorRect=Rect(0, 0 - 0, 0)
+  mCursorSelStart=0 mCursorSelEnd=0 mCursorCandStart=0 mCursorCandEnd=0
+  mNextUserActionNotificationSequenceNumber=8 mLastSentUserActionNotificationSequenceNumber=2
+ 
+Input method service state for com.koushikdutta.vysor.VysorIME@8c5cf5d:
+  mWindowCreated=true mWindowAdded=true
+  mWindowVisible=false mWindowWasVisible=false mInShowWindow=false
+  Configuration={(default font) 1.0 460mcc3mnc zh_CN ldltr sw360dp w360dp h616dp 480dpi nrml long port finger -keyb/v/h -nav/h s.15}
+  mToken=android.os.BinderProxy@bd9e1d0
+  mInputBinding=InputBinding{android.os.BinderProxy@572b5c9 / uid 10048 / pid 2789}
+  mInputConnection=com.android.internal.view.InputConnectionWrapper@7b0d4ce
+  mStartedInputConnection=null
+  mInputStarted=true mInputViewStarted=false mCandidatesViewStarted=false
+  mInputEditorInfo:
+    inputType=0x0 imeOptions=0x0 privateImeOptions=null
+    actionLabel=null actionId=0
+    initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0
+    hintText=null label=null
+    packageName=com.yulong.android.launcher3 fieldId=-1677524992 fieldName=null
+    extras=null
+  mShowInputRequested=false mLastShowInputRequested=true mShowInputForced=false mShowInputFlags=0x0
+  mCandidatesVisibility=4 mFullscreenApplied=true mIsFullscreen=false mExtractViewHidden=false
+  mExtractedText: null
+  mExtractedToken=0
+  mIsInputViewShown=true mStatusIcon=0
+Last computed insets:
+  contentTopInsets=0 visibleTopInsets=0 touchableInsets=2 touchableRegion=SkRegion()
+ mShouldClearInsetOfPreviousIme=false

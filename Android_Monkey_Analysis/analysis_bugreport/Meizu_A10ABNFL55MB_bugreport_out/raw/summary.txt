@@ -1,0 +1,26 @@
+========================================================
+== dumpstate: 2018-05-14 18:37:16
+========================================================
+
+Build: Flyme 6.0.2.0Y
+Build fingerprint: 'Meizu/meizu_m1metal/m1metal:5.1/LMY47I/1488768936:user/release-keys'
+Bootloader: unknown
+Radio: unknown
+Network: (unknown)
+Kernel: Linux version 3.10.72-user (flyme@Mz-Builder-l6) (gcc version 4.9 20140514 (mtk-20150408) (GCC) ) #1 SMP PREEMPT Mon Mar 6 11:04:58 CST 2017
+Command line: console=tty0 console=ttyMT0,115200n1 root=/dev/ram vmalloc=496M slub_max_order=0 slub_debug=O androidboot.hardware=mt6795 bootopt=64S3,32N2,64N2 lcm=1-ma01_nt35596_fhd_dsi_vdo_sharp fps=6045 vram=37748736 printk.disable_uart=1 bootprof.pl_t=1593 bootprof.lk_t=2227 boot_reason=0 androidboot.serialno=A10ABNFL55MB androidboot.bootreason=power_key gpt=1
+
+HW:         m1metal
+SW:         LMY47I
+Variant:    null/null
+Build type: user
+IMEI:       null
+
+================================
+ANR
+================================
+
+Package: 16028
+Pid:     0
+Reason:  12074564
+

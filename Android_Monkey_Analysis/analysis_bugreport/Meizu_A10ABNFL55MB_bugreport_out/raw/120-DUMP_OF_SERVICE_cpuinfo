@@ -1,0 +1,65 @@
+Load: 16.84 / 16.66 / 16.54
+CPU usage from 24503ms to 5172ms ago:
+  3.8% 14235/adbd: 0.4% user + 3.3% kernel / faults: 3154 minor
+  3.7% 788/system_server: 1.3% user + 2.4% kernel / faults: 229 minor 2 major
+  3% 2378/bugreport: 0.2% user + 2.7% kernel / faults: 4 minor
+  2% 1839/kworker/0:2: 0% user + 2% kernel
+  1.5% 2720/com.tianyancha.skyeye: 1.3% user + 0.2% kernel / faults: 123 minor 1 major
+  1.2% 2383/dumpstate: 0.2% user + 1% kernel / faults: 1309 minor
+  1.1% 1007/kworker/1:2: 0% user + 1.1% kernel
+  0.6% 1065/com.android.systemui: 0.2% user + 0.4% kernel / faults: 602 minor 4 major
+  0.6% 2535/com.meizu.media.reader: 0.5% user + 0.1% kernel / faults: 3224 minor 14 major
+  0.4% 25127/kworker/u16:1: 0% user + 0.4% kernel
+  0.5% 301/surfaceflinger: 0.1% user + 0.3% kernel
+  0.4% 173/mtk charger_hv_: 0% user + 0.4% kernel
+  0.4% 13391/com.tencent.mobileqq: 0.3% user + 0.1% kernel / faults: 172 minor
+  0.3% 144/frame_update_wo: 0% user + 0.3% kernel
+  0.3% 1081/hif_thread: 0% user + 0.3% kernel
+  0% 31996/kworker/2:0: 0% user + 0% kernel
+  0.2% 109/hps_main: 0% user + 0.2% kernel
+  0.2% 72/cfinteractive: 0% user + 0.2% kernel
+  0.2% 174/mmcqd/0: 0% user + 0.2% kernel
+  0.2% 785/gsm0710muxd: 0% user + 0.1% kernel / faults: 1 minor
+  0.2% 2456/kworker/u16:5: 0% user + 0.2% kernel
+  0.2% 2676/com.tencent.mobileqq:qzone: 0.1% user + 0.1% kernel / faults: 160 minor 8 major
+  0.1% 781/ksdioirqd/mmc2: 0% user + 0.1% kernel
+  0.1% 1082/rx_thread: 0% user + 0.1% kernel
+  0.1% 2231/kworker/u16:0: 0% user + 0.1% kernel
+  0% 8350/kworker/3:2: 0% user + 0% kernel
+  0% 7/migration/0: 0% user + 0% kernel
+  0.1% 8/rcu_preempt: 0% user + 0.1% kernel
+  0.1% 167/fpc1020_worker: 0% user + 0.1% kernel
+  0.1% 171/bat_routine_thr: 0% user + 0.1% kernel
+  0% 1071/tx_thread: 0% user + 0% kernel
+  0.1% 2298/com.tencent.mobileqq:MSF: 0.1% user + 0% kernel / faults: 121 minor
+  0.1% 3186/com.tianyancha.skyeye:channel: 0.1% user + 0% kernel / faults: 19 minor
+  0% 14533/kworker/4:2: 0% user + 0% kernel
+  0% 3/ksoftirqd/0: 0% user + 0% kernel
+  0% 11/migration/1: 0% user + 0% kernel
+  0% 15/migration/2: 0% user + 0% kernel
+  0% 20/ksoftirqd/3: 0% user + 0% kernel
+  0% 27/migration/5: 0% user + 0% kernel
+  0% 145/disp_idlemgr: 0% user + 0% kernel
+  0% 179/kworker/0:1H: 0% user + 0% kernel
+  0% 296/healthd: 0% user + 0% kernel / faults: 3 minor
+  0% 299/servicemanager: 0% user + 0% kernel
+  0% 321/netd: 0% user + 0% kernel / faults: 225 minor
+  0% 331/secd: 0% user + 0% kernel / faults: 54 minor
+  0% 357/dnsqueue: 0% user + 0% kernel / faults: 102 minor
+  0% 372/fuelgauged: 0% user + 0% kernel
+  0% 782/stp_sdio_tx_rx: 0% user + 0% kernel
+  0% 838/mtkrild: 0% user + 0% kernel
+  0% 1290/com.meizu.safe: 0% user + 0% kernel / faults: 743 minor 3 major
+  0% 1525/com.meizu.experiencedatasync: 0% user + 0% kernel / faults: 315 minor
+  0% 1696/com.android.phone: 0% user + 0% kernel / faults: 50 minor
+  0% 1760/com.meizu.flyme.launcher: 0% user + 0% kernel / faults: 14 minor
+  0% 3156/kworker/u17:1: 0% user + 0% kernel
+  0% 4037/com.meizu.mzsyncservice: 0% user + 0% kernel / faults: 887 minor
+  0% 4714/com.android.settings: 0% user + 0% kernel / faults: 179 minor
+  0% 4845/com.aliyun.ams.tyid: 0% user + 0% kernel / faults: 185 minor
+  0% 5417/com.meizu.mstore: 0% user + 0% kernel / faults: 267 minor
+  0% 5580/com.tencent.mm:push: 0% user + 0% kernel
+  0% 6870/com.sina.weibo: 0% user + 0% kernel / faults: 662 minor 4 major
+  0% 21298/kworker/u17:0: 0% user + 0% kernel
+ +0% 3553/ping: 0% user + 0% kernel
+18% TOTAL: 4.5% user + 13% kernel + 0.2% iowait + 0.5% softirq

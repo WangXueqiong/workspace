@@ -1,0 +1,61 @@
+NetworkFactories for:
+  WIFI_UT
+  Telephony
+  WIFI
+  Telephony
+
+Active default network: 100
+
+Current Networks:
+  NetworkAgentInfo{ ni{[type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: "JD-office", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false]}  network{100}  lp{{InterfaceName: wlan0 LinkAddresses: [fe80::6a3e:34ff:febc:7cef/64,10.2.10.215/23,]  Routes: [fe80::/64 -> :: wlan0,10.2.10.0/23 -> 0.0.0.0 wlan0,0.0.0.0/0 -> 10.2.10.1 wlan0,] DnsAddresses: [202.106.0.20,114.114.114.114,] Domains:  MTU: 0 TcpBufferSizes: 524288,1048576,2097152,262144,524288,1048576 PcscfAddresses: [] }}  nc{[ Transports: WIFI Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN LinkUpBandwidth>=1048576Kbps LinkDnBandwidth>=1048576Kbps]}  Score{100}  everValidated{true}  lastValidated{true}  created{true}  explicitlySelected{false} }
+    Requests:
+      NetworkRequest [ id=1, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+      NetworkRequest [ id=2, legacyType=-1, [] ]
+      NetworkRequest [ id=4, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ]
+      NetworkRequest [ id=5, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ]
+    Lingered:
+
+Network Requests:
+  Listen from uid/pid:10030/1065 for NetworkRequest [ id=2, legacyType=-1, [] ]
+  Listen from uid/pid:10088/3440 for NetworkRequest [ id=5, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ]
+  Listen from uid/pid:10088/6870 for NetworkRequest [ id=4, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ]
+  Request from uid/pid:1000/788 for NetworkRequest [ id=1, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+  
+mLegacyTypeTracker:
+  0 none
+  1 NetworkAgentInfo [WIFI () - 100] CONNECTED/CONNECTED
+  2 none
+  3 none
+  4 none
+  5 none
+  7 none
+  10 none
+  11 none
+  12 none
+  14 none
+  15 none
+  17 none
+  34 none
+  35 none
+  36 none
+  37 none
+  38 none
+  40 none
+  41 none
+  49 none
+
+NetworkTransitionWakeLock is currently not held.
+It was last requested for 
+
+mUpstreamIfaceTypes: 
+ 0
+ 1
+ 5
+ 7
+ 9
+ 49
+
+Tether state:
+
+
+Inet condition reports:

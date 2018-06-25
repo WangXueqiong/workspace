@@ -1,0 +1,360 @@
+Current AppOps Service state:
+  Op mode watchers:
+    Op COARSE_LOCATION:
+      #0: com.android.server.AppOpsService$Callback@3c7335cc
+    Op SYSTEM_ALERT_WINDOW:
+      #0: com.android.server.AppOpsService$Callback@3f3a4015
+    Op TOAST_WINDOW:
+      #0: com.android.server.AppOpsService$Callback@3f3a4015
+  All mode watchers:
+    android.app.AppOpsManager$1@6fb5fe -> com.android.server.AppOpsService$Callback@3c7335cc
+    android.app.AppOpsManager$1@1e882b58 -> com.android.server.AppOpsService$Callback@3f3a4015
+  Clients:
+    android.os.Binder@16408594:
+      ClientState{mAppToken=android.os.Binder@16408594, local}
+    android.os.BinderProxy@2f2a347d:
+      ClientState{mAppToken=android.os.BinderProxy@2f2a347d, pid=327}
+
+  Uid 1000:
+    Package com.flyme.netadmin:
+      COARSE_LOCATION: mode=0
+      WIFI_SCAN: mode=0; time=+7h30m22s333ms ago
+    Package com.android.packageinstaller:
+      POST_NOTIFICATION: mode=0; time=+5d0h7m45s804ms ago
+      WRITE_SETTINGS: mode=0; time=+5d0h7m42s302ms ago
+    Package com.android.server.telecom:
+      READ_CALL_LOG: mode=0; time=+7h31m2s394ms ago
+      WRITE_CALL_LOG: mode=0; time=+7d8h10m31s621ms ago
+    Package com.meizu.experiencedatasync:
+      COARSE_LOCATION: mode=0
+      FINE_LOCATION: mode=0; time=+3h4m36s299ms ago
+    Package com.meizu.safe:
+      READ_CALL_LOG: mode=0; time=+7h31m0s535ms ago
+      POST_NOTIFICATION: mode=0; time=+5d1h33m18s136ms ago
+      WRITE_SETTINGS: mode=0; time=+3h5m9s639ms ago
+    Package com.meizu.setup:
+      COARSE_LOCATION: mode=0
+      WIFI_SCAN: mode=0; time=+999d23h59m59s999ms ago
+      WRITE_SETTINGS: mode=0; time=+999d23h59m59s999ms ago
+    Package android:
+      COARSE_LOCATION: mode=0
+      FINE_LOCATION: mode=0; time=+47d9h15m34s590ms ago
+      VIBRATE: mode=0; time=+1h28m8s139ms ago; duration=+44ms
+      POST_NOTIFICATION: mode=0; time=+3h16m48s770ms ago
+      WRITE_SETTINGS: mode=0; time=+3h4m9s992ms ago
+      SYSTEM_ALERT_WINDOW: mode=0; time=+3h4m11s434ms ago; duration=+25s317ms
+      AUDIO_MEDIA_VOLUME: mode=0; time=+7d8h41m31s103ms ago
+      WAKE_LOCK: mode=0; time=+39s88ms ago; duration=+140ms
+      MONITOR_LOCATION: mode=0; time=+7h31m3s231ms ago (running)
+    Package com.meizu.battery:
+      WRITE_SETTINGS: mode=0; time=+999d23h59m59s999ms ago
+      SYSTEM_ALERT_WINDOW: mode=0; time=+7d6h25m15s138ms ago; duration=+36m5s327ms
+      WAKE_LOCK: mode=0; time=+4m11s701ms ago; duration=+134ms
+    Package com.android.settings:
+      POST_NOTIFICATION: mode=0; time=+7h30m42s136ms ago
+      WRITE_SETTINGS: mode=0; time=+3h24m34s763ms ago
+    Package com.meizu.flyme.update:
+      COARSE_LOCATION: mode=0
+      FINE_LOCATION: mode=0; time=+76d8h7m16s220ms ago
+      POST_NOTIFICATION: mode=0; time=+7h30m10s589ms ago
+    Package com.meizu.connectivitysettings:
+      COARSE_LOCATION: mode=0
+      WIFI_SCAN: mode=0; time=+3d4h25m45s286ms ago
+      WAKE_LOCK: mode=0; time=+30d4h47m56s35ms ago; duration=+5ms
+  Uid 1001:
+    Package com.android.phone:
+      READ_SMS: mode=0; time=+7h31m1s417ms ago
+      WRITE_SMS: mode=0
+      WRITE_SETTINGS: mode=0; time=+49s566ms ago
+      WAKE_LOCK: mode=0; time=+49s570ms ago; duration=+6ms
+    Package com.android.mms.service:
+      WRITE_SMS: mode=0
+  Uid 1002:
+    Package com.android.bluetooth:
+      WRITE_SMS: mode=0
+  Uid 1013:
+    Package media:
+      CAMERA: mode=0; time=+7h26m57s499ms ago; duration=+138ms
+      WAKE_LOCK: mode=0; time=+47s543ms ago; duration=+3s49ms
+  Uid 1338:
+    Package com.meizu.privacy:
+      WRITE_SETTINGS: mode=0; time=+7h30m39s479ms ago
+  Uid 2000:
+    Package com.android.shell:
+      WRITE_SETTINGS: mode=0; time=+28d2h40m55s282ms ago
+  Uid u0a0:
+    Package com.amap.android.location:
+      COARSE_LOCATION: mode=0
+      WIFI_SCAN: mode=0; time=+47s161ms ago
+      WRITE_SETTINGS: mode=0; time=+46d21h48m13s440ms ago
+      MONITOR_LOCATION: mode=0; time=+7h31m1s784ms ago (running)
+  Uid u0a1:
+    Package com.yunos.lifecard:
+      COARSE_LOCATION: mode=0
+      FINE_LOCATION: mode=0; time=+7h30m28s265ms ago
+      WIFI_SCAN: mode=0; time=+12m49s618ms ago
+      NEIGHBORING_CELLS: mode=0; time=+12m51s367ms ago
+      WRITE_SETTINGS: mode=0; time=+7h30m27s853ms ago
+  Uid u0a2:
+    Package com.yunos.alimobilesearch:
+  Uid u0a4:
+    Package com.android.browser:
+      COARSE_LOCATION: mode=0
+      FINE_LOCATION: mode=0; time=+6h4m20s576ms ago
+      VIBRATE: mode=0; time=+20d5h31m45s387ms ago; duration=+953ms
+      WIFI_SCAN: mode=0; time=+33d2h44m2s467ms ago
+      POST_NOTIFICATION: mode=0; time=+6h4m20s238ms ago
+      NEIGHBORING_CELLS: mode=0; time=+33d8h43m33s320ms ago
+      WRITE_SETTINGS: mode=0; time=+33d21h13m41s365ms ago
+      READ_CLIPBOARD: mode=0; time=+33d3h11m1s525ms ago
+      WAKE_LOCK: mode=0; time=+33d8h43m20s609ms ago; duration=+2s526ms
+      TOAST_WINDOW: mode=0; time=+33d22h8m14s930ms ago; duration=+2s222ms
+  Uid u0a5:
+    Package com.android.providers.calendar:
+      READ_CALENDAR: mode=0; time=+7h30m10s696ms ago
+      WRITE_CALENDAR: mode=0; time=+7h30m43s774ms ago
+      WAKE_LOCK: mode=0; time=+7h30m10s701ms ago; duration=+104ms
+  Uid u0a7:
+    Package com.meizu.customizecenter:
+      COARSE_LOCATION: mode=0
+      FINE_LOCATION: mode=0; time=+7h29m35s884ms ago
+      VIBRATE: mode=0; time=+20d0h17m22s665ms ago; duration=+994ms
+      POST_NOTIFICATION: mode=0; time=+7h30m46s500ms ago
+      WRITE_SETTINGS: mode=0; time=+6m4s607ms ago
+  Uid u0a9:
+    Package com.meizu.yellowpage:
+    Package com.android.dialer:
+      COARSE_LOCATION: mode=0
+      READ_CONTACTS: mode=0; time=+7h30m39s270ms ago
+      WRITE_CONTACTS: mode=0; time=+999d23h59m59s999ms ago
+      READ_CALL_LOG: mode=0; time=+7h30m39s691ms ago
+      WRITE_CALL_LOG: mode=0; time=+7d8h10m31s618ms ago
+      WRITE_SETTINGS: mode=0; time=+25d8h17m13s96ms ago
+      MONITOR_LOCATION: mode=0; time=+7d8h10m34s905ms ago; duration=+10h35m35s753ms
+    Package com.meizu.netcontactservice:
+      COARSE_LOCATION: mode=0
+      FINE_LOCATION: mode=0; time=+7h30m20s180ms ago
+      WIFI_SCAN: mode=0; time=+7h30m24s324ms ago
+      NEIGHBORING_CELLS: mode=0; time=+7h30m45s816ms ago
+      WRITE_SETTINGS: mode=0; time=+76d8h7m13s142ms ago
+      WAKE_LOCK: mode=0; time=+7h30m20s336ms ago; duration=+41ms
+  Uid u0a10:
+    Package com.android.providers.media:
+      WRITE_SETTINGS: mode=0; time=+999d23h59m59s999ms ago
+      WAKE_LOCK: mode=0; time=+6m2s828ms ago; duration=+690ms
+    Package com.android.providers.downloads:
+      POST_NOTIFICATION: mode=0; time=+31d2h6m57s180ms ago
+  Uid u0a14:
+    Package com.meizu.flyme.launcher:
+      COARSE_LOCATION: mode=0
+      FINE_LOCATION: mode=0; time=+4d23h27m16s320ms ago
+      VIBRATE: mode=0; time=+3h35m38s159ms ago; duration=+44ms
+  Uid u0a15:
+    Package com.meizu.media.gallery:
+      WRITE_SETTINGS: mode=0; time=+25d3h5m5s661ms ago
+  Uid u0a18:
+    Package com.android.mms:
+      READ_SMS: mode=0; time=+7h30m42s570ms ago
+      WRITE_SMS: mode=0
+      WAKE_LOCK: mode=0; time=+7h30m42s424ms ago; duration=+235ms
+  Uid u0a19:
+    Package com.meizu.media.music:
+      COARSE_LOCATION: mode=0
+      FINE_LOCATION: mode=0; time=+3h16m47s711ms ago
+      WAKE_LOCK: mode=0; time=+19d21h43m18s123ms ago; duration=+29ms
+  Uid u0a22:
+    Package com.meizu.backup:
+  Uid u0a24:
+    Package com.meizu.flyme.input:
+      READ_CONTACTS: mode=0; time=+7h30m7s669ms ago
+      WRITE_SETTINGS: mode=0; time=+76d8h6m13s350ms ago
+      SYSTEM_ALERT_WINDOW: mode=0; time=+76d8h6m20s117ms ago; duration=+5s341ms
+      TAKE_AUDIO_FOCUS: mode=0; time=+19d21h45m4s0ms ago
+      WAKE_LOCK: mode=0; time=+7h30m51s293ms ago; duration=+698ms
+  Uid u0a27:
+    Package com.meizu.sceneinfo:
+      WRITE_SETTINGS: mode=0; time=+7h30m9s792ms ago
+  Uid u0a30:
+    Package com.android.systemui:
+      COARSE_LOCATION: mode=0
+      VIBRATE: mode=0; time=+20d0h4m46s99ms ago; duration=+44ms
+      READ_CONTACTS: mode=0; time=+7h30m58s980ms ago
+      WIFI_SCAN: mode=0; time=+7m6s911ms ago
+      POST_NOTIFICATION: mode=0; time=+7d7h59m42s622ms ago
+      WRITE_SETTINGS: mode=0; time=+7h30m57s74ms ago
+      SYSTEM_ALERT_WINDOW: mode=0; time=+22d16h52m42s516ms ago; duration=+6h11m40s106ms
+      TAKE_AUDIO_FOCUS: mode=0; time=+43d5h33m53s573ms ago
+      WAKE_LOCK: mode=0; time=+53s941ms ago; duration=+985ms
+    Package com.flyme.systemuitools:
+      POST_NOTIFICATION: mode=0; time=+7h30m57s354ms ago
+      WRITE_SETTINGS: mode=0; time=+7h30m57s422ms ago
+  Uid u0a31:
+    Package com.meizu.media.video:
+      COARSE_LOCATION: mode=0
+      FINE_LOCATION: mode=0; time=+54d23h47m30s720ms ago
+      VIBRATE: mode=0; time=+19d23h44m40s375ms ago; duration=+952ms
+      POST_NOTIFICATION: mode=0; time=+28m55s47ms ago
+  Uid u0a33:
+    Package com.meizu.flyme.wallet:
+  Uid u0a35:
+    Package com.aliyun.ams.tyid:
+      COARSE_LOCATION: mode=0
+      FINE_LOCATION: mode=0; time=+7h30m39s957ms ago
+      WRITE_SETTINGS: mode=0; time=+7h30m39s916ms ago
+  Uid u0a36:
+    Package com.android.alarmclock:
+      WAKE_LOCK: mode=0; time=+7h30m21s149ms ago; duration=+155ms
+  Uid u0a38:
+    Package com.meizu.mstore:
+      COARSE_LOCATION: mode=0; time=+46d21h50m14s223ms ago
+      VIBRATE: mode=0; time=+19d22h4m54s465ms ago; duration=+958ms
+      POST_NOTIFICATION: mode=0; time=+6m11s278ms ago
+      WRITE_SETTINGS: mode=0; time=+76d8h7m13s149ms ago
+  Uid u0a41:
+    Package com.android.calendar:
+      READ_CALENDAR: mode=0; time=+7h30m9s686ms ago
+      WRITE_CALENDAR: mode=0; time=+5d21h48m30s400ms ago
+      WAKE_LOCK: mode=0; time=+7h30m9s679ms ago; duration=+21ms
+  Uid u0a42:
+    Package com.meizu.media.camera:
+      WRITE_SETTINGS: mode=0; time=+25d3h5m12s956ms ago
+      CAMERA: mode=0; time=+3d4h26m0s183ms ago; duration=+2s499ms
+  Uid u0a47:
+    Package com.meizu.filemanager:
+      VIBRATE: mode=0; time=+47d1h57m41s543ms ago; duration=+44ms
+      WRITE_SETTINGS: mode=0; time=+54d8h8m26s734ms ago
+  Uid u0a49:
+    Package com.meizu.flyme.telecom:
+      WRITE_SETTINGS: mode=0; time=+76d8h7m20s979ms ago
+  Uid u0a50:
+    Package com.meizu.flyme.gamecenter:
+      COARSE_LOCATION: mode=0
+      FINE_LOCATION: mode=0; time=+23d20h47m14s940ms ago
+      VIBRATE: mode=0; time=+23d20h47m12s842ms ago; duration=+970ms
+      POST_NOTIFICATION: mode=0; time=+2d23h58m8s463ms ago
+      WAKE_LOCK: mode=0; time=+999d23h59m59s999ms ago; duration=+28ms
+  Uid u0a53:
+    Package com.meizu.media.life:
+      COARSE_LOCATION: mode=0
+      FINE_LOCATION: mode=0; time=+76d1h21m34s878ms ago
+      VIBRATE: mode=0; time=+20d5h5m27s547ms ago; duration=+954ms
+      READ_CALENDAR: mode=0; time=+5d22h1m56s812ms ago
+      POST_NOTIFICATION: mode=0; time=+6d6h19m56s969ms ago
+      WRITE_SETTINGS: mode=0; time=+5d22h1m55s901ms ago
+  Uid u0a59:
+    Package com.meizu.account:
+      VIBRATE: mode=0; time=+26d0h18m49s963ms ago; duration=+955ms
+      POST_NOTIFICATION: mode=0; time=+7h30m43s497ms ago
+  Uid u0a60:
+    Package com.meizu.cloud:
+      COARSE_LOCATION: mode=0
+      FINE_LOCATION: mode=0; time=+55d9h13m37s136ms ago
+      WRITE_SETTINGS: mode=0; time=+68d9h15m17s523ms ago
+  Uid u0a62:
+    Package com.meizu.mpay:
+      WAKE_LOCK: mode=0; time=+23d8h1m29s368ms ago; duration=+2s430ms
+  Uid u0a64:
+    Package com.meizu.flyme.service.find:
+      WRITE_SETTINGS: mode=0; time=+76d8h7m20s864ms ago
+  Uid u0a65:
+    Package com.meizu.share:
+      WRITE_SETTINGS: mode=0; time=+7h30m46s184ms ago
+  Uid u0a67:
+    Package com.meizu.mzsyncservice:
+      WRITE_SETTINGS: mode=0; time=+7h30m46s109ms ago
+  Uid u0a68:
+    Package com.meizu.notepaper:
+  Uid u0a72:
+    Package com.meizu.media.reader:
+      COARSE_LOCATION: mode=0
+      FINE_LOCATION: mode=0; time=+51s492ms ago
+      VIBRATE: mode=0; time=+20d6h46m40s881ms ago; duration=+953ms
+      POST_NOTIFICATION: mode=0; time=+6h36m33s154ms ago
+  Uid u0a75:
+    Package com.meizu.net.search:
+      COARSE_LOCATION: mode=0
+      FINE_LOCATION: mode=0; time=+27d22h38m52s575ms ago
+      VIBRATE: mode=0; time=+30d23h42m59s971ms ago; duration=+955ms
+      POST_NOTIFICATION: mode=0; time=+30d23h43m0s951ms ago
+      WRITE_SETTINGS: mode=0; time=+76d7h59m30s285ms ago
+  Uid u0a79:
+    Package com.meizu.flyme.weather:
+      COARSE_LOCATION: mode=0
+      FINE_LOCATION: mode=0; time=+28d4h1m33s982ms ago
+      WIFI_SCAN: mode=0; time=+3d4h4m25s795ms ago
+      NEIGHBORING_CELLS: mode=0; time=+3d4h4m25s898ms ago
+      WRITE_SETTINGS: mode=0; time=+76d8h7m13s149ms ago
+      MONITOR_LOCATION: mode=0; time=+3d4h4m25s201ms ago; duration=+5ms
+  Uid u0a88:
+    Package com.sina.weibo:
+      COARSE_LOCATION: mode=0
+      VIBRATE: mode=0; time=+7d8h5m23s488ms ago; duration=+175ms
+      READ_CONTACTS: mode=0; time=+7d7h40m5s913ms ago
+      WIFI_SCAN: mode=0; time=+7d8h5m7s871ms ago
+      POST_NOTIFICATION: mode=0; time=+41m27s194ms ago
+      NEIGHBORING_CELLS: mode=0; time=+7d8h5m28s212ms ago
+      WRITE_SETTINGS: mode=0; time=+7d8h5m19s872ms ago
+      WAKE_LOCK: mode=0; time=+7h30m9s813ms ago; duration=+81ms
+  Uid u0a89:
+    Package com.sankuai.meituan:
+      COARSE_LOCATION: mode=0
+      FINE_LOCATION: mode=0; time=+28d1h30m46s835ms ago
+      VIBRATE: mode=0; time=+28d1h33m3s382ms ago; duration=+44ms
+      WIFI_SCAN: mode=0; time=+28d1h30m51s939ms ago
+      NEIGHBORING_CELLS: mode=0; time=+28d1h30m59s452ms ago
+      MONITOR_LOCATION: mode=0; time=+28d1h38m55s379ms ago; duration=+5h20m8s839ms
+  Uid u0a95:
+    Package com.tencent.mobileqq:
+      COARSE_LOCATION: mode=0
+      FINE_LOCATION: mode=0; time=+7d7h47m43s791ms ago
+      GPS: mode=0; time=+47d1h52m32s926ms ago; duration=+1s311ms
+      VIBRATE: mode=0; time=+5d2h42m38s732ms ago; duration=+46ms
+      WIFI_SCAN: mode=0; time=+48s733ms ago
+      POST_NOTIFICATION: mode=0; time=+12m52s304ms ago
+      NEIGHBORING_CELLS: mode=0; time=+1h58m16s533ms ago
+      WRITE_SETTINGS: mode=0; time=+41d22h24m45s983ms ago
+      SYSTEM_ALERT_WINDOW: mode=0
+      READ_CLIPBOARD: mode=0; time=+5d21h57m13s757ms ago
+      WRITE_CLIPBOARD: mode=0; time=+5d2h42m37s929ms ago
+      MONITOR_LOCATION: mode=0; time=+47d1h52m32s928ms ago; duration=+1s309ms
+      MONITOR_HIGH_POWER_LOCATION: mode=0; time=+47d1h52m32s928ms ago; duration=+1s309ms
+      TOAST_WINDOW: mode=0; time=+26d0h8m32s149ms ago; duration=+1s268ms
+  Uid u0a97:
+    Package com.tencent.mm:
+      COARSE_LOCATION: mode=0
+      VIBRATE: mode=0; time=+19d22h27m41s83ms ago; duration=+44ms
+      WIFI_SCAN: mode=0; time=+5d22h1m21s873ms ago
+      POST_NOTIFICATION: mode=0; time=+7h30m10s500ms ago
+      NEIGHBORING_CELLS: mode=0; time=+5d22h1m57s42ms ago
+      WRITE_SETTINGS: mode=0; time=+5d22h2m12s25ms ago
+      SYSTEM_ALERT_WINDOW: mode=0
+      READ_CLIPBOARD: mode=0; time=+7d8h5m42s244ms ago
+      WAKE_LOCK: mode=0; time=+4h17m37s883ms ago; duration=+597ms
+      TOAST_WINDOW: mode=0; time=+76d7h19m18s864ms ago; duration=+2s268ms
+  Uid u0a112:
+    Package com.tencent.mtt:
+      COARSE_LOCATION: mode=0
+      VIBRATE: mode=0; time=+5d1h33m18s113ms ago; duration=+500ms
+      WIFI_SCAN: mode=0; time=+3d4h17m5s741ms ago
+      POST_NOTIFICATION: mode=0; time=+3d4h25m18s614ms ago
+      WRITE_SETTINGS: mode=0; time=+5d2h43m21s999ms ago
+      SYSTEM_ALERT_WINDOW: mode=1
+      READ_CLIPBOARD: mode=0; time=+3d4h25m18s944ms ago
+      WRITE_CLIPBOARD: mode=0; time=+5d0h58m38s678ms ago
+      TOAST_WINDOW: mode=0; time=+33d4h46m5s178ms ago; duration=+341ms
+  Uid u0a118:
+    Package com.huawei.hwid:
+      POST_NOTIFICATION: mode=0
+      SYSTEM_ALERT_WINDOW: mode=1
+  Uid u0a133:
+    Package com.koushikdutta.vysor:
+      SYSTEM_ALERT_WINDOW: mode=1
+  Uid u0a174:
+    Package com.tianyancha.skyeye:
+      COARSE_LOCATION: mode=0
+      FINE_LOCATION: mode=0; time=+49s58ms ago
+      WIFI_SCAN: mode=0; time=+48s477ms ago
+      POST_NOTIFICATION: mode=0; time=+1h28m8s70ms ago
+      SYSTEM_ALERT_WINDOW: mode=1
+      READ_CLIPBOARD: mode=0; time=+3h4m7s730ms ago
+      TOAST_WINDOW: mode=0; time=+36s105ms ago; duration=+2s108ms

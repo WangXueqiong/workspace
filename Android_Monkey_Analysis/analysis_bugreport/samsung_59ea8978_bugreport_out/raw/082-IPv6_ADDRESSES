@@ -1,0 +1,14 @@
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 16436 
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: dummy0: <BROADCAST,NOARP,UP,LOWER_UP> mtu 1500 
+    inet6 fe80::3079:3ff:fe67:70ea/64 scope link 
+       valid_lft forever preferred_lft forever
+22: p2p0: <NO-CARRIER,BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qlen 1000
+    inet6 fe80::c0bd:d1ff:fe90:de5a/64 scope link 
+       valid_lft forever preferred_lft forever
+23: wlan0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qlen 1000
+    inet6 fe80::c2bd:d1ff:fe90:de5a/64 scope link 
+       valid_lft forever preferred_lft forever
+[ip: 0.017s elapsed]
+

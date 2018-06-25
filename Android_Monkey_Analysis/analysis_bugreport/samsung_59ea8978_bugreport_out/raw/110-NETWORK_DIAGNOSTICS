@@ -1,0 +1,13 @@
+
+NetworkDiagnostics:ifaces{wlan0} index{23} network{504} nethandle{2164679953118}
+  ICMPv4 dst{10.2.5.1} src{10.2.5.183:9}: SUCCEEDED: 1/1 (4ms)
+  ICMPv4 dst{8.8.8.8} src{10.2.5.183:10}: SUCCEEDED: 1/1 (55ms)
+  ICMPv4 dst{202.106.0.20} src{10.2.5.183:11}: FAILED: 0/16 (4803ms)
+  ICMPv4 dst{114.114.114.114} src{10.2.5.183:8}: FAILED: 0/16 (4797ms)
+  DNS UDP dst{8.8.8.8} src{10.2.5.183:49516} qtype{1} qname{567176-android-ds.metric.gstatic.com}: SUCCEEDED: 1/1 NOERROR (58ms)
+  DNS UDP dst{202.106.0.20} src{10.2.5.183:33167} qtype{1} qname{540701-android-ds.metric.gstatic.com}: SUCCEEDED: 1/1 NOERROR (67ms)
+  DNS UDP dst{114.114.114.114} src{10.2.5.183:52857} qtype{1} qname{245852-android-ds.metric.gstatic.com}: SUCCEEDED: 1/1 NOERROR (75ms)
+
+NetworkDiagnostics:ifaces{} index{null} network{501} nethandle{2151795051230}
+[dumpsys: 4.864s elapsed]
+

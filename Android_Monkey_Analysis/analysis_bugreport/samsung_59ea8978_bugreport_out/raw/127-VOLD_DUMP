@@ -1,0 +1,40 @@
+0 0 Dumping loop status
+0 0 Dumping DM status
+0 0 Dumping mounted filesystems
+0 0 rootfs / rootfs ro,seclabel,relatime 0 0
+0 0 tmpfs /dev tmpfs rw,seclabel,nosuid,relatime,size=865768k,nr_inodes=128501,mode=755 0 0
+0 0 devpts /dev/pts devpts rw,seclabel,relatime,mode=600 0 0
+0 0 proc /proc proc rw,relatime 0 0
+0 0 sysfs /sys sysfs rw,seclabel,relatime 0 0
+0 0 selinuxfs /sys/fs/selinux selinuxfs rw,relatime 0 0
+0 0 debugfs /sys/kernel/debug debugfs rw,seclabel,relatime 0 0
+0 0 none /acct cgroup rw,relatime,cpuacct 0 0
+0 0 none /sys/fs/cgroup tmpfs rw,seclabel,relatime,size=865768k,nr_inodes=128501,mode=750,gid=1000 0 0
+0 0 tmpfs /mnt tmpfs rw,seclabel,relatime,size=865768k,nr_inodes=128501,mode=755,gid=1000 0 0
+0 0 tmpfs /mnt/secure tmpfs rw,seclabel,relatime,size=865768k,nr_inodes=128501,mode=700 0 0
+0 0 tmpfs /mnt/secure/asec tmpfs rw,seclabel,relatime,size=865768k,nr_inodes=128501,mode=700 0 0
+0 0 none /dev/cpuctl cgroup rw,relatime,cpu 0 0
+0 0 /dev/block/platform/msm_sdcc.1/by-name/apnhlos /firmware vfat ro,context=u:object_r:firmware_file:s0,relatime,uid=1000,gid=1000,fmask=0337,dmask=0227,codepage=cp437,iocharset=iso8859-1,shortname=lower,errors=remount-ro 0 0
+0 0 /dev/block/platform/msm_sdcc.1/by-name/modem /firmware-modem vfat ro,context=u:object_r:firmware_file:s0,relatime,uid=1000,gid=1000,fmask=0337,dmask=0227,codepage=cp437,iocharset=iso8859-1,shortname=lower,errors=remount-ro 0 0
+0 0 /dev/block/platform/msm_sdcc.1/by-name/system /system ext4 ro,seclabel,relatime,data=ordered 0 0
+0 0 /dev/block/platform/msm_sdcc.1/by-name/userdata /data ext4 rw,seclabel,nosuid,nodev,noatime,discard,journal_checksum,journal_async_commit,noauto_da_alloc,data=ordered 0 0
+0 0 /dev/block/platform/msm_sdcc.1/by-name/cache /cache ext4 rw,seclabel,nosuid,nodev,noatime,discard,journal_checksum,journal_async_commit,noauto_da_alloc,data=ordered 0 0
+0 0 /dev/block/platform/msm_sdcc.1/by-name/persist /persist ext4 rw,seclabel,nosuid,nodev,noatime,discard,journal_checksum,journal_async_commit,noauto_da_alloc,data=ordered 0 0
+0 0 /dev/block/platform/msm_sdcc.1/by-name/efs /efs ext4 rw,seclabel,nosuid,nodev,noatime,discard,journal_checksum,journal_async_commit,noauto_da_alloc,data=ordered 0 0
+0 0 /dev/block/platform/msm_sdcc.1/by-name/hidden /preload ext4 ro,seclabel,nosuid,nodev,relatime,data=ordered 0 0
+0 0 /dev/block/platform/msm_sdcc.1/by-name/persdata /persdata/absolute ext4 rw,seclabel,nosuid,nodev,relatime,data=ordered 0 0
+0 0 tmpfs /storage tmpfs rw,seclabel,relatime,size=865768k,nr_inodes=128501,mode=755,gid=1000 0 0
+0 0 /data/knox/tmp_sdcard /mnt/knox sdcardfs rw,seclabel,nosuid,nodev,relatime,mask=0077 0 0
+0 0 /data/knox/sdcard /mnt/knox/default/knox-emulated sdcardfs rw,seclabel,nosuid,nodev,relatime,low_uid=1000,low_gid=1000,gid=1015,multi_user,mask=0006 0 0
+0 0 /data/knox/sdcard /mnt/knox/read/knox-emulated sdcardfs rw,seclabel,nosuid,nodev,relatime,low_uid=1000,low_gid=1000,gid=9997,multi_user,mask=0027 0 0
+0 0 /data/knox/sdcard /mnt/knox/write/knox-emulated sdcardfs rw,seclabel,nosuid,nodev,relatime,low_uid=1000,low_gid=1000,gid=9997,multi_user,mask=0007 0 0
+0 0 /data/knox/secure_fs/enc_media /mnt/shell/enc_media sdcardfs rw,seclabel,nosuid,nodev,relatime,low_uid=1000,low_gid=1000,gid=9997,multi_user,reserved=20MB 0 0
+0 0 /data/media /mnt/runtime/default/emulated sdcardfs rw,seclabel,nosuid,nodev,noexec,relatime,low_uid=1023,low_gid=1023,gid=1015,multi_user,mask=0006,reserved=20MB 0 0
+0 0 /data/media /storage/emulated sdcardfs rw,seclabel,nosuid,nodev,noexec,relatime,low_uid=1023,low_gid=1023,gid=1015,multi_user,mask=0006,reserved=20MB 0 0
+0 0 /data/media /mnt/runtime/read/emulated sdcardfs rw,seclabel,nosuid,nodev,noexec,relatime,low_uid=1023,low_gid=1023,gid=9997,multi_user,mask=0027,reserved=20MB 0 0
+0 0 /data/media /mnt/runtime/write/emulated sdcardfs rw,seclabel,nosuid,nodev,noexec,relatime,low_uid=1023,low_gid=1023,gid=9997,multi_user,mask=0007,reserved=20MB 0 0
+0 0 /data/knox/secure_fs/enc_user /data/enc_user ecryptfs rw,seclabel,nodev,relatime,ecryptfs_fnek_sig=b78d4423141301ae,ecryptfs_sig=b78d4423141301ae,userid=0,sdp_enabled,partition_id=0,ecryptfs_cipher=aes,ecryptfs_key_bytes=32,ecryptfs_enable_cc,ecryptfs_passthrough,base=,label= 0 0
+0 0 /mnt/shell/enc_media /mnt/shell/enc_emulated ecryptfs rw,seclabel,nodev,relatime,ecryptfs_fnek_sig=b78d4423141301ae,ecryptfs_sig=b78d4423141301ae,userid=0,sdp_enabled,partition_id=1,ecryptfs_cipher=aes,ecryptfs_key_bytes=32,ecryptfs_enable_cc,ecryptfs_passthrough,base=,label= 0 0
+200 0 dump complete
+[vdc: 0.247s elapsed]
+

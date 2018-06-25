@@ -1,0 +1,27 @@
+boot event                      time (ms)        delta
+-----------------------------------------------------
+lk start                                           :   857        0
+lk logo display                                    :  2156     1299
+lk end                                             :  2724      568
+!@Boot: start init process                         :     0    -2724
+!@Boot: Begin of preload()                         : 13856    13856
+!@Boot: End of preload()                           : 15547     1691
+!@Boot: Entered the Android system server!         : 15769      222
+!@Boot: Start PackageManagerService                : 16728      959
+!@Boot: End PackageManagerService                  : 21080     4352
+!@Boot: Loop forever                               : 26384     5304
+!@Boot: performEnableScreen                        : 27974     1590
+!@Boot: Enabling Screen!                           : 28462      488
+!@Boot: bootcomplete                               : 28712      250
+!@Boot: Voice SVC is acquired                      :     0    -28712
+!@Boot: Data SVC is acquired                       :     0        0
+!@Boot_DEBUG: start networkManagement              : 24046    24046
+!@Boot_DEBUG: end networkManagement                : 24485      439
+!@Boot_SVC : PhoneApp OnCrate                      : 25058      573
+!@Boot_SVC : RIL_UNSOL_RIL_CONNECTED               : 25102       44
+!@Boot_SVC : setRadioPower on                      : 26062      960
+!@Boot_SVC : setUiccSubscription                   :     0    -26062
+!@Boot_SVC : SIM onAllRecordsLoaded                :     0        0
+!@Boot_SVC : RUIM onAllRecordsLoaded               :     0        0
+!@Boot_SVC : setupDataCall                         :     0        0
+

@@ -1,0 +1,474 @@
+user=0 
+  In-memory daily stats
+  timeRange="2017/12/24 08:00â17:26" 
+    packages
+      package=com.yulong.android.coolsafe totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/24 11:05" inactiveTime="2:31:41" 
+      package=android totalTime="00:00" lastTime="2017/12/24 17:20" lastTimeSystem="2017/12/24 17:20" inactiveTime="05:37" 
+      package=com.android.mms totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/24 15:55" inactiveTime="1:31:21" 
+      package=com.koushikdutta.vysor totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/24 17:25" inactiveTime="00:50" 
+      package=com.qiku.eyemode totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/24 15:17" inactiveTime="1:51:37" 
+      package=com.android.printspooler totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/24 17:26" inactiveTime="00:00" 
+      package=com.qihoo360.mobilesafe totalTime="00:00" lastTime="2017/12/24 17:23" lastTimeSystem="2017/12/24 17:23" inactiveTime="02:23" 
+      package=com.yulong.android.launcher3 totalTime="1:16:13" lastTime="2017/12/24 17:25" lastTimeSystem="2017/12/24 17:25" inactiveTime="00:48" 
+      package=com.android.packageinstaller totalTime="00:23" lastTime="2017/12/24 17:20" lastTimeSystem="2017/12/24 17:20" inactiveTime="05:44" 
+      package=com.android.inputmethod.latin totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/24 17:24" inactiveTime="01:54" 
+      package=com.qiku.riskinsight totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/24 13:58" inactiveTime="2:19:02" 
+      package=com.qihoo.appstore totalTime="00:00" lastTime="2017/12/24 17:20" lastTimeSystem="2017/12/24 17:20" inactiveTime="05:38" 
+      package=com.android.settings totalTime="06:07" lastTime="2017/12/24 17:25" lastTimeSystem="2017/12/24 17:25" inactiveTime="00:48" 
+      package=com.tianyancha.skyeye totalTime="1:07:55" lastTime="2017/12/24 17:25" lastTimeSystem="2017/12/24 17:25" inactiveTime="00:48" 
+      package=com.android.providers.userdictionary totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/24 17:24" inactiveTime="01:46" 
+      package=com.android.systemui totalTime="00:02" lastTime="2017/12/24 17:20" lastTimeSystem="2017/12/24 17:24" inactiveTime="02:00" 
+      package=com.qiku.powermaster totalTime="00:06" lastTime="2017/12/24 15:54" lastTimeSystem="2017/12/24 15:54" inactiveTime="1:31:27" 
+      package=com.qiku.freecall totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/24 15:55" inactiveTime="1:31:21" 
+    configurations
+      config=mcc460-mnc3-zh-rCN-ldltr-sw360dp-w640dp-h336dp-normal-long-notround-land-notnight-xxhdpi-finger-keysexposed-nokeys-navhidden-nonav-v23 totalTime="00:09" lastTime="2017/12/24 15:55" count=2 
+      config=mcc460-mnc3-zh-rCN-ldltr-sw360dp-w360dp-h616dp-normal-long-notround-port-notnight-xxhdpi-finger-keysexposed-nokeys-navhidden-nonav-v23 totalTime="00:01" lastTime="2017/12/24 15:55" count=2 
+    events
+      time="2017/12/24 13:39" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.detail.company.FirmDetailActivity 
+      time="2017/12/24 13:49" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.detail.company.FirmDetailActivity 
+      time="2017/12/24 13:55" type=MOVE_TO_FOREGROUND package=com.android.settings class=com.qiku.android.settings.activities.YLUsbSettings 
+      time="2017/12/24 13:55" type=MOVE_TO_BACKGROUND package=com.android.settings class=com.qiku.android.settings.activities.YLUsbSettings 
+      time="2017/12/24 13:55" type=MOVE_TO_FOREGROUND package=com.qiku.powermaster class=com.qiku.powermaster.activities.KeyguardActivity 
+      time="2017/12/24 13:55" type=MOVE_TO_BACKGROUND package=com.qiku.powermaster class=com.qiku.powermaster.activities.KeyguardActivity 
+      time="2017/12/24 13:55" type=MOVE_TO_FOREGROUND package=com.qiku.powermaster class=com.qiku.powermaster.activities.KeyguardActivity 
+      time="2017/12/24 13:55" type=MOVE_TO_BACKGROUND package=com.qiku.powermaster class=com.qiku.powermaster.activities.KeyguardActivity 
+      time="2017/12/24 13:55" type=MOVE_TO_FOREGROUND package=com.android.settings class=com.qiku.android.settings.activities.YLUsbSettings 
+      time="2017/12/24 13:55" type=MOVE_TO_BACKGROUND package=com.android.settings class=com.qiku.android.settings.activities.YLUsbSettings 
+      time="2017/12/24 13:55" type=MOVE_TO_FOREGROUND package=com.yulong.android.launcher3 class=com.yulong.android.launcher3.Launcher 
+      time="2017/12/24 13:58" type=MOVE_TO_BACKGROUND package=com.yulong.android.launcher3 class=com.yulong.android.launcher3.Launcher 
+      time="2017/12/24 13:58" type=MOVE_TO_FOREGROUND package=com.android.packageinstaller class=com.android.packageinstaller.PackageInstallerActivity 
+      time="2017/12/24 13:58" type=MOVE_TO_BACKGROUND package=com.android.packageinstaller class=com.android.packageinstaller.PackageInstallerActivity 
+      time="2017/12/24 13:58" type=MOVE_TO_FOREGROUND package=com.android.packageinstaller class=com.os360.dotstub.ui.DownloadActivity 
+      time="2017/12/24 13:58" type=MOVE_TO_BACKGROUND package=com.android.packageinstaller class=com.os360.dotstub.ui.DownloadActivity 
+      time="2017/12/24 13:58" type=MOVE_TO_FOREGROUND package=com.yulong.android.launcher3 class=com.yulong.android.launcher3.Launcher 
+      time="2017/12/24 13:58" type=MOVE_TO_BACKGROUND package=com.yulong.android.launcher3 class=com.yulong.android.launcher3.Launcher 
+      time="2017/12/24 13:58" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.SplashPage 
+      time="2017/12/24 13:59" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.SplashPage 
+      time="2017/12/24 13:59" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.activity.LaunchActivity 
+      time="2017/12/24 13:59" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.activity.LaunchActivity 
+      time="2017/12/24 13:59" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2017/12/24 13:59" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2017/12/24 13:59" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.activity.SearchActivity 
+      time="2017/12/24 13:59" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.activity.SearchActivity 
+      time="2017/12/24 13:59" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2017/12/24 14:00" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2017/12/24 14:00" type=MOVE_TO_FOREGROUND package=com.android.settings class=com.qiku.android.settings.activities.YLUsbSettings 
+      time="2017/12/24 14:00" type=MOVE_TO_BACKGROUND package=com.android.settings class=com.qiku.android.settings.activities.YLUsbSettings 
+      time="2017/12/24 14:00" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2017/12/24 14:00" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2017/12/24 14:00" type=MOVE_TO_FOREGROUND package=com.android.settings class=com.qiku.android.settings.activities.YLUsbSettings 
+      time="2017/12/24 14:00" type=MOVE_TO_BACKGROUND package=com.android.settings class=com.qiku.android.settings.activities.YLUsbSettings 
+      time="2017/12/24 14:00" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2017/12/24 14:01" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2017/12/24 14:01" type=MOVE_TO_FOREGROUND package=com.android.settings class=com.qiku.android.settings.activities.YLUsbSettings 
+      time="2017/12/24 14:01" type=MOVE_TO_BACKGROUND package=com.android.settings class=com.qiku.android.settings.activities.YLUsbSettings 
+      time="2017/12/24 14:01" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2017/12/24 14:01" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2017/12/24 14:01" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.LoginActivity 
+      time="2017/12/24 14:01" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.LoginActivity 
+      time="2017/12/24 14:01" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2017/12/24 14:03" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2017/12/24 14:03" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.search.SearchCompanyActivity 
+      time="2017/12/24 14:03" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.search.SearchCompanyActivity 
+      time="2017/12/24 14:03" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.detail.company.FirmDetailRelationActivity 
+      time="2017/12/24 14:03" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.detail.company.FirmDetailRelationActivity 
+      time="2017/12/24 14:03" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2017/12/24 14:03" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2017/12/24 14:03" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.search.SearchCompanyActivity 
+      time="2017/12/24 14:04" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.search.SearchCompanyActivity 
+      time="2017/12/24 14:04" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2017/12/24 14:04" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2017/12/24 14:04" type=MOVE_TO_FOREGROUND package=com.android.settings class=com.qiku.android.settings.activities.YLUsbSettings 
+      time="2017/12/24 14:04" type=MOVE_TO_BACKGROUND package=com.android.settings class=com.qiku.android.settings.activities.YLUsbSettings 
+      time="2017/12/24 14:04" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2017/12/24 14:04" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2017/12/24 14:04" type=MOVE_TO_FOREGROUND package=com.android.settings class=com.qiku.android.settings.activities.YLUsbSettings 
+      time="2017/12/24 14:04" type=MOVE_TO_BACKGROUND package=com.android.settings class=com.qiku.android.settings.activities.YLUsbSettings 
+      time="2017/12/24 14:04" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2017/12/24 14:04" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2017/12/24 14:04" type=MOVE_TO_FOREGROUND package=com.android.settings class=com.qiku.android.settings.activities.YLUsbSettings 
+      time="2017/12/24 14:04" type=MOVE_TO_BACKGROUND package=com.android.settings class=com.qiku.android.settings.activities.YLUsbSettings 
+      time="2017/12/24 14:04" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2017/12/24 14:04" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2017/12/24 14:04" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.search.SearchCompanyActivity 
+      time="2017/12/24 14:04" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.search.SearchCompanyActivity 
+      time="2017/12/24 14:04" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.detail.company.FirmDetailRelationActivity 
+      time="2017/12/24 14:05" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.detail.company.FirmDetailRelationActivity 
+      time="2017/12/24 14:05" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2017/12/24 14:05" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2017/12/24 14:05" type=MOVE_TO_FOREGROUND package=com.yulong.android.launcher3 class=com.yulong.android.launcher3.Launcher 
+      time="2017/12/24 14:05" type=MOVE_TO_BACKGROUND package=com.yulong.android.launcher3 class=com.yulong.android.launcher3.Launcher 
+      time="2017/12/24 14:05" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.SplashPage 
+      time="2017/12/24 14:05" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.SplashPage 
+      time="2017/12/24 14:05" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2017/12/24 14:05" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2017/12/24 14:05" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.search.SearchCompanyActivity 
+      time="2017/12/24 14:05" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.search.SearchCompanyActivity 
+      time="2017/12/24 14:05" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2017/12/24 14:15" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2017/12/24 14:15" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.search.SearchCompanyActivity 
+      time="2017/12/24 14:15" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.search.SearchCompanyActivity 
+      time="2017/12/24 14:15" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2017/12/24 14:15" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2017/12/24 14:15" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.search.SearchCompanyActivity 
+      time="2017/12/24 14:15" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.search.SearchCompanyActivity 
+      time="2017/12/24 14:15" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2017/12/24 14:15" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2017/12/24 14:15" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.search.SearchCompanyActivity 
+      time="2017/12/24 14:15" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.search.SearchCompanyActivity 
+      time="2017/12/24 14:15" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2017/12/24 14:15" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2017/12/24 14:15" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.activity.IntroduceVipActivity 
+      time="2017/12/24 14:15" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.activity.IntroduceVipActivity 
+      time="2017/12/24 14:15" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2017/12/24 14:25" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2017/12/24 14:25" type=MOVE_TO_FOREGROUND package=com.qiku.powermaster class=com.qiku.powermaster.activities.KeyguardActivity 
+      time="2017/12/24 14:25" type=MOVE_TO_BACKGROUND package=com.qiku.powermaster class=com.qiku.powermaster.activities.KeyguardActivity 
+      time="2017/12/24 15:17" type=MOVE_TO_FOREGROUND package=com.qiku.powermaster class=com.qiku.powermaster.activities.KeyguardActivity 
+      time="2017/12/24 15:17" type=MOVE_TO_BACKGROUND package=com.qiku.powermaster class=com.qiku.powermaster.activities.KeyguardActivity 
+      time="2017/12/24 15:17" type=MOVE_TO_FOREGROUND package=com.yulong.android.launcher3 class=com.yulong.android.launcher3.Launcher 
+      time="2017/12/24 15:17" type=MOVE_TO_BACKGROUND package=com.yulong.android.launcher3 class=com.yulong.android.launcher3.Launcher 
+      time="2017/12/24 15:17" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.SplashPage 
+      time="2017/12/24 15:17" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.SplashPage 
+      time="2017/12/24 15:17" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2017/12/24 15:27" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2017/12/24 15:27" type=MOVE_TO_FOREGROUND package=com.qiku.powermaster class=com.qiku.powermaster.activities.KeyguardActivity 
+      time="2017/12/24 15:27" type=MOVE_TO_BACKGROUND package=com.qiku.powermaster class=com.qiku.powermaster.activities.KeyguardActivity 
+      time="2017/12/24 15:29" type=MOVE_TO_FOREGROUND package=com.qiku.powermaster class=com.qiku.powermaster.activities.KeyguardActivity 
+      time="2017/12/24 15:29" type=MOVE_TO_BACKGROUND package=com.qiku.powermaster class=com.qiku.powermaster.activities.KeyguardActivity 
+      time="2017/12/24 15:29" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2017/12/24 15:39" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2017/12/24 15:39" type=MOVE_TO_FOREGROUND package=com.qiku.powermaster class=com.qiku.powermaster.activities.KeyguardActivity 
+      time="2017/12/24 15:39" type=MOVE_TO_BACKGROUND package=com.qiku.powermaster class=com.qiku.powermaster.activities.KeyguardActivity 
+      time="2017/12/24 15:54" type=MOVE_TO_FOREGROUND package=com.android.settings class=com.qiku.android.settings.activities.YLUsbSettings 
+      time="2017/12/24 15:54" type=MOVE_TO_BACKGROUND package=com.android.settings class=com.qiku.android.settings.activities.YLUsbSettings 
+      time="2017/12/24 15:54" type=MOVE_TO_BACKGROUND package=com.android.settings class=com.qiku.android.settings.activities.YLUsbSettings 
+      time="2017/12/24 15:54" type=MOVE_TO_FOREGROUND package=com.android.settings class=com.qiku.android.settings.activities.YLUsbSettings 
+      time="2017/12/24 15:54" type=MOVE_TO_FOREGROUND package=com.android.settings class=com.qiku.android.settings.activities.YLUsbSettings 
+      time="2017/12/24 15:54" type=MOVE_TO_FOREGROUND package=com.android.settings class=com.qiku.android.settings.activities.YLUsbSettings 
+      time="2017/12/24 15:54" type=MOVE_TO_BACKGROUND package=com.android.settings class=com.qiku.android.settings.activities.YLUsbSettings 
+      time="2017/12/24 15:54" type=MOVE_TO_FOREGROUND package=com.qiku.powermaster class=com.qiku.powermaster.activities.KeyguardActivity 
+      time="2017/12/24 15:54" type=MOVE_TO_BACKGROUND package=com.qiku.powermaster class=com.qiku.powermaster.activities.KeyguardActivity 
+      time="2017/12/24 15:54" type=MOVE_TO_FOREGROUND package=com.yulong.android.launcher3 class=com.yulong.android.launcher3.Launcher 
+      time="2017/12/24 15:54" type=MOVE_TO_BACKGROUND package=com.yulong.android.launcher3 class=com.yulong.android.launcher3.Launcher 
+      time="2017/12/24 15:54" type=MOVE_TO_FOREGROUND package=com.android.settings class=com.android.settings.Settings 
+      time="2017/12/24 15:55" type=MOVE_TO_BACKGROUND package=com.android.settings class=com.android.settings.Settings 
+      time="2017/12/24 15:55" type=MOVE_TO_FOREGROUND package=com.android.settings class=com.qiku.android.settings.activities.YLUsbSettings 
+      time="2017/12/24 15:55" type=MOVE_TO_BACKGROUND package=com.android.settings class=com.qiku.android.settings.activities.YLUsbSettings 
+      time="2017/12/24 15:55" type=MOVE_TO_FOREGROUND package=com.android.settings class=com.android.settings.Settings 
+      time="2017/12/24 15:55" type=MOVE_TO_BACKGROUND package=com.android.settings class=com.android.settings.Settings 
+      time="2017/12/24 15:55" type=CONFIGURATION_CHANGE package=android config=mcc460-mnc3-zh-rCN-ldltr-sw360dp-w640dp-h336dp-normal-long-notround-land-notnight-xxhdpi-finger-keysexposed-nokeys-navhidden-nonav-v23 
+      time="2017/12/24 15:55" type=MOVE_TO_FOREGROUND package=com.android.settings class=com.android.settings.SubSettings 
+      time="2017/12/24 15:55" type=MOVE_TO_BACKGROUND package=com.android.settings class=com.android.settings.SubSettings 
+      time="2017/12/24 15:55" type=CONFIGURATION_CHANGE package=android config=w360dp-h616dp-port-v23 
+      time="2017/12/24 15:55" type=MOVE_TO_FOREGROUND package=com.android.settings class=com.android.settings.Settings 
+      time="2017/12/24 15:55" type=MOVE_TO_BACKGROUND package=com.android.settings class=com.android.settings.Settings 
+      time="2017/12/24 15:55" type=CONFIGURATION_CHANGE package=android config=w640dp-h336dp-land-v23 
+      time="2017/12/24 15:55" type=MOVE_TO_FOREGROUND package=com.android.settings class=com.android.settings.SubSettings 
+      time="2017/12/24 15:55" type=MOVE_TO_BACKGROUND package=com.android.settings class=com.android.settings.SubSettings 
+      time="2017/12/24 15:55" type=CONFIGURATION_CHANGE package=android config=w360dp-h616dp-port-v23 
+      time="2017/12/24 15:55" type=MOVE_TO_FOREGROUND package=com.android.settings class=com.android.settings.Settings 
+      time="2017/12/24 15:55" type=MOVE_TO_BACKGROUND package=com.android.settings class=com.android.settings.Settings 
+      time="2017/12/24 15:55" type=MOVE_TO_FOREGROUND package=com.yulong.android.launcher3 class=com.yulong.android.launcher3.Launcher 
+      time="2017/12/24 15:56" type=MOVE_TO_BACKGROUND package=com.yulong.android.launcher3 class=com.yulong.android.launcher3.Launcher 
+      time="2017/12/24 15:56" type=MOVE_TO_FOREGROUND package=com.android.settings class=com.qiku.android.settings.activities.YLUsbSettings 
+      time="2017/12/24 15:56" type=MOVE_TO_BACKGROUND package=com.android.settings class=com.qiku.android.settings.activities.YLUsbSettings 
+      time="2017/12/24 15:56" type=MOVE_TO_FOREGROUND package=com.yulong.android.launcher3 class=com.yulong.android.launcher3.Launcher 
+      time="2017/12/24 15:56" type=MOVE_TO_BACKGROUND package=com.yulong.android.launcher3 class=com.yulong.android.launcher3.Launcher 
+      time="2017/12/24 15:56" type=MOVE_TO_FOREGROUND package=com.android.settings class=com.qiku.android.settings.activities.YLUsbSettings 
+      time="2017/12/24 15:56" type=MOVE_TO_BACKGROUND package=com.android.settings class=com.qiku.android.settings.activities.YLUsbSettings 
+      time="2017/12/24 15:56" type=MOVE_TO_FOREGROUND package=com.yulong.android.launcher3 class=com.yulong.android.launcher3.Launcher 
+      time="2017/12/24 15:56" type=MOVE_TO_BACKGROUND package=com.yulong.android.launcher3 class=com.yulong.android.launcher3.Launcher 
+      time="2017/12/24 15:56" type=MOVE_TO_FOREGROUND package=com.android.settings class=com.qiku.android.settings.activities.YLUsbSettings 
+      time="2017/12/24 15:57" type=MOVE_TO_BACKGROUND package=com.android.settings class=com.qiku.android.settings.activities.YLUsbSettings 
+      time="2017/12/24 15:57" type=MOVE_TO_FOREGROUND package=com.yulong.android.launcher3 class=com.yulong.android.launcher3.Launcher 
+      time="2017/12/24 15:57" type=MOVE_TO_BACKGROUND package=com.yulong.android.launcher3 class=com.yulong.android.launcher3.Launcher 
+      time="2017/12/24 15:57" type=MOVE_TO_FOREGROUND package=com.android.settings class=com.qiku.android.settings.activities.YLUsbSettings 
+      time="2017/12/24 16:01" type=MOVE_TO_BACKGROUND package=com.android.settings class=com.qiku.android.settings.activities.YLUsbSettings 
+      time="2017/12/24 16:01" type=MOVE_TO_FOREGROUND package=com.yulong.android.launcher3 class=com.yulong.android.launcher3.Launcher 
+      time="2017/12/24 16:02" type=MOVE_TO_BACKGROUND package=com.yulong.android.launcher3 class=com.yulong.android.launcher3.Launcher 
+      time="2017/12/24 16:02" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.SplashPage 
+      time="2017/12/24 16:02" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.SplashPage 
+      time="2017/12/24 16:02" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2017/12/24 16:03" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2017/12/24 16:03" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.BannerWebDetailActivity 
+      time="2017/12/24 16:03" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.BannerWebDetailActivity 
+      time="2017/12/24 16:03" type=MOVE_TO_FOREGROUND package=com.android.settings class=com.qiku.android.settings.activities.YLUsbSettings 
+      time="2017/12/24 16:03" type=MOVE_TO_BACKGROUND package=com.android.settings class=com.qiku.android.settings.activities.YLUsbSettings 
+      time="2017/12/24 16:03" type=MOVE_TO_FOREGROUND package=com.yulong.android.launcher3 class=com.yulong.android.launcher3.Launcher 
+      time="2017/12/24 17:13" type=MOVE_TO_BACKGROUND package=com.yulong.android.launcher3 class=com.yulong.android.launcher3.Launcher 
+      time="2017/12/24 17:13" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.SplashPage 
+      time="2017/12/24 17:13" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.SplashPage 
+      time="2017/12/24 17:13" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2017/12/24 17:13" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2017/12/24 17:13" type=MOVE_TO_FOREGROUND package=com.yulong.android.launcher3 class=com.yulong.android.launcher3.Launcher 
+      time="2017/12/24 17:15" type=MOVE_TO_BACKGROUND package=com.yulong.android.launcher3 class=com.yulong.android.launcher3.Launcher 
+      time="2017/12/24 17:15" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.SplashPage 
+      time="2017/12/24 17:15" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.SplashPage 
+      time="2017/12/24 17:15" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2017/12/24 17:20" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2017/12/24 17:20" type=MOVE_TO_FOREGROUND package=com.android.systemui class=com.android.systemui.recent.RecentsActivity 
+      time="2017/12/24 17:20" type=MOVE_TO_BACKGROUND package=com.android.systemui class=com.android.systemui.recent.RecentsActivity 
+      time="2017/12/24 17:20" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2017/12/24 17:20" type=USER_INTERACTION package=com.android.packageinstaller 
+      time="2017/12/24 17:20" type=USER_INTERACTION package=com.qihoo.appstore 
+      time="2017/12/24 17:20" type=USER_INTERACTION package=android 
+      time="2017/12/24 17:20" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2017/12/24 17:20" type=MOVE_TO_FOREGROUND package=com.yulong.android.launcher3 class=com.yulong.android.launcher3.Launcher 
+      time="2017/12/24 17:20" type=MOVE_TO_BACKGROUND package=com.yulong.android.launcher3 class=com.yulong.android.launcher3.Launcher 
+      time="2017/12/24 17:20" type=MOVE_TO_FOREGROUND package=com.android.systemui class=com.android.systemui.recent.RecentsActivity 
+      time="2017/12/24 17:20" type=MOVE_TO_BACKGROUND package=com.android.systemui class=com.android.systemui.recent.RecentsActivity 
+      time="2017/12/24 17:20" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2017/12/24 17:20" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2017/12/24 17:20" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.activity.BecomeVIPActivity 
+      time="2017/12/24 17:21" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.activity.BecomeVIPActivity 
+      time="2017/12/24 17:21" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2017/12/24 17:21" type=USER_INTERACTION package=com.qihoo360.mobilesafe 
+      time="2017/12/24 17:23" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.MainActivity 
+      time="2017/12/24 17:23" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.follow.FragmentMyFollow 
+      time="2017/12/24 17:23" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.follow.FragmentMyFollow 
+      time="2017/12/24 17:23" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.activity.MyMonitoringActivity 
+      time="2017/12/24 17:23" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.activity.MyMonitoringActivity 
+      time="2017/12/24 17:23" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.follow.FragmentMyFollow 
+      time="2017/12/24 17:23" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.follow.FragmentMyFollow 
+      time="2017/12/24 17:23" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.activity.MyMonitoringActivity 
+      time="2017/12/24 17:23" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.activity.MyMonitoringActivity 
+      time="2017/12/24 17:23" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.follow.FragmentMyFollow 
+      time="2017/12/24 17:23" type=USER_INTERACTION package=com.qihoo360.mobilesafe 
+      time="2017/12/24 17:24" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.follow.FragmentMyFollow 
+      time="2017/12/24 17:24" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.activity.MyMonitoringActivity 
+      time="2017/12/24 17:24" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.activity.MyMonitoringActivity 
+      time="2017/12/24 17:24" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.follow.FragmentMyFollow 
+      time="2017/12/24 17:24" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.follow.FragmentMyFollow 
+      time="2017/12/24 17:24" type=MOVE_TO_FOREGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.activity.follow.MyGroupActivity 
+      time="2017/12/24 17:25" type=MOVE_TO_BACKGROUND package=com.tianyancha.skyeye class=com.tianyancha.skyeye.activity.follow.MyGroupActivity 
+      time="2017/12/24 17:25" type=MOVE_TO_FOREGROUND package=com.android.settings class=com.qiku.android.settings.activities.YLUsbSettings 
+      time="2017/12/24 17:25" type=MOVE_TO_BACKGROUND package=com.android.settings class=com.qiku.android.settings.activities.YLUsbSettings 
+      time="2017/12/24 17:25" type=MOVE_TO_FOREGROUND package=com.yulong.android.launcher3 class=com.yulong.android.launcher3.Launcher 
+  In-memory weekly stats
+  timeRange="2017/12/21 08:00 â 2017/12/24 17:26" 
+    packages
+      package=com.android.providers.telephony totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/23 17:50" inactiveTime="2:31:41" 
+      package=com.qiku.logsystem totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/23 17:50" inactiveTime="2:31:41" 
+      package=com.android.providers.media totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/23 17:50" inactiveTime="2:31:41" 
+      package=com.qti.service.colorservice totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/23 17:50" inactiveTime="2:31:41" 
+      package=com.xinshuru.inputmethod totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/22 15:32" inactiveTime="3:22:48" 
+      package=com.qualcomm.qti.modemtestmode totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/23 17:50" inactiveTime="2:31:41" 
+      package=com.yulong.android.ota totalTime="00:00" lastTime="2017/12/21 17:53" lastTimeSystem="2017/12/21 17:53" inactiveTime="7:49:32" 
+      package=com.quicinc.cne.CNEService totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/23 17:50" inactiveTime="2:31:41" 
+      package=com.qiku.multitask totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/23 17:50" inactiveTime="2:31:41" 
+      package=com.yulong.android.coolsafe totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/24 11:05" inactiveTime="2:31:41" 
+      package=com.android.providers.downloads totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/23 17:50" inactiveTime="2:31:41" 
+      package=com.qihoo.browser totalTime="00:00" lastTime="2017/12/21 17:46" lastTimeSystem="2017/12/21 17:46" inactiveTime="7:55:56" 
+      package=com.android.defcontainer totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/23 17:50" inactiveTime="2:31:41" 
+      package=com.tencent.mm totalTime="01:54" lastTime="2017/12/22 16:39" lastTimeSystem="2017/12/22 16:39" inactiveTime="3:07:03" 
+      package=com.qiku.magazine totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/23 17:50" inactiveTime="2:31:41" 
+      package=com.ziroom.ziroomcustomer totalTime="04:54" lastTime="2017/12/22 12:14" lastTimeSystem="2017/12/22 12:14" inactiveTime="5:08:09" 
+      package=android totalTime="00:00" lastTime="2017/12/24 17:20" lastTimeSystem="2017/12/24 17:20" inactiveTime="05:37" 
+      package=com.tencent.android.qqdownloader totalTime="00:00" lastTime="2017/12/22 17:58" lastTimeSystem="2017/12/22 17:58" inactiveTime="2:41:44" 
+      package=com.android.mms totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/24 15:55" inactiveTime="1:31:21" 
+      package=com.android.stk totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/23 17:50" inactiveTime="2:31:41" 
+      package=org.codeaurora.ims totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/23 17:50" inactiveTime="2:31:41" 
+      package=com.koushikdutta.vysor totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/24 17:25" inactiveTime="00:50" 
+      package=com.qiku.eyemode totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/24 15:17" inactiveTime="1:51:37" 
+      package=com.qualcomm.qcrilmsgtunnel totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/23 17:50" inactiveTime="2:31:41" 
+      package=com.android.printspooler totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/24 17:26" inactiveTime="00:00" 
+      package=com.qihoo360.mobilesafe totalTime="00:03" lastTime="2017/12/24 17:23" lastTimeSystem="2017/12/24 17:23" inactiveTime="02:23" 
+      package=com.qti.dpmserviceapp totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/23 17:50" inactiveTime="2:31:41" 
+      package=com.yulong.android.launcher3 totalTime="1:37:47" lastTime="2017/12/24 17:25" lastTimeSystem="2017/12/24 17:25" inactiveTime="00:48" 
+      package=com.qiku.childrenmode totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/21 19:21" inactiveTime="7:05:53" 
+      package=com.android.keychain totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/21 17:41" inactiveTime="7:55:59" 
+      package=com.android.dialer totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/23 17:50" inactiveTime="2:31:41" 
+      package=com.tencent.mobileqq totalTime="25:57" lastTime="2017/12/22 15:01" lastTimeSystem="2017/12/22 15:01" inactiveTime="3:54:06" 
+      package=com.android.packageinstaller totalTime="03:27" lastTime="2017/12/24 17:20" lastTimeSystem="2017/12/24 17:20" inactiveTime="05:44" 
+      package=com.qiku.cardmanager totalTime="02:20" lastTime="2017/12/22 14:30" lastTimeSystem="2017/12/23 17:55" inactiveTime="2:31:41" 
+      package=com.qiku.configcenter totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/23 17:50" inactiveTime="2:31:41" 
+      package=com.android.inputmethod.latin totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/24 17:24" inactiveTime="01:54" 
+      package=com.qiku.riskinsight totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/24 13:58" inactiveTime="2:19:02" 
+      package=com.android.smspush totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/21 17:41" inactiveTime="7:56:23" 
+      package=com.qihoo.appstore totalTime="00:03" lastTime="2017/12/24 17:20" lastTimeSystem="2017/12/24 17:20" inactiveTime="05:38" 
+      package=com.android.settings totalTime="07:56" lastTime="2017/12/24 17:25" lastTimeSystem="2017/12/24 17:25" inactiveTime="00:48" 
+      package=com.qiku.android.nodisturb totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/21 19:21" inactiveTime="7:05:53" 
+      package=com.yulong.android.cp_engmode totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/22 18:17" inactiveTime="2:41:40" 
+      package=com.oma.drm.server totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/23 17:50" inactiveTime="2:31:41" 
+      package=com.qualcomm.qti.tetherservice totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/23 17:50" inactiveTime="2:31:41" 
+      package=com.qiku.voiceassistant totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/21 19:21" inactiveTime="7:05:53" 
+      package=com.tianyancha.skyeye totalTime="5:28:22" lastTime="2017/12/24 17:25" lastTimeSystem="2017/12/24 17:25" inactiveTime="00:48" 
+      package=com.android.settings.wifi totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/23 17:55" inactiveTime="2:31:41" 
+      package=com.sina.weibo totalTime="00:27" lastTime="2017/12/22 15:00" lastTimeSystem="2017/12/22 15:00" inactiveTime="3:55:02" 
+      package=com.android.phone totalTime="00:03" lastTime="2017/12/21 19:27" lastTimeSystem="2017/12/23 17:50" inactiveTime="2:31:41" 
+      package=com.qiku.magicball totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/23 17:50" inactiveTime="2:31:41" 
+      package=com.android.providers.userdictionary totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/24 17:24" inactiveTime="01:46" 
+      package=com.qiku.powerengine totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/23 17:50" inactiveTime="2:31:41" 
+      package=com.android.systemui totalTime="00:07" lastTime="2017/12/24 17:20" lastTimeSystem="2017/12/24 17:24" inactiveTime="02:00" 
+      package=com.amap.android.location totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/23 17:50" inactiveTime="2:31:41" 
+      package=com.qiku.powermaster totalTime="00:14" lastTime="2017/12/24 15:54" lastTimeSystem="2017/12/24 15:54" inactiveTime="1:31:27" 
+      package=com.qiku.freecall totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/24 15:55" inactiveTime="1:31:21" 
+      package=com.android.providers.contacts totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/23 17:50" inactiveTime="2:31:41" 
+      package=com.qiku.widget3d totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/21 19:21" inactiveTime="7:05:53" 
+      package=com.eg.android.AlipayGphone totalTime="00:29" lastTime="2017/12/22 14:22" lastTimeSystem="2017/12/22 14:22" inactiveTime="4:32:47" 
+    configurations
+      config=mcc460-mnc3-zh-rCN-ldltr-sw360dp-w640dp-h336dp-normal-long-notround-land-notnight-xxhdpi-finger-keysexposed-nokeys-navhidden-nonav-v23 totalTime="00:14" lastTime="2017/12/24 15:55" count=4 
+      config=zh-rCN-ldltr-sw360dp-w360dp-h616dp-normal-long-notround-port-xxhdpi-notouch-keysexposed-nokeys-navhidden-nonav-v23 totalTime="00:00" lastTime="2017/12/21 17:41" count=1 
+      config=zh-rCN-ldltr-sw360dp-w360dp-h640dp-normal-long-notround-port-xxhdpi-notouch-keysexposed-nokeys-navhidden-nonav-v23 totalTime="00:00" lastTime="2017/12/21 17:41" count=1 
+      config=zh-rCN-ldltr-sw360dp-w360dp-h616dp-normal-long-notround-port-notnight-xxhdpi-notouch-keysexposed-nokeys-navhidden-nonav-v23 totalTime="00:00" lastTime="2017/12/21 17:41" count=1 
+      config=mcc460-mnc3-zh-rCN-ldltr-sw360dp-w360dp-h616dp-normal-long-notround-port-notnight-xxhdpi-finger-keysexposed-nokeys-navhidden-nonav-v23 totalTime="68:33:50" lastTime="2017/12/24 15:55" count=5 
+      config=mcc460-mnc11-zh-rCN-ldltr-sw360dp-w360dp-h616dp-normal-long-notround-port-notnight-xxhdpi-finger-keysexposed-nokeys-navhidden-nonav-v23 totalTime="00:00" lastTime="2017/12/21 19:21" count=1 
+      config=zh-rCN-ldltr-sw360dp-w360dp-h616dp-normal-long-notround-port-notnight-xxhdpi-finger-keysexposed-nokeys-navhidden-nonav-v23 totalTime="1:40:10" lastTime="2017/12/21 19:21" count=1 
+    events
+  In-memory monthly stats
+  timeRange="2017/12/20 08:00 â 2017/12/24 17:26" 
+    packages
+      package=com.android.providers.telephony totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/23 17:50" inactiveTime="2:31:41" 
+      package=com.qiku.logsystem totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/23 17:50" inactiveTime="2:31:41" 
+      package=com.android.providers.media totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/23 17:50" inactiveTime="2:31:41" 
+      package=com.qti.service.colorservice totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/23 17:50" inactiveTime="2:31:41" 
+      package=com.xinshuru.inputmethod totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/22 15:32" inactiveTime="3:22:48" 
+      package=com.qualcomm.qti.modemtestmode totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/23 17:50" inactiveTime="2:31:41" 
+      package=com.yulong.android.ota totalTime="00:00" lastTime="2017/12/21 17:53" lastTimeSystem="2017/12/21 17:53" inactiveTime="7:49:32" 
+      package=com.quicinc.cne.CNEService totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/23 17:50" inactiveTime="2:31:41" 
+      package=com.qiku.multitask totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/23 17:50" inactiveTime="2:31:41" 
+      package=com.yulong.android.coolsafe totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/24 11:05" inactiveTime="2:31:41" 
+      package=com.android.providers.downloads totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/23 17:50" inactiveTime="2:31:41" 
+      package=com.qihoo.browser totalTime="00:00" lastTime="2017/12/21 17:46" lastTimeSystem="2017/12/21 17:46" inactiveTime="7:55:56" 
+      package=com.android.defcontainer totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/23 17:50" inactiveTime="2:31:41" 
+      package=com.tencent.mm totalTime="01:54" lastTime="2017/12/22 16:39" lastTimeSystem="2017/12/22 16:39" inactiveTime="3:07:03" 
+      package=com.qiku.magazine totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/23 17:50" inactiveTime="2:31:41" 
+      package=com.ziroom.ziroomcustomer totalTime="04:54" lastTime="2017/12/22 12:14" lastTimeSystem="2017/12/22 12:14" inactiveTime="5:08:09" 
+      package=android totalTime="00:00" lastTime="2017/12/24 17:20" lastTimeSystem="2017/12/24 17:20" inactiveTime="05:37" 
+      package=com.tencent.android.qqdownloader totalTime="00:00" lastTime="2017/12/22 17:58" lastTimeSystem="2017/12/22 17:58" inactiveTime="2:41:44" 
+      package=com.android.mms totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/24 15:55" inactiveTime="1:31:21" 
+      package=com.android.stk totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/23 17:50" inactiveTime="2:31:41" 
+      package=org.codeaurora.ims totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/23 17:50" inactiveTime="2:31:41" 
+      package=com.koushikdutta.vysor totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/24 17:25" inactiveTime="00:50" 
+      package=com.qiku.eyemode totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/24 15:17" inactiveTime="1:51:37" 
+      package=com.qualcomm.qcrilmsgtunnel totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/23 17:50" inactiveTime="2:31:41" 
+      package=com.android.printspooler totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/24 17:26" inactiveTime="00:00" 
+      package=com.qihoo360.mobilesafe totalTime="00:03" lastTime="2017/12/24 17:23" lastTimeSystem="2017/12/24 17:23" inactiveTime="02:23" 
+      package=com.qti.dpmserviceapp totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/23 17:50" inactiveTime="2:31:41" 
+      package=com.yulong.android.launcher3 totalTime="1:37:47" lastTime="2017/12/24 17:25" lastTimeSystem="2017/12/24 17:25" inactiveTime="00:48" 
+      package=com.qiku.childrenmode totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/21 19:21" inactiveTime="7:05:53" 
+      package=com.android.keychain totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/21 17:41" inactiveTime="7:55:59" 
+      package=com.android.dialer totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/23 17:50" inactiveTime="2:31:41" 
+      package=com.tencent.mobileqq totalTime="25:57" lastTime="2017/12/22 15:01" lastTimeSystem="2017/12/22 15:01" inactiveTime="3:54:06" 
+      package=com.android.packageinstaller totalTime="03:27" lastTime="2017/12/24 17:20" lastTimeSystem="2017/12/24 17:20" inactiveTime="05:44" 
+      package=com.qiku.cardmanager totalTime="02:20" lastTime="2017/12/22 14:30" lastTimeSystem="2017/12/23 17:55" inactiveTime="2:31:41" 
+      package=com.qiku.configcenter totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/23 17:50" inactiveTime="2:31:41" 
+      package=com.android.inputmethod.latin totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/24 17:24" inactiveTime="01:54" 
+      package=com.qiku.riskinsight totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/24 13:58" inactiveTime="2:19:02" 
+      package=com.android.smspush totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/21 17:41" inactiveTime="7:56:23" 
+      package=com.qihoo.appstore totalTime="00:03" lastTime="2017/12/24 17:20" lastTimeSystem="2017/12/24 17:20" inactiveTime="05:38" 
+      package=com.android.settings totalTime="07:56" lastTime="2017/12/24 17:25" lastTimeSystem="2017/12/24 17:25" inactiveTime="00:48" 
+      package=com.qiku.android.nodisturb totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/21 19:21" inactiveTime="7:05:53" 
+      package=com.yulong.android.cp_engmode totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/22 18:17" inactiveTime="2:41:40" 
+      package=com.oma.drm.server totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/23 17:50" inactiveTime="2:31:41" 
+      package=com.qualcomm.qti.tetherservice totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/23 17:50" inactiveTime="2:31:41" 
+      package=com.qiku.voiceassistant totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/21 19:21" inactiveTime="7:05:53" 
+      package=com.tianyancha.skyeye totalTime="5:28:22" lastTime="2017/12/24 17:25" lastTimeSystem="2017/12/24 17:25" inactiveTime="00:48" 
+      package=com.android.settings.wifi totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/23 17:55" inactiveTime="2:31:41" 
+      package=com.sina.weibo totalTime="00:27" lastTime="2017/12/22 15:00" lastTimeSystem="2017/12/22 15:00" inactiveTime="3:55:02" 
+      package=com.android.phone totalTime="00:03" lastTime="2017/12/21 19:27" lastTimeSystem="2017/12/23 17:50" inactiveTime="2:31:41" 
+      package=com.qiku.magicball totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/23 17:50" inactiveTime="2:31:41" 
+      package=com.android.providers.userdictionary totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/24 17:24" inactiveTime="01:46" 
+      package=com.qiku.powerengine totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/23 17:50" inactiveTime="2:31:41" 
+      package=com.android.systemui totalTime="00:07" lastTime="2017/12/24 17:20" lastTimeSystem="2017/12/24 17:24" inactiveTime="02:00" 
+      package=com.amap.android.location totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/23 17:50" inactiveTime="2:31:41" 
+      package=com.qiku.powermaster totalTime="00:14" lastTime="2017/12/24 15:54" lastTimeSystem="2017/12/24 15:54" inactiveTime="1:31:27" 
+      package=com.qiku.freecall totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/24 15:55" inactiveTime="1:31:21" 
+      package=com.android.providers.contacts totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/23 17:50" inactiveTime="2:31:41" 
+      package=com.qiku.widget3d totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/21 19:21" inactiveTime="7:05:53" 
+      package=com.eg.android.AlipayGphone totalTime="00:29" lastTime="2017/12/22 14:22" lastTimeSystem="2017/12/22 14:22" inactiveTime="4:32:47" 
+    configurations
+      config=mcc460-mnc3-zh-rCN-ldltr-sw360dp-w640dp-h336dp-normal-long-notround-land-notnight-xxhdpi-finger-keysexposed-nokeys-navhidden-nonav-v23 totalTime="00:14" lastTime="2017/12/24 15:55" count=4 
+      config=zh-rCN-ldltr-sw360dp-w360dp-h616dp-normal-long-notround-port-xxhdpi-notouch-keysexposed-nokeys-navhidden-nonav-v23 totalTime="00:00" lastTime="2017/12/21 17:41" count=1 
+      config=zh-rCN-ldltr-sw360dp-w360dp-h640dp-normal-long-notround-port-xxhdpi-notouch-keysexposed-nokeys-navhidden-nonav-v23 totalTime="00:00" lastTime="2017/12/21 17:41" count=1 
+      config=zh-rCN-ldltr-sw360dp-w360dp-h616dp-normal-long-notround-port-notnight-xxhdpi-notouch-keysexposed-nokeys-navhidden-nonav-v23 totalTime="00:00" lastTime="2017/12/21 17:41" count=1 
+      config=mcc460-mnc3-zh-rCN-ldltr-sw360dp-w360dp-h616dp-normal-long-notround-port-notnight-xxhdpi-finger-keysexposed-nokeys-navhidden-nonav-v23 totalTime="68:33:50" lastTime="2017/12/24 15:55" count=5 
+      config=mcc460-mnc11-zh-rCN-ldltr-sw360dp-w360dp-h616dp-normal-long-notround-port-notnight-xxhdpi-finger-keysexposed-nokeys-navhidden-nonav-v23 totalTime="00:00" lastTime="2017/12/21 19:21" count=1 
+      config=zh-rCN-ldltr-sw360dp-w360dp-h616dp-normal-long-notround-port-notnight-xxhdpi-finger-keysexposed-nokeys-navhidden-nonav-v23 totalTime="1:40:10" lastTime="2017/12/21 19:21" count=1 
+    events
+  In-memory yearly stats
+  timeRange="2017/12/20 08:00 â 2017/12/24 17:26" 
+    packages
+      package=com.android.providers.telephony totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/23 17:50" inactiveTime="2:31:41" 
+      package=com.qiku.logsystem totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/23 17:50" inactiveTime="2:31:41" 
+      package=com.android.providers.media totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/23 17:50" inactiveTime="2:31:41" 
+      package=com.qti.service.colorservice totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/23 17:50" inactiveTime="2:31:41" 
+      package=com.xinshuru.inputmethod totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/22 15:32" inactiveTime="3:22:48" 
+      package=com.qualcomm.qti.modemtestmode totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/23 17:50" inactiveTime="2:31:41" 
+      package=com.yulong.android.ota totalTime="00:00" lastTime="2017/12/21 17:53" lastTimeSystem="2017/12/21 17:53" inactiveTime="7:49:32" 
+      package=com.quicinc.cne.CNEService totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/23 17:50" inactiveTime="2:31:41" 
+      package=com.qiku.multitask totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/23 17:50" inactiveTime="2:31:41" 
+      package=com.yulong.android.coolsafe totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/24 11:05" inactiveTime="2:31:41" 
+      package=com.android.providers.downloads totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/23 17:50" inactiveTime="2:31:41" 
+      package=com.qihoo.browser totalTime="00:00" lastTime="2017/12/21 17:46" lastTimeSystem="2017/12/21 17:46" inactiveTime="7:55:56" 
+      package=com.android.defcontainer totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/23 17:50" inactiveTime="2:31:41" 
+      package=com.tencent.mm totalTime="01:54" lastTime="2017/12/22 16:39" lastTimeSystem="2017/12/22 16:39" inactiveTime="3:07:03" 
+      package=com.qiku.magazine totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/23 17:50" inactiveTime="2:31:41" 
+      package=com.ziroom.ziroomcustomer totalTime="04:54" lastTime="2017/12/22 12:14" lastTimeSystem="2017/12/22 12:14" inactiveTime="5:08:09" 
+      package=android totalTime="00:00" lastTime="2017/12/24 17:20" lastTimeSystem="2017/12/24 17:20" inactiveTime="05:37" 
+      package=com.tencent.android.qqdownloader totalTime="00:00" lastTime="2017/12/22 17:58" lastTimeSystem="2017/12/22 17:58" inactiveTime="2:41:44" 
+      package=com.android.mms totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/24 15:55" inactiveTime="1:31:21" 
+      package=com.android.stk totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/23 17:50" inactiveTime="2:31:41" 
+      package=org.codeaurora.ims totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/23 17:50" inactiveTime="2:31:41" 
+      package=com.koushikdutta.vysor totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/24 17:25" inactiveTime="00:50" 
+      package=com.qiku.eyemode totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/24 15:17" inactiveTime="1:51:37" 
+      package=com.qualcomm.qcrilmsgtunnel totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/23 17:50" inactiveTime="2:31:41" 
+      package=com.android.printspooler totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/24 17:26" inactiveTime="00:00" 
+      package=com.qihoo360.mobilesafe totalTime="00:03" lastTime="2017/12/24 17:23" lastTimeSystem="2017/12/24 17:23" inactiveTime="02:23" 
+      package=com.qti.dpmserviceapp totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/23 17:50" inactiveTime="2:31:41" 
+      package=com.yulong.android.launcher3 totalTime="1:37:47" lastTime="2017/12/24 17:25" lastTimeSystem="2017/12/24 17:25" inactiveTime="00:48" 
+      package=com.qiku.childrenmode totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/21 19:21" inactiveTime="7:05:53" 
+      package=com.android.keychain totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/21 17:41" inactiveTime="7:55:59" 
+      package=com.android.dialer totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/23 17:50" inactiveTime="2:31:41" 
+      package=com.tencent.mobileqq totalTime="25:57" lastTime="2017/12/22 15:01" lastTimeSystem="2017/12/22 15:01" inactiveTime="3:54:06" 
+      package=com.android.packageinstaller totalTime="03:27" lastTime="2017/12/24 17:20" lastTimeSystem="2017/12/24 17:20" inactiveTime="05:44" 
+      package=com.qiku.cardmanager totalTime="02:20" lastTime="2017/12/22 14:30" lastTimeSystem="2017/12/23 17:55" inactiveTime="2:31:41" 
+      package=com.qiku.configcenter totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/23 17:50" inactiveTime="2:31:41" 
+      package=com.android.inputmethod.latin totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/24 17:24" inactiveTime="01:54" 
+      package=com.qiku.riskinsight totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/24 13:58" inactiveTime="2:19:02" 
+      package=com.android.smspush totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/21 17:41" inactiveTime="7:56:23" 
+      package=com.qihoo.appstore totalTime="00:03" lastTime="2017/12/24 17:20" lastTimeSystem="2017/12/24 17:20" inactiveTime="05:38" 
+      package=com.android.settings totalTime="07:56" lastTime="2017/12/24 17:25" lastTimeSystem="2017/12/24 17:25" inactiveTime="00:48" 
+      package=com.qiku.android.nodisturb totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/21 19:21" inactiveTime="7:05:53" 
+      package=com.yulong.android.cp_engmode totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/22 18:17" inactiveTime="2:41:40" 
+      package=com.oma.drm.server totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/23 17:50" inactiveTime="2:31:41" 
+      package=com.qualcomm.qti.tetherservice totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/23 17:50" inactiveTime="2:31:41" 
+      package=com.qiku.voiceassistant totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/21 19:21" inactiveTime="7:05:53" 
+      package=com.tianyancha.skyeye totalTime="5:28:22" lastTime="2017/12/24 17:25" lastTimeSystem="2017/12/24 17:25" inactiveTime="00:48" 
+      package=com.android.settings.wifi totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/23 17:55" inactiveTime="2:31:41" 
+      package=com.sina.weibo totalTime="00:27" lastTime="2017/12/22 15:00" lastTimeSystem="2017/12/22 15:00" inactiveTime="3:55:02" 
+      package=com.android.phone totalTime="00:03" lastTime="2017/12/21 19:27" lastTimeSystem="2017/12/23 17:50" inactiveTime="2:31:41" 
+      package=com.qiku.magicball totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/23 17:50" inactiveTime="2:31:41" 
+      package=com.android.providers.userdictionary totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/24 17:24" inactiveTime="01:46" 
+      package=com.qiku.powerengine totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/23 17:50" inactiveTime="2:31:41" 
+      package=com.android.systemui totalTime="00:07" lastTime="2017/12/24 17:20" lastTimeSystem="2017/12/24 17:24" inactiveTime="02:00" 
+      package=com.amap.android.location totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/23 17:50" inactiveTime="2:31:41" 
+      package=com.qiku.powermaster totalTime="00:14" lastTime="2017/12/24 15:54" lastTimeSystem="2017/12/24 15:54" inactiveTime="1:31:27" 
+      package=com.qiku.freecall totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/24 15:55" inactiveTime="1:31:21" 
+      package=com.android.providers.contacts totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/23 17:50" inactiveTime="2:31:41" 
+      package=com.qiku.widget3d totalTime="00:00" lastTime="1970/1/1 08:00" lastTimeSystem="2017/12/21 19:21" inactiveTime="7:05:53" 
+      package=com.eg.android.AlipayGphone totalTime="00:29" lastTime="2017/12/22 14:22" lastTimeSystem="2017/12/22 14:22" inactiveTime="4:32:47" 
+    configurations
+      config=mcc460-mnc3-zh-rCN-ldltr-sw360dp-w640dp-h336dp-normal-long-notround-land-notnight-xxhdpi-finger-keysexposed-nokeys-navhidden-nonav-v23 totalTime="00:14" lastTime="2017/12/24 15:55" count=4 
+      config=zh-rCN-ldltr-sw360dp-w360dp-h616dp-normal-long-notround-port-xxhdpi-notouch-keysexposed-nokeys-navhidden-nonav-v23 totalTime="00:00" lastTime="2017/12/21 17:41" count=1 
+      config=zh-rCN-ldltr-sw360dp-w360dp-h640dp-normal-long-notround-port-xxhdpi-notouch-keysexposed-nokeys-navhidden-nonav-v23 totalTime="00:00" lastTime="2017/12/21 17:41" count=1 
+      config=zh-rCN-ldltr-sw360dp-w360dp-h616dp-normal-long-notround-port-notnight-xxhdpi-notouch-keysexposed-nokeys-navhidden-nonav-v23 totalTime="00:00" lastTime="2017/12/21 17:41" count=1 
+      config=mcc460-mnc3-zh-rCN-ldltr-sw360dp-w360dp-h616dp-normal-long-notround-port-notnight-xxhdpi-finger-keysexposed-nokeys-navhidden-nonav-v23 totalTime="68:33:50" lastTime="2017/12/24 15:55" count=5 
+      config=mcc460-mnc11-zh-rCN-ldltr-sw360dp-w360dp-h616dp-normal-long-notround-port-notnight-xxhdpi-finger-keysexposed-nokeys-navhidden-nonav-v23 totalTime="00:00" lastTime="2017/12/21 19:21" count=1 
+      config=zh-rCN-ldltr-sw360dp-w360dp-h616dp-normal-long-notround-port-notnight-xxhdpi-finger-keysexposed-nokeys-navhidden-nonav-v23 totalTime="1:40:10" lastTime="2017/12/21 19:21" count=1 
+    events
+  
+Screen On Timebase:746284868
+
+Settings:
+  mAppIdleDurationMillis=+12h0m0s0ms
+  mAppIdleWallclockThresholdMillis=+2d0h0m0s0ms
+  mCheckIdleIntervalMillis=+3h0m0s0ms
+  mAppIdleParoleIntervalMillis=+24h0m0s0ms
+  mAppIdleParoleDurationMillis=+10m0s0ms
+
+mAppIdleEnabled=true mAppIdleParoled=false mScreenOn=true
+mLastAppIdleParoledTime=+17524d8h12m20s372ms
+mScreenOnTime=+8d15h18m4s868ms
+mScreenOnSystemTimeSnapshot=+17524d7h54m51s502ms

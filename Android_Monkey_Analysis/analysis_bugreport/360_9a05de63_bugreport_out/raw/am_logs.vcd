@@ -1,0 +1,149 @@
+$timescale 1ms $end
+$scope am_logs $end
+$var wire 1 a10 com.android.systemui:screenshot $end
+$var wire 1 a20 com.tianyancha.skyeye/.MainActivity $end
+$var wire 1 a1 com.tianyancha.skyeye/.activity.MyMonitoringActivity $end
+$var wire 1 a3 com.qihoo360.mobilesafe:FloatWindow $end
+$var wire 1 a5 com.qiku.android.register $end
+$var wire 1 a14 com.qiku.android.virtualnumber $end
+$var wire 1 a22 com.yulong.android.ota $end
+$var wire 1 a16 android.process.acore $end
+$var wire 1 a23 com.yulong.android.launcher3/.Launcher $end
+$var wire 1 a18 com.tianyancha.skyeye $end
+$var wire 1 a11 com.qiku.music.service $end
+$var wire 1 a12 com.android.mms $end
+$var wire 1 a2 com.tianyancha.skyeye/.follow.FragmentMyFollow $end
+$var wire 1 a19 com.android.settings/com.qiku.android.settings.activities.YLUsbSettings $end
+$var wire 1 a17 com.tianyancha.skyeye:channel $end
+$var wire 1 a8 com.tencent.mobileqq:tool $end
+$var wire 1 a21 com.yulong.android.filebrowser $end
+$var wire 1 a7 com.svox.pico $end
+$var wire 1 a9 com.tianyancha.skyeye/.activity.follow.MyGroupActivity $end
+$var wire 1 a15 com.android.inputmethod.latin $end
+$var wire 1 a6 com.android.sc $end
+$var wire 1 a13 com.qiku.freecall $end
+$var wire 1 a4 com.qihoo360.mobilesafe:WifiExam $end
+$upscope $end
+$enddefinitions $end
+#34277025565
+b0 a10
+b- a20
+bX a1
+b0 a3
+b0 a5
+bZ a14
+bZ a22
+b0 a16
+b- a23
+b0 a18
+b0 a11
+bZ a12
+b- a2
+b- a19
+b0 a17
+bZ a8
+bZ a21
+bZ a7
+bZ a9
+b0 a15
+b0 a6
+bZ a13
+b0 a4
+#34277027344
+b- a1
+#34277027348
+bX a2
+#34277027681
+bZ a1
+#34277032018
+b- a1
+#34277032018
+b- a2
+#34277032026
+bX a1
+#34277034385
+b- a1
+#34277034390
+bX a2
+#34277034435
+bZ a1
+#34277038686
+bZ a3
+#34277038769
+bZ a4
+#34277039334
+bZ a5
+#34277039417
+bZ a6
+#34277042191
+b0 a7
+#34277044105
+b- a1
+#34277044106
+b- a2
+#34277044112
+bX a1
+#34277044714
+b0 a8
+#34277047419
+b- a1
+#34277047427
+bX a2
+#34277047798
+bZ a1
+#34277049537
+b- a9
+#34277049537
+b- a2
+#34277049544
+bX a9
+#34277050230
+b0 a3
+#34277051831
+bZ a6
+#34277060046
+bZ a10
+#34277060544
+bZ a11
+#34277060656
+b0 a11
+#34277060672
+bZ a11
+#34277061497
+b0 a4
+#34277061917
+b0 a12
+#34277061937
+bZ a12
+#34277062060
+b0 a13
+#34277062098
+bZ a13
+#34277062210
+b0 a14
+#34277064843
+bZ a15
+#34277075260
+bZ a16
+#34277080337
+b0 a11
+#34277102701
+bZ a11
+#34277133654
+bZ a18
+#34277133661
+bX a19
+#34277133669
+bZ a20
+#34277133669
+bZ a2
+#34277133678
+b- a19
+#34277133714
+b0 a21
+#34277133734
+b0 a22
+#34277133763
+bX a23
+#34277144198
+bZ a17

@@ -1,0 +1,103 @@
+System ready: true
+Restrict background: false
+Restrict power: false
+Device idle: false
+Network policies:
+  NetworkPolicy[NetworkTemplate: matchRule=MOBILE_ALL, subscriberId=460010..., matchSubscriberIds=[460010...]]: cycleDay=3, cycleTimezone=Asia/Shanghai, warningBytes=2147483648, limitBytes=-1, lastWarningSnooze=-1, lastLimitSnooze=-1, metered=true, inferred=true
+  NetworkPolicy[NetworkTemplate: matchRule=MOBILE_ALL, subscriberId=460010..., matchSubscriberIds=[460010...]]: cycleDay=22, cycleTimezone=Asia/Shanghai, warningBytes=2147483648, limitBytes=-1, lastWarningSnooze=-1, lastLimitSnooze=-1, metered=true, inferred=true
+Metered ifaces: {}
+Policy for UIDs:
+Power save whitelist (except idle) app ids:
+  UID=1000: true
+  UID=10011: true
+  UID=10020: true
+  UID=10022: true
+  UID=10106: true
+  UID=10111: true
+Power save whitelist app ids:
+  UID=1000: true
+  UID=10011: true
+  UID=10020: true
+  UID=10022: true
+  UID=10106: true
+  UID=10111: true
+Status for known UIDs:
+  UID=1001 state=0 (fg) rule=UNKNOWN
+  UID=10001 state=16 (bg) rule=REJECT_ALL
+  UID=10002 state=7 (bg) rule=UNKNOWN
+  UID=10004 state=4 (bg) rule=UNKNOWN
+  UID=10006 state=0 (fg) rule=UNKNOWN
+  UID=10007 state=16 (bg) rule=REJECT_ALL
+  UID=10008 state=16 (bg) rule=REJECT_ALL
+  UID=10009 state=16 (bg) rule=REJECT_ALL
+  UID=10010 state=10 (bg) rule=UNKNOWN
+  UID=10011 state=10 (bg) rule=UNKNOWN
+  UID=10012 state=16 (bg) rule=REJECT_ALL
+  UID=10015 state=16 (bg) rule=REJECT_ALL
+  UID=10019 state=6 (bg) rule=UNKNOWN
+  UID=10020 state=16 (bg) rule=UNKNOWN
+  UID=10021 state=16 (bg) rule=UNKNOWN
+  UID=10022 state=3 (bg) rule=UNKNOWN
+  UID=10024 state=16 (bg) rule=REJECT_ALL
+  UID=10025 state=16 (bg) rule=REJECT_ALL
+  UID=10031 state=16 (bg) rule=REJECT_ALL
+  UID=10032 state=0 (fg) rule=UNKNOWN
+  UID=10035 state=10 (bg) rule=UNKNOWN
+  UID=10038 state=16 (bg) rule=REJECT_ALL
+  UID=10040 state=0 (fg) rule=UNKNOWN
+  UID=10045 state=16 (bg) rule=REJECT_ALL
+  UID=10047 state=3 (bg) rule=UNKNOWN
+  UID=10048 state=2 (fg) rule=UNKNOWN
+  UID=10051 state=16 (bg) rule=REJECT_ALL
+  UID=10054 state=16 (bg) rule=REJECT_ALL
+  UID=10059 state=16 (bg) rule=UNKNOWN
+  UID=10064 state=16 (bg) rule=REJECT_ALL
+  UID=10065 state=0 (fg) rule=UNKNOWN
+  UID=10066 state=16 (bg) rule=REJECT_ALL
+  UID=10072 state=0 (fg) rule=UNKNOWN
+  UID=10075 state=16 (bg) rule=REJECT_ALL
+  UID=10079 state=16 (bg) rule=REJECT_ALL
+  UID=10080 state=10 (bg) rule=UNKNOWN
+  UID=10081 state=16 (bg) rule=UNKNOWN
+  UID=10085 state=16 (bg) rule=REJECT_ALL
+  UID=10088 state=16 (bg) rule=REJECT_ALL
+  UID=10089 state=0 (fg) rule=UNKNOWN
+  UID=10090 state=16 (bg) rule=REJECT_ALL
+  UID=10092 state=16 (bg) rule=REJECT_ALL
+  UID=10093 state=3 (bg) rule=UNKNOWN
+  UID=10094 state=10 (bg) rule=UNKNOWN
+  UID=10095 state=16 (bg) rule=REJECT_ALL
+  UID=10096 state=16 (bg) rule=REJECT_ALL
+  UID=10097 state=16 (bg) rule=REJECT_ALL
+  UID=10098 state=16 (bg) rule=REJECT_ALL
+  UID=10099 state=16 (bg) rule=REJECT_ALL
+  UID=10100 state=16 (bg) rule=REJECT_ALL
+  UID=10101 state=16 (bg) rule=REJECT_ALL
+  UID=10102 state=16 (bg) rule=REJECT_ALL
+  UID=10103 state=16 (bg) rule=REJECT_ALL
+  UID=10104 state=16 (bg) rule=REJECT_ALL
+  UID=10105 state=16 (bg) rule=REJECT_ALL
+  UID=10106 state=4 (bg) rule=UNKNOWN
+  UID=10107 state=16 (bg) rule=REJECT_ALL
+  UID=10108 state=16 (bg) rule=REJECT_ALL
+  UID=10109 state=16 (bg) rule=REJECT_ALL
+  UID=10110 state=16 (bg) rule=REJECT_ALL
+  UID=10111 state=10 (bg) rule=UNKNOWN
+  UID=10112 state=16 (bg) rule=REJECT_ALL
+  UID=10113 state=16 (bg) rule=UNKNOWN
+  UID=10117 state=16 (bg) rule=REJECT_ALL
+  UID=10132 state=16 (bg) rule=REJECT_ALL
+  UID=10179 state=10 (bg) rule=UNKNOWN
+  UID=10186 state=16 (bg) rule=REJECT_ALL
+  UID=10197 state=4 (bg) rule=UNKNOWN
+  UID=10216 state=16 (bg) rule=REJECT_ALL
+  UID=10239 state=16 (bg) rule=REJECT_ALL
+  UID=10240 state=16 (bg) rule=REJECT_ALL
+  UID=10250 state=16 (bg) rule=REJECT_ALL
+  UID=10254 state=16 (bg) rule=REJECT_ALL
+  UID=10255 state=16 (bg) rule=REJECT_ALL
+  UID=10256 state=16 (bg) rule=REJECT_ALL
+  UID=10257 state=16 (bg) rule=REJECT_ALL
+  UID=10258 state=16 (bg) rule=REJECT_ALL
+  UID=10259 state=16 (bg) rule=REJECT_ALL
+  UID=10299 state=10 (bg) rule=UNKNOWN

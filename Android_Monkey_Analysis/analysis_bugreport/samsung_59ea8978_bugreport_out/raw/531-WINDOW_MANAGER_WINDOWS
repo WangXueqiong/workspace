@@ -1,0 +1,450 @@
+  Window #12 Window{3d333a8 u0 d0 TwToolBoxFloatingViewer}:
+    mDisplayId=0 stackId=0 mSession=Session{e5432e1 847:1000} mClient=android.view.ViewRootImpl$W@dbad51d
+    mOwnerUid=1000 mShowToOwnerOnly=false package=android appop=NONE
+    mAttrs=WM.LayoutParams{(626,445)(156x957) gr=#33 sim=#20 ty=2015 fl=#1000318 pfl=0x12 fmt=-3 if=0x2}
+    Requested w=156 h=957 mLayoutSeq=69176
+    mBaseLayer=281000 mSubLayer=0 mAnimLayer=281005+0=281005 mLastLayer=281005
+    mToken=WindowToken{cf8e44e null}
+    mRootToken=WindowToken{cf8e44e null}
+    mViewVisibility=0x0 mHaveFrame=true mObscured=false
+    mSeq=0 mSystemUiVisibility=0x0
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mConfiguration={0 1.0 showBtnBg = 0 ?mcc?mnc zh_CN ldltr sw360dp w360dp h616dp 480dpi nrml long port finger -keyb/v/h -nav/h mkbd/? s.10}
+    mHasSurface=true mShownFrame=[626.0,445.0][782.0,1402.0] isReadyForDisplay()=true
+    mFrame=[626,445][782,1402] last=[626,445][782,1402]
+    mSystemDecorRect=[0,0][156,957] last=[0,0][0,0]
+    Frames: containing=[0,0][1080,1920] parent=[0,0][1080,1920]
+        display=[-10000,-10000][10000,10000] overscan=[-10000,-10000][10000,10000]
+        content=[626,445][782,1402] visible=[626,445][782,1402]
+        decor=[0,0][1080,1920]
+        outset=[0,0][0,0]
+    Cur insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0] stable=[0,0][0,0] outsets=[0,0][0,0]
+    Lst insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0] stable=[0,0][0,0] physical=[0,0][0,0] outset=[0,0][0,0]
+    WindowStateAnimator{b7d40f0 TwToolBoxFloatingViewer}:
+      mSurface=Surface(name=TwToolBoxFloatingViewer)
+      mDrawState=HAS_DRAWN mLastHidden=false
+      Surface: shown=true layer=281005 alpha=1.0 secure=false rect=(626.0,445.0) 156.0 x 957.0
+      mGlobalScale=1.0 mDsDx=1.0 mDtDx=0.0 mDsDy=0.0 mDtDy=1.0
+    mLastFreezeDuration=+1d20h32m43s340ms
+    mWaitingForOrientation=false
+    shouldHideWhileStartingWindowIsShown=false
+    mDelayedResize=false
+    windowType=normal : MultiWindowStyle{type=0, zone=ZONE_UNKNOWN, option=0x00000000, bounds=null, isNull=false, isolatedCenterPoint=Point(0, 0), scale=0.0, specificTaskId=-1}
+    Current zone bounds=[0,0][1080,1920]
+  Window #11 Window{28d7c1c u0 d0 TwToolBoxLongPressPanel}:
+    mDisplayId=0 stackId=0 mSession=Session{e5432e1 847:1000} mClient=android.view.ViewRootImpl$W@1d61fc7
+    mOwnerUid=1000 mShowToOwnerOnly=false package=android appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillx165) gr=#33 sim=#20 ty=2015 fl=#1000318 pfl=0x12 fmt=-3 if=0x2}
+    Requested w=1080 h=165 mLayoutSeq=27203
+    mBaseLayer=281000 mSubLayer=0 mAnimLayer=281000+0=281000 mLastLayer=281000
+    mToken=WindowToken{cf8e44e null}
+    mRootToken=WindowToken{cf8e44e null}
+    mViewVisibility=0x8 mHaveFrame=true mObscured=false
+    mSeq=0 mSystemUiVisibility=0x0
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mConfiguration={0 1.0 showBtnBg = 0 ?mcc?mnc zh_CN ldltr sw360dp w360dp h616dp 480dpi nrml long port finger -keyb/v/h -nav/h mkbd/? s.8}
+    mHasSurface=false mShownFrame=[0.0,0.0][1080.0,165.0] isReadyForDisplay()=false
+    mFrame=[0,0][1080,165] last=[0,0][1080,165]
+    mSystemDecorRect=[0,0][1080,165] last=[0,0][0,0]
+    Frames: containing=[0,0][1080,1920] parent=[0,0][1080,1920]
+        display=[-10000,-10000][10000,10000] overscan=[-10000,-10000][10000,10000]
+        content=[0,0][1080,165] visible=[0,0][1080,165]
+        decor=[0,0][1080,1920]
+        outset=[0,0][0,0]
+    Cur insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0] stable=[0,72][0,0] outsets=[0,0][0,0]
+    Lst insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0] stable=[0,72][0,0] physical=[0,0][0,0] outset=[0,0][0,0]
+    WindowStateAnimator{cee9533 TwToolBoxLongPressPanel}:
+      mGlobalScale=1.0 mDsDx=1.0 mDtDx=0.0 mDsDy=0.0 mDtDy=1.0
+    mWaitingForOrientation=false
+    shouldHideWhileStartingWindowIsShown=false
+    mDelayedResize=false
+    windowType=normal : MultiWindowStyle{type=0, zone=ZONE_UNKNOWN, option=0x00000000, bounds=null, isNull=false, isolatedCenterPoint=Point(0, 0), scale=0.0, specificTaskId=-1}
+    Current zone bounds=[0,0][1080,1920]
+  Window #10 Window{5e684e2 u0 d0 Heads Up}:
+    mDisplayId=0 stackId=0 mSession=Session{3eb02be 1325:u0a10017} mClient=android.os.BinderProxy@fb789ad
+    mOwnerUid=10017 mShowToOwnerOnly=false package=com.android.systemui appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillx750) gr=#30 sim=#20 ty=2014 fl=#1800328 fmt=-3 wanim=0x7f100042}
+    Requested w=1080 h=750 mLayoutSeq=30570
+    mBaseLayer=171000 mSubLayer=0 mAnimLayer=171000+0=171000 mLastLayer=171000
+    mToken=WindowToken{cf8e44e null}
+    mRootToken=WindowToken{cf8e44e null}
+    mViewVisibility=0x8 mHaveFrame=true mObscured=false
+    mSeq=0 mSystemUiVisibility=0x0
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mTouchableInsets=3 mGivenInsetsPending=false
+    touchable region=SkRegion((0,0,1080,192))
+    mConfiguration={0 1.0 showBtnBg = 0 ?mcc?mnc zh_CN ldltr sw360dp w360dp h616dp 480dpi nrml long port finger -keyb/v/h -nav/h mkbd/? s.8}
+    mHasSurface=false mShownFrame=[0.0,0.0][1080.0,750.0] isReadyForDisplay()=false
+    mFrame=[0,0][1080,750] last=[0,0][1080,750]
+    mSystemDecorRect=[0,0][1080,750] last=[0,0][0,0]
+    Frames: containing=[0,0][1080,1920] parent=[0,0][1080,1920]
+        display=[-10000,-10000][10000,10000] overscan=[-10000,-10000][10000,10000]
+        content=[0,0][1080,750] visible=[0,0][1080,750]
+        decor=[0,0][1080,1920]
+        outset=[0,0][0,0]
+    Cur insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0] stable=[0,72][0,0] outsets=[0,0][0,0]
+    Lst insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0] stable=[0,72][0,0] physical=[0,0][0,0] outset=[0,0][0,0]
+    WindowStateAnimator{f52124c Heads Up}:
+      mShownAlpha=1.0 mAlpha=1.0 mLastAlpha=0.0
+      mGlobalScale=1.0 mDsDx=1.0 mDtDx=0.0 mDsDy=0.0 mDtDy=1.0
+    mWaitingForOrientation=false
+    shouldHideWhileStartingWindowIsShown=false
+    mDelayedResize=false
+    windowType=normal : MultiWindowStyle{type=0, zone=ZONE_UNKNOWN, option=0x00000000, bounds=null, isNull=false, isolatedCenterPoint=Point(0, 0), scale=0.0, specificTaskId=-1}
+    Current zone bounds=[0,0][1080,1920]
+  Window #9 Window{1880415 u0 d0 StatusBar}:
+    mDisplayId=0 stackId=0 mSession=Session{3eb02be 1325:u0a10017} mClient=android.os.BinderProxy@c0d89cc
+    mOwnerUid=10017 mShowToOwnerOnly=false package=com.android.systemui appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillx72) gr=#30 sim=#10 ty=2000 fl=#81840048 fmt=-3 vsysui=0x600}
+    Requested w=1080 h=72 mLayoutSeq=69176
+    mBaseLayer=161000 mSubLayer=0 mAnimLayer=161000+0=161000 mLastLayer=161000
+    mToken=WindowToken{cf8e44e null}
+    mRootToken=WindowToken{cf8e44e null}
+    mViewVisibility=0x0 mHaveFrame=true mObscured=false
+    mSeq=0 mSystemUiVisibility=0x600
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mConfiguration={0 1.0 showBtnBg = 0 ?mcc?mnc zh_CN ldltr sw360dp w360dp h616dp 480dpi nrml long port finger -keyb/v/h -nav/h mkbd/? s.10}
+    mHasSurface=true mShownFrame=[0.0,0.0][1080.0,72.0] isReadyForDisplay()=true
+    mFrame=[0,0][1080,72] last=[0,0][1080,72]
+    mSystemDecorRect=[0,0][1080,72] last=[0,0][0,0]
+    Frames: containing=[0,0][1080,1920] parent=[0,0][1080,1920]
+        display=[0,0][1080,1920] overscan=[0,0][1080,1920]
+        content=[0,0][1080,72] visible=[0,0][1080,72]
+        decor=[0,0][0,0]
+        outset=[0,0][1080,1920]
+    Cur insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0] stable=[0,0][0,0] outsets=[0,0][0,0]
+    Lst insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0] stable=[0,0][0,0] physical=[0,0][0,0] outset=[0,0][0,0]
+    WindowStateAnimator{f90a27f StatusBar}:
+      mAnimating=false mLocalAnimating=false mAnimationIsEntrance=true mAnimation=null
+      mSurface=Surface(name=StatusBar)
+      mDrawState=HAS_DRAWN mLastHidden=false
+      Surface: shown=true layer=161000 alpha=1.0 secure=false rect=(0.0,0.0) 1080.0 x 72.0
+      mGlobalScale=1.0 mDsDx=1.0 mDtDx=0.0 mDsDy=0.0 mDtDy=1.0
+    mLastFreezeDuration=+1d20h56m19s835ms
+    mWaitingForOrientation=false
+    shouldHideWhileStartingWindowIsShown=false
+    mDelayedResize=false
+    windowType=normal : MultiWindowStyle{type=0, zone=ZONE_UNKNOWN, option=0x00000000, bounds=null, isNull=false, isolatedCenterPoint=Point(0, 0), scale=0.0, specificTaskId=-1}
+    Current zone bounds=[0,0][1080,1920]
+  Window #8 Window{e801c1d u0 d0 KeyguardScrim}:
+    mDisplayId=0 stackId=0 mSession=Session{e5432e1 847:1000} mClient=android.view.ViewRootImpl$W@5c65cf4
+    mOwnerUid=1000 mShowToOwnerOnly=false package=android appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillxfill) sim=#10 ty=2029 fl=#1110900 pfl=0x1 fmt=-3 or=5 vsysui=0x3610000}
+    Requested w=0 h=0 mLayoutSeq=3
+    mBaseLayer=141000 mSubLayer=0 mAnimLayer=141000+0=141000 mLastLayer=0
+    mToken=WindowToken{cf8e44e null}
+    mRootToken=WindowToken{cf8e44e null}
+    mViewVisibility=0x8 mHaveFrame=true mObscured=false
+    mSeq=0 mSystemUiVisibility=0x3610000
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mConfiguration={0 1.0 showBtnBg = 0 ?mcc?mnc zh_CN ldltr sw360dp w360dp h616dp 480dpi nrml long port finger -keyb/v/h -nav/h mkbd/? s.4}
+    mHasSurface=false mShownFrame=[0.0,0.0][0.0,0.0] isReadyForDisplay()=false
+    mFrame=[0,0][1080,1920] last=[0,0][0,0]
+    mSystemDecorRect=[0,0][0,0] last=[0,0][0,0]
+    Frames: containing=[0,0][1080,1920] parent=[0,0][1080,1920]
+        display=[0,0][1080,1920] overscan=[0,0][1080,1920]
+        content=[0,0][1080,1920] visible=[0,0][1080,1920]
+        decor=[0,0][1080,1920]
+        outset=[0,0][0,0]
+    Cur insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0] stable=[0,0][0,0] outsets=[0,0][0,0]
+    Lst insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0] stable=[0,0][0,0] physical=[0,0][0,0] outset=[0,0][0,0]
+    WindowStateAnimator{df341d9 KeyguardScrim}:
+      mShownAlpha=0.0 mAlpha=1.0 mLastAlpha=0.0
+    mWaitingForOrientation=false
+    shouldHideWhileStartingWindowIsShown=false
+    mDelayedResize=false
+    windowType=normal : MultiWindowStyle{type=0, zone=ZONE_UNKNOWN, option=0x00000000, bounds=null, isNull=false, isolatedCenterPoint=Point(0, 0), scale=0.0, specificTaskId=-1}
+    Current zone bounds=[0,0][1080,1920]
+  Window #7 Window{2016f4c u0 d0 ContainerKeyguardScrim}:
+    mDisplayId=0 stackId=0 mSession=Session{e5432e1 847:1000} mClient=android.view.ViewRootImpl$W@e1f537f
+    mOwnerUid=1000 mShowToOwnerOnly=false package=android appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillxfill) sim=#23 ty=2008 fl=#1112d00 fmt=-3 or=5}
+    Requested w=0 h=0 mLayoutSeq=2
+    mBaseLayer=71000 mSubLayer=0 mAnimLayer=71000+0=71000 mLastLayer=0
+    mToken=WindowToken{cf8e44e null}
+    mRootToken=WindowToken{cf8e44e null}
+    mViewVisibility=0x8 mHaveFrame=true mObscured=false
+    mSeq=0 mSystemUiVisibility=0x0
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mConfiguration={0 1.0 showBtnBg = 0 ?mcc?mnc zh_CN ldltr sw360dp w360dp h616dp 480dpi nrml long port finger -keyb/v/h -nav/h mkbd/? s.4}
+    mHasSurface=false mShownFrame=[0.0,0.0][0.0,0.0] isReadyForDisplay()=false
+    mFrame=[0,0][1080,1920] last=[0,0][0,0]
+    mSystemDecorRect=[0,0][0,0] last=[0,0][0,0]
+    Frames: containing=[0,0][1080,1920] parent=[0,0][1080,1920]
+        display=[0,0][1080,1920] overscan=[0,0][1080,1920]
+        content=[0,0][1080,1920] visible=[0,0][1080,1920]
+        decor=[0,0][1080,1920]
+        outset=[0,0][1080,1920]
+    Cur insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0] stable=[0,0][0,0] outsets=[0,0][0,0]
+    Lst insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0] stable=[0,0][0,0] physical=[0,0][0,0] outset=[0,0][0,0]
+    WindowStateAnimator{eb3d420 ContainerKeyguardScrim}:
+      mShownAlpha=0.0 mAlpha=1.0 mLastAlpha=0.0
+    mWaitingForOrientation=false
+    shouldHideWhileStartingWindowIsShown=false
+    mDelayedResize=false
+    windowType=normal : MultiWindowStyle{type=0, zone=ZONE_UNKNOWN, option=0x00000000, bounds=null, isNull=false, isolatedCenterPoint=Point(0, 0), scale=0.0, specificTaskId=-1}
+    Current zone bounds=[0,0][1080,1920]
+  Window #6 Window{a3fc279 u0 d0 com.bst.airmessage.content}:
+    mDisplayId=0 stackId=0 mSession=Session{bf48a72 26101:u0a10001} mClient=android.os.BinderProxy@6957340
+    mOwnerUid=10001 mShowToOwnerOnly=true package=com.bst.airmessage appop=NONE
+    mAttrs=WM.LayoutParams{(7,138)(0x0) gr=#33 sim=#20 ty=2101 fl=#1040228 fmt=-3 sfl=0x20000}
+    Requested w=0 h=0 mLayoutSeq=69176
+    mBaseLayer=51000 mSubLayer=0 mAnimLayer=51000+0=51000 mLastLayer=51000
+    mToken=WindowToken{cf8e44e null}
+    mRootToken=WindowToken{cf8e44e null}
+    mViewVisibility=0x0 mHaveFrame=true mObscured=false
+    mSeq=0 mSystemUiVisibility=0x0
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mConfiguration={0 1.0 showBtnBg = 0 ?mcc?mnc zh_CN ldltr sw360dp w360dp h616dp 480dpi nrml long port finger -keyb/v/h -nav/h mkbd/? s.10}
+    mHasSurface=true mShownFrame=[7.0,210.0][7.0,210.0] isReadyForDisplay()=true
+    mFrame=[7,210][7,210] last=[7,210][7,210]
+    mSystemDecorRect=[0,0][0,0] last=[0,0][0,0]
+    Frames: containing=[0,72][1080,1920] parent=[0,72][1080,1920]
+        display=[-10000,-10000][10000,10000] overscan=[-10000,-10000][10000,10000]
+        content=[7,210][7,210] visible=[7,210][7,210]
+        decor=[0,0][1080,1920]
+        outset=[0,0][0,0]
+    Cur insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0] stable=[0,0][0,0] outsets=[0,0][0,0]
+    Lst insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0] stable=[0,0][0,0] physical=[0,0][0,0] outset=[0,0][0,0]
+    WindowStateAnimator{bf3a20c com.bst.airmessage.content}:
+      mSurface=Surface(name=com.bst.airmessage.content)
+      mDrawState=HAS_DRAWN mLastHidden=false
+      Surface: shown=true layer=51000 alpha=1.0 secure=false rect=(7.0,210.0) 1.0 x 1.0
+      mGlobalScale=1.0 mDsDx=1.0 mDtDx=0.0 mDsDy=0.0 mDtDy=1.0
+    mWaitingForOrientation=false
+    shouldHideWhileStartingWindowIsShown=false
+    mDelayedResize=false
+    windowType=normal : MultiWindowStyle{type=0, zone=ZONE_UNKNOWN, option=0x00000000, bounds=null, isNull=false, isolatedCenterPoint=Point(0, 0), scale=0.0, specificTaskId=-1}
+    Current zone bounds=[0,0][1080,1920]
+  Window #5 Window{c13c888 u0 d0 AssistPreviewPanel}:
+    mDisplayId=0 stackId=0 mSession=Session{3eb02be 1325:u0a10017} mClient=android.os.BinderProxy@3a29c2b
+    mOwnerUid=10017 mShowToOwnerOnly=true package=com.android.systemui appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillx750) gr=#800053 sim=#31 ty=2033 fl=#1000118 fmt=-3 vsysui=0x700}
+    Requested w=1080 h=750 mLayoutSeq=67936
+    mBaseLayer=41000 mSubLayer=0 mAnimLayer=41000+0=41000 mLastLayer=41000
+    mToken=WindowToken{cf8e44e null}
+    mRootToken=WindowToken{cf8e44e null}
+    mViewVisibility=0x8 mHaveFrame=true mObscured=false
+    mSeq=0 mSystemUiVisibility=0x700
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mConfiguration={0 1.0 showBtnBg = 0 ?mcc?mnc zh_CN ldltr sw360dp w360dp h616dp 480dpi nrml long port finger -keyb/v/h -nav/h mkbd/? s.4}
+    mHasSurface=false mShownFrame=[0.0,1170.0][1080.0,1920.0] isReadyForDisplay()=false
+    mFrame=[0,1170][1080,1920] last=[0,1170][1080,1920]
+    mSystemDecorRect=[0,0][1080,750] last=[0,0][0,0]
+    Frames: containing=[0,0][1080,1920] parent=[0,0][1080,1920]
+        display=[0,0][1080,1920] overscan=[0,0][1080,1920]
+        content=[0,1170][1080,1920] visible=[0,1170][1080,1920]
+        decor=[0,0][1080,1920]
+        outset=[0,0][0,0]
+    Cur insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0] stable=[0,0][0,0] outsets=[0,0][0,0]
+    Lst insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0] stable=[0,0][0,0] physical=[0,0][0,0] outset=[0,0][0,0]
+    WindowStateAnimator{a970852 AssistPreviewPanel}:
+      mGlobalScale=1.0 mDsDx=1.0 mDtDx=0.0 mDsDy=0.0 mDtDy=1.0
+    mWaitingForOrientation=false
+    shouldHideWhileStartingWindowIsShown=false
+    mDelayedResize=false
+    windowType=normal : MultiWindowStyle{type=0, zone=ZONE_UNKNOWN, option=0x00000000, bounds=null, isNull=false, isolatedCenterPoint=Point(0, 0), scale=0.0, specificTaskId=-1}
+    Current zone bounds=[0,0][1080,1920]
+  Window #4 Window{cd308cf u0 d0 com.tencent.android.qqdownloader}:
+    mDisplayId=0 stackId=0 mSession=Session{7abe330 23381:u0a10406} mClient=android.os.BinderProxy@467252e
+    mOwnerUid=10406 mShowToOwnerOnly=true package=com.tencent.android.qqdownloader appop=SYSTEM_ALERT_WINDOW
+    mAttrs=WM.LayoutParams{(0,0)(fillx144) gr=#33 sim=#20 ty=2002 fl=#1000028 fmt=1}
+    Requested w=1080 h=144 mLayoutSeq=62564
+    mBaseLayer=31000 mSubLayer=0 mAnimLayer=31000+0=31000 mLastLayer=31000
+    mToken=WindowToken{cf8e44e null}
+    mRootToken=WindowToken{cf8e44e null}
+    mViewVisibility=0x8 mHaveFrame=true mObscured=false
+    mSeq=0 mSystemUiVisibility=0x0
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mConfiguration={0 1.0 showBtnBg = 0 ?mcc?mnc zh_CN ldltr sw360dp w360dp h616dp 480dpi nrml long port finger -keyb/v/h -nav/h mkbd/? s.10}
+    mHasSurface=false mShownFrame=[0.0,72.0][1080.0,216.0] isReadyForDisplay()=false
+    mFrame=[0,72][1080,216] last=[0,72][1080,216]
+    mSystemDecorRect=[0,0][1080,144] last=[0,0][0,0]
+    Frames: containing=[0,72][1080,1920] parent=[0,72][1080,1920]
+        display=[0,72][1080,1920] overscan=[0,72][1080,1920]
+        content=[0,72][1080,216] visible=[0,72][1080,216]
+        decor=[0,0][1080,1920]
+        outset=[0,0][0,0]
+    Cur insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0] stable=[0,0][0,0] outsets=[0,0][0,0]
+    Lst insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0] stable=[0,0][0,0] physical=[0,0][0,0] outset=[0,0][0,0]
+    WindowStateAnimator{c03993f }:
+      mGlobalScale=1.0 mDsDx=1.0 mDtDx=0.0 mDsDy=0.0 mDtDy=1.0
+    mWaitingForOrientation=false
+    shouldHideWhileStartingWindowIsShown=false
+    mDelayedResize=false
+    windowType=normal : MultiWindowStyle{type=0, zone=ZONE_UNKNOWN, option=0x00000000, bounds=null, isNull=false, isolatedCenterPoint=Point(0, 0), scale=0.0, specificTaskId=-1}
+    Current zone bounds=[0,0][1080,1920]
+  Window #3 Window{6583a12 u0 d0 InputMethod}:
+    mDisplayId=0 stackId=0 mSession=Session{3d7c662 4420:1000} mClient=android.os.BinderProxy@d97159d
+    mOwnerUid=1000 mShowToOwnerOnly=true package=com.sec.android.inputmethod appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillxwrap) gr=#50 sim=#20 ty=2011 fl=#1800108 pfl=0x40 fmt=-2 wanim=0x7f0d001c vsysui=0x300 needsMenuKey=2 sfl=0x800}
+    Requested w=1080 h=1038 mLayoutSeq=69088
+    mIsImWindow=true mIsWallpaper=false mIsFloatingLayer=true mWallpaperVisible=false
+    mBaseLayer=121000 mSubLayer=0 mAnimLayer=21015+0=21015 mLastLayer=21015
+    mToken=WindowToken{99da4f android.os.Binder@7fedc8d}
+    mRootToken=WindowToken{99da4f android.os.Binder@7fedc8d}
+    mTargetAppToken=AppWindowToken{b98123c token=Token{d8fec2f ActivityRecord{405fa0e u0 com.sec.android.app.launcher/com.android.launcher2.Launcher t5630}}}
+    mViewVisibility=0x8 mHaveFrame=true mObscured=false
+    mSeq=0 mSystemUiVisibility=0x300
+    mGivenContentInsets=[0,288][0,0] mGivenVisibleInsets=[0,288][0,0]
+    mTouchableInsets=2 mGivenInsetsPending=false
+    touchable region=SkRegion((0,1170,1080,1920))
+    mConfiguration={0 1.0 showBtnBg = 0 ?mcc?mnc zh_CN ldltr sw360dp w360dp h616dp 480dpi nrml long port finger -keyb/v/h -nav/h mkbd/? s.10}
+    mHasSurface=false mShownFrame=[0.0,882.0][1080.0,1920.0] isReadyForDisplay()=false
+    mFrame=[0,882][1080,1920] last=[0,882][1080,1920]
+    mSystemDecorRect=[0,0][1080,1038] last=[0,0][0,0]
+    Frames: containing=[0,72][1080,1920] parent=[0,72][1080,1920]
+        display=[0,72][1080,1920] overscan=[0,72][1080,1920]
+        content=[0,882][1080,1920] visible=[0,882][1080,1920]
+        decor=[0,0][0,0]
+        outset=[0,0][0,0]
+    Cur insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0] stable=[0,0][0,0] outsets=[0,0][0,0]
+    Lst insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0] stable=[0,0][0,0] physical=[0,0][0,0] outset=[0,0][0,0]
+    WindowStateAnimator{9fe44f1 InputMethod}:
+      mGlobalScale=1.0 mDsDx=1.0 mDtDx=0.0 mDsDy=0.0 mDtDy=1.0
+    mWaitingForOrientation=false
+    shouldHideWhileStartingWindowIsShown=false
+    mDelayedResize=false
+    windowType=normal : MultiWindowStyle{type=0, zone=ZONE_UNKNOWN, option=0x00000000, bounds=null, isNull=false, isolatedCenterPoint=Point(0, 0), scale=0.0, specificTaskId=-1}
+    Current zone bounds=[0,0][1080,1920]
+  Window #2 Window{a018c63 u0 d0 com.sec.android.app.launcher/com.android.launcher2.Launcher}:
+    mDisplayId=0 stackId=0 mSession=Session{b158ee1 1700:u0a10008} mClient=android.os.BinderProxy@87dea92
+    mOwnerUid=10008 mShowToOwnerOnly=true package=com.sec.android.app.launcher appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillxfill) sim=#30 ty=1 fl=#81910d00 fmt=-2 wanim=0x1030383 vsysui=0x600 needsMenuKey=2}
+    Requested w=1080 h=1920 mLayoutSeq=69176
+    mBaseLayer=21000 mSubLayer=0 mAnimLayer=21010+0=21010 mLastLayer=21010
+    mToken=AppWindowToken{b98123c token=Token{d8fec2f ActivityRecord{405fa0e u0 com.sec.android.app.launcher/com.android.launcher2.Launcher t5630}}}
+    mRootToken=AppWindowToken{b98123c token=Token{d8fec2f ActivityRecord{405fa0e u0 com.sec.android.app.launcher/com.android.launcher2.Launcher t5630}}}
+    mAppToken=AppWindowToken{b98123c token=Token{d8fec2f ActivityRecord{405fa0e u0 com.sec.android.app.launcher/com.android.launcher2.Launcher t5630}}}
+    mViewVisibility=0x0 mHaveFrame=true mObscured=false
+    mSeq=0 mSystemUiVisibility=0x600
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mConfiguration={0 1.0 showBtnBg = 0 ?mcc?mnc zh_CN ldltr sw360dp w360dp h616dp 480dpi nrml long port finger -keyb/v/h -nav/h mkbd/? s.4}
+    mHasSurface=true mShownFrame=[0.0,0.0][1080.0,1920.0] isReadyForDisplay()=true
+    mFrame=[0,0][1080,1920] last=[0,0][1080,1920]
+    mSystemDecorRect=[0,0][1080,1920] last=[0,0][0,0]
+    Frames: containing=[0,0][1080,1920] parent=[0,0][1080,1920]
+        display=[0,0][1080,1920] overscan=[0,0][1080,1920]
+        content=[0,0][1080,1920] visible=[0,0][1080,1920]
+        decor=[0,0][1080,1920]
+        outset=[0,0][1080,1920]
+    Cur insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0] stable=[0,72][0,0] outsets=[0,0][0,0]
+    Lst insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0] stable=[0,72][0,0] physical=[0,0][0,0] outset=[0,0][0,0]
+    WindowStateAnimator{d818c08 com.sec.android.app.launcher/com.android.launcher2.Launcher}:
+      mSurface=Surface(name=com.sec.android.app.launcher/com.android.launcher2.Launcher)
+      mDrawState=HAS_DRAWN mLastHidden=false
+      Surface: shown=true layer=21010 alpha=1.0 secure=false rect=(0.0,0.0) 1080.0 x 1920.0
+      mGlobalScale=1.0 mDsDx=1.0 mDtDx=0.0 mDsDy=0.0 mDtDy=1.0
+    mWallpaperX=0.5 mWallpaperY=0.5
+    mWaitingForOrientation=false
+    shouldHideWhileStartingWindowIsShown=false
+    mDelayedResize=false
+    windowType=normal : MultiWindowStyle{type=0, zone=ZONE_UNKNOWN, option=0x00000000, bounds=null, isNull=false, isolatedCenterPoint=Point(0, 0), scale=0.0, specificTaskId=-1}
+    Current zone bounds=[0,0][1080,1920]
+    Current stack bounds=[0,0][1080,1920]
+  Window #1 Window{b98f1d9 u0 d0 com.android.systemui/com.android.systemui.recents.SeparatedRecentsActivity}:
+    mDisplayId=0 stackId=0 mSession=Session{5e3f852 1418:u0a10017} mClient=android.os.BinderProxy@9a24420
+    mOwnerUid=10017 mShowToOwnerOnly=true package=com.android.systemui appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillxfill) sim=#120 ty=1 fl=#81910500 fmt=-3 wanim=0x1030383 vsysui=0x700 needsMenuKey=2 sfl=0x2 mwfl=0x42}
+    Requested w=1080 h=1920 mLayoutSeq=62673
+    mBaseLayer=21000 mSubLayer=0 mAnimLayer=21005+0=21005 mLastLayer=22005
+    mToken=AppWindowToken{b893ef0 token=Token{1d3cb33 ActivityRecord{269a2a2 u0 com.android.systemui/.recents.SeparatedRecentsActivity t5637}}}
+    mRootToken=AppWindowToken{b893ef0 token=Token{1d3cb33 ActivityRecord{269a2a2 u0 com.android.systemui/.recents.SeparatedRecentsActivity t5637}}}
+    mAppToken=AppWindowToken{b893ef0 token=Token{1d3cb33 ActivityRecord{269a2a2 u0 com.android.systemui/.recents.SeparatedRecentsActivity t5637}}}
+    mViewVisibility=0x8 mHaveFrame=true mObscured=false
+    mSeq=0 mSystemUiVisibility=0x700
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mConfiguration={0 1.0 showBtnBg = 0 ?mcc?mnc zh_CN ldltr sw360dp w360dp h616dp 480dpi nrml long port finger -keyb/v/h -nav/h mkbd/? s.4}
+    mHasSurface=false mShownFrame=[0.0,0.0][1080.0,1920.0] isReadyForDisplay()=false
+    mFrame=[0,0][1080,1920] last=[0,0][1080,1920]
+    mSystemDecorRect=[0,0][1080,1920] last=[0,0][0,0]
+    Frames: containing=[0,0][1080,1920] parent=[0,0][1080,1920]
+        display=[0,0][1080,1920] overscan=[0,0][1080,1920]
+        content=[0,0][1080,1920] visible=[0,0][1080,1920]
+        decor=[0,0][1080,1920]
+        outset=[0,0][1080,1920]
+    Cur insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0] stable=[0,72][0,0] outsets=[0,0][0,0]
+    Lst insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0] stable=[0,72][0,0] physical=[0,0][0,0] outset=[0,0][0,0]
+    WindowStateAnimator{c31ea1c com.android.systemui/com.android.systemui.recents.SeparatedRecentsActivity}:
+      mShownAlpha=1.0 mAlpha=1.0 mLastAlpha=0.0
+      mGlobalScale=1.0 mDsDx=1.0 mDtDx=0.0 mDsDy=0.0 mDtDy=1.0
+    mWaitingForOrientation=false
+    shouldHideWhileStartingWindowIsShown=false
+    mDelayedResize=false
+    windowType=normal : MultiWindowStyle{type=0, zone=ZONE_UNKNOWN, option=0x01000002, bounds=null, isNull=false, isolatedCenterPoint=Point(0, 0), scale=0.0, specificTaskId=-1}
+    Current zone bounds=[0,0][1080,1920]
+    Current stack bounds=[0,0][1080,1920]
+  Window #0 Window{675a536 u0 d0 com.android.systemui.ImageWallpaper}:
+    mDisplayId=0 stackId=0 mSession=Session{54befd9 1571:u0a10017} mClient=android.os.BinderProxy@f9066d1
+    mOwnerUid=10017 mShowToOwnerOnly=true package=com.android.systemui appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(1920x1920) gr=#800033 ty=2013 fl=#318 fmt=2 wanim=0x10302ea}
+    Requested w=1920 h=1920 mLayoutSeq=69176
+    mIsImWindow=false mIsWallpaper=true mIsFloatingLayer=true mWallpaperVisible=true
+    mBaseLayer=21000 mSubLayer=0 mAnimLayer=21000+0=21000 mLastLayer=21000
+    mToken=WindowToken{4a4a67c android.os.Binder@48bec6e}
+    mRootToken=WindowToken{4a4a67c android.os.Binder@48bec6e}
+    mViewVisibility=0x0 mHaveFrame=true mObscured=false
+    mSeq=0 mSystemUiVisibility=0x0
+    Offsets x=-420 y=0
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mConfiguration={0 1.0 showBtnBg = 0 ?mcc?mnc zh_CN ldltr sw360dp w360dp h616dp 480dpi nrml long port finger -keyb/v/h -nav/h mkbd/? s.10}
+    mHasSurface=true mShownFrame=[-420.0,0.0][1500.0,1920.0] isReadyForDisplay()=true
+    mFrame=[0,0][1920,1920] last=[0,0][1920,1920]
+    mSystemDecorRect=[420,0][1500,1920] last=[0,0][0,0]
+    Frames: containing=[0,0][1080,1920] parent=[0,0][1080,1920]
+        display=[-10000,-10000][10000,10000] overscan=[0,0][1080,1920]
+        content=[0,0][1080,1920] visible=[0,72][1080,1920]
+        decor=[0,0][1080,1920]
+        outset=[0,0][1080,1920]
+    Cur insets: overscan=[0,0][840,0] content=[0,0][840,0] visible=[0,72][840,0] stable=[0,72][840,0] outsets=[0,0][0,0]
+    Lst insets: overscan=[0,0][840,0] content=[0,0][840,0] visible=[0,72][840,0] stable=[0,72][840,0] physical=[0,0][0,0] outset=[0,0][0,0]
+    WindowStateAnimator{c636c69 com.android.systemui.ImageWallpaper}:
+      mAnimating=false mLocalAnimating=false mAnimationIsEntrance=true mAnimation=null
+      mSurface=Surface(name=com.android.systemui.ImageWallpaper)
+      mDrawState=HAS_DRAWN mLastHidden=false
+      Surface: shown=true layer=21000 alpha=1.0 secure=false rect=(-420.0,0.0) 1920.0 x 1920.0
+      mGlobalScale=1.0 mDsDx=1.0 mDtDx=0.0 mDsDy=0.0 mDtDy=1.0
+    mLastFreezeDuration=+21h18m55s682ms
+    mWallpaperX=0.5 mWallpaperY=0.5
+    mWaitingForOrientation=false
+    shouldHideWhileStartingWindowIsShown=false
+    mDelayedResize=false
+    windowType=normal : MultiWindowStyle{type=0, zone=ZONE_UNKNOWN, option=0x00000000, bounds=null, isNull=false, isolatedCenterPoint=Point(0, 0), scale=0.0, specificTaskId=-1}
+    Current zone bounds=[0,0][1080,1920]
+
+  mCurConfiguration={0 1.0 showBtnBg = 0 ?mcc?mnc zh_CN ldltr sw360dp w360dp h616dp 480dpi nrml long port finger -keyb/v/h -nav/h mkbd/? s.10}
+  mHasPermanentDpad=false
+  mCurrentFocus=Window{a018c63 u0 d0 com.sec.android.app.launcher/com.android.launcher2.Launcher}
+  mFocusedApp=AppWindowToken{b98123c token=Token{d8fec2f ActivityRecord{405fa0e u0 com.sec.android.app.launcher/com.android.launcher2.Launcher t5630}}}
+  mInputMethodTarget=Window{a018c63 u0 d0 com.sec.android.app.launcher/com.android.launcher2.Launcher}
+  mInTouchMode=false mLayoutSeq=69176
+  mLastDisplayFreezeDuration=+2s40ms due to Window{1880415 u0 d0 StatusBar}
+  mSystemDecorLayer=161000 mScreenRect=[0,0][1080,1920]
+  mLastStatusBarVisibility=0x8600
+  mWallpaperTarget=Window{a018c63 u0 d0 com.sec.android.app.launcher/com.android.launcher2.Launcher}
+  mLastWallpaperX=0.5 mLastWallpaperY=0.5
+  mSystemBooted=true mDisplayEnabled=true
+  mTransactionSequence=79764
+  mDisplayFrozen=false windows=0 client=false apps=0 hasAppWindowWaitingForOrientation=false waitingForConfig=false
+  mRotation=0 mAltOrientation=false
+  mLastWindowForcedOrientation=-1 mForcedAppOrientation=1
+  mDeferredRotationPauseCount=0
+  Animation settings: disabled=false window=1.0 transition=1.0 animator=1.0
+  mTraversalScheduled=false
+ mSkipAppTransitionAnimation=false
+  mLayoutToAnim:
+    mNextAppTransition=TRANSIT_UNSET
+    mAppTransitionState=APP_STATE_IDLE
+    mNextAppTransition=TRANSIT_UNSET
+    mAppTransitionState=APP_STATE_IDLE
+[dumpsys: 33.912s elapsed]
+
+========================================================
+== TIMECHECK 33.911736 dumpsys all: done 
+========================================================
+========================================================
+== DUMPSYS: Others
+========================================================
+========================================================
+== Checkins
+========================================================

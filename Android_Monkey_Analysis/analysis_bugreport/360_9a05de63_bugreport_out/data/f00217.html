@@ -1,0 +1,54 @@
+<html>
+<head>
+  <title>f00217.html</title>
+  <link rel="stylesheet" type="text/css" href="themes/blue/style.css"/>
+  <link rel="stylesheet" type="text/css" href="jquery.treeTable.css"/>
+  <link rel="stylesheet" type="text/css" href="jquery.ui.css"/>
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+  <script type="text/javascript" src="jquery.js"></script>
+  <script type="text/javascript" src="jquery.cookie.js"></script>
+  <script type="text/javascript" src="jquery.hotkeys.js"></script>
+  <script type="text/javascript" src="jquery.jstree.js"></script>
+  <script type="text/javascript" src="jquery.tablesorter.js"></script>
+  <script type="text/javascript" src="jquery.tablednd.js"></script>
+  <script type="text/javascript" src="jquery.treeTable.js"></script>
+  <script type="text/javascript" src="jquery.flot.js"></script>
+  <script type="text/javascript" src="jquery.flot.navigate.js"></script>
+  <script type="text/javascript" src="jquery.flot.selection.js"></script>
+  <script type="text/javascript" src="jquery.ui.js"></script>
+  <script type="text/javascript" src="colResizable-1.3.source.js"></script>
+  <script type="text/javascript" src="/self$wsjs"></script>
+  <script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+<a name="ch0"></a><div class="btn-pop-out"><a href="f00217.html#ch0" target="_blank"><img src="ic_pop_out.png"/></a></div><h2>parse intent extra failed</h2>
+<!--
+com.sonyericsson.chkbugreport.doc.InternalRef.<init>(InternalRef.java:33)
+com.sonyericsson.chkbugreport.doc.Bug.<init>(Bug.java:90)
+com.sonyericsson.chkbugreport.plugins.logs.SystemLogPlugin.analyzeJavaException(SystemLogPlugin.java:369)
+com.sonyericsson.chkbugreport.plugins.logs.SystemLogPlugin.analyze(SystemLogPlugin.java:185)
+com.sonyericsson.chkbugreport.plugins.logs.LogPlugin.load(LogPlugin.java:254)
+com.sonyericsson.chkbugreport.plugins.logs.SystemLogPlugin.load(SystemLogPlugin.java:64)
+com.sonyericsson.chkbugreport.Module.runPlugins(Module.java:662)
+com.sonyericsson.chkbugreport.Module.generate(Module.java:567)
+com.sonyericsson.chkbugreport.Main.run(Main.java:232)
+com.sonyericsson.chkbugreport.Main.main(Main.java:358)
+-->
+<div><a href="f00344.html#l34093456923">(link to log)</a></div><div class="log"><div class="log-line log-error" id="l2234348792905728">12-22 14:24:16.923  <a href="f00552.html#ch0">1546</a>  2204 E SmartShowServiceContextImpl: parse intent extra failed</div>
+<div class="log-line log-error" id="l2234348792905729">12-22 14:24:16.923  <a href="f00552.html#ch0">1546</a>  2204 E SmartShowServiceContextImpl: android.os.BadParcelableException: ClassNotFoundException when unmarshalling: com.alipay.pushsdk.AliPushAppInfo</div>
+<div class="log-line log-error" id="l2234348792905730">12-22 14:24:16.923  <a href="f00552.html#ch0">1546</a>  2204 E SmartShowServiceContextImpl: 	at android.os.Parcel.readParcelableCreator(Parcel.java:2432)</div>
+<div class="log-line log-error" id="l2234348792905731">12-22 14:24:16.923  <a href="f00552.html#ch0">1546</a>  2204 E SmartShowServiceContextImpl: 	at android.os.Parcel.readParcelable(Parcel.java:2358)</div>
+<div class="log-line log-error" id="l2234348792905732">12-22 14:24:16.923  <a href="f00552.html#ch0">1546</a>  2204 E SmartShowServiceContextImpl: 	at android.os.Parcel.readValue(Parcel.java:2264)</div>
+<div class="log-line log-error" id="l2234348792905733">12-22 14:24:16.923  <a href="f00552.html#ch0">1546</a>  2204 E SmartShowServiceContextImpl: 	at android.os.Parcel.readArrayMapInternal(Parcel.java:2614)</div>
+<div class="log-line log-error" id="l2234348792905734">12-22 14:24:16.923  <a href="f00552.html#ch0">1546</a>  2204 E SmartShowServiceContextImpl: 	at android.os.BaseBundle.unparcel(BaseBundle.java:221)</div>
+<div class="log-line log-error" id="l2234348792905735">12-22 14:24:16.923  <a href="f00552.html#ch0">1546</a>  2204 E SmartShowServiceContextImpl: 	at android.os.BaseBundle.getString(BaseBundle.java:920)</div>
+<div class="log-line log-error" id="l2234348792905736">12-22 14:24:16.923  <a href="f00552.html#ch0">1546</a>  2204 E SmartShowServiceContextImpl: 	at android.content.Intent.getStringExtra(Intent.java:5377)</div>
+<div class="log-line log-error" id="l2234348792905737">12-22 14:24:16.923  <a href="f00552.html#ch0">1546</a>  2204 E SmartShowServiceContextImpl: 	at com.powermo.smartshow.frameworks.SmartShowServiceContextImpl.getInstanceId(SmartShowServiceContextImpl.java:184)</div>
+<div class="log-line log-error" id="l2234348792905738">12-22 14:24:16.923  <a href="f00552.html#ch0">1546</a>  2204 E SmartShowServiceContextImpl: 	at com.android.server.am.ActiveServicesManager.getInstanceId(ActiveServicesManager.java:150)</div>
+<div class="log-line log-error" id="l2234348792905739">12-22 14:24:16.923  <a href="f00552.html#ch0">1546</a>  2204 E SmartShowServiceContextImpl: 	at com.android.server.am.ActiveServicesManager.startServiceLocked(ActiveServicesManager.java:157)</div>
+<div class="log-line log-error" id="l2234348792905740">12-22 14:24:16.923  <a href="f00552.html#ch0">1546</a>  2204 E SmartShowServiceContextImpl: 	at com.android.server.am.ActivityManagerService.startService(ActivityManagerService.java:16496)</div>
+<div class="log-line log-error" id="l2234348792905741">12-22 14:24:16.923  <a href="f00552.html#ch0">1546</a>  2204 E SmartShowServiceContextImpl: 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:932)</div>
+<div class="log-line log-error" id="l2234348792905742">12-22 14:24:16.923  <a href="f00552.html#ch0">1546</a>  2204 E SmartShowServiceContextImpl: 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2654)</div>
+<div class="log-line log-error" id="l2234348792905743">12-22 14:24:16.923  <a href="f00552.html#ch0">1546</a>  2204 E SmartShowServiceContextImpl: 	at android.os.Binder.execTransact(Binder.java:453)</div>
+</div></body>
+</html>

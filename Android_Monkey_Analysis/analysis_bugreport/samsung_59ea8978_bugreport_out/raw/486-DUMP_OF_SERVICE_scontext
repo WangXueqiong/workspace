@@ -1,0 +1,12 @@
+listener count : 2
+===== SContext Service List =====
+Client Listener ID : com.android.server.wifi.WifiServiceImpl$11@50e6568
+Service Listener ID : android.hardware.scontext.SContextService$Listener@770d81
+ Service : Activity Tracker
+
+
+Client Listener ID : com.android.server.policy.WindowOrientationListener$OrientationSensorJudge@c9fbc28
+Service Listener ID : android.hardware.scontext.SContextService$Listener@191ce47
+ Service : Auto Rotation
+
+

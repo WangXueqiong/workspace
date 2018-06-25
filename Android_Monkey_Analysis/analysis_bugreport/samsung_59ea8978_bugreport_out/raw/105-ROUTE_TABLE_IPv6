@@ -1,0 +1,4 @@
+fe80::/64 dev dummy0  proto kernel  metric 256 
+default dev dummy0  proto static  metric 1024 
+[ip: 0.016s elapsed]
+

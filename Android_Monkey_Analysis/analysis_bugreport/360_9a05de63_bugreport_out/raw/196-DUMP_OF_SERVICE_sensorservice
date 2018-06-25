@@ -1,0 +1,138 @@
+Sensor List:
+BMI160 Accelerometer| BOSCH     | version=2061000 |android.sensor.accelerometer| 0x00000001 | "" | type=1 | continuous | minRate=1.00Hz | maxRate=200.00Hz | FifoMax=10000 events | non-wakeUp | last 50 events = < 1)   8.5,  2.5,  3.9,258334092566991 17:26:21 2)   8.5,  2.5,  3.9,258334112586522 17:26:21 3)   8.5,  2.5,  3.9,258334132636571 17:26:21 4)   8.5,  2.6,  3.9,258334152686620 17:26:21 5)   8.5,  2.6,  3.9,258334172736668 17:26:21 6)   8.5,  2.6,  3.9,258334192756200 17:26:21 7)   8.4,  2.5,  3.9,258334212806249 17:26:21 8)   8.4,  2.5,  4.0,258334232856297 17:26:21 9)   8.4,  2.5,  4.0,258334252906346 17:26:21 10)   8.4,  2.5,  4.0,258334272925877 17:26:21 11)   8.5,  2.5,  3.9,258334292975926 17:26:21 12)   8.5,  2.5,  3.9,258334313025975 17:26:21 13)   8.5,  2.5,  3.9,258334333076024 17:26:21 14)   8.5,  2.6,  3.9,258334353126073 17:26:21 15)   8.5,  2.6,  3.9,258334373176122 17:26:21 16)   8.5,  2.6,  3.9,258334393195653 17:26:21 17)   8.4,  2.5,  3.9,258334413245702 17:26:21 18)   8.4,  2.5,  4.0,258334433295751 17:26:21 19)   8.4,  2.5,  4.0,258334453345799 17:26:21 20)   8.4,  2.5,  4.0,258334473365331 17:26:21 21)   8.5,  2.5,  4.0,258334493415379 17:26:21 22)   8.5,  2.5,  3.9,258334513465428 17:26:21 23)   8.5,  2.5,  3.9,258334533515477 17:26:21 24)   8.5,  2.6,  3.9,258334553535008 17:26:21 25)   8.5,  2.6,  3.9,258334573585057 17:26:21 26)   8.5,  2.6,  3.9,258334593635106 17:26:21 27)   8.5,  2.5,  3.9,258334613685155 17:26:21 28)   8.4,  2.5,  3.9,258334633704686 17:26:21 29)   8.4,  2.5,  4.0,258334653754735 17:26:21 30)   8.4,  2.5,  4.0,258334673804784 17:26:21 31)   8.4,  2.5,  4.0,258334693824315 17:26:21 32)   8.5,  2.5,  3.9,258334713874364 17:26:21 33)   8.5,  2.5,  3.9,258334733924413 17:26:21 34)   8.5,  2.5,  3.9,258334753974461 17:26:21 35)   8.5,  2.6,  3.9,258334774024510 17:26:21 36)   8.5,  2.6,  3.9,258334794044042 17:26:21 37)   8.5,  2.6,  3.9,258334814094090 17:26:21 38)   8.5,  2.5,  3.9,258334834144139 17:26:21 39)   8.4,  2.5,  4.0,258334854163670 17:26:22 40)   8.4,  2.5,  4.0,258334874213719 17:26:22 41)   8.4,  2.5,  4.0,258334894263768 17:26:22 42)   8.4,  2.5,  4.0,258334914313817 17:26:22 43)   8.5,  2.5,  3.9,258334934363866 17:26:22 44)   8.5,  2.5,  3.9,258334954413915 17:26:22 45)   8.5,  2.6,  3.9,258334974433446 17:26:22 46)   8.5,  2.6,  3.8,258334994483495 17:26:22 47)   8.5,  2.6,  3.8,258335014533543 17:26:22 48)   8.5,  2.6,  3.9,258335034583592 17:26:22 49)   8.4,  2.5,  4.0,258335054603124 17:26:22 50)   8.4,  2.5,  4.0,258335074653172 17:26:22 >
+
+MMC3530KJ Magnetometer| MEMSIC    | version=1 |android.sensor.magnetic_field| 0x00000002 | "" | type=2 | continuous | minRate=1.00Hz | maxRate=50.00Hz | FifoMax=600 events | non-wakeUp | last=<> 
+
+MMC3530KJ Magnetometer Uncalibrated| MEMSIC    | version=1 |android.sensor.magnetic_field_uncalibrated| 0x00000003 | "" | type=14 | continuous | minRate=1.00Hz | maxRate=50.00Hz | FifoMax=600 events | non-wakeUp | last=<> 
+
+BMI160 Gyroscope| BOSCH     | version=2061000 |android.sensor.gyroscope| 0x00000004 | "" | type=4 | continuous | minRate=1.00Hz | maxRate=200.00Hz | FifoMax=2000 events | non-wakeUp | last=<> 
+
+BMI160 Gyroscope Uncalibrated| BOSCH     | version=2061000 |android.sensor.gyroscope_uncalibrated| 0x00000005 | "" | type=16 | continuous | minRate=1.00Hz | maxRate=200.00Hz | FifoMax=2000 events | non-wakeUp | last=<> 
+
+LTR579 ALSPS   | LiteOn    | version=2 |android.sensor.proximity| 0x00000006 | "" | type=8 | on-change | minRate=0.02Hz | minDelay=0us |FifoMax=8770 events | wakeUp | last 10 events = < 1)   5.0,  0.0, -0.0,73021641259173 13:57:48 2)   5.0,  0.0, -0.0,82720225372272 16:39:27 3)   5.0,  0.0, -0.0,84000681823076 17:00:47 4)   5.0,  0.0, -0.0,88592508948697 18:17:19 5)   5.0,  0.0, -0.0,91355406306704 19:03:22 6)   5.0,  0.0, -0.0,244726112408865 13:39:33 7)   5.0,  0.0, -0.0,245707008159708 13:55:54 8)   5.0,  0.0, -0.0,250586714083134 15:17:13 9)   5.0,  0.0, -0.0,251319912809581 15:29:27 10)   5.0,  0.0, -0.0,252844587772591 15:54:51 >
+
+LTR579 ALSPS   | LiteOn    | version=1 |android.sensor.light| 0x00000007 | "" | type=5 | on-change | minRate=0.02Hz | minDelay=0us |FifoMax=250 events | non-wakeUp | last 10 events = < 1) 200.0,  0.0,  0.0,253349889655176 16:03:17 2) 202.0,  0.0,  0.0,253351148078028 16:03:18 3) 200.0,  0.0,  0.0,253351249182764 16:03:18 4) 202.0,  0.0,  0.0,253355428626123 16:03:22 5) 200.0,  0.0,  0.0,253355730719629 16:03:22 6) 202.0,  0.0,  0.0,253372246793278 16:03:39 7) 200.0,  0.0,  0.0,253372649655827 16:03:39 8) 202.0,  0.0,  0.0,253372800321110 16:03:39 9) 200.0,  0.0,  0.0,253372901364811 16:03:40 10) 202.0,  0.0,  0.0,253382770821373 16:03:49 >
+
+BMI160 Accelerometer -Wakeup Secondary| BOSCH     | version=2061000 |android.sensor.accelerometer| 0x00000008 | "" | type=1 | continuous | minRate=1.00Hz | maxRate=200.00Hz | FifoMax=10000 events | wakeUp | last=<> 
+
+MMC3530KJ Magnetometer -Wakeup Secondary| MEMSIC    | version=1 |android.sensor.magnetic_field| 0x00000009 | "" | type=2 | continuous | minRate=1.00Hz | maxRate=50.00Hz | FifoMax=600 events | wakeUp | last=<> 
+
+MMC3530KJ Magnetometer Uncalibrated -Wakeup Secondary| MEMSIC    | version=1 |android.sensor.magnetic_field_uncalibrated| 0x0000000a | "" | type=14 | continuous | minRate=1.00Hz | maxRate=50.00Hz | FifoMax=600 events | wakeUp | last=<> 
+
+BMI160 Gyroscope -Wakeup Secondary| BOSCH     | version=2061000 |android.sensor.gyroscope| 0x0000000b | "" | type=4 | continuous | minRate=1.00Hz | maxRate=200.00Hz | FifoMax=2000 events | wakeUp | last=<> 
+
+BMI160 Gyroscope Uncalibrated -Wakeup Secondary| BOSCH     | version=2061000 |android.sensor.gyroscope_uncalibrated| 0x0000000c | "" | type=16 | continuous | minRate=1.00Hz | maxRate=200.00Hz | FifoMax=2000 events | wakeUp | last=<> 
+
+LTR579 ALSPS -Non Wakeup Secondary| LiteOn    | version=2 |android.sensor.proximity| 0x0000000d | "" | type=8 | on-change | minRate=0.02Hz | minDelay=0us |FifoMax=8770 events | non-wakeUp | last=<> 
+
+LTR579 ALSPS -Wakeup Secondary| LiteOn    | version=1 |android.sensor.light| 0x0000000e | "" | type=5 | on-change | minRate=0.02Hz | minDelay=0us |FifoMax=250 events | wakeUp | last=<> 
+
+Gravity        | QTI       | version=2 |android.sensor.gravity| 0x0000000f | "" | type=9 | continuous | minRate=5.00Hz | maxRate=200.00Hz | FifoMax=5846 events | non-wakeUp | last=<> 
+
+Linear Acceleration| QTI       | version=2 |android.sensor.linear_acceleration| 0x00000010 | "" | type=10 | continuous | minRate=5.00Hz | maxRate=200.00Hz | FifoMax=5846 events | non-wakeUp | last 10 events = < 1)  -0.0, -0.0,  0.0,258044732936551 17:21:32 2)   0.0, -0.0, -0.0,258044934169461 17:21:32 3)   0.0,  0.0,  0.0,258045135371853 17:21:32 4)  -0.0,  0.0, -0.0,258045336574246 17:21:32 5)  -0.0, -0.0,  0.0,258045537776638 17:21:32 6)  -0.0, -0.0, -0.0,258045739009549 17:21:33 7)  -0.0, -0.0, -0.0,258045940211941 17:21:33 8)   0.0, -0.0,  0.0,258046141414334 17:21:33 9)   0.0, -0.0, -0.0,258046342673149 17:21:33 10)  -0.0, -0.0,  0.0,258046543875541 17:21:33 >
+
+Rotation Vector| QTI       | version=2 |android.sensor.rotation_vector| 0x00000011 | "" | type=11 | continuous | minRate=5.00Hz | maxRate=200.00Hz | FifoMax=7517 events | non-wakeUp | last=<> 
+
+Step Detector  | QTI       | version=2 |android.sensor.step_detector| 0x00000012 | "" | type=18 | special-trigger | maxDelay=0us |minDelay=0us |FifoMax=8770 events | non-wakeUp | last=<> 
+
+Step Counter   | QTI       | version=2 |android.sensor.step_counter| 0x00000013 | "" | type=19 | on-change | minRate=0.00Hz | minDelay=0us |FifoMax=8770 events | non-wakeUp | last 50 events = < 1) 6,5801812558809 19:17:30 2) 16,5953413878436 19:20:01 3) 17,5954035867768 19:20:02 4) 18,5954657816010 19:20:03 5) 19,5956263071137 19:20:04 6) 20,5956744577484 19:20:05 7) 21,5957005441742 19:20:05 8) 22,6568290667970 19:30:16 9) 23,6568752337892 19:30:16 10) 24,6569575238389 19:30:17 11) 25,6570337933702 19:30:18 12) 26,6570899945421 19:30:19 13) 27,6573168042344 19:30:21 14) 28,6573830426378 19:30:21 15) 29,6574191723985 19:30:22 16) 30,6574793896837 19:30:22 17) 31,6575677075548 19:30:23 18) 32,6576259137315 19:30:24 19) 33,6576841229600 19:30:25 20) 34,6577343060655 19:30:25 21) 35,6577985425157 19:30:26 22) 36,6578607709092 19:30:26 23) 37,6578948921602 19:30:27 24) 38,6579450752657 19:30:27 25) 39,6579771919649 19:30:27 26) 40,6580173408907 19:30:27 27) 41,6585031135958 19:30:32 28) 42,6585312141817 19:30:32 29) 42,6585521645299 09:39:50 30) 42,57543151725195 09:39:50 31) 42,57543154004987 09:39:50 32) 42,57543159295091 09:39:50 33) 42,57543164385299 09:39:50 34) 43,61220746570676 10:41:08 35) 67,61577854706319 10:47:08 36) 81,61939482096270 10:53:08 37) 89,61978293963599 10:59:08 38) 90,66524033726302 12:09:31 39) 94,66840490361874 12:18:48 40) 95,73123785310332 13:59:31 41) 95,73123785312306 14:00:16 42) 95,73180462851860 14:00:27 43) 96,75115382451805 14:32:43 44) 118,75224476288320 14:38:43 45) 119,76541497057205 14:56:29 46) 123,76544264189583 15:02:29 47) 124,82901541973229 16:42:29 48) 125,82914128044875 16:48:29 49) 127,88589731238736 18:17:19 50) 130,245948498181200 14:01:53 >
+
+Significant Motion Detector| QTI       | version=2 |android.sensor.significant_motion| 0x00000014 | "" | type=17 | one-shot | maxDelay=0us |minDelay=-1us |no batching | wakeUp | last=<> 
+
+Game Rotation Vector| QTI       | version=2 |android.sensor.game_rotation_vector| 0x00000015 | "" | type=15 | continuous | minRate=5.00Hz | maxRate=200.00Hz | FifoMax=7517 events | non-wakeUp | last=<> 
+
+GeoMagnetic Rotation Vector| QTI       | version=2 |android.sensor.geomagnetic_rotation_vector| 0x00000016 | "" | type=20 | continuous | minRate=5.00Hz | maxRate=50.00Hz | FifoMax=4047 events | non-wakeUp | last=<> 
+
+Orientation    | QTI       | version=2 |android.sensor.orientation| 0x00000017 | "" | type=3 | continuous | minRate=5.00Hz | maxRate=200.00Hz | FifoMax=7517 events | non-wakeUp | last=<> 
+
+Tilt Detector  | QTI       | version=2 |android.sensor.tilt_detector| 0x00000018 | "" | type=22 | special-trigger | maxDelay=0us |minDelay=0us |FifoMax=26311 events | wakeUp | last=<> 
+
+Gravity -Wakeup Secondary| QTI       | version=2 |android.sensor.gravity| 0x00000019 | "" | type=9 | continuous | minRate=5.00Hz | maxRate=200.00Hz | FifoMax=5846 events | wakeUp | last=<> 
+
+Linear Acceleration -Wakeup Secondary| QTI       | version=2 |android.sensor.linear_acceleration| 0x0000001a | "" | type=10 | continuous | minRate=5.00Hz | maxRate=200.00Hz | FifoMax=5846 events | wakeUp | last=<> 
+
+Rotation Vector -Wakeup Secondary| QTI       | version=2 |android.sensor.rotation_vector| 0x0000001b | "" | type=11 | continuous | minRate=5.00Hz | maxRate=200.00Hz | FifoMax=7517 events | wakeUp | last=<> 
+
+Step Detector -Wakeup Secondary| QTI       | version=2 |android.sensor.step_detector| 0x0000001c | "" | type=18 | special-trigger | maxDelay=0us |minDelay=0us |FifoMax=8770 events | wakeUp | last=<> 
+
+Step Counter -Wakeup Secondary| QTI       | version=2 |android.sensor.step_counter| 0x0000001d | "" | type=19 | on-change | minRate=0.00Hz | minDelay=0us |FifoMax=8770 events | wakeUp | last=<> 
+
+Game Rotation Vector -Wakeup Secondary| QTI       | version=2 |android.sensor.game_rotation_vector| 0x0000001e | "" | type=15 | continuous | minRate=5.00Hz | maxRate=200.00Hz | FifoMax=7517 events | wakeUp | last=<> 
+
+GeoMagnetic Rotation Vector -Wakeup Secondary| QTI       | version=2 |android.sensor.geomagnetic_rotation_vector| 0x0000001f | "" | type=20 | continuous | minRate=5.00Hz | maxRate=50.00Hz | FifoMax=4047 events | wakeUp | last=<> 
+
+Orientation -Wakeup Secondary| QTI       | version=2 |android.sensor.orientation| 0x00000020 | "" | type=3 | continuous | minRate=5.00Hz | maxRate=200.00Hz | FifoMax=7517 events | wakeUp | last=<> 
+
+AMD            | QTI       | version=2 |com.qti.sensor.amd  | 0x00000021 | "" | type=33171006 | on-change | minRate=0.00Hz | minDelay=0us |no batching | non-wakeUp | last=<> 
+
+RMD            | QTI       | version=2 |com.qti.sensor.rmd  | 0x00000022 | "" | type=33171007 | on-change | minRate=0.00Hz | minDelay=0us |no batching | non-wakeUp | last=<> 
+
+Basic Gestures | QTI       | version=2 |com.qti.sensor.basic_gestures| 0x00000023 | "" | type=33171000 | on-change | minRate=0.00Hz | minDelay=0us |no batching | non-wakeUp | last=<> 
+
+Facing         | QTI       | version=2 |com.qti.sensor.facing| 0x00000024 | "" | type=33171002 | on-change | minRate=0.00Hz | minDelay=0us |no batching | non-wakeUp | last=<> 
+
+Pedometer      | QTI       | version=2 |com.qti.sensor.pedometer| 0x00000025 | "" | type=33171009 | on-change | minRate=0.00Hz | minDelay=0us |FifoMax=8770 events | non-wakeUp | last=<> 
+
+Motion Accel   | QTI       | version=2 |com.qti.sensor.motion_accel| 0x00000026 | "" | type=33171011 | special-trigger | maxDelay=0us |minDelay=0us |no batching | non-wakeUp | last=<> 
+
+Coarse Motion Classifier| QTI       | version=3 |com.qti.sensor.cmc  | 0x00000027 | "" | type=33171012 | on-change | minRate=0.00Hz | minDelay=0us |FifoMax=2505 events | non-wakeUp | last=<> 
+
+Rotation Vector Sensor| AOSP      | version=3 |android.sensor.rotation_vector| 0x5f726f76 | "" | type=11 | continuous | maxDelay=0us |maxRate=200.00Hz | no batching | non-wakeUp | last=<> 
+
+Gravity Sensor | AOSP      | version=3 |android.sensor.gravity| 0x5f677276 | "" | type=9 | continuous | maxDelay=0us |maxRate=200.00Hz | no batching | non-wakeUp | last=<> 
+
+Linear Acceleration Sensor| AOSP      | version=3 |android.sensor.linear_acceleration| 0x5f6c696e | "" | type=10 | continuous | maxDelay=0us |maxRate=200.00Hz | no batching | non-wakeUp | last=<> 
+
+Orientation Sensor| AOSP      | version=1 |android.sensor.orientation| 0x5f797072 | "" | type=3 | continuous | maxDelay=0us |maxRate=200.00Hz | no batching | non-wakeUp | last=<> 
+
+Corrected Gyroscope Sensor| AOSP      | version=1 |android.sensor.gyroscope| 0x5f636779 | "" | type=4 | continuous | maxDelay=0us |maxRate=200.00Hz | no batching | non-wakeUp | last=<> 
+
+Gyroscope Bias (debug)| AOSP      | version=1 |android.sensor.accelerometer| 0x5f676273 | "" | type=1 | continuous | maxDelay=0us |maxRate=200.00Hz | no batching | non-wakeUp | last=<> 
+
+9-axis fusion disabled (0 clients), gyro-rate= 200.00Hz, q=< 0, 0, 0, 0 > (0), b=< 0, 0, 0 >
+halVersion 0x01030001
+39 h/w sensors:
+handle=0x00000001, active-count=2, batch_period(ms)={ 20.0, 66.7 }, selected=20.0 ms
+handle=0x00000001, active-count=2, batch_timeout(ms)={  0.0,  0.0 }, selected= 0.0 ms
+handle=0x00000013, active-count=1, batch_period(ms)={ 200.0 }, selected=200.0 ms
+handle=0x00000013, active-count=1, batch_timeout(ms)={ 360000.0 }, selected=360000.0 ms
+Active sensors:
+BMI160 Accelerometer (handle=0x00000001, connections=2)
+Step Counter (handle=0x00000013, connections=1)
+Socket Buffer size = 984 events
+WakeLock Status: not held 
+Mode : NORMAL
+3 active connections
+Connection Number: 0 
+	Operating Mode: NORMAL
+	 com.tencent.mobileqq.msf.core.w | WakeLockRefCount 0 | uid 10111 | cache size 0 | max cache size 0
+	 Step Counter 0x00000013 | status: active | pending flush events 0 
+Connection Number: 1 
+	Operating Mode: NORMAL
+	 shakeoffd.cp | WakeLockRefCount 0 | uid 10004 | cache size 0 | max cache size 10000
+	 BMI160 Accelerometer 0x00000001 | status: active | pending flush events 0 
+Connection Number: 2 
+	Operating Mode: NORMAL
+	 com.android.server.policy.WindowOrientationListener | WakeLockRefCount 0 | uid 1000 | cache size 0 | max cache size 10000
+	 BMI160 Accelerometer 0x00000001 | status: active | pending flush events 0 
+Previous Registrations:
+17:25:36 activated package=shakeoffd.cp handle=0x00000001 samplingRate=20000us maxReportLatency=0us
+17:25:32 activated package=com.android.server.policy.WindowOrientationListener handle=0x00000001 samplingRate=66667us maxReportLatency=0us
+17:25:31 de-activated package=com.android.server.policy.WindowOrientationListener handle=0x00000001
+17:21:33 de-activated package=ct.cb handle=0x00000010
+17:21:33 de-activated package=ct.cb handle=0x00000001
+17:21:23 activated package=ct.cb handle=0x00000010 samplingRate=200000us maxReportLatency=0us
+17:21:23 activated package=ct.cb handle=0x00000001 samplingRate=20000us maxReportLatency=0us
+17:21:23 de-activated package=ct.cb handle=0x00000010
+17:21:23 de-activated package=ct.cb handle=0x00000001
+17:21:23 activated package=ct.cb handle=0x00000010 samplingRate=200000us maxReportLatency=0us
+17:21:23 activated package=ct.cb handle=0x00000001 samplingRate=20000us maxReportLatency=0us
+17:15:54 de-activated package=shakeoffd.cp handle=0x00000001
+17:13:45 activated package=shakeoffd.cp handle=0x00000001 samplingRate=20000us maxReportLatency=0us
+17:13:14 de-activated package=shakeoffd.cp handle=0x00000001
+16:03:56 activated package=shakeoffd.cp handle=0x00000001 samplingRate=20000us maxReportLatency=0us
+16:03:52 activated package=com.android.server.policy.WindowOrientationListener handle=0x00000001 samplingRate=66667us maxReportLatency=0us
+16:03:52 de-activated package=com.android.server.policy.WindowOrientationListener handle=0x00000001
+16:03:51 de-activated package=com.android.server.display.AutomaticBrightnessController handle=0x00000007
+16:02:21 de-activated package=shakeoffd.cp handle=0x00000001
+16:01:33 activated package=shakeoffd.cp handle=0x00000001 samplingRate=20000us maxReportLatency=0us

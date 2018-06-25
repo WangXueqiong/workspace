@@ -1,0 +1,240 @@
+ResourceManagerService: 0xaade9620
+  Policies:
+    SupportsMultipleSecureCodecs: 1
+    SupportsSecureWithNonSecureCodec: 1
+  Processes:
+    Pid: 8203
+      Client:
+        Id: 2871097224
+        Name: OMX.qcom.video.encoder.avc
+        Resources:
+          non-secure-codec/video-codec:1
+          graphic-memory/:9884160
+    Pid: 16573
+      Client:
+        Id: 2874006560
+        Name: 
+        Resources:
+          non-secure-codec/video-codec:1
+          graphic-memory/:9884160
+    Pid: 17827
+      Client:
+        Id: 2868394792
+        Name: 
+        Resources:
+          non-secure-codec/video-codec:1
+          graphic-memory/:9884160
+    Pid: 18078
+      Client:
+        Id: 2866981216
+        Name: 
+        Resources:
+          non-secure-codec/video-codec:1
+          graphic-memory/:9884160
+    Pid: 18397
+      Client:
+        Id: 2869578648
+        Name: 
+        Resources:
+          non-secure-codec/video-codec:1
+          graphic-memory/:9884160
+    Pid: 18602
+      Client:
+        Id: 2874436320
+        Name: 
+        Resources:
+          non-secure-codec/video-codec:1
+          graphic-memory/:9884160
+    Pid: 19046
+      Client:
+        Id: 2867321976
+        Name: 
+        Resources:
+          non-secure-codec/video-codec:1
+          graphic-memory/:9884160
+    Pid: 20832
+      Client:
+        Id: 2874869544
+        Name: 
+        Resources:
+          non-secure-codec/video-codec:1
+          graphic-memory/:9884160
+    Pid: 20979
+      Client:
+        Id: 2871465840
+        Name: 
+        Resources:
+          non-secure-codec/video-codec:1
+          graphic-memory/:9884160
+    Pid: 21282
+      Client:
+        Id: 2872203120
+        Name: 
+        Resources:
+          non-secure-codec/video-codec:1
+          graphic-memory/:9884160
+    Pid: 21368
+      Client:
+        Id: 2875159008
+        Name: 
+        Resources:
+          non-secure-codec/video-codec:1
+          graphic-memory/:9884160
+    Pid: 21593
+      Client:
+        Id: 2873064496
+        Name: 
+        Resources:
+          non-secure-codec/video-codec:1
+          graphic-memory/:9884160
+    Pid: 21707
+      Client:
+        Id: 2872141472
+        Name: 
+        Resources:
+          non-secure-codec/video-codec:1
+          graphic-memory/:9884160
+    Pid: 21794
+      Client:
+        Id: 2877922520
+        Name: 
+        Resources:
+          non-secure-codec/video-codec:1
+          graphic-memory/:9884160
+    Pid: 21881
+      Client:
+        Id: 2872465224
+        Name: 
+        Resources:
+          non-secure-codec/video-codec:1
+          graphic-memory/:9884160
+    Pid: 21971
+      Client:
+        Id: 2867969144
+        Name: 
+        Resources:
+          non-secure-codec/video-codec:1
+          graphic-memory/:9884160
+    Pid: 22055
+      Client:
+        Id: 2877787056
+        Name: 
+        Resources:
+          non-secure-codec/video-codec:1
+          graphic-memory/:9884160
+    Pid: 22166
+      Client:
+        Id: 2872439264
+        Name: 
+        Resources:
+          non-secure-codec/video-codec:1
+          graphic-memory/:9884160
+    Pid: 22292
+      Client:
+        Id: 2869259400
+        Name: 
+        Resources:
+          non-secure-codec/video-codec:1
+          graphic-memory/:9884160
+  Events logs (most recent at top):
+    12-24 17:24:20 removeResource(pid 17740, clientId 368140857664)
+    12-24 17:24:20 removeResource(pid 17740, clientId 368140857664)
+    12-24 17:24:20 removeResource(pid 17740, clientId 368140857664)
+    12-24 16:01:20 addResource(pid 8203, clientId 2871097224, resources graphic-memory/:9884160 )
+    12-24 16:01:20 addResource(pid 8203, clientId 2871097224, resources non-secure-codec/video-codec:1 )
+    12-24 15:57:26 removeResource(pid 498, clientId 2867908864)
+    12-24 15:57:26 removeResource(pid 498, clientId 2867908864)
+    12-24 15:56:57 removeResource(pid 498, clientId 2867890760)
+    12-24 15:56:57 removeResource(pid 498, clientId 2867890760)
+    12-24 15:56:17 removeResource(pid 498, clientId 2866713056)
+    12-24 15:56:17 removeResource(pid 498, clientId 2866713056)
+    12-24 15:56:08 removeResource(pid 498, clientId 2867895456)
+    12-24 15:56:08 removeResource(pid 498, clientId 2867895456)
+    12-24 15:56:08 removeResource(pid 498, clientId 2868612016)
+    12-24 15:56:08 removeResource(pid 498, clientId 2868612016)
+    12-24 15:56:05 removeResource(pid 498, clientId 2868629336)
+    12-24 15:56:05 removeResource(pid 498, clientId 2868629336)
+    12-24 15:55:00 removeResource(pid 498, clientId 2868385808)
+    12-24 15:55:00 removeResource(pid 498, clientId 2868385808)
+    12-24 15:54:33 removeResource(pid 498, clientId 2868229872)
+    12-24 15:54:33 removeResource(pid 498, clientId 2868229872)
+    12-24 15:54:26 removeResource(pid 498, clientId 2867890232)
+    12-24 15:54:26 removeResource(pid 498, clientId 2867890232)
+    12-24 15:54:19 removeResource(pid 498, clientId 2868642024)
+    12-24 15:54:19 removeResource(pid 498, clientId 2868642024)
+    12-24 14:08:53 addResource(pid 22292, clientId 2869259400, resources graphic-memory/:9884160 )
+    12-24 14:08:53 addResource(pid 22292, clientId 2869259400, resources non-secure-codec/video-codec:1 )
+    12-24 14:08:40 addResource(pid 22166, clientId 2872439264, resources graphic-memory/:9884160 )
+    12-24 14:08:40 addResource(pid 22166, clientId 2872439264, resources non-secure-codec/video-codec:1 )
+    12-24 14:08:26 addResource(pid 22055, clientId 2877787056, resources graphic-memory/:9884160 )
+    12-24 14:08:26 addResource(pid 22055, clientId 2877787056, resources non-secure-codec/video-codec:1 )
+    12-24 14:08:17 addResource(pid 21971, clientId 2867969144, resources graphic-memory/:9884160 )
+    12-24 14:08:17 addResource(pid 21971, clientId 2867969144, resources non-secure-codec/video-codec:1 )
+    12-24 14:07:41 addResource(pid 21881, clientId 2872465224, resources graphic-memory/:9884160 )
+    12-24 14:07:41 addResource(pid 21881, clientId 2872465224, resources non-secure-codec/video-codec:1 )
+    12-24 14:07:28 addResource(pid 21794, clientId 2877922520, resources graphic-memory/:9884160 )
+    12-24 14:07:27 addResource(pid 21794, clientId 2877922520, resources non-secure-codec/video-codec:1 )
+    12-24 14:07:17 addResource(pid 21707, clientId 2872141472, resources graphic-memory/:9884160 )
+    12-24 14:07:17 addResource(pid 21707, clientId 2872141472, resources non-secure-codec/video-codec:1 )
+    12-24 14:07:03 addResource(pid 21593, clientId 2873064496, resources graphic-memory/:9884160 )
+    12-24 14:07:03 addResource(pid 21593, clientId 2873064496, resources non-secure-codec/video-codec:1 )
+    12-24 14:06:58 removeResource(pid 498, clientId 2868614352)
+    12-24 14:06:58 removeResource(pid 498, clientId 2868614352)
+    12-24 14:06:48 addResource(pid 21368, clientId 2875159008, resources graphic-memory/:9884160 )
+    12-24 14:06:48 addResource(pid 21368, clientId 2875159008, resources non-secure-codec/video-codec:1 )
+    12-24 14:06:34 addResource(pid 21282, clientId 2872203120, resources graphic-memory/:9884160 )
+    12-24 14:06:34 addResource(pid 21282, clientId 2872203120, resources non-secure-codec/video-codec:1 )
+    12-24 14:05:00 addResource(pid 20979, clientId 2871465840, resources graphic-memory/:9884160 )
+    12-24 14:05:00 addResource(pid 20979, clientId 2871465840, resources non-secure-codec/video-codec:1 )
+    12-24 14:04:38 addResource(pid 20832, clientId 2874869544, resources graphic-memory/:9884160 )
+    12-24 14:04:38 addResource(pid 20832, clientId 2874869544, resources non-secure-codec/video-codec:1 )
+    12-24 14:04:33 removeResource(pid 498, clientId 2868662880)
+    12-24 14:04:33 removeResource(pid 498, clientId 2868662880)
+    12-24 14:04:25 removeResource(pid 498, clientId 2868175504)
+    12-24 14:04:25 removeResource(pid 498, clientId 2868175504)
+    12-24 14:04:21 removeResource(pid 498, clientId 2868734984)
+    12-24 14:04:21 removeResource(pid 498, clientId 2868734984)
+    12-24 14:01:10 addResource(pid 19046, clientId 2867321976, resources graphic-memory/:9884160 )
+    12-24 14:01:10 addResource(pid 19046, clientId 2867321976, resources non-secure-codec/video-codec:1 )
+    12-24 14:01:05 removeResource(pid 498, clientId 2867929376)
+    12-24 14:01:05 removeResource(pid 498, clientId 2867929376)
+    12-24 14:00:52 removeResource(pid 498, clientId 2868148640)
+    12-24 14:00:52 removeResource(pid 498, clientId 2868148640)
+    12-24 14:00:40 removeResource(pid 498, clientId 2867999208)
+    12-24 14:00:40 removeResource(pid 498, clientId 2867999208)
+    12-24 14:00:06 addResource(pid 18602, clientId 2874436320, resources graphic-memory/:9884160 )
+    12-24 14:00:06 addResource(pid 18602, clientId 2874436320, resources non-secure-codec/video-codec:1 )
+    12-24 14:00:02 removeResource(pid 498, clientId 2868629200)
+    12-24 14:00:02 removeResource(pid 498, clientId 2868629200)
+    12-24 13:59:49 removeResource(pid 18397, clientId 2869518928)
+    12-24 13:59:49 removeResource(pid 18397, clientId 2869518928)
+    12-24 13:59:49 removeResource(pid 18397, clientId 2869518928)
+    12-24 13:59:49 addResource(pid 18397, clientId 2869578648, resources graphic-memory/:9884160 )
+    12-24 13:59:49 addResource(pid 18397, clientId 2869578648, resources non-secure-codec/video-codec:1 )
+    12-24 13:59:47 addResource(pid 18397, clientId 2869518928, resources graphic-memory/:9884160 )
+    12-24 13:59:47 addResource(pid 18397, clientId 2869518928, resources non-secure-codec/video-codec:1 )
+    12-24 13:59:30 addResource(pid 18078, clientId 2866981216, resources graphic-memory/:9884160 )
+    12-24 13:59:30 addResource(pid 18078, clientId 2866981216, resources non-secure-codec/video-codec:1 )
+    12-24 13:59:14 addResource(pid 17827, clientId 2868394792, resources graphic-memory/:9884160 )
+    12-24 13:59:14 addResource(pid 17827, clientId 2868394792, resources non-secure-codec/video-codec:1 )
+    12-24 13:55:59 addResource(pid 16573, clientId 2874006560, resources graphic-memory/:9884160 )
+    12-24 13:55:59 addResource(pid 16573, clientId 2874006560, resources non-secure-codec/video-codec:1 )
+    12-24 13:55:54 removeResource(pid 498, clientId 2867986600)
+    12-24 13:55:54 removeResource(pid 498, clientId 2867986600)
+    12-22 14:56:19 removeResource(pid 23641, clientId 368135646016)
+    12-22 14:56:19 removeResource(pid 23641, clientId 368135646016)
+    12-22 14:56:19 removeResource(pid 23641, clientId 368135646016)
+    12-22 14:21:38 removeResource(pid 498, clientId 2867987912)
+    12-22 14:21:38 removeResource(pid 498, clientId 2867987912)
+    12-22 14:08:55 removeResource(pid 8123, clientId 2875277752)
+    12-22 14:08:55 removeResource(pid 8123, clientId 2875277752)
+    12-22 14:08:55 removeResource(pid 8123, clientId 2875277752)
+    12-22 10:53:12 removeResource(pid 22398, clientId 368140946864)
+    12-22 10:53:12 removeResource(pid 22398, clientId 368140946864)
+    12-22 10:53:12 removeResource(pid 22398, clientId 368140946864)
+    12-22 10:46:24 removeResource(pid 498, clientId 2868244560)
+    12-22 10:46:24 removeResource(pid 498, clientId 2868244560)
+    12-22 10:45:50 removeResource(pid 498, clientId 2867990744)
+    12-22 10:45:50 removeResource(pid 498, clientId 2867990744)
+    12-22 10:14:55 removeResource(pid 498, clientId 2868724472)
+    ...

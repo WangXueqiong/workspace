@@ -1,0 +1,654 @@
+  Published single-user content providers (by class):
+  * ContentProviderRecord{182736fd u0 com.android.providers.telephony/.HbpcdLookupProvider}
+    package=com.android.providers.telephony process=com.android.phone
+    proc=ProcessRecord{2a1ab3d5 1696:com.android.phone/1001}
+    uid=1001 provider=android.content.ContentProviderProxy@21aff2
+    singleton=true
+    authority=hbpcd_lookup
+  * ContentProviderRecord{1f342d3c u0 com.android.providers.settings/.SettingsProvider}
+    package=com.android.providers.settings process=system
+    proc=ProcessRecord{3eacc6ce 788:system/1000}
+    uid=1000 provider=android.content.ContentProvider$Transport@ed1412
+    singleton=true
+    authority=settings
+    isSyncable=false multiprocess=false initOrder=100
+    Connections:
+      -> 1065:com.android.systemui/u0a30 s1/1 u0/0 +7h31m9s336ms
+      -> 1290:com.meizu.safe/1000 s1/1 u0/0 +7h31m8s687ms
+      -> 1393:com.meizu.battery/1000 s1/1 u0/0 +7h31m8s461ms
+      -> 1486:com.meizu.flyme.input/u0a24 s1/1 u0/0 +7h31m8s428ms
+      -> 1551:com.amap.android.location/u0a0 s1/1 u0/0 +7h31m8s236ms
+      -> 1525:com.meizu.experiencedatasync/1000 s1/1 u0/0 +7h31m8s235ms
+      -> 1639:com.meizu.alphame/1000 s1/1 u0/0 +7h31m7s888ms
+      -> 1633:com.android.incallui/u0a6 s1/1 u0/0 +7h31m7s836ms
+      -> 1618:com.aliyun.ams.assistantservice/u0a39 s1/1 u0/0 +7h31m7s833ms
+      -> 1645:com.fingerprints.service/1000 s1/1 u0/0 +7h31m7s825ms
+      -> 1625:com.waves.maxxservice/u0a58 s1/1 u0/0 +7h31m7s823ms
+      -> 1760:com.meizu.flyme.launcher/u0a14 s1/1 u0/0 +7h31m7s821ms
+      -> 1696:com.android.phone/1001 s1/1 u0/0 +7h31m7s820ms
+      -> 2181:com.flyme.systemuitools/u0a30 s1/1 u0/0 +7h31m2s483ms
+      -> 2298:com.tencent.mobileqq:MSF/u0a95 s1/1 u0/0 +7h31m0s497ms
+      -> 2685:com.meizu.flyme.service.find/u0a64 s1/1 u0/0 +7h30m57s335ms
+      -> 2816:com.meizu.cloud:mzservice_v1/u0a60 s1/1 u0/0 +7h30m56s549ms
+      -> 3440:com.sina.weibo:remote/u0a88 s1/1 u0/0 +7h30m50s532ms
+      -> 3960:com.meizu.cloud/u0a60 s1/1 u0/0 +7h30m46s531ms
+      -> 4010:com.meizu.share/u0a65 s1/1 u0/0 +7h30m46s314ms
+      -> 4037:com.meizu.mzsyncservice/u0a67 s1/1 u0/0 +7h30m46s88ms
+      -> 4213:com.meizu.desktopbackup/u0a45 s1/1 u0/0 +7h30m44s826ms
+      -> 4343:com.meizu.account/u0a59 s1/1 u0/0 +7h30m44s40ms
+      -> 4472:android.process.media/u0a10 s1/1 u0/0 +7h30m43s416ms
+      -> 4714:com.android.settings/1000 s1/1 u0/0 +7h30m42s231ms
+      -> 4845:com.aliyun.ams.tyid/u0a35 s1/1 u0/0 +7h30m40s918ms
+      -> 5084:com.meizu.privacy/1338 s1/1 u0/0 +7h30m39s830ms
+      -> 5417:com.meizu.mstore/u0a38 s1/1 u0/0 +7h30m34s560ms
+      -> 5580:com.tencent.mm:push/u0a97 s1/1 u0/0 +7h30m31s225ms
+      -> 6870:com.sina.weibo/u0a88 s1/1 u0/0 +7h30m16s318ms
+      -> 7087:com.tencent.mm/u0a97 s1/1 u0/0 +7h30m14s116ms
+      -> 12827:com.meizu.flyme.update/1000 s1/1 u0/0 +3h45m14s965ms
+      -> 13391:com.tencent.mobileqq/u0a95 s1/1 u0/0 +3h29m35s450ms
+      -> 1242:com.android.defcontainer/u0a8 s1/1 u0/0 +6m8s561ms
+      -> 1288:android.process.acore/u0a6 s1/1 u0/0 +6m6s306ms
+      -> 1335:com.android.musicfx/u0a20 s1/1 u0/0 +6m6s51ms
+      -> 1360:com.meizu.filemanager/u0a47 s1/1 u0/0 +6m5s921ms
+      -> 1407:com.android.packageinstaller/1000 s1/1 u0/0 +6m5s744ms
+      -> 1434:com.meizu.customizecenter/u0a7 s1/1 u0/0 +6m5s568ms
+      -> 1488:com.meizu.media.gallery/u0a15 s1/1 u0/0 +6m5s168ms
+      -> 1599:com.svox.pico/u0a70 s1/1 u0/0 +6m4s637ms
+      -> 2499:com.yunos.alimobilesearch/u0a2 s1/1 u0/0 +52s875ms
+      -> 2535:com.meizu.media.reader/u0a72 s1/1 u0/0 +52s658ms
+      -> 2570:com.alipay.android.app/u0a37 s1/1 u0/0 +52s317ms
+      -> 2676:com.tencent.mobileqq:qzone/u0a95 s1/1 u0/0 +50s707ms
+      -> 2720:com.tianyancha.skyeye/u0a174 s1/1 u0/0 +50s469ms
+      -> 3186:com.tianyancha.skyeye:channel/u0a174 s1/1 u0/0 +38s870ms
+  * ContentProviderRecord{191fd643 u0 com.android.providers.settings/.ShareListProvider}
+    package=com.android.providers.settings process=system
+    proc=ProcessRecord{3eacc6ce 788:system/1000}
+    uid=1000 provider=android.content.ContentProvider$Transport@38fb37e3
+    singleton=true
+    authority=meizu_share
+  * ContentProviderRecord{3792216a u0 com.android.providers.telephony/.MmsProvider}
+    package=com.android.providers.telephony process=com.android.phone
+    proc=ProcessRecord{2a1ab3d5 1696:com.android.phone/1001}
+    uid=1001 provider=android.content.ContentProviderProxy@20a8d4c0
+    singleton=true
+    authority=mms
+  * ContentProviderRecord{12a19fd1 u0 com.android.providers.telephony/.MmsSmsProvider}
+    package=com.android.providers.telephony process=com.android.phone
+    proc=ProcessRecord{2a1ab3d5 1696:com.android.phone/1001}
+    uid=1001 provider=android.content.ContentProviderProxy@2a96d93e
+    singleton=true
+    authority=mms-sms
+  * ContentProviderRecord{1c5f939f u0 com.android.server.telecom/com.meizu.server.telecom.SwitchModeNotifyProvider}
+    package=com.android.server.telecom process=system
+    proc=ProcessRecord{3eacc6ce 788:system/1000}
+    uid=1000 provider=android.content.ContentProvider$Transport@362a9099
+    singleton=true
+    authority=com.meizu.server.telecom.SwitchModeNotifyProvider
+  * ContentProviderRecord{3b5bcef5 u0 com.android.providers.telephony/.SmsProvider}
+    package=com.android.providers.telephony process=com.android.phone
+    proc=ProcessRecord{2a1ab3d5 1696:com.android.phone/1001}
+    uid=1001 provider=android.content.ContentProviderProxy@3fa67cec
+    singleton=true
+    authority=sms
+
+  Published user 0 content providers (by class):
+  * ContentProviderRecord{1e7b48b5 u0 com.meizu.safe/com.qihoo360.mobilesafe.provider.SafeGuardProviderSdk}
+    package=com.meizu.safe process=com.meizu.safe
+    proc=ProcessRecord{215d21bc 1290:com.meizu.safe/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@3ba34b4a
+    authority=com.qihoo360.mobilesafeguardsdk
+  * ContentProviderRecord{2ab3cabb u0 com.tencent.mm/.plugin.base.stub.WXCommProvider}
+    package=com.tencent.mm process=com.tencent.mm
+    proc=ProcessRecord{3094c48c 7087:com.tencent.mm/u0a97}
+    uid=10097 provider=android.content.ContentProviderProxy@3df47bd8
+    authority=com.tencent.mm.sdk.comm.provider
+  * ContentProviderRecord{32989d2a u0 com.yunos.alimobilesearch/.provider.MSearchHotWordProvider}
+    package=com.yunos.alimobilesearch process=com.yunos.alimobilesearch
+    proc=ProcessRecord{359e71b 2499:com.yunos.alimobilesearch/u0a2}
+    uid=10002 provider=android.content.ContentProviderProxy@2b93d0b8
+    authority=com.yunos.alimobilesearch.provider.MSearchHotWordProvider
+  * ContentProviderRecord{3dd81e91 u0 com.meizu.customizecenter/.common.dao.ThemeContentProvider}
+    package=com.meizu.customizecenter process=com.meizu.customizecenter
+    proc=ProcessRecord{18282549 1434:com.meizu.customizecenter/u0a7}
+    uid=10007 provider=android.content.ContentProviderProxy@237b61f6
+    authority=com.meizu.customizecenter.common.dao.ThemeContentProvider
+  * ContentProviderRecord{99644ed u0 com.meizu.flyme.launcher/.LauncherProvider}
+    package=com.meizu.flyme.launcher process=com.meizu.flyme.launcher
+    proc=ProcessRecord{628c9d2 1760:com.meizu.flyme.launcher/u0a14}
+    uid=10014 provider=android.content.ContentProviderProxy@34217d84
+    authority=com.meizu.flyme.launcher.settings
+  * ContentProviderRecord{3e98d96d u0 com.android.settings/com.meizu.settings.search.FlymeGlobalSearchProvider}
+    package=com.android.settings process=com.android.settings
+    proc=ProcessRecord{154d65f5 4714:com.android.settings/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@10a1f9a2
+    authority=com.meizu.settings.global_search
+  * ContentProviderRecord{12faedf0 u0 com.tencent.mm/.plugin.ext.provider.ExtControlProviderEntry}
+    package=com.tencent.mm process=com.tencent.mm
+    proc=ProcessRecord{3094c48c 7087:com.tencent.mm/u0a97}
+    uid=10097 provider=android.content.ContentProviderProxy@f69f69
+    authority=com.tencent.mm.plugin.ext.entry
+  * ContentProviderRecord{1ca0dee u0 com.meizu.mzsyncservice/com.meizu.sync.db.SyncSettingProvider}
+    package=com.meizu.mzsyncservice process=com.meizu.mzsyncservice
+    proc=ProcessRecord{75aa28f 4037:com.meizu.mzsyncservice/u0a67}
+    uid=10067 provider=android.content.ContentProviderProxy@8b8f91c
+    authority=com.meizu.sync.settings
+  * ContentProviderRecord{1a50c925 u0 com.meizu.safe/.blockService.provider.BlockResultProvider}
+    package=com.meizu.safe process=com.meizu.safe
+    proc=ProcessRecord{215d21bc 1290:com.meizu.safe/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@94d1afa
+    authority=blockresult
+  * ContentProviderRecord{2da5d9f7 u0 com.meizu.media.gallery/.barcode.db.BarcodeProvider}
+    package=com.meizu.media.gallery process=com.meizu.media.gallery
+    proc=ProcessRecord{2c0e286 1488:com.meizu.media.gallery/u0a15}
+    uid=10015 provider=android.content.ContentProviderProxy@4114064
+    authority=com.meizu.media.gallery.barcode
+    isSyncable=false multiprocess=true initOrder=100
+  * ContentProviderRecord{b68d8ab u0 com.meizu.flyme.service.find/.provider.DataProvider}
+    package=com.meizu.flyme.service.find process=com.meizu.flyme.service.find
+    proc=ProcessRecord{cea8b08 2685:com.meizu.flyme.service.find/u0a64}
+    uid=10064 provider=android.content.ContentProviderProxy@669d2a1
+    authority=com.meizu.flyme.service.find
+  * ContentProviderRecord{2c1ecc6 u0 com.tencent.mm/.plugin.gwallet.GWalletQueryProvider}
+    package=com.tencent.mm process=com.tencent.mm
+    proc=ProcessRecord{3094c48c 7087:com.tencent.mm/u0a97}
+    uid=10097 provider=android.content.ContentProviderProxy@29da5487
+    authority=com.tencent.mm.plugin.gwallet.queryprovider
+  * ContentProviderRecord{3f214fb4 u0 com.android.providers.downloads/.DownloadProvider}
+    package=com.android.providers.downloads process=android.process.media
+    proc=ProcessRecord{3c7c13e9 4472:android.process.media/u0a10}
+    uid=10010 provider=android.content.ContentProviderProxy@20aff7dd
+    authority=downloads
+  * ContentProviderRecord{30ab41e8 u0 com.android.providers.telephony/.TelephonyProvider}
+    package=com.android.providers.telephony process=com.android.phone
+    proc=ProcessRecord{2a1ab3d5 1696:com.android.phone/1001}
+    uid=1001 provider=android.content.ContentProviderProxy@1ff9f854
+    authority=telephony
+  * ContentProviderRecord{1a600f52 u0 com.tencent.mobileqq/cooperation.readinjoy.content.ReadInJoyDataProvider}
+    package=com.tencent.mobileqq process=com.tencent.mobileqq
+    proc=ProcessRecord{3a521945 13391:com.tencent.mobileqq/u0a95}
+    uid=10095 provider=android.content.ContentProviderProxy@2afdb223
+    authority=qq.readinjoy
+  * ContentProviderRecord{2e4f12cd u0 com.android.providers.contacts/.CallLogProvider}
+    package=com.android.providers.contacts process=android.process.acore
+    proc=ProcessRecord{26f3a782 1288:android.process.acore/u0a6}
+    uid=10006 provider=android.content.ContentProviderProxy@23541e93
+    authority=call_log
+    isSyncable=true multiprocess=false initOrder=0
+  * ContentProviderRecord{45db320 u0 com.android.phone/.MzIccProvider}
+    package=com.android.phone process=com.android.phone
+    proc=ProcessRecord{2a1ab3d5 1696:com.android.phone/1001}
+    uid=1001 provider=android.content.ContentProviderProxy@133934d9
+    authority=icc
+  * ContentProviderRecord{a48bf82 u0 com.tencent.mobileqq/com.tencent.common.config.provider.QZoneConfigProvider}
+    package=com.tencent.mobileqq process=com.tencent.mobileqq
+    proc=ProcessRecord{3a521945 13391:com.tencent.mobileqq/u0a95}
+    uid=10095 provider=android.content.ContentProviderProxy@164bce9e
+    authority=com.tencent.common.config.provider.QZoneConfigProvider
+  * ContentProviderRecord{36f4d7f u0 com.meizu.safe/.blockService.provider.BlackListProvider}
+    package=com.meizu.safe process=com.meizu.safe
+    proc=ProcessRecord{215d21bc 1290:com.meizu.safe/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@f3ae14c
+    authority=blackList
+  * ContentProviderRecord{2b35429b u0 com.meizu.mstore/com.meizu.cloud.app.update.exclude.AppUpdateExcludeProvider}
+    package=com.meizu.mstore process=com.meizu.mstore
+    proc=ProcessRecord{239fdd1d 5417:com.meizu.mstore/u0a38}
+    uid=10038 provider=android.content.ContentProviderProxy@3edac638
+    authority=com.meizu.cloud.app.update.exclude
+  * ContentProviderRecord{32dba611 u0 com.tencent.mm/.plugin.ext.provider.ExtControlProviderNearBy}
+    package=com.tencent.mm process=com.tencent.mm
+    proc=ProcessRecord{3094c48c 7087:com.tencent.mm/u0a97}
+    uid=10097 provider=android.content.ContentProviderProxy@16451376
+    authority=com.tencent.mm.plugin.ext.NearBy
+  * ContentProviderRecord{a9b6d77 u0 com.sina.weibo/android.support.v4.content.FileProvider}
+    package=com.sina.weibo process=com.sina.weibo
+    proc=ProcessRecord{257f9d47 6870:com.sina.weibo/u0a88}
+    uid=10088 provider=android.content.ContentProviderProxy@920de4
+    authority=com.sina.weibo.fileprovider
+  * ContentProviderRecord{20c3924d u0 com.meizu.safe/.blockService.provider.BlockMessagesProvider}
+    package=com.meizu.safe process=com.meizu.safe
+    proc=ProcessRecord{215d21bc 1290:com.meizu.safe/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@3e66f102
+    authority=blockmessage
+  * ContentProviderRecord{18cf6a13 u0 com.sina.weibo/.core.sp.PreferenceProvider}
+    package=com.sina.weibo process=com.sina.weibo
+    proc=ProcessRecord{257f9d47 6870:com.sina.weibo/u0a88}
+    uid=10088 provider=android.content.ContentProviderProxy@20542450
+    authority=com.sina.weibo.preferenceProvider.authorities
+  * ContentProviderRecord{24d3fed0 u0 com.meizu.customizecenter/.common.dao.PatchContentProvider}
+    package=com.meizu.customizecenter process=com.meizu.customizecenter
+    proc=ProcessRecord{18282549 1434:com.meizu.customizecenter/u0a7}
+    uid=10007 provider=android.content.ContentProviderProxy@2ac70ec9
+    authority=com.meizu.customizecenter.common.dao.PatchContentProvider
+  * ContentProviderRecord{cc40649 u0 com.tencent.mm/.plugin.ext.provider.ExtControlProviderSNS}
+    package=com.tencent.mm process=com.tencent.mm
+    proc=ProcessRecord{3094c48c 7087:com.tencent.mm/u0a97}
+    uid=10097 provider=android.content.ContentProviderProxy@ed71b4e
+    authority=com.tencent.mm.plugin.ext.SNS
+  * ContentProviderRecord{150ff719 u0 com.android.phone/.PhoneSearchIndexablesProvider}
+    package=com.android.phone process=com.android.phone
+    proc=ProcessRecord{2a1ab3d5 1696:com.android.phone/1001}
+    uid=1001 provider=android.content.ContentProviderProxy@323dbe05
+    authority=com.android.phone
+  * ContentProviderRecord{27e13581 u0 com.tencent.mm/.plugin.emoji.provider.EmotionContentProvider}
+    package=com.tencent.mm process=com.tencent.mm
+    proc=ProcessRecord{3094c48c 7087:com.tencent.mm/u0a97}
+    uid=10097 provider=android.content.ContentProviderProxy@3bf74626
+    authority=com.tencent.mm.storage.provider.emotion
+  * ContentProviderRecord{70ca267 u0 com.meizu.mstore/com.meizu.flyme.appcenter.recommend.RecommendProvider}
+    package=com.meizu.mstore process=com.meizu.mstore
+    proc=ProcessRecord{239fdd1d 5417:com.meizu.mstore/u0a38}
+    uid=10038 provider=android.content.ContentProviderProxy@1c86b814
+    authority=com.meizu.flyme.appcenter.recommend
+  * ContentProviderRecord{24eaa8bd u0 com.meizu.share/.BluetoothOppProvider}
+    package=com.meizu.share process=com.meizu.share
+    proc=ProcessRecord{3249e1e 4010:com.meizu.share/u0a65}
+    uid=10065 provider=android.content.ContentProviderProxy@36819eb2
+    authority=com.meizu.share
+  * ContentProviderRecord{15b8b9ce u0 com.alipay.android.app/.UserIdShareProvider}
+    package=com.alipay.android.app process=com.alipay.android.app
+    proc=ProcessRecord{b9810ef 2570:com.alipay.android.app/u0a37}
+    uid=10037 provider=android.content.ContentProviderProxy@cc237fc
+    authority=com.alipay.android.app.share
+  * ContentProviderRecord{24a8ce85 u0 com.meizu.customizecenter/.common.dao.PapContentProvider}
+    package=com.meizu.customizecenter process=com.meizu.customizecenter
+    proc=ProcessRecord{18282549 1434:com.meizu.customizecenter/u0a7}
+    uid=10007 provider=android.content.ContentProviderProxy@aaaa4da
+    authority=com.meizu.customizecenter.common.dao.PapContentProvider
+  * ContentProviderRecord{15349d05 u0 com.meizu.safe/.alphame.AlphaMeContentProvider}
+    package=com.meizu.safe process=com.meizu.safe
+    proc=ProcessRecord{215d21bc 1290:com.meizu.safe/1000}
+    launchingApp=ProcessRecord{215d21bc 1290:com.meizu.safe/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@36e6f3fe
+    authority=com.meizu.safe.alphame.provider
+    Connections:
+      -> 1065:com.android.systemui/u0a30 s0/0 u1/1 +7h31m8s704ms
+      -> 1639:com.meizu.alphame/1000 s0/0 u1/1 +7h31m5s457ms
+      -> 1393:com.meizu.battery/1000 s0/0 u1/1 +7h12m45s531ms
+  * ContentProviderRecord{260bc529 u0 com.sina.weibo/.provider.SinaWeiboSPProvider}
+    package=com.sina.weibo process=com.sina.weibo
+    proc=ProcessRecord{257f9d47 6870:com.sina.weibo/u0a88}
+    uid=10088 provider=android.content.ContentProviderProxy@3321775f
+    authority=com.sina.weibo.spProvider
+  * ContentProviderRecord{237ecd0b u0 com.meizu.media.reader/com.meizu.compaign.sdkcommon.crossprocess.SdkProvider}
+    package=com.meizu.media.reader process=com.meizu.media.reader
+    proc=ProcessRecord{31a1199f 2535:com.meizu.media.reader/u0a72}
+    uid=10072 provider=android.content.ContentProviderProxy@20f8d7e8
+    authority=com.meizu.media.reader.compaignsdk.provider
+  * ContentProviderRecord{2aba520a u0 com.meizu.desktopbackup/com.meizu.backup.compontent.DesktopBackupProvider}
+    package=com.meizu.desktopbackup process=com.meizu.desktopbackup
+    proc=ProcessRecord{2a914323 4213:com.meizu.desktopbackup/u0a45}
+    uid=10045 provider=android.content.ContentProviderProxy@34102a7b
+    authority=com.meizu.desktopbackup.settings
+  * ContentProviderRecord{2df5c098 u0 com.android.settings/.search.SettingsSearchIndexablesProvider}
+    package=com.android.settings process=com.android.settings
+    proc=ProcessRecord{154d65f5 4714:com.android.settings/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@3fe180f1
+    authority=com.android.settings
+  * ContentProviderRecord{12cce01 u0 com.meizu.media.reader/.common.data.ReaderFileProvider}
+    package=com.meizu.media.reader process=com.meizu.media.reader
+    proc=ProcessRecord{31a1199f 2535:com.meizu.media.reader/u0a72}
+    uid=10072 provider=android.content.ContentProviderProxy@3c9e34a6
+    authority=com.meizu.media.reader.fileProvider
+  * ContentProviderRecord{21cb2ee7 u0 com.meizu.media.gallery/.cloud.db.CloudProvider}
+    package=com.meizu.media.gallery process=com.meizu.media.gallery
+    proc=ProcessRecord{2c0e286 1488:com.meizu.media.gallery/u0a15}
+    uid=10015 provider=android.content.ContentProviderProxy@39778a94
+    authority=com.meizu.media.gallery.cloud.db.cloudtrans
+    isSyncable=false multiprocess=true initOrder=100
+  * ContentProviderRecord{21d24e44 u0 com.meizu.safe/.blockService.provider.WhiteListProvider}
+    package=com.meizu.safe process=com.meizu.safe
+    proc=ProcessRecord{215d21bc 1290:com.meizu.safe/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@6fc3b2d
+    authority=whiteList
+  * ContentProviderRecord{37c80ab0 u0 com.android.providers.telephony/.QuickReplyProvider}
+    package=com.android.providers.telephony process=com.android.phone
+    proc=ProcessRecord{2a1ab3d5 1696:com.android.phone/1001}
+    uid=1001 provider=android.content.ContentProviderProxy@278e5d29
+    authority=smsquickreply
+  * ContentProviderRecord{2eb658ae u0 com.meizu.alphame/.database.DatabaseProvider}
+    package=com.meizu.alphame process=com.meizu.alphame
+    proc=ProcessRecord{373cf64f 1639:com.meizu.alphame/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@281b21dc
+    authority=com.meizu.alphame.provider
+  * ContentProviderRecord{2697493d u0 com.android.providers.userdictionary/.UserDictionaryProvider}
+    package=com.android.providers.userdictionary process=android.process.acore
+    proc=ProcessRecord{26f3a782 1288:android.process.acore/u0a6}
+    uid=10006 provider=android.content.ContentProviderProxy@28e8f532
+    authority=user_dictionary
+  * ContentProviderRecord{2406a2e5 u0 com.meizu.mstore/com.meizu.cloud.app.settings.SettingsPreferencesProvider}
+    package=com.meizu.mstore process=com.meizu.mstore
+    proc=ProcessRecord{239fdd1d 5417:com.meizu.mstore/u0a38}
+    uid=10038 provider=android.content.ContentProviderProxy@3e9351ba
+    authority=com.meizu.cloud.appcommon.settings
+  * ContentProviderRecord{3d038861 u0 com.tencent.mobileqq/.openapi.OpenApiProvider}
+    package=com.tencent.mobileqq process=com.tencent.mobileqq
+    proc=ProcessRecord{3a521945 13391:com.tencent.mobileqq/u0a95}
+    uid=10095 provider=android.content.ContentProviderProxy@2a14cf86
+    authority=com.tencent.mobileqq.openapi.provider
+  * ContentProviderRecord{9bb6047 u0 com.tencent.mm/.sdk.platformtools.MultiProcessSharedPreferences}
+    package=com.tencent.mm process=com.tencent.mm
+    proc=ProcessRecord{3094c48c 7087:com.tencent.mm/u0a97}
+    uid=10097 provider=android.content.ContentProviderProxy@3a07d074
+    authority=com.tencent.mm.sdk.platformtools.MultiProcessSharedPreferences
+  * ContentProviderRecord{48f499d u0 com.tencent.mm/.plugin.base.stub.MMPluginProvider}
+    package=com.tencent.mm process=com.tencent.mm
+    proc=ProcessRecord{3094c48c 7087:com.tencent.mm/u0a97}
+    uid=10097 provider=android.content.ContentProviderProxy@25de5e12
+    authority=com.tencent.mm.sdk.plugin.provider
+  * ContentProviderRecord{3443b9e3 u0 com.meizu.safe/.blockService.provider.BSNoteSyncProvider}
+    package=com.meizu.safe process=com.meizu.safe
+    proc=ProcessRecord{215d21bc 1290:com.meizu.safe/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@c0b7fe0
+    authority=com.meizu.blockservice.sync
+  * ContentProviderRecord{d6e113f u0 com.sina.weibo/.PictureListProvider}
+    package=com.sina.weibo process=com.sina.weibo
+    proc=ProcessRecord{257f9d47 6870:com.sina.weibo/u0a88}
+    uid=10088 provider=android.content.ContentProviderProxy@16d8ba0c
+    authority=com.sina.weibo.picListProvider
+  * ContentProviderRecord{343f0f55 u0 com.tencent.mm/.plugin.ext.provider.ExtControlProviderAccountSync}
+    package=com.tencent.mm process=com.tencent.mm
+    proc=ProcessRecord{3094c48c 7087:com.tencent.mm/u0a97}
+    uid=10097 provider=android.content.ContentProviderProxy@26439d6a
+    authority=com.tencent.mm.plugin.ext.AccountSync
+  * ContentProviderRecord{ebc825b u0 com.meizu.account/.database.AccountContentProvider}
+    package=com.meizu.account process=com.meizu.account
+    proc=ProcessRecord{235d6af8 4343:com.meizu.account/u0a59}
+    uid=10059 provider=android.content.ContentProviderProxy@392e4bd1
+    authority=com.meizu.account
+  * ContentProviderRecord{2b1b7ef6 u0 com.android.providers.media/.MediaProvider}
+    package=com.android.providers.media process=android.process.media
+    proc=ProcessRecord{3c7c13e9 4472:android.process.media/u0a10}
+    uid=10010 provider=android.content.ContentProviderProxy@28762636
+    authority=media
+  * ContentProviderRecord{3c91d283 u0 com.meizu.customizecenter/.common.dao.RingtoneContentProvider}
+    package=com.meizu.customizecenter process=com.meizu.customizecenter
+    proc=ProcessRecord{18282549 1434:com.meizu.customizecenter/u0a7}
+    uid=10007 provider=android.content.ContentProviderProxy@c8cbc00
+    authority=com.meizu.customizecenter.common.dao.RingtoneContentProvider
+  * ContentProviderRecord{3db6e937 u0 com.meizu.flyme.input/com.meizu.input.MzInputProvider}
+    package=com.meizu.flyme.input process=com.meizu.flyme.input
+    proc=ProcessRecord{3688016c 1486:com.meizu.flyme.input/u0a24}
+    uid=10024 provider=android.content.ContentProviderProxy@197a3ea4
+    authority=com.meizu.input.provider
+  * ContentProviderRecord{2efad40d u0 com.sina.weibo/.log.UserLogProvider}
+    package=com.sina.weibo process=com.sina.weibo
+    proc=ProcessRecord{257f9d47 6870:com.sina.weibo/u0a88}
+    uid=10088 provider=android.content.ContentProviderProxy@3c766fc2
+    authority=com.sina.weibo.userlog
+  * ContentProviderRecord{21343c39 u0 com.svox.pico/.providers.SettingsProvider}
+    package=com.svox.pico process=com.svox.pico
+    proc=ProcessRecord{1aad327e 1599:com.svox.pico/u0a70}
+    uid=10070 provider=android.content.ContentProviderProxy@2c9513df
+    authority=com.svox.pico.providers.SettingsProvider
+  * ContentProviderRecord{2501982c u0 com.meizu.filemanager/com.meizu.flyme.filemanager.FileSearchProvider}
+    package=com.meizu.filemanager process=com.meizu.filemanager
+    proc=ProcessRecord{1c1362f5 1360:com.meizu.filemanager/u0a47}
+    uid=10047 provider=android.content.ContentProviderProxy@1ae5f88a
+    authority=com.meizu.flyme.filemanager.FileSearchProvider
+  * ContentProviderRecord{328da409 u0 com.sina.weibo/.log.BusinessUsedTimeLogProvider}
+    package=com.sina.weibo process=com.sina.weibo
+    proc=ProcessRecord{257f9d47 6870:com.sina.weibo/u0a88}
+    uid=10088 provider=android.content.ContentProviderProxy@163fc60e
+    authority=com.sina.weibo.BusinessUsedTimeLogProvider
+  * ContentProviderRecord{9a1ad8b u0 com.tianyancha.skyeye/com.umeng.message.provider.MessageProvider}
+    package=com.tianyancha.skyeye process=com.tianyancha.skyeye
+    proc=ProcessRecord{1dadae24 2720:com.tianyancha.skyeye/u0a174}
+    uid=10174 provider=android.content.ContentProviderProxy@a610efb
+    authority=com.tianyancha.skyeye.umeng.message
+  * ContentProviderRecord{204be3c u0 com.tencent.mm/.plugin.ext.provider.ExtControlProviderSearchContact}
+    package=com.tencent.mm process=com.tencent.mm
+    proc=ProcessRecord{3094c48c 7087:com.tencent.mm/u0a97}
+    uid=10097 provider=android.content.ContentProviderProxy@2c6377c5
+    authority=com.tencent.mm.plugin.ext.SearchContact
+  * ContentProviderRecord{1c36351a u0 com.tencent.mm/.plugin.ext.provider.ExtControlProviderMsg}
+    package=com.tencent.mm process=com.tencent.mm
+    proc=ProcessRecord{3094c48c 7087:com.tencent.mm/u0a97}
+    uid=10097 provider=android.content.ContentProviderProxy@335eb84b
+    authority=com.tencent.mm.plugin.ext.message
+  * ContentProviderRecord{f060b18 u0 com.android.providers.applications/.ApplicationsProvider}
+    package=com.android.providers.applications process=android.process.acore
+    proc=ProcessRecord{26f3a782 1288:android.process.acore/u0a6}
+    uid=10006 provider=android.content.ContentProviderProxy@29843971
+    authority=applications
+  * ContentProviderRecord{15331356 u0 com.meizu.filemanager/com.meizu.flyme.filemanager.config.remark.RemarkProvider}
+    package=com.meizu.filemanager process=com.meizu.filemanager
+    proc=ProcessRecord{1c1362f5 1360:com.meizu.filemanager/u0a47}
+    uid=10047 provider=android.content.ContentProviderProxy@21279fd7
+    authority=com.meizu.flyme.filemanager.folder
+  * ContentProviderRecord{4f288e6 u0 com.meizu.safe/.blockService.provider.BlockCallsProvider}
+    package=com.meizu.safe process=com.meizu.safe
+    proc=ProcessRecord{215d21bc 1290:com.meizu.safe/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@8de8e27
+    authority=blockcall
+  * ContentProviderRecord{15417ea3 u0 com.tencent.mobileqq/com.tencent.mqq.shared_file_accessor.ContentProviderImpl}
+    package=com.tencent.mobileqq process=com.tencent.mobileqq
+    proc=ProcessRecord{3a521945 13391:com.tencent.mobileqq/u0a95}
+    uid=10095 provider=android.content.ContentProviderProxy@2f3c98d4
+    authority=com.tencent.mqq.shared_file_accessor.ContentProviderImpl
+  * ContentProviderRecord{27dcc0c4 u0 com.yunos.alimobilesearch/.provider.MSearchMmsProvider}
+    package=com.yunos.alimobilesearch process=com.yunos.alimobilesearch
+    proc=ProcessRecord{359e71b 2499:com.yunos.alimobilesearch/u0a2}
+    uid=10002 provider=android.content.ContentProviderProxy@1751fbad
+    authority=com.yunos.alimobilesearch.provider.MSearchMmsProvider
+  * ContentProviderRecord{104d1b1f u0 com.android.providers.downloads.ui/.DownloadFileProvider}
+    package=com.android.providers.downloads.ui process=android.process.media
+    proc=ProcessRecord{3c7c13e9 4472:android.process.media/u0a10}
+    uid=10010 provider=android.content.ContentProviderProxy@8122e6c
+    authority=com.android.providers.downloads.ui.fileProvider
+  * ContentProviderRecord{c127eeb u0 com.meizu.experiencedatasync/com.meizu.stats.UsageStatsProvider}
+    package=com.meizu.experiencedatasync process=com.meizu.experiencedatasync
+    proc=ProcessRecord{1b4dd448 1525:com.meizu.experiencedatasync/1000}
+    launchingApp=ProcessRecord{1b4dd448 1525:com.meizu.experiencedatasync/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@2acc5e32
+    authority=com.meizu.usagestats
+    Connections:
+      -> 788:system/1000 s1/1 u0/0 +7h31m8s352ms
+      -> 1065:com.android.systemui/u0a30 s1/1 u0/0 +7h31m3s691ms
+      -> 1696:com.android.phone/1001 s1/1 u0/0 +7h31m2s407ms
+      -> 4714:com.android.settings/1000 s1/1 u0/0 +3h45m1s590ms
+  * ContentProviderRecord{3d650ee2 u0 com.meizu.media.gallery/com.meizu.compaign.sdkcommon.crossprocess.SdkProvider}
+    package=com.meizu.media.gallery process=com.meizu.media.gallery
+    proc=ProcessRecord{2c0e286 1488:com.meizu.media.gallery/u0a15}
+    uid=10015 provider=android.content.ContentProviderProxy@135c6273
+    authority=com.meizu.media.gallery.compaignsdk.provider
+  * ContentProviderRecord{3c472530 u0 com.android.providers.contacts/.ContactsProvider2}
+    package=com.android.providers.contacts process=android.process.acore
+    proc=ProcessRecord{26f3a782 1288:android.process.acore/u0a6}
+    uid=10006 provider=android.content.ContentProviderProxy@abfa5a9
+    authority=contacts;com.android.contacts
+  * ContentProviderRecord{20b24a3b u0 com.tencent.mm/.plugin.ext.provider.ExtContentProviderBase}
+    package=com.tencent.mm process=com.tencent.mm
+    proc=ProcessRecord{3094c48c 7087:com.tencent.mm/u0a97}
+    uid=10097 provider=android.content.ContentProviderProxy@2329c558
+    authority=com.tencent.mm.plugin.ext.ExtContentProviderBase
+  * ContentProviderRecord{3f8b1786 u0 com.sina.weibo/.provider.WeiboLogDBProvider}
+    package=com.sina.weibo process=com.sina.weibo
+    proc=ProcessRecord{257f9d47 6870:com.sina.weibo/u0a88}
+    uid=10088 provider=android.content.ContentProviderProxy@2cfa06b1
+    authority=com.sina.weibo.weiboLogProvider
+  * ContentProviderRecord{3c72d432 u0 com.meizu.battery/com.meizu.power.provider.PowerProvider}
+    package=com.meizu.battery process=com.meizu.battery
+    proc=ProcessRecord{27b11695 1393:com.meizu.battery/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@3264f796
+    authority=com.meizu.battery.provider
+    Connections:
+      -> 1290:com.meizu.safe/1000 s0/0 u1/1 +7h31m6s287ms
+  * ContentProviderRecord{c714f17 u0 com.meizu.privacy/.providers.PrivacyProvider}
+    package=com.meizu.privacy process=com.meizu.privacy
+    proc=ProcessRecord{1521df04 5084:com.meizu.privacy/1338}
+    uid=1338 provider=android.content.ContentProviderProxy@12775ced
+    authority=com.meizu.prvacy.providers
+  * ContentProviderRecord{770f722 u0 com.android.settings/android.support.v4.content.FileProvider}
+    package=com.android.settings process=com.android.settings
+    proc=ProcessRecord{154d65f5 4714:com.android.settings/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@1cb1c5b3
+    authority=com.android.settings.files
+  * ContentProviderRecord{271176b0 u0 com.tencent.mobileqq/.content.FriendListProvider}
+    package=com.tencent.mobileqq process=com.tencent.mobileqq
+    proc=ProcessRecord{3a521945 13391:com.tencent.mobileqq/u0a95}
+    uid=10095 provider=android.content.ContentProviderProxy@3d5fe770
+    authority=qq.friendlist
+  * ContentProviderRecord{1c9372e u0 com.android.providers.contacts/.VoicemailContentProvider}
+    package=com.android.providers.contacts process=android.process.acore
+    proc=ProcessRecord{26f3a782 1288:android.process.acore/u0a6}
+    uid=10006 provider=android.content.ContentProviderProxy@2d10b2cf
+    authority=com.android.voicemail
+  * ContentProviderRecord{21b1645c u0 com.meizu.media.gallery/.cloud.data.FlymeMediaProvider}
+    package=com.meizu.media.gallery process=com.meizu.media.gallery
+    proc=ProcessRecord{2c0e286 1488:com.meizu.media.gallery/u0a15}
+    uid=10015 provider=android.content.ContentProviderProxy@2043f365
+    authority=com.meizu.media.gallery.providers.flyme
+    isSyncable=false multiprocess=true initOrder=100
+  * ContentProviderRecord{308d6a10 u0 com.android.providers.media/.MediaDocumentsProvider}
+    package=com.android.providers.media process=android.process.media
+    proc=ProcessRecord{3c7c13e9 4472:android.process.media/u0a10}
+    uid=10010 provider=android.content.ContentProviderProxy@af9dae9
+    authority=com.android.providers.media.documents
+  * ContentProviderRecord{1dbedac7 u0 com.sina.weibo/com.sina.push.datacenter.PushProvider}
+    package=com.sina.weibo process=com.sina.weibo:remote
+    proc=ProcessRecord{dd5f8f4 3440:com.sina.weibo:remote/u0a88}
+    uid=10088 provider=android.content.ContentProviderProxy@64b636e
+    authority=com.sina.push.pushprovider.1004
+  * ContentProviderRecord{193c9e4f u0 com.sina.weibo/.provider.SinaWeiboDBProvider}
+    package=com.sina.weibo process=com.sina.weibo
+    proc=ProcessRecord{257f9d47 6870:com.sina.weibo/u0a88}
+    uid=10088 provider=android.content.ContentProviderProxy@3b790a0f
+    authority=com.sina.weibo.blogProvider
+  * ContentProviderRecord{40c3ca5 u0 com.meizu.mzsyncservice/com.meizu.sync.db.MSyncProvider}
+    package=com.meizu.mzsyncservice process=com.meizu.mzsyncservice
+    proc=ProcessRecord{75aa28f 4037:com.meizu.mzsyncservice/u0a67}
+    uid=10067 provider=android.content.ContentProviderProxy@4e487a
+    authority=com.meizu.sync.provider
+  * ContentProviderRecord{1635983a u0 com.android.providers.contacts/.debug.DumpFileProvider}
+    package=com.android.providers.contacts process=android.process.acore
+    proc=ProcessRecord{26f3a782 1288:android.process.acore/u0a6}
+    uid=10006 provider=android.content.ContentProviderProxy@faceb
+    authority=com.android.contacts.dumpfile
+  * ContentProviderRecord{361e6a48 u0 com.meizu.customizecenter/.common.dao.FontContentProvider}
+    package=com.meizu.customizecenter process=com.meizu.customizecenter
+    proc=ProcessRecord{18282549 1434:com.meizu.customizecenter/u0a7}
+    uid=10007 provider=android.content.ContentProviderProxy@b0560e1
+    authority=com.meizu.customizecenter.common.dao.FontContentProvider
+  * ContentProviderRecord{3f28fe21 u0 com.sina.weibo/.core.DataCenter.DataCenterProvider}
+    package=com.sina.weibo process=com.sina.weibo
+    proc=ProcessRecord{257f9d47 6870:com.sina.weibo/u0a88}
+    uid=10088 provider=android.content.ContentProviderProxy@10687246
+    authority=com.sina.weibo.WB.DataCenterProvider
+  * ContentProviderRecord{376e2c07 u0 com.tencent.mobileqq/.emoticon.EmoticonContentProvider}
+    package=com.tencent.mobileqq process=com.tencent.mobileqq
+    proc=ProcessRecord{3a521945 13391:com.tencent.mobileqq/u0a95}
+    uid=10095 provider=android.content.ContentProviderProxy@3fbd1134
+    authority=qq.emoticon
+  * ContentProviderRecord{23d4fe06 u0 com.meizu.media.gallery/.content.GalleryPhotoProvider}
+    package=com.meizu.media.gallery process=com.meizu.media.gallery
+    proc=ProcessRecord{2c0e286 1488:com.meizu.media.gallery/u0a15}
+    uid=10015 provider=android.content.ContentProviderProxy@25ba2cc7
+    authority=com.meizu.media.gallery.provider
+    isSyncable=false multiprocess=true initOrder=100
+  * ContentProviderRecord{f65b5d u0 com.sina.weibo/.sync.stub.SyncStubProvider}
+    package=com.sina.weibo process=com.sina.weibo
+    proc=ProcessRecord{257f9d47 6870:com.sina.weibo/u0a88}
+    uid=10088 provider=android.content.ContentProviderProxy@3fa96cd2
+    authority=com.sina.weibo.sync.authority
+    isSyncable=true multiprocess=false initOrder=0
+
+  Single-user authority to provider mappings:
+  mms: 3792216a/com.android.providers.telephony/.MmsProvider
+  meizu_share: 191fd643/com.android.providers.settings/.ShareListProvider
+  mms-sms: 12a19fd1/com.android.providers.telephony/.MmsSmsProvider
+  sms: 3b5bcef5/com.android.providers.telephony/.SmsProvider
+  com.meizu.server.telecom.SwitchModeNotifyProvider: 1c5f939f/com.android.server.telecom/com.meizu.server.telecom.SwitchModeNotifyProvider
+  hbpcd_lookup: 182736fd/com.android.providers.telephony/.HbpcdLookupProvider
+  settings: 1f342d3c/com.android.providers.settings/.SettingsProvider
+
+  User 0 authority to provider mappings:
+  com.meizu.media.gallery.compaignsdk.provider: 3d650ee2/com.meizu.media.gallery/com.meizu.compaign.sdkcommon.crossprocess.SdkProvider
+  com.sina.weibo.picListProvider: d6e113f/com.sina.weibo/.PictureListProvider
+  com.meizu.media.reader.compaignsdk.provider: 237ecd0b/com.meizu.media.reader/com.meizu.compaign.sdkcommon.crossprocess.SdkProvider
+  com.tencent.mm.sdk.platformtools.MultiProcessSharedPreferences: 9bb6047/com.tencent.mm/.sdk.platformtools.MultiProcessSharedPreferences
+  com.meizu.usagestats: c127eeb/com.meizu.experiencedatasync/com.meizu.stats.UsageStatsProvider
+  com.tianyancha.skyeye.umeng.message: 9a1ad8b/com.tianyancha.skyeye/com.umeng.message.provider.MessageProvider
+  com.tencent.mm.plugin.ext.NearBy: 32dba611/com.tencent.mm/.plugin.ext.provider.ExtControlProviderNearBy
+  icc: 45db320/com.android.phone/.MzIccProvider
+  com.tencent.common.config.provider.QZoneConfigProvider: a48bf82/com.tencent.mobileqq/com.tencent.common.config.provider.QZoneConfigProvider
+  com.sina.weibo.fileprovider: a9b6d77/com.sina.weibo/android.support.v4.content.FileProvider
+  com.meizu.share: 24eaa8bd/com.meizu.share/.BluetoothOppProvider
+  com.sina.weibo.spProvider: 260bc529/com.sina.weibo/.provider.SinaWeiboSPProvider
+  blockcall: 4f288e6/com.meizu.safe/.blockService.provider.BlockCallsProvider
+  com.meizu.flyme.filemanager.FileSearchProvider: 2501982c/com.meizu.filemanager/com.meizu.flyme.filemanager.FileSearchProvider
+  com.meizu.customizecenter.common.dao.FontContentProvider: 361e6a48/com.meizu.customizecenter/.common.dao.FontContentProvider
+  com.android.settings.files: 770f722/com.android.settings/android.support.v4.content.FileProvider
+  com.meizu.cloud.app.update.exclude: 2b35429b/com.meizu.mstore/com.meizu.cloud.app.update.exclude.AppUpdateExcludeProvider
+  com.meizu.battery.provider: 3c72d432/com.meizu.battery/com.meizu.power.provider.PowerProvider
+  applications: f060b18/com.android.providers.applications/.ApplicationsProvider
+  com.meizu.customizecenter.common.dao.RingtoneContentProvider: 3c91d283/com.meizu.customizecenter/.common.dao.RingtoneContentProvider
+  whiteList: 21d24e44/com.meizu.safe/.blockService.provider.WhiteListProvider
+  com.sina.weibo.sync.authority: f65b5d/com.sina.weibo/.sync.stub.SyncStubProvider
+  com.sina.weibo.WB.DataCenterProvider: 3f28fe21/com.sina.weibo/.core.DataCenter.DataCenterProvider
+  com.sina.weibo.blogProvider: 193c9e4f/com.sina.weibo/.provider.SinaWeiboDBProvider
+  com.meizu.sync.provider: 40c3ca5/com.meizu.mzsyncservice/com.meizu.sync.db.MSyncProvider
+  com.sina.push.pushprovider.1004: 1dbedac7/com.sina.weibo/com.sina.push.datacenter.PushProvider
+  com.android.contacts.dumpfile: 1635983a/com.android.providers.contacts/.debug.DumpFileProvider
+  qq.friendlist: 271176b0/com.tencent.mobileqq/.content.FriendListProvider
+  com.android.providers.media.documents: 308d6a10/com.android.providers.media/.MediaDocumentsProvider
+  com.sina.weibo.weiboLogProvider: 3f8b1786/com.sina.weibo/.provider.WeiboLogDBProvider
+  com.tencent.mm.plugin.ext.ExtContentProviderBase: 20b24a3b/com.tencent.mm/.plugin.ext.provider.ExtContentProviderBase
+  com.android.contacts: 3c472530/com.android.providers.contacts/.ContactsProvider2
+  com.sina.weibo.preferenceProvider.authorities: 18cf6a13/com.sina.weibo/.core.sp.PreferenceProvider
+  com.meizu.media.gallery.barcode: 2da5d9f7/com.meizu.media.gallery/.barcode.db.BarcodeProvider
+  blackList: 36f4d7f/com.meizu.safe/.blockService.provider.BlackListProvider
+  com.tencent.mm.plugin.ext.AccountSync: 343f0f55/com.tencent.mm/.plugin.ext.provider.ExtControlProviderAccountSync
+  call_log: 2e4f12cd/com.android.providers.contacts/.CallLogProvider
+  com.tencent.mm.plugin.ext.entry: 12faedf0/com.tencent.mm/.plugin.ext.provider.ExtControlProviderEntry
+  com.meizu.settings.global_search: 3e98d96d/com.android.settings/com.meizu.settings.search.FlymeGlobalSearchProvider
+  smsquickreply: 37c80ab0/com.android.providers.telephony/.QuickReplyProvider
+  com.android.providers.downloads.ui.fileProvider: 104d1b1f/com.android.providers.downloads.ui/.DownloadFileProvider
+  com.yunos.alimobilesearch.provider.MSearchHotWordProvider: 32989d2a/com.yunos.alimobilesearch/.provider.MSearchHotWordProvider
+  com.android.voicemail: 1c9372e/com.android.providers.contacts/.VoicemailContentProvider
+  com.meizu.input.provider: 3db6e937/com.meizu.flyme.input/com.meizu.input.MzInputProvider
+  com.tencent.mm.plugin.ext.message: 1c36351a/com.tencent.mm/.plugin.ext.provider.ExtControlProviderMsg
+  com.meizu.customizecenter.common.dao.ThemeContentProvider: 3dd81e91/com.meizu.customizecenter/.common.dao.ThemeContentProvider
+  com.meizu.cloud.appcommon.settings: 2406a2e5/com.meizu.mstore/com.meizu.cloud.app.settings.SettingsPreferencesProvider
+  com.sina.weibo.BusinessUsedTimeLogProvider: 328da409/com.sina.weibo/.log.BusinessUsedTimeLogProvider
+  com.android.phone: 150ff719/com.android.phone/.PhoneSearchIndexablesProvider
+  com.meizu.blockservice.sync: 3443b9e3/com.meizu.safe/.blockService.provider.BSNoteSyncProvider
+  com.meizu.alphame.provider: 2eb658ae/com.meizu.alphame/.database.DatabaseProvider
+  com.tencent.mm.sdk.plugin.provider: 48f499d/com.tencent.mm/.plugin.base.stub.MMPluginProvider
+  com.meizu.sync.settings: 1ca0dee/com.meizu.mzsyncservice/com.meizu.sync.db.SyncSettingProvider
+  com.tencent.mm.plugin.ext.SNS: cc40649/com.tencent.mm/.plugin.ext.provider.ExtControlProviderSNS
+  blockresult: 1a50c925/com.meizu.safe/.blockService.provider.BlockResultProvider
+  qq.readinjoy: 1a600f52/com.tencent.mobileqq/cooperation.readinjoy.content.ReadInJoyDataProvider
+  com.meizu.flyme.filemanager.folder: 15331356/com.meizu.filemanager/com.meizu.flyme.filemanager.config.remark.RemarkProvider
+  com.tencent.mm.sdk.comm.provider: 2ab3cabb/com.tencent.mm/.plugin.base.stub.WXCommProvider
+  com.tencent.mobileqq.openapi.provider: 3d038861/com.tencent.mobileqq/.openapi.OpenApiProvider
+  com.meizu.desktopbackup.settings: 2aba520a/com.meizu.desktopbackup/com.meizu.backup.compontent.DesktopBackupProvider
+  com.tencent.mm.plugin.gwallet.queryprovider: 2c1ecc6/com.tencent.mm/.plugin.gwallet.GWalletQueryProvider
+  com.android.settings: 2df5c098/com.android.settings/.search.SettingsSearchIndexablesProvider
+  com.meizu.media.gallery.provider: 23d4fe06/com.meizu.media.gallery/.content.GalleryPhotoProvider
+  com.qihoo360.mobilesafeguardsdk: 1e7b48b5/com.meizu.safe/com.qihoo360.mobilesafe.provider.SafeGuardProviderSdk
+  user_dictionary: 2697493d/com.android.providers.userdictionary/.UserDictionaryProvider
+  downloads: 3f214fb4/com.android.providers.downloads/.DownloadProvider
+  com.meizu.flyme.launcher.settings: 99644ed/com.meizu.flyme.launcher/.LauncherProvider
+  com.meizu.flyme.appcenter.recommend: 70ca267/com.meizu.mstore/com.meizu.flyme.appcenter.recommend.RecommendProvider
+  com.meizu.customizecenter.common.dao.PapContentProvider: 24a8ce85/com.meizu.customizecenter/.common.dao.PapContentProvider
+  com.yunos.alimobilesearch.provider.MSearchMmsProvider: 27dcc0c4/com.yunos.alimobilesearch/.provider.MSearchMmsProvider
+  com.meizu.media.gallery.providers.flyme: 21b1645c/com.meizu.media.gallery/.cloud.data.FlymeMediaProvider
+  media: 2b1b7ef6/com.android.providers.media/.MediaProvider
+  com.meizu.customizecenter.common.dao.PatchContentProvider: 24d3fed0/com.meizu.customizecenter/.common.dao.PatchContentProvider
+  com.meizu.flyme.service.find: b68d8ab/com.meizu.flyme.service.find/.provider.DataProvider
+  com.meizu.prvacy.providers: c714f17/com.meizu.privacy/.providers.PrivacyProvider
+  blockmessage: 20c3924d/com.meizu.safe/.blockService.provider.BlockMessagesProvider
+  contacts: 3c472530/com.android.providers.contacts/.ContactsProvider2
+  com.tencent.mm.storage.provider.emotion: 27e13581/com.tencent.mm/.plugin.emoji.provider.EmotionContentProvider
+  com.tencent.mm.plugin.ext.SearchContact: 204be3c/com.tencent.mm/.plugin.ext.provider.ExtControlProviderSearchContact
+  com.svox.pico.providers.SettingsProvider: 21343c39/com.svox.pico/.providers.SettingsProvider
+  qq.emoticon: 376e2c07/com.tencent.mobileqq/.emoticon.EmoticonContentProvider
+  telephony: 30ab41e8/com.android.providers.telephony/.TelephonyProvider
+  com.meizu.media.gallery.cloud.db.cloudtrans: 21cb2ee7/com.meizu.media.gallery/.cloud.db.CloudProvider
+  com.meizu.media.reader.fileProvider: 12cce01/com.meizu.media.reader/.common.data.ReaderFileProvider
+  com.tencent.mqq.shared_file_accessor.ContentProviderImpl: 15417ea3/com.tencent.mobileqq/com.tencent.mqq.shared_file_accessor.ContentProviderImpl
+  com.meizu.account: ebc825b/com.meizu.account/.database.AccountContentProvider
+  com.alipay.android.app.share: 15b8b9ce/com.alipay.android.app/.UserIdShareProvider
+  com.meizu.safe.alphame.provider: 15349d05/com.meizu.safe/.alphame.AlphaMeContentProvider
+  com.sina.weibo.userlog: 2efad40d/com.sina.weibo/.log.UserLogProvider
+

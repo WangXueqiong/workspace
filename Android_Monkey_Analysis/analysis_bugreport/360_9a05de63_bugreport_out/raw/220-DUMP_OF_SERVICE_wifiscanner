@@ -1,0 +1,60 @@
+number of clients : 2
+mChannel null
+mMessenger null
+------
+mChannel com.android.internal.util.AsyncChannel@36d625c
+mMessenger android.os.Messenger@c65e8cf
+------
+
+localLog : 
+12-21 17:40:58.611 - New client, channel: null messenger: null
+12-21 17:40:58.612 - Entering IdleState
+12-21 17:40:58.612 - DefaultState
+12-21 17:41:00.526 - ClientHandler got{ when=0 what=69633 target=com.android.server.wifi.WifiScanningServiceImpl$ClientHandler }
+12-21 17:41:00.526 - New client connected : 1000android.os.Messenger@c65e8cf
+12-21 17:41:00.527 - New client, channel: com.android.internal.util.AsyncChannel@36d625c messenger: android.os.Messenger@c65e8cf
+12-21 17:41:00.527 - ClientHandler got{ when=0 what=69632 obj=com.android.internal.util.AsyncChannel@36d625c target=com.android.server.wifi.WifiScanningServiceImpl$ClientHandler }
+12-21 17:41:02.979 - SCAN_AVAILABLE : 1
+12-21 17:41:02.979 - DefaultState got{ when=-1ms what=160007 target=com.android.internal.util.StateMachine$SmHandler }
+12-21 17:41:03.264 - SCAN_AVAILABLE : 3
+12-21 17:41:03.264 - DefaultState got{ when=0 what=160006 target=com.android.internal.util.StateMachine$SmHandler }
+12-21 17:41:03.295 - StartedState
+12-21 17:53:15.933 - SCAN_AVAILABLE : 1
+12-21 17:53:15.933 - StartedState got{ when=0 what=160007 target=com.android.internal.util.StateMachine$SmHandler }
+12-21 17:53:15.934 - DefaultState
+12-21 17:54:21.358 - SCAN_AVAILABLE : 3
+12-21 17:54:21.359 - DefaultState got{ when=-1ms what=160006 target=com.android.internal.util.StateMachine$SmHandler }
+12-21 17:54:21.380 - StartedState
+12-22 14:22:35.505 - SCAN_AVAILABLE : 1
+12-22 14:22:35.505 - StartedState got{ when=-1ms what=160007 target=com.android.internal.util.StateMachine$SmHandler }
+12-22 14:22:35.505 - DefaultState
+12-22 14:24:12.203 - SCAN_AVAILABLE : 3
+12-22 14:24:12.205 - DefaultState got{ when=-2ms what=160006 target=com.android.internal.util.StateMachine$SmHandler }
+12-22 14:24:12.211 - StartedState
+12-24 17:20:45.505 - SCAN_AVAILABLE : 1
+12-24 17:20:45.505 - StartedState got{ when=0 what=160007 target=com.android.internal.util.StateMachine$SmHandler }
+12-24 17:20:45.505 - DefaultState
+12-24 17:21:10.214 - SCAN_AVAILABLE : 3
+12-24 17:21:10.214 - DefaultState got{ when=0 what=160006 target=com.android.internal.util.StateMachine$SmHandler }
+12-24 17:21:10.227 - StartedState
+12-24 17:23:58.735 - SCAN_AVAILABLE : 1
+12-24 17:23:58.736 - StartedState got{ when=0 what=160007 target=com.android.internal.util.StateMachine$SmHandler }
+12-24 17:23:58.736 - DefaultState
+12-24 17:24:06.883 - SCAN_AVAILABLE : 3
+12-24 17:24:06.883 - DefaultState got{ when=-1ms what=160006 target=com.android.internal.util.StateMachine$SmHandler }
+12-24 17:24:06.898 - StartedState
+
+
+WifiScanningService:
+ total records=10
+ rec[0]: time=12-21 17:41:02.979 processed=DefaultState org=DefaultState dest=<null> what=160007(0x27107)
+ rec[1]: time=12-21 17:41:03.295 processed=DefaultState org=DefaultState dest=StartedState what=160006(0x27106)
+ rec[2]: time=12-21 17:53:15.934 processed=StartedState org=StartedState dest=DefaultState what=160007(0x27107)
+ rec[3]: time=12-21 17:54:21.380 processed=DefaultState org=DefaultState dest=StartedState what=160006(0x27106)
+ rec[4]: time=12-22 14:22:35.505 processed=StartedState org=StartedState dest=DefaultState what=160007(0x27107)
+ rec[5]: time=12-22 14:24:12.211 processed=DefaultState org=DefaultState dest=StartedState what=160006(0x27106)
+ rec[6]: time=12-24 17:20:45.505 processed=StartedState org=StartedState dest=DefaultState what=160007(0x27107)
+ rec[7]: time=12-24 17:21:10.227 processed=DefaultState org=DefaultState dest=StartedState what=160006(0x27106)
+ rec[8]: time=12-24 17:23:58.736 processed=StartedState org=StartedState dest=DefaultState what=160007(0x27107)
+ rec[9]: time=12-24 17:24:06.898 processed=DefaultState org=DefaultState dest=StartedState what=160006(0x27106)
+curState=StartedState

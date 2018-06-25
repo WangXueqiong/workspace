@@ -1,0 +1,86 @@
+Backup Manager is disabled / provisioned / not pending init
+Auto-restore is enabled
+Last backup pass started: 0 (now = 1514107565818)
+  next scheduled: 1514108512848
+Transport whitelist:
+Available transports:
+Pending init: 0
+Ancestral: 0
+Current:   0
+Participants:
+  uid: 1000
+    com.android.providers.settings
+    android
+  uid: 10006
+    com.android.providers.userdictionary
+    com.android.calllogbackup
+  uid: 10030
+    com.android.sharedstoragebackup
+Ancestral packages: none
+Ever backed up: 0
+Pending key/value backup: 6
+    BackupRequest{pkg=com.android.providers.userdictionary}
+    BackupRequest{pkg=com.android.calllogbackup}
+    BackupRequest{pkg=com.android.sharedstoragebackup}
+    BackupRequest{pkg=@pm@}
+    BackupRequest{pkg=com.android.providers.settings}
+    BackupRequest{pkg=android}
+Full backup queue:58
+    0 : com.android.providers.media
+    0 : com.assistant.icontrol
+    0 : com.qualcomm.shutdownlistner
+    0 : com.android.wallpapercropper
+    0 : com.android.documentsui
+    0 : com.android.galaxy4
+    0 : com.android.externalstorage
+    0 : com.android.htmlviewer
+    0 : com.qualcomm.qti.telephonyservice
+    0 : com.meitu.mtxx_beauty
+    0 : com.android.providers.downloads.ui
+    0 : com.android.pacprocessor
+    0 : com.android.mms
+    0 : com.android.wallpaper.holospiral
+    0 : com.android.phasebeam
+    0 : com.qiku.eyemode
+    0 : com.android.dreams.basic
+    0 : com.android.frameworks.telresources
+    0 : com.oma.drm
+    0 : com.android.cellbroadcastreceiver
+    0 : com.android.dialer
+    0 : com.svox.pico
+    0 : com.qiku.android.virtualnumber
+    0 : com.android.proxyhandler
+    0 : com.synaptics.rawdata
+    0 : com.android.inputmethod.latin
+    0 : com.goodix.fingerprinttest
+    0 : com.android.managedprovisioning
+    0 : com.android.dreams.phototable
+    0 : com.android.noisefield
+    0 : com.qti.smq.qualcommFeedback
+    0 : com.android.smspush
+    0 : com.android.wallpaper.livepicker
+    0 : com.wdstechnology.android.kryten
+    0 : com.qiku.speech
+    0 : com.android.calculator2
+    0 : com.oma.drm.server
+    0 : com.android.wallpaper
+    0 : com.qiku.voiceassistant
+    0 : com.android.bluetoothmidiservice
+    0 : com.amap.android.location
+    0 : com.qiku.freecall
+    0 : com.qualcomm.embms
+    0 : com.android.captiveportallogin
+    0 : com.qiku.android.signalanalyse
+    0 : com.google.android.webview
+    1490240186047 : com.qiku.android.moving
+    1490240263785 : com.moji.mjweather
+    1490241079822 : com.sina.news
+    1492408706925 : com.airbnb.lottie
+    1500346490343 : com.oem91.market
+    1505735124087 : com.homelink.android
+    1505735137370 : com.mayi.android.shortrent
+    1505735161203 : com.ziroom.ziroomcustomer
+    1505790303506 : com.forward.eip
+    1507861970703 : com.bertadata.qxb
+    1508377340687 : com.nd.assistance
+    1512994775033 : com.koushikdutta.vysor

@@ -1,0 +1,144 @@
+GuiExtService[pid=371] state:
+
+Display Num: 1
+--------------------------------------------------
++ DispInfo[0]
+    type=Primary, w=1080, h=1920, bufNum=3
+--------------------------------------------------
+
+Pool List Size: 0
+--------------------------------------------------
+--------------------------------------------------
+
+
+Registered Tunnels state: (total 11 tunnels)
+
+ZOMBIE: 0
+--------------------------------------------------
+--------------------------------------------------
+
+BufferQueue: 3
+--------------------------------------------------
++ BQM-[1065:com.android.systemui]
+	  [0x7f65af9d30]    BufferQueueCnt : 1
+	  -----------------------
+           1)
+            -BufferQueue mMaxAcquiredBufferCount=1, mDequeueBufferCannotBlock=0, default-size=[1x1], default-format=1, transform-hint=00, FIFO(0)={}
+             this=0x7f65ad9000 (mConsumerName=ScreenshotClient, mConnectedApi=0, mConsumerUsageBits=0x3, mOverrideMaxBufferCount=0, mId=3, mPid=1065, producer=[-1:/system/bin/surfaceflinger], consumer=[1065:com.android.systemui])
+                *BufferQueueDump mIsBackupBufInited=0, mAcquiredBufs(size=1), mMode=TRACK_CONSUMER
+                 [00] handle=0x7f630da3a0, fence=0x7f63189bb0, time=0x3a0476e95b8
+	  -----------------------
++ BQM-[301:/system/bin/surfaceflinger]
+	  [0x7faa04c5c0]    BufferQueueCnt : 9
+	  -----------------------
+           1)
+            -BufferQueue mMaxAcquiredBufferCount=1, mDequeueBufferCannotBlock=0, default-size=[1080x1920], default-format=1, transform-hint=00, FIFO(0)={}
+             this=0x7faa130000 (mConsumerName=FrameBufferSurface_0, mConnectedApi=1, mConsumerUsageBits=0x1a00, mOverrideMaxBufferCount=0, mId=0, mPid=301, producer=[301:/system/bin/surfaceflinger], consumer=[301:/system/bin/surfaceflinger])
+            >[00:0x7faa0532c0] state=ACQUIRED, 0x7faa1335e0 [1080x1920:1088,  1]
+             [01:0x7faa0540c0] state=FREE    , 0x7faa157aa0 [1080x1920:1088,  1]
+             [02:0x7faa0541a0] state=FREE    , 0x7faa157380 [1080x1920:1088,  1]
+                *BufferQueueDump mIsBackupBufInited=0, mAcquiredBufs(size=1), mMode=TRACK_CONSUMER
+                 [00] handle=0x7faa1335e0, fence=0x7faa15d288, time=0xfd0d4229a02
+           2)
+            -BufferQueue mMaxAcquiredBufferCount=1, mDequeueBufferCannotBlock=0, default-size=[1620x2880], default-format=1, transform-hint=03, FIFO(0)={}
+             this=0x7faa139000 (mConsumerName=DimLayer-0, mConnectedApi=0, mConsumerUsageBits=0x900, mOverrideMaxBufferCount=0, mId=3, mPid=301, producer=[-1:], consumer=[301:/system/bin/surfaceflinger])
+                *BufferQueueDump mIsBackupBufInited=0, mAcquiredBufs(size=0), mMode=TRACK_CONSUMER
+           3)
+            -BufferQueue mMaxAcquiredBufferCount=1, mDequeueBufferCannotBlock=0, default-size=[1x1], default-format=1, transform-hint=03, FIFO(0)={}
+             this=0x7faa13d000 (mConsumerName=DimLayer-0-AnimBg, mConnectedApi=0, mConsumerUsageBits=0x900, mOverrideMaxBufferCount=0, mId=4, mPid=301, producer=[-1:], consumer=[301:/system/bin/surfaceflinger])
+                *BufferQueueDump mIsBackupBufInited=0, mAcquiredBufs(size=0), mMode=TRACK_CONSUMER
+           4)
+            -BufferQueue mMaxAcquiredBufferCount=1, mDequeueBufferCannotBlock=0, default-size=[1620x2880], default-format=1, transform-hint=03, FIFO(0)={}
+             this=0x7faa145000 (mConsumerName=DimLayer-1, mConnectedApi=0, mConsumerUsageBits=0x900, mOverrideMaxBufferCount=0, mId=5, mPid=301, producer=[-1:], consumer=[301:/system/bin/surfaceflinger])
+                *BufferQueueDump mIsBackupBufInited=0, mAcquiredBufs(size=0), mMode=TRACK_CONSUMER
+           5)
+            -BufferQueue mMaxAcquiredBufferCount=1, mDequeueBufferCannotBlock=0, default-size=[1620x2880], default-format=1, transform-hint=03, FIFO(0)={}
+             this=0x7faa149000 (mConsumerName=DimLayer-1-AnimBg, mConnectedApi=0, mConsumerUsageBits=0x900, mOverrideMaxBufferCount=0, mId=6, mPid=301, producer=[-1:], consumer=[301:/system/bin/surfaceflinger])
+                *BufferQueueDump mIsBackupBufInited=0, mAcquiredBufs(size=0), mMode=TRACK_CONSUMER
+           6)
+            -BufferQueue mMaxAcquiredBufferCount=1, mDequeueBufferCannotBlock=0, default-size=[1080x1920], default-format=2, transform-hint=03, FIFO(0)={}
+             this=0x7faa155000 (mConsumerName=com.android.systemui.ImageWallpaper, mConnectedApi=0, mConsumerUsageBits=0x900, mOverrideMaxBufferCount=0, mId=9, mPid=301, producer=[-1:com.android.systemui], consumer=[301:/system/bin/surfaceflinger])
+                *BufferQueueDump mIsBackupBufInited=0, mAcquiredBufs(size=1), mMode=TRACK_CONSUMER
+                 [00] handle=0x7faa1401c0, fence=0x7fa981c1a8, time=0x85a0be1eb
+           7)
+            -BufferQueue mMaxAcquiredBufferCount=1, mDequeueBufferCannotBlock=0, default-size=[1x1], default-format=1, transform-hint=03, FIFO(0)={}
+             this=0x7faa162000 (mConsumerName=FocusedStackFrame, mConnectedApi=0, mConsumerUsageBits=0x900, mOverrideMaxBufferCount=0, mId=2, mPid=301, producer=[-1:], consumer=[301:/system/bin/surfaceflinger])
+                *BufferQueueDump mIsBackupBufInited=0, mAcquiredBufs(size=0), mMode=TRACK_CONSUMER
+           8)
+            -BufferQueue mMaxAcquiredBufferCount=1, mDequeueBufferCannotBlock=0, default-size=[1080x66], default-format=1, transform-hint=03, FIFO(0)={}
+             this=0x7faa226000 (mConsumerName=StatusBar, mConnectedApi=1, mConsumerUsageBits=0x900, mOverrideMaxBufferCount=0, mId=10, mPid=301, producer=[1065:com.android.systemui], consumer=[301:/system/bin/surfaceflinger])
+             [00:0x7faa053800] state=FREE    , 0x7fa9814da0 [1080x  66:1088,  1]
+             [01:0x7faa0539c0] state=FREE    , 0x7faa275680 [1080x  66:1088,  1]
+            >[02:0x7faa053d40] state=ACQUIRED, 0x7faa158040 [1080x  66:1088,  1]
+                *BufferQueueDump mIsBackupBufInited=0, mAcquiredBufs(size=1), mMode=TRACK_CONSUMER
+                 [00] handle=0x7faa158040, fence=0x7fa981c0c0, time=0xfd9af3a87b2
+           9)
+            -BufferQueue mMaxAcquiredBufferCount=1, mDequeueBufferCannotBlock=0, default-size=[1080x1920], default-format=1, transform-hint=03, FIFO(0)={}
+             this=0x7faa3e8000 (mConsumerName=com.meizu.flyme.launcher/com.meizu.flyme.launcher.Launcher, mConnectedApi=1, mConsumerUsageBits=0x900, mOverrideMaxBufferCount=0, mId=191, mPid=301, producer=[1760:com.meizu.flyme.launcher], consumer=[301:/system/bin/surfaceflinger])
+             [00:0x7faa055cc0] state=FREE    , 0x7faa13f8c0 [1080x1920:1088,  1]
+            >[01:0x7fa9834560] state=ACQUIRED, 0x7fa98159a0 [1080x1920:1088,  1]
+             [02:0x7faa053640] state=FREE    , 0x7fa98142c0 [1080x1920:1088,  1]
+                *BufferQueueDump mIsBackupBufInited=0, mAcquiredBufs(size=1), mMode=TRACK_CONSUMER
+                 [00] handle=0x7fa98159a0, fence=0x7faa15d418, time=0xfd0db64fe34
+	  -----------------------
++ BQM-[788:system_server]
+	  [0x7f75045120]    BufferQueueCnt : 0
+	  -----------------------
+	  -----------------------
+--------------------------------------------------
+
+RefBase: 8
+--------------------------------------------------
++ RB-0x7f64fd8e80
+	  [0x7f64fd8e80]    RefCnt   com.android.systemui
+	  -----------------------
+	    0) 0x7f63376440    1
+	    1) 0x7f63378820    3
+	    2) 0x7f64f2d800    1
+	    3) 0x7f7502ccc0    1
+	*****************************************************
++ RB-0x7f70252b00
+	  [0x7f70252b00]    RefCnt   com.meizu.flyme.launcher
+	  -----------------------
+	    0) 0x7f5f77baa0    1
+	    1) 0x7f5f77bd40    1
+	*****************************************************
++ RB-0x7f7c04dc10
+	  [0x7f7c04dc10]    RefCnt   system_server
+	  -----------------------
+	*****************************************************
++ RB-0x7faa04c6a0
+	  [0x7faa04c6a0]    RefCnt   /system/bin/surfaceflinger
+	  -----------------------
+	    0) 0x7fa9834560    6
+	    1) 0x7faa0532c0    5
+	    2) 0x7faa053640    1
+	    3) 0x7faa053800    4
+	    4) 0x7faa0539c0    4
+	    5) 0x7faa053d40    6
+	    6) 0x7faa053e20    5
+	    7) 0x7faa0540c0    3
+	    8) 0x7faa0541a0    3
+	    9) 0x7faa055cc0    4
+	*****************************************************
++ RB-0xe135aa88
+	  [0xe135aa88]    RefCnt   com.tianyancha.skyeye
+	  -----------------------
+	*****************************************************
++ RB-0xee8df830
+	  [0xee8df830]    RefCnt   com.tencent.mobileqq
+	  -----------------------
+	*****************************************************
++ RB-0xee962a88
+	  [0xee962a88]    RefCnt   com.meizu.flyme.input
+	  -----------------------
+	*****************************************************
++ RB-0xf47a3858
+	  [0xf47a3858]    RefCnt   com.android.settings
+	  -----------------------
+	*****************************************************
+--------------------------------------------------
+
+Others: 0
+--------------------------------------------------
+--------------------------------------------------

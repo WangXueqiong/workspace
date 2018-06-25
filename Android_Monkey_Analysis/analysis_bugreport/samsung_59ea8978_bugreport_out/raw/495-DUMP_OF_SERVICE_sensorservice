@@ -1,0 +1,89 @@
+Sensor List:
+MPU6500 Acceleration Sensor| Invensense| version=1 |android.sensor.accelerometer| 0x00000000 | "" | type=1 | continuous | minRate=5.00Hz | maxRate=200.00Hz | FifoMax=150 events | non-wakeUp | last 50 events = < 1)  -0.2,  0.0,  9.4,347849154711173 17:28:10 2)   0.0, -0.3,  9.0,347849334287006 17:28:10 3)  -0.2,  0.0,  9.4,347849513859715 17:28:10 4)  -0.2,  0.0,  9.4,347849693436433 17:28:11 5)  -0.1,  0.0,  9.5,347849873014037 17:28:11 6)  -0.2,  0.0,  9.4,347850052592214 17:28:11 7)  -0.2,  0.0,  9.4,347850232162006 17:28:11 8)  -0.2,  0.0,  9.4,347850411768516 17:28:11 9)  -0.2,  0.0,  9.4,347850591335912 17:28:11 10)  -0.2,  0.0,  9.4,347850770927214 17:28:12 11)  -0.2,  0.0,  9.4,347850950591381 17:28:12 12)  -0.2,  0.0,  9.4,347851130061016 17:28:12 13)  -0.2,  0.0,  9.4,347851309662787 17:28:12 14)  -0.2,  0.0,  9.4,347851489285860 17:28:12 15)  -0.2,  0.0,  9.4,347851668797006 17:28:12 16)  -0.2,  0.0,  9.4,347851848438204 17:28:13 17)  -0.2,  0.0,  9.4,347852028142579 17:28:13 18)  -0.2,  0.0,  9.4,347852207559973 17:28:13 19)  -0.2,  0.0,  9.4,347852387137942 17:28:13 20)  -0.1,  0.0,  9.4,347852566882369 17:28:13 21)  -0.2,  0.0,  9.4,347852746334713 17:28:14 22)  -0.2,  0.0,  9.4,347852925869140 17:28:14 23)  -0.2,  0.0,  9.4,347853105553775 17:28:14 24)  -0.2,  0.0,  9.4,347853285188723 17:28:14 25)  -0.2,  0.0,  9.4,347853464716275 17:28:14 26)  -0.2,  0.0,  9.4,347853644215546 17:28:14 27)  -0.2,  0.0,  9.4,347853823797265 17:28:15 28)  -0.2,  0.1,  9.4,347854003311848 17:28:15 29)  -0.2,  0.0,  9.4,347854183134140 17:28:15 30)  -0.2,  0.0,  9.4,347854362684869 17:28:15 31)  -0.2,  0.0,  9.4,347854542085807 17:28:15 32)  -0.2,  0.0,  9.4,347854721678203 17:28:16 33)  -0.2,  0.0,  9.4,347854901247629 17:28:16 34)  -0.2,  0.0,  9.4,347855080810077 17:28:16 35)  -0.2,  0.0,  9.4,347855260569973 17:28:16 36)  -0.2,  0.0,  9.4,347855440002785 17:28:16 37)  -0.2,  0.0,  9.4,347855619617994 17:28:16 38)  -0.2,  0.0,  9.4,347855799098150 17:28:17 39)  -0.2,  0.0,  9.4,347855978660337 17:28:17 40)  -0.2,  0.0,  9.4,347856158254296 17:28:17 41)  -0.2,  0.0,  9.4,347856337863149 17:28:17 42)  -0.2,  0.0,  9.4,347856517399347 17:28:17 43)  -0.2,  0.0,  9.4,347856697061743 17:28:18 44)  -0.2,  0.0,  9.4,347856876546951 17:28:18 45)  -0.2,  0.0,  9.4,347857056115076 17:28:18 46)  -0.2,  0.0,  9.4,347857235695545 17:28:18 47)  -0.2,  0.0,  9.5,347857415291639 17:28:18 48)  -0.2,  0.0,  9.4,347857594838357 17:28:18 49)  -0.2,  0.0,  9.4,347857774457784 17:28:19 50)  -0.2,  0.0,  9.4,347857953997680 17:28:19 >
+
+MPU6500 Gyroscope Sensor| Invensense| version=1 |android.sensor.gyroscope| 0x00000003 | "" | type=4 | continuous | minRate=5.00Hz | maxRate=200.00Hz | FifoMax=30 events | non-wakeUp | last 10 events = < 1)  -0.0, -0.0,  0.0,347840176182478 17:28:01 2)  -0.0, -0.0,  0.0,347840355844405 17:28:01 3)  -0.0, -0.0,  0.0,347840535378312 17:28:01 4)  -0.0, -0.0,  0.0,347840715006020 17:28:02 5)  -0.0, -0.0,  0.0,347840894566228 17:28:02 6)  -0.0, -0.0,  0.0,347841074198051 17:28:02 7)  -0.0, -0.0,  0.0,347841253730291 17:28:02 8)  -0.0, -0.0,  0.0,347841433331801 17:28:02 9)  -0.0, -0.0,  0.0,347841612914093 17:28:02 10)  -0.0, -0.0,  0.0,347841792397843 17:28:03 >
+
+MPU6500 Uncalibrated Gyroscope Sensor| Invensense| version=1 |android.sensor.gyroscope_uncalibrated| 0x0000000e | "" | type=16 | continuous | minRate=5.00Hz | maxRate=200.00Hz | no batching | non-wakeUp | last=<> 
+
+AK09911C Magnetic field Sensor| Asahi Kasei Microdevices| version=1 |android.sensor.magnetic_field| 0x00000001 | "" | type=2 | continuous | minRate=5.00Hz | maxRate=100.00Hz | no batching | non-wakeUp | last=<> 
+
+AK09911C Magnetic Sensor UnCalibrated| Asahi Kasei Microdevices| version=1 |android.sensor.magnetic_field_uncalibrated| 0x00000009 | "" | type=14 | continuous | minRate=5.00Hz | maxRate=100.00Hz | no batching | non-wakeUp | last=<> 
+
+Barometer Sensor| STM       | version=1 |android.sensor.pressure| 0x00000004 | "" | type=6 | continuous | minRate=5.56Hz | maxRate=5.56Hz | FifoMax=50 events | non-wakeUp | last 10 events = < 1) 1008.3,  0.0,  0.0,343146733395467 16:09:48 2) 1008.3,  0.0,  0.0,343146912961925 16:09:48 3) 1008.2,  0.0,  0.0,343147092569008 16:09:48 4) 1008.2,  0.0,  0.0,343147272111404 16:09:48 5) 1008.2,  0.0,  0.0,343147451698539 16:09:48 6) 1008.2,  0.0,  0.0,343147631229842 16:09:48 7) 1008.3,  0.0,  0.0,343147810860362 16:09:49 8) 1008.3,  0.0,  0.0,343147990461873 16:09:49 9) 1008.3,  0.0,  0.0,343148169961508 16:09:49 10) 1008.3,  0.0,  0.0,343148349578904 16:09:49 >
+
+TMG399X Proximity Sensor| AMS, Inc. | version=1 |android.sensor.proximity| 0x00000005 | "" | type=8 | on-change | maxDelay=0us |minDelay=0us |no batching | wakeUp | last 10 events = < 1)   8.0,  0.0,  0.0,263167450504963 17:56:48 2)   8.0,  0.0,  0.0,263167464381474 17:56:48 3)   8.0,  0.0,  0.0,266393225375392 18:50:34 4)   8.0,  0.0,  0.0,312204621669598 07:34:05 5)   8.0,  0.0,  0.0,316616905222284 08:47:38 6)   8.0,  0.0,  0.0,316616923365670 08:47:38 7)   8.0,  0.0,  0.0,328806985775191 12:10:48 8)   8.0,  0.0,  0.0,328807003758785 12:10:48 9)   8.0,  0.0,  0.0,329471286485821 12:21:52 10)   8.0,  0.0,  0.0,329471286511082 12:21:52 >
+
+TMG399X RGB Sensor| AMS, Inc. | version=1 |android.sensor.light| 0x00000006 | "" | type=5 | on-change | minRate=5.00Hz | maxRate=5.00Hz | no batching | non-wakeUp | last 10 events = < 1)  46.0,3936.0, 31.0,347856338547525 17:28:17 2)  46.0,3936.0, 31.0,347856517756795 17:28:17 3)  46.0,3936.0, 31.0,347856697490389 17:28:18 4)  46.0,3923.0, 31.0,347856876932420 17:28:18 5)  46.0,3923.0, 31.0,347857056455284 17:28:18 6)  46.0,3923.0, 31.0,347857236030857 17:28:18 7)  54.0,3948.0, 32.0,347857415891326 17:28:18 8)  46.0,3977.0, 31.0,347857595357628 17:28:18 9)  46.0,3977.0, 31.0,347857774842211 17:28:19 10)  46.0,3977.0, 31.0,347857954352472 17:28:19 >
+
+MPL Rotation Vector| Invensense| version=1 |android.sensor.rotation_vector| 0x0000000a | "" | type=11 | continuous | minRate=5.00Hz | maxRate=100.00Hz | no batching | non-wakeUp | last 10 events = < 1)   0.0,  0.0, -0.4,  0.9,  0.0,269027409702298 19:34:28 2)   0.0,  0.0, -0.4,  0.9,  0.0,269027589389642 19:34:28 3)   0.0,  0.0, -0.4,  0.9,  0.0,347286847016387 17:18:48 4)   0.0, -0.0, -1.0,  0.2,  0.0,347287030277690 17:18:48 5)   0.0, -0.0, -1.0,  0.2,  0.0,347288183598314 17:18:49 6)   0.0,  0.0, -0.4,  0.9,  0.0,347288364339095 17:18:49 7)   0.0,  0.0, -1.0,  0.2,  0.0,347288544209616 17:18:49 8)   0.0,  0.0, -0.4,  0.9,  0.0,347288723432168 17:18:50 9)   0.0,  0.0, -0.4,  0.9,  0.0,347288903007793 17:18:50 10)   0.0,  0.0, -0.4,  0.9,  0.0,347289082629459 17:18:50 >
+
+MPL Game Rotation Vector| Invensense| version=1 |android.sensor.game_rotation_vector| 0x0000000b | "" | type=15 | continuous | minRate=5.00Hz | maxRate=100.00Hz | FifoMax=100 events | non-wakeUp | last=<> 
+
+SAMSUNG Step Detector Sensor| Samsung Inc.| version=1 |android.sensor.step_detector| 0x0000000c | "" | type=18 | special-trigger | maxDelay=0us |minDelay=0us |FifoMax=334 events | non-wakeUp | last=<> 
+
+SAMSUNG Step Counter Sensor| Samsung Inc.| version=1 |android.sensor.step_counter| 0x0000000f | "" | type=19 | on-change | maxDelay=0us |minDelay=0us |no batching | non-wakeUp | last 50 events = < 1) 0,33031743275 16:51:14 2) 0,5964826232835 18:30:06 3) 6,7721324200551 18:59:22 4) 7,7722261685082 18:59:23 5) 13,77342408529910 14:19:43 6) 15,77343404796629 14:19:44 7) 16,77344023126628 14:19:45 8) 17,77344501935169 14:19:45 9) 18,77344901401523 14:19:46 10) 19,77345239184075 14:19:46 11) 20,77345519408866 14:19:46 12) 21,77345837910845 14:19:47 13) 22,77346217527095 14:19:47 14) 23,77346697138918 14:19:48 15) 29,78082229210721 14:32:03 16) 30,78082826782908 14:32:04 17) 32,78083705499314 14:32:05 18) 33,78084145355512 14:32:05 19) 35,78085042248844 14:32:06 20) 36,78085281304574 14:32:06 21) 37,78085561116658 14:32:06 22) 38,78086040752595 14:32:07 23) 38,185482839503113 20:22:04 24) 44,342190971271352 15:53:52 25) 45,342191404920414 15:53:52 26) 47,342193339934060 15:53:54 27) 48,342193978592289 15:53:55 28) 49,342194358559685 15:53:55 29) 50,342195215334684 15:53:56 30) 57,342201161255203 15:54:02 31) 58,342201420663119 15:54:02 32) 59,342201839817390 15:54:03 33) 59,347166054203048 17:16:47 >
+
+SAMSUNG Significant Motion Sensor| Samsung Inc.| version=2 |android.sensor.significant_motion| 0x0000000d | "" | type=17 | one-shot | maxDelay=0us |minDelay=-1us |no batching | wakeUp | last=<> 
+
+HRM Sensor     | MAXIM     | version=1 |com.samsung.sensor.bio_hrm| 0x00000011 | "com.samsung.permission.SSENSOR" | type=65562 | on-change | minRate=1.00Hz | maxRate=1.00Hz | no batching | non-wakeUp | last=<> 
+
+HeartRate Sensor| MAXIM     | version=1 |android.sensor.heart_rate| 0x00000012 | "android.permission.BODY_SENSORS" | type=21 | on-change | minRate=1.00Hz | maxRate=1.00Hz | no batching | non-wakeUp | last=<> 
+
+MAX86900       | MAXIM     | version=1 |com.samsung.sensor.bio| 0x00000013 | "com.samsung.permission.SSENSOR" | type=65561 | continuous | minRate=100.00Hz | maxRate=100.00Hz | no batching | non-wakeUp | last=<> 
+
+Screen Orientation Sensor| Samsung Electronics| version=3 |                    | 0x5f617273 | "" | type=65558 | on-change | maxDelay=0us |minDelay=0us |no batching | non-wakeUp | last=<> 
+
+Rotation Vector Sensor| AOSP      | version=3 |android.sensor.rotation_vector| 0x5f726f76 | "" | type=11 | continuous | maxDelay=0us |maxRate=200.00Hz | no batching | non-wakeUp | last=<> 
+
+Orientation Sensor| Samsung Electronics| version=1 |android.sensor.orientation| 0x73797072 | "" | type=3 | continuous | maxDelay=0us |maxRate=100.00Hz | no batching | non-wakeUp | last=<> 
+
+Gravity Sensor | Samsung Electronics| version=3 |android.sensor.gravity| 0x73677276 | "" | type=9 | continuous | maxDelay=0us |maxRate=100.00Hz | no batching | non-wakeUp | last=<> 
+
+Linear Acceleration Sensor| Samsung Electronics| version=3 |android.sensor.linear_acceleration| 0x736c696e | "" | type=10 | continuous | maxDelay=0us |maxRate=100.00Hz | no batching | non-wakeUp | last 10 events = < 1)  -0.0,  0.0, -0.3,269027409702298 19:34:28 2)   0.0, -0.0, -0.3,269027589389642 19:34:28 3)   0.0, -0.1, -0.3,347286847016387 17:18:48 4)  -0.0, -0.0, -0.4,347287030277690 17:18:48 5)  -0.0,  0.0, -0.3,347288183598314 17:18:49 6)   0.0,  0.0, -0.4,347288364339095 17:18:49 7)   0.0, -0.0, -0.4,347288544209616 17:18:49 8)   0.0, -0.0, -0.4,347288723432168 17:18:50 9)   0.0, -0.0, -0.4,347288903007793 17:18:50 10)   0.0, -0.0, -0.4,347289082629459 17:18:50 >
+
+Gravity Sensor | AOSP      | version=3 |android.sensor.gravity| 0x5f677276 | "" | type=9 | continuous | maxDelay=0us |maxRate=200.00Hz | no batching | non-wakeUp | last=<> 
+
+Linear Acceleration Sensor| AOSP      | version=3 |android.sensor.linear_acceleration| 0x5f6c696e | "" | type=10 | continuous | maxDelay=0us |maxRate=200.00Hz | no batching | non-wakeUp | last=<> 
+
+Orientation Sensor| AOSP      | version=1 |android.sensor.orientation| 0x5f797072 | "" | type=3 | continuous | maxDelay=0us |maxRate=200.00Hz | no batching | non-wakeUp | last=<> 
+
+Corrected Gyroscope Sensor| AOSP      | version=1 |android.sensor.gyroscope| 0x5f636779 | "" | type=4 | continuous | maxDelay=0us |maxRate=200.00Hz | no batching | non-wakeUp | last=<> 
+
+Gyroscope Bias (debug)| AOSP      | version=1 |android.sensor.accelerometer| 0x5f676273 | "" | type=1 | continuous | maxDelay=0us |maxRate=200.00Hz | no batching | non-wakeUp | last=<> 
+
+9-axis fusion disabled (0 clients), gyro-rate= 200.00Hz, q=< 0, 0, 0, 0 > (0), b=< 0, 0, 0 >
+halVersion 0x01030001
+16 h/w sensors:
+handle=0x0000000f, active-count=1, batch_period(ms)={ 200.0 }, selected=200.0 ms
+handle=0x0000000f, active-count=1, batch_timeout(ms)={  0.0 }, selected= 0.0 ms
+Active sensors:
+SAMSUNG Step Counter Sensor (handle=0x0000000f, connections=1)
+Socket Buffer size = 984 events
+WakeLock Status: not held 
+Mode : NORMAL
+1 active connections
+Connection Number: 0 
+	Operating Mode: NORMAL
+	 com.tencent.mobileqq.msf.core.y | WakeLockRefCount 0 | uid 10356 | cache size 0 | max cache size 0
+	 SAMSUNG Step Counter Sensor 0x0000000f | status: active | pending flush events 0 
+Previous Registrations:
+17:28:19 de-activated package=com.android.server.display.AutomaticBrightnessController handle=0x00000000
+17:28:19 de-activated package=com.android.server.display.AutomaticBrightnessController handle=0x00000006
+17:28:03 de-activated package=com.tianyancha.skyeye.camera.ScanImageActivity handle=0x00000003
+17:28:03 de-activated package=android.view.OrientationEventListener handle=0x00000000
+17:27:49 activated package=com.tianyancha.skyeye.camera.ScanImageActivity handle=0x00000003 samplingRate=200000us maxReportLatency=0us
+17:27:49 activated package=android.view.OrientationEventListener handle=0x00000000 samplingRate=200000us maxReportLatency=0us
+17:18:50 de-activated package=ct.cb handle=0x736c696e
+17:18:50 de-activated package=ct.cb handle=0x00000000
+17:18:49 activated package=ct.cb handle=0x736c696e samplingRate=200000us maxReportLatency=0us
+17:18:49 activated package=ct.cb handle=0x00000000 samplingRate=20000us maxReportLatency=0us
+17:18:48 de-activated package=ct.cb handle=0x736c696e
+17:18:48 de-activated package=ct.cb handle=0x00000000
+17:18:47 activated package=ct.cb handle=0x736c696e samplingRate=200000us maxReportLatency=0us
+17:18:47 activated package=ct.cb handle=0x00000000 samplingRate=20000us maxReportLatency=0us
+17:18:41 activated package=com.android.server.display.AutomaticBrightnessController handle=0x00000000 samplingRate=250000us maxReportLatency=0us
+17:18:41 activated package=com.android.server.display.AutomaticBrightnessController handle=0x00000006 samplingRate=250000us maxReportLatency=0us
+17:16:47 activated package=com.tencent.mobileqq.msf.core.y handle=0x0000000f samplingRate=200000us maxReportLatency=0us
+17:11:24 de-activated package=android.view.OrientationEventListener handle=0x00000000
+17:11:23 de-activated package=com.android.server.display.AutomaticBrightnessController handle=0x00000000
+17:11:23 de-activated package=com.android.server.display.AutomaticBrightnessController handle=0x00000006

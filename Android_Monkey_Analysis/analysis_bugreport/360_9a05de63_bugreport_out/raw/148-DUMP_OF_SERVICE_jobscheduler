@@ -1,0 +1,68 @@
+Started users: u0 
+Registered jobs:
+  285..:[ComponentInfo{com.android.systemui/com.android.systemui.keyguard.magazine.AutoUpdateJobService},jId=2000,u0,R=(8:33:53,25:43:27),N=1,C=false,I=false,F=0,P=true,ANI=true]
+  489..:[ComponentInfo{com.qihoo360.mobilesafe/com.qihoo360.mobilesafe.service.KLJobServiceXYZ},jId=4,u0,R=(2348:34:20,none),N=2,C=false,I=false,F=0,P=true,ANI=true]
+  850..:[ComponentInfo{android/com.android.server.pm.BackgroundDexOptService},jId=800,u0,R=(-71:45:00,none),N=0,C=true,I=true,F=0,P=false,ANI=true]
+  121..:[ComponentInfo{com.qihoo360.mobilesafe/com.qihoo360.mobilesafe.service.KLJobServiceXYZ},jId=1,u0,R=(2348:34:20,4748:34:20),N=0,C=false,I=false,F=0,P=true,ANI=true]
+  144..:[ComponentInfo{com.qihoo360.mobilesafe/com.qihoo360.mobilesafe.service.KLJobServiceXYZ},jId=2,u0,R=(2348:34:20,none),N=0,C=true,I=false,F=0,P=true,ANI=true]
+  146..:[ComponentInfo{com.qihoo360.mobilesafe/com.qihoo360.mobilesafe.service.KLJobServiceXYZ},jId=3,u0,R=(2348:34:20,none),N=0,C=false,I=true,F=0,P=true,ANI=true]
+  151..:[ComponentInfo{com.yulong.android.coolsafe/com.qiku.unlock.FastJobSchedulerService},jId=1000,u0,R=(20:55:01,92:55:01),N=2,C=false,I=false,F=0,P=true,ANI=true]
+  187..:[ComponentInfo{com.qihoo.browser/com.qihoo.browser.keepalive.scheduler.WorkerService},jId=3,u0,R=(-3:31:06,none),N=0,C=false,I=true,F=0,P=true,ANI=true]
+  203..:[ComponentInfo{com.android.providers.downloads/com.android.providers.downloads.DownloadIdleService},jId=1,u0,R=(-20:34:39,3:25:20),N=0,C=true,I=true,F=0,P=true,ANI=true]
+  210..:[ComponentInfo{android/com.android.server.backup.FullBackupJob},jId=20536,u0,R=(none,none),N=2,C=true,I=true,F=0,P=true,ANI=true]
+  219..:[ComponentInfo{com.yulong.android.ota/com.qiku.android.ota.service.CotaJobService},jId=10036,u0,R=(-05:11,11:54:38),N=0,C=false,I=false,F=0,P=true,ANI=true(READY)]
+  224..:[ComponentInfo{android/com.android.server.MountServiceIdler},jId=808,u0,R=(-62:25:58,none),N=0,C=true,I=true,F=0,P=false,ANI=true]
+  234..:[ComponentInfo{com.yulong.android.coolsafe/com.qiku.unlock.FastJobSchedulerService},jId=1000,u0,R=(17:10:01,89:10:01),N=2,C=false,I=false,F=0,P=true,ANI=true]
+  243..:[ComponentInfo{android/com.android.server.backup.KeyValueBackupJob},jId=20537,u0,R=(15:45,20:13:25),N=1,C=true,I=false,F=0,P=false,ANI=true]
+
+Conn.
+connected: true unmetered: true
+210..: C=false, UM=true
+193..: C=false, UM=true
+234..: C=false, UM=true
+489..: C=false, UM=true
+151..: C=false, UM=true
+285..: C=true, UM=false
+243..: C=true, UM=false
+201..: C=false, UM=true
+
+Alarms (258320131)
+Next delay alarm in 945s
+Next deadline alarm in 12320s
+Tracking:
+203..: (184240906, 270640906)
+219..: (258008862, 301198862)
+243..: (259265685, 331125908)
+285..: (289153247, 350927247)
+234..: (320121444, 579321444)
+151..: (333621889, 592821889)
+121..: (8713180836, 17353180836)
+489..: (8713180854, N/A)
+146..: (8713180849, N/A)
+144..: (8713180845, N/A)
+
+Idle: false
+7
+  850..
+  210..
+  224..
+  189..
+  146..
+  203..
+  187..
+
+Batt.
+Stable power: true
+85097150,210232417,224060588,144343759,203999668,243678419,28308927
+
+AppIdle
+Parole On: false
+android:idle=false, android:idle=false, android:idle=false, com.qihoo.browser:idle=false, com.qihoo.browser:idle=false, com.qihoo.browser:idle=false, com.yulong.android.coolsafe:idle=false, com.qihoo360.mobilesafe:idle=false, com.qihoo360.mobilesafe:idle=false, com.qihoo360.mobilesafe:idle=false, com.qihoo360.mobilesafe:idle=false, com.yulong.android.coolsafe:idle=false, com.android.providers.downloads:idle=false, com.android.systemui:idle=false, android:idle=false, com.qihoo.browser:idle=false, com.qihoo.browser:idle=false, com.qihoo.browser:idle=false, com.qihoo.browser:idle=false, com.yulong.android.ota:idle=false, 
+
+Pending:
+
+Active jobs:
+
+mReadyToRock=true
+mDeviceIdleMode=false
+

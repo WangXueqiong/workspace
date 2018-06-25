@@ -1,0 +1,30 @@
+USB Manager State:
+  USB Device State:
+    mCurrentFunctions: mtp,adb
+    mCurrentFunctionsApplied: true
+    mConnected: true
+    mConfigured: true
+    mUsbDataUnlocked: false
+    mCurrentAccessory: null
+    Kernel state: CONFIGURED
+    Kernel function list: mtp,ffs
+  USB Debugging State:
+    Connected to adbd: true
+    Last key received: null
+    User keys:
+  QAAAABNBdfXlTrN8vNqsHkB8TFFKuRaGxqZDN1uosp1P10xECcaU2ba4mbE9caKlP4QAjK84zmQTHvACdyCgQookat9BegS4B8pAj1MT3K3cOiAc7qzQPH7Imgi5nO015a+J+x0qks68LcwdsxWsmSyo+94I3mCt8nwOPTaNw4cnrTIqBxVBG+lV4hMoXCwOkNr4GEAndpBDXr71pZZmapc17uP/ZUXbQZoOcQlKVCYJRCGKKDHPXltRbzSlLuX/SG8GwSV+aZ4Whb36B3PDcRmljHUZSHGBJp42LNi12cxRUVPW65DCPjET8in5aXkJTeXhNDZm2FqxivNere1NCJCSMYogzu+4Njz1+++hwhqr7um1XeaOYbBe2MB/PFY4Vf1glsB0EoBBnv1YMamyQ63ElUS4UvuCgOxGoAla4WeNGHxDM4Yg5kNy3k0OwUEfwhILLF+dVYTG6iziyeprwKhv2afL7vVdrZIEQxJwyp8bgHiwpDnPdmwsAG1U7HFjlk7wDoa9PIo32XW64k891nmlD7gFNM1UpCQtmi8MLq09pITVM+rwu4XhHr3xueWmz47XmB1Qyrgx1pp6M+iXtvQGJKNPTJRtKy9txx+73JyxbGJppof8wFbYv0x+ZBLCNXsjAb6hHFoV4U3Fe56AeAGmkq1NFRR33bhYkUAPwEQIMyri+ZCjGQEAAQA=
+  QAAAAKVnyXPT1+TsuB5Pgek60cHCcxyjUbWOO3/bbPFf9/Os6toVDODcrMeC/FBZ6ZsmpUFzUgnNrdKOGwdyYnCWrThWYkrG6FOJVaA+u2Oq7Udvw4FIP7e9zpbDdjDsvg5iRG8Ucu8Wk9KTDgpzKo5i2mno5X7V0NbSXnhoZuISPqUOc1ykDsA4Id0O9wE+TMiieTveSd8s43VGq9ABmFKyYjl8mX3uuHxYSWqTpxSjU78hMykEnE2deWCk6d7XYFy+47C61WUD6rcrM/PnGQEjjLrCS78tlgpNEusRWdW7ipIe57v1+KeOhwI/y3Ream/Uy2Ik4z0Xqtkqm0/T0/O5FAmeQ2tYjEkVKLOOnHKVjTpPqlWXNeUYtA3SUI7jqBhjsgOXlfbom6QQe20N736+kXKGrKrOLWyarBPJ4MailIh/yxGW4z3au7NLwasuhg9E9FSuX/B3O4G1ks1XLXqHqhtzhSc1cq4kQoduw+V23RZg+09viMz83NQRTUMxRPQmxiLRna0BI72bSEoJTbJVLNgSs2HvcqT1QETvOdrfCqUW7JuF1bMokF3Ys2Yox7wow8bp8SWPhmKnfsZuKy4721ItwDu9a6jrwqZechvTKPFwIVX2aRAFWunIL1AlW7ySMXriFqp/4oEs1Qx8NBfOtPCJzHONK9qvG+ofCtv0ynHZ3SccRwEAAQA= adb@chrome
+  
+    System keys:
+  IOException: java.io.FileNotFoundException: /adb_keys: open failed: ENOENT (No such file or directory)
+  USB Host State:
+  USB Port State:
+    <no ports>
+  USB Audio Devices:
+  USB MIDI Devices:
+  Settings for user 0:
+    Device permissions:
+    Accessory permissions:
+    Device preferences:
+    Accessory preferences:
+      AccessoryFilter[mManufacturer="leautolinknetworks", mModel="ecolink", mVersion="01"]: com.letv.android.carservice

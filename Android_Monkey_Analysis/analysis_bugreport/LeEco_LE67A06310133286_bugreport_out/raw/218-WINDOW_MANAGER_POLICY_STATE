@@ -1,0 +1,91 @@
+    mSafeMode=false mSystemReady=true mSystemBooted=true
+    mLidState=-1 mLidOpenRotation=-1 mCameraLensCoverState=-1 mHdmiPlugged=false
+    mLastSystemUiFlags=0x40008700 mResettingSystemUiFlags=0x0 mForceClearedSystemUiFlags=0x0
+    mWakeGestureEnabledSetting=true
+    mSupportAutoRotation=true
+    mUiMode=1 mDockMode=0 mCarDockRotation=-1 mDeskDockRotation=-1
+    mUserRotationMode=0 mUserRotation=0 mAllowAllRotations=0
+    mCurrentAppOrientation=1
+    mCarDockEnablesAccelerometer=true mDeskDockEnablesAccelerometer=true
+    mLidKeyboardAccessibility=0 mLidNavigationAccessibility=0 mLidControlsSleep=true
+    mShortPressOnPowerBehavior=2 mLongPressOnPowerBehavior=1
+    mDoublePressOnPowerBehavior=0 mTriplePressOnPowerBehavior=0
+    phonewindow.emergency_call=false
+    fingerprint.navigation_function_enabled=false
+    mHasSoftInput=true
+    mAwake=true
+    mScreenOnEarly=true mScreenOnFully=true
+    mKeyguardDrawComplete=true mWindowManagerDrawComplete=true
+    mOrientationSensorEnabled=true
+    mOverscanScreen=(0,0) 1080x1920
+    isVrDeviceIn=false    mThreefingerScreenShot=false    mRestrictedOverscanScreen=(0,0) 1080x1920
+    mUnrestrictedScreen=(0,0) 1080x1920
+    mRestrictedScreen=(0,0) 1080x1920
+    mStableFullscreen=(0,0)-(1080,1920)
+    mStable=(0,63)-(1080,1920)
+    mSystem=(0,0)-(1080,1920)
+    mCur=(0,63)-(1080,1920)
+    mContent=(0,63)-(1080,1920)
+    mVoiceContent=(0,63)-(1080,1920)
+    mDock=(0,63)-(1080,1920)
+    mDockLayer=268435456 mStatusBarLayer=161000
+    mShowingLockscreen=false mShowingDream=false mDreamingLockscreen=false mDreamingSleepToken=null
+    mStatusBar=Window{23bac10 u0 StatusBar} isStatusBarKeyguard=false
+    mFocusedWindow=Window{132d22a u0 com.android.launcher3/com.android.launcher3.Launcher}
+    mFocusedApp=Token{819ba6e ActivityRecord{a3f2de9 u0 com.android.launcher3/.Launcher, isShadow:false t1}}
+    mTopFullscreenOpaqueWindowState=Window{132d22a u0 com.android.launcher3/com.android.launcher3.Launcher}
+    mTopFullscreenOpaqueOrDimmingWindowState=Window{132d22a u0 com.android.launcher3/com.android.launcher3.Launcher}
+    mTopIsFullscreen=false mHideLockScreen=false
+    mForceStatusBar=false mForceStatusBarFromKeyguard=false
+    mDismissKeyguard=0 mWinDismissingKeyguard=null mHomePressed=false
+    mAllowLockscreenWhenOn=false mLockScreenTimeout=1800000 mLockScreenTimerActive=false
+    mEndcallBehavior=2 mIncallPowerBehavior=1 mLongPressOnHomeBehavior=2
+    mVoiceAssisPkgName=com.letv.android.voiceassistant mVoiceAssisClsName=com.letv.android.voiceassistant.VoiceAssistant
+    mVoiceAssisBehavior=voiceassis_baidu
+    mLandscapeRotation=1 mSeascapeRotation=3
+    mPortraitRotation=0 mUpsideDownRotation=2
+    mDemoHdmiRotation=1 mDemoHdmiRotationLock=false
+    mUndockedHdmiRotation=-1
+    mLongPressVirtualKeyFuncSupport=1
+    mDeviceProvisioned=1
+    mlongPressBackSettings=1
+    mlongPressHomeSettings=11
+    mlongPressAppSwitchSettings=-1
+    mLongPressBackSetupwizard=true
+    mLongPressHomeSetupWizard=true
+    mLongPressAppSwitchSetupwizard=true
+    mLongPressHomeFuncSetupWizard=false
+    mForbidVirtualKeyEnabled=false
+    mVirtualKeyForbidden=false
+    ENABLE_HIDE_KEYGUARD_WALLPAPER=true
+    mKeyMapping.size=0
+    BarController.StatusBar
+      mState=WINDOW_STATE_SHOWING
+      mTransientBar=TRANSIENT_BAR_NONE
+    PolicyControl.sImmersiveStatusFilter=null
+    PolicyControl.sImmersiveNavigationFilter=null
+    PolicyControl.sImmersivePreconfirmationsFilter=null
+    WakeGestureListener
+      mTriggerRequested=false
+      mSensor=null
+    WindowOrientationListener
+      mEnabled=true
+      mCurrentRotation=0
+      mSensor={Sensor name="ACCELEROMETER", vendor="MTK", version=3, type=1, maxRange=32.0, resolution=0.00390625, power=0.13, minDelay=10000}
+      mRate=2
+      mProposedRotation=-1
+      mPredictedRotation=3
+      mLastFilteredX=-9.394027
+      mLastFilteredY=-1.0494697
+      mLastFilteredZ=3.1633933
+      mLastFilteredTimestampNanos=2909916652546 (68.529625ms ago)
+      mTiltHistory={last: 19.0}
+      mFlat=false
+      mSwinging=false
+      mAccelerating=false
+      mOverhead=false
+      mTouched=true
+      mTiltToleranceConfig=[[-25, 70], [-25, 65], [-25, 60], [-25, 65]]
+
+    Keyguard is enable
+

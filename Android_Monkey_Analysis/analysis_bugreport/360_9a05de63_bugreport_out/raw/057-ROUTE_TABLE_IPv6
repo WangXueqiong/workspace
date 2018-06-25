@@ -1,0 +1,4 @@
+fe80::/64 dev wlan0  proto kernel  metric 256 
+fe80::/64 dev wlan0  proto static  metric 1024 
+[ip: 0.008s elapsed]
+

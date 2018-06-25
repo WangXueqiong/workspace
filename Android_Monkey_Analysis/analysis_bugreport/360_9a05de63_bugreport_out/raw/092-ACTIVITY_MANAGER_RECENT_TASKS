@@ -1,0 +1,191 @@
+  Recent tasks:
+  * Recent #0: TaskRecord{fce2d90 #1 A=com.yulong.android.launcher3 U=0 sz=1}
+    userId=0 effectiveUid=u0a48 mCallingUid=1000 mCallingPackage=android
+    affinity=com.yulong.android.launcher3
+    intent={act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 cmp=com.yulong.android.launcher3/.Launcher}
+    realActivity=com.yulong.android.launcher3/.Launcher
+    autoRemoveRecents=false isPersistable=true numFullscreen=1 taskType=1 mTaskToReturnTo=0
+    rootWasReset=false mNeverRelinquishIdentity=true mReuseTask=false mLockTaskAuth=LOCK_TASK_AUTH_PINNABLE
+    Activities=[ActivityRecord{da9e3a6 u0 com.yulong.android.launcher3/.Launcher t1}]
+    askedCompatMode=false inRecents=true isAvailable=true
+    lastThumbnail=null lastThumbnailFile=/data/system/recent_images/1_task_thumbnail.png
+    stackId=0
+    hasBeenVisible=true mResizeable=false firstActiveTime=1514107533759 lastActiveTime=1514107533759 (inactive for 32s)
+  * Recent #1: TaskRecord{a0b7689 #63 I=com.android.settings/com.qiku.android.settings.activities.YLUsbSettings U=0 sz=1}
+    userId=0 effectiveUid=1000 mCallingUid=1000 mCallingPackage=android
+    intent={act=com.android.settings.USBSETTING flg=0x34000000 cmp=com.android.settings/com.qiku.android.settings.activities.YLUsbSettings}
+    realActivity=com.android.settings/com.qiku.android.settings.activities.YLUsbSettings
+    autoRemoveRecents=false isPersistable=true numFullscreen=1 taskType=0 mTaskToReturnTo=1
+    rootWasReset=false mNeverRelinquishIdentity=true mReuseTask=false mLockTaskAuth=LOCK_TASK_AUTH_PINNABLE
+    Activities=[ActivityRecord{781ba43 u0 com.android.settings/com.qiku.android.settings.activities.YLUsbSettings t63}]
+    askedCompatMode=false inRecents=true isAvailable=true
+    lastThumbnail=android.graphics.Bitmap@bf5668e lastThumbnailFile=/data/system/recent_images/63_task_thumbnail.png
+    stackId=2
+    hasBeenVisible=true mResizeable=false firstActiveTime=1514107533677 lastActiveTime=1514107533677 (inactive for 32s)
+  * Recent #2: TaskRecord{f90017e #66 A=com.tianyancha.skyeye U=0 sz=0}
+    userId=0 effectiveUid=u0a299 mCallingUid=u0a299 mCallingPackage=com.tianyancha.skyeye
+    affinity=com.tianyancha.skyeye
+    intent={act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.tianyancha.skyeye/.SplashPage}
+    realActivity=com.tianyancha.skyeye/.SplashPage
+    autoRemoveRecents=false isPersistable=true numFullscreen=0 taskType=0 mTaskToReturnTo=1
+    rootWasReset=true mNeverRelinquishIdentity=true mReuseTask=false mLockTaskAuth=LOCK_TASK_AUTH_PINNABLE
+    Activities=[]
+    askedCompatMode=false inRecents=true isAvailable=true
+    lastThumbnail=android.graphics.Bitmap@63936df lastThumbnailFile=/data/system/recent_images/66_task_thumbnail.png
+    hasBeenVisible=true mResizeable=false firstActiveTime=1514107449545 lastActiveTime=1514107449545 (inactive for 116s)
+  * Recent #3: TaskRecord{48e7f2c #68 A=com.android.systemui U=0 sz=0}
+    userId=0 effectiveUid=u0a32 mCallingUid=u0a32 mCallingPackage=com.android.systemui
+    affinity=com.android.systemui
+    intent={act=com.android.systemui.recent.action.TOGGLE_RECENTS flg=0x10800000 cmp=com.android.systemui/.recent.RecentsActivity}
+    realActivity=com.android.systemui/.recent.RecentsActivity
+    autoRemoveRecents=false isPersistable=false numFullscreen=0 taskType=0 mTaskToReturnTo=1
+    rootWasReset=false mNeverRelinquishIdentity=true mReuseTask=false mLockTaskAuth=LOCK_TASK_AUTH_PINNABLE
+    Activities=[]
+    askedCompatMode=false inRecents=true isAvailable=true
+    lastThumbnail=android.graphics.Bitmap@373bdf5 lastThumbnailFile=/data/system/recent_images/68_task_thumbnail.png
+    hasBeenVisible=true mResizeable=false firstActiveTime=1514107249504 lastActiveTime=1514107249504 (inactive for 316s)
+  * Recent #4: TaskRecord{d1092bc #58 A=com.android.settings U=0 sz=1}
+    userId=0 effectiveUid=1000 mCallingUid=u0a48 mCallingPackage=com.yulong.android.launcher3
+    affinity=com.android.settings
+    intent={act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.settings/.Settings}
+    origActivity=com.android.settings/.Settings
+    realActivity=com.android.settings/.Settings
+    autoRemoveRecents=false isPersistable=true numFullscreen=1 taskType=0 mTaskToReturnTo=1
+    rootWasReset=true mNeverRelinquishIdentity=true mReuseTask=false mLockTaskAuth=LOCK_TASK_AUTH_PINNABLE
+    Activities=[ActivityRecord{a26cf0b u0 com.android.settings/.Settings t58}]
+    askedCompatMode=false inRecents=true isAvailable=true
+    lastThumbnail=android.graphics.Bitmap@62bf245 lastThumbnailFile=/data/system/recent_images/58_task_thumbnail.png
+    stackId=2
+    hasBeenVisible=true mResizeable=false firstActiveTime=1514102121801 lastActiveTime=1514102121801 (inactive for 5443s)
+  * Recent #5: TaskRecord{ae55d9a #56 A=com.qiku.powermaster U=0 sz=0}
+    userId=0 effectiveUid=u0a94 mCallingUid=u0a94 mCallingPackage=com.qiku.powermaster
+    affinity=com.qiku.powermaster
+    intent={flg=0x30800000 cmp=com.qiku.powermaster/.activities.KeyguardActivity}
+    realActivity=com.qiku.powermaster/.activities.KeyguardActivity
+    rootWasReset=false mNeverRelinquishIdentity=true mReuseTask=false mLockTaskAuth=LOCK_TASK_AUTH_PINNABLE
+    Activities=[]
+    askedCompatMode=false inRecents=true isAvailable=true
+    lastThumbnail=null lastThumbnailFile=/data/system/recent_images/56_task_thumbnail.png
+    hasBeenVisible=true mResizeable=false firstActiveTime=1514102094921 lastActiveTime=1514102094921 (inactive for 5470s)
+  * Recent #6: TaskRecord{5b21ea8 #45 A=com.android.packageinstaller U=0 sz=0}
+    userId=0 effectiveUid=u0a46 mCallingUid=u0a46 mCallingPackage=com.android.packageinstaller
+    affinity=com.android.packageinstaller
+    intent={act=android.intent.action.VIEW dat=file:/sdcard/vysor/TianYanCha_Android_V6.5.1.1.0_20171224_32094_release.apk typ=application/vnd.android.package-archive flg=0x10800000 cmp=com.android.packageinstaller/.PackageInstallerActivity}
+    realActivity=com.android.packageinstaller/.PackageInstallerActivity
+    autoRemoveRecents=false isPersistable=false numFullscreen=0 taskType=0 mTaskToReturnTo=1
+    rootWasReset=false mNeverRelinquishIdentity=true mReuseTask=false mLockTaskAuth=LOCK_TASK_AUTH_PINNABLE
+    Activities=[]
+    askedCompatMode=false inRecents=true isAvailable=true
+    lastThumbnail=null lastThumbnailFile=/data/system/recent_images/45_task_thumbnail.png
+    hasBeenVisible=true mResizeable=false firstActiveTime=1514095134441 lastActiveTime=1514095134441 (inactive for 12431s)
+  * Recent #7: TaskRecord{1e6dc1 #39 A=.sdkentry U=0 sz=0}
+    userId=0 effectiveUid=u0a106 mCallingUid=u0a106 mCallingPackage=com.tencent.mm
+    affinity=.sdkentry
+    intent={flg=0x18800000 cmp=com.tencent.mm/.plugin.base.stub.WXEntryActivity}
+    realActivity=com.tencent.mm/.plugin.base.stub.WXEntryActivity
+    rootWasReset=false mNeverRelinquishIdentity=true mReuseTask=false mLockTaskAuth=LOCK_TASK_AUTH_PINNABLE
+    Activities=[]
+    askedCompatMode=false inRecents=true isAvailable=true
+    lastThumbnail=null lastThumbnailFile=/data/system/recent_images/39_task_thumbnail.png
+    hasBeenVisible=true mResizeable=false firstActiveTime=1513926052760 lastActiveTime=1513926052760 (inactive for 181513s)
+  * Recent #8: TaskRecord{ea1cf8e #5 A=com.tencent.mobileqq U=0 sz=1}
+    userId=0 effectiveUid=u0a111 mCallingUid=u0a111 mCallingPackage=com.tencent.mobileqq
+    affinity=com.tencent.mobileqq
+    intent={act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.tencent.mobileqq/.activity.SplashActivity}
+    realActivity=com.tencent.mobileqq/.activity.SplashActivity
+    autoRemoveRecents=false isPersistable=true numFullscreen=1 taskType=0 mTaskToReturnTo=1
+    rootWasReset=true mNeverRelinquishIdentity=true mReuseTask=false mLockTaskAuth=LOCK_TASK_AUTH_PINNABLE
+    Activities=[ActivityRecord{e77a112 u0 com.tencent.mobileqq/.activity.SplashActivity t5}]
+    askedCompatMode=false inRecents=true isAvailable=true
+    lastThumbnail=null lastThumbnailFile=/data/system/recent_images/5_task_thumbnail.png
+    stackId=2
+    hasBeenVisible=true mResizeable=false firstActiveTime=1513926043485 lastActiveTime=1513926043485 (inactive for 181522s)
+  * Recent #9: TaskRecord{6abb966 #34 A=com.qiku.cardmanager U=0 sz=0}
+    userId=0 effectiveUid=u0a93 mCallingUid=u0a48 mCallingPackage=com.yulong.android.launcher3
+    affinity=com.qiku.cardmanager
+    intent={act=com.qiku.cardmanager.WebViewActivity flg=0x10808000 pkg=com.qiku.cardmanager cmp=com.qiku.cardmanager/com.qiku.news.view.NewsBrowserActivity}
+    realActivity=com.qiku.cardmanager/com.qiku.news.view.NewsBrowserActivity
+    autoRemoveRecents=false isPersistable=false numFullscreen=0 taskType=0 mTaskToReturnTo=1
+    rootWasReset=false mNeverRelinquishIdentity=true mReuseTask=false mLockTaskAuth=LOCK_TASK_AUTH_PINNABLE
+    Activities=[]
+    askedCompatMode=false inRecents=true isAvailable=true
+    lastThumbnail=null lastThumbnailFile=/data/system/recent_images/34_task_thumbnail.png
+    hasBeenVisible=true mResizeable=false firstActiveTime=1513924240442 lastActiveTime=1513924240442 (inactive for 183325s)
+  * Recent #10: TaskRecord{c5e7d54 #26 A=com.ziroom.ziroomcustomer U=0 sz=0}
+    userId=0 effectiveUid=u0a114 mCallingUid=u0a114 mCallingPackage=com.ziroom.ziroomcustomer
+    affinity=com.ziroom.ziroomcustomer
+    intent={act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.ziroom.ziroomcustomer/.WelcomeActivity}
+    realActivity=com.ziroom.ziroomcustomer/.WelcomeActivity
+    autoRemoveRecents=false isPersistable=true numFullscreen=0 taskType=0 mTaskToReturnTo=1
+    rootWasReset=true mNeverRelinquishIdentity=true mReuseTask=false mLockTaskAuth=LOCK_TASK_AUTH_PINNABLE
+    Activities=[]
+    askedCompatMode=false inRecents=true isAvailable=true
+    lastThumbnail=null lastThumbnailFile=/data/system/recent_images/26_task_thumbnail.png
+    hasBeenVisible=true mResizeable=false firstActiveTime=1513916085062 lastActiveTime=1513916085062 (inactive for 191480s)
+  * Recent #11: TaskRecord{16324fd #18 A=com.android.phone U=0 sz=0}
+    userId=0 effectiveUid=1001 mCallingUid=1001 mCallingPackage=com.android.phone
+    affinity=com.android.phone
+    intent={flg=0x10800000 cmp=com.android.phone/com.yulong.phone.control.ShowSimHotPlugDialog}
+    realActivity=com.android.phone/com.yulong.phone.control.ShowSimHotPlugDialog
+    autoRemoveRecents=false isPersistable=false numFullscreen=0 taskType=0 mTaskToReturnTo=1
+    rootWasReset=false mNeverRelinquishIdentity=true mReuseTask=false mLockTaskAuth=LOCK_TASK_AUTH_PINNABLE
+    Activities=[]
+    askedCompatMode=false inRecents=true isAvailable=true
+    lastThumbnail=null lastThumbnailFile=/data/system/recent_images/18_task_thumbnail.png
+    hasBeenVisible=true mResizeable=false firstActiveTime=1513855661802 lastActiveTime=1513855661802 (inactive for 251903s)
+  * Recent #12: TaskRecord{52a05f2 #17 A=com.qihoo.appstore U=0 sz=0}
+    userId=0 effectiveUid=u0a10 mCallingUid=u0a10 mCallingPackage=com.qihoo.appstore
+    affinity=com.qihoo.appstore
+    intent={flg=0x10800000 cmp=com.qihoo.appstore/.storage.DeskNotificationActivity}
+    realActivity=com.qihoo.appstore/.storage.DeskNotificationActivity
+    autoRemoveRecents=false isPersistable=false numFullscreen=0 taskType=0 mTaskToReturnTo=1
+    rootWasReset=false mNeverRelinquishIdentity=true mReuseTask=false mLockTaskAuth=LOCK_TASK_AUTH_PINNABLE
+    Activities=[]
+    askedCompatMode=false inRecents=true isAvailable=true
+    lastThumbnail=null lastThumbnailFile=/data/system/recent_images/17_task_thumbnail.png
+    hasBeenVisible=true mResizeable=false firstActiveTime=1513855286124 lastActiveTime=1513855286124 (inactive for 252279s)
+  * Recent #13: TaskRecord{de828d7 #12 A=com.eg.android.AlipayGphone U=0 sz=0}
+    userId=0 effectiveUid=u0a197 mCallingUid=u0a197 mCallingPackage=com.eg.android.AlipayGphone
+    affinity=com.eg.android.AlipayGphone
+    intent={flg=0x10800000 cmp=com.eg.android.AlipayGphone/com.alipay.mobile.security.login.ui.AlipayUserLoginActivity}
+    realActivity=com.eg.android.AlipayGphone/com.alipay.mobile.security.login.ui.AlipayUserLoginActivity
+    rootWasReset=false mNeverRelinquishIdentity=true mReuseTask=false mLockTaskAuth=LOCK_TASK_AUTH_PINNABLE
+    Activities=[]
+    askedCompatMode=false inRecents=true isAvailable=true
+    lastThumbnail=null lastThumbnailFile=/data/system/recent_images/12_task_thumbnail.png
+    hasBeenVisible=true mResizeable=false firstActiveTime=1513850499325 lastActiveTime=1513850499325 (inactive for 257066s)
+  * Recent #14: TaskRecord{be07443 #11 A=.wxpayentry U=0 sz=0}
+    userId=0 effectiveUid=u0a106 mCallingUid=u0a106 mCallingPackage=com.tencent.mm
+    affinity=.wxpayentry
+    intent={flg=0x18800000 cmp=com.tencent.mm/.plugin.base.stub.WXPayEntryActivity}
+    realActivity=com.tencent.mm/.plugin.base.stub.WXPayEntryActivity
+    rootWasReset=false mNeverRelinquishIdentity=true mReuseTask=false mLockTaskAuth=LOCK_TASK_AUTH_PINNABLE
+    Activities=[]
+    askedCompatMode=false inRecents=true isAvailable=true
+    lastThumbnail=null lastThumbnailFile=/data/system/recent_images/11_task_thumbnail.png
+    stackId=2
+    hasBeenVisible=true mResizeable=false firstActiveTime=1513850466923 lastActiveTime=1513850466923 (inactive for 257098s)
+  * Recent #15: TaskRecord{d01ac0 #6 A=com.qihoo360.mobilesafe U=0 sz=1}
+    userId=0 effectiveUid=u0a4 mCallingUid=u0a4 mCallingPackage=com.qihoo360.mobilesafe
+    affinity=com.qihoo360.mobilesafe
+    intent={cat=[process:-2147483648,container:com.qihoo360.mobilesafe.loader.a.ActivityN1T1,plugin:notifyx,activity:com.qihoo360.mobilesafe.notifyx.ui.QQCleanDialogActivity,counter:0] flg=0x10000000 cmp=com.qihoo360.mobilesafe/.loader.a.ActivityN1T1}
+    realActivity=com.qihoo360.mobilesafe/.loader.a.ActivityN1T1
+    autoRemoveRecents=false isPersistable=true numFullscreen=0 taskType=0 mTaskToReturnTo=1
+    rootWasReset=false mNeverRelinquishIdentity=true mReuseTask=false mLockTaskAuth=LOCK_TASK_AUTH_PINNABLE
+    Activities=[ActivityRecord{3626c5b u0 com.qihoo360.mobilesafe/.loader.a.ActivityN1T1 t6}]
+    askedCompatMode=false inRecents=true isAvailable=true
+    lastThumbnail=null lastThumbnailFile=/data/system/recent_images/6_task_thumbnail.png
+    stackId=2
+    hasBeenVisible=true mResizeable=false firstActiveTime=1513849749735 lastActiveTime=1513849749735 (inactive for 257816s)
+  * Recent #16: TaskRecord{14213f9 #3 A=com.qihoo.browser U=0 sz=0}
+    userId=0 effectiveUid=u0a49 mCallingUid=u0a49 mCallingPackage=com.qihoo.browser
+    affinity=com.qihoo.browser
+    intent={flg=0x10000000 cmp=com.qihoo.browser/.pushmanager.LockScreenTipsActivity}
+    realActivity=com.qihoo.browser/.pushmanager.LockScreenTipsActivity
+    autoRemoveRecents=false isPersistable=true numFullscreen=0 taskType=0 mTaskToReturnTo=0
+    rootWasReset=false mNeverRelinquishIdentity=true mReuseTask=false mLockTaskAuth=LOCK_TASK_AUTH_PINNABLE
+    Activities=[]
+    askedCompatMode=false inRecents=true isAvailable=true
+    lastThumbnail=null lastThumbnailFile=/data/system/recent_images/3_task_thumbnail.png
+    hasBeenVisible=true mResizeable=false firstActiveTime=1513849611099 lastActiveTime=1513849611099 (inactive for 257954s)
+

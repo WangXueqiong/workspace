@@ -1,0 +1,44 @@
+COVER MANAGER SERVICE (dumpsys cover)
+ Current Cover state
+  CoverState(switchState=true type=2 color=0 widthPixel=0 heightPixel=0 model=0 attached=false)
+  
+ Current CoverVerifier state:
+  mIsCoverVerified=false  mIsCoverAttached=false
+  mDefaultCoverType=2  mDefaultCoverColor=0
+  mDefaultSViewCoverWidth=1002  mDefaultSViewCoverHeight=954  mDefaultMiniSViewCoverWidth=0  mDefaultMiniSViewCoverHeight=0
+  
+ Current Feature state:
+  sIsDeviceSupportVerityCover=true  sIsDeviceSupportDetectCover=false
+  sIsSupportWindowCover=true
+  sIsSupportFlipCover=true  sIsSupportSViewCover=true
+  sIsSupportLEDCover=true  sIsSupportLEDCoverQCOM=true  sIsSupportLEDCoverLSI=false
+  
+ Current StateNotifier state:
+  Live listeners (18):
+    ComponentInfo{android/com.samsung.android.cover.CoverManager} (pid=847 uid=1000)
+    ComponentInfo{android/com.samsung.android.cover.CoverManager} (pid=847 uid=1000)
+    ComponentInfo{android/com.samsung.android.cover.CoverManager} (pid=847 uid=1000)
+    ComponentInfo{android/com.samsung.android.cover.CoverManager} (pid=847 uid=1000)
+    ComponentInfo{com.android.systemui/com.samsung.android.sdk.cover.ScoverManager} (pid=1325 uid=10017)
+    ComponentInfo{com.android.systemui/com.samsung.android.sdk.cover.ScoverManager} (pid=1325 uid=10017)
+    ComponentInfo{com.android.nfc/com.samsung.android.sdk.cover.ScoverManager} (pid=1686 uid=1027)
+    ComponentInfo{com.android.nfc/com.samsung.android.sdk.cover.ScoverManager} (pid=1686 uid=1027)
+    ComponentInfo{android/com.samsung.android.cover.CoverManager} (pid=847 uid=1000)
+    ComponentInfo{android/com.samsung.android.cover.CoverManager} (pid=847 uid=1000)
+    ComponentInfo{com.samsung.android.smartface/com.samsung.android.sdk.cover.ScoverManager} (pid=21051 uid=1000)
+    ComponentInfo{com.bst.airmessage/com.samsung.android.sdk.cover.ScoverManager} (pid=26101 uid=10001)
+    ComponentInfo{com.sec.android.app.music/com.samsung.android.sdk.cover.ScoverManager} (pid=30386 uid=10150)
+    ComponentInfo{com.sec.android.app.music/com.samsung.android.sdk.cover.ScoverManager} (pid=30386 uid=10150)
+    ComponentInfo{com.sec.android.app.music/com.samsung.android.sdk.cover.ScoverManager} (pid=30386 uid=10150)
+    ComponentInfo{com.sec.android.app.music/com.samsung.android.sdk.cover.ScoverManager} (pid=30386 uid=10150)
+    ComponentInfo{com.sec.android.app.music/com.samsung.android.sdk.cover.ScoverManager} (pid=30386 uid=10150)
+    ComponentInfo{com.sec.android.app.music/com.samsung.android.sdk.cover.ScoverManager} (pid=30386 uid=10150)
+  
+ Current CoverDisabler state:
+  mCoverManagerDisabled=false
+  mDisableRecords.size=0
+  
+ Current CoverTestModeUtils state:
+  SHIPPED=true
+  sCurrentTestMode=-1
+  

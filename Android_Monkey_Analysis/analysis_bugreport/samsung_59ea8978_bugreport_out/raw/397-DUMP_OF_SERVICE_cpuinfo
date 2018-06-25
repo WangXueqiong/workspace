@@ -1,0 +1,132 @@
+Load: 16.34 / 14.46 / 13.47
+CPU usage from 766059ms to 167328ms ago:
+  36% 26932/com.tianyancha.skyeye: 28% user + 7.8% kernel / faults: 150161 minor 594 major
+  32% 317/surfaceflinger: 16% user + 16% kernel / faults: 866 minor 30 major
+  18% 346/mediaserver: 5.1% user + 13% kernel / faults: 10960 minor 883 major
+  17% 847/system_server: 9.6% user + 7.8% kernel / faults: 247300 minor 777 major
+  12% 6788/app_process32: 6.8% user + 5.7% kernel / faults: 16892 minor 113 major
+  10% 4420/com.sec.android.inputmethod: 6.8% user + 3.2% kernel / faults: 628520 minor 7425 major
+  8% 25228/com.tencent.android.qqdownloader:daemon: 2.4% user + 5.5% kernel / faults: 23736 minor 125 major
+  3.9% 24241/com.tencent.mobileqq: 3.3% user + 0.5% kernel / faults: 101105 minor 412 major
+  3.3% 5823/adbd: 0.4% user + 2.8% kernel / faults: 25517 minor 2 major
+  2.4% 1325/com.android.systemui: 1.7% user + 0.6% kernel / faults: 35179 minor 4369 major
+  2.2% 19627/kworker/u:4: 0% user + 2.2% kernel
+  1.9% 20702/kworker/u:3: 0% user + 1.9% kernel
+  2% 21868/kworker/u:5: 0% user + 2% kernel
+  1.8% 565/mdss_fb0: 0% user + 1.8% kernel
+  1.8% 20151/kworker/u:2: 0% user + 1.8% kernel
+  1.5% 6/kworker/u:0: 0% user + 1.5% kernel
+  1.1% 212/mmcqd/0: 0% user + 1.1% kernel
+  0.8% 74/kswapd0: 0% user + 0.8% kernel
+  0.7% 20708/ksoftirqd/3: 0% user + 0.7% kernel
+  0.6% 20718/kworker/3:1H: 0% user + 0.6% kernel
+  0.6% 3/ksoftirqd/0: 0% user + 0.6% kernel
+  0.6% 316/servicemanager: 0.2% user + 0.4% kernel / faults: 102 minor
+  0.6% 24087/kworker/0:2: 0% user + 0.6% kernel
+  0.5% 2396/mpdecision: 0% user + 0.4% kernel / faults: 92 minor 2 major
+  0.5% 248/jbd2/mmcblk0p26: 0% user + 0.5% kernel
+  0.5% 229/boost_sync/0: 0% user + 0.5% kernel
+  0.5% 232/boost_sync/3: 0% user + 0.5% kernel
+  0.4% 26101/com.bst.airmessage: 0.2% user + 0.1% kernel / faults: 4799 minor 125 major
+  0.4% 231/boost_sync/2: 0% user + 0.4% kernel
+  0.4% 237/dhd_dpc: 0% user + 0.4% kernel
+  0.4% 22859/kworker/0:1H: 0% user + 0.4% kernel
+  0.4% 197/cfinteractive: 0% user + 0.4% kernel
+  0.3% 7/kworker/u:0H: 0% user + 0.3% kernel
+  0% 365/mm-qcamera-daemon: 0% user + 0% kernel / faults: 78780 minor 506 major
+  0.3% 23381/com.tencent.android.qqdownloader: 0.2% user + 0.1% kernel / faults: 9846 minor 102 major
+  0.2% 18767/kworker/0:0: 0% user + 0.2% kernel
+  0.2% 230/boost_sync/1: 0% user + 0.2% kernel
+  0.2% 26272/kworker/0:0H: 0% user + 0.2% kernel
+  0.2% 2280/irq/33-cpubw_hw: 0% user + 0.2% kernel
+  0.2% 351/keystore: 0% user + 0.1% kernel / faults: 163 minor
+  0.2% 23544/com.tencent.android.qqdownloader:wns: 0% user + 0.1% kernel / faults: 4652 minor 588 major
+  0.1% 11925/wpa_supplicant: 0% user + 0.1% kernel / faults: 155 minor 1 major
+  0.1% 2205/com.sec.android.widgetapp.ap.hero.cmaweather:SurfaceWidget: 0% user + 0% kernel / faults: 60 minor
+  0.1% 1592/android.process.acore: 0% user + 0% kernel / faults: 6500 minor 189 major
+  0.1% 39/system: 0% user + 0.1% kernel
+  0.1% 1621/com.sec.location.nsflp2: 0% user + 0.1% kernel / faults: 271 minor
+  0.1% 171/spi32765: 0% user + 0.1% kernel
+  0.1% 3153/com.sec.android.widgetapp.dualcitywidget: 0% user + 0% kernel / faults: 3654 minor 10 major
+  0.1% 236/dhd_watchdog_th: 0% user + 0.1% kernel
+  0.1% 315/lmkd: 0% user + 0% kernel / faults: 35 minor
+  0% 2354/android.process.media: 0% user + 0% kernel / faults: 9280 minor 1127 major
+  0% 24434/com.tencent.mobileqq:MSF: 0% user + 0% kernel / faults: 4209 minor 15 major
+  0% 209/irq/627-SSP_Int: 0% user + 0% kernel
+  0% 20721/kworker/3:1: 0% user + 0% kernel
+  0% 1301/com.android.phone: 0% user + 0% kernel / faults: 2103 minor 32 major
+  0% 27537/com.bst.floatingmsgproxy: 0% user + 0% kernel / faults: 1094 minor 1 major
+  0% 1//init: 0% user + 0% kernel / faults: 386 minor
+  0% 238/dhd_rxf: 0% user + 0% kernel
+  0% 370/zygote: 0% user + 0% kernel / faults: 19554 minor
+  0% 313/healthd: 0% user + 0% kernel / faults: 36 minor
+  0% 17567/com.sec.spp.push: 0% user + 0% kernel / faults: 465 minor 2 major
+  0% 21285/flipboard.cn: 0% user + 0% kernel / faults: 2094 minor 26 major
+  0% 2/kthreadd: 0% user + 0% kernel
+  0% 243/ueventd: 0% user + 0% kernel / faults: 23 minor
+  0% 329/netd: 0% user + 0% kernel / faults: 355 minor 1 major
+  0% 1418/com.android.systemui.recents: 0% user + 0% kernel / faults: 2818 minor 458 major
+  0% 2075/com.samsung.android.providers.context: 0% user + 0% kernel / faults: 2702 minor 188 major
+  0% 27216/com.tianyancha.skyeye:channel: 0% user + 0% kernel / faults: 971 minor
+  0% 20342/com.sec.android.app.soundalive: 0% user + 0% kernel / faults: 3979 minor 203 major
+  0% 1686/com.android.nfc: 0% user + 0% kernel / faults: 742 minor 9 major
+  0% 21188/com.baidu.searchbox_samsung:bdmoservice: 0% user + 0% kernel / faults: 683 minor 2 major
+  0% 326/edmaudit: 0% user + 0% kernel / faults: 105 minor
+  0% 512/flush-179:0: 0% user + 0% kernel
+  0% 169/spi7: 0% user + 0% kernel
+  0% 335/smdexe: 0% user + 0% kernel / faults: 19 minor
+  0% 27734/com.sec.android.app.samsungapps: 0% user + 0% kernel / faults: 2059 minor 4 major
+  0% 1611/com.amap.android.location: 0% user + 0% kernel / faults: 492 minor 2 major
+  0% 23651/com.tencent.android.qqdownloader:connect: 0% user + 0% kernel / faults: 824 minor 2 major
+  0% 265/vold: 0% user + 0% kernel / faults: 76 minor 1 major
+  0% 325/rmt_storage: 0% user + 0% kernel / faults: 69 minor 37 major
+  0% 5840/com.samsung.android.MtpApplication: 0% user + 0% kernel / faults: 979 minor 179 major
+  0% 23482/com.tencent.android.qqdownloader:tools: 0% user + 0% kernel / faults: 686 minor 8 major
+  0% 24227/com.tencent.mobileqq:TMAssistantDownloadSDKService: 0% user + 0% kernel / faults: 522 minor
+  0% 27636/com.android.email: 0% user + 0% kernel / faults: 329 minor 2 major
+  0% 223/irq/195-ngd_sli: 0% user + 0% kernel
+  0% 333/rild: 0% user + 0% kernel / faults: 377 minor
+  0% 21164/com.sec.android.daemonapp: 0% user + 0% kernel / faults: 1336 minor 15 major
+  0% 345/drmserver: 0% user + 0% kernel / faults: 182 minor 90 major
+  0% 462/qmuxd: 0% user + 0% kernel / faults: 83 minor
+  0% 36/sync_supers: 0% user + 0% kernel
+  0% 366/thermal-engine: 0% user + 0% kernel / faults: 86 minor 52 major
+  0% 397/vcsFPService: 0% user + 0% kernel / faults: 43 minor
+  0% 1571/com.android.systemui.imagewallpaper: 0% user + 0% kernel / faults: 365 minor 59 major
+  0% 21051/com.samsung.android.smartface: 0% user + 0% kernel / faults: 957 minor 113 major
+ +0% 28659/com.sec.android.pagebuddynotisvc: 0% user + 0% kernel
+ +0% 29190/kworker/0:2H: 0% user + 0% kernel
+ +0% 29517/kworker/u:1: 0% user + 0% kernel
+ +0% 29546/kworker/0:1: 0% user + 0% kernel
+ +0% 29804/com.sec.android.app.videoplayer: 0% user + 0% kernel
+ +0% 30031/com.android.commands.monkey: 0% user + 0% kernel
+ +0% 30107/kworker/3:0: 0% user + 0% kernel
+ +0% 30386/com.sec.android.app.music:service: 0% user + 0% kernel
+ +0% 30404/com.sec.android.app.music:provider: 0% user + 0% kernel
+ +0% 31094/kworker/0:3: 0% user + 0% kernel
+ +0% 31209/com.android.systemui:screenshot: 0% user + 0% kernel
+ +0% 31232/com.sec.face:FaceProvider: 0% user + 0% kernel
+ +0% 31245/com.samsung.dcm:DCMService: 0% user + 0% kernel
+ +0% 31257/com.samsung.clipboardsaveservice: 0% user + 0% kernel
+ +0% 31279/com.android.providers.calendar: 0% user + 0% kernel
+ +0% 31302/com.sec.android.widget.festivalmemorywidget: 0% user + 0% kernel
+ +0% 31314/com.sec.android.widgetapp.SPlannerAppWidget: 0% user + 0% kernel
+ +0% 31326/com.android.calendar: 0% user + 0% kernel
+ +0% 31343/com.sec.android.widget.greetingcardwidget: 0% user + 0% kernel
+ +0% 31446/com.samsung.android.sm.provider: 0% user + 0% kernel
+ +0% 31740/com.android.settings: 0% user + 0% kernel
+ +0% 32158/kworker/u:6: 0% user + 0% kernel
+ +0% 32386/diag_uart_log: 0% user + 0% kernel
+ +0% 32529/migration/2: 0% user + 0% kernel
+ +0% 32530/kworker/2:0: 0% user + 0% kernel
+ +0% 32531/kworker/2:0H: 0% user + 0% kernel
+ +0% 32532/ksoftirqd/2: 0% user + 0% kernel
+ +0% 32533/kworker/2:1H: 0% user + 0% kernel
+ +0% 32534/migration/1: 0% user + 0% kernel
+ +0% 32535/kworker/1:0: 0% user + 0% kernel
+ +0% 32536/kworker/1:0H: 0% user + 0% kernel
+ +0% 32537/ksoftirqd/1: 0% user + 0% kernel
+ +0% 32546/kworker/1:1H: 0% user + 0% kernel
+ +0% 32547/kworker/2:1: 0% user + 0% kernel
+ +0% 32548/kworker/1:1: 0% user + 0% kernel
+53% TOTAL: 25% user + 25% kernel + 1.6% iowait + 0.3% softirq

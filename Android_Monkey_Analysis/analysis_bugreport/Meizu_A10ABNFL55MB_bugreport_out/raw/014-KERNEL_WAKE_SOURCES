@@ -1,0 +1,91 @@
+name		active_count	event_count	wakeup_count	expire_count	active_since	total_time	max_time	last_change	prevent_suspend_time
+ApmOutput   	2		2		0		0		0		0		0		16696378		0
+ApmAudio    	2		2		0		0		0		140		138		16696517		0
+radio-interface	2		4		0		0		0		2003		1001		17374523		0
+SensorService	2		2		0		0		0		1		0		17373508		0
+PowerManagerService.Display	2		2		0		0		2957		344939		341982		17373332		25
+PowerManagerService.Broadcasts	3		3		0		0		2957		4471		2957		17373331		26
+WLAN rx_thread	133173		133173		22		0		0		12552		4		17376256		3215
+WLAN hif_thread	222298		222298		158		0		0		65171		63		17376256		18918
+WLAN tx_thread	220062		220062		110		0		0		6921		3		17376256		2523
+WLAN Timer  	5246		5246		0		0		0		150246		5379		17373700		79871
+WLAN timeout	17643		345581		116		17642		126		6334215		65056		17376162		365320
+WLAN interrupt	218648		218648		141		0		0		59069		29		17376256		14399
+PowerManagerService.WakeLocks	1287		1287		11		0		0		464578		57153		17375348		75349
+KeyEvents   	8285		8285		8		0		0		2940		276		17375992		430
+wmtFuncCtrl 	2		2		0		0		0		2125		1451		29446		0
+MT662x      	1253		1253		0		0		0		39857		5005		17373968		0
+NETLINK     	9063		9063		5		0		0		17176		81		17368353		7379
+[timerfd]   	0		0		0		0		0		0		0		3639		0
+binder      	6		6		0		0		0		1		0		16873560		0
+eventpoll   	9069		9071		5		0		0		58		16		17368353		36
+xhci.wakelock	0		0		0		0		0		0		0		1481		0
+gpio-keys.0 	0		0		0		0		0		0		0		1478		0
+3-006a      	0		0		0		0		0		0		0		741		0
+battery     	1752		1758		1		0		0		2289		71		17368351		1058
+wireless    	1753		1758		1		0		0		900		42		17368351		387
+usb         	1753		1758		1		0		0		2760		51		17368351		1276
+ac          	1753		1758		1		0		0		2509		50		17368351		1152
+battery suspend wakelock	9		1633		0		0		11815137		15871776		11815137		5561151		9240760
+vcorefs_delay	34		34		0		0		0		347		40		16997005		337
+vcorefs_dvfs	165		165		2		0		0		1619		163		17373634		395
+USB.lock    	9		9		0		0		11814482		15865897		11814482		5561806		9239415
+spi_wakelock	81083		81083		18		0		0		3938		1		17376280		46
+ps_wake_lock	18		18		0		18		0		35904		1999		17375500		0
+accdet timer wakelock	0		0		0		0		0		0		0		501		0
+accdet key wakelock	0		0		0		0		0		0		0		501		0
+accdet irq wakelock	1		1		0		0		0		0		0		503		0
+accdet wakelock	0		0		0		0		0		0		0		501		0
+leds wakelock	0		0		0		0		0		0		0		499		0
+mt-rtc      	100		100		5		0		0		122		1		5570766		117
+MSDC Transfer Lock	1408499		1408499		839		0		0		37804		29		17376256		16161
+mmc2_detect 	3		5		0		2		0		1506		739		5940		0
+mmc1_detect 	512		512		6		0		0		93282		713		5561404		92706
+mmc0_detect 	511		512		6		1		0		1363		609		5561235		753
+ccci_poll   	0		0		0		0		0		0		0		303		0
+ccci_sys    	0		0		0		0		0		0		0		303		0
+ccci_ctrl   	1		2		0		1		0		1326		1326		7330		0
+ccci_ipc_6  	0		0		0		0		0		0		0		303		0
+ccci_ipc_5  	0		0		0		0		0		0		0		303		0
+ccci_ipc_4  	0		0		0		0		0		0		0		303		0
+ccci_ipc_3  	3		13		0		3		0		3098		1113		39550		0
+ccci_ipc_2  	0		0		0		0		0		0		0		303		0
+ccci_ipc_1220_0	0		0		0		0		0		0		0		303		0
+ccci_rpc    	0		0		0		0		0		0		0		303		0
+ccci_lb_it  	0		0		0		0		0		0		0		303		0
+ccci_it     	0		0		0		0		0		0		0		303		0
+ccci_ioctl4 	0		0		0		0		0		0		0		303		0
+ccci_ioctl3 	0		0		0		0		0		0		0		303		0
+ccci_ioctl2 	0		0		0		0		0		0		0		303		0
+ccci_ioctl1 	0		0		0		0		0		0		0		303		0
+ccci_ioctl0 	0		0		0		0		0		0		0		302		0
+ccci_imsdc  	0		0		0		0		0		0		0		302		0
+ccci_imsa   	0		0		0		0		0		0		0		302		0
+ccci_imsc   	0		0		0		0		0		0		0		302		0
+ccci_imsv   	0		0		0		0		0		0		0		302		0
+ttyC1       	0		0		0		0		0		0		0		302		0
+ttyC3       	0		0		0		0		0		0		0		302		0
+ttyC2       	1		1		0		1		0		992		992		8170		0
+ccci_fs     	4		889		0		4		0		6911		3084		37520		0
+ttyC0       	3924		8937		42		3923		102		4073197		2791		17376186		1953068
+ccci_md_log_ctrl	1		2		0		1		0		992		992		7370		0
+ccci_aud    	1		1		0		1		0		999		999		14630		0
+ccci_monitor	2		3		0		2		0		2324		1326		7330		0
+ccmni2      	0		0		0		0		0		0		0		302		0
+ccmni1      	0		0		0		0		0		0		0		302		0
+ccmni0      	0		0		0		0		0		0		0		301		0
+md1_cldma_peer	3925		9442		35		3924		102		4074665		2975		17376186		1952427
+md1_cldma_trm	0		0		0		0		0		0		0		279		0
+flash_lock_wakelock	0		0		0		0		0		0		0		276		0
+isp_lock_wakelock	0		0		0		0		0		0		0		272		0
+alarm       	998		1029		16		0		0		24846		267		17361742		19965
+alarmtimer  	6		6		6		6		0		11985		2000		1413151		11985
+pmicAuxadc irq wakelock	121588		122564		176		0		0		32329		157		17376110		16844
+bat_percent_notify_lock wakelock	0		0		0		0		0		0		0		170		0
+pmicThread_lock_mt6332 wakelock	0		0		0		0		0		0		0		170		0
+pmicThread_lock_mt6331 wakelock	169		169		5		0		0		5960		641		17373503		1432
+spm_wakelock	0		0		0		0		0		0		0		110		0
+EINT wakelock	1259		438011		152		1258		2962		8441051		2066819		17373326		909662
+sys_sync    	17		17		0		0		0		1310		805		16996691		462
+autosleep   	34		34		0		0		0		0		0		17373357		0
+

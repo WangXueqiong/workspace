@@ -1,0 +1,194 @@
+Backup Manager is disabled / provisioned / not pending init
+Auto-restore is enabled
+Last backup pass started: 0 (now = 1514107928502)
+  next scheduled: 1514117641311
+Transport whitelist:
+Available transports:
+Pending init: 0
+Ancestral: 0
+Current:   0
+Participants:
+  uid: 1000
+    com.android.providers.settings
+    android
+  uid: 1027
+    com.android.nfc
+  uid: 10018
+    com.android.providers.userdictionary
+    com.android.calllogbackup
+  uid: 10050
+    com.android.sharedstoragebackup
+  uid: 10140
+    com.android.calendar
+  uid: 10225
+    com.qti.backupagent
+Ancestral packages: none
+Ever backed up: 0
+Pending key/value backup: 9
+    BackupRequest{pkg=com.android.providers.userdictionary}
+    BackupRequest{pkg=com.android.calllogbackup}
+    BackupRequest{pkg=com.android.nfc}
+    BackupRequest{pkg=com.android.providers.settings}
+    BackupRequest{pkg=android}
+    BackupRequest{pkg=com.android.calendar}
+    BackupRequest{pkg=com.android.sharedstoragebackup}
+    BackupRequest{pkg=@pm@}
+    BackupRequest{pkg=com.qti.backupagent}
+Full backup queue:157
+    0 : com.bst.sync
+    0 : com.gd.mobicore.pa
+    0 : com.sec.android.app.chromecustomizations
+    0 : com.sec.android.widget.festivalsawidget
+    0 : com.android.providers.calendar
+    0 : com.osp.app.signin
+    0 : com.sec.android.directshare
+    0 : com.android.providers.media
+    0 : com.samsung.android.sdk.spenv10
+    0 : com.example.sks.mvpdemo
+    0 : com.sec.android.widgetapp.digitalclock
+    0 : org.simalliance.openmobileapi.service
+    0 : com.samsung.android.easysetup
+    0 : com.android.documentsui
+    0 : com.android.externalstorage
+    0 : com.android.htmlviewer
+    0 : com.example.jnidemo
+    0 : com.wandoujia.phoenix2.usbproxy
+    0 : com.android.providers.downloads
+    0 : com.sec.android.theme.natural
+    0 : com.wsomacp
+    0 : com.android.browser.provider
+    0 : com.sec.android.app.tourviewer
+    0 : com.infraware.polarisoffice5
+    0 : com.sec.android.app.FlashBarService
+    0 : com.sec.android.app.easylauncher
+    0 : com.sec.android.widgetapp.easymodecontactswidget
+    0 : com.monotype.android.font.miao
+    0 : com.sec.android.widgetapp.SPlannerAppWidget
+    0 : com.sec.android.widgetapp.activeapplicationwidget
+    0 : com.sec.android.app.billing
+    0 : com.sec.android.app.minimode.res
+    0 : com.sec.android.daemonapp
+    0 : com.android.pacprocessor
+    0 : com.dsi.ant.service.socket
+    0 : com.bst.floatingmsgproxy
+    0 : com.sec.android.app.soundalive
+    0 : com.sec.android.widget.greetingcardwidget
+    0 : com.sec.android.app.taskmanager
+    0 : com.sec.android.directconnect
+    0 : com.sec.android.ofviewer
+    0 : com.samsung.everglades.video
+    0 : com.android.contacts
+    0 : com.samsung.hs20provider
+    0 : com.dsi.ant.sample.acquirechannels
+    0 : com.android.mms
+    0 : com.sec.android.app.storycam
+    0 : com.tencent.engine
+    0 : com.bst.airmessage
+    0 : com.android.phasebeam
+    0 : com.monotype.android.font.kaiti
+    0 : com.samsung.android.sdk.professionalaudio.utility.jammonitor
+    0 : com.sec.android.widgetapp.ap.hero.cmaweather
+    0 : com.sec.android.gallery3d
+    0 : com.sec.app.TransmitPowerService
+    0 : com.sec.android.widgetapp.dualclockdigital
+    0 : com.sec.android.pagebuddynotisvc
+    0 : com.sec.providers.settingsearch
+    0 : com.android.dreams.basic
+    0 : com.sec.android.app.bcocr
+    0 : com.sec.android.app.dictionary
+    0 : com.sgmc.phonenumberlocatorservice
+    0 : com.sec.esdk.elm
+    0 : com.sec.android.app.videoplayer
+    0 : com.tencent.update
+    0 : com.sec.android.app.filtermanager
+    0 : com.sec.android.gallery3d.panorama360view
+    0 : com.sec.smartcard.manager
+    0 : com.sec.enterprise.mdm.vpn
+    0 : com.example.sks.mydemo
+    0 : com.dsi.ant.plugins.antplus
+    0 : com.sec.android.widgetapp.dualcitywidget
+    0 : com.samsung.android.service.travel
+    0 : com.sec.android.app.clockpackage
+    0 : com.google.android.webview
+    0 : com.haotianhua.getdevicestoken
+    0 : com.sec.enterprise.knox.myknoxsetupwizard
+    0 : com.android.onetimeinitializer
+    0 : com.sec.kidsplat.installer
+    0 : com.example.getphoneid
+    0 : com.sec.android.widgetapp.digitalclockeasy
+    0 : com.samsung.festivalmanager
+    0 : com.sec.android.app.myfiles
+    0 : com.android.proxyhandler
+    0 : com.sec.android.widget.festivalmemorywidget
+    0 : com.sec.android.mimage.photoretouching
+    0 : com.sec.android.app.launcher
+    0 : com.sec.android.app.sns3
+    0 : com.android.managedprovisioning
+    0 : com.sec.android.providers.tasks
+    0 : com.sec.android.stub.paywithpaypal
+    0 : com.lifevibes.trimapp
+    0 : com.android.dreams.phototable
+    0 : com.sec.android.service.health
+    0 : com.samsung.safetyinformation
+    0 : com.sec.android.app.ringtoneBR
+    0 : com.android.noisefield
+    0 : com.sec.android.app.moreservices
+    0 : com.cleanmaster.sdk
+    0 : com.android.wallpaper.livepicker
+    0 : com.android.apps.tag
+    0 : com.bst.festivalrespreload1
+    0 : com.bst.festivalrespreload2
+    0 : com.sec.android.app.mv.player
+    0 : com.samsung.android.scloud.backup
+    0 : com.samsung.android.mdm
+    0 : com.sec.android.yellowpage
+    0 : com.visionobjects.resourcemanager
+    0 : com.samsung.app.newtrim
+    0 : com.sec.android.mmapp
+    0 : com.samsung.android.intelligenceservice
+    0 : com.samsung.android.sm.policy
+    0 : com.sec.hearingadjust
+    0 : com.samsung.android.nearby.mediaserver
+    0 : com.samsung.greetingcard
+    0 : com.samsung.android.app.watchmanagerstub
+    0 : com.enhance.gameservice
+    0 : com.sec.android.app.snsimagecache
+    0 : com.sec.android.app.eventnotification
+    0 : com.sec.android.widget.samsungapps
+    0 : com.sec.android.theme.chineseclassic
+    0 : com.arcsoft.magicshotstudio
+    0 : com.samsung.groupcast
+    0 : com.sec.android.app.themechooser
+    0 : com.android.bluetoothmidiservice
+    0 : com.amap.android.location
+    0 : com.samsung.festivalwallpaper
+    0 : com.sec.android.provider.logsprovider
+    0 : com.sec.android.app.SamsungContentsAgent
+    0 : com.sec.android.app.mediasync
+    0 : com.sec.android.provider.emergencymode
+    0 : com.sec.android.app.magnifier
+    0 : com.sec.android.widgetapp.webmanual
+    0 : com.android.captiveportallogin
+    0 : com.monotype.android.font.shaonv
+    0 : com.samsung.android.sconnect
+    0 : com.baidu.searchbox_samsung
+    0 : com.samsung.location
+    0 : com.sec.android.mimage.sstudio
+    1487146165985 : com.sec.android.app.samsungapps
+    1487146641762 : com.shuame.rootgenius
+    1487147574203 : com.sec.android.providers.chinaholiday
+    1487147595068 : com.sec.location.nsflp
+    1487149719797 : com.sec.android.app.popupcalculator
+    1487149915650 : com.sec.android.app.music
+    1494311402139 : org.vv.screentest
+    1494313670015 : com.sec.app.samsungprintservice
+    1494313715522 : com.yingyonghui.market
+    1494313820935 : com.youba.barcode
+    1494313821327 : com.cyjh.mobileanjian
+    1498469661268 : flipboard.boxer.app
+    1512554975549 : com.koushikdutta.vysor
+    1512869512235 : com.wandoujia.phoenix2
+    1512869824066 : com.bertadata.qxb
+    1512870273159 : com.subway.bjsubway
+    1512870295045 : flipboard.cn
+    1512976186351 : com.lvlvlaw

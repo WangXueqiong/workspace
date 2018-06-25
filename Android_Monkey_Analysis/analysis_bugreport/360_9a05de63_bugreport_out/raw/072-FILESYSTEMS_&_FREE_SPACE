@@ -1,0 +1,18 @@
+Filesystem               Size     Used     Free   Blksize
+/                        1.6G     3.1M     1.6G   4096
+/dev                     1.7G   136.0K     1.7G   4096
+/sys/fs/cgroup           1.7G    20.0K     1.7G   4096
+/mnt                     1.7G     0.0K     1.7G   4096
+/system                  2.9G     2.5G   425.6M   4096
+/data                   53.5G     8.3G    45.3G   4096
+/cache                 248.0M    90.9M   157.1M   4096
+/persist                27.5M   484.0K    27.0M   4096
+/dsp                    11.7M     4.9M     6.8M   4096
+/firmware               84.0M    73.3M    10.7M   16384
+/panic                  15.7M    40.0K    15.6M   4096
+/storage                 1.7G     0.0K     1.7G   4096
+/data/qiku_secure       53.2G     8.3G    45.0G   4096
+/storage/emulated       53.5G     8.3G    45.3G   4096
+*** df: Exit code 1
+[df: 0.009s elapsed]
+

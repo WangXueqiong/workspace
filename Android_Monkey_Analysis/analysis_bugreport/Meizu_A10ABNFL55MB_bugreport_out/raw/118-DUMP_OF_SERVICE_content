@@ -1,0 +1,410 @@
+data connected: true
+auto sync: u0=true 
+memory low: false
+accounts: 2
+now: 27099064 (2018-05-14 18:38:10)
+offset: 5:56:45 (HH:MM:SS)
+uptime: 7:31:39 (HH:MM:SS)
+time spent syncing: 00:05 (HH:MM:SS), sync not in progress
+next alarm time: 31884123 (1:19:45 (HH:MM:SS) from now)
+notification info: isActive false, startTime null
+
+Active Syncs: 0
+
+SyncQueue: 0 operation(s)
+Pending Ops: 0 operation(s)
+
+Sync Status
+Account QQ???иибь???бз u0 com.tencent.mtt.account.sync
+=======================================================================
+Authority                     Syncable  Enabled  Delay  Loc  Poll  Per  Serv  User  Tot  Time   Last Sync            Periodic  
+---------------------------------------------------------------------------------------------------------------------------------------------------
+com.tencent.mtt.account.sync  1         true            0    0     0    1     0     1    00:00  SERVER SUCCESS       [p:1200 s, f: 48 s] Bundle[]  
+                                                                                                2018-03-28 09:29:06  Next sync: 2018-05-14 11:27:15  
+Account ???ии??ии?? u0 com.sina.weibo.account
+=======================================================================
+Authority                      Syncable  Enabled  Delay  Loc  Poll  Per  Serv  User  Tot  Time   Last Sync            Periodic  
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+com.android.contacts           1         true            0    9     1    1     0     15   00:54  PERIODIC SUCCESS     [p:86400 s, f: 3456 s] Bundle[]  
+                                                                                                 2018-05-14 11:07:20  Next sync: 2018-05-15 11:07:15  
+com.sina.weibo.sync.authority  1         true            0    9     1    1     6     21   00:53  PERIODIC SUCCESS     [p:3600 s, f: 144 s] Bundle[]  
+                                                                                                 2018-05-14 11:07:22  Next sync: 2018-05-14 12:07:15  
+
+Detailed Statistics (Recent history):  3 (# of times) 10s (sync time)
+-------------------------------------------------------------------
+  com.sina.weibo.sync.authority             : 1/33%      5s/54%     
+    ???ии??ии??/com.sina.weibo.account u0           :   1/33%      5s/54%     
+-------------------------------------------------------------------
+  com.android.contacts                      : 1/33%      4s/45%     
+    ???ии??ии??/com.sina.weibo.account u0           :   1/33%      4s/45%     
+-------------------------------------------------------------------
+  com.tencent.mtt.account.sync              : 1/33%      0s/0%      
+    QQ???иибь???бз/com.tencent.mtt.account.sync u0   :   1/33%      0s/0%      
+-------------------------------------------------------------------
+
+Recent Sync History
+  #1  : 2018-05-14 11:07:16 PERIODIC    5.6s            ???ии??ии??/com.sina.weibo.account u0          com.sina.weibo.sync.authority Periodic
+  #2  : 2018-05-14 11:07:15 PERIODIC    4.6s            ???ии??ии??/com.sina.weibo.account u0          com.android.contacts          Periodic
+  #3  : 2018-05-14 11:07:15 PERIODIC    0.0s            QQ???иибь???бз/com.tencent.mtt.account.sync u0  com.tencent.mtt.account.sync  Periodic
+    event=0 upstreamActivity=0 downstreamActivity=0
+
+Recent Sync History Extras
+
+Sync Statistics
+  Today:  Success (2 for 10.2s avg=5.1s) Failure (0)
+  Day-3:  Success (2 for 12.2s avg=6.1s) Failure (0)
+  Day-5:  Success (2 for 3.3s avg=1.6s) Failure (0)
+  Day-6:  Success (8 for 30.4s avg=3.8s) Failure (0)
+  Week-1: Success (24 for 44.9s avg=1.8s) Failure (0)
+  Week-2: Success (14 for 18.7s avg=1.3s) Failure (0)
+  Week-3: Success (2 for 1.6s avg=0.8s) Failure (0)
+  Week-4: Success (5 for 3.3s avg=0.6s) Failure (0)
+  Week-6: Success (1 for 0.4s avg=0.4s) Failure (0)
+  Week-9: Success (1 for 0.1s avg=0.1s) Failure (0)
+  Week-10: Success (3 for 0.8s avg=0.2s) Failure (0)
+
+Sync adapters for UserInfo{0:??????:13}:
+  ServiceInfo: SyncAdapterType {name=com.android.email.notifier, type=com.meizu.account, userVisible=true, supportsUploading=true, isAlwaysSyncable=false, allowParallelSyncs=false, settingsActivity=null}, ComponentInfo{com.meizu.mzsyncservice/com.meizu.sync.service.EmailAccountAdapterService}, uid 10067
+  ServiceInfo: SyncAdapterType {name=com.android.calendar, type=com.meizu.account, userVisible=true, supportsUploading=true, isAlwaysSyncable=false, allowParallelSyncs=false, settingsActivity=null}, ComponentInfo{com.meizu.mzsyncservice/com.meizu.sync.service.CalendarSyncAdapterService}, uid 10067
+  ServiceInfo: SyncAdapterType {name=com.android.calendar, type=com.android.exchange, userVisible=true, supportsUploading=true, isAlwaysSyncable=false, allowParallelSyncs=false, settingsActivity=null}, ComponentInfo{com.android.email/com.android.email.CalendarSyncAdapterService}, uid 10012
+  ServiceInfo: SyncAdapterType {name=blackList, type=com.meizu.account, userVisible=true, supportsUploading=true, isAlwaysSyncable=false, allowParallelSyncs=false, settingsActivity=null}, ComponentInfo{com.meizu.mzsyncservice/com.meizu.sync.service.BlackListAdapterService}, uid 10067
+  ServiceInfo: SyncAdapterType {name=com.android.contacts, type=com.tencent.mobileqq.account, userVisible=true, supportsUploading=false, isAlwaysSyncable=false, allowParallelSyncs=false, settingsActivity=null}, ComponentInfo{com.tencent.mobileqq/com.tencent.mobileqq.contactsync.syncadapter.SyncService}, uid 10095
+  ServiceInfo: SyncAdapterType {name=mms-sms, type=com.meizu.account, userVisible=true, supportsUploading=true, isAlwaysSyncable=false, allowParallelSyncs=false, settingsActivity=null}, ComponentInfo{com.meizu.mzsyncservice/com.meizu.sync.service.SmsSyncAdapterService}, uid 10067
+  ServiceInfo: SyncAdapterType {name=com.android.contacts, type=com.tencent.mm.account, userVisible=true, supportsUploading=false, isAlwaysSyncable=false, allowParallelSyncs=false, settingsActivity=null}, ComponentInfo{com.tencent.mm/com.tencent.mm.plugin.account.model.ContactsSyncService}, uid 10097
+  ServiceInfo: SyncAdapterType {name=com.android.contacts, type=com.android.exchange, userVisible=true, supportsUploading=true, isAlwaysSyncable=false, allowParallelSyncs=false, settingsActivity=null}, ComponentInfo{com.android.email/com.android.email.ContactsSyncAdapterService}, uid 10012
+  ServiceInfo: SyncAdapterType {name=com.meizu.notepaper.NotePaper, type=com.meizu.account, userVisible=true, supportsUploading=true, isAlwaysSyncable=false, allowParallelSyncs=false, settingsActivity=null}, ComponentInfo{com.meizu.mzsyncservice/com.meizu.sync.service.NoteSyncAdapterService}, uid 10067
+  ServiceInfo: SyncAdapterType {name=call_log, type=com.meizu.account, userVisible=true, supportsUploading=true, isAlwaysSyncable=false, allowParallelSyncs=false, settingsActivity=null}, ComponentInfo{com.meizu.mzsyncservice/com.meizu.sync.service.CallSyncAdapterService}, uid 10067
+  ServiceInfo: SyncAdapterType {name=smsquickreply, type=com.meizu.account, userVisible=true, supportsUploading=true, isAlwaysSyncable=false, allowParallelSyncs=false, settingsActivity=null}, ComponentInfo{com.meizu.mzsyncservice/com.meizu.sync.service.QuickReplySyncAdapterService}, uid 10067
+  ServiceInfo: SyncAdapterType {name=com.sina.weibo.sync.authority, type=com.sina.weibo.account, userVisible=false, supportsUploading=false, isAlwaysSyncable=true, allowParallelSyncs=false, settingsActivity=null}, ComponentInfo{com.sina.weibo/com.sina.weibo.sync.guard.GuardSyncService}, uid 10088
+  ServiceInfo: SyncAdapterType {name=com.tencent.mtt.account.sync, type=com.tencent.mtt.account.sync, userVisible=true, supportsUploading=false, isAlwaysSyncable=true, allowParallelSyncs=false, settingsActivity=null}, ComponentInfo{com.tencent.mtt/com.tencent.mtt.browser.push.external.account.SyncService}, uid 10112
+  ServiceInfo: SyncAdapterType {name=com.android.email.provider, type=com.android.email, userVisible=true, supportsUploading=false, isAlwaysSyncable=false, allowParallelSyncs=false, settingsActivity=null}, ComponentInfo{com.android.email/com.android.email.service.PopImapSyncAdapterService}, uid 10012
+  ServiceInfo: SyncAdapterType {name=com.netease.account.sync, type=com.netease.account.sync, userVisible=true, supportsUploading=false, isAlwaysSyncable=true, allowParallelSyncs=false, settingsActivity=null}, ComponentInfo{com.netease.newsreader.activity/com.netease.nr.biz.account.SyncService}, uid 10091
+  ServiceInfo: SyncAdapterType {name=com.android.contacts, type=com.meizu.account, userVisible=true, supportsUploading=true, isAlwaysSyncable=false, allowParallelSyncs=false, settingsActivity=null}, ComponentInfo{com.meizu.mzsyncservice/com.meizu.sync.service.ContactsSyncAdapterService}, uid 10067
+  ServiceInfo: SyncAdapterType {name=com.android.email.provider, type=com.android.exchange, userVisible=true, supportsUploading=false, isAlwaysSyncable=false, allowParallelSyncs=false, settingsActivity=null}, ComponentInfo{com.android.email/com.android.email.EmailSyncAdapterService}, uid 10012
+  ServiceInfo: SyncAdapterType {name=com.android.contacts, type=com.sina.weibo.account, userVisible=true, supportsUploading=false, isAlwaysSyncable=false, allowParallelSyncs=false, settingsActivity=null}, ComponentInfo{com.sina.weibo/com.sina.weibo.sync.contact.ContactsSyncService}, uid 10088
+
+
+Observer tree:
+  settings/secure/long_press_timeout: pid=788 uid=1000 user=0 target=2c83e2b8
+  settings/secure/show_ime_with_hard_keyboard: pid=788 uid=1000 user=0 target=358bc891
+  settings/secure/show_ime_with_hard_keyboard: pid=788 uid=1000 user=0 target=14c6c3f6
+  settings/secure/accessibility_display_inversion_enabled: pid=788 uid=1000 user=0 target=358bc891
+  settings/secure/accessibility_display_inversion_enabled: pid=788 uid=1000 user=-1 target=2e9a93f7
+  settings/secure/incall_power_button_behavior: pid=788 uid=1000 user=-1 target=3e935ccd
+  settings/secure/wake_gesture_enabled: pid=788 uid=1000 user=-1 target=3e935ccd
+  settings/secure/default_input_method: pid=788 uid=1000 user=-1 target=3e935ccd
+  settings/secure/default_input_method: pid=788 uid=1000 user=0 target=14c6c3f6
+  settings/secure/immersive_mode_confirmations: pid=788 uid=1000 user=-1 target=3e935ccd
+  settings/secure/mz_current_power_mode: pid=788 uid=1000 user=0 target=1e932982
+  settings/secure/mz_current_power_mode: pid=1065 uid=10030 user=0 target=37da7893
+  settings/secure/mz_current_power_mode: pid=1290 uid=1000 user=0 target=2d7450d0
+  settings/secure/mz_current_power_mode: pid=1065 uid=10030 user=-1 target=1c05f8c9
+  settings/secure/mz_current_power_mode: pid=1065 uid=10030 user=-1 target=34ce5bce
+  settings/secure/mz_current_power_mode: pid=1065 uid=10030 user=-1 target=2b2a0aef
+  settings/secure/mz_current_power_mode: pid=1065 uid=10030 user=-1 target=1415a9fc
+  settings/secure/meizu_device_name: pid=788 uid=1000 user=0 target=1bec5885
+  settings/secure/enabled_input_methods: pid=788 uid=1000 user=0 target=14c6c3f6
+  settings/secure/selected_input_method_subtype: pid=788 uid=1000 user=0 target=14c6c3f6
+  settings/secure/accessibility_enabled: pid=788 uid=1000 user=-1 target=2e9a93f7
+  settings/secure/touch_exploration_enabled: pid=788 uid=1000 user=-1 target=2e9a93f7
+  settings/secure/accessibility_display_magnification_enabled: pid=788 uid=1000 user=-1 target=2e9a93f7
+  settings/secure/enabled_accessibility_services: pid=788 uid=1000 user=-1 target=2e9a93f7
+  settings/secure/touch_exploration_granted_accessibility_services: pid=788 uid=1000 user=-1 target=2e9a93f7
+  settings/secure/accessibility_script_injection: pid=788 uid=1000 user=-1 target=2e9a93f7
+  settings/secure/accessibility_display_daltonizer_enabled: pid=788 uid=1000 user=-1 target=2e9a93f7
+  settings/secure/accessibility_display_daltonizer: pid=788 uid=1000 user=-1 target=2e9a93f7
+  settings/secure/high_text_contrast_enabled: pid=788 uid=1000 user=-1 target=2e9a93f7
+  settings/secure/interface_throttle_enable: pid=788 uid=1000 user=0 target=227866da
+  settings/secure/enabled_notification_listeners: pid=788 uid=1000 user=0 target=336670b
+  settings/secure/enabled_notification_listeners: pid=788 uid=1000 user=-1 target=2f1169e8
+  settings/secure/enabled_notification_listeners: pid=788 uid=1000 user=-1 target=2a1ef801
+  settings/secure/pubkey_blacklist: pid=788 uid=1000 user=0 target=308616a6
+  settings/secure/serial_blacklist: pid=788 uid=1000 user=0 target=2e6268e7
+  settings/secure/enabled_print_services: pid=788 uid=1000 user=-1 target=5873c94
+  settings/secure/user_setup_complete: pid=788 uid=1000 user=-1 target=3d82133d
+  settings/secure/user_setup_complete: pid=1065 uid=10030 user=0 target=306cf732
+  settings/secure/screensaver_enabled: pid=788 uid=1000 user=-1 target=3462ac83
+  settings/secure/screensaver_activate_on_sleep: pid=788 uid=1000 user=-1 target=3462ac83
+  settings/secure/screensaver_activate_on_dock: pid=788 uid=1000 user=-1 target=3462ac83
+  settings/secure/sleep_timeout: pid=788 uid=1000 user=-1 target=3462ac83
+  settings/secure/enabled_condition_providers: pid=788 uid=1000 user=-1 target=ee58e00
+  settings/secure/voice_interaction_service: pid=788 uid=1000 user=0 target=1d01a639
+  settings/secure/locationCoarseAccuracy: pid=788 uid=1000 user=0 target=236f547e
+  settings/secure/locationPackagePrefixBlacklist: pid=788 uid=1000 user=-1 target=19998ddf
+  settings/secure/location_providers_allowed: pid=788 uid=1000 user=-1 target=9158a2c
+  settings/secure/location_providers_allowed: pid=1551 uid=10000 user=0 target=384d6cf5
+  settings/secure/bar_service_component: pid=1065 uid=10030 user=-1 target=aa83a8a
+  settings/secure/lock_screen_show_notifications: pid=1065 uid=10030 user=-1 target=1c3328fb
+  settings/secure/lock_screen_allow_private_notifications: pid=1065 uid=10030 user=-1 target=5671d18
+  settings/secure/mz_drive_mode: pid=1065 uid=10030 user=0 target=1054e371
+  settings/secure/mz_red_envelope_assistant_switch: pid=1065 uid=10030 user=-1 target=2bd77556
+  settings/secure/mz_red_envelope_assistant_switch: pid=2181 uid=10030 user=0 target=270159d7
+  settings/secure/mz_red_envelope_open_when_unlock: pid=1065 uid=10030 user=-1 target=2bd77556
+  settings/secure/mz_red_envelope_open_when_unlock: pid=2181 uid=10030 user=0 target=270159d7
+  settings/secure/mz_game_mode_dnd: pid=1065 uid=10030 user=0 target=183cf2c4
+  settings/secure/mz_game_mode_dnd: pid=1065 uid=10030 user=0 target=183cf2c4
+  settings/secure/sysui_qs_tiles: pid=1065 uid=10030 user=0 target=2b8345ad
+  settings/secure/mz_red_envelope_arrving_ring_switch: pid=2181 uid=10030 user=0 target=270159d7
+  settings/system: pid=1065 uid=10030 user=0 target=16ed90e2
+  settings/system: pid=1065 uid=10030 user=0 target=1617bc73
+  settings/system/time_12_24: pid=788 uid=1000 user=0 target=2c83e2b8
+  settings/system/background_power_saving_enable: pid=788 uid=1000 user=-1 target=17787730
+  settings/system/end_button_behavior: pid=788 uid=1000 user=-1 target=3e935ccd
+  settings/system/accelerometer_rotation: pid=788 uid=1000 user=-1 target=3e935ccd
+  settings/system/accelerometer_rotation: pid=1065 uid=10030 user=-1 target=11bb8fa9
+  settings/system/user_rotation: pid=788 uid=1000 user=-1 target=3e935ccd
+  settings/system/screen_off_timeout: pid=788 uid=1000 user=-1 target=3e935ccd
+  settings/system/screen_off_timeout: pid=788 uid=1000 user=-1 target=3462ac83
+  settings/system/pointer_location: pid=788 uid=1000 user=-1 target=3e935ccd
+  settings/system/flyme_version_setting_up: pid=788 uid=1000 user=0 target=3857d92e
+  settings/system/enable_full_screen_drag: pid=788 uid=1000 user=-1 target=2927accf
+  settings/system/pointer_speed: pid=788 uid=1000 user=-1 target=13a5d65c
+  settings/system/show_touches: pid=788 uid=1000 user=-1 target=c147d65
+  settings/system/change_pointer_primary_key: pid=788 uid=1000 user=-1 target=40c5a3a
+  settings/system/meizu_data_collection: pid=788 uid=1000 user=0 target=3f9c46eb
+  settings/system/meizu_data_collection: pid=1525 uid=1000 user=0 target=37e7fc48
+  settings/system/meizu_data_collection: pid=1525 uid=1000 user=0 target=24548ae1
+  settings/system/meizu_data_collection: pid=1760 uid=10014 user=0 target=555e006
+  settings/system/meizu_data_collection: pid=1065 uid=10030 user=0 target=3a7666c7
+  settings/system/meizu_data_collection: pid=1696 uid=1001 user=0 target=3ca494f4
+  settings/system/meizu_data_collection: pid=2181 uid=10030 user=-1 target=202df41d
+  settings/system/meizu_data_collection: pid=1290 uid=1000 user=0 target=1f5ff692
+  settings/system/meizu_data_collection: pid=4010 uid=10065 user=0 target=1fe8a863
+  settings/system/meizu_data_collection: pid=4037 uid=10067 user=0 target=18f00c60
+  settings/system/meizu_data_collection: pid=4714 uid=1000 user=0 target=343ab519
+  settings/system/meizu_data_collection: pid=5084 uid=1338 user=0 target=a82e9de
+  settings/system/meizu_data_collection: pid=1486 uid=10024 user=0 target=1cb367bf
+  settings/system/meizu_data_collection: pid=1288 uid=10006 user=0 target=1d47a244
+  settings/system/meizu_data_collection: pid=1434 uid=10007 user=0 target=f88ff2d
+  settings/system/meizu_rtnds_enable: pid=788 uid=1000 user=-1 target=1eb98e8c
+  settings/system/wifi_hotspot_auto_disable: pid=788 uid=1000 user=0 target=2ab889d5
+  settings/system/mode_ringer_streams_affected: pid=788 uid=1000 user=0 target=1a4fc5ea
+  settings/system/mz_quick_wakeup_slide_left_right: pid=788 uid=1000 user=0 target=3f40c0db
+  settings/system/mz_quick_wakeup_slide_up: pid=788 uid=1000 user=0 target=3f40c0db
+  settings/system/mz_quick_wakeup_slide_down: pid=788 uid=1000 user=0 target=3f40c0db
+  settings/system/mz_quick_wakeup_draw_c: pid=788 uid=1000 user=0 target=3f40c0db
+  settings/system/mz_quick_wakeup_draw_e: pid=788 uid=1000 user=0 target=3f40c0db
+  settings/system/mz_quick_wakeup_draw_m: pid=788 uid=1000 user=0 target=3f40c0db
+  settings/system/mz_quick_wakeup_draw_o: pid=788 uid=1000 user=0 target=3f40c0db
+  settings/system/mz_quick_wakeup_draw_s: pid=788 uid=1000 user=0 target=3f40c0db
+  settings/system/mz_quick_wakeup_draw_v: pid=788 uid=1000 user=0 target=3f40c0db
+  settings/system/mz_quick_wakeup_draw_w: pid=788 uid=1000 user=0 target=3f40c0db
+  settings/system/mz_quick_wakeup_draw_z: pid=788 uid=1000 user=0 target=3f40c0db
+  settings/system/mz_quick_wakeup_double_click: pid=788 uid=1000 user=0 target=3f40c0db
+  settings/system/mz_quick_wakeup_switch: pid=788 uid=1000 user=0 target=3f40c0db
+  settings/system/vibrate_input_devices: pid=788 uid=1000 user=-1 target=2db70778
+  settings/system/screen_brightness: pid=788 uid=1000 user=-1 target=3462ac83
+  settings/system/screen_brightness_mode: pid=788 uid=1000 user=-1 target=3462ac83
+  settings/system/screen_brightness_mode: pid=1065 uid=10030 user=-1 target=3a04ee51
+  settings/system/screen_auto_brightness_adj: pid=788 uid=1000 user=-1 target=3462ac83
+  settings/system/hdmi_enable_status: pid=788 uid=1000 user=0 target=185c56b6
+  settings/system/mz_easy_mode: pid=1065 uid=10030 user=0 target=37da7893
+  settings/system/mz_fingerprint_use_unlock: pid=1065 uid=10030 user=0 target=37da7893
+  settings/system/dialog_sequence_settings: pid=1065 uid=10030 user=0 target=8808fb7
+  settings/system/mz_quick_wakeup_slide_right_package_detail: pid=1065 uid=10030 user=0 target=29112324
+  settings/system/keyguard_palm_rejection: pid=1065 uid=10030 user=0 target=6d91e8d
+  settings/system/set_wallpaper_simultaneously: pid=1065 uid=10030 user=0 target=3fcf2842
+  settings/system/notification_light_pulse: pid=788 uid=1000 user=-1 target=2e847053
+  settings/system/choose_network_provider_mode: pid=788 uid=1000 user=-1 target=1bcf4d90
+  settings/system/network_provider_package: pid=788 uid=1000 user=-1 target=e461689
+  settings/system/flyme_boss_icon: pid=1760 uid=10014 user=0 target=25ab868e
+  settings/system/classic_mode: pid=1760 uid=10014 user=0 target=25ab868e
+  settings/system/mz_shows_notification_on_launcher: pid=1760 uid=10014 user=0 target=2cdbbeaf
+  settings/system/multi_sim_data_call: pid=1696 uid=1001 user=0 target=3803b2bc
+  settings/system/multi_sim_data_call: pid=1696 uid=1001 user=0 target=33709245
+  settings/system/mobile_data: pid=1696 uid=1001 user=0 target=3803b2bc
+  settings/system/mobile_data: pid=1696 uid=1001 user=0 target=33709245
+  settings/system/lockscreen_pull_notificationbar: pid=1065 uid=10030 user=-1 target=1c3328fb
+  settings/system/recent_lock_apps: pid=1639 uid=1000 user=0 target=19dd7d9a
+  settings/system/SHOW_LOCK_SCREEN_POSTER_ICON: pid=1065 uid=10030 user=0 target=3eaf96cb
+  settings/system/mz_do_not_disturb_is_working: pid=1065 uid=10030 user=-1 target=1cb73ea8
+  settings/system/mz_smart_touch_change: pid=1065 uid=10030 user=0 target=2d0d0dc1
+  settings/system/mz_smart_touch_switch: pid=1065 uid=10030 user=-1 target=d05d966
+  settings/system/vibrate_when_ringing: pid=1065 uid=10030 user=-1 target=1e9ed4a7
+  settings/system/vibrate_when_ringing: pid=4714 uid=1000 user=0 target=e959d54
+  settings/system/luckymoney_wechat_flag: pid=1065 uid=10030 user=-1 target=e9bc4fd
+  settings/system/luckymoney_wechat_keyword: pid=1065 uid=10030 user=-1 target=e9bc4fd
+  settings/system/luckymoney_wechat_msgtype_name: pid=1065 uid=10030 user=-1 target=e9bc4fd
+  settings/system/luckymoney_wechat_msgtype_value: pid=1065 uid=10030 user=-1 target=e9bc4fd
+  settings/system/luckymoney_qq_keyword: pid=1065 uid=10030 user=-1 target=70625f2
+  settings/system/hide_rotation_lock_toggle_for_accessibility: pid=1065 uid=10030 user=-1 target=11bb8fa9
+  settings/system/mz_app_lock_control: pid=1065 uid=10030 user=0 target=285a1443
+  settings/system/mz_current_network_speed: pid=1065 uid=10030 user=-1 target=f593ac0
+  settings/system/mz_current_network_speed: pid=1065 uid=10030 user=-1 target=2964b3f9
+  settings/system/statusbar_battery_percent: pid=1065 uid=10030 user=-1 target=3a4caf3e
+  settings/system/statusbar_battery_percent: pid=1065 uid=10030 user=-1 target=37ffb19f
+  settings/system/statusbar_battery_percent: pid=1065 uid=10030 user=-1 target=3ff742ec
+  settings/system/statusbar_battery_charge_anim: pid=1065 uid=10030 user=-1 target=13396b5
+  settings/system/statusbar_battery_charge_anim: pid=1065 uid=10030 user=-1 target=3fe0814a
+  settings/system/statusbar_battery_charge_anim: pid=1065 uid=10030 user=-1 target=2337c8bb
+  settings/system/flyme_notification_interception_show_number: pid=1065 uid=10030 user=0 target=398ba1d8
+  settings/system/flyme_notification_interception_auto_clear: pid=1065 uid=10030 user=0 target=398ba1d8
+  settings/system/mz_enable_alarm_align: pid=788 uid=1000 user=-1 target=10d3e931
+  settings/system/cpu_l: pid=788 uid=1000 user=0 target=82d6816
+  settings/system/date_format: pid=1065 uid=10030 user=0 target=28103597
+  settings/global: pid=788 uid=1000 user=0 target=9050384
+  settings/global/debug_view_attributes: pid=788 uid=1000 user=0 target=2c83e2b8
+  settings/global/policy_control: pid=788 uid=1000 user=-1 target=3e935ccd
+  settings/global/wifi_suspend_optimizations_enabled: pid=788 uid=1000 user=0 target=1a4ce76d
+  settings/global/wifi_auto_join: pid=788 uid=1000 user=0 target=c8fefa2
+  settings/global/smart_network_switch: pid=788 uid=1000 user=0 target=2d989433
+  settings/global/wifi_networks_available_notification_on: pid=788 uid=1000 user=0 target=3990d3f0
+  settings/global/stay_on_while_plugged_in: pid=788 uid=1000 user=0 target=3edd8d69
+  settings/global/stay_on_while_plugged_in: pid=788 uid=1000 user=-1 target=3462ac83
+  settings/global/wifi_idle_ms: pid=788 uid=1000 user=0 target=da163ee
+  settings/global/wifi_sleep_policy: pid=788 uid=1000 user=0 target=323e408f
+  settings/global/http_proxy: pid=788 uid=1000 user=0 target=19c73f1c
+  settings/global/nsd_on: pid=788 uid=1000 user=0 target=1ab89725
+  settings/global/zen_mode: pid=788 uid=1000 user=0 target=2a43d0fa
+  settings/global/zen_mode: pid=1065 uid=10030 user=0 target=1c3328fb
+  settings/global/dock_audio_media_enabled: pid=788 uid=1000 user=0 target=1a4fc5ea
+  settings/global/adb_enabled: pid=788 uid=1000 user=0 target=3e856ab
+  settings/global/acm_enabled: pid=788 uid=1000 user=0 target=27973108
+  settings/global/sampling_profiler_ms: pid=788 uid=1000 user=0 target=208080a1
+  settings/global/wifi_scan_always_enabled: pid=788 uid=1000 user=0 target=1b6e02c6
+  settings/global/wifi_watchdog_poor_network_test_enabled: pid=788 uid=1000 user=0 target=1dd3b287
+  settings/global/wifi_watchdog_on: pid=788 uid=1000 user=0 target=ef255b4
+  settings/global/device_provisioned: pid=788 uid=1000 user=0 target=308385dd
+  settings/global/device_provisioned: pid=1065 uid=10030 user=0 target=1c3328fb
+  settings/global/low_power: pid=788 uid=1000 user=-1 target=3462ac83
+  settings/global/low_power_trigger_level: pid=788 uid=1000 user=-1 target=3462ac83
+  settings/global/low_power_trigger_level: pid=788 uid=1000 user=-1 target=20b78552
+  settings/global/low_power_trigger_level: pid=1065 uid=10030 user=-1 target=82ef023
+  settings/global/theater_mode_on: pid=788 uid=1000 user=-1 target=3462ac83
+  settings/global/overlay_display_devices: pid=788 uid=1000 user=0 target=27391920
+  settings/global/wifi_display_on: pid=788 uid=1000 user=0 target=27b7a2d9
+  settings/global/wifi_display_certification_on: pid=788 uid=1000 user=0 target=27b7a2d9
+  settings/global/wifi_display_wps_config: pid=788 uid=1000 user=0 target=27b7a2d9
+  settings/global/wifi_display_display_toast_time: pid=788 uid=1000 user=0 target=29a4a49e
+  settings/global/wifi_display_notification_time: pid=788 uid=1000 user=0 target=29a4a49e
+  settings/global/wifi_display_sqc_info_on: pid=788 uid=1000 user=0 target=29a4a49e
+  settings/global/wifi_display_qe_on: pid=788 uid=1000 user=0 target=29a4a49e
+  settings/global/wifi_display_auto_channel_selection: pid=788 uid=1000 user=0 target=29a4a49e
+  settings/global/wifi_display_max_resolution: pid=788 uid=1000 user=0 target=29a4a49e
+  settings/global/wifi_display_latency_profiling: pid=788 uid=1000 user=0 target=29a4a49e
+  settings/global/wifi_display_security_option: pid=788 uid=1000 user=0 target=29a4a49e
+  settings/global/wifi_display_portrait_resolution: pid=788 uid=1000 user=0 target=29a4a49e
+  settings/global/mz_private_mode: pid=1065 uid=10030 user=0 target=37da7893
+  settings/global/mz_private_mode: pid=1065 uid=10030 user=0 target=15766b7f
+  settings/global/mz_private_mode: pid=788 uid=1000 user=0 target=1b66a74c
+  settings/global/mz_private_mode_running: pid=1065 uid=10030 user=0 target=37da7893
+  settings/global/mz_private_mode_running: pid=1760 uid=10014 user=0 target=22769395
+  settings/global/mz_private_mode_running: pid=1065 uid=10030 user=0 target=15766b7f
+  settings/global/mz_private_mode_running: pid=788 uid=1000 user=0 target=1b66a74c
+  settings/global/auto_time: pid=788 uid=1000 user=0 target=7b26caa
+  settings/global/auto_time: pid=1696 uid=1001 user=0 target=1990409b
+  settings/global/auto_time: pid=1696 uid=1001 user=0 target=28fcec38
+  settings/global/auto_time_gps: pid=788 uid=1000 user=0 target=2ef9d411
+  settings/global/sms_short_code_confirmation: pid=1696 uid=1001 user=0 target=3522a976
+  settings/global/sms_short_code_confirmation: pid=1696 uid=1001 user=0 target=36a84b77
+  settings/global/auto_record_alert_count: pid=788 uid=1000 user=0 target=21b093e4
+  settings/global/private_pkg_list: pid=1760 uid=10014 user=0 target=2b96a04d
+  settings/global/private_pkg_list: pid=1065 uid=10030 user=0 target=15766b7f
+  settings/global/private_pkg_list: pid=788 uid=1000 user=0 target=1b66a74c
+  settings/global/systemui_volume_controller: pid=1065 uid=10030 user=0 target=3c87e702
+  settings/global/auto_time_zone: pid=1696 uid=1001 user=0 target=1bcc2813
+  settings/global/auto_time_zone: pid=1696 uid=1001 user=0 target=1bd50a50
+  settings/global/telephony_misc_feature_config: pid=1696 uid=1001 user=0 target=cb9f449
+  settings/global/telephony_misc_feature_config: pid=1696 uid=1001 user=0 target=d11714e
+  settings/global/sms_short_code_rule: pid=1696 uid=1001 user=0 target=1147326f
+  settings/global/sms_short_code_rule: pid=1696 uid=1001 user=0 target=3d887b7c
+  settings/global/sms_short_code_rule: pid=1696 uid=1001 user=0 target=6a48c05
+  settings/global/sms_short_code_rule: pid=1696 uid=1001 user=0 target=797545a
+  settings/global/sms_short_code_rule: pid=1696 uid=1001 user=0 target=2ebe868b
+  settings/global/sms_short_code_rule: pid=1696 uid=1001 user=0 target=e9fd368
+  settings/global/multi_sim_data_call: pid=1696 uid=1001 user=0 target=16e6e381
+  settings/global/multi_sim_data_call: pid=1065 uid=10030 user=0 target=10665c26
+  settings/global/immediately_on_or_off: pid=1065 uid=10030 user=0 target=170d0067
+  settings/global/airplane_mode_on: pid=1065 uid=10030 user=0 target=3d52be14
+  settings/global/airplane_mode_on: pid=1065 uid=10030 user=0 target=299d36bd
+  settings/global/children_mode: pid=1065 uid=10030 user=0 target=15766b7f
+  settings/global/children_mode: pid=788 uid=1000 user=0 target=1b66a74c
+  settings/global/children_mode: pid=5084 uid=1338 user=0 target=31cc14b2
+  settings/global/heads_up_notifications_enabled: pid=1065 uid=10030 user=0 target=15df3c03
+  settings/global/ticker_gets_heads_up: pid=1065 uid=10030 user=0 target=15df3c03
+  settings/global/heads_up_snooze_length_ms: pid=1065 uid=10030 user=0 target=1a7a780
+  settings/global/mz_fast_charge: pid=1065 uid=10030 user=-1 target=166b81b9
+  settings/global/preferred_network_mode0: pid=1065 uid=10030 user=-1 target=1b62c9fe
+  settings/global/wifi_country_code: pid=4010 uid=10065 user=0 target=3b0f955f
+  settings/bookmarks: pid=788 uid=1000 user=0 target=b9fbbac
+  com.android.contacts/contacts: pid=788 uid=1000 user=-1 target=31398075
+  com.android.contacts/contacts: pid=1486 uid=10024 user=0 target=a1d880a
+  com.android.contacts/contacts: pid=3440 uid=10088 user=0 target=fc2287b
+  com.android.contacts/contacts: pid=5580 uid=10097 user=0 target=2822e698
+  com.android.contacts/data/phones: pid=13391 uid=10095 user=0 target=2aaeaef1
+  com.mediatek.provider.regionalphone/searchengine: pid=788 uid=1000 user=0 target=25141ad6
+  com.meizu.usagestats/event: pid=1525 uid=1000 user=0 target=140d157
+  com.meizu.usagestats/event: pid=1760 uid=10014 user=0 target=8abd444
+  com.meizu.usagestats/event: pid=1290 uid=1000 user=0 target=3c6e492d
+  com.meizu.usagestats/event: pid=4037 uid=10067 user=0 target=1b0f0e62
+  com.meizu.usagestats/event: pid=1486 uid=10024 user=0 target=1d972bf3
+  com.meizu.usagestats/event: pid=1434 uid=10007 user=0 target=24e28c62
+  com.meizu.battery.provider/setting/enable_auto_ps: pid=1393 uid=1000 user=0 target=19b3f0b0
+  com.meizu.battery.provider/setting/auto_ps_level: pid=1393 uid=1000 user=0 target=19b3f0b0
+  com.meizu.battery.provider/setting/enable_timer_ps: pid=1393 uid=1000 user=0 target=19b3f0b0
+  com.meizu.battery.provider/setting/timer_start_time: pid=1393 uid=1000 user=0 target=19b3f0b0
+  com.meizu.battery.provider/setting/timer_end_timer: pid=1393 uid=1000 user=0 target=19b3f0b0
+  com.meizu.flyme.launcher.settings/favorites: pid=1760 uid=10014 user=0 target=1d134b29
+  com.meizu.flyme.launcher.settings/appWidgetReset: pid=1760 uid=10014 user=0 target=cd3aeae
+  telephony/carriers: pid=1696 uid=1001 user=0 target=3dee944f
+  telephony/carriers: pid=1696 uid=1001 user=0 target=13df67dc
+  com.meizu.cloud.provider.CenterNumberProvider/HiddenNumber: pid=1696 uid=1001 user=0 target=37ec70e5
+  com.meizu.cloud.provider.CenterNumberProvider/HiddenNumber: pid=1696 uid=1001 user=0 target=103007ba
+  com.meizu.cloud.provider.CenterNumberProvider/HiddenNumber: pid=1696 uid=1001 user=0 target=3aaa266b
+  com.meizu.cloud.provider.CenterNumberProvider/HiddenNumber: pid=1696 uid=1001 user=0 target=33e925c8
+  call_log/calls: pid=1290 uid=1000 user=0 target=24783661
+  com.qihoo360.mobilesafeguardsdk/smartwhite: pid=1290 uid=1000 user=0 target=17c6e586
+  com.qihoo360.mobilesafeguardsdk/whitelist: pid=1290 uid=1000 user=0 target=542be47
+  com.qihoo360.mobilesafeguardsdk/whitelistcard2: pid=1290 uid=1000 user=0 target=542be47
+  com.qihoo360.mobilesafeguardsdk/blacklist: pid=1290 uid=1000 user=0 target=54ed674
+  com.qihoo360.mobilesafeguardsdk/blacklistcard2: pid=1290 uid=1000 user=0 target=54ed674
+  com.qihoo360.mobilesafeguardsdk/privatecontacts: pid=1290 uid=1000 user=0 target=19a0d79d
+  com.meizu.cloud/center_number: pid=2685 uid=10064 user=0 target=b9bd412
+  com.tencent.common.config.provider.QZoneConfigProvider/qz_update: pid=2298 uid=10095 user=0 target=3e2f7e3
+  com.tencent.common.config.provider.QZoneConfigProvider/qz_update: pid=13391 uid=10095 user=0 target=2bbce5e0
+  com.tencent.common.config.provider.QZoneConfigProvider/qz_update: pid=2676 uid=10095 user=0 target=3107d1f3
+  com.tencent.common.config.provider.QZoneConfigProvider/table_qz_unread: pid=13391 uid=10095 user=0 target=1e5f1f5e
+  com.tencent.common.config.provider.QZoneConfigProvider/table_qz_unread: pid=2676 uid=10095 user=0 target=173e9eb0
+  com.tencent.common.config.provider.QZoneConfigProvider/qz_navigator_bar: pid=2676 uid=10095 user=0 target=26236129
+  com.sina.weibo.spProvider/com.sina.weibo_preferences: pid=3440 uid=10088 user=0 target=c345d55
+  com.sina.weibo.spProvider/com.sina.weibo_preferences: pid=6870 uid=10088 user=0 target=2b79d36a
+  com.sina.weibo.spProvider/feature_pref_name3916318839: pid=3440 uid=10088 user=0 target=f45805b
+  com.sina.weibo.spProvider/feature_pref_name3916318839: pid=6870 uid=10088 user=0 target=f1590f8
+  com.sina.weibo.spProvider/project_mode_wesync: pid=3440 uid=10088 user=0 target=162a79d1
+  com.sina.weibo.spProvider/project_mode_wesync: pid=6870 uid=10088 user=0 target=29d9bc36
+  com.sina.weibo.spProvider/health_user_3916318839: pid=3440 uid=10088 user=0 target=30d1c737
+  com.sina.weibo.spProvider/network_analyse: pid=6870 uid=10088 user=0 target=3f8ec4a4
+  com.sina.weibo.spProvider/weibo_sp: pid=6870 uid=10088 user=0 target=a8be20d
+  com.sina.weibo.spProvider/track_data: pid=6870 uid=10088 user=0 target=3f7d65c2
+  com.sina.weibo.spProvider/pref_client_push: pid=6870 uid=10088 user=0 target=33719fd3
+  com.sina.weibo.spProvider/local_push: pid=3440 uid=10088 user=0 target=36458710
+  com.meizu.cloud.app.update.exclude/AppUpdateExcludeProvider: pid=5417 uid=10038 user=0 target=11219209
+
+  pid 788: 129 observers
+  pid 1065: 69 observers
+  pid 1696: 26 observers
+  pid 1290: 10 observers
+  pid 1760: 9 observers
+  pid 6870: 7 observers
+  pid 3440: 6 observers
+  pid 1393: 5 observers
+  pid 2181: 4 observers
+  pid 1486: 3 observers
+  pid 1525: 3 observers
+  pid 2676: 3 observers
+  pid 13391: 3 observers
+  pid 1434: 2 observers
+  pid 4010: 2 observers
+  pid 4037: 2 observers
+  pid 4714: 2 observers
+  pid 5084: 2 observers
+  pid 1288: 1 observers
+  pid 1551: 1 observers
+  pid 1639: 1 observers
+  pid 2298: 1 observers
+  pid 2685: 1 observers
+  pid 5417: 1 observers
+  pid 5580: 1 observers
+
+ Total number of nodes: 227
+ Total number of observers: 294

@@ -1,0 +1,927 @@
+  Published single-user content providers (by class):
+  * ContentProviderRecord{f2c824e u0 com.android.providers.telephony/.TelephonyProvider}
+    package=com.android.providers.telephony process=com.android.phone
+    proc=ProcessRecord{37ca530 1301:com.android.phone/1001}
+    uid=1001 provider=android.content.ContentProviderProxy@bfb6f6f
+    singleton=true
+    authority=telephony
+  * ContentProviderRecord{4dc747c u0 com.android.providers.telephony/.HbpcdLookupProvider}
+    package=com.android.providers.telephony process=com.android.phone
+    proc=ProcessRecord{37ca530 1301:com.android.phone/1001}
+    uid=1001 provider=android.content.ContentProviderProxy@1439105
+    singleton=true
+    authority=hbpcd_lookup
+  * ContentProviderRecord{ed2755a u0 com.android.providers.telephony/com.samsung.android.scloud.oem.lib.bnr.BNRClientProivder}
+    package=com.android.providers.telephony process=com.android.phone
+    proc=ProcessRecord{37ca530 1301:com.android.phone/1001}
+    uid=1001 provider=android.content.ContentProviderProxy@cf9938b
+    singleton=true
+    authority=com.android.providers.telephony.backup
+  * ContentProviderRecord{9ba5c68 u0 com.android.phone/.callsettings.CallSettingsProvider}
+    package=com.android.phone process=com.android.phone
+    proc=ProcessRecord{37ca530 1301:com.android.phone/1001}
+    uid=1001 provider=android.content.ContentProviderProxy@cf13881
+    singleton=true
+    authority=com.android.phone.callsettings
+  * ContentProviderRecord{6b28d26 u0 com.android.providers.telephony/.ImProvider}
+    package=com.android.providers.telephony process=com.android.phone
+    proc=ProcessRecord{37ca530 1301:com.android.phone/1001}
+    uid=1001 provider=android.content.ContentProviderProxy@26bdd67
+    singleton=true
+    authority=im;spam_im
+  * ContentProviderRecord{e77dbbd u0 android/com.android.server.am.DumpHeapProvider}
+    package=android process=system
+    proc=ProcessRecord{84d17fd 847:system/1000}
+    uid=1000 provider=android.content.ContentProvider$Transport@c35865c
+    singleton=true
+    authority=com.android.server.heapdump
+  * ContentProviderRecord{f2a55b2 u0 com.android.providers.telephony/.MessageProvider}
+    package=com.android.providers.telephony process=com.android.phone
+    proc=ProcessRecord{37ca530 1301:com.android.phone/1001}
+    uid=1001 provider=android.content.ContentProviderProxy@4cee903
+    singleton=true
+    authority=message
+  * ContentProviderRecord{26a5080 u0 android/com.android.server.SEAMSProvider}
+    package=android process=system
+    proc=ProcessRecord{84d17fd 847:system/1000}
+    uid=1000 provider=android.content.ContentProvider$Transport@1c2ac48
+    singleton=true
+    authority=com.sec.seams.provider
+  * ContentProviderRecord{ecb76b9 u0 com.android.providers.telephony/.MmsSmsProvider}
+    package=com.android.providers.telephony process=com.android.phone
+    proc=ProcessRecord{37ca530 1301:com.android.phone/1001}
+    uid=1001 provider=android.content.ContentProviderProxy@6e41afe
+    singleton=true
+    authority=mms-sms
+  * ContentProviderRecord{dcd125f u0 android/com.android.server.enterprise.content.SecContentProvider2}
+    package=android process=system
+    proc=ProcessRecord{84d17fd 847:system/1000}
+    uid=1000 provider=android.content.ContentProvider$Transport@8e26d65
+    singleton=true
+    authority=com.sec.knox.provider2
+    Connections:
+      -> 1325:com.android.systemui/u0a17 s0/0 u1/1 +4d0h41m5s495ms
+      -> 1700:com.sec.android.app.launcher/u0a8 s0/0 u1/1 +4d0h41m3s70ms
+      -> 2354:android.process.media/u0a41 s0/0 u1/1 +4d0h40m59s566ms
+      -> 4420:com.sec.android.inputmethod/1000 s0/0 u1/1 +3d23h57m4s707ms
+      -> 1686:com.android.nfc/1027 s0/0 u1/1 +3d23h13m33s386ms
+      -> 5840:com.samsung.android.MtpApplication/1000 s0/0 u1/1 +1h35m5s405ms
+      -> 24282:com.android.contacts/u0a18 s0/0 u1/1 +15m24s824ms
+  * ContentProviderRecord{63f4ac u0 com.android.server.telecom/.NextiTelecomProvider}
+    package=com.android.server.telecom process=system
+    proc=ProcessRecord{84d17fd 847:system/1000}
+    uid=1000 provider=android.content.ContentProvider$Transport@681ccf
+    singleton=true
+    authority=com.android.server.telecom
+  * ContentProviderRecord{823c575 u0 com.sec.android.providers.security/.SecurityPoliciesProvider}
+    package=com.sec.android.providers.security process=system
+    proc=ProcessRecord{84d17fd 847:system/1000}
+    uid=1000 provider=android.content.ContentProvider$Transport@6db8a3a
+    singleton=true
+    authority=com.android.security
+  * ContentProviderRecord{ae2e90a u0 com.android.providers.settings/.SettingsProvider}
+    package=com.android.providers.settings process=system
+    proc=ProcessRecord{84d17fd 847:system/1000}
+    uid=1000 provider=android.content.ContentProvider$Transport@f46a2c4
+    singleton=true
+    authority=settings
+    isSyncable=false multiprocess=false initOrder=100
+    Connections:
+      -> 1325:com.android.systemui/u0a17 s1/1 u0/0 +4d0h41m6s186ms
+      -> 1418:com.android.systemui.recents/u0a17 s1/1 u0/0 +4d0h41m5s789ms
+      -> 1301:com.android.phone/1001 s1/1 u0/0 +4d0h41m5s479ms
+      -> 1621:com.sec.location.nsflp2/5013 s1/1 u0/0 +4d0h41m4s417ms
+      -> 1611:com.amap.android.location/u0a90 s1/1 u0/0 +4d0h41m4s374ms
+      -> 1592:android.process.acore/u0a18 s1/1 u0/0 +4d0h41m4s156ms
+      -> 1700:com.sec.android.app.launcher/u0a8 s1/1 u0/0 +4d0h41m3s972ms
+      -> 1686:com.android.nfc/1027 s1/1 u0/0 +4d0h41m3s709ms
+      -> 1571:com.android.systemui.imagewallpaper/u0a17 s1/1 u0/0 +4d0h41m3s469ms
+      -> 2017:com.android.bluetooth/1002 s1/1 u0/0 +4d0h41m1s236ms
+      -> 2075:com.samsung.android.providers.context/u0a74 s1/1 u0/0 +4d0h41m1s28ms
+      -> 2354:android.process.media/u0a41 s1/1 u0/0 +4d0h40m56s84ms
+      -> 3153:com.sec.android.widgetapp.dualcitywidget/u0a85 s1/1 u0/0 +4d0h40m51s983ms
+      -> 2205:com.sec.android.widgetapp.ap.hero.cmaweather:SurfaceWidget/u0a73 s1/1 u0/0 +4d0h40m43s574ms
+      -> 4420:com.sec.android.inputmethod/1000 s1/1 u0/0 +4d0h40m42s781ms
+      -> 2090:com.android.incallui/1001 s1/1 u0/0 +4d0h39m42s689ms
+      -> 4489:com.samsung.klmsagent/u0a16 s1/1 u0/0 +4d0h39m28s765ms
+      -> 5840:com.samsung.android.MtpApplication/1000 s1/1 u0/0 +1h35m5s403ms
+      -> 21051:com.samsung.android.smartface/1000 s1/1 u0/0 +20m24s391ms
+      -> 21285:flipboard.cn/u0a95 s1/1 u0/0 +20m20s836ms
+      -> 23381:com.tencent.android.qqdownloader/u0a406 s1/1 u0/0 +18m2s259ms
+      -> 23544:com.tencent.android.qqdownloader:wns/u0a406 s1/1 u0/0 +17m57s956ms
+      -> 23651:com.tencent.android.qqdownloader:connect/u0a406 s1/1 u0/0 +17m55s977ms
+      -> 23696:com.qualcomm.telephony/1000 s1/1 u0/0 +17m55s750ms
+      -> 24227:com.tencent.mobileqq:TMAssistantDownloadSDKService/u0a356 s1/1 u0/0 +15m25s147ms
+      -> 24282:com.android.contacts/u0a18 s1/1 u0/0 +15m24s860ms
+      -> 24241:com.tencent.mobileqq/u0a356 s1/1 u0/0 +15m22s225ms
+      -> 24434:com.tencent.mobileqq:MSF/u0a356 s1/1 u0/0 +15m21s492ms
+      -> 25228:com.tencent.android.qqdownloader:daemon/u0a406 s1/1 u0/0 +14m38s40ms
+      -> 26101:com.bst.airmessage/u0a1 s1/1 u0/0 +14m30s198ms
+      -> 21188:com.baidu.searchbox_samsung:bdmoservice/u0a153 s1/1 u0/0 +13m17s566ms
+      -> 27585:com.samsung.android.coreapps/5011 s1/1 u0/0 +12m54s714ms
+      -> 27688:com.baidu.searchbox_samsung:bdservice_v1/u0a153 s1/1 u0/0 +12m50s346ms
+      -> 27734:com.sec.android.app.samsungapps/u0a38 s1/1 u0/0 +12m47s28ms
+      -> 29804:com.sec.android.app.videoplayer/u0a48 s1/1 u0/0 +5m48s644ms
+      -> 30386:com.sec.android.app.music:service/u0a150 s1/1 u0/0 +4m53s29ms
+      -> 31209:com.android.systemui:screenshot/u0a17 s1/1 u0/0 +4m0s327ms
+      -> 31314:com.sec.android.widgetapp.SPlannerAppWidget/u0a141 s1/1 u0/0 +3m56s231ms
+      -> 2507:com.android.mms/u0a44 s1/1 u0/0 +43s322ms
+      -> 2484:com.tianyancha.skyeye/u0a441 s1/1 u0/0 +43s252ms
+      -> 2720:com.tianyancha.skyeye:channel/u0a441 s1/1 u0/0 +32s521ms
+  * ContentProviderRecord{d5a757b u0 android/com.android.internal.os.SmartManagerProvider}
+    package=android process=system
+    proc=ProcessRecord{84d17fd 847:system/1000}
+    uid=1000 provider=android.content.ContentProvider$Transport@b94092e
+    singleton=true
+    authority=com.sec.smartmanager.provider
+  * ContentProviderRecord{771af98 u0 android/com.android.server.enterprise.content.SecContentProvider}
+    package=android process=system
+    proc=ProcessRecord{84d17fd 847:system/1000}
+    uid=1000 provider=android.content.ContentProvider$Transport@273b6eb
+    singleton=true
+    authority=com.sec.knox.provider
+    Connections:
+      -> 1325:com.android.systemui/u0a17 s0/0 u1/1 +4d0h40m54s861ms
+      -> 2017:com.android.bluetooth/1002 s0/0 u1/1 +3d23h24m57s754ms
+      -> 4420:com.sec.android.inputmethod/1000 s0/0 u1/1 +3d23h18m11s258ms
+      -> 1686:com.android.nfc/1027 s0/0 u1/1 +3d23h13m33s392ms
+      -> 5840:com.samsung.android.MtpApplication/1000 s0/0 u1/1 +1h35m5s356ms
+      -> 31257:com.samsung.clipboardsaveservice/1000 s0/0 u1/1 +3m58s422ms
+  * ContentProviderRecord{67843f1 u0 com.android.providers.telephony/.SmsProvider}
+    package=com.android.providers.telephony process=com.android.phone
+    proc=ProcessRecord{37ca530 1301:com.android.phone/1001}
+    uid=1001 provider=android.content.ContentProviderProxy@34e8bd6
+    singleton=true
+    authority=sms;spamsms
+  * ContentProviderRecord{490ee57 u0 com.android.providers.telephony/.MmsProvider}
+    package=com.android.providers.telephony process=com.android.phone
+    proc=ProcessRecord{37ca530 1301:com.android.phone/1001}
+    uid=1001 provider=android.content.ContentProviderProxy@89e2d44
+    singleton=true
+    authority=mms;spammms
+
+  Published user 0 content providers (by class):
+  * ContentProviderRecord{175e2fd u0 com.sec.android.app.music/com.samsung.android.app.music.provider.SettingProvider}
+    package=com.sec.android.app.music process=com.sec.android.app.music:provider
+    proc=ProcessRecord{708ebf2 30404:com.sec.android.app.music:provider/u0a150}
+    uid=10150 provider=android.content.ContentProviderProxy@5dc6243
+    authority=com.sec.android.app.music.setting
+  * ContentProviderRecord{79870c0 u0 flipboard.cn/cn.jpush.android.service.DataProvider}
+    package=flipboard.cn process=flipboard.cn
+    proc=ProcessRecord{f9d38a8 21285:flipboard.cn/u0a95}
+    uid=10095 provider=android.content.ContentProviderProxy@2c2b1f9
+    authority=flipboard.cn.DataProvider
+  * ContentProviderRecord{18fa8ba u0 com.samsung.android.providers.context/.log.ManageAppLogProvider}
+    package=com.samsung.android.providers.context process=com.samsung.android.providers.context
+    proc=ProcessRecord{ea3cd22 2075:com.samsung.android.providers.context/u0a74}
+    uid=10074 provider=android.content.ContentProviderProxy@96fb36b
+    authority=com.samsung.android.providers.context.log.manage_app
+  * ContentProviderRecord{cfc2ec8 u0 com.samsung.android.providers.context/.log.ReportAppStatusSurveyProvider}
+    package=com.samsung.android.providers.context process=com.samsung.android.providers.context
+    proc=ProcessRecord{ea3cd22 2075:com.samsung.android.providers.context/u0a74}
+    uid=10074 provider=android.content.ContentProviderProxy@4510b61
+    authority=com.samsung.android.providers.context.log.report_app_status_survey
+  * ContentProviderRecord{eb5d53e u0 com.sec.android.gallery3d/.gadget.MagazineWidgetRotationProvider}
+    package=com.sec.android.gallery3d process=com.sec.android.gallery3d
+    proc=ProcessRecord{24506e1 24938:com.sec.android.gallery3d/u0a42}
+    uid=10042 provider=android.content.ContentProviderProxy@658df9f
+    authority=com.sec.android.gallery3d.gadget.RotationProvider
+  * ContentProviderRecord{bf3d8ec u0 com.samsung.android.coreapps/.contact.db.CAgentProvider}
+    package=com.samsung.android.coreapps process=com.samsung.android.coreapps
+    proc=ProcessRecord{359d940 27585:com.samsung.android.coreapps/5011}
+    uid=5011 provider=android.content.ContentProviderProxy@57374b5
+    authority=com.samsung.android.coreapps.contact
+  * ContentProviderRecord{8b6074a u0 com.bst.airmessage/.db.AirMessageDBProvider}
+    package=com.bst.airmessage process=com.bst.airmessage
+    proc=ProcessRecord{63df037 26101:com.bst.airmessage/u0a1}
+    uid=10001 provider=android.content.ContentProviderProxy@8f5d6bb
+    authority=com.bst.airmessage.db.AirMessageDBProvider
+  * ContentProviderRecord{636c599 u0 com.samsung.android.providers.context/.status.PlaceStatusProvider}
+    package=com.samsung.android.providers.context process=com.samsung.android.providers.context
+    proc=ProcessRecord{ea3cd22 2075:com.samsung.android.providers.context/u0a74}
+    uid=10074 provider=android.content.ContentProviderProxy@2dcf05e
+    authority=com.samsung.android.providers.context.status.place
+  * ContentProviderRecord{7bb97d8 u0 com.android.exchange/.provider.ExchangeDirectoryProvider}
+    package=com.android.exchange process=com.android.exchange
+    proc=ProcessRecord{cb53a96 27666:com.android.exchange/u0a156}
+    uid=10156 provider=android.content.ContentProviderProxy@c33a731
+    authority=com.android.exchange.directory.provider
+  * ContentProviderRecord{fd54e16 u0 com.sec.android.GeoLookout/.db.DisasterProvider}
+    package=com.sec.android.GeoLookout process=com.sec.android.GeoLookout
+    proc=ProcessRecord{808dd96 2591:com.sec.android.GeoLookout/u0a97}
+    uid=10097 provider=android.content.ContentProviderProxy@6a12397
+    authority=com.sec.android.GeoLookout.db
+  * ContentProviderRecord{93e5984 u0 com.android.settings/com.samsung.android.scloud.oem.lib.bnr.BNRClientProivder}
+    package=com.android.settings process=com.android.settings
+    proc=ProcessRecord{cea05e9 31740:com.android.settings/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@eea856d
+    authority=com.android.settings.accessibility.sharedaccessibility.backup
+  * ContentProviderRecord{b7cd9f8 u0 com.android.providers.downloads/.DownloadProvider}
+    package=com.android.providers.downloads process=android.process.media
+    proc=ProcessRecord{e2246b3 2354:android.process.media/u0a41}
+    uid=10041 provider=android.content.ContentProviderProxy@c628ed1
+    authority=downloads
+  * ContentProviderRecord{dd035a2 u0 com.tencent.mobileqq/cooperation.readinjoy.content.ReadInJoyDataProvider}
+    package=com.tencent.mobileqq process=com.tencent.mobileqq
+    proc=ProcessRecord{998f656 24241:com.tencent.mobileqq/u0a356}
+    uid=10356 provider=android.content.ContentProviderProxy@f4a6233
+    authority=qq.readinjoy
+  * ContentProviderRecord{5a19da4 u0 com.android.providers.contacts/.CallLogProvider}
+    package=com.android.providers.contacts process=android.process.acore
+    proc=ProcessRecord{3095a7f 1592:android.process.acore/u0a18}
+    uid=10018 provider=android.content.ContentProviderProxy@4b0470d
+    authority=call_log;logs
+  * ContentProviderRecord{30989f0 u0 com.sec.android.app.music/com.samsung.android.app.music.provider.SharedProvider}
+    package=com.sec.android.app.music process=com.sec.android.app.music:provider
+    proc=ProcessRecord{708ebf2 30404:com.sec.android.app.music:provider/u0a150}
+    uid=10150 provider=android.content.ContentProviderProxy@2b70b69
+    authority=com.sec.android.app.music.shared
+  * ContentProviderRecord{9a009ee u0 com.tencent.mobileqq/com.tencent.common.config.provider.QZoneConfigProvider}
+    package=com.tencent.mobileqq process=com.tencent.mobileqq
+    proc=ProcessRecord{998f656 24241:com.tencent.mobileqq/u0a356}
+    uid=10356 provider=android.content.ContentProviderProxy@83eee8f
+    authority=com.tencent.common.config.provider.QZoneConfigProvider
+  * ContentProviderRecord{115551c u0 flipboard.cn/flipboard.remoteservice.FLFeedItemContentProvider}
+    package=flipboard.cn process=flipboard.cn
+    proc=ProcessRecord{f9d38a8 21285:flipboard.cn/u0a95}
+    uid=10095 provider=android.content.ContentProviderProxy@5abf525
+    authority=flipboard.remoteservice.feeds.china
+  * ContentProviderRecord{e86d6fa u0 flipboard.cn/flipboard.remoteservice.UserContentProvider}
+    package=flipboard.cn process=flipboard.cn
+    proc=ProcessRecord{f9d38a8 21285:flipboard.cn/u0a95}
+    uid=10095 provider=android.content.ContentProviderProxy@445e4ab
+    authority=flipboard.auth.china
+  * ContentProviderRecord{62a0c1a u0 com.android.providers.contacts/.sfinder.FindoSuggestionsProvider}
+    package=com.android.providers.contacts process=android.process.acore
+    proc=ProcessRecord{3095a7f 1592:android.process.acore/u0a18}
+    uid=10018 provider=android.content.ContentProviderProxy@5b3434b
+    authority=com.samsung.dialer.calllog.LogsFindoSuggestionsProvider;com.android.providers.contacts.sfinder.FindoSuggestionsProvider
+  * ContentProviderRecord{4b0a708 u0 flipboard.cn/android.support.v4.content.FileProvider}
+    package=flipboard.cn process=flipboard.cn
+    proc=ProcessRecord{f9d38a8 21285:flipboard.cn/u0a95}
+    uid=10095 provider=android.content.ContentProviderProxy@a4bbea1
+    authority=flipboard.cn.fileProvider
+  * ContentProviderRecord{7db68c6 u0 com.tencent.android.qqdownloader/com.qq.provider.EbooksProvider}
+    package=com.tencent.android.qqdownloader process=com.tencent.android.qqdownloader:connect
+    proc=ProcessRecord{ed489ca 23651:com.tencent.android.qqdownloader:connect/u0a406}
+    uid=10406 provider=android.content.ContentProviderProxy@17c2087
+    authority=com.qq.provider.ebooks3.EbooksProvider
+  * ContentProviderRecord{32d2bb4 u0 com.android.calendar/.globalSearch.CalendarSuggestionsProvider}
+    package=com.android.calendar process=com.android.calendar
+    proc=ProcessRecord{8301142 31326:com.android.calendar/u0a140}
+    uid=10140 provider=android.content.ContentProviderProxy@ec4a3dd
+    authority=com.sec.android.calendar.CalendarSuggestionsProvider
+  * ContentProviderRecord{d954b52 u0 com.sec.android.app.samsungapps/android.support.v4.content.FileProvider}
+    package=com.sec.android.app.samsungapps process=com.sec.android.app.samsungapps
+    proc=ProcessRecord{8e60f2b 27734:com.sec.android.app.samsungapps/u0a38}
+    uid=10038 provider=android.content.ContentProviderProxy@8f03e23
+    authority=com.sec.android.app.samsungapps.fileProvider
+  * ContentProviderRecord{34b4f20 u0 com.sec.spp.push/.provider.RegInfoProvider}
+    package=com.sec.spp.push process=com.sec.spp.push
+    proc=ProcessRecord{93bba0e 17567:com.sec.spp.push/u0a34}
+    uid=10034 provider=android.content.ContentProviderProxy@beca0d9
+    authority=com.sec.spp.reginfo.provider
+  * ContentProviderRecord{6a47d40 u0 com.samsung.android.providers.context/.log.UseAppSurveyLogProvider}
+    package=com.samsung.android.providers.context process=com.samsung.android.providers.context
+    proc=ProcessRecord{ea3cd22 2075:com.samsung.android.providers.context/u0a74}
+    uid=10074 provider=android.content.ContentProviderProxy@1b30479
+    authority=com.samsung.android.providers.context.log.use_app_survey
+  * ContentProviderRecord{32bf5be u0 com.samsung.android.providers.context/.log.ExchangeCallLogProvider}
+    package=com.samsung.android.providers.context process=com.samsung.android.providers.context
+    proc=ProcessRecord{ea3cd22 2075:com.samsung.android.providers.context/u0a74}
+    uid=10074 provider=android.content.ContentProviderProxy@d8bb61f
+    authority=com.samsung.android.providers.context.log.exchange_call
+  * ContentProviderRecord{1adafca u0 com.sec.android.inputmethod/com.samsung.android.scloud.oem.lib.sync.SyncClientProivder}
+    package=com.sec.android.inputmethod process=com.sec.android.inputmethod
+    proc=ProcessRecord{beab650 4420:com.sec.android.inputmethod/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@2bf953b
+    authority=com.sec.android.inputmethod
+  * ContentProviderRecord{1acb458 u0 com.android.phone/.PhoneSearchIndexablesProvider}
+    package=com.android.phone process=com.android.phone
+    proc=ProcessRecord{37ca530 1301:com.android.phone/1001}
+    uid=1001 provider=android.content.ContentProviderProxy@98bc9b1
+    authority=com.android.phone
+  * ContentProviderRecord{d98ca9e u0 com.tencent.android.qqdownloader/com.tencent.assistant.db.contentprovider.ExternalProvider}
+    package=com.tencent.android.qqdownloader process=com.tencent.android.qqdownloader
+    proc=ProcessRecord{6b55316 23381:com.tencent.android.qqdownloader/u0a406}
+    uid=10406 provider=android.content.ContentProviderProxy@bfe997f
+    authority=com.tencent.android.qqdownloader.external.provider
+  * ContentProviderRecord{a64be04 u0 com.android.providers.telephony/.NwkInfoProvider}
+    package=com.android.providers.telephony process=com.android.phone
+    proc=ProcessRecord{37ca530 1301:com.android.phone/1001}
+    uid=1001 provider=android.content.ContentProviderProxy@9e24fed
+    authority=nwkinfo
+  * ContentProviderRecord{5663d4c u0 com.android.mms/.SuggestionsProvider}
+    package=com.android.mms process=com.android.mms
+    proc=ProcessRecord{1c5afd3 2507:com.android.mms/u0a44}
+    uid=10044 provider=android.content.ContentProviderProxy@7fd7195
+    authority=com.android.mms.SuggestionsProvider
+  * ContentProviderRecord{dc2f2aa u0 com.android.settings/.settingssearch.SettingsSearchConnectProvider}
+    package=com.android.settings process=com.android.settings
+    proc=ProcessRecord{cea05e9 31740:com.android.settings/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@b6d4e9b
+    authority=com.android.settings.settingssearchconnect.provider
+  * ContentProviderRecord{25fe238 u0 com.sec.android.daemonapp/.ap.yahoostock.stockclock.db.PublicContentProviderForEdaily}
+    package=com.sec.android.daemonapp process=com.sec.android.daemonapp
+    proc=ProcessRecord{7f26fb8 21164:com.sec.android.daemonapp/u0a174}
+    uid=10174 provider=android.content.ContentProviderProxy@9109211
+    authority=com.sec.android.daemonapp.ap.edaily.stockclock
+  * ContentProviderRecord{d71b670 u0 com.sec.android.inputmethod/.implement.setting.provider.KeyboardSettingsProvider}
+    package=com.sec.android.inputmethod process=com.sec.android.inputmethod
+    proc=ProcessRecord{beab650 4420:com.sec.android.inputmethod/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@9a0fde9
+    authority=com.sec.android.inputmethod.implement.setting.provider.KeyboardSettingsProvider
+  * ContentProviderRecord{53c432b u0 com.sec.android.widgetapp.dualcitywidget/.provider.cmaweather.CmaContentProvider}
+    package=com.sec.android.widgetapp.dualcitywidget process=com.sec.android.widgetapp.dualcitywidget
+    proc=ProcessRecord{fa76f8f 3153:com.sec.android.widgetapp.dualcitywidget/u0a85}
+    uid=10085 provider=android.content.ContentProviderProxy@561e388
+    authority=com.sec.android.widgetapp.dualcitywidget
+  * ContentProviderRecord{2b58f76 u0 com.samsung.android.sm.provider/com.samsung.android.sm.database.SmProvider}
+    package=com.samsung.android.sm.provider process=com.samsung.android.sm.provider
+    proc=ProcessRecord{4483977 31446:com.samsung.android.sm.provider/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@d4ce9e4
+    authority=com.samsung.android.sm
+  * ContentProviderRecord{35b3e4d u0 com.samsung.android.coreapps/.rshare.db.RSettingProvider}
+    package=com.samsung.android.coreapps process=com.samsung.android.coreapps
+    proc=ProcessRecord{359d940 27585:com.samsung.android.coreapps/5011}
+    uid=5011 provider=android.content.ContentProviderProxy@7632d02
+    authority=com.samsung.android.coreapps.rshare.setting
+  * ContentProviderRecord{1318121 u0 com.sec.smartcard.manager/com.sec.smartcard.pinservice.SmartCardContentProvider}
+    package=com.sec.smartcard.manager process=com.sec.smartcard.manager
+    proc=ProcessRecord{7f23946 1730:com.sec.smartcard.manager/u0a166}
+    uid=10166 provider=android.content.ContentProviderProxy@1b9e707
+    authority=com.sec.smartcard.manager
+  * ContentProviderRecord{e7cf613 u0 com.android.contacts/android.support.v4.content.FileProvider}
+    package=com.android.contacts process=com.android.contacts
+    proc=ProcessRecord{a8c663b 24282:com.android.contacts/u0a18}
+    uid=10018 provider=android.content.ContentProviderProxy@3e0c050
+    authority=com.android.contacts.files
+  * ContentProviderRecord{ea92b1e u0 com.sec.android.inputmethod/.scloudsync.SipSyncProvider}
+    package=com.sec.android.inputmethod process=com.sec.android.inputmethod
+    proc=ProcessRecord{beab650 4420:com.sec.android.inputmethod/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@5eafff
+    authority=com.sec.android.inputmethod.scloudsync.SipSyncProvider
+  * ContentProviderRecord{2ad1cc u0 com.sec.android.app.launcher/com.android.launcher2.LauncherProviderID}
+    package=com.sec.android.app.launcher process=com.sec.android.app.launcher
+    proc=ProcessRecord{4279a84 1700:com.sec.android.app.launcher/u0a8}
+    uid=10008 provider=android.content.ContentProviderProxy@defac15
+    authority=com.sec.android.app.launcher.settings.id
+  * ContentProviderRecord{15b174e u0 com.android.calendar/.preference.PreferenceProvider}
+    package=com.android.calendar process=com.android.calendar
+    proc=ProcessRecord{8301142 31326:com.android.calendar/u0a140}
+    uid=10140 provider=android.content.ContentProviderProxy@936e06f
+    authority=com.sec.android.calendar.preference
+  * ContentProviderRecord{999917c u0 com.tencent.android.qqdownloader/com.tencent.assistant.db.contentprovider.AssistantProvider}
+    package=com.tencent.android.qqdownloader process=com.tencent.android.qqdownloader
+    proc=ProcessRecord{6b55316 23381:com.tencent.android.qqdownloader/u0a406}
+    uid=10406 provider=android.content.ContentProviderProxy@29eea05
+    authority=com.tencent.android.qqdownloader.provider
+  * ContentProviderRecord{dd55a5a u0 com.sec.android.daemonapp/.ap.kweather.common.KWeatherContentProvider}
+    package=com.sec.android.daemonapp process=com.sec.android.daemonapp
+    proc=ProcessRecord{7f26fb8 21164:com.sec.android.daemonapp/u0a174}
+    uid=10174 provider=android.content.ContentProviderProxy@fb148b
+    authority=com.sec.android.daemonapp.ap.kweather.provider
+  * ContentProviderRecord{4ffa4c9 u0 com.sec.android.inputmethod/com.samsung.android.scloud.oem.lib.bnr.BNRClientProivder}
+    package=com.sec.android.inputmethod process=com.sec.android.inputmethod
+    proc=ProcessRecord{beab650 4420:com.sec.android.inputmethod/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@18497ce
+    authority=com.sec.android.inputmethod.backup
+  * ContentProviderRecord{30996ef u0 com.samsung.android.providers.context/.server.ServerDBProvider}
+    package=com.samsung.android.providers.context process=com.samsung.android.providers.context
+    proc=ProcessRecord{ea3cd22 2075:com.samsung.android.providers.context/u0a74}
+    uid=10074 provider=android.content.ContentProviderProxy@2ec45fc
+    authority=com.samsung.android.providers.context.server
+  * ContentProviderRecord{9ac4968 u0 com.sec.android.gallery3d/.provider.GalleryProvider}
+    package=com.sec.android.gallery3d process=com.sec.android.gallery3d
+    proc=ProcessRecord{24506e1 24938:com.sec.android.gallery3d/u0a42}
+    uid=10042 provider=android.content.ContentProviderProxy@b292181
+    authority=com.sec.android.gallery3d.provider
+  * ContentProviderRecord{37ec226 u0 com.android.settings/.favorite.MySettingsProvider}
+    package=com.android.settings process=com.android.settings
+    proc=ProcessRecord{cea05e9 31740:com.android.settings/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@b846e67
+    authority=com.android.settings.mysettings
+  * ContentProviderRecord{bb09414 u0 com.android.settings/.search.SettingsSearchIndexablesProvider}
+    package=com.android.settings process=com.android.settings
+    proc=ProcessRecord{cea05e9 31740:com.android.settings/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@2c554bd
+    authority=com.android.settings
+  * ContentProviderRecord{504dab2 u0 com.sec.spp.push/.provider.PushClientProvider}
+    package=com.sec.spp.push process=com.sec.spp.push
+    proc=ProcessRecord{93bba0e 17567:com.sec.spp.push/u0a34}
+    uid=10034 provider=android.content.ContentProviderProxy@55f8a03
+    authority=com.sec.spp.provider
+  * ContentProviderRecord{70cdd80 u0 com.wsomacp/.db.XCPDBSqlProvider}
+    package=com.wsomacp process=com.wsomacp
+    proc=ProcessRecord{cf77fb9 2581:com.wsomacp/u0a25}
+    launchingApp=ProcessRecord{cf77fb9 2581:com.wsomacp/u0a25}
+    uid=10025 provider=android.content.ContentProviderProxy@61effe
+    authority=com.wsomacp.messagelist
+  * ContentProviderRecord{d46c35f u0 com.tencent.android.qqdownloader/com.tencent.assistant.db.contentprovider.PluginProvider}
+    package=com.tencent.android.qqdownloader process=com.tencent.android.qqdownloader
+    proc=ProcessRecord{6b55316 23381:com.tencent.android.qqdownloader/u0a406}
+    uid=10406 provider=android.content.ContentProviderProxy@12251ac
+    authority=com.tencent.android.qqdownloader.plugin.provider
+  * ContentProviderRecord{46c7883 u0 com.android.phone/.SettingSearchProvider}
+    package=com.android.phone process=com.android.phone
+    proc=ProcessRecord{37ca530 1301:com.android.phone/1001}
+    uid=1001 provider=android.content.ContentProviderProxy@7396a00
+    authority=com.android.phone.settingsearch.provider
+  * ContentProviderRecord{dbe5239 u0 com.android.providers.userdictionary/.UserDictionaryProvider}
+    package=com.android.providers.userdictionary process=android.process.acore
+    proc=ProcessRecord{3095a7f 1592:android.process.acore/u0a18}
+    uid=10018 provider=android.content.ContentProviderProxy@82c907e
+    authority=user_dictionary
+  * ContentProviderRecord{7875e75 u0 com.android.settings/.myplace.MyPlaceProvider}
+    package=com.android.settings process=com.android.settings
+    proc=ProcessRecord{cea05e9 31740:com.android.settings/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@6e90e0a
+    authority=com.android.settings.myplace.MyPlaceProvider
+  * ContentProviderRecord{93e367b u0 com.tencent.android.qqdownloader/com.qq.provider.CacheProvider}
+    package=com.tencent.android.qqdownloader process=com.tencent.android.qqdownloader:connect
+    proc=ProcessRecord{ed489ca 23651:com.tencent.android.qqdownloader:connect/u0a406}
+    uid=10406 provider=android.content.ContentProviderProxy@238dc98
+    authority=com.qq.provider.cache2
+  * ContentProviderRecord{afc6cf1 u0 com.android.settings/.personalvibration.PersonalVibrationProvider}
+    package=com.android.settings process=com.android.settings
+    proc=ProcessRecord{cea05e9 31740:com.android.settings/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@a1200d6
+    authority=com.android.settings.personalvibration.PersonalVibrationProvider
+  * ContentProviderRecord{16fbf57 u0 com.tencent.mobileqq/.openapi.OpenApiProvider}
+    package=com.tencent.mobileqq process=com.tencent.mobileqq
+    proc=ProcessRecord{998f656 24241:com.tencent.mobileqq/u0a356}
+    uid=10356 provider=android.content.ContentProviderProxy@d2b2a44
+    authority=com.tencent.mobileqq.openapi.provider
+  * ContentProviderRecord{6d9e72d u0 com.sec.android.app.samsungapps/.SaProvider}
+    package=com.sec.android.app.samsungapps process=com.sec.android.app.samsungapps
+    proc=ProcessRecord{8e60f2b 27734:com.sec.android.app.samsungapps/u0a38}
+    uid=10038 provider=android.content.ContentProviderProxy@9055462
+    authority=com.sec.android.provider.samsungapps
+  * ContentProviderRecord{3e031ad u0 com.samsung.android.providers.context/.profile.ProfileProvider}
+    package=com.samsung.android.providers.context process=com.samsung.android.providers.context
+    proc=ProcessRecord{ea3cd22 2075:com.samsung.android.providers.context/u0a74}
+    uid=10074 provider=android.content.ContentProviderProxy@e660ce2
+    authority=com.samsung.android.providers.context.profile
+  * ContentProviderRecord{cc6f9f3 u0 com.sec.android.gallery3d/.remote.sns.SNSContentProvider}
+    package=com.sec.android.gallery3d process=com.sec.android.gallery3d
+    proc=ProcessRecord{24506e1 24938:com.sec.android.gallery3d/u0a42}
+    uid=10042 provider=android.content.ContentProviderProxy@5d2a6b0
+    authority=com.sec.android.gallery3d.sns.contentprovider
+    isSyncable=true multiprocess=false initOrder=0
+  * ContentProviderRecord{59ac929 u0 com.sec.android.gallery3d/.remote.picasa.PicasaContentProvider}
+    package=com.sec.android.gallery3d process=com.sec.android.gallery3d
+    proc=ProcessRecord{24506e1 24938:com.sec.android.gallery3d/u0a42}
+    uid=10042 provider=android.content.ContentProviderProxy@ae854ae
+    authority=com.sec.android.gallery3d.picasa.contentprovider
+    isSyncable=true multiprocess=false initOrder=0
+  * ContentProviderRecord{7fe92eb u0 com.android.phone/.IccProvider}
+    package=com.android.phone process=com.android.phone
+    proc=ProcessRecord{37ca530 1301:com.android.phone/1001}
+    uid=1001 provider=android.content.ContentProviderProxy@4ea5848
+    authority=icc
+    isSyncable=false multiprocess=true initOrder=0
+  * ContentProviderRecord{e5db6e1 u0 com.samsung.android.providers.context/.log.PlayMusicLogProvider}
+    package=com.samsung.android.providers.context process=com.samsung.android.providers.context
+    proc=ProcessRecord{ea3cd22 2075:com.samsung.android.providers.context/u0a74}
+    uid=10074 provider=android.content.ContentProviderProxy@ea59c06
+    authority=com.samsung.android.providers.context.log.play_music
+  * ContentProviderRecord{b4d424f u0 com.samsung.android.coreapps/.easysignup.db.EasySignUpProvider}
+    package=com.samsung.android.coreapps process=com.samsung.android.coreapps
+    proc=ProcessRecord{359d940 27585:com.samsung.android.coreapps/5011}
+    uid=5011 provider=android.content.ContentProviderProxy@2337ddc
+    authority=com.samsung.android.coreapps.easysignup
+  * ContentProviderRecord{f9de01d u0 com.android.providers.media/.MediaProvider}
+    package=com.android.providers.media process=android.process.media
+    proc=ProcessRecord{e2246b3 2354:android.process.media/u0a41}
+    uid=10041 provider=android.content.ContentProviderProxy@3ef7292
+    authority=media
+  * ContentProviderRecord{46dcee5 u0 com.sec.android.daemonapp/.ap.cmaweather.common.CmaContentProvider}
+    package=com.sec.android.daemonapp process=com.sec.android.daemonapp
+    proc=ProcessRecord{7f26fb8 21164:com.sec.android.daemonapp/u0a174}
+    uid=10174 provider=android.content.ContentProviderProxy@1e90dba
+    authority=com.sec.android.daemonapp.cmaweather.provider
+  * ContentProviderRecord{a45b46b u0 com.samsung.android.sm.provider/com.samsung.android.sm.database.lowpowercontext.LowpowerContextProvider}
+    package=com.samsung.android.sm.provider process=com.samsung.android.sm.provider
+    proc=ProcessRecord{4483977 31446:com.samsung.android.sm.provider/1000}
+    launchingApp=ProcessRecord{4483977 31446:com.samsung.android.sm.provider/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@2689bc8
+    authority=com.samsung.android.sm.lowpowercontext
+  * ContentProviderRecord{8bd6119 u0 com.android.phone/.BackupRestoreProvider}
+    package=com.android.phone process=com.android.phone
+    proc=ProcessRecord{37ca530 1301:com.android.phone/1001}
+    uid=1001 provider=android.content.ContentProviderProxy@e8e25de
+    authority=com.android.phone.backup
+  * ContentProviderRecord{ab17461 u0 com.tencent.android.qqdownloader/com.tencent.assistant.localres.localapk.LocalApkProvider}
+    package=com.tencent.android.qqdownloader process=com.tencent.android.qqdownloader:daemon
+    proc=ProcessRecord{ea59c8f 25228:com.tencent.android.qqdownloader:daemon/u0a406}
+    uid=10406 provider=android.content.ContentProviderProxy@30a4b86
+    authority=com.tencent.android.qqdownloader.localapk.provider
+  * ContentProviderRecord{e092c47 u0 com.samsung.dcm/com.sec.dcm.provider.DCMProvider}
+    package=com.samsung.dcm process=com.samsung.dcm:DCMService
+    proc=ProcessRecord{47660f8 31245:com.samsung.dcm:DCMService/5004}
+    uid=5004 provider=android.content.ContentProviderProxy@b4fac74
+    authority=com.sec.dcm.provider.DCMProvider.data
+  * ContentProviderRecord{31312b6 u0 com.android.bluetooth/.opp.BluetoothOppProvider}
+    package=com.android.bluetooth process=com.android.bluetooth
+    proc=ProcessRecord{d969bb7 2017:com.android.bluetooth/1002}
+    uid=1002 provider=android.content.ContentProviderProxy@31c3f24
+    authority=com.android.bluetooth.opp
+  * ContentProviderRecord{d2ff59d u0 com.tianyancha.skyeye/com.umeng.message.provider.MessageProvider}
+    package=com.tianyancha.skyeye process=com.tianyancha.skyeye
+    proc=ProcessRecord{2d2901b 2484:com.tianyancha.skyeye/u0a441}
+    uid=10441 provider=android.content.ContentProviderProxy@eaf9a12
+    authority=com.tianyancha.skyeye.umeng.message
+  * ContentProviderRecord{da245e3 u0 com.tencent.mobileqq/com.tencent.mqq.shared_file_accessor.ContentProviderImpl}
+    package=com.tencent.mobileqq process=com.tencent.mobileqq
+    proc=ProcessRecord{998f656 24241:com.tencent.mobileqq/u0a356}
+    launchingApp=ProcessRecord{998f656 24241:com.tencent.mobileqq/u0a356}
+    uid=10356 provider=android.content.ContentProviderProxy@ff51be0
+    authority=com.tencent.mqq.shared_file_accessor.ContentProviderImpl
+  * ContentProviderRecord{5e9455e u0 com.sec.android.app.videoplayer/android.support.v4.content.FileProvider}
+    package=com.sec.android.app.videoplayer process=com.sec.android.app.videoplayer
+    proc=ProcessRecord{144d473 29804:com.sec.android.app.videoplayer/u0a48}
+    uid=10048 provider=android.content.ContentProviderProxy@c295d3f
+    authority=com.samsung.android.video.fileprovider
+  * ContentProviderRecord{5c0160c u0 com.android.mms/android.support.v4.content.FileProvider}
+    package=com.android.mms process=com.android.mms
+    proc=ProcessRecord{1c5afd3 2507:com.android.mms/u0a44}
+    uid=10044 provider=android.content.ContentProviderProxy@2c93b55
+    authority=com.android.mms
+  * ContentProviderRecord{880596a u0 com.android.mms/.csc.PreferenceProvider}
+    package=com.android.mms process=com.android.mms
+    proc=ProcessRecord{1c5afd3 2507:com.android.mms/u0a44}
+    uid=10044 provider=android.content.ContentProviderProxy@be08e5b
+    authority=com.android.mms.csc.PreferenceProvider
+  * ContentProviderRecord{f5e86f8 u0 com.android.contacts/com.samsung.android.scloud.oem.lib.ClientProvider}
+    package=com.android.contacts process=com.android.contacts
+    proc=ProcessRecord{a8c663b 24282:com.android.contacts/u0a18}
+    uid=10018 provider=android.content.ContentProviderProxy@42f37d1
+    authority=com.samsung.contacts.backup
+  * ContentProviderRecord{7c2a236 u0 com.android.calendar/android.support.v4.content.FileProvider}
+    package=com.android.calendar process=com.android.calendar
+    proc=ProcessRecord{8301142 31326:com.android.calendar/u0a140}
+    uid=10140 provider=android.content.ContentProviderProxy@70fb537
+    authority=com.android.calendar.vcs
+  * ContentProviderRecord{f9fb954 u0 com.samsung.android.providers.context/.log.UseAppLogProvider}
+    package=com.samsung.android.providers.context process=com.samsung.android.providers.context
+    proc=ProcessRecord{ea3cd22 2075:com.samsung.android.providers.context/u0a74}
+    uid=10074 provider=android.content.ContentProviderProxy@c71b0fd
+    authority=com.samsung.android.providers.context.log.use_app
+  * ContentProviderRecord{103a1f2 u0 com.samsung.android.providers.context/.log.BrowseWebLogProvider}
+    package=com.samsung.android.providers.context process=com.samsung.android.providers.context
+    proc=ProcessRecord{ea3cd22 2075:com.samsung.android.providers.context/u0a74}
+    uid=10074 provider=android.content.ContentProviderProxy@d0fe043
+    authority=com.samsung.android.providers.context.log.browse_web
+  * ContentProviderRecord{a711aa4 u0 com.tencent.android.qqdownloader/com.tencent.assistant.daemon.statistic.ProcessStatisticProvider}
+    package=com.tencent.android.qqdownloader process=com.tencent.android.qqdownloader:daemon
+    proc=ProcessRecord{ea59c8f 25228:com.tencent.android.qqdownloader:daemon/u0a406}
+    uid=10406 provider=android.content.ContentProviderProxy@71e800d
+    authority=com.tencent.android.qqdownloader.statistic.provider
+  * ContentProviderRecord{a0eabc2 u0 com.android.providers.calendar/.CalendarProvider2}
+    package=com.android.providers.calendar process=com.android.providers.calendar
+    proc=ProcessRecord{aa06dd3 31279:com.android.providers.calendar/u0a40}
+    launchingApp=ProcessRecord{aa06dd3 31279:com.android.providers.calendar/u0a40}
+    uid=10040 provider=android.content.ContentProviderProxy@bf73d10
+    authority=com.android.calendar
+  * ContentProviderRecord{ca8deec u0 com.samsung.android.providers.context/.log.UseAppFeatureSurveyLogProvider}
+    package=com.samsung.android.providers.context process=com.samsung.android.providers.context
+    proc=ProcessRecord{ea3cd22 2075:com.samsung.android.providers.context/u0a74}
+    uid=10074 provider=android.content.ContentProviderProxy@e5b02b5
+    authority=com.samsung.android.providers.context.log.use_app_feature_survey
+  * ContentProviderRecord{4917d4a u0 com.android.providers.contacts/.ContactsProvider2}
+    package=com.android.providers.contacts process=android.process.acore
+    proc=ProcessRecord{3095a7f 1592:android.process.acore/u0a18}
+    launchingApp=ProcessRecord{3095a7f 1592:android.process.acore/u0a18}
+    uid=10018 provider=android.content.ContentProviderProxy@75b14bb
+    authority=contacts;com.android.contacts;com.android.jcontacts;com.samsung.contacts
+    Connections:
+      -> 24241:com.tencent.mobileqq/u0a356 s1/1 u0/0 +15m17s181ms
+  * ContentProviderRecord{5bafdd8 u0 com.android.providers.downloads/.DownloadStorageProvider}
+    package=com.android.providers.downloads process=android.process.media
+    proc=ProcessRecord{e2246b3 2354:android.process.media/u0a41}
+    uid=10041 provider=android.content.ContentProviderProxy@7061531
+    authority=com.android.providers.downloads.documents
+  * ContentProviderRecord{cf22416 u0 com.samsung.android.providers.context/.log.ManageAppSurveyLogProvider}
+    package=com.samsung.android.providers.context process=com.samsung.android.providers.context
+    proc=ProcessRecord{ea3cd22 2075:com.samsung.android.providers.context/u0a74}
+    uid=10074 provider=android.content.ContentProviderProxy@91c4197
+    authority=com.samsung.android.providers.context.log.manage_app_survey
+  * ContentProviderRecord{ece1f84 u0 com.samsung.android.providers.context/.log.ReportAppErrorSurveyLogProvider}
+    package=com.samsung.android.providers.context process=com.samsung.android.providers.context
+    proc=ProcessRecord{ea3cd22 2075:com.samsung.android.providers.context/u0a74}
+    uid=10074 provider=android.content.ContentProviderProxy@f75d36d
+    authority=com.samsung.android.providers.context.log.report_app_error_survey
+  * ContentProviderRecord{ee46ba2 u0 com.samsung.android.providers.context/.log.WriteDocumentLogProvider}
+    package=com.samsung.android.providers.context process=com.samsung.android.providers.context
+    proc=ProcessRecord{ea3cd22 2075:com.samsung.android.providers.context/u0a74}
+    uid=10074 provider=android.content.ContentProviderProxy@1596033
+    authority=com.samsung.android.providers.context.log.write_document
+  * ContentProviderRecord{7401009 u0 com.sec.android.gallery3d/.provider.GallerySearchProvider}
+    package=com.sec.android.gallery3d process=com.sec.android.gallery3d
+    proc=ProcessRecord{24506e1 24938:com.sec.android.gallery3d/u0a42}
+    uid=10042 provider=android.content.ContentProviderProxy@b1fc20e
+    authority=com.sec.android.gallery3d.provider.GallerySearchProvider
+  * ContentProviderRecord{e7a142f u0 com.android.mms/.settings.provider.PreferenceProviderExport}
+    package=com.android.mms process=com.android.mms
+    proc=ProcessRecord{1c5afd3 2507:com.android.mms/u0a44}
+    uid=10044 provider=android.content.ContentProviderProxy@77b1a3c
+    authority=com.samsung.mms.export.preference.PreferenceProviderExport
+  * ContentProviderRecord{7d0a3c5 u0 com.sec.android.app.music/com.samsung.android.app.music.provider.MusicProvider}
+    package=com.sec.android.app.music process=com.sec.android.app.music:provider
+    proc=ProcessRecord{708ebf2 30404:com.sec.android.app.music:provider/u0a150}
+    uid=10150 provider=android.content.ContentProviderProxy@519f11a
+    authority=com.sec.android.app.music.store;com.sec.android.app.music;com.sec.android.app.music.albumart
+  * ContentProviderRecord{79dc44b u0 com.android.settings/android.support.v4.content.FileProvider}
+    package=com.android.settings process=com.android.settings
+    proc=ProcessRecord{cea05e9 31740:com.android.settings/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@cfd9e28
+    authority=com.android.settings.files
+  * ContentProviderRecord{91cb741 u0 com.sec.android.app.videoplayer/.videowall.ThumbProvider}
+    package=com.sec.android.app.videoplayer process=com.sec.android.app.videoplayer
+    proc=ProcessRecord{144d473 29804:com.sec.android.app.videoplayer/u0a48}
+    uid=10048 provider=android.content.ContentProviderProxy@e5604e6
+    authority=com.sec.provider.videowall
+  * ContentProviderRecord{25a27 u0 com.tencent.android.qqdownloader/com.tencent.assistant.db.contentprovider.AstSettingsProvider}
+    package=com.tencent.android.qqdownloader process=com.tencent.android.qqdownloader:daemon
+    proc=ProcessRecord{ea59c8f 25228:com.tencent.android.qqdownloader:daemon/u0a406}
+    uid=10406 provider=android.content.ContentProviderProxy@9a274d4
+    authority=com.tencent.android.qqdownloader.settings.provider
+  * ContentProviderRecord{9bc867d u0 com.tencent.mobileqq/.content.FriendListProvider}
+    package=com.tencent.mobileqq process=com.tencent.mobileqq
+    proc=ProcessRecord{998f656 24241:com.tencent.mobileqq/u0a356}
+    uid=10356 provider=android.content.ContentProviderProxy@7ed8972
+    authority=qq.friendlist
+  * ContentProviderRecord{73a71b4 u0 com.android.providers.telephony/.ChannelsProvider}
+    package=com.android.providers.telephony process=com.android.phone
+    proc=ProcessRecord{37ca530 1301:com.android.phone/1001}
+    uid=1001 provider=android.content.ContentProviderProxy@7bf71dd
+    authority=channels
+  * ContentProviderRecord{3071c3 u0 com.sec.android.app.videoplayer/.db.FinDoProvider}
+    package=com.sec.android.app.videoplayer process=com.sec.android.app.videoplayer
+    proc=ProcessRecord{144d473 29804:com.sec.android.app.videoplayer/u0a48}
+    uid=10048 provider=android.content.ContentProviderProxy@71c0a40
+    authority=com.sec.android.app.videoplayer.db.FinDoProvider
+  * ContentProviderRecord{f900d79 u0 com.samsung.android.coreapps/.easysignup.db.EasySignUpProviderPublic}
+    package=com.samsung.android.coreapps process=com.samsung.android.coreapps
+    proc=ProcessRecord{359d940 27585:com.samsung.android.coreapps/5011}
+    uid=5011 provider=android.content.ContentProviderProxy@906cabe
+    authority=com.samsung.android.coreapps.easysignup.public
+  * ContentProviderRecord{1e6f520 u0 com.android.providers.contacts/.VoicemailContentProvider}
+    package=com.android.providers.contacts process=android.process.acore
+    proc=ProcessRecord{3095a7f 1592:android.process.acore/u0a18}
+    uid=10018 provider=android.content.ContentProviderProxy@4c64ed9
+    authority=com.android.voicemail
+  * ContentProviderRecord{69e671f u0 com.sec.android.daemonapp/.ap.weathernewsjp.common.WeatherNewsContentProvider}
+    package=com.sec.android.daemonapp process=com.sec.android.daemonapp
+    proc=ProcessRecord{7f26fb8 21164:com.sec.android.daemonapp/u0a174}
+    uid=10174 provider=android.content.ContentProviderProxy@5d78a6c
+    authority=com.sec.android.daemonapp.ap.weathernewsjp.provider
+  * ContentProviderRecord{47b0835 u0 com.sec.android.app.videoplayer/.db.AllShareProvider}
+    package=com.sec.android.app.videoplayer process=com.sec.android.app.videoplayer
+    proc=ProcessRecord{144d473 29804:com.sec.android.app.videoplayer/u0a48}
+    uid=10048 provider=android.content.ContentProviderProxy@2e0d4ca
+    authority=com.sec.android.app.videoplayer.provider
+  * ContentProviderRecord{8cc563b u0 com.samsung.android.coreapps/.rshare.db.RShareProvider}
+    package=com.samsung.android.coreapps process=com.samsung.android.coreapps
+    proc=ProcessRecord{359d940 27585:com.samsung.android.coreapps/5011}
+    uid=5011 provider=android.content.ContentProviderProxy@de8e158
+    authority=com.sec.rshare;com.samsung.android.coreapps.rshare
+  * ContentProviderRecord{2f56576 u0 com.android.providers.media/.MediaDocumentsProvider}
+    package=com.android.providers.media process=android.process.media
+    proc=ProcessRecord{e2246b3 2354:android.process.media/u0a41}
+    uid=10041 provider=android.content.ContentProviderProxy@6aa5777
+    authority=com.android.providers.media.documents
+  * ContentProviderRecord{aca6302 u0 com.android.bluetooth/.map.MmsFileProvider}
+    package=com.android.bluetooth process=com.android.bluetooth
+    proc=ProcessRecord{d969bb7 2017:com.android.bluetooth/1002}
+    uid=1002 provider=android.content.ContentProviderProxy@7e2f413
+    authority=com.android.bluetooth.map.MmsFileProvider
+  * ContentProviderRecord{2e0f2b1 u0 com.sec.android.daemonapp/.ap.common.WeatherContentProvider}
+    package=com.sec.android.daemonapp process=com.sec.android.daemonapp
+    proc=ProcessRecord{7f26fb8 21164:com.sec.android.daemonapp/u0a174}
+    uid=10174 provider=android.content.ContentProviderProxy@99f7396
+    authority=com.sec.android.daemonapp.ap.accuweather.provider
+  * ContentProviderRecord{a201b17 u0 com.tencent.android.qqdownloader/com.tencent.assistant.db.contentprovider.StReportDbProvider}
+    package=com.tencent.android.qqdownloader process=com.tencent.android.qqdownloader:daemon
+    proc=ProcessRecord{ea59c8f 25228:com.tencent.android.qqdownloader:daemon/u0a406}
+    uid=10406 provider=android.content.ContentProviderProxy@2b6bb04
+    authority=com.tencent.assistant.db.contentprovider.StReportDbProvider
+  * ContentProviderRecord{457177c u0 com.sec.android.app.launcher/com.samsung.android.scloud.oem.lib.bnr.BNRClientProivder}
+    package=com.sec.android.app.launcher process=com.sec.android.app.launcher
+    proc=ProcessRecord{4279a84 1700:com.sec.android.app.launcher/u0a8}
+    uid=10008 provider=android.content.ContentProviderProxy@824f805
+    authority=com.sec.android.app.launcher.backup
+  * ContentProviderRecord{de108ed u0 com.tencent.android.qqdownloader/com.tencent.assistant.db.contentprovider.AppLinkProvider}
+    package=com.tencent.android.qqdownloader process=com.tencent.android.qqdownloader
+    proc=ProcessRecord{6b55316 23381:com.tencent.android.qqdownloader/u0a406}
+    uid=10406 provider=android.content.ContentProviderProxy@dd73322
+    authority=com.tencent.android.qqdownloader.applink.provider
+  * ContentProviderRecord{48151b3 u0 com.sec.android.daemonapp/.ap.yahoostock.stockclock.db.PublicContentProvider}
+    package=com.sec.android.daemonapp process=com.sec.android.daemonapp
+    proc=ProcessRecord{7f26fb8 21164:com.sec.android.daemonapp/u0a174}
+    uid=10174 provider=android.content.ContentProviderProxy@5668370
+    authority=com.sec.android.daemonapp.ap.yahoostock.stockclock
+  * ContentProviderRecord{6601826 u0 com.android.providers.contacts/.debug.DumpFileProvider}
+    package=com.android.providers.contacts process=android.process.acore
+    proc=ProcessRecord{3095a7f 1592:android.process.acore/u0a18}
+    uid=10018 provider=android.content.ContentProviderProxy@1aa0c67
+    authority=com.android.contacts.dumpfile
+  * ContentProviderRecord{3a590b2 u0 com.samsung.android.providers.context/.log.ExchangeEmailLogProvider}
+    package=com.samsung.android.providers.context process=com.samsung.android.providers.context
+    proc=ProcessRecord{ea3cd22 2075:com.samsung.android.providers.context/u0a74}
+    uid=10074 provider=android.content.ContentProviderProxy@b410803
+    authority=com.samsung.android.providers.context.log.exchange_email
+  * ContentProviderRecord{15246e9 u0 com.samsung.android.coreapps/.rshare.db.RQuotaProvider}
+    package=com.samsung.android.coreapps process=com.samsung.android.coreapps
+    proc=ProcessRecord{359d940 27585:com.samsung.android.coreapps/5011}
+    uid=5011 provider=android.content.ContentProviderProxy@2d95f6e
+    authority=com.samsung.android.coreapps.rshare.quota
+  * ContentProviderRecord{eb5560f u0 com.samsung.android.coreapps/.shop.provider.ShopProvider}
+    package=com.samsung.android.coreapps process=com.samsung.android.coreapps
+    proc=ProcessRecord{359d940 27585:com.samsung.android.coreapps/5011}
+    uid=5011 provider=android.content.ContentProviderProxy@208669c
+    authority=com.sec.orca.shopagent.provider
+  * ContentProviderRecord{57f68a5 u0 com.sec.android.app.music/com.samsung.android.app.music.provider.MusicSearchProvider}
+    package=com.sec.android.app.music process=com.sec.android.app.music:provider
+    proc=ProcessRecord{708ebf2 30404:com.sec.android.app.music:provider/u0a150}
+    uid=10150 provider=android.content.ContentProviderProxy@dc0047a
+    authority=com.sec.android.app.music.MusicSearchProvider
+  * ContentProviderRecord{c7b442b u0 com.tencent.android.qqdownloader/com.tencent.assistant.db.contentprovider.AstDaemonDbProvider}
+    package=com.tencent.android.qqdownloader process=com.tencent.android.qqdownloader:daemon
+    proc=ProcessRecord{ea59c8f 25228:com.tencent.android.qqdownloader:daemon/u0a406}
+    uid=10406 provider=android.content.ContentProviderProxy@3835088
+    authority=com.tencent.assistant.db.contentprovider.AstDaemonDBProvider
+  * ContentProviderRecord{2a2ea21 u0 com.android.settings/.autohaptic.ReverbContentProvider}
+    package=com.android.settings process=com.android.settings
+    proc=ProcessRecord{cea05e9 31740:com.android.settings/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@939ee46
+    authority=com.android.settings.reverb.params
+  * ContentProviderRecord{467f807 u0 com.sec.face/.provider.FaceProvider}
+    package=com.sec.face process=com.sec.face:FaceProvider
+    proc=ProcessRecord{a40ed34 31232:com.sec.face:FaceProvider/5004}
+    launchingApp=ProcessRecord{a40ed34 31232:com.sec.face:FaceProvider/5004}
+    uid=5004 provider=android.content.ContentProviderProxy@23075d
+    authority=com.sec.face.provider.FaceProvider
+  * ContentProviderRecord{a16a8d2 u0 com.tencent.android.qqdownloader/android.support.v4.content.FileProvider}
+    package=com.tencent.android.qqdownloader process=com.tencent.android.qqdownloader
+    proc=ProcessRecord{6b55316 23381:com.tencent.android.qqdownloader/u0a406}
+    uid=10406 provider=android.content.ContentProviderProxy@7820da3
+    authority=com.tencent.pangu.fileprovider
+  * ContentProviderRecord{af4d6d6 u0 com.sec.android.app.launcher/com.android.launcher2.LauncherProvider}
+    package=com.sec.android.app.launcher process=com.sec.android.app.launcher
+    proc=ProcessRecord{4279a84 1700:com.sec.android.app.launcher/u0a8}
+    uid=10008 provider=android.content.ContentProviderProxy@338dd57
+    authority=com.sec.android.app.launcher.settings
+
+  Single-user authority to provider mappings:
+  com.android.phone.callsettings: 9ba5c68/com.android.phone/.callsettings.CallSettingsProvider
+  com.android.server.telecom: 63f4ac/com.android.server.telecom/.NextiTelecomProvider
+  sms: 67843f1/com.android.providers.telephony/.SmsProvider
+  spammms: 490ee57/com.android.providers.telephony/.MmsProvider
+  settings: ae2e90a/com.android.providers.settings/.SettingsProvider
+  spamsms: 67843f1/com.android.providers.telephony/.SmsProvider
+  com.sec.seams.provider: 26a5080/android/com.android.server.SEAMSProvider
+  spam_im: 6b28d26/com.android.providers.telephony/.ImProvider
+  com.sec.knox.provider: 771af98/android/com.android.server.enterprise.content.SecContentProvider
+  mms-sms: ecb76b9/com.android.providers.telephony/.MmsSmsProvider
+  com.android.server.heapdump: e77dbbd/android/com.android.server.am.DumpHeapProvider
+  telephony: f2c824e/com.android.providers.telephony/.TelephonyProvider
+  com.android.security: 823c575/com.sec.android.providers.security/.SecurityPoliciesProvider
+  im: 6b28d26/com.android.providers.telephony/.ImProvider
+  com.sec.knox.provider2: dcd125f/android/com.android.server.enterprise.content.SecContentProvider2
+  mms: 490ee57/com.android.providers.telephony/.MmsProvider
+  message: f2a55b2/com.android.providers.telephony/.MessageProvider
+  com.android.providers.telephony.backup: ed2755a/com.android.providers.telephony/com.samsung.android.scloud.oem.lib.bnr.BNRClientProivder
+  hbpcd_lookup: 4dc747c/com.android.providers.telephony/.HbpcdLookupProvider
+  com.sec.smartmanager.provider: d5a757b/android/com.android.internal.os.SmartManagerProvider
+
+  User 0 authority to provider mappings:
+  com.samsung.android.coreapps.rshare: 8cc563b/com.samsung.android.coreapps/.rshare.db.RShareProvider
+  com.samsung.android.sm: 2b58f76/com.samsung.android.sm.provider/com.samsung.android.sm.database.SmProvider
+  com.sec.android.app.launcher.settings: af4d6d6/com.sec.android.app.launcher/com.android.launcher2.LauncherProvider
+  com.tencent.assistant.db.contentprovider.StReportDbProvider: a201b17/com.tencent.android.qqdownloader/com.tencent.assistant.db.contentprovider.StReportDbProvider
+  com.android.settings.reverb.params: 2a2ea21/com.android.settings/.autohaptic.ReverbContentProvider
+  com.android.calendar: a0eabc2/com.android.providers.calendar/.CalendarProvider2
+  com.samsung.contacts: 4917d4a/com.android.providers.contacts/.ContactsProvider2
+  com.sec.smartcard.manager: 1318121/com.sec.smartcard.manager/com.sec.smartcard.pinservice.SmartCardContentProvider
+  com.samsung.android.providers.context.log.manage_app: 18fa8ba/com.samsung.android.providers.context/.log.ManageAppLogProvider
+  flipboard.cn.fileProvider: 4b0a708/flipboard.cn/android.support.v4.content.FileProvider
+  com.tianyancha.skyeye.umeng.message: d2ff59d/com.tianyancha.skyeye/com.umeng.message.provider.MessageProvider
+  icc: 7fe92eb/com.android.phone/.IccProvider
+  com.android.contacts.files: e7cf613/com.android.contacts/android.support.v4.content.FileProvider
+  com.tencent.common.config.provider.QZoneConfigProvider: 9a009ee/com.tencent.mobileqq/com.tencent.common.config.provider.QZoneConfigProvider
+  com.samsung.android.coreapps.easysignup: b4d424f/com.samsung.android.coreapps/.easysignup.db.EasySignUpProvider
+  com.sec.android.daemonapp.ap.yahoostock.stockclock: 48151b3/com.sec.android.daemonapp/.ap.yahoostock.stockclock.db.PublicContentProvider
+  com.sec.android.inputmethod.scloudsync.SipSyncProvider: ea92b1e/com.sec.android.inputmethod/.scloudsync.SipSyncProvider
+  com.samsung.android.providers.context.log.report_app_error_survey: ece1f84/com.samsung.android.providers.context/.log.ReportAppErrorSurveyLogProvider
+  com.samsung.android.providers.context.log.report_app_status_survey: cfc2ec8/com.samsung.android.providers.context/.log.ReportAppStatusSurveyProvider
+  com.sec.spp.provider: 504dab2/com.sec.spp.push/.provider.PushClientProvider
+  com.qq.provider.ebooks3.EbooksProvider: 7db68c6/com.tencent.android.qqdownloader/com.qq.provider.EbooksProvider
+  com.sec.android.app.music.store: 7d0a3c5/com.sec.android.app.music/com.samsung.android.app.music.provider.MusicProvider
+  com.android.settings.files: 79dc44b/com.android.settings/android.support.v4.content.FileProvider
+  com.samsung.android.providers.context.log.exchange_email: 3a590b2/com.samsung.android.providers.context/.log.ExchangeEmailLogProvider
+  com.tencent.android.qqdownloader.settings.provider: 25a27/com.tencent.android.qqdownloader/com.tencent.assistant.db.contentprovider.AstSettingsProvider
+  com.sec.face.provider.FaceProvider: 467f807/com.sec.face/.provider.FaceProvider
+  com.samsung.android.providers.context.log.browse_web: 103a1f2/com.samsung.android.providers.context/.log.BrowseWebLogProvider
+  com.sec.android.app.videoplayer.provider: 47b0835/com.sec.android.app.videoplayer/.db.AllShareProvider
+  com.sec.android.gallery3d.sns.contentprovider: cc6f9f3/com.sec.android.gallery3d/.remote.sns.SNSContentProvider
+  com.android.settings.personalvibration.PersonalVibrationProvider: afc6cf1/com.android.settings/.personalvibration.PersonalVibrationProvider
+  com.sec.provider.videowall: 91cb741/com.sec.android.app.videoplayer/.videowall.ThumbProvider
+  com.samsung.android.providers.context.log.write_document: ee46ba2/com.samsung.android.providers.context/.log.WriteDocumentLogProvider
+  com.sec.android.app.music.albumart: 7d0a3c5/com.sec.android.app.music/com.samsung.android.app.music.provider.MusicProvider
+  com.android.calendar.vcs: 7c2a236/com.android.calendar/android.support.v4.content.FileProvider
+  com.sec.android.gallery3d.provider.GallerySearchProvider: 7401009/com.sec.android.gallery3d/.provider.GallerySearchProvider
+  qq.friendlist: 9bc867d/com.tencent.mobileqq/.content.FriendListProvider
+  com.android.providers.media.documents: 2f56576/com.android.providers.media/.MediaDocumentsProvider
+  com.android.contacts.dumpfile: 6601826/com.android.providers.contacts/.debug.DumpFileProvider
+  com.sec.rshare: 8cc563b/com.samsung.android.coreapps/.rshare.db.RShareProvider
+  com.bst.airmessage.db.AirMessageDBProvider: 8b6074a/com.bst.airmessage/.db.AirMessageDBProvider
+  logs: 5a19da4/com.android.providers.contacts/.CallLogProvider
+  com.sec.android.widgetapp.dualcitywidget: 53c432b/com.sec.android.widgetapp.dualcitywidget/.provider.cmaweather.CmaContentProvider
+  com.samsung.android.providers.context.status.place: 636c599/com.samsung.android.providers.context/.status.PlaceStatusProvider
+  com.android.contacts: 4917d4a/com.android.providers.contacts/.ContactsProvider2
+  com.android.bluetooth.opp: 31312b6/com.android.bluetooth/.opp.BluetoothOppProvider
+  com.sec.android.app.launcher.backup: 457177c/com.sec.android.app.launcher/com.samsung.android.scloud.oem.lib.bnr.BNRClientProivder
+  channels: 73a71b4/com.android.providers.telephony/.ChannelsProvider
+  call_log: 5a19da4/com.android.providers.contacts/.CallLogProvider
+  com.samsung.mms.export.preference.PreferenceProviderExport: e7a142f/com.android.mms/.settings.provider.PreferenceProviderExport
+  com.samsung.android.coreapps.easysignup.public: f900d79/com.samsung.android.coreapps/.easysignup.db.EasySignUpProviderPublic
+  com.tencent.android.qqdownloader.provider: 999917c/com.tencent.android.qqdownloader/com.tencent.assistant.db.contentprovider.AssistantProvider
+  com.android.voicemail: 1e6f520/com.android.providers.contacts/.VoicemailContentProvider
+  com.sec.android.app.music.MusicSearchProvider: 57f68a5/com.sec.android.app.music/com.samsung.android.app.music.provider.MusicSearchProvider
+  com.tencent.android.qqdownloader.localapk.provider: ab17461/com.tencent.android.qqdownloader/com.tencent.assistant.localres.localapk.LocalApkProvider
+  com.android.phone: 1acb458/com.android.phone/.PhoneSearchIndexablesProvider
+  com.sec.dcm.provider.DCMProvider.data: e092c47/com.samsung.dcm/com.sec.dcm.provider.DCMProvider
+  com.samsung.android.providers.context.profile: 3e031ad/com.samsung.android.providers.context/.profile.ProfileProvider
+  com.android.phone.settingsearch.provider: 46c7883/com.android.phone/.SettingSearchProvider
+  com.android.mms: 5c0160c/com.android.mms/android.support.v4.content.FileProvider
+  com.android.mms.csc.PreferenceProvider: 880596a/com.android.mms/.csc.PreferenceProvider
+  qq.readinjoy: dd035a2/com.tencent.mobileqq/cooperation.readinjoy.content.ReadInJoyDataProvider
+  com.samsung.android.coreapps.rshare.quota: 15246e9/com.samsung.android.coreapps/.rshare.db.RQuotaProvider
+  com.sec.android.daemonapp.ap.weathernewsjp.provider: 69e671f/com.sec.android.daemonapp/.ap.weathernewsjp.common.WeatherNewsContentProvider
+  com.tencent.android.qqdownloader.external.provider: d98ca9e/com.tencent.android.qqdownloader/com.tencent.assistant.db.contentprovider.ExternalProvider
+  com.android.mms.SuggestionsProvider: 5663d4c/com.android.mms/.SuggestionsProvider
+  com.sec.spp.reginfo.provider: 34b4f20/com.sec.spp.push/.provider.RegInfoProvider
+  com.tencent.android.qqdownloader.applink.provider: de108ed/com.tencent.android.qqdownloader/com.tencent.assistant.db.contentprovider.AppLinkProvider
+  com.wsomacp.messagelist: 70cdd80/com.wsomacp/.db.XCPDBSqlProvider
+  com.samsung.android.providers.context.log.play_music: e5db6e1/com.samsung.android.providers.context/.log.PlayMusicLogProvider
+  com.tencent.mobileqq.openapi.provider: 16fbf57/com.tencent.mobileqq/.openapi.OpenApiProvider
+  com.android.settings.settingssearchconnect.provider: dc2f2aa/com.android.settings/.settingssearch.SettingsSearchConnectProvider
+  com.samsung.contacts.backup: f5e86f8/com.android.contacts/com.samsung.android.scloud.oem.lib.ClientProvider
+  com.samsung.android.providers.context.log.manage_app_survey: cf22416/com.samsung.android.providers.context/.log.ManageAppSurveyLogProvider
+  com.sec.android.provider.samsungapps: 6d9e72d/com.sec.android.app.samsungapps/.SaProvider
+  flipboard.cn.DataProvider: 79870c0/flipboard.cn/cn.jpush.android.service.DataProvider
+  com.sec.android.inputmethod.implement.setting.provider.KeyboardSettingsProvider: d71b670/com.sec.android.inputmethod/.implement.setting.provider.KeyboardSettingsProvider
+  com.tencent.android.qqdownloader.statistic.provider: a711aa4/com.tencent.android.qqdownloader/com.tencent.assistant.daemon.statistic.ProcessStatisticProvider
+  com.tencent.android.qqdownloader.plugin.provider: d46c35f/com.tencent.android.qqdownloader/com.tencent.assistant.db.contentprovider.PluginProvider
+  com.qq.provider.cache2: 93e367b/com.tencent.android.qqdownloader/com.qq.provider.CacheProvider
+  com.android.providers.contacts.sfinder.FindoSuggestionsProvider: 62a0c1a/com.android.providers.contacts/.sfinder.FindoSuggestionsProvider
+  com.android.phone.backup: 8bd6119/com.android.phone/.BackupRestoreProvider
+  com.android.settings: bb09414/com.android.settings/.search.SettingsSearchIndexablesProvider
+  com.sec.android.daemonapp.ap.edaily.stockclock: 25fe238/com.sec.android.daemonapp/.ap.yahoostock.stockclock.db.PublicContentProviderForEdaily
+  downloads: b7cd9f8/com.android.providers.downloads/.DownloadProvider
+  user_dictionary: dbe5239/com.android.providers.userdictionary/.UserDictionaryProvider
+  com.sec.orca.shopagent.provider: eb5560f/com.samsung.android.coreapps/.shop.provider.ShopProvider
+  com.sec.android.daemonapp.cmaweather.provider: 46dcee5/com.sec.android.daemonapp/.ap.cmaweather.common.CmaContentProvider
+  com.sec.android.app.videoplayer.db.FinDoProvider: 3071c3/com.sec.android.app.videoplayer/.db.FinDoProvider
+  flipboard.auth.china: e86d6fa/flipboard.cn/flipboard.remoteservice.UserContentProvider
+  nwkinfo: a64be04/com.android.providers.telephony/.NwkInfoProvider
+  com.sec.android.app.music.shared: 30989f0/com.sec.android.app.music/com.samsung.android.app.music.provider.SharedProvider
+  media: f9de01d/com.android.providers.media/.MediaProvider
+  com.samsung.android.sm.lowpowercontext: a45b46b/com.samsung.android.sm.provider/com.samsung.android.sm.database.lowpowercontext.LowpowerContextProvider
+  com.samsung.android.providers.context.server: 30996ef/com.samsung.android.providers.context/.server.ServerDBProvider
+  com.android.bluetooth.map.MmsFileProvider: aca6302/com.android.bluetooth/.map.MmsFileProvider
+  com.sec.android.GeoLookout.db: fd54e16/com.sec.android.GeoLookout/.db.DisasterProvider
+  com.samsung.android.coreapps.rshare.setting: 35b3e4d/com.samsung.android.coreapps/.rshare.db.RSettingProvider
+  com.tencent.pangu.fileprovider: a16a8d2/com.tencent.android.qqdownloader/android.support.v4.content.FileProvider
+  com.sec.android.gallery3d.gadget.RotationProvider: eb5d53e/com.sec.android.gallery3d/.gadget.MagazineWidgetRotationProvider
+  com.android.settings.accessibility.sharedaccessibility.backup: 93e5984/com.android.settings/com.samsung.android.scloud.oem.lib.bnr.BNRClientProivder
+  flipboard.remoteservice.feeds.china: 115551c/flipboard.cn/flipboard.remoteservice.FLFeedItemContentProvider
+  com.sec.android.inputmethod.backup: 4ffa4c9/com.sec.android.inputmethod/com.samsung.android.scloud.oem.lib.bnr.BNRClientProivder
+  contacts: 4917d4a/com.android.providers.contacts/.ContactsProvider2
+  com.android.providers.downloads.documents: 5bafdd8/com.android.providers.downloads/.DownloadStorageProvider
+  com.sec.android.app.launcher.settings.id: 2ad1cc/com.sec.android.app.launcher/com.android.launcher2.LauncherProviderID
+  com.android.settings.myplace.MyPlaceProvider: 7875e75/com.android.settings/.myplace.MyPlaceProvider
+  com.sec.android.app.music: 7d0a3c5/com.sec.android.app.music/com.samsung.android.app.music.provider.MusicProvider
+  com.sec.android.app.music.setting: 175e2fd/com.sec.android.app.music/com.samsung.android.app.music.provider.SettingProvider
+  com.sec.android.inputmethod: 1adafca/com.sec.android.inputmethod/com.samsung.android.scloud.oem.lib.sync.SyncClientProivder
+  com.samsung.android.providers.context.log.use_app: f9fb954/com.samsung.android.providers.context/.log.UseAppLogProvider
+  com.tencent.assistant.db.contentprovider.AstDaemonDBProvider: c7b442b/com.tencent.android.qqdownloader/com.tencent.assistant.db.contentprovider.AstDaemonDbProvider
+  com.sec.android.daemonapp.ap.accuweather.provider: 2e0f2b1/com.sec.android.daemonapp/.ap.common.WeatherContentProvider
+  com.samsung.android.providers.context.log.use_app_feature_survey: ca8deec/com.samsung.android.providers.context/.log.UseAppFeatureSurveyLogProvider
+  com.sec.android.daemonapp.ap.kweather.provider: dd55a5a/com.sec.android.daemonapp/.ap.kweather.common.KWeatherContentProvider
+  com.samsung.dialer.calllog.LogsFindoSuggestionsProvider: 62a0c1a/com.android.providers.contacts/.sfinder.FindoSuggestionsProvider
+  com.android.settings.mysettings: 37ec226/com.android.settings/.favorite.MySettingsProvider
+  com.samsung.android.providers.context.log.exchange_call: 32bf5be/com.samsung.android.providers.context/.log.ExchangeCallLogProvider
+  com.sec.android.gallery3d.provider: 9ac4968/com.sec.android.gallery3d/.provider.GalleryProvider
+  com.sec.android.calendar.preference: 15b174e/com.android.calendar/.preference.PreferenceProvider
+  com.sec.android.app.samsungapps.fileProvider: d954b52/com.sec.android.app.samsungapps/android.support.v4.content.FileProvider
+  com.android.exchange.directory.provider: 7bb97d8/com.android.exchange/.provider.ExchangeDirectoryProvider
+  com.tencent.mqq.shared_file_accessor.ContentProviderImpl: da245e3/com.tencent.mobileqq/com.tencent.mqq.shared_file_accessor.ContentProviderImpl
+  com.samsung.android.video.fileprovider: 5e9455e/com.sec.android.app.videoplayer/android.support.v4.content.FileProvider
+  com.sec.android.calendar.CalendarSuggestionsProvider: 32d2bb4/com.android.calendar/.globalSearch.CalendarSuggestionsProvider
+  com.android.jcontacts: 4917d4a/com.android.providers.contacts/.ContactsProvider2
+  com.samsung.android.providers.context.log.use_app_survey: 6a47d40/com.samsung.android.providers.context/.log.UseAppSurveyLogProvider
+  com.samsung.android.coreapps.contact: bf3d8ec/com.samsung.android.coreapps/.contact.db.CAgentProvider
+  com.sec.android.gallery3d.picasa.contentprovider: 59ac929/com.sec.android.gallery3d/.remote.picasa.PicasaContentProvider
+

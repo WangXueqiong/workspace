@@ -1,0 +1,356 @@
+ACTIVITY MANAGER PENDING INTENTS (dumpsys activity intents)
+  * PendingIntentRecord{2ae47c2 android broadcastIntent key.isShadow:false}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestCode=196611 requestResolvedType=null
+    requestIntent=act=android.net.dhcp.DhcpClient.wlan0.RENEW flg=0x4000000 FromType=0xffffffff pkg=android
+  * PendingIntentRecord{2a4f44d se.dirac.acs broadcastIntent key.isShadow:false}
+    uid=10052 packageName=se.dirac.acs type=broadcastIntent flags=0x0
+    requestIntent=act=se.dirac.acs.DIRAC_LICENSE_CHECK FromType=0xffffffff
+  * PendingIntentRecord{8d8233b com.tencent.mm broadcastIntent key.isShadow:false}
+    uid=10134 packageName=com.tencent.mm type=broadcastIntent flags=0x0
+    requestCode=74 requestResolvedType=null
+    requestIntent=act=ALARM_ACTION(6174) FromType=0xffffffff (has extras)
+  * PendingIntentRecord{857ae02 com.leeco.regservice broadcastIntent key.isShadow:false}
+    uid=1000 packageName=com.leeco.regservice type=broadcastIntent flags=0x0
+    requestIntent=act=cn.richinfo.dmyk.action.APPINFO FromType=0xffffffff (has extras)
+  * PendingIntentRecord{71c72a2 com.tianyancha.skyeye broadcastIntent key.isShadow:false}
+    uid=10140 packageName=com.tianyancha.skyeye type=broadcastIntent flags=0x0
+    requestIntent=act=com.taobao.accs.intent.action.COMMAND FromType=0xffffffff pkg=com.tianyancha.skyeye (has extras)
+    sent=true canceled=false
+  * PendingIntentRecord{f6346ef android broadcastIntent key.isShadow:false}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=com.android.server.action.UPDATE_TWILIGHT_STATE FromType=0xffffffff
+  * PendingIntentRecord{d825f9c android broadcastIntent key.isShadow:false}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=com.android.server.device_idle.STEP_IDLE_STATE flg=0x40000000 FromType=0xffffffff pkg=android
+  * PendingIntentRecord{84c6da5 com.android.phone broadcastIntent key.isShadow:false}
+    uid=1001 packageName=com.android.phone type=broadcastIntent flags=0x0
+    requestIntent=act=com.android.ims.IMS_INCOMING_CALL flg=0x10000000 FromType=0xffffffff
+  * PendingIntentRecord{a0a2fdd android broadcastIntent key.isShadow:false}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestCode=196709 requestResolvedType=null
+    requestIntent=act=android.net.dhcp.DhcpClient.wlan0.KICK flg=0x4000000 FromType=0xffffffff pkg=android
+    sent=true canceled=false
+  * PendingIntentRecord{c2a7d1 android broadcastIntent key.isShadow:false}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=android.content.jobscheduler.JOB_DELAY_EXPIRED FromType=0xffffffff
+    sent=true canceled=false
+  * PendingIntentRecord{491257a com.tencent.mm broadcastIntent key.isShadow:false}
+    uid=10134 packageName=com.tencent.mm type=broadcastIntent flags=0x0
+    requestIntent=act=ACTION.cg.273660150015 FromType=0xffffffff pkg=com.tencent.mm
+  * PendingIntentRecord{57cee55 com.letv.android.powercontroller broadcastIntent key.isShadow:false}
+    uid=10022 packageName=com.letv.android.powercontroller type=broadcastIntent flags=0x0
+    requestIntent=act=com.letv.powercontroller.check_end flg=0x40000000 FromType=0xffffffff pkg=com.letv.android.powercontroller
+  * PendingIntentRecord{1ab183f com.letv.android.powercontroller broadcastIntent key.isShadow:false}
+    uid=10022 packageName=com.letv.android.powercontroller type=broadcastIntent flags=0x0
+    requestIntent=act=com.letv.powercontroller.check_start flg=0x40000000 FromType=0xffffffff pkg=com.letv.android.powercontroller
+  * PendingIntentRecord{e8a537 android broadcastIntent key.isShadow:false}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=android.content.jobscheduler.JOB_DEADLINE_EXPIRED FromType=0xffffffff
+  * PendingIntentRecord{1407de8 com.stv.stvpush broadcastIntent key.isShadow:false}
+    uid=10014 packageName=com.stv.stvpush type=broadcastIntent flags=0x0
+    requestCode=3 requestResolvedType=null
+    requestIntent=act=com.stv.stvpush.ACTION_REPLY_TIMEOUT FromType=0xffffffff
+  * PendingIntentRecord{194512b android broadcastIntent key.isShadow:false}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=com.android.server.WifiManager.action.GROUP_START_SCAN flg=0x4000000 FromType=0xffffffff pkg=android
+  * PendingIntentRecord{f23d988 com.android.deskclock startActivity key.isShadow:false}
+    uid=10051 packageName=com.android.deskclock type=startActivity flags=0x0
+    requestIntent=FromType=0xffffffff cmp=com.android.deskclock/.DeskClockForWidgets (has extras)
+  * PendingIntentRecord{5bb3f21 com.android.music broadcastIntent key.isShadow:false}
+    uid=10080 packageName=com.android.music type=broadcastIntent flags=0x0
+    requestIntent=act=android.intent.action.MEDIA_BUTTON FromType=0xffffffff cmp=com.android.music/.receiver.MediaButtonIntentReceiver
+    sent=true canceled=false
+  * PendingIntentRecord{27c1f46 android startActivity key.isShadow:false}
+    uid=1000 packageName=android type=startActivity flags=0x0
+    requestIntent=act=android.settings.INPUT_METHOD_SETTINGS FromType=0xffffffff
+  * PendingIntentRecord{684d507 android startActivity key.isShadow:false}
+    uid=1000 packageName=android type=startActivity flags=0x0
+    requestIntent=act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x5c800000 FromType=0xffffffff cmp=com.android.settings/.UsbSettings
+  * PendingIntentRecord{603b25f com.mediatek.selfregister startService key.isShadow:false}
+    uid=1001 packageName=com.mediatek.selfregister type=startService flags=0x40000000
+    requestIntent=act=com.mediatek.selfregister.RETRY FromType=0xffffffff cmp=com.mediatek.selfregister/.RegisterService
+  * PendingIntentRecord{9d7c1f5 android broadcastIntent key.isShadow:false}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=com.android.internal.location.ALARM_WAKEUP FromType=0xffffffff
+  * PendingIntentRecord{4f0d61d com.letv.android.ota startService key.isShadow:false}
+    uid=10081 packageName=com.letv.android.ota type=startService flags=0x0
+    requestIntent=act=com.letv.android.ota.ACTION_CHECKNEW_WEEKLY FromType=0xffffffff cmp=com.letv.android.ota/.service.UpdateService
+  * PendingIntentRecord{9e10634 com.tencent.mm startService key.isShadow:false}
+    uid=10134 packageName=com.tencent.mm type=startService flags=0x0
+    requestCode=1 requestResolvedType=null
+    requestIntent=act=com.tencent.failnotification.omit_msg FromType=0xffffffff cmp=com.tencent.mm/.plugin.notification.ui.FailSendMsgNotification$FailSendNormalMsgNotificationService (has extras)
+  * PendingIntentRecord{ab6d964 com.letv.bsp.crashhandler broadcastIntent key.isShadow:false}
+    uid=1000 packageName=com.letv.bsp.crashhandler type=broadcastIntent flags=0x0
+    requestIntent=act=letv.intent.action.crashhandler.ALARM_SUBMIT_BUG FromType=0xffffffff cmp=com.letv.bsp.crashhandler/.UserSubmitReceiver
+    sent=true canceled=false
+  * PendingIntentRecord{6f2f785 com.android.launcher3 startService key.isShadow:false}
+    uid=10010 packageName=com.android.launcher3 type=startService flags=0x0
+    requestIntent=FromType=0xffffffff cmp=com.android.launcher3/com.yidian.news.HipuService (has extras)
+  * PendingIntentRecord{6603676 com.letv.android.powercontroller broadcastIntent key.isShadow:false}
+    uid=10022 packageName=com.letv.android.powercontroller type=broadcastIntent flags=0x0
+    requestIntent=act=com.letv.powercontroller.pull flg=0x40000000 FromType=0xffffffff pkg=com.letv.android.powercontroller
+  * PendingIntentRecord{d0c5677 com.leeco.regservice broadcastIntent key.isShadow:false}
+    uid=1000 packageName=com.leeco.regservice type=broadcastIntent flags=0x0
+    requestIntent=act=cn.richinfo.dmyk.action.HEARTBEAT FromType=0xffffffff (has extras)
+  * PendingIntentRecord{4ebac5d com.tencent.mm broadcastIntent key.isShadow:false}
+    uid=10134 packageName=com.tencent.mm type=broadcastIntent flags=0x0
+    requestIntent=act=ACTION.cg.278661644631 FromType=0xffffffff pkg=com.tencent.mm
+  * PendingIntentRecord{3cae9d2 com.tencent.mm broadcastIntent key.isShadow:false}
+    uid=10134 packageName=com.tencent.mm type=broadcastIntent flags=0x0
+    requestIntent=act=ACTION.cg.1130901235143 FromType=0xffffffff pkg=com.tencent.mm
+  * PendingIntentRecord{b0fbaa3 android broadcastIntent key.isShadow:false}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestCode=1 requestResolvedType=null
+    requestIntent=act=com.android.server.WifiManager.action.STOP_SCAN FromType=0xffffffff
+  * PendingIntentRecord{da251a0 com.tencent.mm startService key.isShadow:false}
+    uid=10134 packageName=com.tencent.mm type=startService flags=0x0
+    requestCode=1 requestResolvedType=null
+    requestIntent=act=com.tencent.failnotification.click_msg FromType=0xffffffff cmp=com.tencent.mm/.plugin.notification.ui.FailSendMsgNotification$FailSendNormalMsgNotificationService (has extras)
+  * PendingIntentRecord{4bbb159 com.tencent.mm startService key.isShadow:false}
+    uid=10134 packageName=com.tencent.mm type=startService flags=0x0
+    requestCode=1 requestResolvedType=null
+    requestIntent=act=com.tencent.failnotificaiton.resend_msg flg=0x10000000 FromType=0xffffffff cmp=com.tencent.mm/.plugin.notification.ui.FailSendMsgNotification$FailSendNormalMsgNotificationService (has extras)
+  * PendingIntentRecord{fb8d237 com.stv.stvpush broadcastIntent key.isShadow:false}
+    uid=10014 packageName=com.stv.stvpush type=broadcastIntent flags=0x0
+    requestIntent=act=com.stv.stvpush.ACTION_REQ_IP FromType=0xffffffff
+  * PendingIntentRecord{7c9d11e android broadcastIntent key.isShadow:false}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestCode=5 requestResolvedType=null
+    requestIntent=act=android.app.backup.intent.INIT FromType=0xffffffff
+  * PendingIntentRecord{9d95dff com.tencent.mm broadcastIntent key.isShadow:false}
+    uid=10134 packageName=com.tencent.mm type=broadcastIntent flags=0x0
+    requestIntent=act=ACTION.cg.275894591092 FromType=0xffffffff pkg=com.tencent.mm
+  * PendingIntentRecord{6b8fb5a com.leeco.regservice broadcastIntent key.isShadow:false}
+    uid=1000 packageName=com.leeco.regservice type=broadcastIntent flags=0x0
+    requestIntent=act=cn.richinfo.dmyk.action.APN_RETRY FromType=0xffffffff
+  * PendingIntentRecord{7faa581 com.android.mms broadcastIntent key.isShadow:false}
+    uid=10020 packageName=com.android.mms type=broadcastIntent flags=0x0
+    requestIntent=act=remain_connect_action FromType=0xffffffff
+    sent=true canceled=false
+  * PendingIntentRecord{e6ae7cc android broadcastIntent key.isShadow:false}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestCode=1 requestResolvedType=null
+    requestIntent=act=android.app.backup.intent.RUN flg=0x40000000 FromType=0xffffffff
+  * PendingIntentRecord{63073d5 android broadcastIntent key.isShadow:false}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestCode=196712 requestResolvedType=null
+    requestIntent=act=android.net.dhcp.DhcpClient.wlan0.ONESHOT_TIMEOUT flg=0x4000000 FromType=0xffffffff pkg=android
+  * PendingIntentRecord{91cf1d6 com.tencent.mm broadcastIntent key.isShadow:false}
+    uid=10134 packageName=com.tencent.mm type=broadcastIntent flags=0x0
+    requestCode=71 requestResolvedType=null
+    requestIntent=act=ALARM_ACTION(6174) FromType=0xffffffff (has extras)
+    sent=true canceled=false
+  * PendingIntentRecord{90ad240 com.letv.agnes broadcastIntent key.isShadow:false}
+    uid=10115 packageName=com.letv.agnes type=broadcastIntent flags=0x0
+    requestIntent=act=com.letv.agnes.heartbeat FromType=0xffffffff
+  * PendingIntentRecord{d7b7326 com.leeco.regservice broadcastIntent key.isShadow:false}
+    uid=1000 packageName=com.leeco.regservice type=broadcastIntent flags=0x0
+    requestIntent=act=cn.richinfo.dmyk.action.APN FromType=0xffffffff (has extras)
+  * PendingIntentRecord{9ed0a15 com.tencent.mm startService key.isShadow:false}
+    uid=10134 packageName=com.tencent.mm type=startService flags=0x0
+    requestCode=2 requestResolvedType=null
+    requestIntent=act=com.tencent.failnotification.omit_sns FromType=0xffffffff cmp=com.tencent.mm/.plugin.notification.ui.FailSendMsgNotification$FailSendSnsMsgNotificationService (has extras)
+  * PendingIntentRecord{63605e android broadcastIntent key.isShadow:false}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=com.android.server.NetworkTimeUpdateService.action.POLL FromType=0xffffffff
+  * PendingIntentRecord{b55e9d6 android broadcastIntent key.isShadow:false}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=com.android.server.task.controllers.IdleController.ACTION_TRIGGER_IDLE flg=0x40000000 FromType=0xffffffff pkg=android
+  * PendingIntentRecord{43de12a com.tencent.mm startActivity key.isShadow:false}
+    uid=10134 packageName=com.tencent.mm type=startActivity flags=0x0
+    requestIntent=flg=0x20000000 FromType=0xffffffff cmp=com.tencent.mm/.plugin.nfc_open.ui.NfcWebViewUI
+  * PendingIntentRecord{400b0b2 com.tencent.mm broadcastIntent key.isShadow:false}
+    uid=10134 packageName=com.tencent.mm type=broadcastIntent flags=0x0
+    requestIntent=FromType=0xffffffff cmp=com.tencent.mm/.booter.MMReceivers$AlarmReceiver
+    sent=true canceled=false
+  * PendingIntentRecord{1e649c7 com.letv.android.systemreport startService key.isShadow:false}
+    uid=1000 packageName=com.letv.android.systemreport type=startService flags=0x0
+    requestIntent=act=letv.intent.action.DAILY_BATTERY_REPORT FromType=0xffffffff cmp=com.letv.android.systemreport/.service.SystemReportService
+  * PendingIntentRecord{96fdb1b android broadcastIntent key.isShadow:false}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestCode=2 requestResolvedType=null
+    requestIntent=act=com.android.server.WifiManager.action.STOP_HOTSPOT FromType=0xffffffff
+  * PendingIntentRecord{79d684c com.letv.app.appstore broadcastIntent key.isShadow:false}
+    uid=10088 packageName=com.letv.app.appstore type=broadcastIntent flags=0x0
+    requestIntent=act=com.letv.app.appstore.CHECK_UPDATE FromType=0xffffffff
+    sent=true canceled=false
+  * PendingIntentRecord{ef34894 com.tencent.android.location broadcastIntent key.isShadow:false}
+    uid=10102 packageName=com.tencent.android.location type=broadcastIntent flags=0x0
+    requestIntent=act=action.scheduler.access.trigger.timer FromType=0xffffffff
+  * PendingIntentRecord{3050bdc android broadcastIntent key.isShadow:false}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=com.android.fp.alarm.report FromType=0xffffffff
+  * PendingIntentRecord{67174f com.icoolme.android.weather broadcastIntent key.isShadow:false}
+    uid=10114 packageName=com.icoolme.android.weather type=broadcastIntent flags=0x0
+    requestIntent=act=com.aicoolme.android.weather.updateweather FromType=0xffffffff cmp=com.icoolme.android.weather/.receiver.AutoUpdateReceiver (has extras)
+    sent=true canceled=false
+  * PendingIntentRecord{b44b4b8 com.tencent.mm startService key.isShadow:false}
+    uid=10134 packageName=com.tencent.mm type=startService flags=0x0
+    requestCode=1 requestResolvedType=null
+    requestIntent=act=com.tencent.failnotification.dismiss_msg FromType=0xffffffff cmp=com.tencent.mm/.plugin.notification.ui.FailSendMsgNotification$FailSendNormalMsgNotificationService (has extras)
+  * PendingIntentRecord{f399b9b com.leeco.regservice broadcastIntent key.isShadow:false}
+    uid=1000 packageName=com.leeco.regservice type=broadcastIntent flags=0x0
+    requestIntent=act=cn.richinfo.dmyk.action.HEARTBEAT_RETRY FromType=0xffffffff
+  * PendingIntentRecord{82455ca android broadcastIntent key.isShadow:false}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=com.android.server.WifiManager.action.START_PNO flg=0x4000000 FromType=0xffffffff pkg=android
+  * PendingIntentRecord{a03e6f6 com.android.launcher3 broadcastIntent key.isShadow:false}
+    uid=10010 packageName=com.android.launcher3 type=broadcastIntent flags=0x0
+    requestIntent=act=com.letv.lejianplugin.action.CHECK_PLUGIN_UPGRADE FromType=0xffffffff
+    sent=true canceled=false
+  * PendingIntentRecord{9a13291 android startActivity key.isShadow:false}
+    uid=1000 packageName=android type=startActivity flags=0x0
+    requestIntent=act=android.settings.APPLICATION_DETAILS_SETTINGS dat=package:com.tencent.mm FromType=0xffffffff
+  * PendingIntentRecord{992147b com.tencent.mm broadcastIntent key.isShadow:false}
+    uid=10134 packageName=com.tencent.mm type=broadcastIntent flags=0x0
+    requestCode=1 requestResolvedType=null
+    requestIntent=act=com.tencent.mm.TrafficStatsReceiver FromType=0xffffffff
+    sent=true canceled=false
+  * PendingIntentRecord{430e5f6 com.tencent.mm startService key.isShadow:false}
+    uid=10134 packageName=com.tencent.mm type=startService flags=0x0
+    requestCode=2 requestResolvedType=null
+    requestIntent=act=com.tencent.failnotification.dismiss_sns FromType=0xffffffff cmp=com.tencent.mm/.plugin.notification.ui.FailSendMsgNotification$FailSendSnsMsgNotificationService (has extras)
+  * PendingIntentRecord{1270df7 android broadcastIntent key.isShadow:false}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestCode=1 requestResolvedType=null
+    requestIntent=act=android.net.wifi.DHCPV6_RENEW FromType=0xffffffff
+  * PendingIntentRecord{724d008 com.android.launcher3 broadcastIntent key.isShadow:false}
+    uid=10010 packageName=com.android.launcher3 type=broadcastIntent flags=0x0
+    requestIntent=act=com.le.intent.ACTION_CALENDAR_CHANGED FromType=0xffffffff
+  * PendingIntentRecord{7ec6464 android broadcastIntent key.isShadow:false}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=com.mediatek.location.providercheck FromType=0xffffffff
+  * PendingIntentRecord{14d17e0 android broadcastIntent key.isShadow:false}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestCode=196711 requestResolvedType=null
+    requestIntent=act=android.net.dhcp.DhcpClient.wlan0.TIMEOUT flg=0x4000000 FromType=0xffffffff pkg=android
+  * PendingIntentRecord{f9566cd com.koushikdutta.vysor broadcastIntent key.isShadow:false}
+    uid=10131 packageName=com.koushikdutta.vysor type=broadcastIntent flags=0x0
+    requestIntent=act=com.koushikdutta.vysor.5579a964-80dc-43ad-8ac9-d6fad6120b2c.SWITCH_KEYBOARD FromType=0xffffffff
+  * PendingIntentRecord{7e92d0d com.stv.stvpush broadcastIntent key.isShadow:false}
+    uid=10014 packageName=com.stv.stvpush type=broadcastIntent flags=0x0
+    requestCode=-1 requestResolvedType=null
+    requestIntent=act=com.stv.stvpush.ACTION_REPLY_TIMEOUT FromType=0xffffffff
+  * PendingIntentRecord{77d6b82 android startActivity key.isShadow:false}
+    uid=1000 packageName=android type=startActivity flags=0x0
+    requestIntent=act=android.net.wifi.PICK_WIFI_NETWORK FromType=0xffffffff (has extras)
+  * PendingIntentRecord{b06921a com.tianyancha.skyeye startService key.isShadow:false}
+    uid=10140 packageName=com.tianyancha.skyeye type=startService flags=0x0
+    requestIntent=act=com.tianyancha.skyeye.intent.action.COCKROACH FromType=0xffffffff (has extras)
+  * PendingIntentRecord{40bc3e6 com.letv.android.powercontroller broadcastIntent key.isShadow:false}
+    uid=10022 packageName=com.letv.android.powercontroller type=broadcastIntent flags=0x0
+    requestIntent=act=com.letv.android.supermanager.ACTION_RUBBISH_CLEAN_NOTIFY FromType=0xffffffff pkg=com.letv.android.powercontroller
+    sent=true canceled=false
+  * PendingIntentRecord{1a9c4eb android broadcastIntent key.isShadow:false}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=com.android.server.action.NETWORK_STATS_POLL FromType=0xffffffff
+    sent=true canceled=false
+  * PendingIntentRecord{fb49293 android broadcastIntent key.isShadow:false}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=android.net.proxy.PAC_REFRESH FromType=0xffffffff
+  * PendingIntentRecord{53d62d0 com.letv.android.freeflow startService key.isShadow:false}
+    uid=10012 packageName=com.letv.android.freeflow type=startService flags=0x0
+    requestIntent=act=com.letv.freeflow.POLL_IP_LIST FromType=0xffffffff cmp=com.letv.android.freeflow/.service.WorkService (has extras)
+  * PendingIntentRecord{81c9b72 com.android.dialer broadcastIntent key.isShadow:false}
+    uid=10006 packageName=com.android.dialer type=broadcastIntent flags=0x0
+    requestIntent=act=com.letv.yellowpageplugin.action.CHECK_PLUGIN_UPGRADE FromType=0xffffffff
+    sent=true canceled=false
+  * PendingIntentRecord{c1ea2c9 com.letv.android.powercontroller broadcastIntent key.isShadow:false}
+    uid=10022 packageName=com.letv.android.powercontroller type=broadcastIntent flags=0x0
+    requestIntent=act=com.letv.powercontroller.sleep flg=0x40000000 FromType=0xffffffff pkg=com.letv.android.powercontroller
+  * PendingIntentRecord{e2fbb44 android broadcastIntent key.isShadow:false}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=com.android.server.task.controllers.BgDexOptController.ACTION_TRIGGER_BGDEXOPT flg=0x40000000 FromType=0xffffffff pkg=android
+    sent=true canceled=false
+  * PendingIntentRecord{88af7da android broadcastIntent key.isShadow:false}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=com.android.server.WifiManager.action.START_SCAN flg=0x4000000 FromType=0xffffffff pkg=android
+    sent=true canceled=false
+  * PendingIntentRecord{436c7cd android broadcastIntent key.isShadow:false}
+    uid=1000 packageName=android type=broadcastIntent flags=0x4000000
+    requestIntent=act=android.intent.action.DATE_CHANGED flg=0x20000000 FromType=0xffffffff
+  * PendingIntentRecord{c2fb2ae android broadcastIntent key.isShadow:false}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=com.letv.android.action.REPORT_AGNES FromType=0xffffffff
+  * PendingIntentRecord{76746f7 android broadcastIntent key.isShadow:false}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=android.intent.action.TIME_TICK flg=0x50000000 FromType=0xffffffff
+    sent=true canceled=false
+  * PendingIntentRecord{a3cf25 com.stv.stvpush broadcastIntent key.isShadow:false}
+    uid=10014 packageName=com.stv.stvpush type=broadcastIntent flags=0x0
+    requestIntent=act=com.stv.stvpush.ACTION_CHECK_RUNNING FromType=0xffffffff
+    sent=true canceled=false
+  * PendingIntentRecord{1c8925d com.android.providers.calendar broadcastIntent key.isShadow:false}
+    uid=10002 packageName=com.android.providers.calendar type=broadcastIntent flags=0x0
+    requestIntent=act=com.android.providers.calendar.SCHEDULE_ALARM FromType=0xffffffff cmp=com.android.providers.calendar/.CalendarReceiver
+  * PendingIntentRecord{b78f139 com.letv.android.hawk broadcastIntent key.isShadow:false}
+    uid=1000 packageName=com.letv.android.hawk type=broadcastIntent flags=0x0
+    requestIntent=act=letv.intent.action.UPLOAD_CONTENT FromType=0xffffffff cmp=com.letv.android.hawk/com.letv.android.kepler.KeplerReceiver
+  * PendingIntentRecord{51ecd62 android broadcastIntent key.isShadow:false}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=com.android.server.WifiManager.action.DEVICE_IDLE FromType=0xffffffff
+  * PendingIntentRecord{f1abdce com.tencent.mm broadcastIntent key.isShadow:false}
+    uid=10134 packageName=com.tencent.mm type=broadcastIntent flags=0x0
+    requestIntent=act=ACTION.cg.275611082554 FromType=0xffffffff pkg=com.tencent.mm
+  * PendingIntentRecord{f8bc4ef com.tencent.mm startService key.isShadow:false}
+    uid=10134 packageName=com.tencent.mm type=startService flags=0x0
+    requestCode=2 requestResolvedType=null
+    requestIntent=act=com.tencent.failnotificaiton.resend_sns flg=0x10000000 FromType=0xffffffff cmp=com.tencent.mm/.plugin.notification.ui.FailSendMsgNotification$FailSendSnsMsgNotificationService (has extras)
+  * PendingIntentRecord{d0fbceb com.stv.stvpush broadcastIntent key.isShadow:false}
+    uid=10014 packageName=com.stv.stvpush type=broadcastIntent flags=0x0
+    requestIntent=act=com.stv.stvpush.ACTION_HEART_BEAT FromType=0xffffffff
+    sent=true canceled=false
+  * PendingIntentRecord{45ddbfc com.tencent.mm startService key.isShadow:false}
+    uid=10134 packageName=com.tencent.mm type=startService flags=0x0
+    requestCode=2 requestResolvedType=null
+    requestIntent=act=com.tencent.failnotification.click_sns FromType=0xffffffff cmp=com.tencent.mm/.plugin.notification.ui.FailSendMsgNotification$FailSendSnsMsgNotificationService (has extras)
+  * PendingIntentRecord{fa20344 com.tencent.mm broadcastIntent key.isShadow:false}
+    uid=10134 packageName=com.tencent.mm type=broadcastIntent flags=0x0
+    requestCode=72 requestResolvedType=null
+    requestIntent=act=ALARM_ACTION(6174) FromType=0xffffffff (has extras)
+  * PendingIntentRecord{6c02a08 com.letv.bugpostbox startService key.isShadow:false}
+    uid=2000 packageName=com.letv.bugpostbox type=startService flags=0x0
+    requestIntent=act=bugpost.check.weekly FromType=0xffffffff cmp=com.letv.bugpostbox/.core.uploadEngine.ExceptionSendService
+  * PendingIntentRecord{5e5a285 android startActivity key.isShadow:false}
+    uid=1000 packageName=android type=startActivity flags=0x0
+    requestIntent=act=android.intent.action.CHOOSER FromType=0xffffffff (has extras)
+  * PendingIntentRecord{8cccd35 com.tencent.mm broadcastIntent key.isShadow:false}
+    uid=10134 packageName=com.tencent.mm type=broadcastIntent flags=0x0
+    requestCode=73 requestResolvedType=null
+    requestIntent=act=ALARM_ACTION(6174) FromType=0xffffffff (has extras)
+    sent=true canceled=false
+  * PendingIntentRecord{f1205fb android broadcastIntent key.isShadow:false}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=com.android.internal.location.ALARM_TIMEOUT FromType=0xffffffff
+  * PendingIntentRecord{5fe7f49 com.letv.android.hawk broadcastIntent key.isShadow:false}
+    uid=1000 packageName=com.letv.android.hawk type=broadcastIntent flags=0x0
+    requestIntent=act=remain_connect_action FromType=0xffffffff
+  * PendingIntentRecord{96f81e2 com.android.systemui broadcastIntent key.isShadow:false}
+    uid=10038 packageName=com.android.systemui type=broadcastIntent flags=0x0
+    requestIntent=act=com.letv.android.intent.ACTION_SET_ALARM FromType=0xffffffff
+  * PendingIntentRecord{228e8da com.letv.android.powercontroller broadcastIntent key.isShadow:false}
+    uid=10022 packageName=com.letv.android.powercontroller type=broadcastIntent flags=0x0
+    requestIntent=act=com.letv.powercontroller.check_sooc flg=0x40000000 FromType=0xffffffff pkg=com.letv.android.powercontroller
+  * PendingIntentRecord{a174410 com.letv.android.powercontroller broadcastIntent key.isShadow:false}
+    uid=10022 packageName=com.letv.android.powercontroller type=broadcastIntent flags=0x0
+    requestIntent=act=com.letv.powercontroller.check_bg flg=0x40000000 FromType=0xffffffff pkg=com.letv.android.powercontroller
+    sent=true canceled=false
+  * PendingIntentRecord{4f9c10b com.letv.android.freeflow startService key.isShadow:false}
+    uid=10012 packageName=com.letv.android.freeflow type=startService flags=0x0
+    requestIntent=act=com.letv.freeflow.GET_FREE_TRAFFIC FromType=0xffffffff cmp=com.letv.android.freeflow/.service.WorkService (has extras)
+  * PendingIntentRecord{9717c7c com.letv.android.themestore broadcastIntent key.isShadow:false}
+    uid=10090 packageName=com.letv.android.themestore type=broadcastIntent flags=0x0
+    requestIntent=act=com.google.android.gms.analytics.ANALYTICS_DISPATCH FromType=0xffffffff cmp=com.letv.android.themestore/com.google.android.gms.analytics.AnalyticsReceiver
+  * PendingIntentRecord{aabbe8 com.tencent.mm startActivity key.isShadow:false}
+    uid=10134 packageName=com.tencent.mm type=startActivity flags=0x0
+    requestCode=4097 requestResolvedType=null
+    requestIntent=flg=0x24000000 FromType=0xffffffff cmp=com.tencent.mm/.ui.LauncherUI (has extras)
+    sent=true canceled=false
+  * PendingIntentRecord{b62e201 android broadcastIntent key.isShadow:false}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=android.settings.SHOW_INPUT_METHOD_PICKER FromType=0xffffffff
+  * PendingIntentRecord{ad86fde android broadcastIntent key.isShadow:false}
+    uid=1000 packageName=android type=broadcastIntent flags=0x0
+    requestIntent=act=android.content.syncmanager.SYNC_ALARM FromType=0xffffffff
+

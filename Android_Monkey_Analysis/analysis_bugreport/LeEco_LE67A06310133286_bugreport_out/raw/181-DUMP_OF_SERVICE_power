@@ -1,0 +1,157 @@
+POWER MANAGER (dumpsys power)
+
+Power Manager State:
+  DEBUG=false
+  DEBUG_SPEW=false
+  mDirty=0x0
+  mWakefulness=Awake
+  mWakefulnessChanging=false
+  mIsPowered=true
+  mPlugType=2
+  mBatteryLevel=100
+  mBatteryLevelWhenDreamStarted=0
+  mDockState=0
+  mStayOn=false
+  mProximityPositive=false
+  mBootCompleted=true
+  mSystemReady=true
+  mHalAutoSuspendModeEnabled=false
+  mHalInteractiveModeEnabled=true
+  mWakeLockSummary=0x0
+  mUserActivitySummary=0x1
+  mRequestWaitForNegativeProximity=false
+  mSandmanScheduled=false
+  mSandmanSummoned=false
+  mLowPowerModeEnabled=false
+  mBatteryLevelLow=false
+  mDeviceIdleMode=false
+  mDeviceIdleWhitelist=[10014]
+  mDeviceIdleTempWhitelist=[]
+  mLastWakeTime=122301 (2786626 ms ago)
+  mLastSleepTime=55293 (2853634 ms ago)
+  mLastUserActivityTime=2904235 (4692 ms ago)
+  mLastUserActivityTimeNoChangeLights=2856059 (52868 ms ago)
+  mLastInteractivePowerHintTime=2904235 (4692 ms ago)
+  mLastScreenBrightnessBoostTime=0 (2908927 ms ago)
+  mScreenBrightnessBoostInProgress=false
+  mDisplayReady=true
+  mHoldingWakeLockSuspendBlocker=false
+  mHoldingDisplaySuspendBlocker=true
+
+Settings and Configuration:
+  mDecoupleHalAutoSuspendModeFromDisplayConfig=false
+  mDecoupleHalInteractiveModeFromDisplayConfig=false
+  mWakeUpWhenPluggedOrUnpluggedConfig=true
+  mWakeUpWhenPluggedOrUnpluggedInTheaterModeConfig=false
+  mTheaterModeEnabled=false
+  mSuspendWhenScreenOffDueToProximityConfig=true
+  mDreamsSupportedConfig=true
+  mDreamsEnabledByDefaultConfig=true
+  mDreamsActivatedOnSleepByDefaultConfig=false
+  mDreamsActivatedOnDockByDefaultConfig=true
+  mDreamsEnabledOnBatteryConfig=false
+  mDreamsBatteryLevelMinimumWhenPoweredConfig=-1
+  mDreamsBatteryLevelMinimumWhenNotPoweredConfig=15
+  mDreamsBatteryLevelDrainCutoffConfig=5
+  mDreamsEnabledSetting=true
+  mDreamsActivateOnSleepSetting=false
+  mDreamsActivateOnDockSetting=true
+  mDozeAfterScreenOffConfig=false
+  mLowPowerModeSetting=false
+  mAutoLowPowerModeConfigured=false
+  mAutoLowPowerModeSnoozing=false
+  mMinimumScreenOffTimeoutConfig=10000
+  mMaximumScreenDimDurationConfig=7000
+  mMaximumScreenDimRatioConfig=0.20000005
+  mScreenOffTimeoutSetting=1800000
+  mSleepTimeoutSetting=-1
+  mMaximumScreenOffTimeoutFromDeviceAdmin=2147483647 (enforced=false)
+  mStayOnWhilePluggedInSetting=0
+  mScreenBrightnessSetting=4
+  mScreenAutoBrightnessAdjustmentSetting=0.0
+  mScreenBrightnessModeSetting=0
+  mScreenBrightnessModeOverrideFromVR=-1
+  mScreenBrightnessOverrideFromWindowManager=-1
+  mUserActivityTimeoutOverrideFromWindowManager=-1
+  mTemporaryScreenBrightnessSettingOverride=-1
+  mTemporaryScreenAutoBrightnessAdjustmentSettingOverride=NaN
+  mDozeScreenStateOverrideFromDreamManager=0
+  mDozeScreenBrightnessOverrideFromDreamManager=-1
+  mScreenBrightnessSettingMinimum=4
+  mScreenBrightnessSettingMaximum=255
+  mScreenBrightnessSettingDefault=115
+  mDoubleTapWakeEnabled=false
+
+Sleep timeout: -1 ms
+Screen off timeout: 1800000 ms
+Screen dim duration: 7000 ms
+
+UID states:
+  UID 1000: 0
+  UID 1001: 0
+  UID 1037: 16
+  UID u0a3: 16
+  UID u0a5: 16
+  UID u0a7: 10
+  UID u0a10: 2
+  UID u0a12: 0
+  UID u0a13: 16
+  UID u0a14: 10
+  UID u0a20: 10
+  UID u0a22: 0
+  UID u0a23: 0
+  UID u0a26: 6
+  UID u0a38: 0
+  UID u0a46: 10
+  UID u0a51: 10
+  UID u0a52: 0
+  UID u0a55: 6
+  UID u0a57: 16
+  UID u0a61: 3
+  UID u0a72: 16
+  UID u0a76: 16
+  UID u0a80: 4
+  UID u0a81: 10
+  UID u0a88: 3
+  UID u0a90: 10
+  UID u0a91: 10
+  UID u0a102: 7
+  UID u0a107: 16
+  UID u0a111: 10
+  UID u0a113: 10
+  UID u0a114: 4
+  UID u0a115: 2
+  UID u0a119: 16
+  UID u0a121: 10
+  UID u0a131: 7
+  UID u0a134: 4
+  UID u0a140: 10
+
+Wake Locks: size=0
+
+Suspend Blockers: size=4
+  PowerManagerService.WakeLocks: ref count=0
+  PowerManagerService.Display: ref count=1
+  PowerManagerService.Broadcasts: ref count=0
+  PowerManagerService.WirelessChargerDetector: ref count=0
+
+Display Power: state=ON
+
+Display active status: 
+  active=2
+  state=phone is active and reported boot or shutdown reason.
+  mRecording=false
+  ua=Phone/le_x6 (HEXCNFN5902606111S; android 6.0-1497177565; active.v1)
+
+Wireless Charger Detector State:
+  mGravitySensor={Sensor name="GRAVITY", vendor="MTK", version=1, type=9, maxRange=10240.0, resolution=1.0, power=0.5, minDelay=20000}
+  mPoweredWirelessly=false
+  mAtRest=false
+  mRestX=0.0, mRestY=0.0, mRestZ=0.0
+  mDetectionInProgress=false
+  mDetectionStartTime=0 (never)
+  mMustUpdateRestPosition=false
+  mTotalSamples=0
+  mMovingSamples=0
+  mFirstSampleX=0.0, mFirstSampleY=0.0, mFirstSampleZ=0.0
+  mLastSampleX=0.0, mLastSampleY=0.0, mLastSampleZ=0.0

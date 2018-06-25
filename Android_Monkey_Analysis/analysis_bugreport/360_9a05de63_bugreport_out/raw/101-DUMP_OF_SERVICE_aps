@@ -1,0 +1,942 @@
+ApsManagerService
+  all known white list
+  *PACKAGE* com.qiku.cameramaster
+  *PACKAGE* com.oma.drm.server
+    auto start: 0
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.gtp.nextlauncher
+    screen off pro: 1
+  *PACKAGE* com.tencent.qqpim
+    screen off pro: 2
+  *PACKAGE* com.iflytek.inputmethod
+    screen off pro: 2
+  *PACKAGE* com.huawei.appmarket
+    screen off pro: 2
+  *PACKAGE* com.qualcomm.qti.modemtestmode
+    auto start: 1
+  *PACKAGE* com.android.gallery3d
+    auto start: 0
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.tencent.token
+    screen off pro: 1
+  *PACKAGE* cn.com.cmbc.mbank
+    screen off pro: 2
+  *PACKAGE* com.android.packageinstaller
+    auto start: 0
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.dsi.ant.server
+    auto start: 1
+  *PACKAGE* com.codeaurora.fmradio
+    auto start: 1
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.qiku.powermasterintl
+    screen off: 2
+  *PACKAGE* com.mediatek.mtklogger
+    screen off: 10
+  *PACKAGE* com.chengxin101.android_Browser
+    screen off pro: 2
+  *PACKAGE* com.lx.launcher
+    screen off pro: 1
+  *PACKAGE* com.suning.market
+    screen off pro: 1
+  *PACKAGE* com.androidesk.livewallpaper
+    screen off pro: 1
+  *PACKAGE* com.qiku.android.privacyspace
+    auto start: 1
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.qiku.advertisement
+    screen off: 2
+  *PACKAGE* com.google.android.googlequicksearchbox
+    screen off pro: 2
+  *PACKAGE* com.qihoo.appstore
+    screen off: 2
+    auto start: 1
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.UCMobile
+    screen off pro: 2
+  *PACKAGE* com.airbnb.lottie
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.qihoo.browser
+    auto start: 0
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.homelink.android
+    auto start: 0
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.assistant.icontrol
+    auto start: 0
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.vlife.qihoo.wallpaper
+  *PACKAGE* com.saschaha.browser
+    screen off pro: 2
+  *PACKAGE* org.easyweb.browser
+    screen off pro: 2
+  *PACKAGE* com.android.settings.wifi
+    screen off: 2
+    auto start: 1
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.android.managedprovisioning
+    auto start: 0
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.lqsoft.launcher
+    screen off pro: 1
+  *PACKAGE* com.oma.drm
+    auto start: 0
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.jx.privatebrowser
+    screen off pro: 2
+  *PACKAGE* com.qiku.android.cloudsync
+    screen off: 2
+    background clean: 10
+    auto start: 1
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.yulong.android.xtime
+    screen off: 4
+    background clean: 2
+    auto start: 1
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.qti.service.colorservice
+    screen off: 2
+  *PACKAGE* com.suning.mobile.ebuy
+    auto start: 0
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.suning.markethd
+    screen off pro: 1
+  *PACKAGE* com.apusapps.launcher
+    screen off pro: 1
+  *PACKAGE* com.android.sc
+    screen off: 10
+    auto start: 1
+  *PACKAGE* com.anddoes.launcher
+    screen off pro: 1
+  *PACKAGE* com.android.inputdevices
+    auto start: 1
+  *PACKAGE* com.greenpoint.android.mc10086.activity
+    screen off: 2
+  *PACKAGE* com.og.crazyddz
+    screen off pro: 2
+  *PACKAGE* com.qq.reader
+    screen off pro: 2
+  *PACKAGE* com.android.bluetooth
+    screen off: 2
+    auto start: 1
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.qualcomm.qcrilmsgtunnel
+    screen off: 2
+    auto start: 1
+  *PACKAGE* com.android.camera
+    auto start: 1
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.tencent.mtt.x86
+    screen off pro: 2
+  *PACKAGE* com.tencent.mobileqq
+    screen off: 2
+    background clean: 2
+    auto start: 1
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.qiku.multitask
+    auto start: 1
+  *PACKAGE* com.wxb.gudong.client
+    screen off: 2
+  *PACKAGE* org.mozilla.firefox
+    screen off pro: 2
+  *PACKAGE* com.android.printspooler
+    auto start: 0
+  *PACKAGE* vStudio.Android.Camera360
+    screen off pro: 2
+  *PACKAGE* com.qiku.android.moving
+    auto start: 0
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.qiku.localservice
+    screen off: 2
+  *PACKAGE* com.android.settings.bluetooth
+    auto start: 1
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.qiku.service.container
+    screen off: 2
+    background clean: 2
+    auto start: 1
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.intsig.BizCardReader
+    screen off pro: 2
+  *PACKAGE* com.intsig.zdao
+    auto start: 0
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.tuyoo.doudizhu.main
+    screen off pro: 2
+  *PACKAGE* com.xinshuru.inputmethod
+    auto start: 0
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* zte.com.market
+    screen off pro: 1
+  *PACKAGE* com.gau.go.launcherex
+    screen off pro: 2
+  *PACKAGE* cn.richinfo.dm
+    screen off: 2
+  *PACKAGE* com.android.poweroffhandlerapp
+    auto start: 1
+  *PACKAGE* com.qiku.speech
+    auto start: 1
+  *PACKAGE* com.qiku.face.unlock
+    screen off: 2
+  *PACKAGE* com.mx.browser
+    screen off pro: 2
+  *PACKAGE* com.oupeng.browser
+    screen off pro: 2
+  *PACKAGE* com.qiku.android.xtime
+    screen off: 4
+    background clean: 2
+  *PACKAGE* com.chaozh.iReaderFree
+    screen off pro: 2
+  *PACKAGE* com.lenovo.leos.appstore.pad
+    screen off pro: 1
+  *PACKAGE* com.android.server.telecom
+    auto start: 1
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.yulong.android.calendar.widget
+    auto start: 0
+  *PACKAGE* com.sina.weibo
+    auto start: 0
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.qiku.android.register
+    auto start: 1
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.jx.minibrowser
+    screen off pro: 2
+  *PACKAGE* com.campmobile.launcher
+    screen off pro: 1
+  *PACKAGE* com.android.defcontainer
+    screen off: 2
+    auto start: 1
+  *PACKAGE* com.estrongs.android.pop
+    screen off pro: 2
+  *PACKAGE* com.tencent.qqlauncher
+    screen off pro: 1
+  *PACKAGE* com.ijinshan.mguard
+    screen off pro: 1
+  *PACKAGE* com.amap.android.location
+    screen off: 10
+    auto start: 1
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.mili.launcher
+    screen off pro: 1
+  *PACKAGE* com.qihoo360.feichuan
+    screen off: 2
+  *PACKAGE* com.dragon.android.pandaspace
+    screen off pro: 1
+  *PACKAGE* com.android.systemui
+    screen off: 10
+    auto start: 1
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.netease.mobimail.qiku
+    auto start: 0
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.android.providers.calendar
+    auto start: 1
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.tianyancha.skyeye
+    auto start: 0
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.qiku.healthguard
+    screen off: 2
+    auto start: 1
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.android.mms
+    screen off: 2
+    auto start: 1
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.android.providers.downloads
+    auto start: 1
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.amigo.navi
+    screen off pro: 1
+  *PACKAGE* com.dianxinos.dxhome
+    screen off pro: 1
+  *PACKAGE* com.qiku.freecall
+    auto start: 0
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.qiku.android.cdmaregister
+    screen off: 2
+  *PACKAGE* com.qiku.bbs
+    auto start: 0
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.qiku.android.nodisturb
+    auto start: 0
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.uc.browser.hd
+    screen off pro: 2
+  *PACKAGE* com.android.dialer
+    screen off: 10
+    auto start: 1
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.qiku.android.mm
+    screen off: 2
+  *PACKAGE* com.adobe.reader
+    screen off pro: 2
+  *PACKAGE* com.tsf.shell
+    screen off pro: 1
+  *PACKAGE* com.qiku.music
+    auto start: 1
+  *PACKAGE* org.codeaurora.bluetooth
+    auto start: 0
+  *PACKAGE* com.qihu.gudong.client
+    screen off: 2
+  *PACKAGE* com.hp.android.printservice
+    screen off pro: 2
+  *PACKAGE* com.huawei.hidisk
+    screen off pro: 2
+  *PACKAGE* com.qihoo360.launcher
+    screen off pro: 1
+  *PACKAGE* com.android.providers.contacts
+    screen off: 10
+    auto start: 1
+  *PACKAGE* com.ct.client
+    screen off pro: 2
+  *PACKAGE* com.yulong.android.settings
+    screen off: 4
+    background clean: 2
+    auto start: 1
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.qiku.eyemode
+    screen off: 4
+    auto start: 1
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.qiku.powermaster
+    screen off: 2
+    auto start: 1
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.baidu.appsearch
+    screen off pro: 1
+  *PACKAGE* com.android.fmradio
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.qihoo360.mobilesafe.applock
+    screen off: 2
+  *PACKAGE* com.vlife.coolpad.wallpaper
+    screen off: 2
+  *PACKAGE* com.jeejen.family
+    screen off pro: 1
+  *PACKAGE* com.bertadata.qxb
+    auto start: 0
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.youdao.dict
+    screen off pro: 2
+  *PACKAGE* com.hola.launcher
+    screen off pro: 1
+  *PACKAGE* com.yulong.android.videoplayer
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.qihoo.explorer
+    screen off pro: 2
+  *PACKAGE* com.qiku.android.virtualnumber
+    auto start: 0
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.lenovo.leos.appstore
+    screen off pro: 1
+  *PACKAGE* com.qiku.magicball
+    auto start: 0
+  *PACKAGE* com.android.osfota
+    screen off: 2
+  *PACKAGE* com.baoruan.launcher2
+    screen off pro: 1
+  *PACKAGE* com.snailgame.cjg
+    screen off pro: 1
+  *PACKAGE* com.svox.pico
+    auto start: 1
+  *PACKAGE* com.tencent.android.location
+    screen off: 2
+  *PACKAGE* com.mayi.android.shortrent
+    auto start: 0
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.buzzpia.aqua.launcher
+    screen off pro: 1
+  *PACKAGE* com.qiku.magazine
+    auto start: 1
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.eg.android.AlipayGphone
+    screen off: 2
+    screen off pro: 2
+    auto start: 1
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.joinme.maindaemon
+    screen off pro: 1
+  *PACKAGE* com.qiku.cloudfolder
+    screen off: 2
+  *PACKAGE* com.yulong.android.launcher3
+    auto start: 0
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.android.captiveportallogin
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.qiku.trafficpay
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.taobao.trip
+    auto start: 0
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.qti.smq.qualcommFeedback
+    auto start: 0
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.android.statementservice
+    auto start: 0
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.tencent.mm
+    screen off: 2
+    background clean: 2
+    auto start: 1
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.android.icredit
+    auto start: 0
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.qualcomm.embms
+    auto start: 0
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.boatbrowser.free
+    screen off pro: 2
+  *PACKAGE* cn.com.opda.gamemaster
+    screen off pro: 1
+  *PACKAGE* com.oppo.market
+    screen off pro: 1
+  *PACKAGE* com.qiku.android.compass
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.android.pacprocessor
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.koushikdutta.vysor
+    auto start: 0
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.halfbrick.fruitninja
+    screen off pro: 2
+  *PACKAGE* com.sinovatech.unicom.ui
+    screen off pro: 2
+  *PACKAGE* com.qihoo360.byod.home
+    screen off: 10
+  *PACKAGE* com.yulong.android.cp_engmode
+    auto start: 1
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.qiku.android.contacts
+    screen off: 2
+  *PACKAGE* com.qihoo.kustore
+    background clean: 2
+  *PACKAGE* com.sohu.inputmethod.sogou
+    screen off pro: 2
+  *PACKAGE* com.oem91.market
+    auto start: 0
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.qihoo360.contacts
+    screen off: 2
+  *PACKAGE* com.qiku.android.gmsupdate
+    auto start: 1
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* jp.ddo.pigsty.HabitBrowser
+    screen off pro: 2
+  *PACKAGE* com.amazon.cloud9
+    screen off pro: 2
+  *PACKAGE* com.tencent.qqlive
+    auto start: 0
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.qihoo360.android.location
+    screen off: 2
+  *PACKAGE* com.chinamworld.main
+    screen off pro: 2
+  *PACKAGE* com.android.stk
+    auto start: 1
+  *PACKAGE* com.when.coco
+    screen off pro: 2
+  *PACKAGE* com.yulong.android.wifihelper
+    auto start: 1
+  *PACKAGE* internet.browser.webexplorer
+    screen off pro: 2
+  *PACKAGE* com.android.screenrecord
+    screen off: 2
+  *PACKAGE* com.qihoo.safe.remotecontrol
+    auto start: 0
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.lctautotest.camera
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.meitu.mtxx_beauty
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.wandoujia.phoenix2
+    screen off pro: 1
+  *PACKAGE* com.android.timerswitch
+    auto start: 1
+  *PACKAGE* com.qiku.android.ota
+    screen off: 2
+  *PACKAGE* com.qualcomm.cabl
+    auto start: 1
+  *PACKAGE* my.beautyCamera
+    screen off pro: 2
+  *PACKAGE* com.alensw.PicFolder
+    screen off pro: 2
+  *PACKAGE* com.android.externalstorage
+    auto start: 0
+  *PACKAGE* com.tencent.news
+    screen off pro: 2
+  *PACKAGE* com.android.calllogbackup
+    auto start: 1
+  *PACKAGE* com.imangi.templerun
+    screen off pro: 2
+  *PACKAGE* com.longcheertel.audioft
+    auto start: 1
+  *PACKAGE* com.yulong.android.memo
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.baidu.input
+    screen off pro: 2
+  *PACKAGE* com.qiku.powerengine
+    screen off: 2
+    background clean: 10
+    auto start: 1
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* cn.opda.a.phonoalbumshoushou
+    screen off pro: 1
+  *PACKAGE* com.xiaomi.market
+    screen off pro: 1
+  *PACKAGE* com.sec.android.app.samsungapps
+    screen off pro: 2
+  *PACKAGE* com.dolphin.browser.android.elex
+    screen off pro: 2
+  *PACKAGE* com.hiapk.marketpho
+    screen off pro: 1
+  *PACKAGE* com.haoqi.settings
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.qiku.logsystem
+    auto start: 1
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.android.shell
+    auto start: 0
+  *PACKAGE* com.qiku.tripsafe
+    screen off: 2
+  *PACKAGE* com.android.chrome
+    screen off pro: 2
+  *PACKAGE* sogou.mobile.explorer
+    screen off pro: 2
+  *PACKAGE* com.android.proxyhandler
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.qihoo.magic
+    auto start: 0
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.browser2345
+    screen off pro: 2
+  *PACKAGE* com.qiku.android.signalanalyse
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* net.qihoo.smail
+    screen off: 2
+  *PACKAGE* com.android.bclearservice
+    screen off: 2
+  *PACKAGE* com.mycheering.launcher
+    screen off pro: 1
+  *PACKAGE* com.yulong.android.filebrowser
+    auto start: 1
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.app.downloadmanager
+    screen off pro: 2
+  *PACKAGE* com.qihoo.mall
+    auto start: 0
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.gtp.launcherlab
+    screen off pro: 1
+  *PACKAGE* com.market2345
+    screen off pro: 1
+  *PACKAGE* com.ziroom.ziroomcustomer
+    auto start: 0
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.tencent.android.qqdownloader
+    screen off pro: 1
+    auto start: 0
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.android.keychain
+    auto start: 1
+  *PACKAGE* com.qualcomm.timeservice
+    auto start: 1
+  *PACKAGE* com.cloudsx.android.coreservice
+    screen off: 2
+  *PACKAGE* com.xsg.launcher
+    screen off pro: 1
+  *PACKAGE* com.dolphin.browser.xf
+    screen off pro: 2
+  *PACKAGE* com.debrowser
+    screen off pro: 2
+  *PACKAGE* com.baidu.browser.inter
+    screen off pro: 2
+  *PACKAGE* com.uprui.phone.launcher
+    screen off pro: 1
+  *PACKAGE* com.lenovo.launcher
+    screen off pro: 1
+  *PACKAGE* com.qihoo.privpho360
+    screen off: 2
+  *PACKAGE* com.android.inputmethod.latin
+    auto start: 0
+  *PACKAGE* com.akazam.android.wlandialer
+    screen off pro: 2
+  *PACKAGE* com.wuba
+    auto start: 0
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.icbc
+    screen off pro: 2
+  *PACKAGE* com.tencent.qlauncher
+    screen off pro: 1
+  *PACKAGE* com.qiku.android.setupwizard
+    screen off: 2
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.forward.eip
+    auto start: 0
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* home.solo.launcher.free
+    screen off pro: 1
+  *PACKAGE* com.icoolme.android.weather
+    screen off: 2
+    background clean: 2
+  *PACKAGE* com.qiku.childrenmode
+    auto start: 0
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.qihoo360.cloneit
+    screen off: 2
+  *PACKAGE* com.netease.newsreader.activity
+    screen off pro: 2
+  *PACKAGE* com.zdworks.android.zdclock
+    screen off pro: 2
+  *PACKAGE* android.process.media
+    screen off: 10
+  *PACKAGE* com.Dean.launcher
+    screen off pro: 1
+  *PACKAGE* com.imangi.templerun2
+    screen off pro: 2
+  *PACKAGE* com.qiku.android.demo
+    auto start: 1
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.qiku.android.clone360
+    screen off: 2
+  *PACKAGE* com.qiku.configcenter
+    screen off: 2
+    auto start: 1
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.android.phone
+    auto start: 1
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.taobao.appcenter
+    screen off pro: 1
+  *PACKAGE* android
+    auto start: 1
+  *PACKAGE* com.exsoul
+    screen off pro: 2
+  *PACKAGE* com.google.android.webview
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.longcheertel.midtest
+    auto start: 1
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.baidu.netdisk
+    screen off pro: 2
+  *PACKAGE* com.qiku.widget3d
+    screen off: 2
+    auto start: 1
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.qihoo360.transfer
+    screen off: 2
+    auto start: 0
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.miui.mihome2
+    screen off pro: 1
+  *PACKAGE* com.android.cellbroadcastreceiver
+    auto start: 0
+  *PACKAGE* com.qiku.logredirect
+    screen off: 10
+    auto start: 1
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.qiku.cardmanager2
+    screen off: 2
+  *PACKAGE* com.muzhiwan.installer
+    screen off pro: 1
+  *PACKAGE* com.halfbrick.fruitninjafree
+    screen off pro: 2
+  *PACKAGE* com.og.danjiddz
+    screen off pro: 2
+  *PACKAGE* ginlemon.flowerpro
+    screen off pro: 1
+  *PACKAGE* com.nd.assistance
+    auto start: 0
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.qixiao.wifiartifact
+    screen off pro: 2
+  *PACKAGE* com.jingdong.app.mall
+    auto start: 0
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.podend.mobile.browser
+    screen off pro: 2
+  *PACKAGE* com.roboo.explorer
+    screen off pro: 2
+  *PACKAGE* com.qiku.gamecenter
+    auto start: 0
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* eu.chainfire.supersu
+    screen off pro: 2
+  *PACKAGE* com.secure.secid
+    screen off: 2
+  *PACKAGE* com.oupeng.mini.android
+    screen off pro: 2
+  *PACKAGE* com.renrenche.carapp
+    auto start: 0
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.cleanmaster.security_cn
+    screen off pro: 1
+  *PACKAGE* com.android.documentsui
+    auto start: 0
+  *PACKAGE* com.mobiletools.systemhelper
+    screen off: 10
+  *PACKAGE* com.android.settings
+    auto start: 1
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* org.simalliance.openmobileapi.service
+    auto start: 1
+  *PACKAGE* project.rising
+    screen off pro: 1
+  *PACKAGE* com.shoujiduoduo.ringtone
+    screen off pro: 2
+  *PACKAGE* com.qualcomm.location
+    auto start: 1
+  *PACKAGE* com.yulong.floatwindow
+    screen off: 2
+  *PACKAGE* com.yandex.browser.beta
+    screen off pro: 2
+  *PACKAGE* com.nod.browser
+    screen off pro: 2
+  *PACKAGE* com.moxiu.launcher
+    screen off pro: 1
+  *PACKAGE* com.qti.dpmserviceapp
+    auto start: 1
+  *PACKAGE* com.baidu.searchbox
+    screen off pro: 2
+  *PACKAGE* com.qualcomm.shutdownlistner
+    auto start: 0
+  *PACKAGE* com.whatsapp
+    screen off: 2
+    background clean: 2
+  *PACKAGE* com.qihoo360.mobilesafe
+    screen off: 10
+    background clean: 10
+    auto start: 1
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.sohu.newsclient
+    screen off pro: 2
+  *PACKAGE* com.yulong.android.coolsafe
+    screen off: 3
+    background clean: 10
+    auto start: 1
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.qiku.voiceassistant
+    auto start: 1
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* telecom.mdesk
+    screen off pro: 1
+  *PACKAGE* com.lbe.security
+    screen off pro: 1
+  *PACKAGE* com.nd.android.pandahome2
+    screen off pro: 1
+  *PACKAGE* com.teslacoilsw.launcher
+    screen off pro: 1
+  *PACKAGE* com.qihoo360.commodity_barcode.qikoo
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.sostation.market
+    screen off pro: 1
+  *PACKAGE* com.qihoo.android.float_window
+    screen off: 2
+  *PACKAGE* cn.etouch.ecalendar
+    screen off pro: 2
+  *PACKAGE* com.yaoo.qlauncher
+    screen off pro: 1
+  *PACKAGE* com.imangi.templerunzh
+    screen off pro: 2
+  *PACKAGE* com.qiku.smartkey
+    screen off: 2
+  *PACKAGE* org.codeaurora.ims
+    screen off: 2
+    auto start: 1
+  *PACKAGE* com.yulong.logredirect
+    screen off: 10
+  *PACKAGE* com.wdstechnology.android.kryten
+    auto start: 1
+  *PACKAGE* com.yulong.android.ota
+    screen off: 2
+    auto start: 1
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.sina.news
+    auto start: 0
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.qualcomm.atfwd
+    auto start: 1
+  *PACKAGE* com.sogou.androidtool
+    screen off pro: 1
+  *PACKAGE* com.xinmei365.font
+    screen off pro: 2
+  *PACKAGE* com.lenovo.magicplus
+    screen off pro: 1
+  *PACKAGE* com.qiku.cleaner
+    auto start: 0
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.yulong.android.calendar
+    screen off: 4
+    auto start: 1
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.qiku.android.calendar
+    screen off: 4
+  *PACKAGE* com.snda.wifilocating
+    screen off pro: 2
+  *PACKAGE* com.tencent.launcher
+    screen off pro: 1
+  *PACKAGE* com.moji.mjweather
+    auto start: 0
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.android.providers.media
+    screen off: 2
+    auto start: 1
+  *PACKAGE* com.qiku.bluetoothsub
+    screen off: 2
+    background clean: 2
+  *PACKAGE* com.tencent.qlauncher.lite
+    screen off pro: 1
+  *PACKAGE* com.qiku.riskinsight
+    auto start: 1
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.yulong.android.coolshow
+    auto start: 1
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* cn.goapk.market
+    screen off pro: 1
+  *PACKAGE* com.ss.android.article.news
+    screen off pro: 2
+  *PACKAGE* com.qiku.cardmanager
+    screen off: 2
+    auto start: 1
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.smartisanos.home
+    screen off pro: 1
+  *PACKAGE* com.android.core.patchsystem
+    screen off: 2
+    background clean: 2
+  *PACKAGE* com.meitu.meiyancamera
+    screen off pro: 2
+  *PACKAGE* com.yulong.android.gpsview
+    mobile control: 1
+    wifi control: 1
+  *PACKAGE* com.android.giftbox
+    screen off: 2
+  app lock list
+  apps whose widget on launcher
+  apps dynamic app config map
+    KEY:2,  VALUEMAP SIZE:15
+    com.holaverse.charging.MainActivity:DynamicAppConfigInfo{id=14, pkgName='com.holaverse.charging.MainActivity', compName='com.holaverse.charging.MainActivity', module=2, extension=''}
+    com.ludashi.benchmark.business.standbyassistant.gui.activity.ChargePopActivity:DynamicAppConfigInfo{id=65, pkgName='com.ludashi.benchmark.business.standbyassistant.gui.activity.ChargePopActivity', compName='com.ludashi.benchmark.business.standbyassistant.gui.activity.ChargePopActivity', module=2, extension=''}
+    com.ss.android.message.sswo.SswoActivity:DynamicAppConfigInfo{id=10, pkgName='com.ss.android.message.sswo.SswoActivity', compName='com.ss.android.message.sswo.SswoActivity', module=2, extension=''}
+    com.qihoo360.mobilesafe.loader.a.ActivityN1SI3:DynamicAppConfigInfo{id=19, pkgName='com.qihoo360.mobilesafe.loader.a.ActivityN1SI3', compName='com.qihoo360.mobilesafe.loader.a.ActivityN1SI3', module=2, extension=''}
+    com.tencent.mtt.base.notification.LockScreenTipsActivity:DynamicAppConfigInfo{id=12, pkgName='com.tencent.mtt.base.notification.LockScreenTipsActivity', compName='com.tencent.mtt.base.notification.LockScreenTipsActivity', module=2, extension=''}
+    com.stub.stub02.Stub01:DynamicAppConfigInfo{id=67, pkgName='com.stub.stub02.Stub01', compName='com.stub.stub02.Stub01', module=2, extension=''}
+    com.ijinshan.screensavernew.LockerSdkScreenSaver2Activity:DynamicAppConfigInfo{id=15, pkgName='com.ijinshan.screensavernew.LockerSdkScreenSaver2Activity', compName='com.ijinshan.screensavernew.LockerSdkScreenSaver2Activity', module=2, extension=''}
+    com.qihoo360.mobilesafe.opti.powerctl.base.ui.screendisplay.ChargeScreen:DynamicAppConfigInfo{id=17, pkgName='com.qihoo360.mobilesafe.opti.powerctl.base.ui.screendisplay.ChargeScreen', compName='com.qihoo360.mobilesafe.opti.powerctl.base.ui.screendisplay.ChargeScreen', module=2, extension=''}
+    com.qihoo.security.battery.MobileChargingActivity:DynamicAppConfigInfo{id=18, pkgName='com.qihoo.security.battery.MobileChargingActivity', compName='com.qihoo.security.battery.MobileChargingActivity', module=2, extension=''}
+    com.ss.android.article.base.feature.app.schema.AdsAppActivity,startedActivity:DynamicAppConfigInfo{id=66, pkgName='com.ss.android.article.base.feature.app.schema.AdsAppActivity,startedActivity', compName='com.ss.android.article.base.feature.app.schema.AdsAppActivity,startedActivity', module=2, extension=''}
+    com.dianxinos.powermanager.ui.DXLockScreenActivity:DynamicAppConfigInfo{id=13, pkgName='com.dianxinos.powermanager.ui.DXLockScreenActivity', compName='com.dianxinos.powermanager.ui.DXLockScreenActivity', module=2, extension=''}
+    com.qihoo.util.CommonActivity:DynamicAppConfigInfo{id=11, pkgName='com.qihoo.util.CommonActivity', compName='com.qihoo.util.CommonActivity', module=2, extension=''}
+    com.ijinshan.screensavernew.ScreenSaver2Activity:DynamicAppConfigInfo{id=16, pkgName='com.ijinshan.screensavernew.ScreenSaver2Activity', compName='com.ijinshan.screensavernew.ScreenSaver2Activity', module=2, extension=''}
+    com.baidu.tieba.screenlocknotify.ScreenLockActivity:DynamicAppConfigInfo{id=9, pkgName='com.baidu.tieba.screenlocknotify.ScreenLockActivity', compName='com.baidu.tieba.screenlocknotify.ScreenLockActivity', module=2, extension=''}
+    com.qihoo.browser.pushmanager.LockScreenTipsActivity:DynamicAppConfigInfo{id=68, pkgName='com.qihoo.browser.pushmanager.LockScreenTipsActivity', compName='com.qihoo.browser.pushmanager.LockScreenTipsActivity', module=2, extension=''}

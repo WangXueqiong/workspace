@@ -1,0 +1,39 @@
+
+
+
+User 10%, System 10%, IOW 0%, IRQ 0%
+User 25 + Nice 0 + Sys 24 + Idle 179 + IOW 1 + IRQ 0 + SIRQ 0 = 229
+
+  PID   TID PR CPU% S     VSS     RSS PCY UID      Thread          Proc
+10388 10388  8   6% R  15864K   2360K  fg shell    top             top
+  419  9222  4   2% S 428412K  50948K  fg media    MtkOmxVencEncod /system/bin/mediaserver
+  357   365  4   2% S  26992K   5068K  fg logd     logd.writer     /system/bin/logd
+ 9185  9194  5   1% S 1396940K  46948K  fg shell    AsyncServer     /system/bin/app_process32
+ 9185  9227  5   0% S 1396940K  46948K  fg shell    Encoder         /system/bin/app_process32
+ 9185  9220  5   0% S 1396940K  46948K  fg shell    CodecLooper     /system/bin/app_process32
+  238   238  4   0% S      0K      0K  fg root     hps_main        
+ 1125  2156  4   0% S 2674688K 181720K  fg system   Binder_D        system_server
+ 1125  2157  5   0% S 2674688K 181720K  fg system   Binder_E        system_server
+ 9085  9085  5   0% S      0K      0K  fg root     kworker/u20:4   
+  384   384  4   0% S  15716K   1424K  fg system   servicemanager  /system/bin/servicemanager
+ 1125  1279  5   0% S 2674688K 181720K  fg system   WifiStateMachin system_server
+  419  9225  4   0% S 428412K  50948K  fg media    OMXCallbackDisp /system/bin/mediaserver
+  419  9226  4   0% S 428412K  50948K  fg media    ALooper         /system/bin/mediaserver
+ 1125  1260  4   0% S 2674688K 181720K  fg system   SensorService   system_server
+  385   385  5   0% S 1637696K  43896K  fg system   surfaceflinger  /system/bin/surfaceflinger
+  465   465  5   0% S  20308K    884K  fg shell    adbd            /sbin/adbd
+  385   878  4   0% S 1637696K  43896K  fg system   UICompThread_0  /system/bin/surfaceflinger
+  234   234  8   0% S      0K      0K  fg root     kworker/8:0H    
+ 9185  9192  4   0% S 1396940K  46948K  fg shell    Binder_1        /system/bin/app_process32
+ 9185  9193  4   0% S 1396940K  46948K  fg shell    Binder_2        /system/bin/app_process32
+ 1125  1975  4   0% S 2674688K 181720K  fg system   Binder_B        system_server
+ 1125  1579  4   0% S 2674688K 181720K  fg system   Binder_3        system_server
+ 1665  1665  5   0% S      0K      0K  fg root     tx_thread       
+  419   419  4   0% S 428412K  50948K  fg media    mediaserver     /system/bin/mediaserver
+ 9185  9219  5   0% S 1396940K  46948K  fg shell    MediaCodec_loop /system/bin/app_process32
+10314 10371  4   0% S 1738128K  72012K  bg u0_a140  NetworkThreadum com.tianyancha.skyeye:channel
+  265   265  4   0% S      0K      0K  fg root     mmcqd/0         
+ 1713  1713  5   0% S 1798972K 107292K  fg radio    m.android.phone com.android.phone
+ 1816  1816  4   0% S  22116K   3772K  fg wifi     wpa_supplicant  /system/bin/wpa_supplicant
+[top: 1.317s elapsed]
+

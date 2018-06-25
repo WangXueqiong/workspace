@@ -1,0 +1,9 @@
+sock=ffffffc0069c64c0 tag=0xa294689600002730 (uid=10032) pid=2340 f_count=1
+sock=ffffffc009ba07c0 tag=0xa004000027d5 (uid=10197) pid=5404 f_count=1
+sock=ffffffc009ba7440 tag=0xbb1dfe410000283b (uid=10299) pid=18548 f_count=2
+sock=ffffffc00d43e4c0 tag=0xa294689600002730 (uid=10032) pid=2340 f_count=1
+sock=ffffffc00de45d00 tag=0xbb1dfe410000283b (uid=10299) pid=18444 f_count=2
+sock=ffffffc04d84f440 tag=0xa294689600002730 (uid=10032) pid=2340 f_count=1
+sock=ffffffc06e6c0f80 tag=0xa294689600002730 (uid=10032) pid=2340 f_count=1
+events: sockets_tagged=1704 sockets_untagged=1453 counter_set_changes=741 delete_cmds=4 iface_events=59 match_calls=59312047 match_calls_prepost=1816114 match_found_sk=39049504 match_found_sk_in_ct=7072470 match_found_no_sk_in_ct=11373959 match_no_sk=12178802 match_no_sk_file=65526
+

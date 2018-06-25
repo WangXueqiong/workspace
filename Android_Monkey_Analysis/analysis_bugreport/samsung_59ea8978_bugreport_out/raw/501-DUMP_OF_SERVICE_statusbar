@@ -1,0 +1,106 @@
+Icon list:
+   0: (managed_profile) StatusBarIcon(icon=Icon(typ=RESOURCE pkg=com.android.systemui id=0x7f0204b1) user=0 )
+   1: (knox_container) StatusBarIcon(icon=Icon(typ=RESOURCE pkg=com.android.systemui id=0x7f0203a6) user=0 )
+   2: (smart_network) null
+   3: (felica_lock) null
+   4: (ime) null
+   5: (popup) null
+   6: (volte) null
+   7: (glove) null
+   8: (gesture) null
+   9: (smart_scroll) StatusBarIcon(icon=Icon(typ=RESOURCE pkg=com.samsung.android.smartface id=0x7f020000) user=0 )
+  10: (face) null
+  11: (sync_failing) null
+  12: (sync_active) null
+  13: (cast) StatusBarIcon(icon=Icon(typ=RESOURCE pkg=com.android.systemui id=0x7f0203f6) user=0 )
+  14: (location) null
+  15: (gps) null
+  16: (lbs) null
+  17: (wearable_gear) null
+  18: (bluetooth) StatusBarIcon(icon=Icon(typ=RESOURCE pkg=com.android.systemui id=0x7f02040b) user=0 )
+  19: (nfc_on) StatusBarIcon(icon=Icon(typ=RESOURCE pkg=com.android.nfc id=0x7f02000b) visible user=0 )
+  20: (nfc) null
+  21: (tty) StatusBarIcon(icon=Icon(typ=RESOURCE pkg=com.android.systemui id=0x7f020648) user=0 )
+  22: (speakerphone) null
+  23: (zen) StatusBarIcon(icon=Icon(typ=RESOURCE pkg=com.android.systemui id=0x7f020674) user=0 )
+  24: (mute) null
+  25: (volume) StatusBarIcon(icon=Icon(typ=RESOURCE pkg=com.android.systemui id=0x7f02050f) user=0 )
+  26: (com.samsung.rcs) null
+  27: (vowifi) StatusBarIcon(icon=Icon(typ=RESOURCE pkg=com.android.systemui id=0x7f0206a4) user=0 )
+  28: (wifi_p2p) null
+  29: (wifi) null
+  30: (wifi_p2p) null
+  31: (wifi_ap) null
+  32: (wifi_oxygen) null
+  33: (cdma_eri) StatusBarIcon(icon=Icon(typ=RESOURCE pkg=com.android.systemui id=0x7f020511) user=0 )
+  34: (phone_signal_second_sub) null
+  35: (data_connection) null
+  36: (phone_evdo_signal) null
+  37: (phone_signal) null
+  38: (battery) null
+  39: (alarm_clock) StatusBarIcon(icon=Icon(typ=RESOURCE pkg=com.android.systemui id=0x7f0203f4) user=0 )
+  40: (toddler) null
+  41: (ims_volte) null
+  42: (wb_amr) null
+  43: (keyguard_wakeup) null
+  44: (safezone) null
+  45: (secure) null
+  46: (clock) null
+  47: (wimax) null
+  48: (smart_bonding) null
+  49: (private_mode) null
+  mDisabled1=0x0
+  mDisabled2=0x0
+  mDisableRecords.size=0
+  mDisableList.size=50
+    [0] Window{7b2efc6 u0 d0 com.tianyancha.skyeye/com.tianyancha.skyeye.MainActivity} : CLEAR
+    [1] Window{9b4e53f u0 d0 com.tianyancha.skyeye/com.tianyancha.skyeye.activity.ContactUsActivity} : CLEAR
+    [2] Window{23c4958 u0 d0 SubPanel:com.tianyancha.skyeye/com.tianyancha.skyeye.activity.ContactUsActivity} : CLEAR
+    [3] Window{9b4e53f u0 d0 com.tianyancha.skyeye/com.tianyancha.skyeye.activity.ContactUsActivity} : CLEAR
+    [4] Window{7b2efc6 u0 d0 com.tianyancha.skyeye/com.tianyancha.skyeye.MainActivity} : CLEAR
+    [5] Window{419c212 u0 d0 SubPanel:com.tianyancha.skyeye/com.tianyancha.skyeye.MainActivity} : CLEAR
+    [6] Window{7b2efc6 u0 d0 com.tianyancha.skyeye/com.tianyancha.skyeye.MainActivity} : CLEAR
+    [7] Window{a21efa8 u0 d0 com.tianyancha.skyeye/com.tianyancha.skyeye.LoginActivity} : CLEAR
+    [8] Window{a21efa8 u0 d0 com.tianyancha.skyeye/com.tianyancha.skyeye.LoginActivity} : CLEAR
+    [9] Window{996e4f0 u0 d0 SubPanel:com.tianyancha.skyeye/com.tianyancha.skyeye.LoginActivity} : CLEAR
+    [10] Window{a21efa8 u0 d0 com.tianyancha.skyeye/com.tianyancha.skyeye.LoginActivity} : CLEAR
+    [11] Window{6dfb149 u0 d0 com.tianyancha.skyeye/com.tianyancha.skyeye.activity.ResetPasswordActivity} : CLEAR
+    [12] Window{6dfb149 u0 d0 com.tianyancha.skyeye/com.tianyancha.skyeye.activity.ResetPasswordActivity} : CLEAR
+    [13] Window{93b4d75 u0 d0 SubPanel:com.tianyancha.skyeye/com.tianyancha.skyeye.activity.ResetPasswordActivity} : CLEAR
+    [14] Window{6dfb149 u0 d0 com.tianyancha.skyeye/com.tianyancha.skyeye.activity.ResetPasswordActivity} : CLEAR
+    [15] Window{32daabd u0 d0 com.tianyancha.skyeye/com.tianyancha.skyeye.activity.ResetPasswordActivity} : CLEAR
+    [16] Window{6dfb149 u0 d0 com.tianyancha.skyeye/com.tianyancha.skyeye.activity.ResetPasswordActivity} : CLEAR
+    [17] Window{a21efa8 u0 d0 com.tianyancha.skyeye/com.tianyancha.skyeye.LoginActivity} : CLEAR
+    [18] Window{a21efa8 u0 d0 com.tianyancha.skyeye/com.tianyancha.skyeye.LoginActivity} : CLEAR
+    [19] Window{c0001d2 u0 d0 com.tianyancha.skyeye/com.tianyancha.skyeye.activity.ResetPasswordActivity} : CLEAR
+    [20] Window{c0001d2 u0 d0 com.tianyancha.skyeye/com.tianyancha.skyeye.activity.ResetPasswordActivity} : CLEAR
+    [21] Window{a21efa8 u0 d0 com.tianyancha.skyeye/com.tianyancha.skyeye.LoginActivity} : CLEAR
+    [22] Window{a21efa8 u0 d0 com.tianyancha.skyeye/com.tianyancha.skyeye.LoginActivity} : CLEAR
+    [23] Window{3288382 u0 d0 com.tianyancha.skyeye/com.tianyancha.skyeye.LoginActivity} : CLEAR
+    [24] Window{a21efa8 u0 d0 com.tianyancha.skyeye/com.tianyancha.skyeye.LoginActivity} : CLEAR
+    [25] Window{b65dfea u0 d0 com.tianyancha.skyeye/com.tianyancha.skyeye.WebDetailActivity} : CLEAR
+    [26] Window{64e8242 u0 d0 com.tianyancha.skyeye/com.tianyancha.skyeye.WebDetailActivity} : CLEAR
+    [27] Window{64e8242 u0 d0 com.tianyancha.skyeye/com.tianyancha.skyeye.WebDetailActivity} : CLEAR
+    [28] Window{af7e643 u0 d0 SubPanel:com.tianyancha.skyeye/com.tianyancha.skyeye.WebDetailActivity} : CLEAR
+    [29] Window{64e8242 u0 d0 com.tianyancha.skyeye/com.tianyancha.skyeye.WebDetailActivity} : CLEAR
+    [30] Window{a21efa8 u0 d0 com.tianyancha.skyeye/com.tianyancha.skyeye.LoginActivity} : CLEAR
+    [31] Window{a21efa8 u0 d0 com.tianyancha.skyeye/com.tianyancha.skyeye.LoginActivity} : CLEAR
+    [32] Window{6655b41 u0 d0 Select input method} : CLEAR
+    [33] Window{a21efa8 u0 d0 com.tianyancha.skyeye/com.tianyancha.skyeye.LoginActivity} : CLEAR
+    [34] Window{a21efa8 u0 d0 com.tianyancha.skyeye/com.tianyancha.skyeye.LoginActivity} : CLEAR
+    [35] Window{7b2efc6 u0 d0 com.tianyancha.skyeye/com.tianyancha.skyeye.MainActivity} : CLEAR
+    [36] Window{c2ba8a9 u0 d0 com.tianyancha.skyeye/com.tianyancha.skyeye.LoginActivity} : CLEAR
+    [37] Window{c2ba8a9 u0 d0 com.tianyancha.skyeye/com.tianyancha.skyeye.LoginActivity} : CLEAR
+    [38] Window{8e91963 u0 d0 com.tianyancha.skyeye/com.tianyancha.skyeye.LoginActivity} : CLEAR
+    [39] Window{b147faf u0 d0 SubPanel:com.tianyancha.skyeye/com.tianyancha.skyeye.LoginActivity} : CLEAR
+    [40] Window{8e91963 u0 d0 com.tianyancha.skyeye/com.tianyancha.skyeye.LoginActivity} : CLEAR
+    [41] Window{c2ba8a9 u0 d0 com.tianyancha.skyeye/com.tianyancha.skyeye.LoginActivity} : CLEAR
+    [42] Window{e0e5e6e u0 d0 SubPanel:com.tianyancha.skyeye/com.tianyancha.skyeye.LoginActivity} : CLEAR
+    [43] Window{c2ba8a9 u0 d0 com.tianyancha.skyeye/com.tianyancha.skyeye.LoginActivity} : CLEAR
+    [44] Window{33ad68e u0 d0 com.tianyancha.skyeye/com.tianyancha.skyeye.activity.ResetPasswordActivity} : CLEAR
+    [45] Window{33ad68e u0 d0 com.tianyancha.skyeye/com.tianyancha.skyeye.activity.ResetPasswordActivity} : CLEAR
+    [46] Window{24fff3e u0 d0 SubPanel:com.tianyancha.skyeye/com.tianyancha.skyeye.activity.ResetPasswordActivity} : CLEAR
+    [47] Window{33ad68e u0 d0 com.tianyancha.skyeye/com.tianyancha.skyeye.activity.ResetPasswordActivity} : CLEAR
+    [48] Window{a018c63 u0 d0 com.sec.android.app.launcher/com.android.launcher2.Launcher} : CLEAR
+    [49] Window{a018c63 u0 d0 com.sec.android.app.launcher/com.android.launcher2.Launcher} : CLEAR
+  mNotificationList.size=0

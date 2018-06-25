@@ -1,0 +1,43 @@
+Current Text Services Manager state:
+  Spell Checker Map:
+    com.android.inputmethod.latin/.spellcheck.AndroidSpellCheckerService:
+      id=com.android.inputmethod.latin/.spellcheck.AndroidSpellCheckerService
+      comp={com.android.inputmethod.latin/com.android.inputmethod.latin.spellcheck.AndroidSpellCheckerService}
+      Subtype #0:
+        locale=en
+        extraValue=
+      Subtype #1:
+        locale=en_US
+        extraValue=
+      Subtype #2:
+        locale=en_GB
+        extraValue=
+      Subtype #3:
+        locale=fr
+        extraValue=
+      Subtype #4:
+        locale=de
+        extraValue=
+      Subtype #5:
+        locale=it
+        extraValue=
+      Subtype #6:
+        locale=es
+        extraValue=
+      Subtype #7:
+        locale=ru
+        extraValue=
+      Subtype #8:
+        locale=pt_BR
+        extraValue=
+
+  Spell Checker Bind Groups:
+    com.android.inputmethod.latin/.spellcheck.AndroidSpellCheckerService com.android.server.TextServicesManagerService$SpellCheckerBindGroup@926c96:
+      mInternalConnection=com.android.server.TextServicesManagerService$InternalServiceConnection@254361c
+      mSpellChecker=com.android.internal.textservice.ISpellCheckerService$Stub$Proxy@d722017
+      mBound=true mConnected=true
+      Listener #0:
+        mTsListener=com.android.internal.textservice.ITextServicesSessionListener$Stub$Proxy@828dc04
+        mScListener=com.android.internal.textservice.ISpellCheckerSessionListener$Stub$Proxy@b8715ed
+        mGroup=com.android.server.TextServicesManagerService$SpellCheckerBindGroup@926c96
+        mScLocale=en_US mUid=10134

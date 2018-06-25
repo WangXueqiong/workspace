@@ -1,0 +1,50 @@
+  Settings:
+    inactive_to=+30m0s0ms
+    sensing_to=+4m0s0ms
+    locating_to=+30s0ms
+    location_accuracy=20.0m
+    motion_inactive_to=+10m0s0ms
+    idle_after_inactive_to=+30m0s0ms
+    idle_pending_to=+5m0s0ms
+    max_idle_pending_to=+10m0s0ms
+    idle_pending_factor=2.0
+    idle_to=+60m0s0ms
+    max_idle_to=+6h0m0s0ms
+    idle_factor=2.0
+    min_time_to_alarm=+60m0s0ms
+    max_temp_app_whitelist_duration=+5m0s0ms
+    mms_temp_app_whitelist_duration=+60s0ms
+    sms_temp_app_whitelist_duration=+20s0ms
+  Whitelist (except idle) system apps:
+    com.osp.app.signin
+    com.android.providers.downloads
+    com.sec.android.daemonapp
+    com.samsung.klmsagent
+    com.sec.spp.push
+    com.sec.enterprise.knox.cloudmdm.smdms
+  Whitelist system apps:
+    com.sec.spp.push
+  Whitelist (except idle) user apps(*):
+    com.sds.smb
+    com.sds.mobile.mdm.client.MDMManager
+  Whitelist (except idle) all app ids:
+    10016
+    10034
+    10039
+    10041
+    10172
+    10174
+  Whitelist all app ids:
+    10034
+  mEnabled=false
+  mSubEnabled=true
+  mForceIdle=false
+  mSigMotionSensor={Sensor name="SAMSUNG Significant Motion Sensor", vendor="Samsung Inc.", version=2, type=17, maxRange=1.0, resolution=1.0, power=0.3, minDelay=-1}
+  mCurDisplay=Display id 0: DisplayInfo{"åç½®å±å¹", uniqueId "local:0", app 1080 x 1920, real 1080 x 1920, largest app 1920 x 1848, smallest app 1080 x 1008, mode 1, defaultMode 1, modes [{id=1, width=1080, height=1920, fps=60.0}], colorTransformId 1, defaultColorTransformId 1, supportedColorTransforms [{id=1, colorTransform=0}], rotation 0, density 480 (422.03 x 424.069) dpi, layerStack 0, appVsyncOff 0, presDeadline 17666667, type BUILT_IN, state ON, FLAG_SECURE, FLAG_SUPPORTS_PROTECTED_BUFFERS}, DisplayMetrics{density=3.0, width=1080, height=1920, scaledDensity=3.0, xdpi=422.03, ydpi=424.069}, isValid=true
+  mScreenOn=true
+  mCharging=true
+  mSigMotionActive=false
+  mSensing=false mNotMoving=false
+  mLocating=false mHaveGps=false mLocated=false
+  mState=ACTIVE
+  mInactiveTimeout=+30m0s0ms

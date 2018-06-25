@@ -1,0 +1,520 @@
+SubscriptionController:
+ defaultSubId=2147483643
+ defaultDataSubId=6
+ defaultVoiceSubId=2147483643
+ defaultSmsSubId=6
+ defaultDataPhoneId=0
+ defaultVoicePhoneId=0
+ defaultSmsPhoneId=0
+++++++++++++++++++++++++++++++++
+ ActiveSubInfoList: is null
+++++++++++++++++++++++++++++++++
+ AllSubInfoList:
+  {id=1, iccId=898601168XXXXXXXXXXX simSlotIndex=-1 displayName=ä¸­å½èé carrierName=ä¸­å½èé nameSource=0 iconTint=-16746133 dataRoaming=0 iconBitmap=android.graphics.Bitmap@372dfea mcc 460 mnc 1}
+  {id=2, iccId=898602 simSlotIndex=-1 displayName=ä¸­å½ç§»å¨ carrierName=ä¸­å½ç§»å¨ nameSource=0 iconTint=-16746133 dataRoaming=0 iconBitmap=android.graphics.Bitmap@11ed2db mcc 460 mnc 2}
+  {id=3, iccId=898600100XXXXXXXXXXX simSlotIndex=-1 displayName=ä¸­å½ç§»å¨ carrierName=ä¸­å½ç§»å¨ nameSource=0 iconTint=-16746133 dataRoaming=0 iconBitmap=android.graphics.Bitmap@ec0b178 mcc 460 mnc 2}
+  {id=4, iccId=898601168XXXXXXXXXXX simSlotIndex=-1 displayName=ä¸­å½èé carrierName=ä¸­å½èé nameSource=0 iconTint=-16746133 dataRoaming=0 iconBitmap=android.graphics.Bitmap@8ee5051 mcc 460 mnc 1}
+  {id=5, iccId=898601178XXXXXXXXXXX simSlotIndex=-1 displayName=ä¸­å½èé carrierName=æ æå¡ nameSource=0 iconTint=-16746133 dataRoaming=0 iconBitmap=android.graphics.Bitmap@99710b6 mcc 460 mnc 1}
+  {id=6, iccId=898603157XXXXXXXXXXX simSlotIndex=-1 displayName=ä¸­å½çµä¿¡ carrierName=æ æå¡ nameSource=0 iconTint=-16746133 dataRoaming=0 iconBitmap=android.graphics.Bitmap@f2dc1b7 mcc 460 mnc 3}
+++++++++++++++++++++++++++++++++
+0: 12-24 17:07:00 pid=2448 tid=2645 [getActiveSubIdList] simInfoSet=[]
+1: 12-24 17:07:00 pid=2448 tid=2645 [getActiveSubIdList] X subIdArr.length=0
+2: 12-24 17:13:00 pid=2448 tid=32204 [getActiveSubIdList] simInfoSet=[]
+3: 12-24 17:13:00 pid=2448 tid=32204 [getActiveSubIdList] X subIdArr.length=0
+4: 12-24 17:13:00 pid=2448 tid=2459 [getActiveSubIdList] simInfoSet=[]
+5: 12-24 17:13:00 pid=2448 tid=2459 [getActiveSubIdList] X subIdArr.length=0
+6: 12-24 17:13:11 pid=2448 tid=32205 [getActiveSubIdList] simInfoSet=[]
+7: 12-24 17:13:11 pid=2448 tid=32205 [getActiveSubIdList] X subIdArr.length=0
+8: 12-24 17:13:11 pid=2448 tid=3063 [getActiveSubIdList] simInfoSet=[]
+9: 12-24 17:13:11 pid=2448 tid=3063 [getActiveSubIdList] X subIdArr.length=0
+10: 12-24 17:13:13 pid=2448 tid=3063 [getActiveSubIdList] simInfoSet=[]
+11: 12-24 17:13:13 pid=2448 tid=3063 [getActiveSubIdList] X subIdArr.length=0
+12: 12-24 17:13:13 pid=2448 tid=2644 [getActiveSubIdList] simInfoSet=[]
+13: 12-24 17:13:13 pid=2448 tid=2644 [getActiveSubIdList] X subIdArr.length=0
+14: 12-24 17:13:13 pid=2448 tid=32204 [getActiveSubIdList] simInfoSet=[]
+15: 12-24 17:13:13 pid=2448 tid=32204 [getActiveSubIdList] X subIdArr.length=0
+16: 12-24 17:13:13 pid=2448 tid=2461 [getActiveSubIdList] simInfoSet=[]
+17: 12-24 17:13:13 pid=2448 tid=2461 [getActiveSubIdList] X subIdArr.length=0
+18: 12-24 17:13:44 pid=2448 tid=3063 [getPhoneId]- no sims, returning default phoneId=0
+19: 12-24 17:13:45 pid=2448 tid=32204 [getPhoneId] asked for default subId=2147483643
+20: 12-24 17:13:46 pid=2448 tid=3063 [getPhoneId]- no sims, returning default phoneId=0
+21: 12-24 17:13:47 pid=2448 tid=32204 [getActiveSubIdList] simInfoSet=[]
+22: 12-24 17:13:47 pid=2448 tid=32204 [getActiveSubIdList] X subIdArr.length=0
+23: 12-24 17:13:47 pid=2448 tid=2644 [getActiveSubIdList] simInfoSet=[]
+24: 12-24 17:13:47 pid=2448 tid=2644 [getActiveSubIdList] X subIdArr.length=0
+25: 12-24 17:15:37 pid=2448 tid=2645 [getActiveSubIdList] simInfoSet=[]
+26: 12-24 17:15:37 pid=2448 tid=2645 [getActiveSubIdList] X subIdArr.length=0
+27: 12-24 17:15:37 pid=2448 tid=2885 [getActiveSubIdList] simInfoSet=[]
+28: 12-24 17:15:37 pid=2448 tid=2885 [getActiveSubIdList] X subIdArr.length=0
+29: 12-24 17:15:52 pid=2448 tid=2461 [getActiveSubIdList] simInfoSet=[]
+30: 12-24 17:15:52 pid=2448 tid=2461 [getActiveSubIdList] X subIdArr.length=0
+31: 12-24 17:15:52 pid=2448 tid=32204 [getActiveSubIdList] simInfoSet=[]
+32: 12-24 17:15:52 pid=2448 tid=32204 [getActiveSubIdList] X subIdArr.length=0
+33: 12-24 17:15:52 pid=2448 tid=3063 [getPhoneId]- no sims, returning default phoneId=0
+34: 12-24 17:15:54 pid=2448 tid=2461 [getActiveSubIdList] simInfoSet=[]
+35: 12-24 17:15:54 pid=2448 tid=2461 [getActiveSubIdList] X subIdArr.length=0
+36: 12-24 17:15:54 pid=2448 tid=32205 [getActiveSubIdList] simInfoSet=[]
+37: 12-24 17:15:54 pid=2448 tid=32205 [getActiveSubIdList] X subIdArr.length=0
+38: 12-24 17:15:55 pid=2448 tid=2644 [getActiveSubIdList] simInfoSet=[]
+39: 12-24 17:15:55 pid=2448 tid=2644 [getActiveSubIdList] X subIdArr.length=0
+40: 12-24 17:15:55 pid=2448 tid=2885 [getActiveSubIdList] simInfoSet=[]
+41: 12-24 17:15:55 pid=2448 tid=2885 [getActiveSubIdList] X subIdArr.length=0
+42: 12-24 17:16:25 pid=2448 tid=32205 [getActiveSubIdList] simInfoSet=[]
+43: 12-24 17:16:25 pid=2448 tid=32205 [getActiveSubIdList] X subIdArr.length=0
+44: 12-24 17:16:25 pid=2448 tid=2644 [getActiveSubIdList] simInfoSet=[]
+45: 12-24 17:16:25 pid=2448 tid=2644 [getActiveSubIdList] X subIdArr.length=0
+46: 12-24 17:16:32 pid=2448 tid=32204 [getActiveSubIdList] simInfoSet=[]
+47: 12-24 17:16:32 pid=2448 tid=32204 [getActiveSubIdList] X subIdArr.length=0
+48: 12-24 17:16:32 pid=2448 tid=2645 [getActiveSubIdList] simInfoSet=[]
+49: 12-24 17:16:32 pid=2448 tid=2645 [getActiveSubIdList] X subIdArr.length=0
+50: 12-24 17:16:41 pid=2448 tid=2459 [getActiveSubIdList] simInfoSet=[]
+51: 12-24 17:16:41 pid=2448 tid=2459 [getActiveSubIdList] X subIdArr.length=0
+52: 12-24 17:16:41 pid=2448 tid=32204 [getActiveSubIdList] simInfoSet=[]
+53: 12-24 17:16:41 pid=2448 tid=32204 [getActiveSubIdList] X subIdArr.length=0
+54: 12-24 17:16:49 pid=2448 tid=3063 [getActiveSubIdList] simInfoSet=[]
+55: 12-24 17:16:49 pid=2448 tid=3063 [getActiveSubIdList] X subIdArr.length=0
+56: 12-24 17:16:49 pid=2448 tid=2459 [getActiveSubIdList] simInfoSet=[]
+57: 12-24 17:16:49 pid=2448 tid=2459 [getActiveSubIdList] X subIdArr.length=0
+58: 12-24 17:16:57 pid=2448 tid=2461 [getActiveSubIdList] simInfoSet=[]
+59: 12-24 17:16:57 pid=2448 tid=2461 [getActiveSubIdList] X subIdArr.length=0
+60: 12-24 17:16:57 pid=2448 tid=32205 [getActiveSubIdList] simInfoSet=[]
+61: 12-24 17:16:57 pid=2448 tid=32205 [getActiveSubIdList] X subIdArr.length=0
+62: 12-24 17:17:05 pid=2448 tid=32205 [getActiveSubIdList] simInfoSet=[]
+63: 12-24 17:17:05 pid=2448 tid=32205 [getActiveSubIdList] X subIdArr.length=0
+64: 12-24 17:17:05 pid=2448 tid=2644 [getActiveSubIdList] simInfoSet=[]
+65: 12-24 17:17:05 pid=2448 tid=2644 [getActiveSubIdList] X subIdArr.length=0
+66: 12-24 17:17:14 pid=2448 tid=2461 [getActiveSubIdList] simInfoSet=[]
+67: 12-24 17:17:14 pid=2448 tid=2461 [getActiveSubIdList] X subIdArr.length=0
+68: 12-24 17:17:14 pid=2448 tid=32205 [getActiveSubIdList] simInfoSet=[]
+69: 12-24 17:17:14 pid=2448 tid=32205 [getActiveSubIdList] X subIdArr.length=0
+70: 12-24 17:17:21 pid=2448 tid=2461 [getActiveSubIdList] simInfoSet=[]
+71: 12-24 17:17:21 pid=2448 tid=2461 [getActiveSubIdList] X subIdArr.length=0
+72: 12-24 17:17:21 pid=2448 tid=32205 [getActiveSubIdList] simInfoSet=[]
+73: 12-24 17:17:21 pid=2448 tid=32205 [getActiveSubIdList] X subIdArr.length=0
+74: 12-24 17:17:26 pid=2448 tid=2459 [getPhoneId]- no sims, returning default phoneId=0
+75: 12-24 17:17:26 pid=2448 tid=2461 [getPhoneId]- no sims, returning default phoneId=0
+76: 12-24 17:17:30 pid=2448 tid=32204 [getActiveSubIdList] simInfoSet=[]
+77: 12-24 17:17:30 pid=2448 tid=32204 [getActiveSubIdList] X subIdArr.length=0
+78: 12-24 17:17:30 pid=2448 tid=2645 [getActiveSubIdList] simInfoSet=[]
+79: 12-24 17:17:30 pid=2448 tid=2645 [getActiveSubIdList] X subIdArr.length=0
+80: 12-24 17:17:38 pid=2448 tid=2885 [getActiveSubIdList] simInfoSet=[]
+81: 12-24 17:17:38 pid=2448 tid=2885 [getActiveSubIdList] X subIdArr.length=0
+82: 12-24 17:17:38 pid=2448 tid=3063 [getActiveSubIdList] simInfoSet=[]
+83: 12-24 17:17:38 pid=2448 tid=3063 [getActiveSubIdList] X subIdArr.length=0
+84: 12-24 17:17:47 pid=2448 tid=2644 [getActiveSubIdList] simInfoSet=[]
+85: 12-24 17:17:47 pid=2448 tid=2644 [getActiveSubIdList] X subIdArr.length=0
+86: 12-24 17:17:47 pid=2448 tid=2885 [getActiveSubIdList] simInfoSet=[]
+87: 12-24 17:17:47 pid=2448 tid=2885 [getActiveSubIdList] X subIdArr.length=0
+88: 12-24 17:17:54 pid=2448 tid=2461 [getActiveSubIdList] simInfoSet=[]
+89: 12-24 17:17:54 pid=2448 tid=2461 [getActiveSubIdList] X subIdArr.length=0
+90: 12-24 17:17:54 pid=2448 tid=32205 [getActiveSubIdList] simInfoSet=[]
+91: 12-24 17:17:54 pid=2448 tid=32205 [getActiveSubIdList] X subIdArr.length=0
+92: 12-24 17:18:03 pid=2448 tid=2459 [getActiveSubIdList] simInfoSet=[]
+93: 12-24 17:18:03 pid=2448 tid=2459 [getActiveSubIdList] X subIdArr.length=0
+94: 12-24 17:18:03 pid=2448 tid=32204 [getActiveSubIdList] simInfoSet=[]
+95: 12-24 17:18:03 pid=2448 tid=32204 [getActiveSubIdList] X subIdArr.length=0
+96: 12-24 17:18:10 pid=2448 tid=2885 [getActiveSubIdList] simInfoSet=[]
+97: 12-24 17:18:10 pid=2448 tid=2885 [getActiveSubIdList] X subIdArr.length=0
+98: 12-24 17:18:10 pid=2448 tid=3063 [getActiveSubIdList] simInfoSet=[]
+99: 12-24 17:18:10 pid=2448 tid=3063 [getActiveSubIdList] X subIdArr.length=0
+100: 12-24 17:18:19 pid=2448 tid=2644 [getActiveSubIdList] simInfoSet=[]
+101: 12-24 17:18:19 pid=2448 tid=2644 [getActiveSubIdList] X subIdArr.length=0
+102: 12-24 17:18:19 pid=2448 tid=2885 [getActiveSubIdList] simInfoSet=[]
+103: 12-24 17:18:19 pid=2448 tid=2885 [getActiveSubIdList] X subIdArr.length=0
+104: 12-24 17:18:27 pid=2448 tid=2645 [getActiveSubIdList] simInfoSet=[]
+105: 12-24 17:18:27 pid=2448 tid=2645 [getActiveSubIdList] X subIdArr.length=0
+106: 12-24 17:18:27 pid=2448 tid=2461 [getActiveSubIdList] simInfoSet=[]
+107: 12-24 17:18:27 pid=2448 tid=2461 [getActiveSubIdList] X subIdArr.length=0
+108: 12-24 17:18:35 pid=2448 tid=3063 [getActiveSubIdList] simInfoSet=[]
+109: 12-24 17:18:35 pid=2448 tid=3063 [getActiveSubIdList] X subIdArr.length=0
+110: 12-24 17:18:35 pid=2448 tid=2459 [getActiveSubIdList] simInfoSet=[]
+111: 12-24 17:18:35 pid=2448 tid=2459 [getActiveSubIdList] X subIdArr.length=0
+112: 12-24 17:18:43 pid=2448 tid=2461 [getActiveSubIdList] simInfoSet=[]
+113: 12-24 17:18:43 pid=2448 tid=2461 [getActiveSubIdList] X subIdArr.length=0
+114: 12-24 17:18:43 pid=2448 tid=32205 [getActiveSubIdList] simInfoSet=[]
+115: 12-24 17:18:43 pid=2448 tid=32205 [getActiveSubIdList] X subIdArr.length=0
+116: 12-24 17:18:51 pid=2448 tid=2459 [getActiveSubIdList] simInfoSet=[]
+117: 12-24 17:18:51 pid=2448 tid=2459 [getActiveSubIdList] X subIdArr.length=0
+118: 12-24 17:18:51 pid=2448 tid=32204 [getActiveSubIdList] simInfoSet=[]
+119: 12-24 17:18:51 pid=2448 tid=32204 [getActiveSubIdList] X subIdArr.length=0
+120: 12-24 17:18:59 pid=2448 tid=32204 [getActiveSubIdList] simInfoSet=[]
+121: 12-24 17:18:59 pid=2448 tid=32204 [getActiveSubIdList] X subIdArr.length=0
+122: 12-24 17:18:59 pid=2448 tid=2645 [getActiveSubIdList] simInfoSet=[]
+123: 12-24 17:18:59 pid=2448 tid=2645 [getActiveSubIdList] X subIdArr.length=0
+124: 12-24 17:19:07 pid=2448 tid=2885 [getActiveSubIdList] simInfoSet=[]
+125: 12-24 17:19:07 pid=2448 tid=2885 [getActiveSubIdList] X subIdArr.length=0
+126: 12-24 17:19:07 pid=2448 tid=3063 [getActiveSubIdList] simInfoSet=[]
+127: 12-24 17:19:07 pid=2448 tid=3063 [getActiveSubIdList] X subIdArr.length=0
+128: 12-24 17:19:15 pid=2448 tid=2461 [getActiveSubIdList] simInfoSet=[]
+129: 12-24 17:19:15 pid=2448 tid=2461 [getActiveSubIdList] X subIdArr.length=0
+130: 12-24 17:19:15 pid=2448 tid=32205 [getActiveSubIdList] simInfoSet=[]
+131: 12-24 17:19:15 pid=2448 tid=32205 [getActiveSubIdList] X subIdArr.length=0
+132: 12-24 17:19:24 pid=2448 tid=2645 [getActiveSubIdList] simInfoSet=[]
+133: 12-24 17:19:24 pid=2448 tid=2645 [getActiveSubIdList] X subIdArr.length=0
+134: 12-24 17:19:24 pid=2448 tid=2461 [getActiveSubIdList] simInfoSet=[]
+135: 12-24 17:19:24 pid=2448 tid=2461 [getActiveSubIdList] X subIdArr.length=0
+136: 12-24 17:19:31 pid=2448 tid=2459 [getActiveSubIdList] simInfoSet=[]
+137: 12-24 17:19:31 pid=2448 tid=2459 [getActiveSubIdList] X subIdArr.length=0
+138: 12-24 17:19:31 pid=2448 tid=32204 [getActiveSubIdList] simInfoSet=[]
+139: 12-24 17:19:31 pid=2448 tid=32204 [getActiveSubIdList] X subIdArr.length=0
+140: 12-24 17:19:40 pid=2448 tid=32204 [getActiveSubIdList] simInfoSet=[]
+141: 12-24 17:19:40 pid=2448 tid=32204 [getActiveSubIdList] X subIdArr.length=0
+142: 12-24 17:19:40 pid=2448 tid=2645 [getActiveSubIdList] simInfoSet=[]
+143: 12-24 17:19:40 pid=2448 tid=2645 [getActiveSubIdList] X subIdArr.length=0
+144: 12-24 17:19:48 pid=2448 tid=2459 [getActiveSubIdList] simInfoSet=[]
+145: 12-24 17:19:48 pid=2448 tid=2459 [getActiveSubIdList] X subIdArr.length=0
+146: 12-24 17:19:48 pid=2448 tid=32204 [getActiveSubIdList] simInfoSet=[]
+147: 12-24 17:19:48 pid=2448 tid=32204 [getActiveSubIdList] X subIdArr.length=0
+148: 12-24 17:19:56 pid=2448 tid=32205 [getActiveSubIdList] simInfoSet=[]
+149: 12-24 17:19:56 pid=2448 tid=32205 [getActiveSubIdList] X subIdArr.length=0
+150: 12-24 17:19:56 pid=2448 tid=2644 [getActiveSubIdList] simInfoSet=[]
+151: 12-24 17:19:56 pid=2448 tid=2644 [getActiveSubIdList] X subIdArr.length=0
+152: 12-24 17:20:04 pid=2448 tid=32204 [getActiveSubIdList] simInfoSet=[]
+153: 12-24 17:20:04 pid=2448 tid=32204 [getActiveSubIdList] X subIdArr.length=0
+154: 12-24 17:20:04 pid=2448 tid=2645 [getActiveSubIdList] simInfoSet=[]
+155: 12-24 17:20:04 pid=2448 tid=2645 [getActiveSubIdList] X subIdArr.length=0
+156: 12-24 17:20:12 pid=2448 tid=2885 [getActiveSubIdList] simInfoSet=[]
+157: 12-24 17:20:12 pid=2448 tid=2885 [getActiveSubIdList] X subIdArr.length=0
+158: 12-24 17:20:12 pid=2448 tid=3063 [getActiveSubIdList] simInfoSet=[]
+159: 12-24 17:20:12 pid=2448 tid=3063 [getActiveSubIdList] X subIdArr.length=0
+160: 12-24 17:20:20 pid=2448 tid=2461 [getActiveSubIdList] simInfoSet=[]
+161: 12-24 17:20:20 pid=2448 tid=2461 [getActiveSubIdList] X subIdArr.length=0
+162: 12-24 17:20:20 pid=2448 tid=32205 [getActiveSubIdList] simInfoSet=[]
+163: 12-24 17:20:20 pid=2448 tid=32205 [getActiveSubIdList] X subIdArr.length=0
+164: 12-24 17:20:26 pid=2448 tid=2645 [getPhoneId]- no sims, returning default phoneId=0
+165: 12-24 17:20:26 pid=2448 tid=2461 [getActiveSubIdList] simInfoSet=[]
+166: 12-24 17:20:26 pid=2448 tid=2461 [getActiveSubIdList] X subIdArr.length=0
+167: 12-24 17:20:26 pid=2448 tid=32205 [getActiveSubIdList] simInfoSet=[]
+168: 12-24 17:20:26 pid=2448 tid=32205 [getActiveSubIdList] X subIdArr.length=0
+169: 12-24 17:20:27 pid=2448 tid=3063 [getActiveSubIdList] simInfoSet=[]
+170: 12-24 17:20:27 pid=2448 tid=3063 [getActiveSubIdList] X subIdArr.length=0
+171: 12-24 17:20:27 pid=2448 tid=2459 [getActiveSubIdList] simInfoSet=[]
+172: 12-24 17:20:27 pid=2448 tid=2459 [getActiveSubIdList] X subIdArr.length=0
+173: 12-24 17:20:29 pid=2448 tid=32205 [getActiveSubIdList] simInfoSet=[]
+174: 12-24 17:20:29 pid=2448 tid=32205 [getActiveSubIdList] X subIdArr.length=0
+175: 12-24 17:20:29 pid=2448 tid=2644 [getActiveSubIdList] simInfoSet=[]
+176: 12-24 17:20:29 pid=2448 tid=2644 [getActiveSubIdList] X subIdArr.length=0
+177: 12-24 17:20:30 pid=2448 tid=32204 [getActiveSubIdList] simInfoSet=[]
+178: 12-24 17:20:30 pid=2448 tid=32204 [getActiveSubIdList] X subIdArr.length=0
+179: 12-24 17:20:30 pid=2448 tid=2645 [getActiveSubIdList] simInfoSet=[]
+180: 12-24 17:20:30 pid=2448 tid=2645 [getActiveSubIdList] X subIdArr.length=0
+181: 12-24 17:20:33 pid=2448 tid=2645 [getActiveSubIdList] simInfoSet=[]
+182: 12-24 17:20:33 pid=2448 tid=2645 [getActiveSubIdList] X subIdArr.length=0
+183: 12-24 17:20:33 pid=2448 tid=2461 [getActiveSubIdList] simInfoSet=[]
+184: 12-24 17:20:33 pid=2448 tid=2461 [getActiveSubIdList] X subIdArr.length=0
+185: 12-24 17:20:38 pid=2448 tid=2459 [getActiveSubIdList] simInfoSet=[]
+186: 12-24 17:20:38 pid=2448 tid=2459 [getActiveSubIdList] X subIdArr.length=0
+187: 12-24 17:20:38 pid=2448 tid=3063 [getActiveSubIdList] simInfoSet=[]
+188: 12-24 17:20:38 pid=2448 tid=3063 [getActiveSubIdList] X subIdArr.length=0
+189: 12-24 17:20:38 pid=2448 tid=32204 [getPhoneId] asked for default subId=2147483643
+190: 12-24 17:20:43 pid=2448 tid=3063 [getActiveSubIdList] simInfoSet=[]
+191: 12-24 17:20:43 pid=2448 tid=3063 [getActiveSubIdList] X subIdArr.length=0
+192: 12-24 17:20:43 pid=2448 tid=32204 [getActiveSubIdList] simInfoSet=[]
+193: 12-24 17:20:43 pid=2448 tid=32204 [getActiveSubIdList] X subIdArr.length=0
+194: 12-24 17:20:44 pid=2448 tid=32205 [getPhoneId]- no sims, returning default phoneId=0
+195: 12-24 17:20:45 pid=2448 tid=3063 [getPhoneId]- no sims, returning default phoneId=0
+196: 12-24 17:20:45 pid=2448 tid=32205 [getActiveSubIdList] simInfoSet=[]
+197: 12-24 17:20:45 pid=2448 tid=32205 [getActiveSubIdList] X subIdArr.length=0
+198: 12-24 17:20:45 pid=2448 tid=2644 [getActiveSubIdList] simInfoSet=[]
+199: 12-24 17:20:45 pid=2448 tid=2644 [getActiveSubIdList] X subIdArr.length=0
+200: 12-24 17:20:45 pid=2448 tid=2448 [getPhoneId]- no sims, returning default phoneId=0
+201: 12-24 17:20:45 pid=2448 tid=2448 [getPhoneId]- no sims, returning default phoneId=0
+202: 12-24 17:20:45 pid=2448 tid=2448 [getPhoneId]- no sims, returning default phoneId=0
+203: 12-24 17:20:45 pid=2448 tid=2448 [getPhoneId]- no sims, returning default phoneId=0
+204: 12-24 17:20:45 pid=2448 tid=2459 [getPhoneId]- no sims, returning default phoneId=0
+205: 12-24 17:20:45 pid=2448 tid=32205 [getActiveSubIdList] simInfoSet=[]
+206: 12-24 17:20:45 pid=2448 tid=32205 [getActiveSubIdList] X subIdArr.length=0
+207: 12-24 17:20:45 pid=2448 tid=2644 [getActiveSubIdList] simInfoSet=[]
+208: 12-24 17:20:45 pid=2448 tid=2644 [getActiveSubIdList] X subIdArr.length=0
+209: 12-24 17:20:45 pid=2448 tid=2459 [getActiveSubIdList] simInfoSet=[]
+210: 12-24 17:20:45 pid=2448 tid=2459 [getActiveSubIdList] X subIdArr.length=0
+211: 12-24 17:20:45 pid=2448 tid=2885 [getActiveSubIdList] simInfoSet=[]
+212: 12-24 17:20:45 pid=2448 tid=2885 [getActiveSubIdList] X subIdArr.length=0
+213: 12-24 17:20:45 pid=2448 tid=32204 [getPhoneId]- no sims, returning default phoneId=0
+214: 12-24 17:20:45 pid=2448 tid=2645 [getActiveSubIdList] simInfoSet=[]
+215: 12-24 17:20:45 pid=2448 tid=2645 [getActiveSubIdList] X subIdArr.length=0
+216: 12-24 17:20:45 pid=2448 tid=2885 [getActiveSubIdList] simInfoSet=[]
+217: 12-24 17:20:45 pid=2448 tid=2885 [getActiveSubIdList] X subIdArr.length=0
+218: 12-24 17:20:45 pid=2448 tid=3063 [getPhoneId]- no sims, returning default phoneId=0
+219: 12-24 17:20:46 pid=2448 tid=2644 [getPhoneId]- no sims, returning default phoneId=0
+220: 12-24 17:20:46 pid=2448 tid=32204 [getPhoneId]- no sims, returning default phoneId=0
+221: 12-24 17:20:48 pid=2448 tid=2645 [getPhoneId]- no sims, returning default phoneId=0
+222: 12-24 17:20:48 pid=2448 tid=2885 [getActiveSubIdList] simInfoSet=[]
+223: 12-24 17:20:48 pid=2448 tid=2885 [getActiveSubIdList] X subIdArr.length=0
+224: 12-24 17:20:48 pid=2448 tid=2644 [getActiveSubIdList] simInfoSet=[]
+225: 12-24 17:20:48 pid=2448 tid=2644 [getActiveSubIdList] X subIdArr.length=0
+226: 12-24 17:20:48 pid=2448 tid=32204 [getActiveSubIdList] simInfoSet=[]
+227: 12-24 17:20:48 pid=2448 tid=32204 [getActiveSubIdList] X subIdArr.length=0
+228: 12-24 17:20:48 pid=2448 tid=32205 [getActiveSubIdList] simInfoSet=[]
+229: 12-24 17:20:48 pid=2448 tid=32205 [getActiveSubIdList] X subIdArr.length=0
+230: 12-24 17:20:49 pid=2448 tid=2461 [getActiveSubIdList] simInfoSet=[]
+231: 12-24 17:20:49 pid=2448 tid=2461 [getActiveSubIdList] X subIdArr.length=0
+232: 12-24 17:20:49 pid=2448 tid=2459 [getActiveSubIdList] simInfoSet=[]
+233: 12-24 17:20:49 pid=2448 tid=2459 [getActiveSubIdList] X subIdArr.length=0
+234: 12-24 17:20:49 pid=2448 tid=2885 [getPhoneId]- no sims, returning default phoneId=0
+235: 12-24 17:20:49 pid=2448 tid=2644 [getPhoneId]- no sims, returning default phoneId=0
+236: 12-24 17:20:50 pid=2448 tid=32204 [getActiveSubIdList] simInfoSet=[]
+237: 12-24 17:20:50 pid=2448 tid=32204 [getActiveSubIdList] X subIdArr.length=0
+238: 12-24 17:20:50 pid=2448 tid=32205 [getActiveSubIdList] simInfoSet=[]
+239: 12-24 17:20:50 pid=2448 tid=32205 [getActiveSubIdList] X subIdArr.length=0
+240: 12-24 17:20:58 pid=2448 tid=2645 [getPhoneId]- no sims, returning default phoneId=0
+241: 12-24 17:20:58 pid=2448 tid=2885 [getPhoneId]- no sims, returning default phoneId=0
+242: 12-24 17:21:03 pid=2448 tid=2645 [getPhoneId]- no sims, returning default phoneId=0
+243: 12-24 17:21:04 pid=2448 tid=2885 [getActiveSubIdList] simInfoSet=[]
+244: 12-24 17:21:04 pid=2448 tid=2885 [getActiveSubIdList] X subIdArr.length=0
+245: 12-24 17:21:04 pid=2448 tid=2644 [getActiveSubIdList] simInfoSet=[]
+246: 12-24 17:21:04 pid=2448 tid=2644 [getActiveSubIdList] X subIdArr.length=0
+247: 12-24 17:21:08 pid=2448 tid=32204 [getPhoneId]- no sims, returning default phoneId=0
+248: 12-24 17:21:09 pid=2448 tid=32204 [getActiveSubIdList] simInfoSet=[]
+249: 12-24 17:21:09 pid=2448 tid=32204 [getActiveSubIdList] X subIdArr.length=0
+250: 12-24 17:21:09 pid=2448 tid=3063 [getActiveSubIdList] simInfoSet=[]
+251: 12-24 17:21:09 pid=2448 tid=3063 [getActiveSubIdList] X subIdArr.length=0
+252: 12-24 17:21:09 pid=2448 tid=2885 [getActiveSubIdList] simInfoSet=[]
+253: 12-24 17:21:09 pid=2448 tid=2885 [getActiveSubIdList] X subIdArr.length=0
+254: 12-24 17:21:09 pid=2448 tid=2644 [getActiveSubIdList] simInfoSet=[]
+255: 12-24 17:21:09 pid=2448 tid=2644 [getActiveSubIdList] X subIdArr.length=0
+256: 12-24 17:21:09 pid=2448 tid=3063 [getPhoneId]- no sims, returning default phoneId=0
+257: 12-24 17:21:09 pid=2448 tid=2459 [getActiveSubIdList] simInfoSet=[]
+258: 12-24 17:21:09 pid=2448 tid=2459 [getActiveSubIdList] X subIdArr.length=0
+259: 12-24 17:21:09 pid=2448 tid=2645 [getActiveSubIdList] simInfoSet=[]
+260: 12-24 17:21:09 pid=2448 tid=2645 [getActiveSubIdList] X subIdArr.length=0
+261: 12-24 17:21:10 pid=2448 tid=32205 [getPhoneId]- no sims, returning default phoneId=0
+262: 12-24 17:21:11 pid=2448 tid=2461 [getActiveSubIdList] simInfoSet=[]
+263: 12-24 17:21:11 pid=2448 tid=2461 [getActiveSubIdList] X subIdArr.length=0
+264: 12-24 17:21:11 pid=2448 tid=32204 [getActiveSubIdList] simInfoSet=[]
+265: 12-24 17:21:11 pid=2448 tid=32204 [getActiveSubIdList] X subIdArr.length=0
+266: 12-24 17:21:12 pid=2448 tid=2645 [getActiveSubIdList] simInfoSet=[]
+267: 12-24 17:21:12 pid=2448 tid=2645 [getActiveSubIdList] X subIdArr.length=0
+268: 12-24 17:21:12 pid=2448 tid=2885 [getActiveSubIdList] simInfoSet=[]
+269: 12-24 17:21:12 pid=2448 tid=2885 [getActiveSubIdList] X subIdArr.length=0
+270: 12-24 17:21:12 pid=2448 tid=32204 [getActiveSubIdList] simInfoSet=[]
+271: 12-24 17:21:12 pid=2448 tid=32204 [getActiveSubIdList] X subIdArr.length=0
+272: 12-24 17:21:12 pid=2448 tid=2459 [getActiveSubIdList] simInfoSet=[]
+273: 12-24 17:21:12 pid=2448 tid=2459 [getActiveSubIdList] X subIdArr.length=0
+274: 12-24 17:21:12 pid=2448 tid=2885 [getActiveSubIdList] simInfoSet=[]
+275: 12-24 17:21:12 pid=2448 tid=2885 [getActiveSubIdList] X subIdArr.length=0
+276: 12-24 17:21:12 pid=2448 tid=3063 [getActiveSubIdList] simInfoSet=[]
+277: 12-24 17:21:12 pid=2448 tid=3063 [getActiveSubIdList] X subIdArr.length=0
+278: 12-24 17:21:12 pid=2448 tid=32205 [getActiveSubIdList] simInfoSet=[]
+279: 12-24 17:21:12 pid=2448 tid=32205 [getActiveSubIdList] X subIdArr.length=0
+280: 12-24 17:21:13 pid=2448 tid=2448 [getPhoneId]- no sims, returning default phoneId=0
+281: 12-24 17:21:13 pid=2448 tid=2448 [getPhoneId]- no sims, returning default phoneId=0
+282: 12-24 17:21:13 pid=2448 tid=2645 [getActiveSubIdList] simInfoSet=[]
+283: 12-24 17:21:13 pid=2448 tid=2645 [getActiveSubIdList] X subIdArr.length=0
+284: 12-24 17:21:13 pid=2448 tid=2459 [getPhoneId]- no sims, returning default phoneId=0
+285: 12-24 17:21:13 pid=2448 tid=2461 [getPhoneId]- no sims, returning default phoneId=0
+286: 12-24 17:21:13 pid=2448 tid=2459 [getActiveSubIdList] simInfoSet=[]
+287: 12-24 17:21:13 pid=2448 tid=2459 [getActiveSubIdList] X subIdArr.length=0
+288: 12-24 17:21:13 pid=2448 tid=32204 [getActiveSubIdList] simInfoSet=[]
+289: 12-24 17:21:13 pid=2448 tid=32204 [getActiveSubIdList] X subIdArr.length=0
+290: 12-24 17:21:13 pid=2448 tid=2644 [getPhoneId]- no sims, returning default phoneId=0
+291: 12-24 17:21:16 pid=2448 tid=32204 [getPhoneId]- no sims, returning default phoneId=0
+292: 12-24 17:21:18 pid=2448 tid=2459 [getActiveSubIdList] simInfoSet=[]
+293: 12-24 17:21:18 pid=2448 tid=2459 [getActiveSubIdList] X subIdArr.length=0
+294: 12-24 17:21:18 pid=2448 tid=32205 [getActiveSubIdList] simInfoSet=[]
+295: 12-24 17:21:18 pid=2448 tid=32205 [getActiveSubIdList] X subIdArr.length=0
+296: 12-24 17:21:19 pid=2448 tid=3063 [getPhoneId] asked for default subId=2147483643
+297: 12-24 17:21:19 pid=2448 tid=2645 [getPhoneId]- no sims, returning default phoneId=0
+298: 12-24 17:21:23 pid=2448 tid=32204 [getPhoneId] asked for default subId=2147483643
+299: 12-24 17:21:23 pid=2448 tid=2645 [getPhoneId]- no sims, returning default phoneId=0
+300: 12-24 17:21:23 pid=2448 tid=32204 [getPhoneId]- no sims, returning default phoneId=0
+301: 12-24 17:21:23 pid=2448 tid=2885 [getPhoneId]- no sims, returning default phoneId=0
+302: 12-24 17:21:23 pid=2448 tid=32204 [getPhoneId] asked for default subId=2147483643
+303: 12-24 17:21:24 pid=2448 tid=32204 [getPhoneId]- no sims, returning default phoneId=0
+304: 12-24 17:21:25 pid=2448 tid=3063 [getActiveSubIdList] simInfoSet=[]
+305: 12-24 17:21:25 pid=2448 tid=3063 [getActiveSubIdList] X subIdArr.length=0
+306: 12-24 17:21:25 pid=2448 tid=2461 [getActiveSubIdList] simInfoSet=[]
+307: 12-24 17:21:25 pid=2448 tid=2461 [getActiveSubIdList] X subIdArr.length=0
+308: 12-24 17:21:25 pid=2448 tid=2645 [getPhoneId]- no sims, returning default phoneId=0
+309: 12-24 17:21:33 pid=2448 tid=2461 [getActiveSubIdList] simInfoSet=[]
+310: 12-24 17:21:33 pid=2448 tid=2461 [getActiveSubIdList] X subIdArr.length=0
+311: 12-24 17:21:33 pid=2448 tid=2459 [getActiveSubIdList] simInfoSet=[]
+312: 12-24 17:21:33 pid=2448 tid=2459 [getActiveSubIdList] X subIdArr.length=0
+313: 12-24 17:21:41 pid=2448 tid=2461 [getActiveSubIdList] simInfoSet=[]
+314: 12-24 17:21:41 pid=2448 tid=2461 [getActiveSubIdList] X subIdArr.length=0
+315: 12-24 17:21:41 pid=2448 tid=2459 [getActiveSubIdList] simInfoSet=[]
+316: 12-24 17:21:41 pid=2448 tid=2459 [getActiveSubIdList] X subIdArr.length=0
+317: 12-24 17:21:48 pid=2448 tid=32204 [getActiveSubIdList] simInfoSet=[]
+318: 12-24 17:21:48 pid=2448 tid=32204 [getActiveSubIdList] X subIdArr.length=0
+319: 12-24 17:21:48 pid=2448 tid=2644 [getActiveSubIdList] simInfoSet=[]
+320: 12-24 17:21:48 pid=2448 tid=2644 [getActiveSubIdList] X subIdArr.length=0
+321: 12-24 17:21:56 pid=2448 tid=2459 [getActiveSubIdList] simInfoSet=[]
+322: 12-24 17:21:56 pid=2448 tid=2459 [getActiveSubIdList] X subIdArr.length=0
+323: 12-24 17:21:56 pid=2448 tid=2645 [getActiveSubIdList] simInfoSet=[]
+324: 12-24 17:21:56 pid=2448 tid=2645 [getActiveSubIdList] X subIdArr.length=0
+325: 12-24 17:22:04 pid=2448 tid=32205 [getActiveSubIdList] simInfoSet=[]
+326: 12-24 17:22:04 pid=2448 tid=32205 [getActiveSubIdList] X subIdArr.length=0
+327: 12-24 17:22:04 pid=2448 tid=2885 [getActiveSubIdList] simInfoSet=[]
+328: 12-24 17:22:04 pid=2448 tid=2885 [getActiveSubIdList] X subIdArr.length=0
+329: 12-24 17:22:12 pid=2448 tid=2885 [getActiveSubIdList] simInfoSet=[]
+330: 12-24 17:22:12 pid=2448 tid=2885 [getActiveSubIdList] X subIdArr.length=0
+331: 12-24 17:22:12 pid=2448 tid=32204 [getActiveSubIdList] simInfoSet=[]
+332: 12-24 17:22:12 pid=2448 tid=32204 [getActiveSubIdList] X subIdArr.length=0
+333: 12-24 17:22:20 pid=2448 tid=3063 [getActiveSubIdList] simInfoSet=[]
+334: 12-24 17:22:20 pid=2448 tid=3063 [getActiveSubIdList] X subIdArr.length=0
+335: 12-24 17:22:20 pid=2448 tid=2461 [getActiveSubIdList] simInfoSet=[]
+336: 12-24 17:22:20 pid=2448 tid=2461 [getActiveSubIdList] X subIdArr.length=0
+337: 12-24 17:22:28 pid=2448 tid=2459 [getActiveSubIdList] simInfoSet=[]
+338: 12-24 17:22:28 pid=2448 tid=2459 [getActiveSubIdList] X subIdArr.length=0
+339: 12-24 17:22:28 pid=2448 tid=2645 [getActiveSubIdList] simInfoSet=[]
+340: 12-24 17:22:28 pid=2448 tid=2645 [getActiveSubIdList] X subIdArr.length=0
+341: 12-24 17:22:36 pid=2448 tid=3063 [getActiveSubIdList] simInfoSet=[]
+342: 12-24 17:22:36 pid=2448 tid=3063 [getActiveSubIdList] X subIdArr.length=0
+343: 12-24 17:22:36 pid=2448 tid=2461 [getActiveSubIdList] simInfoSet=[]
+344: 12-24 17:22:36 pid=2448 tid=2461 [getActiveSubIdList] X subIdArr.length=0
+345: 12-24 17:22:41 pid=2448 tid=2645 [getPhoneId]- no sims, returning default phoneId=0
+346: 12-24 17:22:44 pid=2448 tid=2885 [getActiveSubIdList] simInfoSet=[]
+347: 12-24 17:22:44 pid=2448 tid=2885 [getActiveSubIdList] X subIdArr.length=0
+348: 12-24 17:22:44 pid=2448 tid=32204 [getActiveSubIdList] simInfoSet=[]
+349: 12-24 17:22:44 pid=2448 tid=32204 [getActiveSubIdList] X subIdArr.length=0
+350: 12-24 17:22:46 pid=2448 tid=2885 [getPhoneId]- no sims, returning default phoneId=0
+351: 12-24 17:22:52 pid=2448 tid=2645 [getActiveSubIdList] simInfoSet=[]
+352: 12-24 17:22:52 pid=2448 tid=2645 [getActiveSubIdList] X subIdArr.length=0
+353: 12-24 17:22:52 pid=2448 tid=2885 [getActiveSubIdList] simInfoSet=[]
+354: 12-24 17:22:52 pid=2448 tid=2885 [getActiveSubIdList] X subIdArr.length=0
+355: 12-24 17:23:00 pid=2448 tid=2459 [getActiveSubIdList] simInfoSet=[]
+356: 12-24 17:23:00 pid=2448 tid=2459 [getActiveSubIdList] X subIdArr.length=0
+357: 12-24 17:23:00 pid=2448 tid=2645 [getActiveSubIdList] simInfoSet=[]
+358: 12-24 17:23:00 pid=2448 tid=2645 [getActiveSubIdList] X subIdArr.length=0
+359: 12-24 17:23:07 pid=2448 tid=2459 [getActiveSubIdList] simInfoSet=[]
+360: 12-24 17:23:07 pid=2448 tid=2459 [getActiveSubIdList] X subIdArr.length=0
+361: 12-24 17:23:07 pid=2448 tid=2645 [getActiveSubIdList] simInfoSet=[]
+362: 12-24 17:23:07 pid=2448 tid=2645 [getActiveSubIdList] X subIdArr.length=0
+363: 12-24 17:23:15 pid=2448 tid=32204 [getActiveSubIdList] simInfoSet=[]
+364: 12-24 17:23:15 pid=2448 tid=32204 [getActiveSubIdList] X subIdArr.length=0
+365: 12-24 17:23:15 pid=2448 tid=2644 [getActiveSubIdList] simInfoSet=[]
+366: 12-24 17:23:15 pid=2448 tid=2644 [getActiveSubIdList] X subIdArr.length=0
+367: 12-24 17:23:21 pid=2448 tid=2645 [getActiveSubIdList] simInfoSet=[]
+368: 12-24 17:23:21 pid=2448 tid=2645 [getActiveSubIdList] X subIdArr.length=0
+369: 12-24 17:23:21 pid=2448 tid=2885 [getActiveSubIdList] simInfoSet=[]
+370: 12-24 17:23:21 pid=2448 tid=2885 [getActiveSubIdList] X subIdArr.length=0
+371: 12-24 17:23:25 pid=2448 tid=2461 [getPhoneId]- no sims, returning default phoneId=0
+372: 12-24 17:23:30 pid=2448 tid=2461 [getPhoneId]- no sims, returning default phoneId=0
+373: 12-24 17:23:31 pid=2448 tid=2461 [getPhoneId]- no sims, returning default phoneId=0
+374: 12-24 17:23:37 pid=2448 tid=32204 [getPhoneId]- no sims, returning default phoneId=0
+375: 12-24 17:23:37 pid=2448 tid=3063 [getActiveSubIdList] simInfoSet=[]
+376: 12-24 17:23:37 pid=2448 tid=3063 [getActiveSubIdList] X subIdArr.length=0
+377: 12-24 17:23:37 pid=2448 tid=2461 [getActiveSubIdList] simInfoSet=[]
+378: 12-24 17:23:37 pid=2448 tid=2461 [getActiveSubIdList] X subIdArr.length=0
+379: 12-24 17:23:45 pid=2448 tid=2644 [getPhoneId]- no sims, returning default phoneId=0
+380: 12-24 17:23:58 pid=2448 tid=32205 [getActiveSubIdList] simInfoSet=[]
+381: 12-24 17:23:58 pid=2448 tid=32205 [getActiveSubIdList] X subIdArr.length=0
+382: 12-24 17:23:58 pid=2448 tid=2885 [getActiveSubIdList] simInfoSet=[]
+383: 12-24 17:23:58 pid=2448 tid=2885 [getActiveSubIdList] X subIdArr.length=0
+384: 12-24 17:23:58 pid=2448 tid=32204 [getPhoneId]- no sims, returning default phoneId=0
+385: 12-24 17:23:58 pid=2448 tid=2459 [getPhoneId]- no sims, returning default phoneId=0
+386: 12-24 17:23:58 pid=2448 tid=2885 [getActiveSubIdList] simInfoSet=[]
+387: 12-24 17:23:58 pid=2448 tid=2885 [getActiveSubIdList] X subIdArr.length=0
+388: 12-24 17:23:58 pid=2448 tid=2448 [getPhoneId]- no sims, returning default phoneId=0
+389: 12-24 17:23:58 pid=2448 tid=2448 [getPhoneId]- no sims, returning default phoneId=0
+390: 12-24 17:23:58 pid=2448 tid=32204 [getActiveSubIdList] simInfoSet=[]
+391: 12-24 17:23:58 pid=2448 tid=32204 [getActiveSubIdList] X subIdArr.length=0
+392: 12-24 17:23:58 pid=2448 tid=2448 [getPhoneId]- no sims, returning default phoneId=0
+393: 12-24 17:23:58 pid=2448 tid=2448 [getPhoneId]- no sims, returning default phoneId=0
+394: 12-24 17:23:58 pid=2448 tid=2461 [getActiveSubIdList] simInfoSet=[]
+395: 12-24 17:23:58 pid=2448 tid=2461 [getActiveSubIdList] X subIdArr.length=0
+396: 12-24 17:23:58 pid=2448 tid=2644 [getActiveSubIdList] simInfoSet=[]
+397: 12-24 17:23:58 pid=2448 tid=2644 [getActiveSubIdList] X subIdArr.length=0
+398: 12-24 17:23:58 pid=2448 tid=2885 [getActiveSubIdList] simInfoSet=[]
+399: 12-24 17:23:58 pid=2448 tid=2885 [getActiveSubIdList] X subIdArr.length=0
+400: 12-24 17:23:58 pid=2448 tid=2645 [getActiveSubIdList] simInfoSet=[]
+401: 12-24 17:23:58 pid=2448 tid=2645 [getActiveSubIdList] X subIdArr.length=0
+402: 12-24 17:23:58 pid=2448 tid=2645 [getPhoneId]- no sims, returning default phoneId=0
+403: 12-24 17:23:58 pid=2448 tid=2461 [getPhoneId]- no sims, returning default phoneId=0
+404: 12-24 17:23:58 pid=2448 tid=32204 [getActiveSubIdList] simInfoSet=[]
+405: 12-24 17:23:58 pid=2448 tid=32204 [getActiveSubIdList] X subIdArr.length=0
+406: 12-24 17:23:58 pid=2448 tid=2644 [getActiveSubIdList] simInfoSet=[]
+407: 12-24 17:23:58 pid=2448 tid=2644 [getActiveSubIdList] X subIdArr.length=0
+408: 12-24 17:23:59 pid=2448 tid=2644 [getPhoneId]- no sims, returning default phoneId=0
+409: 12-24 17:23:59 pid=2448 tid=2645 [getPhoneId] asked for default subId=2147483643
+410: 12-24 17:23:59 pid=2448 tid=32205 [getPhoneId]- no sims, returning default phoneId=0
+411: 12-24 17:23:59 pid=2448 tid=2461 [getPhoneId]- no sims, returning default phoneId=0
+412: 12-24 17:24:02 pid=2448 tid=32204 [getPhoneId]- no sims, returning default phoneId=0
+413: 12-24 17:24:02 pid=2448 tid=2459 [getPhoneId]- no sims, returning default phoneId=0
+414: 12-24 17:24:06 pid=2448 tid=32204 [getActiveSubIdList] simInfoSet=[]
+415: 12-24 17:24:06 pid=2448 tid=32204 [getActiveSubIdList] X subIdArr.length=0
+416: 12-24 17:24:06 pid=2448 tid=2459 [getActiveSubIdList] simInfoSet=[]
+417: 12-24 17:24:06 pid=2448 tid=2459 [getActiveSubIdList] X subIdArr.length=0
+418: 12-24 17:24:06 pid=2448 tid=2461 [getActiveSubIdList] simInfoSet=[]
+419: 12-24 17:24:06 pid=2448 tid=2461 [getActiveSubIdList] X subIdArr.length=0
+420: 12-24 17:24:06 pid=2448 tid=2645 [getActiveSubIdList] simInfoSet=[]
+421: 12-24 17:24:06 pid=2448 tid=2645 [getActiveSubIdList] X subIdArr.length=0
+422: 12-24 17:24:06 pid=2448 tid=3063 [getPhoneId]- no sims, returning default phoneId=0
+423: 12-24 17:24:06 pid=2448 tid=2645 [getPhoneId]- no sims, returning default phoneId=0
+424: 12-24 17:24:08 pid=2448 tid=3063 [getPhoneId]- no sims, returning default phoneId=0
+425: 12-24 17:24:08 pid=2448 tid=2461 [getPhoneId]- no sims, returning default phoneId=0
+426: 12-24 17:24:09 pid=2448 tid=2644 [getActiveSubIdList] simInfoSet=[]
+427: 12-24 17:24:09 pid=2448 tid=2644 [getActiveSubIdList] X subIdArr.length=0
+428: 12-24 17:24:09 pid=2448 tid=3063 [getActiveSubIdList] simInfoSet=[]
+429: 12-24 17:24:09 pid=2448 tid=3063 [getActiveSubIdList] X subIdArr.length=0
+430: 12-24 17:24:10 pid=2448 tid=2459 [getActiveSubIdList] simInfoSet=[]
+431: 12-24 17:24:10 pid=2448 tid=2459 [getActiveSubIdList] X subIdArr.length=0
+432: 12-24 17:24:10 pid=2448 tid=32204 [getActiveSubIdList] simInfoSet=[]
+433: 12-24 17:24:10 pid=2448 tid=32204 [getActiveSubIdList] X subIdArr.length=0
+434: 12-24 17:24:11 pid=2448 tid=32205 [getActiveSubIdList] simInfoSet=[]
+435: 12-24 17:24:11 pid=2448 tid=32205 [getActiveSubIdList] X subIdArr.length=0
+436: 12-24 17:24:11 pid=2448 tid=2644 [getActiveSubIdList] simInfoSet=[]
+437: 12-24 17:24:11 pid=2448 tid=2644 [getActiveSubIdList] X subIdArr.length=0
+438: 12-24 17:24:11 pid=2448 tid=3063 [getActiveSubIdList] simInfoSet=[]
+439: 12-24 17:24:11 pid=2448 tid=3063 [getActiveSubIdList] X subIdArr.length=0
+440: 12-24 17:24:11 pid=2448 tid=2645 [getActiveSubIdList] simInfoSet=[]
+441: 12-24 17:24:11 pid=2448 tid=2645 [getActiveSubIdList] X subIdArr.length=0
+442: 12-24 17:24:11 pid=2448 tid=32204 [getActiveSubIdList] simInfoSet=[]
+443: 12-24 17:24:11 pid=2448 tid=32204 [getActiveSubIdList] X subIdArr.length=0
+444: 12-24 17:24:11 pid=2448 tid=32205 [getActiveSubIdList] simInfoSet=[]
+445: 12-24 17:24:11 pid=2448 tid=32205 [getActiveSubIdList] X subIdArr.length=0
+446: 12-24 17:24:11 pid=2448 tid=3063 [getActiveSubIdList] simInfoSet=[]
+447: 12-24 17:24:11 pid=2448 tid=3063 [getActiveSubIdList] X subIdArr.length=0
+448: 12-24 17:24:11 pid=2448 tid=2448 [getPhoneId]- no sims, returning default phoneId=0
+449: 12-24 17:24:11 pid=2448 tid=2448 [getPhoneId]- no sims, returning default phoneId=0
+450: 12-24 17:24:11 pid=2448 tid=2645 [getActiveSubIdList] simInfoSet=[]
+451: 12-24 17:24:11 pid=2448 tid=2645 [getActiveSubIdList] X subIdArr.length=0
+452: 12-24 17:24:11 pid=2448 tid=2645 [getPhoneId]- no sims, returning default phoneId=0
+453: 12-24 17:24:11 pid=2448 tid=2461 [getPhoneId]- no sims, returning default phoneId=0
+454: 12-24 17:24:12 pid=2448 tid=2459 [getPhoneId]- no sims, returning default phoneId=0
+455: 12-24 17:24:22 pid=2448 tid=2645 [getPhoneId] asked for default subId=2147483643
+456: 12-24 17:24:22 pid=2448 tid=32205 [getPhoneId]- no sims, returning default phoneId=0
+457: 12-24 17:24:22 pid=2448 tid=32204 [getActiveSubIdList] simInfoSet=[]
+458: 12-24 17:24:22 pid=2448 tid=32204 [getActiveSubIdList] X subIdArr.length=0
+459: 12-24 17:24:22 pid=2448 tid=2645 [getActiveSubIdList] simInfoSet=[]
+460: 12-24 17:24:22 pid=2448 tid=2645 [getActiveSubIdList] X subIdArr.length=0
+461: 12-24 17:24:40 pid=2448 tid=2459 [getActiveSubIdList] simInfoSet=[]
+462: 12-24 17:24:40 pid=2448 tid=2459 [getActiveSubIdList] X subIdArr.length=0
+463: 12-24 17:24:40 pid=2448 tid=2885 [getActiveSubIdList] simInfoSet=[]
+464: 12-24 17:24:40 pid=2448 tid=2885 [getActiveSubIdList] X subIdArr.length=0
+465: 12-24 17:24:41 pid=2448 tid=2645 [getPhoneId]- no sims, returning default phoneId=0
+466: 12-24 17:24:41 pid=2448 tid=32205 [getPhoneId]- no sims, returning default phoneId=0
+467: 12-24 17:25:10 pid=2448 tid=2885 [getActiveSubIdList] simInfoSet=[]
+468: 12-24 17:25:10 pid=2448 tid=2885 [getActiveSubIdList] X subIdArr.length=0
+469: 12-24 17:25:10 pid=2448 tid=32204 [getActiveSubIdList] simInfoSet=[]
+470: 12-24 17:25:10 pid=2448 tid=32204 [getActiveSubIdList] X subIdArr.length=0
+471: 12-24 17:25:31 pid=2448 tid=32205 [getActiveSubIdList] simInfoSet=[]
+472: 12-24 17:25:31 pid=2448 tid=32205 [getActiveSubIdList] X subIdArr.length=0
+473: 12-24 17:25:31 pid=2448 tid=2644 [getActiveSubIdList] simInfoSet=[]
+474: 12-24 17:25:31 pid=2448 tid=2644 [getActiveSubIdList] X subIdArr.length=0
+475: 12-24 17:25:31 pid=2448 tid=3063 [getPhoneId]- no sims, returning default phoneId=0
+476: 12-24 17:25:32 pid=2448 tid=2459 [getPhoneId]- no sims, returning default phoneId=0
+477: 12-24 17:25:34 pid=2448 tid=3063 [getPhoneId]- no sims, returning default phoneId=0
+478: 12-24 17:26:07 pid=2448 tid=32205 [getPhoneId]- no sims, returning default phoneId=0
+479: 12-24 17:26:07 pid=2448 tid=32205 [getPhoneId]- no sims, returning default phoneId=0
+480: 12-24 17:26:07 pid=2448 tid=32205 [getActiveSubInfoList]+
+481: 12-24 17:26:07 pid=2448 tid=32205 [getActiveSubInfoList] Sub Controller not ready
+482: 12-24 17:26:07 pid=2448 tid=32205 [getPhoneId]- no sims, returning default phoneId=0
+483: 12-24 17:26:07 pid=2448 tid=32205 [getPhoneId]- no sims, returning default phoneId=0
+484: 12-24 17:26:07 pid=2448 tid=32205 [getPhoneId]- no sims, returning default phoneId=0
+485: 12-24 17:26:07 pid=2448 tid=32205 [getPhoneId]- no sims, returning default phoneId=0
+486: 12-24 17:26:07 pid=2448 tid=32205 [getPhoneId]- no sims, returning default phoneId=0
+487: 12-24 17:26:07 pid=2448 tid=32205 [getPhoneId]- no sims, returning default phoneId=0
+488: 12-24 17:26:07 pid=2448 tid=32205 [getPhoneId]- no sims, returning default phoneId=0
+489: 12-24 17:26:07 pid=2448 tid=32205 [getPhoneId]- no sims, returning default phoneId=0
+490: 12-24 17:26:07 pid=2448 tid=32205 [getPhoneId]- no sims, returning default phoneId=0
+491: 12-24 17:26:07 pid=2448 tid=32205 [getPhoneId]- no sims, returning default phoneId=0
+492: 12-24 17:26:07 pid=2448 tid=32205 [getPhoneId]- no sims, returning default phoneId=0
+493: 12-24 17:26:07 pid=2448 tid=32205 [getPhoneId]- no sims, returning default phoneId=0
+494: 12-24 17:26:07 pid=2448 tid=32205 [getPhoneId]- no sims, returning default phoneId=0
+495: 12-24 17:26:07 pid=2448 tid=32205 [getPhoneId]- no sims, returning default phoneId=0
+496: 12-24 17:26:07 pid=2448 tid=32205 [getPhoneId]- no sims, returning default phoneId=0
+497: 12-24 17:26:07 pid=2448 tid=32205 [getPhoneId]- no sims, returning default phoneId=0
+498: 12-24 17:26:07 pid=2448 tid=32205 [getPhoneId]- no sims, returning default phoneId=0
+499: 12-24 17:26:07 pid=2448 tid=32205 [getPhoneId]- no sims, returning default phoneId=0
+++++++++++++++++++++++++++++++++

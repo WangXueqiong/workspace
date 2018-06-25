@@ -1,0 +1,46 @@
+Started users: u0 
+Registered jobs:
+  426..:[ComponentInfo{android/com.android.server.MountServiceIdler},jId=808,u0,R=(-86:32:10,none),N=0,C=true,I=true,F=0,P=false,ANI=true]
+  855..:[ComponentInfo{android/com.android.server.os.BackgroundCompactionService},jId=802,u0,R=(-56:48,none),N=0,C=false,I=true,F=0,P=false,ANI=true]
+  112..:[ComponentInfo{com.android.providers.downloads/com.android.providers.downloads.DownloadIdleService},jId=1,u0,R=(-21:22:48,2:37:11),N=0,C=true,I=true,F=0,P=true,ANI=true]
+  132..:[ComponentInfo{android/com.android.server.backup.FullBackupJob},jId=20536,u0,R=(none,none),N=2,C=true,I=true,F=0,P=true,ANI=true]
+  219..:[ComponentInfo{android/com.android.server.pm.BackgroundDexOptService},jId=800,u0,R=(-96:41:09,none),N=0,C=true,I=true,F=0,P=false,ANI=true]
+  230..:[ComponentInfo{android/com.android.server.backup.KeyValueBackupJob},jId=20537,u0,R=(2:41:50,22:33:23),N=1,C=true,I=false,F=0,P=false,ANI=true]
+
+Conn.
+connected: true unmetered: true
+132..: C=false, UM=true
+224..: C=false, UM=true
+230..: C=true, UM=false
+
+Alarms (348089822)
+Next delay alarm in 9710s
+Next deadline alarm in 9431s
+Tracking:
+112..: (271121542, 357521542)
+230..: (357799999, 429292885)
+
+Idle: false
+6
+  426..
+  132..
+  219..
+  185..
+  112..
+  855..
+
+Batt.
+Stable power: true
+42688189,132262264,219249313,42979113,112606261,230712694
+
+AppIdle
+Parole On: false
+android:idle=false, android:idle=false, android:idle=false, com.qihoo.appstore:idle=false, com.qihoo.appstore:idle=false, com.qihoo.appstore:idle=false, com.qihoo.appstore:idle=false, com.android.providers.downloads:idle=false, android:idle=false, android:idle=false, 
+
+Pending:
+
+Active jobs:
+
+mReadyToRock=true
+mDeviceIdleMode=false
+

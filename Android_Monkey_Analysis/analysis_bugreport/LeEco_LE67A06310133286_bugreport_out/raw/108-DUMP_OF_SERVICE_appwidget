@@ -1,0 +1,41 @@
+Providers:
+  [0] provider ProviderId{user:0, app:10021, cmp:ComponentInfo{com.letv.android.note/com.letv.android.note.widget.NoteWidgetProvider}}
+    min=(28161x28161)   minResize=(28161x28161) updatePeriodMillis=0 resizeMode=03 autoAdvanceViewId=-1 initialLayout=#7f030101 initialKeyguardLayout=#0 zombie=false
+  [1] provider ProviderId{user:0, app:10051, cmp:ComponentInfo{com.android.deskclock/com.android.deskclock.provider.DigitalClockWidgetProvider}}
+    min=(75265x24577)   minResize=(75265x24577) updatePeriodMillis=0 resizeMode=01 autoAdvanceViewId=-1 initialLayout=#7f0400b3 initialKeyguardLayout=#0 zombie=false
+  [2] provider ProviderId{user:0, app:10051, cmp:ComponentInfo{com.android.deskclock/com.android.deskclock.provider.DigitalClockWidgetMiddleProvider}}
+    min=(75265x24577)   minResize=(75265x24577) updatePeriodMillis=0 resizeMode=01 autoAdvanceViewId=-1 initialLayout=#7f0400b4 initialKeyguardLayout=#0 zombie=false
+  [3] provider ProviderId{user:0, app:10051, cmp:ComponentInfo{com.android.deskclock/com.android.deskclock.provider.DigitalClockWidgetRightProvider}}
+    min=(75265x24577)   minResize=(75265x24577) updatePeriodMillis=0 resizeMode=01 autoAdvanceViewId=-1 initialLayout=#7f0400b5 initialKeyguardLayout=#0 zombie=false
+  [4] provider ProviderId{user:0, app:10051, cmp:ComponentInfo{com.android.deskclock/com.android.deskclock.provider.DigitalClockWidgetDoubleProvider}}
+    min=(75265x24577)   minResize=(75265x24577) updatePeriodMillis=0 resizeMode=01 autoAdvanceViewId=-1 initialLayout=#7f0400b2 initialKeyguardLayout=#0 zombie=false
+  [5] provider ProviderId{user:0, app:10080, cmp:ComponentInfo{com.android.music/com.android.music.widget.MediaAppWidgetProvider}}
+    min=(75265x46081)   minResize=(75265x46081) updatePeriodMillis=0 resizeMode=02 autoAdvanceViewId=-1 initialLayout=#7f03002b initialKeyguardLayout=#0 zombie=false
+  [6] provider ProviderId{user:0, app:10114, cmp:ComponentInfo{com.icoolme.android.weather/com.icoolme.android.weather.widget.WeatherRigoWidget2x2Provider}}
+    min=(28161x28161)   minResize=(28161x28161) updatePeriodMillis=0 resizeMode=01 autoAdvanceViewId=-1 initialLayout=#7f03015b initialKeyguardLayout=#0 zombie=false
+  [7] provider ProviderId{user:0, app:10114, cmp:ComponentInfo{com.icoolme.android.weather/com.icoolme.android.weather.widget.WeatherRigoWidget4x2Provider}}
+    min=(75265x28161)   minResize=(75265x28161) updatePeriodMillis=0 resizeMode=01 autoAdvanceViewId=-1 initialLayout=#7f03015d initialKeyguardLayout=#0 zombie=false
+  [8] provider ProviderId{user:0, app:10114, cmp:ComponentInfo{com.icoolme.android.weather/com.icoolme.android.weather.widget.WeatherRigoWidget5x2Provider}}
+    min=(94721x28161)   minResize=(94721x28161) updatePeriodMillis=0 resizeMode=01 autoAdvanceViewId=-1 initialLayout=#7f03015f initialKeyguardLayout=#0 zombie=false
+  [9] provider ProviderId{user:0, app:10114, cmp:ComponentInfo{com.icoolme.android.weather/com.icoolme.android.weather.widget.WeatherRigoWidget5x1Provider}}
+    min=(99841x7681)   minResize=(99841x7681) updatePeriodMillis=0 resizeMode=01 autoAdvanceViewId=-1 initialLayout=#7f03015e initialKeyguardLayout=#0 zombie=false
+  [10] provider ProviderId{user:0, app:10114, cmp:ComponentInfo{com.icoolme.android.weather/com.icoolme.android.weather.widget.WeatherRigoWidget4x1Provider}}
+    min=(75265x7681)   minResize=(75265x7681) updatePeriodMillis=0 resizeMode=01 autoAdvanceViewId=-1 initialLayout=#7f03015c initialKeyguardLayout=#0 zombie=false
+  [11] provider ProviderId{user:0, app:10072, cmp:ComponentInfo{com.android.calendar/com.android.calendar.widget.CalendarAppWidgetProvider}}
+    min=(75265x28161)   minResize=(75265x28161) updatePeriodMillis=0 resizeMode=23 autoAdvanceViewId=-1 initialLayout=#7f04003d initialKeyguardLayout=#0 zombie=false
+  [12] provider ProviderId{user:0, app:10124, cmp:ComponentInfo{com.ss.android.article.news/com.ss.android.article.base.app.ArticleWidgetProvider}}
+    min=(75265x46081)   minResize=(75265x28161) updatePeriodMillis=0 resizeMode=31 autoAdvanceViewId=-1 initialLayout=#7f050051 initialKeyguardLayout=#0 zombie=false
+ 
+Widgets:
+  [0] id=2
+    host=HostId{user:0, app:10010, hostId:1024, pkg:com.android.launcher3}
+    provider=ProviderId{user:0, app:10051, cmp:ComponentInfo{com.android.deskclock/com.android.deskclock.provider.DigitalClockWidgetProvider}}
+    host.callbacks=com.android.internal.appwidget.IAppWidgetHost$Stub$Proxy@fa43ad9
+    views=android.widget.RemoteViews@fb15c9e
+ 
+Hosts:
+  [0] hostId=HostId{user:0, app:10010, hostId:1024, pkg:com.android.launcher3}
+    callbacks=com.android.internal.appwidget.IAppWidgetHost$Stub$Proxy@fa43ad9
+    widgets.size=1 zombie=false
+ 
+Grants:

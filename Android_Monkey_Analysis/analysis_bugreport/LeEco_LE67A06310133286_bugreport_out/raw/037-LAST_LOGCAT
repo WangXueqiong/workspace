@@ -1,0 +1,619 @@
+--------- beginning of main
+12-24 16:34:07.922   457  2152 D WindowManager: interceptKeyTq keycode=19 interactive=true keyguardActive=false policyFlags=2b000000
+12-24 16:34:07.922   457  1269 I WindowManager: interceptKeyTi keyCode=19 down=false repeatCount=0 keyguardOn=false mHomePressed=false canceled=false isInjected=true
+--------- beginning of system
+12-24 16:34:07.922   457  2152 W InputManager: Input event injection from pid 27342 failed.
+12-24 16:34:07.923  1531  1531 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+--------- beginning of events
+12-24 16:34:07.926   457  1192 I am_pss  : [2795,1000,com.leeco.regservice,12227584,10289152]
+12-24 16:34:07.926  3481  3518 I PerfService: PerfServiceNative_userEnableTimeoutMs:20, 1050
+12-24 16:34:07.927  1531  1531 D AndroidRuntime: CheckJNI is OFF
+12-24 16:34:07.927   457  2155 D PerfServiceManager: [PerfService] userEnableTimeoutMs: 20, 1050 
+12-24 16:34:07.930  1531  1531 W art     : 6f8e1000-707e1000 rw-p 00000000 103:06 685447                            /data/dalvik-cache/arm64/system@framework@boot.art
+12-24 16:34:07.930  1531  1531 W art     : 7f7f9a3000-7f8203c000 r--p 00000000 fd:00 2360                           /system/framework/arm64/boot.oat
+12-24 16:34:07.930  1531  1531 W art     : 7f8203c000-7f849f7000 r-xp 02699000 fd:00 2360                           /system/framework/arm64/boot.oat
+12-24 16:34:07.930  1531  1531 W art     : 7f849f7000-7f849f8000 rw-p 05054000 fd:00 2360                           /system/framework/arm64/boot.oat
+12-24 16:34:07.930  1531  1531 W art     : 7f849f8000-7f84fd8000 r-xp 00000000 fd:00 3190                           /system/lib64/libart.so
+12-24 16:34:07.930  1531  1531 W art     : 7f84fd8000-7f84fe8000 ---p 00000000 00:00 0 
+12-24 16:34:07.930  1531  1531 W art     : 7f84fe8000-7f84ffb000 r--p 005eb000 fd:00 3190                           /system/lib64/libart.so
+12-24 16:34:07.930  1531  1531 W art     : 7f84ffb000-7f84ffd000 rw-p 005fe000 fd:00 3190                           /system/lib64/libart.so
+12-24 16:34:07.930  1531  1531 W art     : 7f84ffd000-7f85000000 rw-p 00000000 00:00 0 
+12-24 16:34:07.930  1531  1531 W art     : 7f85000000-7f85400000 rw-p 00000000 00:00 0                              [anon:libc_malloc]
+12-24 16:34:07.930  1531  1531 W art     : 7f8545e000-7f8548b000 r--p 00f00000 103:06 685447                        /data/dalvik-cache/arm64/system@framework@boot
+12-24 16:34:07.930  1531  1531 W art     : .art
+12-24 16:34:07.930  1531  1531 W art     : 7f8548b000-7f8548c000 r-xp 00000000 fd:00 3481                           /system/lib64/libsigchain.so
+12-24 16:34:07.930  1531  1531 W art     : 7f8548c000-7f8549b000 ---p 00000000 00:00 0 
+12-24 16:34:07.930  1531  1531 W art     : 7f8549b000-7f8549c000 r--p 00000000 fd:00 3481                           /system/lib64/libsigchain.so
+12-24 16:34:07.930  1531  1531 W art     : 7f8549c
+12-24 16:34:07.930  1531  1531 W art     : 000-7f8549d000 rw-p 00001000 fd:00 3481                           /system/lib64/libsigchain.so
+12-24 16:34:07.930  1531  1531 W art     : 7f854a0000-7f854a1000 r--p 00000000 00:00 0                              [anon:linker_alloc]
+12-24 16:34:07.930  1531  1531 W art     : 7f854a1000-7f854a2000 r--p 00000000 00:00 0 
+12-24 16:34:07.930  1531  1531 W art     : 7f854a2000-7f854a3000 r--s 00000000 00:03 4026534622                     /proc/xlog/setfil
+12-24 16:34:07.930  1531  1531 W art     : 7f854a3000-7f854a7000 r--p 00000000 00:00 0 
+12-24 16:34:07.930  1531  1531 W art     : 7f854a7000-7f854c7000 r--s 00000000 00:0d 5625                           /dev/__properties__
+12-24 16:34:07.930  1531  1531 W art     : 7f854c7000-7f854c8000 rw-p 00000000 00:00 0                              [anon:linker_alloc_vector]
+12-24 16:34:07.930  1531  1531 W art     : 7f854c8000-7f854c9000 r--p 00000000 00:00 0 
+12-24 16:34:07.930  1531  1531 W art     : 7f854c9000-7f854ca000 rw-p 00000000 00:00 0                              [anon:linker_alloc_vector]
+12-24 16:34:07.930  1531  1531 W art     : 7f854ca000-7f854cc000 r-xp 00000000 fd:00 3439                           /system/lib64/libnvram_sec.so
+12-24 16:34:07.930  1531  1531 W art     : 7f854cc000-7f854db000 ---p 00000000 00:00 0 
+12-24 16:34:07.930  1531  1531 W art     : 7f854db000-7f854dc000 r--p 00001000 fd:00 3439                           /system/lib64/libnvram_sec.so
+12-24 16:34:07.930  1531  1531 W art     : 7f854dc000-7f854dd000 rw-p 00002000 fd:00 3439                           /system/lib64/libnvram_sec.so
+12-24 16:34:07.930  1531  1531 W art     : 7f854dd000-7f854de000 r-xp 00000000 fd:00 3438                           /system/lib64/libnvram_platform.so
+12-24 16:34:07.930  1531  1531 W art     : 7f854de000-7f854ed000 ---p 00000000 00:00 0 
+12-24 16:34:07.930  1531  1531 W art     : 7f854ed000-7f854ee000 r--p 00000000 fd:00 3438                           /system/lib64/libnvram_platfor
+12-24 16:34:07.930  1531  1531 W art     : m.so
+12-24 16:34:07.930  1531  1531 W art     : 7f854ee000-7f854ef000 rw-p 00001000 fd:00 3438                           /system/lib64/libnvram_platform.so
+12-24 16:34:07.930  1531  1531 W art     : 7f854ef000-7f854f2000 r-xp 00000000 fd:00 3270                           /system/lib64/libcustom_nvram.so
+12-24 16:34:07.930  1531  1531 W art     : 7f854f2000-7f85501000 ---p 00000000 00:00 
+12-24 16:34:07.930  1531  1531 W art     : 0 
+12-24 16:34:07.930  1531  1531 W art     : 7f85501000-7f85504000 r--p 00002000 fd:00 3270                           /system/lib64/libcustom_nvram.so
+12-24 16:34:07.930  1531  1531 W art     : 7f85504000-7f85510000 rw-p 00005000 fd:00 3270                           /system/lib64/libcustom_nvram.so
+12-24 16:34:07.930  1531  1531 W art     : 7f85510000-7f8554c000 r-xp 00000000 fd:00 34
+12-24 16:34:07.930  1531  1531 W art     : 20                           /system/lib64/libmtkjpeg.so
+12-24 16:34:07.930  1531  1531 W art     : 7f8554c000-7f8555b000 ---p 00000000 00:00 0 
+12-24 16:34:07.930  1531  1531 W art     : 7f8555b000-7f8555c000 r--p 0003b000 fd:00 3420                           /system/lib64/libmtkjpeg.so
+12-24 16:34:07.930  1531  1531 W art     : 7f8555c000-7f8555d000 rw-p 0003c000 fd:00 3420                           /system/lib64/libmtkjpeg.so
+12-24 16:34:07.930  1531  1531 W art     : 7f8555d000-7f85574000 r-xp 00000000 fd:00 3436                           /system/lib64/libnvram.so
+12-24 16:34:07.930  1531  1531 W art     : 7f85574000-7f85583000 ---p 00000000 00:00 0 
+12-24 16:34:07.930  1531  1531 W art     : 7f85583000-7f85584000 r--p 00016000 fd:00 3436                           /system/lib64/libnvram.so
+12-24 16:34:07.930  1531  1531 W art     : 7f85584000-7f85585000 rw-p 00017000 fd:00 3436                           /system/lib64/libnvram.so
+12-24 16:34:07.930  1531  1531 W art     : 7f85585000-7f85586000 r--p 00000000 00:00 0                              [anon:linker_alloc]
+12-24 16:34:07.930  1531  1531 W art     : 7f85586000-7f855ec000 r-xp 00000000 fd:00 3534                           /system/lib64/libswscale.so
+12-24 16:34:07.931  1531  1531 W art     : 7f855ec000-7f855fb000 ---p 00000000 00:00 0 
+12-24 16:34:07.931  1531  1531 W art     : 7f855fb000-7f855fd000 r--p 00065000 fd:00 3534                           /system/lib64/libswscale.so
+12-24 16:34:07.931  1531  1531 W art     : 7f855fd000-7f855fe000 rw-p 00067000 fd:00 3534                           /system/lib64/libswscale.so
+12-24 16:34:07.931  1531  1531 W art     : 7f855fe000-7f85606000 rw-p 00000000 00:00 0 
+12-24 16:34:07.931  1531  1531 W art     : 7f85606000-7f85616000 r-xp 00000000 fd:00 3533                           /system/lib64/libswresample.so
+12-24 16:34:07.931  1531  1531 W art     : 7f85616000-7f85626000 ---p 00000000 00:00 0 
+12-24 16:34:07.931  1531  1531 W art     : 7f85626000-7f85628000 r--p 00011000 fd:00 3533                           /system/lib64/libswresample.so
+12-24 16:34:07.931  1531  1531 W art     : 7f85628000-7f85629000 rw-p 00013000 fd:00 3533                           /system/lib64/libswresample.so
+12-24 16:34:07.931  1531  1531 W art     : 7f85629000-7f85635000 r-xp 00000000 fd:00 3232                           /system/lib64/libbwc.so
+12-24 16:34:07.931  1531  1531 W art     : 7f85635000-7f85645000 ---p 00000000 00:00 0 
+12-24 16:34:07.931  1531  1531 W art     : 7f85645000-7f85648000 r--p 0000d000 fd:00 3232                           /system/lib64/libbwc.so
+12-24 16:34:07.931  1531  1531 W art     : 7f85648000-7f85649000 rw-p 00010000 fd:00 3232                           /system/lib64/libbwc.so
+12-24 16:34:07.931  1531  1531 W art     : 7f85649000-7f8564a000 r--p 00000000 00:00 0 
+12-24 16:34:07.931  1531  1531 W art     : 7f8564a000-7f85650000 r-xp 00000000 fd:00 3170                           /system/lib64/libSwJpgCodec.so
+12-24 16:34:07.931  1531  1531 W art     : 7f85650000-7f8565f000 ---p 00000000 00:00 0 
+12-24 16:34:07.931  1531  1531 W art     : 7f8565f000-7f85660000 r--p 00005000 fd:00 3170                           /system/lib64/libSwJpgCodec.so
+12-24 16:34:07.931  1531  1531 W art     : 7f85660000-7f85661000 rw-p 00006000 fd:00 3170                           /system/lib64/libSwJpgCodec.so
+12-24 16:34:07.931  1531  1531 W art     : 7f85661000-7f85667000 r-xp 00000000 fd:00 3440                           /system/lib64/libnvramagentclient.so
+12-24 16:34:07.931  1531  1531 W art     : 7f85667000-7f85677000 ---p 00000000 00:00 0 
+12-24 16:34:07.931  1531  1531 W art     : 7f85677000-7f85678000 r--p 00006000 fd:00 3440                           /system/lib64/libnvramagentclient.so
+12-24 16:34:07.931  1531  1531 W art     : 7f85678000-7f85679000 rw-p 00007000 fd:00 3440                           /system/lib64/libnvramagentclient.so
+12-24 16:34:07.931  1531  1531 W art     : 7f85679000-7f8567d000 r-xp 00000000 fd:00 3285                           /system/lib64/libdrmmtkwhitelist.so
+12-24 16:34:07.931  1531  1531 W art     : 7f8567d000-7f8568c000 ---p 00000000 00:00 0 
+12-24 16:34:07.931  1531  1531 W art     : 7f8568c000-7f8568d000 r--p 00003000 fd:00 3285                           /system/lib64/libdrmmtkwhitelist.so
+12-24 16:34:07.931  1531  1531 W art     : 7f8568d000-7f8568e000 rw-p 00004000 fd:00 3285                           /system/lib64/libdrmmtkwhitelist.so
+12-24 16:34:07.931  1531  1531 W art     : 7f8568e000-7f856d8000 r-xp 00000000 fd:00 3211                           /system/lib64/libavutil.so
+12-24 16:34:07.931  1531  1531 W art     : 7f856d8000-7f856e7000 ---p 00000000 00:00 0 
+12-24 16:34:07.931  1531  1531 W art     : 7f856e7000-7f856ed000 r--p 0004c000 fd:00 3211                           /system/lib64/libavutil.so
+12-24 16:34:07.931  1531  1531 W art     : 7f856ed000-7f856ee000 rw-p 00052000 fd:00 3211                           /system/lib64/libavutil.so
+12-24 16:34:07.931  1531  1531 W art     : 7f856ee000-7f85701000 rw-p 00000000 00:00 0 
+12-24 16:34:07.931  1531  1531 W art     : 7f85701000-7f8587e000 r-xp 00000000 fd:00 3208                           /system/lib64/libavformat.so
+12-24 16:34:07.931  1531  1531 W art     : 7f8587e000-7f8588d000 ---p 00000000 00:00 0 
+12-24 16:34:07.931  1531  1531 W art     : 7f8588d000-7f858a0000 r--p 00188000 fd:00 3208                           /system/lib64/libavformat.so
+12-24 16:34:07.931  1531  1531 W art     : 7f858a0000-7f858b3000 rw-p 0019b000 fd:00 3208                           /system/lib64/libavformat.so
+12-24 16:34:07.931  1531  1531 W art     : 7f858b3000-7f858b4000 r--p 00000000 00:00 0                              [anon:linker_alloc]
+12-24 16:34:07.931  1531  1531 W art     : 7f858b4000-7f8615b000 r-xp 00000000 fd:00 3206                           /system/lib64/libavcodec.so
+12-24 16:34:07.931  1531  1531 W art     : 7f8615b000-7f8616b000 ---p 00000000 00:00 0 
+12-24 16:34:07.931  1531  1531 W art     : 7f8616b000-7f86191000 r--p 008b1000 fd:00 3206                           /system/lib64/libavcodec.so
+12-24 16:34:07.931  1531  1531 W art     : 7f86191000-7f861ad000 rw-p 008d7000 fd:00 3206                           /system/lib64/libavcodec.so
+12-24 16:34:07.931  1531  1531 W art     : 7f861ad000-7f867fd000 rw-p 00000000 00:00 0 
+12-24 16:34:07.931  1531  1531 W art     : 7f867fd000-7f867fe000 r--p 00000000 00:00 0                              [anon:linker_alloc]
+12-24 16:34:07.931  1531  1531 W art     : 7f867fe000-7f8771a000 r-xp 00000000 fd:00 3139                           /system/lib64/libLLVM.so
+12-24 16:34:07.931  1531  1531 W art     : 7f8771a000-7f87729000 ---p 00000000 00:00 0 
+12-24 16:34:07.931  1531  1531 W art     : 7f87729000-7f877c4000 r--p 00f28000 fd:00 3139                           /system/lib64/libLLVM.so
+12-24 16:34:07.931  1531  1531 W art     : 7f877c4000-7f877c8000 rw-p 00fc3000 fd:00 3139                           /system/lib64/libLLVM.so
+12-24 16:34:07.931  1531  1531 W art     : 7f877c8000-7f877d6000 rw-p 00000000 00:00 0 
+12-24 16:34:07.931  1531  1531 W art     : 7f877d6000-7f87820000 r-xp 00000000 fd:00 3215                           /system/lib64/libbcinfo.so
+12-24 16:34:07.931  1531  1531 W art     : 7f87820000-7f87830000 ---p 00000000 00:00 0 
+12-24 16:34:07.931  1531  1531 W art     : 7f87830000-7f87831000 r--p 0004a000 fd:00 3215                           /system/lib64/libbcinfo.so
+12-24 16:34:07.931  1531  1531 W art     : 7f87831000-7f87832000 rw-p 0004b000 fd:00 3215                           /system/lib64/libbcinfo.so
+12-24 16:34:07.931  1531  1531 W art     : 7f87832000-7f87893000 r-xp 00000000 fd:00 3214                           /system/lib64/libbcc.so
+12-24 16:34:07.931  1531  1531 W art     : 7f87893000-7f878a2000 ---p 00000000 00:00 0 
+12-24 16:34:07.931  1531  1531 W art     : 7f878a2000-7f878a4000 r--p 00061000 fd:00 3214                           /system/lib64/libbcc.so
+12-24 16:34:07.931  1531  1531 W art     : 7f878a4000-7f878a5000 rw-p 00063000 fd:00 3214                           /system/lib64/libbcc.so
+12-24 16:34:07.932  1531  1531 W art     : 7f878a5000-7f878ab000 r-xp 00000000 fd:00 3329                           /system/lib64/libged.so
+12-24 16:34:07.932  1531  1531 W art     : 7f878ab000-7f878ba000 ---p 00000000 00:00 0 
+12-24 16:34:07.932  1531  1531 W art     : 7f878ba000-7f878bb000 r--p 00005000 fd:00 3329                           /system/lib64/libged.so
+12-24 16:34:07.932  1531  1531 W art     : 7f878bb000-7f878bc000 rw-p 00006000 fd:00 3329                           /system/lib64/libged.so
+12-24 16:34:07.932  1531  1531 W art     : 7f878bc000-7f878bd000 r--p 00000000 00:00 0                              [anon:linker_alloc]
+12-24 16:34:07.932  1531  1531 W art     : 7f878bd000-7f878d0000 r-xp 00000000 fd:00 3561                           /system/lib64/libvcodec_utility.so
+12-24 16:34:07.932  1531  1531 W art     : 7f878d0000-7f878e0000 ---p 00000000 00:00 0 
+12-24 16:34:07.932  1531  1531 W art     : 7f878e0000-7f878e1000 r--p 00013000 fd:00 3561                           /system/lib64/libvcodec_utilit
+12-24 16:34:07.932  1531  1531 W art     : y.so
+12-24 16:34:07.932  1531  1531 W art     : 7f878e1000-7f878e2000 rw-p 00014000 fd:00 3561                           /system/lib64/libvcodec_utility.so
+12-24 16:34:07.932  1531  1531 W art     : 7f878e2000-7f878ec000 rw-p 00000000 00:00 0 
+12-24 16:34:07.932  1531  1531 W art     : 7f878ec000-7f878f8000 r-xp 00000000 fd:00 3264                           /system/lib64/libcommon_time_c
+12-24 16:34:07.932  1531  1531 W art     : lient.so
+12-24 16:34:07.932  1531  1531 W art     : 7f878f8000-7f87907000 ---p 00000000 00:00 0 
+12-24 16:34:07.932  1531  1531 W art     : 7f87907000-7f8790c000 r--p 0000f000 fd:00 3264                           /system/lib64/libcommon_time_client.so
+12-24 16:34:07.932  1531  1531 W art     : 7f8790c000-7f8790d000 rw-p 00014000 fd:00 3264                           /system/lib64/libcommon_ti
+12-24 16:34:07.932  1531  1531 W art     : me_client.so
+12-24 16:34:07.932  1531  1531 W art     : 7f8790d000-7f87927000 r-xp 00000000 fd:00 3435                           /system/lib64/libnl.so
+12-24 16:34:07.932  1531  1531 W art     : 7f87927000-7f87937000 ---p 00000000 00:00 0 
+12-24 16:34:07.932  1531  1531 W art     : 7f87937000-7f87938000 r--p 0001b000 fd:00 3435                           /system/lib64/libnl.so
+12-24 16:34:07.932  1531  1531 W art     : 7f87938000-7f8793a0
+12-24 16:34:07.932  1531  1531 W art     : 00 rw-p 0001c000 fd:00 3435                           /system/lib64/libnl.so
+12-24 16:34:07.932  1531  1531 W art     : 7f8793a000-7f8795d000 r-xp 00000000 fd:00 3459                           /system/lib64/libprotobuf-cpp-lite.so
+12-24 16:34:07.932  1531  1531 W art     : 7f8795d000-7f8796d000 ---p 00000000 00:00 0 
+12-24 16:34:07.932  1531  1531 W art     : 7f8796d000-7f8796e000 r--p 00023000 fd:00 3459                           /system/lib64/libprotobuf-c
+12-24 16:34:07.932  1531  1531 W art     : pp-lite.so
+12-24 16:34:07.932  1531  1531 W art     : 7f8796e000-7f8796f000 rw-p 00024000 fd:00 3459                           /system/lib64/libprotobuf-cpp-lite.so
+12-24 16:34:07.932  1531  1531 W art     : 7f8796f000-7f8798a000 r-xp 00000000 fd:00 3455                           /system/lib64/libpq_prot.so
+12-24 16:34:07.932  1531  1531 W art     : 7f8798a000-7f87999000 ---p 00000000 00:00 0 
+12-24 16:34:07.932  1531  1531 W art     : 7f87999000-7f8799b000 r--p 0001b000 fd:00 3455                           /system/lib64/libpq_prot.so
+12-24 16:34:07.932  1531  1531 W art     : 7f8799b000-7f8799c000 rw-p 0001d000 fd:00 3455                           /system/lib64/libpq_prot.so
+12-24 16:34:07.932  1531  1531 W art     : 7f8799c000-7f879b2000 r-xp 00000000 fd:00 3456        
+12-24 16:34:07.932  1531  1531 W art     :                    /system/lib64/libpqservice.so
+12-24 16:34:07.932  1531  1531 W art     : 7f879b2000-7f879c1000 ---p 00000000 00:00 0 
+12-24 16:34:07.932  1531  1531 W art     : 7f879c1000-7f879c5000 r--p 00019000 fd:00 3456                           /system/lib64/libpqservice.so
+12-24 16:34:07.932  1531  1531 W art     : 7f879c5000-7f879c6000 rw-p 0001d000 fd:00 3456                           /system/lib64/libpqservice.so
+12-24 16:34:07.932  1531  1531 W art     : 7f879c6000-7f879c7000 r--p 00000000 00:00 0                              [anon:linker_alloc]
+12-24 16:34:07.932  1531  1531 W art     : 7f879c7000-7f879ca000 r-xp 00000000 fd:00 3386                           /system/lib64/libm4u.so
+12-24 16:34:07.932  1531  1531 W art     : 7f879ca000-7f879d9000 ---p 00000000 00:00 0 
+12-24 16:34:07.932  1531  1531 W art     : 7f879d9000-7f879da000 r--p 00002000 fd:00 3386                           /system/lib64/libm4u.so
+12-24 16:34:07.932  1531  1531 W art     : 7f879da000-7f879db000 rw-p 00003000 fd:00 3386                           /system/lib64/libm4u.so
+12-24 16:34:07.932  1531  1531 W art     : 7f879db000-7f879ec000 r-xp 00000000 fd:00 3136                           /system/lib64/libJpgDecPipe.so
+12-24 16:34:07.932  1531  1531 W art     : 7f879ec000-7f879fb000 ---p 00000000 00:00 0 
+12-24 16:34:07.932  1531  1531 W art     : 7f879fb000-7f879fd000 r--p 00011000 fd:00 3136                           /system/lib64/libJpgDecPipe.so
+12-24 16:34:07.932  1531  1531 W art     : 7f879fd000-7f879fe000 rw-p 00013000 fd:00 3136                           /system/lib64/libJpgDecPipe.so
+12-24 16:34:07.932  1531  1531 W art     : 7f879fe000-7f87a00000 r-xp 00000000 fd:00 3359                           /system/lib64/libion_mtk.so
+12-24 16:34:07.932  1531  1531 W art     : 7f87a00000-7f87a0f000 ---p 00000000 00:00 0 
+12-24 16:34:07.932  1531  1531 W art     : 7f87a0f000-7f87a10000 r--p 00001000 fd:00 3359                           /system/lib64/libion_mtk.so
+12-24 16:34:07.932  1531  1531 W art     : 7f87a10000-7f87a11000 rw-p 00002000 fd:00 3359                           /system/lib64/libion_mtk.so
+12-24 16:34:07.932  1531  1531 W art     : 7f87a11000-7f87a13000 r-xp 00000000 fd:00 3358                           /system/lib64/libion.so
+12-24 16:34:07.932  1531  1531 W art     : 7f87a13000-7f87a22000 ---p 00000000 00:00 0 
+12-24 16:34:07.932  1531  1531 W art     : 7f87a22000-7f87a23000 r--p 00001000 fd:00 3358                           /system/lib64/libion.so
+12-24 16:34:07.932  1531  1531 W art     : 7f87a23000-7f87a24000 rw-p 00002000 fd:00 3358                           /system/lib64/libion.so
+12-24 16:34:07.932  1531  1531 W art     : 7f87a24000-7f87a26000 r-xp 00000000 fd:00 3414                           /system/lib64/libmrdump.so
+12-24 16:34:07.932  1531  1531 W art     : 7f87a26000-7f87a35000 ---p 00000000 00:00 0 
+12-24 16:34:07.932  1531  1531 W art     : 7f87a35000-7f87a36000 r--p 00001000 fd:00 3414                           /system/lib64/libmrdump.so
+12-24 16:34:07.932  1531  1531 W art     : 7f87a36000-7f87a37000 rw-p 00002000 fd:00 3414                           /system/lib64/libmrdump.so
+12-24 16:34:07.932  1531  1531 W art     : 7f87a37000-7f87a39000 r--p 00000000 00:00 0                              [anon:linker_alloc]
+12-24 16:34:07.932  1531  1531 W art     : 7f87a39000-7f87b0a000 r-xp 00000000 fd:00 3284                           /system/lib64/libdrmmtkutil.so
+12-24 16:34:07.933  1531  1531 W art     : 7f87b0a000-7f87b19000 ---p 00000000 00:00 0 
+12-24 16:34:07.933  1531  1531 W art     : 7f87b19000-7f87b22000 r--p 000dc000 fd:00 3284                           /system/lib64/libdrmmtkutil.so
+12-24 16:34:07.933  1531  1531 W art     : 7f87b22000-7f87b24000 rw-p 000e5000 fd:00 3284                           /system/lib64/libdrmmtkutil.so
+12-24 16:34:07.933  1531  1531 W art     : 7f87b24000-7f87b25000 rw-p 00000000 00:00 0 
+12-24 16:34:07.933  1531  1531 W art     : 7f87b25000-7f87b28000 r-xp 00000000 fd:00 3271                           /system/lib64/libcustom_prop.so
+12-24 16:34:07.933  1531  1531 W art     : 7f87b28000-7f87b37000 ---p 00000000 00:00 0 
+12-24 16:34:07.933  1531  1531 W art     : 7f87b37000-7f87b38000 r--p 00002000 fd:00 3271                           /system/lib64/libcustom_prop.so
+12-24 16:34:07.933  1531  1531 W art     : 7f87b38000-7f87b39000 rw-p 00003000 fd:00 3271                           /system/lib64/libcustom_prop.so
+12-24 16:34:07.933  1531  1531 W art     : 7f87b39000-7f87b3c000 rw-p 00000000 00:00 0 
+12-24 16:34:07.933  1531  1531 W art     : 7f87b3c000-7f87b46000 r-xp 00000000 fd:00 3502                           /system/lib64/libstagefright_avc_common.so
+12-24 16:34:07.933  1531  1531 W art     : 7f87b46000-7f87b55000 ---p 00000000 00:00 0 
+12-24 16:34:07.933  1531  1531 W art     : 7f87b55000-7f87b56000 r--p 00009000 fd:00 3502                           /system/lib64/libstagefright_avc_common.so
+12-24 16:34:07.933  1531  1531 W art     : 7f87b56000-7f87b57000 rw-p 0000a000 fd:00 3502                           /system/lib64/libstagefright_avc_common.so
+12-24 16:34:07.933  1531  1531 W art     : 7f87b57000-7f87b58000 r-xp 00000000 fd:00 3503                           /system/lib64/libstagefright_enc_common.so
+12-24 16:34:07.933  1531  1531 W art     : 7f87b58000-7f87b67000 ---p 00000000 00:00 0 
+12-24 16:34:07.933  1531  1531 W art     : 7f87b67000-7f87b68000 r--p 00000000 fd:00 3503                           /system/lib64/libstagefright_enc_common.so
+12-24 16:34:07.933  1531  1531 W art     : 7f87b68000-7f87b69000 rw-p 00001000 fd:00 3503                           /system/lib64/libstagefright_enc_common.so
+12-24 16:34:07.933  1531  1531 W art     : 7f87b69000-7f87b72000 r-xp 00000000 fd:00 3319                           /system/lib64/libffscanner_plugin.so
+12-24 16:34:07.933  1531  1531 W art     : 7f87b72000-7f87b81000 ---p 00000000 00:00 0 
+12-24 16:34:07.933  1531  1531 W art     : 7f87b81000-7f87b82000 r--p 00008000 fd:00 3319                           /system/lib64/libffscanner_plugin.so
+12-24 16:34:07.933  1531  1531 W art     : 7f87b82000-7f87b83000 rw-p 00009000 fd:00 3319                           /system/lib64/libffscanner_plugin.so
+12-24 16:34:07.933  1531  1531 W art     : 7f87b83000-7f87b86000 r-xp 00000000 fd:00 3452                           /system/lib64/libpowermanager.so
+12-24 16:34:07.933  1531  1531 W art     : 7f87b86000-7f87b96000 ---p 00000000 00:00 0 
+12-24 16:34:07.933  1531  1531 W art     : 7f87b96000-7f87b97000 r--p 00003000 fd:00 3452                           /system/lib64/libpowermanager.so
+12-24 16:34:07.933  1531  1531 W art     : 7f87b97000-7f87b98000 rw-p 00004000 fd:00 3452                           /system/lib64/libpowermanager.so
+12-24 16:34:07.933  1531  1531 W art     : 7f87b98000-7f87bb5000 r-xp 00000000 fd:00 3564                           /system/lib64/libvorbisidec.so
+12-24 16:34:07.933  1531  1531 W art     : 7f87bb5000-7f87bc4000 ---p 00000000 00:00 0 
+12-24 16:34:07.933  1531  1531 W art     : 7f87bc4000-7f87bc5000 r--p 0001c000 fd:00 3564                           /system/lib64/libvorbisidec.so
+12-24 16:34:07.933  1531  1531 W art     : 7f87bc5000-7f87bc6000 rw-p 0001d000 fd:00 3564                           /system/lib64/libvorbisidec.so
+12-24 16:34:07.933  1531  1531 W art     : 7f87bc6000-7f87bc7000 r--p 00000000 00:00 0                              [anon:linker_alloc]
+12-24 16:34:07.933  1531  1531 W art     : 7f87bc7000-7f87bca000 r-xp 00000000 fd:00 3527                           /system/lib64/libstagefright_yuv.so
+12-24 16:34:07.933  1531  1531 W art     : 7f87bca000-7f87bd9000 ---p 00000000 00:00 0 
+12-24 16:34:07.933  1531  1531 W art     : 7f87bd9000-7f87bda000 r--p 00002000 fd:00 3527                           /system/lib64/libstagefright_yuv.so
+12-24 16:34:07.933  1531  1531 W art     : 7f87bda000-7f87bdb000 rw-p 00003000 fd:00 3527                           /system/lib64/libstagefright_yuv.so
+12-24 16:34:07.933  1531  1531 W art     : 7f87bdb000-7f87c13000 r-xp 00000000 fd:00 3506                           /system/lib64/libstagefright_omx.so
+12-24 16:34:07.933  1531  1531 W art     : 7f87c13000-7f87c22000 ---p 00000000 00:00 0 
+12-24 16:34:07.933  1531  1531 W art     : 7f87c22000-7f87c27000 r--p 0003d000 fd:00 3506                           /system/lib64/libstagefright_omx.so
+12-24 16:34:07.933  1531  1531 W art     : 7f87c27000-7f87c28000 rw-p 00042000 fd:00 3506                           /system/lib64/libstagefright_omx.so
+12-24 16:34:07.933  1531  1531 W art     : 7f87c28000-7f87c73000 r-xp 00000000 fd:00 3442                           /system/lib64/libopus.so
+12-24 16:34:07.933  1531  1531 W art     : 7f87c73000-7f87c83000 ---p 00000000 00:00 0 
+12-24 16:34:07.933  1531  1531 W art     : 7f87c83000-7f87c84000 r--p 0004b000 fd:00 3442                           /system/lib64/libopus.so
+12-24 16:34:07.933  1531  1531 W art     : 7f87c84000-7f87c85000 rw-p 0004c000 fd:00 3442                           /system/lib64/libopus.so
+12-24 16:34:07.933  1531  1531 W art     : 7f87c85000-7f87c89000 r-xp 00000000 fd:00 3404                           /system/lib64/libmediautils.so
+12-24 16:34:07.933  1531  1531 W art     : 7f87c89000-7f87c99000 ---p 00000000 00:00 0 
+12-24 16:34:07.933  1531  1531 W art     : 7f87c99000-7f87c9a000 r--p 00004000 fd:00 3404                           /system/lib64/libmediautils.so
+12-24 16:34:07.933  1531  1531 W art     : 7f87c9a000-7f87c9b000 rw-p 00005000 fd:00 3404                           /system/lib64/libmediautils.so
+12-24 16:34:07.933  1531  1531 W art     : 7f87c9b000-7f87cb9000 r-xp 00000000 fd:00 3282                           /system/lib64/libdrmframework.so
+12-24 16:34:07.933  1531  1531 W art     : 7f87cb9000-7f87cc8000 ---p 00000000 00:00 0 
+12-24 16:34:07.933  1531  1531 W art     : 7f87cc8000-7f87ccd000 r--p 00022000 fd:00 3282                           /system/lib64/libdrmframework.so
+12-24 16:34:07.933  1531  1531 W art     : 7f87ccd000-7f87cce000 rw-p 00027000 fd:00 3282                           /system/lib64/libdrmframework.so
+12-24 16:34:07.933  1531  1531 W art     : 7f87cce000-7f87cf7000 r-xp 00000000 fd:00 3165                           /system/lib64/libRScpp.so
+12-24 16:34:07.933  1531  1531 W art     : 7f87cf7000-7f87d07000 ---p 00000000 00:00 0 
+12-24 16:34:07.933  1531  1531 W art     : 7f87d07000-7f87d08000 r--p 00029000 fd:00 3165                           /system/lib64/libRScpp.so
+12-24 16:34:07.933  1531  1531 W art     : 7f87d08000-7f87d09000 rw-p 0002a000 fd:00 3165                           /system/lib64/libRScpp.so
+12-24 16:34:07.933  1531  1531 W art     : 7f87d09000-7f87d5c000 r-xp 00000000 fd:00 3161                           /system/lib64/libRS.so
+12-24 16:34:07.933  1531  1531 W art     : 7f87d5c000-7f87d6c000 ---p 00000000 00:00 0 
+12-24 16:34:07.933  1531  1531 W art     : 7f87d6c000-7f87d6f000 r--p 00056000 fd:00 3161                           /system/lib64/libRS.so
+12-24 16:34:07.933  1531  1531 W art     : 7f87d6f000-7f87d70000 rw-p 00059000 fd:00 3161                           /system/lib64/libRS.so
+12-24 16:34:07.933  1531  1531 W art     : 7f87d70000-7f87d73000 r-xp 00000000 fd:00 3416                           /system/lib64/libmtk_drvb.so
+12-24 16:34:07.934  1531  1531 W art     : 7f87d73000-7f87d83000 ---p 00000000 00:00 0 
+12-24 16:34:07.934  1531  1531 W art     : 7f87d83000-7f87d84000 r--p 00003000 fd:00 3416                           /system/lib64/libmtk_drvb.so
+12-24 16:34:07.934  1531  1531 W art     : 7f87d84000-7f87d85000 rw-p 00004000 fd:00 3416                           /system/lib64/libmtk_drvb.so
+12-24 16:34:07.934  1531  1531 W art     : 7f87d85000-7f87d86000 r--p 00000000 00:00 0                              [anon:linker_alloc]
+12-24 16:34:07.934  1531  1531 W art     : 7f87d86000-7f87d87000 r-xp 00000000 fd:00 3425                           /system/lib64/libmtksqlite3_custom.so
+12-24 16:34:07.934  1531  1531 W art     : 7f87d87000-7f87d96000 ---p 00000000 00:00 0 
+12-24 16:34:07.934  1531  1531 W art     : 7f87d96000-7f87d97000 r--p 00000000 fd:00 3425                           /system/lib64/libmtksqlite3_custom.so
+12-24 16:34:07.934  1531  1531 W art     : 7f87d97000-7f87d98000 rw-p 00001000 fd:00 3425                           /system/lib64/libmtksqlite3_custom.so
+12-24 16:34:07.934  1531  1531 W art     : 7f87d98000-7f87d99000 r--p 00000000 00:00 0                              [anon:linker_alloc]
+12-24 16:34:07.934  1531  1531 W art     : 7f87d99000-7f87d9c000 r-xp 00000000 fd:00 3496                           /system/lib64/libspeexresampler.so
+12-24 16:34:07.934  1531  1531 W art     : 7f87d9c000-7f87dab000 ---p 00000000 00:00 0 
+12-24 16:34:07.934  1531  1531 W art     : 7f87dab000-7f87dac000 r--p 00002000 fd:00 3496                           /system/lib64/libspeexresampler.so
+12-24 16:34:07.934  1531  1531 W art     : 7f87dac000-7f87dad000 rw-p 00003000 fd:00 3496                           /system/lib64/libspeexresampler.so
+12-24 16:34:07.934  1531  1531 W art     : 7f87dad000-7f87db7000 r-xp 00000000 fd:00 3327                           /system/lib64/libgas.so
+12-24 16:34:07.934  1531  1531 W art     : 7f87db7000-7f87dc7000 ---p 00000000 00:00 0 
+12-24 16:34:07.934  1531  1531 W art     : 7f87dc7000-7f87dc9000 r--p 0000c000 fd:00 3327                           /system/lib64/libgas.so
+12-24 16:34:07.934  1531  1531 W art     : 7f87dc9000-7f87dca000 rw-p 0000e000 fd:00 3327                           /system/lib64/libgas.so
+12-24 16:34:07.934  1531  1531 W art     : 7f87dca000-7f87df3000 r-xp 00000000 fd:00 3562                           /system/lib64/libvcodecdrv.so
+12-24 16:34:07.934  1531  1531 W art     : 7f87df3000-7f87e03000 ---p 00000000 00:00 0 
+12-24 16:34:07.934  1531  1531 W art     : 7f87e03000-7f87e04000 r--p 00029000 fd:00 3562                           /system/lib64/libvcodecdrv.so
+12-24 16:34:07.934  1531  1531 W art     : 7f87e04000-7f87e69000 rw-p 0002a000 fd:00 3562                           /system/lib64/libvcodecdrv.so
+12-24 16:34:07.934  1531  1531 W art     : 7f87e69000-7f87e74000 r-xp 00000000 fd:00 3430                           /system/lib64/libnbaio.so
+12-24 16:34:07.934  1531  1531 W art     : 7f87e74000-7f87e84000 ---p 00000000 00:00 0 
+12-24 16:34:07.934  1531  1531 W art     : 7f87e84000-7f87e85000 r--p 0000b000 fd:00 3430                           /system/lib64/libnbaio.so
+12-24 16:34:07.934  1531  1531 W art     : 7f87e85000-7f87e86000 rw-p 0000c000 fd:00 3430                           /system/lib64/libnbaio.so
+12-24 16:34:07.934  1531  1531 W art     : 7f87e86000-7f87e90000 r-xp 00000000 fd:00 3536                           /system/lib64/libsysutils.so
+12-24 16:34:07.934  1531  1531 W art     : 7f87e90000-7f87ea0000 ---p 00000000 00:00 0 
+12-24 16:34:07.934  1531  1531 W art     : 7f87ea0000-7f87ea1000 r--p 0000a000 fd:00 3536                           /system/lib64/libsysutils.so
+12-24 16:34:07.934  1531  1531 W art     : 7f87ea1000-7f87ea2000 rw-p 0000b000 fd:00 3536                           /system/lib64/libsysutils.so
+12-24 16:34:07.934  1531  1531 W art     : 7f87ea2000-7f87ebc000 r-xp 00000000 fd:00 3444                           /system/lib64/libpcre.so
+12-24 16:34:07.934  1531  1531 W art     : 7f87ebc000-7f87ecb000 ---p 00000000 00:00 0 
+12-24 16:34:07.934  1531  1531 W art     : 7f87ecb000-7f87ecc000 r--p 00019000 fd:00 3444                           /system/lib64/libpcre.so
+12-24 16:34:07.934  1531  1531 W art     : 7f87ecc000-7f87ecd000 rw-p 0001a000 fd:00 3444                           /system/lib64/libpcre.so
+12-24 16:34:07.934  1531  1531 W art     : 7f87ecd000-7f87ed1000 r-xp 00000000 fd:00 3575                           /system/lib64/libwpa_client.so
+12-24 16:34:07.934  1531  1531 W art     : 7f87ed1000-7f87ee0000 ---p 00000000 00:00 0 
+12-24 16:34:07.934  1531  1531 W art     : 7f87ee0000-7f87ee1000 r--p 00003000 fd:00 3575                           /system/lib64/libwpa_client.so
+12-24 16:34:07.934  1531  1531 W art     : 7f87ee1000-7f87ee2000 rw-p 00004000 fd:00 3575                           /system/lib64/libwpa_client.so
+12-24 16:34:07.934  1531  1531 W art     : 7f87ee2000-7f87faf000 r-xp 00000000 fd:00 3129                           /system/lib64/libGLES_trace.so
+12-24 16:34:07.934  1531  1531 W art     : 7f87faf000-7f87fb0000 r--p 000d0000 fd:00 3129                           /system/lib64/libGLES_trace.so
+12-24 16:34:07.934  1531  1531 W art     : 7f87fb0000-7f87fb2000 rw-p 000d1000 fd:00 3129                           /system/lib64/libGLES_trace.so
+12-24 16:34:07.934  1531  1531 W art     : 7f87fb2000-7f88068000 r-xp 00000000 fd:00 3281                           /system/lib64/libdpframework.so
+12-24 16:34:07.934  1531  1531 W art     : 7f88068000-7f88078000 ---p 00000000 00:00 0 
+12-24 16:34:07.934  1531  1531 W art     : 7f88078000-7f8807c000 r--p 000b9000 fd:00 3281                           /system/lib64/libdpframework.so
+12-24 16:34:07.934  1531  1531 W art     : 7f8807c000-7f8807d000 rw-p 000bd000 fd:00 3281                           /system/lib64/libdpframework.so
+12-24 16:34:07.934  1531  1531 W art     : 7f8807d000-7f8807e000 r-xp 00000000 fd:00 3408                           /system/lib64/libmhalImageCodec.so
+12-24 16:34:07.934  1531  1531 W art     : 7f8807e000-7f8808d000 ---p 00000000 00:00 0 
+12-24 16:34:07.934  1531  1531 W art     : 7f8808d000-7f8808e000 r--p 00000000 fd:00 3408                           /system/lib64/libmhalImageCodec.so
+12-24 16:34:07.934  1531  1531 W art     : 7f8808e000-7f8808f000 rw-p 00001000 fd:00 3408                           /system/lib64/libmhalImageCodec.so
+12-24 16:34:07.934  1531  1531 W art     : 7f8808f000-7f880f6000 r-xp 00000000 fd:00 3325                           /system/lib64/libft2.so
+12-24 16:34:07.934  1531  1531 W art     : 7f880f6000-7f88106000 ---p 00000000 00:00 0 
+12-24 16:34:07.934  1531  1531 W art     : 7f88106000-7f88109000 r--p 00069000 fd:00 3325                           /system/lib64/libft2.so
+12-24 16:34:07.934  1531  1531 W art     : 7f88109000-7f8810a000 rw-p 0006c000 fd:00 3325                           /system/lib64/libft2.so
+12-24 16:34:07.934  1531  1531 W art     : 7f8810a000-7f8813c000 r-xp 00000000 fd:00 3450                           /system/lib64/libpng.so
+12-24 16:34:07.934  1531  1531 W art     : 7f8813c000-7f8814c000 ---p 00000000 00:00 0 
+12-24 16:34:07.934  1531  1531 W art     : 7f8814c000-7f8814d000 r--p 00032000 fd:00 3450                           /system/lib64/libpng.so
+12-24 16:34:07.934  1531  1531 W art     : 7f8814d000-7f8814e000 rw-p 00033000 fd:00 3450                           /system/lib64/libpng.so
+12-24 16:34:07.934  1531  1531 W art     : 7f8814e000-7f88155000 r-xp 00000000 fd:00 3549                           /system/lib64/libtouchfilter.so
+12-24 16:34:07.934  1531  1531 W art     : 7f88155000-7f88164000 ---p 00000000 00:00 0 
+12-24 16:34:07.935  1531  1531 W art     : 7f88164000-7f88165000 r--p 00006000 fd:00 3549                           /system/lib64/libtouchfilter.so
+12-24 16:34:07.935  1531  1531 W art     : 7f88165000-7f88166000 rw-p 00007000 fd:00 3549                           /system/lib64/libtouchfilter.so
+12-24 16:34:07.935  1531  1531 W art     : 7f88166000-7f88167000 r-xp 00000000 fd:00 3471                           /system/lib64/librrc.so
+12-24 16:34:07.935  1531  1531 W art     : 7f88167000-7f88176000 ---p 00000000 00:00 0 
+12-24 16:34:07.935  1531  1531 W art     : 7f88176000-7f88177000 r--p 00000000 fd:00 3471                           /system/lib64/librrc.so
+12-24 16:34:07.935  1531  1531 W art     : 7f88177000-7f88178000 rw-p 00001000 fd:00 3471                           /system/lib64/librrc.so
+12-24 16:34:07.935  1531  1531 W art     : 7f88178000-7f8817e000 r-xp 00000000 fd:00 3448                           /system/lib64/libperfservicenative.so
+12-24 16:34:07.935  1531  1531 W art     : 7f8817e000-7f8818d000 ---p 00000000 00:00 0 
+12-24 16:34:07.935  1531  1531 W art     : 7f8818d000-7f8818e000 r--p 00005000 fd:00 3448                           /system/lib64/libperfservicenative.so
+12-24 16:34:07.935  1531  1531 W art     : 7f8818e000-7f8818f000 rw-p 00006000 fd:00 3448                           /system/lib64/libperfservicenative.so
+12-24 16:34:07.935  1531  1531 W art     : 7f8818f000-7f88193000 r-xp 00000000 fd:00 3337                           /system/lib64/libgralloc_extra.so
+12-24 16:34:07.935  1531  1531 W art     : 7f88193000-7f881a2000 ---p 00000000 00:00 0 
+12-24 16:34:07.935  1531  1531 W art     : 7f881a2000-7f881a3000 r--p 00003000 fd:00 3337                           /system/lib64/libgralloc_extra.so
+12-24 16:34:07.935  1531  1531 W art     : 7f881a3000-7f881a4000 rw-p 00004000 fd:00 3337                           /system/lib64/libgralloc_extra.so
+12-24 16:34:07.935  1531  1531 W art     : 7f881a4000-7f88244000 r-xp 00000000 fd:00 3330                           /system/lib64/libgem.so
+12-24 16:34:07.935  1531  1531 W art     : 7f88244000-7f88254000 ---p 00000000 00:00 0 
+12-24 16:34:07.935  1531  1531 W art     : 7f88254000-7f88271000 r--p 000ae000 fd:00 3330                           /system/lib64/libgem.so
+12-24 16:34:07.935  1531  1531 W art     : 7f88271000-7f88272000 rw-p 000cb000 fd:00 3330                           /system/lib64/libgem.so
+12-24 16:34:07.935  1531  1531 W art     : 7f88272000-7f88273000 r-xp 00000000 fd:00 3535                           /system/lib64/libsync.so
+12-24 16:34:07.935  1531  1531 W art     : 7f88273000-7f88282000 ---p 00000000 00:00 0 
+12-24 16:34:07.935  1531  1531 W art     : 7f88282000-7f88283000 r--p 00000000 fd:00 3535                           /system/lib64/libsync.so
+12-24 16:34:07.935  1531  1531 W art     : 7f88283000-7f88284000 rw-p 00001000 fd:00 3535                           /system/lib64/libsync.so
+12-24 16:34:07.935  1531  1531 W art     : 7f88284000-7f8829e000 r-xp 00000000 fd:00 3178                           /system/lib64/libaed.so
+12-24 16:34:07.935  1531  1531 W art     : 7f8829e000-7f882ae000 ---p 00000000 00:00 0 
+12-24 16:34:07.935  1531  1531 W art     : 7f882ae000-7f882af000 r--p 0001a000 fd:00 3178                           /system/lib64/libaed.so
+12-24 16:34:07.935  1531  1531 W art     : 7f882af000-7f882b0000 rw-p 0001b000 fd:00 3178                           /system/lib64/libaed.so
+12-24 16:34:07.935  1531  1531 W art     : 7f882b0000-7f882b8000 rw-p 00000000 00:00 0 
+12-24 16:34:07.935  1531  1531 W art     : 7f882b8000-7f882bb000 r-xp 00000000 fd:00 3529                           /system/lib64/libstdc++.so
+12-24 16:34:07.935  1531  1531 W art     : 7f882bb000-7f882ca000 ---p 00000000 00:00 0 
+12-24 16:34:07.935  1531  1531 W art     : 7f882ca000-7f882cb000 r--p 00002000 fd:00 3529                           /system/lib64/libstdc++.so
+12-24 16:34:07.935  1531  1531 W art     : 7f882cb000-7f882cc000 rw-p 00003000 fd:00 3529                           /system/lib64/libstdc++.so
+12-24 16:34:07.935  1531  1531 W art     : 7f882cc000-7f882e7000 r-xp 00000000 fd:00 3555                           /system/lib64/libunwind.so
+12-24 16:34:07.935  1531  1531 W art     : 7f882e7000-7f882f7000 ---p 00000000 00:00 0 
+12-24 16:34:07.935  1531  1531 W art     : 7f882f7000-7f882f8000 r--p 0001b000 fd:00 3555                           /system/lib64/libunwind.so
+12-24 16:34:07.935  1531  1531 W art     : 7f882f8000-7f882f9000 rw-p 0001c000 fd:00 3555                           /system/lib64/libunwind.so
+12-24 16:34:07.935  1531  1531 W art     : 7f882f9000-7f88364000 rw-p 00000000 00:00 0 
+12-24 16:34:07.935  1531  1531 W art     : 7f88364000-7f8836d000 r-xp 00000000 fd:00 3213                           /system/lib64/libbase.so
+12-24 16:34:07.935  1531  1531 W art     : 7f8836d000-7f8837c000 ---p 00000000 00:00 0 
+12-24 16:34:07.935  1531  1531 W art     : 7f8837c000-7f8837d000 r--p 00008000 fd:00 3213                           /system/lib64/libbase.so
+12-24 16:34:07.935  1531  1531 W art     : 7f8837d000-7f8837e000 rw-p 00009000 fd:00 3213                           /system/lib64/libbase.so
+12-24 16:34:07.935  1531  1531 W art     : 7f8837e000-7f88382000 r-xp 00000000 fd:00 3289                           /system/lib64/libeffects.so
+12-24 16:34:07.935  1531  1531 W art     : 7f88382000-7f88391000 ---p 00000000 00:00 0 
+12-24 16:34:07.935  1531  1531 W art     : 7f88391000-7f88392000 r--p 00003000 fd:00 3289                           /system/lib64/libeffects.so
+12-24 16:34:07.935  1531  1531 W art     : 7f88392000-7f88393000 rw-p 00004000 fd:00 3289                           /system/lib64/libeffects.so
+12-24 16:34:07.935  1531  1531 W art     : 7f88393000-7f88395000 r-xp 00000000 fd:00 3505                           /system/lib64/libstagefright_http_support.so
+12-24 16:34:07.935  1531  1531 W art     : 7f88395000-7f883a4000 ---p 00000000 00:00 0 
+12-24 16:34:07.935  1531  1531 W art     : 7f883a4000-7f883a5000 r--p 00001000 fd:00 3505                           /system/lib64/libstagefright_http_support.so
+12-24 16:34:07.935  1531  1531 W art     : 7f883a5000-7f883a6000 rw-p 00002000 fd:00 3505                           /system/lib64/libstagefright_http_support.so
+12-24 16:34:07.935  1531  1531 W art     : 7f883a6000-7f883c8000 r-xp 00000000 fd:00 3504                           /system/lib64/libstagefright_foundation.so
+12-24 16:34:07.935  1531  1531 W art     : 7f883c8000-7f883d8000 ---p 00000000 00:00 0 
+12-24 16:34:07.935  1531  1531 W art     : 7f883d8000-7f883db000 r--p 00023000 fd:00 3504                           /system/lib64/libstagefright_foundation.so
+12-24 16:34:07.935  1531  1531 W art     : 7f883db000-7f883dc000 rw-p 00026000 fd:00 3504                           /system/lib64/libstagefright_foundation.so
+12-24 16:34:07.936  1531  1531 W art     : 7f883dc000-7f886bc000 r-xp 00000000 fd:00 3500                           /system/lib64/libstagefright.so
+12-24 16:34:07.936  1531  1531 W art     : 7f886bc000-7f886cb000 ---p 00000000 00:00 0 
+12-24 16:34:07.936  1531  1531 W art     : 7f886cb000-7f886e7000 r--p 002e6000 fd:00 3500                           /system/lib64/libstagefright.so
+12-24 16:34:07.936  1531  1531 W art     : 7f886e7000-7f886e8000 rw-p 00302000 fd:00 3500                           /system/lib64/libstagefright.so
+12-24 16:34:07.936  1531  1531 W art     : 7f886e8000-7f886e9000 rw-p 00000000 00:00 0 
+12-24 16:34:07.936  1531  1531 W art     : 7f886e9000-7f88799000 r-xp 00000000 fd:00 3344                           /system/lib64/libhwui.so
+12-24 16:34:07.936  1531  1531 W art     : 7f88799000-7f887a8000 ---p 00000000 00:00 0 
+12-24 16:34:07.936  1531  1531 W art     : 7f887a8000-7f887af000 r--p 000b8000 fd:00 3344                           /system/lib64/libhwui.so
+12-24 16:34:07.936  1531  1531 W art     : 7f887af000-7f887b0000 rw-p 000bf000 fd:00 3344                           /system/lib64/libhwui.so
+12-24 16:34:07.936  1531  1531 W art     : 7f887b0000-7f887ba000 r-xp 00000000 fd:00 3419                           /system/lib64/libmtkcamera_client.so
+12-24 16:34:07.936  1531  1531 W art     : 7f887ba000-7f887c9000 ---p 00000000 00:00 0 
+12-24 16:34:07.936  1531  1531 W art     : 7f887c9000-7f887ca000 r--p 00009000 fd:00 3419                           /system/lib64/libmtkcamera_c
+12-24 16:34:07.936  1531  1531 W art     : lient.so
+12-24 16:34:07.936  1531  1531 W art     : 7f887ca000-7f887cb000 rw-p 0000a000 fd:00 3419                           /system/lib64/libmtkcamera_client.so
+12-24 16:34:07.936  1531  1531 W art     : 7f887cb000-7f887d4000 r-xp 00000000 fd:00 3424                           /system/lib64/libmtksqlite3_android.so
+12-24 16:34:07.936  1531  1531 W art     : 7f887d4000-7f887e3000 ---p 0000000
+12-24 16:34:07.936  1531  1531 W art     : 0 00:00 0 
+12-24 16:34:07.936  1531  1531 W art     : 7f887e3000-7f887e4000 r--p 00008000 fd:00 3424                           /system/lib64/libmtksqlite3_android.so
+12-24 16:34:07.936  1531  1531 W art     : 7f887e4000-7f887e5000 rw-p 00009000 fd:00 3424                           /system/lib64/libmtksqlite3_android.so
+12-24 16:34:07.936  1531  1531 W art     : 7f887e5000-7f8880a000 r-xp 00000
+12-24 16:34:07.936  1531  1531 W art     : 000 fd:00 3176                           /system/lib64/libaal.so
+12-24 16:34:07.936  1531  1531 W art     : 7f8880a000-7f88819000 ---p 00000000 00:00 0 
+12-24 16:34:07.936  1531  1531 W art     : 7f88819000-7f8881e000 r--p 00029000 fd:00 3176                           /system/lib64/libaal.so
+12-24 16:34:07.936  1531  1531 W art     : 7f8881e000-7f8881f000 rw-p 0002e000 fd:00 3176                           /system/lib64/libaal.so
+12-24 16:34:07.936  1531  1531 W art     : 7f8881f000-7f88821000 r-xp 00000000 fd:00 3461                           /system/lib64/libradio_metadata.so
+12-24 16:34:07.936  1531  1531 W art     : 7f88821000-7f88830000 ---p 00000000 00:00 0 
+12-24 16:34:07.936  1531  1531 W art     : 7f88830000-7f88831000 r--p 00001000 fd:00 3461                           /system/lib64/libradio_metadata.so
+12-24 16:34:07.936  1531  1531 W art     : 7f88831000-7f88832000 rw-p 00002000 fd:00 3461                           /system/lib64/libradio_metadata.so
+12-24 16:34:07.936  1531  1531 W art     : 7f88832000-7f88835000 r-xp 00000000 fd:00 3427                           /system/lib64/libnativebridge.so
+12-24 16:34:07.936  1531  1531 W art     : 7f88835000-7f88844000 ---p 00000000 00:00 0 
+12-24 16:34:07.936  1531  1531 W art     : 7f88844000-7f88845000 r--p 00002000 fd:00 3427                           /system/lib64/libnativebridge.so
+12-24 16:34:07.936  1531  1531 W art     : 7f88845000-7f88846000 rw-p 00003000 fd:00 3427                           /system/lib64/libnativebridge.so
+12-24 16:34:07.936  1531  1531 W art     : 7f88846000-7f88848000 r-xp 00000000 fd:00 3458                           /system/lib64/libprocessgroup.so
+12-24 16:34:07.936  1531  1531 W art     : 7f88848000-7f88857000 ---p 00000000 00:00 0 
+12-24 16:34:07.936  1531  1531 W art     : 7f88857000-7f88858000 r--p 00001000 fd:00 3458                           /system/lib64/libprocessgroup.so
+12-24 16:34:07.936  1531  1531 W art     : 7f88858000-7f88859000 rw-p 00002000 fd:00 3458                           /system/lib64/libprocessgroup.so
+12-24 16:34:07.936  1531  1531 W art     : 7f88859000-7f8886f000 r-xp 00000000 fd:00 3409                           /system/lib64/libminikin.so
+12-24 16:34:07.936  1531  1531 W art     : 7f8886f000-7f8887f000 ---p 00000000 00:00 0 
+12-24 16:34:07.936  1531  1531 W art     : 7f8887f000-7f88880000 r--p 00016000 fd:00 3409                           /system/lib64/libminikin.so
+12-24 16:34:07.936  1531  1531 W art     : 7f88880000-7f88881000 rw-p 00017000 fd:00 3409                           /system/lib64/libminikin.so
+12-24 16:34:07.936  1531  1531 W art     : 7f88881000-7f8888b000 r-xp 00000000 fd:00 3490                           /system/lib64/libsoundtrigger.so
+12-24 16:34:07.936  1531  1531 W art     : 7f8888b000-7f8889a000 ---p 00000000 00:00 0 
+12-24 16:34:07.936  1531  1531 W art     : 7f8889a000-7f8889e000 r--p 0000d000 fd:00 3490                           /system/lib64/libsoundtrigger.so
+12-24 16:34:07.936  1531  1531 W art     : 7f8889e000-7f8889f000 rw-p 00011000 fd:00 3490                           /system/lib64/libsoundtrigger.so
+12-24 16:34:07.936  1531  1531 W art     : 7f8889f000-7f888a9000 r-xp 00000000 fd:00 3460                           /system/lib64/libradio.so
+12-24 16:34:07.936  1531  1531 W art     : 7f888a9000-7f888b8000 ---p 00000000 00:00 0 
+12-24 16:34:07.936  1531  1531 W art     : 7f888b8000-7f888bd000 r--p 0000d000 fd:00 3460                           /system/lib64/libradio.so
+12-24 16:34:07.936  1531  1531 W art     : 7f888bd000-7f888be000 rw-p 00012000 fd:00 3460                           /system/lib64/libradio.so
+12-24 16:34:07.936  1531  1531 W art     : 7f888be000-7f888c0000 r-xp 00000000 fd:00 3431                           /system/lib64/libnetd_client.so
+12-24 16:34:07.936  1531  1531 W art     : 7f888c0000-7f888cf000 ---p 00000000 00:00 0 
+12-24 16:34:07.936  1531  1531 W art     : 7f888cf000-7f888d0000 r--p 00001000 fd:00 3431                           /system/lib64/libnetd_client.so
+12-24 16:34:07.936  1531  1531 W art     : 7f888d0000-7f888d1000 rw-p 00002000 fd:00 3431                           /system/lib64/libnetd_client.so
+12-24 16:34:07.936  1531  1531 W art     : 7f888d1000-7f888e3000 r-xp 00000000 fd:00 3350                           /system/lib64/libimg_utils.so
+12-24 16:34:07.936  1531  1531 W art     : 7f888e3000-7f888f2000 ---p 00000000 00:00 0 
+12-24 16:34:07.936  1531  1531 W art     : 7f888f2000-7f888f5000 r--p 00012000 fd:00 3350                           /system/lib64/libimg_utils.so
+12-24 16:34:07.936  1531  1531 W art     : 7f888f5000-7f888f6000 rw-p 00015000 fd:00 3350                           /system/lib64/libimg_utils.so
+12-24 16:34:07.937  1531  1531 W art     : 7f888f6000-7f88d1a000 r-xp 00000000 fd:00 3445                           /system/lib64/libpdfium.so
+12-24 16:34:07.937  1531  1531 W art     : 7f88d1a000-7f88d29000 ---p 00000000 00:00 0 
+12-24 16:34:07.937  1531  1531 W art     : 7f88d29000-7f88d3a000 r--p 00428000 fd:00 3445                           /system/lib64/libpdfium.so
+12-24 16:34:07.937  1531  1531 W art     : 7f88d3a000-7f88d3f000 rw-p 00439000 fd:00 3445                           /system/lib64/libpdfium.so
+12-24 16:34:07.937  1531  1531 W art     : 7f88d3f000-7f88d40000 rw-p 00000000 00:00 0 
+12-24 16:34:07.937  1531  1531 W art     : 7f88d40000-7f88d4a000 r-xp 00000000 fd:00 3205                           /system/lib64/libaudioutils.so
+12-24 16:34:07.937  1531  1531 W art     : 7f88d4a000-7f88d5a000 ---p 00000000 00:00 0 
+12-24 16:34:07.937  1531  1531 W art     : 7f88d5a000-7f88d5b000 r--p 0000a000 fd:00 3205                           /system/lib64/libaudioutils.so
+12-24 16:34:07.937  1531  1531 W art     : 7f88d5b000-7f88d5c000 rw-p 0000b000 fd:00 3205                           /system/lib64/libaudioutils.so
+12-24 16:34:07.937  1531  1531 W art     : 7f88d5c000-7f88d78000 r-xp 00000000 fd:00 3576                           /system/lib64/libz.so
+12-24 16:34:07.937  1531  1531 W art     : 7f88d78000-7f88d87000 ---p 00000000 00:00 0 
+12-24 16:34:07.937  1531  1531 W art     : 7f88d87000-7f88d88000 r--p 0001b000 fd:00 3576                           /system/lib64/libz.so
+12-24 16:34:07.937  1531  1531 W art     : 7f88d88000-7f88d89000 rw-p 0001c000 fd:00 3576                           /system/lib64/libz.so
+12-24 16:34:07.937  1531  1531 W art     : 7f88d89000-7f88df7000 r-xp 00000000 fd:00 3341                           /system/lib64/libharfbuzz_ng.so
+12-24 16:34:07.937  1531  1531 W art     : 7f88df7000-7f88e06000 ---p 00000000 00:00 0 
+12-24 16:34:07.937  1531  1531 W art     : 7f88e06000-7f88e09000 r--p 0006d000 fd:00 3341                           /system/lib64/libharfbuzz_ng.so
+12-24 16:34:07.937  1531  1531 W art     : 7f88e09000-7f88e0a000 rw-p 00070000 fd:00 3341                           /system/lib64/libharfbuzz_ng.so
+12-24 16:34:07.937  1531  1531 W art     : 7f88e0a000-7f88e0e000 r-xp 00000000 fd:00 3557                           /system/lib64/libusbhost.so
+12-24 16:34:07.937  1531  1531 W art     : 7f88e0e000-7f88e1d000 ---p 00000000 00:00 0 
+12-24 16:34:07.937  1531  1531 W art     : 7f88e1d000-7f88e1e000 r--p 00003000 fd:00 3557                           /system/lib64/libusbhost.so
+12-24 16:34:07.937  1531  1531 W art     : 7f88e1e000-7f88e1f000 rw-p 00004000 fd:00 3557                           /system/lib64/libusbhost.so
+12-24 16:34:07.937  1531  1531 W art     : 7f88e1f000-7f88e58000 r-xp 00000000 fd:00 3374                           /system/lib64/libjpeg.so
+12-24 16:34:07.937  1531  1531 W art     : 7f88e58000-7f88e67000 ---p 00000000 00:00 0 
+12-24 16:34:07.937  1531  1531 W art     : 7f88e67000-7f88e68000 r--p 00038000 fd:00 3374                           /system/lib64/libjpeg.so
+12-24 16:34:07.937  1531  1531 W art     : 7f88e68000-7f88e69000 rw-p 00039000 fd:00 3374                           /system/lib64/libjpeg.so
+12-24 16:34:07.937  1531  1531 W art     : 7f88e69000-7f88f59000 r-xp 00000000 fd:00 3400                           /system/lib64/libmedia.so
+12-24 16:34:07.937  1531  1531 W art     : 7f88f59000-7f88f68000 ---p 00000000 00:00 0 
+12-24 16:34:07.937  1531  1531 W art     : 7f88f68000-7f88fa6000 r--p 000fa000 fd:00 3400                           /system/lib64/libmedia.so
+12-24 16:34:07.937  1531  1531 W art     : 7f88fa6000-7f88fa7000 rw-p 00138000 fd:00 3400                           /system/lib64/libmedia.so
+12-24 16:34:07.937  1531  1531 W art     : 7f88fa7000-7f891c3000 r-xp 00000000 fd:00 3345                           /system/lib64/libicui18n.so
+12-24 16:34:07.937  1531  1531 W art     : 7f891c3000-7f891d3000 ---p 00000000 00:00 0 
+12-24 16:34:07.937  1531  1531 W art     : 7f891d3000-7f891e7000 r--p 00226000 fd:00 3345                           /system/lib64/libicui18n.so
+12-24 16:34:07.937  1531  1531 W art     : 7f891e7000-7f891e8000 rw-p 0023a000 fd:00 3345                           /system/lib64/libicui18n.so
+12-24 16:34:07.937  1531  1531 W art     : 7f891e8000-7f8936b000 r-xp 00000000 fd:00 3346                           /system/lib64/libicuuc.so
+12-24 16:34:07.937  1531  1531 W art     : 7f8936b000-7f8937b000 ---p 00000000 00:00 0 
+12-24 16:34:07.937  1531  1531 W art     : 7f8937b000-7f8938d000 r--p 0018c000 fd:00 3346                           /system/lib64/libicuuc.so
+12-24 16:34:07.937  1531  1531 W art     : 7f8938d000-7f8938e000 rw-p 0019e000 fd:00 3346                           /system/lib64/libicuuc.so
+12-24 16:34:07.937  1531  1531 W art     : 7f8938e000-7f89392000 rw-p 00000000 00:00 0 
+12-24 16:34:07.937  1531  1531 W art     : 7f89392000-7f893d5000 r-xp 00000000 fd:00 3499                           /system/lib64/libssl.so
+12-24 16:34:07.937  1531  1531 W art     : 7f893d5000-7f893e5000 ---p 00000000 00:00 0 
+12-24 16:34:07.937  1531  1531 W art     : 7f893e5000-7f893e7000 r--p 00043000 fd:00 3499                           /system/lib64/libssl.so
+12-24 16:34:07.937  1531  1531 W art     : 7f893e7000-7f893e8000 rw-p 00045000 fd:00 3499                           /system/lib64/libssl.so
+12-24 16:34:07.937  1531  1531 W art     : 7f893e8000-7f894ee000 r-xp 00000000 fd:00 3267                           /system/lib64/libcrypto.so
+12-24 16:34:07.937  1531  1531 W art     : 7f894ee000-7f894fd000 ---p 00000000 00:00 0 
+12-24 16:34:07.937  1531  1531 W art     : 7f894fd000-7f89511000 r--p 0010a000 fd:00 3267                           /system/lib64/libcrypto.so
+12-24 16:34:07.937  1531  1531 W art     : 7f89511000-7f89512000 rw-p 0011e000 fd:00 3267                           /system/lib64/libcrypto.so
+12-24 16:34:07.937  1531  1531 W art     : 7f89512000-7f8956c000 r-xp 00000000 fd:00 3488                           /system/lib64/libsonivox.so
+12-24 16:34:07.937  1531  1531 W art     : 7f8956c000-7f8957c000 ---p 00000000 00:00 0 
+12-24 16:34:07.937  1531  1531 W art     : 7f8957c000-7f8957d000 r--p 0005a000 fd:00 3488                           /system/lib64/libsonivox.so
+12-24 16:34:07.937  1531  1531 W art     : 7f8957d000-7f8957e000 rw-p 0005b000 fd:00 3488                           /system/lib64/libsonivox.so
+12-24 16:34:07.937  1531  1531 W art     : 7f8957e000-7f8957f000 rw-p 00000000 00:00 0 
+12-24 16:34:07.937  1531  1531 W art     : 7f8957f000-7f89594000 r-xp 00000000 fd:00 3477                           /system/lib64/libselinux.so
+12-24 16:34:07.937  1531  1531 W art     : 7f89594000-7f895a4000 ---p 00000000 00:00 0 
+12-24 16:34:07.937  1531  1531 W art     : 7f895a4000-7f895a5000 r--p 00015000 fd:00 3477                           /system/lib64/libselinux.so
+12-24 16:34:07.937  1531  1531 W art     : 7f895a5000-7f895a6000 rw-p 00016000 fd:00 3477                           /system/lib64/libselinux.so
+12-24 16:34:07.937  1531  1531 W art     : 7f895a6000-7f895a7000 rw-p 00000000 00:00 0 
+12-24 16:34:07.937  1531  1531 W art     : 7f895a7000-7f895ae000 r-xp 00000000 fd:00 3340                           /system/lib64/libhardware_legacy.so
+12-24 16:34:07.938  1531  1531 W art     : 7f895ae000-7f895bd000 ---p 00000000 00:00 0 
+12-24 16:34:07.938  1531  1531 W art     : 7f895bd000-7f895be000 r--p 00006000 fd:00 3340                           /system/lib64/libhardware_legacy.so
+12-24 16:34:07.938  1531  1531 W art     : 7f895be000-7f895bf000 rw-p 00007000 fd:00 3340                           /system/lib64/libhardware_legacy.so
+12-24 16:34:07.938  1531  1531 W art     : 7f895bf000-7f895c0000 rw-p 00000000 00:00 0 
+12-24 16:34:07.938  1531  1531 W art     : 7f895c0000-7f895c2000 r-xp 00000000 fd:00 3339                           /system/lib64/libhardware.so
+12-24 16:34:07.938  1531  1531 W art     : 7f895c2000-7f895d1000 ---p 00000000 00:00 0 
+12-24 16:34:07.938  1531  1531 W art     : 7f895d1000-7f895d3000 r--p 00001000 fd:00 3339                           /system/lib64/libhardware.so
+12-24 16:34:07.938  1531  1531 W art     : 7f895d3000-7f895d4000 rw-p 00003000 fd:00 3339                           /system/lib64/libhardware.so
+12-24 16:34:07.938  1531  1531 W art     : 7f895d4000-7f895d7000 r-xp 00000000 fd:00 3126                           /system/lib64/libETC1.so
+12-24 16:34:07.938  1531  1531 W art     : 7f895d7000-7f895e7000 ---p 00000000 00:00 0 
+12-24 16:34:07.938  1531  1531 W art     : 7f895e7000-7f895e8000 r--p 00003000 fd:00 3126                           /system/lib64/libETC1.so
+12-24 16:34:07.938  1531  1531 W art     : 7f895e8000-7f895e9000 rw-p 00004000 fd:00 3126                           /system/lib64/libETC1.so
+12-24 16:34:07.938  1531  1531 W art     : 7f895e9000-7f895f9000 r-xp 00000000 fd:00 3131                           /system/lib64/libGLESv2.so
+12-24 16:34:07.938  1531  1531 W art     : 7f895f9000-7f89608000 ---p 00000000 00:00 0 
+12-24 16:34:07.938  1531  1531 W art     : 7f89608000-7f89609000 r--p 0000f000 fd:00 3131                           /system/lib64/libGLESv2.so
+12-24 16:34:07.938  1531  1531 W art     : 7f89609000-7f8960a000 rw-p 00010000 fd:00 3131                           /system/lib64/libGLESv2.so
+12-24 16:34:07.938  1531  1531 W art     : 7f8960a000-7f89613000 r-xp 00000000 fd:00 3130                           /system/lib64/libGLESv1_CM.so
+12-24 16:34:07.938  1531  1531 W art     : 7f89613000-7f89622000 ---p 00000000 00:00 0 
+12-24 16:34:07.938  1531  1531 W art     : 7f89622000-7f89623000 r--p 00008000 fd:00 3130                           /system/lib64/libGLESv1_CM.so
+12-24 16:34:07.938  1531  1531 W art     : 7f89623000-7f89624000 rw-p 00009000 fd:00 3130                           /system/lib64/libGLESv1_CM.so
+12-24 16:34:07.938  1531  1531 W art     : 7f89624000-7f896e8000 r-xp 00000000 fd:00 3125                           /system/lib64/libEGL.so
+12-24 16:34:07.938  1531  1531 W art     : 7f896e8000-7f896f7000 ---p 00000000 00:00 0 
+12-24 16:34:07.938  1531  1531 W art     : 7f896f7000-7f896fb000 r--p 000cc000 fd:00 3125                           /system/lib64/libEGL.so
+12-24 16:34:07.938  1531  1531 W art     : 7f896fb000-7f89707000 rw-p 000d0000 fd:00 3125                           /system/lib64/libEGL.so
+12-24 16:34:07.938  1531  1531 W art     : 7f89707000-7f8970d000 rw-p 00000000 00:00 0 
+12-24 16:34:07.938  1531  1531 W art     : 7f8970d000-7f897c9000 r-xp 00000000 fd:00 3497                           /system/lib64/libsqlite.so
+12-24 16:34:07.938  1531  1531 W art     : 7f897c9000-7f897d9000 ---p 00000000 00:00 0 
+12-24 16:34:07.938  1531  1531 W art     : 7f897d9000-7f897db000 r--p 000bf000 fd:00 3497                           /system/lib64/libsqlite.so
+12-24 16:34:07.938  1531  1531 W art     : 7f897db000-7f897dd000 rw-p 000c1000 fd:00 3497                           /system/lib64/libsqlite.so
+12-24 16:34:07.938  1531  1531 W art     : 7f897dd000-7f897de000 rw-p 00000000 00:00 0 
+12-24 16:34:07.938  1531  1531 W art     : 7f897de000-7f89c8a000 r-xp 00000000 fd:00 3483                           /system/lib64/libskia.so
+12-24 16:34:07.938  1531  1531 W art     : 7f89c8a000-7f89c99000 ---p 00000000 00:00 0 
+12-24 16:34:07.938  1531  1531 W art     : 7f89c99000-7f89cca000 r--p 004ac000 fd:00 3483                           /system/lib64/libskia.so
+12-24 16:34:07.938  1531  1531 W art     : 7f89cca000-7f89ccc000 rw-p 004dd000 fd:00 3483                           /system/lib64/libskia.so
+12-24 16:34:07.938  1531  1531 W art     : 7f89ccc000-7f89cd5000 rw-p 00000000 00:00 0 
+12-24 16:34:07.938  1531  1531 W art     : 7f89cd5000-7f89cdd000 r-xp 00000000 fd:00 3258                           /system/lib64/libcamera_metadata.so
+12-24 16:34:07.938  1531  1531 W art     : 7f89cdd000-7f89cec000 ---p 00000000 00:00 0 
+12-24 16:34:07.938  1531  1531 W art     : 7f89cec000-7f89ced000 r--p 00008000 fd:00 3258                           /system/lib64/libcamera_metadata.so
+12-24 16:34:07.938  1531  1531 W art     : 7f89ced000-7f89cee000 rw-p 00009000 fd:00 3258                           /system/lib64/libcamera_metadata.so
+12-24 16:34:07.938  1531  1531 W art     : 7f89cee000-7f89cef000 rw-p 00000000 00:00 0 
+12-24 16:34:07.938  1531  1531 W art     : 7f89cef000-7f89d23000 r-xp 00000000 fd:00 3257                           /system/lib64/libcamera_client.so
+12-24 16:34:07.938  1531  1531 W art     : 7f89d23000-7f89d33000 ---p 00000000 00:00 0 
+12-24 16:34:07.938  1531  1531 W art     : 7f89d33000-7f89d3e000 r--p 00042000 fd:00 3257                           /system/lib64/libcamera_client.
+12-24 16:34:07.938  1531  1531 W art     : so
+12-24 16:34:07.938  1531  1531 W art     : 7f89d3e000-7f89d3f000 rw-p 0004d000 fd:00 3257                           /system/lib64/libcamera_client.so
+12-24 16:34:07.938  1531  1531 W art     : 7f89d3f000-7f89d9c000 r-xp 00000000 fd:00 3356                           /system/lib64/libinputflinger.so
+12-24 16:34:07.938  1531  1531 W art     : 7f89d9c000-7f89dac000 ---p 00000000 00:00 0
+12-24 16:34:07.938  1531  1531 W art     :  
+12-24 16:34:07.938  1531  1531 W art     : 7f89dac000-7f89db0000 r--p 00061000 fd:00 3356                           /system/lib64/libinputflinger.so
+12-24 16:34:07.938  1531  1531 W art     : 7f89db0000-7f89db1000 rw-p 00065000 fd:00 3356                           /system/lib64/libinputflinger.so
+12-24 16:34:07.938  1531  1531 W art     : 7f89db1000-7f89dd6000 r-xp 00000000 fd:00 33
+12-24 16:34:07.938  1531  1531 W art     : 55                           /system/lib64/libinput.so
+12-24 16:34:07.938  1531  1531 W art     : 7f89dd6000-7f89de5000 ---p 00000000 00:00 0 
+12-24 16:34:07.938  1531  1531 W art     : 7f89de5000-7f89deb000 r--p 0002b000 fd:00 3355                           /system/lib64/libinput.so
+12-24 16:34:07.938  1531  1531 W art     : 7f89deb000-7f89dec000 rw-p 00031000 fd:00 3355                           /system/lib64/libinput.so
+12-24 16:34:07.938  1531  1531 W art     : 7f89dec000-7f89e64000 r-xp 00000000 fd:00 3338                           /system/lib64/libgui.so
+12-24 16:34:07.938  1531  1531 W art     : 7f89e64000-7f89e74000 ---p 00000000 00:00 0 
+12-24 16:34:07.939  1531  1531 W art     : 7f89e74000-7f89e8c000 r--p 0007e000 fd:00 3338                           /system/lib64/libgui.so
+12-24 16:34:07.939  1531  1531 W art     : 7f89e8c000-7f89e8d000 rw-p 00096000 fd:00 3338                           /system/lib64/libgui.so
+12-24 16:34:07.939  1531  1531 W art     : 7f89e8d000-7f89ea5000 r-xp 00000000 fd:00 3554                           /system/lib64/libui.so
+12-24 16:34:07.939  1531  1531 W art     : 7f89ea5000-7f89eb5000 ---p 00000000 00:00 0 
+12-24 16:34:07.939  1531  1531 W art     : 7f89eb5000-7f89eb8000 r--p 0001b000 fd:00 3554                           /system/lib64/libui.so
+12-24 16:34:07.939  1531  1531 W art     : 7f89eb8000-7f89eb9000 rw-p 0001e000 fd:00 3554                           /system/lib64/libui.so
+12-24 16:34:07.939  1531  1531 W art     : 7f89eb9000-7f89ec5000 r-xp 00000000 fd:00 3433                           /system/lib64/libnetutils.so
+12-24 16:34:07.939  1531  1531 W art     : 7f89ec5000-7f89ed5000 ---p 00000000 00:00 0 
+12-24 16:34:07.939  1531  1531 W art     : 7f89ed5000-7f89ed6000 r--p 0000c000 fd:00 3433                           /system/lib64/libnetutils.so
+12-24 16:34:07.939  1531  1531 W art     : 7f89ed6000-7f89ed7000 rw-p 0000d000 fd:00 3433                           /system/lib64/libnetutils.so
+12-24 16:34:07.939  1531  1531 W art     : 7f89ed7000-7f89ede000 r-xp 00000000 fd:00 3429                           /system/lib64/libnativehelper.so
+12-24 16:34:07.939  1531  1531 W art     : 7f89ede000-7f89eee000 ---p 00000000 00:00 0 
+12-24 16:34:07.939  1531  1531 W art     : 7f89eee000-7f89eef000 r--p 00007000 fd:00 3429                           /system/lib64/libnativehelper.so
+12-24 16:34:07.939  1531  1531 W art     : 7f89eef000-7f89ef0000 rw-p 00008000 fd:00 3429                           /system/lib64/libnativehelper.so
+12-24 16:34:07.939  1531  1531 W art     : 7f89ef0000-7f89f11000 r-xp 00000000 fd:00 3303                           /system/lib64/libexpat.so
+12-24 16:34:07.939  1531  1531 W art     : 7f89f11000-7f89f21000 ---p 00000000 00:00 0 
+12-24 16:34:07.939  1531  1531 W art     : 7f89f21000-7f89f24000 r--p 00021000 fd:00 3303                           /system/lib64/libexpat.so
+12-24 16:34:07.939  1531  1531 W art     : 7f89f24000-7f89f25000 rw-p 00024000 fd:00 3303                           /system/lib64/libexpat.so
+12-24 16:34:07.939  1531  1531 W art     : 7f89f25000-7f89f60000 r-xp 00000000 fd:00 3186                           /system/lib64/libandroidfw.so
+12-24 16:34:07.939  1531  1531 W art     : 7f89f60000-7f89f70000 ---p 00000000 00:00 0 
+12-24 16:34:07.939  1531  1531 W art     : 7f89f70000-7f89f72000 r--p 0003c000 fd:00 3186                           /system/lib64/libandroidfw.so
+12-24 16:34:07.939  1531  1531 W art     : 7f89f72000-7f89f73000 rw-p 0003e000 fd:00 3186                           /system/lib64/libandroidfw.so
+12-24 16:34:07.939  1531  1531 W art     : 7f89f73000-7f89f74000 r-xp 00000000 fd:00 3407                           /system/lib64/libmemtrack.so
+12-24 16:34:07.939  1531  1531 W art     : 7f89f74000-7f89f84000 ---p 00000000 00:00 0 
+12-24 16:34:07.939  1531  1531 W art     : 7f89f84000-7f89f85000 r--p 00001000 fd:00 3407                           /system/lib64/libmemtrack.so
+12-24 16:34:07.939  1531  1531 W art     : 7f89f85000-7f89f86000 rw-p 00002000 fd:00 3407                           /system/lib64/libmemtrack.so
+12-24 16:34:07.939  1531  1531 W art     : 7f89f86000-7f89f91000 r-xp 00000000 fd:00 3212                           /system/lib64/libbacktrace.so
+12-24 16:34:07.939  1531  1531 W art     : 7f89f91000-7f89fa0000 ---p 00000000 00:00 0 
+12-24 16:34:07.939  1531  1531 W art     : 7f89fa0000-7f89fa1000 r--p 0000a000 fd:00 3212                           /system/lib64/libbacktrace.so
+12-24 16:34:07.939  1531  1531 W art     : 7f89fa1000-7f89fa2000 rw-p 0000b000 fd:00 3212                           /system/lib64/libbacktrace.so
+12-24 16:34:07.939  1531  1531 W art     : 7f89fa2000-7f89fda000 r-xp 00000000 fd:00 3385                           /system/lib64/libm.so
+12-24 16:34:07.939  1531  1531 W art     : 7f89fda000-7f89fea000 ---p 00000000 00:00 0 
+12-24 16:34:07.939  1531  1531 W art     : 7f89fea000-7f89feb000 r--p 00038000 fd:00 3385                           /system/lib64/libm.so
+12-24 16:34:07.939  1531  1531 W art     : 7f89feb000-7f89fec000 rw-p 00039000 fd:00 3385                           /system/lib64/libm.so
+12-24 16:34:07.939  1531  1531 W art     : 7f89fec000-7f8a0b0000 r-xp 00000000 fd:00 3234                           /system/lib64/libc.so
+12-24 16:34:07.939  1531  1531 W art     : 7f8a0b0000-7f8a0c0000 ---p 00000000 00:00 0 
+12-24 16:34:07.939  1531  1531 W art     : 7f8a0c0000-7f8a0c6000 r--p 000c4000 fd:00 3234                           /system/lib64/libc.so
+12-24 16:34:07.939  1531  1531 W art     : 7f8a0c6000-7f8a0c9000 rw-p 000ca000 fd:00 3234                           /system/lib64/libc.so
+12-24 16:34:07.939  1531  1531 W art     : 7f8a0c9000-7f8a0d7000 rw-p 00000000 00:00 0 
+12-24 16:34:07.939  1531  1531 W art     : 7f8a0d7000-7f8a1ae000 r-xp 00000000 fd:00 3233                           /system/lib64/libc++.so
+12-24 16:34:07.939  1531  1531 W art     : 7f8a1ae000-7f8a1bd000 ---p 00000000 00:00 0 
+12-24 16:34:07.939  1531  1531 W art     : 7f8a1bd000-7f8a1c4000 r--p 000df000 fd:00 3233                           /system/lib64/libc++.so
+12-24 16:34:07.939  1531  1531 W art     : 7f8a1c4000-7f8a1c5000 rw-p 000e6000 fd:00 3233                           /system/lib64/libc++.so
+12-24 16:34:07.939  1531  1531 W art     : 7f8a1c5000-7f8a1c8000 rw-p 00000000 00:00 0 
+12-24 16:34:07.939  1531  1531 W art     : 7f8a1c8000-7f8a204000 r-xp 00000000 fd:00 3574                           /system/lib64/libwilhelm.so
+12-24 16:34:07.939  1531  1531 W art     : 7f8a204000-7f8a213000 ---p 00000000 00:00 0 
+12-24 16:34:07.939  1531  1531 W art     : 7f8a213000-7f8a218000 r--p 00040000 fd:00 3574                           /system/lib64/libwilhelm.so
+12-24 16:34:07.939  1531  1531 W art     : 7f8a218000-7f8a219000 rw-p 00045000 fd:00 3574                           /system/lib64/libwilhelm.so
+12-24 16:34:07.939  1531  1531 W art     : 7f8a219000-7f8a37c000 r-xp 00000000 fd:00 3184        
+12-24 16:34:07.939  1531  1531 W art     :                    /system/lib64/libandroid_runtime.so
+12-24 16:34:07.939  1531  1531 W art     : 7f8a37c000-7f8a38b000 ---p 00000000 00:00 0 
+12-24 16:34:07.939  1531  1531 W art     : 7f8a38b000-7f8a397000 r--p 00171000 fd:00 3184                           /system/lib64/libandroid_runtime.so
+12-24 16:34:07.939  1531  1531 W art     : 7f8a397000-7f8a3a6000 rw-p 0017d000 fd:00 3184                           /system/lib64/libandroid_runt
+12-24 16:34:07.939  1531  1531 W art     : ime.so
+12-24 16:34:07.939  1531  1531 W art     : 7f8a3a6000-7f8a3a8000 rw-p 00000000 00:00 0 
+12-24 16:34:07.939  1531  1531 W art     : 7f8a3a8000-7f8a3df000 r-xp 00000000 fd:00 3221                           /system/lib64/libbinder.so
+12-24 16:34:07.939  1531  1531 W art     : 7f8a3df000-7f8a3ee000 ---p 00000000 00:00 0 
+12-24 16:34:07.939  1531  1531 W art     : 7f8a3ee000-7f8a3f9000 r--p 00043000 fd:00 3221                    
+12-24 16:34:07.939  1531  1531 W art     :        /system/lib64/libbinder.so
+12-24 16:34:07.939  1531  1531 W art     : 7f8a3f9000-7f8a3fa000 rw-p 0004e000 fd:00 3221                           /system/lib64/libbinder.so
+12-24 16:34:07.939  1531  1531 W art     : 7f8a3fa000-7f8a404000 r-xp 00000000 fd:00 3383                           /system/lib64/liblog.so
+12-24 16:34:07.939  1531  1531 W art     : 7f8a404000-7f8a413000 ---p 00000000 00:00 0 
+12-24 16:34:07.940  1531  1531 W art     : 7f8a413000-7f8a414000 r--p 00009000 fd:00 3383                           /system/lib64/liblog.so
+12-24 16:34:07.940  1531  1531 W art     : 7f8a414000-7f8a415000 rw-p 0000a000 fd:00 3383                           /system/lib64/liblog.so
+12-24 16:34:07.940  1531  1531 W art     : 7f8a415000-7f8a438000 r-xp 00000000 fd:00 3558                           /system/lib64/libutils.so
+12-24 16:34:07.940  1531  1531 W art     : 7f8a438000-7f8a447000 ---p 00000000 00:00 0 
+12-24 16:34:07.940  1531  1531 W art     : 7f8a447000-7f8a449000 r--p 00022000 fd:00 3558                           /system/lib64/libutils.so
+12-24 16:34:07.940  1531  1531 W art     : 7f8a449000-7f8a44a000 rw-p 00024000 fd:00 3558                           /system/lib64/libutils.so
+12-24 16:34:07.940  1531  1531 W art     : 7f8a44a000-7f8a460000 r-xp 00000000 fd:00 3272                           /system/lib64/libcutils.so
+12-24 16:34:07.940  1531  1531 W art     : 7f8a460000-7f8a470000 ---p 00000000 00:00 0 
+12-24 16:34:07.940  1531  1531 W art     : 7f8a470000-7f8a471000 r--p 00016000 fd:00 3272                           /system/lib64/libcutils.so
+12-24 16:34:07.940  1531  1531 W art     : 7f8a471000-7f8a472000 rw-p 00017000 fd:00 3272                           /system/lib64/libcutils.so
+12-24 16:34:07.940  1531  1531 W art     : 7f8a472000-7f8a492000 r--s 00000000 00:0d 5625                           /dev/__properties__
+12-24 16:34:07.940  1531  1531 W art     : 7f8a492000-7f8a4c4000 r-xp 00000000 fd:00 890                            /system/bin/linker64
+12-24 16:34:07.940  1531  1531 W art     : 7f8a4c4000-7f8a4c5000 r--p 00000000 00:00 0                              [anon:linker_alloc]
+12-24 16:34:07.940  1531  1531 W art     : 7f8a4c5000-7f8a4c6000 rw-p 00000000 00:00 0                              [anon:linker_alloc_vector]
+12-24 16:34:07.940  1531  1531 W art     : 7f8a4c6000-7f8a4c7000 rw-p 00000000 00:00 0                              [anon:linker_alloc_64]
+12-24 16:34:07.940  1531  1531 W art     : 7f8a4c7000-7f8a4ca000 r--p 00000000 00:00 0                              [anon:linker_alloc]
+12-24 16:34:07.940  1531  1531 W art     : 7f8a4ca000-7f8a4cb000 r--p 00000000 00:00 0                              [anon:linker_alloc]
+12-24 16:34:07.940  1531  1531 W art     : 7f8a4cb000-7f8a4cc000 rw-p 00000000 00:00 0                              [anon:linker_alloc]
+12-24 16:34:07.940  1531  1531 W art     : 7f8a4cc000-7f8a4cd000 r--p 00000000 00:00 0                              [anon:linker_alloc]
+12-24 16:34:07.940  1531  1531 W art     : 7f8a4cd000-7f8a4ce000 rw-p 00000000 00:00 0                              [anon:linker_alloc]
+12-24 16:34:07.940  1531  1531 W art     : 7f8a4ce000-7f8a4d0000 r--p 00000000 00:00 0                              [anon:linker_alloc]
+12-24 16:34:07.940  1531  1531 W art     : 7f8a4d0000-7f8a4d1000 rw-p 00000000 00:00 0                              [anon:linker_alloc]
+12-24 16:34:07.940  1531  1531 W art     : 7f8a4d1000-7f8a4d2000 r--p 00000000 00:00 0                              [anon:linker_alloc]
+12-24 16:34:07.940  1531  1531 W art     : 7f8a4d2000-7f8a4d3000 rw-p 00000000 00:00 0                              [anon:linker_alloc_vector]
+12-24 16:34:07.940  1531  1531 W art     : 7f8a4d3000-7f8a4d4000 r--p 00031000 fd:00 890                            /system/bin/linker64
+12-24 16:34:07.940  1531  1531 W art     : 7f8a4d4000-7f8a4d6000 rw-p 00032000 fd:00 890                            /system/bin/linker64
+12-24 16:34:07.940  1531  1531 W art     : 7f8a4d6000-7f8a4da000 rw-p 00000000 00:00 0 
+12-24 16:34:07.940  1531  1531 W art     : 7f8a4da000-7f8a4de000 r-xp 00000000 fd:00 748                            /system/bin/app_process64
+12-24 16:34:07.940  1531  1531 W art     : 7f8a4de000-7f8a4e1000 r--p 00000000 00:00 0                              [anon:linker_alloc]
+12-24 16:34:07.940  1531  1531 W art     : 7f8a4e1000-7f8a4e2000 rw-p 00000000 00:00 0                              [anon:linker_alloc_64]
+12-24 16:34:07.940  1531  1531 W art     : 7f8a4e2000-7f8a4e4000 r--p 00000000 00:00 0                              [anon:linker_alloc]
+12-24 16:34:07.940  1531  1531 W art     : 7f8a4e4000-7f8a4e5000 rw-p 00000000 00:00 0                              [anon:linker_alloc]
+12-24 16:34:07.940  1531  1531 W art     : 7f8a4e5000-7f8a4e6000 r--p 00000000 00:00 0                              [anon:linker_alloc]
+12-24 16:34:07.940  1531  1531 W art     : 7f8a4e6000-7f8a4e7000 r--p 00000000 00:00 0 
+12-24 16:34:07.940  1531  1531 W art     : 7f8a4e7000-7f8a4e8000 ---p 00000000 00:00 0 
+12-24 16:34:07.940  1531  1531 W art     : 7f8a4e8000-7f8a4ec000 rw-p 00000000 00:00 0                              [anon:thread signal stack]
+12-24 16:34:07.940  1531  1531 W art     : 7f8a4ec000-7f8a4ed000 r--p 00000000 00:00 0                              [vvar]
+12-24 16:34:07.940  1531  1531 W art     : 7f8a4ed000-7f8a4ee000 r-xp 00000000 00:00 0                              [vdso]
+12-24 16:34:07.940  1531  1531 W art     : 7f8a4ee000-7f8a4ef000 r--p 00004000 fd:00 748                            /system/bin/app_process64
+12-24 16:34:07.940  1531  1531 W art     : 7f8a4ef000-7f8a4f0000 rw-p 00005000 fd:00 748                            /system/bin/app_process64
+12-24 16:34:07.940  1531  1531 W art     : 7fe19ff000-7fe21fe000 rw-p 00000000 00:00 0                              [stack]
+12-24 16:34:07.941   457  1192 I am_pss  : [26865,10091,com.letv.android.usagestats,7350272,5804032]
+[logcat: 0.033s elapsed]
+

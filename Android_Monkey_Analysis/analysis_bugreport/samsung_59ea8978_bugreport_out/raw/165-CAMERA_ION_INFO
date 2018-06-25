@@ -1,0 +1,15 @@
+          client              pid             size
+----------------------------------------------------
+----------------------------------------------------
+orphaned allocations (info is from last known client):
+----------------------------------------------------
+  total orphaned                0
+          total                 0
+----------------------------------------------------
+total bytes currently allocated: 0
+total heap size: 9600000
+
+Memory Map
+          client  start address    end address     size (hex)
+            FREE       76614000       7fc13fff      157286400 (9600000)
+

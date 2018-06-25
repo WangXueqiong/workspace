@@ -1,0 +1,67 @@
+System ready: true
+Restrict background: false
+Restrict power: false
+Device idle: false
+Restrict on LPM: true
+Network policies:
+  NetworkPolicy[NetworkTemplate: matchRule=MOBILE_ALL, subscriberId=460011..., matchSubscriberIds=[460011...]]: cycleDay=15, cycleTimezone=Asia/Shanghai, warningBytes=2147483648, limitBytes=-1, lastWarningSnooze=-1, lastLimitSnooze=-1, metered=true, inferred=true
+  NetworkPolicy[NetworkTemplate: matchRule=MOBILE_ALL, subscriberId=460014..., matchSubscriberIds=[460014...]]: cycleDay=29, cycleTimezone=Asia/Shanghai, warningBytes=2147483648, limitBytes=-1, lastWarningSnooze=-1, lastLimitSnooze=-1, metered=true, inferred=true
+Metered ifaces: {}
+Policy for UIDs:
+Power save whitelist (except idle) app ids:
+  UID=10016: true
+  UID=10034: true
+  UID=10039: true
+  UID=10041: true
+  UID=10172: true
+  UID=10174: true
+Power save whitelist app ids:
+  UID=10034: true
+Status for Roaming Reduction Policy UIDs:
+Status for Roaming Reduction Rule UIDs:
+Status for known UIDs:
+  UID=1001 state=0 (fg) rule=UNKNOWN
+  UID=1002 state=6 (bg) rule=UNKNOWN
+  UID=1027 state=0 (fg) rule=UNKNOWN
+  UID=5004 state=10 (bg) rule=UNKNOWN
+  UID=5011 state=16 (bg) rule=UNKNOWN
+  UID=5013 state=6 (bg) rule=UNKNOWN
+  UID=10001 state=10 (bg) rule=UNKNOWN
+  UID=10008 state=2 (fg) rule=UNKNOWN
+  UID=10017 state=0 (fg) rule=UNKNOWN
+  UID=10018 state=16 (bg) rule=UNKNOWN
+  UID=10025 state=16 (bg) rule=UNKNOWN
+  UID=10028 state=10 (bg) rule=UNKNOWN
+  UID=10034 state=10 (bg) rule=UNKNOWN
+  UID=10038 state=16 (bg) rule=UNKNOWN
+  UID=10040 state=16 (bg) rule=UNKNOWN
+  UID=10041 state=16 (bg) rule=UNKNOWN
+  UID=10042 state=16 (bg) rule=UNKNOWN
+  UID=10044 state=16 (bg) rule=UNKNOWN
+  UID=10048 state=16 (bg) rule=UNKNOWN
+  UID=10051 state=10 (bg) rule=UNKNOWN
+  UID=10073 state=2 (fg) rule=UNKNOWN
+  UID=10074 state=0 (fg) rule=UNKNOWN
+  UID=10085 state=10 (bg) rule=UNKNOWN
+  UID=10090 state=0 (fg) rule=UNKNOWN
+  UID=10091 state=10 (bg) rule=UNKNOWN
+  UID=10095 state=10 (bg) rule=UNKNOWN
+  UID=10097 state=16 (bg) rule=UNKNOWN
+  UID=10112 state=10 (bg) rule=UNKNOWN
+  UID=10127 state=10 (bg) rule=UNKNOWN
+  UID=10140 state=16 (bg) rule=UNKNOWN
+  UID=10141 state=16 (bg) rule=UNKNOWN
+  UID=10145 state=16 (bg) rule=UNKNOWN
+  UID=10150 state=4 (fg svc) rule=UNKNOWN
+  UID=10151 state=16 (bg) rule=UNKNOWN
+  UID=10153 state=10 (bg) rule=UNKNOWN
+  UID=10156 state=16 (bg) rule=UNKNOWN
+  UID=10166 state=6 (bg) rule=UNKNOWN
+  UID=10174 state=10 (bg) rule=UNKNOWN
+  UID=10177 state=6 (bg) rule=UNKNOWN
+  UID=10178 state=16 (bg) rule=UNKNOWN
+  UID=10219 state=16 (bg) rule=UNKNOWN
+  UID=10222 state=16 (bg) rule=UNKNOWN
+  UID=10356 state=10 (bg) rule=UNKNOWN
+  UID=10406 state=10 (bg) rule=UNKNOWN
+  UID=10441 state=10 (bg) rule=UNKNOWN

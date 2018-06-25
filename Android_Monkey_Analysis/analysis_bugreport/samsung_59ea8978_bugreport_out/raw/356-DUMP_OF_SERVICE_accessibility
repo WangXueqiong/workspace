@@ -1,0 +1,20 @@
+ACCESSIBILITY MANAGER (dumpsys accessibility)
+
+User state[attributes:{id=0, currentUser=true, accessibilityEnabled=false, touchExplorationEnabled=false, mIsEnhancedWebAccessibilityEnabled=false, displayMagnificationEnabled=false, mIsFilterKeyEventsEnabled=false, mIsAccessibilitySTalkBackEnabled=false, mIsOverlayMagnificationEnabled=false, mHasDisplayColorAdjustment=false, mAccessibilityFocusOnlyInActiveWindow=true, mIsHWkeysDoubleTapEnabled=false, mIsUniversalSwitchEnabled=false}
+  installed services: {
+    0 : cn.goapk.market/com.anzhi.market.app.MarketAccessibilityService
+    1 : cn.goapk.market/com.anzhi.market.app.PacketAssistService
+    2 : com.qihoo.appstore/.accessibility.AppstoreAccessibility
+    3 : com.yingyonghui.market/.download.install.autoinstall.AutoInstallAccessibilityService
+    4 : com.wandoujia.phoenix2/com.pp.assistant.accessibility.PPAccessibilityService
+    5 : com.tencent.mtt/.browser.accessibility.QBAccessibiltyService
+    6 : com.baidu.appsearch/.util.AppAccessibilityService
+    7 : com.tencent.android.qqdownloader/com.tencent.nucleus.manager.accessibility.YYBAccessibilityService
+  }
+  enabled services: {
+  }
+  binding services: {
+  }
+  bound services:{
+  }
+

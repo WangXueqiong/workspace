@@ -1,0 +1,339 @@
+<html>
+<head>
+  <title>f00124.html</title>
+  <link rel="stylesheet" type="text/css" href="themes/blue/style.css"/>
+  <link rel="stylesheet" type="text/css" href="jquery.treeTable.css"/>
+  <link rel="stylesheet" type="text/css" href="jquery.ui.css"/>
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+  <script type="text/javascript" src="jquery.js"></script>
+  <script type="text/javascript" src="jquery.cookie.js"></script>
+  <script type="text/javascript" src="jquery.hotkeys.js"></script>
+  <script type="text/javascript" src="jquery.jstree.js"></script>
+  <script type="text/javascript" src="jquery.tablesorter.js"></script>
+  <script type="text/javascript" src="jquery.tablednd.js"></script>
+  <script type="text/javascript" src="jquery.treeTable.js"></script>
+  <script type="text/javascript" src="jquery.flot.js"></script>
+  <script type="text/javascript" src="jquery.flot.navigate.js"></script>
+  <script type="text/javascript" src="jquery.flot.selection.js"></script>
+  <script type="text/javascript" src="jquery.ui.js"></script>
+  <script type="text/javascript" src="colResizable-1.3.source.js"></script>
+  <script type="text/javascript" src="/self$wsjs"></script>
+  <script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+<a name="ch0"></a><div class="btn-pop-out"><a href="f00124.html#ch0" target="_blank"><img src="ic_pop_out.png"/></a></div><div class="btn-header"><a href="javascript:$('#dialog').dialog()"><img src="ic_help.png"/></a></div><h2>Kernel wakelocks</h2>
+<div id="dialog" class="dialog"><div><p>Statistics based on kernel wakelocks.</p><div class="hint">(NOTE: The data is collected from boot!)</div>
+<div class="hint">(NOTE: Wakelocks created by the java code are aggregated into the PowerManagerService kernel wakelock!)</div>
+<div class="see-also">See also: <a href="http://developer.android.com/reference/android/os/PowerManager.WakeLock.html" target="_blank">Android documentation regarding WakeLock</a></div></div></div><table class=" tablesorter">
+<div class="hint">(A CSV format version is saved as: <a href="../raw/kernel_wakesources.csv">../raw/kernel_wakesources.csv</a>)</div>
+<thead>
+<tr>
+<th>Name</th>
+<th>Active count</th>
+<th>Event count</th>
+<th>Wakeup count</th>
+<th>Expire count</th>
+<th>Active since (ms)</th>
+<th>Total time (ms)</th>
+<th>Total time (%)</th>
+<th>Max time (ms)</th>
+<th>Last change</th>
+<th>Prevent Suspend Time</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>PowerManagerService.WakeLocks</td><td class="right">314</td><td class="right">314</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">2879419</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>WLAN rx_thread</td><td class="right">35748</td><td class="right">35748</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">2892292</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>WLAN hif_thread</td><td class="right">83671</td><td class="right">83671</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">2892292</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>WLAN tx_thread</td><td class="right">73161</td><td class="right">73161</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">2892292</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>WLAN Timer  </td><td class="right">23</td><td class="right">23</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="2ms"><span class="kb">2</span></td><td class="right">0</td><td class="right" title="1ms"><span class="kb">1</span></td><td class="right">2883121</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>WLAN timeout</td><td class="right">3417</td><td class="right">103742</td><td class="right">0</td><td class="right">3416</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="2ms"><span class="kb">2</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">2891984</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>WLAN interrupt</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">26376</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>event17     </td><td class="right">132</td><td class="right">132</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1143446</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>event1      </td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">24395</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>event0      </td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">24391</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>event2      </td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">24387</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>event18     </td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">23757</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>eventpoll   </td><td class="right">132</td><td class="right">132</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1143446</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>KeyEvents   </td><td class="right">205</td><td class="right">205</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">2879212</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>PowerManagerService.Display</td><td class="right">2</td><td class="right">2</td><td class="right">0</td><td class="right">0</td><td class="right" title="2ms"><span class="kb">2</span></td><td class="right" title="2ms"><span class="kb">2</span></td><td class="right">0</td><td class="right" title="2ms"><span class="kb">2</span></td><td class="right">122349</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>NETLINK     </td><td class="right">370</td><td class="right">370</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">2884000</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>[timerfd]   </td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">6578</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>gpswakelock </td><td class="right">2</td><td class="right">2</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">2756377</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>wmtFuncCtrl </td><td class="right">9</td><td class="right">9</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">2756377</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>MT662x      </td><td class="right">76</td><td class="right">76</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">2888440</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>binder      </td><td class="right">2</td><td class="right">2</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">23213</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>eventpoll   </td><td class="right">372</td><td class="right">372</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">2884000</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>battery     </td><td class="right">52</td><td class="right">52</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">2849803</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>wireless    </td><td class="right">2</td><td class="right">2</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">6483</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>usb         </td><td class="right">8</td><td class="right">8</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1722751</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ac          </td><td class="right">2</td><td class="right">2</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">6484</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>battery meter wakelock</td><td class="right">301</td><td class="right">301</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">2883209</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>battery suspend wakelock</td><td class="right">4</td><td class="right">304</td><td class="right">0</td><td class="right">0</td><td class="right" title="1ms"><span class="kb">1</span></td><td class="right" title="2ms"><span class="kb">2</span></td><td class="right">0</td><td class="right" title="1ms"><span class="kb">1</span></td><td class="right">1722205</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>xhci.wakelock</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">2381</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>Offload wakelock</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">2180</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>alarm       </td><td class="right">106</td><td class="right">109</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">2890877</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>vibrator    </td><td class="right">20</td><td class="right">20</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">2872880</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>bq25890h    </td><td class="right">5</td><td class="right">5</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1723166</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>kpd wakelock</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1821</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>spi_wakelock</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1814</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>spi_wakelock</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1814</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>spi_wakelock</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1814</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>spi_wakelock</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1813</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>spi_wakelock</td><td class="right">4</td><td class="right">4</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1911</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>spi_wakelock</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1811</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>call_pcm_dump_wake_lock</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1809</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>scp wakelock</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1806</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccci3_poll  </td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1541</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccci3_ctrl  </td><td class="right">3</td><td class="right">5</td><td class="right">0</td><td class="right">3</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">36570</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccci3_lb_dl </td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1540</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccci3_at4   </td><td class="right">3</td><td class="right">6</td><td class="right">0</td><td class="right">3</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">37580</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccci3_at3   </td><td class="right">2</td><td class="right">5</td><td class="right">0</td><td class="right">2</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">36570</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccci3_at2   </td><td class="right">3</td><td class="right">7</td><td class="right">0</td><td class="right">3</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">38310</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccci3_at    </td><td class="right">338</td><td class="right">560</td><td class="right">0</td><td class="right">337</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">2892002</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccci3_data  </td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1540</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccci3_lb_it </td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1540</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccci3_it    </td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1540</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccci3_ioctl4</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1540</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccci3_ioctl3</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1540</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccci3_ioctl2</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1540</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccci3_ioctl1</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1540</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccci3_ioctl0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1540</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccci3_tty1  </td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1540</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccci3_tty2  </td><td class="right">1</td><td class="right">3</td><td class="right">0</td><td class="right">1</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">17790</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccci3_fs    </td><td class="right">4</td><td class="right">475</td><td class="right">0</td><td class="right">4</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">36590</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccci3_md_log_ctrl</td><td class="right">3</td><td class="right">4</td><td class="right">0</td><td class="right">3</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">37750</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccci3_aud   </td><td class="right">2</td><td class="right">3</td><td class="right">0</td><td class="right">2</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">15890</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccci3_monitor</td><td class="right">2</td><td class="right">3</td><td class="right">0</td><td class="right">2</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">12210</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>cc3mni2     </td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1540</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>cc3mni1     </td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1540</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccmni_md3   </td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1540</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>cc3mni0     </td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1536</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>md3_ccif_trm</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1536</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>md1_wakelock</td><td class="right">1</td><td class="right">1</td><td class="right">0</td><td class="right">1</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">21240</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccci_raw_usb</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1533</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccci_raw_netd</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1532</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccci_raw_dhl</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1532</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccci_ccb_dhl</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1532</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccci_raw_dbm</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1532</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccci_poll   </td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1532</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccci_sys    </td><td class="right">1</td><td class="right">1</td><td class="right">0</td><td class="right">1</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">13010</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccci_ctrl   </td><td class="right">1</td><td class="right">2</td><td class="right">0</td><td class="right">1</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">12990</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccci_ipc_8  </td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1532</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccci_ipc_7  </td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1532</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccci_ipc_6  </td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1532</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccci_ipc_5  </td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1532</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccci_ipc_4  </td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1532</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccci_ipc_3  </td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1530</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccci_ipc_2  </td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1530</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccci_ipc_1220_0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1530</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccci_rpc_k  </td><td class="right">2</td><td class="right">53</td><td class="right">0</td><td class="right">2</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">22020</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccci_rpc    </td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1530</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccci_mdl_monitor</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1530</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccci_lb_it  </td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1530</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccci_it     </td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1530</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccci_ioctl4 </td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1530</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccci_ioctl3 </td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1530</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccci_ioctl2 </td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1530</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccci_ioctl1 </td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1529</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccci_ioctl0 </td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1529</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccci_imsdc  </td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1529</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccci_imsa   </td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1529</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccci_imsc   </td><td class="right">1</td><td class="right">6</td><td class="right">0</td><td class="right">1</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">39110</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccci_imsv   </td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1529</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ttyC1       </td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1529</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ttyC3       </td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1529</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ttyC2       </td><td class="right">6</td><td class="right">6</td><td class="right">0</td><td class="right">6</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">2744200</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccci_fs     </td><td class="right">4</td><td class="right">2174</td><td class="right">0</td><td class="right">4</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">38060</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ttyC0       </td><td class="right">12</td><td class="right">398</td><td class="right">0</td><td class="right">12</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1723230</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccci_md_log_ctrl</td><td class="right">1</td><td class="right">3</td><td class="right">0</td><td class="right">1</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">13020</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccci_aud    </td><td class="right">1</td><td class="right">4</td><td class="right">0</td><td class="right">1</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">15770</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccci_monitor</td><td class="right">2</td><td class="right">3</td><td class="right">0</td><td class="right">2</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">12990</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccmni-lan   </td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1529</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccmni7      </td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1529</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccmni6      </td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1529</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccmni5      </td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1529</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccmni4      </td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1529</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccmni3      </td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1529</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccmni2      </td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1529</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccmni1      </td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1529</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccmni_md1   </td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1529</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>ccmni0      </td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1524</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>md1_cldma_peer</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1403</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>md1_cldma_trm</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1403</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>md1_wakelock</td><td class="right">1</td><td class="right">1</td><td class="right">0</td><td class="right">1</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">22000</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>dpe_lock_wakelock</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1325</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>isp_lock_wakelock</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1317</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>soc:typec_common@0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1257</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>USB.lock    </td><td class="right">4</td><td class="right">4</td><td class="right">0</td><td class="right">0</td><td class="right" title="1ms"><span class="kb">1</span></td><td class="right" title="2ms"><span class="kb">2</span></td><td class="right">0</td><td class="right" title="1ms"><span class="kb">1</span></td><td class="right">1722750</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>mt-rtc      </td><td class="right">1</td><td class="right">1</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">36904</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>rawbulk-ets </td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1214</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>rawbulk-dummy2</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1213</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>rawbulk-dummy1</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1212</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>rawbulk-gps </td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1211</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>rawbulk-at  </td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1209</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>rawbulk-dummy0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1208</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>rawbulk-modem</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1207</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>rawbulk-pcv </td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1206</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>accdet timer wakelock</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1194</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>accdet key wakelock</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1194</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>accdet irq wakelock</td><td class="right">1</td><td class="right">1</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1204</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>accdet wakelock</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1194</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>leds wakelock</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1185</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>alarmtimer  </td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1034</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>pmicAuxadc irq wakelock</td><td class="right">3620</td><td class="right">3629</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">2891991</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>dlpt_notify_lock wakelock</td><td class="right">287</td><td class="right">287</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">2891970</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>bat_percent_notify_lock wakelock</td><td class="right">288</td><td class="right">288</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">2890920</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>pmicThread_lock_mt6328 wakelock</td><td class="right">6</td><td class="right">6</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1722751</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>EINT wakelock</td><td class="right">27</td><td class="right">86</td><td class="right">0</td><td class="right">27</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">1722250</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+<tr>
+<td>autosleep   </td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">0</td><td class="right" title="0ms"><span class="kb">0</span></td><td class="right">220</td><td class="right" title="0ms"><span class="kb">0</span></td></tr>
+</tbody>
+<div class="hint">(HINT: Click on the headers to sort the data. Shift+click to sort on multiple columns.)</div>
+</table>
+</body>
+</html>

@@ -1,0 +1,30 @@
+CallsManager: 
+  mCalls: 
+  mForegroundCall: none
+  mCallAudioManager:
+    mAudioState: [AudioState isMuted: false, route: EARPIECE, supportedRouteMask: EARPIECE, SPEAKER]
+    mBluetoothManager:
+      isBluetoothAvailable: false
+      isBluetoothAudioConnected: false
+      isBluetoothAudioConnectedOrPending: false
+      mBluetoothHeadset is null
+    mWiredHeadsetManager:
+      mIsPluggedIn: false
+    mAudioFocusStreamType: STEAM_NONE
+    mIsRinging: false
+    mIsTonePlaying: false
+    mWasSpeakerOn: false
+    mMostRecentlyUsedMode: MODE_IN_CALL
+  mTtyManager:
+    mCurrentTtyMode: 0
+  mInCallController:
+    mInCallServices (InCalls registered):
+    mServiceConnections (InCalls bound):
+  mConnectionServiceRepository:
+    mServiceCache:
+PhoneAccountRegistrar: 
+  xmlVersion: 0
+  defaultOutgoing: none
+  simCallManager: null
+  phoneAccounts:
+Historical Calls:

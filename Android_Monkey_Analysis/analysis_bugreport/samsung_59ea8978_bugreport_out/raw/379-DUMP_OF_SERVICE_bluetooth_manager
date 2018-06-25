@@ -1,0 +1,917 @@
+Bluetooth Status
+  enabled: false
+  airplaneMode: false
+  state: 15
+  address: 50:F0:D3:A8:6F:22
+  name: Galaxy S5
+
+Bonded devices:
+
+Profile: BtGatt.GattService
+  mAdvertisingServiceUuids:
+  
+
+  [Current scan settings]
+  currScanWindow / currScanInterval: 0 / 0
+  [Current scan list]=[Application @ scan type]=[cumulated time]=[calling count of the app]
+  [Current adv list]=[Application @ adv type]=[cumulated time]=[calling count of the app]
+  
+
+  mMaxScanFilters: 0
+
+GATT Client Map
+  Entries: 0
+
+GATT Server Map
+  Entries: 0
+
+GATT Handle Map
+  Entries: 0
+  Requests: 0
+
+Connection Events:
+  None
+
+--- BEGIN:BTSNOOP_LOG_SUMMARY (0 bytes in) ---
+AQkWKqQRYQUA
+--- END:BTSNOOP_LOG_SUMMARY (21 bytes out) ---
+---------------------------------------
+  ===== BOOT_COMPLETED =====
+09:58:10.061--BluetoothAdapterService -- startQuietModeServices: Starting com.android.bluetooth.gatt.GattService
+09:58:10.072--BluetoothAdapterService -- setProfileState(): setting profile com.android.bluetooth.gatt.GattService to state = 10 (true)
+  ===== BOOT_COMPLETED =====
+10:27:14.958--BluetoothAdapterService -- startQuietModeServices: Starting com.android.bluetooth.gatt.GattService
+10:27:15.001--BluetoothAdapterService -- setProfileState(): setting profile com.android.bluetooth.gatt.GattService to state = 10 (true)
+  ===== BOOT_COMPLETED =====
+14:27:57.126--BluetoothAdapterService -- startQuietModeServices: Starting com.android.bluetooth.gatt.GattService
+14:27:57.127--BluetoothAdapterService -- setProfileState(): setting profile com.android.bluetooth.gatt.GattService to state = 10 (true)
+  ===== BOOT_COMPLETED =====
+10:08:34.415--BluetoothAdapterService -- startQuietModeServices: Starting com.android.bluetooth.gatt.GattService
+10:08:34.417--BluetoothAdapterService -- setProfileState(): setting profile com.android.bluetooth.gatt.GattService to state = 10 (true)
+  ===== BOOT_COMPLETED =====
+10:09:55.578--BluetoothAdapterService -- startQuietModeServices: Starting com.android.bluetooth.gatt.GattService
+10:09:55.580--BluetoothAdapterService -- setProfileState(): setting profile com.android.bluetooth.gatt.GattService to state = 10 (true)
+  ===== BOOT_COMPLETED =====
+15:54:07.275--BluetoothAdapterService -- startQuietModeServices: Starting com.android.bluetooth.gatt.GattService
+15:54:07.278--BluetoothAdapterService -- setProfileState(): setting profile com.android.bluetooth.gatt.GattService to state = 10 (true)
+  ===== BOOT_COMPLETED =====
+10:06:45.805--BluetoothAdapterService -- startQuietModeServices: Starting com.android.bluetooth.gatt.GattService
+10:06:45.816--BluetoothAdapterService -- setProfileState(): setting profile com.android.bluetooth.gatt.GattService to state = 10 (true)
+  ===== BOOT_COMPLETED =====
+16:23:23.073--BluetoothAdapterService -- startQuietModeServices: Starting com.android.bluetooth.gatt.GattService
+16:23:23.075--BluetoothAdapterService -- setProfileState(): setting profile com.android.bluetooth.gatt.GattService to state = 10 (true)
+  ===== BOOT_COMPLETED =====
+20:00:55.092--BluetoothAdapterService -- startQuietModeServices: Starting com.android.bluetooth.gatt.GattService
+20:00:55.114--BluetoothAdapterService -- setProfileState(): setting profile com.android.bluetooth.gatt.GattService to state = 10 (true)
+  ===== BOOT_COMPLETED =====
+14:34:31.725--BluetoothAdapterService -- startQuietModeServices: Starting com.android.bluetooth.gatt.GattService
+14:34:31.726--BluetoothAdapterService -- setProfileState(): setting profile com.android.bluetooth.gatt.GattService to state = 10 (true)
+  ===== BOOT_COMPLETED =====
+14:22:54.867--BluetoothAdapterService -- startQuietModeServices: Starting com.android.bluetooth.gatt.GattService
+14:22:54.869--BluetoothAdapterService -- setProfileState(): setting profile com.android.bluetooth.gatt.GattService to state = 10 (true)
+  ===== BOOT_COMPLETED =====
+13:24:27.652--BluetoothAdapterService -- startQuietModeServices: Starting com.android.bluetooth.gatt.GattService
+13:24:27.654--BluetoothAdapterService -- setProfileState(): setting profile com.android.bluetooth.gatt.GattService to state = 10 (true)
+  ===== BOOT_COMPLETED =====
+08:44:34.402--BluetoothAdapterService -- startQuietModeServices: Starting com.android.bluetooth.gatt.GattService
+08:44:34.441--BluetoothAdapterService -- setProfileState(): setting profile com.android.bluetooth.gatt.GattService to state = 10 (true)
+  ===== BOOT_COMPLETED =====
+09:27:23.430--BluetoothAdapterService -- startQuietModeServices: Starting com.android.bluetooth.gatt.GattService
+09:27:23.431--BluetoothAdapterService -- setProfileState(): setting profile com.android.bluetooth.gatt.GattService to state = 10 (true)
+  ===== BOOT_COMPLETED =====
+17:33:34.798--BluetoothAdapterService -- startQuietModeServices: Starting com.android.bluetooth.gatt.GattService
+17:33:34.817--BluetoothAdapterService -- setProfileState(): setting profile com.android.bluetooth.gatt.GattService to state = 10 (true)
+  ===== BOOT_COMPLETED =====
+15:58:14.214--BluetoothAdapterService -- startQuietModeServices: Starting com.android.bluetooth.gatt.GattService
+15:58:14.225--BluetoothAdapterService -- setProfileState(): setting profile com.android.bluetooth.gatt.GattService to state = 10 (true)
+  ===== BOOT_COMPLETED =====
+15:23:03.360--BluetoothAdapterService -- startQuietModeServices: Starting com.android.bluetooth.gatt.GattService
+15:23:03.362--BluetoothAdapterService -- setProfileState(): setting profile com.android.bluetooth.gatt.GattService to state = 10 (true)
+  ===== BOOT_COMPLETED =====
+19:55:37.322--BluetoothAdapterService -- startQuietModeServices: Starting com.android.bluetooth.gatt.GattService
+19:55:37.335--BluetoothAdapterService -- setProfileState(): setting profile com.android.bluetooth.gatt.GattService to state = 10 (true)
+  ===== BOOT_COMPLETED =====
+09:53:25.698--BluetoothAdapterService -- startQuietModeServices: Starting com.android.bluetooth.gatt.GattService
+09:53:25.702--BluetoothAdapterService -- setProfileState(): setting profile com.android.bluetooth.gatt.GattService to state = 10 (true)
+  ===== BOOT_COMPLETED =====
+10:08:58.310--BluetoothAdapterService -- startQuietModeServices: Starting com.android.bluetooth.gatt.GattService
+10:08:58.312--BluetoothAdapterService -- setProfileState(): setting profile com.android.bluetooth.gatt.GattService to state = 10 (true)
+  ===== BOOT_COMPLETED =====
+10:25:43.153--BluetoothAdapterService -- startQuietModeServices: Starting com.android.bluetooth.gatt.GattService
+10:25:43.182--BluetoothAdapterService -- setProfileState(): setting profile com.android.bluetooth.gatt.GattService to state = 10 (true)
+  ===== BOOT_COMPLETED =====
+11:07:21.949--BluetoothAdapterService -- startQuietModeServices: Starting com.android.bluetooth.gatt.GattService
+11:07:21.952--BluetoothAdapterService -- setProfileState(): setting profile com.android.bluetooth.gatt.GattService to state = 10 (true)
+  ===== BOOT_COMPLETED =====
+17:16:20.791--BluetoothAdapterService -- startQuietModeServices: Starting com.android.bluetooth.gatt.GattService
+17:16:20.794--BluetoothAdapterService -- setProfileState(): setting profile com.android.bluetooth.gatt.GattService to state = 10 (true)
+  ===== BOOT_COMPLETED =====
+09:40:19.857--BluetoothAdapterService -- startQuietModeServices: Starting com.android.bluetooth.gatt.GattService
+09:40:19.859--BluetoothAdapterService -- setProfileState(): setting profile com.android.bluetooth.gatt.GattService to state = 10 (true)
+  ===== BOOT_COMPLETED =====
+19:33:27.432--BluetoothAdapterService -- startQuietModeServices: Starting com.android.bluetooth.gatt.GattService
+19:33:27.435--BluetoothAdapterService -- setProfileState(): setting profile com.android.bluetooth.gatt.GattService to state = 10 (true)
+  ===== BOOT_COMPLETED =====
+16:18:41.204--BluetoothAdapterService -- startQuietModeServices: Starting com.android.bluetooth.gatt.GattService
+16:18:41.205--BluetoothAdapterService -- setProfileState(): setting profile com.android.bluetooth.gatt.GattService to state = 10 (true)
+  ===== BOOT_COMPLETED =====
+16:01:46.834--BluetoothAdapterService -- startQuietModeServices: Starting com.android.bluetooth.gatt.GattService
+16:01:46.836--BluetoothAdapterService -- setProfileState(): setting profile com.android.bluetooth.gatt.GattService to state = 10 (true)
+  ===== BOOT_COMPLETED =====
+10:06:18.877--BluetoothAdapterService -- startQuietModeServices: Starting com.android.bluetooth.gatt.GattService
+10:06:18.903--BluetoothAdapterService -- setProfileState(): setting profile com.android.bluetooth.gatt.GattService to state = 10 (true)
+  ===== BOOT_COMPLETED =====
+10:08:50.407--BluetoothAdapterService -- startQuietModeServices: Starting com.android.bluetooth.gatt.GattService
+10:08:50.419--BluetoothAdapterService -- setProfileState(): setting profile com.android.bluetooth.gatt.GattService to state = 10 (true)
+  ===== BOOT_COMPLETED =====
+18:17:13.847--BluetoothAdapterService -- startQuietModeServices: Starting com.android.bluetooth.gatt.GattService
+18:17:13.849--BluetoothAdapterService -- setProfileState(): setting profile com.android.bluetooth.gatt.GattService to state = 10 (true)
+  ===== BOOT_COMPLETED =====
+10:15:14.704--BluetoothAdapterService -- startQuietModeServices: Starting com.android.bluetooth.gatt.GattService
+10:15:14.707--BluetoothAdapterService -- setProfileState(): setting profile com.android.bluetooth.gatt.GattService to state = 10 (true)
+  ===== BOOT_COMPLETED =====
+14:07:48.743--BluetoothAdapterService -- startQuietModeServices: Starting com.android.bluetooth.gatt.GattService
+14:07:48.744--BluetoothAdapterService -- setProfileState(): setting profile com.android.bluetooth.gatt.GattService to state = 10 (true)
+  ===== BOOT_COMPLETED =====
+12:49:40.934--BluetoothAdapterService -- startQuietModeServices: Starting com.android.bluetooth.gatt.GattService
+12:49:40.936--BluetoothAdapterService -- setProfileState(): setting profile com.android.bluetooth.gatt.GattService to state = 10 (true)
+  ===== BOOT_COMPLETED =====
+10:54:24.467--BluetoothAdapterService -- startQuietModeServices: Starting com.android.bluetooth.gatt.GattService
+10:54:24.469--BluetoothAdapterService -- setProfileState(): setting profile com.android.bluetooth.gatt.GattService to state = 10 (true)
+  ===== BOOT_COMPLETED =====
+10:35:58.233--BluetoothAdapterService -- startQuietModeServices: Starting com.android.bluetooth.gatt.GattService
+10:35:58.240--BluetoothAdapterService -- setProfileState(): setting profile com.android.bluetooth.gatt.GattService to state = 10 (true)
+  ===== BOOT_COMPLETED =====
+10:47:50.777--BluetoothAdapterService -- startQuietModeServices: Starting com.android.bluetooth.gatt.GattService
+10:47:50.779--BluetoothAdapterService -- setProfileState(): setting profile com.android.bluetooth.gatt.GattService to state = 10 (true)
+  ===== BOOT_COMPLETED =====
+09:20:06.788--BluetoothAdapterService -- startQuietModeServices: Starting com.android.bluetooth.gatt.GattService
+09:20:06.790--BluetoothAdapterService -- setProfileState(): setting profile com.android.bluetooth.gatt.GattService to state = 10 (true)
+  ===== BOOT_COMPLETED =====
+09:15:07.064--BluetoothAdapterService -- startQuietModeServices: Starting com.android.bluetooth.gatt.GattService
+09:15:07.066--BluetoothAdapterService -- setProfileState(): setting profile com.android.bluetooth.gatt.GattService to state = 10 (true)
+  ===== BOOT_COMPLETED =====
+10:23:45.602--BluetoothAdapterService -- startQuietModeServices: Starting com.android.bluetooth.gatt.GattService
+10:23:45.608--BluetoothAdapterService -- setProfileState(): setting profile com.android.bluetooth.gatt.GattService to state = 10 (true)
+  ===== BOOT_COMPLETED =====
+15:27:19.021--BluetoothAdapterService -- startQuietModeServices: Starting com.android.bluetooth.gatt.GattService
+15:27:19.022--BluetoothAdapterService -- setProfileState(): setting profile com.android.bluetooth.gatt.GattService to state = 10 (true)
+  ===== BOOT_COMPLETED =====
+19:52:59.413--BluetoothAdapterService -- startQuietModeServices: Starting com.android.bluetooth.gatt.GattService
+19:52:59.416--BluetoothAdapterService -- setProfileState(): setting profile com.android.bluetooth.gatt.GattService to state = 10 (true)
+  ===== BOOT_COMPLETED =====
+20:44:50.330--BluetoothAdapterService -- startQuietModeServices: Starting com.android.bluetooth.gatt.GattService
+20:44:50.343--BluetoothAdapterService -- setProfileState(): setting profile com.android.bluetooth.gatt.GattService to state = 10 (true)
+  ===== BOOT_COMPLETED =====
+17:18:59.379--BluetoothAdapterService -- startQuietModeServices: Starting com.android.bluetooth.gatt.GattService
+17:18:59.382--BluetoothAdapterService -- setProfileState(): setting profile com.android.bluetooth.gatt.GattService to state = 10 (true)
+  ===== BOOT_COMPLETED =====
+11:42:10.891--BluetoothAdapterService -- startQuietModeServices: Starting com.android.bluetooth.gatt.GattService
+11:42:10.900--BluetoothAdapterService -- setProfileState(): setting profile com.android.bluetooth.gatt.GattService to state = 10 (true)
+  ===== BOOT_COMPLETED =====
+15:26:55.663--BluetoothAdapterService -- startQuietModeServices: Starting com.android.bluetooth.gatt.GattService
+15:26:55.665--BluetoothAdapterService -- setProfileState(): setting profile com.android.bluetooth.gatt.GattService to state = 10 (true)
+  ===== BOOT_COMPLETED =====
+20:50:57.084--BluetoothAdapterService -- startQuietModeServices: Starting com.android.bluetooth.gatt.GattService
+20:50:57.098--BluetoothAdapterService -- setProfileState(): setting profile com.android.bluetooth.gatt.GattService to state = 10 (true)
+  ===== BOOT_COMPLETED =====
+14:08:29.780--BluetoothAdapterService -- startQuietModeServices: Starting com.android.bluetooth.gatt.GattService
+14:08:29.783--BluetoothAdapterService -- setProfileState(): setting profile com.android.bluetooth.gatt.GattService to state = 10 (true)
+  ===== BOOT_COMPLETED =====
+15:58:43.572--BluetoothAdapterService -- startQuietModeServices: Starting com.android.bluetooth.gatt.GattService
+15:58:43.573--BluetoothAdapterService -- setProfileState(): setting profile com.android.bluetooth.gatt.GattService to state = 10 (true)
+16:31:13.755--BluetoothManagerService -- ===== BOOT_COMPLETED =====false false false
+16:31:13.756--[0008]{0019}(24::false)(25::false)
+16:31:33.011--BluetoothAdapterState Entering OffState
+16:31:33.346--BluetoothAdapterState Current state: OFF, message: BLE_TURN_ON
+16:31:33.391--BluetoothAdapterState Entering PendingCommandState
+16:31:33.467--BluetoothAdapterState Current state: PENDING_COMMAND, message: BLE_STARTED
+16:31:33.474--btsnoop.c -- Config HCI log for external : enable=0
+16:31:34.788--[3005]{0014}(02::0)
+16:31:34.803--BluetoothAdapterState Current state: PENDING_COMMAND, message: ENABLED_READY
+16:31:34.814--BluetoothAdapterState Entering BleOnState
+16:31:34.832--BluetoothAdapterService setRPAGeneration false
+20:57:21.269--BluetoothManagerService -- ===== BOOT_COMPLETED =====false false false
+20:57:21.270--[0008]{0019}(24::false)(25::false)
+20:57:26.777--BluetoothAdapterState Entering OffState
+20:57:26.889--BluetoothAdapterState Current state: OFF, message: BLE_TURN_ON
+20:57:26.972--BluetoothAdapterState Entering PendingCommandState
+20:57:27.185--BluetoothAdapterState Current state: PENDING_COMMAND, message: BLE_STARTED
+20:57:27.191--btsnoop.c -- Config HCI log for external : enable=0
+20:57:28.428--[3005]{0014}(02::0)
+20:57:28.433--BluetoothAdapterState Current state: PENDING_COMMAND, message: ENABLED_READY
+20:57:28.437--BluetoothAdapterState Entering BleOnState
+20:57:28.440--BluetoothAdapterService setRPAGeneration false
+22:00:19.048--BluetoothManagerService -- ===== BOOT_COMPLETED =====false false false
+22:00:19.049--[0008]{0019}(24::false)(25::false)
+22:00:26.722--BluetoothAdapterState Entering OffState
+22:00:27.741--BluetoothAdapterState Current state: OFF, message: BLE_TURN_ON
+22:00:27.775--BluetoothAdapterState Entering PendingCommandState
+22:00:27.830--BluetoothAdapterState Current state: PENDING_COMMAND, message: BLE_STARTED
+22:00:27.835--btsnoop.c -- Config HCI log for external : enable=0
+22:00:29.135--[3005]{0014}(02::0)
+22:00:29.182--BluetoothAdapterState Current state: PENDING_COMMAND, message: ENABLED_READY
+22:00:29.187--BluetoothAdapterState Entering BleOnState
+22:00:29.201--BluetoothAdapterService setRPAGeneration false
+11:09:35.191--BluetoothManagerService -- ===== BOOT_COMPLETED =====false false false
+11:09:35.192--[0008]{0019}(24::false)(25::false)
+11:09:40.866--BluetoothAdapterState Entering OffState
+11:09:41.067--BluetoothAdapterState Current state: OFF, message: BLE_TURN_ON
+11:09:41.097--BluetoothAdapterState Entering PendingCommandState
+11:09:41.156--BluetoothAdapterState Current state: PENDING_COMMAND, message: BLE_STARTED
+11:09:41.163--btsnoop.c -- Config HCI log for external : enable=0
+11:09:42.660--[3005]{0014}(02::0)
+11:09:42.670--BluetoothAdapterState Current state: PENDING_COMMAND, message: ENABLED_READY
+11:09:42.673--BluetoothAdapterState Entering BleOnState
+11:09:42.677--BluetoothAdapterService setRPAGeneration false
+10:54:05.281--BluetoothManagerService -- ===== BOOT_COMPLETED =====false false false
+10:54:05.282--[0008]{0019}(24::false)(25::false)
+10:54:14.330--BluetoothAdapterState Entering OffState
+10:54:14.627--BluetoothAdapterState Current state: OFF, message: BLE_TURN_ON
+10:54:14.670--BluetoothAdapterState Entering PendingCommandState
+10:54:14.815--BluetoothAdapterState Current state: PENDING_COMMAND, message: BLE_STARTED
+10:54:14.822--btsnoop.c -- Config HCI log for external : enable=0
+10:54:16.121--[3005]{0014}(02::0)
+10:54:16.129--BluetoothAdapterState Current state: PENDING_COMMAND, message: ENABLED_READY
+10:54:16.139--BluetoothAdapterState Entering BleOnState
+10:54:16.143--BluetoothAdapterService setRPAGeneration false
+09:22:10.544--BluetoothManagerService -- ===== BOOT_COMPLETED =====false false false
+09:22:10.545--[0008]{0019}(24::false)(25::false)
+09:22:16.324--BluetoothAdapterState Entering OffState
+09:22:16.476--BluetoothAdapterState Current state: OFF, message: BLE_TURN_ON
+09:22:16.506--BluetoothAdapterState Entering PendingCommandState
+09:22:16.555--BluetoothAdapterState Current state: PENDING_COMMAND, message: BLE_STARTED
+09:22:16.561--btsnoop.c -- Config HCI log for external : enable=0
+09:22:17.898--[3005]{0014}(02::0)
+09:22:17.904--BluetoothAdapterState Current state: PENDING_COMMAND, message: ENABLED_READY
+09:22:17.907--BluetoothAdapterState Entering BleOnState
+09:22:17.908--BluetoothAdapterService setRPAGeneration false
+10:25:12.378--BluetoothManagerService -- ===== BOOT_COMPLETED =====false false false
+10:25:12.378--[0008]{0019}(24::false)(25::false)
+10:25:17.429--BluetoothAdapterState Entering OffState
+10:25:17.689--BluetoothAdapterState Current state: OFF, message: BLE_TURN_ON
+10:25:18.097--BluetoothAdapterState Entering PendingCommandState
+10:25:18.214--BluetoothAdapterState Current state: PENDING_COMMAND, message: BLE_STARTED
+10:25:18.219--btsnoop.c -- Config HCI log for external : enable=0
+10:25:19.544--[3005]{0014}(02::0)
+10:25:19.548--BluetoothAdapterState Current state: PENDING_COMMAND, message: ENABLED_READY
+10:25:19.555--BluetoothAdapterState Entering BleOnState
+10:25:19.573--BluetoothAdapterService setRPAGeneration false
+10:40:00.134--BluetoothManagerService -- ===== BOOT_COMPLETED =====false false false
+10:40:00.135--[0008]{0019}(24::false)(25::false)
+10:40:07.075--BluetoothAdapterState Entering OffState
+10:40:07.216--BluetoothAdapterState Current state: OFF, message: BLE_TURN_ON
+10:40:07.283--BluetoothAdapterState Entering PendingCommandState
+10:40:07.346--BluetoothAdapterState Current state: PENDING_COMMAND, message: BLE_STARTED
+10:40:07.355--btsnoop.c -- Config HCI log for external : enable=0
+10:40:08.613--[3005]{0014}(02::0)
+10:40:08.618--BluetoothAdapterState Current state: PENDING_COMMAND, message: ENABLED_READY
+10:40:08.624--BluetoothAdapterService setRPAGeneration false
+10:40:08.625--BluetoothAdapterState Entering BleOnState
+15:02:02.941--BluetoothManagerService -- ===== BOOT_COMPLETED =====false false false
+15:02:02.942--[0008]{0019}(24::false)(25::false)
+15:02:08.818--BluetoothAdapterState Entering OffState
+15:02:08.970--BluetoothAdapterState Current state: OFF, message: BLE_TURN_ON
+15:02:09.071--BluetoothAdapterState Entering PendingCommandState
+15:02:09.253--BluetoothAdapterState Current state: PENDING_COMMAND, message: BLE_STARTED
+15:02:09.259--btsnoop.c -- Config HCI log for external : enable=0
+15:02:14.783--[3005]{0014}(02::0)
+15:02:14.792--BluetoothAdapterState Current state: PENDING_COMMAND, message: ENABLED_READY
+15:02:14.804--BluetoothAdapterState Entering BleOnState
+15:02:14.807--BluetoothAdapterService setRPAGeneration false
+15:57:47.623--BluetoothManagerService -- ===== BOOT_COMPLETED =====false false false
+15:57:47.624--[0008]{0019}(24::false)(25::false)
+15:57:53.213--BluetoothAdapterState Entering OffState
+15:57:53.443--BluetoothAdapterState Current state: OFF, message: BLE_TURN_ON
+15:57:53.503--BluetoothAdapterState Entering PendingCommandState
+15:57:53.574--BluetoothAdapterState Current state: PENDING_COMMAND, message: BLE_STARTED
+15:57:53.580--btsnoop.c -- Config HCI log for external : enable=0
+15:57:56.729--[3005]{0014}(02::0)
+15:57:56.738--BluetoothAdapterState Current state: PENDING_COMMAND, message: ENABLED_READY
+15:57:56.752--BluetoothAdapterState Entering BleOnState
+15:57:56.767--BluetoothAdapterService setRPAGeneration false
+09:29:33.158--BluetoothManagerService -- ===== BOOT_COMPLETED =====false false false
+09:29:33.159--[0008]{0019}(24::false)(25::false)
+09:29:40.863--BluetoothAdapterState Entering OffState
+09:29:41.061--BluetoothAdapterState Current state: OFF, message: BLE_TURN_ON
+09:29:41.109--BluetoothAdapterState Entering PendingCommandState
+09:29:41.153--BluetoothAdapterState Current state: PENDING_COMMAND, message: BLE_STARTED
+09:29:41.158--btsnoop.c -- Config HCI log for external : enable=0
+09:29:42.563--[3005]{0014}(02::0)
+09:29:42.570--BluetoothAdapterState Current state: PENDING_COMMAND, message: ENABLED_READY
+09:29:42.576--BluetoothAdapterState Entering BleOnState
+09:29:42.582--BluetoothAdapterService setRPAGeneration false
+11:07:07.746--BluetoothManagerService -- ===== BOOT_COMPLETED =====false false false
+11:07:07.747--[0008]{0019}(24::false)(25::false)
+11:07:15.355--BluetoothAdapterState Entering OffState
+11:07:15.509--BluetoothAdapterState Current state: OFF, message: BLE_TURN_ON
+11:07:15.635--BluetoothAdapterState Entering PendingCommandState
+11:07:15.767--BluetoothAdapterState Current state: PENDING_COMMAND, message: BLE_STARTED
+11:07:15.775--btsnoop.c -- Config HCI log for external : enable=0
+11:07:17.110--[3005]{0014}(02::0)
+11:07:17.113--BluetoothAdapterState Current state: PENDING_COMMAND, message: ENABLED_READY
+11:07:17.117--BluetoothAdapterState Entering BleOnState
+11:07:17.120--BluetoothAdapterService setRPAGeneration false
+16:24:05.460--BluetoothManagerService -- ===== BOOT_COMPLETED =====false false false
+16:24:05.461--[0008]{0019}(24::false)(25::false)
+16:24:13.501--BluetoothAdapterState Entering OffState
+16:24:13.737--BluetoothAdapterState Current state: OFF, message: BLE_TURN_ON
+16:24:13.801--BluetoothAdapterState Entering PendingCommandState
+16:24:14.000--BluetoothAdapterState Current state: PENDING_COMMAND, message: BLE_STARTED
+16:24:14.010--btsnoop.c -- Config HCI log for external : enable=0
+16:24:15.316--[3005]{0014}(02::0)
+16:24:15.323--BluetoothAdapterState Current state: PENDING_COMMAND, message: ENABLED_READY
+16:24:15.330--BluetoothAdapterState Entering BleOnState
+16:24:15.337--BluetoothAdapterService setRPAGeneration false
+18:55:23.543--BluetoothManagerService -- ===== BOOT_COMPLETED =====false false false
+18:55:23.544--[0008]{0019}(24::false)(25::false)
+18:55:29.223--BluetoothAdapterState Entering OffState
+18:55:29.402--BluetoothAdapterState Current state: OFF, message: BLE_TURN_ON
+18:55:29.461--BluetoothAdapterState Entering PendingCommandState
+18:55:29.520--BluetoothAdapterState Current state: PENDING_COMMAND, message: BLE_STARTED
+18:55:29.530--btsnoop.c -- Config HCI log for external : enable=0
+18:55:30.894--[3005]{0014}(02::0)
+18:55:30.901--BluetoothAdapterState Current state: PENDING_COMMAND, message: ENABLED_READY
+18:55:30.909--BluetoothAdapterState Entering BleOnState
+18:55:30.959--BluetoothAdapterService setRPAGeneration false
+14:33:28.589--BluetoothManagerService -- ===== BOOT_COMPLETED =====false false false
+14:33:28.590--[0008]{0019}(24::false)(25::false)
+14:33:34.444--BluetoothAdapterState Entering OffState
+14:33:34.523--BluetoothAdapterState Current state: OFF, message: BLE_TURN_ON
+14:33:34.716--BluetoothAdapterState Entering PendingCommandState
+14:33:34.867--BluetoothAdapterState Current state: PENDING_COMMAND, message: BLE_STARTED
+14:33:34.872--btsnoop.c -- Config HCI log for external : enable=0
+14:33:36.216--[3005]{0014}(02::0)
+14:33:36.232--BluetoothAdapterState Current state: PENDING_COMMAND, message: ENABLED_READY
+14:33:36.241--BluetoothAdapterState Entering BleOnState
+14:33:36.252--BluetoothAdapterService setRPAGeneration false
+17:25:29.162--BluetoothManagerService -- ===== BOOT_COMPLETED =====false false false
+17:25:29.163--[0008]{0019}(24::false)(25::false)
+17:25:34.892--BluetoothAdapterState Entering OffState
+17:25:35.040--BluetoothAdapterState Current state: OFF, message: BLE_TURN_ON
+17:25:35.105--BluetoothAdapterState Entering PendingCommandState
+17:25:35.222--BluetoothAdapterState Current state: PENDING_COMMAND, message: BLE_STARTED
+17:25:35.282--btsnoop.c -- Config HCI log for external : enable=0
+17:25:36.601--[3005]{0014}(02::0)
+17:25:36.606--BluetoothAdapterState Current state: PENDING_COMMAND, message: ENABLED_READY
+17:25:36.610--BluetoothAdapterState Entering BleOnState
+17:25:36.612--BluetoothAdapterService setRPAGeneration false
+09:51:23.526--BluetoothManagerService -- ===== BOOT_COMPLETED =====false false false
+09:51:23.527--[0008]{0019}(24::false)(25::false)
+09:51:29.658--BluetoothAdapterState Entering OffState
+09:51:29.762--BluetoothAdapterState Current state: OFF, message: BLE_TURN_ON
+09:51:29.933--BluetoothAdapterState Entering PendingCommandState
+09:51:31.471--BluetoothAdapterState Current state: PENDING_COMMAND, message: BLE_STARTED
+09:51:31.477--btsnoop.c -- Config HCI log for external : enable=0
+09:51:32.822--[3005]{0014}(02::0)
+09:51:32.827--BluetoothAdapterState Current state: PENDING_COMMAND, message: ENABLED_READY
+09:51:32.831--BluetoothAdapterState Entering BleOnState
+09:51:32.834--BluetoothAdapterService setRPAGeneration false
+11:40:52.359--BluetoothManagerService -- ===== BOOT_COMPLETED =====false false false
+11:40:52.359--[0008]{0019}(24::false)(25::false)
+11:41:00.069--BluetoothAdapterState Entering OffState
+11:41:00.166--BluetoothAdapterState Current state: OFF, message: BLE_TURN_ON
+11:41:00.364--BluetoothAdapterState Entering PendingCommandState
+11:41:00.432--BluetoothAdapterState Current state: PENDING_COMMAND, message: BLE_STARTED
+11:41:00.451--btsnoop.c -- Config HCI log for external : enable=0
+11:41:01.735--[3005]{0014}(02::0)
+11:41:01.743--BluetoothAdapterState Current state: PENDING_COMMAND, message: ENABLED_READY
+11:41:01.747--BluetoothAdapterState Entering BleOnState
+11:41:01.750--BluetoothAdapterService setRPAGeneration false
+16:39:50.761--BluetoothManagerService -- ===== BOOT_COMPLETED =====false false false
+16:39:50.763--[0008]{0019}(24::false)(25::false)
+16:39:56.495--BluetoothAdapterState Entering OffState
+16:39:56.882--BluetoothAdapterState Current state: OFF, message: BLE_TURN_ON
+16:39:56.951--BluetoothAdapterState Entering PendingCommandState
+16:39:57.026--BluetoothAdapterState Current state: PENDING_COMMAND, message: BLE_STARTED
+16:39:57.049--btsnoop.c -- Config HCI log for external : enable=0
+16:39:58.091--[3005]{0014}(02::0)
+16:39:58.101--BluetoothAdapterState Current state: PENDING_COMMAND, message: ENABLED_READY
+16:39:58.106--BluetoothAdapterState Entering BleOnState
+16:39:58.112--BluetoothAdapterService setRPAGeneration false
+17:53:29.664--BluetoothManagerService -- ===== BOOT_COMPLETED =====false false false
+17:53:29.665--[0008]{0019}(24::false)(25::false)
+17:53:35.492--BluetoothAdapterState Entering OffState
+17:53:35.606--BluetoothAdapterState Current state: OFF, message: BLE_TURN_ON
+17:53:35.723--BluetoothAdapterState Entering PendingCommandState
+17:53:35.813--BluetoothAdapterState Current state: PENDING_COMMAND, message: BLE_STARTED
+17:53:35.829--btsnoop.c -- Config HCI log for external : enable=0
+17:53:38.684--[3005]{0014}(02::0)
+17:53:38.693--BluetoothAdapterState Current state: PENDING_COMMAND, message: ENABLED_READY
+17:53:38.696--BluetoothAdapterState Entering BleOnState
+17:53:38.700--BluetoothAdapterService setRPAGeneration false
+10:46:33.096--BluetoothManagerService -- ===== BOOT_COMPLETED =====false false false
+10:46:33.096--[0008]{0019}(24::false)(25::false)
+10:46:39.170--BluetoothAdapterState Entering OffState
+10:46:39.241--BluetoothAdapterState Current state: OFF, message: BLE_TURN_ON
+10:46:39.266--BluetoothAdapterState Entering PendingCommandState
+10:46:39.408--BluetoothAdapterState Current state: PENDING_COMMAND, message: BLE_STARTED
+10:46:39.451--btsnoop.c -- Config HCI log for external : enable=0
+10:46:42.187--[3005]{0014}(02::0)
+10:46:42.192--BluetoothAdapterState Current state: PENDING_COMMAND, message: ENABLED_READY
+10:46:42.200--BluetoothAdapterState Entering BleOnState
+10:46:42.206--BluetoothAdapterService setRPAGeneration false
+19:43:21.491--BluetoothManagerService -- ===== BOOT_COMPLETED =====false false false
+19:43:21.492--[0008]{0019}(24::false)(25::false)
+19:43:26.961--BluetoothAdapterState Entering OffState
+19:43:27.003--BluetoothAdapterState Current state: OFF, message: BLE_TURN_ON
+19:43:27.035--BluetoothAdapterState Entering PendingCommandState
+19:43:27.277--BluetoothAdapterState Current state: PENDING_COMMAND, message: BLE_STARTED
+19:43:27.319--btsnoop.c -- Config HCI log for external : enable=0
+15:55:25.045--[3005]{0014}(02::0)
+15:55:25.054--BluetoothAdapterState Current state: PENDING_COMMAND, message: ENABLED_READY
+15:55:25.065--BluetoothAdapterState Entering BleOnState
+15:55:25.066--BluetoothAdapterService setRPAGeneration false
+16:08:39.937--BluetoothManagerService -- ===== BOOT_COMPLETED =====false false false
+16:08:39.938--[0008]{0019}(24::false)(25::false)
+16:08:47.652--BluetoothAdapterState Entering OffState
+16:08:47.831--BluetoothAdapterState Current state: OFF, message: BLE_TURN_ON
+16:08:47.938--BluetoothAdapterState Entering PendingCommandState
+16:08:48.084--BluetoothAdapterState Current state: PENDING_COMMAND, message: BLE_STARTED
+16:08:48.113--btsnoop.c -- Config HCI log for external : enable=0
+16:08:49.473--[3005]{0014}(02::0)
+16:08:49.484--BluetoothAdapterState Current state: PENDING_COMMAND, message: ENABLED_READY
+16:08:49.488--BluetoothAdapterState Entering BleOnState
+16:08:49.492--BluetoothAdapterService setRPAGeneration false
+14:40:25.032--BluetoothManagerService -- ===== BOOT_COMPLETED =====false false false
+14:40:25.033--[0008]{0019}(24::false)(25::false)
+14:40:32.259--BluetoothAdapterState Entering OffState
+14:40:32.355--BluetoothAdapterState Current state: OFF, message: BLE_TURN_ON
+14:40:32.410--BluetoothAdapterState Entering PendingCommandState
+14:40:32.608--BluetoothAdapterState Current state: PENDING_COMMAND, message: BLE_STARTED
+14:40:32.615--btsnoop.c -- Config HCI log for external : enable=0
+14:40:33.919--[3005]{0014}(02::0)
+14:40:33.925--BluetoothAdapterState Current state: PENDING_COMMAND, message: ENABLED_READY
+14:40:33.928--BluetoothAdapterState Entering BleOnState
+14:40:33.931--BluetoothAdapterService setRPAGeneration false
+19:38:07.476--BluetoothManagerService -- ===== BOOT_COMPLETED =====false false false
+19:38:07.477--[0008]{0019}(24::false)(25::false)
+19:38:13.637--BluetoothAdapterState Entering OffState
+19:38:13.917--BluetoothAdapterState Current state: OFF, message: BLE_TURN_ON
+19:38:13.976--BluetoothAdapterState Entering PendingCommandState
+19:38:14.019--BluetoothAdapterState Current state: PENDING_COMMAND, message: BLE_STARTED
+19:38:14.028--btsnoop.c -- Config HCI log for external : enable=0
+19:38:16.289--[3005]{0014}(02::0)
+19:38:16.313--BluetoothAdapterState Current state: PENDING_COMMAND, message: ENABLED_READY
+19:38:16.326--BluetoothAdapterState Entering BleOnState
+19:38:16.353--BluetoothAdapterService setRPAGeneration false
+10:47:31.070--BluetoothManagerService -- ===== BOOT_COMPLETED =====false false false
+10:47:31.070--[0008]{0019}(24::false)(25::false)
+10:47:36.984--BluetoothAdapterState Entering OffState
+10:47:37.042--BluetoothAdapterState Current state: OFF, message: BLE_TURN_ON
+10:47:37.073--BluetoothAdapterState Entering PendingCommandState
+10:47:37.189--BluetoothAdapterState Current state: PENDING_COMMAND, message: BLE_STARTED
+10:47:37.196--btsnoop.c -- Config HCI log for external : enable=0
+10:47:38.500--[3005]{0014}(02::0)
+10:47:38.508--BluetoothAdapterState Current state: PENDING_COMMAND, message: ENABLED_READY
+10:47:38.518--BluetoothAdapterState Entering BleOnState
+10:47:38.522--BluetoothAdapterService setRPAGeneration false
+15:36:55.767--BluetoothManagerService -- ===== BOOT_COMPLETED =====false false false
+15:36:55.768--[0008]{0019}(24::false)(25::false)
+15:37:01.989--BluetoothAdapterState Entering OffState
+15:37:02.262--BluetoothAdapterState Current state: OFF, message: BLE_TURN_ON
+15:37:02.322--BluetoothAdapterState Entering PendingCommandState
+15:37:02.397--BluetoothAdapterState Current state: PENDING_COMMAND, message: BLE_STARTED
+15:37:02.412--btsnoop.c -- Config HCI log for external : enable=0
+15:37:16.263--[3005]{0014}(02::0)
+15:37:16.267--BluetoothAdapterState Current state: PENDING_COMMAND, message: ENABLED_READY
+15:37:16.271--BluetoothAdapterState Entering BleOnState
+15:37:16.278--BluetoothAdapterService setRPAGeneration false
+15:59:33.673--BluetoothManagerService -- ===== BOOT_COMPLETED =====false false false
+15:59:33.674--[0008]{0019}(24::false)(25::false)
+15:59:40.270--BluetoothAdapterState Entering OffState
+15:59:42.764--BluetoothAdapterState Current state: OFF, message: BLE_TURN_ON
+15:59:42.835--BluetoothAdapterState Entering PendingCommandState
+15:59:42.928--BluetoothAdapterState Current state: PENDING_COMMAND, message: BLE_STARTED
+15:59:42.935--btsnoop.c -- Config HCI log for external : enable=0
+15:59:44.269--[3005]{0014}(02::0)
+15:59:44.278--BluetoothAdapterState Current state: PENDING_COMMAND, message: ENABLED_READY
+15:59:44.290--BluetoothAdapterState Entering BleOnState
+15:59:44.295--BluetoothAdapterService setRPAGeneration false
+11:16:26.918--BluetoothManagerService -- ===== BOOT_COMPLETED =====false false false
+11:16:26.919--[0008]{0019}(24::false)(25::false)
+11:16:32.763--BluetoothAdapterState Entering OffState
+11:16:32.938--BluetoothAdapterState Current state: OFF, message: BLE_TURN_ON
+11:16:33.006--BluetoothAdapterState Entering PendingCommandState
+11:16:33.069--BluetoothAdapterState Current state: PENDING_COMMAND, message: BLE_STARTED
+11:16:33.078--btsnoop.c -- Config HCI log for external : enable=0
+11:16:34.367--[3005]{0014}(02::0)
+11:16:34.372--BluetoothAdapterState Current state: PENDING_COMMAND, message: ENABLED_READY
+11:16:34.376--BluetoothAdapterState Entering BleOnState
+11:16:34.380--BluetoothAdapterService setRPAGeneration false
+10:19:05.949--BluetoothManagerService -- ===== BOOT_COMPLETED =====false false false
+10:19:05.950--[0008]{0019}(24::false)(25::false)
+10:19:11.348--BluetoothAdapterState Entering OffState
+10:19:11.468--BluetoothAdapterState Current state: OFF, message: BLE_TURN_ON
+10:19:11.554--BluetoothAdapterState Entering PendingCommandState
+10:19:11.685--BluetoothAdapterState Current state: PENDING_COMMAND, message: BLE_STARTED
+10:19:11.691--btsnoop.c -- Config HCI log for external : enable=0
+10:19:13.019--[3005]{0014}(02::0)
+10:19:13.039--BluetoothAdapterState Current state: PENDING_COMMAND, message: ENABLED_READY
+10:19:13.041--BluetoothAdapterState Entering BleOnState
+10:19:13.141--BluetoothAdapterService setRPAGeneration false
+14:41:14.823--BluetoothManagerService -- ===== BOOT_COMPLETED =====false false false
+14:41:14.824--[0008]{0019}(24::false)(25::false)
+14:41:20.305--BluetoothAdapterState Entering OffState
+14:41:20.412--BluetoothAdapterState Current state: OFF, message: BLE_TURN_ON
+14:41:20.441--BluetoothAdapterState Entering PendingCommandState
+14:41:20.491--BluetoothAdapterState Current state: PENDING_COMMAND, message: BLE_STARTED
+14:41:20.496--btsnoop.c -- Config HCI log for external : enable=0
+14:41:22.604--[3005]{0014}(02::0)
+14:41:22.611--BluetoothAdapterState Current state: PENDING_COMMAND, message: ENABLED_READY
+14:41:22.614--BluetoothAdapterState Entering BleOnState
+14:41:22.617--BluetoothAdapterService setRPAGeneration false
+10:44:10.162--BluetoothManagerService -- ===== BOOT_COMPLETED =====false false false
+10:44:10.163--[0008]{0019}(24::false)(25::false)
+10:44:15.669--BluetoothAdapterState Entering OffState
+10:44:15.748--BluetoothAdapterState Current state: OFF, message: BLE_TURN_ON
+10:44:15.804--BluetoothAdapterState Entering PendingCommandState
+10:44:15.993--BluetoothAdapterState Current state: PENDING_COMMAND, message: BLE_STARTED
+10:44:16.031--btsnoop.c -- Config HCI log for external : enable=0
+10:44:17.427--[3005]{0014}(02::0)
+10:44:17.437--BluetoothAdapterState Current state: PENDING_COMMAND, message: ENABLED_READY
+10:44:17.440--BluetoothAdapterState Entering BleOnState
+10:44:17.444--BluetoothAdapterService setRPAGeneration false
+15:16:31.189--BluetoothManagerService -- ===== BOOT_COMPLETED =====false false false
+15:16:31.190--[0008]{0019}(24::false)(25::false)
+15:16:37.203--BluetoothAdapterState Entering OffState
+15:16:37.778--BluetoothAdapterState Current state: OFF, message: BLE_TURN_ON
+15:16:37.819--BluetoothAdapterState Entering PendingCommandState
+15:16:37.880--BluetoothAdapterState Current state: PENDING_COMMAND, message: BLE_STARTED
+15:16:37.884--btsnoop.c -- Config HCI log for external : enable=0
+15:16:39.195--[3005]{0014}(02::0)
+15:16:39.204--BluetoothAdapterState Current state: PENDING_COMMAND, message: ENABLED_READY
+15:16:39.217--BluetoothAdapterState Entering BleOnState
+15:16:39.276--BluetoothAdapterService setRPAGeneration false
+16:19:10.468--BluetoothManagerService -- ===== BOOT_COMPLETED =====false false false
+16:19:10.469--[0008]{0019}(24::false)(25::false)
+16:19:16.452--BluetoothAdapterState Entering OffState
+16:19:16.580--BluetoothAdapterState Current state: OFF, message: BLE_TURN_ON
+16:19:16.683--BluetoothAdapterState Entering PendingCommandState
+16:19:16.803--BluetoothAdapterState Current state: PENDING_COMMAND, message: BLE_STARTED
+16:19:16.808--btsnoop.c -- Config HCI log for external : enable=0
+16:19:17.558--[3005]{0014}(02::0)
+16:19:17.576--BluetoothAdapterState Current state: PENDING_COMMAND, message: ENABLED_READY
+16:19:17.590--BluetoothAdapterState Entering BleOnState
+16:19:17.621--BluetoothAdapterService setRPAGeneration false
+09:39:52.593--BluetoothManagerService -- ===== BOOT_COMPLETED =====false false false
+09:39:52.594--[0008]{0019}(24::false)(25::false)
+09:39:58.364--BluetoothAdapterState Entering OffState
+09:39:58.602--BluetoothAdapterState Current state: OFF, message: BLE_TURN_ON
+09:39:58.627--BluetoothAdapterState Entering PendingCommandState
+09:39:58.700--BluetoothAdapterState Current state: PENDING_COMMAND, message: BLE_STARTED
+09:39:58.705--btsnoop.c -- Config HCI log for external : enable=0
+09:39:59.985--[3005]{0014}(02::0)
+09:39:59.996--BluetoothAdapterState Current state: PENDING_COMMAND, message: ENABLED_READY
+09:40:00.004--BluetoothAdapterState Entering BleOnState
+09:40:00.027--BluetoothAdapterService setRPAGeneration false
+09:53:08.828--BluetoothManagerService -- ===== BOOT_COMPLETED =====false false false
+09:53:08.829--[0008]{0019}(24::false)(25::false)
+09:53:14.481--BluetoothAdapterState Entering OffState
+09:53:14.550--BluetoothAdapterState Current state: OFF, message: BLE_TURN_ON
+09:53:14.600--BluetoothAdapterState Entering PendingCommandState
+09:53:14.689--BluetoothAdapterState Current state: PENDING_COMMAND, message: BLE_STARTED
+09:53:14.697--btsnoop.c -- Config HCI log for external : enable=0
+09:53:16.081--[3005]{0014}(02::0)
+09:53:16.155--BluetoothAdapterState Current state: PENDING_COMMAND, message: ENABLED_READY
+09:53:16.177--BluetoothAdapterState Entering BleOnState
+09:53:16.179--BluetoothAdapterService setRPAGeneration false
+09:38:15.204--BluetoothManagerService -- ===== BOOT_COMPLETED =====false false false
+09:38:15.204--[0008]{0019}(24::false)(25::false)
+09:38:22.753--BluetoothAdapterState Entering OffState
+09:38:22.937--BluetoothAdapterState Current state: OFF, message: BLE_TURN_ON
+09:38:23.092--BluetoothAdapterState Entering PendingCommandState
+09:38:23.234--BluetoothAdapterState Current state: PENDING_COMMAND, message: BLE_STARTED
+09:38:23.241--btsnoop.c -- Config HCI log for external : enable=0
+09:38:24.511--[3005]{0014}(02::0)
+09:38:24.541--BluetoothAdapterState Current state: PENDING_COMMAND, message: ENABLED_READY
+09:38:24.551--BluetoothAdapterState Entering BleOnState
+09:38:24.553--BluetoothAdapterService setRPAGeneration false
+14:49:20.794--BluetoothManagerService -- ===== BOOT_COMPLETED =====false false false
+14:49:20.795--[0008]{0019}(24::false)(25::false)
+14:49:26.963--BluetoothAdapterState Entering OffState
+14:49:27.022--BluetoothAdapterState Current state: OFF, message: BLE_TURN_ON
+14:49:27.163--BluetoothAdapterState Entering PendingCommandState
+14:49:27.347--BluetoothAdapterState Current state: PENDING_COMMAND, message: BLE_STARTED
+14:49:27.356--btsnoop.c -- Config HCI log for external : enable=0
+14:49:31.275--[3005]{0014}(02::0)
+14:49:31.279--BluetoothAdapterState Current state: PENDING_COMMAND, message: ENABLED_READY
+14:49:31.284--BluetoothAdapterState Entering BleOnState
+14:49:31.288--BluetoothAdapterService setRPAGeneration false
+11:23:42.762--BluetoothManagerService -- ===== BOOT_COMPLETED =====false false false
+11:23:42.762--[0008]{0019}(24::false)(25::false)
+11:23:48.791--BluetoothAdapterState Entering OffState
+11:23:48.870--BluetoothAdapterState Current state: OFF, message: BLE_TURN_ON
+11:23:48.951--BluetoothAdapterState Entering PendingCommandState
+11:23:49.169--BluetoothAdapterState Current state: PENDING_COMMAND, message: BLE_STARTED
+11:23:49.176--btsnoop.c -- Config HCI log for external : enable=0
+11:23:54.182--[3005]{0014}(02::0)
+11:23:54.186--BluetoothAdapterState Current state: PENDING_COMMAND, message: ENABLED_READY
+11:23:54.190--BluetoothAdapterState Entering BleOnState
+11:23:54.198--BluetoothAdapterService setRPAGeneration false
+15:31:48.100--BluetoothManagerService -- ===== BOOT_COMPLETED =====false false false
+15:31:48.101--[0008]{0019}(24::false)(25::false)
+15:31:53.943--BluetoothAdapterState Entering OffState
+15:31:54.060--BluetoothAdapterState Current state: OFF, message: BLE_TURN_ON
+15:31:54.128--BluetoothAdapterState Entering PendingCommandState
+15:31:54.239--BluetoothAdapterState Current state: PENDING_COMMAND, message: BLE_STARTED
+15:31:54.266--btsnoop.c -- Config HCI log for external : enable=0
+15:31:55.512--[3005]{0014}(02::0)
+15:31:55.523--BluetoothAdapterState Current state: PENDING_COMMAND, message: ENABLED_READY
+15:31:55.529--BluetoothAdapterState Entering BleOnState
+15:31:55.538--BluetoothAdapterService setRPAGeneration false
+16:01:08.109--BluetoothManagerService -- ===== BOOT_COMPLETED =====false false false
+16:01:08.110--[0008]{0019}(24::false)(25::false)
+16:01:13.916--BluetoothAdapterState Entering OffState
+16:01:14.112--BluetoothAdapterState Current state: OFF, message: BLE_TURN_ON
+16:01:14.160--BluetoothAdapterState Entering PendingCommandState
+16:01:14.218--BluetoothAdapterState Current state: PENDING_COMMAND, message: BLE_STARTED
+16:01:14.228--btsnoop.c -- Config HCI log for external : enable=0
+16:01:15.552--[3005]{0014}(02::0)
+16:01:15.559--BluetoothAdapterState Current state: PENDING_COMMAND, message: ENABLED_READY
+16:01:15.567--BluetoothAdapterState Entering BleOnState
+16:01:15.592--BluetoothAdapterService setRPAGeneration false
+11:59:06.956--BluetoothManagerService -- ===== BOOT_COMPLETED =====false false false
+11:59:06.957--[0008]{0019}(24::false)(25::false)
+11:59:14.538--BluetoothAdapterState Entering OffState
+11:59:14.752--BluetoothAdapterState Current state: OFF, message: BLE_TURN_ON
+11:59:14.775--BluetoothAdapterState Entering PendingCommandState
+11:59:14.823--BluetoothAdapterState Current state: PENDING_COMMAND, message: BLE_STARTED
+11:59:14.830--btsnoop.c -- Config HCI log for external : enable=0
+11:59:16.177--[3005]{0014}(02::0)
+11:59:16.183--BluetoothAdapterState Current state: PENDING_COMMAND, message: ENABLED_READY
+11:59:16.189--BluetoothAdapterService setRPAGeneration false
+11:59:16.188--BluetoothAdapterState Entering BleOnState
+14:03:16.983--BluetoothManagerService -- ===== BOOT_COMPLETED =====false false false
+14:03:16.984--[0008]{0019}(24::false)(25::false)
+14:03:22.475--BluetoothAdapterState Entering OffState
+14:03:22.516--BluetoothAdapterState Current state: OFF, message: BLE_TURN_ON
+14:03:22.564--BluetoothAdapterState Entering PendingCommandState
+14:03:22.628--BluetoothAdapterState Current state: PENDING_COMMAND, message: BLE_STARTED
+14:03:22.633--btsnoop.c -- Config HCI log for external : enable=0
+14:03:23.943--[3005]{0014}(02::0)
+14:03:23.953--BluetoothAdapterState Current state: PENDING_COMMAND, message: ENABLED_READY
+14:03:23.960--BluetoothAdapterState Entering BleOnState
+14:03:24.074--BluetoothAdapterService setRPAGeneration false
+12:39:39.887--BluetoothManagerService -- ===== BOOT_COMPLETED =====false false false
+12:39:39.888--[0008]{0019}(24::false)(25::false)
+12:39:45.964--BluetoothAdapterState Entering OffState
+12:39:46.272--BluetoothAdapterState Current state: OFF, message: BLE_TURN_ON
+12:39:46.302--BluetoothAdapterState Entering PendingCommandState
+12:39:46.420--BluetoothAdapterState Current state: PENDING_COMMAND, message: BLE_STARTED
+12:39:46.434--btsnoop.c -- Config HCI log for external : enable=0
+12:39:47.792--[3005]{0014}(02::0)
+12:39:47.830--BluetoothAdapterState Current state: PENDING_COMMAND, message: ENABLED_READY
+12:39:47.833--BluetoothAdapterState Entering BleOnState
+12:39:47.835--BluetoothAdapterService setRPAGeneration false
+12:56:03.330--BluetoothManagerService -- ===== BOOT_COMPLETED =====false false false
+12:56:03.331--[0008]{0019}(24::false)(25::false)
+12:56:09.286--BluetoothAdapterState Entering OffState
+12:56:09.425--BluetoothAdapterState Current state: OFF, message: BLE_TURN_ON
+12:56:09.602--BluetoothAdapterState Entering PendingCommandState
+12:56:09.705--BluetoothAdapterState Current state: PENDING_COMMAND, message: BLE_STARTED
+12:56:09.745--btsnoop.c -- Config HCI log for external : enable=0
+12:56:10.107--[3005]{0014}(02::0)
+12:56:10.116--BluetoothAdapterState Current state: PENDING_COMMAND, message: ENABLED_READY
+12:56:10.122--BluetoothAdapterState Entering BleOnState
+12:56:10.126--BluetoothAdapterService setRPAGeneration false
+17:07:26.537--BluetoothManagerService -- ===== BOOT_COMPLETED =====false false false
+17:07:26.539--[0008]{0019}(24::false)(25::false)
+17:07:32.431--BluetoothAdapterState Entering OffState
+17:07:32.611--BluetoothAdapterState Current state: OFF, message: BLE_TURN_ON
+17:07:32.641--BluetoothAdapterState Entering PendingCommandState
+17:07:32.719--BluetoothAdapterState Current state: PENDING_COMMAND, message: BLE_STARTED
+17:07:32.724--btsnoop.c -- Config HCI log for external : enable=0
+17:07:33.980--[3005]{0014}(02::0)
+17:07:33.983--BluetoothAdapterState Current state: PENDING_COMMAND, message: ENABLED_READY
+17:07:33.994--BluetoothAdapterState Entering BleOnState
+17:07:33.994--BluetoothAdapterService setRPAGeneration false
+10:41:55.063--BluetoothManagerService -- ===== BOOT_COMPLETED =====false false false
+10:41:55.063--[0008]{0019}(24::false)(25::false)
+10:42:01.186--BluetoothAdapterState Entering OffState
+10:42:01.392--BluetoothAdapterState Current state: OFF, message: BLE_TURN_ON
+10:42:01.449--BluetoothAdapterState Entering PendingCommandState
+10:42:01.499--BluetoothAdapterState Current state: PENDING_COMMAND, message: BLE_STARTED
+10:42:01.505--btsnoop.c -- Config HCI log for external : enable=0
+10:42:02.788--[3005]{0014}(02::0)
+10:42:02.794--BluetoothAdapterState Current state: PENDING_COMMAND, message: ENABLED_READY
+10:42:02.801--BluetoothAdapterState Entering BleOnState
+10:42:02.806--BluetoothAdapterService setRPAGeneration false
+18:35:46.279--BluetoothManagerService -- ===== BOOT_COMPLETED =====false false false
+18:35:46.280--[0008]{0019}(24::false)(25::false)
+18:35:53.554--BluetoothAdapterState Entering OffState
+18:35:51.993--BluetoothAdapterState Current state: OFF, message: BLE_TURN_ON
+18:35:52.025--BluetoothAdapterState Entering PendingCommandState
+18:35:52.079--BluetoothAdapterState Current state: PENDING_COMMAND, message: BLE_STARTED
+18:35:52.087--btsnoop.c -- Config HCI log for external : enable=0
+18:35:53.398--[3005]{0014}(02::0)
+18:35:53.402--BluetoothAdapterState Current state: PENDING_COMMAND, message: ENABLED_READY
+18:35:53.406--BluetoothAdapterState Entering BleOnState
+18:35:53.407--BluetoothAdapterService setRPAGeneration false
+10:54:31.090--BluetoothManagerService -- ===== BOOT_COMPLETED =====false false false
+10:54:31.091--[0008]{0019}(24::false)(25::false)
+10:54:43.216--BluetoothAdapterState Entering OffState
+10:54:43.447--BluetoothAdapterState Current state: OFF, message: BLE_TURN_ON
+10:54:43.483--BluetoothAdapterState Entering PendingCommandState
+10:54:43.573--BluetoothAdapterState Current state: PENDING_COMMAND, message: BLE_STARTED
+10:54:43.585--btsnoop.c -- Config HCI log for external : enable=0
+10:54:44.932--[3005]{0014}(02::0)
+10:54:44.937--BluetoothAdapterState Current state: PENDING_COMMAND, message: ENABLED_READY
+10:54:44.941--BluetoothAdapterState Entering BleOnState
+10:54:44.944--BluetoothAdapterService setRPAGeneration false
+10:47:10.852--BluetoothManagerService -- ===== BOOT_COMPLETED =====false false false
+10:47:10.853--[0008]{0019}(24::false)(25::false)
+10:47:16.769--BluetoothAdapterState Entering OffState
+10:47:17.086--BluetoothAdapterState Current state: OFF, message: BLE_TURN_ON
+10:47:17.131--BluetoothAdapterState Entering PendingCommandState
+10:47:17.218--BluetoothAdapterState Current state: PENDING_COMMAND, message: BLE_STARTED
+10:47:17.229--btsnoop.c -- Config HCI log for external : enable=0
+10:47:19.613--[3005]{0014}(02::0)
+10:47:19.620--BluetoothAdapterState Current state: PENDING_COMMAND, message: ENABLED_READY
+10:47:19.622--BluetoothAdapterState Entering BleOnState
+10:47:19.625--BluetoothAdapterService setRPAGeneration false
+11:44:10.386--BluetoothAdapter -- enable() called by PID : 1341 @ com.android.systemui
+11:44:10.440--BluetoothAdapterState Current state: BLE ON, message: USER_TURN_ON
+11:44:10.551--BluetoothAdapterState Entering PendingCommandState
+11:44:10.673--HFSM-enter Disconnected
+11:44:10.675--[1004]{000C}(2C::0)
+11:44:10.907--BluetoothAdapterState Current state: PENDING_COMMAND, message: BREDR_STARTED
+11:44:10.909--btif_core.c -- BTIF ENABLE BREDR
+11:44:10.912--[3005]{0016}
+11:44:10.934--BluetoothAdapterState Current state: PENDING_COMMAND, message: BREDR_NATIVE_STARTED
+11:44:11.022--BluetoothAdapterState Entering OnState
+11:44:11.060--BluetoothAdapterService setRPAGeneration true
+11:44:11.177--[1006]{001A}(03::null)
+11:30:17.573--BluetoothManagerService -- ===== BOOT_COMPLETED =====true true false
+11:30:17.574--[0008]{0019}(24::true)(25::true)
+11:30:23.659--BluetoothAdapterState Entering OffState
+11:30:23.719--BluetoothAdapterState Current state: OFF, message: BLE_TURN_ON
+11:30:23.788--BluetoothAdapterState Entering PendingCommandState
+11:30:23.920--BluetoothAdapterState Current state: PENDING_COMMAND, message: BLE_STARTED
+11:30:23.926--btsnoop.c -- Config HCI log for external : enable=0
+11:30:26.286--[3005]{0014}(02::0)
+11:30:26.290--BluetoothAdapterState Current state: PENDING_COMMAND, message: ENABLED_READY
+11:30:26.295--BluetoothAdapterState Entering BleOnState
+11:30:26.302--BluetoothAdapterState Current state: BLE ON, message: USER_TURN_ON
+11:30:26.350--BluetoothAdapterState Entering PendingCommandState
+11:30:26.413--HFSM-enter Disconnected
+11:30:26.417--[1004]{000C}(2C::0)
+11:30:26.536--BluetoothAdapterState Current state: PENDING_COMMAND, message: BREDR_STARTED
+11:30:26.537--btif_core.c -- BTIF ENABLE BREDR
+11:30:26.538--[3005]{0016}
+11:30:26.556--BluetoothAdapterState Current state: PENDING_COMMAND, message: BREDR_NATIVE_STARTED
+11:30:26.590--BluetoothAdapterState Entering OnState
+11:30:26.671--HFSM-numA0 numH0 state6 path0
+11:30:26.679--[1006]{001A}(03::null)
+11:34:30.758--DSM-getHighPriorityDevice : null
+14:03:42.522--DSM-getHighPriorityDevice : null
+18:08:59.825--BluetoothManagerService -- ===== BOOT_COMPLETED =====true true false
+18:08:59.827--[0008]{0019}(24::true)(25::true)
+18:09:05.485--BluetoothAdapterState Entering OffState
+18:09:05.582--BluetoothAdapterState Current state: OFF, message: BLE_TURN_ON
+18:09:05.635--BluetoothAdapterState Entering PendingCommandState
+18:09:05.899--BluetoothAdapterState Current state: PENDING_COMMAND, message: BLE_STARTED
+18:09:06.006--btsnoop.c -- Config HCI log for external : enable=0
+18:09:07.288--[3005]{0014}(02::0)
+18:09:07.291--BluetoothAdapterState Current state: PENDING_COMMAND, message: ENABLED_READY
+18:09:07.294--BluetoothAdapterState Entering BleOnState
+18:09:07.371--BluetoothAdapterState Current state: BLE ON, message: USER_TURN_ON
+18:09:07.426--BluetoothAdapterState Entering PendingCommandState
+18:09:07.505--HFSM-enter Disconnected
+18:09:07.529--[1004]{000C}(2C::0)
+18:09:07.678--BluetoothAdapterState Current state: PENDING_COMMAND, message: BREDR_STARTED
+18:09:07.679--btif_core.c -- BTIF ENABLE BREDR
+18:09:07.680--[3005]{0016}
+18:09:07.692--BluetoothAdapterState Current state: PENDING_COMMAND, message: BREDR_NATIVE_STARTED
+18:09:07.728--BluetoothAdapterState Entering OnState
+18:09:07.777--HFSM-numA0 numH0 state6 path0
+18:09:07.794--[1006]{001A}(03::null)
+18:14:51.216--DSM-getHighPriorityDevice : null
+09:15:50.924--DSM-getHighPriorityDevice : null
+09:52:44.684--DSM-getHighPriorityDevice : null
+10:02:59.566--DSM-getHighPriorityDevice : null
+10:22:04.273--DSM-getHighPriorityDevice : null
+10:30:18.477--DSM-getHighPriorityDevice : null
+10:36:48.945--DSM-getHighPriorityDevice : null
+10:44:40.543--DSM-getHighPriorityDevice : null
+11:01:42.010--DSM-getHighPriorityDevice : null
+11:06:58.881--DSM-getHighPriorityDevice : null
+12:06:46.305--BluetoothAdapter -- disable() called by PID : 1334 @ com.android.systemui
+12:06:46.526--BluetoothAdapterState Current state: ON, message: BLE_TURN_OFF
+12:06:46.577--BluetoothAdapterState Entering PendingCommandState
+12:06:46.588--[1006]{001B}
+12:06:46.618--BluetoothAdapterState Current state: PENDING_COMMAND, message: BEGIN_DISABLE
+12:06:46.621--btif_core.c -- BTIF DISABLE BR/EDR
+12:06:46.625--[3005]{0015}
+12:06:46.831--BluetoothAdapterState Current state: PENDING_COMMAND, message: BREDR_NATIVE_STOPED
+12:06:47.046--MapSvc-Email Account is Removed
+12:06:47.068--BluetoothAdapterState Current state: PENDING_COMMAND, message: BREDR_STOPPED
+12:06:47.086--BluetoothAdapterState Entering BleOnState
+12:06:47.110--BluetoothAdapterService setRPAGeneration false
+13:33:45.305--BluetoothAdapter -- enable() called by PID : 1334 @ com.android.systemui
+13:33:45.340--BluetoothAdapterState Current state: BLE ON, message: USER_TURN_ON
+13:33:45.476--BluetoothAdapterState Entering PendingCommandState
+13:33:45.555--HFSM-enter Disconnected
+13:33:45.556--[1004]{000C}(2C::0)
+13:33:45.685--BluetoothAdapterState Current state: PENDING_COMMAND, message: BREDR_STARTED
+13:33:45.687--btif_core.c -- BTIF ENABLE BREDR
+13:33:45.688--[3005]{0016}
+13:33:45.750--BluetoothAdapterState Current state: PENDING_COMMAND, message: BREDR_NATIVE_STARTED
+13:33:45.811--BluetoothAdapterState Entering OnState
+13:33:45.825--BluetoothAdapterService setRPAGeneration true
+13:33:45.912--[1006]{001A}(03::null)
+13:33:45.977--BluetoothAdapter -- disable() called by PID : 1334 @ com.android.systemui
+13:33:46.180--BluetoothAdapterState Current state: ON, message: BLE_TURN_OFF
+13:33:46.238--BluetoothAdapterState Entering PendingCommandState
+13:33:46.267--BluetoothAdapterState Current state: PENDING_COMMAND, message: BEGIN_DISABLE
+13:33:46.282--btif_core.c -- BTIF DISABLE BR/EDR
+13:33:46.299--[3005]{0015}
+13:33:46.487--BluetoothAdapterState Current state: PENDING_COMMAND, message: BREDR_NATIVE_STOPED
+13:33:46.519--[1006]{001B}
+13:33:46.684--MapSvc-Email Account is Removed
+13:33:46.785--BluetoothAdapterState Current state: PENDING_COMMAND, message: BREDR_STOPPED
+13:33:46.807--BluetoothAdapterState Entering BleOnState
+13:33:46.861--BluetoothAdapterService setRPAGeneration false
+18:59:42.560--BluetoothManagerService -- ===== BOOT_COMPLETED =====false false false
+18:59:42.561--[0008]{0019}(24::false)(25::false)
+18:59:48.693--BluetoothAdapterState Entering OffState
+18:59:48.828--BluetoothAdapterState Current state: OFF, message: BLE_TURN_ON
+18:59:48.860--BluetoothAdapterState Entering PendingCommandState
+18:59:48.978--BluetoothAdapterState Current state: PENDING_COMMAND, message: BLE_STARTED
+18:59:48.994--btsnoop.c -- Config HCI log for external : enable=0
+18:59:51.025--[3005]{0014}(02::0)
+18:59:51.029--BluetoothAdapterState Current state: PENDING_COMMAND, message: ENABLED_READY
+18:59:51.031--BluetoothAdapterState Entering BleOnState
+18:59:51.033--BluetoothAdapterService setRPAGeneration false
+09:42:50.773--BluetoothManagerService -- ===== BOOT_COMPLETED =====false false false
+09:42:50.774--[0008]{0019}(24::false)(25::false)
+09:42:56.459--BluetoothAdapterState Entering OffState
+09:42:56.546--BluetoothAdapterState Current state: OFF, message: BLE_TURN_ON
+09:42:56.586--BluetoothAdapterState Entering PendingCommandState
+09:42:56.755--BluetoothAdapterState Current state: PENDING_COMMAND, message: BLE_STARTED
+09:42:56.776--btsnoop.c -- Config HCI log for external : enable=0
+09:42:58.081--[3005]{0014}(02::0)
+09:42:58.093--BluetoothAdapterState Current state: PENDING_COMMAND, message: ENABLED_READY
+09:42:58.099--BluetoothAdapterState Entering BleOnState
+09:42:58.103--BluetoothAdapterService setRPAGeneration false
+16:51:00.984--BluetoothManagerService -- ===== BOOT_COMPLETED =====false false false
+16:51:00.985--[0008]{0019}(24::false)(25::false)
+16:51:06.872--BluetoothAdapterState Entering OffState
+16:51:06.971--BluetoothAdapterState Current state: OFF, message: BLE_TURN_ON
+16:51:07.029--BluetoothAdapterState Entering PendingCommandState
+16:51:07.156--BluetoothAdapterState Current state: PENDING_COMMAND, message: BLE_STARTED
+16:51:07.162--btsnoop.c -- Config HCI log for external : enable=0
+16:51:08.434--[3005]{0014}(02::0)
+16:51:08.453--BluetoothAdapterState Current state: PENDING_COMMAND, message: ENABLED_READY
+16:51:08.460--BluetoothAdapterState Entering BleOnState
+16:51:08.465--BluetoothAdapterService setRPAGeneration false
+18:07:09.961--BluetoothAdapter -- enable() called by PID : 1325 @ com.android.systemui
+18:07:10.031--BluetoothAdapterState Current state: BLE ON, message: USER_TURN_ON
+18:07:10.150--BluetoothAdapterState Entering PendingCommandState
+18:07:10.308--HFSM-enter Disconnected
+18:07:10.309--[1004]{000C}(2C::0)
+18:07:10.489--BluetoothAdapterState Current state: PENDING_COMMAND, message: BREDR_STARTED
+18:07:10.491--btif_core.c -- BTIF ENABLE BREDR
+18:07:10.492--[3005]{0016}
+18:07:10.508--BluetoothAdapterState Current state: PENDING_COMMAND, message: BREDR_NATIVE_STARTED
+18:07:10.576--BluetoothAdapterState Entering OnState
+18:07:10.605--BluetoothAdapterService setRPAGeneration true
+18:07:10.672--[1006]{001A}(03::null)
+18:27:00.767--DSM-getHighPriorityDevice : null
+19:28:12.877--BluetoothAdapter -- disable() called by PID : 1325 @ com.android.systemui
+19:28:12.926--BluetoothAdapterState Current state: ON, message: BLE_TURN_OFF
+19:28:12.954--BluetoothAdapterState Entering PendingCommandState
+19:28:12.976--BluetoothAdapterState Current state: PENDING_COMMAND, message: BEGIN_DISABLE
+19:28:12.976--[1006]{001B}
+19:28:12.979--btif_core.c -- BTIF DISABLE BR/EDR
+19:28:12.980--[3005]{0015}
+19:28:13.184--BluetoothAdapterState Current state: PENDING_COMMAND, message: BREDR_NATIVE_STOPED
+19:28:13.282--MapSvc-Email Account is Removed
+19:28:13.299--BluetoothAdapterState Current state: PENDING_COMMAND, message: BREDR_STOPPED
+19:28:13.301--BluetoothAdapterState Entering BleOnState
+19:28:13.337--BluetoothAdapterService setRPAGeneration false
+16:08:26.772--BluetoothAdapter -- enable() called by PID : 1325 @ com.android.systemui
+16:08:26.817--BluetoothAdapterState Current state: BLE ON, message: USER_TURN_ON
+16:08:26.952--BluetoothAdapterState Entering PendingCommandState
+16:08:27.001--HFSM-enter Disconnected
+16:08:27.005--[1004]{000C}(2C::0)
+16:08:27.177--BluetoothAdapterState Current state: PENDING_COMMAND, message: BREDR_STARTED
+16:08:27.185--btif_core.c -- BTIF ENABLE BREDR
+16:08:27.187--[3005]{0016}
+16:08:27.213--BluetoothAdapterState Current state: PENDING_COMMAND, message: BREDR_NATIVE_STARTED
+16:08:27.282--BluetoothAdapterState Entering OnState
+16:08:27.321--[1006]{001A}(03::null)
+16:08:27.359--BluetoothAdapterService setRPAGeneration true
+16:14:39.591--BluetoothAdapter -- disable() called by PID : 1325 @ com.android.systemui
+16:14:39.679--BluetoothAdapterState Current state: ON, message: BLE_TURN_OFF
+16:14:39.737--BluetoothAdapterState Entering PendingCommandState
+16:14:39.779--[1006]{001B}
+16:14:39.798--BluetoothAdapterState Current state: PENDING_COMMAND, message: BEGIN_DISABLE
+16:14:39.803--btif_core.c -- BTIF DISABLE BR/EDR
+16:14:39.806--[3005]{0015}
+16:14:40.005--BluetoothAdapterState Current state: PENDING_COMMAND, message: BREDR_NATIVE_STOPED
+16:14:40.057--MapSvc-Email Account is Removed
+16:14:40.064--BluetoothAdapterState Current state: PENDING_COMMAND, message: BREDR_STOPPED
+16:14:40.069--BluetoothAdapterState Entering BleOnState
+16:14:40.101--BluetoothAdapterService setRPAGeneration false
+

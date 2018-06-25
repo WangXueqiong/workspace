@@ -1,0 +1,240 @@
+DISPLAY MANAGER (dumpsys display)
+  mOnlyCode=false
+  mSafeMode=false
+  mPendingTraversal=false
+  mGlobalDisplayState=ON
+  mNextNonDefaultDisplayId=1
+  mDefaultViewport=DisplayViewport{valid=true, displayId=0, orientation=0, logicalFrame=Rect(0, 0 - 1080, 1920), physicalFrame=Rect(0, 0 - 1080, 1920), deviceWidth=1080, deviceHeight=1920}
+  mExternalTouchViewport=DisplayViewport{valid=false, displayId=0, orientation=0, logicalFrame=Rect(0, 0 - 0, 0), physicalFrame=Rect(0, 0 - 0, 0), deviceWidth=0, deviceHeight=0}
+  mSingleDisplayDemoMode=false
+  mWifiDisplayScanRequestCount=0
+  mDisplayDensity=420dp
+
+Display Adapters: size=4
+  LocalDisplayAdapter
+  OverlayDisplayAdapter
+    mCurrentOverlaySetting=
+    mOverlays: size=0
+  WifiDisplayAdapter
+    mCurrentStatus=WifiDisplayStatus{featureState=2, scanState=0, activeDisplayState=0, activeDisplay=null, displays=[], sessionInfo=WifiDisplaySessionInfo: C/O:Client,GId:,Pp:,SId:0,IP:}
+    mFeatureState=2
+    mScanState=0
+    mActiveDisplayState=0
+    mActiveDisplay=null
+    mDisplays=[]
+    mAvailableDisplays=[]
+    mRememberedDisplays=[]
+    mPendingStatusChangeBroadcast=false
+    mSupportsProtectedBuffers=false
+    mDisplayController:
+      mWifiDisplayOnSetting=false
+      mWifiP2pEnabled=true
+      mWfdEnabled=false
+      mWfdEnabling=false
+      mNetworkInfo=[type: WIFI_P2P[], state: UNKNOWN/IDLE, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: true]
+      mScanRequested=false
+      mDiscoverPeersInProgress=false
+      mDesiredDevice=null
+      mConnectingDisplay=null
+      mDisconnectingDisplay=null
+      mCancelingDisplay=null
+      mConnectedDevice=null
+      mConnectionRetriesLeft=0
+      mRemoteDisplay=null
+      mRemoteDisplayInterface=null
+      mRemoteDisplayConnected=false
+      mAdvertisedDisplay=null
+      mAdvertisedDisplaySurface=null
+      mAdvertisedDisplayWidth=0
+      mAdvertisedDisplayHeight=0
+      mAdvertisedDisplayFlags=0
+      mBackupShowTouchVal=0
+      mFast_NeedFastRtsp=false
+      mFast_DesiredMac=null
+      mIsNeedRotate=true
+      mIsConnected_OtherP2p=false
+      mIsConnecting_P2p_Rtsp=false
+      mIsWFDConnected=false
+      mDRMContent_Mediaplayer=false
+      mPlayerID_Mediaplayer=0
+      mAvailableWifiDisplayPeers: size=0
+  VirtualDisplayAdapter
+
+Display Devices: size=1
+  DisplayDeviceInfo{"åç½®å±å¹": uniqueId="local:0", 1080 x 1920, modeId 1, defaultModeId 1, supportedModes [{id=1, width=1080, height=1920, fps=59.610004}], density 420, 403.411 x 403.041 dpi, appVsyncOff 8300000, presDeadline 9475708, touch INTERNAL, rotation 0, type BUILT_IN, state ON, FLAG_DEFAULT_DISPLAY, FLAG_ROTATES_WITH_CONTENT, FLAG_SECURE, FLAG_SUPPORTS_PROTECTED_BUFFERS}
+    mAdapter=LocalDisplayAdapter
+    mUniqueId=local:0
+    mDisplayToken=android.os.BinderProxy@9493c2e
+    mCurrentLayerStack=0
+    mCurrentOrientation=0
+    mCurrentLayerStackRect=Rect(0, 0 - 1080, 1920)
+    mCurrentDisplayRect=Rect(0, 0 - 1080, 1920)
+    mCurrentSurface=null
+    mBuiltInDisplayId=0
+    mActiveModeId=1
+    mState=ON
+    mBrightness=4
+    mBacklight=com.android.server.lights.LightsService$LightImpl@e18d3cf
+
+Logical Displays: size=1
+  Display 0:
+    mDisplayId=0
+    mLayerStack=0
+    mHasContent=true
+    mRequestedMode=0
+    mDisplayOffset=(0, 0)
+    mPrimaryDisplayDevice=åç½®å±å¹
+    mBaseDisplayInfo=DisplayInfo{"åç½®å±å¹", uniqueId "local:0", app 1080 x 1920, real 1080 x 1920, largest app 1080 x 1920, smallest app 1080 x 1920, mode 1, defaultMode 1, modes [{id=1, width=1080, height=1920, fps=59.610004}], rotation 0, density 420 (403.411 x 403.041) dpi, layerStack 0, appVsyncOff 8300000, presDeadline 9475708, type BUILT_IN, state ON, FLAG_SECURE, FLAG_SUPPORTS_PROTECTED_BUFFERS}
+    mOverrideDisplayInfo=DisplayInfo{"åç½®å±å¹", uniqueId "local:0", app 1080 x 1920, real 1080 x 1920, largest app 1920 x 1857, smallest app 1080 x 1017, mode 1, defaultMode 1, modes [{id=1, width=1080, height=1920, fps=59.610004}], rotation 0, density 420 (403.411 x 403.041) dpi, layerStack 0, appVsyncOff 8300000, presDeadline 9475708, type BUILT_IN, state ON, FLAG_SECURE, FLAG_SUPPORTS_PROTECTED_BUFFERS}
+
+Callbacks: size=59
+  0: mPid=1125, mWifiDisplayScanRequested=false
+  1: mPid=1629, mWifiDisplayScanRequested=false
+  2: mPid=1713, mWifiDisplayScanRequested=false
+  3: mPid=1928, mWifiDisplayScanRequested=false
+  4: mPid=1938, mWifiDisplayScanRequested=false
+  5: mPid=1982, mWifiDisplayScanRequested=false
+  6: mPid=2044, mWifiDisplayScanRequested=false
+  7: mPid=2056, mWifiDisplayScanRequested=false
+  8: mPid=2069, mWifiDisplayScanRequested=false
+  9: mPid=2081, mWifiDisplayScanRequested=false
+  10: mPid=2093, mWifiDisplayScanRequested=false
+  11: mPid=2099, mWifiDisplayScanRequested=false
+  12: mPid=2111, mWifiDisplayScanRequested=false
+  13: mPid=2123, mWifiDisplayScanRequested=false
+  14: mPid=2128, mWifiDisplayScanRequested=false
+  15: mPid=2147, mWifiDisplayScanRequested=false
+  16: mPid=2187, mWifiDisplayScanRequested=false
+  17: mPid=2369, mWifiDisplayScanRequested=false
+  18: mPid=2521, mWifiDisplayScanRequested=false
+  19: mPid=2648, mWifiDisplayScanRequested=false
+  20: mPid=2734, mWifiDisplayScanRequested=false
+  21: mPid=2924, mWifiDisplayScanRequested=false
+  22: mPid=3468, mWifiDisplayScanRequested=false
+  23: mPid=3630, mWifiDisplayScanRequested=false
+  24: mPid=3804, mWifiDisplayScanRequested=false
+  25: mPid=3888, mWifiDisplayScanRequested=false
+  26: mPid=3961, mWifiDisplayScanRequested=false
+  27: mPid=4123, mWifiDisplayScanRequested=false
+  28: mPid=4295, mWifiDisplayScanRequested=false
+  29: mPid=4316, mWifiDisplayScanRequested=false
+  30: mPid=4462, mWifiDisplayScanRequested=false
+  31: mPid=4751, mWifiDisplayScanRequested=false
+  32: mPid=4928, mWifiDisplayScanRequested=false
+  33: mPid=5064, mWifiDisplayScanRequested=false
+  34: mPid=5191, mWifiDisplayScanRequested=false
+  35: mPid=5439, mWifiDisplayScanRequested=false
+  36: mPid=6028, mWifiDisplayScanRequested=false
+  37: mPid=6132, mWifiDisplayScanRequested=false
+  38: mPid=6174, mWifiDisplayScanRequested=false
+  39: mPid=6298, mWifiDisplayScanRequested=false
+  40: mPid=6605, mWifiDisplayScanRequested=false
+  41: mPid=6954, mWifiDisplayScanRequested=false
+  42: mPid=7071, mWifiDisplayScanRequested=false
+  43: mPid=7825, mWifiDisplayScanRequested=false
+  44: mPid=7883, mWifiDisplayScanRequested=false
+  45: mPid=7901, mWifiDisplayScanRequested=false
+  46: mPid=7929, mWifiDisplayScanRequested=false
+  47: mPid=8309, mWifiDisplayScanRequested=false
+  48: mPid=8460, mWifiDisplayScanRequested=false
+  49: mPid=8476, mWifiDisplayScanRequested=false
+  50: mPid=8537, mWifiDisplayScanRequested=false
+  51: mPid=9277, mWifiDisplayScanRequested=false
+  52: mPid=9337, mWifiDisplayScanRequested=false
+  53: mPid=9367, mWifiDisplayScanRequested=false
+  54: mPid=9401, mWifiDisplayScanRequested=false
+  55: mPid=9413, mWifiDisplayScanRequested=false
+  56: mPid=9439, mWifiDisplayScanRequested=false
+  57: mPid=10211, mWifiDisplayScanRequested=false
+  58: mPid=10314, mWifiDisplayScanRequested=false
+
+Display Power Controller Locked State:
+  DEBUG=true
+  mDisplayReadyLocked=true
+  mPendingRequestLocked=policy=BRIGHT, useProximitySensor=false, screenBrightness=4, screenAutoBrightnessAdjustment=0.0, brightnessSetByUser=true, useAutoBrightness=false, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=-1, dozeScreenState=UNKNOWN
+  mPendingRequestChangedLocked=false
+  mPendingWaitForNegativeProximityLocked=false
+  mPendingUpdatePowerStateLocked=false
+
+Display Power Controller Configuration:
+  mScreenBrightnessDozeConfig=3
+  mScreenBrightnessDimConfig=10
+  mScreenBrightnessDarkConfig=3
+  mScreenBrightnessRangeMinimum=3
+  mScreenBrightnessRangeMaximum=255
+  mUseSoftwareAutoBrightnessConfig=true
+  mAllowAutoBrightnessWhileDozingConfig=false
+  mColorFadeFadesConfig=false
+
+Display Power Controller Thread State:
+  mPowerRequest=policy=BRIGHT, useProximitySensor=false, screenBrightness=4, screenAutoBrightnessAdjustment=0.0, brightnessSetByUser=true, useAutoBrightness=false, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=-1, dozeScreenState=UNKNOWN
+  mWaitingForNegativeProximity=false
+  mProximitySensor={Sensor name="PROXIMITY", vendor="MTK", version=1, type=8, maxRange=1.0, resolution=1.0, power=0.13, minDelay=0}
+  mProximitySensorEnabled=false
+  mProximityThreshold=1.0
+  mProximity=Unknown
+  mPendingProximity=Unknown
+  mPendingProximityDebounceTime=-1 (2895494 ms ago)
+  mScreenOffBecauseOfProximity=false
+  mAppliedAutoBrightness=false
+  mAppliedDimming=false
+  mAppliedLowPower=false
+  mPendingScreenOnUnblocker=null
+  mPendingScreenOff=false
+  mReportedToPolicy=REPORTED_TO_POLICY_SCREEN_ON
+  mScreenBrightnessRampAnimator.isAnimating()=false
+  mColorFadeOnAnimator.isStarted()=false
+  mColorFadeOffAnimator.isStarted()=false
+
+Display Power State:
+  mScreenState=ON
+  mScreenBrightness=4
+  mScreenReady=true
+  mScreenUpdatePending=false
+  mColorFadePrepared=false
+  mColorFadeLevel=1.0
+  mColorFadeReady=true
+  mColorFadeDrawPending=false
+
+Photonic Modulator State:
+  mPendingState=ON
+  mPendingBacklight=4
+  mActualState=ON
+  mActualBacklight=4
+  mChangeInProgress=false
+
+Color Fade State:
+  mPrepared=false
+  mMode=1
+  mDisplayLayerStack=0
+  mDisplayWidth=1080
+  mDisplayHeight=1920
+  mSurfaceVisible=false
+  mSurfaceAlpha=0.0
+
+Automatic Brightness Controller Configuration:
+  mScreenAutoBrightnessSpline=MonotoneCubicSpline{[(0.0, 0.14901961: 0.043137252), (1.0, 0.19215687: 0.03856209), (4.0, 0.29411766: 0.00326521), (40.0, 0.33333334: 1.343767E-4), (350.0, 0.44313726: 3.8102473E-4), (600.0, 0.54509807: 3.6078435E-4), (1000.0, 0.67058825: 2.843137E-4), (1600.0, 0.8235294: 1.8907562E-4), (3000.0, 0.99607843: 1.6806034E-6), (10000.0, 1.0: 1.5209082E-8)]}
+  mScreenBrightnessRangeMinimum=3
+  mScreenBrightnessRangeMaximum=255
+  mLightSensorWarmUpTimeConfig=0
+  mBrighteningLightDebounceConfig=2000
+  mDarkeningLightDebounceConfig=5000
+  mResetAmbientLuxAfterWarmUpConfig=true
+  mLightSensorRate=250
+
+Automatic Brightness Controller State:
+  mLightSensor={Sensor name="LIGHT", vendor="MTK", version=1, type=5, maxRange=10240.0, resolution=1.0, power=0.13, minDelay=0}
+  mTwilight.getCurrentState()={TwilightState: isNight=false, mYesterdaySunset=2017å¹´12æ23æ¥ ä¸å5:25:29, mTodaySunrise=2017å¹´12æ24æ¥ ä¸å7:05:10, mTodaySunset=2017å¹´12æ24æ¥ ä¸å5:26:02, mTomorrowSunrise=2017å¹´12æ25æ¥ ä¸å7:05:34}
+  mLightSensorEnabled=false
+  mLightSensorEnableTime=0 (2895495 ms ago)
+  mAmbientLux=0.0
+  mBrighteningLuxThreshold=0.0
+  mDarkeningLuxThreshold=0.0
+  mLastObservedLux=0.0
+  mLastObservedLuxTime=0 (2895495 ms ago)
+  mRecentLightSamples=0
+  mAmbientLightRingBuffer=[]
+  mScreenAutoBrightness=-1
+  mScreenAutoBrightnessAdjustment=0.0
+  mLastScreenAutoBrightnessGamma=1.0
+  mDozing=false

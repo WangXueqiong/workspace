@@ -1,0 +1,60 @@
+BgDexOpt: false
+0
+BatteryTemperature:33.0
+BatteryLevel:100
+CpuUsageRate:16.34%
+Started users: u0 
+Registered jobs:
+  333..:[ComponentInfo{com.android.providers.downloads/com.android.providers.downloads.DownloadIdleService},jId=1,u0,R=(19:52:15,43:52:15),N=0,C=true,I=true,F=0,P=true,ANI=true]
+  199..:[ComponentInfo{com.android.deskclock/com.android.deskclock.alarms.staralarm.StarAwakeStatisticsService},jId=1,u0,R=(-47:51,18:01:10),N=1,C=false,I=true,F=0,P=true,ANI=true]
+  152..:[ComponentInfo{android/com.android.server.MountServiceIdler},jId=808,u0,R=(9:37:25,none),N=0,C=true,I=true,F=0,P=false,ANI=true]
+  182..:[ComponentInfo{com.letv.domain/com.letv.domain.services.JobSchedulerService},jId=1,u0,R=(5:12:36,11:12:36),N=1,C=false,I=false,F=0,P=false,ANI=true]
+  229..:[ComponentInfo{com.letv.android.mobileactivation/com.letv.android.mobileactivation.job.FirstJobService},jId=10,u0,R=(03:14,none),N=1,C=false,I=false,F=0,P=false,ANI=true]
+  244..:[ComponentInfo{com.letv.android.mobileactivation/com.letv.android.mobileactivation.job.SupportJobService},jId=99,u0,R=(03:14,none),N=1,C=false,I=false,F=0,P=false,ANI=true]
+  246..:[ComponentInfo{android/com.android.server.backup.KeyValueBackupJob},jId=20537,u0,R=(3:14:35,23:12:14),N=1,C=true,I=false,F=0,P=false,ANI=true]
+  255..:[ComponentInfo{com.android.music/com.android.music.service.MusicInfoSyncJobService},jId=0,u0,R=(7:02:27,none),N=1,C=false,I=false,F=0,P=true,ANI=true]
+
+Conn.
+connected: false unmetered: false
+199..: C=true, UM=false
+246..: C=true, UM=false
+255..: C=true, UM=false
+182..: C=true, UM=false
+229..: C=true, UM=false
+244..: C=true, UM=false
+
+Alarms (2896713)
+Next delay alarm in 194s
+Next deadline alarm in 40356s
+Tracking:
+182..: (21653443, 43253443)
+199..: (24853, 67767640)
+246..: (14571747, 86431509)
+333..: (74432048, 160832048)
+244..: (3091404, N/A)
+229..: (3091398, N/A)
+255..: (28243790, N/A)
+152..: (37541887, N/A)
+
+Idle: false
+3
+  333..
+  199..
+  152..
+
+Batt.
+Stable power: true
+3331921,152936916,246761808
+
+AppIdle
+Parole On: true
+com.android.providers.downloads:idle=false, com.android.deskclock:idle=false, android:idle=false, android:idle=false, com.android.music:idle=false, com.letv.domain:idle=false, com.letv.android.mobileactivation:idle=false, com.letv.android.mobileactivation:idle=false, 
+
+
+Pending:
+
+Active jobs:
+
+mReadyToRock=true
+mDeviceIdleMode=false
+

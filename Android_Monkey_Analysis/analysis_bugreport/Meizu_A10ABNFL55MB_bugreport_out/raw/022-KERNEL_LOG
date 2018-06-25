@@ -1,0 +1,62 @@
+<7>[17373.548857]<0>-(0)[299:servicemanager][PTP] ptp_detectors[PTP_DET_CPU].volt_tbl[0] = 0x0000003E (108750)
+<7>[17373.548865]<0>-(0)[299:servicemanager][PTP] ptp_detectors[PTP_DET_CPU].volt_tbl[1] = 0x00000038 (105000)
+<7>[17373.548872]<0>-(0)[299:servicemanager][PTP] ptp_detectors[PTP_DET_CPU].volt_tbl[2] = 0x00000032 (101250)
+<7>[17373.548879]<0>-(0)[299:servicemanager][PTP] ptp_detectors[PTP_DET_CPU].volt_tbl[3] = 0x0000002B (96875)
+<7>[17373.548886]<0>-(0)[299:servicemanager][PTP] ptp_detectors[PTP_DET_CPU].volt_tbl[4] = 0x00000026 (93750)
+<7>[17373.548893]<0>-(0)[299:servicemanager][PTP] ptp_detectors[PTP_DET_CPU].volt_tbl[5] = 0x00000020 (90000)
+<7>[17373.548901]<0>-(0)[299:servicemanager][PTP] ptp_detectors[PTP_DET_CPU].volt_tbl[6] = 0x00000020 (90000)
+<7>[17373.548908]<0>-(0)[299:servicemanager][PTP] ptp_detectors[PTP_DET_CPU].volt_tbl[7] = 0x00000020 (90000)
+<7>[17373.548913]<0>-(0)[299:servicemanager][PTP] ptp_level = 0x00000000
+<7>[17373.548919]<0>-(0)[299:servicemanager][PTP] ptp_set_ptp_volt cur_temp = 55600
+<7>[17373.563468]<0>-(5)[5593:Signal Catcher][5593:Signal Catcher] sig 33 to [7669:Binder_4] stat=S
+<7>[17373.567816]<0>-(2)[5430:Signal Catcher][5430:Signal Catcher] sig 33 to [5545:WifiManager] stat=S
+<7>[17373.571399]<0> (1)[2143:RenderThread][2143:RenderThread] fork [2415:RenderThread]
+<7>[17373.579203]<0>-(5)[5593:Signal Catcher][5593:Signal Catcher] sig 33 to [5657:default] stat=S
+<3>[17373.585299]<0> (1)[1004:Thread-81][BACKLIGHT]: lm3695_set_backlight 229
+<3>[17373.589112]<0> (1)[1004:Thread-81][BACKLIGHT]: lm3695_set_backlight 229
+<6>[17373.590641]<0> (0)[301:surfaceflinger][fence/] P+/P0/L5/id54331
+<6>[17373.590689]<0> (0)[301:surfaceflinger][fence/] P+/P0/L0/id54125/fd93/mva0x04100000/size0x007f8000
+<6>[17373.591263]<0> (0)[301:surfaceflinger][fence/] P+/P0/L1/id50123/fd96/mva0x03900000/size0x007f8000
+<6>[17373.591932]<0> (0)[301:surfaceflinger][fence/] P+/P0/L2/id5063/fd97/mva0x04900000/size0x007f8000
+<6>[17373.592078]<0> (1)[728:UICompThread_0][fence/] S+/P0/count4
+<6>[17373.592100]<0> (1)[728:UICompThread_0][fence/] S+/PL0/e1/id54125/1080x1920(0,0)(0,0)/RGBX8888/1088/0x00000000/mva0x04100000/sec0
+<6>[17373.592120]<0> (1)[728:UICompThread_0][fence/] S+/PL1/e1/id50123/1080x1920(0,0)(0,0)/RGBA8888/1088/0x00000000/mva0x03900000/sec0
+<6>[17373.592134]<0> (1)[728:UICompThread_0][fence/] S+/PL2/e1/id5063/1080x1920(0,0)(0,0)/RGBA8888/1088/0x00000000/mva0x04900000/sec0
+<6>[17373.592145]<0> (1)[728:UICompThread_0][fence/] S+/PL3/e0/id3723
+<6>[17373.592206]<0> (1)[728:UICompThread_0][fence/] T+/P0/54331/0
+<6>[17373.596171]<0> (2)[143:present_fence_w][fence/] R+/P0/L5/id54331
+<6>[17373.596211]<0> (1)[30704:kworker/u16:4][fence/] R+/P0/L0/id54124/last54123/new54125/free/idx54124/mva0x5100000
+<7>[17373.597452]<0>-(5)[5593:Signal Catcher][5593:Signal Catcher] sig 33 to [20382:default] stat=S
+<7>[17373.601112]<0>-(2)[5430:Signal Catcher][5430:Signal Catcher] sig 33 to [5547:ontrollerWorker] stat=S
+<3>[17373.605519]<0> (2)[1004:Thread-81][BACKLIGHT]: lm3695_set_backlight 229
+<6>[17373.606050]<0> (5)[301:surfaceflinger][fence/] P+/P0/L5/id54332
+<6>[17373.606748]<0> (5)[301:surfaceflinger][fence/] P+/P0/L0/id54126/fd102/mva0x05100000/size0x007f8000
+<6>[17373.608462]<0> (0)[728:UICompThread_0][fence/] S+/P0/count4
+<6>[17373.608486]<0> (0)[728:UICompThread_0][fence/] S+/PL0/e1/id54126/1080x1920(0,0)(0,0)/RGBA8888/1088/0x00000000/mva0x05100000/sec0
+<6>[17373.608499]<0> (0)[728:UICompThread_0][fence/] S+/PL1/e0/id50123
+<6>[17373.608507]<0> (0)[728:UICompThread_0][fence/] S+/PL2/e0/id5063
+<6>[17373.608516]<0> (0)[728:UICompThread_0][fence/] S+/PL3/e0/id3723
+<6>[17373.608572]<0> (0)[728:UICompThread_0][fence/] T+/P0/54332/0
+<7>[17373.611775]<0> (2)[2:kthreadd][2:kthreadd] fork [2416:kthreadd]
+<6>[17373.612659]<0> (2)[143:present_fence_w][fence/] R+/P0/L5/id54332
+<6>[17373.612720]<0> (5)[30704:kworker/u16:4][fence/] R+/P0/L0/id54125/last54124/new54126/free/idx54125/mva0x4100000
+<6>[17373.612740]<0> (5)[30704:kworker/u16:4][fence/] R+/P0/L1/id50123/last50122/new50123/free/idx50123/mva0x3900000
+<6>[17373.612756]<0> (5)[30704:kworker/u16:4][fence/] R+/P0/L2/id5063/last5062/new5063/free/idx5063/mva0x4900000
+<7>[17373.616283]<0>-(1)[5593:Signal Catcher][5593:Signal Catcher] sig 33 to [31908:RenderThread] stat=S
+<3>[17373.497904]<0> (5)[2231:kworker/u16:0]AEE_MONITOR_SET[status]: 0x1
+<6>[17373.619531]<0> (5)[2231:kworker/u16:0][GTP]GTP wakeup sleep.<3>[17373.619544]<0> (5)[2231:kworker/u16:0][GTP]Driver Send Config version 00
+<3>[17373.621827]<0> (2)[1004:Thread-81][BACKLIGHT]: lm3695_set_backlight 229
+<7>[17373.627368]<0>-(3)[5430:Signal Catcher][5430:Signal Catcher] sig 33 to [5549:v3.CommonWorker] stat=S
+<2>[17373.629074]<0> (0)[29611:kworker/0:0][VcoreFS] pdn = 0x40, curr_pdn = 0x30 
+<4>[17373.629091]<0> (0)[29611:kworker/0:0][sdio_stop_transfer] mtk_msdc_host[2] = NULL
+<4>[17373.629100]<0> (0)[29611:kworker/0:0][sdio_stop_transfer] msdc3 prev. online tuning done, host->ot_work.chg_volt = 0
+<2>[17373.630727]<0> (0)[29611:kworker/0:0][VcoreFS] curr_pdn = 0x40
+<4>[17373.630741]<0> (0)[29611:kworker/0:0][sdio_start_ot_transfer] mtk_msdc_host[2] = NULL
+<4>[17373.630747]<0> (0)[29611:kworker/0:0][sdio_start_ot_transfer] msdc3 Check vcore
+<3>[17373.630757]<0> (0)[29611:kworker/0:0][AUTO_K][autok_get_current_vcore_offset] vcore_uv = 1125000uV
+<3>[17373.630766]<0> (0)[29611:kworker/0:0][AUTO_K][autok_get_current_vcore_offset] Current Vcore = 1125000uV(0x44)
+
+<3>[17373.630784]<0> (0)[29611:kworker/0:0][AUTO_K]Cur Vcore:1125000uV, Sel Vcore:1125000uV
+<7>[17373.630919]<0> (2)[2:kthreadd][2:kthreadd] fork [2417:kthreadd]
+<2>[17373.631034]<0> (0)[29611:kworker/0:0]
+

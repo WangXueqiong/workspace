@@ -1,0 +1,1919 @@
+SERVICE com.tianyancha.skyeye/org.android.agoo.accs.AgooService 1564a2a pid=2484
+  Client:
+    nothing to dump
+
+SERVICE com.sec.android.app.soundalive/.SAControlPanelService 3d16310 pid=20342
+  Client:
+    nothing to dump
+
+SERVICE com.sec.android.widgetapp.dualcitywidget/.WeatherClockService ddf6408 pid=3153
+  Client:
+    nothing to dump
+
+SERVICE com.samsung.ucs.agent.boot/.BootAgentService 55c19cd pid=1743
+  Client:
+    nothing to dump
+
+SERVICE com.sec.android.app.bluetoothtest/.BluetoothBDTestService 957c1c3 pid=1301
+  Client:
+    nothing to dump
+
+SERVICE com.qualcomm.atfwd/.AtFwdService e3eff68 pid=23696
+  Client:
+    nothing to dump
+
+SERVICE com.tencent.android.qqdownloader/com.tencent.assistant.daemon.CoreService 70ff5cb pid=25228
+  Client:
+    nothing to dump
+
+SERVICE com.bst.airmessage/.host.AirMessageService 938016b pid=26101
+  Client:
+    nothing to dump
+
+SERVICE com.tencent.android.qqdownloader/com.tencent.assistant.localres.localapk.loadapkservice.GetApkInfoService 580a909 pid=23482
+  Client:
+    nothing to dump
+
+SERVICE com.tencent.mtt/.sdk.BrowserSdkService 2691f54 pid=(not running)
+
+SERVICE com.qihoo.appstore/.AppStoreNotificationListenerService fe35012 pid=(not running)
+
+SERVICE com.sec.android.inputmethod/.SamsungKeypad 5f1924 pid=4420
+  Client:
+    Input method service state for com.sec.android.inputmethod.SamsungKeypad@28a80d0:
+      mWindowCreated=true mWindowAdded=true
+      mWindowVisible=false mWindowWasVisible=false mInShowWindow=false
+      Configuration={0 1.0 showBtnBg = 0 ?mcc?mnc zh_CN ldltr sw360dp w360dp h616dp 480dpi nrml long port finger -keyb/v/h -nav/h mkbd/? s.10}
+      mToken=android.os.BinderProxy@dbb1c24
+      mInputBinding=InputBinding{android.os.BinderProxy@5b536f2 / uid 10008 / pid 1700}
+      mInputConnection=com.android.internal.view.InputConnectionWrapper@6125143
+      mStartedInputConnection=null
+      mInputStarted=true mInputViewStarted=false mCandidatesViewStarted=false
+      mInputEditorInfo:
+        inputType=0x0 imeOptions=0x0 privateImeOptions=null
+        actionLabel=null actionId=0
+        initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0
+        hintText=null label=null
+        packageName=com.sec.android.app.launcher fieldId=-1 fieldName=null
+        extras=null
+      mShowInputRequested=false mLastShowInputRequested=true mShowInputForced=false mShowInputFlags=0x0
+      mCandidatesVisibility=4 mFullscreenApplied=true mIsFullscreen=false mExtractViewHidden=false
+      mExtractedText: null
+      mExtractedToken=0
+      mIsInputViewShown=true mStatusIcon=0
+    Last computed insets:
+      contentTopInsets=288 visibleTopInsets=288 touchableInsets=2 touchableRegion=SkRegion()
+     mShouldClearInsetOfPreviousIme=false
+
+    ####################################
+    SamsungKeyboard Dump state :
+    versionCode : 144505010
+    versionName : 1.4.45
+
+    ConfigFeature Status
+
+    Primary Predict EngineType : XT9
+    Floating Eng : XT9
+    Operator : CHM
+    Region : CHINA
+    RO salesCode : CHM
+    RO countryCode : CHINA
+
+    ===================================
+    Debug Level : 0
+    Tablet Mode :false
+    KoreanMode :false
+    Tablet Mode :false
+    Current Lang Name : ä¸­æ
+    Current Lang ID : [2053653326] Lang Code : [zh] Country Code : [CN]
+    Orient Land : false
+    InputType : 0
+    ImeOptions : 0
+    PrivateImeOptions : null
+
+    ===== EditorInfo status =====
+    isAutoCompleteitionInput : false
+    isUrlEmailMode : false isUrlInputType : false isEmailInputType : false
+    isDigitEditor : true
+    isNumberPasswordInputType : false
+    isNumberOnlyInputType : true
+    isDecimalNumberInputType : false
+    isSignedNumberInputType : false
+    isSignedDecimalNumberInputType : false
+    isTextPasswordInputType : false
+    isPasswordInputType : false
+    isPhoneNumberInputClass : false
+    isDateInputType : false isTimeInputType : false isDateTimeInputType : false
+    isShortMessageInputType : false
+    isSearchInputType : false
+
+    ===== PrivateImeOptions status =====
+    RAW = null
+
+
+    disableAutoCorrection = false
+    disableEmoticonInput= false
+    disableAmbiguousMode = false
+    disableHWRInput = false
+    disableVoice = false
+    disableHanjaInput = false
+    disableClipboard = false
+    disableModeChange = false
+    keyboardHeight = false
+    enabledNextType = false
+
+
+    ===== ShiftController status =====
+    ShiftState : false
+    ShiftPressedState : false
+    ShiftMomentaryState : false
+    PressedShiftKeyCode : -255
+    CapsLockState : false
+    ShiftHoldOn : false
+    SplitTapState : false
+
+    survey Enabled : true
+
+SERVICE com.sec.android.daemonapp/.ap.accuweather.WeatherClockService af6c69f pid=21164
+  Client:
+    nothing to dump
+
+SERVICE com.qihoo.appstore/.scheduler.CoreJobService 5a25b5e pid=(not running)
+
+SERVICE flipboard.cn/cn.jpush.android.service.PushService f5ea92d pid=21285
+  Client:
+    nothing to dump
+
+SERVICE com.tianyancha.skyeye/com.taobao.accs.ChannelService 3c6096e pid=2720
+  Client:
+    nothing to dump
+
+SERVICE com.sec.android.app.music/com.samsung.android.app.music.service.PlayerService fddeef8 pid=30386
+  Client:
+    nothing to dump
+
+SERVICE com.android.systemui/.keyguard.KeyguardService 8110bd0 pid=1325
+  Client:
+    nothing to dump
+
+SERVICE com.android.bluetooth/.btservice.AdapterService 19c0a0b pid=2017
+  Client:
+    nothing to dump
+
+SERVICE com.iflytek.cmcc/com.iflytek.common.LaunchService 29be1c2 pid=(not running)
+
+SERVICE com.android.systemui/.ImageWallpaper 76f9e91 pid=1571
+  Client:
+    State of wallpaper com.android.systemui.ImageWallpaper@2174160:
+      Engine com.android.systemui.ImageWallpaper$DrawableEngine@e05fd06:
+        mInitializing=false mDestroyed=false
+        mVisible=true mReportedVisible=true
+        mDisplay=Display id 0: DisplayInfo{"åç½®å±å¹", uniqueId "local:0", app 1080 x 1920, real 1080 x 1920, largest app 1920 x 1848, smallest app 1080 x 1008, mode 1, defaultMode 1, modes [{id=1, width=1080, height=1920, fps=60.0}], colorTransformId 1, defaultColorTransformId 1, supportedColorTransforms [{id=1, colorTransform=0}], rotation 0, density 480 (422.03 x 424.069) dpi, layerStack 0, appVsyncOff 0, presDeadline 17666667, type BUILT_IN, state ON, FLAG_SECURE, FLAG_SUPPORTS_PROTECTED_BUFFERS}, DisplayMetrics{density=3.0, width=1080, height=1920, scaledDensity=3.0, xdpi=422.03, ydpi=424.069}, isValid=true
+        mCreated=true mSurfaceCreated=true mIsCreating=false mDrawingAllowed=true
+        mWidth=1920 mCurWidth=1920 mHeight=1920 mCurHeight=1920
+        mType=-1 mWindowFlags=16 mCurWindowFlags=16
+        mWindowPrivateFlags=0 mCurWindowPrivateFlags=0
+        mVisibleInsets=[0,72][840,0] mWinFrame=[0,0][1920,1920] mContentInsets=[0,0][840,0]
+        mConfiguration={0 1.0 showBtnBg = -1 ?mcc?mnc zh_CN ?layoutDir ?swdp ?wdp ?hdp ?density ?lsize ?long ?orien ?uimode ?night ?touch ?keyb/?/? ?nav/? mkbd/?}
+        mLayout=WM.LayoutParams{(0,0)(1920x1920) gr=#800033 ty=2013 fl=#318 fmt=2 wanim=0x10302ea}
+        mPendingXOffset=0.0 mPendingXOffset=0.0
+        mPendingXOffsetStep=0.0 mPendingXOffsetStep=0.0
+        mOffsetMessageEnqueued=false mPendingSync=false
+
+SERVICE com.sec.enterprise.mdm.services.simpin/.EnterpriseSimPin ab35005 pid=1301
+  Client:
+    nothing to dump
+
+SERVICE com.amap.android.location/.NetworkLocationService c871e50 pid=1611
+  Client:
+    nothing to dump
+
+SERVICE com.dsi.ant.server/.AntService 38e0b55 pid=847
+  Client:
+    nothing to dump
+
+SERVICE com.bst.airmessage/.AirMsgUiService 817d8ed pid=26101
+  Client:
+    nothing to dump
+
+SERVICE com.sec.location.nsflp2/.nsmonitor.NSMonitorService fd87f2d pid=1621
+  Client:
+
+SERVICE com.android.bluetooth/.gatt.GattService 9c5daf0 pid=2017
+  Client:
+    nothing to dump
+
+SERVICE com.baidu.searchbox/com.baidu.android.pushservice.PushService 36783d8 pid=(not running)
+
+SERVICE com.sec.android.widgetapp.dualcitywidget/.ContactObserverService 3575ab pid=3153
+  Client:
+    nothing to dump
+
+SERVICE com.baidu.searchbox_samsung/com.baidu.hello.MoPlusService cdc3130 pid=21188
+  Client:
+    nothing to dump
+
+SERVICE org.simalliance.openmobileapi.service/.SmartcardService fec0d2e pid=1861
+  Client:
+    SMARTCARD SERVICE (dumpsys activity service org.simalliance.openmobileapi)
+
+      Your build is not debuggable!
+      Smartcard service dump is only availablefor userdebug and eng build
+
+SERVICE com.baidu.searchbox/com.baidu.android.pushservice.CommandService d511a16 pid=(not running)
+
+SERVICE com.baidu.searchbox/com.baidu.sapi2.share.ShareService 47eff97 pid=(not running)
+
+SERVICE com.tencent.android.qqdownloader/com.tencent.wns.service.WnsMain 7c29086 pid=23544
+  Client:
+    nothing to dump
+
+SERVICE com.sec.android.app.eventnotification/.SystemReceiverService c2a1dbb pid=21303
+  Client:
+    nothing to dump
+
+SERVICE com.samsung.dcm/.framework.FrameworkService 17d49cd pid=31245
+  Client:
+    nothing to dump
+
+SERVICE org.simalliance.openmobileapi.service/org.simalliance.openmobileapi.uiccterminal.UiccTerminal d80ab6 pid=1861
+  Client:
+    nothing to dump
+
+SERVICE com.bertadata.qxb/cn.jpush.android.service.DaemonService 4484996 pid=(not running)
+
+SERVICE com.android.bluetooth/.a2dp.A2dpService d41c16d pid=(not running)
+
+SERVICE cn.com.bmac.nfc/cn.jpush.android.service.DaemonService 306f56e pid=(not running)
+
+SERVICE com.wandoujia.phoenix2/com.taobao.agoo.TaobaoMessageIntentReceiverService 2c6f5f0 pid=(not running)
+
+SERVICE com.tencent.mobileqq/.qipc.QIPCServiceEx b2c700 pid=24241
+  Client:
+    nothing to dump
+
+SERVICE com.samsung.sec.android.application.csc/.CscUpdateService 71c58c8 pid=1301
+  Client:
+    nothing to dump
+
+SERVICE com.sec.spp.push/.PushClientService 5f2ac2f pid=17567
+  Client:
+    nothing to dump
+
+SERVICE com.android.systemui/.SystemUIService f69ef80 pid=1325
+  Client:
+    dumping service: com.android.systemui.keyguard.KeyguardViewMediator
+    dumping service: com.android.systemui.recents.Recents
+    dumping service: com.android.systemui.volume.VolumeUI
+    mEnabled=true
+    mVolumeControllerService=null
+    VolumeDialogController state:
+      mEnabled: false
+      mDestroyed: false
+      mVolumePolicy: null
+      mState: {
+        STREAM_VOICE_CALL:4[0..5]
+        STREAM_SYSTEM:6[0..15]
+        STREAM_RING:10[0..15]
+        STREAM_MUSIC:1[0..15]
+        STREAM_ALARM:11[0..15]
+        STREAM_NOTIFICATION:11[0..15]
+        STREAM_BLUETOOTH_SCO:7[0..15]
+        STREAM_SYSTEM_ENFORCED:14[0..15]
+        STREAM_DTMF:12[0..15]
+        STREAM_TTS:2[0..15]
+        ringerModeExternal:2
+        ringerModeInternal:2
+        zenMode:0
+        effectsSuppressor:null
+        effectsSuppressorName:null
+        zenModeConfig:ZenModeConfig[user=0,allowCalls=false,allowRepeatCallers=false,allowMessages=false,allowCallsFrom=contacts,allowMessagesFrom=contacts,allowReminders=false,allowEvents=false,allowAlarms=true,automaticRules={575ff843f5e14a35be8670ad2641e0a4=ZenRule[enabled=false,snoozing=false,name=twschedule,zenMode=ZEN_MODE_ALARMS,conditionId=condition://android/schedule?days=1.2.3.4.5.6.7&start=22.0&end=7.0,condition=Condition[id=condition://android/schedule?days=1.2.3.4.5.6.7&start=22.0&end=7.0,summary=...,line1=...,line2=...,icon=0,state=STATE_FALSE,flags=2],component=ComponentInfo{android/com.android.server.notification.TwScheduleConditionProvider}]},manualRule=null]
+        activeStream:-1
+        }
+      mHasVibrator: true
+      mRemoteStreams: []
+
+    MediaSessions state:
+      mInit: true
+      mRecords.size: 1
+      Controller 1: com.sec.android.app.music
+        PlaybackState: STATE_PAUSED PlaybackState {state=2, position=0, buffered position=0, speed=1.0, updated=348123587, actions=4991, custom actions=[], active item id=-1, error=null}
+        PlaybackInfo: PlaybackInfo[vol=1,max=15,type=LOCAL,vc=VOLUME_CONTROL_ABSOLUTE],atts=AudioAttributes: usage=1 content=0 flags=0x0 tags=
+      MediaMetadata.desc=Over the horizon, Samsung, Samsung
+        RatingType: 0
+        Flags: 3
+        Extras:
+          com.sec.android.app.music.EXTRA_HAS_NEXT_SONG=false
+          com.sec.android.app.music.EXTRA_SHUFFLE=0
+          com.sec.android.app.music.EXTRA_REPEAT=0
+        Queue:
+          MediaSession.QueueItem {Description=Over the horizon, Samsung, null, Id=0 }
+        sessionActivity: null
+    SecVolumeDialog state:
+      mShowing: false
+      mExpanded: false
+      mExpandButtonAnimationRunning: false
+      mActiveStream: -1
+      mDynamic: {}
+      mShowHeaders: true
+      mAutomute: true
+      mSilentMode: false
+      mCollapseTime: 0
+      mAccessibility.mFeedbackEnabled: false
+    dumping service: com.android.systemui.statusbar.SystemBars
+    Current Status Bar state:
+      mExpandedVisible=false, mTrackingPosition=0
+      mTickerEnabled=false
+      mTracking=false
+      mDisplayMetrics=DisplayMetrics{density=3.0, width=1080, height=1920, scaledDensity=3.0, xdpi=422.03, ydpi=424.069}
+      mStackScroller: [(0,0)(1080,1818) 1080x1818]
+      mStackScroller: [(0,0)(1080,1818) 1080x1818] scroll 0,0
+      mInteractingWindows=0
+      mStatusBarWindowState=WINDOW_STATE_SHOWING
+      mStatusBarMode=MODE_TRANSPARENT
+      mDozing=false
+      mZenMode=ZEN_MODE_OFF
+      mUseHeadsUp=true
+      interrupting package: null
+      mStatusBarView.BarTransitions.mMode=MODE_TRANSPARENT
+      mNavigationBarView=null
+      mMediaSessionManager=android.media.session.MediaSessionManager@2edc2c5
+      mMediaNotificationKey=0|com.sec.android.app.music|117506050|null|10150
+      mMediaController=android.media.session.MediaController@b8e47fc state=PlaybackState {state=2, position=0, buffered position=0, speed=1.0, updated=348123587, actions=4991, custom actions=[], active item id=-1, error=null}
+      mMediaMetadata=android.media.MediaMetadata@e6b9e85 title=Over the horizon
+      Panels: 
+        mNotificationPanel=com.android.systemui.statusbar.phone.NotificationPanelView{ea10b54 G.E...... ......ID 0,0-1080,1920 #7f0f01f3 app:id/notification_panel} params=ViewGroup.LayoutParams={ width=match-parent, height=match-parent }
+          [PanelView(NotificationPanelView): expandedHeight=0.000000 maxPanelHeight=1215 closing=f tracking=f justPeeked=f peekAnim=null timeAnim=null touchDisabled=f]
+      mLightStatusBarMode=false
+      mCallBackgroundMode=0
+      active notifications: 3
+        [0] key=0|com.sec.android.app.music|117506050|null|10150 icon=StatusBarIconView(slot=com.sec.android.app.music/0x7010002 icon=StatusBarIcon(icon=Icon(typ=RESOURCE pkg=com.sec.android.app.music id=0x7f020222) visible user=0 ) notification=Notification(pri=0 contentView=com.sec.android.app.music/0x7f0400b8 vibrate=null sound=null defaults=0x0 flags=0x62 color=0x00000000 vis=PUBLIC secFlags=0x0 secPriority=0))
+            pkg=com.sec.android.app.music id=117506050 score=0
+            notification=Notification(pri=0 contentView=com.sec.android.app.music/0x7f0400b8 vibrate=null sound=null defaults=0x0 flags=0x62 color=0x00000000 vis=PUBLIC secFlags=0x0 secPriority=0)
+            tickerText="null"
+        [1] key=0|com.android.systemui|789|null|10017 icon=StatusBarIconView(slot=com.android.systemui/0x315 icon=StatusBarIcon(icon=Icon(typ=RESOURCE pkg=com.android.systemui id=0x7f0203db) visible user=0 ) notification=Notification(pri=0 contentView=com.android.systemui/0x10900a4 vibrate=null sound=null defaults=0x0 flags=0x10 color=0x00000000 actions=3 vis=PRIVATE publicVersion=Notification(pri=0 contentView=com.android.systemui/0x10900a4 vibrate=null sound=null defaults=0x0 flags=0x10 color=0x00000000 category=progress vis=PRIVATE secFlags=0x0 secPriority=0) secFlags=0x0 secPriority=0))
+            pkg=com.android.systemui id=789 score=0
+            notification=Notification(pri=0 contentView=com.android.systemui/0x10900a4 vibrate=null sound=null defaults=0x0 flags=0x10 color=0x00000000 actions=3 vis=PRIVATE publicVersion=Notification(pri=0 contentView=com.android.systemui/0x10900a4 vibrate=null sound=null defaults=0x0 flags=0x10 color=0x00000000 category=progress vis=PRIVATE secFlags=0x0 secPriority=0) secFlags=0x0 secPriority=0)
+            tickerText="null"
+        [2] key=-1|android|17040368|null|1000 icon=StatusBarIconView(slot=android/0x10403f0 icon=StatusBarIcon(icon=Icon(typ=RESOURCE pkg=android id=0x0108081e) visible user=-1 ) notification=Notification(pri=-2 contentView=android/0x10900a4 vibrate=null sound=null tick defaults=0x0 flags=0x2 color=0xff607d8b vis=PUBLIC secFlags=0x0 secPriority=0))
+            pkg=android id=17040368 score=-20
+            notification=Notification(pri=-2 contentView=android/0x10900a4 vibrate=null sound=null tick defaults=0x0 flags=0x2 color=0xff607d8b vis=PUBLIC secFlags=0x0 secPriority=0)
+            tickerText="æ­£å¨éè¿ USB ä¼ è¾å¾ç"
+      inactive notifications: 0
+      system icons: 12
+        [0] icon=StatusBarIconView(slot=managed_profile icon=StatusBarIcon(icon=Icon(typ=RESOURCE pkg=com.android.systemui id=0x7f0204b1) user=0 ) notification=null)
+        [1] icon=StatusBarIconView(slot=knox_container icon=StatusBarIcon(icon=Icon(typ=RESOURCE pkg=com.android.systemui id=0x7f0203a6) user=0 ) notification=null)
+        [2] icon=StatusBarIconView(slot=smart_scroll icon=StatusBarIcon(icon=Icon(typ=RESOURCE pkg=com.samsung.android.smartface id=0x7f020000) user=0 ) notification=null)
+        [3] icon=StatusBarIconView(slot=cast icon=StatusBarIcon(icon=Icon(typ=RESOURCE pkg=com.android.systemui id=0x7f0203f6) user=0 ) notification=null)
+        [4] icon=StatusBarIconView(slot=bluetooth icon=StatusBarIcon(icon=Icon(typ=RESOURCE pkg=com.android.systemui id=0x7f02040b) user=0 ) notification=null)
+        [5] icon=StatusBarIconView(slot=nfc_on icon=StatusBarIcon(icon=Icon(typ=RESOURCE pkg=com.android.nfc id=0x7f02000b) visible user=0 ) notification=null)
+        [6] icon=StatusBarIconView(slot=tty icon=StatusBarIcon(icon=Icon(typ=RESOURCE pkg=com.android.systemui id=0x7f020648) user=0 ) notification=null)
+        [7] icon=StatusBarIconView(slot=zen icon=StatusBarIcon(icon=Icon(typ=RESOURCE pkg=com.android.systemui id=0x7f020674) user=0 ) notification=null)
+        [8] icon=StatusBarIconView(slot=volume icon=StatusBarIcon(icon=Icon(typ=RESOURCE pkg=com.android.systemui id=0x7f02050f) user=0 ) notification=null)
+        [9] icon=StatusBarIconView(slot=vowifi icon=StatusBarIcon(icon=Icon(typ=RESOURCE pkg=com.android.systemui id=0x7f0206a4) user=0 ) notification=null)
+        [10] icon=StatusBarIconView(slot=cdma_eri icon=StatusBarIcon(icon=Icon(typ=RESOURCE pkg=com.android.systemui id=0x7f020511) user=0 ) notification=null)
+        [11] icon=StatusBarIconView(slot=alarm_clock icon=StatusBarIcon(icon=Icon(typ=RESOURCE pkg=com.android.systemui id=0x7f0203f4) user=0 ) notification=null)
+     MoreView: false Shown: false w: 576 Icons:2
+    NetworkController state:
+      CONNECTED network type 1 (WIFI)
+      - telephony ------
+      hasVoiceCallingFeature()=true
+      hasService()=true
+      mHspaDataDistinguishable=true
+      mDataConnected=false
+      mSimState=ABSENT
+      mPhoneState=0
+      mEmgcCallState=false
+      mDataState=-1
+      mDataActivity=0
+      mDataNetType=0/UNKNOWN
+      mServiceState=2 1 voice home data home  UMTS Unknown CSS not supported -1 -1 RoamInd=-1 DefRoamInd=-1 VoiceRegType=0 ImsVoiceAvail=0 IsEbSupport=0 IsEaBarred=0 Snap=0 FemtocellInd=0 EmergOnly=true IsDataRoamingFromRegistration=false
+      mSignalStrength=SignalStrength: 26 99 16384 -160 -120 -1 -1 99 2147483647 2147483647 2147483647 -1 2147483647 0x4000 gsm|lte
+      mLastSignalLevel=4
+      mNetworkName=ä»éç´§æ¥å¼å«
+      mNetworkNameDefault=æ ç½ç»è¿æ¥
+      mNetworkNameSeparator= | 
+      mPhoneSignalIconId=0x7f0205eb/  mQSPhoneSignalIconId=0x7f020170/com.android.systemui:drawable/stat_sys_signal_4_auto_rotate
+      mDataDirectionIconId=0/(null)
+      mDataSignalIconId=7f0205eb/com.android.systemui:drawable/stat_sys_signal_4_auto_rotate
+      mDataTypeIconId=0/(null)
+      mQSDataTypeIconId=0/(null)
+      - wifi ------
+      mWifiEnabled=true
+      mWifiConnected=true
+      mWifiRssi=-45
+      mWifiLevel=4
+      mWifiSsid="JD-office"
+      mWifiIconId=0x7f020670/com.android.systemui:drawable/stat_sys_wifi_signal_4
+      mQSWifiIconId=0x7f020343/com.android.systemui:drawable/qs_tile_wifi_signal_4
+      mWifiActivity=1
+      - Bluetooth ----
+      mBtReverseTethered=false
+      - connectivity ------
+      mInetCondition=0
+      - icons ------
+      mLastPhoneSignalIconId=0x7f0205eb/com.android.systemui:drawable/stat_sys_signal_4_auto_rotate
+      mLastDataDirectionIconId=0x0/(null)
+      mLastWifiIconId=0x7f020670/com.android.systemui:drawable/stat_sys_wifi_signal_4
+      mLastCombinedSignalIconId=0x7f020670/com.android.systemui:drawable/stat_sys_wifi_signal_4
+      mLastDataTypeIconId=0x0/(null)
+      mLastCombinedLabel="JD-office"
+    ---Ethernet---
+      mEthernetConnected=false
+    BluetoothController state:
+      mAdapter=android.bluetooth.BluetoothAdapter@9f2241a
+      mEnabled=false
+      mConnecting=false
+      mLastDevice=null
+      mCallbacks.size=0
+      mDeviceInfo.size=0
+    CastController state:
+      mDiscovering=false
+      mCallbackRegistered=false
+      mCallbacks.size=1
+      mRoutes.size=0
+      mProjection=null
+    UserSwitcherController state:
+      mLastNonGuestUser=0
+      mUsers.size=2
+        UserRecord(name="2" id=0 <isCurrent> <hasPicture>)
+        UserRecord(<add guest placeholder> <isGuest>)
+    BatteryController state:
+      mLevel=92
+      mPluggedIn=true
+      mCharging=true
+      mCharged=false
+      mPowerSave=false
+    NextAlarmController state:
+      mNextAlarm=null
+    AssistManager state:
+      mAssistComponent=ComponentInfo{com.samsung.android.app.sreminder/com.samsung.android.app.sreminder.phone.cardlist.MainActivity}
+    SecurityController state:
+      mCurrentVpns={}
+    Q.P.: 
+      mShowLockscreenNotifications=true
+    dumping service: com.android.systemui.usb.StorageNotification
+    dumping service: com.android.systemui.power.PowerUI
+    mLowBatteryAlertCloseLevel=20
+    mLowBatteryReminderLevels=[15, 5]
+    mBatteryLevel=92
+    mBatteryStatus=2
+    mPlugType=2
+    mInvalidCharger=0
+    mScreenOffTime=-1
+    soundTimeout=0
+    SALES_ATT false
+    SALES_VZW false
+    bucket: 1
+    mSaver=false
+    mLowBatteryWarning=false
+    mPlaySound=false
+    mInvalidCharger=false
+    mShowing=SHOWING_NOTHING
+    mSaverConfirmation=null
+    dumping service: com.android.systemui.media.RingtonePlayer
+    Clients:
+
+SERVICE android/.hardware.location.GeofenceHardwareService 39e4d1c pid=847
+  Client:
+    nothing to dump
+
+SERVICE com.samsung.android.smartface/.SmartFaceServiceStarter 3849519 pid=21051
+  Client:
+    nothing to dump
+
+SERVICE com.tencent.reading/.push.PushService 2c44446 pid=(not running)
+
+SERVICE com.sec.android.pagebuddynotisvc/.PageBuddyNotiSvc b1c6ba0 pid=28659
+  Client:
+    nothing to dump
+
+SERVICE com.samsung.android.MtpApplication/.MtpService e0db668 pid=5840
+  Client:
+    nothing to dump
+
+SERVICE com.sec.location.nsflp2/.FusedLocationService dbe2003 pid=1621
+  Client:
+    nothing to dump
+
+SERVICE com.tencent.android.qqdownloader/com.qq.AppService.IPCService fc87135 pid=23651
+  Client:
+    nothing to dump
+
+SERVICE com.android.server.telecom/.components.BluetoothPhoneService 9e3169a pid=847
+  Client:
+    nothing to dump
+
+SERVICE com.tencent.android.qqdownloader/com.tencent.assistant.sdk.SDKSupportService 6fad6e9 pid=23381
+  Client:
+    nothing to dump
+
+SERVICE com.bst.floatingmsgproxy/.net.sp.SfSpService b870f4b pid=27537
+  Client:
+    nothing to dump
+
+SERVICE com.wandoujia.phoenix2/.TaobaoIntentService 1e234c6 pid=(not running)
+
+SERVICE com.tencent.engine/.DemoSecureService 575c010 pid=23975
+  Client:
+    nothing to dump
+
+SERVICE com.sec.smartcard.manager/com.sec.enterprise.mdm.sc.bai.BaiMobileAgentService c75a9b3 pid=1730
+  Client:
+    nothing to dump
+
+SERVICE com.android.stk/.StkAppService c6bf6e3 pid=1301
+  Client:
+    nothing to dump
+
+SERVICE android/com.android.server.DrmEventService b99ed80 pid=847
+  Client:
+    nothing to dump
+
+SERVICE com.android.server.telecom/.components.TelecomService a008614 pid=847
+  Client:
+    nothing to dump
+
+SERVICE com.android.providers.media/.MtpService 93bd114 pid=2354
+  Client:
+    nothing to dump
+
+SERVICE com.tencent.android.qqdownloader/com.tencent.assistant.tools.ToolService 64d3c4e pid=23482
+  Client:
+    nothing to dump
+
+SERVICE com.samsung.android.providers.context/.ContextService 48fff1d pid=2075
+  Client:
+    nothing to dump
+
+SERVICE com.android.server.telecom/.components.BluetoothVoIPService a17bad pid=847
+  Client:
+    nothing to dump
+
+SERVICE com.android.systemui/.recents.RecentsService bdb1c40 pid=1418
+  Client:
+    nothing to dump
+
+SERVICE com.amap.android.location/.GeocodeService 8aeb2f1 pid=1611
+  Client:
+    nothing to dump
+
+SERVICE com.amap.android.location/.internal.server.NetworkLocationService e05a467 pid=1611
+  Client:
+    nothing to dump
+
+SERVICE com.sec.android.widgetapp.ap.hero.cmaweather/.SurfaceWidgetWeather 6a80eb8 pid=2205
+  Client:
+    nothing to dump
+
+SERVICE com.myzaker.ZAKER_Phone/com.taobao.accs.ChannelService 1eeda23 pid=(not running)
+
+SERVICE com.samsung.android.bbc.bbcagent/com.samsung.android.bbc.test.BBCDebugService 6a10bc4 pid=3103
+  Client:
+    Dump bbc agent
+    BBCAgentService isRunning = false
+
+    SharedPreferences START
+
+    SharedPreferences END
+
+    Dump table debug_logs
+
+         _id     log_time     log_date     log
+
+    0 => | 1 | 2017-02-15 17:07:53 | 1487149673 | BBC_Utility>>checkIfDeviceTbaseCapable() called
+    1 => | 2 | 2017-02-15 17:07:53 | 1487149673 | BBC_Utility>>checkIfDeviceTbaseCapable() isTbaseCapable : false
+    2 => | 3 | 2017-02-15 17:07:53 | 1487149673 | BBCAgentService>>TBaseCapable status : -1/0/0/0
+    3 => | 4 | 2017-02-15 17:07:54 | 1487149674 | BBCDataConsistency>>0/0/0/0
+    4 => | 5 | 2017-02-15 17:07:54 | 1487149674 | BBC_Controller>>sendResponseMsg() 1000/0/0/null
+    5 => | 6 | 2017-02-15 17:07:54 | 1487149674 | BBCAgentService>>onHandleIntent/0/7
+    6 => | 7 | 2017-02-15 17:09:06 | 1487149746 | BBCAgentService>>onHandleIntent/0/4
+    7 => | 8 | 2017-02-15 17:09:34 | 1487149774 | BBCAgentService>>onHandleIntent/0/4
+    8 => | 9 | 2017-02-15 17:09:55 | 1487149795 | BBCAgentService>>onHandleIntent/0/4
+    9 => | 10 | 2017-02-15 17:10:17 | 1487149817 | BBCAgentService>>onHandleIntent/0/4
+    10 => | 11 | 2017-02-24 16:31:58 | 1487925118 | BBC_Utility>>checkIfDeviceTbaseCapable() called
+    11 => | 12 | 2017-02-24 16:31:58 | 1487925118 | BBC_Utility>>checkIfDeviceTbaseCapable() isTbaseCapable : false
+    12 => | 13 | 2017-02-24 16:31:58 | 1487925118 | BBCAgentService>>TBaseCapable status : 0/0/0/0
+    13 => | 14 | 2017-02-24 16:31:58 | 1487925118 | BBCDataConsistency>>0/0/0/0
+    14 => | 15 | 2017-02-24 16:31:58 | 1487925118 | BBC_Controller>>sendResponseMsg() 1000/0/0/null
+    15 => | 16 | 2017-02-24 16:31:58 | 1487925118 | BBCAgentService>>onHandleIntent/0/7
+    16 => | 17 | 2017-02-24 16:33:41 | 1487925221 | BBCAgentService>>onHandleIntent/0/4
+    17 => | 18 | 2017-02-26 20:57:43 | 1488113863 | BBC_Utility>>checkIfDeviceTbaseCapable() called
+    18 => | 19 | 2017-02-26 20:57:43 | 1488113863 | BBC_Utility>>checkIfDeviceTbaseCapable() isTbaseCapable : false
+    19 => | 20 | 2017-02-26 20:57:43 | 1488113863 | BBCAgentService>>TBaseCapable status : 0/0/0/0
+    20 => | 21 | 2017-02-26 20:57:43 | 1488113863 | BBCDataConsistency>>0/0/0/0
+    21 => | 22 | 2017-02-26 20:57:43 | 1488113863 | BBC_Controller>>sendResponseMsg() 1000/0/0/null
+    22 => | 23 | 2017-02-26 20:57:43 | 1488113863 | BBCAgentService>>onHandleIntent/0/7
+    23 => | 24 | 2017-02-26 22:00:43 | 1488117643 | BBC_Utility>>checkIfDeviceTbaseCapable() called
+    24 => | 25 | 2017-02-26 22:00:44 | 1488117644 | BBC_Utility>>checkIfDeviceTbaseCapable() isTbaseCapable : false
+    25 => | 26 | 2017-02-26 22:00:44 | 1488117644 | BBCAgentService>>TBaseCapable status : 0/0/0/0
+    26 => | 27 | 2017-02-26 22:00:44 | 1488117644 | BBCDataConsistency>>0/0/0/0
+    27 => | 28 | 2017-02-26 22:00:44 | 1488117644 | BBC_Controller>>sendResponseMsg() 1000/0/0/null
+    28 => | 29 | 2017-02-26 22:00:44 | 1488117644 | BBCAgentService>>onHandleIntent/0/7
+    29 => | 30 | 2017-02-26 22:14:40 | 1488118480 | BBCAgentService>>onHandleIntent/0/4
+    30 => | 31 | 2017-03-02 10:28:37 | 1488421717 | BBCAgentService>>onHandleIntent/0/4
+    31 => | 32 | 2017-03-03 11:09:57 | 1488510597 | BBC_Utility>>checkIfDeviceTbaseCapable() called
+    32 => | 33 | 2017-03-03 11:09:57 | 1488510597 | BBC_Utility>>checkIfDeviceTbaseCapable() isTbaseCapable : false
+    33 => | 34 | 2017-03-03 11:09:57 | 1488510597 | BBCAgentService>>TBaseCapable status : 0/0/0/0
+    34 => | 35 | 2017-03-03 11:09:57 | 1488510597 | BBCDataConsistency>>0/0/0/0
+    35 => | 36 | 2017-03-03 11:09:57 | 1488510597 | BBC_Controller>>sendResponseMsg() 1000/0/0/null
+    36 => | 37 | 2017-03-03 11:09:57 | 1488510597 | BBCAgentService>>onHandleIntent/0/7
+    37 => | 38 | 2017-03-03 11:25:24 | 1488511524 | BBCAgentService>>onHandleIntent/0/4
+    38 => | 39 | 2017-03-06 10:54:34 | 1488768874 | BBC_Utility>>checkIfDeviceTbaseCapable() called
+    39 => | 40 | 2017-03-06 10:54:34 | 1488768874 | BBC_Utility>>checkIfDeviceTbaseCapable() isTbaseCapable : false
+    40 => | 41 | 2017-03-06 10:54:34 | 1488768874 | BBCAgentService>>TBaseCapable status : 0/0/0/0
+    41 => | 42 | 2017-03-06 10:54:34 | 1488768874 | BBCDataConsistency>>0/0/0/0
+    42 => | 43 | 2017-03-06 10:54:34 | 1488768874 | BBC_Controller>>sendResponseMsg() 1000/0/0/null
+    43 => | 44 | 2017-03-06 10:54:34 | 1488768874 | BBCAgentService>>onHandleIntent/0/7
+    44 => | 45 | 2017-03-09 09:22:33 | 1489022553 | BBC_Utility>>checkIfDeviceTbaseCapable() called
+    45 => | 46 | 2017-03-09 09:22:34 | 1489022554 | BBC_Utility>>checkIfDeviceTbaseCapable() isTbaseCapable : false
+    46 => | 47 | 2017-03-09 09:22:34 | 1489022554 | BBCAgentService>>TBaseCapable status : 0/0/0/0
+    47 => | 48 | 2017-03-09 09:22:34 | 1489022554 | BBCDataConsistency>>0/0/0/0
+    48 => | 49 | 2017-03-09 09:22:34 | 1489022554 | BBC_Controller>>sendResponseMsg() 1000/0/0/null
+    49 => | 50 | 2017-03-09 09:22:34 | 1489022554 | BBCAgentService>>onHandleIntent/0/7
+    50 => | 51 | 2016-02-29 10:25:40 | 1456712740 | BBC_Utility>>checkIfDeviceTbaseCapable() called
+    51 => | 52 | 2016-02-29 10:25:40 | 1456712740 | BBC_Utility>>checkIfDeviceTbaseCapable() isTbaseCapable : false
+    52 => | 53 | 2016-02-29 10:25:40 | 1456712740 | BBCAgentService>>TBaseCapable status : 0/0/0/0
+    53 => | 54 | 2016-02-29 10:25:40 | 1456712740 | BBCDataConsistency>>0/0/0/0
+    54 => | 55 | 2016-02-29 10:25:40 | 1456712740 | BBC_Controller>>sendResponseMsg() 1000/0/0/null
+    55 => | 56 | 2016-02-29 10:25:40 | 1456712740 | BBCAgentService>>onHandleIntent/0/7
+    56 => | 57 | 2016-02-29 10:40:21 | 1456713621 | BBC_Utility>>checkIfDeviceTbaseCapable() called
+    57 => | 58 | 2016-02-29 10:40:21 | 1456713621 | BBC_Utility>>checkIfDeviceTbaseCapable() isTbaseCapable : false
+    58 => | 59 | 2016-02-29 10:40:21 | 1456713621 | BBCAgentService>>TBaseCapable status : 0/0/0/0
+    59 => | 60 | 2016-02-29 10:40:22 | 1456713622 | BBCDataConsistency>>0/0/0/0
+    60 => | 61 | 2016-02-29 10:40:22 | 1456713622 | BBC_Controller>>sendResponseMsg() 1000/0/0/null
+    61 => | 62 | 2016-02-29 10:40:22 | 1456713622 | BBCAgentService>>onHandleIntent/0/7
+    62 => | 63 | 2017-04-13 19:57:50 | 1492084670 | BBCAgentService>>onHandleIntent/0/4
+    63 => | 64 | 2017-04-13 23:47:05 | 1492098425 | BBCAgentService>>onHandleIntent/0/4
+    64 => | 65 | 2017-05-02 15:02:30 | 1493708550 | BBC_Utility>>checkIfDeviceTbaseCapable() called
+    65 => | 66 | 2017-05-02 15:02:30 | 1493708550 | BBC_Utility>>checkIfDeviceTbaseCapable() isTbaseCapable : false
+    66 => | 67 | 2017-05-02 15:02:30 | 1493708550 | BBCAgentService>>TBaseCapable status : 0/0/0/0
+    67 => | 68 | 2017-05-02 15:02:30 | 1493708550 | BBCDataConsistency>>0/0/0/0
+    68 => | 69 | 2017-05-02 15:02:30 | 1493708550 | BBC_Controller>>sendResponseMsg() 1000/0/0/null
+    69 => | 70 | 2017-05-02 15:02:30 | 1493708550 | BBCAgentService>>onHandleIntent/0/7
+    70 => | 71 | 2017-05-07 15:58:11 | 1494143891 | BBC_Utility>>checkIfDeviceTbaseCapable() called
+    71 => | 72 | 2017-05-07 15:58:11 | 1494143891 | BBC_Utility>>checkIfDeviceTbaseCapable() isTbaseCapable : false
+    72 => | 73 | 2017-05-07 15:58:11 | 1494143891 | BBCAgentService>>TBaseCapable status : 0/0/0/0
+    73 => | 74 | 2017-05-07 15:58:12 | 1494143892 | BBCDataConsistency>>0/0/0/0
+    74 => | 75 | 2017-05-07 15:58:12 | 1494143892 | BBC_Controller>>sendResponseMsg() 1000/0/0/null
+    75 => | 76 | 2017-05-07 15:58:12 | 1494143892 | BBCAgentService>>onHandleIntent/0/7
+    76 => | 77 | 2017-05-08 09:29:58 | 1494206998 | BBC_Utility>>checkIfDeviceTbaseCapable() called
+    77 => | 78 | 2017-05-08 09:29:58 | 1494206998 | BBC_Utility>>checkIfDeviceTbaseCapable() isTbaseCapable : false
+    78 => | 79 | 2017-05-08 09:29:58 | 1494206998 | BBCAgentService>>TBaseCapable status : 0/0/0/0
+    79 => | 80 | 2017-05-08 09:29:58 | 1494206998 | BBCDataConsistency>>0/0/0/0
+    80 => | 81 | 2017-05-08 09:29:58 | 1494206998 | BBC_Controller>>sendResponseMsg() 1000/0/0/null
+    81 => | 82 | 2017-05-08 09:29:58 | 1494206998 | BBCAgentService>>onHandleIntent/0/7
+    82 => | 83 | 2017-05-09 14:22:03 | 1494310923 | BBCAgentService>>onHandleIntent/0/4
+    83 => | 84 | 2017-05-09 14:22:44 | 1494310964 | BBCAgentService>>onHandleIntent/0/4
+    84 => | 85 | 2017-05-09 14:23:20 | 1494311000 | BBCAgentService>>onHandleIntent/0/4
+    85 => | 86 | 2017-05-09 14:24:25 | 1494311065 | BBCAgentService>>onHandleIntent/0/4
+    86 => | 87 | 2017-05-09 14:24:38 | 1494311078 | BBCAgentService>>onHandleIntent/0/4
+    87 => | 88 | 2017-05-09 14:24:51 | 1494311091 | BBCAgentService>>onHandleIntent/0/4
+    88 => | 89 | 2017-05-09 14:25:44 | 1494311144 | BBCAgentService>>onHandleIntent/0/4
+    89 => | 90 | 2017-05-09 14:26:18 | 1494311178 | BBCAgentService>>onHandleIntent/0/4
+    90 => | 91 | 2017-05-09 14:26:55 | 1494311215 | BBCAgentService>>onHandleIntent/0/4
+    91 => | 92 | 2017-05-09 14:27:06 | 1494311226 | BBCAgentService>>onHandleIntent/0/4
+    92 => | 93 | 2017-05-09 14:27:39 | 1494311259 | BBCAgentService>>onHandleIntent/0/4
+    93 => | 94 | 2017-05-09 14:28:36 | 1494311316 | BBCAgentService>>onHandleIntent/0/4
+    94 => | 95 | 2017-05-09 14:29:00 | 1494311340 | BBCAgentService>>onHandleIntent/0/4
+    95 => | 96 | 2017-05-09 14:29:10 | 1494311350 | BBCAgentService>>onHandleIntent/0/4
+    96 => | 97 | 2017-05-09 14:30:04 | 1494311404 | BBCAgentService>>onHandleIntent/0/4
+    97 => | 98 | 2017-05-09 14:30:10 | 1494311410 | BBCAgentService>>onHandleIntent/0/4
+    98 => | 99 | 2017-05-09 14:30:35 | 1494311435 | BBCAgentService>>onHandleIntent/0/4
+    99 => | 100 | 2017-05-09 14:30:59 | 1494311459 | BBCAgentService>>onHandleIntent/0/4
+    100 => | 101 | 2017-05-09 15:08:42 | 1494313722 | BBCAgentService>>onHandleIntent/0/4
+    101 => | 102 | 2017-05-09 15:10:10 | 1494313810 | BBCAgentService>>onHandleIntent/0/4
+    102 => | 103 | 2017-05-09 15:10:26 | 1494313826 | BBCAgentService>>onHandleIntent/0/4
+    103 => | 104 | 2017-05-09 15:10:29 | 1494313829 | BBCAgentService>>onHandleIntent/0/4
+    104 => | 105 | 2017-05-10 12:47:43 | 1494391663 | BBCAgentService>>onHandleIntent/0/4
+    105 => | 106 | 2017-05-15 11:07:38 | 1494817658 | BBC_Utility>>checkIfDeviceTbaseCapable() called
+    106 => | 107 | 2017-05-15 11:07:38 | 1494817658 | BBC_Utility>>checkIfDeviceTbaseCapable() isTbaseCapable : false
+    107 => | 108 | 2017-05-15 11:07:38 | 1494817658 | BBCAgentService>>TBaseCapable status : 0/0/0/0
+    108 => | 109 | 2017-05-15 11:07:38 | 1494817658 | BBCDataConsistency>>0/0/0/0
+    109 => | 110 | 2017-05-15 11:07:38 | 1494817658 | BBC_Controller>>sendResponseMsg() 1000/0/0/null
+    110 => | 111 | 2017-05-15 11:07:38 | 1494817658 | BBCAgentService>>onHandleIntent/0/7
+    111 => | 112 | 2017-05-15 11:11:21 | 1494817881 | BBCAgentService>>onHandleIntent/0/4
+    112 => | 113 | 2017-05-15 16:24:33 | 1494836673 | BBC_Utility>>checkIfDeviceTbaseCapable() called
+    113 => | 114 | 2017-05-15 16:24:33 | 1494836673 | BBC_Utility>>checkIfDeviceTbaseCapable() isTbaseCapable : false
+    114 => | 115 | 2017-05-15 16:24:33 | 1494836673 | BBCAgentService>>TBaseCapable status : 0/0/0/0
+    115 => | 116 | 2017-05-15 16:24:33 | 1494836673 | BBCDataConsistency>>0/0/0/0
+    116 => | 117 | 2017-05-15 16:24:33 | 1494836673 | BBC_Controller>>sendResponseMsg() 1000/0/0/null
+    117 => | 118 | 2017-05-15 16:24:33 | 1494836673 | BBCAgentService>>onHandleIntent/0/7
+    118 => | 119 | 2017-05-15 16:47:21 | 1494838041 | BBCAgentService>>onHandleIntent/0/4
+    119 => | 120 | 2017-05-18 18:55:47 | 1495104947 | BBC_Utility>>checkIfDeviceTbaseCapable() called
+    120 => | 121 | 2017-05-18 18:55:47 | 1495104947 | BBC_Utility>>checkIfDeviceTbaseCapable() isTbaseCapable : false
+    121 => | 122 | 2017-05-18 18:55:47 | 1495104947 | BBCAgentService>>TBaseCapable status : 0/0/0/0
+    122 => | 123 | 2017-05-18 18:55:47 | 1495104947 | BBCDataConsistency>>0/0/0/0
+    123 => | 124 | 2017-05-18 18:55:47 | 1495104947 | BBC_Controller>>sendResponseMsg() 1000/0/0/null
+    124 => | 125 | 2017-05-18 18:55:47 | 1495104947 | BBCAgentService>>onHandleIntent/0/7
+    125 => | 126 | 2017-05-25 14:33:53 | 1495694033 | BBC_Utility>>checkIfDeviceTbaseCapable() called
+    126 => | 127 | 2017-05-25 14:33:54 | 1495694034 | BBC_Utility>>checkIfDeviceTbaseCapable() isTbaseCapable : false
+    127 => | 128 | 2017-05-25 14:33:54 | 1495694034 | BBCAgentService>>TBaseCapable status : 0/0/0/0
+    128 => | 129 | 2017-05-25 14:33:54 | 1495694034 | BBCDataConsistency>>0/0/0/0
+    129 => | 130 | 2017-05-25 14:33:54 | 1495694034 | BBC_Controller>>sendResponseMsg() 1000/0/0/null
+    130 => | 131 | 2017-05-25 14:33:54 | 1495694034 | BBCAgentService>>onHandleIntent/0/7
+    131 => | 132 | 2017-06-11 17:26:04 | 1497173164 | BBC_Utility>>checkIfDeviceTbaseCapable() called
+    132 => | 133 | 2017-06-11 17:26:04 | 1497173164 | BBC_Utility>>checkIfDeviceTbaseCapable() isTbaseCapable : false
+    133 => | 134 | 2017-06-11 17:26:04 | 1497173164 | BBCAgentService>>TBaseCapable status : 0/0/0/0
+    134 => | 135 | 2017-06-11 17:26:04 | 1497173164 | BBCDataConsistency>>0/0/0/0
+    135 => | 136 | 2017-06-11 17:26:04 | 1497173164 | BBC_Controller>>sendResponseMsg() 1000/0/0/null
+    136 => | 137 | 2017-06-11 17:26:04 | 1497173164 | BBCAgentService>>onHandleIntent/0/7
+    137 => | 138 | 2017-06-15 09:51:49 | 1497491509 | BBC_Utility>>checkIfDeviceTbaseCapable() called
+    138 => | 139 | 2017-06-15 09:51:49 | 1497491509 | BBC_Utility>>checkIfDeviceTbaseCapable() isTbaseCapable : false
+    139 => | 140 | 2017-06-15 09:51:49 | 1497491509 | BBCAgentService>>TBaseCapable status : 0/0/0/0
+    140 => | 141 | 2017-06-15 09:51:50 | 1497491510 | BBCDataConsistency>>0/0/0/0
+    141 => | 142 | 2017-06-15 09:51:50 | 1497491510 | BBC_Controller>>sendResponseMsg() 1000/0/0/null
+    142 => | 143 | 2017-06-15 09:51:50 | 1497491510 | BBCAgentService>>onHandleIntent/0/7
+    143 => | 144 | 2017-06-15 16:41:13 | 1497516073 | BBCAgentService>>onHandleIntent/0/4
+    144 => | 145 | 2017-06-19 11:41:23 | 1497843683 | BBC_Utility>>checkIfDeviceTbaseCapable() called
+    145 => | 146 | 2017-06-19 11:41:23 | 1497843683 | BBC_Utility>>checkIfDeviceTbaseCapable() isTbaseCapable : false
+    146 => | 147 | 2017-06-19 11:41:23 | 1497843683 | BBCAgentService>>TBaseCapable status : 0/0/0/0
+    147 => | 148 | 2017-06-19 11:41:23 | 1497843683 | BBCDataConsistency>>0/0/0/0
+    148 => | 149 | 2017-06-19 11:41:23 | 1497843683 | BBC_Controller>>sendResponseMsg() 1000/0/0/null
+    149 => | 150 | 2017-06-19 11:41:23 | 1497843683 | BBCAgentService>>onHandleIntent/0/7
+    150 => | 151 | 2017-06-26 16:40:20 | 1498466420 | BBC_Utility>>checkIfDeviceTbaseCapable() called
+    151 => | 152 | 2017-06-26 16:40:20 | 1498466420 | BBC_Utility>>checkIfDeviceTbaseCapable() isTbaseCapable : false
+    152 => | 153 | 2017-06-26 16:40:20 | 1498466420 | BBCAgentService>>TBaseCapable status : 0/0/0/0
+    153 => | 154 | 2017-06-26 16:40:20 | 1498466420 | BBCDataConsistency>>0/0/0/0
+    154 => | 155 | 2017-06-26 16:40:20 | 1498466420 | BBC_Controller>>sendResponseMsg() 1000/0/0/null
+    155 => | 156 | 2017-06-26 16:40:20 | 1498466420 | BBCAgentService>>onHandleIntent/0/7
+    156 => | 157 | 2017-06-26 17:35:19 | 1498469719 | BBCAgentService>>onHandleIntent/0/4
+    157 => | 158 | 2017-06-26 17:35:54 | 1498469754 | BBCAgentService>>onHandleIntent/0/4
+    158 => | 159 | 2017-06-26 17:36:30 | 1498469790 | BBCAgentService>>onHandleIntent/0/4
+    159 => | 160 | 2017-06-26 17:37:41 | 1498469861 | BBCAgentService>>onHandleIntent/0/4
+    160 => | 161 | 2017-06-26 17:37:51 | 1498469871 | BBCAgentService>>onHandleIntent/0/4
+    161 => | 162 | 2017-06-26 17:38:01 | 1498469881 | BBCAgentService>>onHandleIntent/0/4
+    162 => | 163 | 2017-06-26 17:38:49 | 1498469929 | BBCAgentService>>onHandleIntent/0/4
+    163 => | 164 | 2017-06-26 17:39:22 | 1498469962 | BBCAgentService>>onHandleIntent/0/4
+    164 => | 165 | 2017-06-26 17:39:45 | 1498469985 | BBCAgentService>>onHandleIntent/0/4
+    165 => | 166 | 2017-06-26 17:39:54 | 1498469994 | BBCAgentService>>onHandleIntent/0/4
+    166 => | 167 | 2017-06-26 17:40:27 | 1498470027 | BBCAgentService>>onHandleIntent/0/4
+    167 => | 168 | 2017-06-26 17:42:01 | 1498470121 | BBCAgentService>>onHandleIntent/0/4
+    168 => | 169 | 2017-06-26 17:42:19 | 1498470139 | BBCAgentService>>onHandleIntent/0/4
+    169 => | 170 | 2017-06-26 17:42:46 | 1498470166 | BBCAgentService>>onHandleIntent/0/4
+    170 => | 171 | 2017-06-26 17:43:34 | 1498470214 | BBCAgentService>>onHandleIntent/0/4
+    171 => | 172 | 2017-06-26 17:44:28 | 1498470268 | BBCAgentService>>onHandleIntent/0/4
+    172 => | 173 | 2017-06-26 17:44:49 | 1498470289 | BBCAgentService>>onHandleIntent/0/4
+    173 => | 174 | 2017-06-26 17:45:10 | 1498470310 | BBCAgentService>>onHandleIntent/0/4
+    174 => | 175 | 2017-06-29 17:53:55 | 1498730035 | BBC_Utility>>checkIfDeviceTbaseCapable() called
+    175 => | 176 | 2017-06-29 17:53:55 | 1498730035 | BBC_Utility>>checkIfDeviceTbaseCapable() isTbaseCapable : false
+    176 => | 177 | 2017-06-29 17:53:55 | 1498730035 | BBCAgentService>>TBaseCapable status : 0/0/0/0
+    177 => | 178 | 2017-06-29 17:53:55 | 1498730035 | BBCDataConsistency>>0/0/0/0
+    178 => | 179 | 2017-06-29 17:53:55 | 1498730035 | BBC_Controller>>sendResponseMsg() 1000/0/0/null
+    179 => | 180 | 2017-06-29 17:53:55 | 1498730035 | BBCAgentService>>onHandleIntent/0/7
+    180 => | 181 | 2017-07-03 10:47:04 | 1499050024 | BBC_Utility>>checkIfDeviceTbaseCapable() called
+    181 => | 182 | 2017-07-03 10:47:04 | 1499050024 | BBC_Utility>>checkIfDeviceTbaseCapable() isTbaseCapable : false
+    182 => | 183 | 2017-07-03 10:47:04 | 1499050024 | BBCAgentService>>TBaseCapable status : 0/0/0/0
+    183 => | 184 | 2017-07-03 10:47:04 | 1499050024 | BBCDataConsistency>>0/0/0/0
+    184 => | 185 | 2017-07-03 10:47:04 | 1499050024 | BBC_Controller>>sendResponseMsg() 1000/0/0/null
+    185 => | 186 | 2017-07-03 10:47:04 | 1499050024 | BBCAgentService>>onHandleIntent/0/7
+    186 => | 187 | 2017-07-16 15:55:57 | 1500191757 | BBC_Utility>>checkIfDeviceTbaseCapable() called
+    187 => | 188 | 2017-07-16 15:55:57 | 1500191757 | BBC_Utility>>checkIfDeviceTbaseCapable() isTbaseCapable : false
+    188 => | 189 | 2017-07-16 15:55:58 | 1500191758 | BBCAgentService>>TBaseCapable status : 0/0/0/0
+    189 => | 190 | 2017-07-16 15:55:58 | 1500191758 | BBCDataConsistency>>0/0/0/0
+    190 => | 191 | 2017-07-16 15:55:58 | 1500191758 | BBC_Controller>>sendResponseMsg() 1000/0/0/null
+    191 => | 192 | 2017-07-16 15:55:58 | 1500191758 | BBCAgentService>>onHandleIntent/0/7
+    192 => | 193 | 2017-07-16 16:09:05 | 1500192545 | BBC_Utility>>checkIfDeviceTbaseCapable() called
+    193 => | 194 | 2017-07-16 16:09:05 | 1500192545 | BBC_Utility>>checkIfDeviceTbaseCapable() isTbaseCapable : false
+    194 => | 195 | 2017-07-16 16:09:05 | 1500192545 | BBCAgentService>>TBaseCapable status : 0/0/0/0
+    195 => | 196 | 2017-07-16 16:09:05 | 1500192545 | BBCDataConsistency>>0/0/0/0
+    196 => | 197 | 2017-07-16 16:09:05 | 1500192545 | BBC_Controller>>sendResponseMsg() 1000/0/0/null
+    197 => | 198 | 2017-07-16 16:09:05 | 1500192545 | BBCAgentService>>onHandleIntent/0/7
+    198 => | 199 | 2017-07-26 14:40:55 | 1501051255 | BBC_Utility>>checkIfDeviceTbaseCapable() called
+    199 => | 200 | 2017-07-26 14:40:55 | 1501051255 | BBC_Utility>>checkIfDeviceTbaseCapable() isTbaseCapable : false
+    200 => | 201 | 2017-07-26 14:40:56 | 1501051256 | BBCAgentService>>TBaseCapable status : 0/0/0/0
+    201 => | 202 | 2017-07-26 14:40:56 | 1501051256 | BBCDataConsistency>>0/0/0/0
+    202 => | 203 | 2017-07-26 14:40:56 | 1501051256 | BBC_Controller>>sendResponseMsg() 1000/0/0/null
+    203 => | 204 | 2017-07-26 14:40:56 | 1501051256 | BBCAgentService>>onHandleIntent/0/7
+    204 => | 205 | 2017-07-28 19:38:35 | 1501241915 | BBC_Utility>>checkIfDeviceTbaseCapable() called
+    205 => | 206 | 2017-07-28 19:38:35 | 1501241915 | BBC_Utility>>checkIfDeviceTbaseCapable() isTbaseCapable : false
+    206 => | 207 | 2017-07-28 19:38:35 | 1501241915 | BBCAgentService>>TBaseCapable status : 0/0/0/0
+    207 => | 208 | 2017-07-28 19:38:35 | 1501241915 | BBCDataConsistency>>0/0/0/0
+    208 => | 209 | 2017-07-28 19:38:35 | 1501241915 | BBC_Controller>>sendResponseMsg() 1000/0/0/null
+    209 => | 210 | 2017-07-28 19:38:35 | 1501241915 | BBCAgentService>>onHandleIntent/0/7
+    210 => | 211 | 2017-07-30 10:47:56 | 1501382876 | BBC_Utility>>checkIfDeviceTbaseCapable() called
+    211 => | 212 | 2017-07-30 10:47:56 | 1501382876 | BBC_Utility>>checkIfDeviceTbaseCapable() isTbaseCapable : false
+    212 => | 213 | 2017-07-30 10:47:56 | 1501382876 | BBCAgentService>>TBaseCapable status : 0/0/0/0
+    213 => | 214 | 2017-07-30 10:47:56 | 1501382876 | BBCDataConsistency>>0/0/0/0
+    214 => | 215 | 2017-07-30 10:47:56 | 1501382876 | BBC_Controller>>sendResponseMsg() 1000/0/0/null
+    215 => | 216 | 2017-07-30 10:47:56 | 1501382876 | BBCAgentService>>onHandleIntent/0/7
+    216 => | 217 | 2017-08-10 15:37:38 | 1502350658 | BBC_Utility>>checkIfDeviceTbaseCapable() called
+    217 => | 218 | 2017-08-10 15:37:38 | 1502350658 | BBC_Utility>>checkIfDeviceTbaseCapable() isTbaseCapable : false
+    218 => | 219 | 2017-08-10 15:37:38 | 1502350658 | BBCAgentService>>TBaseCapable status : 0/0/0/0
+    219 => | 220 | 2017-08-10 15:37:39 | 1502350659 | BBCDataConsistency>>0/0/0/0
+    220 => | 221 | 2017-08-10 15:37:39 | 1502350659 | BBC_Controller>>sendResponseMsg() 1000/0/0/null
+    221 => | 222 | 2017-08-10 15:37:39 | 1502350659 | BBCAgentService>>onHandleIntent/0/7
+    222 => | 223 | 2017-08-18 16:00:02 | 1503043202 | BBC_Utility>>checkIfDeviceTbaseCapable() called
+    223 => | 224 | 2017-08-18 16:00:02 | 1503043202 | BBC_Utility>>checkIfDeviceTbaseCapable() isTbaseCapable : false
+    224 => | 225 | 2017-08-18 16:00:02 | 1503043202 | BBCAgentService>>TBaseCapable status : 0/0/0/0
+    225 => | 226 | 2017-08-18 16:00:02 | 1503043202 | BBCDataConsistency>>0/0/0/0
+    226 => | 227 | 2017-08-18 16:00:03 | 1503043203 | BBC_Controller>>sendResponseMsg() 1000/0/0/null
+    227 => | 228 | 2017-08-18 16:00:03 | 1503043203 | BBCAgentService>>onHandleIntent/0/7
+    228 => | 229 | 2017-08-29 11:17:11 | 1503976631 | BBC_Utility>>checkIfDeviceTbaseCapable() called
+    229 => | 230 | 2017-08-29 11:17:11 | 1503976631 | BBC_Utility>>checkIfDeviceTbaseCapable() isTbaseCapable : false
+    230 => | 231 | 2017-08-29 11:17:11 | 1503976631 | BBCAgentService>>TBaseCapable status : 0/0/0/0
+    231 => | 232 | 2017-08-29 11:17:12 | 1503976632 | BBCDataConsistency>>0/0/0/0
+    232 => | 233 | 2017-08-29 11:17:12 | 1503976632 | BBC_Controller>>sendResponseMsg() 1000/0/0/null
+    233 => | 234 | 2017-08-29 11:17:12 | 1503976632 | BBCAgentService>>onHandleIntent/0/7
+    234 => | 235 | 2017-08-30 10:19:31 | 1504059571 | BBC_Utility>>checkIfDeviceTbaseCapable() called
+    235 => | 236 | 2017-08-30 10:19:31 | 1504059571 | BBC_Utility>>checkIfDeviceTbaseCapable() isTbaseCapable : false
+    236 => | 237 | 2017-08-30 10:19:31 | 1504059571 | BBCAgentService>>TBaseCapable status : 0/0/0/0
+    237 => | 238 | 2017-08-30 10:19:31 | 1504059571 | BBCDataConsistency>>0/0/0/0
+    238 => | 239 | 2017-08-30 10:19:31 | 1504059571 | BBC_Controller>>sendResponseMsg() 1000/0/0/null
+    239 => | 240 | 2017-08-30 10:19:31 | 1504059571 | BBCAgentService>>onHandleIntent/0/7
+    240 => | 241 | 2017-08-31 14:41:47 | 1504161707 | BBC_Utility>>checkIfDeviceTbaseCapable() called
+    241 => | 242 | 2017-08-31 14:41:47 | 1504161707 | BBC_Utility>>checkIfDeviceTbaseCapable() isTbaseCapable : false
+    242 => | 243 | 2017-08-31 14:41:47 | 1504161707 | BBCAgentService>>TBaseCapable status : 0/0/0/0
+    243 => | 244 | 2017-08-31 14:41:47 | 1504161707 | BBCDataConsistency>>0/0/0/0
+    244 => | 245 | 2017-08-31 14:41:47 | 1504161707 | BBC_Controller>>sendResponseMsg() 1000/0/0/null
+    245 => | 246 | 2017-08-31 14:41:47 | 1504161707 | BBCAgentService>>onHandleIntent/0/7
+    246 => | 247 | 2017-09-19 10:44:43 | 1505789083 | BBC_Utility>>checkIfDeviceTbaseCapable() called
+    247 => | 248 | 2017-09-19 10:44:43 | 1505789083 | BBC_Utility>>checkIfDeviceTbaseCapable() isTbaseCapable : false
+    248 => | 249 | 2017-09-19 10:44:43 | 1505789083 | BBCAgentService>>TBaseCapable status : 0/0/0/0
+    249 => | 250 | 2017-09-19 10:44:43 | 1505789083 | BBCDataConsistency>>0/0/0/0
+    250 => | 251 | 2017-09-19 10:44:43 | 1505789083 | BBC_Controller>>sendResponseMsg() 1000/0/0/null
+    251 => | 252 | 2017-09-19 10:44:43 | 1505789083 | BBCAgentService>>onHandleIntent/0/7
+    252 => | 253 | 2017-09-20 14:30:58 | 1505889058 | BBCAgentService>>onHandleIntent/0/4
+    253 => | 254 | 2017-09-21 15:16:58 | 1505978218 | BBC_Utility>>checkIfDeviceTbaseCapable() called
+    254 => | 255 | 2017-09-21 15:16:58 | 1505978218 | BBC_Utility>>checkIfDeviceTbaseCapable() isTbaseCapable : false
+    255 => | 256 | 2017-09-21 15:16:58 | 1505978218 | BBCAgentService>>TBaseCapable status : 0/0/0/0
+    256 => | 257 | 2017-09-21 15:16:58 | 1505978218 | BBCDataConsistency>>0/0/0/0
+    257 => | 258 | 2017-09-21 15:16:58 | 1505978218 | BBC_Controller>>sendResponseMsg() 1000/0/0/null
+    258 => | 259 | 2017-09-21 15:16:59 | 1505978219 | BBCAgentService>>onHandleIntent/0/7
+    259 => | 260 | 2017-09-21 16:19:34 | 1505981974 | BBC_Utility>>checkIfDeviceTbaseCapable() called
+    260 => | 261 | 2017-09-21 16:19:34 | 1505981974 | BBC_Utility>>checkIfDeviceTbaseCapable() isTbaseCapable : false
+    261 => | 262 | 2017-09-21 16:19:34 | 1505981974 | BBCAgentService>>TBaseCapable status : 0/0/0/0
+    262 => | 263 | 2017-09-21 16:19:34 | 1505981974 | BBCDataConsistency>>0/0/0/0
+    263 => | 264 | 2017-09-21 16:19:34 | 1505981974 | BBC_Controller>>sendResponseMsg() 1000/0/0/null
+    264 => | 265 | 2017-09-21 16:19:34 | 1505981974 | BBCAgentService>>onHandleIntent/0/7
+    265 => | 266 | 2017-10-10 09:40:29 | 1507599629 | BBC_Utility>>checkIfDeviceTbaseCapable() called
+    266 => | 267 | 2017-10-10 09:40:29 | 1507599629 | BBC_Utility>>checkIfDeviceTbaseCapable() isTbaseCapable : false
+    267 => | 268 | 2017-10-10 09:40:29 | 1507599629 | BBCAgentService>>TBaseCapable status : 0/0/0/0
+    268 => | 269 | 2017-10-10 09:40:29 | 1507599629 | BBCDataConsistency>>0/0/0/0
+    269 => | 270 | 2017-10-10 09:40:29 | 1507599629 | BBC_Controller>>sendResponseMsg() 1000/0/0/null
+    270 => | 271 | 2017-10-10 09:40:29 | 1507599629 | BBCAgentService>>onHandleIntent/0/7
+    271 => | 272 | 2017-10-12 09:53:39 | 1507773219 | BBC_Utility>>checkIfDeviceTbaseCapable() called
+    272 => | 273 | 2017-10-12 09:53:39 | 1507773219 | BBC_Utility>>checkIfDeviceTbaseCapable() isTbaseCapable : false
+    273 => | 274 | 2017-10-12 09:53:39 | 1507773219 | BBCAgentService>>TBaseCapable status : 0/0/0/0
+    274 => | 275 | 2017-10-12 09:53:39 | 1507773219 | BBCDataConsistency>>0/0/0/0
+    275 => | 276 | 2017-10-12 09:53:39 | 1507773219 | BBC_Controller>>sendResponseMsg() 1000/0/0/null
+    276 => | 277 | 2017-10-12 09:53:39 | 1507773219 | BBCAgentService>>onHandleIntent/0/7
+    277 => | 278 | 2017-10-15 09:38:40 | 1508031520 | BBC_Utility>>checkIfDeviceTbaseCapable() called
+    278 => | 279 | 2017-10-15 09:38:40 | 1508031520 | BBC_Utility>>checkIfDeviceTbaseCapable() isTbaseCapable : false
+    279 => | 280 | 2017-10-15 09:38:40 | 1508031520 | BBCAgentService>>TBaseCapable status : 0/0/0/0
+    280 => | 281 | 2017-10-15 09:38:40 | 1508031520 | BBCDataConsistency>>0/0/0/0
+    281 => | 282 | 2017-10-15 09:38:40 | 1508031520 | BBC_Controller>>sendResponseMsg() 1000/0/0/null
+    282 => | 283 | 2017-10-15 09:38:40 | 1508031520 | BBCAgentService>>onHandleIntent/0/7
+    283 => | 284 | 2017-10-16 14:49:48 | 1508136588 | BBC_Utility>>checkIfDeviceTbaseCapable() called
+    284 => | 285 | 2017-10-16 14:49:48 | 1508136588 | BBC_Utility>>checkIfDeviceTbaseCapable() isTbaseCapable : false
+    285 => | 286 | 2017-10-16 14:49:49 | 1508136589 | BBCAgentService>>TBaseCapable status : 0/0/0/0
+    286 => | 287 | 2017-10-16 14:49:49 | 1508136589 | BBCDataConsistency>>0/0/0/0
+    287 => | 288 | 2017-10-16 14:49:49 | 1508136589 | BBC_Controller>>sendResponseMsg() 1000/0/0/null
+    288 => | 289 | 2017-10-16 14:49:49 | 1508136589 | BBCAgentService>>onHandleIntent/0/7
+    289 => | 290 | 2017-10-19 11:24:14 | 1508383454 | BBC_Utility>>checkIfDeviceTbaseCapable() called
+    290 => | 291 | 2017-10-19 11:24:14 | 1508383454 | BBC_Utility>>checkIfDeviceTbaseCapable() isTbaseCapable : false
+    291 => | 292 | 2017-10-19 11:24:14 | 1508383454 | BBCAgentService>>TBaseCapable status : 0/0/0/0
+    292 => | 293 | 2017-10-19 11:24:14 | 1508383454 | BBCDataConsistency>>0/0/0/0
+    293 => | 294 | 2017-10-19 11:24:14 | 1508383454 | BBC_Controller>>sendResponseMsg() 1000/0/0/null
+    294 => | 295 | 2017-10-19 11:24:14 | 1508383454 | BBCAgentService>>onHandleIntent/0/7
+    295 => | 296 | 2017-10-20 15:32:19 | 1508484739 | BBC_Utility>>checkIfDeviceTbaseCapable() called
+    296 => | 297 | 2017-10-20 15:32:19 | 1508484739 | BBC_Utility>>checkIfDeviceTbaseCapable() isTbaseCapable : false
+    297 => | 298 | 2017-10-20 15:32:19 | 1508484739 | BBCAgentService>>TBaseCapable status : 0/0/0/0
+    298 => | 299 | 2017-10-20 15:32:20 | 1508484740 | BBCDataConsistency>>0/0/0/0
+    299 => | 300 | 2017-10-20 15:32:20 | 1508484740 | BBC_Controller>>sendResponseMsg() 1000/0/0/null
+    300 => | 301 | 2017-10-20 15:32:20 | 1508484740 | BBCAgentService>>onHandleIntent/0/7
+    301 => | 302 | 2017-11-01 16:01:33 | 1509523293 | BBC_Utility>>checkIfDeviceTbaseCapable() called
+    302 => | 303 | 2017-11-01 16:01:33 | 1509523293 | BBC_Utility>>checkIfDeviceTbaseCapable() isTbaseCapable : false
+    303 => | 304 | 2017-11-01 16:01:33 | 1509523293 | BBCAgentService>>TBaseCapable status : 0/0/0/0
+    304 => | 305 | 2017-11-01 16:01:33 | 1509523293 | BBCDataConsistency>>0/0/0/0
+    305 => | 306 | 2017-11-01 16:01:33 | 1509523293 | BBC_Controller>>sendResponseMsg() 1000/0/0/null
+    306 => | 307 | 2017-11-01 16:01:33 | 1509523293 | BBCAgentService>>onHandleIntent/0/7
+    307 => | 308 | 2017-11-02 11:59:36 | 1509595176 | BBC_Utility>>checkIfDeviceTbaseCapable() called
+    308 => | 309 | 2017-11-02 11:59:36 | 1509595176 | BBC_Utility>>checkIfDeviceTbaseCapable() isTbaseCapable : false
+    309 => | 310 | 2017-11-02 11:59:36 | 1509595176 | BBCAgentService>>TBaseCapable status : 0/0/0/0
+    310 => | 311 | 2017-11-02 11:59:36 | 1509595176 | BBCDataConsistency>>0/0/0/0
+    311 => | 312 | 2017-11-02 11:59:36 | 1509595176 | BBC_Controller>>sendResponseMsg() 1000/0/0/null
+    312 => | 313 | 2017-11-02 11:59:36 | 1509595176 | BBCAgentService>>onHandleIntent/0/7
+    313 => | 314 | 2017-11-02 14:03:42 | 1509602622 | BBC_Utility>>checkIfDeviceTbaseCapable() called
+    314 => | 315 | 2017-11-02 14:03:42 | 1509602622 | BBC_Utility>>checkIfDeviceTbaseCapable() isTbaseCapable : false
+    315 => | 316 | 2017-11-02 14:03:42 | 1509602622 | BBCAgentService>>TBaseCapable status : 0/0/0/0
+    316 => | 317 | 2017-11-02 14:03:43 | 1509602623 | BBCDataConsistency>>0/0/0/0
+    317 => | 318 | 2017-11-02 14:03:43 | 1509602623 | BBC_Controller>>sendResponseMsg() 1000/0/0/null
+    318 => | 319 | 2017-11-02 14:03:43 | 1509602623 | BBCAgentService>>onHandleIntent/0/7
+    319 => | 320 | 2017-11-06 12:40:05 | 1509943205 | BBC_Utility>>checkIfDeviceTbaseCapable() called
+    320 => | 321 | 2017-11-06 12:40:05 | 1509943205 | BBC_Utility>>checkIfDeviceTbaseCapable() isTbaseCapable : false
+    321 => | 322 | 2017-11-06 12:40:05 | 1509943205 | BBCAgentService>>TBaseCapable status : 0/0/0/0
+    322 => | 323 | 2017-11-06 12:40:05 | 1509943205 | BBCDataConsistency>>0/0/0/0
+    323 => | 324 | 2017-11-06 12:40:05 | 1509943205 | BBC_Controller>>sendResponseMsg() 1000/0/0/null
+    324 => | 325 | 2017-11-06 12:40:05 | 1509943205 | BBCAgentService>>onHandleIntent/0/7
+    325 => | 326 | 2017-11-06 12:45:34 | 1509943534 | BBCAgentService>>onHandleIntent/0/4
+    326 => | 327 | 2017-11-06 12:54:02 | 1509944042 | BBCAgentService>>onHandleIntent/0/4
+    327 => | 328 | 2017-11-06 12:56:50 | 1509944210 | BBC_Utility>>checkIfDeviceTbaseCapable() called
+    328 => | 329 | 2017-11-06 12:56:50 | 1509944210 | BBC_Utility>>checkIfDeviceTbaseCapable() isTbaseCapable : false
+    329 => | 330 | 2017-11-06 12:56:50 | 1509944210 | BBCAgentService>>TBaseCapable status : 0/0/0/0
+    330 => | 331 | 2017-11-06 12:56:50 | 1509944210 | BBCDataConsistency>>0/0/0/0
+    331 => | 332 | 2017-11-06 12:56:50 | 1509944210 | BBC_Controller>>sendResponseMsg() 1000/0/0/null
+    332 => | 333 | 2017-11-06 12:56:50 | 1509944210 | BBCAgentService>>onHandleIntent/0/7
+    333 => | 334 | 2017-11-06 17:08:03 | 1509959283 | BBC_Utility>>checkIfDeviceTbaseCapable() called
+    334 => | 335 | 2017-11-06 17:08:03 | 1509959283 | BBC_Utility>>checkIfDeviceTbaseCapable() isTbaseCapable : false
+    335 => | 336 | 2017-11-06 17:08:03 | 1509959283 | BBCAgentService>>TBaseCapable status : 0/0/0/0
+    336 => | 337 | 2017-11-06 17:08:03 | 1509959283 | BBCDataConsistency>>0/0/0/0
+    337 => | 338 | 2017-11-06 17:08:03 | 1509959283 | BBC_Controller>>sendResponseMsg() 1000/0/0/null
+    338 => | 339 | 2017-11-06 17:08:03 | 1509959283 | BBCAgentService>>onHandleIntent/0/7
+    339 => | 340 | 2017-11-10 10:42:25 | 1510281745 | BBC_Utility>>checkIfDeviceTbaseCapable() called
+    340 => | 341 | 2017-11-10 10:42:25 | 1510281745 | BBC_Utility>>checkIfDeviceTbaseCapable() isTbaseCapable : false
+    341 => | 342 | 2017-11-10 10:42:25 | 1510281745 | BBCAgentService>>TBaseCapable status : 0/0/0/0
+    342 => | 343 | 2017-11-10 10:42:26 | 1510281746 | BBCDataConsistency>>0/0/0/0
+    343 => | 344 | 2017-11-10 10:42:26 | 1510281746 | BBC_Controller>>sendResponseMsg() 1000/0/0/null
+    344 => | 345 | 2017-11-10 10:42:26 | 1510281746 | BBCAgentService>>onHandleIntent/0/7
+    345 => | 346 | 2017-11-22 18:36:09 | 1511346969 | BBC_Utility>>checkIfDeviceTbaseCapable() called
+    346 => | 347 | 2017-11-22 18:36:09 | 1511346969 | BBC_Utility>>checkIfDeviceTbaseCapable() isTbaseCapable : false
+    347 => | 348 | 2017-11-22 18:36:09 | 1511346969 | BBCAgentService>>TBaseCapable status : 0/0/0/0
+    348 => | 349 | 2017-11-22 18:36:09 | 1511346969 | BBCDataConsistency>>0/0/0/0
+    349 => | 350 | 2017-11-22 18:36:09 | 1511346969 | BBC_Controller>>sendResponseMsg() 1000/0/0/null
+    350 => | 351 | 2017-11-22 18:36:09 | 1511346969 | BBCAgentService>>onHandleIntent/0/7
+    351 => | 352 | 2017-11-26 10:55:05 | 1511664905 | BBC_Utility>>checkIfDeviceTbaseCapable() called
+    352 => | 353 | 2017-11-26 10:55:05 | 1511664905 | BBC_Utility>>checkIfDeviceTbaseCapable() isTbaseCapable : false
+    353 => | 354 | 2017-11-26 10:55:05 | 1511664905 | BBCAgentService>>TBaseCapable status : 0/0/0/0
+    354 => | 355 | 2017-11-26 10:55:05 | 1511664905 | BBCDataConsistency>>0/0/0/0
+    355 => | 356 | 2017-11-26 10:55:05 | 1511664905 | BBC_Controller>>sendResponseMsg() 1000/0/0/null
+    356 => | 357 | 2017-11-26 10:55:05 | 1511664905 | BBCAgentService>>onHandleIntent/0/7
+    357 => | 358 | 2017-12-04 10:47:38 | 1512355658 | BBC_Utility>>checkIfDeviceTbaseCapable() called
+    358 => | 359 | 2017-12-04 10:47:38 | 1512355658 | BBC_Utility>>checkIfDeviceTbaseCapable() isTbaseCapable : false
+    359 => | 360 | 2017-12-04 10:47:38 | 1512355658 | BBCAgentService>>TBaseCapable status : 0/0/0/0
+    360 => | 361 | 2017-12-04 10:47:38 | 1512355658 | BBCDataConsistency>>0/0/0/0
+    361 => | 362 | 2017-12-04 10:47:38 | 1512355658 | BBC_Controller>>sendResponseMsg() 1000/0/0/null
+    362 => | 363 | 2017-12-04 10:47:38 | 1512355658 | BBCAgentService>>onHandleIntent/0/7
+    363 => | 364 | 2017-12-04 11:25:56 | 1512357956 | BBCAgentService>>onHandleIntent/0/4
+    364 => | 365 | 2017-12-06 11:30:45 | 1512531045 | BBC_Utility>>checkIfDeviceTbaseCapable() called
+    365 => | 366 | 2017-12-06 11:30:45 | 1512531045 | BBC_Utility>>checkIfDeviceTbaseCapable() isTbaseCapable : false
+    366 => | 367 | 2017-12-06 11:30:45 | 1512531045 | BBCAgentService>>TBaseCapable status : 0/0/0/0
+    367 => | 368 | 2017-12-06 11:30:45 | 1512531045 | BBCDataConsistency>>0/0/0/0
+    368 => | 369 | 2017-12-06 11:30:45 | 1512531045 | BBC_Controller>>sendResponseMsg() 1000/0/0/null
+    369 => | 370 | 2017-12-06 11:30:45 | 1512531045 | BBCAgentService>>onHandleIntent/0/7
+    370 => | 371 | 2017-12-06 11:31:18 | 1512531078 | BBCAgentService>>onHandleIntent/0/4
+    371 => | 372 | 2017-12-06 18:09:24 | 1512554964 | BBC_Utility>>checkIfDeviceTbaseCapable() called
+    372 => | 373 | 2017-12-06 18:09:24 | 1512554964 | BBC_Utility>>checkIfDeviceTbaseCapable() isTbaseCapable : false
+    373 => | 374 | 2017-12-06 18:09:24 | 1512554964 | BBCAgentService>>TBaseCapable status : 0/0/0/0
+    374 => | 375 | 2017-12-06 18:09:24 | 1512554964 | BBCDataConsistency>>0/0/0/0
+    375 => | 376 | 2017-12-06 18:09:24 | 1512554964 | BBC_Controller>>sendResponseMsg() 1000/0/0/null
+    376 => | 377 | 2017-12-06 18:09:24 | 1512554964 | BBCAgentService>>onHandleIntent/0/7
+    377 => | 378 | 2017-12-06 18:09:47 | 1512554987 | BBCAgentService>>onHandleIntent/0/4
+    378 => | 379 | 2017-12-06 18:14:07 | 1512555247 | BBCAgentService>>onHandleIntent/0/4
+    379 => | 380 | 2017-12-07 10:02:14 | 1512612134 | BBCAgentService>>onHandleIntent/0/4
+    380 => | 381 | 2017-12-07 10:07:31 | 1512612451 | BBCAgentService>>onHandleIntent/0/4
+    381 => | 382 | 2017-12-07 10:19:57 | 1512613197 | BBCAgentService>>onHandleIntent/0/4
+    382 => | 383 | 2017-12-07 10:29:26 | 1512613766 | BBCAgentService>>onHandleIntent/0/4
+    383 => | 384 | 2017-12-08 19:00:08 | 1512730808 | BBC_Utility>>checkIfDeviceTbaseCapable() called
+    384 => | 385 | 2017-12-08 19:00:08 | 1512730808 | BBC_Utility>>checkIfDeviceTbaseCapable() isTbaseCapable : false
+    385 => | 386 | 2017-12-08 19:00:08 | 1512730808 | BBCAgentService>>TBaseCapable status : 0/0/0/0
+    386 => | 387 | 2017-12-08 19:00:08 | 1512730808 | BBCDataConsistency>>0/0/0/0
+    387 => | 388 | 2017-12-08 19:00:08 | 1512730808 | BBC_Controller>>sendResponseMsg() 1000/0/0/null
+    388 => | 389 | 2017-12-08 19:00:08 | 1512730808 | BBCAgentService>>onHandleIntent/0/7
+    389 => | 390 | 2017-12-10 09:32:16 | 1512869536 | BBCAgentService>>onHandleIntent/0/4
+    390 => | 391 | 2017-12-10 09:33:41 | 1512869621 | BBCAgentService>>onHandleIntent/0/4
+    391 => | 392 | 2017-12-10 09:34:04 | 1512869644 | BBCAgentService>>onHandleIntent/0/4
+    392 => | 393 | 2017-12-10 09:34:33 | 1512869673 | BBCAgentService>>onHandleIntent/0/4
+    393 => | 394 | 2017-12-10 09:34:56 | 1512869696 | BBCAgentService>>onHandleIntent/0/4
+    394 => | 395 | 2017-12-10 09:37:07 | 1512869827 | BBCAgentService>>onHandleIntent/0/4
+    395 => | 396 | 2017-12-10 09:37:45 | 1512869865 | BBCAgentService>>onHandleIntent/0/4
+    396 => | 397 | 2017-12-10 09:39:24 | 1512869964 | BBCAgentService>>onHandleIntent/0/4
+    397 => | 398 | 2017-12-10 09:40:55 | 1512870055 | BBCAgentService>>onHandleIntent/0/4
+    398 => | 399 | 2017-12-10 09:43:38 | 1512870218 | BBCAgentService>>onHandleIntent/0/4
+    399 => | 400 | 2017-12-10 09:44:24 | 1512870264 | BBCAgentService>>onHandleIntent/0/4
+    400 => | 401 | 2017-12-10 09:44:36 | 1512870276 | BBCAgentService>>onHandleIntent/0/4
+    401 => | 402 | 2017-12-10 09:45:00 | 1512870300 | BBCAgentService>>onHandleIntent/0/4
+    402 => | 403 | 2017-12-10 09:46:53 | 1512870413 | BBCAgentService>>onHandleIntent/0/4
+    403 => | 404 | 2017-12-20 09:43:14 | 1513734194 | BBC_Utility>>checkIfDeviceTbaseCapable() called
+    404 => | 405 | 2017-12-20 09:43:14 | 1513734194 | BBC_Utility>>checkIfDeviceTbaseCapable() isTbaseCapable : false
+    405 => | 406 | 2017-12-20 09:43:14 | 1513734194 | BBCAgentService>>TBaseCapable status : 0/0/0/0
+    406 => | 407 | 2017-12-20 09:43:14 | 1513734194 | BBCDataConsistency>>0/0/0/0
+    407 => | 408 | 2017-12-20 09:43:15 | 1513734195 | BBC_Controller>>sendResponseMsg() 1000/0/0/null
+    408 => | 409 | 2017-12-20 09:43:15 | 1513734195 | BBCAgentService>>onHandleIntent/0/7
+    409 => | 410 | 2017-12-20 16:51:27 | 1513759887 | BBC_Utility>>checkIfDeviceTbaseCapable() called
+    410 => | 411 | 2017-12-20 16:51:27 | 1513759887 | BBC_Utility>>checkIfDeviceTbaseCapable() isTbaseCapable : false
+    411 => | 412 | 2017-12-20 16:51:27 | 1513759887 | BBCAgentService>>TBaseCapable status : 0/0/0/0
+    412 => | 413 | 2017-12-20 16:51:27 | 1513759887 | BBCDataConsistency>>0/0/0/0
+    413 => | 414 | 2017-12-20 16:51:27 | 1513759887 | BBC_Controller>>sendResponseMsg() 1000/0/0/null
+    414 => | 415 | 2017-12-20 16:51:27 | 1513759887 | BBCAgentService>>onHandleIntent/0/7
+    415 => | 416 | 2017-12-21 14:11:32 | 1513836692 | BBCAgentService>>onHandleIntent/0/4
+    416 => | 417 | 2017-12-24 17:11:50 | 1514106710 | BBCAgentService>>onHandleIntent/0/4
+    417 => | 418 | 2017-12-24 17:12:51 | 1514106771 | BBCAgentService>>onHandleIntent/0/4
+    418 => | 419 | 2017-12-24 17:17:34 | 1514107054 | BBCAgentService>>onHandleIntent/0/4
+
+    ====================================================
+    Dump table bbc_global_property
+
+         _id     property_int     property_string     log_time
+
+    0 => | 0 | 1 | null | 2017-02-15 17:07:54
+    1 => | 2 | 0 | null | 2017-12-20 16:51:27
+    2 => | 3 | 0 | null | 2017-12-20 16:51:27
+
+    ====================================================
+
+SERVICE com.android.phone/.TelephonyDebugService 8f2e2f5 pid=1301
+  Client:
+    PhoneFactory:
+    GSMPhone extends:
+    PhoneBase: subId=2147483643
+     mPhoneId=0
+     mCi=com.android.internal.telephony.RIL@6017252
+     mDnsCheckDisabled=false
+     mDcTracker=Handler (com.android.internal.telephony.dataconnection.DcTracker) {985fe55}
+     mDoesRilSendMultipleCallRing=false
+     mCallRingContinueToken=0
+     mCallRingDelay=3000
+     mIsTheCurrentActivePhone=true
+     mIsVoiceCapable=true
+     mIccRecords=null
+     mUiccApplication=null
+     mSmsStorageMonitor=Handler (com.android.internal.telephony.SmsStorageMonitor) {c49606a}
+     mSmsUsageMonitor=com.android.internal.telephony.SmsUsageMonitor@29a895b
+     mLooper=Looper (main, tid 1) {90865f8}
+     mContext=com.android.phone.PhoneGlobals@d752ad1
+     mNotifier=com.android.internal.telephony.DefaultPhoneNotifier@c951936
+     mSimulatedRadioControl=null
+     mUnitTestMode=false
+     isDnsCheckDisabled()=false
+     getUnitTestMode()=false
+     getState()=IDLE
+     getIccSerialNumber()=null
+     getIccRecordsLoaded()=false
+     getMessageWaitingIndicator()=false
+     getCallForwardingIndicator()=false
+     isInEmergencyCall()=false
+     isInEcm()=false
+     getPhoneName()=GSM
+     getPhoneType()=1
+     getVoiceMessageCount()=0
+     getActiveApnTypes()=[Ljava.lang.String;@af96a96
+     isDataConnectivityPossible()=false
+     needsOtaServiceProvisioning=false
+     getRadioCapability()={mPhoneId = 0 mVersion=1 mSession=0 mPhase=4 mRadioAccessFamily=249358 mLogicModemId=0 mStatus=1}
+     mUsedLegacyIms=true
+     mCscChameleonFileExists=false
+     mEccNums=null
+     mConfigNetworkTypeCapability=CHM-CHM-GSM-CHN
+    ++++++++++++++++++++++++++++++++
+    DcTracker extends:
+    DcTrackerBase:
+     RADIO_TESTS=false
+     mInternalDataEnabled=true
+     mUserDataEnabled=true
+     sPolicyDataEnabed=true
+     mDataEnabled:
+      mDataEnabled[0]=true
+      mDataEnabled[1]=false
+      mDataEnabled[2]=false
+      mDataEnabled[3]=false
+      mDataEnabled[4]=false
+      mDataEnabled[5]=false
+      mDataEnabled[6]=false
+      mDataEnabled[7]=false
+      mDataEnabled[8]=false
+      mDataEnabled[9]=false
+      mDataEnabled[10]=false
+      mDataEnabled[11]=false
+      mDataEnabled[12]=false
+      mDataEnabled[13]=false
+      mDataEnabled[14]=false
+      mDataEnabled[15]=false
+      mDataEnabled[16]=false
+      mDataEnabled[17]=false
+      mDataEnabled[18]=false
+     mEnabledCount=1
+     mRequestedApnType=default
+     mPhone=GSM
+     mActivity=NONE
+     mState=IDLE
+     mTxPkts=0
+     mRxPkts=0
+     mNetStatPollPeriod=0
+     mNetStatPollEnabled=false
+     mDataStallTxRxSum={txSum=0 rxSum=0}
+     mDataStallAlarmTag=21626
+     mDataStallDetectionEanbled=true
+     mSentSinceLastRecv=0
+     mNoRecvPollCount=0
+     mResolver=android.app.ContextImpl$ApplicationContentResolver@e59e9a4
+     mIsWifiConnected=true
+     mReconnectIntent=null
+     mAutoAttachOnCreation=false
+     mIsScreenOn=true
+     mUniqueIdGenerator=0
+     ***************************************
+    Dcc:
+     total records=1
+     rec[0]: time=12-20 16:51:02.673 processed=DccDefaultState org=DccDefaultState dest=<null> what=EVENT_RIL_CONNECTED
+    curState=DccDefaultState
+     mPhone=Handler (com.android.internal.telephony.gsm.GSMPhone) {a766e4e}
+     mDcListAll=[]
+     mDcListActiveByCid={}
+     ***************************************
+     mDataConnections: count=0
+     ***************************************
+     mApnToDataConnectonId size=0
+     ***************************************
+     mApnContexts size=15
+    {mApnType=cmmail mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mRefCount=0 mDataEnabled=false mDependencyMet=true}
+    {mApnType=fota mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mRefCount=0 mDataEnabled=false mDependencyMet=true}
+    {mApnType=wap mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mRefCount=0 mDataEnabled=false mDependencyMet=true}
+    {mApnType=supl mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mRefCount=0 mDataEnabled=false mDependencyMet=true}
+    {mApnType=ent2 mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mRefCount=0 mDataEnabled=false mDependencyMet=true}
+    {mApnType=emergency mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mRefCount=0 mDataEnabled=false mDependencyMet=true}
+    {mApnType=ent1 mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mRefCount=0 mDataEnabled=false mDependencyMet=true}
+    {mApnType=hipri mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mRefCount=0 mDataEnabled=false mDependencyMet=true}
+    {mApnType=ims mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=dataEnabled mRefCount=0 mDataEnabled=false mDependencyMet=true}
+    {mApnType=default mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mRefCount=0 mDataEnabled=false mDependencyMet=true}
+    {mApnType=mms mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mRefCount=0 mDataEnabled=false mDependencyMet=true}
+    {mApnType=cbs mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mRefCount=0 mDataEnabled=false mDependencyMet=true}
+    {mApnType=ia mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mRefCount=0 mDataEnabled=false mDependencyMet=true}
+    {mApnType=dun mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mRefCount=0 mDataEnabled=false mDependencyMet=true}
+    {mApnType=cmdm mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mRefCount=0 mDataEnabled=false mDependencyMet=true}
+     ***************************************
+     mActiveApn=null
+     mAllApnSettings=null
+     mPreferredApn=null
+     mIsPsRestricted=false
+     mIsDisposed=false
+     mIntentReceiver=com.android.internal.telephony.dataconnection.DcTrackerBase$1@41077af
+     mDataRoamingSettingObserver=com.android.internal.telephony.dataconnection.DcTrackerBase$DataRoamingSettingObserver@a50a30d
+     ***************************************
+     mPermanentFailedMap size=0
+     ***************************************
+     mReregisterOnReconnectFailure=false
+     canSetPreferApn=false
+     mIsUpdated=false
+     mApnObserver=com.android.internal.telephony.dataconnection.DcTracker$ApnChangeObserver@f1192c2
+     getOverallState=IDLE
+     mDataConnectionAsyncChannels=%s
+    {}
+     mAttached=false
+    ++++++++++++++++++++++++++++++++
+    GsmServiceStateTracker extends:
+    ServiceStateTracker:
+     mSS=2 1 voice home data home  UMTS Unknown CSS not supported -1 -1 RoamInd=-1 DefRoamInd=-1 VoiceRegType=0 ImsVoiceAvail=0 IsEbSupport=0 IsEaBarred=0 Snap=0 FemtocellInd=0 EmergOnly=true IsDataRoamingFromRegistration=false
+     mNewSS=1 1 voice home data home  Unknown Unknown CSS not supported -1 -1 RoamInd=-1 DefRoamInd=-1 VoiceRegType=0 ImsVoiceAvail=0 IsEbSupport=0 IsEaBarred=0 Snap=0 FemtocellInd=0 EmergOnly=false IsDataRoamingFromRegistration=false
+     mCellInfo=CellInfoGsm:{mRegistered=NO mTimeStampType=unknown mTimeStamp=9223372036854775807ns CellIdentityGsm:{ mMcc=2147483647 mMnc=2147483647 mLac=2147483647 mCid=2147483647} CellSignalStrengthGsm: ss=2147483647 ber=2147483647}
+     mRestrictedState=Restricted State CS: none PS:false
+     mPollingContext=[I@b04617
+     mDesiredPowerState=true
+     mDontPollSignalStrength=true
+     mPendingRadioPowerOffAfterDataOff=false
+     mPendingRadioPowerOffAfterDataOffTag=0
+     mPhone=Handler (com.android.internal.telephony.gsm.GSMPhone) {a766e4e}
+     mSS=2 1 voice home data home  UMTS Unknown CSS not supported -1 -1 RoamInd=-1 DefRoamInd=-1 VoiceRegType=0 ImsVoiceAvail=0 IsEbSupport=0 IsEaBarred=0 Snap=0 FemtocellInd=0 EmergOnly=true IsDataRoamingFromRegistration=false
+     mNewSS=1 1 voice home data home  Unknown Unknown CSS not supported -1 -1 RoamInd=-1 DefRoamInd=-1 VoiceRegType=0 ImsVoiceAvail=0 IsEbSupport=0 IsEaBarred=0 Snap=0 FemtocellInd=0 EmergOnly=false IsDataRoamingFromRegistration=false
+     mCellLoc=[41019,4946731,-1]
+     mNewCellLoc=[41019,4946731,-1]
+     mPreferredNetworkType=0
+     mMaxDataCalls=4
+     mNewMaxDataCalls=4
+     mReasonDataDenied=-1
+     mNewReasonDataDenied=-1
+     mGsmRoaming=false
+     mDataRoaming=false
+     mEmergencyOnly=true
+     mNeedFixZoneAfterNitz=false
+     mZoneOffset=0
+     mZoneDst=false
+     mZoneTime=0
+     mGotCountryCode=true
+     mNitzUpdatedTime=false
+     mSavedTimeZone=Asia/Shanghai
+     mSavedTime=0
+     mSavedAtTime=0
+     mStartedGprsRegCheck=false
+     mReportedGprsNoReg=false
+     mNotification=null
+     mWakeLock=WakeLock{71dfc10 held=false, refCount=0}
+     mCurSpn=null
+     mCurDataSpn=null
+     mCurShowSpn=false
+     mCurPlmn=ä»éç´§æ¥å¼å«
+     mCurShowPlmn=false
+     mSubId=-1
+    ++++++++++++++++++++++++++++++++
+    GsmCallTracker extends:
+    CallTracker:
+     mPendingOperations=0
+     mNeedsPoll=false
+     mLastRelevantPoll=null
+    mConnections: length=19
+      mConnections[0]=null
+      mConnections[1]=null
+      mConnections[2]=null
+      mConnections[3]=null
+      mConnections[4]=null
+      mConnections[5]=null
+      mConnections[6]=null
+      mConnections[7]=null
+      mConnections[8]=null
+      mConnections[9]=null
+      mConnections[10]=null
+      mConnections[11]=null
+      mConnections[12]=null
+      mConnections[13]=null
+      mConnections[14]=null
+      mConnections[15]=null
+      mConnections[16]=null
+      mConnections[17]=null
+      mConnections[18]=null
+     mVoiceCallEndedRegistrants=android.os.RegistrantList@ef16309
+     mVoiceCallStartedRegistrants=android.os.RegistrantList@aea190e
+     mDroppedDuringPoll: size=0
+     mRingingCall=IDLE
+     mForegroundCall=IDLE
+     mBackgroundCall=IDLE
+     mPendingMO=null
+     mHangupPendingMO=false
+     mPhone=Handler (com.android.internal.telephony.gsm.GSMPhone) {a766e4e}
+     mDesiredMute=false
+     mState=IDLE
+    ++++++++++++++++++++++++++++++++
+    RIL: com.android.internal.telephony.RIL@6017252
+     mSocket=android.net.LocalSocket@8231f2f impl:android.net.LocalSocketImpl@7cec93c fd:FileDescriptor[25]
+     mSenderThread=Thread[RILSender0,5,main]
+     mSender=Handler (com.android.internal.telephony.RIL$RILSender) {4c426c5}
+     mReceiverThread=Thread[RILReceiver0,5,main]
+     mReceiver=com.android.internal.telephony.RIL$RILReceiver@cb2b81a
+     mWakeLock=WakeLock{a4c7f4b held=false, refCount=0}
+     mWakeLockTimeout=60000
+     mWakeLockCount=0
+     mRequestList count=0
+     mLastNITZTimeInfo=null
+     mTestingEmergencyCall=false
+    ++++++++++++++++++++++++++++++++
+    LegacyIms:
+     mNetworkType=NONE
+     mFeature[MOBILE]=0
+     mRegState[MOBILE]=0
+     mFeature[WIFI]=0
+     mRegState[WIFI]=0
+     mEpdgState=0
+     mECMPStatus=0
+    ++++++++++++++++++++++++++++++++
+     mCT=Handler (com.android.internal.telephony.gsm.GsmCallTracker) {5d3d28}
+     mSST=Handler (com.android.internal.telephony.gsm.GsmServiceStateTracker) {5456a41}
+     mPendingMMIs=[]
+     mSimPhoneBookIntManager=com.android.internal.telephony.gsm.SimPhoneBookInterfaceManager@4343be6
+     mSubInfo=com.android.internal.telephony.PhoneSubInfo@e61c527
+     mImeiSv=03
+     mVmNumber=null
+    ++++++++++++++++++++++++++++++++
+    IccCardProxy: Handler (com.android.internal.telephony.uicc.IccCardProxy) {cdd03d4}
+     mContext=com.android.phone.PhoneGlobals@d752ad1
+     mCi=com.android.internal.telephony.RIL@6017252
+     mAbsentRegistrants: size=1
+      mAbsentRegistrants[0]=Handler (com.android.phone.PhoneGlobals$3) {b3d697d}
+     mPinLockedRegistrants: size=0
+     mNetworkLockedRegistrants: size=1
+      mNetworkLockedRegistrants[0]=Handler (com.android.phone.PhoneGlobals$3) {b3d697d}
+     mCurrentAppType=1
+     mUiccController=Handler (com.android.internal.telephony.uicc.UiccController) {2f83072}
+     mUiccCard=com.android.internal.telephony.uicc.UiccCard@c9b8cc3
+     mUiccApplication=null
+     mIccRecords=null
+     mCdmaSSM=Handler (com.android.internal.telephony.cdma.CdmaSubscriptionSourceManager) {4f08940}
+     mRadioOn=true
+     mQuietMode=false
+     mInitialized=false
+     mExternalState=ABSENT
+    ++++++++++++++++++++++++++++++++
+    DctController:
+    DcSwitchStateMachine-0:
+     total records=19
+     rec[0]: time=12-20 16:51:02.877 processed=DefaultState org=IdleState dest=<null> what=69633(0x11001)
+     rec[1]: time=12-20 16:51:04.316 processed=DefaultState org=IdleState dest=<null> what=278536(0x44008)
+     rec[2]: time=12-20 16:51:05.080 processed=DefaultState org=IdleState dest=<null> what=278531(0x44003)
+     rec[3]: time=12-20 16:51:05.082 processed=IdleState org=IdleState dest=<null> what=278528(0x44000)
+     rec[4]: time=12-20 16:51:05.791 processed=DefaultState org=IdleState dest=<null> what=278531(0x44003)
+     rec[5]: time=12-20 16:51:05.793 processed=IdleState org=IdleState dest=<null> what=278528(0x44000)
+     rec[6]: time=12-20 16:54:04.224 processed=DefaultState org=IdleState dest=<null> what=278531(0x44003)
+     rec[7]: time=12-20 16:54:04.226 processed=DefaultState org=IdleState dest=<null> what=278531(0x44003)
+     rec[8]: time=12-20 16:54:04.226 processed=IdleState org=IdleState dest=<null> what=278528(0x44000)
+     rec[9]: time=12-20 17:34:16.478 processed=DefaultState org=IdleState dest=<null> what=278531(0x44003)
+     rec[10]: time=12-20 17:34:16.485 processed=IdleState org=IdleState dest=<null> what=278528(0x44000)
+     rec[11]: time=12-20 19:28:20.745 processed=DefaultState org=IdleState dest=<null> what=278531(0x44003)
+     rec[12]: time=12-20 19:28:20.746 processed=DefaultState org=IdleState dest=<null> what=278531(0x44003)
+     rec[13]: time=12-20 19:28:20.752 processed=IdleState org=IdleState dest=<null> what=278528(0x44000)
+     rec[14]: time=12-24 16:13:12.619 processed=DefaultState org=IdleState dest=<null> what=278531(0x44003)
+     rec[15]: time=12-24 16:13:12.631 processed=IdleState org=IdleState dest=<null> what=278528(0x44000)
+     rec[16]: time=12-24 17:18:45.297 processed=DefaultState org=IdleState dest=<null> what=278531(0x44003)
+     rec[17]: time=12-24 17:18:45.297 processed=DefaultState org=IdleState dest=<null> what=278531(0x44003)
+     rec[18]: time=12-24 17:18:45.302 processed=IdleState org=IdleState dest=<null> what=278528(0x44000)
+    curState=IdleState
+    ++++++++++++++++++++++++++++++++
+    ++++++++++++++++++++++++++++++++
+    TelephonyNetworkFactories:
+    {TelephonyNetworkFactory - ScoreFilter=50, Filter=[ Transports: CELLULAR Capabilities: MMS&SUPL&DUN&FOTA&IMS&CBS&IA&RCS&XCAP&EIMS&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&ENT1&BIP Specifier: <2147483643>], requests=1, refCount=0}
+      {NetworkRequest [ id=1, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ], score=60, requested=false}
+      Pending Requests:
+      Request History:
+        NetworkRequest [ id=1, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+          12-20 16:51:04.318 - Dctc.requestNetwork, priority=0
+          12-20 16:51:05.082 - DcSwitchStateMachine.IdleState: REQ_CONNECT
+          12-20 16:51:05.793 - DcSwitchStateMachine.IdleState: REQ_CONNECT
+          12-20 16:54:04.213 - Cellular releasing Network for 
+          12-20 16:54:04.218 - DctController.releaseNetwork
+          12-20 16:54:04.223 - DctController.onReleaseRequest
+          12-20 17:34:16.467 - Dctc.requestNetwork, priority=0
+          12-20 17:34:16.484 - DcSwitchStateMachine.IdleState: REQ_CONNECT
+          12-20 19:28:20.739 - Cellular releasing Network for 
+          12-20 19:28:20.744 - DctController.releaseNetwork
+          12-20 19:28:20.744 - DctController.onReleaseRequest
+          12-24 16:13:12.611 - Dctc.requestNetwork, priority=0
+          12-24 16:13:12.630 - DcSwitchStateMachine.IdleState: REQ_CONNECT
+          12-24 17:18:45.294 - Cellular releasing Network for 
+          12-24 17:18:45.295 - DctController.releaseNetwork
+          12-24 17:18:45.296 - DctController.onReleaseRequest
+    ++++++++++++++++++++++++++++++++
+    UiccController: Handler (com.android.internal.telephony.uicc.UiccController) {2f83072}
+     mContext=com.android.phone.PhoneGlobals@d752ad1
+     mInstance=Handler (com.android.internal.telephony.uicc.UiccController) {2f83072}
+     mIccChangedRegistrants: size=5
+      mIccChangedRegistrants[0]=Handler (com.android.internal.telephony.gsm.GSMPhone) {a766e4e}
+      mIccChangedRegistrants[1]=Handler (com.android.internal.telephony.gsm.GsmServiceStateTracker) {5456a41}
+      mIccChangedRegistrants[2]=Handler (com.android.internal.telephony.dataconnection.DcTracker) {985fe55}
+      mIccChangedRegistrants[3]=Handler (com.android.internal.telephony.gsm.GsmSMSDispatcher) {bbc2079}
+      mIccChangedRegistrants[4]=Handler (com.android.internal.telephony.uicc.IccCardProxy) {cdd03d4}
+
+     mUiccCards: size=1
+      mUiccCards[0]=com.android.internal.telephony.uicc.UiccCard@c9b8cc3
+    UiccCard:
+     mCi=com.android.internal.telephony.RIL@6017252
+     mLastRadioState=RADIO_ON
+     mCatService=null
+     mAbsentRegistrants: size=1
+      mAbsentRegistrants[0]=Handler (com.android.internal.telephony.uicc.IccCardProxy) {cdd03d4}
+     mCardState=CARDSTATE_ABSENT
+     mUniversalPinState=PINSTATE_UNKNOWN
+     mGsmUmtsSubscriptionAppIndex=-1
+     mCdmaSubscriptionAppIndex=-1
+     mImsSubscriptionAppIndex=-1
+     mImsSubscriptionAppIndex=-1
+     mUiccApplications: length=8
+      mUiccApplications[0]=null
+      mUiccApplications[1]=null
+      mUiccApplications[2]=null
+      mUiccApplications[3]=null
+      mUiccApplications[4]=null
+      mUiccApplications[5]=null
+      mUiccApplications[6]=null
+      mUiccApplications[7]=null
+
+     mCarrierPrivilegeRules: null
+     mCarrierPrivilegeRegistrants: size=0
+    mLocalLog:
+    mCardLogs: 
+    ++++++++++++++++++++++++++++++++
+    SubscriptionController:
+     defaultSubId=2147483643
+     defaultDataSubId=2147483643
+     defaultVoiceSubId=2147483643
+     defaultSmsSubId=2147483643
+     defaultDataPhoneId=0
+     defaultVoicePhoneId=0
+     defaultSmsPhoneId=0
+    ++++++++++++++++++++++++++++++++
+     ActiveSubInfoList: is null
+    ++++++++++++++++++++++++++++++++
+     AllSubInfoList:
+      {id=1, iccId=898601168XXXXXXXXXXX simSlotIndex=-1 displayName=CARD 1 carrierName=ä¸­å½èé nameSource=0 iconTint=0 dataRoaming=0 iconBitmap=android.graphics.Bitmap@3a050c mcc 460 mnc 1 mStatus=1 mNwMode=-1}
+    ++++++++++++++++++++++++++++++++
+    0: 12-24 16:11:35 pid=1301 tid=17034 [getActiveSubIdList] simInfoSet=[]
+    1: 12-24 16:11:35 pid=1301 tid=17034 [getActiveSubIdList] X subIdArr.length=0
+    2: 12-24 16:11:52 pid=1301 tid=1555 [getActiveSubIdList] simInfoSet=[]
+    3: 12-24 16:11:52 pid=1301 tid=1555 [getActiveSubIdList] X subIdArr.length=0
+    4: 12-24 16:11:52 pid=1301 tid=15635 [getActiveSubIdList] simInfoSet=[]
+    5: 12-24 16:11:52 pid=1301 tid=15635 [getActiveSubIdList] X subIdArr.length=0
+    6: 12-24 16:12:10 pid=1301 tid=15635 [getActiveSubIdList] simInfoSet=[]
+    7: 12-24 16:12:10 pid=1301 tid=15635 [getActiveSubIdList] X subIdArr.length=0
+    8: 12-24 16:12:10 pid=1301 tid=1555 [getActiveSubIdList] simInfoSet=[]
+    9: 12-24 16:12:10 pid=1301 tid=1555 [getActiveSubIdList] X subIdArr.length=0
+    10: 12-24 16:12:23 pid=1301 tid=15635 [getActiveSubIdList] simInfoSet=[]
+    11: 12-24 16:12:23 pid=1301 tid=15635 [getActiveSubIdList] X subIdArr.length=0
+    12: 12-24 16:12:23 pid=1301 tid=1555 [getActiveSubIdList] simInfoSet=[]
+    13: 12-24 16:12:23 pid=1301 tid=1555 [getActiveSubIdList] X subIdArr.length=0
+    14: 12-24 16:13:09 pid=1301 tid=15635 [getActiveSubIdList] simInfoSet=[]
+    15: 12-24 16:13:09 pid=1301 tid=15635 [getActiveSubIdList] X subIdArr.length=0
+    16: 12-24 16:13:09 pid=1301 tid=1555 [getActiveSubIdList] simInfoSet=[]
+    17: 12-24 16:13:09 pid=1301 tid=1555 [getActiveSubIdList] X subIdArr.length=0
+    18: 12-24 16:13:12 pid=1301 tid=1336 [getActiveSubIdList] simInfoSet=[]
+    19: 12-24 16:13:12 pid=1301 tid=1336 [getActiveSubIdList] X subIdArr.length=0
+    20: 12-24 16:13:12 pid=1301 tid=1956 [getActiveSubIdList] simInfoSet=[]
+    21: 12-24 16:13:12 pid=1301 tid=1956 [getActiveSubIdList] X subIdArr.length=0
+    22: 12-24 16:13:12 pid=1301 tid=17034 [getActiveSubIdList] simInfoSet=[]
+    23: 12-24 16:13:12 pid=1301 tid=17034 [getActiveSubIdList] X subIdArr.length=0
+    24: 12-24 16:13:12 pid=1301 tid=1336 [getActiveSubIdList] simInfoSet=[]
+    25: 12-24 16:13:12 pid=1301 tid=1336 [getActiveSubIdList] X subIdArr.length=0
+    26: 12-24 16:13:12 pid=1301 tid=1313 [getActiveSubIdList] simInfoSet=[]
+    27: 12-24 16:13:12 pid=1301 tid=1313 [getActiveSubIdList] X subIdArr.length=0
+    28: 12-24 16:13:12 pid=1301 tid=15637 [getActiveSubIdList] simInfoSet=[]
+    29: 12-24 16:13:12 pid=1301 tid=15637 [getActiveSubIdList] X subIdArr.length=0
+    30: 12-24 16:13:12 pid=1301 tid=17034 [getActiveSubIdList] simInfoSet=[]
+    31: 12-24 16:13:12 pid=1301 tid=17034 [getActiveSubIdList] X subIdArr.length=0
+    32: 12-24 16:13:13 pid=1301 tid=15635 [getActiveSubIdList] simInfoSet=[]
+    33: 12-24 16:13:13 pid=1301 tid=15635 [getActiveSubIdList] X subIdArr.length=0
+    34: 12-24 16:13:13 pid=1301 tid=1555 [getActiveSubIdList] simInfoSet=[]
+    35: 12-24 16:13:13 pid=1301 tid=1555 [getActiveSubIdList] X subIdArr.length=0
+    36: 12-24 16:13:15 pid=1301 tid=1313 [getActiveSubIdList] simInfoSet=[]
+    37: 12-24 16:13:15 pid=1301 tid=1313 [getActiveSubIdList] X subIdArr.length=0
+    38: 12-24 16:13:15 pid=1301 tid=17034 [getActiveSubIdList] simInfoSet=[]
+    39: 12-24 16:13:15 pid=1301 tid=17034 [getActiveSubIdList] X subIdArr.length=0
+    40: 12-24 16:13:19 pid=1301 tid=15635 [getActiveSubIdList] simInfoSet=[]
+    41: 12-24 16:13:19 pid=1301 tid=15635 [getActiveSubIdList] X subIdArr.length=0
+    42: 12-24 16:13:19 pid=1301 tid=1555 [getActiveSubIdList] simInfoSet=[]
+    43: 12-24 16:13:19 pid=1301 tid=1555 [getActiveSubIdList] X subIdArr.length=0
+    44: 12-24 16:13:26 pid=1301 tid=1555 [getActiveSubIdList] simInfoSet=[]
+    45: 12-24 16:13:26 pid=1301 tid=1555 [getActiveSubIdList] X subIdArr.length=0
+    46: 12-24 16:13:26 pid=1301 tid=15637 [getActiveSubIdList] simInfoSet=[]
+    47: 12-24 16:13:26 pid=1301 tid=15637 [getActiveSubIdList] X subIdArr.length=0
+    48: 12-24 16:13:45 pid=1301 tid=17034 [getActiveSubIdList] simInfoSet=[]
+    49: 12-24 16:13:45 pid=1301 tid=17034 [getActiveSubIdList] X subIdArr.length=0
+    50: 12-24 16:13:45 pid=1301 tid=15635 [getActiveSubIdList] simInfoSet=[]
+    51: 12-24 16:13:45 pid=1301 tid=15635 [getActiveSubIdList] X subIdArr.length=0
+    52: 12-24 16:13:58 pid=1301 tid=15634 [getActiveSubIdList] simInfoSet=[]
+    53: 12-24 16:13:58 pid=1301 tid=15634 [getActiveSubIdList] X subIdArr.length=0
+    54: 12-24 16:13:58 pid=1301 tid=1336 [getActiveSubIdList] simInfoSet=[]
+    55: 12-24 16:13:58 pid=1301 tid=1336 [getActiveSubIdList] X subIdArr.length=0
+    56: 12-24 16:14:13 pid=1301 tid=1336 [getActiveSubIdList] simInfoSet=[]
+    57: 12-24 16:14:13 pid=1301 tid=1336 [getActiveSubIdList] X subIdArr.length=0
+    58: 12-24 16:14:13 pid=1301 tid=17034 [getActiveSubIdList] simInfoSet=[]
+    59: 12-24 16:14:13 pid=1301 tid=17034 [getActiveSubIdList] X subIdArr.length=0
+    60: 12-24 16:14:30 pid=1301 tid=1336 [getActiveSubIdList] simInfoSet=[]
+    61: 12-24 16:14:30 pid=1301 tid=1336 [getActiveSubIdList] X subIdArr.length=0
+    62: 12-24 16:14:30 pid=1301 tid=17034 [getActiveSubIdList] simInfoSet=[]
+    63: 12-24 16:14:30 pid=1301 tid=17034 [getActiveSubIdList] X subIdArr.length=0
+    64: 12-24 16:14:44 pid=1301 tid=17034 [getActiveSubIdList] simInfoSet=[]
+    65: 12-24 16:14:44 pid=1301 tid=17034 [getActiveSubIdList] X subIdArr.length=0
+    66: 12-24 16:14:44 pid=1301 tid=1555 [getActiveSubIdList] simInfoSet=[]
+    67: 12-24 16:14:44 pid=1301 tid=1555 [getActiveSubIdList] X subIdArr.length=0
+    68: 12-24 16:14:58 pid=1301 tid=1336 [getActiveSubIdList] simInfoSet=[]
+    69: 12-24 16:14:58 pid=1301 tid=1336 [getActiveSubIdList] X subIdArr.length=0
+    70: 12-24 16:14:58 pid=1301 tid=17034 [getActiveSubIdList] simInfoSet=[]
+    71: 12-24 16:14:58 pid=1301 tid=17034 [getActiveSubIdList] X subIdArr.length=0
+    72: 12-24 16:15:15 pid=1301 tid=15634 [getActiveSubIdList] simInfoSet=[]
+    73: 12-24 16:15:15 pid=1301 tid=15634 [getActiveSubIdList] X subIdArr.length=0
+    74: 12-24 16:15:15 pid=1301 tid=15635 [getActiveSubIdList] simInfoSet=[]
+    75: 12-24 16:15:15 pid=1301 tid=15635 [getActiveSubIdList] X subIdArr.length=0
+    76: 12-24 16:15:30 pid=1301 tid=17034 [getActiveSubIdList] simInfoSet=[]
+    77: 12-24 16:15:30 pid=1301 tid=17034 [getActiveSubIdList] X subIdArr.length=0
+    78: 12-24 16:15:30 pid=1301 tid=15637 [getActiveSubIdList] simInfoSet=[]
+    79: 12-24 16:15:30 pid=1301 tid=15637 [getActiveSubIdList] X subIdArr.length=0
+    80: 12-24 16:15:46 pid=1301 tid=1555 [getActiveSubIdList] simInfoSet=[]
+    81: 12-24 16:15:46 pid=1301 tid=1555 [getActiveSubIdList] X subIdArr.length=0
+    82: 12-24 16:15:46 pid=1301 tid=17034 [getActiveSubIdList] simInfoSet=[]
+    83: 12-24 16:15:46 pid=1301 tid=17034 [getActiveSubIdList] X subIdArr.length=0
+    84: 12-24 16:16:01 pid=1301 tid=15634 [getActiveSubIdList] simInfoSet=[]
+    85: 12-24 16:16:01 pid=1301 tid=15634 [getActiveSubIdList] X subIdArr.length=0
+    86: 12-24 16:16:01 pid=1301 tid=1555 [getActiveSubIdList] simInfoSet=[]
+    87: 12-24 16:16:01 pid=1301 tid=1555 [getActiveSubIdList] X subIdArr.length=0
+    88: 12-24 16:16:18 pid=1301 tid=15635 [getActiveSubIdList] simInfoSet=[]
+    89: 12-24 16:16:18 pid=1301 tid=15635 [getActiveSubIdList] X subIdArr.length=0
+    90: 12-24 16:16:18 pid=1301 tid=15637 [getActiveSubIdList] simInfoSet=[]
+    91: 12-24 16:16:18 pid=1301 tid=15637 [getActiveSubIdList] X subIdArr.length=0
+    92: 12-24 16:16:31 pid=1301 tid=15637 [getActiveSubIdList] simInfoSet=[]
+    93: 12-24 16:16:31 pid=1301 tid=15637 [getActiveSubIdList] X subIdArr.length=0
+    94: 12-24 16:16:31 pid=1301 tid=1956 [getActiveSubIdList] simInfoSet=[]
+    95: 12-24 16:16:31 pid=1301 tid=1956 [getActiveSubIdList] X subIdArr.length=0
+    96: 12-24 16:16:51 pid=1301 tid=1336 [getActiveSubIdList] simInfoSet=[]
+    97: 12-24 16:16:51 pid=1301 tid=1336 [getActiveSubIdList] X subIdArr.length=0
+    98: 12-24 16:16:51 pid=1301 tid=1313 [getActiveSubIdList] simInfoSet=[]
+    99: 12-24 16:16:51 pid=1301 tid=1313 [getActiveSubIdList] X subIdArr.length=0
+    100: 12-24 16:17:03 pid=1301 tid=15635 [getActiveSubIdList] simInfoSet=[]
+    101: 12-24 16:17:03 pid=1301 tid=15635 [getActiveSubIdList] X subIdArr.length=0
+    102: 12-24 16:17:03 pid=1301 tid=15637 [getActiveSubIdList] simInfoSet=[]
+    103: 12-24 16:17:03 pid=1301 tid=15637 [getActiveSubIdList] X subIdArr.length=0
+    104: 12-24 16:17:16 pid=1301 tid=15634 [getActiveSubIdList] simInfoSet=[]
+    105: 12-24 16:17:16 pid=1301 tid=15634 [getActiveSubIdList] X subIdArr.length=0
+    106: 12-24 16:17:16 pid=1301 tid=1555 [getActiveSubIdList] simInfoSet=[]
+    107: 12-24 16:17:16 pid=1301 tid=1555 [getActiveSubIdList] X subIdArr.length=0
+    108: 12-24 16:17:34 pid=1301 tid=15637 [getActiveSubIdList] simInfoSet=[]
+    109: 12-24 16:17:34 pid=1301 tid=15637 [getActiveSubIdList] X subIdArr.length=0
+    110: 12-24 16:17:34 pid=1301 tid=1956 [getActiveSubIdList] simInfoSet=[]
+    111: 12-24 16:17:34 pid=1301 tid=1956 [getActiveSubIdList] X subIdArr.length=0
+    112: 12-24 16:17:48 pid=1301 tid=1336 [getActiveSubIdList] simInfoSet=[]
+    113: 12-24 16:17:48 pid=1301 tid=1336 [getActiveSubIdList] X subIdArr.length=0
+    114: 12-24 16:17:48 pid=1301 tid=1313 [getActiveSubIdList] simInfoSet=[]
+    115: 12-24 16:17:48 pid=1301 tid=1313 [getActiveSubIdList] X subIdArr.length=0
+    116: 12-24 16:18:04 pid=1301 tid=15637 [getActiveSubIdList] simInfoSet=[]
+    117: 12-24 16:18:04 pid=1301 tid=15637 [getActiveSubIdList] X subIdArr.length=0
+    118: 12-24 16:18:04 pid=1301 tid=1956 [getActiveSubIdList] simInfoSet=[]
+    119: 12-24 16:18:04 pid=1301 tid=1956 [getActiveSubIdList] X subIdArr.length=0
+    120: 12-24 16:18:20 pid=1301 tid=1956 [getActiveSubIdList] simInfoSet=[]
+    121: 12-24 16:18:20 pid=1301 tid=1956 [getActiveSubIdList] X subIdArr.length=0
+    122: 12-24 16:18:20 pid=1301 tid=1336 [getActiveSubIdList] simInfoSet=[]
+    123: 12-24 16:18:20 pid=1301 tid=1336 [getActiveSubIdList] X subIdArr.length=0
+    124: 12-24 16:18:26 pid=1301 tid=15635 [getActiveSubInfoList]+
+    125: 12-24 16:18:26 pid=1301 tid=15635 [getActiveSubInfoList] Sub Controller not ready
+    126: 12-24 16:18:55 pid=1301 tid=1336 [getActiveSubInfoList]+
+    127: 12-24 16:18:55 pid=1301 tid=1336 [getActiveSubInfoList] Sub Controller not ready
+    128: 12-24 16:19:22 pid=1301 tid=15634 [getActiveSubIdList] simInfoSet=[]
+    129: 12-24 16:19:22 pid=1301 tid=15634 [getActiveSubIdList] X subIdArr.length=0
+    130: 12-24 16:19:22 pid=1301 tid=15635 [getActiveSubIdList] simInfoSet=[]
+    131: 12-24 16:19:22 pid=1301 tid=15635 [getActiveSubIdList] X subIdArr.length=0
+    132: 12-24 16:19:48 pid=1301 tid=1301 [getActiveSubInfoList]+
+    133: 12-24 16:19:48 pid=1301 tid=1301 [getActiveSubInfoList] Sub Controller not ready
+    134: 12-24 16:23:00 pid=1301 tid=1555 [getActiveSubIdList] simInfoSet=[]
+    135: 12-24 16:23:00 pid=1301 tid=1555 [getActiveSubIdList] X subIdArr.length=0
+    136: 12-24 16:23:00 pid=1301 tid=1956 [getActiveSubIdList] simInfoSet=[]
+    137: 12-24 16:23:00 pid=1301 tid=1956 [getActiveSubIdList] X subIdArr.length=0
+    138: 12-24 16:24:32 pid=1301 tid=15635 [getActiveSubIdList] simInfoSet=[]
+    139: 12-24 16:24:32 pid=1301 tid=15635 [getActiveSubIdList] X subIdArr.length=0
+    140: 12-24 16:24:32 pid=1301 tid=15637 [getActiveSubIdList] simInfoSet=[]
+    141: 12-24 16:24:32 pid=1301 tid=15637 [getActiveSubIdList] X subIdArr.length=0
+    142: 12-24 16:26:07 pid=1301 tid=15637 [getActiveSubIdList] simInfoSet=[]
+    143: 12-24 16:26:07 pid=1301 tid=15637 [getActiveSubIdList] X subIdArr.length=0
+    144: 12-24 16:26:07 pid=1301 tid=17034 [getActiveSubIdList] simInfoSet=[]
+    145: 12-24 16:26:07 pid=1301 tid=17034 [getActiveSubIdList] X subIdArr.length=0
+    146: 12-24 16:27:48 pid=1301 tid=1956 [getActiveSubIdList] simInfoSet=[]
+    147: 12-24 16:27:48 pid=1301 tid=1956 [getActiveSubIdList] X subIdArr.length=0
+    148: 12-24 16:27:48 pid=1301 tid=15634 [getActiveSubIdList] simInfoSet=[]
+    149: 12-24 16:27:48 pid=1301 tid=15634 [getActiveSubIdList] X subIdArr.length=0
+    150: 12-24 16:28:24 pid=1301 tid=1555 [getActiveSubIdList] simInfoSet=[]
+    151: 12-24 16:28:24 pid=1301 tid=1555 [getActiveSubIdList] X subIdArr.length=0
+    152: 12-24 16:28:24 pid=1301 tid=1336 [getActiveSubIdList] simInfoSet=[]
+    153: 12-24 16:28:24 pid=1301 tid=1336 [getActiveSubIdList] X subIdArr.length=0
+    154: 12-24 16:36:10 pid=1301 tid=1555 [getActiveSubIdList] simInfoSet=[]
+    155: 12-24 16:36:10 pid=1301 tid=1555 [getActiveSubIdList] X subIdArr.length=0
+    156: 12-24 16:36:10 pid=1301 tid=1336 [getActiveSubIdList] simInfoSet=[]
+    157: 12-24 16:36:10 pid=1301 tid=1336 [getActiveSubIdList] X subIdArr.length=0
+    158: 12-24 16:36:15 pid=1301 tid=1956 [getActiveSubIdList] simInfoSet=[]
+    159: 12-24 16:36:15 pid=1301 tid=1956 [getActiveSubIdList] X subIdArr.length=0
+    160: 12-24 16:36:15 pid=1301 tid=15634 [getActiveSubIdList] simInfoSet=[]
+    161: 12-24 16:36:15 pid=1301 tid=15634 [getActiveSubIdList] X subIdArr.length=0
+    162: 12-24 16:36:21 pid=1301 tid=17034 [getActiveSubIdList] simInfoSet=[]
+    163: 12-24 16:36:21 pid=1301 tid=17034 [getActiveSubIdList] X subIdArr.length=0
+    164: 12-24 16:36:21 pid=1301 tid=15634 [getActiveSubIdList] simInfoSet=[]
+    165: 12-24 16:36:21 pid=1301 tid=15634 [getActiveSubIdList] X subIdArr.length=0
+    166: 12-24 16:37:42 pid=1301 tid=1336 [getActiveSubIdList] simInfoSet=[]
+    167: 12-24 16:37:42 pid=1301 tid=1336 [getActiveSubIdList] X subIdArr.length=0
+    168: 12-24 16:37:42 pid=1301 tid=15635 [getActiveSubIdList] simInfoSet=[]
+    169: 12-24 16:37:42 pid=1301 tid=15635 [getActiveSubIdList] X subIdArr.length=0
+    170: 12-24 16:37:43 pid=1301 tid=15634 [getActiveSubIdList] simInfoSet=[]
+    171: 12-24 16:37:43 pid=1301 tid=15634 [getActiveSubIdList] X subIdArr.length=0
+    172: 12-24 16:37:43 pid=1301 tid=1555 [getActiveSubIdList] simInfoSet=[]
+    173: 12-24 16:37:43 pid=1301 tid=1555 [getActiveSubIdList] X subIdArr.length=0
+    174: 12-24 16:47:43 pid=1301 tid=1555 [getActiveSubIdList] simInfoSet=[]
+    175: 12-24 16:47:43 pid=1301 tid=1555 [getActiveSubIdList] X subIdArr.length=0
+    176: 12-24 16:47:43 pid=1301 tid=15635 [getActiveSubIdList] simInfoSet=[]
+    177: 12-24 16:47:43 pid=1301 tid=15635 [getActiveSubIdList] X subIdArr.length=0
+    178: 12-24 17:11:23 pid=1301 tid=1956 [getActiveSubIdList] simInfoSet=[]
+    179: 12-24 17:11:23 pid=1301 tid=1956 [getActiveSubIdList] X subIdArr.length=0
+    180: 12-24 17:11:23 pid=1301 tid=15635 [getActiveSubIdList] simInfoSet=[]
+    181: 12-24 17:11:23 pid=1301 tid=15635 [getActiveSubIdList] X subIdArr.length=0
+    182: 12-24 17:11:33 pid=1301 tid=15635 [getActiveSubIdList] simInfoSet=[]
+    183: 12-24 17:11:33 pid=1301 tid=15635 [getActiveSubIdList] X subIdArr.length=0
+    184: 12-24 17:11:33 pid=1301 tid=15637 [getActiveSubIdList] simInfoSet=[]
+    185: 12-24 17:11:33 pid=1301 tid=15637 [getActiveSubIdList] X subIdArr.length=0
+    186: 12-24 17:11:49 pid=1301 tid=15635 [getActiveSubIdList] simInfoSet=[]
+    187: 12-24 17:11:49 pid=1301 tid=15635 [getActiveSubIdList] X subIdArr.length=0
+    188: 12-24 17:11:49 pid=1301 tid=1956 [getActiveSubIdList] simInfoSet=[]
+    189: 12-24 17:11:49 pid=1301 tid=1956 [getActiveSubIdList] X subIdArr.length=0
+    190: 12-24 17:11:49 pid=1301 tid=15637 [getActiveSubInfoList]+
+    191: 12-24 17:11:49 pid=1301 tid=15637 [getActiveSubInfoList] Sub Controller not ready
+    192: 12-24 17:11:53 pid=1301 tid=15634 [getActiveSubInfoList]+
+    193: 12-24 17:11:53 pid=1301 tid=15634 [getActiveSubInfoList] Sub Controller not ready
+    194: 12-24 17:12:00 pid=1301 tid=15637 [getActiveSubIdList] simInfoSet=[]
+    195: 12-24 17:12:00 pid=1301 tid=15637 [getActiveSubIdList] X subIdArr.length=0
+    196: 12-24 17:12:00 pid=1301 tid=15634 [getActiveSubIdList] simInfoSet=[]
+    197: 12-24 17:12:00 pid=1301 tid=15634 [getActiveSubIdList] X subIdArr.length=0
+    198: 12-24 17:12:50 pid=1301 tid=1555 [getActiveSubIdList] simInfoSet=[]
+    199: 12-24 17:12:50 pid=1301 tid=1555 [getActiveSubIdList] X subIdArr.length=0
+    200: 12-24 17:12:50 pid=1301 tid=1336 [getActiveSubIdList] simInfoSet=[]
+    201: 12-24 17:12:50 pid=1301 tid=1336 [getActiveSubIdList] X subIdArr.length=0
+    202: 12-24 17:12:51 pid=1301 tid=1555 [getActiveSubIdList] simInfoSet=[]
+    203: 12-24 17:12:51 pid=1301 tid=1555 [getActiveSubIdList] X subIdArr.length=0
+    204: 12-24 17:12:51 pid=1301 tid=1336 [getActiveSubIdList] simInfoSet=[]
+    205: 12-24 17:12:51 pid=1301 tid=1336 [getActiveSubIdList] X subIdArr.length=0
+    206: 12-24 17:12:51 pid=1301 tid=1313 [getActiveSubInfoList]+
+    207: 12-24 17:12:51 pid=1301 tid=1313 [getActiveSubInfoList] Sub Controller not ready
+    208: 12-24 17:12:54 pid=1301 tid=15635 [getActiveSubInfoList]+
+    209: 12-24 17:12:54 pid=1301 tid=15635 [getActiveSubInfoList] Sub Controller not ready
+    210: 12-24 17:13:04 pid=1301 tid=1336 [getActiveSubIdList] simInfoSet=[]
+    211: 12-24 17:13:04 pid=1301 tid=1336 [getActiveSubIdList] X subIdArr.length=0
+    212: 12-24 17:13:04 pid=1301 tid=1336 [getActiveSubIdList] simInfoSet=[]
+    213: 12-24 17:13:04 pid=1301 tid=1336 [getActiveSubIdList] X subIdArr.length=0
+    214: 12-24 17:13:12 pid=1301 tid=1313 [getActiveSubIdList] simInfoSet=[]
+    215: 12-24 17:13:12 pid=1301 tid=1313 [getActiveSubIdList] X subIdArr.length=0
+    216: 12-24 17:13:12 pid=1301 tid=15635 [getActiveSubIdList] simInfoSet=[]
+    217: 12-24 17:13:12 pid=1301 tid=15635 [getActiveSubIdList] X subIdArr.length=0
+    218: 12-24 17:13:24 pid=1301 tid=15634 [getActiveSubIdList] simInfoSet=[]
+    219: 12-24 17:13:24 pid=1301 tid=15634 [getActiveSubIdList] X subIdArr.length=0
+    220: 12-24 17:13:24 pid=1301 tid=15635 [getActiveSubIdList] simInfoSet=[]
+    221: 12-24 17:13:24 pid=1301 tid=15635 [getActiveSubIdList] X subIdArr.length=0
+    222: 12-24 17:16:27 pid=1301 tid=1336 [getActiveSubIdList] simInfoSet=[]
+    223: 12-24 17:16:27 pid=1301 tid=1336 [getActiveSubIdList] X subIdArr.length=0
+    224: 12-24 17:16:27 pid=1301 tid=15634 [getActiveSubIdList] simInfoSet=[]
+    225: 12-24 17:16:27 pid=1301 tid=15634 [getActiveSubIdList] X subIdArr.length=0
+    226: 12-24 17:16:28 pid=1301 tid=1336 [getActiveSubIdList] simInfoSet=[]
+    227: 12-24 17:16:28 pid=1301 tid=1336 [getActiveSubIdList] X subIdArr.length=0
+    228: 12-24 17:16:28 pid=1301 tid=15634 [getActiveSubIdList] simInfoSet=[]
+    229: 12-24 17:16:28 pid=1301 tid=15634 [getActiveSubIdList] X subIdArr.length=0
+    230: 12-24 17:16:33 pid=1301 tid=1956 [getActiveSubIdList] simInfoSet=[]
+    231: 12-24 17:16:33 pid=1301 tid=1956 [getActiveSubIdList] X subIdArr.length=0
+    232: 12-24 17:16:33 pid=1301 tid=15637 [getActiveSubIdList] simInfoSet=[]
+    233: 12-24 17:16:33 pid=1301 tid=15637 [getActiveSubIdList] X subIdArr.length=0
+    234: 12-24 17:16:39 pid=1301 tid=17034 [getActiveSubIdList] simInfoSet=[]
+    235: 12-24 17:16:39 pid=1301 tid=17034 [getActiveSubIdList] X subIdArr.length=0
+    236: 12-24 17:16:39 pid=1301 tid=15637 [getActiveSubIdList] simInfoSet=[]
+    237: 12-24 17:16:39 pid=1301 tid=15637 [getActiveSubIdList] X subIdArr.length=0
+    238: 12-24 17:16:43 pid=1301 tid=1313 [getActiveSubInfoList]+
+    239: 12-24 17:16:43 pid=1301 tid=1313 [getActiveSubInfoList] Sub Controller not ready
+    240: 12-24 17:16:48 pid=1301 tid=1336 [getActiveSubIdList] simInfoSet=[]
+    241: 12-24 17:16:48 pid=1301 tid=1336 [getActiveSubIdList] X subIdArr.length=0
+    242: 12-24 17:16:48 pid=1301 tid=15635 [getActiveSubIdList] simInfoSet=[]
+    243: 12-24 17:16:48 pid=1301 tid=15635 [getActiveSubIdList] X subIdArr.length=0
+    244: 12-24 17:17:00 pid=1301 tid=1555 [getActiveSubIdList] simInfoSet=[]
+    245: 12-24 17:17:00 pid=1301 tid=1555 [getActiveSubIdList] X subIdArr.length=0
+    246: 12-24 17:17:00 pid=1301 tid=1336 [getActiveSubIdList] simInfoSet=[]
+    247: 12-24 17:17:00 pid=1301 tid=1336 [getActiveSubIdList] X subIdArr.length=0
+    248: 12-24 17:17:24 pid=1301 tid=1313 [getActiveSubIdList] simInfoSet=[]
+    249: 12-24 17:17:24 pid=1301 tid=1313 [getActiveSubIdList] X subIdArr.length=0
+    250: 12-24 17:17:24 pid=1301 tid=17034 [getActiveSubIdList] simInfoSet=[]
+    251: 12-24 17:17:24 pid=1301 tid=17034 [getActiveSubIdList] X subIdArr.length=0
+    252: 12-24 17:17:24 pid=1301 tid=1313 [getActiveSubIdList] simInfoSet=[]
+    253: 12-24 17:17:24 pid=1301 tid=1313 [getActiveSubIdList] X subIdArr.length=0
+    254: 12-24 17:17:24 pid=1301 tid=17034 [getActiveSubIdList] simInfoSet=[]
+    255: 12-24 17:17:24 pid=1301 tid=17034 [getActiveSubIdList] X subIdArr.length=0
+    256: 12-24 17:17:33 pid=1301 tid=1555 [getActiveSubIdList] simInfoSet=[]
+    257: 12-24 17:17:33 pid=1301 tid=1555 [getActiveSubIdList] X subIdArr.length=0
+    258: 12-24 17:17:33 pid=1301 tid=15637 [getActiveSubIdList] simInfoSet=[]
+    259: 12-24 17:17:33 pid=1301 tid=15637 [getActiveSubIdList] X subIdArr.length=0
+    260: 12-24 17:17:34 pid=1301 tid=1956 [getActiveSubInfoList]+
+    261: 12-24 17:17:34 pid=1301 tid=1956 [getActiveSubInfoList] Sub Controller not ready
+    262: 12-24 17:17:38 pid=1301 tid=17034 [getActiveSubInfoList]+
+    263: 12-24 17:17:38 pid=1301 tid=17034 [getActiveSubInfoList] Sub Controller not ready
+    264: 12-24 17:17:39 pid=1301 tid=15634 [getActiveSubIdList] simInfoSet=[]
+    265: 12-24 17:17:39 pid=1301 tid=15634 [getActiveSubIdList] X subIdArr.length=0
+    266: 12-24 17:17:39 pid=1301 tid=1555 [getActiveSubIdList] simInfoSet=[]
+    267: 12-24 17:17:39 pid=1301 tid=1555 [getActiveSubIdList] X subIdArr.length=0
+    268: 12-24 17:18:25 pid=1301 tid=17034 [getActiveSubIdList] simInfoSet=[]
+    269: 12-24 17:18:25 pid=1301 tid=17034 [getActiveSubIdList] X subIdArr.length=0
+    270: 12-24 17:18:25 pid=1301 tid=1336 [getActiveSubIdList] simInfoSet=[]
+    271: 12-24 17:18:25 pid=1301 tid=1336 [getActiveSubIdList] X subIdArr.length=0
+    272: 12-24 17:18:25 pid=1301 tid=15635 [getActiveSubIdList] simInfoSet=[]
+    273: 12-24 17:18:25 pid=1301 tid=15635 [getActiveSubIdList] X subIdArr.length=0
+    274: 12-24 17:18:25 pid=1301 tid=1956 [getActiveSubIdList] simInfoSet=[]
+    275: 12-24 17:18:25 pid=1301 tid=1956 [getActiveSubIdList] X subIdArr.length=0
+    276: 12-24 17:18:28 pid=1301 tid=1336 [getActiveSubIdList] simInfoSet=[]
+    277: 12-24 17:18:28 pid=1301 tid=1336 [getActiveSubIdList] X subIdArr.length=0
+    278: 12-24 17:18:28 pid=1301 tid=1313 [getActiveSubIdList] simInfoSet=[]
+    279: 12-24 17:18:28 pid=1301 tid=1313 [getActiveSubIdList] X subIdArr.length=0
+    280: 12-24 17:18:34 pid=1301 tid=17034 [getActiveSubIdList] simInfoSet=[]
+    281: 12-24 17:18:34 pid=1301 tid=17034 [getActiveSubIdList] X subIdArr.length=0
+    282: 12-24 17:18:34 pid=1301 tid=1336 [getActiveSubIdList] simInfoSet=[]
+    283: 12-24 17:18:34 pid=1301 tid=1336 [getActiveSubIdList] X subIdArr.length=0
+    284: 12-24 17:18:41 pid=1301 tid=15637 [getActiveSubIdList] simInfoSet=[]
+    285: 12-24 17:18:41 pid=1301 tid=15637 [getActiveSubIdList] X subIdArr.length=0
+    286: 12-24 17:18:41 pid=1301 tid=17034 [getActiveSubIdList] simInfoSet=[]
+    287: 12-24 17:18:41 pid=1301 tid=17034 [getActiveSubIdList] X subIdArr.length=0
+    288: 12-24 17:18:43 pid=1301 tid=15634 [getActiveSubInfoList]+
+    289: 12-24 17:18:43 pid=1301 tid=15634 [getActiveSubInfoList] Sub Controller not ready
+    290: 12-24 17:18:45 pid=1301 tid=1555 [getActiveSubIdList] simInfoSet=[]
+    291: 12-24 17:18:45 pid=1301 tid=1555 [getActiveSubIdList] X subIdArr.length=0
+    292: 12-24 17:18:45 pid=1301 tid=15634 [getActiveSubIdList] simInfoSet=[]
+    293: 12-24 17:18:45 pid=1301 tid=15634 [getActiveSubIdList] X subIdArr.length=0
+    294: 12-24 17:18:45 pid=1301 tid=15634 [getActiveSubIdList] simInfoSet=[]
+    295: 12-24 17:18:45 pid=1301 tid=15634 [getActiveSubIdList] X subIdArr.length=0
+    296: 12-24 17:18:45 pid=1301 tid=15635 [getActiveSubIdList] simInfoSet=[]
+    297: 12-24 17:18:45 pid=1301 tid=15635 [getActiveSubIdList] X subIdArr.length=0
+    298: 12-24 17:18:45 pid=1301 tid=15637 [getActiveSubIdList] simInfoSet=[]
+    299: 12-24 17:18:45 pid=1301 tid=15637 [getActiveSubIdList] X subIdArr.length=0
+    300: 12-24 17:18:45 pid=1301 tid=1956 [getActiveSubIdList] simInfoSet=[]
+    301: 12-24 17:18:45 pid=1301 tid=1956 [getActiveSubIdList] X subIdArr.length=0
+    302: 12-24 17:18:45 pid=1301 tid=1336 [getActiveSubIdList] simInfoSet=[]
+    303: 12-24 17:18:45 pid=1301 tid=1336 [getActiveSubIdList] X subIdArr.length=0
+    304: 12-24 17:18:49 pid=1301 tid=17034 [getActiveSubInfoList]+
+    305: 12-24 17:18:49 pid=1301 tid=17034 [getActiveSubInfoList] Sub Controller not ready
+    306: 12-24 17:18:51 pid=1301 tid=1313 [getActiveSubIdList] simInfoSet=[]
+    307: 12-24 17:18:51 pid=1301 tid=1313 [getActiveSubIdList] X subIdArr.length=0
+    308: 12-24 17:18:51 pid=1301 tid=15635 [getActiveSubIdList] simInfoSet=[]
+    309: 12-24 17:18:51 pid=1301 tid=15635 [getActiveSubIdList] X subIdArr.length=0
+    310: 12-24 17:19:22 pid=1301 tid=15634 [getActiveSubIdList] simInfoSet=[]
+    311: 12-24 17:19:22 pid=1301 tid=15634 [getActiveSubIdList] X subIdArr.length=0
+    312: 12-24 17:19:22 pid=1301 tid=1956 [getActiveSubIdList] simInfoSet=[]
+    313: 12-24 17:19:22 pid=1301 tid=1956 [getActiveSubIdList] X subIdArr.length=0
+    314: 12-24 17:20:31 pid=1301 tid=1555 [getActiveSubIdList] simInfoSet=[]
+    315: 12-24 17:20:31 pid=1301 tid=1555 [getActiveSubIdList] X subIdArr.length=0
+    316: 12-24 17:20:31 pid=1301 tid=15634 [getActiveSubIdList] simInfoSet=[]
+    317: 12-24 17:20:31 pid=1301 tid=15634 [getActiveSubIdList] X subIdArr.length=0
+    318: 12-24 17:20:53 pid=1301 tid=15637 [getActiveSubIdList] simInfoSet=[]
+    319: 12-24 17:20:53 pid=1301 tid=15637 [getActiveSubIdList] X subIdArr.length=0
+    320: 12-24 17:20:53 pid=1301 tid=1336 [getActiveSubIdList] simInfoSet=[]
+    321: 12-24 17:20:53 pid=1301 tid=1336 [getActiveSubIdList] X subIdArr.length=0
+    322: 12-24 17:21:30 pid=1301 tid=1956 [getActiveSubIdList] simInfoSet=[]
+    323: 12-24 17:21:30 pid=1301 tid=1956 [getActiveSubIdList] X subIdArr.length=0
+    324: 12-24 17:21:30 pid=1301 tid=1313 [getActiveSubIdList] simInfoSet=[]
+    325: 12-24 17:21:30 pid=1301 tid=1313 [getActiveSubIdList] X subIdArr.length=0
+    326: 12-24 17:22:07 pid=1301 tid=1313 [getActiveSubIdList] simInfoSet=[]
+    327: 12-24 17:22:07 pid=1301 tid=1313 [getActiveSubIdList] X subIdArr.length=0
+    328: 12-24 17:22:07 pid=1301 tid=17034 [getActiveSubIdList] simInfoSet=[]
+    329: 12-24 17:22:07 pid=1301 tid=17034 [getActiveSubIdList] X subIdArr.length=0
+    330: 12-24 17:22:43 pid=1301 tid=15634 [getActiveSubIdList] simInfoSet=[]
+    331: 12-24 17:22:43 pid=1301 tid=15634 [getActiveSubIdList] X subIdArr.length=0
+    332: 12-24 17:22:43 pid=1301 tid=1956 [getActiveSubIdList] simInfoSet=[]
+    333: 12-24 17:22:43 pid=1301 tid=1956 [getActiveSubIdList] X subIdArr.length=0
+    334: 12-24 17:23:19 pid=1301 tid=15634 [getActiveSubIdList] simInfoSet=[]
+    335: 12-24 17:23:19 pid=1301 tid=15634 [getActiveSubIdList] X subIdArr.length=0
+    336: 12-24 17:23:19 pid=1301 tid=1956 [getActiveSubIdList] simInfoSet=[]
+    337: 12-24 17:23:19 pid=1301 tid=1956 [getActiveSubIdList] X subIdArr.length=0
+    338: 12-24 17:23:56 pid=1301 tid=15635 [getActiveSubIdList] simInfoSet=[]
+    339: 12-24 17:23:56 pid=1301 tid=15635 [getActiveSubIdList] X subIdArr.length=0
+    340: 12-24 17:23:56 pid=1301 tid=1555 [getActiveSubIdList] simInfoSet=[]
+    341: 12-24 17:23:56 pid=1301 tid=1555 [getActiveSubIdList] X subIdArr.length=0
+    342: 12-24 17:24:33 pid=1301 tid=1336 [getActiveSubIdList] simInfoSet=[]
+    343: 12-24 17:24:33 pid=1301 tid=1336 [getActiveSubIdList] X subIdArr.length=0
+    344: 12-24 17:24:33 pid=1301 tid=15635 [getActiveSubIdList] simInfoSet=[]
+    345: 12-24 17:24:33 pid=1301 tid=15635 [getActiveSubIdList] X subIdArr.length=0
+    346: 12-24 17:25:03 pid=1301 tid=1956 [getActiveSubIdList] simInfoSet=[]
+    347: 12-24 17:25:03 pid=1301 tid=1956 [getActiveSubIdList] X subIdArr.length=0
+    348: 12-24 17:25:03 pid=1301 tid=1313 [getActiveSubIdList] simInfoSet=[]
+    349: 12-24 17:25:03 pid=1301 tid=1313 [getActiveSubIdList] X subIdArr.length=0
+    350: 12-24 17:25:29 pid=1301 tid=17034 [getActiveSubIdList] simInfoSet=[]
+    351: 12-24 17:25:29 pid=1301 tid=17034 [getActiveSubIdList] X subIdArr.length=0
+    352: 12-24 17:25:29 pid=1301 tid=15637 [getActiveSubIdList] simInfoSet=[]
+    353: 12-24 17:25:29 pid=1301 tid=15637 [getActiveSubIdList] X subIdArr.length=0
+    354: 12-24 17:26:06 pid=1301 tid=1956 [getActiveSubIdList] simInfoSet=[]
+    355: 12-24 17:26:06 pid=1301 tid=1956 [getActiveSubIdList] X subIdArr.length=0
+    356: 12-24 17:26:06 pid=1301 tid=1313 [getActiveSubIdList] simInfoSet=[]
+    357: 12-24 17:26:06 pid=1301 tid=1313 [getActiveSubIdList] X subIdArr.length=0
+    358: 12-24 17:26:35 pid=1301 tid=17034 [getActiveSubIdList] simInfoSet=[]
+    359: 12-24 17:26:35 pid=1301 tid=17034 [getActiveSubIdList] X subIdArr.length=0
+    360: 12-24 17:26:35 pid=1301 tid=15637 [getActiveSubIdList] simInfoSet=[]
+    361: 12-24 17:26:35 pid=1301 tid=15637 [getActiveSubIdList] X subIdArr.length=0
+    362: 12-24 17:26:59 pid=1301 tid=15637 [getActiveSubIdList] simInfoSet=[]
+    363: 12-24 17:26:59 pid=1301 tid=15637 [getActiveSubIdList] X subIdArr.length=0
+    364: 12-24 17:26:59 pid=1301 tid=1336 [getActiveSubIdList] simInfoSet=[]
+    365: 12-24 17:26:59 pid=1301 tid=1336 [getActiveSubIdList] X subIdArr.length=0
+    366: 12-24 17:27:04 pid=1301 tid=1336 [getActiveSubIdList] simInfoSet=[]
+    367: 12-24 17:27:04 pid=1301 tid=1336 [getActiveSubIdList] X subIdArr.length=0
+    368: 12-24 17:27:04 pid=1301 tid=15635 [getActiveSubIdList] simInfoSet=[]
+    369: 12-24 17:27:04 pid=1301 tid=15635 [getActiveSubIdList] X subIdArr.length=0
+    370: 12-24 17:27:08 pid=1301 tid=15634 [getActiveSubIdList] simInfoSet=[]
+    371: 12-24 17:27:08 pid=1301 tid=15634 [getActiveSubIdList] X subIdArr.length=0
+    372: 12-24 17:27:08 pid=1301 tid=1956 [getActiveSubIdList] simInfoSet=[]
+    373: 12-24 17:27:08 pid=1301 tid=1956 [getActiveSubIdList] X subIdArr.length=0
+    374: 12-24 17:27:19 pid=1301 tid=15635 [getActiveSubIdList] simInfoSet=[]
+    375: 12-24 17:27:19 pid=1301 tid=15635 [getActiveSubIdList] X subIdArr.length=0
+    376: 12-24 17:27:19 pid=1301 tid=1555 [getActiveSubIdList] simInfoSet=[]
+    377: 12-24 17:27:19 pid=1301 tid=1555 [getActiveSubIdList] X subIdArr.length=0
+    378: 12-24 17:27:30 pid=1301 tid=1555 [getActiveSubIdList] simInfoSet=[]
+    379: 12-24 17:27:30 pid=1301 tid=1555 [getActiveSubIdList] X subIdArr.length=0
+    380: 12-24 17:27:30 pid=1301 tid=15634 [getActiveSubIdList] simInfoSet=[]
+    381: 12-24 17:27:30 pid=1301 tid=15634 [getActiveSubIdList] X subIdArr.length=0
+    382: 12-24 17:27:41 pid=1301 tid=15634 [getActiveSubIdList] simInfoSet=[]
+    383: 12-24 17:27:41 pid=1301 tid=15634 [getActiveSubIdList] X subIdArr.length=0
+    384: 12-24 17:27:41 pid=1301 tid=1956 [getActiveSubIdList] simInfoSet=[]
+    385: 12-24 17:27:41 pid=1301 tid=1956 [getActiveSubIdList] X subIdArr.length=0
+    386: 12-24 17:27:51 pid=1301 tid=17034 [getActiveSubIdList] simInfoSet=[]
+    387: 12-24 17:27:51 pid=1301 tid=17034 [getActiveSubIdList] X subIdArr.length=0
+    388: 12-24 17:27:51 pid=1301 tid=15637 [getActiveSubIdList] simInfoSet=[]
+    389: 12-24 17:27:51 pid=1301 tid=15637 [getActiveSubIdList] X subIdArr.length=0
+    390: 12-24 17:28:00 pid=1301 tid=1956 [getActiveSubIdList] simInfoSet=[]
+    391: 12-24 17:28:00 pid=1301 tid=1956 [getActiveSubIdList] X subIdArr.length=0
+    392: 12-24 17:28:00 pid=1301 tid=1336 [getActiveSubIdList] simInfoSet=[]
+    393: 12-24 17:28:00 pid=1301 tid=1336 [getActiveSubIdList] X subIdArr.length=0
+    394: 12-24 17:28:19 pid=1301 tid=1336 [getActiveSubIdList] simInfoSet=[]
+    395: 12-24 17:28:19 pid=1301 tid=1336 [getActiveSubIdList] X subIdArr.length=0
+    396: 12-24 17:28:19 pid=1301 tid=15635 [getActiveSubIdList] simInfoSet=[]
+    397: 12-24 17:28:19 pid=1301 tid=15635 [getActiveSubIdList] X subIdArr.length=0
+    398: 12-24 17:28:25 pid=1301 tid=1313 [getActiveSubIdList] simInfoSet=[]
+    399: 12-24 17:28:25 pid=1301 tid=1313 [getActiveSubIdList] X subIdArr.length=0
+    400: 12-24 17:28:25 pid=1301 tid=1956 [getActiveSubIdList] simInfoSet=[]
+    401: 12-24 17:28:25 pid=1301 tid=1956 [getActiveSubIdList] X subIdArr.length=0
+    402: 12-24 17:28:33 pid=1301 tid=1956 [getActiveSubIdList] simInfoSet=[]
+    403: 12-24 17:28:33 pid=1301 tid=1956 [getActiveSubIdList] X subIdArr.length=0
+    404: 12-24 17:28:33 pid=1301 tid=1336 [getActiveSubIdList] simInfoSet=[]
+    405: 12-24 17:28:33 pid=1301 tid=1336 [getActiveSubIdList] X subIdArr.length=0
+    406: 12-24 17:28:46 pid=1301 tid=1555 [getActiveSubIdList] simInfoSet=[]
+    407: 12-24 17:28:46 pid=1301 tid=1555 [getActiveSubIdList] X subIdArr.length=0
+    408: 12-24 17:28:46 pid=1301 tid=17034 [getActiveSubIdList] simInfoSet=[]
+    409: 12-24 17:28:46 pid=1301 tid=17034 [getActiveSubIdList] X subIdArr.length=0
+    410: 12-24 17:28:58 pid=1301 tid=15634 [getActiveSubIdList] simInfoSet=[]
+    411: 12-24 17:28:58 pid=1301 tid=15634 [getActiveSubIdList] X subIdArr.length=0
+    412: 12-24 17:28:58 pid=1301 tid=1313 [getActiveSubIdList] simInfoSet=[]
+    413: 12-24 17:28:58 pid=1301 tid=1313 [getActiveSubIdList] X subIdArr.length=0
+    414: 12-24 17:29:10 pid=1301 tid=1555 [getActiveSubIdList] simInfoSet=[]
+    415: 12-24 17:29:10 pid=1301 tid=1555 [getActiveSubIdList] X subIdArr.length=0
+    416: 12-24 17:29:10 pid=1301 tid=17034 [getActiveSubIdList] simInfoSet=[]
+    417: 12-24 17:29:10 pid=1301 tid=17034 [getActiveSubIdList] X subIdArr.length=0
+    418: 12-24 17:29:19 pid=1301 tid=15634 [getActiveSubIdList] simInfoSet=[]
+    419: 12-24 17:29:19 pid=1301 tid=15634 [getActiveSubIdList] X subIdArr.length=0
+    420: 12-24 17:29:19 pid=1301 tid=1313 [getActiveSubIdList] simInfoSet=[]
+    421: 12-24 17:29:19 pid=1301 tid=1313 [getActiveSubIdList] X subIdArr.length=0
+    422: 12-24 17:29:28 pid=1301 tid=1956 [getActiveSubIdList] simInfoSet=[]
+    423: 12-24 17:29:28 pid=1301 tid=1956 [getActiveSubIdList] X subIdArr.length=0
+    424: 12-24 17:29:28 pid=1301 tid=1336 [getActiveSubIdList] simInfoSet=[]
+    425: 12-24 17:29:28 pid=1301 tid=1336 [getActiveSubIdList] X subIdArr.length=0
+    426: 12-24 17:29:37 pid=1301 tid=15637 [getActiveSubIdList] simInfoSet=[]
+    427: 12-24 17:29:37 pid=1301 tid=15637 [getActiveSubIdList] X subIdArr.length=0
+    428: 12-24 17:29:37 pid=1301 tid=15634 [getActiveSubIdList] simInfoSet=[]
+    429: 12-24 17:29:37 pid=1301 tid=15634 [getActiveSubIdList] X subIdArr.length=0
+    430: 12-24 17:29:40 pid=1301 tid=1956 [getActiveSubIdList] simInfoSet=[]
+    431: 12-24 17:29:40 pid=1301 tid=1956 [getActiveSubIdList] X subIdArr.length=0
+    432: 12-24 17:29:40 pid=1301 tid=1336 [getActiveSubIdList] simInfoSet=[]
+    433: 12-24 17:29:40 pid=1301 tid=1336 [getActiveSubIdList] X subIdArr.length=0
+    434: 12-24 17:29:42 pid=1301 tid=15635 [getActiveSubIdList] simInfoSet=[]
+    435: 12-24 17:29:42 pid=1301 tid=15635 [getActiveSubIdList] X subIdArr.length=0
+    436: 12-24 17:29:42 pid=1301 tid=1555 [getActiveSubIdList] simInfoSet=[]
+    437: 12-24 17:29:42 pid=1301 tid=1555 [getActiveSubIdList] X subIdArr.length=0
+    438: 12-24 17:29:45 pid=1301 tid=15635 [getActiveSubIdList] simInfoSet=[]
+    439: 12-24 17:29:45 pid=1301 tid=15635 [getActiveSubIdList] X subIdArr.length=0
+    440: 12-24 17:29:45 pid=1301 tid=1555 [getActiveSubIdList] simInfoSet=[]
+    441: 12-24 17:29:45 pid=1301 tid=1555 [getActiveSubIdList] X subIdArr.length=0
+    442: 12-24 17:29:46 pid=1301 tid=15635 [getActiveSubIdList] simInfoSet=[]
+    443: 12-24 17:29:46 pid=1301 tid=15635 [getActiveSubIdList] X subIdArr.length=0
+    444: 12-24 17:29:46 pid=1301 tid=1555 [getActiveSubIdList] simInfoSet=[]
+    445: 12-24 17:29:46 pid=1301 tid=1555 [getActiveSubIdList] X subIdArr.length=0
+    446: 12-24 17:29:47 pid=1301 tid=15635 [getActiveSubIdList] simInfoSet=[]
+    447: 12-24 17:29:47 pid=1301 tid=15635 [getActiveSubIdList] X subIdArr.length=0
+    448: 12-24 17:29:47 pid=1301 tid=1555 [getActiveSubIdList] simInfoSet=[]
+    449: 12-24 17:29:47 pid=1301 tid=1555 [getActiveSubIdList] X subIdArr.length=0
+    450: 12-24 17:29:52 pid=1301 tid=15637 [getActiveSubIdList] simInfoSet=[]
+    451: 12-24 17:29:52 pid=1301 tid=15637 [getActiveSubIdList] X subIdArr.length=0
+    452: 12-24 17:29:52 pid=1301 tid=15634 [getActiveSubIdList] simInfoSet=[]
+    453: 12-24 17:29:52 pid=1301 tid=15634 [getActiveSubIdList] X subIdArr.length=0
+    454: 12-24 17:30:01 pid=1301 tid=1555 [getActiveSubIdList] simInfoSet=[]
+    455: 12-24 17:30:01 pid=1301 tid=1555 [getActiveSubIdList] X subIdArr.length=0
+    456: 12-24 17:30:01 pid=1301 tid=17034 [getActiveSubIdList] simInfoSet=[]
+    457: 12-24 17:30:01 pid=1301 tid=17034 [getActiveSubIdList] X subIdArr.length=0
+    458: 12-24 17:30:11 pid=1301 tid=15637 [getActiveSubIdList] simInfoSet=[]
+    459: 12-24 17:30:11 pid=1301 tid=15637 [getActiveSubIdList] X subIdArr.length=0
+    460: 12-24 17:30:11 pid=1301 tid=15634 [getActiveSubIdList] simInfoSet=[]
+    461: 12-24 17:30:11 pid=1301 tid=15634 [getActiveSubIdList] X subIdArr.length=0
+    462: 12-24 17:30:21 pid=1301 tid=1336 [getActiveSubIdList] simInfoSet=[]
+    463: 12-24 17:30:21 pid=1301 tid=1336 [getActiveSubIdList] X subIdArr.length=0
+    464: 12-24 17:30:21 pid=1301 tid=15635 [getActiveSubIdList] simInfoSet=[]
+    465: 12-24 17:30:21 pid=1301 tid=15635 [getActiveSubIdList] X subIdArr.length=0
+    466: 12-24 17:30:32 pid=1301 tid=17034 [getActiveSubIdList] simInfoSet=[]
+    467: 12-24 17:30:32 pid=1301 tid=17034 [getActiveSubIdList] X subIdArr.length=0
+    468: 12-24 17:30:32 pid=1301 tid=15637 [getActiveSubIdList] simInfoSet=[]
+    469: 12-24 17:30:32 pid=1301 tid=15637 [getActiveSubIdList] X subIdArr.length=0
+    470: 12-24 17:30:40 pid=1301 tid=1313 [getActiveSubIdList] simInfoSet=[]
+    471: 12-24 17:30:40 pid=1301 tid=1313 [getActiveSubIdList] X subIdArr.length=0
+    472: 12-24 17:30:40 pid=1301 tid=15635 [getActiveSubIdList] simInfoSet=[]
+    473: 12-24 17:30:40 pid=1301 tid=15635 [getActiveSubIdList] X subIdArr.length=0
+    474: 12-24 17:30:51 pid=1301 tid=15635 [getActiveSubIdList] simInfoSet=[]
+    475: 12-24 17:30:51 pid=1301 tid=15635 [getActiveSubIdList] X subIdArr.length=0
+    476: 12-24 17:30:51 pid=1301 tid=1336 [getActiveSubIdList] simInfoSet=[]
+    477: 12-24 17:30:51 pid=1301 tid=1336 [getActiveSubIdList] X subIdArr.length=0
+    478: 12-24 17:31:03 pid=1301 tid=1313 [getActiveSubIdList] simInfoSet=[]
+    479: 12-24 17:31:03 pid=1301 tid=1313 [getActiveSubIdList] X subIdArr.length=0
+    480: 12-24 17:31:03 pid=1301 tid=15635 [getActiveSubIdList] simInfoSet=[]
+    481: 12-24 17:31:03 pid=1301 tid=15635 [getActiveSubIdList] X subIdArr.length=0
+    482: 12-24 17:31:11 pid=1301 tid=1313 [getActiveSubIdList] simInfoSet=[]
+    483: 12-24 17:31:12 pid=1301 tid=1313 [getActiveSubIdList] X subIdArr.length=0
+    484: 12-24 17:31:12 pid=1301 tid=15635 [getActiveSubIdList] simInfoSet=[]
+    485: 12-24 17:31:12 pid=1301 tid=15635 [getActiveSubIdList] X subIdArr.length=0
+    486: 12-24 17:31:24 pid=1301 tid=1555 [getActiveSubIdList] simInfoSet=[]
+    487: 12-24 17:31:24 pid=1301 tid=1555 [getActiveSubIdList] X subIdArr.length=0
+    488: 12-24 17:31:24 pid=1301 tid=1956 [getActiveSubIdList] simInfoSet=[]
+    489: 12-24 17:31:24 pid=1301 tid=1956 [getActiveSubIdList] X subIdArr.length=0
+    490: 12-24 17:31:24 pid=1301 tid=1313 [getActiveSubInfoList]+
+    491: 12-24 17:31:24 pid=1301 tid=1313 [getActiveSubInfoList] Sub Controller not ready
+    492: 12-24 17:32:11 pid=1301 tid=1956 [getActiveSubInfoList]+
+    493: 12-24 17:32:11 pid=1301 tid=1956 [getActiveSubInfoList] Sub Controller not ready
+    494: 12-24 17:32:28 pid=1301 tid=17034 [getActiveSubIdList] simInfoSet=[]
+    495: 12-24 17:32:28 pid=1301 tid=17034 [getActiveSubIdList] X subIdArr.length=0
+    496: 12-24 17:32:28 pid=1301 tid=1313 [getActiveSubIdList] simInfoSet=[]
+    497: 12-24 17:32:28 pid=1301 tid=1313 [getActiveSubIdList] X subIdArr.length=0
+    498: 12-24 17:33:03 pid=1301 tid=1301 [getActiveSubInfoList]+
+    499: 12-24 17:33:03 pid=1301 tid=1301 [getActiveSubInfoList] Sub Controller not ready
+    ++++++++++++++++++++++++++++++++
+    ++++++++++++++++++++++++++++++++
+    SubscriptionInfoUpdater:
+    CarrierServiceBindHelper:
+    Carrier app binding for phone 0
+      connection: null
+      bindCount: 0
+      lastBindStartMillis: 0
+      unbindCount: 0
+      lastUnbindMillis: 0
+
+    ++++++++++++++++++++++++++++++++
+
+SERVICE com.tencent.mobileqq/com.tencent.tmdownloader.TMAssistantDownloadService 35e3d0b pid=24227
+  Client:
+    nothing to dump
+
+SERVICE com.enhance.gameservice/.IpmService 9e73310 pid=21039
+  Client:
+    nothing to dump
+
+SERVICE com.tencent.mobileqq/.msf.service.MsfService d0f7aad pid=24434
+  Client:
+    nothing to dump
+
+SERVICE com.android.bluetooth/.pan.PanService 5540f5c pid=(not running)
+
+SERVICE com.samsung.ucs.ucspinpad/.UcsPinpadService f6f73c9 pid=2005
+  Client:
+    nothing to dump
+[dumpsys: 0.499s elapsed]
+
+========================================================
+== Running Application Providers
+========================================================

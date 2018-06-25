@@ -1,0 +1,1433 @@
+PROVIDER ContentProviderRecord{c591e05 u0 com.qiku.secure.providers/.QikuSecureProvider} pid=1546
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{5f57e5a u0 com.android.providers.telephony/.HbpcdLookupProvider} pid=2448
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{c830d68 u0 com.android.providers.settings/.SettingsProvider} pid=1546
+    Client:
+      GLOBAL SETTINGS (user 0)
+      _id:83 name:mobile_data1 value:1
+      _id:97 name:mobile_data2 value:1
+      _id:120 name:mobile_data3 value:1
+      _id:164 name:mobile_data4 value:1
+      _id:227 name:mobile_data5 value:0
+      _id:341 name:mobile_data6 value:0
+      _id:41 name:low_battery_sound_timeout value:0
+      _id:32 name:car_undock_sound value:/system/media/audio/ui/Undock.ogg
+      _id:46 name:volte_vt_enabled value:1
+      _id:331 name:development_settings_enabled value:1
+      _id:247 name:window_animation_scale value:1.0
+      _id:61 name:qti.ims.call_deflect value:0
+      _id:154 name:keyguard_switch_weather value:1
+      _id:344 name:multi_sim_data_call value:6
+      _id:47 name:device_idle_constants value:inactive_to=600000,sensing_to=60000,motion_inactive_to=60000,idle_after_inactive_to=300000,idle_pending_to=60000,max_idle_pending_to=120000,idle_to=7200000,max_idle_to=43200000,min_time_to_alarm=300000
+      _id:356 name:mode_ringer value:1
+      _id:36 name:default_install_location value:0
+      _id:22 name:wifi_display_on value:0
+      _id:44 name:device_name value:1505-A02
+      _id:13 name:wifi_networks_available_notification_on value:0
+      _id:177 name:switch_screen_magazine value:1
+      _id:158 name:bluetooth_on value:0
+      _id:289 name:next_alarm_formatted value:
+      _id:150 name:bugreport_in_power_menu value:0
+      _id:342 name:mobile_data value:1
+      _id:48 name:wifi_watchdog_on value:1
+      _id:37 name:emergency_tone value:0
+      _id:85 name:multi_sim_sms_prompt value:0
+      _id:34 name:dock_audio_media_enabled value:1
+      _id:336 name:adb_enabled value:1
+      _id:25 name:trusted_sound value:/system/media/audio/ui/Trusted.ogg
+      _id:24 name:unlock_sound value:/system/media/audio/ui/Unlock.ogg
+      _id:2 name:airplane_mode_radios value:cell,bluetooth,wifi,nfc,wimax
+      _id:21 name:wifi_max_dhcp_retry_count value:9
+      _id:3 name:airplane_mode_toggleable_radios value:bluetooth,wifi,nfc
+      _id:50 name:network_scoring_provisioned value:1
+      _id:43 name:heads_up_notifications_enabled value:1
+      _id:308 name:low_power value:0
+      _id:347 name:preferred_network_mode value:10,20
+      _id:30 name:desk_undock_sound value:/system/media/audio/ui/Undock.ogg
+      _id:147 name:mobile_data2147483643 value:1
+      _id:229 name:mobile_data2147483644 value:0
+      _id:261 name:debug_app value:{null}
+      _id:8 name:wifi_sleep_policy value:2
+      _id:28 name:dock_sounds_enabled value:0
+      _id:42 name:wifi_scan_always_enabled value:0
+      _id:91 name:preferred_network_mode1 value:9
+      _id:103 name:preferred_network_mode2 value:20
+      _id:126 name:preferred_network_mode3 value:20
+      _id:170 name:preferred_network_mode4 value:9
+      _id:191 name:preferred_network_mode5 value:9
+      _id:348 name:preferred_network_mode6 value:10
+      _id:250 name:overlay_display_devices value:{null}
+      _id:84 name:data_roaming1 value:1
+      _id:98 name:data_roaming2 value:1
+      _id:121 name:data_roaming3 value:1
+      _id:165 name:data_roaming4 value:1
+      _id:186 name:data_roaming5 value:1
+      _id:343 name:data_roaming6 value:1
+      _id:12 name:captive_portal_detection_enabled value:0
+      _id:57 name:data_roaming2147483643 value:1
+      _id:58 name:data_roaming2147483644 value:1
+      _id:31 name:car_dock_sound value:/system/media/audio/ui/Dock.ogg
+      _id:26 name:power_sounds_enabled value:1
+      _id:244 name:stay_on_while_plugged_in value:0
+      _id:35 name:set_install_location value:0
+      _id:349 name:captive_portal_server value:www.qualcomm.cn
+      _id:248 name:transition_animation_scale value:1.0
+      _id:45 name:guest_user_enabled value:1
+      _id:16 name:data_roaming value:1
+      _id:10 name:package_verifier_enable value:1
+      _id:1 name:theater_mode_on value:0
+      _id:15 name:cdma_cell_broadcast_sms value:1
+      _id:281 name:airplane_mode_on value:0
+      _id:27 name:low_battery_sound value:/system/media/audio/ui/LowBattery.ogg
+      _id:256 name:wait_for_debugger value:0
+      _id:19 name:netstats_enabled value:1
+      _id:40 name:subscription_mode value:0
+      _id:4 name:assisted_gps_enabled value:1
+      _id:23 name:lock_sound value:/system/media/audio/ui/Lock.ogg
+      _id:6 name:auto_time_zone value:1
+      _id:357 name:wifi_on value:1
+      _id:111 name:wifi_country_code value:CN
+      _id:33 name:wireless_charging_started_sound value:/system/media/audio/ui/WirelessChargingStarted.ogg
+      _id:63 name:device_provisioned value:1
+      _id:5 name:auto_time value:1
+      _id:94 name:multi_sim_voice_prompt value:0
+      _id:20 name:usb_mass_storage_enabled value:1
+      _id:345 name:multi_sim_sms value:6
+      _id:350 name:multi_sim_voice_call value:2147483643
+      _id:38 name:call_auto_retry value:0
+      _id:62 name:audio_safe_volume_state value:3
+      _id:29 name:desk_dock_sound value:/system/media/audio/ui/Dock.ogg
+      _id:249 name:animator_duration_scale value:1.0
+
+      SECURE SETTINGS (user 0)
+      _id:27 name:lock_screen_show_notifications value:1
+      _id:8 name:accessibility_script_injection value:0
+      _id:1282 name:at_count_b value:50
+      _id:1276 name:at_count_u value:65536
+      _id:13 name:accessibility_script_injection_url value:https://ssl.gstatic.com/accessibility/javascript/android/AndroidVox_v1.js
+      _id:24 name:immersive_mode_confirmations value:
+      _id:1263 name:at_closed value:1
+      _id:1242 name:at_extend value:eb4ca34a8252aaaa1b09acc63fdb4e3a
+      _id:1203 name:at_flag_c value:35651
+      _id:1187 name:at_flag_u value:1
+      _id:1315 name:default_input_method value:com.koushikdutta.vysor/.VysorIME
+      _id:29 name:sleep_timeout value:-1
+      _id:1319 name:location_providers_allowed value:
+      _id:28 name:lock_screen_allow_private_notifications value:1
+      _id:33 name:double_tap_to_wake value:1
+      _id:12 name:speak_password value:0
+      _id:26 name:wake_gesture_enabled value:1
+      _id:17 name:screensaver_activate_on_sleep value:0
+      _id:9 name:accessibility_web_content_key_bindings value:0x13=0x01000100; 0x14=0x01010100; 0x15=0x02000001; 0x16=0x02010001; 0x200000013=0x02000601; 0x200000014=0x02010601; 0x200000015=0x03020101; 0x200000016=0x03010201; 0x200000023=0x02000301; 0x200000024=0x02010301; 0x200000037=0x03070201; 0x200000038=0x03000701:0x03010701:0x03020701;
+      _id:2 name:backup_enabled value:0
+      _id:53 name:user_setup_complete value:1
+      _id:31 name:lock_screen_lock_after_timeout value:0
+      _id:47 name:trust_agents_initialized value:1
+      _id:22 name:accessibility_display_magnification_auto_update value:1
+      _id:14 name:lockscreen.disabled value:0
+      _id:40 name:lock_screen_owner_info_enabled value:0
+      _id:39 name:selected_spell_checker_subtype value:0
+      _id:10 name:long_press_timeout value:500
+      _id:50 name:bluetooth_addr_valid value:1
+      _id:42 name:voice_recognition_service value:com.qiku.speech/com.qihoo.voice.asr.offline.speechrecognition.QihooRecognitionService
+      _id:18 name:screensaver_components value:com.google.android.deskclock/com.android.deskclock.Screensaver
+      _id:41 name:voice_interaction_service value:
+      _id:21 name:accessibility_display_magnification_scale value:2.0
+      _id:16 name:screensaver_activate_on_dock value:1
+      _id:3 name:backup_transport value:android/com.android.internal.backup.LocalTransport
+      _id:44 name:volume_controller_service_component value:{null}
+      _id:237 name:at_m2 value:c45455669e255a7cc3d25d5ce05b3b90
+      _id:1316 name:input_methods_subtype_history value:com.koushikdutta.vysor/.VysorIME;-921088104:com.xinshuru.inputmethod/.FTInputService;-1:com.qihoo.appstore/com.qihoo360.mobilesafe.pcinput.HandoffIme;678780777
+      _id:1 name:mock_location value:0
+      _id:1283 name:at_count_br value:10
+      _id:48 name:bluetooth_name value:360 N4S
+      _id:15 name:screensaver_enabled value:1
+      _id:4 name:mount_play_not_snd value:1
+      _id:7 name:mount_ums_notify_enabled value:1
+      _id:32 name:android_id value:4c6388a7c1bc070e
+      _id:11 name:touch_exploration_enabled value:0
+      _id:1300 name:enabled_notification_listeners value:com.yulong.android.launcher3/com.yulong.android.launcher3.badge.NotificationListener
+      _id:106 name:dual_instance_enable value:
+      _id:1312 name:selected_input_method_subtype value:-1
+      _id:6 name:mount_ums_prompt value:1
+      _id:38 name:selected_spell_checker value:com.android.inputmethod.latin/.spellcheck.AndroidSpellCheckerService
+      _id:19 name:screensaver_default_component value:com.google.android.deskclock/com.android.deskclock.Screensaver
+      _id:5 name:mount_ums_autostart value:0
+      _id:46 name:show_note_about_notification_hiding value:0
+      _id:43 name:sms_default_application value:com.android.mms
+      _id:80 name:install_non_market_apps value:1
+      _id:49 name:bluetooth_address value:18:DC:56:11:18:74
+      _id:34 name:accessibility_enabled value:0
+      _id:20 name:accessibility_display_magnification_enabled value:0
+      _id:1303 name:enabled_input_methods value:com.koushikdutta.vysor/.VysorIME:com.xinshuru.inputmethod/.FTInputService:com.qihoo.appstore/com.qihoo360.mobilesafe.pcinput.HandoffIme
+
+      SYSTEM SETTINGS (user 0)
+      _id:28 name:led_turnon_time value:1285754400811
+      _id:56 name:ppd_sd_is_ready value:1
+      _id:9417 name:volume_ring_earpiece value:10
+      _id:35 name:qiku_breath_light_notify_color value:-1
+      _id:19351 name:360DC_DeviceID value:4c6388a7c1bc070e
+      _id:1206 name:screen_color_mode value:2
+      _id:17 name:window_animation_scale value:1.0
+      _id:724 name:current_cdma_state_machine value:9993
+      _id:69 name:5BF02C9C940644411032728756C19B88 value:2F2A7A6862AB72140D5611C462F24B4A
+      _id:42 name:power_off_alarm_mode value:0
+      _id:739 name:ims_inited_state value:3
+      _id:449 name:dxCRMxhQkdGePGnp value:D56A98BB7534DE224356314277B05E61AFAA7A16FE051E9AFCC8C8532233F24A
+      _id:19730 name:auto.brightness value:71
+      _id:15431 name:volume_music_speaker value:0
+      _id:21 name:notification_light_pulse value:1
+      _id:51 name:notification_sound value:content://media/internal/audio/media/39
+      _id:268 name:com.baidu.deviceid.v2 value:qy5cUzU0MkednNjav2cV3D4m5NmZuNgzWNVV4Q/Hn5+kBlGwyjOdW4G3HXXG+pJiFpFo1bngXpni
+      sWbga9x/KjLiYC9pp9EWYKr7m3BGhUY=
+      _id:15515 name:bd91.analytics.com.nd.assistance.install_at value:1500346468006
+      _id:45 name:next_alarm_formatted value:
+      _id:4 name:volume_alarm value:12
+      _id:0 name:volume_music value:11
+      _id:3 name:volume_voice value:6
+      _id:30 name:ring_virbation_level value:100
+      _id:10208 name:microphone_mute value:0
+      _id:52 name:ringtone value:content://media/internal/audio/media/43
+      _id:19350 name:360DC_DeviceId_MAC value:6a659d53d858b36b6bd9bd5dcd2357e3
+      _id:60 name:calculagraph_alert value:content://media/internal/audio/media/14
+      _id:47 name:original_sim_voice_callback value:0
+      _id:66 name:persist.xmpp.channelid value:cid-49f307ddd2ea44ef15fe4d366bc05adc
+      _id:19583 name:persit.coolcloud.anti.param value:0;;;logout;924f298bc0e14e8a6effdfb8b2fd5224;cn1ef073870b503c8979fbf9e7bd537005a;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+      _id:13 name:hearing_aid value:0
+      _id:16205 name:coolsafe_savepower_mode value:1
+      _id:726 name:cdma_ip_number_key value:17911
+      _id:1 name:volume_ring value:10
+      _id:19348 name:360DC_DeviceId_M2 value:c45455669e255a7cc3d25d5ce05b3b90
+      _id:732 name:yulong_telecom_ringway value:0
+      _id:19349 name:360DC_DeviceId_SerialNo value:b4ff81241c619ff8e2c0545bc5d86b63
+      _id:136 name:persit.coolcloud.devid value:99000820030983-4c6388a7c1bc070e
+      _id:15627 name:screen_auto_brightness_adj value:0.0
+      _id:217 name:devcie_id_generated value:54255c5b1cc78dba0d4547ee64b613d5
+      _id:11434 name:radio.data.stall.recovery.action value:0
+      _id:9374 name:zh-rCN value:{"refuse_phrases":["æç°å¨æ­£å¨å¼ä¼ï¼è¯·åç­ä¿¡ï¼","æ­£å¨å¼è½¦ï¼ç¨ååå¤ä½ ã","ç°ä¸æ¹ä¾¿æ¥å¬çµè¯ï¼ç¨ååå¤çµè¯ã","ç°å¨æäºæ­£å¿ï¼æä¸ä¼åèç³»ä½ ã","æ­£å¨å¼ä¼ï¼ç­ä¼å¿åå¤ä½ ã","æ­£å¨æ¥å¬å«ççµè¯ï¼ç¨åèç³»ã","å·²å¨è·¯ä¸äºï¼é©¬ä¸å°±å°ã","æ­£å¨å¹è®­ï¼ ç¨ååå¤ä½ ã","ç°å¨æ­£å¿ï¼è¯·æç¹ææææºã è°¢è°¢ï¼","æ­£å¨åé¥­ï¼æç¹åèç³»ã"]}
+      _id:19733 name:screen_brightness_mode value:0
+      _id:8 name:mute_streams_affected value:46
+      _id:19731 name:system_cfg_change value:com.android.settings:screen_off_timeout:360000000:1000
+      _id:19369 name:iflytek.deviceid.key value:2e80b1737df765b4a25609092820b0312
+      _id:57 name:sed_sd_is_ready value:0
+      _id:14 name:tty_mode value:0
+      _id:15103 name:sys_setting_tes_guid value:5d422124b11e7487e9af039313b788cb
+      _id:70 name:com.baidu.deviceid value:2F2A7A6862AB72140D5611C462F24B4A
+      _id:10 name:dim_screen value:1
+      _id:151 name:crossing_here_id_str value:{null}
+      _id:1190 name:com.qiku.cloud.gallery.autosync.switch value:0
+      _id:13554 name:simCardCount value:0
+      _id:49 name:statusbar_has_alarm value:noAlarm
+      _id:55 name:yulong.net.success.notify.times value:0
+      _id:6 name:volume_bluetooth_sco value:7
+      _id:24 name:lockscreen_sounds_enabled value:1
+      _id:303 name:user_rotation value:0
+      _id:10134 name:volume_voice_earpiece value:10
+      _id:33 name:qiku_breath_light_call_switch value:1
+      _id:19742 name:accelerometer_rotation value:1
+      _id:957 name:__MTA_DEVICE_INFO_CHECK_ENTITY__ value:{"ts":1484897439731,"times":0,"mfreq":100,"mdays":3}
+      _id:13332 name:key_flag_float_window value:0
+      _id:736 name:button_enable_float_incoming_bar_key value:1
+      _id:15105 name:sys_setting_tes_gtime value:1480648665
+      _id:15104 name:sys_setting_tes_vcode value:a4317f670c7744864243b88924ad5d0b65dfe453117baf42
+      _id:19721 name:weixin_standby value:1
+      _id:19732 name:screen_off_timeout value:360000000
+      _id:36 name:qiku_breath_light_charging value:1
+      _id:43 name:isJunkFileCleanReminder value:1
+      _id:7020 name:show_touches value:0
+      _id:424 name:volume_notification_speaker value:1
+      _id:986 name:volume_alarm_speaker value:4
+      _id:9 name:vibrate_when_ringing value:0
+      _id:302 name:hide_rotation_lock_toggle_for_accessibility value:0
+      _id:50 name:alarm_alert value:content://media/internal/audio/media/18
+      _id:9483 name:volume_voice_headset value:6
+      _id:10599 name:com.suning.mobile.ebuy value:5.1.2
+      _id:25 name:pointer_speed value:0
+      _id:68 name:bd_setting_i value:99000820030983
+      _id:19347 name:360DC_DeviceId_IMEI value:02616ae06c3ec94ccecccabbdfa84ed9
+      _id:18 name:transition_animation_scale value:1.0
+      _id:16243 name:weixin_standby_special value:0
+      _id:40 name:mode_ringer_streams_affected value:422
+      _id:5 name:volume_notification value:10
+      _id:59 name:agenda_alert value:content://media/internal/audio/media/24
+      _id:32 name:touch_virbation_level value:60
+      _id:29 name:led_turnoff_time value:1285714800811
+      _id:12 name:dtmf_tone_type value:0
+      _id:22 name:dtmf_tone value:0
+      _id:67 name:persist.xmpp.devid value:861530030528842
+      _id:10437 name:__MTA_DEVICE_INFO__ value:xjgD6zAYj0802haD05xA4HKQKJl76nm8SnAJpFaX2PhicUBmi+vXgrY0Hzb7T3EJQUN0x+dWSUw4FnNJ91LUZwcNn61r5pKTULOkQCbx5+0g8aZPd9AxWxYzpHcYREwhIAZox+SCzb5dPl0yzE+Ba2qhNEDu
+      _id:19505 name:persist.xmpp.hosts value:111.206.244.156:5230
+      _id:19581 name:persist.xmpp.imeis value:99000820030983;861530030528842;861530030728848
+      _id:19496 name:volume_ring_speaker value:5
+      _id:26 name:time_12_24 value:24
+      _id:737 name:button_enable_proximity_sensor_key value:1
+      _id:61 name:volume_music_headset value:10
+      _id:2 name:volume_system value:10
+      _id:9704 name:yulong_recorder_talk value:0
+      _id:41 name:mistouch_prevention_state value:1
+      _id:34 name:qiku_breath_light_message_switch value:1
+      _id:31 name:notify_virbation_level value:100
+      _id:19358 name:com.sohu.news.global.GUDID value:ODYxNTMwMDMwNTI4ODQy
+      5
+      _id:19359 name:com.sohu.news.global.GUSID value:MTUwMTAwNTI0MzMxMzQ0ZDQyMDc5YTA1ZGU2MzkzMDA=
+      7
+      _id:38 name:qiku_breath_light_lowpower value:1
+      _id:58 name:ringtone_2 value:content://media/internal/audio/media/52
+      _id:23 name:sound_effects_enabled value:1
+      _id:19705 name:doze_nofify_uid_chain value:164;-1
+      _id:11429 name:imsi_one_old value:460010930105210
+      _id:738 name:toggle_incoming_call_show_preference value:1
+      _id:16206 name:led_mode value:3
+      _id:62 name:volume_music_headphone value:10
+      _id:11431 name:if_enable_notify value:0
+      _id:48 name:qiku.mms.isDeleteCard value:true
+      _id:2849 name:multi_process_enabled value:1
+      _id:19740 name:screen_brightness value:170
+      _id:723 name:yulong.mms.phonefull value:false
+      _id:152 name:com.qiku.cloud.gallery.cloudstatus value:0
+      _id:450 name:mqBRboGZkQPcAkyk value:WDaYE7J6OVgDAIhwNi1ZIo2Z
+      _id:11430 name:imsi_two_old value:460010930105210
+      _id:37 name:qiku_breath_light_notify value:1
+      _id:16207 name:haptic_feedback_enabled value:1
+      _id:19646 name:qiku_mistouch_state value:0
+      _id:39 name:flashlight_longpress_time value:1
+
+
+PROVIDER ContentProviderRecord{8529581 u0 com.qiku.android.configcenter/.ConfigProvider} pid=1546
+    Client:
+      ConfigCenter dump options:
+        [appType] [allowKeyguardAppSync] [oneKeyCleanWhitelist] [oneKeyCleanUser] [oneKeyCleanSync]
+        [screenOffCleanUser] [screenOffCleanUnshownSync] [screenOffCleanSync] [backgroundCleanSync]
+        [keyValuePair] [featureSync] [permissionSync] [permission] [dataFlowSync]
+        [dataFlow] [autoStartSync] [autoStart] [syncRecord] [powerSave]
+        [appRecoverSync] [autoStartManage][forbidCoverInstallSync][protectedPackagesSync]
+        --all : query all table
+      autoStart -p [packageName]: query user autostart table by package name.
+      autoStartSync -p [packageName]: query cloud autostart table by package name.
+      permission -p [packageName]: query user permission table by package name.
+      permissionSync -p [packageName]: query cloud permission table by package name.
+      dataFlow -p [packageName]: query user dataflow table by package name.
+      dataFlowSync -p [packageName]: query cloud dataflowSync table by package name.
+      permission: user permission table.
+      permissionSync: cloud permission table.
+      autoStart: user autostart table.
+      autoStartSync: cloud autostart table.
+      syncRecord: server sync timestamp.
+      dataFlow: user dataflow table
+      dataFlowSync: cloud dataflow table
+      oneKeyCleanUser: user one key clean table
+      oneKeyCleanSync: cloud one keyclean table
+      forbidCoverInstallSync: forbid cover install table
+      protectedPackagesSync: protected packages that update delay
+
+PROVIDER ContentProviderRecord{77d2626 u0 android/com.android.server.am.DumpHeapProvider} pid=1546
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{94d0267 u0 com.android.settings/.search.SettingsSearchProviderForLauncher} pid=2769
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{b1208bd u0 com.qihoo.appstore/com.qihoo360.replugin.component.provider.PluginPitProviderPersist} pid=30643
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{91d5e03 u0 com.qiku.cardmanager/com.fighter.proxy.ReaperProvider} pid=12856
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{f5b73b9 u0 com.qiku.cardmanager/com.fighter.proxy.ReaperFileProvider} pid=12856
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{10dd75f u0 com.sina.weibo/.provider.SinaWeiboSdkProvider} pid=7573
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{95a320a u0 com.yulong.android.launcher3/.icon.IconProvider} pid=2789
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{a48a098 u0 com.tencent.mm/.plugin.base.stub.WXCommProvider} pid=5131
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{c7164d6 u0 com.qihoo360.mobilesafe/.applock.data.AppLockContentProvider} pid=32677
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{732e44 u0 com.yulong.android.launcher3/.LauncherProvider} pid=2789
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{bf6f862 u0 com.yulong.android.launcher3/.search.settingsapp.SettingsSearchIndexablesProvider} pid=2789
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{f05e0e u0 com.android.gallery3d/.filtershow.provider.SharedImageProvider} pid=16017
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{f96eab0 u0 com.tencent.mm/.plugin.ext.provider.ExtControlProviderEntry} pid=5131
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{55038ae u0 com.yulong.android.launcher3/.freezer.FreezerProvider} pid=2789
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{df801dc u0 com.qihoo360.mobilesafe/.svcmanager.ServiceProvider} pid=32677
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{4eb31ba u0 com.qihoo.appstore/com.qihoo360.mobilesafe.svcmanager.ServiceProvider} pid=30643
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{ff15fc8 u0 com.qiku.cardmanager/.netrequest.NetRequestProvider} pid=12856
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{e0aaf86 u0 com.tencent.mm/.plugin.gwallet.GWalletQueryProvider} pid=5131
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{3523e12 u0 com.android.providers.downloads/.DownloadProvider} pid=4873
+    Client:
+      Downloads updated in last hour:
+
+PROVIDER ContentProviderRecord{5525fe0 u0 com.android.providers.telephony/.TelephonyProvider} pid=2448
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{c12295e u0 com.tencent.mobileqq/cooperation.readinjoy.content.ReadInJoyDataProvider} pid=8524
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{dad9a0c u0 com.yulong.android.coolsafe/.util.savepower.SavePowerProvider} pid=3890
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{2537d6a u0 com.qiku.powermaster/com.fighter.proxy.ReaperProxyProvider} pid=18796
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{2a04af8 u0 com.android.providers.contacts/.CallLogProvider} pid=2500
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{47f4937 u0 com.tencent.mobileqq/com.tencent.common.config.provider.QZoneConfigProvider} pid=8524
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{ea340d u0 com.qihoo.appstore/.keepalive.account.SyncProvider} pid=30643
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{17541d3 u0 com.tencent.mm/.plugin.ext.provider.ExtControlProviderNearBy} pid=5131
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{4130409 u0 com.sina.weibo/android.support.v4.content.FileProvider} pid=7573
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{1b9184b u0 com.qihoo360.mobilesafe/com.qihoo.antivirus.shield.server.ServerProvider} pid=32677
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{6da2b41 u0 com.sina.weibo/.core.sp.PreferenceProvider} pid=7573
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{27eee27 u0 com.qiku.logsystem/.datacenter.db.DataCenterProvider} pid=2572
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{7dd3a7d u0 com.tencent.mm/.plugin.ext.provider.ExtControlProviderSNS} pid=5131
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{fe245c3 u0 com.android.phone/com.yulong.phone.setting.search.SettingsSearchIndexablesProvider} pid=2448
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{1080179 u0 com.qihoo.appstore/.keepalive.KeepAliveProvider} pid=30643
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{1997b1f u0 com.qihoo360.mobilesafe/com.qihoo360.loader2.mgr.PluginPersistProvider} pid=32677
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{77e3c35 u0 com.qiku.android.cloudsync/com.qiku.android.space.provider.ISProvider} pid=25018
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{a64aa3b u0 com.qiku.cardmanager/com.fighter.proxy.ReaperProxyProvider} pid=12856
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{cbe4627 u0 com.android.mms/com.yulong.mms.provider.MmsSmsProvider} pid=17863
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{6c8527d u0 com.qiku.freecall/.provider.FreeCallProvider} pid=17890
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{6434640 u0 com.yulong.android.xtime/yulong.xtime.db.worldclock.WorldClockDataProvider} pid=15535
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{d0cd722 u0 com.qiku.widget3d/.provider.WidgetAdvProvider} pid=3659
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{9c5436e u0 com.qiku.magazine/.utils.MagazineContentProvider} pid=2340
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{7f0ea9c u0 com.yulong.android.launcher3/.InterfaceProvider} pid=2789
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{5b45435 u0 com.android.mms/com.yulong.systemsetting.search.SettingsSearchIndexablesProvider} pid=17863
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{9701488 u0 com.android.systemui/com.qiku.smsbox.model.MsgBoxContentProvider} pid=32627
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{8be8c07 u0 com.qiku.logsystem/.userreport.export.BugreportContentProvider} pid=2572
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{904823b u0 com.qiku.riskinsight/com.qiku.safetyspace.externalprovider.ExternalProvider} pid=15583
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{4adbb5d u0 com.qiku.android.cloudsync/com.coolcloud.uac.android.service.provider.SystemAccountContentProvider} pid=25018
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{cade1a3 u0 com.qiku.logsystem/com.qihoo.sdk.report.provider.HostContentProvider} pid=2572
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{fb059 u0 com.qihoo.appstore/com.morgoo.droidplugin.stub.ContentProviderStub$StubP01} pid=16718
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{4b2f4ff u0 com.sina.weibo/.provider.SinaWeiboSPProvider} pid=7573
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{1f915 u0 com.qiku.android.cloudsync/com.coolcloud.uac.android.service.provider.UserInfoContentProvider} pid=25018
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{dcbe21b u0 com.android.providers.telephony/.MmsSmsProvider2} pid=2448
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{d961191 u0 com.qihoo360.mobilesafe/.backup.provider.LocalSmsProvider} pid=32677
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{c62feb1 u0 com.android.gallery3d/.app.cloud.DatabaseProvider} pid=16017
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{cbc84f7 u0 com.android.settings/com.yulong.android.settings.camouflage.CommonCamouflageProvider} pid=2769
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{3af0717 u0 com.android.mms/com.yulong.android.contacts.records.provider.RecordsProvider} pid=17863
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{4aa7993 u0 com.android.settings/.search.SettingsSearchIndexablesProvider} pid=2769
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{ff061c9 u0 com.qihoo360.mobilesafe/.contacts.ContactsProvider} pid=32677
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{b77d4ed u0 com.android.mms/com.yulong.android.contacts.yellowpage.YellowPageProvider} pid=17863
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{e945185 u0 com.qiku.android.cloudsync/com.cloudsec.android.data.CloudSecProvider} pid=25018
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{612fdb3 u0 com.android.providers.userdictionary/.UserDictionaryProvider} pid=18053
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{9946ba6 u0 com.tencent.mobileqq/.openapi.OpenApiProvider} pid=8524
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{527fb6e u0 com.android.inputmethod.latin/com.android.inputmethod.dictionarypack.DictionaryProvider} pid=17978
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{58a1994 u0 com.tencent.mm/.sdk.platformtools.MultiProcessSharedPreferences} pid=5131
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{48b9c32 u0 com.tencent.mm/.plugin.base.stub.MMPluginProvider} pid=5131
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{da3b4a5 u0 com.qiku.riskinsight/com.qiku.android.launcher.LauncherProvider} pid=15583
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{8b93b00 u0 com.android.phone/.IccProvider} pid=2448
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{b53497e u0 com.qihoo360.mobilesafe/.lockscreen.data.LockScreenContentProvider} pid=32677
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{f7072c u0 com.sina.weibo/.PictureListProvider} pid=7573
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{5567f8a u0 com.tencent.mm/.plugin.ext.provider.ExtControlProviderAccountSync} pid=5131
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{aefcad7 u0 com.android.providers.media/.MediaProvider} pid=4873
+    Client:
+      internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 32 queries, scan started 12æ21æ¥ 17:42 (00:00)
+      2016-10-27 05:20:23.362 : Database upgraded from version 63 to 801 in 0 seconds
+      2016-10-27 05:20:26.455 : internal.db: version 801, 116 rows, 224 inserts, 0 updates, 0 deletes, 280 queries, scan started 10æ27æ¥ 13:20 (00:03)
+      2016-11-21 10:32:09.534 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 11æ21æ¥ 18:32 (00:00)
+      2016-11-24 03:45:30.241 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 11æ24æ¥ 11:45 (00:00)
+      2016-11-25 09:02:56.988 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 11æ25æ¥ 17:02 (00:00)
+      2016-11-28 02:43:04.584 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 11æ28æ¥ 10:43 (00:00)
+      2016-11-29 01:58:08.357 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 11æ29æ¥ 09:58 (00:00)
+      2016-11-30 02:21:57.148 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 11æ30æ¥ 10:21 (00:00)
+      2016-12-02 02:49:28.790 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 12æ2æ¥ 10:49 (00:00)
+      2016-12-04 01:56:24.013 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 12æ4æ¥ 09:56 (00:00)
+      2016-12-06 02:31:05.339 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 12æ6æ¥ 10:31 (00:00)
+      2016-12-09 08:01:43.745 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 12æ9æ¥ 16:01 (00:00)
+      2016-12-12 02:21:51.993 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 12æ12æ¥ 10:21 (00:00)
+      2016-12-16 02:30:42.966 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 11 queries, scan started 12æ16æ¥ 10:30 (00:00)
+      2016-12-21 09:36:36.573 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 12æ21æ¥ 17:36 (00:00)
+      2016-12-22 03:04:42.217 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 11 queries, scan started 12æ22æ¥ 11:04 (00:00)
+      2016-12-23 01:53:50.487 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 12æ23æ¥ 09:53 (00:00)
+      2016-12-23 12:00:07.957 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 12æ23æ¥ 20:00 (00:00)
+      2016-12-27 01:05:59.460 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 11 queries, scan started 12æ27æ¥ 09:05 (00:00)
+      2016-12-28 01:06:31.267 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 12æ28æ¥ 09:06 (00:00)
+      2016-12-29 01:36:15.582 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 12æ29æ¥ 09:36 (00:00)
+      2016-12-29 07:50:08.986 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 12æ29æ¥ 15:50 (00:00)
+      2017-01-05 09:44:57.305 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 1æ5æ¥ 17:44 (00:00)
+      2017-01-06 01:17:45.982 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 1æ6æ¥ 09:17 (00:00)
+      2017-01-07 02:20:00.892 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 1æ7æ¥ 10:20 (00:00)
+      2017-01-07 08:00:40.938 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 1æ7æ¥ 16:00 (00:00)
+      2017-01-08 08:06:54.505 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 1æ8æ¥ 16:06 (00:00)
+      2017-01-09 06:39:43.822 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 11 queries, scan started 1æ9æ¥ 14:39 (00:00)
+      2017-01-10 01:05:15.249 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 1æ10æ¥ 09:05 (00:00)
+      2017-01-10 02:04:24.253 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 1æ10æ¥ 10:04 (00:00)
+      2017-01-10 13:05:21.034 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 1æ10æ¥ 21:05 (00:00)
+      2017-01-12 01:08:44.485 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 1æ12æ¥ 09:08 (00:00)
+      2017-01-13 03:11:29.724 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 1æ13æ¥ 11:11 (00:00)
+      2017-01-16 05:43:07.477 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 1æ16æ¥ 13:43 (00:00)
+      2017-01-18 13:06:20.289 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 1æ18æ¥ 21:06 (00:00)
+      2017-01-19 01:17:38.034 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 1æ19æ¥ 09:17 (00:00)
+      2017-01-20 07:27:22.317 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 1æ20æ¥ 15:27 (00:00)
+      2017-01-22 01:04:04.967 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 1æ22æ¥ 09:04 (00:00)
+      2017-01-22 12:47:16.320 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 1æ22æ¥ 20:47 (00:00)
+      2017-01-23 01:34:22.651 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 1æ23æ¥ 09:34 (00:00)
+      2017-02-04 02:35:59.505 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 2æ4æ¥ 10:35 (00:00)
+      2017-02-06 11:05:15.178 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 2æ6æ¥ 19:05 (00:00)
+      2017-03-02 14:25:00.119 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 3æ2æ¥ 22:25 (00:00)
+      2017-03-03 02:52:55.205 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 3æ3æ¥ 10:52 (00:00)
+      2017-03-03 06:18:43.973 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 3æ3æ¥ 14:18 (00:00)
+      2017-03-14 08:16:49.057 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 3æ14æ¥ 16:16 (00:00)
+      2017-03-23 04:36:57.316 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 11 queries, scan started 3æ23æ¥ 12:36 (00:00)
+      2017-03-23 05:04:43.105 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 11 queries, scan started 3æ23æ¥ 13:04 (00:00)
+      2017-04-07 10:03:53.112 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 4æ7æ¥ 18:03 (00:00)
+      1970-01-01 12:21:43.726 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 1æ1æ¥ 20:21 (00:00)
+      2017-04-13 08:14:02.187 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 4æ13æ¥ 16:14 (00:00)
+      2017-04-17 01:03:22.252 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 4æ17æ¥ 09:03 (00:00)
+      2017-05-05 01:57:26.245 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 5æ5æ¥ 09:57 (00:00)
+      2017-05-07 01:17:08.451 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 5æ7æ¥ 09:17 (00:00)
+      2017-05-07 10:44:21.661 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 5æ7æ¥ 18:44 (00:00)
+      2017-05-08 01:29:38.029 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 5æ8æ¥ 09:29 (00:00)
+      2017-05-15 11:27:26.925 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 5æ15æ¥ 19:27 (00:00)
+      2017-05-22 13:13:40.795 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 5æ22æ¥ 21:13 (00:00)
+      2017-06-02 00:59:52.991 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 6æ2æ¥ 08:59 (00:00)
+      2017-06-04 05:16:05.527 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 6æ4æ¥ 13:16 (00:00)
+      2017-06-05 01:46:33.955 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 6æ5æ¥ 09:46 (00:00)
+      2017-06-06 08:17:53.351 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 11 queries, scan started 6æ6æ¥ 16:17 (00:00)
+      2017-06-07 11:50:43.094 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 6æ7æ¥ 19:50 (00:00)
+      2017-06-08 00:41:11.742 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 6æ8æ¥ 08:41 (00:00)
+      2017-06-11 00:51:18.654 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 6æ11æ¥ 08:51 (00:00)
+      2017-06-11 09:25:04.857 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 6æ11æ¥ 17:25 (00:00)
+      2017-06-15 08:49:33.284 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 6æ15æ¥ 16:49 (00:00)
+      2017-06-18 01:07:25.436 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 6æ18æ¥ 09:07 (00:00)
+      2017-06-18 02:23:19.271 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 6æ18æ¥ 10:23 (00:00)
+      2017-06-19 01:45:52.024 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 6æ19æ¥ 09:45 (00:00)
+      2017-06-20 10:56:25.029 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 6æ20æ¥ 18:56 (00:00)
+      2017-06-22 01:22:49.880 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 6æ22æ¥ 09:22 (00:00)
+      2017-06-22 08:00:06.471 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 6æ22æ¥ 16:00 (00:00)
+      2017-06-22 09:44:36.646 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 6æ22æ¥ 17:44 (00:00)
+      2017-06-25 07:09:50.484 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 6æ25æ¥ 15:09 (00:00)
+      2017-06-26 02:48:52.825 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 6æ26æ¥ 10:48 (00:00)
+      2017-06-28 02:39:21.875 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 6æ28æ¥ 10:39 (00:00)
+      2017-06-29 02:02:21.518 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 6æ29æ¥ 10:02 (00:00)
+      2017-06-30 11:08:29.306 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 6æ30æ¥ 19:08 (00:00)
+      2017-06-30 13:15:46.630 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 6æ30æ¥ 21:15 (00:00)
+      2017-07-02 03:19:24.044 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 7æ2æ¥ 11:19 (00:00)
+      2017-07-03 11:08:27.692 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 7æ3æ¥ 19:08 (00:00)
+      2017-07-04 09:14:10.406 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 7æ4æ¥ 17:14 (00:00)
+      2017-07-06 07:41:49.088 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 11 queries, scan started 7æ6æ¥ 15:41 (00:00)
+      2017-07-10 02:51:39.369 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 7æ10æ¥ 10:51 (00:00)
+      2017-07-12 08:14:54.358 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 7æ12æ¥ 16:14 (00:00)
+      2017-07-13 02:22:08.446 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 7æ13æ¥ 10:22 (00:00)
+      2017-07-16 07:03:07.017 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 7æ16æ¥ 15:03 (00:00)
+      2017-07-16 08:28:14.409 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 7æ16æ¥ 16:28 (00:00)
+      2017-07-16 11:52:54.732 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 7æ16æ¥ 19:52 (00:00)
+      2017-08-13 01:44:42.304 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 8æ13æ¥ 09:44 (00:00)
+      2017-08-18 06:09:46.735 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 8æ18æ¥ 14:09 (00:00)
+      2017-08-20 03:13:26.437 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 8æ20æ¥ 11:13 (00:00)
+      2017-08-21 01:55:13.992 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 8æ21æ¥ 09:55 (00:00)
+      2017-09-17 02:44:53.259 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 9æ17æ¥ 10:44 (00:00)
+      2017-09-17 09:12:50.257 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 9æ17æ¥ 17:12 (00:00)
+      2017-09-21 03:27:32.229 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 9æ21æ¥ 11:27 (00:00)
+      2017-09-21 08:30:50.377 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 9æ21æ¥ 16:30 (00:00)
+      2017-09-22 01:30:35.002 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 11 queries, scan started 9æ22æ¥ 09:30 (00:00)
+      2017-10-11 01:52:36.074 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 10æ11æ¥ 09:52 (00:00)
+      2017-10-17 10:58:20.491 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 10æ17æ¥ 18:58 (00:00)
+      2017-10-18 01:42:29.484 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 10æ18æ¥ 09:42 (00:00)
+      2017-10-19 01:40:40.634 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 10æ19æ¥ 09:40 (00:00)
+      2017-10-20 01:53:32.307 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 10æ20æ¥ 09:53 (00:00)
+      2017-10-26 12:03:12.217 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 10æ26æ¥ 20:03 (00:00)
+      2017-10-27 02:42:03.218 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 10æ27æ¥ 10:42 (00:00)
+      2017-10-27 08:35:33.692 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 10æ27æ¥ 16:35 (00:00)
+      2017-10-29 08:15:29.815 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 10æ29æ¥ 16:15 (00:00)
+      2017-10-30 07:58:15.215 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 10æ30æ¥ 15:58 (00:00)
+      2017-10-30 15:06:45.618 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 11 queries, scan started 10æ30æ¥ 23:06 (00:00)
+      2017-10-31 01:20:10.736 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 11 queries, scan started 10æ31æ¥ 09:20 (00:00)
+      2017-10-31 12:03:39.628 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 10æ31æ¥ 20:03 (00:00)
+      2017-11-02 09:55:18.213 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 11æ2æ¥ 17:55 (00:00)
+      2017-11-05 11:20:50.922 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 11æ5æ¥ 19:20 (00:00)
+      2017-11-06 06:24:39.431 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 11æ6æ¥ 14:24 (00:00)
+      2017-11-06 14:08:16.251 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 11 queries, scan started 11æ6æ¥ 22:08 (00:01)
+      2017-11-07 01:29:04.572 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 11æ7æ¥ 09:29 (00:00)
+      2017-11-08 08:26:06.949 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 11æ8æ¥ 16:26 (00:00)
+      2017-11-08 14:31:29.733 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 11 queries, scan started 11æ8æ¥ 22:31 (00:00)
+      2017-11-10 06:59:29.290 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 11 queries, scan started 11æ10æ¥ 14:59 (00:00)
+      2017-11-10 07:19:51.362 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 11 queries, scan started 11æ10æ¥ 15:19 (00:00)
+      2017-12-01 03:09:14.275 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 12æ1æ¥ 11:09 (00:00)
+      2017-12-04 02:36:22.674 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 12æ4æ¥ 10:36 (00:00)
+      2017-12-04 14:15:12.198 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 11 queries, scan started 12æ4æ¥ 22:15 (00:00)
+      2017-12-21 09:42:57.180 : internal.db: version 801, 116 rows, 0 inserts, 0 updates, 0 deletes, 14 queries, scan started 12æ21æ¥ 17:42 (00:00)
+      external.db: version 801, 19066 rows, 1026 inserts, 488 updates, 4 deletes, 12663 queries, scan started 12æ21æ¥ 17:41 (01:27)
+      2016-10-27 05:20:11.723 : Database upgraded from version 63 to 801 in 0 seconds
+      2016-10-27 05:20:27.366 : external.db: version 801, 91 rows, 91 inserts, 30 updates, 0 deletes, 90 queries, scan started 10æ27æ¥ 13:20 (00:00)
+      2016-11-21 10:31:56.661 : external.db: version 801, 115 rows, 27 inserts, 28 updates, 2 deletes, 42 queries, scan started 11æ21æ¥ 18:31 (00:01)
+      2016-11-21 10:32:09.898 : external.db: version 801, 120 rows, 32 inserts, 46 updates, 2 deletes, 52 queries, scan started 11æ21æ¥ 18:32 (00:00)
+      2016-11-24 03:45:06.570 : external.db: version 801, 193 rows, 78 inserts, 59 updates, 2 deletes, 91 queries, scan started 11æ24æ¥ 11:45 (00:02)
+      2016-11-24 03:45:30.516 : external.db: version 801, 202 rows, 89 inserts, 82 updates, 4 deletes, 110 queries, scan started 11æ24æ¥ 11:45 (00:00)
+      2016-11-25 09:02:40.831 : external.db: version 801, 363 rows, 173 inserts, 119 updates, 2 deletes, 202 queries, scan started 11æ25æ¥ 17:02 (00:02)
+      2016-11-25 09:02:57.838 : external.db: version 801, 376 rows, 189 inserts, 173 updates, 4 deletes, 230 queries, scan started 11æ25æ¥ 17:02 (00:00)
+      2016-11-28 02:42:42.833 : external.db: version 801, 406 rows, 99 inserts, 188 updates, 2 deletes, 123 queries, scan started 11æ28æ¥ 10:42 (00:02)
+      2016-11-28 02:43:06.405 : external.db: version 801, 431 rows, 129 inserts, 256 updates, 4 deletes, 164 queries, scan started 11æ28æ¥ 10:43 (00:01)
+      2016-11-29 01:57:51.027 : external.db: version 801, 467 rows, 92 inserts, 138 updates, 2 deletes, 109 queries, scan started 11æ29æ¥ 09:57 (00:02)
+      2016-11-29 01:58:09.038 : external.db: version 801, 479 rows, 104 inserts, 164 updates, 2 deletes, 130 queries, scan started 11æ29æ¥ 09:58 (00:00)
+      2016-11-30 02:21:32.938 : external.db: version 801, 534 rows, 136 inserts, 150 updates, 2 deletes, 162 queries, scan started 11æ30æ¥ 10:21 (00:02)
+      2016-11-30 02:21:57.414 : external.db: version 801, 554 rows, 159 inserts, 218 updates, 4 deletes, 198 queries, scan started 11æ30æ¥ 10:21 (00:00)
+      2016-12-01 09:01:29.089 : external.db: version 801, 554 rows, 159 inserts, 218 updates, 4 deletes, 209 queries, scan started 12æ1æ¥ 17:01 (00:00)
+      2016-12-02 02:49:17.911 : external.db: version 801, 1751 rows, 1238 inserts, 690 updates, 2 deletes, 1267 queries, scan started 12æ2æ¥ 10:49 (00:10)
+      2016-12-02 02:49:30.987 : external.db: version 801, 1770 rows, 1257 inserts, 732 updates, 2 deletes, 1293 queries, scan started 12æ2æ¥ 10:49 (00:02)
+      2016-12-04 01:56:07.823 : external.db: version 801, 2482 rows, 794 inserts, 266 updates, 2 deletes, 827 queries, scan started 12æ4æ¥ 09:56 (00:07)
+      2016-12-04 01:56:27.271 : external.db: version 801, 2504 rows, 820 inserts, 328 updates, 4 deletes, 864 queries, scan started 12æ4æ¥ 09:56 (00:03)
+      2016-12-06 02:30:50.119 : external.db: version 801, 2621 rows, 152 inserts, 288 updates, 2 deletes, 175 queries, scan started 12æ6æ¥ 10:30 (00:04)
+      2016-12-06 02:31:08.297 : external.db: version 801, 2624 rows, 162 inserts, 338 updates, 4 deletes, 197 queries, scan started 12æ6æ¥ 10:31 (00:02)
+      2016-12-09 08:01:33.549 : external.db: version 801, 2843 rows, 311 inserts, 620 updates, 2 deletes, 360 queries, scan started 12æ9æ¥ 16:01 (00:07)
+      2016-12-09 08:01:46.820 : external.db: version 801, 2851 rows, 331 inserts, 684 updates, 4 deletes, 393 queries, scan started 12æ9æ¥ 16:01 (00:03)
+      2016-12-12 02:21:32.454 : external.db: version 801, 2889 rows, 80 inserts, 422 updates, 2 deletes, 109 queries, scan started 12æ12æ¥ 10:21 (00:04)
+      2016-12-12 02:21:56.045 : external.db: version 801, 2917 rows, 122 inserts, 504 updates, 4 deletes, 165 queries, scan started 12æ12æ¥ 10:21 (00:04)
+      2016-12-13 07:57:02.741 : external.db: version 801, 3008 rows, 140 inserts, 698 updates, 2 deletes, 180 queries, scan started 12æ13æ¥ 15:56 (00:06)
+      2016-12-16 02:30:17.760 : external.db: version 801, 3013 rows, 8 inserts, 60 updates, 2 deletes, 24 queries, scan started 12æ16æ¥ 10:30 (00:03)
+      2016-12-16 02:30:47.364 : external.db: version 801, 3052 rows, 45 inserts, 70 updates, 2 deletes, 60 queries, scan started 12æ16æ¥ 10:30 (00:04)
+      2016-12-21 09:36:20.266 : external.db: version 801, 2907 rows, 163 inserts, 602 updates, 8 deletes, 199 queries, scan started 12æ21æ¥ 17:36 (00:05)
+      2016-12-21 09:36:40.200 : external.db: version 801, 2920 rows, 182 inserts, 662 updates, 10 deletes, 232 queries, scan started 12æ21æ¥ 17:36 (00:03)
+      2016-12-22 03:04:22.698 : external.db: version 801, 2993 rows, 165 inserts, 593 updates, 2 deletes, 212 queries, scan started 12æ22æ¥ 11:04 (00:05)
+      2016-12-22 03:04:47.016 : external.db: version 801, 3011 rows, 18 inserts, 82 updates, 0 deletes, 29 queries, scan started 12æ22æ¥ 11:04 (00:04)
+      2016-12-22 03:57:14.058 : external.db: version 801, 3011 rows, 18 inserts, 82 updates, 0 deletes, 37 queries, scan started 12æ22æ¥ 11:57 (00:00)
+      2016-12-22 03:57:38.694 : external.db: version 801, 3011 rows, 18 inserts, 82 updates, 0 deletes, 55 queries, scan started 12æ22æ¥ 11:57 (00:00)
+      2016-12-22 03:58:33.373 : external.db: version 801, 3011 rows, 18 inserts, 82 updates, 0 deletes, 73 queries, scan started 12æ22æ¥ 11:58 (00:00)
+      2016-12-22 03:58:40.446 : external.db: version 801, 3011 rows, 18 inserts, 82 updates, 0 deletes, 82 queries, scan started 12æ22æ¥ 11:58 (00:00)
+      2016-12-22 03:58:44.870 : external.db: version 801, 3011 rows, 18 inserts, 82 updates, 0 deletes, 91 queries, scan started 12æ22æ¥ 11:58 (00:00)
+      2016-12-22 03:58:53.900 : external.db: version 801, 3011 rows, 18 inserts, 82 updates, 0 deletes, 110 queries, scan started 12æ22æ¥ 11:58 (00:00)
+      2016-12-23 01:53:32.126 : external.db: version 801, 3104 rows, 126 inserts, 328 updates, 2 deletes, 160 queries, scan started 12æ23æ¥ 09:53 (00:04)
+      2016-12-23 01:53:54.406 : external.db: version 801, 3115 rows, 137 inserts, 386 updates, 2 deletes, 180 queries, scan started 12æ23æ¥ 09:53 (00:03)
+      2016-12-23 02:28:03.702 : external.db: version 801, 3118 rows, 142 inserts, 388 updates, 2 deletes, 200 queries, scan started 12æ23æ¥ 10:28 (00:00)
+      2016-12-23 02:28:11.207 : external.db: version 801, 3118 rows, 142 inserts, 388 updates, 2 deletes, 213 queries, scan started 12æ23æ¥ 10:28 (00:00)
+      2016-12-23 11:59:50.600 : external.db: version 801, 3147 rows, 89 inserts, 450 updates, 2 deletes, 115 queries, scan started 12æ23æ¥ 19:59 (00:05)
+      2016-12-23 12:00:11.797 : external.db: version 801, 3126 rows, 106 inserts, 548 updates, 4 deletes, 148 queries, scan started 12æ23æ¥ 20:00 (00:03)
+      2016-12-26 08:46:08.712 : external.db: version 801, 3150 rows, 152 inserts, 570 updates, 4 deletes, 275 queries, scan started 12æ26æ¥ 16:46 (00:00)
+      2016-12-26 08:46:24.202 : external.db: version 801, 3150 rows, 152 inserts, 570 updates, 4 deletes, 295 queries, scan started 12æ26æ¥ 16:46 (00:00)
+      2016-12-26 08:47:33.572 : external.db: version 801, 3134 rows, 152 inserts, 570 updates, 52 deletes, 530 queries, scan started 12æ26æ¥ 16:47 (00:00)
+      2016-12-26 09:51:50.209 : external.db: version 801, 3136 rows, 156 inserts, 572 updates, 52 deletes, 563 queries, scan started 12æ26æ¥ 17:51 (00:00)
+      2016-12-26 09:52:03.964 : external.db: version 801, 3136 rows, 156 inserts, 572 updates, 52 deletes, 580 queries, scan started 12æ26æ¥ 17:52 (00:00)
+      2016-12-26 09:52:14.106 : external.db: version 801, 3136 rows, 156 inserts, 572 updates, 52 deletes, 596 queries, scan started 12æ26æ¥ 17:52 (00:00)
+      2016-12-26 09:52:32.237 : external.db: version 801, 3136 rows, 156 inserts, 572 updates, 52 deletes, 612 queries, scan started 12æ26æ¥ 17:52 (00:00)
+      2016-12-26 09:54:00.948 : external.db: version 801, 3136 rows, 156 inserts, 572 updates, 52 deletes, 628 queries, scan started 12æ26æ¥ 17:54 (00:00)
+      2016-12-26 09:55:30.115 : external.db: version 801, 3138 rows, 160 inserts, 574 updates, 52 deletes, 654 queries, scan started 12æ26æ¥ 17:55 (00:00)
+      2016-12-26 09:56:24.519 : external.db: version 801, 3140 rows, 164 inserts, 576 updates, 52 deletes, 691 queries, scan started 12æ26æ¥ 17:56 (00:00)
+      2016-12-26 09:57:09.931 : external.db: version 801, 3142 rows, 168 inserts, 578 updates, 52 deletes, 729 queries, scan started 12æ26æ¥ 17:57 (00:00)
+      2016-12-26 09:57:47.764 : external.db: version 801, 3142 rows, 168 inserts, 578 updates, 52 deletes, 747 queries, scan started 12æ26æ¥ 17:57 (00:00)
+      2016-12-26 09:57:50.473 : external.db: version 801, 3142 rows, 168 inserts, 578 updates, 52 deletes, 760 queries, scan started 12æ26æ¥ 17:57 (00:00)
+      2016-12-26 09:58:02.778 : external.db: version 801, 3142 rows, 168 inserts, 578 updates, 52 deletes, 774 queries, scan started 12æ26æ¥ 17:58 (00:00)
+      2016-12-26 09:58:56.679 : external.db: version 801, 3142 rows, 168 inserts, 578 updates, 52 deletes, 796 queries, scan started 12æ26æ¥ 17:58 (00:00)
+      2016-12-26 10:00:41.078 : external.db: version 801, 3144 rows, 172 inserts, 580 updates, 52 deletes, 822 queries, scan started 12æ26æ¥ 18:00 (00:00)
+      2016-12-26 10:01:48.579 : external.db: version 801, 3144 rows, 172 inserts, 580 updates, 52 deletes, 838 queries, scan started 12æ26æ¥ 18:01 (00:00)
+      2016-12-26 10:01:52.622 : external.db: version 801, 3144 rows, 172 inserts, 580 updates, 52 deletes, 855 queries, scan started 12æ26æ¥ 18:01 (00:00)
+      2016-12-26 10:04:22.070 : external.db: version 801, 3144 rows, 172 inserts, 580 updates, 52 deletes, 870 queries, scan started 12æ26æ¥ 18:04 (00:00)
+      2016-12-26 10:04:25.898 : external.db: version 801, 3144 rows, 172 inserts, 580 updates, 52 deletes, 887 queries, scan started 12æ26æ¥ 18:04 (00:00)
+      2016-12-26 10:04:33.875 : external.db: version 801, 3144 rows, 172 inserts, 580 updates, 52 deletes, 902 queries, scan started 12æ26æ¥ 18:04 (00:00)
+      2016-12-26 10:04:38.152 : external.db: version 801, 3144 rows, 172 inserts, 580 updates, 52 deletes, 918 queries, scan started 12æ26æ¥ 18:04 (00:00)
+      2016-12-27 01:05:50.434 : external.db: version 801, 3457 rows, 447 inserts, 669 updates, 4 deletes, 503 queries, scan started 12æ27æ¥ 09:05 (00:09)
+      2016-12-27 01:06:03.954 : external.db: version 801, 3463 rows, 6 inserts, 44 updates, 0 deletes, 17 queries, scan started 12æ27æ¥ 09:05 (00:04)
+      2016-12-28 01:06:08.556 : external.db: version 801, 3684 rows, 432 inserts, 308 updates, 6 deletes, 465 queries, scan started 12æ28æ¥ 09:06 (00:05)
+      2016-12-28 01:06:36.104 : external.db: version 801, 3706 rows, 456 inserts, 394 updates, 8 deletes, 504 queries, scan started 12æ28æ¥ 09:06 (00:04)
+      2016-12-28 10:03:01.833 : external.db: version 801, 3707 rows, 457 inserts, 394 updates, 8 deletes, 513 queries, scan started 12æ28æ¥ 18:03 (00:00)
+      2016-12-29 01:35:50.929 : external.db: version 801, 3831 rows, 475 inserts, 389 updates, 8 deletes, 509 queries, scan started 12æ29æ¥ 09:35 (00:05)
+      2016-12-29 01:36:20.171 : external.db: version 801, 3866 rows, 512 inserts, 459 updates, 10 deletes, 561 queries, scan started 12æ29æ¥ 09:36 (00:04)
+      2016-12-29 07:49:48.651 : external.db: version 801, 3998 rows, 167 inserts, 294 updates, 2 deletes, 192 queries, scan started 12æ29æ¥ 15:49 (00:04)
+      2016-12-29 07:50:11.091 : external.db: version 801, 4001 rows, 170 inserts, 354 updates, 2 deletes, 202 queries, scan started 12æ29æ¥ 15:50 (00:02)
+      2017-01-05 09:44:47.095 : external.db: version 801, 4250 rows, 613 inserts, 886 updates, 8 deletes, 666 queries, scan started 1æ5æ¥ 17:44 (00:15)
+      2017-01-05 09:45:01.049 : external.db: version 801, 4260 rows, 629 inserts, 940 updates, 10 deletes, 694 queries, scan started 1æ5æ¥ 17:44 (00:03)
+      2017-01-06 01:17:25.327 : external.db: version 801, 4388 rows, 331 inserts, 332 updates, 6 deletes, 369 queries, scan started 1æ6æ¥ 09:17 (00:06)
+      2017-01-06 01:17:49.870 : external.db: version 801, 4435 rows, 387 inserts, 398 updates, 8 deletes, 443 queries, scan started 1æ6æ¥ 09:17 (00:03)
+      2017-01-07 02:19:41.682 : external.db: version 801, 4575 rows, 288 inserts, 558 updates, 4 deletes, 338 queries, scan started 1æ7æ¥ 10:19 (00:05)
+      2017-01-07 02:20:02.776 : external.db: version 801, 4581 rows, 319 inserts, 666 updates, 6 deletes, 386 queries, scan started 1æ7æ¥ 10:20 (00:01)
+      2017-01-07 08:00:16.091 : external.db: version 801, 4581 rows, 1 inserts, 46 updates, 2 deletes, 13 queries, scan started 1æ7æ¥ 16:00 (00:04)
+      2017-01-07 08:00:45.438 : external.db: version 801, 4590 rows, 11 inserts, 148 updates, 4 deletes, 36 queries, scan started 1æ7æ¥ 16:00 (00:04)
+      2017-01-08 08:06:30.428 : external.db: version 801, 4791 rows, 209 inserts, 246 updates, 2 deletes, 235 queries, scan started 1æ8æ¥ 16:06 (00:05)
+      2017-01-08 08:06:59.676 : external.db: version 801, 4799 rows, 218 inserts, 316 updates, 4 deletes, 257 queries, scan started 1æ8æ¥ 16:06 (00:05)
+      2017-01-09 06:39:35.090 : external.db: version 801, 4852 rows, 83 inserts, 392 updates, 2 deletes, 127 queries, scan started 1æ9æ¥ 14:39 (00:09)
+      2017-01-09 06:39:49.173 : external.db: version 801, 4860 rows, 9 inserts, 52 updates, 2 deletes, 23 queries, scan started 1æ9æ¥ 14:39 (00:05)
+      2017-01-10 01:05:02.287 : external.db: version 801, 5011 rows, 232 inserts, 477 updates, 2 deletes, 275 queries, scan started 1æ10æ¥ 09:04 (00:04)
+      2017-01-10 01:05:20.390 : external.db: version 801, 5013 rows, 234 inserts, 509 updates, 2 deletes, 286 queries, scan started 1æ10æ¥ 09:05 (00:05)
+      2017-01-10 02:04:06.508 : external.db: version 801, 4990 rows, 18 inserts, 98 updates, 2 deletes, 34 queries, scan started 1æ10æ¥ 10:04 (00:04)
+      2017-01-10 02:04:29.420 : external.db: version 801, 4994 rows, 23 inserts, 158 updates, 4 deletes, 52 queries, scan started 1æ10æ¥ 10:04 (00:05)
+      2017-01-10 13:04:59.878 : external.db: version 801, 5989 rows, 1021 inserts, 1050 updates, 2 deletes, 1056 queries, scan started 1æ10æ¥ 21:04 (00:08)
+      2017-01-10 13:05:26.390 : external.db: version 801, 5993 rows, 1026 inserts, 1124 updates, 4 deletes, 1076 queries, scan started 1æ10æ¥ 21:05 (00:05)
+      2017-01-12 01:08:21.819 : external.db: version 801, 5725 rows, 133 inserts, 724 updates, 10 deletes, 173 queries, scan started 1æ12æ¥ 09:08 (00:06)
+      2017-01-12 01:08:50.080 : external.db: version 801, 5756 rows, 187 inserts, 802 updates, 12 deletes, 244 queries, scan started 1æ12æ¥ 09:08 (00:05)
+      2017-01-13 03:11:20.597 : external.db: version 801, 6012 rows, 333 inserts, 386 updates, 2 deletes, 431 queries, scan started 1æ13æ¥ 11:11 (00:12)
+      2017-01-13 03:11:35.604 : external.db: version 801, 6027 rows, 349 inserts, 428 updates, 4 deletes, 459 queries, scan started 1æ13æ¥ 11:11 (00:05)
+      2017-01-16 05:43:07.349 : external.db: version 801, 6273 rows, 350 inserts, 254 updates, 4 deletes, 383 queries, scan started 1æ16æ¥ 13:42 (00:17)
+      2017-01-16 05:43:12.989 : external.db: version 801, 6282 rows, 363 inserts, 306 updates, 6 deletes, 410 queries, scan started 1æ16æ¥ 13:43 (00:05)
+      2017-01-17 06:19:37.097 : external.db: version 801, 6285 rows, 366 inserts, 308 updates, 120 deletes, 614 queries, scan started 1æ17æ¥ 14:19 (00:00)
+      2017-01-18 13:06:20.249 : external.db: version 801, 7486 rows, 1720 inserts, 980 updates, 18 deletes, 1817 queries, scan started 1æ18æ¥ 21:05 (00:22)
+      2017-01-18 13:06:26.598 : external.db: version 801, 7491 rows, 1725 inserts, 1018 updates, 18 deletes, 1834 queries, scan started 1æ18æ¥ 21:06 (00:06)
+      2017-01-19 01:17:30.697 : external.db: version 801, 7491 rows, 20 inserts, 144 updates, 2 deletes, 93 queries, scan started 1æ19æ¥ 09:17 (00:09)
+      2017-01-19 01:17:43.465 : external.db: version 801, 7491 rows, 21 inserts, 194 updates, 4 deletes, 202 queries, scan started 1æ19æ¥ 09:17 (00:05)
+      2017-01-20 07:27:20.573 : external.db: version 801, 5669 rows, 948 inserts, 2209 updates, 100 deletes, 1031 queries, scan started 1æ20æ¥ 15:26 (00:21)
+      2017-01-20 07:27:26.135 : external.db: version 801, 5670 rows, 950 inserts, 2341 updates, 102 deletes, 1152 queries, scan started 1æ20æ¥ 15:27 (00:03)
+      2017-01-20 07:41:12.177 : external.db: version 801, 5670 rows, 950 inserts, 2341 updates, 102 deletes, 1163 queries, scan started 1æ20æ¥ 15:41 (00:00)
+      2017-01-20 09:35:19.198 : external.db: version 801, 5676 rows, 961 inserts, 2347 updates, 117 deletes, 1348 queries, scan started 1æ20æ¥ 17:35 (00:00)
+      2017-01-22 01:04:04.863 : external.db: version 801, 6830 rows, 1218 inserts, 1220 updates, 2 deletes, 1294 queries, scan started 1æ22æ¥ 09:03 (00:25)
+      2017-01-22 01:04:08.963 : external.db: version 801, 6833 rows, 1224 inserts, 1282 updates, 4 deletes, 1314 queries, scan started 1æ22æ¥ 09:04 (00:03)
+      2017-01-22 07:16:06.788 : external.db: version 801, 6835 rows, 1226 inserts, 1282 updates, 4 deletes, 1326 queries, scan started 1æ22æ¥ 15:16 (00:00)
+      2017-01-22 07:16:06.843 : external.db: version 801, 6835 rows, 1226 inserts, 1282 updates, 4 deletes, 1330 queries, scan started 1æ22æ¥ 15:16 (00:00)
+      2017-01-22 12:47:01.869 : external.db: version 801, 7434 rows, 667 inserts, 1243 updates, 2 deletes, 725 queries, scan started 1æ22æ¥ 20:46 (00:14)
+      2017-01-22 12:47:22.191 : external.db: version 801, 7436 rows, 670 inserts, 1297 updates, 4 deletes, 741 queries, scan started 1æ22æ¥ 20:47 (00:05)
+      2017-01-22 13:00:26.316 : external.db: version 801, 7436 rows, 670 inserts, 1297 updates, 4 deletes, 749 queries, scan started 1æ22æ¥ 21:00 (00:00)
+      2017-01-22 13:00:26.363 : external.db: version 801, 7436 rows, 670 inserts, 1297 updates, 4 deletes, 753 queries, scan started 1æ22æ¥ 21:00 (00:00)
+      2017-01-23 01:34:11.943 : external.db: version 801, 7484 rows, 54 inserts, 250 updates, 2 deletes, 76 queries, scan started 1æ23æ¥ 09:34 (00:10)
+      2017-01-23 01:34:28.561 : external.db: version 801, 7488 rows, 58 inserts, 294 updates, 2 deletes, 93 queries, scan started 1æ23æ¥ 09:34 (00:05)
+      2017-02-04 02:35:51.992 : external.db: version 801, 7619 rows, 187 inserts, 300 updates, 2 deletes, 235 queries, scan started 2æ4æ¥ 10:35 (00:13)
+      2017-02-04 02:36:07.713 : external.db: version 801, 7625 rows, 199 inserts, 396 updates, 4 deletes, 266 queries, scan started 2æ4æ¥ 10:35 (00:08)
+      2017-02-06 11:04:53.552 : external.db: version 801, 7497 rows, 57 inserts, 134 updates, 4 deletes, 84 queries, scan started 2æ6æ¥ 19:04 (00:10)
+      2017-02-06 11:05:21.039 : external.db: version 801, 7500 rows, 75 inserts, 206 updates, 6 deletes, 118 queries, scan started 2æ6æ¥ 19:05 (00:05)
+      2017-02-07 08:32:59.087 : external.db: version 801, 7500 rows, 75 inserts, 206 updates, 6 deletes, 131 queries, scan started 2æ7æ¥ 16:32 (00:00)
+      2017-02-07 08:32:59.147 : external.db: version 801, 7500 rows, 75 inserts, 206 updates, 6 deletes, 135 queries, scan started 2æ7æ¥ 16:32 (00:00)
+      2017-02-07 08:33:17.996 : external.db: version 801, 7500 rows, 75 inserts, 206 updates, 6 deletes, 149 queries, scan started 2æ7æ¥ 16:33 (00:00)
+      2017-02-07 08:33:18.055 : external.db: version 801, 7500 rows, 75 inserts, 206 updates, 6 deletes, 153 queries, scan started 2æ7æ¥ 16:33 (00:00)
+      2017-02-07 08:34:27.637 : external.db: version 801, 7500 rows, 75 inserts, 206 updates, 6 deletes, 166 queries, scan started 2æ7æ¥ 16:34 (00:00)
+      2017-02-07 08:34:27.700 : external.db: version 801, 7500 rows, 75 inserts, 206 updates, 6 deletes, 170 queries, scan started 2æ7æ¥ 16:34 (00:00)
+      2017-02-07 08:39:40.965 : external.db: version 801, 7500 rows, 75 inserts, 206 updates, 6 deletes, 183 queries, scan started 2æ7æ¥ 16:39 (00:00)
+      2017-02-07 08:39:41.030 : external.db: version 801, 7500 rows, 75 inserts, 206 updates, 6 deletes, 187 queries, scan started 2æ7æ¥ 16:39 (00:00)
+      2017-02-07 10:27:55.369 : external.db: version 801, 7500 rows, 75 inserts, 206 updates, 6 deletes, 200 queries, scan started 2æ7æ¥ 18:27 (00:00)
+      2017-02-07 10:27:55.432 : external.db: version 801, 7500 rows, 75 inserts, 206 updates, 6 deletes, 204 queries, scan started 2æ7æ¥ 18:27 (00:00)
+      2017-02-07 10:28:33.790 : external.db: version 801, 7500 rows, 75 inserts, 206 updates, 6 deletes, 217 queries, scan started 2æ7æ¥ 18:28 (00:00)
+      2017-02-07 10:28:33.861 : external.db: version 801, 7500 rows, 75 inserts, 206 updates, 6 deletes, 221 queries, scan started 2æ7æ¥ 18:28 (00:00)
+      2017-02-07 10:36:29.001 : external.db: version 801, 7500 rows, 75 inserts, 206 updates, 6 deletes, 234 queries, scan started 2æ7æ¥ 18:36 (00:00)
+      2017-02-07 10:36:29.064 : external.db: version 801, 7500 rows, 75 inserts, 206 updates, 6 deletes, 238 queries, scan started 2æ7æ¥ 18:36 (00:00)
+      2017-02-07 10:38:34.448 : external.db: version 801, 7500 rows, 75 inserts, 206 updates, 6 deletes, 246 queries, scan started 2æ7æ¥ 18:38 (00:00)
+      2017-02-07 10:38:34.514 : external.db: version 801, 7500 rows, 75 inserts, 206 updates, 6 deletes, 250 queries, scan started 2æ7æ¥ 18:38 (00:00)
+      2017-02-07 10:44:42.359 : external.db: version 801, 7500 rows, 75 inserts, 206 updates, 6 deletes, 263 queries, scan started 2æ7æ¥ 18:44 (00:00)
+      2017-02-07 10:44:42.428 : external.db: version 801, 7500 rows, 75 inserts, 206 updates, 6 deletes, 267 queries, scan started 2æ7æ¥ 18:44 (00:00)
+      2017-02-07 10:46:23.463 : external.db: version 801, 7500 rows, 75 inserts, 206 updates, 6 deletes, 280 queries, scan started 2æ7æ¥ 18:46 (00:00)
+      2017-02-07 10:46:23.522 : external.db: version 801, 7500 rows, 75 inserts, 206 updates, 6 deletes, 284 queries, scan started 2æ7æ¥ 18:46 (00:00)
+      2017-02-07 10:51:32.543 : external.db: version 801, 7500 rows, 75 inserts, 206 updates, 6 deletes, 297 queries, scan started 2æ7æ¥ 18:51 (00:00)
+      2017-02-07 10:51:32.605 : external.db: version 801, 7500 rows, 75 inserts, 206 updates, 6 deletes, 301 queries, scan started 2æ7æ¥ 18:51 (00:00)
+      2017-02-07 10:53:16.951 : external.db: version 801, 7500 rows, 75 inserts, 206 updates, 6 deletes, 314 queries, scan started 2æ7æ¥ 18:53 (00:00)
+      2017-02-07 10:53:16.999 : external.db: version 801, 7500 rows, 75 inserts, 206 updates, 6 deletes, 318 queries, scan started 2æ7æ¥ 18:53 (00:00)
+      2017-02-07 10:53:37.414 : external.db: version 801, 7500 rows, 75 inserts, 206 updates, 6 deletes, 331 queries, scan started 2æ7æ¥ 18:53 (00:00)
+      2017-02-07 10:53:37.478 : external.db: version 801, 7500 rows, 75 inserts, 206 updates, 6 deletes, 335 queries, scan started 2æ7æ¥ 18:53 (00:00)
+      2017-02-07 10:55:19.940 : external.db: version 801, 7500 rows, 75 inserts, 206 updates, 6 deletes, 348 queries, scan started 2æ7æ¥ 18:55 (00:00)
+      2017-02-07 10:55:20.008 : external.db: version 801, 7500 rows, 75 inserts, 206 updates, 6 deletes, 352 queries, scan started 2æ7æ¥ 18:55 (00:00)
+      2017-02-07 11:10:22.506 : external.db: version 801, 7500 rows, 75 inserts, 206 updates, 6 deletes, 365 queries, scan started 2æ7æ¥ 19:10 (00:00)
+      2017-02-07 11:10:22.570 : external.db: version 801, 7500 rows, 75 inserts, 206 updates, 6 deletes, 369 queries, scan started 2æ7æ¥ 19:10 (00:00)
+      2017-02-07 11:16:17.374 : external.db: version 801, 7500 rows, 75 inserts, 206 updates, 6 deletes, 382 queries, scan started 2æ7æ¥ 19:16 (00:00)
+      2017-02-07 11:16:17.432 : external.db: version 801, 7500 rows, 75 inserts, 206 updates, 6 deletes, 386 queries, scan started 2æ7æ¥ 19:16 (00:00)
+      2017-02-08 01:56:22.639 : external.db: version 801, 7500 rows, 75 inserts, 206 updates, 6 deletes, 405 queries, scan started 2æ8æ¥ 09:56 (00:00)
+      2017-02-08 01:56:22.691 : external.db: version 801, 7500 rows, 75 inserts, 206 updates, 6 deletes, 409 queries, scan started 2æ8æ¥ 09:56 (00:00)
+      2017-02-08 02:05:49.565 : external.db: version 801, 7500 rows, 75 inserts, 206 updates, 6 deletes, 422 queries, scan started 2æ8æ¥ 10:05 (00:00)
+      2017-02-08 02:05:49.628 : external.db: version 801, 7500 rows, 75 inserts, 206 updates, 6 deletes, 426 queries, scan started 2æ8æ¥ 10:05 (00:00)
+      2017-02-12 06:59:55.202 : external.db: version 801, 7500 rows, 75 inserts, 206 updates, 6 deletes, 454 queries, scan started 2æ12æ¥ 14:59 (00:00)
+      2017-02-12 06:59:55.266 : external.db: version 801, 7500 rows, 75 inserts, 206 updates, 6 deletes, 458 queries, scan started 2æ12æ¥ 14:59 (00:00)
+      2017-02-12 07:00:57.318 : external.db: version 801, 7500 rows, 75 inserts, 206 updates, 6 deletes, 471 queries, scan started 2æ12æ¥ 15:00 (00:00)
+      2017-02-12 07:00:57.373 : external.db: version 801, 7500 rows, 75 inserts, 206 updates, 6 deletes, 475 queries, scan started 2æ12æ¥ 15:00 (00:00)
+      2017-02-12 07:07:28.237 : external.db: version 801, 7500 rows, 75 inserts, 206 updates, 6 deletes, 488 queries, scan started 2æ12æ¥ 15:07 (00:00)
+      2017-02-12 07:07:28.296 : external.db: version 801, 7500 rows, 75 inserts, 206 updates, 6 deletes, 492 queries, scan started 2æ12æ¥ 15:07 (00:00)
+      2017-02-12 07:09:18.619 : external.db: version 801, 7500 rows, 75 inserts, 206 updates, 6 deletes, 505 queries, scan started 2æ12æ¥ 15:09 (00:00)
+      2017-02-12 07:09:18.681 : external.db: version 801, 7500 rows, 75 inserts, 206 updates, 6 deletes, 509 queries, scan started 2æ12æ¥ 15:09 (00:00)
+      2017-02-12 07:09:54.831 : external.db: version 801, 7500 rows, 75 inserts, 206 updates, 6 deletes, 522 queries, scan started 2æ12æ¥ 15:09 (00:00)
+      2017-02-12 07:09:54.894 : external.db: version 801, 7500 rows, 75 inserts, 206 updates, 6 deletes, 526 queries, scan started 2æ12æ¥ 15:09 (00:00)
+      2017-02-12 07:10:54.660 : external.db: version 801, 7500 rows, 75 inserts, 206 updates, 6 deletes, 539 queries, scan started 2æ12æ¥ 15:10 (00:00)
+      2017-02-12 07:10:54.724 : external.db: version 801, 7500 rows, 75 inserts, 206 updates, 6 deletes, 543 queries, scan started 2æ12æ¥ 15:10 (00:00)
+      2017-02-16 09:13:24.145 : external.db: version 801, 7501 rows, 76 inserts, 206 updates, 6 deletes, 582 queries, scan started 2æ16æ¥ 17:13 (00:00)
+      2017-02-16 09:13:24.211 : external.db: version 801, 7501 rows, 76 inserts, 206 updates, 6 deletes, 586 queries, scan started 2æ16æ¥ 17:13 (00:00)
+      2017-02-16 09:33:42.295 : external.db: version 801, 7501 rows, 76 inserts, 206 updates, 6 deletes, 594 queries, scan started 2æ16æ¥ 17:33 (00:00)
+      2017-02-16 09:33:42.374 : external.db: version 801, 7501 rows, 76 inserts, 206 updates, 6 deletes, 598 queries, scan started 2æ16æ¥ 17:33 (00:00)
+      2017-02-16 09:35:34.501 : external.db: version 801, 7501 rows, 76 inserts, 206 updates, 6 deletes, 612 queries, scan started 2æ16æ¥ 17:35 (00:00)
+      2017-02-16 09:35:34.576 : external.db: version 801, 7501 rows, 76 inserts, 206 updates, 6 deletes, 616 queries, scan started 2æ16æ¥ 17:35 (00:00)
+      2017-02-16 09:38:01.832 : external.db: version 801, 7501 rows, 76 inserts, 206 updates, 6 deletes, 630 queries, scan started 2æ16æ¥ 17:38 (00:00)
+      2017-02-16 09:38:01.902 : external.db: version 801, 7501 rows, 76 inserts, 206 updates, 6 deletes, 634 queries, scan started 2æ16æ¥ 17:38 (00:00)
+      2017-02-16 09:42:44.095 : external.db: version 801, 7501 rows, 76 inserts, 206 updates, 6 deletes, 648 queries, scan started 2æ16æ¥ 17:42 (00:00)
+      2017-02-16 09:42:44.172 : external.db: version 801, 7501 rows, 76 inserts, 206 updates, 6 deletes, 652 queries, scan started 2æ16æ¥ 17:42 (00:00)
+      2017-02-16 11:37:26.200 : external.db: version 801, 7502 rows, 77 inserts, 206 updates, 6 deletes, 678 queries, scan started 2æ16æ¥ 19:37 (00:00)
+      2017-02-16 11:37:26.270 : external.db: version 801, 7502 rows, 77 inserts, 206 updates, 6 deletes, 682 queries, scan started 2æ16æ¥ 19:37 (00:00)
+      2017-02-16 11:37:54.146 : external.db: version 801, 7502 rows, 77 inserts, 206 updates, 6 deletes, 696 queries, scan started 2æ16æ¥ 19:37 (00:00)
+      2017-02-16 11:37:54.219 : external.db: version 801, 7502 rows, 77 inserts, 206 updates, 6 deletes, 700 queries, scan started 2æ16æ¥ 19:37 (00:00)
+      2017-02-16 11:38:12.042 : external.db: version 801, 7502 rows, 77 inserts, 206 updates, 6 deletes, 714 queries, scan started 2æ16æ¥ 19:38 (00:00)
+      2017-02-16 11:38:12.152 : external.db: version 801, 7502 rows, 77 inserts, 206 updates, 6 deletes, 718 queries, scan started 2æ16æ¥ 19:38 (00:00)
+      2017-02-16 11:39:33.999 : external.db: version 801, 7502 rows, 77 inserts, 206 updates, 6 deletes, 733 queries, scan started 2æ16æ¥ 19:39 (00:00)
+      2017-02-16 11:39:34.110 : external.db: version 801, 7502 rows, 77 inserts, 206 updates, 6 deletes, 737 queries, scan started 2æ16æ¥ 19:39 (00:00)
+      2017-02-16 11:43:17.786 : external.db: version 801, 7502 rows, 77 inserts, 206 updates, 6 deletes, 751 queries, scan started 2æ16æ¥ 19:43 (00:00)
+      2017-02-16 11:43:17.861 : external.db: version 801, 7502 rows, 77 inserts, 206 updates, 6 deletes, 755 queries, scan started 2æ16æ¥ 19:43 (00:00)
+      2017-02-16 11:44:47.860 : external.db: version 801, 7502 rows, 77 inserts, 206 updates, 6 deletes, 769 queries, scan started 2æ16æ¥ 19:44 (00:00)
+      2017-02-16 11:44:47.979 : external.db: version 801, 7502 rows, 77 inserts, 206 updates, 6 deletes, 773 queries, scan started 2æ16æ¥ 19:44 (00:00)
+      2017-02-16 11:46:00.202 : external.db: version 801, 7502 rows, 77 inserts, 206 updates, 6 deletes, 787 queries, scan started 2æ16æ¥ 19:46 (00:00)
+      2017-02-16 11:46:00.274 : external.db: version 801, 7502 rows, 77 inserts, 206 updates, 6 deletes, 791 queries, scan started 2æ16æ¥ 19:46 (00:00)
+      2017-02-16 12:09:22.323 : external.db: version 801, 7502 rows, 77 inserts, 206 updates, 6 deletes, 805 queries, scan started 2æ16æ¥ 20:09 (00:00)
+      2017-02-16 12:09:22.403 : external.db: version 801, 7502 rows, 77 inserts, 206 updates, 6 deletes, 809 queries, scan started 2æ16æ¥ 20:09 (00:00)
+      2017-02-16 12:11:17.787 : external.db: version 801, 7502 rows, 77 inserts, 206 updates, 6 deletes, 824 queries, scan started 2æ16æ¥ 20:11 (00:00)
+      2017-02-16 12:11:17.853 : external.db: version 801, 7502 rows, 77 inserts, 206 updates, 6 deletes, 828 queries, scan started 2æ16æ¥ 20:11 (00:00)
+      2017-02-16 12:12:29.774 : external.db: version 801, 7503 rows, 78 inserts, 206 updates, 6 deletes, 853 queries, scan started 2æ16æ¥ 20:12 (00:00)
+      2017-02-16 12:12:29.841 : external.db: version 801, 7503 rows, 78 inserts, 206 updates, 6 deletes, 857 queries, scan started 2æ16æ¥ 20:12 (00:00)
+      2017-02-16 12:13:55.079 : external.db: version 801, 7503 rows, 78 inserts, 206 updates, 6 deletes, 871 queries, scan started 2æ16æ¥ 20:13 (00:00)
+      2017-02-16 12:13:55.152 : external.db: version 801, 7503 rows, 78 inserts, 206 updates, 6 deletes, 875 queries, scan started 2æ16æ¥ 20:13 (00:00)
+      2017-02-16 12:14:37.698 : external.db: version 801, 7503 rows, 78 inserts, 206 updates, 6 deletes, 889 queries, scan started 2æ16æ¥ 20:14 (00:00)
+      2017-02-16 12:14:37.774 : external.db: version 801, 7503 rows, 78 inserts, 206 updates, 6 deletes, 893 queries, scan started 2æ16æ¥ 20:14 (00:00)
+      2017-02-16 12:16:55.048 : external.db: version 801, 7503 rows, 78 inserts, 206 updates, 6 deletes, 907 queries, scan started 2æ16æ¥ 20:16 (00:00)
+      2017-02-16 12:16:55.141 : external.db: version 801, 7503 rows, 78 inserts, 206 updates, 6 deletes, 911 queries, scan started 2æ16æ¥ 20:16 (00:00)
+      2017-02-16 12:24:35.718 : external.db: version 801, 7503 rows, 78 inserts, 206 updates, 6 deletes, 925 queries, scan started 2æ16æ¥ 20:24 (00:00)
+      2017-02-16 12:24:35.783 : external.db: version 801, 7503 rows, 78 inserts, 206 updates, 6 deletes, 929 queries, scan started 2æ16æ¥ 20:24 (00:00)
+      2017-02-16 12:25:21.814 : external.db: version 801, 7503 rows, 78 inserts, 206 updates, 6 deletes, 943 queries, scan started 2æ16æ¥ 20:25 (00:00)
+      2017-02-16 12:25:21.891 : external.db: version 801, 7503 rows, 78 inserts, 206 updates, 6 deletes, 947 queries, scan started 2æ16æ¥ 20:25 (00:00)
+      2017-02-16 12:26:23.159 : external.db: version 801, 7503 rows, 78 inserts, 206 updates, 6 deletes, 961 queries, scan started 2æ16æ¥ 20:26 (00:00)
+      2017-02-16 12:26:23.229 : external.db: version 801, 7503 rows, 78 inserts, 206 updates, 6 deletes, 965 queries, scan started 2æ16æ¥ 20:26 (00:00)
+      2017-02-16 12:30:45.585 : external.db: version 801, 7503 rows, 78 inserts, 206 updates, 6 deletes, 979 queries, scan started 2æ16æ¥ 20:30 (00:00)
+      2017-02-16 12:30:45.655 : external.db: version 801, 7503 rows, 78 inserts, 206 updates, 6 deletes, 983 queries, scan started 2æ16æ¥ 20:30 (00:00)
+      2017-02-16 12:32:33.597 : external.db: version 801, 7503 rows, 78 inserts, 206 updates, 6 deletes, 997 queries, scan started 2æ16æ¥ 20:32 (00:00)
+      2017-02-16 12:32:33.670 : external.db: version 801, 7503 rows, 78 inserts, 206 updates, 6 deletes, 1001 queries, scan started 2æ16æ¥ 20:32 (00:00)
+      2017-02-16 12:34:12.405 : external.db: version 801, 7503 rows, 78 inserts, 206 updates, 6 deletes, 1015 queries, scan started 2æ16æ¥ 20:34 (00:00)
+      2017-02-16 12:34:12.483 : external.db: version 801, 7503 rows, 78 inserts, 206 updates, 6 deletes, 1019 queries, scan started 2æ16æ¥ 20:34 (00:00)
+      2017-02-17 08:29:55.617 : external.db: version 801, 7503 rows, 81 inserts, 206 updates, 12 deletes, 1042 queries, scan started 2æ17æ¥ 16:29 (00:00)
+      2017-02-17 08:29:55.684 : external.db: version 801, 7503 rows, 81 inserts, 206 updates, 12 deletes, 1046 queries, scan started 2æ17æ¥ 16:29 (00:00)
+      2017-02-17 08:31:20.297 : external.db: version 801, 7503 rows, 81 inserts, 206 updates, 12 deletes, 1060 queries, scan started 2æ17æ¥ 16:31 (00:00)
+      2017-02-17 08:31:20.408 : external.db: version 801, 7503 rows, 81 inserts, 206 updates, 12 deletes, 1064 queries, scan started 2æ17æ¥ 16:31 (00:00)
+      2017-02-17 08:33:12.074 : external.db: version 801, 7503 rows, 81 inserts, 206 updates, 12 deletes, 1078 queries, scan started 2æ17æ¥ 16:33 (00:00)
+      2017-02-17 08:33:12.142 : external.db: version 801, 7503 rows, 81 inserts, 206 updates, 12 deletes, 1082 queries, scan started 2æ17æ¥ 16:33 (00:00)
+      2017-02-17 08:36:55.382 : external.db: version 801, 7503 rows, 81 inserts, 206 updates, 12 deletes, 1096 queries, scan started 2æ17æ¥ 16:36 (00:00)
+      2017-02-17 08:36:55.449 : external.db: version 801, 7503 rows, 81 inserts, 206 updates, 12 deletes, 1100 queries, scan started 2æ17æ¥ 16:36 (00:00)
+      2017-02-17 08:40:35.292 : external.db: version 801, 7503 rows, 81 inserts, 206 updates, 12 deletes, 1114 queries, scan started 2æ17æ¥ 16:40 (00:00)
+      2017-02-17 08:40:35.358 : external.db: version 801, 7503 rows, 81 inserts, 206 updates, 12 deletes, 1118 queries, scan started 2æ17æ¥ 16:40 (00:00)
+      2017-02-17 08:45:03.628 : external.db: version 801, 7503 rows, 81 inserts, 206 updates, 12 deletes, 1132 queries, scan started 2æ17æ¥ 16:45 (00:00)
+      2017-02-17 08:45:03.695 : external.db: version 801, 7503 rows, 81 inserts, 206 updates, 12 deletes, 1136 queries, scan started 2æ17æ¥ 16:45 (00:00)
+      2017-02-17 08:46:31.889 : external.db: version 801, 7503 rows, 81 inserts, 206 updates, 12 deletes, 1150 queries, scan started 2æ17æ¥ 16:46 (00:00)
+      2017-02-17 08:46:31.961 : external.db: version 801, 7503 rows, 81 inserts, 206 updates, 12 deletes, 1154 queries, scan started 2æ17æ¥ 16:46 (00:00)
+      2017-02-17 08:47:20.223 : external.db: version 801, 7503 rows, 81 inserts, 206 updates, 12 deletes, 1168 queries, scan started 2æ17æ¥ 16:47 (00:00)
+      2017-02-17 08:47:20.300 : external.db: version 801, 7503 rows, 81 inserts, 206 updates, 12 deletes, 1172 queries, scan started 2æ17æ¥ 16:47 (00:00)
+      2017-02-17 08:47:53.519 : external.db: version 801, 7503 rows, 81 inserts, 206 updates, 12 deletes, 1186 queries, scan started 2æ17æ¥ 16:47 (00:00)
+      2017-02-17 08:47:53.599 : external.db: version 801, 7503 rows, 81 inserts, 206 updates, 12 deletes, 1190 queries, scan started 2æ17æ¥ 16:47 (00:00)
+      2017-02-17 08:53:48.778 : external.db: version 801, 7503 rows, 81 inserts, 206 updates, 12 deletes, 1204 queries, scan started 2æ17æ¥ 16:53 (00:00)
+      2017-02-17 08:53:48.839 : external.db: version 801, 7503 rows, 81 inserts, 206 updates, 12 deletes, 1208 queries, scan started 2æ17æ¥ 16:53 (00:00)
+      2017-02-17 09:04:17.442 : external.db: version 801, 7503 rows, 81 inserts, 206 updates, 12 deletes, 1222 queries, scan started 2æ17æ¥ 17:04 (00:00)
+      2017-02-17 09:04:17.501 : external.db: version 801, 7503 rows, 81 inserts, 206 updates, 12 deletes, 1226 queries, scan started 2æ17æ¥ 17:04 (00:00)
+      2017-02-17 09:13:50.077 : external.db: version 801, 7503 rows, 81 inserts, 206 updates, 12 deletes, 1240 queries, scan started 2æ17æ¥ 17:13 (00:00)
+      2017-02-17 09:13:50.143 : external.db: version 801, 7503 rows, 81 inserts, 206 updates, 12 deletes, 1244 queries, scan started 2æ17æ¥ 17:13 (00:00)
+      2017-02-17 09:19:13.224 : external.db: version 801, 7503 rows, 81 inserts, 206 updates, 12 deletes, 1258 queries, scan started 2æ17æ¥ 17:19 (00:00)
+      2017-02-17 09:19:13.289 : external.db: version 801, 7503 rows, 81 inserts, 206 updates, 12 deletes, 1262 queries, scan started 2æ17æ¥ 17:19 (00:00)
+      2017-02-17 09:20:53.582 : external.db: version 801, 7503 rows, 81 inserts, 206 updates, 12 deletes, 1276 queries, scan started 2æ17æ¥ 17:20 (00:00)
+      2017-02-17 09:20:53.646 : external.db: version 801, 7503 rows, 81 inserts, 206 updates, 12 deletes, 1280 queries, scan started 2æ17æ¥ 17:20 (00:00)
+      2017-02-17 09:24:10.572 : external.db: version 801, 7503 rows, 81 inserts, 206 updates, 12 deletes, 1294 queries, scan started 2æ17æ¥ 17:24 (00:00)
+      2017-02-17 09:24:10.639 : external.db: version 801, 7503 rows, 81 inserts, 206 updates, 12 deletes, 1298 queries, scan started 2æ17æ¥ 17:24 (00:00)
+      2017-02-17 09:24:38.402 : external.db: version 801, 7503 rows, 81 inserts, 206 updates, 12 deletes, 1312 queries, scan started 2æ17æ¥ 17:24 (00:00)
+      2017-02-17 09:24:38.473 : external.db: version 801, 7503 rows, 81 inserts, 206 updates, 12 deletes, 1316 queries, scan started 2æ17æ¥ 17:24 (00:00)
+      2017-02-17 09:29:49.198 : external.db: version 801, 7503 rows, 81 inserts, 206 updates, 12 deletes, 1330 queries, scan started 2æ17æ¥ 17:29 (00:00)
+      2017-02-17 09:29:49.270 : external.db: version 801, 7503 rows, 81 inserts, 206 updates, 12 deletes, 1334 queries, scan started 2æ17æ¥ 17:29 (00:00)
+      2017-02-17 09:30:49.429 : external.db: version 801, 7503 rows, 81 inserts, 206 updates, 12 deletes, 1348 queries, scan started 2æ17æ¥ 17:30 (00:00)
+      2017-02-17 09:30:49.492 : external.db: version 801, 7503 rows, 81 inserts, 206 updates, 12 deletes, 1352 queries, scan started 2æ17æ¥ 17:30 (00:00)
+      2017-02-17 09:32:50.116 : external.db: version 801, 7503 rows, 81 inserts, 206 updates, 12 deletes, 1366 queries, scan started 2æ17æ¥ 17:32 (00:00)
+      2017-02-17 09:32:50.189 : external.db: version 801, 7503 rows, 81 inserts, 206 updates, 12 deletes, 1370 queries, scan started 2æ17æ¥ 17:32 (00:00)
+      2017-02-17 09:36:32.761 : external.db: version 801, 7503 rows, 81 inserts, 206 updates, 12 deletes, 1384 queries, scan started 2æ17æ¥ 17:36 (00:00)
+      2017-02-17 09:36:32.824 : external.db: version 801, 7503 rows, 81 inserts, 206 updates, 12 deletes, 1388 queries, scan started 2æ17æ¥ 17:36 (00:00)
+      2017-02-17 09:39:10.404 : external.db: version 801, 7503 rows, 81 inserts, 206 updates, 12 deletes, 1402 queries, scan started 2æ17æ¥ 17:39 (00:00)
+      2017-02-17 09:39:10.466 : external.db: version 801, 7503 rows, 81 inserts, 206 updates, 12 deletes, 1406 queries, scan started 2æ17æ¥ 17:39 (00:00)
+      2017-02-17 09:44:01.478 : external.db: version 801, 7503 rows, 81 inserts, 206 updates, 12 deletes, 1421 queries, scan started 2æ17æ¥ 17:44 (00:00)
+      2017-02-17 09:44:01.553 : external.db: version 801, 7503 rows, 81 inserts, 206 updates, 12 deletes, 1425 queries, scan started 2æ17æ¥ 17:44 (00:00)
+      2017-02-17 09:47:00.391 : external.db: version 801, 7503 rows, 81 inserts, 206 updates, 12 deletes, 1439 queries, scan started 2æ17æ¥ 17:47 (00:00)
+      2017-02-17 09:47:00.458 : external.db: version 801, 7503 rows, 81 inserts, 206 updates, 12 deletes, 1443 queries, scan started 2æ17æ¥ 17:47 (00:00)
+      2017-02-17 09:49:51.447 : external.db: version 801, 7503 rows, 81 inserts, 206 updates, 12 deletes, 1457 queries, scan started 2æ17æ¥ 17:49 (00:00)
+      2017-02-17 09:49:51.509 : external.db: version 801, 7503 rows, 81 inserts, 206 updates, 12 deletes, 1461 queries, scan started 2æ17æ¥ 17:49 (00:00)
+      2017-02-19 10:40:46.908 : external.db: version 801, 7503 rows, 81 inserts, 206 updates, 12 deletes, 1485 queries, scan started 2æ19æ¥ 18:40 (00:00)
+      2017-02-19 10:40:46.975 : external.db: version 801, 7503 rows, 81 inserts, 206 updates, 12 deletes, 1489 queries, scan started 2æ19æ¥ 18:40 (00:00)
+      2017-02-19 10:40:55.161 : external.db: version 801, 7503 rows, 81 inserts, 206 updates, 12 deletes, 1503 queries, scan started 2æ19æ¥ 18:40 (00:00)
+      2017-02-19 10:40:55.230 : external.db: version 801, 7503 rows, 81 inserts, 206 updates, 12 deletes, 1507 queries, scan started 2æ19æ¥ 18:40 (00:00)
+      2017-02-21 08:00:43.564 : external.db: version 801, 7503 rows, 81 inserts, 206 updates, 14 deletes, 1526 queries, scan started 2æ21æ¥ 16:00 (00:00)
+      2017-02-21 08:00:43.647 : external.db: version 801, 7503 rows, 81 inserts, 206 updates, 14 deletes, 1530 queries, scan started 2æ21æ¥ 16:00 (00:00)
+      2017-02-23 06:22:55.845 : external.db: version 801, 7503 rows, 81 inserts, 206 updates, 14 deletes, 1550 queries, scan started 2æ23æ¥ 14:22 (00:00)
+      2017-02-23 06:22:55.907 : external.db: version 801, 7503 rows, 81 inserts, 206 updates, 14 deletes, 1554 queries, scan started 2æ23æ¥ 14:22 (00:00)
+      2017-02-23 06:25:21.954 : external.db: version 801, 7503 rows, 81 inserts, 206 updates, 14 deletes, 1568 queries, scan started 2æ23æ¥ 14:25 (00:00)
+      2017-02-23 06:25:22.017 : external.db: version 801, 7503 rows, 81 inserts, 206 updates, 14 deletes, 1572 queries, scan started 2æ23æ¥ 14:25 (00:00)
+      2017-02-25 07:25:36.197 : external.db: version 801, 7505 rows, 85 inserts, 208 updates, 14 deletes, 1622 queries, scan started 2æ25æ¥ 15:25 (00:00)
+      2017-02-25 07:25:36.250 : external.db: version 801, 7505 rows, 85 inserts, 208 updates, 14 deletes, 1626 queries, scan started 2æ25æ¥ 15:25 (00:00)
+      2017-03-02 14:24:59.317 : external.db: version 801, 7379 rows, 1604 inserts, 2618 updates, 44 deletes, 1870 queries, scan started 3æ2æ¥ 22:24 (00:24)
+      2017-03-02 14:25:04.963 : external.db: version 801, 7382 rows, 1608 inserts, 2690 updates, 46 deletes, 1889 queries, scan started 3æ2æ¥ 22:25 (00:04)
+      2017-03-03 02:52:30.801 : external.db: version 801, 7456 rows, 81 inserts, 186 updates, 2 deletes, 103 queries, scan started 3æ3æ¥ 10:52 (00:07)
+      2017-03-03 02:52:59.928 : external.db: version 801, 7473 rows, 101 inserts, 298 updates, 4 deletes, 142 queries, scan started 3æ3æ¥ 10:52 (00:04)
+      2017-03-03 06:18:28.245 : external.db: version 801, 7479 rows, 23 inserts, 130 updates, 2 deletes, 44 queries, scan started 3æ3æ¥ 14:18 (00:07)
+      2017-03-03 06:18:50.326 : external.db: version 801, 7476 rows, 30 inserts, 210 updates, 4 deletes, 68 queries, scan started 3æ3æ¥ 14:18 (00:06)
+      2017-03-03 06:44:35.233 : external.db: version 801, 7476 rows, 30 inserts, 210 updates, 52 deletes, 146 queries, scan started 3æ3æ¥ 14:44 (00:00)
+      2017-03-03 06:44:35.286 : external.db: version 801, 7476 rows, 30 inserts, 210 updates, 52 deletes, 150 queries, scan started 3æ3æ¥ 14:44 (00:00)
+      2017-03-03 06:44:35.335 : external.db: version 801, 7476 rows, 30 inserts, 210 updates, 52 deletes, 154 queries, scan started 3æ3æ¥ 14:44 (00:00)
+      2017-03-09 05:58:31.143 : external.db: version 801, 7485 rows, 39 inserts, 216 updates, 1660 deletes, 2615 queries, scan started 3æ9æ¥ 13:58 (00:00)
+      2017-03-09 05:58:31.197 : external.db: version 801, 7485 rows, 39 inserts, 216 updates, 1660 deletes, 2619 queries, scan started 3æ9æ¥ 13:58 (00:00)
+      2017-03-09 05:58:31.245 : external.db: version 801, 7485 rows, 39 inserts, 216 updates, 1660 deletes, 2623 queries, scan started 3æ9æ¥ 13:58 (00:00)
+      2017-03-14 08:16:46.746 : external.db: version 801, 8285 rows, 1518 inserts, 1014 updates, 16 deletes, 1609 queries, scan started 3æ14æ¥ 16:16 (00:24)
+      2017-03-14 08:16:54.300 : external.db: version 801, 8279 rows, 1526 inserts, 1082 updates, 18 deletes, 1633 queries, scan started 3æ14æ¥ 16:16 (00:05)
+      2017-03-23 04:37:18.093 : external.db: version 801, 8697 rows, 1401 inserts, 1244 updates, 22 deletes, 1525 queries, scan started 3æ23æ¥ 12:36 (00:20)
+      2017-03-23 05:04:53.587 : external.db: version 801, 8935 rows, 239 inserts, 219 updates, 2 deletes, 271 queries, scan started 3æ23æ¥ 13:04 (00:10)
+      2017-04-04 05:51:30.360 : external.db: version 801, 8936 rows, 240 inserts, 221 updates, 2 deletes, 291 queries, scan started 4æ4æ¥ 13:51 (00:00)
+      2017-04-04 05:51:30.427 : external.db: version 801, 8936 rows, 240 inserts, 221 updates, 2 deletes, 300 queries, scan started 4æ4æ¥ 13:51 (00:00)
+      2017-04-04 05:51:30.481 : external.db: version 801, 8936 rows, 240 inserts, 221 updates, 2 deletes, 304 queries, scan started 4æ4æ¥ 13:51 (00:00)
+      2017-04-05 06:54:44.431 : external.db: version 801, 8894 rows, 243 inserts, 227 updates, 8 deletes, 1801 queries, scan started 4æ5æ¥ 14:54 (00:00)
+      2017-04-05 06:54:44.495 : external.db: version 801, 8894 rows, 243 inserts, 227 updates, 8 deletes, 1805 queries, scan started 4æ5æ¥ 14:54 (00:00)
+      2017-04-05 06:54:44.557 : external.db: version 801, 8894 rows, 243 inserts, 227 updates, 8 deletes, 1809 queries, scan started 4æ5æ¥ 14:54 (00:00)
+      2017-04-07 10:03:52.773 : external.db: version 801, 9257 rows, 1379 inserts, 1269 updates, 22 deletes, 1515 queries, scan started 4æ7æ¥ 18:03 (00:13)
+      2017-04-07 10:04:07.735 : external.db: version 801, 9259 rows, 1381 inserts, 1309 updates, 22 deletes, 1543 queries, scan started 4æ7æ¥ 18:03 (00:14)
+      1970-01-01 12:21:38.126 : external.db: version 801, 9309 rows, 65 inserts, 162 updates, 2 deletes, 89 queries, scan started 1æ1æ¥ 20:21 (00:12)
+      1970-01-01 12:21:54.577 : external.db: version 801, 9309 rows, 65 inserts, 176 updates, 2 deletes, 102 queries, scan started 1æ1æ¥ 20:21 (00:10)
+      2017-04-13 08:13:08.679 : external.db: version 801, 9749 rows, 1047 inserts, 1238 updates, 14 deletes, 1144 queries, scan started 4æ13æ¥ 16:12 (00:13)
+      2017-04-13 08:14:08.194 : external.db: version 801, 9762 rows, 1061 inserts, 1322 updates, 16 deletes, 1173 queries, scan started 4æ13æ¥ 16:14 (00:05)
+      2017-04-13 08:44:25.295 : external.db: version 801, 9763 rows, 1068 inserts, 1338 updates, 226 deletes, 1536 queries, scan started 4æ13æ¥ 16:44 (00:00)
+      2017-04-13 08:44:25.365 : external.db: version 801, 9763 rows, 1068 inserts, 1338 updates, 226 deletes, 1540 queries, scan started 4æ13æ¥ 16:44 (00:00)
+      2017-04-13 08:44:25.427 : external.db: version 801, 9763 rows, 1068 inserts, 1338 updates, 226 deletes, 1544 queries, scan started 4æ13æ¥ 16:44 (00:00)
+      2017-04-17 01:03:22.190 : external.db: version 801, 10432 rows, 719 inserts, 751 updates, 2 deletes, 775 queries, scan started 4æ17æ¥ 09:02 (00:26)
+      2017-04-17 01:03:29.231 : external.db: version 801, 10448 rows, 735 inserts, 791 updates, 2 deletes, 806 queries, scan started 4æ17æ¥ 09:03 (00:06)
+      2017-04-18 05:41:23.148 : external.db: version 801, 10558 rows, 955 inserts, 795 updates, 4 deletes, 1308 queries, scan started 4æ18æ¥ 13:41 (00:00)
+      2017-04-18 05:41:23.228 : external.db: version 801, 10558 rows, 955 inserts, 795 updates, 4 deletes, 1312 queries, scan started 4æ18æ¥ 13:41 (00:00)
+      2017-04-18 05:41:23.321 : external.db: version 801, 10558 rows, 955 inserts, 795 updates, 4 deletes, 1316 queries, scan started 4æ18æ¥ 13:41 (00:00)
+      2017-04-21 03:10:37.409 : external.db: version 801, 10560 rows, 957 inserts, 797 updates, 4 deletes, 2938 queries, scan started 4æ21æ¥ 11:10 (00:00)
+      2017-04-21 03:10:37.477 : external.db: version 801, 10560 rows, 957 inserts, 797 updates, 4 deletes, 2942 queries, scan started 4æ21æ¥ 11:10 (00:00)
+      2017-04-21 03:10:37.540 : external.db: version 801, 10560 rows, 957 inserts, 797 updates, 4 deletes, 2946 queries, scan started 4æ21æ¥ 11:10 (00:00)
+      2017-05-05 01:57:26.007 : external.db: version 801, 20445 rows, 10248 inserts, 815 updates, 8 deletes, 10357 queries, scan started 5æ5æ¥ 09:55 (01:49)
+      2017-05-05 01:58:08.760 : external.db: version 801, 20465 rows, 10279 inserts, 901 updates, 10 deletes, 10427 queries, scan started 5æ5æ¥ 09:57 (00:42)
+      2017-05-07 01:17:06.511 : external.db: version 801, 20787 rows, 884 inserts, 1113 updates, 12 deletes, 983 queries, scan started 5æ7æ¥ 09:16 (00:30)
+      2017-05-07 01:17:19.128 : external.db: version 801, 20788 rows, 918 inserts, 1202 updates, 14 deletes, 1050 queries, scan started 5æ7æ¥ 09:17 (00:10)
+      2017-05-07 10:44:17.160 : external.db: version 801, 20857 rows, 165 inserts, 286 updates, 2 deletes, 218 queries, scan started 5æ7æ¥ 18:43 (00:24)
+      2017-05-07 10:44:31.877 : external.db: version 801, 20870 rows, 181 inserts, 356 updates, 4 deletes, 261 queries, scan started 5æ7æ¥ 18:44 (00:10)
+      2017-05-08 01:29:31.084 : external.db: version 801, 21100 rows, 272 inserts, 299 updates, 2 deletes, 323 queries, scan started 5æ8æ¥ 09:29 (00:27)
+      2017-05-08 01:29:46.772 : external.db: version 801, 21142 rows, 322 inserts, 610 updates, 4 deletes, 404 queries, scan started 5æ8æ¥ 09:29 (00:08)
+      2017-05-08 01:33:06.915 : external.db: version 801, 21142 rows, 322 inserts, 610 updates, 4 deletes, 431 queries, scan started 5æ8æ¥ 09:33 (00:00)
+      2017-05-08 01:33:07.030 : external.db: version 801, 21142 rows, 322 inserts, 610 updates, 4 deletes, 435 queries, scan started 5æ8æ¥ 09:33 (00:00)
+      2017-05-08 01:33:07.140 : external.db: version 801, 21142 rows, 322 inserts, 610 updates, 4 deletes, 439 queries, scan started 5æ8æ¥ 09:33 (00:00)
+      2017-05-15 11:27:26.818 : external.db: version 801, 21606 rows, 897 inserts, 1013 updates, 12 deletes, 966 queries, scan started 5æ15æ¥ 19:26 (00:32)
+      2017-05-15 11:27:48.676 : external.db: version 801, 21609 rows, 918 inserts, 1159 updates, 14 deletes, 1019 queries, scan started 5æ15æ¥ 19:27 (00:21)
+      2017-05-22 13:13:40.744 : external.db: version 801, 21855 rows, 1077 inserts, 892 updates, 18 deletes, 1164 queries, scan started 5æ22æ¥ 21:13 (00:24)
+      2017-05-22 13:14:10.301 : external.db: version 801, 21862 rows, 1087 inserts, 942 updates, 20 deletes, 1202 queries, scan started 5æ22æ¥ 21:13 (00:29)
+      2017-05-22 13:19:14.596 : external.db: version 801, 21862 rows, 1087 inserts, 942 updates, 20 deletes, 1211 queries, scan started 5æ22æ¥ 21:19 (00:00)
+      2017-05-22 13:19:14.674 : external.db: version 801, 21862 rows, 1087 inserts, 942 updates, 20 deletes, 1215 queries, scan started 5æ22æ¥ 21:19 (00:00)
+      2017-05-22 13:19:14.782 : external.db: version 801, 21862 rows, 1087 inserts, 942 updates, 20 deletes, 1219 queries, scan started 5æ22æ¥ 21:19 (00:00)
+      2017-05-24 08:18:28.880 : external.db: version 801, 21867 rows, 1096 inserts, 946 updates, 20 deletes, 1299 queries, scan started 5æ24æ¥ 16:18 (00:00)
+      2017-05-24 08:18:28.961 : external.db: version 801, 21867 rows, 1096 inserts, 946 updates, 20 deletes, 1303 queries, scan started 5æ24æ¥ 16:18 (00:00)
+      2017-05-24 08:18:29.070 : external.db: version 801, 21867 rows, 1096 inserts, 946 updates, 20 deletes, 1307 queries, scan started 5æ24æ¥ 16:18 (00:00)
+      2017-05-25 09:32:12.326 : external.db: version 801, 21868 rows, 1099 inserts, 950 updates, 20 deletes, 1601 queries, scan started 5æ25æ¥ 17:32 (00:00)
+      2017-05-25 09:32:12.401 : external.db: version 801, 21868 rows, 1099 inserts, 950 updates, 20 deletes, 1605 queries, scan started 5æ25æ¥ 17:32 (00:00)
+      2017-05-25 09:32:12.511 : external.db: version 801, 21868 rows, 1099 inserts, 950 updates, 20 deletes, 1609 queries, scan started 5æ25æ¥ 17:32 (00:00)
+      2017-05-30 08:23:38.344 : external.db: version 801, 21863 rows, 1100 inserts, 950 updates, 38 deletes, 1789 queries, scan started 5æ30æ¥ 16:23 (00:00)
+      2017-05-30 08:23:38.424 : external.db: version 801, 21863 rows, 1100 inserts, 950 updates, 38 deletes, 1793 queries, scan started 5æ30æ¥ 16:23 (00:00)
+      2017-05-30 08:23:38.533 : external.db: version 801, 21863 rows, 1100 inserts, 950 updates, 38 deletes, 1797 queries, scan started 5æ30æ¥ 16:23 (00:00)
+      2017-06-02 00:59:52.847 : external.db: version 801, 9390 rows, 1069 inserts, 1492 updates, 290 deletes, 1159 queries, scan started 6æ2æ¥ 08:59 (00:37)
+      2017-06-02 00:59:57.768 : external.db: version 801, 9393 rows, 1072 inserts, 1534 updates, 290 deletes, 1184 queries, scan started 6æ2æ¥ 08:59 (00:04)
+      2017-06-04 05:16:00.425 : external.db: version 801, 9529 rows, 221 inserts, 314 updates, 2 deletes, 706 queries, scan started 6æ4æ¥ 13:15 (00:14)
+      2017-06-04 05:16:11.583 : external.db: version 801, 9496 rows, 236 inserts, 366 updates, 4 deletes, 1365 queries, scan started 6æ4æ¥ 13:16 (00:06)
+      2017-06-05 01:46:33.889 : external.db: version 801, 9577 rows, 185 inserts, 258 updates, 4 deletes, 225 queries, scan started 6æ5æ¥ 09:46 (00:21)
+      2017-06-05 01:46:39.891 : external.db: version 801, 9560 rows, 188 inserts, 296 updates, 6 deletes, 243 queries, scan started 6æ5æ¥ 09:46 (00:05)
+      2017-06-06 08:17:47.458 : external.db: version 801, 9587 rows, 142 inserts, 180 updates, 4 deletes, 172 queries, scan started 6æ6æ¥ 16:17 (00:14)
+      2017-06-06 08:18:04.580 : external.db: version 801, 9559 rows, 34 inserts, 72 updates, 2 deletes, 55 queries, scan started 6æ6æ¥ 16:17 (00:11)
+      2017-06-07 11:50:40.332 : external.db: version 801, 9624 rows, 99 inserts, 222 updates, 2 deletes, 134 queries, scan started 6æ7æ¥ 19:50 (00:15)
+      2017-06-07 11:50:50.103 : external.db: version 801, 9620 rows, 117 inserts, 286 updates, 4 deletes, 169 queries, scan started 6æ7æ¥ 19:50 (00:06)
+      2017-06-08 00:41:08.285 : external.db: version 801, 9568 rows, 27 inserts, 120 updates, 2 deletes, 53 queries, scan started 6æ8æ¥ 08:40 (00:13)
+      2017-06-08 00:41:19.409 : external.db: version 801, 9583 rows, 50 inserts, 172 updates, 4 deletes, 92 queries, scan started 6æ8æ¥ 08:41 (00:07)
+      2017-06-11 00:51:18.478 : external.db: version 801, 9510 rows, 82 inserts, 182 updates, 4 deletes, 113 queries, scan started 6æ11æ¥ 08:50 (00:20)
+      2017-06-11 00:51:26.548 : external.db: version 801, 9521 rows, 93 inserts, 252 updates, 4 deletes, 140 queries, scan started 6æ11æ¥ 08:51 (00:07)
+      2017-06-11 09:25:02.644 : external.db: version 801, 9442 rows, 114 inserts, 176 updates, 4 deletes, 142 queries, scan started 6æ11æ¥ 17:24 (00:13)
+      2017-06-11 09:25:13.116 : external.db: version 801, 9456 rows, 132 inserts, 224 updates, 6 deletes, 174 queries, scan started 6æ11æ¥ 17:25 (00:08)
+      2017-06-15 08:49:33.222 : external.db: version 801, 9684 rows, 415 inserts, 294 updates, 4 deletes, 453 queries, scan started 6æ15æ¥ 16:49 (00:18)
+      2017-06-15 08:49:39.478 : external.db: version 801, 9689 rows, 420 inserts, 334 updates, 4 deletes, 472 queries, scan started 6æ15æ¥ 16:49 (00:06)
+      2017-06-18 01:07:16.091 : external.db: version 801, 10075 rows, 644 inserts, 852 updates, 6 deletes, 717 queries, scan started 6æ18æ¥ 09:06 (00:20)
+      2017-06-18 01:07:36.389 : external.db: version 801, 10101 rows, 675 inserts, 954 updates, 8 deletes, 771 queries, scan started 6æ18æ¥ 09:07 (00:10)
+      2017-06-18 02:23:15.865 : external.db: version 801, 10203 rows, 250 inserts, 539 updates, 10 deletes, 294 queries, scan started 6æ18æ¥ 10:22 (00:17)
+      2017-06-18 02:23:24.932 : external.db: version 801, 10225 rows, 279 inserts, 653 updates, 12 deletes, 428 queries, scan started 6æ18æ¥ 10:23 (00:05)
+      2017-06-19 01:45:49.439 : external.db: version 801, 10351 rows, 330 inserts, 292 updates, 6 deletes, 369 queries, scan started 6æ19æ¥ 09:45 (00:23)
+      2017-06-19 01:46:01.248 : external.db: version 801, 10347 rows, 332 inserts, 328 updates, 8 deletes, 387 queries, scan started 6æ19æ¥ 09:45 (00:09)
+      2017-06-20 10:56:22.636 : external.db: version 801, 10479 rows, 234 inserts, 500 updates, 4 deletes, 277 queries, scan started 6æ20æ¥ 18:56 (00:17)
+      2017-06-20 10:56:31.899 : external.db: version 801, 10486 rows, 249 inserts, 558 updates, 6 deletes, 309 queries, scan started 6æ20æ¥ 18:56 (00:06)
+      2017-06-22 01:22:49.638 : external.db: version 801, 10648 rows, 268 inserts, 484 updates, 4 deletes, 314 queries, scan started 6æ22æ¥ 09:22 (00:16)
+      2017-06-22 01:22:58.027 : external.db: version 801, 10643 rows, 274 inserts, 536 updates, 6 deletes, 338 queries, scan started 6æ22æ¥ 09:22 (00:08)
+      2017-06-22 07:59:17.602 : external.db: version 801, 10392 rows, 45 inserts, 138 updates, 6 deletes, 73 queries, scan started 6æ22æ¥ 15:59 (00:10)
+      2017-06-22 07:59:53.313 : external.db: version 801, 10543 rows, 151 inserts, 294 updates, 0 deletes, 183 queries, scan started 6æ22æ¥ 15:59 (00:11)
+      2017-06-22 08:00:13.677 : external.db: version 801, 10547 rows, 155 inserts, 364 updates, 0 deletes, 202 queries, scan started 6æ22æ¥ 16:00 (00:07)
+      2017-06-22 09:44:33.054 : external.db: version 801, 10569 rows, 27 inserts, 150 updates, 2 deletes, 49 queries, scan started 6æ22æ¥ 17:44 (00:13)
+      2017-06-22 09:44:43.980 : external.db: version 801, 10570 rows, 28 inserts, 180 updates, 2 deletes, 65 queries, scan started 6æ22æ¥ 17:44 (00:07)
+      2017-06-25 07:09:41.715 : external.db: version 801, 10666 rows, 256 inserts, 314 updates, 4 deletes, 305 queries, scan started 6æ25æ¥ 15:09 (00:11)
+      2017-06-25 07:10:02.371 : external.db: version 801, 10641 rows, 259 inserts, 360 updates, 6 deletes, 324 queries, scan started 6æ25æ¥ 15:09 (00:11)
+      2017-06-26 02:48:52.717 : external.db: version 801, 10745 rows, 603 inserts, 1021 updates, 10 deletes, 659 queries, scan started 6æ26æ¥ 10:48 (00:22)
+      2017-06-26 02:48:59.075 : external.db: version 801, 10744 rows, 611 inserts, 1079 updates, 12 deletes, 684 queries, scan started 6æ26æ¥ 10:48 (00:06)
+      2017-06-28 02:39:21.828 : external.db: version 801, 10925 rows, 435 inserts, 916 updates, 6 deletes, 498 queries, scan started 6æ28æ¥ 10:38 (00:23)
+      2017-06-28 02:39:25.969 : external.db: version 801, 10941 rows, 458 inserts, 988 updates, 8 deletes, 539 queries, scan started 6æ28æ¥ 10:39 (00:04)
+      2017-06-29 02:02:20.794 : external.db: version 801, 10979 rows, 103 inserts, 196 updates, 2 deletes, 139 queries, scan started 6æ29æ¥ 10:02 (00:20)
+      2017-06-29 02:02:30.237 : external.db: version 801, 10994 rows, 135 inserts, 286 updates, 4 deletes, 188 queries, scan started 6æ29æ¥ 10:02 (00:08)
+      2017-06-30 11:08:29.162 : external.db: version 801, 10980 rows, 186 inserts, 590 updates, 4 deletes, 235 queries, scan started 6æ30æ¥ 19:08 (00:17)
+      2017-06-30 11:08:37.576 : external.db: version 801, 10981 rows, 212 inserts, 688 updates, 6 deletes, 283 queries, scan started 6æ30æ¥ 19:08 (00:08)
+      2017-06-30 13:15:42.613 : external.db: version 801, 10977 rows, 94 inserts, 312 updates, 2 deletes, 137 queries, scan started 6æ30æ¥ 21:15 (00:15)
+      2017-06-30 13:15:54.806 : external.db: version 801, 10980 rows, 97 inserts, 368 updates, 2 deletes, 157 queries, scan started 6æ30æ¥ 21:15 (00:08)
+      2017-07-02 03:19:23.975 : external.db: version 801, 11166 rows, 234 inserts, 358 updates, 2 deletes, 274 queries, scan started 7æ2æ¥ 11:19 (00:17)
+      2017-07-02 03:19:31.279 : external.db: version 801, 11182 rows, 253 inserts, 416 updates, 4 deletes, 313 queries, scan started 7æ2æ¥ 11:19 (00:07)
+      2017-07-03 11:08:27.622 : external.db: version 801, 11722 rows, 736 inserts, 368 updates, 6 deletes, 793 queries, scan started 7æ3æ¥ 19:08 (00:26)
+      2017-07-03 11:08:40.040 : external.db: version 801, 11721 rows, 741 inserts, 492 updates, 8 deletes, 819 queries, scan started 7æ3æ¥ 19:08 (00:12)
+      2017-07-04 09:14:10.334 : external.db: version 801, 11731 rows, 10 inserts, 86 updates, 0 deletes, 32 queries, scan started 7æ4æ¥ 17:13 (00:15)
+      2017-07-04 09:14:18.581 : external.db: version 801, 11728 rows, 18 inserts, 116 updates, 2 deletes, 58 queries, scan started 7æ4æ¥ 17:14 (00:08)
+      2017-07-06 07:42:00.529 : external.db: version 801, 11708 rows, 300 inserts, 198 updates, 8 deletes, 336 queries, scan started 7æ6æ¥ 15:41 (00:11)
+      2017-07-10 02:51:39.205 : external.db: version 801, 11998 rows, 689 inserts, 286 updates, 8 deletes, 738 queries, scan started 7æ10æ¥ 10:50 (00:44)
+      2017-07-12 08:14:54.266 : external.db: version 801, 11979 rows, 78 inserts, 204 updates, 2 deletes, 111 queries, scan started 7æ12æ¥ 16:13 (00:57)
+      2017-07-13 02:22:08.346 : external.db: version 801, 11960 rows, 39 inserts, 140 updates, 2 deletes, 66 queries, scan started 7æ13æ¥ 10:21 (00:30)
+      2017-07-16 07:03:06.891 : external.db: version 801, 12763 rows, 831 inserts, 264 updates, 2 deletes, 3332 queries, scan started 7æ16æ¥ 15:02 (00:27)
+      2017-07-16 08:28:13.016 : external.db: version 801, 12723 rows, 55 inserts, 650 updates, 2 deletes, 87 queries, scan started 7æ16æ¥ 16:27 (00:15)
+      2017-07-16 09:18:47.375 : external.db: version 801, 12723 rows, 55 inserts, 650 updates, 2 deletes, 92 queries, scan started 7æ16æ¥ 17:18 (00:00)
+      2017-07-16 09:18:47.467 : external.db: version 801, 12723 rows, 55 inserts, 650 updates, 2 deletes, 96 queries, scan started 7æ16æ¥ 17:18 (00:00)
+      2017-07-16 09:18:47.569 : external.db: version 801, 12723 rows, 55 inserts, 650 updates, 2 deletes, 100 queries, scan started 7æ16æ¥ 17:18 (00:00)
+      2017-07-16 11:52:47.489 : external.db: version 801, 12783 rows, 110 inserts, 726 updates, 2 deletes, 160 queries, scan started 7æ16æ¥ 19:52 (00:15)
+      2017-08-13 01:44:42.198 : external.db: version 801, 13985 rows, 326 inserts, 210 updates, 2 deletes, 361 queries, scan started 8æ13æ¥ 09:44 (00:32)
+      2017-08-18 06:09:46.687 : external.db: version 801, 13453 rows, 830 inserts, 938 updates, 28 deletes, 903 queries, scan started 8æ18æ¥ 14:09 (00:25)
+      2017-08-20 03:13:23.586 : external.db: version 801, 13507 rows, 224 inserts, 384 updates, 4 deletes, 263 queries, scan started 8æ20æ¥ 11:13 (00:15)
+      2017-08-21 01:55:07.871 : external.db: version 801, 13781 rows, 336 inserts, 608 updates, 2 deletes, 391 queries, scan started 8æ21æ¥ 09:54 (00:17)
+      2017-08-25 12:40:27.830 : external.db: version 801, 13787 rows, 350 inserts, 632 updates, 2 deletes, 509 queries, scan started 8æ25æ¥ 20:40 (00:00)
+      2017-08-25 12:40:27.907 : external.db: version 801, 13787 rows, 350 inserts, 632 updates, 2 deletes, 513 queries, scan started 8æ25æ¥ 20:40 (00:00)
+      2017-08-25 12:40:27.989 : external.db: version 801, 13787 rows, 350 inserts, 632 updates, 2 deletes, 517 queries, scan started 8æ25æ¥ 20:40 (00:00)
+      2017-09-17 02:44:53.157 : external.db: version 801, 15330 rows, 2151 inserts, 856 updates, 14 deletes, 2254 queries, scan started 9æ17æ¥ 10:43 (01:23)
+      2017-09-17 09:12:49.624 : external.db: version 801, 15348 rows, 132 inserts, 826 updates, 4 deletes, 195 queries, scan started 9æ17æ¥ 17:12 (00:16)
+      2017-09-20 10:06:43.566 : external.db: version 801, 15367 rows, 161 inserts, 868 updates, 24 deletes, 575 queries, scan started 9æ20æ¥ 18:06 (00:00)
+      2017-09-20 10:06:43.657 : external.db: version 801, 15367 rows, 161 inserts, 868 updates, 24 deletes, 579 queries, scan started 9æ20æ¥ 18:06 (00:00)
+      2017-09-20 10:06:43.748 : external.db: version 801, 15367 rows, 161 inserts, 868 updates, 24 deletes, 583 queries, scan started 9æ20æ¥ 18:06 (00:00)
+      2017-09-21 03:27:32.151 : external.db: version 801, 17250 rows, 3254 inserts, 2892 updates, 28 deletes, 3394 queries, scan started 9æ21æ¥ 11:26 (00:39)
+      2017-09-21 08:30:46.895 : external.db: version 801, 17440 rows, 213 inserts, 371 updates, 2 deletes, 281 queries, scan started 9æ21æ¥ 16:30 (00:22)
+      2017-09-22 01:30:32.957 : external.db: version 801, 17627 rows, 239 inserts, 512 updates, 2 deletes, 311 queries, scan started 9æ22æ¥ 09:30 (00:20)
+      2017-09-22 01:30:54.609 : external.db: version 801, 17634 rows, 14 inserts, 64 updates, 2 deletes, 39 queries, scan started 9æ22æ¥ 09:30 (00:19)
+      2017-10-11 01:52:35.979 : external.db: version 801, 17589 rows, 114 inserts, 220 updates, 4 deletes, 149 queries, scan started 10æ11æ¥ 09:51 (00:45)
+      2017-10-17 10:58:20.401 : external.db: version 801, 18426 rows, 1300 inserts, 625 updates, 10 deletes, 6885 queries, scan started 10æ17æ¥ 18:57 (00:51)
+      2017-10-18 01:42:29.415 : external.db: version 801, 18431 rows, 97 inserts, 260 updates, 2 deletes, 137 queries, scan started 10æ18æ¥ 09:42 (00:23)
+      2017-10-19 01:40:39.458 : external.db: version 801, 18446 rows, 147 inserts, 360 updates, 4 deletes, 201 queries, scan started 10æ19æ¥ 09:40 (00:26)
+      2017-10-19 01:45:30.326 : external.db: version 801, 18447 rows, 148 inserts, 362 updates, 4 deletes, 223 queries, scan started 10æ19æ¥ 09:45 (00:00)
+      2017-10-19 01:45:30.492 : external.db: version 801, 18447 rows, 148 inserts, 362 updates, 4 deletes, 227 queries, scan started 10æ19æ¥ 09:45 (00:00)
+      2017-10-19 01:45:30.599 : external.db: version 801, 18447 rows, 148 inserts, 362 updates, 4 deletes, 231 queries, scan started 10æ19æ¥ 09:45 (00:00)
+      2017-10-20 01:53:32.219 : external.db: version 801, 18637 rows, 293 inserts, 1119 updates, 4 deletes, 378 queries, scan started 10æ20æ¥ 09:53 (00:28)
+      2017-10-26 12:03:12.154 : external.db: version 801, 18493 rows, 181 inserts, 318 updates, 8 deletes, 232 queries, scan started 10æ26æ¥ 20:02 (00:46)
+      2017-10-27 02:42:03.101 : external.db: version 801, 18173 rows, 91 inserts, 338 updates, 10 deletes, 139 queries, scan started 10æ27æ¥ 10:41 (00:26)
+      2017-10-27 08:35:32.732 : external.db: version 801, 18164 rows, 76 inserts, 804 updates, 4 deletes, 122 queries, scan started 10æ27æ¥ 16:35 (00:24)
+      2017-10-29 08:14:55.126 : external.db: version 801, 18544 rows, 419 inserts, 414 updates, 2 deletes, 513 queries, scan started 10æ29æ¥ 16:14 (00:34)
+      2017-10-30 07:58:15.164 : external.db: version 801, 18537 rows, 98 inserts, 190 updates, 4 deletes, 138 queries, scan started 10æ30æ¥ 15:57 (00:28)
+      2017-10-30 15:07:04.526 : external.db: version 801, 18588 rows, 64 inserts, 198 updates, 2 deletes, 101 queries, scan started 10æ30æ¥ 23:06 (00:18)
+      2017-10-31 01:20:31.178 : external.db: version 801, 18661 rows, 93 inserts, 156 updates, 2 deletes, 130 queries, scan started 10æ31æ¥ 09:20 (00:20)
+      2017-10-31 12:03:39.566 : external.db: version 801, 18705 rows, 221 inserts, 440 updates, 4 deletes, 274 queries, scan started 10æ31æ¥ 20:03 (00:24)
+      2017-11-02 09:55:18.166 : external.db: version 801, 18834 rows, 302 inserts, 576 updates, 4 deletes, 357 queries, scan started 11æ2æ¥ 17:54 (00:25)
+      2017-11-05 11:20:50.838 : external.db: version 801, 18873 rows, 115 inserts, 430 updates, 2 deletes, 486 queries, scan started 11æ5æ¥ 19:20 (00:37)
+      2017-11-06 06:24:35.540 : external.db: version 801, 18830 rows, 91 inserts, 630 updates, 4 deletes, 139 queries, scan started 11æ6æ¥ 14:24 (00:25)
+      2017-11-06 14:08:43.084 : external.db: version 801, 18969 rows, 180 inserts, 899 updates, 2 deletes, 230 queries, scan started 11æ6æ¥ 22:08 (00:26)
+      2017-11-07 01:29:04.491 : external.db: version 801, 19054 rows, 138 inserts, 694 updates, 2 deletes, 192 queries, scan started 11æ7æ¥ 09:28 (00:24)
+      2017-11-08 08:26:03.342 : external.db: version 801, 19133 rows, 123 inserts, 272 updates, 2 deletes, 169 queries, scan started 11æ8æ¥ 16:25 (00:22)
+      2017-11-08 14:32:02.607 : external.db: version 801, 19110 rows, 197 inserts, 696 updates, 6 deletes, 253 queries, scan started 11æ8æ¥ 22:31 (00:32)
+      2017-11-10 07:00:01.003 : external.db: version 801, 19166 rows, 142 inserts, 304 updates, 2 deletes, 190 queries, scan started 11æ10æ¥ 14:59 (00:31)
+      2017-11-10 07:20:14.386 : external.db: version 801, 18296 rows, 111 inserts, 256 updates, 20 deletes, 158 queries, scan started 11æ10æ¥ 15:19 (00:23)
+      2017-12-01 03:09:14.139 : external.db: version 801, 18130 rows, 99 inserts, 242 updates, 6 deletes, 135 queries, scan started 12æ1æ¥ 11:08 (00:32)
+      2017-12-04 02:36:22.577 : external.db: version 801, 18136 rows, 52 inserts, 220 updates, 2 deletes, 93 queries, scan started 12æ4æ¥ 10:36 (00:22)
+      2017-12-04 14:15:38.803 : external.db: version 801, 18151 rows, 228 inserts, 422 updates, 6 deletes, 291 queries, scan started 12æ4æ¥ 22:15 (00:26)
+      2017-12-21 09:42:57.008 : external.db: version 801, 19057 rows, 1010 inserts, 270 updates, 4 deletes, 1057 queries, scan started 12æ21æ¥ 17:41 (01:27)
+
+PROVIDER ContentProviderRecord{a499ead u0 com.qihoo360.mobilesafe/.protection_v3.AntiTheftProvider} pid=32677
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{8fc3d73 u0 com.qihoo360.mobilesafe/.provider.ActiveProvider} pid=32677
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{90e78a9 u0 com.android.settings.wifi/.search.SettingsSearchIndexablesProvider} pid=14429
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{960935c u0 com.qiku.cardmanager/android.support.v4.content.FileProvider} pid=12856
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{d55df3a u0 com.sina.weibo/.log.UserLogProvider} pid=7573
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{dbc8d1d u0 com.qiku.cardmanager/com.qiku.utils.update.updatetask.UpdateProvider} pid=12856
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{96f6963 u0 com.yulong.android.coolsafe/.dbhelp.apklock.ApkLockProvider} pid=3890
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{e99de19 u0 com.qihoo360.mobilesafe/.block.sdk.BlockCoolPadProvider} pid=32677
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{e6538bf u0 com.yulong.android.launcher3/.badge.BadgeProvider} pid=2789
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{8bea1db u0 com.android.providers.telephony/.MmsProvider2} pid=2448
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{a003751 u0 com.yulong.android.coolsafe/.dbhelp.interruptions.InterruptionProvider} pid=3890
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{116702b u0 com.tianyancha.skyeye/com.umeng.message.provider.MessageProvider} pid=18444
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{4378d42 u0 com.tencent.mm/.plugin.ext.provider.ExtControlProviderSearchContact} pid=5131
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{162ba90 u0 com.tencent.mm/.plugin.ext.provider.ExtControlProviderMsg} pid=5131
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{b400a46 u0 com.yulong.android.xtime/yulong.xtime.ui.alarmclock.AlarmProvider} pid=15535
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{c4d829a u0 com.yulong.android.launcher3/com.qiku.widget3d.provider.WidgetMsgOptionProvider} pid=2789
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{9ab4ba8 u0 com.tencent.mobileqq/com.tencent.mqq.shared_file_accessor.ContentProviderImpl} pid=8524
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{6f12e66 u0 com.qihoo.appstore/com.qihoo360.mobilesafe.pcdaemon.service.DaemonContentProvider} pid=30643
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{b3d7a54 u0 com.yulong.android.launcher3/.silentinstall.SilentInstallProvider} pid=2789
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{cd1caf2 u0 com.qihoo360.mobilesafe/.accountsync.SyncProvider} pid=32677
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{1ada43e u0 com.yulong.android.launcher3/.ConfigProvider} pid=2789
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{41dbfec u0 com.qiku.powermaster/com.fighter.proxy.ReaperProvider} pid=18796
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{1c01c1e u0 com.android.mms/android.support.v4.content.FileProvider} pid=17863
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{38daacc u0 com.android.mms/com.qiku.android.calllog.database.AggregatedCallLogProvider} pid=17863
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{217fd16 u0 com.qiku.powerengine/.savepower.bean.SavePowerProvider} pid=2203
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{1de2084 u0 com.tencent.mm/.plugin.ext.provider.ExtContentProviderBase} pid=5131
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{30ed4a2 u0 com.android.providers.contacts/.ContactsProvider2} pid=2500
+    Client:
+      Contact aggregator type: class com.android.providers.contacts.aggregation.ContactAggregator2
+      FastScrollingIndex stats:
+      request=0  miss=0 (0%)  avg time=0ms
+
+PROVIDER ContentProviderRecord{35ec0f0 u0 com.sina.weibo/.provider.WeiboLogDBProvider} pid=7573
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{da998ee u0 com.qihoo360.mobilesafe/com.qihoo.antivirus.shield.server.ShieldExportProvider} pid=32677
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{706fc1c u0 com.android.providers.downloads/.DownloadStorageProvider} pid=4873
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{350a7b8 u0 com.android.mms/com.yulong.android.contacts.ui.emergency.EmergencyProvider} pid=17863
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{3a7d7c6 u0 com.android.settings/android.support.v4.content.FileProvider} pid=2769
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{2ccb2b4 u0 com.qiku.magicball/.provider.InterfaceProvider} pid=2473
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{6deb123 u0 com.android.providers.telephony/.RcsProvider} pid=2448
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{9e7cbd9 u0 com.qihoo360.mobilesafe/.block.sdk.BlockQiKuProvider} pid=32677
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{5e13c7f u0 com.eg.android.AlipayGphone/com.alipay.mobile.authlogin.common.provider.AliAuthLoginContentProvider} pid=5404
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{2004c95 u0 com.qihoo.appstore/com.qihoo360.replugin.component.process.ProcessPitProviderPersist} pid=30643
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{457219b u0 com.tencent.mobileqq/.content.FriendListProvider} pid=8524
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{fe61d11 u0 com.android.providers.telephony/.CloudMsgProvider} pid=2448
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{d7c3c77 u0 com.qiku.powermaster/com.fighter.proxy.ReaperFileProvider} pid=18796
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{97e794d u0 com.android.providers.contacts/.VoicemailContentProvider} pid=2500
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{a6e2913 u0 com.qihoo360.mobilesafe/.provider.SafeGuardProvider} pid=32677
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{3c65d49 u0 com.qihoo360.mobilesafe/.loader.p.MainProvider} pid=32677
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{e88436f u0 com.sina.weibo/com.sina.push.datacenter.PushProvider} pid=7853
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{c14595a u0 com.android.providers.media/.MediaDocumentsProvider} pid=4873
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{2eb126 u0 com.yulong.android.coolsafe/.util.savepower.SmartNetProvider} pid=3890
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{39f9b14 u0 com.sina.weibo/.provider.SinaWeiboDBProvider} pid=7573
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{e44b9b2 u0 com.yulong.android.launcher3/com.qiku.widget3d.provider.WidgetContentProvider} pid=2789
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{c655480 u0 com.qihoo360.mobilesafe/com.qihoo360.apm.apmdatamanager.ApmDataProvider} pid=32677
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{740befe u0 com.eg.android.AlipayGphone/com.alipay.mobile.socialwidget.provider.ShareSdkProvider} pid=5404
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{90b38ac u0 com.android.systemui/.database.InterfaceProvider} pid=2025
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{e65cd0a u0 com.qihoo360.mobilesafe/.paysafe.db.PaySafeProvider} pid=32677
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{d493398 u0 com.android.providers.contacts/.debug.DumpFileProvider} pid=2500
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{e69f144 u0 com.android.providers.telephony/.SmsProvider2} pid=2448
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{9b6ddb0 u0 com.sina.weibo/.core.DataCenter.DataCenterProvider} pid=7573
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{e74b5d0 u0 com.android.gallery3d/.provider.GalleryProvider} pid=16017
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{a98e3ae u0 com.qiku.healthguard/.db.HealthProvider} pid=32745
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{5a424dc u0 com.sina.weibo/.sync.stub.SyncStubProvider} pid=7573
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{d938cba u0 com.yulong.android.coolsafe/.util.savepower.QikuPhoneStateProvider} pid=3890
+    Client:
+      nothing to dump
+[dumpsys: 0.272s elapsed]
+
+========================================================
+== dumpstate: done
+========================================================

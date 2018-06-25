@@ -1,0 +1,17 @@
+    DisplayContentsAnimator #0:
+      Window #0: WindowStateAnimator{deca9ac com.android.settings/com.android.settings.Settings}
+      Window #1: WindowStateAnimator{7ed675 com.android.settings/com.qiku.android.settings.activities.YLUsbSettings}
+      Window #2: WindowStateAnimator{ed7260a com.android.systemui.ImageWallpaper}
+      Window #3: WindowStateAnimator{4ee6e7b com.yulong.android.launcher3/com.yulong.android.launcher3.Launcher}
+      Window #4: WindowStateAnimator{2613b0a InputMethod}
+      Window #5: WindowStateAnimator{d50b498 }
+      Window #6: WindowStateAnimator{7f364f1 KeyguardScrim}
+      Window #7: WindowStateAnimator{ec998d6 StatusBar}
+      Window #8: WindowStateAnimator{3eb7757 Heads Up}
+      no ScreenRotationAnimation 
+
+
+    mAnimTransactionSequence=25358 mForceHiding=KEYGUARD_NOT_SHOWN
+    mCurrentTime=35253518 (48592 ms ago)
+    mBulkUpdateParams=0x8 ORIENTATION_CHANGE_COMPLETE
+

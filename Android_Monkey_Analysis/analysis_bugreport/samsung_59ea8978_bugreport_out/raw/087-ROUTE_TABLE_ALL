@@ -1,0 +1,34 @@
+default dev dummy0  table dummy0  proto static  scope link 
+default via 10.2.5.1 dev wlan0  metric 323 
+10.2.5.0/24 dev wlan0  proto kernel  scope link  src 10.2.5.183  metric 323 
+default via 10.2.5.1 dev wlan0  table wlan0  proto static 
+10.2.5.0/24 dev wlan0  table wlan0  proto static  scope link 
+broadcast 10.2.5.0 dev wlan0  table local  proto kernel  scope link  src 10.2.5.183 
+local 10.2.5.183 dev wlan0  table local  proto kernel  scope host  src 10.2.5.183 
+broadcast 10.2.5.255 dev wlan0  table local  proto kernel  scope link  src 10.2.5.183 
+broadcast 127.0.0.0 dev lo  table local  proto kernel  scope link  src 127.0.0.1 
+local 127.0.0.0/8 dev lo  table local  proto kernel  scope host  src 127.0.0.1 
+local 127.0.0.1 dev lo  table local  proto kernel  scope host  src 127.0.0.1 
+broadcast 127.255.255.255 dev lo  table local  proto kernel  scope link  src 127.0.0.1 
+unreachable default dev lo  table 0  proto kernel  metric 4294967295  error -101 hoplimit 255
+unreachable default dev lo  table 0  proto kernel  metric 4294967295  error -101 hoplimit 255
+unreachable default dev lo  table 0  proto kernel  metric 4294967295  error -101 hoplimit 255
+fe80::/64 dev dummy0  table dummy0  proto kernel  metric 256 
+default dev dummy0  table dummy0  proto static  metric 1024 
+unreachable default dev lo  table 0  proto kernel  metric 4294967295  error -101 hoplimit 255
+fe80::/64 dev p2p0  table 1022  proto kernel  metric 256 
+unreachable default dev lo  table 0  proto kernel  metric 4294967295  error -101 hoplimit 255
+unreachable default dev lo  table 0  proto kernel  metric 4294967295  error -101 hoplimit 255
+fe80::/64 dev wlan0  table wlan0  proto kernel  metric 256 
+fe80::/64 dev wlan0  table wlan0  proto static  metric 1024 
+unreachable default dev lo  table 0  proto kernel  metric 4294967295  error -101 hoplimit 255
+local ::1 via :: dev lo  table local  proto none  metric 0 
+local fe80::3079:3ff:fe67:70ea via :: dev lo  table local  proto none  metric 0 
+local fe80::c0bd:d1ff:fe90:de5a via :: dev lo  table local  proto none  metric 0 
+local fe80::c2bd:d1ff:fe90:de5a via :: dev lo  table local  proto none  metric 0 
+ff00::/8 dev dummy0  table local  metric 256 
+ff00::/8 dev p2p0  table local  metric 256 
+ff00::/8 dev wlan0  table local  metric 256 
+unreachable default dev lo  table 0  proto kernel  metric 4294967295  error -101 hoplimit 255
+[ip: 0.017s elapsed]
+

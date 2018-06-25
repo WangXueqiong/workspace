@@ -1,0 +1,515 @@
+SubscriptionController:
+ defaultSubId=2147483643
+ defaultDataSubId=2147483643
+ defaultVoiceSubId=2147483643
+ defaultSmsSubId=2147483643
+ defaultDataPhoneId=0
+ defaultVoicePhoneId=0
+ defaultSmsPhoneId=0
+++++++++++++++++++++++++++++++++
+ ActiveSubInfoList: is null
+++++++++++++++++++++++++++++++++
+ AllSubInfoList:
+  {id=1, iccId=898601168XXXXXXXXXXX simSlotIndex=-1 displayName=CARD 1 carrierName=ä¸­å½èé nameSource=0 iconTint=0 dataRoaming=0 iconBitmap=android.graphics.Bitmap@3a050c mcc 460 mnc 1 mStatus=1 mNwMode=-1}
+++++++++++++++++++++++++++++++++
+0: 12-24 16:11:16 pid=1301 tid=1956 [getActiveSubIdList] simInfoSet=[]
+1: 12-24 16:11:16 pid=1301 tid=1956 [getActiveSubIdList] X subIdArr.length=0
+2: 12-24 16:11:16 pid=1301 tid=15637 [getActiveSubIdList] simInfoSet=[]
+3: 12-24 16:11:16 pid=1301 tid=15637 [getActiveSubIdList] X subIdArr.length=0
+4: 12-24 16:11:35 pid=1301 tid=1313 [getActiveSubIdList] simInfoSet=[]
+5: 12-24 16:11:35 pid=1301 tid=1313 [getActiveSubIdList] X subIdArr.length=0
+6: 12-24 16:11:35 pid=1301 tid=17034 [getActiveSubIdList] simInfoSet=[]
+7: 12-24 16:11:35 pid=1301 tid=17034 [getActiveSubIdList] X subIdArr.length=0
+8: 12-24 16:11:52 pid=1301 tid=1555 [getActiveSubIdList] simInfoSet=[]
+9: 12-24 16:11:52 pid=1301 tid=1555 [getActiveSubIdList] X subIdArr.length=0
+10: 12-24 16:11:52 pid=1301 tid=15635 [getActiveSubIdList] simInfoSet=[]
+11: 12-24 16:11:52 pid=1301 tid=15635 [getActiveSubIdList] X subIdArr.length=0
+12: 12-24 16:12:10 pid=1301 tid=15635 [getActiveSubIdList] simInfoSet=[]
+13: 12-24 16:12:10 pid=1301 tid=15635 [getActiveSubIdList] X subIdArr.length=0
+14: 12-24 16:12:10 pid=1301 tid=1555 [getActiveSubIdList] simInfoSet=[]
+15: 12-24 16:12:10 pid=1301 tid=1555 [getActiveSubIdList] X subIdArr.length=0
+16: 12-24 16:12:23 pid=1301 tid=15635 [getActiveSubIdList] simInfoSet=[]
+17: 12-24 16:12:23 pid=1301 tid=15635 [getActiveSubIdList] X subIdArr.length=0
+18: 12-24 16:12:23 pid=1301 tid=1555 [getActiveSubIdList] simInfoSet=[]
+19: 12-24 16:12:23 pid=1301 tid=1555 [getActiveSubIdList] X subIdArr.length=0
+20: 12-24 16:13:09 pid=1301 tid=15635 [getActiveSubIdList] simInfoSet=[]
+21: 12-24 16:13:09 pid=1301 tid=15635 [getActiveSubIdList] X subIdArr.length=0
+22: 12-24 16:13:09 pid=1301 tid=1555 [getActiveSubIdList] simInfoSet=[]
+23: 12-24 16:13:09 pid=1301 tid=1555 [getActiveSubIdList] X subIdArr.length=0
+24: 12-24 16:13:12 pid=1301 tid=1336 [getActiveSubIdList] simInfoSet=[]
+25: 12-24 16:13:12 pid=1301 tid=1336 [getActiveSubIdList] X subIdArr.length=0
+26: 12-24 16:13:12 pid=1301 tid=1956 [getActiveSubIdList] simInfoSet=[]
+27: 12-24 16:13:12 pid=1301 tid=1956 [getActiveSubIdList] X subIdArr.length=0
+28: 12-24 16:13:12 pid=1301 tid=17034 [getActiveSubIdList] simInfoSet=[]
+29: 12-24 16:13:12 pid=1301 tid=17034 [getActiveSubIdList] X subIdArr.length=0
+30: 12-24 16:13:12 pid=1301 tid=1336 [getActiveSubIdList] simInfoSet=[]
+31: 12-24 16:13:12 pid=1301 tid=1336 [getActiveSubIdList] X subIdArr.length=0
+32: 12-24 16:13:12 pid=1301 tid=1313 [getActiveSubIdList] simInfoSet=[]
+33: 12-24 16:13:12 pid=1301 tid=1313 [getActiveSubIdList] X subIdArr.length=0
+34: 12-24 16:13:12 pid=1301 tid=15637 [getActiveSubIdList] simInfoSet=[]
+35: 12-24 16:13:12 pid=1301 tid=15637 [getActiveSubIdList] X subIdArr.length=0
+36: 12-24 16:13:12 pid=1301 tid=17034 [getActiveSubIdList] simInfoSet=[]
+37: 12-24 16:13:12 pid=1301 tid=17034 [getActiveSubIdList] X subIdArr.length=0
+38: 12-24 16:13:13 pid=1301 tid=15635 [getActiveSubIdList] simInfoSet=[]
+39: 12-24 16:13:13 pid=1301 tid=15635 [getActiveSubIdList] X subIdArr.length=0
+40: 12-24 16:13:13 pid=1301 tid=1555 [getActiveSubIdList] simInfoSet=[]
+41: 12-24 16:13:13 pid=1301 tid=1555 [getActiveSubIdList] X subIdArr.length=0
+42: 12-24 16:13:15 pid=1301 tid=1313 [getActiveSubIdList] simInfoSet=[]
+43: 12-24 16:13:15 pid=1301 tid=1313 [getActiveSubIdList] X subIdArr.length=0
+44: 12-24 16:13:15 pid=1301 tid=17034 [getActiveSubIdList] simInfoSet=[]
+45: 12-24 16:13:15 pid=1301 tid=17034 [getActiveSubIdList] X subIdArr.length=0
+46: 12-24 16:13:19 pid=1301 tid=15635 [getActiveSubIdList] simInfoSet=[]
+47: 12-24 16:13:19 pid=1301 tid=15635 [getActiveSubIdList] X subIdArr.length=0
+48: 12-24 16:13:19 pid=1301 tid=1555 [getActiveSubIdList] simInfoSet=[]
+49: 12-24 16:13:19 pid=1301 tid=1555 [getActiveSubIdList] X subIdArr.length=0
+50: 12-24 16:13:26 pid=1301 tid=1555 [getActiveSubIdList] simInfoSet=[]
+51: 12-24 16:13:26 pid=1301 tid=1555 [getActiveSubIdList] X subIdArr.length=0
+52: 12-24 16:13:26 pid=1301 tid=15637 [getActiveSubIdList] simInfoSet=[]
+53: 12-24 16:13:26 pid=1301 tid=15637 [getActiveSubIdList] X subIdArr.length=0
+54: 12-24 16:13:45 pid=1301 tid=17034 [getActiveSubIdList] simInfoSet=[]
+55: 12-24 16:13:45 pid=1301 tid=17034 [getActiveSubIdList] X subIdArr.length=0
+56: 12-24 16:13:45 pid=1301 tid=15635 [getActiveSubIdList] simInfoSet=[]
+57: 12-24 16:13:45 pid=1301 tid=15635 [getActiveSubIdList] X subIdArr.length=0
+58: 12-24 16:13:58 pid=1301 tid=15634 [getActiveSubIdList] simInfoSet=[]
+59: 12-24 16:13:58 pid=1301 tid=15634 [getActiveSubIdList] X subIdArr.length=0
+60: 12-24 16:13:58 pid=1301 tid=1336 [getActiveSubIdList] simInfoSet=[]
+61: 12-24 16:13:58 pid=1301 tid=1336 [getActiveSubIdList] X subIdArr.length=0
+62: 12-24 16:14:13 pid=1301 tid=1336 [getActiveSubIdList] simInfoSet=[]
+63: 12-24 16:14:13 pid=1301 tid=1336 [getActiveSubIdList] X subIdArr.length=0
+64: 12-24 16:14:13 pid=1301 tid=17034 [getActiveSubIdList] simInfoSet=[]
+65: 12-24 16:14:13 pid=1301 tid=17034 [getActiveSubIdList] X subIdArr.length=0
+66: 12-24 16:14:30 pid=1301 tid=1336 [getActiveSubIdList] simInfoSet=[]
+67: 12-24 16:14:30 pid=1301 tid=1336 [getActiveSubIdList] X subIdArr.length=0
+68: 12-24 16:14:30 pid=1301 tid=17034 [getActiveSubIdList] simInfoSet=[]
+69: 12-24 16:14:30 pid=1301 tid=17034 [getActiveSubIdList] X subIdArr.length=0
+70: 12-24 16:14:44 pid=1301 tid=17034 [getActiveSubIdList] simInfoSet=[]
+71: 12-24 16:14:44 pid=1301 tid=17034 [getActiveSubIdList] X subIdArr.length=0
+72: 12-24 16:14:44 pid=1301 tid=1555 [getActiveSubIdList] simInfoSet=[]
+73: 12-24 16:14:44 pid=1301 tid=1555 [getActiveSubIdList] X subIdArr.length=0
+74: 12-24 16:14:58 pid=1301 tid=1336 [getActiveSubIdList] simInfoSet=[]
+75: 12-24 16:14:58 pid=1301 tid=1336 [getActiveSubIdList] X subIdArr.length=0
+76: 12-24 16:14:58 pid=1301 tid=17034 [getActiveSubIdList] simInfoSet=[]
+77: 12-24 16:14:58 pid=1301 tid=17034 [getActiveSubIdList] X subIdArr.length=0
+78: 12-24 16:15:15 pid=1301 tid=15634 [getActiveSubIdList] simInfoSet=[]
+79: 12-24 16:15:15 pid=1301 tid=15634 [getActiveSubIdList] X subIdArr.length=0
+80: 12-24 16:15:15 pid=1301 tid=15635 [getActiveSubIdList] simInfoSet=[]
+81: 12-24 16:15:15 pid=1301 tid=15635 [getActiveSubIdList] X subIdArr.length=0
+82: 12-24 16:15:30 pid=1301 tid=17034 [getActiveSubIdList] simInfoSet=[]
+83: 12-24 16:15:30 pid=1301 tid=17034 [getActiveSubIdList] X subIdArr.length=0
+84: 12-24 16:15:30 pid=1301 tid=15637 [getActiveSubIdList] simInfoSet=[]
+85: 12-24 16:15:30 pid=1301 tid=15637 [getActiveSubIdList] X subIdArr.length=0
+86: 12-24 16:15:46 pid=1301 tid=1555 [getActiveSubIdList] simInfoSet=[]
+87: 12-24 16:15:46 pid=1301 tid=1555 [getActiveSubIdList] X subIdArr.length=0
+88: 12-24 16:15:46 pid=1301 tid=17034 [getActiveSubIdList] simInfoSet=[]
+89: 12-24 16:15:46 pid=1301 tid=17034 [getActiveSubIdList] X subIdArr.length=0
+90: 12-24 16:16:01 pid=1301 tid=15634 [getActiveSubIdList] simInfoSet=[]
+91: 12-24 16:16:01 pid=1301 tid=15634 [getActiveSubIdList] X subIdArr.length=0
+92: 12-24 16:16:01 pid=1301 tid=1555 [getActiveSubIdList] simInfoSet=[]
+93: 12-24 16:16:01 pid=1301 tid=1555 [getActiveSubIdList] X subIdArr.length=0
+94: 12-24 16:16:18 pid=1301 tid=15635 [getActiveSubIdList] simInfoSet=[]
+95: 12-24 16:16:18 pid=1301 tid=15635 [getActiveSubIdList] X subIdArr.length=0
+96: 12-24 16:16:18 pid=1301 tid=15637 [getActiveSubIdList] simInfoSet=[]
+97: 12-24 16:16:18 pid=1301 tid=15637 [getActiveSubIdList] X subIdArr.length=0
+98: 12-24 16:16:31 pid=1301 tid=15637 [getActiveSubIdList] simInfoSet=[]
+99: 12-24 16:16:31 pid=1301 tid=15637 [getActiveSubIdList] X subIdArr.length=0
+100: 12-24 16:16:31 pid=1301 tid=1956 [getActiveSubIdList] simInfoSet=[]
+101: 12-24 16:16:31 pid=1301 tid=1956 [getActiveSubIdList] X subIdArr.length=0
+102: 12-24 16:16:51 pid=1301 tid=1336 [getActiveSubIdList] simInfoSet=[]
+103: 12-24 16:16:51 pid=1301 tid=1336 [getActiveSubIdList] X subIdArr.length=0
+104: 12-24 16:16:51 pid=1301 tid=1313 [getActiveSubIdList] simInfoSet=[]
+105: 12-24 16:16:51 pid=1301 tid=1313 [getActiveSubIdList] X subIdArr.length=0
+106: 12-24 16:17:03 pid=1301 tid=15635 [getActiveSubIdList] simInfoSet=[]
+107: 12-24 16:17:03 pid=1301 tid=15635 [getActiveSubIdList] X subIdArr.length=0
+108: 12-24 16:17:03 pid=1301 tid=15637 [getActiveSubIdList] simInfoSet=[]
+109: 12-24 16:17:03 pid=1301 tid=15637 [getActiveSubIdList] X subIdArr.length=0
+110: 12-24 16:17:16 pid=1301 tid=15634 [getActiveSubIdList] simInfoSet=[]
+111: 12-24 16:17:16 pid=1301 tid=15634 [getActiveSubIdList] X subIdArr.length=0
+112: 12-24 16:17:16 pid=1301 tid=1555 [getActiveSubIdList] simInfoSet=[]
+113: 12-24 16:17:16 pid=1301 tid=1555 [getActiveSubIdList] X subIdArr.length=0
+114: 12-24 16:17:34 pid=1301 tid=15637 [getActiveSubIdList] simInfoSet=[]
+115: 12-24 16:17:34 pid=1301 tid=15637 [getActiveSubIdList] X subIdArr.length=0
+116: 12-24 16:17:34 pid=1301 tid=1956 [getActiveSubIdList] simInfoSet=[]
+117: 12-24 16:17:34 pid=1301 tid=1956 [getActiveSubIdList] X subIdArr.length=0
+118: 12-24 16:17:48 pid=1301 tid=1336 [getActiveSubIdList] simInfoSet=[]
+119: 12-24 16:17:48 pid=1301 tid=1336 [getActiveSubIdList] X subIdArr.length=0
+120: 12-24 16:17:48 pid=1301 tid=1313 [getActiveSubIdList] simInfoSet=[]
+121: 12-24 16:17:48 pid=1301 tid=1313 [getActiveSubIdList] X subIdArr.length=0
+122: 12-24 16:18:04 pid=1301 tid=15637 [getActiveSubIdList] simInfoSet=[]
+123: 12-24 16:18:04 pid=1301 tid=15637 [getActiveSubIdList] X subIdArr.length=0
+124: 12-24 16:18:04 pid=1301 tid=1956 [getActiveSubIdList] simInfoSet=[]
+125: 12-24 16:18:04 pid=1301 tid=1956 [getActiveSubIdList] X subIdArr.length=0
+126: 12-24 16:18:20 pid=1301 tid=1956 [getActiveSubIdList] simInfoSet=[]
+127: 12-24 16:18:20 pid=1301 tid=1956 [getActiveSubIdList] X subIdArr.length=0
+128: 12-24 16:18:20 pid=1301 tid=1336 [getActiveSubIdList] simInfoSet=[]
+129: 12-24 16:18:20 pid=1301 tid=1336 [getActiveSubIdList] X subIdArr.length=0
+130: 12-24 16:18:26 pid=1301 tid=15635 [getActiveSubInfoList]+
+131: 12-24 16:18:26 pid=1301 tid=15635 [getActiveSubInfoList] Sub Controller not ready
+132: 12-24 16:18:55 pid=1301 tid=1336 [getActiveSubInfoList]+
+133: 12-24 16:18:55 pid=1301 tid=1336 [getActiveSubInfoList] Sub Controller not ready
+134: 12-24 16:19:22 pid=1301 tid=15634 [getActiveSubIdList] simInfoSet=[]
+135: 12-24 16:19:22 pid=1301 tid=15634 [getActiveSubIdList] X subIdArr.length=0
+136: 12-24 16:19:22 pid=1301 tid=15635 [getActiveSubIdList] simInfoSet=[]
+137: 12-24 16:19:22 pid=1301 tid=15635 [getActiveSubIdList] X subIdArr.length=0
+138: 12-24 16:19:48 pid=1301 tid=1301 [getActiveSubInfoList]+
+139: 12-24 16:19:48 pid=1301 tid=1301 [getActiveSubInfoList] Sub Controller not ready
+140: 12-24 16:23:00 pid=1301 tid=1555 [getActiveSubIdList] simInfoSet=[]
+141: 12-24 16:23:00 pid=1301 tid=1555 [getActiveSubIdList] X subIdArr.length=0
+142: 12-24 16:23:00 pid=1301 tid=1956 [getActiveSubIdList] simInfoSet=[]
+143: 12-24 16:23:00 pid=1301 tid=1956 [getActiveSubIdList] X subIdArr.length=0
+144: 12-24 16:24:32 pid=1301 tid=15635 [getActiveSubIdList] simInfoSet=[]
+145: 12-24 16:24:32 pid=1301 tid=15635 [getActiveSubIdList] X subIdArr.length=0
+146: 12-24 16:24:32 pid=1301 tid=15637 [getActiveSubIdList] simInfoSet=[]
+147: 12-24 16:24:32 pid=1301 tid=15637 [getActiveSubIdList] X subIdArr.length=0
+148: 12-24 16:26:07 pid=1301 tid=15637 [getActiveSubIdList] simInfoSet=[]
+149: 12-24 16:26:07 pid=1301 tid=15637 [getActiveSubIdList] X subIdArr.length=0
+150: 12-24 16:26:07 pid=1301 tid=17034 [getActiveSubIdList] simInfoSet=[]
+151: 12-24 16:26:07 pid=1301 tid=17034 [getActiveSubIdList] X subIdArr.length=0
+152: 12-24 16:27:48 pid=1301 tid=1956 [getActiveSubIdList] simInfoSet=[]
+153: 12-24 16:27:48 pid=1301 tid=1956 [getActiveSubIdList] X subIdArr.length=0
+154: 12-24 16:27:48 pid=1301 tid=15634 [getActiveSubIdList] simInfoSet=[]
+155: 12-24 16:27:48 pid=1301 tid=15634 [getActiveSubIdList] X subIdArr.length=0
+156: 12-24 16:28:24 pid=1301 tid=1555 [getActiveSubIdList] simInfoSet=[]
+157: 12-24 16:28:24 pid=1301 tid=1555 [getActiveSubIdList] X subIdArr.length=0
+158: 12-24 16:28:24 pid=1301 tid=1336 [getActiveSubIdList] simInfoSet=[]
+159: 12-24 16:28:24 pid=1301 tid=1336 [getActiveSubIdList] X subIdArr.length=0
+160: 12-24 16:36:10 pid=1301 tid=1555 [getActiveSubIdList] simInfoSet=[]
+161: 12-24 16:36:10 pid=1301 tid=1555 [getActiveSubIdList] X subIdArr.length=0
+162: 12-24 16:36:10 pid=1301 tid=1336 [getActiveSubIdList] simInfoSet=[]
+163: 12-24 16:36:10 pid=1301 tid=1336 [getActiveSubIdList] X subIdArr.length=0
+164: 12-24 16:36:15 pid=1301 tid=1956 [getActiveSubIdList] simInfoSet=[]
+165: 12-24 16:36:15 pid=1301 tid=1956 [getActiveSubIdList] X subIdArr.length=0
+166: 12-24 16:36:15 pid=1301 tid=15634 [getActiveSubIdList] simInfoSet=[]
+167: 12-24 16:36:15 pid=1301 tid=15634 [getActiveSubIdList] X subIdArr.length=0
+168: 12-24 16:36:21 pid=1301 tid=17034 [getActiveSubIdList] simInfoSet=[]
+169: 12-24 16:36:21 pid=1301 tid=17034 [getActiveSubIdList] X subIdArr.length=0
+170: 12-24 16:36:21 pid=1301 tid=15634 [getActiveSubIdList] simInfoSet=[]
+171: 12-24 16:36:21 pid=1301 tid=15634 [getActiveSubIdList] X subIdArr.length=0
+172: 12-24 16:37:42 pid=1301 tid=1336 [getActiveSubIdList] simInfoSet=[]
+173: 12-24 16:37:42 pid=1301 tid=1336 [getActiveSubIdList] X subIdArr.length=0
+174: 12-24 16:37:42 pid=1301 tid=15635 [getActiveSubIdList] simInfoSet=[]
+175: 12-24 16:37:42 pid=1301 tid=15635 [getActiveSubIdList] X subIdArr.length=0
+176: 12-24 16:37:43 pid=1301 tid=15634 [getActiveSubIdList] simInfoSet=[]
+177: 12-24 16:37:43 pid=1301 tid=15634 [getActiveSubIdList] X subIdArr.length=0
+178: 12-24 16:37:43 pid=1301 tid=1555 [getActiveSubIdList] simInfoSet=[]
+179: 12-24 16:37:43 pid=1301 tid=1555 [getActiveSubIdList] X subIdArr.length=0
+180: 12-24 16:47:43 pid=1301 tid=1555 [getActiveSubIdList] simInfoSet=[]
+181: 12-24 16:47:43 pid=1301 tid=1555 [getActiveSubIdList] X subIdArr.length=0
+182: 12-24 16:47:43 pid=1301 tid=15635 [getActiveSubIdList] simInfoSet=[]
+183: 12-24 16:47:43 pid=1301 tid=15635 [getActiveSubIdList] X subIdArr.length=0
+184: 12-24 17:11:23 pid=1301 tid=1956 [getActiveSubIdList] simInfoSet=[]
+185: 12-24 17:11:23 pid=1301 tid=1956 [getActiveSubIdList] X subIdArr.length=0
+186: 12-24 17:11:23 pid=1301 tid=15635 [getActiveSubIdList] simInfoSet=[]
+187: 12-24 17:11:23 pid=1301 tid=15635 [getActiveSubIdList] X subIdArr.length=0
+188: 12-24 17:11:33 pid=1301 tid=15635 [getActiveSubIdList] simInfoSet=[]
+189: 12-24 17:11:33 pid=1301 tid=15635 [getActiveSubIdList] X subIdArr.length=0
+190: 12-24 17:11:33 pid=1301 tid=15637 [getActiveSubIdList] simInfoSet=[]
+191: 12-24 17:11:33 pid=1301 tid=15637 [getActiveSubIdList] X subIdArr.length=0
+192: 12-24 17:11:49 pid=1301 tid=15635 [getActiveSubIdList] simInfoSet=[]
+193: 12-24 17:11:49 pid=1301 tid=15635 [getActiveSubIdList] X subIdArr.length=0
+194: 12-24 17:11:49 pid=1301 tid=1956 [getActiveSubIdList] simInfoSet=[]
+195: 12-24 17:11:49 pid=1301 tid=1956 [getActiveSubIdList] X subIdArr.length=0
+196: 12-24 17:11:49 pid=1301 tid=15637 [getActiveSubInfoList]+
+197: 12-24 17:11:49 pid=1301 tid=15637 [getActiveSubInfoList] Sub Controller not ready
+198: 12-24 17:11:53 pid=1301 tid=15634 [getActiveSubInfoList]+
+199: 12-24 17:11:53 pid=1301 tid=15634 [getActiveSubInfoList] Sub Controller not ready
+200: 12-24 17:12:00 pid=1301 tid=15637 [getActiveSubIdList] simInfoSet=[]
+201: 12-24 17:12:00 pid=1301 tid=15637 [getActiveSubIdList] X subIdArr.length=0
+202: 12-24 17:12:00 pid=1301 tid=15634 [getActiveSubIdList] simInfoSet=[]
+203: 12-24 17:12:00 pid=1301 tid=15634 [getActiveSubIdList] X subIdArr.length=0
+204: 12-24 17:12:50 pid=1301 tid=1555 [getActiveSubIdList] simInfoSet=[]
+205: 12-24 17:12:50 pid=1301 tid=1555 [getActiveSubIdList] X subIdArr.length=0
+206: 12-24 17:12:50 pid=1301 tid=1336 [getActiveSubIdList] simInfoSet=[]
+207: 12-24 17:12:50 pid=1301 tid=1336 [getActiveSubIdList] X subIdArr.length=0
+208: 12-24 17:12:51 pid=1301 tid=1555 [getActiveSubIdList] simInfoSet=[]
+209: 12-24 17:12:51 pid=1301 tid=1555 [getActiveSubIdList] X subIdArr.length=0
+210: 12-24 17:12:51 pid=1301 tid=1336 [getActiveSubIdList] simInfoSet=[]
+211: 12-24 17:12:51 pid=1301 tid=1336 [getActiveSubIdList] X subIdArr.length=0
+212: 12-24 17:12:51 pid=1301 tid=1313 [getActiveSubInfoList]+
+213: 12-24 17:12:51 pid=1301 tid=1313 [getActiveSubInfoList] Sub Controller not ready
+214: 12-24 17:12:54 pid=1301 tid=15635 [getActiveSubInfoList]+
+215: 12-24 17:12:54 pid=1301 tid=15635 [getActiveSubInfoList] Sub Controller not ready
+216: 12-24 17:13:04 pid=1301 tid=1336 [getActiveSubIdList] simInfoSet=[]
+217: 12-24 17:13:04 pid=1301 tid=1336 [getActiveSubIdList] X subIdArr.length=0
+218: 12-24 17:13:04 pid=1301 tid=1336 [getActiveSubIdList] simInfoSet=[]
+219: 12-24 17:13:04 pid=1301 tid=1336 [getActiveSubIdList] X subIdArr.length=0
+220: 12-24 17:13:12 pid=1301 tid=1313 [getActiveSubIdList] simInfoSet=[]
+221: 12-24 17:13:12 pid=1301 tid=1313 [getActiveSubIdList] X subIdArr.length=0
+222: 12-24 17:13:12 pid=1301 tid=15635 [getActiveSubIdList] simInfoSet=[]
+223: 12-24 17:13:12 pid=1301 tid=15635 [getActiveSubIdList] X subIdArr.length=0
+224: 12-24 17:13:24 pid=1301 tid=15634 [getActiveSubIdList] simInfoSet=[]
+225: 12-24 17:13:24 pid=1301 tid=15634 [getActiveSubIdList] X subIdArr.length=0
+226: 12-24 17:13:24 pid=1301 tid=15635 [getActiveSubIdList] simInfoSet=[]
+227: 12-24 17:13:24 pid=1301 tid=15635 [getActiveSubIdList] X subIdArr.length=0
+228: 12-24 17:16:27 pid=1301 tid=1336 [getActiveSubIdList] simInfoSet=[]
+229: 12-24 17:16:27 pid=1301 tid=1336 [getActiveSubIdList] X subIdArr.length=0
+230: 12-24 17:16:27 pid=1301 tid=15634 [getActiveSubIdList] simInfoSet=[]
+231: 12-24 17:16:27 pid=1301 tid=15634 [getActiveSubIdList] X subIdArr.length=0
+232: 12-24 17:16:28 pid=1301 tid=1336 [getActiveSubIdList] simInfoSet=[]
+233: 12-24 17:16:28 pid=1301 tid=1336 [getActiveSubIdList] X subIdArr.length=0
+234: 12-24 17:16:28 pid=1301 tid=15634 [getActiveSubIdList] simInfoSet=[]
+235: 12-24 17:16:28 pid=1301 tid=15634 [getActiveSubIdList] X subIdArr.length=0
+236: 12-24 17:16:33 pid=1301 tid=1956 [getActiveSubIdList] simInfoSet=[]
+237: 12-24 17:16:33 pid=1301 tid=1956 [getActiveSubIdList] X subIdArr.length=0
+238: 12-24 17:16:33 pid=1301 tid=15637 [getActiveSubIdList] simInfoSet=[]
+239: 12-24 17:16:33 pid=1301 tid=15637 [getActiveSubIdList] X subIdArr.length=0
+240: 12-24 17:16:39 pid=1301 tid=17034 [getActiveSubIdList] simInfoSet=[]
+241: 12-24 17:16:39 pid=1301 tid=17034 [getActiveSubIdList] X subIdArr.length=0
+242: 12-24 17:16:39 pid=1301 tid=15637 [getActiveSubIdList] simInfoSet=[]
+243: 12-24 17:16:39 pid=1301 tid=15637 [getActiveSubIdList] X subIdArr.length=0
+244: 12-24 17:16:43 pid=1301 tid=1313 [getActiveSubInfoList]+
+245: 12-24 17:16:43 pid=1301 tid=1313 [getActiveSubInfoList] Sub Controller not ready
+246: 12-24 17:16:48 pid=1301 tid=1336 [getActiveSubIdList] simInfoSet=[]
+247: 12-24 17:16:48 pid=1301 tid=1336 [getActiveSubIdList] X subIdArr.length=0
+248: 12-24 17:16:48 pid=1301 tid=15635 [getActiveSubIdList] simInfoSet=[]
+249: 12-24 17:16:48 pid=1301 tid=15635 [getActiveSubIdList] X subIdArr.length=0
+250: 12-24 17:17:00 pid=1301 tid=1555 [getActiveSubIdList] simInfoSet=[]
+251: 12-24 17:17:00 pid=1301 tid=1555 [getActiveSubIdList] X subIdArr.length=0
+252: 12-24 17:17:00 pid=1301 tid=1336 [getActiveSubIdList] simInfoSet=[]
+253: 12-24 17:17:00 pid=1301 tid=1336 [getActiveSubIdList] X subIdArr.length=0
+254: 12-24 17:17:24 pid=1301 tid=1313 [getActiveSubIdList] simInfoSet=[]
+255: 12-24 17:17:24 pid=1301 tid=1313 [getActiveSubIdList] X subIdArr.length=0
+256: 12-24 17:17:24 pid=1301 tid=17034 [getActiveSubIdList] simInfoSet=[]
+257: 12-24 17:17:24 pid=1301 tid=17034 [getActiveSubIdList] X subIdArr.length=0
+258: 12-24 17:17:24 pid=1301 tid=1313 [getActiveSubIdList] simInfoSet=[]
+259: 12-24 17:17:24 pid=1301 tid=1313 [getActiveSubIdList] X subIdArr.length=0
+260: 12-24 17:17:24 pid=1301 tid=17034 [getActiveSubIdList] simInfoSet=[]
+261: 12-24 17:17:24 pid=1301 tid=17034 [getActiveSubIdList] X subIdArr.length=0
+262: 12-24 17:17:33 pid=1301 tid=1555 [getActiveSubIdList] simInfoSet=[]
+263: 12-24 17:17:33 pid=1301 tid=1555 [getActiveSubIdList] X subIdArr.length=0
+264: 12-24 17:17:33 pid=1301 tid=15637 [getActiveSubIdList] simInfoSet=[]
+265: 12-24 17:17:33 pid=1301 tid=15637 [getActiveSubIdList] X subIdArr.length=0
+266: 12-24 17:17:34 pid=1301 tid=1956 [getActiveSubInfoList]+
+267: 12-24 17:17:34 pid=1301 tid=1956 [getActiveSubInfoList] Sub Controller not ready
+268: 12-24 17:17:38 pid=1301 tid=17034 [getActiveSubInfoList]+
+269: 12-24 17:17:38 pid=1301 tid=17034 [getActiveSubInfoList] Sub Controller not ready
+270: 12-24 17:17:39 pid=1301 tid=15634 [getActiveSubIdList] simInfoSet=[]
+271: 12-24 17:17:39 pid=1301 tid=15634 [getActiveSubIdList] X subIdArr.length=0
+272: 12-24 17:17:39 pid=1301 tid=1555 [getActiveSubIdList] simInfoSet=[]
+273: 12-24 17:17:39 pid=1301 tid=1555 [getActiveSubIdList] X subIdArr.length=0
+274: 12-24 17:18:25 pid=1301 tid=17034 [getActiveSubIdList] simInfoSet=[]
+275: 12-24 17:18:25 pid=1301 tid=17034 [getActiveSubIdList] X subIdArr.length=0
+276: 12-24 17:18:25 pid=1301 tid=1336 [getActiveSubIdList] simInfoSet=[]
+277: 12-24 17:18:25 pid=1301 tid=1336 [getActiveSubIdList] X subIdArr.length=0
+278: 12-24 17:18:25 pid=1301 tid=15635 [getActiveSubIdList] simInfoSet=[]
+279: 12-24 17:18:25 pid=1301 tid=15635 [getActiveSubIdList] X subIdArr.length=0
+280: 12-24 17:18:25 pid=1301 tid=1956 [getActiveSubIdList] simInfoSet=[]
+281: 12-24 17:18:25 pid=1301 tid=1956 [getActiveSubIdList] X subIdArr.length=0
+282: 12-24 17:18:28 pid=1301 tid=1336 [getActiveSubIdList] simInfoSet=[]
+283: 12-24 17:18:28 pid=1301 tid=1336 [getActiveSubIdList] X subIdArr.length=0
+284: 12-24 17:18:28 pid=1301 tid=1313 [getActiveSubIdList] simInfoSet=[]
+285: 12-24 17:18:28 pid=1301 tid=1313 [getActiveSubIdList] X subIdArr.length=0
+286: 12-24 17:18:34 pid=1301 tid=17034 [getActiveSubIdList] simInfoSet=[]
+287: 12-24 17:18:34 pid=1301 tid=17034 [getActiveSubIdList] X subIdArr.length=0
+288: 12-24 17:18:34 pid=1301 tid=1336 [getActiveSubIdList] simInfoSet=[]
+289: 12-24 17:18:34 pid=1301 tid=1336 [getActiveSubIdList] X subIdArr.length=0
+290: 12-24 17:18:41 pid=1301 tid=15637 [getActiveSubIdList] simInfoSet=[]
+291: 12-24 17:18:41 pid=1301 tid=15637 [getActiveSubIdList] X subIdArr.length=0
+292: 12-24 17:18:41 pid=1301 tid=17034 [getActiveSubIdList] simInfoSet=[]
+293: 12-24 17:18:41 pid=1301 tid=17034 [getActiveSubIdList] X subIdArr.length=0
+294: 12-24 17:18:43 pid=1301 tid=15634 [getActiveSubInfoList]+
+295: 12-24 17:18:43 pid=1301 tid=15634 [getActiveSubInfoList] Sub Controller not ready
+296: 12-24 17:18:45 pid=1301 tid=1555 [getActiveSubIdList] simInfoSet=[]
+297: 12-24 17:18:45 pid=1301 tid=1555 [getActiveSubIdList] X subIdArr.length=0
+298: 12-24 17:18:45 pid=1301 tid=15634 [getActiveSubIdList] simInfoSet=[]
+299: 12-24 17:18:45 pid=1301 tid=15634 [getActiveSubIdList] X subIdArr.length=0
+300: 12-24 17:18:45 pid=1301 tid=15634 [getActiveSubIdList] simInfoSet=[]
+301: 12-24 17:18:45 pid=1301 tid=15634 [getActiveSubIdList] X subIdArr.length=0
+302: 12-24 17:18:45 pid=1301 tid=15635 [getActiveSubIdList] simInfoSet=[]
+303: 12-24 17:18:45 pid=1301 tid=15635 [getActiveSubIdList] X subIdArr.length=0
+304: 12-24 17:18:45 pid=1301 tid=15637 [getActiveSubIdList] simInfoSet=[]
+305: 12-24 17:18:45 pid=1301 tid=15637 [getActiveSubIdList] X subIdArr.length=0
+306: 12-24 17:18:45 pid=1301 tid=1956 [getActiveSubIdList] simInfoSet=[]
+307: 12-24 17:18:45 pid=1301 tid=1956 [getActiveSubIdList] X subIdArr.length=0
+308: 12-24 17:18:45 pid=1301 tid=1336 [getActiveSubIdList] simInfoSet=[]
+309: 12-24 17:18:45 pid=1301 tid=1336 [getActiveSubIdList] X subIdArr.length=0
+310: 12-24 17:18:49 pid=1301 tid=17034 [getActiveSubInfoList]+
+311: 12-24 17:18:49 pid=1301 tid=17034 [getActiveSubInfoList] Sub Controller not ready
+312: 12-24 17:18:51 pid=1301 tid=1313 [getActiveSubIdList] simInfoSet=[]
+313: 12-24 17:18:51 pid=1301 tid=1313 [getActiveSubIdList] X subIdArr.length=0
+314: 12-24 17:18:51 pid=1301 tid=15635 [getActiveSubIdList] simInfoSet=[]
+315: 12-24 17:18:51 pid=1301 tid=15635 [getActiveSubIdList] X subIdArr.length=0
+316: 12-24 17:19:22 pid=1301 tid=15634 [getActiveSubIdList] simInfoSet=[]
+317: 12-24 17:19:22 pid=1301 tid=15634 [getActiveSubIdList] X subIdArr.length=0
+318: 12-24 17:19:22 pid=1301 tid=1956 [getActiveSubIdList] simInfoSet=[]
+319: 12-24 17:19:22 pid=1301 tid=1956 [getActiveSubIdList] X subIdArr.length=0
+320: 12-24 17:20:31 pid=1301 tid=1555 [getActiveSubIdList] simInfoSet=[]
+321: 12-24 17:20:31 pid=1301 tid=1555 [getActiveSubIdList] X subIdArr.length=0
+322: 12-24 17:20:31 pid=1301 tid=15634 [getActiveSubIdList] simInfoSet=[]
+323: 12-24 17:20:31 pid=1301 tid=15634 [getActiveSubIdList] X subIdArr.length=0
+324: 12-24 17:20:53 pid=1301 tid=15637 [getActiveSubIdList] simInfoSet=[]
+325: 12-24 17:20:53 pid=1301 tid=15637 [getActiveSubIdList] X subIdArr.length=0
+326: 12-24 17:20:53 pid=1301 tid=1336 [getActiveSubIdList] simInfoSet=[]
+327: 12-24 17:20:53 pid=1301 tid=1336 [getActiveSubIdList] X subIdArr.length=0
+328: 12-24 17:21:30 pid=1301 tid=1956 [getActiveSubIdList] simInfoSet=[]
+329: 12-24 17:21:30 pid=1301 tid=1956 [getActiveSubIdList] X subIdArr.length=0
+330: 12-24 17:21:30 pid=1301 tid=1313 [getActiveSubIdList] simInfoSet=[]
+331: 12-24 17:21:30 pid=1301 tid=1313 [getActiveSubIdList] X subIdArr.length=0
+332: 12-24 17:22:07 pid=1301 tid=1313 [getActiveSubIdList] simInfoSet=[]
+333: 12-24 17:22:07 pid=1301 tid=1313 [getActiveSubIdList] X subIdArr.length=0
+334: 12-24 17:22:07 pid=1301 tid=17034 [getActiveSubIdList] simInfoSet=[]
+335: 12-24 17:22:07 pid=1301 tid=17034 [getActiveSubIdList] X subIdArr.length=0
+336: 12-24 17:22:43 pid=1301 tid=15634 [getActiveSubIdList] simInfoSet=[]
+337: 12-24 17:22:43 pid=1301 tid=15634 [getActiveSubIdList] X subIdArr.length=0
+338: 12-24 17:22:43 pid=1301 tid=1956 [getActiveSubIdList] simInfoSet=[]
+339: 12-24 17:22:43 pid=1301 tid=1956 [getActiveSubIdList] X subIdArr.length=0
+340: 12-24 17:23:19 pid=1301 tid=15634 [getActiveSubIdList] simInfoSet=[]
+341: 12-24 17:23:19 pid=1301 tid=15634 [getActiveSubIdList] X subIdArr.length=0
+342: 12-24 17:23:19 pid=1301 tid=1956 [getActiveSubIdList] simInfoSet=[]
+343: 12-24 17:23:19 pid=1301 tid=1956 [getActiveSubIdList] X subIdArr.length=0
+344: 12-24 17:23:56 pid=1301 tid=15635 [getActiveSubIdList] simInfoSet=[]
+345: 12-24 17:23:56 pid=1301 tid=15635 [getActiveSubIdList] X subIdArr.length=0
+346: 12-24 17:23:56 pid=1301 tid=1555 [getActiveSubIdList] simInfoSet=[]
+347: 12-24 17:23:56 pid=1301 tid=1555 [getActiveSubIdList] X subIdArr.length=0
+348: 12-24 17:24:33 pid=1301 tid=1336 [getActiveSubIdList] simInfoSet=[]
+349: 12-24 17:24:33 pid=1301 tid=1336 [getActiveSubIdList] X subIdArr.length=0
+350: 12-24 17:24:33 pid=1301 tid=15635 [getActiveSubIdList] simInfoSet=[]
+351: 12-24 17:24:33 pid=1301 tid=15635 [getActiveSubIdList] X subIdArr.length=0
+352: 12-24 17:25:03 pid=1301 tid=1956 [getActiveSubIdList] simInfoSet=[]
+353: 12-24 17:25:03 pid=1301 tid=1956 [getActiveSubIdList] X subIdArr.length=0
+354: 12-24 17:25:03 pid=1301 tid=1313 [getActiveSubIdList] simInfoSet=[]
+355: 12-24 17:25:03 pid=1301 tid=1313 [getActiveSubIdList] X subIdArr.length=0
+356: 12-24 17:25:29 pid=1301 tid=17034 [getActiveSubIdList] simInfoSet=[]
+357: 12-24 17:25:29 pid=1301 tid=17034 [getActiveSubIdList] X subIdArr.length=0
+358: 12-24 17:25:29 pid=1301 tid=15637 [getActiveSubIdList] simInfoSet=[]
+359: 12-24 17:25:29 pid=1301 tid=15637 [getActiveSubIdList] X subIdArr.length=0
+360: 12-24 17:26:06 pid=1301 tid=1956 [getActiveSubIdList] simInfoSet=[]
+361: 12-24 17:26:06 pid=1301 tid=1956 [getActiveSubIdList] X subIdArr.length=0
+362: 12-24 17:26:06 pid=1301 tid=1313 [getActiveSubIdList] simInfoSet=[]
+363: 12-24 17:26:06 pid=1301 tid=1313 [getActiveSubIdList] X subIdArr.length=0
+364: 12-24 17:26:35 pid=1301 tid=17034 [getActiveSubIdList] simInfoSet=[]
+365: 12-24 17:26:35 pid=1301 tid=17034 [getActiveSubIdList] X subIdArr.length=0
+366: 12-24 17:26:35 pid=1301 tid=15637 [getActiveSubIdList] simInfoSet=[]
+367: 12-24 17:26:35 pid=1301 tid=15637 [getActiveSubIdList] X subIdArr.length=0
+368: 12-24 17:26:59 pid=1301 tid=15637 [getActiveSubIdList] simInfoSet=[]
+369: 12-24 17:26:59 pid=1301 tid=15637 [getActiveSubIdList] X subIdArr.length=0
+370: 12-24 17:26:59 pid=1301 tid=1336 [getActiveSubIdList] simInfoSet=[]
+371: 12-24 17:26:59 pid=1301 tid=1336 [getActiveSubIdList] X subIdArr.length=0
+372: 12-24 17:27:04 pid=1301 tid=1336 [getActiveSubIdList] simInfoSet=[]
+373: 12-24 17:27:04 pid=1301 tid=1336 [getActiveSubIdList] X subIdArr.length=0
+374: 12-24 17:27:04 pid=1301 tid=15635 [getActiveSubIdList] simInfoSet=[]
+375: 12-24 17:27:04 pid=1301 tid=15635 [getActiveSubIdList] X subIdArr.length=0
+376: 12-24 17:27:08 pid=1301 tid=15634 [getActiveSubIdList] simInfoSet=[]
+377: 12-24 17:27:08 pid=1301 tid=15634 [getActiveSubIdList] X subIdArr.length=0
+378: 12-24 17:27:08 pid=1301 tid=1956 [getActiveSubIdList] simInfoSet=[]
+379: 12-24 17:27:08 pid=1301 tid=1956 [getActiveSubIdList] X subIdArr.length=0
+380: 12-24 17:27:19 pid=1301 tid=15635 [getActiveSubIdList] simInfoSet=[]
+381: 12-24 17:27:19 pid=1301 tid=15635 [getActiveSubIdList] X subIdArr.length=0
+382: 12-24 17:27:19 pid=1301 tid=1555 [getActiveSubIdList] simInfoSet=[]
+383: 12-24 17:27:19 pid=1301 tid=1555 [getActiveSubIdList] X subIdArr.length=0
+384: 12-24 17:27:30 pid=1301 tid=1555 [getActiveSubIdList] simInfoSet=[]
+385: 12-24 17:27:30 pid=1301 tid=1555 [getActiveSubIdList] X subIdArr.length=0
+386: 12-24 17:27:30 pid=1301 tid=15634 [getActiveSubIdList] simInfoSet=[]
+387: 12-24 17:27:30 pid=1301 tid=15634 [getActiveSubIdList] X subIdArr.length=0
+388: 12-24 17:27:41 pid=1301 tid=15634 [getActiveSubIdList] simInfoSet=[]
+389: 12-24 17:27:41 pid=1301 tid=15634 [getActiveSubIdList] X subIdArr.length=0
+390: 12-24 17:27:41 pid=1301 tid=1956 [getActiveSubIdList] simInfoSet=[]
+391: 12-24 17:27:41 pid=1301 tid=1956 [getActiveSubIdList] X subIdArr.length=0
+392: 12-24 17:27:51 pid=1301 tid=17034 [getActiveSubIdList] simInfoSet=[]
+393: 12-24 17:27:51 pid=1301 tid=17034 [getActiveSubIdList] X subIdArr.length=0
+394: 12-24 17:27:51 pid=1301 tid=15637 [getActiveSubIdList] simInfoSet=[]
+395: 12-24 17:27:51 pid=1301 tid=15637 [getActiveSubIdList] X subIdArr.length=0
+396: 12-24 17:28:00 pid=1301 tid=1956 [getActiveSubIdList] simInfoSet=[]
+397: 12-24 17:28:00 pid=1301 tid=1956 [getActiveSubIdList] X subIdArr.length=0
+398: 12-24 17:28:00 pid=1301 tid=1336 [getActiveSubIdList] simInfoSet=[]
+399: 12-24 17:28:00 pid=1301 tid=1336 [getActiveSubIdList] X subIdArr.length=0
+400: 12-24 17:28:19 pid=1301 tid=1336 [getActiveSubIdList] simInfoSet=[]
+401: 12-24 17:28:19 pid=1301 tid=1336 [getActiveSubIdList] X subIdArr.length=0
+402: 12-24 17:28:19 pid=1301 tid=15635 [getActiveSubIdList] simInfoSet=[]
+403: 12-24 17:28:19 pid=1301 tid=15635 [getActiveSubIdList] X subIdArr.length=0
+404: 12-24 17:28:25 pid=1301 tid=1313 [getActiveSubIdList] simInfoSet=[]
+405: 12-24 17:28:25 pid=1301 tid=1313 [getActiveSubIdList] X subIdArr.length=0
+406: 12-24 17:28:25 pid=1301 tid=1956 [getActiveSubIdList] simInfoSet=[]
+407: 12-24 17:28:25 pid=1301 tid=1956 [getActiveSubIdList] X subIdArr.length=0
+408: 12-24 17:28:33 pid=1301 tid=1956 [getActiveSubIdList] simInfoSet=[]
+409: 12-24 17:28:33 pid=1301 tid=1956 [getActiveSubIdList] X subIdArr.length=0
+410: 12-24 17:28:33 pid=1301 tid=1336 [getActiveSubIdList] simInfoSet=[]
+411: 12-24 17:28:33 pid=1301 tid=1336 [getActiveSubIdList] X subIdArr.length=0
+412: 12-24 17:28:46 pid=1301 tid=1555 [getActiveSubIdList] simInfoSet=[]
+413: 12-24 17:28:46 pid=1301 tid=1555 [getActiveSubIdList] X subIdArr.length=0
+414: 12-24 17:28:46 pid=1301 tid=17034 [getActiveSubIdList] simInfoSet=[]
+415: 12-24 17:28:46 pid=1301 tid=17034 [getActiveSubIdList] X subIdArr.length=0
+416: 12-24 17:28:58 pid=1301 tid=15634 [getActiveSubIdList] simInfoSet=[]
+417: 12-24 17:28:58 pid=1301 tid=15634 [getActiveSubIdList] X subIdArr.length=0
+418: 12-24 17:28:58 pid=1301 tid=1313 [getActiveSubIdList] simInfoSet=[]
+419: 12-24 17:28:58 pid=1301 tid=1313 [getActiveSubIdList] X subIdArr.length=0
+420: 12-24 17:29:10 pid=1301 tid=1555 [getActiveSubIdList] simInfoSet=[]
+421: 12-24 17:29:10 pid=1301 tid=1555 [getActiveSubIdList] X subIdArr.length=0
+422: 12-24 17:29:10 pid=1301 tid=17034 [getActiveSubIdList] simInfoSet=[]
+423: 12-24 17:29:10 pid=1301 tid=17034 [getActiveSubIdList] X subIdArr.length=0
+424: 12-24 17:29:19 pid=1301 tid=15634 [getActiveSubIdList] simInfoSet=[]
+425: 12-24 17:29:19 pid=1301 tid=15634 [getActiveSubIdList] X subIdArr.length=0
+426: 12-24 17:29:19 pid=1301 tid=1313 [getActiveSubIdList] simInfoSet=[]
+427: 12-24 17:29:19 pid=1301 tid=1313 [getActiveSubIdList] X subIdArr.length=0
+428: 12-24 17:29:28 pid=1301 tid=1956 [getActiveSubIdList] simInfoSet=[]
+429: 12-24 17:29:28 pid=1301 tid=1956 [getActiveSubIdList] X subIdArr.length=0
+430: 12-24 17:29:28 pid=1301 tid=1336 [getActiveSubIdList] simInfoSet=[]
+431: 12-24 17:29:28 pid=1301 tid=1336 [getActiveSubIdList] X subIdArr.length=0
+432: 12-24 17:29:37 pid=1301 tid=15637 [getActiveSubIdList] simInfoSet=[]
+433: 12-24 17:29:37 pid=1301 tid=15637 [getActiveSubIdList] X subIdArr.length=0
+434: 12-24 17:29:37 pid=1301 tid=15634 [getActiveSubIdList] simInfoSet=[]
+435: 12-24 17:29:37 pid=1301 tid=15634 [getActiveSubIdList] X subIdArr.length=0
+436: 12-24 17:29:40 pid=1301 tid=1956 [getActiveSubIdList] simInfoSet=[]
+437: 12-24 17:29:40 pid=1301 tid=1956 [getActiveSubIdList] X subIdArr.length=0
+438: 12-24 17:29:40 pid=1301 tid=1336 [getActiveSubIdList] simInfoSet=[]
+439: 12-24 17:29:40 pid=1301 tid=1336 [getActiveSubIdList] X subIdArr.length=0
+440: 12-24 17:29:42 pid=1301 tid=15635 [getActiveSubIdList] simInfoSet=[]
+441: 12-24 17:29:42 pid=1301 tid=15635 [getActiveSubIdList] X subIdArr.length=0
+442: 12-24 17:29:42 pid=1301 tid=1555 [getActiveSubIdList] simInfoSet=[]
+443: 12-24 17:29:42 pid=1301 tid=1555 [getActiveSubIdList] X subIdArr.length=0
+444: 12-24 17:29:45 pid=1301 tid=15635 [getActiveSubIdList] simInfoSet=[]
+445: 12-24 17:29:45 pid=1301 tid=15635 [getActiveSubIdList] X subIdArr.length=0
+446: 12-24 17:29:45 pid=1301 tid=1555 [getActiveSubIdList] simInfoSet=[]
+447: 12-24 17:29:45 pid=1301 tid=1555 [getActiveSubIdList] X subIdArr.length=0
+448: 12-24 17:29:46 pid=1301 tid=15635 [getActiveSubIdList] simInfoSet=[]
+449: 12-24 17:29:46 pid=1301 tid=15635 [getActiveSubIdList] X subIdArr.length=0
+450: 12-24 17:29:46 pid=1301 tid=1555 [getActiveSubIdList] simInfoSet=[]
+451: 12-24 17:29:46 pid=1301 tid=1555 [getActiveSubIdList] X subIdArr.length=0
+452: 12-24 17:29:47 pid=1301 tid=15635 [getActiveSubIdList] simInfoSet=[]
+453: 12-24 17:29:47 pid=1301 tid=15635 [getActiveSubIdList] X subIdArr.length=0
+454: 12-24 17:29:47 pid=1301 tid=1555 [getActiveSubIdList] simInfoSet=[]
+455: 12-24 17:29:47 pid=1301 tid=1555 [getActiveSubIdList] X subIdArr.length=0
+456: 12-24 17:29:52 pid=1301 tid=15637 [getActiveSubIdList] simInfoSet=[]
+457: 12-24 17:29:52 pid=1301 tid=15637 [getActiveSubIdList] X subIdArr.length=0
+458: 12-24 17:29:52 pid=1301 tid=15634 [getActiveSubIdList] simInfoSet=[]
+459: 12-24 17:29:52 pid=1301 tid=15634 [getActiveSubIdList] X subIdArr.length=0
+460: 12-24 17:30:01 pid=1301 tid=1555 [getActiveSubIdList] simInfoSet=[]
+461: 12-24 17:30:01 pid=1301 tid=1555 [getActiveSubIdList] X subIdArr.length=0
+462: 12-24 17:30:01 pid=1301 tid=17034 [getActiveSubIdList] simInfoSet=[]
+463: 12-24 17:30:01 pid=1301 tid=17034 [getActiveSubIdList] X subIdArr.length=0
+464: 12-24 17:30:11 pid=1301 tid=15637 [getActiveSubIdList] simInfoSet=[]
+465: 12-24 17:30:11 pid=1301 tid=15637 [getActiveSubIdList] X subIdArr.length=0
+466: 12-24 17:30:11 pid=1301 tid=15634 [getActiveSubIdList] simInfoSet=[]
+467: 12-24 17:30:11 pid=1301 tid=15634 [getActiveSubIdList] X subIdArr.length=0
+468: 12-24 17:30:21 pid=1301 tid=1336 [getActiveSubIdList] simInfoSet=[]
+469: 12-24 17:30:21 pid=1301 tid=1336 [getActiveSubIdList] X subIdArr.length=0
+470: 12-24 17:30:21 pid=1301 tid=15635 [getActiveSubIdList] simInfoSet=[]
+471: 12-24 17:30:21 pid=1301 tid=15635 [getActiveSubIdList] X subIdArr.length=0
+472: 12-24 17:30:32 pid=1301 tid=17034 [getActiveSubIdList] simInfoSet=[]
+473: 12-24 17:30:32 pid=1301 tid=17034 [getActiveSubIdList] X subIdArr.length=0
+474: 12-24 17:30:32 pid=1301 tid=15637 [getActiveSubIdList] simInfoSet=[]
+475: 12-24 17:30:32 pid=1301 tid=15637 [getActiveSubIdList] X subIdArr.length=0
+476: 12-24 17:30:40 pid=1301 tid=1313 [getActiveSubIdList] simInfoSet=[]
+477: 12-24 17:30:40 pid=1301 tid=1313 [getActiveSubIdList] X subIdArr.length=0
+478: 12-24 17:30:40 pid=1301 tid=15635 [getActiveSubIdList] simInfoSet=[]
+479: 12-24 17:30:40 pid=1301 tid=15635 [getActiveSubIdList] X subIdArr.length=0
+480: 12-24 17:30:51 pid=1301 tid=15635 [getActiveSubIdList] simInfoSet=[]
+481: 12-24 17:30:51 pid=1301 tid=15635 [getActiveSubIdList] X subIdArr.length=0
+482: 12-24 17:30:51 pid=1301 tid=1336 [getActiveSubIdList] simInfoSet=[]
+483: 12-24 17:30:51 pid=1301 tid=1336 [getActiveSubIdList] X subIdArr.length=0
+484: 12-24 17:31:03 pid=1301 tid=1313 [getActiveSubIdList] simInfoSet=[]
+485: 12-24 17:31:03 pid=1301 tid=1313 [getActiveSubIdList] X subIdArr.length=0
+486: 12-24 17:31:03 pid=1301 tid=15635 [getActiveSubIdList] simInfoSet=[]
+487: 12-24 17:31:03 pid=1301 tid=15635 [getActiveSubIdList] X subIdArr.length=0
+488: 12-24 17:31:11 pid=1301 tid=1313 [getActiveSubIdList] simInfoSet=[]
+489: 12-24 17:31:12 pid=1301 tid=1313 [getActiveSubIdList] X subIdArr.length=0
+490: 12-24 17:31:12 pid=1301 tid=15635 [getActiveSubIdList] simInfoSet=[]
+491: 12-24 17:31:12 pid=1301 tid=15635 [getActiveSubIdList] X subIdArr.length=0
+492: 12-24 17:31:24 pid=1301 tid=1555 [getActiveSubIdList] simInfoSet=[]
+493: 12-24 17:31:24 pid=1301 tid=1555 [getActiveSubIdList] X subIdArr.length=0
+494: 12-24 17:31:24 pid=1301 tid=1956 [getActiveSubIdList] simInfoSet=[]
+495: 12-24 17:31:24 pid=1301 tid=1956 [getActiveSubIdList] X subIdArr.length=0
+496: 12-24 17:31:24 pid=1301 tid=1313 [getActiveSubInfoList]+
+497: 12-24 17:31:24 pid=1301 tid=1313 [getActiveSubInfoList] Sub Controller not ready
+498: 12-24 17:32:11 pid=1301 tid=1956 [getActiveSubInfoList]+
+499: 12-24 17:32:11 pid=1301 tid=1956 [getActiveSubInfoList] Sub Controller not ready
+++++++++++++++++++++++++++++++++

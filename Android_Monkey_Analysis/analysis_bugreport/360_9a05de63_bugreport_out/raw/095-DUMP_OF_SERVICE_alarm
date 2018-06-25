@@ -1,0 +1,552 @@
+Current Alarm Manager state:
+  Settings:
+    min_futurity=+5s0ms
+    min_interval=+60s0ms
+    allow_while_idle_short_time=+5s0ms
+    allow_while_idle_long_time=+9m0s0ms
+    allow_while_idle_whitelist_duration=+10s0ms
+
+  nowRTC=1514107565795=2017-12-24 17:26:05 nowELAPSED=+2d23h45m18s665ms
+  mLastTimeChangeClockTime=1513855281275=2017-12-21 19:21:21
+  mLastTimeChangeRealtime=+1h40m34s145ms
+  Next non-wakeup alarm: +44s325ms = 2017-12-24 17:26:50
+  Next wakeup: +18m7s207ms = 2017-12-24 17:44:13
+  Num time change events: 2
+
+  Next alarm clock information: 
+
+  Pending alarm batches: 32
+Batch{350c2ea num=1 start=258362990 end=258362990 flgs=0x9}:
+    RTC #0: Alarm{4077ed4 type 1 when 1514107610120 android tag:*alarm*:com.android.server.action.UPDATE_TWILIGHT_STATE}
+      tag=*alarm*:com.android.server.action.UPDATE_TWILIGHT_STATE
+      type=1 whenElapsed=+44s325ms when=2017-12-24 17:26:50
+      window=0 repeatInterval=0 count=0 flags=0x9
+      operation=PendingIntent{933353a: PendingIntentRecord{b6dd6de android broadcastIntent}}
+Batch{fc279db num=1 start=258372871 end=258372871 flgs=0x9}:
+    ELAPSED #0: Alarm{150cc78 type 3 when 258372871 android tag:*alarm*:android.intent.action.TIME_TICK}
+      tag=*alarm*:android.intent.action.TIME_TICK
+      type=3 whenElapsed=+54s206ms when=+54s206ms
+      window=0 repeatInterval=0 count=0 flags=0x9
+      operation=PendingIntent{cf96b7f: PendingIntentRecord{82da74c android broadcastIntent}}
+Batch{a83cf51 num=1 start=258546485 end=258546485 flgs=0x1}:
+    RTC #0: Alarm{762a372 type 1 when 1514107793615 com.eg.android.AlipayGphone tag:*alarm*:com.eg.android.AlipayGphone.push.action.CHECK}
+      tag=*alarm*:com.eg.android.AlipayGphone.push.action.CHECK
+      type=1 whenElapsed=+3m47s820ms when=2017-12-24 17:29:53
+      window=0 repeatInterval=0 count=0 flags=0x1
+      operation=PendingIntent{df51c42: PendingIntentRecord{5092b35 com.eg.android.AlipayGphone broadcastIntent}}
+Batch{cf023b6 num=3 start=258572707 end=258630443 flgs=0xc}:
+    RTC #2: Alarm{1e4d8b7 type 1 when 1514107819837 com.tianyancha.skyeye tag:*alarm*:com.taobao.accs.intent.action.COMMAND}
+      tag=*alarm*:com.taobao.accs.intent.action.COMMAND
+      type=1 whenElapsed=+4m14s42ms when=2017-12-24 17:30:19
+      window=+3m22s499ms repeatInterval=0 count=0 flags=0x0
+      operation=PendingIntent{aa84313: PendingIntentRecord{8505359 com.tianyancha.skyeye broadcastIntent}}
+    RTC #1: Alarm{d023824 type 1 when 1514107723103 com.tencent.mobileqq tag:*alarm*:com.tencent.mobileqq:MSF_44949136}
+      tag=*alarm*:com.tencent.mobileqq:MSF_44949136
+      type=1 whenElapsed=+2m37s308ms when=2017-12-24 17:28:43
+      window=+3m22s500ms repeatInterval=0 count=0 flags=0xc
+      operation=PendingIntent{a842ffc: PendingIntentRecord{ae93273 com.tencent.mobileqq broadcastIntent}}
+    ELAPSED #0: Alarm{6e50f8d type 3 when 258405443 com.tencent.mm tag:*alarm*:com.tencent.mm.TrafficStatsReceiver}
+      tag=*alarm*:com.tencent.mm.TrafficStatsReceiver
+      type=3 whenElapsed=+1m26s778ms when=+1m26s778ms
+      window=+3m45s0ms repeatInterval=300000 count=0 flags=0x8
+      operation=PendingIntent{65fb5e1: PendingIntentRecord{d312f06 com.tencent.mm broadcastIntent}}
+Batch{e52c542 num=1 start=258655124 end=258655124 flgs=0x1}:
+    RTC #0: Alarm{4644953 type 1 when 1514107902254 com.eg.android.AlipayGphone tag:*alarm*:com.eg.android.AlipayGphone.push.action.AMNET_ALARMTIMER}
+      tag=*alarm*:com.eg.android.AlipayGphone.push.action.AMNET_ALARMTIMER
+      type=1 whenElapsed=+5m36s459ms when=2017-12-24 17:31:42
+      window=0 repeatInterval=0 count=0 flags=0x1
+      operation=PendingIntent{f81b152: PendingIntentRecord{ac8cf10 com.eg.android.AlipayGphone broadcastIntent}}
+Batch{63cb290 num=1 start=258665110 end=258665110 flgs=0x1}:
+    ELAPSED #0: Alarm{1a01789 type 3 when 258665110 com.sina.weibo tag:*alarm*:com.sina.pushtask.isruning.action.1004}
+      tag=*alarm*:com.sina.pushtask.isruning.action.1004
+      type=3 whenElapsed=+5m46s445ms when=+5m46s445ms
+      window=0 repeatInterval=0 count=0 flags=0x1
+      operation=PendingIntent{872e863: PendingIntentRecord{e63819c com.sina.weibo broadcastIntent}}
+Batch{54bf38e num=1 start=258844373 end=258844373 flgs=0x9}:
+    RTC #0: Alarm{36027af type 1 when 1514108091503 com.qiku.logsystem tag:*alarm*:com.qiku.logsystem/.services.ControlDispatchService}
+      tag=*alarm*:com.qiku.logsystem/.services.ControlDispatchService
+      type=1 whenElapsed=+8m45s708ms when=2017-12-24 17:34:51
+      window=0 repeatInterval=0 count=0 flags=0x9
+      operation=PendingIntent{cc60b47: PendingIntentRecord{28e9d6 com.qiku.logsystem startService}}
+Batch{c6267bc num=1 start=258911961 end=258911961 flgs=0x1}:
+    RTC #0: Alarm{8e9a345 type 1 when 1514108159091 com.eg.android.AlipayGphone tag:*alarm*:com.eg.android.AlipayGphone.push.action.AMNET_ALARMTIMER}
+      tag=*alarm*:com.eg.android.AlipayGphone.push.action.AMNET_ALARMTIMER
+      type=1 whenElapsed=+9m53s296ms when=2017-12-24 17:35:59
+      window=0 repeatInterval=0 count=0 flags=0x1
+      operation=PendingIntent{2ef0d70: PendingIntentRecord{a390925 com.eg.android.AlipayGphone broadcastIntent}}
+Batch{797ba9a num=6 start=259225386 end=259253853 flgs=0x8}:
+    ELAPSED #5: Alarm{3918fcb type 3 when 259225386 com.yulong.android.launcher3 tag:*alarm*:com.yulong.android.launcher3.freezer.unused}
+      tag=*alarm*:com.yulong.android.launcher3.freezer.unused
+      type=3 whenElapsed=+15m6s721ms when=+15m6s721ms
+      window=+45m0s0ms repeatInterval=3600000 count=0 flags=0x0
+      operation=PendingIntent{169b473: PendingIntentRecord{2ef0f30 com.yulong.android.launcher3 broadcastIntent}}
+    ELAPSED #4: Alarm{244a83b type 3 when 259224098 com.yulong.android.launcher3 tag:*alarm*:com.yulong.android.launcher3.location.get}
+      tag=*alarm*:com.yulong.android.launcher3.location.get
+      type=3 whenElapsed=+15m5s433ms when=+15m5s433ms
+      window=+3h0m0s0ms repeatInterval=14400000 count=0 flags=0x0
+      operation=PendingIntent{9e4d9d3: PendingIntentRecord{d013910 com.yulong.android.launcher3 broadcastIntent}}
+    ELAPSED #3: Alarm{cc43a8 type 3 when 259221118 android tag:*alarm*:com.android.server.action.NETWORK_STATS_POLL}
+      tag=*alarm*:com.android.server.action.NETWORK_STATS_POLL
+      type=3 whenElapsed=+15m2s453ms when=+15m2s453ms
+      window=+22m30s0ms repeatInterval=1800000 count=0 flags=0x8
+      operation=PendingIntent{325a670: PendingIntentRecord{a5e2de9 android broadcastIntent}}
+    ELAPSED #2: Alarm{b1fcb58 type 3 when 259135120 com.yulong.android.launcher3 tag:*alarm*:com.yulong.android.launcher3.AppConf}
+      tag=*alarm*:com.yulong.android.launcher3.AppConf
+      type=3 whenElapsed=+13m36s455ms when=+13m36s455ms
+      window=+3h0m0s0ms repeatInterval=0 count=0 flags=0x0
+      operation=PendingIntent{575cb53: PendingIntentRecord{c4d0c90 com.yulong.android.launcher3 broadcastIntent}}
+    ELAPSED #1: Alarm{f862ec1 type 3 when 258805031 com.tencent.mm tag:*alarm*:ALARM_ACTION(5093)}
+      tag=*alarm*:ALARM_ACTION(5093)
+      type=3 whenElapsed=+8m6s366ms when=+8m6s366ms
+      window=+7m28s822ms repeatInterval=0 count=0 flags=0x8
+      operation=PendingIntent{52d3400: PendingIntentRecord{2175439 com.tencent.mm broadcastIntent}}
+    RTC #0: Alarm{8a6e666 type 1 when 1514107952563 com.tencent.mm tag:*alarm*:com.tencent.mm/.booter.MMReceivers$AlarmReceiver}
+      tag=*alarm*:com.tencent.mm/.booter.MMReceivers$AlarmReceiver
+      type=1 whenElapsed=+6m26s768ms when=2017-12-24 17:32:32
+      window=+11m15s0ms repeatInterval=900000 count=0 flags=0x8
+      operation=PendingIntent{c585aa9: PendingIntentRecord{4f4482e com.tencent.mm broadcastIntent}}
+Batch{2275da7 num=1 start=259405872 end=259405872 flgs=0x9}:
+    ELAPSED_WAKEUP #0: Alarm{f75f254 type 2 when 259405872 android tag:*walarm*:android.content.syncmanager.SYNC_ALARM}
+      tag=*walarm*:android.content.syncmanager.SYNC_ALARM
+      type=2 whenElapsed=+18m7s207ms when=+18m7s207ms
+      window=0 repeatInterval=0 count=0 flags=0x9
+      operation=PendingIntent{d692d11: PendingIntentRecord{da98e76 android broadcastIntent}}
+Batch{605f5fd num=1 start=260006390 end=260006390 flgs=0x5}:
+    ELAPSED #0: Alarm{2b02f2 type 3 when 260006390 com.qihoo.appstore tag:*alarm*:TAKE_PUSH_KEEPALIVE}
+      tag=*alarm*:TAKE_PUSH_KEEPALIVE
+      type=3 whenElapsed=+28m7s725ms when=+28m7s725ms
+      window=0 repeatInterval=0 count=0 flags=0x5
+      operation=PendingIntent{4dbb52b: PendingIntentRecord{d016d88 com.qihoo.appstore startService}}
+Batch{6622d43 num=3 start=260046438 end=260208300 flgs=0x8}:
+    ELAPSED #2: Alarm{b328a35 type 3 when 260046438 com.eg.android.AlipayGphone tag:*alarm*:com.eg.android.AlipayGphone.intent.action.COCKROACH}
+      tag=*alarm*:com.eg.android.AlipayGphone.intent.action.COCKROACH
+      type=3 whenElapsed=+28m47s773ms when=+28m47s773ms
+      window=+1h30m0s0ms repeatInterval=7200000 count=0 flags=0x0
+      operation=PendingIntent{7729d28: PendingIntentRecord{c9f4a41 com.eg.android.AlipayGphone startService}}
+    ELAPSED #1: Alarm{669dfc0 type 3 when 260006103 com.tencent.mm tag:*alarm*:ALARM_ACTION(5093)}
+      tag=*alarm*:ALARM_ACTION(5093)
+      type=3 whenElapsed=+28m7s438ms when=+28m7s438ms
+      window=+22m29s998ms repeatInterval=0 count=0 flags=0x8
+      operation=PendingIntent{7c3250b: PendingIntentRecord{4e24fe8 com.tencent.mm broadcastIntent}}
+    ELAPSED #0: Alarm{bc0f4f9 type 3 when 259265685 android tag:*alarm*:android.content.jobscheduler.JOB_DELAY_EXPIRED}
+      tag=*alarm*:android.content.jobscheduler.JOB_DELAY_EXPIRED
+      type=3 whenElapsed=+15m47s20ms when=+15m47s20ms
+      window=+15m42s615ms repeatInterval=0 count=0 flags=0x8
+      operation=PendingIntent{c2a02d0: PendingIntentRecord{79ec2c9 android broadcastIntent}}
+Batch{d625c3e num=2 start=261015579 end=262672562}:
+    RTC #1: Alarm{293d46c type 1 when 1514110262709 com.yulong.android.launcher3 tag:*alarm*:qiku.launcher.action.data.report}
+      tag=*alarm*:qiku.launcher.action.data.report
+      type=1 whenElapsed=+44m56s914ms when=2017-12-24 18:11:02
+      window=+3h0m0s0ms repeatInterval=14400000 count=0 flags=0x0
+      operation=PendingIntent{c740d1a: PendingIntentRecord{583b04b com.yulong.android.launcher3 broadcastIntent}}
+    ELAPSED #0: Alarm{f05a9f type 3 when 260797562 com.tianyancha.skyeye tag:*alarm*:com.tianyancha.skyeye.intent.action.COCKROACH}
+      tag=*alarm*:com.tianyancha.skyeye.intent.action.COCKROACH
+      type=3 whenElapsed=+41m18s897ms when=+41m18s897ms
+      window=+31m15s0ms repeatInterval=2500000 count=0 flags=0x0
+      operation=PendingIntent{d45e076: PendingIntentRecord{9905034 com.tianyancha.skyeye startService}}
+Batch{7ed37ec num=6 start=270640906 end=270804621 flgs=0x8}:
+    ELAPSED #5: Alarm{392e7b5 type 3 when 270640906 android tag:*alarm*:android.content.jobscheduler.JOB_DEADLINE_EXPIRED}
+      tag=*alarm*:android.content.jobscheduler.JOB_DEADLINE_EXPIRED
+      type=3 whenElapsed=+3h25m22s241ms when=+3h25m22s241ms
+      window=+2h38m1s530ms repeatInterval=0 count=0 flags=0x8
+      operation=PendingIntent{e685dce: PendingIntentRecord{a58e4ef android broadcastIntent}}
+    RTC #4: Alarm{8d228e9 type 1 when 1514116013832 com.qiku.cardmanager tag:*alarm*:com.qiku.cardmanager.config.FETCHCONFIG}
+      tag=*alarm*:com.qiku.cardmanager.config.FETCHCONFIG
+      type=1 whenElapsed=+2h20m48s37ms when=2017-12-24 19:46:53
+      window=+4h30m0s0ms repeatInterval=21600000 count=0 flags=0x0
+      operation=PendingIntent{ed9c6ea: PendingIntentRecord{512ddb com.qiku.cardmanager startService}}
+    ELAPSED #3: Alarm{728996e type 3 when 266368589 com.qiku.widget3d tag:*alarm*:com.qiku.widget3d.AppConf}
+      tag=*alarm*:com.qiku.widget3d.AppConf
+      type=3 whenElapsed=+2h14m9s924ms when=+2h14m9s924ms
+      window=+4h29m59s998ms repeatInterval=0 count=0 flags=0x0
+      operation=PendingIntent{b632279: PendingIntentRecord{4cbbbe com.qiku.widget3d broadcastIntent}}
+    RTC_WAKEUP #2: Alarm{323fe4a type 0 when 1514114651751 com.qiku.android.cloudsync tag:*walarm*:com.xmpp.action.ALARM_TIMEUP}
+      tag=*walarm*:com.xmpp.action.ALARM_TIMEUP
+      type=0 whenElapsed=+1h58m5s956ms when=2017-12-24 19:24:11
+      window=+1h30m0s0ms repeatInterval=7200000 count=0 flags=0x8
+      operation=PendingIntent{3be873b: PendingIntentRecord{d99df41 com.qiku.android.cloudsync broadcastIntent}}
+    RTC #1: Alarm{3b384be type 1 when 1514112413474 com.qiku.cardmanager tag:*alarm*:com.qiku.utils.update.action.UPDATE_CHECK}
+      tag=*alarm*:com.qiku.utils.update.action.UPDATE_CHECK
+      type=1 whenElapsed=+1h20m47s679ms when=2017-12-24 18:46:53
+      window=+4h30m0s0ms repeatInterval=21600000 count=0 flags=0x0
+      operation=PendingIntent{828b106: PendingIntentRecord{fe763c7 com.qiku.cardmanager broadcastIntent}}
+    RTC #0: Alarm{ed5991f type 1 when 1514112062707 com.yulong.android.launcher3 tag:*alarm*:qiku.launcher.action.click.report}
+      tag=*alarm*:qiku.launcher.action.click.report
+      type=1 whenElapsed=+1h14m56s912ms when=2017-12-24 18:41:02
+      window=+3h0m0s0ms repeatInterval=14400000 count=0 flags=0x0
+      operation=PendingIntent{528d63c: PendingIntentRecord{211afc5 com.yulong.android.launcher3 broadcastIntent}}
+Batch{50a01bb num=1 start=271584610 end=271584610 flgs=0x5}:
+    RTC #0: Alarm{36be6d8 type 1 when 1514120831740 com.qihoo.appstore tag:*alarm*:CHECK_APPSTORE_UPDATE_BACKGROUND}
+      tag=*alarm*:CHECK_APPSTORE_UPDATE_BACKGROUND
+      type=1 whenElapsed=+3h41m5s945ms when=2017-12-24 21:07:11
+      window=0 repeatInterval=0 count=0 flags=0x5
+      operation=PendingIntent{be4740: PendingIntentRecord{790dbd4 com.qihoo.appstore startService}}
+Batch{8574a31 num=1 start=274446435 end=274446435 flgs=0x9}:
+    RTC #0: Alarm{1e96d96 type 1 when 1514123693565 com.yulong.android.ota tag:*alarm*:com.qiku.ota.alarm.visit}
+      tag=*alarm*:com.qiku.ota.alarm.visit
+      type=1 whenElapsed=+4h28m47s770ms when=2017-12-24 21:54:53
+      window=0 repeatInterval=0 count=0 flags=0x9
+      operation=PendingIntent{4db5f4b: PendingIntentRecord{6d4b768 com.yulong.android.ota broadcastIntent}}
+Batch{8abb516 num=1 start=274446573 end=274446573 flgs=0x9}:
+    RTC #0: Alarm{d724504 type 1 when 1514123693703 com.yulong.android.ota tag:*alarm*:com.qiku.ota.alarm.showdialog}
+      tag=*alarm*:com.qiku.ota.alarm.showdialog
+      type=1 whenElapsed=+4h28m47s908ms when=2017-12-24 21:54:53
+      window=0 repeatInterval=0 count=0 flags=0x9
+      operation=PendingIntent{98ef59c: PendingIntentRecord{2497cf com.yulong.android.ota broadcastIntent}}
+Batch{74cfe97 num=1 start=281653440 end=281653440 flgs=0x9}:
+    RTC #0: Alarm{36b309c type 1 when 1514130900570 com.tencent.mobileqq tag:*alarm*:MSF_Action_Refresh_Steps}
+      tag=*alarm*:MSF_Action_Refresh_Steps
+      type=1 whenElapsed=+6h28m54s775ms when=2017-12-24 23:55:00
+      window=0 repeatInterval=86400000 count=0 flags=0x9
+      operation=PendingIntent{585b2f5: PendingIntentRecord{f331ffb com.tencent.mobileqq broadcastIntent}}
+Batch{1249884 num=1 start=281952869 end=281952869 flgs=0x5}:
+    RTC_WAKEUP #0: Alarm{c8de7a type 0 when 1514131199999 com.yulong.android.calendar tag:*walarm*:yulong.intent.action.CACULATE_UNALERT_AGENDA}
+      tag=*walarm*:yulong.intent.action.CACULATE_UNALERT_AGENDA
+      type=0 whenElapsed=+6h33m54s204ms when=2017-12-24 23:59:59
+      window=0 repeatInterval=0 count=0 flags=0x5
+      operation=PendingIntent{cce4b6c: PendingIntentRecord{593535 com.yulong.android.calendar startService}}
+Batch{d25586d num=1 start=284834582 end=284834582 flgs=0x5}:
+    RTC #0: Alarm{b260ca2 type 1 when 1514134081712 com.qihoo.appstore tag:*alarm*:CHECK_UPDATE_BACKGROUND}
+      tag=*alarm*:CHECK_UPDATE_BACKGROUND
+      type=1 whenElapsed=+7h21m55s917ms when=2017-12-25 00:48:01
+      window=0 repeatInterval=0 count=0 flags=0x5
+      operation=PendingIntent{57cecc5: PendingIntentRecord{af0572f com.qihoo.appstore startService}}
+Batch{e58ed33 num=1 start=284835120 end=284835120 flgs=0x5}:
+    RTC #0: Alarm{cf66846 type 1 when 1514134082250 com.qihoo.appstore tag:*alarm*:AUTO_UPDATE_APP_AND_SELF_BACKGROUND}
+      tag=*alarm*:AUTO_UPDATE_APP_AND_SELF_BACKGROUND
+      type=1 whenElapsed=+7h21m56s455ms when=2017-12-25 00:48:02
+      window=0 repeatInterval=0 count=0 flags=0x5
+      operation=PendingIntent{5e769de: PendingIntentRecord{79511ee com.qihoo.appstore startService}}
+Batch{c94b8f0 num=1 start=299676234 end=299676234 flgs=0x9}:
+    ELAPSED_WAKEUP #0: Alarm{54c0e69 type 2 when 299676234 android tag:*walarm*:android.net.wifi.DHCP_RENEW}
+      tag=*walarm*:android.net.wifi.DHCP_RENEW
+      type=2 whenElapsed=+11h29m17s569ms when=+11h29m17s569ms
+      window=0 repeatInterval=0 count=0 flags=0x9
+      operation=PendingIntent{206d6e3: PendingIntentRecord{b225912 android broadcastIntent}}
+Batch{bfc50ee num=1 start=314352870 end=314352870 flgs=0x5}:
+    RTC_WAKEUP #0: Alarm{7bb1fa3 type 0 when 1514163600000 com.yulong.android.calendar tag:*walarm*:yulong.intent.action.CUSTOMDAY_NEXTALERT}
+      tag=*walarm*:yulong.intent.action.CUSTOMDAY_NEXTALERT
+      type=0 whenElapsed=+15h33m54s205ms when=2017-12-25 09:00:00
+      window=0 repeatInterval=0 count=0 flags=0x5
+      operation=PendingIntent{86a21d4: PendingIntentRecord{9772f7d com.yulong.android.calendar broadcastIntent}}
+Batch{12b298f num=4 start=323991712 end=339253191 flgs=0x8}:
+    ELAPSED #3: Alarm{9a4741c type 3 when 323991712 com.yulong.android.ota tag:*alarm*:android.intent.action.ALARM_GET_STRATEGY}
+      tag=*alarm*:android.intent.action.ALARM_GET_STRATEGY
+      type=3 whenElapsed=+18h14m33s47ms when=+18h14m33s47ms
+      window=+13h44m31s692ms repeatInterval=65962256 count=0 flags=0x8
+      operation=PendingIntent{fe9411b: PendingIntentRecord{21e4456 com.yulong.android.ota startService}}
+    ELAPSED #2: Alarm{e2825 type 3 when 304662390 com.yulong.android.ota tag:*alarm*:android.intent.action.ALARM_GET_PUSH}
+      tag=*alarm*:android.intent.action.ALARM_GET_PUSH
+      type=3 whenElapsed=+12h52m23s725ms when=+12h52m23s725ms
+      window=+9h42m54s695ms repeatInterval=46632927 count=0 flags=0x8
+      operation=PendingIntent{e0922b8: PendingIntentRecord{a8632b7 com.yulong.android.ota startService}}
+    ELAPSED #1: Alarm{7f2f734 type 3 when 298753191 com.qiku.configcenter tag:*alarm*:com.qiku.intent.action.PERIODICAL_CHECK}
+      tag=*alarm*:com.qiku.intent.action.PERIODICAL_CHECK
+      type=3 whenElapsed=+11h13m54s526ms when=+11h13m54s526ms
+      window=+11h15m0s0ms repeatInterval=0 count=0 flags=0x0
+      operation=PendingIntent{f629326: PendingIntentRecord{9f8a3bf com.qiku.configcenter startService}}
+    RTC_WAKEUP #0: Alarm{671e3b3 type 0 when 1514127600000 com.qiku.powerengine tag:*walarm*:android.action.BROADCAST_WEIXIN_STANDBY}
+      tag=*walarm*:android.action.BROADCAST_WEIXIN_STANDBY
+      type=0 whenElapsed=+5h33m54s205ms when=2017-12-24 23:00:00
+      window=+18h0m0s0ms repeatInterval=86400000 count=0 flags=0x8
+      operation=PendingIntent{d9a2f3d: PendingIntentRecord{b38e332 com.qiku.powerengine broadcastIntent}}
+Batch{7e08dfa num=1 start=325152870 end=325152870 flgs=0x9}:
+    RTC #0: Alarm{bca1e59 type 1 when 1514174400000 android tag:*alarm*:android.intent.action.DATE_CHANGED}
+      tag=*alarm*:android.intent.action.DATE_CHANGED
+      type=1 whenElapsed=+18h33m54s205ms when=2017-12-25 12:00:00
+      window=0 repeatInterval=0 count=0 flags=0x9
+      operation=PendingIntent{5319395: PendingIntentRecord{b516caa android broadcastIntent}}
+Batch{f3acfab num=1 start=333487611 end=333487611 flgs=0x5}:
+    RTC #0: Alarm{65612ff type 1 when 1514182734741 com.qihoo.appstore tag:*alarm*:AUTO_UPDATE_APP_DAYTIME_AND_SELF_BACKGROUND}
+      tag=*alarm*:AUTO_UPDATE_APP_DAYTIME_AND_SELF_BACKGROUND
+      type=1 whenElapsed=+20h52m48s946ms when=2017-12-25 14:18:54
+      window=0 repeatInterval=0 count=0 flags=0x5
+      operation=PendingIntent{929e0a8: PendingIntentRecord{b08365 com.qihoo.appstore startService}}
+Batch{92b608 num=2 start=345044984 end=409404454 flgs=0x8}:
+    RTC #1: Alarm{41e21a1 type 1 when 1514194292114 com.sina.weibo tag:*alarm*:com.sina.weibo/.localpush.LocalPushAlarmReceiver}
+      tag=*alarm*:com.sina.weibo/.localpush.LocalPushAlarmReceiver
+      type=1 whenElapsed=+1d0h5m26s319ms when=2017-12-25 17:31:32
+      window=+18h0m0s0ms repeatInterval=86400000 count=0 flags=0x0
+      operation=PendingIntent{a2aaf8: PendingIntentRecord{92a8bd1 com.sina.weibo broadcastIntent}}
+    ELAPSED #0: Alarm{2998fc6 type 3 when 344604454 android tag:*alarm*:com.android.server.NetworkTimeUpdateService.action.POLL}
+      tag=*alarm*:com.android.server.NetworkTimeUpdateService.action.POLL
+      type=3 whenElapsed=+23h58m5s789ms when=+23h58m5s789ms
+      window=+18h0m0s0ms repeatInterval=0 count=0 flags=0x8
+      operation=PendingIntent{a86a407: PendingIntentRecord{5b82934 android broadcastIntent}}
+Batch{e54bb87 num=1 start=347215865 end=347215865 flgs=0x5}:
+    RTC #0: Alarm{c703f91 type 1 when 1514196462995 com.qihoo.appstore tag:*alarm*:com.qihoo.appstore.notificationCore}
+      tag=*alarm*:com.qihoo.appstore.notificationCore
+      type=1 whenElapsed=+1d0h41m37s200ms when=2017-12-25 18:07:42
+      window=0 repeatInterval=0 count=0 flags=0x5
+      operation=PendingIntent{2950d63: PendingIntentRecord{7788cd com.qihoo.appstore startService}}
+Batch{ca12ab4 num=1 start=352542474 end=352542474 flgs=0x5}:
+    RTC #0: Alarm{6da36dd type 1 when 1514201789604 com.qihoo.appstore tag:*alarm*:AUTO_GET_SINGIN_INFO_BACKGROUND_AND_SELF}
+      tag=*alarm*:AUTO_GET_SINGIN_INFO_BACKGROUND_AND_SELF
+      type=1 whenElapsed=+1d2h10m23s809ms when=2017-12-25 19:36:29
+      window=0 repeatInterval=0 count=0 flags=0x5
+      operation=PendingIntent{ffc8ecd: PendingIntentRecord{911a419 com.qihoo.appstore startService}}
+Batch{38ee252 num=11 start=886752871 end=1368266173}:
+    RTC #10: Alarm{57fa3d0 type 1 when 1514736000000 com.yulong.android.launcher3 tag:*alarm*:launcher.badge.adv.END}
+      tag=*alarm*:launcher.badge.adv.END
+      type=1 whenElapsed=+7d6h33m54s206ms when=2018-01-01 00:00:00
+      window=+5d13h45m13s306ms repeatInterval=0 count=0 flags=0x0
+      operation=PendingIntent{e026989: PendingIntentRecord{c24dd8e com.yulong.android.launcher3 broadcastIntent}}
+    RTC #9: Alarm{d032cfc type 1 when 1514736000000 com.yulong.android.launcher3 tag:*alarm*:launcher.badge.adv.END}
+      tag=*alarm*:launcher.badge.adv.END
+      type=1 whenElapsed=+7d6h33m54s206ms when=2018-01-01 00:00:00
+      window=+7d16h39m47s418ms repeatInterval=0 count=0 flags=0x0
+      operation=PendingIntent{8efbc25: PendingIntentRecord{30491fa com.yulong.android.launcher3 broadcastIntent}}
+    RTC #8: Alarm{4833793 type 1 when 1514736000000 com.yulong.android.launcher3 tag:*alarm*:launcher.badge.adv.END}
+      tag=*alarm*:launcher.badge.adv.END
+      type=1 whenElapsed=+7d6h33m54s206ms when=2018-01-01 00:00:00
+      window=+5d13h45m13s305ms repeatInterval=0 count=0 flags=0x0
+      operation=PendingIntent{107c9af: PendingIntentRecord{c1e61bc com.yulong.android.launcher3 broadcastIntent}}
+    RTC #7: Alarm{fe562f7 type 1 when 1514736000000 com.yulong.android.launcher3 tag:*alarm*:launcher.badge.adv.END}
+      tag=*alarm*:launcher.badge.adv.END
+      type=1 whenElapsed=+7d6h33m54s206ms when=2018-01-01 00:00:00
+      window=+7d16h44m11s952ms repeatInterval=0 count=0 flags=0x0
+      operation=PendingIntent{39d3806: PendingIntentRecord{ba6dec7 com.yulong.android.launcher3 broadcastIntent}}
+    RTC #6: Alarm{76166ce type 1 when 1514736000000 com.yulong.android.launcher3 tag:*alarm*:launcher.badge.adv.END}
+      tag=*alarm*:launcher.badge.adv.END
+      type=1 whenElapsed=+7d6h33m54s206ms when=2018-01-01 00:00:00
+      window=+7d16h39m47s432ms repeatInterval=0 count=0 flags=0x0
+      operation=PendingIntent{c342133: PendingIntentRecord{4c1dcf0 com.yulong.android.launcher3 broadcastIntent}}
+    RTC #5: Alarm{4c843cd type 1 when 1514736000000 com.yulong.android.launcher3 tag:*alarm*:launcher.badge.adv.END}
+      tag=*alarm*:launcher.badge.adv.END
+      type=1 whenElapsed=+7d6h33m54s206ms when=2018-01-01 00:00:00
+      window=+7d16h44m11s955ms repeatInterval=0 count=0 flags=0x0
+      operation=PendingIntent{8999448: PendingIntentRecord{c4242e1 com.yulong.android.launcher3 broadcastIntent}}
+    RTC #4: Alarm{b7b8482 type 1 when 1514736000000 com.yulong.android.launcher3 tag:*alarm*:launcher.badge.adv.END}
+      tag=*alarm*:launcher.badge.adv.END
+      type=1 whenElapsed=+7d6h33m54s206ms when=2018-01-01 00:00:00
+      window=+7d16h44m11s960ms repeatInterval=0 count=0 flags=0x0
+      operation=PendingIntent{a16b565: PendingIntentRecord{80e323a com.yulong.android.launcher3 broadcastIntent}}
+    RTC #3: Alarm{e224fc9 type 1 when 1514736000000 com.yulong.android.launcher3 tag:*alarm*:launcher.badge.adv.END}
+      tag=*alarm*:launcher.badge.adv.END
+      type=1 whenElapsed=+7d6h33m54s206ms when=2018-01-01 00:00:00
+      window=+5d13h45m13s302ms repeatInterval=0 count=0 flags=0x0
+      operation=PendingIntent{e1f1545: PendingIntentRecord{415449a com.yulong.android.launcher3 broadcastIntent}}
+    RTC #2: Alarm{31fb9ef type 1 when 1514736000000 com.yulong.android.launcher3 tag:*alarm*:launcher.badge.adv.END}
+      tag=*alarm*:launcher.badge.adv.END
+      type=1 whenElapsed=+7d6h33m54s206ms when=2018-01-01 00:00:00
+      window=+7d16h39m47s421ms repeatInterval=0 count=0 flags=0x0
+      operation=PendingIntent{3859d8f: PendingIntentRecord{17fd81c com.yulong.android.launcher3 broadcastIntent}}
+    RTC #1: Alarm{8f71f85 type 1 when 1514736000000 com.yulong.android.launcher3 tag:*alarm*:launcher.badge.adv.END}
+      tag=*alarm*:launcher.badge.adv.END
+      type=1 whenElapsed=+7d6h33m54s205ms when=2018-01-01 00:00:00
+      window=+7d16h39m47s413ms repeatInterval=0 count=0 flags=0x0
+      operation=PendingIntent{ec883ab: PendingIntentRecord{4c05a08 com.yulong.android.launcher3 broadcastIntent}}
+    RTC #0: Alarm{adc9564 type 1 when 1514736000000 com.yulong.android.launcher3 tag:*alarm*:launcher.badge.adv.END}
+      tag=*alarm*:launcher.badge.adv.END
+      type=1 whenElapsed=+7d6h33m54s205ms when=2018-01-01 00:00:00
+      window=+7d16h44m11s970ms repeatInterval=0 count=0 flags=0x0
+      operation=PendingIntent{58a47a9: PendingIntentRecord{36c312e com.yulong.android.launcher3 broadcastIntent}}
+Batch{a378923 num=1 start=1513924115197 end=1513925015197 flgs=0x8}:
+    ELAPSED #0: Alarm{658060b type 3 when 1513924115197 com.tencent.mm tag:*alarm*:action.scheduler.access.trigger.timer}
+      tag=*alarm*:action.scheduler.access.trigger.timer
+      type=3 whenElapsed=+17519d6h43m16s532ms when=+17519d6h43m16s532ms
+      window=+15m0s0ms repeatInterval=1200000 count=0 flags=0x8
+      operation=PendingIntent{d476fc8: PendingIntentRecord{829b861 com.tencent.mm broadcastIntent}}
+Batch{9803e20 num=1 start=1513937660263 end=1513937660263 flgs=0x9}:
+    ELAPSED #0: Alarm{a8f2f01 type 3 when 1513937660263 com.tencent.mobileqq tag:*alarm*:action.scheduler.access.trigger.timer}
+      tag=*alarm*:action.scheduler.access.trigger.timer
+      type=3 whenElapsed=+17519d10h29m1s598ms when=+17519d10h29m1s598ms
+      window=0 repeatInterval=1200000 count=0 flags=0x9
+      operation=PendingIntent{490bab1: PendingIntentRecord{f2a8898 com.tencent.mobileqq broadcastIntent}}
+
+  Past-due non-wakeup alarms: (none)
+    Number of delayed alarms: 1843, total delay time: +2d10h50m14s790ms
+    Max delay time: +1h6m48s991ms, max non-interactive time: +1d18h36m9s195ms
+
+  Broadcast ref count: 0
+
+  mAllowWhileIdleMinTime=+5s0ms
+  Last allow while idle dispatch times:
+  UID u0a7: -8h26m4s613ms
+  UID u0a10: -3m41s697ms
+  UID u0a111: -8m15s748ms
+
+  Top Alarms:
+    +1m5s271ms running, 0 wakeups, 59 alarms: 1000:android
+      *alarm*:android.content.jobscheduler.JOB_DELAY_EXPIRED
+    +60s654ms running, 0 wakeups, 698 alarms: u0a106:com.tencent.mm
+      *alarm*:com.tencent.mm.TrafficStatsReceiver
+    +37s556ms running, 0 wakeups, 716 alarms: 1000:android
+      *alarm*:android.intent.action.TIME_TICK
+    +22s938ms running, 1 wakeups, 1 alarms: u0a7:com.yulong.android.calendar
+      *walarm*:com.android.providers.calendar.intent.CalendarProvider2
+    +22s876ms running, 0 wakeups, 261 alarms: u0a106:com.tencent.mm
+      *alarm*:ALARM_ACTION(5093)
+    +22s661ms running, 0 wakeups, 276 alarms: u0a106:com.tencent.mm
+      *alarm*:com.tencent.mm/.booter.MMReceivers$AlarmReceiver
+    +21s628ms running, 44 wakeups, 44 alarms: u0a106:com.tencent.mm
+      *walarm*:ALARM_ACTION(5715)
+    +19s938ms running, 0 wakeups, 144 alarms: 1000:android
+      *alarm*:com.android.server.action.NETWORK_STATS_POLL
+    +16s672ms running, 0 wakeups, 183 alarms: u0a111:com.tencent.mobileqq
+      *alarm*:com.tencent.mobileqq:MSF_44949136
+    +15s97ms running, 0 wakeups, 8 alarms: 1000:android
+      *alarm*:android.content.jobscheduler.JOB_DEADLINE_EXPIRED
+ 
+  Alarm Stats:
+  1000:com.qiku.logsystem +2s282ms running, 0 wakeups:
+    +2s282ms 0 wakes 162 alarms, last -1m14s295ms:
+      *alarm*:com.qiku.logsystem/.services.ControlDispatchService
+  1000:com.yulong.android.ota +2s52ms running, 0 wakeups:
+    +1s706ms 0 wakes 8 alarms, last -8h26m4s613ms:
+      *alarm*:com.qiku.ota.alarm.showdialog
+    +1s588ms 0 wakes 9 alarms, last -8h26m4s613ms:
+      *alarm*:com.qiku.ota.alarm.visit
+    +259ms 0 wakes 13 alarms, last -4m47s151ms:
+      *alarm*:android.intent.action.ALARM_GET_PUSH
+    +211ms 0 wakes 12 alarms, last -4m47s151ms:
+      *alarm*:android.intent.action.ALARM_GET_STRATEGY
+    +35ms 0 wakes 2 alarms, last -2d23h36m16s879ms:
+      *alarm*:com.qiku.ota.alarm.retrydownload
+  1000:android +1m41s817ms running, 46 wakeups:
+    +1m5s271ms 0 wakes 59 alarms, last -5m9s803ms:
+      *alarm*:android.content.jobscheduler.JOB_DELAY_EXPIRED
+    +37s556ms 0 wakes 716 alarms, last -5s795ms:
+      *alarm*:android.intent.action.TIME_TICK
+    +19s938ms 0 wakes 144 alarms, last -10m28s282ms:
+      *alarm*:com.android.server.action.NETWORK_STATS_POLL
+    +15s97ms 0 wakes 8 alarms, last -2h8m52s168ms:
+      *alarm*:android.content.jobscheduler.JOB_DEADLINE_EXPIRED
+    +643ms 24 wakes 24 alarms, last -8h33m31s815ms:
+      *walarm*:com.android.server.device_idle.STEP_IDLE_STATE
+    +507ms 0 wakes 3 alarms, last -5h20m14s385ms:
+      *alarm*:android.intent.action.DATE_CHANGED
+    +320ms 14 wakes 14 alarms, last -1h41m52s780ms:
+      *walarm*:android.content.syncmanager.SYNC_ALARM
+    +297ms 3 wakes 3 alarms, last -1d21h7m14s792ms:
+      *walarm*:com.android.server.task.controllers.IdleController.ACTION_TRIGGER_IDLE
+    +273ms 0 wakes 5 alarms, last -9h20m0s358ms:
+      *alarm*:com.android.server.action.UPDATE_TWILIGHT_STATE
+    +219ms 5 wakes 5 alarms, last -4h56m35s102ms:
+      *walarm*:android.net.wifi.DHCP_RENEW
+    +96ms 0 wakes 2 alarms, last -1d15h30m33s582ms:
+      *alarm*:android.content.syncmanager.SYNC_ALARM
+    +89ms 0 wakes 2 alarms, last -2h58m17s297ms:
+      *alarm*:com.android.server.NetworkTimeUpdateService.action.POLL
+  1000:com.qiku.powerengine +254ms running, 3 wakeups:
+    +164ms 0 wakes 3 alarms, last -2h28m33s183ms:
+      *alarm*:android.action.BROADCAST_WEIXIN_STANDBY
+    +90ms 3 wakes 3 alarms, last -18h20m23s306ms:
+      *walarm*:android.action.BROADCAST_WEIXIN_STANDBY
+  u0a7:com.yulong.android.calendar +23s354ms running, 7 wakeups:
+    +22s938ms 1 wakes 1 alarms, last -2d23h44m3s508ms:
+      *walarm*:com.android.providers.calendar.intent.CalendarProvider2
+    +293ms 3 wakes 3 alarms, last -8h26m4s613ms:
+      *walarm*:yulong.intent.action.CUSTOMDAY_NEXTALERT
+    +123ms 3 wakes 3 alarms, last -17h25m55s854ms:
+      *walarm*:yulong.intent.action.CACULATE_UNALERT_AGENDA
+  u0a10:com.qihoo.appstore +1s507ms running, 0 wakeups:
+    +313ms 0 wakes 5 alarms, last -1d22h7m48s8ms:
+      *alarm*:BackgroundExecutors.AlarmExecutor_alarmManagerSet_onReceive_242915663
+    +284ms 0 wakes 9 alarms, last -2d3h31m54s765ms:
+      *alarm*:BackgroundExecutors.AlarmExecutor_alarmManagerSet_onReceive_76386026
+    +265ms 0 wakes 14 alarms, last -1d15h30m33s582ms:
+      *alarm*:TAKE_PUSH_KEEPALIVE
+    +209ms 0 wakes 11 alarms, last -3m41s697ms:
+      *alarm*:RESTART_PUSH
+    +131ms 0 wakes 3 alarms, last -1h43m5s793ms:
+      *alarm*:BackgroundExecutors.AlarmExecutor_alarmManagerSet_onReceive_171815171
+    +121ms 0 wakes 4 alarms, last -1d5h22m5s572ms:
+      *alarm*:CHECK_APPSTORE_UPDATE_BACKGROUND
+    +91ms 0 wakes 3 alarms, last -14h27m41s872ms:
+      *alarm*:CHECK_UPDATE_BACKGROUND
+    +89ms 0 wakes 3 alarms, last -11h20m8s739ms:
+      *alarm*:AUTO_UPDATE_APP_AND_SELF_BACKGROUND
+    +55ms 0 wakes 2 alarms, last -1h48m11s79ms:
+      *alarm*:AUTO_UPDATE_APP_DAYTIME_AND_SELF_BACKGROUND
+    +51ms 0 wakes 3 alarms, last -23h18m22s836ms:
+      *alarm*:com.qihoo.appstore.notificationCore
+    +16ms 0 wakes 1 alarms, last -22h26m24s581ms:
+      *alarm*:AUTO_GET_SINGIN_INFO_BACKGROUND_AND_SELF
+    +14ms 0 wakes 1 alarms, last -1d15h30m33s582ms:
+      *alarm*:CHECK_UPDATE_BACKGROUND_AFTER_SELF
+  u0a11:com.qiku.android.cloudsync +699ms running, 25 wakeups:
+    +699ms 25 wakes 25 alarms, last -20m17s968ms:
+      *walarm*:com.xmpp.action.ALARM_TIMEUP
+  u0a21:com.android.mms +61ms running, 2 wakeups:
+    +61ms 2 wakes 2 alarms, last -2d23h41m55s969ms:
+      *walarm*:com.yulong.android.contacts.startSimImportService
+  u0a48:com.yulong.android.launcher3 +4s217ms running, 0 wakeups:
+    +3s427ms 0 wakes 26 alarms, last -40m20s582ms:
+      *alarm*:com.yulong.android.launcher3.freezer.unused
+    +1s465ms 0 wakes 12 alarms, last -3h11m53s270ms:
+      *alarm*:qiku.launcher.action.data.report
+    +1s435ms 0 wakes 11 alarms, last -3h43m33s222ms:
+      *alarm*:com.yulong.android.launcher3.location.get
+    +1s329ms 0 wakes 12 alarms, last -2h43m33s185ms:
+      *alarm*:qiku.launcher.action.click.report
+    +1s132ms 0 wakes 10 alarms, last -3h46m32s851ms:
+      *alarm*:com.yulong.android.launcher3.AppConf
+    +21ms 0 wakes 1 alarms, last -1d16h18m2s171ms:
+      *alarm*:launcher.badge.adv.END
+  u0a54:com.yulong.android.xtime +58ms running, 1 wakeups:
+    +58ms 1 wakes 1 alarms, last -2d23h29m2s135ms:
+      *walarm*:android.com.baidu.location.TIMER.NOTIFY
+  u0a72:com.qiku.configcenter +71ms running, 0 wakeups:
+    +71ms 0 wakes 4 alarms, last -3h46m5s478ms:
+      *alarm*:com.qiku.intent.action.PERIODICAL_CHECK
+  u0a80:com.qiku.widget3d +1s305ms running, 0 wakeups:
+    +1s305ms 0 wakes 8 alarms, last -3h46m5s478ms:
+      *alarm*:com.qiku.widget3d.AppConf
+  u0a93:com.qiku.cardmanager +1s528ms running, 0 wakeups:
+    +1s465ms 0 wakes 10 alarms, last -3h46m5s478ms:
+      *alarm*:com.qiku.utils.update.action.UPDATE_CHECK
+    +154ms 0 wakes 8 alarms, last -3h39m11s963ms:
+      *alarm*:com.qiku.cardmanager.config.FETCHCONFIG
+  u0a106:com.tencent.mm +1m8s349ms running, 64 wakeups:
+    +60s654ms 0 wakes 698 alarms, last -2m7s64ms:
+      *alarm*:com.tencent.mm.TrafficStatsReceiver
+    +22s876ms 0 wakes 261 alarms, last -1m50s969ms:
+      *alarm*:ALARM_ACTION(5093)
+    +22s661ms 0 wakes 276 alarms, last -8m15s748ms:
+      *alarm*:com.tencent.mm/.booter.MMReceivers$AlarmReceiver
+    +21s628ms 44 wakes 44 alarms, last -2d4h26m44s814ms:
+      *walarm*:ALARM_ACTION(5715)
+    +5s117ms 0 wakes 71 alarms, last -2d3h22m54s684ms:
+      *alarm*:ALARM_ACTION(5715)
+    +668ms 10 wakes 10 alarms, last -2d21h13m30s884ms:
+      *walarm*:com.tencent.mm/.booter.MMReceivers$AlarmReceiver
+    +531ms 6 wakes 6 alarms, last -2h37m51s131ms:
+      *walarm*:ALARM_ACTION(5093)
+    +101ms 2 wakes 2 alarms, last -2d23h13m8s656ms:
+      *walarm*:ALARM_ACTION(9046)
+    +83ms 1 wakes 1 alarms, last -2d23h33m18s665ms:
+      *walarm*:ALARM_ACTION(7793)
+    +43ms 0 wakes 2 alarms, last -2d2h12m46s452ms:
+      *alarm*:ALARM_ACTION(5131)
+    +41ms 1 wakes 1 alarms, last -2d23h33m18s665ms:
+      *walarm*:com.tencent.mm/com.tencent.recovery.service.RecoveryReportService
+    +40ms 0 wakes 1 alarms, last -2d23h33m18s665ms:
+      *alarm*:ALARM_ACTION(3108)
+  u0a111:com.tencent.mobileqq +24s585ms running, 79 wakeups:
+    +16s672ms 0 wakes 183 alarms, last -8m15s748ms:
+      *alarm*:com.tencent.mobileqq:MSF_44949136
+    +4s310ms 0 wakes 49 alarms, last -2d3h22m54s684ms:
+      *alarm*:com.tencent.mobileqq:MSF_204406670
+    +2s808ms 63 wakes 63 alarms, last -2d4h34m13s830ms:
+      *walarm*:com.tencent.mobileqq:MSF_204406670
+    +817ms 0 wakes 3 alarms, last -17h25m55s854ms:
+      *alarm*:MSF_Action_Refresh_Steps
+    +785ms 0 wakes 4 alarms, last -15h27m50s890ms:
+      *alarm*:com.tencent.mobileqq.rdm.report
+    +518ms 0 wakes 2 alarms, last -1d20h10m32s864ms:
+      *alarm*:StepAlarmReceiver_action_report
+    +419ms 16 wakes 16 alarms, last -2h28m3s152ms:
+      *walarm*:com.tencent.mobileqq:MSF_44949136
+  u0a179:com.sina.weibo +291ms running, 0 wakeups:
+    +267ms 0 wakes 18 alarms, last -6m38s145ms:
+      *alarm*:com.sina.heartbeat.action.1004
+    +15ms 0 wakes 1 alarms, last -1h16m55s754ms:
+      *alarm*:com.sina.pushtask.isruning.action.1004
+    +9ms 0 wakes 1 alarms, last -1h26m54s347ms:
+      *alarm*:com.huawei.intent.action.PUSH_OFF
+  u0a197:com.eg.android.AlipayGphone +74ms running, 0 wakeups:
+    +70ms 0 wakes 1 alarms, last -1h26m12s185ms:
+      *alarm*:com.eg.android.AlipayGphone.push.action.CHECK
+    +4ms 0 wakes 1 alarms, last -1h31m7s73ms:
+      *alarm*:com.eg.android.AlipayGphone.push.action.CONNECT

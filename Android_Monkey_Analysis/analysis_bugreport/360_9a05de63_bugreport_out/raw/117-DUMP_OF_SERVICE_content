@@ -1,0 +1,557 @@
+data connected: true
+auto sync: u0=true 
+memory low: false
+device idle: false
+accounts: 5
+now: 258319260 (2017-12-24 17:26:06)
+offset: 7:44:13 (HH:MM:SS)
+uptime: 71:45:19 (HH:MM:SS)
+time spent syncing: 00:03 (HH:MM:SS), sync not in progress
+next alarm time: 259405872 (18:06 (HH:MM:SS) from now)
+
+Active Syncs: 0
+
+SyncQueue: 0 operation(s)
+Pending Ops: 0 operation(s)
+
+Sync Status
+Account ç¿æ³æ°´ä¸¶ u0 com.sina.weibo.account
+=======================================================================
+Authority                      Syncable  Enabled  Delay  Loc  Poll  Per  Serv  User  Tot  Time   Last Sync            Periodic  
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+com.android.contacts           1         true            0    1     1    1     0     45   00:03  PERIODIC SUCCESS     [p:86400 s, f: 3456 s] Bundle[]  
+                                                                                                 2017-12-24 15:59:08  Next sync: 2017-12-25 15:59:08  
+com.sina.weibo.sync.authority  1         true            0    1     1    1     12    150  07:11  PERIODIC SUCCESS     [p:7200 s, f: 144 s] Bundle[]  
+                                                                                                 2017-12-24 15:59:11  Next sync: 2017-12-24 17:59:08  
+Account 360æµè§å¨ u0 com.qihoo.browser.account
+=======================================================================
+Authority                               Syncable  Enabled  Delay  Loc  Poll  Per  Serv  User  Tot  Time   Last Sync            Periodic  
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+com.qihoo.browser.account.syncprovider  1         true            0    32    5    1     0     470  00:45  PERIODIC SUCCESS     [p:7200 s, f: 36 s] Bundle[]  
+                                                                                                          2017-12-24 13:39:33  Next sync: 2017-12-24 17:44:13  
+Account åèº«å¤§å¸ u0 com.qihoo.magic
+=======================================================================
+Authority                             Syncable  Enabled  Delay  Loc  Poll  Per  Serv  User  Tot  Time   Last Sync            Periodic  
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+com.qihoo.magic.account.syncprovider  1         true            0    2     0    1     0     88   00:06  PERIODIC SUCCESS     [p:7200 s, f: 48 s] Bundle[]  
+                                                                                                        2017-05-22 21:14:05  Next sync: 2017-12-24 17:44:13  
+Account æ°æµªæ°é» u0 sina_news_account
+=======================================================================
+Authority               Syncable  Enabled  Delay  Loc  Poll  Per  Serv  User  Tot  Time   Last Sync            Periodic  
+----------------------------------------------------------------------------------------------------------------------------------------------
+com.sina.news.provider  1         true            0    0     0    0     0     3    00:00  PERIODIC SUCCESS     [p:43200 s, f: 1728 s] Bundle[]  
+                                                                                          2017-12-04 10:59:04  Next sync: 2017-12-04 22:59:04  
+Account m17301365843@163.com u0 com.netease.mobimail
+=======================================================================
+Authority                   Syncable  Enabled  Delay  Loc  Poll  Per  Serv  User  Tot  Time   Last Sync            Periodic  
+-------------------------------------------------------------------------------------------------------------------------------------------------
+com.netease.mobimail.email  1         true            0    0     0    1     0     1    00:00  SERVER SUCCESS       [p:900 s, f: 36 s] Bundle[]  
+                                                                                              2017-05-30 20:21:31  Next sync: 2017-05-30 20:36:31  
+
+Detailed Statistics (Recent history):  26 (# of times) 3s (sync time)
+-----------------------------------------------------------------
+  com.qihoo.browser.account.syncprovider  : 21/80%     0s/12%     
+    360æµè§å¨/com.qihoo.browser.account u0   :   21/80%     0s/12%     
+-----------------------------------------------------------------
+  com.qihoo.magic.account.syncprovider    : 3/11%      0s/0%      
+    åèº«å¤§å¸/com.qihoo.magic u0               :   3/11%      0s/0%      
+-----------------------------------------------------------------
+  com.sina.weibo.sync.authority           : 1/3%       3s/86%     
+    ç¿æ³æ°´ä¸¶/com.sina.weibo.account u0        :   1/3%       3s/86%     
+-----------------------------------------------------------------
+  com.android.contacts                    : 1/3%       0s/0%      
+    ç¿æ³æ°´ä¸¶/com.sina.weibo.account u0        :   1/3%       0s/0%      
+-----------------------------------------------------------------
+
+Recent Sync History
+  #1  : 2017-12-24 15:59:08 PERIODIC    3.1s            ç¿æ³æ°´ä¸¶/com.sina.weibo.account u0       com.sina.weibo.sync.authority          Periodic
+  #2  : 2017-12-24 15:59:08 PERIODIC    0.0s            ç¿æ³æ°´ä¸¶/com.sina.weibo.account u0       com.android.contacts                   Periodic
+  #3  : 2017-12-24 15:44:13 PERIODIC    0.0s            360æµè§å¨/com.qihoo.browser.account u0  com.qihoo.browser.account.syncprovider Periodic
+    event=0 upstreamActivity=0 downstreamActivity=0
+  #4  : 2017-12-24 13:39:33 PERIODIC    0.1s  02:04:39  360æµè§å¨/com.qihoo.browser.account u0  com.qihoo.browser.account.syncprovider Periodic
+  #5  : 2017-12-24 08:50:23 PERIODIC    0.0s  04:49:09  360æµè§å¨/com.qihoo.browser.account u0  com.qihoo.browser.account.syncprovider Periodic
+  #6  : 2017-12-23 20:51:28 PERIODIC    0.0s            åèº«å¤§å¸/com.qihoo.magic u0              com.qihoo.magic.account.syncprovider   Periodic
+    event=0 upstreamActivity=0 downstreamActivity=0
+  #7  : 2017-12-23 20:51:28 PERIODIC    0.0s  11:58:55  360æµè§å¨/com.qihoo.browser.account u0  com.qihoo.browser.account.syncprovider Periodic
+  #8  : 2017-12-23 08:59:37 PERIODIC    0.0s  11:51:51  360æµè§å¨/com.qihoo.browser.account u0  com.qihoo.browser.account.syncprovider Periodic
+  #9  : 2017-12-23 01:06:02 PERIODIC    0.0s  07:53:34  360æµè§å¨/com.qihoo.browser.account u0  com.qihoo.browser.account.syncprovider Periodic
+    event=0 upstreamActivity=0 downstreamActivity=0
+  #10 : 2017-12-22 21:15:33 PERIODIC    0.0s  03:50:29  360æµè§å¨/com.qihoo.browser.account u0  com.qihoo.browser.account.syncprovider Periodic
+    event=0 upstreamActivity=0 downstreamActivity=0
+  #11 : 2017-12-22 18:17:19 PERIODIC    0.0s  26:34:08  åèº«å¤§å¸/com.qihoo.magic u0              com.qihoo.magic.account.syncprovider   Periodic
+    event=0 upstreamActivity=0 downstreamActivity=0
+  #12 : 2017-12-22 18:17:19 PERIODIC    0.0s  02:58:13  360æµè§å¨/com.qihoo.browser.account u0  com.qihoo.browser.account.syncprovider Periodic
+    event=0 upstreamActivity=0 downstreamActivity=0
+  #13 : 2017-12-22 16:39:27 PERIODIC    0.0s  01:37:52  360æµè§å¨/com.qihoo.browser.account u0  com.qihoo.browser.account.syncprovider Periodic
+    event=0 upstreamActivity=0 downstreamActivity=0
+  #14 : 2017-12-22 15:01:47     POLL    0.0s  01:37:39  360æµè§å¨/com.qihoo.browser.account u0  com.qihoo.browser.account.syncprovider AccountsUpdated
+    event=0 upstreamActivity=0 downstreamActivity=0
+  #15 : 2017-12-22 15:01:47     POLL    0.0s         0  360æµè§å¨/com.qihoo.browser.account u0  com.qihoo.browser.account.syncprovider AccountsUpdated
+    event=0 upstreamActivity=0 downstreamActivity=0
+  #16 : 2017-12-22 14:00:39 PERIODIC    0.0s  01:01:07  360æµè§å¨/com.qihoo.browser.account u0  com.qihoo.browser.account.syncprovider Periodic
+    event=0 upstreamActivity=0 downstreamActivity=0
+  #17 : 2017-12-22 11:44:15 PERIODIC    0.0s  02:16:24  360æµè§å¨/com.qihoo.browser.account u0  com.qihoo.browser.account.syncprovider Periodic
+    event=0 upstreamActivity=0 downstreamActivity=0
+  #18 : 2017-12-22 09:39:50     POLL    0.0s  02:04:25  360æµè§å¨/com.qihoo.browser.account u0  com.qihoo.browser.account.syncprovider AccountsUpdated
+    event=0 upstreamActivity=0 downstreamActivity=0
+  #19 : 2017-12-22 09:28:59 PERIODIC    0.0s     10:51  360æµè§å¨/com.qihoo.browser.account u0  com.qihoo.browser.account.syncprovider Periodic
+    event=0 upstreamActivity=0 downstreamActivity=0
+  #20 : 2017-12-22 01:33:23 PERIODIC    0.0s  07:55:36  360æµè§å¨/com.qihoo.browser.account u0  com.qihoo.browser.account.syncprovider Periodic
+    event=0 upstreamActivity=0 downstreamActivity=0
+  #21 : 2017-12-21 19:44:13 PERIODIC    0.0s  05:49:09  360æµè§å¨/com.qihoo.browser.account u0  com.qihoo.browser.account.syncprovider Periodic
+    event=0 upstreamActivity=0 downstreamActivity=0
+  #22 : 2017-12-21 18:01:43     POLL    0.0s  01:42:29  360æµè§å¨/com.qihoo.browser.account u0  com.qihoo.browser.account.syncprovider AccountsUpdated
+  #23 : 2017-12-21 18:01:43     POLL    0.1s         0  360æµè§å¨/com.qihoo.browser.account u0  com.qihoo.browser.account.syncprovider AccountsUpdated
+  #24 : 2017-12-21 18:00:51     POLL    0.1s        51  360æµè§å¨/com.qihoo.browser.account u0  com.qihoo.browser.account.syncprovider AccountsUpdated
+  #25 : 2017-12-21 17:42:05 PERIODIC    0.0s  24:35:13  åèº«å¤§å¸/com.qihoo.magic u0              com.qihoo.magic.account.syncprovider   Periodic
+    event=0 upstreamActivity=0 downstreamActivity=0
+  #26 : 2017-12-21 17:42:05 PERIODIC    0.1s     18:45  360æµè§å¨/com.qihoo.browser.account u0  com.qihoo.browser.account.syncprovider Periodic
+
+Recent Sync History Extras
+
+Sync Statistics
+  Today:  Success (4 for 3.2s avg=0.8s) Failure (0)
+  Day-1:  Success (2 for 0.0s avg=0.0s) Failure (0)
+  Day-2:  Success (1 for 0.0s avg=0.0s) Failure (0)
+  Day-3:  Success (8 for 0.5s avg=0.0s) Failure (0)
+  Week-1: Success (2 for 0.1s avg=0.0s) Failure (0)
+  Week-2: Success (6 for 0.2s avg=0.0s) Failure (0)
+  Week-3: Success (1 for 0.0s avg=0.0s) Failure (0)
+  Week-6: Success (16 for 0.8s avg=0.0s) Failure (0)
+  Week-7: Success (5 for 0.2s avg=0.0s) Failure (0)
+  Week-8: Success (16 for 4.6s avg=0.2s) Failure (0)
+  Week-9: Success (17 for 1.1s avg=0.0s) Failure (0)
+  Week-10: Success (16 for 12.3s avg=0.7s) Failure (0)
+
+Sync adapters for UserInfo{0:æºä¸»:13}:
+  ServiceInfo: SyncAdapterType {name=com.android.contacts, type=com.tencent.mobileqq.account, userVisible=true, supportsUploading=false, isAlwaysSyncable=false, allowParallelSyncs=false, settingsActivity=null}, ComponentInfo{com.tencent.mobileqq/com.tencent.mobileqq.contactsync.syncadapter.SyncService}, uid 10111
+  ServiceInfo: SyncAdapterType {name=com.sina.news.provider, type=sina_news_account, userVisible=false, supportsUploading=false, isAlwaysSyncable=true, allowParallelSyncs=false, settingsActivity=null}, ComponentInfo{com.sina.news/com.sina.news.accountSync.SinaAccountService}, uid 10110
+  ServiceInfo: SyncAdapterType {name=com.android.calendar, type=com.netease.mobimail.exchange, userVisible=true, supportsUploading=true, isAlwaysSyncable=true, allowParallelSyncs=false, settingsActivity=null}, ComponentInfo{com.netease.mobimail.qiku/com.netease.mobimail.service.SyncCalendarService}, uid 10090
+  ServiceInfo: SyncAdapterType {name=com.android.contacts, type=com.tencent.mm.account, userVisible=true, supportsUploading=false, isAlwaysSyncable=false, allowParallelSyncs=false, settingsActivity=null}, ComponentInfo{com.tencent.mm/com.tencent.mm.plugin.accountsync.model.ContactsSyncService}, uid 10106
+  ServiceInfo: SyncAdapterType {name=com.qihoo.browser.account.syncprovider, type=com.qihoo.browser.account, userVisible=true, supportsUploading=false, isAlwaysSyncable=true, allowParallelSyncs=false, settingsActivity=null}, ComponentInfo{com.qihoo.browser/com.qihoo.browser.keepalive.account.SyncService}, uid 10049
+  ServiceInfo: SyncAdapterType {name=com.netease.mobimail.email, type=com.netease.mobimail.exchange, userVisible=true, supportsUploading=true, isAlwaysSyncable=true, allowParallelSyncs=false, settingsActivity=null}, ComponentInfo{com.netease.mobimail.qiku/com.netease.mobimail.service.ExchangeSyncEmailServices}, uid 10090
+  ServiceInfo: SyncAdapterType {name=com.eg.android.AlipayGphone.account.syncprovider, type=com.eg.android.AlipayGphone, userVisible=true, supportsUploading=false, isAlwaysSyncable=true, allowParallelSyncs=false, settingsActivity=null}, ComponentInfo{com.eg.android.AlipayGphone/com.alipay.mobile.healthcommon.accountsync.SyncService}, uid 10197
+  ServiceInfo: SyncAdapterType {name=com.sina.weibo.sync.authority, type=com.sina.weibo.account, userVisible=false, supportsUploading=false, isAlwaysSyncable=true, allowParallelSyncs=false, settingsActivity=null}, ComponentInfo{com.sina.weibo/com.sina.weibo.sync.guard.GuardSyncService}, uid 10179
+  ServiceInfo: SyncAdapterType {name=com.netease.mobimail.email, type=com.netease.mobimail, userVisible=true, supportsUploading=true, isAlwaysSyncable=true, allowParallelSyncs=false, settingsActivity=null}, ComponentInfo{com.netease.mobimail.qiku/com.netease.mobimail.service.SyncEmailService}, uid 10090
+  ServiceInfo: SyncAdapterType {name=com.example.administrator.ndkapplication.MainProcessContentProvider, type=com.tencent.android.qqdownloader, userVisible=true, supportsUploading=false, isAlwaysSyncable=true, allowParallelSyncs=false, settingsActivity=null}, ComponentInfo{com.tencent.android.qqdownloader/com.tencent.pangu.utils.process.common.MainAccountSyncService}, uid 10129
+  ServiceInfo: SyncAdapterType {name=com.moji.mjweather.account, type=com.moji.mjweather.authaccount, userVisible=false, supportsUploading=false, isAlwaysSyncable=true, allowParallelSyncs=false, settingsActivity=null}, ComponentInfo{com.moji.mjweather/com.moji.appwidget.daemon.syncaccount.SyncService}, uid 10101
+  ServiceInfo: SyncAdapterType {name=com.qihoo.magic.account.syncprovider, type=com.qihoo.magic, userVisible=true, supportsUploading=false, isAlwaysSyncable=true, allowParallelSyncs=false, settingsActivity=null}, ComponentInfo{com.qihoo.magic/com.daemon.sdk.core.service.AccountSyncService}, uid 10001
+  ServiceInfo: SyncAdapterType {name=com.android.contacts, type=com.sina.weibo.account, userVisible=true, supportsUploading=false, isAlwaysSyncable=false, allowParallelSyncs=false, settingsActivity=null}, ComponentInfo{com.sina.weibo/com.sina.weibo.sync.contact.ContactsSyncService}, uid 10179
+  ServiceInfo: SyncAdapterType {name=com.qihoo.appstore.account.syncprovider, type=com.qihoo.appstore.account, userVisible=true, supportsUploading=false, isAlwaysSyncable=true, allowParallelSyncs=false, settingsActivity=null}, ComponentInfo{com.qihoo.appstore/com.qihoo.appstore.keepalive.account.SyncServiceNew}, uid 10010
+  ServiceInfo: SyncAdapterType {name=com.android.contacts, type=com.netease.mobimail.exchange, userVisible=true, supportsUploading=true, isAlwaysSyncable=true, allowParallelSyncs=false, settingsActivity=null}, ComponentInfo{com.netease.mobimail.qiku/com.netease.mobimail.service.SyncContactService}, uid 10090
+  ServiceInfo: SyncAdapterType {name=com.qihoo360.mobilesafe.accountsync.syncprovider, type=com.qihoo360.mobilesafe.accountsync, userVisible=true, supportsUploading=false, isAlwaysSyncable=true, allowParallelSyncs=false, settingsActivity=null}, ComponentInfo{com.qihoo360.mobilesafe/com.qihoo360.mobilesafe.accountsync.SyncServiceXYZ}, uid 10004
+
+
+Observer tree:
+  settings/secure/long_press_timeout: pid=1546 uid=1000 user=0 target=661bd39
+  settings/secure/show_ime_with_hard_keyboard: pid=1546 uid=1000 user=-1 target=25b1f7e
+  settings/secure/show_ime_with_hard_keyboard: pid=1546 uid=1000 user=0 target=dd8fcdf
+  settings/secure/accessibility_display_inversion_enabled: pid=1546 uid=1000 user=-1 target=25b1f7e
+  settings/secure/accessibility_display_inversion_enabled: pid=1546 uid=1000 user=-1 target=5e9cd2c
+  settings/secure/incall_power_button_behavior: pid=1546 uid=1000 user=-1 target=d17f3f5
+  settings/secure/wake_gesture_enabled: pid=1546 uid=1000 user=-1 target=d17f3f5
+  settings/secure/default_input_method: pid=1546 uid=1000 user=-1 target=d17f3f5
+  settings/secure/default_input_method: pid=1546 uid=1000 user=0 target=dd8fcdf
+  settings/secure/immersive_mode_confirmations: pid=1546 uid=1000 user=-1 target=d17f3f5
+  settings/secure/dual_instance_enable: pid=1546 uid=1000 user=-1 target=405b58a
+  settings/secure/enabled_input_methods: pid=1546 uid=1000 user=0 target=dd8fcdf
+  settings/secure/selected_input_method_subtype: pid=1546 uid=1000 user=0 target=dd8fcdf
+  settings/secure/accessibility_enabled: pid=1546 uid=1000 user=-1 target=5e9cd2c
+  settings/secure/touch_exploration_enabled: pid=1546 uid=1000 user=-1 target=5e9cd2c
+  settings/secure/accessibility_display_magnification_enabled: pid=1546 uid=1000 user=-1 target=5e9cd2c
+  settings/secure/enabled_accessibility_services: pid=1546 uid=1000 user=-1 target=5e9cd2c
+  settings/secure/touch_exploration_granted_accessibility_services: pid=1546 uid=1000 user=-1 target=5e9cd2c
+  settings/secure/accessibility_script_injection: pid=1546 uid=1000 user=-1 target=5e9cd2c
+  settings/secure/accessibility_display_daltonizer_enabled: pid=1546 uid=1000 user=-1 target=5e9cd2c
+  settings/secure/accessibility_display_daltonizer: pid=1546 uid=1000 user=-1 target=5e9cd2c
+  settings/secure/high_text_contrast_enabled: pid=1546 uid=1000 user=-1 target=5e9cd2c
+  settings/secure/enabled_notification_listeners: pid=1546 uid=1000 user=0 target=67a87fb
+  settings/secure/enabled_notification_listeners: pid=1546 uid=1000 user=-1 target=ebc9018
+  settings/secure/enabled_notification_listeners: pid=1546 uid=1000 user=-1 target=4c0da71
+  settings/secure/pubkey_blacklist: pid=1546 uid=1000 user=0 target=d11a056
+  settings/secure/serial_blacklist: pid=1546 uid=1000 user=0 target=7dfa8d7
+  settings/secure/enabled_print_services: pid=1546 uid=1000 user=-1 target=cf695c4
+  settings/secure/user_setup_complete: pid=1546 uid=1000 user=-1 target=37acad
+  settings/secure/user_setup_complete: pid=2025 uid=10032 user=0 target=91f6be2
+  settings/secure/user_setup_complete: pid=2025 uid=10032 user=0 target=91f6be2
+  settings/secure/user_setup_complete: pid=2025 uid=10032 user=0 target=80bfb73
+  settings/secure/user_setup_complete: pid=2025 uid=10032 user=0 target=91f6be2
+  settings/secure/screensaver_enabled: pid=1546 uid=1000 user=-1 target=1a94a30
+  settings/secure/screensaver_activate_on_sleep: pid=1546 uid=1000 user=-1 target=1a94a30
+  settings/secure/screensaver_activate_on_dock: pid=1546 uid=1000 user=-1 target=1a94a30
+  settings/secure/sleep_timeout: pid=1546 uid=1000 user=-1 target=1a94a30
+  settings/secure/double_tap_to_wake: pid=1546 uid=1000 user=-1 target=1a94a30
+  settings/secure/sms_default_application: pid=1546 uid=1000 user=-1 target=acf66a9
+  settings/secure/dialer_default_application: pid=1546 uid=1000 user=-1 target=acf66a9
+  settings/secure/volume_controller_service_component: pid=2025 uid=10032 user=0 target=b4c642e
+  settings/secure/volume_controller_service_component: pid=2025 uid=10032 user=-1 target=fa0dbcf
+  settings/secure/volume_controller_service_component: pid=1546 uid=1000 user=0 target=b90d95c
+  settings/secure/bar_service_component: pid=2025 uid=10032 user=-1 target=80ec465
+  settings/secure/lock_screen_show_notifications: pid=2025 uid=10032 user=-1 target=93e953a
+  settings/secure/lock_screen_allow_private_notifications: pid=2025 uid=10032 user=-1 target=5f965eb
+  settings/secure/lock_screen_drop_statusbar: pid=2025 uid=10032 user=0 target=7002f48
+  settings/secure/notification_display_application_icon_status: pid=2025 uid=10032 user=0 target=93e953a
+  settings/secure/assistant: pid=2025 uid=10032 user=0 target=32c41e1
+  settings/secure/realtime_speed_status: pid=2025 uid=10032 user=0 target=af0cb06
+  settings/secure/icon_blacklist: pid=2025 uid=10032 user=0 target=30675c7
+  settings/secure/sysui_qs_tiles: pid=2025 uid=10032 user=0 target=30675c7
+  settings/secure/location_providers_allowed: pid=2873 uid=10040 user=0 target=8cf7f4
+  settings/secure/location_providers_allowed: pid=1546 uid=1000 user=-1 target=a4a1b1d
+  settings/secure/location_providers_allowed: pid=2448 uid=1001 user=0 target=f14d19e
+  settings/secure/enabled_condition_providers: pid=1546 uid=1000 user=-1 target=2eaa763
+  settings/secure/voice_interaction_service: pid=1546 uid=1000 user=-1 target=67b9f60
+  settings/secure/locationCoarseAccuracy: pid=1546 uid=1000 user=0 target=1724c19
+  settings/secure/locationPackagePrefixBlacklist: pid=1546 uid=1000 user=-1 target=53034de
+  settings/secure/camera_gesture_disabled: pid=1546 uid=1000 user=0 target=75656bf
+  settings/secure/camera_double_tap_power_gesture_disabled: pid=1546 uid=1000 user=0 target=75656bf
+  settings/system: pid=2025 uid=10032 user=-1 target=4eb518c
+  settings/system: pid=2025 uid=10032 user=-1 target=95290d5
+  settings/system: pid=2025 uid=10032 user=0 target=a06c0ea
+  settings/system: pid=2025 uid=10032 user=0 target=2a39fdb
+  settings/system: pid=2025 uid=10032 user=0 target=8c1fa78
+  settings/system: pid=2025 uid=10032 user=0 target=5b86551
+  settings/system: pid=2025 uid=10032 user=-1 target=4eb518c
+  settings/system: pid=2025 uid=10032 user=-1 target=95290d5
+  settings/system: pid=17863 uid=10021 user=0 target=1ef947f
+  settings/system/time_12_24: pid=1546 uid=1000 user=0 target=661bd39
+  settings/system/end_button_behavior: pid=1546 uid=1000 user=-1 target=d17f3f5
+  settings/system/accelerometer_rotation: pid=1546 uid=1000 user=-1 target=d17f3f5
+  settings/system/accelerometer_rotation: pid=2025 uid=10032 user=-1 target=8b25eb7
+  settings/system/accelerometer_rotation: pid=2025 uid=10032 user=0 target=5584624
+  settings/system/accelerometer_rotation: pid=2025 uid=10032 user=0 target=5584624
+  settings/system/accelerometer_rotation: pid=2025 uid=10032 user=0 target=5584624
+  settings/system/accelerometer_rotation: pid=2025 uid=10032 user=0 target=5584624
+  settings/system/accelerometer_rotation: pid=2025 uid=10032 user=0 target=5584624
+  settings/system/accelerometer_rotation: pid=2025 uid=10032 user=0 target=5584624
+  settings/system/accelerometer_rotation: pid=2025 uid=10032 user=0 target=5584624
+  settings/system/accelerometer_rotation: pid=2025 uid=10032 user=0 target=5584624
+  settings/system/accelerometer_rotation: pid=2025 uid=10032 user=0 target=5584624
+  settings/system/accelerometer_rotation: pid=2025 uid=10032 user=0 target=5584624
+  settings/system/accelerometer_rotation: pid=2025 uid=10032 user=0 target=5584624
+  settings/system/accelerometer_rotation: pid=2025 uid=10032 user=0 target=5584624
+  settings/system/accelerometer_rotation: pid=2025 uid=10032 user=0 target=5584624
+  settings/system/accelerometer_rotation: pid=2025 uid=10032 user=0 target=5584624
+  settings/system/accelerometer_rotation: pid=2025 uid=10032 user=0 target=5584624
+  settings/system/accelerometer_rotation: pid=32677 uid=10004 user=0 target=fcd058d
+  settings/system/accelerometer_rotation: pid=2025 uid=10032 user=0 target=5584624
+  settings/system/accelerometer_rotation: pid=2025 uid=10032 user=0 target=5584624
+  settings/system/accelerometer_rotation: pid=2025 uid=10032 user=0 target=5584624
+  settings/system/accelerometer_rotation: pid=2025 uid=10032 user=0 target=5584624
+  settings/system/accelerometer_rotation: pid=2025 uid=10032 user=0 target=5584624
+  settings/system/accelerometer_rotation: pid=2025 uid=10032 user=0 target=5584624
+  settings/system/accelerometer_rotation: pid=2025 uid=10032 user=0 target=5584624
+  settings/system/accelerometer_rotation: pid=2025 uid=10032 user=0 target=5584624
+  settings/system/accelerometer_rotation: pid=2025 uid=10032 user=0 target=5584624
+  settings/system/accelerometer_rotation: pid=2025 uid=10032 user=0 target=5584624
+  settings/system/accelerometer_rotation: pid=2025 uid=10032 user=0 target=5584624
+  settings/system/accelerometer_rotation: pid=2025 uid=10032 user=0 target=5584624
+  settings/system/accelerometer_rotation: pid=2025 uid=10032 user=0 target=5584624
+  settings/system/accelerometer_rotation: pid=2025 uid=10032 user=0 target=5584624
+  settings/system/accelerometer_rotation: pid=2025 uid=10032 user=0 target=5584624
+  settings/system/accelerometer_rotation: pid=2025 uid=10032 user=0 target=5584624
+  settings/system/accelerometer_rotation: pid=2025 uid=10032 user=0 target=5584624
+  settings/system/user_rotation: pid=1546 uid=1000 user=-1 target=d17f3f5
+  settings/system/screen_off_timeout: pid=1546 uid=1000 user=-1 target=d17f3f5
+  settings/system/screen_off_timeout: pid=1546 uid=1000 user=-1 target=1a94a30
+  settings/system/pointer_location: pid=1546 uid=1000 user=-1 target=d17f3f5
+  settings/system/doubletap_behavior: pid=1546 uid=1000 user=-1 target=d17f3f5
+  settings/system/mistouch_prevention_state: pid=1546 uid=1000 user=-1 target=d17f3f5
+  settings/system/isShrinkageScreen: pid=1546 uid=1000 user=0 target=a0a8342
+  settings/system/multi_process_enabled: pid=1546 uid=1000 user=-1 target=1842f53
+  settings/system/pointer_speed: pid=1546 uid=1000 user=-1 target=8e5a090
+  settings/system/show_touches: pid=1546 uid=1000 user=-1 target=116d89
+  settings/system/wifi_auto_connect_type: pid=1546 uid=1000 user=0 target=7c1918e
+  settings/system/isKeepMediaVolWhenMute: pid=1546 uid=1000 user=0 target=9986daf
+  settings/system/isKeepMediaVolWhenMute: pid=2025 uid=10032 user=0 target=b4c642e
+  settings/system/mode_ringer_streams_affected: pid=1546 uid=1000 user=0 target=bac35bc
+  settings/system/ring_virbation_level: pid=1546 uid=1000 user=0 target=c1a5945
+  settings/system/notify_virbation_level: pid=1546 uid=1000 user=0 target=c1a5945
+  settings/system/touch_virbation_level: pid=1546 uid=1000 user=0 target=c1a5945
+  settings/system/vibrate_input_devices: pid=1546 uid=1000 user=-1 target=ec9389a
+  settings/system/led_mode: pid=1546 uid=1000 user=-1 target=1a94a30
+  settings/system/led_turnon_time: pid=1546 uid=1000 user=-1 target=1a94a30
+  settings/system/led_turnoff_time: pid=1546 uid=1000 user=-1 target=1a94a30
+  settings/system/led_light_time: pid=1546 uid=1000 user=-1 target=1a94a30
+  settings/system/screen_brightness: pid=1546 uid=1000 user=-1 target=1a94a30
+  settings/system/screen_brightness: pid=32677 uid=10004 user=0 target=c0835cb
+  settings/system/screen_brightness_mode: pid=1546 uid=1000 user=-1 target=1a94a30
+  settings/system/screen_brightness_mode: pid=32677 uid=10004 user=0 target=c0835cb
+  settings/system/screen_auto_brightness_adj: pid=1546 uid=1000 user=-1 target=1a94a30
+  settings/system/key_flag_float_window: pid=2025 uid=10032 user=0 target=5e4f1a8
+  settings/system/doze_nofify_uid_chain: pid=2203 uid=1000 user=0 target=40c44c1
+  settings/system/status_bar_show_battery_percent: pid=2025 uid=10032 user=0 target=4724466
+  settings/system/hide_rotation_lock_toggle_for_accessibility: pid=2025 uid=10032 user=-1 target=8b25eb7
+  settings/system/vibrate_when_ringing: pid=2025 uid=10032 user=0 target=26263a7
+  settings/system/ct_3g_4g_switch: pid=2448 uid=1001 user=0 target=86b8054
+  settings/system/notification_light_pulse: pid=1546 uid=1000 user=-1 target=bd76bfd
+  settings/system/coolsafe_savepower_mode: pid=1546 uid=1000 user=0 target=4e40f2
+  settings/system/judge_hall_prox_enable: pid=1546 uid=1000 user=-1 target=6479343
+  settings/system/judge_hall_sensor_enable: pid=1546 uid=1000 user=-1 target=6479343
+  settings/system/isWakeUpGestureOpen: pid=1546 uid=1000 user=0 target=42a4dc0
+  settings/system/isCDialog: pid=1546 uid=1000 user=0 target=42a4dc0
+  settings/system/isEBrowser: pid=1546 uid=1000 user=0 target=42a4dc0
+  settings/system/isOQQ: pid=1546 uid=1000 user=0 target=42a4dc0
+  settings/system/isMPlayMusic: pid=1546 uid=1000 user=0 target=42a4dc0
+  settings/system/isWWeixin: pid=1546 uid=1000 user=0 target=42a4dc0
+  settings/system/isCrossSlideSwitchSongs: pid=1546 uid=1000 user=0 target=42a4dc0
+  settings/system/isSlideToUnlock: pid=1546 uid=1000 user=0 target=42a4dc0
+  settings/system/isDeclinePhotos: pid=1546 uid=1000 user=0 target=42a4dc0
+  settings/system/isDoubleClickWake: pid=1546 uid=1000 user=0 target=42a4dc0
+  settings/system/isCDialog_package: pid=1546 uid=1000 user=0 target=42a4dc0
+  settings/system/isEBrowser_package: pid=1546 uid=1000 user=0 target=42a4dc0
+  settings/system/isMPlayMusic_package: pid=1546 uid=1000 user=0 target=42a4dc0
+  settings/system/isOQQ_package: pid=1546 uid=1000 user=0 target=42a4dc0
+  settings/system/isWWeixin_package: pid=1546 uid=1000 user=0 target=42a4dc0
+  settings/system/charge_mode: pid=1546 uid=1000 user=-1 target=c33caf9
+  settings/system/qiku_breath_light_charging: pid=1546 uid=1000 user=0 target=c33caf9
+  settings/system/qiku_breath_light_lowpower: pid=1546 uid=1000 user=0 target=c33caf9
+  settings/system/qiku_breath_light_call_switch: pid=1546 uid=1000 user=0 target=c33caf9
+  settings/system/qiku_breath_light_message_switch: pid=1546 uid=1000 user=0 target=c33caf9
+  settings/system/crossing_exit: pid=1546 uid=1000 user=0 target=f7b7a3e
+  settings/system/crossing_pkgname: pid=1546 uid=1000 user=0 target=c6209f
+  settings/system/crossing_positioninfo: pid=1546 uid=1000 user=0 target=c4685ec
+  settings/system/multitask_control: pid=2961 uid=1000 user=0 target=75d1db5
+  settings/system/multitask_position: pid=2961 uid=1000 user=0 target=b0fc4a
+  settings/system/multitask_longclick_control: pid=2961 uid=1000 user=0 target=37627bb
+  settings/system/font_scale: pid=2789 uid=10048 user=0 target=f0c14d8
+  settings/system/navigation_key_hide: pid=2789 uid=10048 user=0 target=d8ee031
+  settings/global: pid=1546 uid=1000 user=0 target=50a9316
+  settings/global/debug_view_attributes: pid=1546 uid=1000 user=0 target=661bd39
+  settings/global/policy_control: pid=1546 uid=1000 user=-1 target=d17f3f5
+  settings/global/recent_apps_virtual_key_tap: pid=1546 uid=1000 user=-1 target=a0a8342
+  settings/global/recent_apps_virtual_key_long_press: pid=1546 uid=1000 user=-1 target=a0a8342
+  settings/global/back_virtual_key_tap: pid=1546 uid=1000 user=-1 target=a0a8342
+  settings/global/home_virtual_key_long_press: pid=1546 uid=1000 user=-1 target=a0a8342
+  settings/global/ble_scan_always_enabled: pid=1546 uid=1000 user=0 target=7558497
+  settings/global/device_idle_constants: pid=1546 uid=1000 user=0 target=199a684
+  settings/global/netstats_global_alert_bytes: pid=1546 uid=1000 user=0 target=d404e6d
+  settings/global/wifi_suspend_optimizations_enabled: pid=1546 uid=1000 user=0 target=194caa2
+  settings/global/wifi_networks_available_notification_on: pid=1546 uid=1000 user=0 target=d63d333
+  settings/global/stay_on_while_plugged_in: pid=1546 uid=1000 user=0 target=a4ca6f0
+  settings/global/stay_on_while_plugged_in: pid=1546 uid=1000 user=-1 target=1a94a30
+  settings/global/wifi_idle_ms: pid=1546 uid=1000 user=0 target=b206469
+  settings/global/wifi_sleep_policy: pid=1546 uid=1000 user=0 target=d98eeee
+  settings/global/http_proxy: pid=1546 uid=1000 user=0 target=cfe6f8f
+  settings/global/mobile_data_always_on: pid=1546 uid=1000 user=0 target=cfe6f8f
+  settings/global/nsd_on: pid=1546 uid=1000 user=0 target=5ed421c
+  settings/global/zen_mode: pid=1546 uid=1000 user=0 target=dd1de25
+  settings/global/zen_mode: pid=2025 uid=10032 user=0 target=9a90bfa
+  settings/global/zen_mode: pid=2025 uid=10032 user=0 target=b4c642e
+  settings/global/zen_mode: pid=2025 uid=10032 user=0 target=93e953a
+  settings/global/dock_audio_media_enabled: pid=1546 uid=1000 user=0 target=bac35bc
+  settings/global/adb_enabled: pid=1546 uid=1000 user=0 target=bfc75ab
+  settings/global/sampling_profiler_ms: pid=1546 uid=1000 user=0 target=39a6408
+  settings/global/app_idle_constants: pid=1546 uid=1000 user=0 target=96737a1
+  settings/global/alarm_manager_constants: pid=1546 uid=1000 user=0 target=b6bedc6
+  settings/global/wifi_scan_always_enabled: pid=1546 uid=1000 user=0 target=c8ac187
+  settings/global/wifi_watchdog_poor_network_test_enabled: pid=1546 uid=1000 user=0 target=375b8b4
+  settings/global/wifi_watchdog_on: pid=1546 uid=1000 user=0 target=69eacdd
+  settings/global/device_provisioned: pid=1546 uid=1000 user=0 target=a292052
+  settings/global/device_provisioned: pid=2025 uid=10032 user=0 target=91f6be2
+  settings/global/device_provisioned: pid=2025 uid=10032 user=0 target=93e953a
+  settings/global/device_provisioned: pid=2025 uid=10032 user=0 target=91f6be2
+  settings/global/device_provisioned: pid=2025 uid=10032 user=0 target=91f6be2
+  settings/global/low_power: pid=1546 uid=1000 user=-1 target=1a94a30
+  settings/global/low_power_trigger_level: pid=1546 uid=1000 user=-1 target=1a94a30
+  settings/global/low_power_trigger_level: pid=1546 uid=1000 user=-1 target=cc7ef23
+  settings/global/low_power_trigger_level: pid=2025 uid=10032 user=-1 target=40fac20
+  settings/global/low_power_trigger_level: pid=1546 uid=1000 user=-1 target=c33caf9
+  settings/global/theater_mode_on: pid=1546 uid=1000 user=-1 target=1a94a30
+  settings/global/overlay_display_devices: pid=1546 uid=1000 user=0 target=1de39d9
+  settings/global/wifi_display_on: pid=1546 uid=1000 user=0 target=814ef9e
+  settings/global/wifi_display_certification_on: pid=1546 uid=1000 user=0 target=814ef9e
+  settings/global/wifi_display_wps_config: pid=1546 uid=1000 user=0 target=814ef9e
+  settings/global/zen_mode_config_etag: pid=2025 uid=10032 user=0 target=4205a7f
+  settings/global/zen_mode_config_etag: pid=2025 uid=10032 user=0 target=b4c642e
+  settings/global/switch_screen_magazine: pid=2025 uid=10032 user=0 target=a936a4c
+  settings/global/switch_screen_magazine: pid=2340 uid=10032 user=0 target=def9a95
+  settings/global/lockscreenSimpleUserSwitcher: pid=2025 uid=10032 user=0 target=45c67aa
+  settings/global/add_users_when_locked: pid=2025 uid=10032 user=0 target=45c67aa
+  settings/global/mobile_data: pid=2025 uid=10032 user=0 target=a6a1f9b
+  settings/global/mobile_data0: pid=2025 uid=10032 user=0 target=a6a1f9b
+  settings/global/mobile_data1: pid=2025 uid=10032 user=0 target=a6a1f9b
+  settings/global/airplane_mode_on: pid=2025 uid=10032 user=0 target=a6a1f9b
+  settings/global/sms_short_code_confirmation: pid=2448 uid=1001 user=0 target=1b2df38
+  settings/global/sms_short_code_confirmation: pid=2448 uid=1001 user=0 target=67c4b11
+  settings/global/sms_short_code_confirmation: pid=2448 uid=1001 user=0 target=1f15476
+  settings/global/heads_up_notifications_enabled: pid=2025 uid=10032 user=0 target=4c11a77
+  settings/global/ticker_gets_heads_up: pid=2025 uid=10032 user=0 target=4c11a77
+  settings/global/auto_time: pid=2448 uid=1001 user=0 target=b52b6e4
+  settings/global/auto_time: pid=1546 uid=1000 user=0 target=e49874d
+  settings/global/auto_time: pid=2448 uid=1001 user=0 target=f164202
+  settings/global/auto_time_zone: pid=2448 uid=1001 user=0 target=422e713
+  settings/global/auto_time_zone: pid=2448 uid=1001 user=0 target=f65d50
+  settings/global/auto_time_zone: pid=2448 uid=1001 user=0 target=5344b49
+  settings/global/sms_short_code_rule: pid=2448 uid=1001 user=0 target=9aa7c4e
+  settings/global/sms_short_code_rule: pid=2448 uid=1001 user=0 target=1cae16f
+  settings/global/sms_short_code_rule: pid=2448 uid=1001 user=0 target=eebfe7c
+  settings/global/sms_short_code_rule: pid=2448 uid=1001 user=0 target=1ed5305
+  settings/global/sms_short_code_rule: pid=2448 uid=1001 user=0 target=c360f5a
+  settings/global/sms_short_code_rule: pid=2448 uid=1001 user=0 target=54e258b
+  settings/global/multi_sim_data_call: pid=2448 uid=1001 user=0 target=6388668
+  settings/global/multi_sim_data_call: pid=2944 uid=1000 user=0 target=b751a81
+  settings/global/multi_sim_data_call: pid=2944 uid=1000 user=0 target=b751a81
+  settings/global/mobile_data2147483643: pid=2944 uid=1000 user=0 target=b751a81
+  settings/global/mobile_data2147483643: pid=2944 uid=1000 user=0 target=b751a81
+  settings/global/data_roaming2147483643: pid=2944 uid=1000 user=0 target=b751a81
+  settings/global/data_roaming2147483643: pid=2944 uid=1000 user=0 target=b751a81
+  settings/global/data_roaming2147483643: pid=2448 uid=1001 user=0 target=fb5c726
+  settings/global/mobile_data2147483644: pid=2944 uid=1000 user=0 target=b751a81
+  settings/global/mobile_data2147483644: pid=2944 uid=1000 user=0 target=b751a81
+  settings/global/data_roaming2147483644: pid=2944 uid=1000 user=0 target=b751a81
+  settings/global/data_roaming2147483644: pid=2944 uid=1000 user=0 target=b751a81
+  settings/global/data_roaming2147483644: pid=2448 uid=1001 user=0 target=778f67
+  com.qiku.android.config/autoStart: pid=1546 uid=1000 user=0 target=143a114
+  com.qiku.android.config/autoStart: pid=1546 uid=1000 user=0 target=e57ddbd
+  com.qiku.android.config/dataFlow: pid=1546 uid=1000 user=0 target=e272fb2
+  com.qiku.android.config/screenOffClean: pid=1546 uid=1000 user=0 target=ce3bb03
+  com.qiku.android.config/oneKeyClean: pid=1546 uid=1000 user=0 target=743ba80
+  com.qiku.android.config/backgroundClean: pid=1546 uid=1000 user=0 target=9a998b9
+  com.qiku.android.config/sync/cfg_forbid_silent_install: pid=1546 uid=1000 user=0 target=1d494fe
+  com.qiku.android.config/sync/cfg_forbid_cover_install: pid=1546 uid=1000 user=0 target=75d045f
+  com.qiku.android.config/sync/cfg_protected_packages: pid=1546 uid=1000 user=0 target=a69feac
+  com.qiku.android.config/sync/cfg_odex_keyguard_resize: pid=1546 uid=1000 user=0 target=fc20775
+  com.qiku.android.config/permission: pid=1546 uid=1000 user=0 target=d61030a
+  com.qiku.android.config/active_dynamic_config: pid=2572 uid=1000 user=0 target=4f7877b
+  com.qiku.childrenmode.contentProvider/childrenmode: pid=1546 uid=1000 user=-1 target=a0a8342
+  com.qiku.childrenmode.contentProvider/childrenmode: pid=1546 uid=1000 user=0 target=cce5998
+  com.qiku.childrenmode.contentProvider/childrenmode: pid=1546 uid=1000 user=0 target=6b8a5f1
+  com.qiku.childrenmode.contentProvider/childrenmode: pid=2025 uid=10032 user=0 target=89445d6
+  com.qiku.childrenmode.contentProvider/childrenmode: pid=2789 uid=10048 user=0 target=ded2057
+  com.qiku.childrenmode.contentProvider/childrenmode/1001: pid=2961 uid=1000 user=0 target=81b7744
+  com.qiku.childrenmode.contentProvider/childrenmodeApps: pid=1546 uid=1000 user=0 target=4a0b02d
+  com.android.contacts/contacts: pid=1546 uid=1000 user=-1 target=de6e962
+  com.android.contacts/contacts: pid=32677 uid=10004 user=0 target=a396af3
+  com.android.contacts/contacts: pid=32677 uid=10004 user=0 target=3fac3b0
+  com.android.contacts/contacts: pid=5093 uid=10106 user=0 target=3852229
+  com.android.contacts/contacts: pid=7853 uid=10179 user=0 target=b7b1c4c
+  com.android.contacts/contacts: pid=17863 uid=10021 user=0 target=4d26495
+  com.android.contacts/contacts: pid=17863 uid=10021 user=0 target=87869aa
+  com.android.contacts/data/phones: pid=8524 uid=10111 user=0 target=7406adc
+  com.qiku.android.qh_engmode.provider/t_dynamic_config: pid=1546 uid=1000 user=0 target=924b7e5
+  com.yulong.android.coolsafe.savepower.provider/intellgencemode: pid=2025 uid=10032 user=0 target=4c842ba
+  com.yulong.android.coolsafe.savepower.provider/intellgencemode: pid=2025 uid=10032 user=0 target=375456b
+  com.qiku.android.coolsafe.interrupiton.provider/Smart: pid=2025 uid=10032 user=0 target=fd758c8
+  com.qiku.android.coolsafe.interrupiton.provider/Smart: pid=2789 uid=10048 user=0 target=e6ded61
+  com.qiku.android.coolsafe.interrupiton.provider/Timer: pid=2025 uid=10032 user=0 target=fd758c8
+  com.qiku.android.coolsafe.interrupiton.provider/Kavass: pid=14853 uid=1000 user=0 target=d27d086
+  com.qiku.android.coolsafe.interrupiton.provider/period: pid=14853 uid=1000 user=0 target=d27d086
+  com.qiku.drivemode.setting: pid=2789 uid=10048 user=0 target=920cd47
+  com.qiku.drivemode.setting/drivemodeopen: pid=2025 uid=10032 user=0 target=d6d3974
+  com.qiku.logsystem.userreport.contentProvider/switch: pid=2025 uid=10032 user=0 target=2bafe9d
+  telephony/carriers: pid=2448 uid=1001 user=0 target=da06f12
+  telephony/carriers: pid=2448 uid=1001 user=0 target=912f6e3
+  telephony/carriers/preferapn: pid=1546 uid=1000 user=0 target=ade78e0
+  com.yulong.android.launcher3.compound/simplestorage/key_scrollDesktopAnimation: pid=2789 uid=10048 user=0 target=6cde799
+  com.yulong.android.launcher3.compound/simplestorage/key_iconSize: pid=2789 uid=10048 user=0 target=b926a5e
+  com.yulong.android.launcher3.compound/simplestorage/key_deskScreenCycle: pid=2789 uid=10048 user=0 target=c741e3f
+  com.yulong.android.launcher3.compound/simplestorage/key_wallpaperScroll: pid=2789 uid=10048 user=0 target=262430c
+  com.yulong.android.launcher3.compound/simplestorage/key_wallpaperLantern: pid=2789 uid=10048 user=0 target=b8c6455
+  com.yulong.android.launcher3.compound/simplestorage/key_wallpaperAutoChange: pid=2789 uid=10048 user=0 target=16ce6a
+  com.yulong.android.launcher3.compound/simplestorage/key_wallpaperFrequency: pid=2789 uid=10048 user=0 target=c965f5b
+  com.yulong.android.launcher3.compound/simplestorage/key_showDateAndTime: pid=2789 uid=10048 user=0 target=87683f8
+  com.yulong.android.launcher3.compound/simplestorage/key_showTTwindow: pid=2789 uid=10048 user=0 target=7bf0d1
+  com.yulong.android.launcher3.compound/simplestorage/key_superDateAndTime: pid=2789 uid=10048 user=0 target=acb6736
+  com.yulong.android.launcher3.compound/simplestorage/key_lockedEdit: pid=2789 uid=10048 user=0 target=bd19637
+  com.yulong.android.launcher3.compound/simplestorage/key_wifiAutoUpdateFullIcon: pid=2789 uid=10048 user=0 target=98be7a4
+  com.yulong.android.launcher3.compound/simplestorage/key_iconAutoArrange: pid=2789 uid=10048 user=0 target=dfdc90d
+  com.yulong.android.launcher3.compound/simplestorage/key_scenefolderopen: pid=2789 uid=10048 user=0 target=55ec0c2
+  com.yulong.android.launcher3.compound/simplestorage/key_enableShortcut: pid=2789 uid=10048 user=0 target=1f5ed3
+  com.yulong.android.launcher3.compound/simplestorage/key_onlineWallpaper: pid=2789 uid=10048 user=0 target=671da10
+  com.yulong.android.launcher3.compound/simplestorage/key_coldClosetopen: pid=2789 uid=10048 user=0 target=74ae909
+  com.yulong.android.launcher3.compound/simplestorage/key_coldPeriod: pid=2789 uid=10048 user=0 target=3dc270e
+  com.yulong.android.launcher3.compound/simplestorage/key_widgetOpen: pid=2789 uid=10048 user=0 target=b77152f
+  com.yulong.android.launcher3.compound/simplestorage/key_iconArrangementFromBottomToUp: pid=2789 uid=10048 user=0 target=b82873c
+  com.yulong.android.launcher3.compound/compoundworkspace: pid=2789 uid=10048 user=0 target=300cc5
+  com.yulong.android.launcher3.compound/appWidgetReset: pid=2789 uid=10048 user=0 target=db7a61a
+  com.qiku.smsbox.model.provider.MsgBoxContentProvider/msgbox_books: pid=32627 uid=10032 user=0 target=de9d54b
+  com.qiku.android.launcher.badge/icon_badge: pid=2789 uid=10048 user=0 target=e8edb28
+  com.qiku.widget3d.adwidget/widget_img_adv: pid=2789 uid=10048 user=0 target=289b041
+  downloads/my_downloads: pid=4873 uid=10022 user=0 target=b9a09e6
+  media/external: pid=14853 uid=1000 user=0 target=d7e7b27
+  media/external/images/media: pid=5404 uid=10197 user=0 target=f8a81d4
+  com.qiku.eyemode/eyemode3dwidget: pid=2789 uid=10048 user=0 target=f800f7d
+  com.qiku.android.launcher3.WidgetMsgOptionProvider/msgOption: pid=2789 uid=10048 user=0 target=5ecde72
+  sms: pid=32677 uid=10004 user=0 target=fcda2c3
+  sms: pid=17863 uid=10021 user=0 target=ef2f99b
+  call_log/calls: pid=32677 uid=10004 user=0 target=8832679
+  call_log/calls: pid=17863 uid=10021 user=0 target=e63b138
+  com.qihoo360.mobilesafeguard/smartwhite: pid=32677 uid=10004 user=0 target=15da81f
+  com.qihoo360.mobilesafeguard/whitelist: pid=32677 uid=10004 user=0 target=514376c
+  com.qihoo360.mobilesafeguard/whitelistcard2: pid=32677 uid=10004 user=0 target=514376c
+  com.qihoo360.mobilesafeguard/blacklist: pid=32677 uid=10004 user=0 target=c06b135
+  com.qihoo360.mobilesafeguard/blacklistcard2: pid=32677 uid=10004 user=0 target=c06b135
+  com.qihoo360.mobilesafeguard/privatecontacts: pid=32677 uid=10004 user=0 target=cd5c9ca
+  com.qihoo360.mobilesafeguard/ipnouselist: pid=32677 uid=10004 user=0 target=6bea73b
+  com.qihoo360.mobilesafeguard/ipnouselistcard2: pid=32677 uid=10004 user=0 target=6bea73b
+  com.qihoo360.mobilesafeguard/msg_history: pid=32677 uid=10004 user=0 target=8c35e58
+  com.qihoo360.mobilesafeguard/call_history: pid=32677 uid=10004 user=0 target=8c35e58
+  browser/bookmarks: pid=32677 uid=10004 user=0 target=1fe2bb1
+  mms: pid=17863 uid=10021 user=0 target=ef2f99b
+  com.tencent.common.config.provider.QZoneConfigProvider/table_qz_unread: pid=8524 uid=10111 user=0 target=66eb896
+  com.tencent.common.config.provider.QZoneConfigProvider/qz_update: pid=8524 uid=10111 user=0 target=3667c17
+  cloudmsg: pid=17863 uid=10021 user=0 target=9c1b511
+  cloudmsg/thread: pid=17863 uid=10021 user=0 target=9c1b511
+  com.sina.weibo.spProvider/com.sina.weibo_preferences: pid=7573 uid=10179 user=0 target=773a070
+  com.sina.weibo.spProvider/com.sina.weibo_preferences: pid=7853 uid=10179 user=0 target=7ac446e
+  com.sina.weibo.spProvider/project_mode_wesync: pid=7573 uid=10179 user=0 target=c46d70f
+  com.sina.weibo.spProvider/project_mode_wesync: pid=7853 uid=10179 user=0 target=fc751a5
+  com.sina.weibo.spProvider/network_analyse: pid=7573 uid=10179 user=0 target=d5c397a
+  com.sina.weibo.spProvider/weibo_sp: pid=7573 uid=10179 user=0 target=823d52b
+  com.sina.weibo.spProvider/feature_pref_name1706393805: pid=7573 uid=10179 user=0 target=4006321
+  com.sina.weibo.spProvider/feature_pref_name1706393805: pid=7853 uid=10179 user=0 target=ee47346
+  com.sina.weibo.spProvider/feature_pref_name1006116140914: pid=7573 uid=10179 user=0 target=889907
+  com.sina.weibo.spProvider/track_data: pid=7573 uid=10179 user=0 target=b337a34
+  com.sina.weibo.spProvider/health_user_1706393805: pid=7853 uid=10179 user=0 target=c5f105d
+  com.sina.weibo.spProvider/weibo_sync: pid=7573 uid=10179 user=0 target=647dd2
+  com.sina.weibo.spProvider/spName: pid=7853 uid=10179 user=0 target=8cb7676
+  aggregated_call_log/calls: pid=17863 uid=10021 user=0 target=1fd9477
+  com.qiku.android.launcher.compound/simplestorage/key_scrollDesktopAnimation: pid=15583 uid=10035 user=0 target=73ea8e4
+  com.qiku.android.launcher.compound/simplestorage/key_iconSize: pid=15583 uid=10035 user=0 target=17b914d
+  com.qiku.android.launcher.compound/simplestorage/key_deskScreenCycle: pid=15583 uid=10035 user=0 target=6708402
+  com.qiku.android.launcher.compound/simplestorage/key_wallpaperScroll: pid=15583 uid=10035 user=0 target=1ad0113
+  com.qiku.android.launcher.compound/simplestorage/key_wallpaperLantern: pid=15583 uid=10035 user=0 target=4af6f50
+  com.qiku.android.launcher.compound/simplestorage/key_wallpaperAutoChange: pid=15583 uid=10035 user=0 target=a7cf549
+  com.qiku.android.launcher.compound/simplestorage/key_wallpaperFrequency: pid=15583 uid=10035 user=0 target=966de4e
+  com.qiku.android.launcher.compound/simplestorage/key_showDateAndTime: pid=15583 uid=10035 user=0 target=6dc9b6f
+  com.qiku.android.launcher.compound/simplestorage/key_showTTwindow: pid=15583 uid=10035 user=0 target=a24307c
+  com.qiku.android.launcher.compound/simplestorage/key_superDateAndTime: pid=15583 uid=10035 user=0 target=4169d05
+  com.qiku.android.launcher.compound/simplestorage/key_lockedEdit: pid=15583 uid=10035 user=0 target=856915a
+  com.qiku.android.launcher.compound/simplestorage/key_wifiAutoUpdateFullIcon: pid=15583 uid=10035 user=0 target=2c17f8b
+  com.qiku.android.launcher.compound/simplestorage/key_iconAutoArrange: pid=15583 uid=10035 user=0 target=1c1d868
+  com.qiku.android.launcher.compound/simplestorage/key_scenefolderopen: pid=15583 uid=10035 user=0 target=7e90481
+  com.qiku.android.launcher.compound/simplestorage/key_enableShortcut: pid=15583 uid=10035 user=0 target=a5c6926
+  com.qiku.android.launcher.compound/simplestorage/key_onlineWallpaper: pid=15583 uid=10035 user=0 target=ac68967
+  com.qiku.android.launcher.compound/simplestorage/key_coldClosetopen: pid=15583 uid=10035 user=0 target=1101314
+  com.qiku.android.launcher.compound/simplestorage/key_coldPeriod: pid=15583 uid=10035 user=0 target=f2067bd
+  com.qiku.android.launcher.compound/simplestorage/key_widgetOpen: pid=15583 uid=10035 user=0 target=995f1b2
+  com.qiku.android.launcher.compound/compoundworkspace: pid=15583 uid=10035 user=0 target=6285503
+  com.360os.android.vn: pid=17863 uid=10021 user=0 target=c654c80
+  com.qihoo360.mobilesafe.paysafe/vc_message: pid=17863 uid=10021 user=0 target=f70c2b9
+  user_dictionary/words: pid=17978 uid=10081 user=0 target=26d76fe
+
+  pid 1546: 155 observers
+  pid 2025: 87 observers
+  pid 2789: 31 observers
+  pid 2448: 21 observers
+  pid 15583: 20 observers
+  pid 32677: 18 observers
+  pid 17863: 11 observers
+  pid 2944: 10 observers
+  pid 7573: 8 observers
+  pid 7853: 6 observers
+  pid 2961: 4 observers
+  pid 8524: 3 observers
+  pid 14853: 3 observers
+  pid 2203: 1 observers
+  pid 2340: 1 observers
+  pid 2572: 1 observers
+  pid 2873: 1 observers
+  pid 4873: 1 observers
+  pid 5093: 1 observers
+  pid 5404: 1 observers
+  pid 17978: 1 observers
+  pid 32627: 1 observers
+
+ Total number of nodes: 308
+ Total number of observers: 386

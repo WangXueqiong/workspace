@@ -1,0 +1,140 @@
+ResourceManagerService: 0xf498a4c0
+  Policies:
+    SupportsMultipleSecureCodecs: 1
+    SupportsSecureWithNonSecureCodec: 1
+  Processes:
+    Pid: 1125
+    Pid: 1629
+    Pid: 2322
+    Pid: 3630
+    Pid: 5256
+      Client:
+        Id: 3992409728
+        Name: 
+        Resources:
+          non-secure-codec/video-codec:1
+          graphic-memory/:15206400
+    Pid: 6028
+    Pid: 6694
+      Client:
+        Id: 3965182816
+        Name: 
+        Resources:
+          non-secure-codec/video-codec:1
+          graphic-memory/:15206400
+    Pid: 8535
+      Client:
+        Id: 4085395424
+        Name: 
+        Resources:
+          non-secure-codec/video-codec:1
+          graphic-memory/:15206400
+    Pid: 9185
+      Client:
+        Id: 3959149280
+        Name: OMX.MTK.VIDEO.ENCODER.AVC
+        Resources:
+          non-secure-codec/video-codec:1
+          graphic-memory/:15206400
+  Events logs (most recent at top):
+    12-24 17:21:12 removeResource(pid 6028, clientId 3765956768)
+    12-24 17:21:12 removeResource(pid 6028, clientId 3765956768)
+    12-24 17:21:12 addResource(pid 6028, clientId 3765956768, resources non-secure-codec/audio-codec:1 )
+    12-24 17:03:07 addResource(pid 9185, clientId 3959149280, resources graphic-memory/:15206400 )
+    12-24 17:03:07 addResource(pid 9185, clientId 3959149280, resources non-secure-codec/video-codec:1 )
+    12-24 16:55:32 removeResource(pid 6028, clientId 3761242080)
+    12-24 16:55:32 removeResource(pid 6028, clientId 3761242080)
+    12-24 16:55:31 addResource(pid 6028, clientId 3761242080, resources non-secure-codec/audio-codec:1 )
+    12-24 16:54:22 removeResource(pid 8535, clientId 3966759648)
+    12-24 16:54:22 removeResource(pid 8535, clientId 3966759648)
+    12-24 16:54:22 removeResource(pid 8535, clientId 3966759648)
+    12-24 16:54:22 addResource(pid 8535, clientId 4085395424, resources graphic-memory/:15206400 )
+    12-24 16:54:22 addResource(pid 8535, clientId 4085395424, resources non-secure-codec/video-codec:1 )
+    12-24 16:54:14 removeResource(pid 6028, clientId 3761241952)
+    12-24 16:54:14 removeResource(pid 6028, clientId 3761241952)
+    12-24 16:54:14 addResource(pid 6028, clientId 3761241952, resources non-secure-codec/audio-codec:1 )
+    12-24 16:53:15 addResource(pid 8535, clientId 3966759648, resources graphic-memory/:15206400 )
+    12-24 16:53:15 addResource(pid 8535, clientId 3966759648, resources non-secure-codec/video-codec:1 )
+    12-24 16:53:15 removeResource(pid 8535, clientId 3988739712)
+    12-24 16:53:15 removeResource(pid 8535, clientId 3988739712)
+    12-24 16:53:15 removeResource(pid 8535, clientId 3988739712)
+    12-24 16:53:10 addResource(pid 8535, clientId 3988739712, resources graphic-memory/:15206400 )
+    12-24 16:53:10 addResource(pid 8535, clientId 3988739712, resources non-secure-codec/video-codec:1 )
+    12-24 16:49:38 addResource(pid 6694, clientId 3965182816, resources graphic-memory/:15206400 )
+    12-24 16:49:38 addResource(pid 6694, clientId 3965182816, resources non-secure-codec/video-codec:1 )
+    12-24 16:49:38 removeResource(pid 6694, clientId 3967928480)
+    12-24 16:49:38 removeResource(pid 6694, clientId 3967928480)
+    12-24 16:49:38 removeResource(pid 6694, clientId 3967928480)
+    12-24 16:49:34 addResource(pid 6694, clientId 3967928480, resources graphic-memory/:15206400 )
+    12-24 16:49:34 addResource(pid 6694, clientId 3967928480, resources non-secure-codec/video-codec:1 )
+    12-24 16:49:34 removeResource(pid 6694, clientId 3965182432)
+    12-24 16:49:34 removeResource(pid 6694, clientId 3965182432)
+    12-24 16:49:34 removeResource(pid 6694, clientId 3965182432)
+    12-24 16:41:19 addResource(pid 6694, clientId 3965182432, resources graphic-memory/:15206400 )
+    12-24 16:41:19 addResource(pid 6694, clientId 3965182432, resources non-secure-codec/video-codec:1 )
+    12-24 16:38:53 removeResource(pid 6028, clientId 3784910624)
+    12-24 16:38:53 removeResource(pid 6028, clientId 3784910624)
+    12-24 16:38:53 addResource(pid 6028, clientId 3784910624, resources non-secure-codec/video-codec:1 )
+    12-24 16:38:53 removeResource(pid 6028, clientId 3784910592)
+    12-24 16:38:53 removeResource(pid 6028, clientId 3784910592)
+    12-24 16:38:53 addResource(pid 6028, clientId 3784910592, resources non-secure-codec/video-codec:1 )
+    12-24 16:36:21 addResource(pid 5256, clientId 3992409728, resources graphic-memory/:15206400 )
+    12-24 16:36:21 addResource(pid 5256, clientId 3992409728, resources non-secure-codec/video-codec:1 )
+    12-24 16:35:06 removeResource(pid 3630, clientId 3835215584)
+    12-24 16:35:06 removeResource(pid 3630, clientId 3835215584)
+    12-24 16:35:06 removeResource(pid 3630, clientId 3835215584)
+    12-24 16:35:06 addResource(pid 3630, clientId 3835215584, resources non-secure-codec/audio-codec:1 )
+    12-24 16:35:06 removeResource(pid 3630, clientId 3835215264)
+    12-24 16:35:06 removeResource(pid 3630, clientId 3835215264)
+    12-24 16:35:06 removeResource(pid 3630, clientId 3835215264)
+    12-24 16:35:05 addResource(pid 3630, clientId 3835215264, resources non-secure-codec/audio-codec:1 )
+    12-24 16:35:05 removeResource(pid 3630, clientId 3835213984)
+    12-24 16:35:05 removeResource(pid 3630, clientId 3835213984)
+    12-24 16:35:05 removeResource(pid 3630, clientId 3835213984)
+    12-24 16:35:05 addResource(pid 3630, clientId 3835213984, resources non-secure-codec/audio-codec:1 )
+    12-24 16:34:51 removeResource(pid 2322, clientId 3835215200)
+    12-24 16:34:51 removeResource(pid 2322, clientId 3835215200)
+    12-24 16:34:51 removeResource(pid 2322, clientId 3835215200)
+    12-24 16:34:51 addResource(pid 2322, clientId 3835215200, resources non-secure-codec/audio-codec:1 )
+    12-24 16:34:51 removeResource(pid 2322, clientId 3835215232)
+    12-24 16:34:51 removeResource(pid 2322, clientId 3835215232)
+    12-24 16:34:50 removeResource(pid 2322, clientId 3835215232)
+    12-24 16:34:50 addResource(pid 2322, clientId 3835215232, resources non-secure-codec/audio-codec:1 )
+    12-24 16:34:50 removeResource(pid 2322, clientId 3835215136)
+    12-24 16:34:50 removeResource(pid 2322, clientId 3835215136)
+    12-24 16:34:50 removeResource(pid 2322, clientId 3835215136)
+    12-24 16:34:50 addResource(pid 2322, clientId 3835215136, resources non-secure-codec/audio-codec:1 )
+    12-24 16:34:47 removeResource(pid 1125, clientId 547250272448)
+    12-24 16:34:47 removeResource(pid 1125, clientId 547250272448)
+    12-24 16:34:47 removeResource(pid 1125, clientId 547250272448)
+    12-24 16:34:47 addResource(pid 1125, clientId 547250272448, resources non-secure-codec/audio-codec:1 )
+    12-24 16:34:47 removeResource(pid 1125, clientId 547250272384)
+    12-24 16:34:47 removeResource(pid 1125, clientId 547250272384)
+    12-24 16:34:47 removeResource(pid 1125, clientId 547250272384)
+    12-24 16:34:47 addResource(pid 1125, clientId 547250272384, resources non-secure-codec/audio-codec:1 )
+    12-24 16:34:47 removeResource(pid 1125, clientId 547250272384)
+    12-24 16:34:47 removeResource(pid 1125, clientId 547250272384)
+    12-24 16:34:47 removeResource(pid 1125, clientId 547250272384)
+    12-24 16:34:47 addResource(pid 1125, clientId 547250272384, resources non-secure-codec/audio-codec:1 )
+    12-24 16:34:47 removeResource(pid 1125, clientId 547250271296)
+    12-24 16:34:47 removeResource(pid 1125, clientId 547250271296)
+    12-24 16:34:47 removeResource(pid 1125, clientId 547250271296)
+    12-24 16:34:46 addResource(pid 1125, clientId 547250271296, resources non-secure-codec/audio-codec:1 )
+    12-24 16:34:46 removeResource(pid 1125, clientId 547251516672)
+    12-24 16:34:46 removeResource(pid 1125, clientId 547251516672)
+    12-24 16:34:46 removeResource(pid 1125, clientId 547251516672)
+    12-24 16:34:46 addResource(pid 1125, clientId 547251516672, resources non-secure-codec/audio-codec:1 )
+    12-24 16:34:46 removeResource(pid 1125, clientId 547251516672)
+    12-24 16:34:46 removeResource(pid 1125, clientId 547251516672)
+    12-24 16:34:46 removeResource(pid 1125, clientId 547251516672)
+    12-24 16:34:46 addResource(pid 1125, clientId 547251516672, resources non-secure-codec/audio-codec:1 )
+    12-24 16:34:46 removeResource(pid 1629, clientId 547774105600)
+    12-24 16:34:46 removeResource(pid 1629, clientId 547774105600)
+    12-24 16:34:45 removeResource(pid 1629, clientId 547774105600)
+    12-24 16:34:45 addResource(pid 1629, clientId 547774105600, resources non-secure-codec/audio-codec:1 )
+    12-24 16:34:45 removeResource(pid 1629, clientId 547774105600)
+    12-24 16:34:45 removeResource(pid 1629, clientId 547774105600)
+    12-24 16:34:45 removeResource(pid 1629, clientId 547774105600)
+    12-24 16:34:45 addResource(pid 1629, clientId 547774105600, resources non-secure-codec/audio-codec:1 )
+    12-24 16:34:45 removeResource(pid 1629, clientId 547774105344)
+    ...

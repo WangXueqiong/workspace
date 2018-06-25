@@ -1,0 +1,39 @@
+Current Location Manager state:
+  Location Listeners:
+    Reciever[261e7758 listener UpdateRecord[passive android(1000) Request[POWER_NONE passive fastest=0]]]
+    Reciever[aec4627 listener UpdateRecord[passive com.amap.android.location(10000) Request[POWER_NONE passive fastest=+1s0ms]]]
+    Reciever[188001c4 listener UpdateRecord[passive android(1000) Request[POWER_NONE passive fastest=0]]]
+  Active Records by Provider:
+    gps:
+    passive:
+      UpdateRecord[passive android(1000) Request[POWER_NONE passive fastest=0]]
+      UpdateRecord[passive android(1000) Request[POWER_NONE passive fastest=0]]
+      UpdateRecord[passive com.amap.android.location(10000) Request[POWER_NONE passive fastest=+1s0ms]]
+  Historical Records by Provider:
+    com.tencent.mobileqq: gps: Interval 1 seconds: Duration requested 0 out of the last 450 minutes
+    com.amap.android.location: passive: Interval 1 seconds: Duration requested 451 out of the last 451 minutes: Currently active
+    android: passive: Interval 0 seconds: Duration requested 451 out of the last 451 minutes: Currently active
+  Last Known Locations:
+  Last Known Locations Coarse Intervals:
+  Geofences:
+  Enabled Providers:
+    fused
+    passive
+  mWhitelist=[] mBlacklist=[]
+  fudger: offset: -212, 500 (meters)
+passive Internal State:
+mReportLocation=true
+gps Internal State:
+  mFixInterval=1000
+  mDisableGps (battery saver mode)=false
+  mEngineCapabilities=0x0 ()
+nullnetwork Internal State (com.amap.android.location):
+REMOTE SERVICE name=network pkg=com.amap.android.location version=2147483647
+fused Internal State (com.android.location.fused):
+REMOTE SERVICE name=fused pkg=com.android.location.fused version=0
+mEnabled=false null
+fused=null
+gps Location[ 0.000000,0.000000 acc=340282346638529000000000000000000000000 t=?!? et=?!?]
+    UNAVAILABLE ---
+net Location[ 0.000000,0.000000 acc=340282346638529000000000000000000000000 t=?!? et=?!?]
+    UNAVAILABLE ---

@@ -1,0 +1,72 @@
+  Display: mDisplayId=0
+    init=1080x1920 480dpi cur=1080x1920 app=1080x1920 rng=1080x1008-1920x1848
+    deferred=false layoutNeeded=false
+  mStacks[1]0
+    mStackId=0
+    mDeferDetach=false
+    {taskId=1 appTokens=[AppWindowToken{b5e043d token=Token{d16b1e7 ActivityRecord{da9e3a6 u0 com.yulong.android.launcher3/.Launcher t1}}}] mdr=false}
+  mStacks[0]2
+    mStackId=2
+    mDeferDetach=false
+    {taskId=5 appTokens=[AppWindowToken{b35fae0 token=Token{1ef40e3 ActivityRecord{e77a112 u0 com.tencent.mobileqq/.activity.SplashActivity t5}}}] mdr=false}
+    {taskId=6 appTokens=[AppWindowToken{3ff45d1 token=Token{74e0cf8 ActivityRecord{3626c5b u0 com.qihoo360.mobilesafe/.loader.a.ActivityN1T1 t6}}}] mdr=false}
+    {taskId=58 appTokens=[AppWindowToken{af3b3d token=Token{31db1e8 ActivityRecord{a26cf0b u0 com.android.settings/.Settings t58}}}] mdr=false}
+    {taskId=63 appTokens=[AppWindowToken{d490fd8 token=Token{bcee8c0 ActivityRecord{781ba43 u0 com.android.settings/com.qiku.android.settings.activities.YLUsbSettings t63}}}] mdr=false}
+
+  Application tokens in top down Z order:
+  mStackId=0
+    mTaskId=1
+    Activity #0 AppWindowToken{b5e043d token=Token{d16b1e7 ActivityRecord{da9e3a6 u0 com.yulong.android.launcher3/.Launcher t1}}}:
+      windows=[Window{7760c43 u0 com.yulong.android.launcher3/com.yulong.android.launcher3.Launcher}]
+      windowType=2 hidden=false hasVisible=true
+      app=true voiceInteraction=false
+      allAppWindows=[Window{7760c43 u0 com.yulong.android.launcher3/com.yulong.android.launcher3.Launcher}]
+      task={taskId=1 appTokens=[AppWindowToken{b5e043d token=Token{d16b1e7 ActivityRecord{da9e3a6 u0 com.yulong.android.launcher3/.Launcher t1}}}] mdr=false}
+       appFullscreen=true requestedOrientation=1
+      hiddenRequested=false clientHidden=false willBeHidden=false reportedDrawn=true reportedVisible=true
+      numInterestingWindows=1 numDrawnWindows=1 inPendingTransaction=false allDrawn=true (animator=true)
+      startingData=com.android.server.wm.StartingData@d8d25ba removed=false firstWindowDrawn=true mIsExiting=false
+  mStackId=2
+    mTaskId=63
+    Activity #0 AppWindowToken{d490fd8 token=Token{bcee8c0 ActivityRecord{781ba43 u0 com.android.settings/com.qiku.android.settings.activities.YLUsbSettings t63}}}:
+      windows=[Window{a413850 u0 com.android.settings/com.qiku.android.settings.activities.YLUsbSettings}]
+      windowType=2 hidden=true hasVisible=true
+      app=true voiceInteraction=false
+      allAppWindows=[Window{a413850 u0 com.android.settings/com.qiku.android.settings.activities.YLUsbSettings}]
+      task={taskId=63 appTokens=[AppWindowToken{d490fd8 token=Token{bcee8c0 ActivityRecord{781ba43 u0 com.android.settings/com.qiku.android.settings.activities.YLUsbSettings t63}}}] mdr=false}
+       appFullscreen=true requestedOrientation=1
+      hiddenRequested=true clientHidden=true willBeHidden=false reportedDrawn=false reportedVisible=false
+      numInterestingWindows=1 numDrawnWindows=0 inPendingTransaction=false allDrawn=true (animator=true)
+      startingData=null removed=false firstWindowDrawn=true mIsExiting=false
+    mTaskId=58
+    Activity #0 AppWindowToken{af3b3d token=Token{31db1e8 ActivityRecord{a26cf0b u0 com.android.settings/.Settings t58}}}:
+      windows=[Window{5f332e1 u0 com.android.settings/com.android.settings.Settings}]
+      windowType=2 hidden=true hasVisible=true
+      app=true voiceInteraction=false
+      allAppWindows=[Window{5f332e1 u0 com.android.settings/com.android.settings.Settings}]
+      task={taskId=58 appTokens=[AppWindowToken{af3b3d token=Token{31db1e8 ActivityRecord{a26cf0b u0 com.android.settings/.Settings t58}}}] mdr=false}
+       appFullscreen=true requestedOrientation=1
+      hiddenRequested=true clientHidden=true willBeHidden=false reportedDrawn=false reportedVisible=false
+      numInterestingWindows=1 numDrawnWindows=1 inPendingTransaction=false allDrawn=true (animator=true)
+      startingData=null removed=false firstWindowDrawn=true mIsExiting=false
+    mTaskId=6
+    Activity #0 AppWindowToken{3ff45d1 token=Token{74e0cf8 ActivityRecord{3626c5b u0 com.qihoo360.mobilesafe/.loader.a.ActivityN1T1 t6}}}:
+      windows=[]
+      windowType=2 hidden=true hasVisible=true
+      app=true voiceInteraction=false
+      task={taskId=6 appTokens=[AppWindowToken{3ff45d1 token=Token{74e0cf8 ActivityRecord{3626c5b u0 com.qihoo360.mobilesafe/.loader.a.ActivityN1T1 t6}}}] mdr=false}
+       appFullscreen=false requestedOrientation=1
+      hiddenRequested=true clientHidden=true willBeHidden=false reportedDrawn=false reportedVisible=false
+      numInterestingWindows=2 numDrawnWindows=2 inPendingTransaction=false allDrawn=true (animator=true)
+    mTaskId=5
+    Activity #0 AppWindowToken{b35fae0 token=Token{1ef40e3 ActivityRecord{e77a112 u0 com.tencent.mobileqq/.activity.SplashActivity t5}}}:
+      windows=[]
+      windowType=2 hidden=true hasVisible=true
+      app=true voiceInteraction=false
+      task={taskId=5 appTokens=[AppWindowToken{b35fae0 token=Token{1ef40e3 ActivityRecord{e77a112 u0 com.tencent.mobileqq/.activity.SplashActivity t5}}}] mdr=false}
+       appFullscreen=true requestedOrientation=1
+      hiddenRequested=true clientHidden=true willBeHidden=false reportedDrawn=false reportedVisible=false
+      numInterestingWindows=2 numDrawnWindows=2 inPendingTransaction=false allDrawn=true (animator=true)
+
+
+

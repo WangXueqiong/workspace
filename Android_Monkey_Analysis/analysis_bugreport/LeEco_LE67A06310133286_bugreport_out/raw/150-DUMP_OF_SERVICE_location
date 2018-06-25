@@ -1,0 +1,55 @@
+Current Location Manager state:
+  Location Listeners:
+    Reciever[b43072f listener UpdateRecord[passive com.letv.android.powercontroller(10022) Request[POWER_NONE passive fastest=0]]]
+    Reciever[91ec1cc listener UpdateRecord[network android(1000) Request[POWER_LOW network requested=+24h0m0s0ms fastest=+24h0m0s0ms]]]
+    Reciever[2ffd2da listener UpdateRecord[passive android(1000) Request[POWER_NONE passive fastest=0]]]
+    Reciever[b5be520 listener UpdateRecord[passive com.tencent.android.location(10102) Request[POWER_NONE passive fastest=+2s0ms]]]
+    Reciever[1331ec8 listener UpdateRecord[passive android(1000) Request[POWER_NONE passive fastest=0]]]
+  Active Records by Provider:
+    network:
+      UpdateRecord[network android(1000) Request[POWER_LOW network requested=+24h0m0s0ms fastest=+24h0m0s0ms]]
+    gps:
+    passive:
+      UpdateRecord[passive android(1000) Request[POWER_NONE passive fastest=0]]
+      UpdateRecord[passive android(1000) Request[POWER_NONE passive fastest=0]]
+      UpdateRecord[passive com.tencent.android.location(10102) Request[POWER_NONE passive fastest=+2s0ms]]
+      UpdateRecord[passive com.letv.android.powercontroller(10022) Request[POWER_NONE passive fastest=0]]
+  Historical Records by Provider:
+    com.tianyancha.skyeye: gps: Interval 1 seconds: Duration requested 0 out of the last 3 minutes
+    com.tianyancha.skyeye: passive: Interval 9 seconds: Duration requested 0 out of the last 3 minutes
+    com.mediatek.nlpservice: network: Interval 1 seconds: Duration requested 0 out of the last 32 minutes
+    com.letv.android.powercontroller: passive: Interval 0 seconds: Duration requested 47 out of the last 47 minutes: Currently active
+    com.tencent.android.location: passive: Interval 2 seconds: Duration requested 47 out of the last 47 minutes: Currently active
+    android: network: Interval 86400 seconds: Duration requested 47 out of the last 47 minutes: Currently active
+    android: passive: Interval 0 seconds: Duration requested 47 out of the last 47 minutes: Currently active
+  Last Known Locations:
+    network: Location[network 39.975953,116.323152 acc=150 et=+15m56s433ms]
+    passive: Location[network 39.975953,116.323152 acc=150 et=+15m56s433ms]
+  Last Known Locations Coarse Intervals:
+    network: Location[network 39.975953,116.323152 acc=150 et=+15m56s433ms]
+    passive: Location[network 39.975953,116.323152 acc=150 et=+15m56s433ms]
+  Geofences:
+ Geocoder:
+ providerName = com.tencent.android.location
+    mServiceWatcher:   mName:geocoder  mServicePackageName:null  mPackageName:com.tencent.android.location  mVersion:10
+  Enabled Providers:
+    fused
+    passive
+  mWhitelist=[] mBlacklist=[]
+  fudger: offset: -60, 567 (meters)
+passive Internal State:
+mReportLocation=true
+gps Internal State:
+  mFixInterval=1000
+  mDisableGps (battery saver mode)=false
+  mEngineCapabilities=0x1 (SCHED )
+nullnetwork Internal State (com.tencent.android.location):
+REMOTE SERVICE name=network pkg=com.tencent.android.location version=10
+fused Internal State (com.android.location.fused):
+REMOTE SERVICE name=fused pkg=com.android.location.fused version=0
+mEnabled=false null
+fused=null
+gps Location[ 0.000000,0.000000 acc=340282346638529000000000000000000000000 t=?!? et=?!?]
+    AVAILABLE ---
+net Location[ 0.000000,0.000000 acc=340282346638529000000000000000000000000 t=?!? et=?!?]
+    AVAILABLE ---

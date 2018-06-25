@@ -1,0 +1,33 @@
+CallsManager: 
+  mCalls: 
+  mForegroundCall: none
+  mCallAudioManager:
+    mAudioState: [AudioState isMuted: false, route: EARPIECE, supportedRouteMask: EARPIECE, SPEAKER]
+    mBluetoothManager:
+      isBluetoothAvailable: false
+      isBluetoothAudioConnected: false
+      isBluetoothAudioConnectedOrPending: false
+      mBluetoothHeadset is null
+    mWiredHeadsetManager:
+      mIsPluggedIn: false
+    mAudioFocusStreamType: STEAM_NONE
+    mIsRinging: false
+    mIsTonePlaying: false
+    mWasSpeakerOn: false
+    mMostRecentlyUsedMode: MODE_IN_CALL
+  mTtyManager:
+    mCurrentTtyMode: 0
+  mInCallController:
+    mInCallServices (InCalls registered):
+      ComponentInfo{com.android.dialer/com.android.incallui.InCallServiceImpl}
+    mServiceConnections (InCalls bound):
+      ComponentInfo{com.android.dialer/com.android.incallui.InCallServiceImpl}
+  mConnectionServiceRepository:
+    mServiceCache:
+PhoneAccountRegistrar: 
+  xmlVersion: 8
+  defaultOutgoing: ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, [c1dfd96eea8cc2b62785275bca38ac261256e278], UserHandle{0}
+  simCallManager: null
+  phoneAccounts:
+    [[X] PhoneAccount: ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, [c1dfd96eea8cc2b62785275bca38ac261256e278], UserHandle{0} Capabilities: 54 Schemes: tel voicemail ]
+Historical Calls:
